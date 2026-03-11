@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulate — Build Your Longevity Stack</title>
+  <meta name="description" content="Formulate scores and ranks supplements so you know exactly what to take, what to skip, and why. Build your optimal longevity stack." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #08080f;
+      --surface:   #0f0f1a;
+      --surface2:  #16162a;
+      --border:    rgba(255,255,255,0.07);
+      --accent:    #00e5a0;
+      --accent2:   #7c6dfa;
+      --text:      #f0f0f8;
+      --muted:     #7a7a9a;
+      --danger:    #ff4f6a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(8,8,15,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 20px; font-weight: 800; letter-spacing: -0.5px;
+      color: var(--text);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 22px; border-radius: 10px; font-size: 14px; font-weight: 600;
+      cursor: pointer; text-decoration: none; transition: all 0.2s; border: none;
+    }
+    .btn-primary {
+      background: var(--accent); color: #08080f;
+    }
+    .btn-primary:hover { background: #00ffb3; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,229,160,0.3); }
+    .btn-outline {
+      background: transparent; color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-large { padding: 14px 32px; font-size: 16px; border-radius: 12px; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 120px 24px 80px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; top: -200px; left: 50%; transform: translateX(-50%);
+      width: 800px; height: 800px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(0,229,160,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: -100px; right: -200px;
+      width: 600px; height: 600px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(124,109,250,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 14px; border-radius: 100px;
+      background: rgba(0,229,160,0.1); border: 1px solid rgba(0,229,160,0.2);
+      color: var(--accent); font-size: 13px; font-weight: 600; margin-bottom: 28px;
+    }
+    .badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 80px);
+      font-weight: 900; line-height: 1.05;
+      letter-spacing: -2px; max-width: 900px;
+      margin-bottom: 24px;
+    }
+    h1 em { font-style: normal; color: var(--accent); }
+    .hero-sub {
+      font-size: clamp(16px, 2vw, 20px); color: var(--muted);
+      max-width: 580px; line-height: 1.6; margin-bottom: 48px;
+    }
+    .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-bottom: 72px; }
+
+    .hero-stats {
+      display: flex; gap: 48px; flex-wrap: wrap; justify-content: center;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-size: 28px; font-weight: 800; color: var(--text); }
+    .stat-num span { color: var(--accent); }
+    .stat-label { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+    /* ── MOCKUP ── */
+    .mockup-section {
+      padding: 0 24px 100px;
+      display: flex; justify-content: center;
+    }
+    .mockup-frame {
+      width: 100%; max-width: 900px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04);
+    }
+    .mockup-bar {
+      padding: 14px 20px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-red { background: #ff5f57; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #28ca42; }
+    .mockup-body {
+      padding: 32px;
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;
+    }
+    .mock-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .mock-score {
+      font-size: 36px; font-weight: 900; margin-bottom: 4px;
+    }
+    .mock-score.high { color: var(--accent); }
+    .mock-score.mid { color: #ffa94d; }
+    .mock-score.low { color: var(--danger); }
+    .mock-name { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+    .mock-brand { font-size: 11px; color: var(--muted); }
+    .mock-bar-wrap { margin-top: 14px; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; }
+    .mock-bar-fill { height: 100%; border-radius: 2px; }
+    .fill-high { width: 88%; background: var(--accent); }
+    .fill-mid { width: 61%; background: #ffa94d; }
+    .fill-low { width: 32%; background: var(--danger); }
+
+    /* ── FEATURES ── */
+    .section { padding: 100px 24px; max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(28px, 4vw, 44px); font-weight: 800;
+      letter-spacing: -1px; max-width: 600px; margin-bottom: 16px;
+    }
+    .section-sub { color: var(--muted); font-size: 17px; max-width: 480px; line-height: 1.6; margin-bottom: 60px; }
+
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .feature-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { border-color: rgba(0,229,160,0.3); transform: translateY(-2px); }
+    .feature-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(0,229,160,0.1); border: 1px solid rgba(0,229,160,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; margin-bottom: 16px;
+    }
+    .feature-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .feature-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    /* ── HOW IT WORKS ── */
+    .how-section {
+      padding: 100px 24px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .how-inner { max-width: 1100px; margin: 0 auto; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px; margin-top: 60px; }
+    .step { position: relative; }
+    .step-num {
+      font-size: 56px; font-weight: 900;
+      color: rgba(0,229,160,0.1); line-height: 1;
+      margin-bottom: 12px;
+    }
+    .step-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .step-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    /* ── WAITLIST ── */
+    .waitlist-section {
+      padding: 100px 24px;
+      max-width: 640px; margin: 0 auto; text-align: center;
+    }
+    .waitlist-section h2 {
+      font-size: clamp(28px, 4vw, 44px); font-weight: 800;
+      letter-spacing: -1px; margin-bottom: 16px;
+    }
+    .waitlist-section p { color: var(--muted); font-size: 17px; line-height: 1.6; margin-bottom: 40px; }
+    .waitlist-form {
+      display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    }
+    .waitlist-form input {
+      flex: 1; min-width: 240px;
+      padding: 14px 20px; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); font-size: 15px; font-family: inherit;
+      outline: none; transition: border-color 0.2s;
+    }
+    .waitlist-form input:focus { border-color: var(--accent); }
+    .waitlist-form input::placeholder { color: var(--muted); }
+    #waitlist-success {
+      display: none; margin-top: 20px;
+      padding: 14px 20px; border-radius: 12px;
+      background: rgba(0,229,160,0.1); border: 1px solid rgba(0,229,160,0.3);
+      color: var(--accent); font-size: 15px; font-weight: 600;
+    }
+
+    /* ── DOWNLOAD ── */
+    .download-section {
+      padding: 80px 24px 100px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+    .download-section h2 {
+      font-size: clamp(28px, 4vw, 44px); font-weight: 800;
+      letter-spacing: -1px; margin-bottom: 16px;
+    }
+    .download-section p { color: var(--muted); font-size: 17px; margin-bottom: 40px; }
+    .download-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-download {
+      display: inline-flex; align-items: center; gap: 12px;
+      padding: 16px 32px; border-radius: 14px;
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--text); text-decoration: none; font-size: 15px; font-weight: 600;
+      transition: all 0.2s; cursor: pointer;
+    }
+    .btn-download:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+    .btn-download svg { width: 22px; height: 22px; }
+    .download-note { margin-top: 16px; font-size: 13px; color: var(--muted); }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 40px 48px;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-logo { font-size: 16px; font-weight: 800; }
+    .footer-logo span { color: var(--accent); }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text); }
+    .footer-copy { font-size: 12px; color: var(--muted); }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .nav-links { display: none; }
+      .hero-stats { gap: 24px; }
+      .mockup-body { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Formulate<span>.</span></div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#how">How it works</a>
+    <a href="#download">Download</a>
+    <a href="#waitlist">Waitlist</a>
+  </div>
+  <a href="#download" class="btn btn-primary">Download App</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="badge"><span class="badge-dot"></span> Now in early access</div>
+  <h1>Your supplement stack,<br /><em>finally optimized.</em></h1>
+  <p class="hero-sub">
+    Formulate scores every supplement against clinical research, flags unsafe doses, and builds your perfect longevity stack — so you stop guessing and start thriving.
+  </p>
+  <div class="hero-cta">
+    <a href="#download" class="btn btn-primary btn-large">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Free
+    </a>
+    <a href="#waitlist" class="btn btn-outline btn-large">Join Waitlist</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">500<span>+</span></div><div class="stat-label">Products scored</div></div>
+    <div class="stat"><div class="stat-num">12<span>+</span></div><div class="stat-label">Top brands</div></div>
+    <div class="stat"><div class="stat-num">100<span>%</span></div><div class="stat-label">Evidence-based</div></div>
+    <div class="stat"><div class="stat-num">Free<span>.</span></div><div class="stat-label">Always</div></div>
+  </div>
+</section>
+
+<!-- MOCKUP -->
+<div class="mockup-section">
+  <div class="mockup-frame">
+    <div class="mockup-bar">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+    </div>
+    <div class="mockup-body">
+      <div class="mock-card">
+        <div class="mock-score high">88</div>
+        <div class="mock-name">Magnesium Glycinate</div>
+        <div class="mock-brand">Thorne</div>
+        <div class="mock-bar-wrap"><div class="mock-bar-fill fill-high"></div></div>
+      </div>
+      <div class="mock-card">
+        <div class="mock-score mid">61</div>
+        <div class="mock-name">Omega-3 Fish Oil</div>
+        <div class="mock-brand">Nootropics Depot</div>
+        <div class="mock-bar-wrap"><div class="mock-bar-fill fill-mid"></div></div>
+      </div>
+      <div class="mock-card">
+        <div class="mock-score low">32</div>
+        <div class="mock-name">Vitamin C Complex</div>
+        <div class="mock-brand">Generic Brand</div>
+        <div class="mock-bar-wrap"><div class="mock-bar-fill fill-low"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<div id="features">
+  <div class="section">
+    <div class="section-label">Why Formulate</div>
+    <h2 class="section-title">Not all supplements are created equal.</h2>
+    <p class="section-sub">We do the research so you don't have to. Every score is built on clinical evidence, third-party testing, and dose safety.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔬</div>
+        <div class="feature-title">Evidence-based scoring</div>
+        <div class="feature-desc">Every product gets a score from 0–100 based on ingredient quality, dose accuracy, bioavailability, and clinical backing.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚠️</div>
+        <div class="feature-title">Dose safety checks</div>
+        <div class="feature-desc">We flag products with underdosed ingredients, dangerous upper limits, or misleading label claims before they reach your stack.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧬</div>
+        <div class="feature-title">Your personal stack</div>
+        <div class="feature-desc">Track what you take, see your stack score, and get recommendations tailored to your longevity goals.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📦</div>
+        <div class="feature-title">500+ products catalogued</div>
+        <div class="feature-desc">Thorne, Nootropics Depot, Complement, Seed, and more — all scored, compared, and ranked in one place.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">Brand trust ratings</div>
+        <div class="feature-desc">Know which brands consistently deliver on their promises — and which ones don't. Brand scores are derived from product data, not ads.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🖥️</div>
+        <div class="feature-title">Desktop app, no subscription</div>
+        <div class="feature-desc">Formulate runs locally on your machine. No cloud lock-in, no monthly fee. Your health data stays yours.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div id="how" class="how-section">
+  <div class="how-inner">
+    <div class="section-label">How it works</div>
+    <h2 class="section-title">From confusion to clarity in minutes.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-title">Download & install</div>
+        <div class="step-desc">Formulate runs on Windows. Download, install, and launch — no account required to get started.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-title">Browse the catalog</div>
+        <div class="step-desc">Search 500+ products across 12+ brands. Filter by category, score, or ingredient. See exactly why each product scored the way it did.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-title">Build your stack</div>
+        <div class="step-desc">Add products to your personal stack. Track your overall stack score and get AI-powered recommendations to improve it.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-title">Optimize & buy smart</div>
+        <div class="step-desc">See the best-value options for each category. One click takes you directly to the product — no more searching around.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WAITLIST -->
+<section id="waitlist" class="waitlist-section">
+  <div class="section-label" style="text-align:center">Early access</div>
+  <h2>Be first when web drops.</h2>
+  <p>The web version of Formulate is coming. Get early access, updates, and a founding member badge when you join the waitlist.</p>
+  <form class="waitlist-form" id="waitlistForm">
+    <input type="email" placeholder="your@email.com" required id="waitlistEmail" />
+    <button type="submit" class="btn btn-primary btn-large">Join Waitlist</button>
+  </form>
+  <div id="waitlist-success">🎉 You're on the list! We'll be in touch.</div>
+</section>
+
+<!-- DOWNLOAD -->
+<section id="download" class="download-section">
+  <div class="section-label">Download</div>
+  <h2>Start optimizing your stack.</h2>
+  <p>Free to download. Free to use. No subscription, no account required.</p>
+  <div class="download-buttons">
+    <a href="#" class="btn-download">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+      Windows
+      <span style="font-size:12px;color:var(--muted);font-weight:400">(.exe)</span>
+    </a>
+    <a href="#waitlist" class="btn-download" style="opacity:0.5;cursor:default">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      Web App
+      <span style="font-size:12px;color:var(--muted);font-weight:400">Coming soon</span>
+    </a>
+  </div>
+  <p class="download-note">Windows 10/11 · Free · v1.0</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Formulate<span>.</span></div>
+  <div class="footer-links">
+    <a href="mailto:hello@formulate-health.app">Contact</a>
+    <a href="#features">Features</a>
+    <a href="#download">Download</a>
+    <a href="#waitlist">Waitlist</a>
+  </div>
+  <div class="footer-copy">© 2025 Formulate. All rights reserved.</div>
+</footer>
+
+<script>
+  // Waitlist form
+  document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('waitlistEmail').value;
+    // TODO: connect to your backend / Formspree / ConvertKit
+    document.getElementById('waitlistForm').style.display = 'none';
+    document.getElementById('waitlist-success').style.display = 'block';
+    console.log('Waitlist signup:', email);
+  });
+
+  // Smooth fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.feature-card, .step, .mock-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
