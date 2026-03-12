@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How We Score Supplements — Formulate</title>
+  <meta name="description" content="Formulate's evidence-based scoring methodology. Learn how we rate supplements from 0-100 using clinical research, dose safety, bioavailability, and more." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://formulate-health.app/methodology" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #08080f;
+      --surface:   #0f0f1a;
+      --surface2:  #16162a;
+      --border:    rgba(255,255,255,0.07);
+      --accent:    #00e5a0;
+      --accent2:   #7c6dfa;
+      --text:      #f0f0f8;
+      --muted:     #7a7a9a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(8,8,15,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 20px; font-weight: 800; letter-spacing: -0.5px;
+      color: var(--text); text-decoration: none;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    .content {
+      max-width: 780px; margin: 0 auto;
+      padding: 120px 24px 80px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 42px); font-weight: 800; letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+    h1 em { font-style: normal; color: var(--accent); }
+
+    .subtitle {
+      font-size: 17px; color: var(--muted); line-height: 1.7; margin-bottom: 48px;
+      max-width: 600px;
+    }
+
+    h2 {
+      font-size: 24px; font-weight: 700; margin-top: 64px; margin-bottom: 16px;
+      color: var(--text); letter-spacing: -0.5px;
+    }
+
+    h3 {
+      font-size: 17px; font-weight: 600; margin-top: 32px; margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    p, li {
+      font-size: 15px; color: var(--muted); line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    ul, ol { padding-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 8px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { color: var(--text); font-weight: 600; }
+
+    .pillar-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px; margin: 24px 0 32px;
+    }
+    .pillar-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px;
+    }
+    .pillar-weight {
+      font-size: 28px; font-weight: 900; color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .pillar-name {
+      font-size: 14px; font-weight: 700; color: var(--text);
+      margin-bottom: 6px;
+    }
+    .pillar-desc {
+      font-size: 13px; color: var(--muted); line-height: 1.6;
+    }
+
+    .grade-table {
+      width: 100%; border-collapse: collapse; margin: 20px 0 32px;
+    }
+    .grade-table th, .grade-table td {
+      text-align: left; padding: 12px 16px; font-size: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .grade-table th {
+      color: var(--muted); font-weight: 600; font-size: 12px;
+      text-transform: uppercase; letter-spacing: 1px;
+    }
+    .grade-table td { color: var(--text); }
+    .grade-table td:first-child { font-weight: 700; }
+    .grade-a { color: var(--accent) !important; }
+    .grade-b { color: #4ecdc4 !important; }
+    .grade-c { color: #ffa94d !important; }
+    .grade-d { color: #ff6b6b !important; }
+    .grade-f { color: #ff4f6a !important; }
+
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px; padding: 20px;
+      margin: 24px 0;
+    }
+    .callout p { margin-bottom: 0; }
+
+    .toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px; padding: 24px;
+      margin-bottom: 48px;
+    }
+    .toc-title {
+      font-size: 13px; font-weight: 700; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
+    }
+    .toc a {
+      display: block; color: var(--muted); font-size: 14px;
+      padding: 4px 0; transition: color 0.2s;
+    }
+    .toc a:hover { color: var(--accent); text-decoration: none; }
+
+    .divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 64px 0;
+    }
+
+    footer {
+      padding: 40px 48px;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-logo { font-size: 16px; font-weight: 800; }
+    .footer-logo span { color: var(--accent); }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text); }
+    .footer-copy { font-size: 12px; color: var(--muted); }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .nav-links { display: none; }
+      .pillar-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Formulate<span>.</span></a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/methodology">Methodology</a>
+    <a href="/disclosure">Disclosure</a>
+  </div>
+</nav>
+
+<div class="content">
+  <h1>How We Score <em>Supplements</em></h1>
+  <p class="subtitle">
+    Every product in Formulate gets a score from 0 to 100. No opinions, no sponsorships, no guesswork — just clinical evidence, dose science, and transparent methodology. Here's exactly how it works.
+  </p>
+
+  <div class="toc">
+    <div class="toc-title">On this page</div>
+    <a href="#pillars">The 6 scoring pillars</a>
+    <a href="#evidence">Evidence quality</a>
+    <a href="#dose">Dose adequacy</a>
+    <a href="#forms">Bioavailability &amp; forms</a>
+    <a href="#manufacturing">Manufacturing quality</a>
+    <a href="#transparency">Transparency</a>
+    <a href="#safety">Safety</a>
+    <a href="#grades">Grade scale</a>
+    <a href="#brands">Brand trust scores</a>
+    <a href="#principles">Our principles</a>
+  </div>
+
+  <!-- PILLARS -->
+  <h2 id="pillars">The 6 Scoring Pillars</h2>
+  <p>Every supplement score is a weighted average of six dimensions. Each dimension evaluates a different aspect of product quality.</p>
+
+  <div class="pillar-grid">
+    <div class="pillar-card">
+      <div class="pillar-weight">25%</div>
+      <div class="pillar-name">Evidence Quality</div>
+      <div class="pillar-desc">Strength of clinical research supporting each ingredient's claimed benefits</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">20%</div>
+      <div class="pillar-name">Dose Adequacy</div>
+      <div class="pillar-desc">Whether doses match clinically proven effective ranges</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">20%</div>
+      <div class="pillar-name">Manufacturing</div>
+      <div class="pillar-desc">GMP certification, third-party testing, quality certifications</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">15%</div>
+      <div class="pillar-name">Bioavailability</div>
+      <div class="pillar-desc">Quality of ingredient forms and absorption potential</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">10%</div>
+      <div class="pillar-name">Transparency</div>
+      <div class="pillar-desc">Full label disclosure, no proprietary blends or hidden amounts</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">10%</div>
+      <div class="pillar-name">Safety</div>
+      <div class="pillar-desc">Drug interactions, contraindications, upper limit compliance</div>
+    </div>
+  </div>
+
+  <!-- EVIDENCE -->
+  <h2 id="evidence">Evidence Quality (25%)</h2>
+  <p>This is the most heavily weighted pillar because no supplement matters if the science doesn't support it. We grade each ingredient's evidence on a four-tier scale:</p>
+
+  <table class="grade-table">
+    <thead>
+      <tr><th>Grade</th><th>Requirements</th><th>Examples</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="grade-a">A</td>
+        <td>3+ meta-analyses or systematic reviews with consistent results</td>
+        <td>Vitamin D, Creatine, Omega-3</td>
+      </tr>
+      <tr>
+        <td class="grade-b">B</td>
+        <td>1+ well-designed RCTs with supportive observational data</td>
+        <td>Ashwagandha, Magnesium, Lion's Mane</td>
+      </tr>
+      <tr>
+        <td class="grade-c">C</td>
+        <td>Preliminary RCTs or observational studies with mixed results</td>
+        <td>Emerging nootropics, newer botanicals</td>
+      </tr>
+      <tr>
+        <td class="grade-d">D</td>
+        <td>Animal/in-vitro only or insufficient human data</td>
+        <td>Novel compounds, traditional remedies</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>A product's evidence score is the weighted average of all its ingredients' evidence grades. Products with mostly Grade A ingredients score highest.</p>
+
+  <!-- DOSE -->
+  <h2 id="dose">Dose Adequacy (20%)</h2>
+  <p>A supplement can have the best ingredients in the world, but if they're underdosed, you're wasting money. We compare each ingredient's dose against evidence-backed reference ranges:</p>
+
+  <ul>
+    <li><strong>Therapeutic (100)</strong> — Within the clinically proven effective range</li>
+    <li><strong>Optimal (90)</strong> — Within the optimal longevity range</li>
+    <li><strong>RDA Met (80)</strong> — Meets the baseline daily requirement</li>
+    <li><strong>Below RDA (70)</strong> — Below the official minimum recommendation</li>
+    <li><strong>Severely Below (60)</strong> — Significantly underdosed</li>
+    <li><strong>Over Limit (70)</strong> — Exceeds established upper safety limits</li>
+    <li><strong>Undisclosed (50)</strong> — Hidden behind a proprietary blend</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Proprietary blend penalty:</strong> If more than 50% of a product's ingredient doses are undisclosed (hidden in a proprietary blend), the entire product score is capped at 50 regardless of other factors.</p>
+  </div>
+
+  <!-- FORMS -->
+  <h2 id="forms">Bioavailability &amp; Forms (15%)</h2>
+  <p>Not all forms of an ingredient are equal. Magnesium oxide absorbs at roughly 4%, while magnesium glycinate absorbs at over 80%. We score each ingredient form based on absorption research:</p>
+
+  <table class="grade-table">
+    <thead>
+      <tr><th>Score Range</th><th>Quality</th><th>Example (Magnesium)</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="grade-a">95-100</td>
+        <td>Best form — excellent absorption, bioactive</td>
+        <td>Glycinate, L-Threonate</td>
+      </tr>
+      <tr>
+        <td class="grade-b">85-94</td>
+        <td>Very good — reliable absorption</td>
+        <td>Taurate, Malate, Citrate</td>
+      </tr>
+      <tr>
+        <td class="grade-c">70-84</td>
+        <td>Adequate — moderate absorption</td>
+        <td>Carbonate</td>
+      </tr>
+      <tr>
+        <td class="grade-d">Below 70</td>
+        <td>Poor — limited absorption, avoid</td>
+        <td>Oxide (40)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>We maintain a comprehensive database of ingredient form scores covering hundreds of variants across vitamins, minerals, amino acids, and botanical extracts.</p>
+
+  <!-- MANUFACTURING -->
+  <h2 id="manufacturing">Manufacturing Quality (20%)</h2>
+  <p>Manufacturing quality reflects whether a company actually delivers what's on the label:</p>
+
+  <ul>
+    <li><strong>GMP Certified (+40)</strong> — Manufactured in a Good Manufacturing Practices facility</li>
+    <li><strong>Third-Party Tested (+30)</strong> — Independently verified by NSF, USP, or ConsumerLab</li>
+    <li><strong>Independently Verified (+20)</strong> — Additional quality certifications</li>
+    <li><strong>Clean Label (+10)</strong> — Free from unnecessary artificial additives</li>
+  </ul>
+
+  <!-- TRANSPARENCY -->
+  <h2 id="transparency">Transparency (10%)</h2>
+  <p>We reward brands that tell you exactly what's in the bottle:</p>
+
+  <ul>
+    <li><strong>Individual amounts disclosed (+40)</strong> — Every ingredient dose listed separately</li>
+    <li><strong>No proprietary blends (+30)</strong> — Nothing hidden behind a total blend weight</li>
+    <li><strong>Specific forms stated (+20)</strong> — e.g., "Magnesium Glycinate" not just "Magnesium"</li>
+    <li><strong>Third-party verification (+10)</strong> — Independent testing confirms label accuracy</li>
+  </ul>
+
+  <p>Proprietary blends — where a company lists ingredients but hides individual amounts — receive a <strong>-30 point penalty</strong>.</p>
+
+  <!-- SAFETY -->
+  <h2 id="safety">Safety (10%)</h2>
+  <p>Safety scoring accounts for known risks:</p>
+
+  <ul>
+    <li><strong>Drug interactions</strong> — Products containing high-interaction ingredients (St. John's Wort, Ginkgo biloba, high-dose Vitamin K) are penalized</li>
+    <li><strong>Upper limit violations</strong> — Doses exceeding established safety limits are flagged</li>
+    <li><strong>Missing warnings</strong> — Products that should carry interaction or contraindication warnings but don't</li>
+  </ul>
+
+  <hr class="divider" />
+
+  <!-- GRADES -->
+  <h2 id="grades">The Grade Scale</h2>
+  <p>Final scores map to letter grades for quick reference:</p>
+
+  <table class="grade-table">
+    <thead>
+      <tr><th>Grade</th><th>Score</th><th>What It Means</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="grade-a">A</td><td>90-100</td><td>Excellent — clinical-grade formulation, well-dosed, strong evidence</td></tr>
+      <tr><td class="grade-b">B</td><td>80-89</td><td>Good — well-formulated with minor gaps</td></tr>
+      <tr><td class="grade-c">C</td><td>70-79</td><td>Fair — adequate but room for improvement</td></tr>
+      <tr><td class="grade-d">D</td><td>60-69</td><td>Poor — significant issues identified</td></tr>
+      <tr><td class="grade-f">F</td><td>50-59</td><td>Fail — major problems, missing data, or proprietary blend abuse</td></tr>
+    </tbody>
+  </table>
+
+  <hr class="divider" />
+
+  <!-- BRANDS -->
+  <h2 id="brands">Brand Trust Scores</h2>
+  <p>In addition to product scores, Formulate rates the brands behind the products. Brand trust scores are derived entirely from data — never from sponsorships or paid placements.</p>
+
+  <div class="pillar-grid">
+    <div class="pillar-card">
+      <div class="pillar-weight">40%</div>
+      <div class="pillar-name">Integrity</div>
+      <div class="pillar-desc">Manufacturing standards, recall history, regulatory actions</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">25%</div>
+      <div class="pillar-name">Product Quality</div>
+      <div class="pillar-desc">Aggregate scores across the brand's entire product line</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">20%</div>
+      <div class="pillar-name">Innovation</div>
+      <div class="pillar-desc">Clinical research partnerships, published studies, patented ingredients</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">10%</div>
+      <div class="pillar-name">Transparency</div>
+      <div class="pillar-desc">Label disclosure, sourcing visibility, allergen information</div>
+    </div>
+    <div class="pillar-card">
+      <div class="pillar-weight">5%</div>
+      <div class="pillar-name">Verification</div>
+      <div class="pillar-desc">NSF, USP, ISO, and other third-party certifications</div>
+    </div>
+  </div>
+
+  <h3>Time-Weighted Accountability</h3>
+  <p>Recalls and regulatory actions are time-weighted — recent events have more impact than older ones. A recall from last year matters more than one from seven years ago, reflecting a brand's current practices rather than ancient history.</p>
+
+  <h3>Confidence Indicators</h3>
+  <p>Every brand score includes a confidence indicator based on data completeness. Brands with limited data are marked as provisional so you know when a score is based on partial information.</p>
+
+  <hr class="divider" />
+
+  <!-- PRINCIPLES -->
+  <h2 id="principles">Our Principles</h2>
+
+  <h3>Deterministic</h3>
+  <p>The same product always gets the same score. No manual overrides, no subjective adjustments. The algorithm is the authority.</p>
+
+  <h3>Evidence-Based</h3>
+  <p>Scores are grounded in published research — meta-analyses, RCTs, and systematic reviews from PubMed, Examine.com, and other peer-reviewed sources. Marketing claims are ignored.</p>
+
+  <h3>Transparent</h3>
+  <p>Every score component is visible. You can see exactly how much each pillar contributed to the final number. No black boxes.</p>
+
+  <h3>Independent</h3>
+  <p>Formulate does not accept payments from supplement manufacturers. Brand partnerships, sponsorships, and advertising have zero influence on scores. We may earn affiliate commissions when you purchase products through our links, but this never affects how products are scored. See our <a href="/disclosure">affiliate disclosure</a> for details.</p>
+
+  <h3>Versioned</h3>
+  <p>Our scoring algorithm is versioned and tracked. When we improve the methodology, all products are rescored to maintain consistency.</p>
+
+  <div class="callout">
+    <p><strong>Data sources:</strong> PubMed/MEDLINE, USDA FoodData Central, Examine.com, ConsumerLab, FDA databases, NSF International, USP</p>
+  </div>
+
+  <hr class="divider" />
+
+  <p style="text-align:center; margin-top: 48px;">
+    <a href="/#waitlist" class="btn btn-primary btn-large" style="display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:12px;font-size:16px;font-weight:600;background:#00e5a0;color:#08080f;text-decoration:none;transition:all 0.2s;">Join the Waitlist</a>
+  </p>
+</div>
+
+<footer>
+  <div class="footer-logo">Formulate<span>.</span></div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="mailto:hello@formulate-health.app">Contact</a>
+    <a href="/methodology">Methodology</a>
+    <a href="/disclosure">Disclosure</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 Formulate. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
