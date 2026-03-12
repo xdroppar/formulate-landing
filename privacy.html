@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Formulate</title>
+  <meta name="description" content="Formulate privacy policy. Learn how we handle your data." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://formulate-health.app/privacy" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #08080f;
+      --surface:   #0f0f1a;
+      --surface2:  #16162a;
+      --border:    rgba(255,255,255,0.07);
+      --accent:    #00e5a0;
+      --accent2:   #7c6dfa;
+      --text:      #f0f0f8;
+      --muted:     #7a7a9a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(8,8,15,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 20px; font-weight: 800; letter-spacing: -0.5px;
+      color: var(--text); text-decoration: none;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .nav-logo span { color: var(--accent); }
+
+    .content {
+      max-width: 720px; margin: 0 auto;
+      padding: 120px 24px 80px;
+    }
+
+    h1 {
+      font-size: 36px; font-weight: 800; letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 13px; color: var(--muted); margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 20px; font-weight: 700; margin-top: 48px; margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    p, li {
+      font-size: 15px; color: var(--muted); line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 8px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { color: var(--text); font-weight: 600; }
+
+    footer {
+      padding: 40px 48px;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-logo { font-size: 16px; font-weight: 800; }
+    .footer-logo span { color: var(--accent); }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text); }
+    .footer-copy { font-size: 12px; color: var(--muted); }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Formulate<span>.</span></a>
+</nav>
+
+<div class="content">
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last updated: March 11, 2026</p>
+
+  <h2>Overview</h2>
+  <p>Formulate ("we", "our", "us") is a desktop application for tracking and optimizing your supplement stack. We are committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
+
+  <h2>Data We Collect</h2>
+
+  <h3 style="font-size:16px;font-weight:600;color:var(--text);margin-top:24px;margin-bottom:8px;">Desktop Application</h3>
+  <p>Formulate runs <strong>entirely on your local machine</strong>. Your health data, supplement stacks, scores, and preferences are stored in a local SQLite database on your computer. We do not have access to this data.</p>
+  <ul>
+    <li><strong>No cloud sync.</strong> Your data stays on your device.</li>
+    <li><strong>No telemetry.</strong> The app does not phone home or send usage analytics.</li>
+    <li><strong>No account required.</strong> You can use the full app without creating an account or providing any personal information.</li>
+  </ul>
+
+  <h3 style="font-size:16px;font-weight:600;color:var(--text);margin-top:24px;margin-bottom:8px;">Website &amp; Waitlist</h3>
+  <p>When you visit <strong>formulate-health.app</strong> or join the waitlist, we may collect:</p>
+  <ul>
+    <li><strong>Email address</strong> — only if you voluntarily submit it via the waitlist form. We use <a href="https://formspree.io">Formspree</a> to process submissions.</li>
+    <li><strong>Anonymous analytics</strong> — we use Vercel Web Analytics, which collects aggregate page view data without cookies or personal identifiers.</li>
+  </ul>
+
+  <h2>How We Use Your Data</h2>
+  <ul>
+    <li><strong>Waitlist emails</strong> are used solely to notify you about Formulate updates, early access, and launch announcements. We will never sell your email or share it with third parties.</li>
+    <li><strong>Analytics data</strong> helps us understand how many people visit our site and which pages are most useful. This data is anonymous and aggregated.</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>Our website uses the following third-party services:</p>
+  <ul>
+    <li><strong>Vercel</strong> — hosting and anonymous web analytics</li>
+    <li><strong>Formspree</strong> — waitlist form processing</li>
+    <li><strong>Google Fonts</strong> — web font delivery</li>
+  </ul>
+  <p>Each of these services has their own privacy policies. We do not share any personal data with other third parties.</p>
+
+  <h2>Cookies</h2>
+  <p>Our website does <strong>not use cookies</strong>. Vercel Web Analytics is cookie-free and does not track individual users.</p>
+
+  <h2>Data Retention</h2>
+  <ul>
+    <li><strong>Desktop app data</strong> is stored locally and persists until you delete it. Uninstalling the app removes all data.</li>
+    <li><strong>Waitlist emails</strong> are retained until you unsubscribe or request deletion.</li>
+  </ul>
+
+  <h2>Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access</strong> any personal data we hold about you (limited to your waitlist email, if provided)</li>
+    <li><strong>Delete</strong> your data by contacting us</li>
+    <li><strong>Unsubscribe</strong> from communications at any time</li>
+  </ul>
+
+  <h2>Children's Privacy</h2>
+  <p>Formulate is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Changes will be posted on this page with an updated date. Continued use of Formulate after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this privacy policy or want to request data deletion, contact us at <a href="mailto:hello@formulate-health.app">hello@formulate-health.app</a>.</p>
+</div>
+
+<footer>
+  <div class="footer-logo">Formulate<span>.</span></div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="mailto:hello@formulate-health.app">Contact</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 Formulate. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
