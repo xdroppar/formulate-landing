@@ -438,8 +438,8 @@
   <div class="section-label" style="text-align:center">Early access</div>
   <h2>Be first when web drops.</h2>
   <p>The web version of Formulate is coming. Get early access, updates, and a founding member badge when you join the waitlist.</p>
-  <form class="waitlist-form" id="waitlistForm">
-    <input type="email" placeholder="your@email.com" required id="waitlistEmail" />
+  <form class="waitlist-form" id="waitlistForm" action="https://formspree.io/f/xbdzowey" method="POST">
+    <input type="email" name="email" placeholder="your@email.com" required id="waitlistEmail" />
     <button type="submit" class="btn btn-primary btn-large">Join Waitlist</button>
   </form>
   <div id="waitlist-success">🎉 You're on the list! We'll be in touch.</div>
@@ -479,13 +479,15 @@
 
 <script>
   // Waitlist form
-  document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+  document.getElementById('waitlistForm').addEventListener('submit', async function(e) {
     e.preventDefault();
-    const email = document.getElementById('waitlistEmail').value;
-    // TODO: connect to your backend / Formspree / ConvertKit
-    document.getElementById('waitlistForm').style.display = 'none';
-    document.getElementById('waitlist-success').style.display = 'block';
-    console.log('Waitlist signup:', email);
+    const form = e.target;
+    const data = new FormData(form);
+    const res = await fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } });
+    if (res.ok) {
+      form.style.display = 'none';
+      document.getElementById('waitlist-success').style.display = 'block';
+    }
   });
 
   // Smooth fade-in on scroll
