@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { WaitlistForm } from "@/components/waitlist-form";
 
 export default function Home() {
   return (
@@ -20,25 +21,28 @@ export default function Home() {
           <em className="not-italic text-accent">finally optimized.</em>
         </h1>
 
-        <p className="text-[clamp(16px,2vw,20px)] text-muted max-w-[580px] leading-relaxed mb-12">
+        <p className="text-[clamp(16px,2vw,20px)] text-muted max-w-[580px] leading-relaxed mb-10">
           Formulate scores every supplement against clinical research, flags
           unsafe doses, and builds your perfect longevity stack — so you stop
           guessing and start thriving.
         </p>
 
-        <div className="flex gap-3.5 flex-wrap justify-center mb-16">
-          <Link
-            href="/catalog"
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,229,160,0.3)] transition-all"
-          >
-            Browse Catalog
-          </Link>
-          <Link
-            href="#features"
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-transparent text-text border border-border hover:border-accent hover:text-accent transition-all"
-          >
-            See Features
-          </Link>
+        <div className="flex flex-col items-center gap-4 mb-16 w-full">
+          <WaitlistForm />
+          <div className="flex gap-3.5 flex-wrap justify-center">
+            <Link
+              href="/catalog"
+              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
+            >
+              Browse Catalog
+            </Link>
+            <Link
+              href="#features"
+              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
+            >
+              See Features
+            </Link>
+          </div>
         </div>
 
         <div className="flex gap-12 flex-wrap justify-center">
@@ -139,20 +143,15 @@ export default function Home() {
       </div>
 
       {/* CTA */}
-      <section className="py-24 px-6 text-center max-w-[640px] mx-auto">
-        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Get started</div>
+      <section className="py-24 px-6 text-center max-w-[640px] mx-auto flex flex-col items-center">
+        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Get early access</div>
         <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] mb-4">
           Start optimizing your stack.
         </h2>
         <p className="text-muted text-[17px] leading-relaxed mb-10">
-          Browse the full supplement catalog — scored, compared, and ranked. Free forever.
+          Join the waitlist to get early access. We&apos;ll let you know when your spot is ready.
         </p>
-        <Link
-          href="/catalog"
-          className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,229,160,0.3)] transition-all"
-        >
-          Browse Catalog →
-        </Link>
+        <WaitlistForm />
       </section>
     </>
   );
