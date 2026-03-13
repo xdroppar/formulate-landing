@@ -5,7 +5,6 @@ import type { CatalogProduct } from "@/lib/types";
 
 /* ── Tag → emoji mapping ─────────────────────────────────────────── */
 const TAG_EMOJI: Record<string, string> = {
-  // Capitalized tags
   Energy: "⚡",
   Muscle: "💪",
   "Brain Health": "🧠",
@@ -49,7 +48,6 @@ const TAG_EMOJI: Record<string, string> = {
   Respiratory: "🫁",
   Thyroid: "🦋",
   CoQ10: "⚡",
-  // Lowercase tags (older format)
   energy: "⚡",
   muscle: "💪",
   cognition: "🧠",
@@ -74,7 +72,7 @@ const TAG_EMOJI: Record<string, string> = {
 };
 
 /* ── Brand → color mapping ────────────────────────────────────────── */
-const BRAND_COLOR: Record<string, string> = {
+export const BRAND_COLOR: Record<string, string> = {
   Thorne: "#00e5a0",
   "Nootropics Depot": "#7c6dfa",
   Complement: "#ffa94d",
@@ -92,7 +90,6 @@ function getBrandColor(brand: string): string {
 }
 
 function formatCategory(cat: string): string {
-  // Normalize kebab-case to title case
   if (cat.includes("-")) {
     return cat
       .split("-")
@@ -113,41 +110,41 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
   return (
     <Link
       href={`/catalog/${product.slug}`}
-      className="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-0.5 transition-all block"
+      className="group bg-[#0d0d1a] border border-[rgba(255,255,255,0.06)] rounded-xl overflow-hidden hover:border-[rgba(255,255,255,0.12)] hover:-translate-y-0.5 transition-all block"
     >
       {/* Image with score overlay */}
-      <div className="relative w-full aspect-[4/3] bg-surface2">
+      <div className="relative w-full aspect-square bg-[#111125]">
         {product.image_url ? (
           <img
             src={product.image_url}
             alt={product.name}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain p-2"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">
-            <span className="text-4xl opacity-15">💊</span>
+            <span className="text-3xl opacity-10">💊</span>
           </div>
         )}
         {/* Score ring overlay */}
-        <div className="absolute top-3 left-3">
-          <ScoreRing score={product.score} size={44} strokeWidth={3.5} />
+        <div className="absolute top-2 left-2 bg-[rgba(8,8,15,0.7)] rounded-full p-0.5">
+          <ScoreRing score={product.score} size={36} strokeWidth={3} />
         </div>
         {showDevBadge && product.is_draft && (
-          <div className="absolute top-3 right-3">
+          <div className="absolute top-2 right-2">
             <DevBadge />
           </div>
         )}
       </div>
 
       {/* Content */}
-      <div className="px-4 pt-3 pb-4">
+      <div className="px-3 pt-2 pb-3">
         {/* Name + category */}
-        <div className="flex items-start gap-2 mb-1.5">
-          <span className="text-[13px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">
+        <div className="flex items-start gap-1.5 mb-1">
+          <span className="text-[12px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">
             {product.name}
           </span>
           {product.category && (
-            <span className="shrink-0 text-[10px] font-semibold text-accent/80 bg-accent/10 px-1.5 py-0.5 rounded mt-0.5">
+            <span className="shrink-0 text-[9px] font-semibold text-accent/70 bg-accent/10 px-1.5 py-px rounded">
               {formatCategory(product.category)}
             </span>
           )}
@@ -155,36 +152,36 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
 
         {/* Brand */}
         <div
-          className="text-[11px] font-extrabold tracking-wider mb-2.5 uppercase"
+          className="text-[10px] font-extrabold tracking-wider mb-2 uppercase"
           style={{ color: brandColor }}
         >
           {product.brand}
         </div>
 
         {/* Benefit tags with emojis */}
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          {product.category_tags.slice(0, 4).map((tag) => (
+        <div className="flex flex-wrap gap-1 mb-2">
+          {product.category_tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-surface2 text-muted border border-border"
+              className="inline-flex items-center gap-0.5 px-1.5 py-px rounded-full text-[9px] font-medium bg-[#16162a] text-muted border border-[rgba(255,255,255,0.05)]"
             >
-              <span className="text-[10px]">{getTagEmoji(tag)}</span>
+              <span className="text-[9px]">{getTagEmoji(tag)}</span>
               {tag}
             </span>
           ))}
-          {product.category_tags.length > 4 && (
-            <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-medium text-muted/60">
-              +{product.category_tags.length - 4}
+          {product.category_tags.length > 3 && (
+            <span className="text-[9px] text-muted/50 py-px">
+              +{product.category_tags.length - 3}
             </span>
           )}
         </div>
 
         {/* Price + form */}
         {product.price_usd && (
-          <div className="text-xs text-muted">
+          <div className="text-[11px] text-muted">
             ${product.price_usd.toFixed(2)}
             {product.form && (
-              <span className="ml-1 opacity-60">· {product.form}</span>
+              <span className="ml-1 opacity-50">· {product.form}</span>
             )}
           </div>
         )}

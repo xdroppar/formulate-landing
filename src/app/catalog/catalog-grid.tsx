@@ -100,7 +100,7 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
   }
 
   return (
-    <div className="flex gap-6 items-start">
+    <div className="flex gap-3 items-start">
       {/* Main content */}
       <div className="flex-1 min-w-0">
         {/* Filters bar */}
@@ -177,7 +177,7 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
 
         {/* Grid */}
         {filtered.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3">
             {filtered.map((product) => (
               <ProductCard
                 key={product.id}
@@ -194,8 +194,8 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
         )}
       </div>
 
-      {/* Insights sidebar (hidden on mobile/tablet, shown on xl+) */}
-      <div className="hidden xl:block sticky top-24">
+      {/* Insights sidebar — flush right, no margin */}
+      <div className="hidden 2xl:block sticky top-24">
         <InsightsPanel
           products={products}
           onScoreRangeClick={(min, max) => {

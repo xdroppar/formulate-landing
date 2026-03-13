@@ -13,7 +13,7 @@ export default async function CatalogPage() {
   const categories = await getAllCategories();
 
   return (
-    <div className="pt-24 px-6 pb-16 max-w-[1200px] mx-auto">
+    <div className="pt-24 px-4 pb-16 max-w-[1920px] mx-auto">
       <div className="mb-10">
         <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Catalog</div>
         <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] mb-2">

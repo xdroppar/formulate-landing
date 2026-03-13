@@ -2,17 +2,8 @@
 
 import Link from "next/link";
 import { ScoreRing } from "./score-ring";
+import { BRAND_COLOR } from "./product-card";
 import type { CatalogProduct } from "@/lib/types";
-
-/* ── Brand colors (shared with product-card) ──────────────────────── */
-const BRAND_COLOR: Record<string, string> = {
-  Thorne: "#00e5a0",
-  "Nootropics Depot": "#7c6dfa",
-  Complement: "#ffa94d",
-  "Transparent Labs": "#ff4f6a",
-  Momentous: "#4dc9f6",
-  "MegaFood Inc.": "#a3e635",
-};
 
 const SCORE_RANGES = [
   { label: "90+", min: 90, max: 100, color: "#00e5a0" },
@@ -38,7 +29,6 @@ export function InsightsPanel({
   const scored = products.filter((p) => p.score !== null);
   const total = products.length;
 
-  /* ── Score distribution ─────────────────────────────────────────── */
   const scoreDist = SCORE_RANGES.map((r) => {
     const count = scored.filter(
       (p) => p.score! >= r.min && p.score! <= r.max
@@ -47,12 +37,10 @@ export function InsightsPanel({
   });
   const maxScoreCount = Math.max(...scoreDist.map((d) => d.count), 1);
 
-  /* ── Top products (top 6 by score) ──────────────────────────────── */
   const topProducts = [...scored]
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, 6);
 
-  /* ── Top brands (by avg score) ──────────────────────────────────── */
   const brandMap = new Map<
     string,
     { name: string; scores: number[]; count: number }
@@ -78,7 +66,6 @@ export function InsightsPanel({
     }))
     .sort((a, b) => (b.avgScore ?? 0) - (a.avgScore ?? 0));
 
-  /* ── Top categories (by count) ──────────────────────────────────── */
   const catMap = new Map<string, number>();
   for (const p of products) {
     if (p.category) catMap.set(p.category, (catMap.get(p.category) || 0) + 1);
@@ -88,7 +75,6 @@ export function InsightsPanel({
     .slice(0, 8);
   const maxCatCount = Math.max(...topCategories.map(([, c]) => c), 1);
 
-  /* ── Avg score ──────────────────────────────────────────────────── */
   const avgScore =
     scored.length > 0
       ? Math.round(
@@ -96,38 +82,37 @@ export function InsightsPanel({
         )
       : null;
 
+  const card = "bg-[#0d0d1a] border border-[rgba(255,255,255,0.06)] rounded-xl p-3";
+  const heading = "text-[9px] font-semibold text-muted uppercase tracking-wider mb-2.5";
+
   return (
-    <aside className="w-full xl:w-72 shrink-0 space-y-4">
-      {/* Overview stat */}
-      <div className="bg-surface border border-border rounded-2xl p-4">
-        <div className="text-[10px] font-semibold text-muted uppercase tracking-wider mb-3">
-          Catalog Overview
-        </div>
-        <div className="flex items-center gap-4">
-          <ScoreRing score={avgScore} size={56} strokeWidth={4} />
+    <aside className="w-60 shrink-0 space-y-3">
+      {/* Overview */}
+      <div className={card}>
+        <div className={heading}>Catalog Overview</div>
+        <div className="flex items-center gap-3">
+          <ScoreRing score={avgScore} size={44} strokeWidth={3.5} />
           <div>
-            <div className="text-2xl font-black text-text">{total}</div>
-            <div className="text-[11px] text-muted">products scored</div>
+            <div className="text-xl font-black text-text">{total}</div>
+            <div className="text-[10px] text-muted">products scored</div>
           </div>
         </div>
       </div>
 
       {/* Score Distribution */}
-      <div className="bg-surface border border-border rounded-2xl p-4">
-        <div className="text-[10px] font-semibold text-muted uppercase tracking-wider mb-3">
-          Score Distribution
-        </div>
-        <div className="space-y-2">
+      <div className={card}>
+        <div className={heading}>Score Distribution</div>
+        <div className="space-y-1.5">
           {scoreDist.map((range) => (
             <button
               key={range.label}
-              className="w-full flex items-center gap-2 group/bar cursor-pointer"
+              className="w-full flex items-center gap-1.5 group/bar cursor-pointer"
               onClick={() => onScoreRangeClick?.(range.min, range.max)}
             >
-              <span className="text-[11px] font-semibold text-muted w-10 text-right shrink-0">
+              <span className="text-[10px] font-semibold text-muted w-9 text-right shrink-0">
                 {range.label}
               </span>
-              <div className="flex-1 h-5 bg-white/[0.03] rounded overflow-hidden">
+              <div className="flex-1 h-4 bg-white/[0.03] rounded overflow-hidden">
                 <div
                   className="h-full rounded transition-all duration-500 group-hover/bar:brightness-125"
                   style={{
@@ -137,7 +122,7 @@ export function InsightsPanel({
                   }}
                 />
               </div>
-              <span className="text-[11px] font-bold text-muted w-6 text-right shrink-0">
+              <span className="text-[10px] font-bold text-muted w-5 text-right shrink-0">
                 {range.count}
               </span>
             </button>
@@ -146,26 +131,24 @@ export function InsightsPanel({
       </div>
 
       {/* Top Rated */}
-      <div className="bg-surface border border-border rounded-2xl p-4">
-        <div className="text-[10px] font-semibold text-muted uppercase tracking-wider mb-3">
-          Top Rated
-        </div>
-        <div className="space-y-1">
+      <div className={card}>
+        <div className={heading}>Top Rated</div>
+        <div className="space-y-0.5">
           {topProducts.map((p) => (
             <Link
               key={p.id}
               href={`/catalog/${p.slug}`}
-              className="flex items-center gap-2.5 px-2 py-1.5 -mx-2 rounded-lg hover:bg-white/[0.03] transition-colors"
+              className="flex items-center gap-2 px-1.5 py-1 -mx-1.5 rounded-lg hover:bg-white/[0.03] transition-colors"
             >
-              <ScoreRing score={p.score} size={28} strokeWidth={2.5} />
-              <span className="text-[12px] font-medium text-text truncate flex-1">
+              <ScoreRing score={p.score} size={24} strokeWidth={2} />
+              <span className="text-[11px] font-medium text-text truncate flex-1">
                 {p.name}
               </span>
               <span
-                className="text-[10px] font-bold uppercase shrink-0"
+                className="text-[9px] font-bold uppercase shrink-0"
                 style={{ color: BRAND_COLOR[p.brand] ?? "#7a7a9a" }}
               >
-                {p.brand_slug.slice(0, 6)}
+                {p.brand_slug.slice(0, 5)}
               </span>
             </Link>
           ))}
@@ -173,25 +156,23 @@ export function InsightsPanel({
       </div>
 
       {/* Top Brands */}
-      <div className="bg-surface border border-border rounded-2xl p-4">
-        <div className="text-[10px] font-semibold text-muted uppercase tracking-wider mb-3">
-          Top Brands
-        </div>
-        <div className="space-y-1">
+      <div className={card}>
+        <div className={heading}>Top Brands</div>
+        <div className="space-y-0.5">
           {topBrands.map((b) => (
             <button
               key={b.name}
-              className="w-full flex items-center gap-2.5 px-2 py-1.5 -mx-2 rounded-lg hover:bg-white/[0.03] transition-colors cursor-pointer"
+              className="w-full flex items-center gap-2 px-1.5 py-1 -mx-1.5 rounded-lg hover:bg-white/[0.03] transition-colors cursor-pointer"
               onClick={() => onBrandClick?.(b.name)}
             >
-              <ScoreRing score={b.avgScore} size={28} strokeWidth={2.5} />
+              <ScoreRing score={b.avgScore} size={24} strokeWidth={2} />
               <span
-                className="text-[12px] font-extrabold uppercase tracking-wide truncate flex-1 text-left"
+                className="text-[11px] font-extrabold uppercase tracking-wide truncate flex-1 text-left"
                 style={{ color: BRAND_COLOR[b.name] ?? "#7a7a9a" }}
               >
                 {b.name}
               </span>
-              <span className="text-[11px] text-muted shrink-0">
+              <span className="text-[10px] text-muted shrink-0">
                 {b.count}
               </span>
             </button>
@@ -200,27 +181,25 @@ export function InsightsPanel({
       </div>
 
       {/* By Category */}
-      <div className="bg-surface border border-border rounded-2xl p-4">
-        <div className="text-[10px] font-semibold text-muted uppercase tracking-wider mb-3">
-          By Category
-        </div>
-        <div className="space-y-1.5">
+      <div className={card}>
+        <div className={heading}>By Category</div>
+        <div className="space-y-1">
           {topCategories.map(([cat, count]) => (
             <button
               key={cat}
-              className="w-full flex items-center gap-2 group/cat cursor-pointer"
+              className="w-full flex items-center gap-1.5 group/cat cursor-pointer"
               onClick={() => onCategoryClick?.(cat)}
             >
-              <span className="text-[11px] text-muted truncate flex-1 text-left group-hover/cat:text-accent transition-colors">
+              <span className="text-[10px] text-muted truncate flex-1 text-left group-hover/cat:text-accent transition-colors">
                 {cat}
               </span>
-              <div className="w-20 h-3 bg-white/[0.03] rounded overflow-hidden shrink-0">
+              <div className="w-14 h-2.5 bg-white/[0.03] rounded overflow-hidden shrink-0">
                 <div
                   className="h-full rounded bg-accent/50 group-hover/cat:bg-accent/80 transition-all"
                   style={{ width: `${(count / maxCatCount) * 100}%` }}
                 />
               </div>
-              <span className="text-[10px] font-bold text-muted w-5 text-right shrink-0">
+              <span className="text-[9px] font-bold text-muted w-4 text-right shrink-0">
                 {count}
               </span>
             </button>
