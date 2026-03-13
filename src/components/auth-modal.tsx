@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useAuth } from "@/lib/auth-context";
 
 interface AuthModalProps {
@@ -15,8 +16,11 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  if (!isOpen) return null;
+  useEffect(() => setMounted(true), []);
+
+  if (!isOpen || !mounted) return null;
 
   const switchMode = () => {
     setMode((m) => (m === "signin" ? "signup" : "signin"));
@@ -40,12 +44,12 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
     }
   };
 
-  return (
+  return createPortal(
     <div
       className="fixed inset-0 z-[200] flex items-center justify-center bg-black/60 backdrop-blur-sm"
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
-      <div className="w-full max-w-md rounded-2xl border border-border bg-bg p-8 shadow-2xl">
+      <div className="mx-4 w-full max-w-md rounded-2xl border border-border bg-bg p-8 shadow-2xl">
         <h2 className="mb-6 text-2xl font-bold text-text">
           {mode === "signin" ? "Sign In" : "Create Account"}
         </h2>
@@ -107,6 +111,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
           </button>
         </p>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
