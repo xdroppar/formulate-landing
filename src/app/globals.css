@@ -73,24 +73,27 @@ body {
   border: 1px solid rgba(255, 79, 106, 0.3);
 }
 
-/* Card border — fades at corners, accent on hover */
+/* Card border — visible on all sides, fades at corners, accent on hover */
 .card-wrap {
-  padding: 1px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.01) 0%,
-    rgba(255, 255, 255, 0.06) 30%,
-    rgba(255, 255, 255, 0.06) 70%,
-    rgba(255, 255, 255, 0.01) 100%
-  );
-  transition: background 0.2s;
+  position: relative;
 }
-.card-wrap:hover {
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    var(--color-accent) 30%,
-    var(--color-accent) 70%,
-    transparent 100%
-  );
+.card-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  pointer-events: none;
+  z-index: 1;
+  transition: border-color 0.2s;
+  -webkit-mask-image:
+    linear-gradient(180deg, transparent 0%, black 10%, black 90%, transparent 100%),
+    linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(180deg, transparent 0%, black 10%, black 90%, transparent 100%),
+    linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-composite: intersect;
+}
+.card-wrap:hover::before {
+  border-color: var(--color-accent);
 }
