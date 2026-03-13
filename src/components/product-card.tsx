@@ -303,7 +303,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
   return (
     <Link
       href={`/catalog/${product.slug}`}
-      className="group bg-[#0d0d1a] border border-[rgba(255,255,255,0.04)] rounded overflow-hidden hover:border-[rgba(34,197,94,0.4)] hover:-translate-y-0.5 transition-all block min-h-[340px]"
+      className="group relative bg-[#0d0d1a] overflow-hidden hover:-translate-y-0.5 transition-all block h-full card-border"
     >
       {/* Image carousel with score overlay */}
       <div className="relative w-full aspect-square bg-[#111125]">
@@ -369,7 +369,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
                 ${perServing.toFixed(2)}/srv
               </span>
             )}
-            <span className="text-[10px] text-accent/70">
+            <span className="text-[10px] text-text/70">
               {product.servings_per_container != null && (
                 <>{product.servings_per_container} srv · </>
               )}
