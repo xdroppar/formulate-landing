@@ -73,27 +73,11 @@ body {
   border: 1px solid rgba(255, 79, 106, 0.3);
 }
 
-/* Card border — visible on all sides, fades at corners, accent on hover */
+/* Card border — accent on hover */
 .card-wrap {
-  position: relative;
-}
-.card-wrap::before {
-  content: "";
-  position: absolute;
-  inset: 0;
   border: 1px solid rgba(255, 255, 255, 0.06);
-  pointer-events: none;
-  z-index: 1;
   transition: border-color 0.2s;
-  -webkit-mask-image:
-    linear-gradient(180deg, transparent 0%, black 10%, black 90%, transparent 100%),
-    linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
-  -webkit-mask-composite: source-in;
-  mask-image:
-    linear-gradient(180deg, transparent 0%, black 10%, black 90%, transparent 100%),
-    linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
-  mask-composite: intersect;
 }
-.card-wrap:hover::before {
+.card-wrap:hover {
   border-color: var(--color-accent);
 }
