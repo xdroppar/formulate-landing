@@ -133,26 +133,12 @@ const CERT_INFO: Record<string, { emoji: string; bg: string; text: string }> = {
   gf: { emoji: "🌾", bg: "rgba(139,92,246,0.2)", text: "#C4B5FD" },
 };
 
-/* ── Brand → color mapping ────────────────────────────────────────── */
-export const BRAND_COLOR: Record<string, string> = {
-  Thorne: "#00e5a0",
-  "Nootropics Depot": "#7c6dfa",
-  Complement: "#ffa94d",
-  "Transparent Labs": "#ff4f6a",
-  Momentous: "#4dc9f6",
-  "MegaFood Inc.": "#a3e635",
-};
-
 function getTagInfo(tag: string) {
   return TAG_INFO[tag] ?? DEFAULT_TAG;
 }
 
 function getCategoryInfo(cat: string) {
   return CATEGORY_INFO[cat] ?? CATEGORY_INFO["Supplements"]!;
-}
-
-function getBrandColor(brand: string): string {
-  return BRAND_COLOR[brand] ?? "#7a7a9a";
 }
 
 /* ── Grade → color mapping ───────────────────────────────────────── */
@@ -290,7 +276,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, showDevBadge }: ProductCardProps) {
-  const brandColor = getBrandColor(product.brand);
+  const brandColor = "var(--color-accent)";
   const catInfo = product.category ? getCategoryInfo(formatCategory(product.category)) : null;
   const certLabels = parseCertifications(product.certifications);
 
@@ -347,8 +333,13 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         {/* Brand + grade badge */}
         <div className="flex items-center gap-1.5">
           <span
-            className="text-[10px] font-extrabold tracking-wider uppercase"
+            className="text-[10px] font-extrabold tracking-wider uppercase hover:underline cursor-pointer"
             style={{ color: brandColor }}
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              window.location.href = `/catalog?brand=${product.brand_slug}`;
+            }}
           >
             {product.brand}
           </span>

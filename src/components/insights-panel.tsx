@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { ScoreRing } from "./score-ring";
-import { BRAND_COLOR } from "./product-card";
 import type { CatalogProduct } from "@/lib/types";
 
 const SCORE_RANGES = [
@@ -146,7 +145,7 @@ export function InsightsPanel({
               </span>
               <span
                 className="text-[9px] font-bold uppercase shrink-0"
-                style={{ color: BRAND_COLOR[p.brand] ?? "#7a7a9a" }}
+                style={{ color: "var(--color-accent)" }}
               >
                 {p.brand_slug.slice(0, 5)}
               </span>
@@ -168,7 +167,7 @@ export function InsightsPanel({
               <ScoreRing score={b.avgScore} size={24} strokeWidth={2} />
               <span
                 className="text-[11px] font-extrabold uppercase tracking-wide truncate flex-1 text-left"
-                style={{ color: BRAND_COLOR[b.name] ?? "#7a7a9a" }}
+                style={{ color: "var(--color-accent)" }}
               >
                 {b.name}
               </span>
