@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-13T13:18:30.973540+00:00",
+  "exported_at": "2026-03-13T23:25:29.538087+00:00",
   "product_count": 192,
   "brand_count": 6,
   "products": [
@@ -24665,7 +24665,7 @@
       "name": "Momentous",
       "product_count": 4,
       "avg_score": 93,
-      "top_category": "Vitamin D",
+      "top_category": "Nootropics",
       "logo_url": null
     },
     {
@@ -24705,7 +24705,7 @@
       "name": "MegaFood Inc.",
       "product_count": 3,
       "avg_score": 78,
-      "top_category": "Magnesium",
+      "top_category": "energy",
       "logo_url": null
     }
   ]
