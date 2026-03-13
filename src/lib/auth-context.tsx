@@ -34,6 +34,7 @@ interface AuthContextValue {
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, confirmPassword: string) => Promise<void>;
   googleSignIn: (credential: string) => Promise<void>;
+  appleSignIn: (idToken: string, code?: string) => Promise<void>;
   signOut: () => Promise<void>;
   error: string | null;
   clearError: () => void;
@@ -124,6 +125,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  const appleSignIn = useCallback(async (idToken: string, code?: string) => {
+    setError(null);
+    try {
+      const data = await api<TokenResponse>("/api/v1/auth/apple", {
+        method: "POST",
+        body: JSON.stringify({ id_token: idToken, code }),
+        skipAuth: true,
+      });
+      setAccessToken(data.access_token);
+      setUser(data.user);
+    } catch (e) {
+      const msg = e instanceof ApiError
+        ? e.detail
+        : e instanceof Error
+          ? `Apple sign-in failed: ${e.message}`
+          : "Apple sign-in failed";
+      setError(msg);
+      throw e;
+    }
+  }, []);
+
   const signOut = useCallback(async () => {
     try {
       await api("/api/v1/auth/logout", { method: "POST", body: "{}" });
@@ -145,6 +167,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         signIn,
         signUp,
         googleSignIn,
+        appleSignIn,
         signOut,
         error,
         clearError,

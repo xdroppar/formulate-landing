@@ -40,6 +40,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen">
         <Script src="https://accounts.google.com/gsi/client" strategy="afterInteractive" />
+        <Script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" strategy="afterInteractive" />
         <ClerkWrapper>
           <Nav />
           <main>{children}</main>

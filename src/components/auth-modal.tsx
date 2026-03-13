@@ -14,6 +14,14 @@ declare global {
         };
       };
     };
+    AppleID?: {
+      auth: {
+        init: (config: Record<string, unknown>) => void;
+        signIn: () => Promise<{
+          authorization: { id_token: string; code?: string };
+        }>;
+      };
+    };
   }
 }
 
@@ -64,7 +72,7 @@ function PasswordInput({
 }
 
 export function AuthModal({ isOpen, onClose }: AuthModalProps) {
-  const { signIn, signUp, googleSignIn, error, clearError } = useAuth();
+  const { signIn, signUp, googleSignIn, appleSignIn, error, clearError } = useAuth();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -127,6 +135,31 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
       return () => clearInterval(timer);
     }
   }, [isOpen, mounted, handleGoogleResponse]);
+
+  const handleAppleSignIn = useCallback(async () => {
+    const appleClientId = process.env.NEXT_PUBLIC_APPLE_CLIENT_ID;
+    if (!appleClientId || !window.AppleID) return;
+
+    try {
+      window.AppleID.auth.init({
+        clientId: appleClientId,
+        scope: "email name",
+        redirectURI: window.location.origin,
+        usePopup: true,
+      });
+      const result = await window.AppleID.auth.signIn();
+      setLoading(true);
+      await appleSignIn(
+        result.authorization.id_token,
+        result.authorization.code
+      );
+      onCloseRef.current();
+    } catch {
+      // error set in context, or user cancelled
+    } finally {
+      setLoading(false);
+    }
+  }, [appleSignIn]);
 
   if (!isOpen || !mounted) return null;
 
@@ -212,6 +245,20 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
         </div>
 
         <div ref={googleBtnRef} className="flex justify-center [&>div]:w-full" />
+
+        {process.env.NEXT_PUBLIC_APPLE_CLIENT_ID && (
+          <button
+            type="button"
+            onClick={handleAppleSignIn}
+            disabled={loading}
+            className="mt-3 flex w-full items-center justify-center gap-2 rounded-full border border-border bg-white py-3 text-sm font-medium text-black transition-colors hover:bg-gray-100 disabled:opacity-50"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+            </svg>
+            Continue with Apple
+          </button>
+        )}
 
         <p className="mt-4 text-center text-sm text-muted">
           {mode === "signin" ? "Don't have an account?" : "Already have an account?"}{" "}

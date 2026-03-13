@@ -229,7 +229,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
   return (
     <Link
       href={`/catalog/${product.slug}`}
-      className="group bg-[#0d0d1a] border border-[rgba(255,255,255,0.06)] rounded-xl overflow-hidden hover:border-[rgba(255,255,255,0.12)] hover:-translate-y-0.5 transition-all block min-h-[340px]"
+      className="group bg-[#0d0d1a] border border-[rgba(255,255,255,0.04)] rounded overflow-hidden hover:border-[rgba(34,197,94,0.4)] hover:-translate-y-0.5 transition-all block min-h-[340px]"
     >
       {/* Image with score overlay */}
       <div className="relative w-full aspect-square bg-[#111125]">
