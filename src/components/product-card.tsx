@@ -309,25 +309,6 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
           </div>
         )}
 
-        {/* Certifications as bubble tags with emojis */}
-        {certLabels.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {certLabels.map((cert) => {
-              const info = CERT_INFO[cert.key] ?? { emoji: "✓", bg: "rgba(100,116,139,0.15)", text: "#94A3B8" };
-              return (
-                <span
-                  key={cert.key}
-                  className="inline-flex items-center gap-0.5 px-1.5 py-px rounded-full text-[8px] font-semibold"
-                  style={{ backgroundColor: info.bg, color: info.text }}
-                >
-                  <span className="text-[8px]">{info.emoji}</span>
-                  {cert.label}
-                </span>
-              );
-            })}
-          </div>
-        )}
-
         {/* Benefit tags with emojis and colored backgrounds */}
         <div className="flex flex-wrap gap-1">
           {product.category_tags.slice(0, 4).map((tag) => {
@@ -349,6 +330,25 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
             </span>
           )}
         </div>
+
+        {/* Certifications as bubble tags with emojis (under benefit tags) */}
+        {certLabels.length > 0 && (
+          <div className="flex flex-wrap gap-1">
+            {certLabels.map((cert) => {
+              const info = CERT_INFO[cert.key] ?? { emoji: "✓", bg: "rgba(100,116,139,0.15)", text: "#94A3B8" };
+              return (
+                <span
+                  key={cert.key}
+                  className="inline-flex items-center gap-0.5 px-1.5 py-px rounded-full text-[8px] font-semibold"
+                  style={{ backgroundColor: info.bg, color: info.text }}
+                >
+                  <span className="text-[8px]">{info.emoji}</span>
+                  {cert.label}
+                </span>
+              );
+            })}
+          </div>
+        )}
       </div>
     </Link>
   );
