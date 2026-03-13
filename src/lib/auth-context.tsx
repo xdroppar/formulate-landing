@@ -64,7 +64,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setAccessToken(data.access_token);
       setUser(data.user);
     } catch (e) {
-      const msg = e instanceof ApiError ? e.detail : "Login failed";
+      const msg = e instanceof ApiError
+        ? e.detail
+        : e instanceof Error
+          ? `Login failed: ${e.message}`
+          : "Login failed";
       setError(msg);
       throw e;
     }
@@ -86,7 +90,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setAccessToken(data.access_token);
         setUser(data.user);
       } catch (e) {
-        const msg = e instanceof ApiError ? e.detail : "Signup failed";
+        const msg = e instanceof ApiError
+          ? e.detail
+          : e instanceof Error
+            ? `Signup failed: ${e.message}`
+            : "Signup failed";
         setError(msg);
         throw e;
       }
