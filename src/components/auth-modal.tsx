@@ -1,8 +1,21 @@
 "use client";
 
-import { useState, type FormEvent, useEffect } from "react";
+import { useState, useRef, type FormEvent, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useAuth } from "@/lib/auth-context";
+
+declare global {
+  interface Window {
+    google?: {
+      accounts: {
+        id: {
+          initialize: (config: Record<string, unknown>) => void;
+          renderButton: (element: HTMLElement, config: Record<string, unknown>) => void;
+        };
+      };
+    };
+  }
+}
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -51,15 +64,69 @@ function PasswordInput({
 }
 
 export function AuthModal({ isOpen, onClose }: AuthModalProps) {
-  const { signIn, signUp, error, clearError } = useAuth();
+  const { signIn, signUp, googleSignIn, error, clearError } = useAuth();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const googleBtnRef = useRef<HTMLDivElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
 
   useEffect(() => setMounted(true), []);
+
+  const handleGoogleResponse = useCallback(
+    async (response: { credential: string }) => {
+      setLoading(true);
+      try {
+        await googleSignIn(response.credential);
+        onCloseRef.current();
+      } catch {
+        // error set in context
+      } finally {
+        setLoading(false);
+      }
+    },
+    [googleSignIn]
+  );
+
+  // Render the Google button when the modal opens
+  useEffect(() => {
+    if (!isOpen || !mounted || !googleBtnRef.current) return;
+    const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+    if (!clientId) return;
+
+    const tryRender = () => {
+      if (!window.google || !googleBtnRef.current) return;
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        callback: handleGoogleResponse,
+      });
+      window.google.accounts.id.renderButton(googleBtnRef.current, {
+        type: "standard",
+        theme: "filled_black",
+        size: "large",
+        text: "continue_with",
+        shape: "pill",
+        width: googleBtnRef.current.offsetWidth,
+      });
+    };
+
+    // GSI script may still be loading
+    if (window.google) {
+      tryRender();
+    } else {
+      const timer = setInterval(() => {
+        if (window.google) {
+          clearInterval(timer);
+          tryRender();
+        }
+      }, 100);
+      return () => clearInterval(timer);
+    }
+  }, [isOpen, mounted, handleGoogleResponse]);
 
   if (!isOpen || !mounted) return null;
 
@@ -137,6 +204,14 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 : "Create Account"}
           </button>
         </form>
+
+        <div className="my-5 flex items-center gap-3">
+          <div className="h-px flex-1 bg-border" />
+          <span className="text-xs text-muted">or</span>
+          <div className="h-px flex-1 bg-border" />
+        </div>
+
+        <div ref={googleBtnRef} className="flex justify-center [&>div]:w-full" />
 
         <p className="mt-4 text-center text-sm text-muted">
           {mode === "signin" ? "Don't have an account?" : "Already have an account?"}{" "}

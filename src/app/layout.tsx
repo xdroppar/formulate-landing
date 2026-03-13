@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { ClerkWrapper } from "@/components/clerk-wrapper";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
@@ -38,6 +39,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen">
+        <Script src="https://accounts.google.com/gsi/client" strategy="afterInteractive" />
         <ClerkWrapper>
           <Nav />
           <main>{children}</main>

@@ -33,6 +33,7 @@ interface AuthContextValue {
   isLoading: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, confirmPassword: string) => Promise<void>;
+  googleSignIn: (credential: string) => Promise<void>;
   signOut: () => Promise<void>;
   error: string | null;
   clearError: () => void;
@@ -102,6 +103,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     []
   );
 
+  const googleSignIn = useCallback(async (credential: string) => {
+    setError(null);
+    try {
+      const data = await api<TokenResponse>("/api/v1/auth/google", {
+        method: "POST",
+        body: JSON.stringify({ credential }),
+        skipAuth: true,
+      });
+      setAccessToken(data.access_token);
+      setUser(data.user);
+    } catch (e) {
+      const msg = e instanceof ApiError
+        ? e.detail
+        : e instanceof Error
+          ? `Google sign-in failed: ${e.message}`
+          : "Google sign-in failed";
+      setError(msg);
+      throw e;
+    }
+  }, []);
+
   const signOut = useCallback(async () => {
     try {
       await api("/api/v1/auth/logout", { method: "POST", body: "{}" });
@@ -122,6 +144,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         isLoading,
         signIn,
         signUp,
+        googleSignIn,
         signOut,
         error,
         clearError,
