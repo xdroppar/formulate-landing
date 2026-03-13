@@ -4,6 +4,7 @@ import { getAllProducts, getProductBySlug } from "@/lib/catalog";
 import { isDevUser } from "@/lib/roles";
 import { ScoreRing } from "@/components/score-ring";
 import { DevBadge } from "@/components/dev-badge";
+import { ImageGallery } from "@/components/image-gallery";
 import type { Metadata } from "next";
 
 interface Props {
@@ -55,13 +56,15 @@ export default async function ProductDetailPage({ params }: Props) {
 
       {/* Hero section */}
       <div className="flex flex-col md:flex-row gap-8 mb-12">
-        {/* Image */}
-        <div className="w-full md:w-64 h-64 rounded-2xl bg-surface border border-border flex items-center justify-center shrink-0">
-          {product.image_url ? (
-            <img src={product.image_url} alt={product.name} className="w-full h-full object-contain rounded-2xl" />
-          ) : (
-            <span className="text-6xl opacity-15">💊</span>
-          )}
+        {/* Image gallery */}
+        <div className="w-full md:w-72 h-72 rounded-2xl bg-surface border border-border flex items-center justify-center shrink-0 overflow-hidden">
+          <ImageGallery
+            images={[
+              ...(product.image_url ? [product.image_url] : []),
+              ...product.gallery_images,
+            ]}
+            alt={product.name}
+          />
         </div>
 
         {/* Info */}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ScoreRing } from "./score-ring";
 import { DevBadge } from "./dev-badge";
+import { CardImageCarousel } from "./card-image-carousel";
 import type { CatalogProduct } from "@/lib/types";
 
 /* ── Tag → emoji + color mapping ─────────────────────────────────── */
@@ -304,19 +305,15 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
       href={`/catalog/${product.slug}`}
       className="group bg-[#0d0d1a] border border-[rgba(255,255,255,0.04)] rounded overflow-hidden hover:border-[rgba(34,197,94,0.4)] hover:-translate-y-0.5 transition-all block min-h-[340px]"
     >
-      {/* Image with score overlay */}
+      {/* Image carousel with score overlay */}
       <div className="relative w-full aspect-square bg-[#111125]">
-        {product.image_url ? (
-          <img
-            src={product.image_url}
-            alt={product.name}
-            className="w-full h-full object-contain p-2"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center">
-            <span className="text-3xl opacity-10">💊</span>
-          </div>
-        )}
+        <CardImageCarousel
+          images={[
+            ...(product.image_url ? [product.image_url] : []),
+            ...product.gallery_images,
+          ]}
+          alt={product.name}
+        />
         {/* Score ring overlay */}
         <div className="absolute top-2 left-2 bg-[rgba(8,8,15,0.7)] rounded-full p-0.5">
           <ScoreRing score={product.score} size={36} strokeWidth={3} />
