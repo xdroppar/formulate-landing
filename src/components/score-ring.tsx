@@ -25,6 +25,14 @@ export function ScoreRing({ score, size = 64, strokeWidth = 5, className = "" }:
   return (
     <div className={`relative inline-flex items-center justify-center ${className}`} style={{ width: size, height: size }}>
       <svg width={size} height={size} className="-rotate-90">
+        {/* Solid dark fill behind the number for readability */}
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius - strokeWidth / 2}
+          fill="rgba(8,8,15,0.85)"
+          stroke="none"
+        />
         <circle
           cx={size / 2}
           cy={size / 2}
