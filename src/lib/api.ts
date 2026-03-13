@@ -72,7 +72,12 @@ export async function api<T = unknown>(
 
   if (!res.ok) {
     const error = await res.json().catch(() => ({ detail: res.statusText }));
-    throw new ApiError(res.status, error.detail || res.statusText);
+    // Pydantic validation errors come as an array
+    let detail = error.detail;
+    if (Array.isArray(detail)) {
+      detail = detail.map((d: { msg?: string }) => d.msg || String(d)).join(". ");
+    }
+    throw new ApiError(res.status, detail || res.statusText);
   }
 
   return res.json();
