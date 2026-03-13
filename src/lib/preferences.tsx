@@ -5,9 +5,12 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
+import { api } from "./api";
+import { useAuth } from "./auth-context";
 
 /* ── Accent color presets ─────────────────────────────────────────── */
 export const ACCENT_PRESETS = [
@@ -70,34 +73,81 @@ function savePrefs(prefs: Preferences) {
   }
 }
 
+/** Save to backend (fire-and-forget) */
+function syncToBackend(patch: Partial<Preferences>) {
+  api("/api/v1/users/me/preferences", {
+    method: "PATCH",
+    body: JSON.stringify(patch),
+  }).catch(() => {
+    /* offline or not logged in — ignore */
+  });
+}
+
 export function PreferencesProvider({ children }: { children: ReactNode }) {
+  const { isSignedIn, isLoading: authLoading } = useAuth();
   const [prefs, setPrefs] = useState<Preferences>(DEFAULTS);
+  const hasFetchedRef = useRef(false);
 
   /* hydrate from localStorage after mount (avoids SSR mismatch) */
   useEffect(() => {
     setPrefs(loadPrefs());
   }, []);
 
+  /* when user signs in, fetch their server-side preferences */
+  useEffect(() => {
+    if (authLoading || !isSignedIn || hasFetchedRef.current) return;
+    hasFetchedRef.current = true;
+
+    api<Partial<Preferences>>("/api/v1/users/me/preferences")
+      .then((remote) => {
+        if (remote && (remote.accentColor || remote.currency)) {
+          setPrefs((prev) => {
+            const merged = { ...prev, ...remote };
+            savePrefs(merged);
+            return merged;
+          });
+        }
+      })
+      .catch(() => {
+        /* offline — keep local prefs */
+      });
+  }, [isSignedIn, authLoading]);
+
+  /* reset fetch flag on sign out so next sign-in re-fetches */
+  useEffect(() => {
+    if (!isSignedIn) {
+      hasFetchedRef.current = false;
+    }
+  }, [isSignedIn]);
+
   /* apply accent color as CSS variable */
   useEffect(() => {
     document.documentElement.style.setProperty("--color-accent", prefs.accentColor);
   }, [prefs.accentColor]);
 
-  const setAccentColor = useCallback((color: string) => {
-    setPrefs((prev) => {
-      const next = { ...prev, accentColor: color };
-      savePrefs(next);
-      return next;
-    });
-  }, []);
+  const setAccentColor = useCallback(
+    (color: string) => {
+      setPrefs((prev) => {
+        const next = { ...prev, accentColor: color };
+        savePrefs(next);
+        if (isSignedIn) syncToBackend({ accentColor: color });
+        return next;
+      });
+    },
+    [isSignedIn],
+  );
 
-  const setCurrency = useCallback((code: string) => {
-    setPrefs((prev) => {
-      const next = { ...prev, currency: code };
-      savePrefs(next);
-      return next;
-    });
-  }, []);
+  const setCurrency = useCallback(
+    (code: string) => {
+      setPrefs((prev) => {
+        const next = { ...prev, currency: code };
+        savePrefs(next);
+        if (isSignedIn) syncToBackend({ currency: code });
+        return next;
+      });
+    },
+    [isSignedIn],
+  );
 
   return (
     <PreferencesContext.Provider
