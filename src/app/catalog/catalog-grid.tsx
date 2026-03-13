@@ -194,8 +194,8 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
         )}
       </div>
 
-      {/* Insights sidebar — flush right, no margin */}
-      <div className="hidden 2xl:block sticky top-24">
+      {/* Insights sidebar — flush right, independently scrollable */}
+      <div className="hidden 2xl:block sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto">
         <InsightsPanel
           products={products}
           onScoreRangeClick={(min, max) => {
