@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-13T23:25:29.538087+00:00",
+  "exported_at": "2026-03-13T23:30:14.858888+00:00",
   "product_count": 192,
   "brand_count": 6,
   "products": [
@@ -2319,7 +2319,7 @@
         "Mood",
         "Stress"
       ],
-      "score": 92,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-5-htp-formerly-5-hydroxytryptophan-enhances-sleep-and-helps-manage-stress/primary.webp",
       "gallery_images": [
@@ -2394,8 +2394,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 83,
+          "weighted_score": 8.3
         },
         {
           "name": "Manufacturing",
@@ -2410,7 +2410,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "5-HTP (formerly 5-Hydroxytryptophan): Enhances sleep and helps manage stress* scores 92/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "5-HTP scores 90/100 (A grade). Strengths: 1 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/5-hydroxytryptophan",
@@ -2428,8 +2428,8 @@
         "Methylation",
         "Mood"
       ],
-      "score": 92,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-5-mthf-1-mg/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-5-mthf-1-mg/gallery_1.webp",
@@ -2477,8 +2477,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -2501,8 +2501,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 60,
-          "weighted_score": 6.0
+          "raw_score": 62,
+          "weighted_score": 6.2
         },
         {
           "name": "Value",
@@ -2511,7 +2511,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "5-MTHF 1 mg scores 92/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. Areas for improvement: Manufacturing: GMP certified only.",
+      "explanation": "5-MTHF 1 mg scores 89/100 (B grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-5-MTHF-1mg-Methylfolate-Cardiovascular/dp/B00FY8IQ7C/ref=sr_1_1?crid=3FYQQ5YZTF69&dib=eyJ2IjoiMSJ9.eJ3JLtaY03tsHeqhVkD9-d-bT3WUxDLCq5swkS3_mOZgFjwXDbr4MRbG6l8IcAo8NagdYGztXpmkf1i7QL1z5CHHn4wQmH8nu9W4yHpqChH1bBeRd0OTnnPIwiHiu5deLFLipcE__C1wedCVxep2-4-tTlyX808EKSQW0_ta15igyYLMtB54W5aB_MvSngUl_EQ3PvidJxqwWlBg4oHAebQ5MwzFPUImjvtdxXx8l0VA0wRPbbwhMkNqQi62Dc29C2ZRA6XhyrM3g9k-8rXojmBrl9wA-U6GuHGgF97zei0.qmnoGZO8Zf_ppz1LkP_zrelnqQn2N_KD3pRHkl_GICc&dib_tag=se&keywords=thorne+5-MTHF+1+mg&qid=1767982251&sprefix=thorne+5-mthf+1+mg%2Caps%2C1416&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-5-mthf-1-mg-60-capsules/18447",
       "url": "https://www.thorne.com/products/dp/5-mthf-1-mg",
@@ -2529,7 +2529,7 @@
         "Methylation",
         "Mood"
       ],
-      "score": 95,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-5-mthf-5-mg-support-heart-health-fetal-development-nervous-system-and-mood-with-5-mthf/primary.webp",
       "gallery_images": [
@@ -2585,8 +2585,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 100,
-          "weighted_score": 20.0
+          "raw_score": 82,
+          "weighted_score": 16.4
         },
         {
           "name": "Transparency",
@@ -2613,7 +2613,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "5-MTHF 5 mg: Support heart health, fetal development, nervous system, and mood with 5-MTHF* scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "5-MTHF 5 mg scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/5-mthf-5-mg",
@@ -2631,7 +2631,7 @@
         "Energy",
         "Cognition"
       ],
-      "score": 94,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-acetyl-l-carnitine-supports-cognitive-performance-mood-and-healthy-nerve-sensations-in-the-hands-and/primary.webp",
       "gallery_images": [
@@ -2715,7 +2715,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Acetyl-L-Carnitine: Supports cognitive performance, mood, and healthy nerve sensations in the hands and feet* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Form/Bioavailability: 1 high bioavailability: Acetyl-L-Carnitine (standard). ",
+      "explanation": "Acetyl-L-Carnitine scores 91/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/carnityl-reg",
@@ -2732,8 +2732,8 @@
         "Stress",
         "Energy"
       ],
-      "score": 80,
-      "grade": "B",
+      "score": 79,
+      "grade": "C",
       "image_url": "/images/products/thorne/thorne-adrenal-cortex-supports-healthy-adrenal-function-and-helps-the-body-resist-stress-related-fatigue/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-adrenal-cortex-supports-healthy-adrenal-function-and-helps-the-body-resist-stress-related-fatigue/gallery_1.webp",
@@ -2814,7 +2814,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Adrenal Cortex: Supports healthy adrenal function and helps the body resist stress-related fatigue* scores 80/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. Areas for improvement: Evidence Quality: Evidence grades: D(1).",
+      "explanation": "Adrenal Cortex scores 79/100 (C grade). Strengths: Third-party testing verified. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/adrenal-cortex",
@@ -2936,14 +2936,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 94,
+          "weighted_score": 9.4
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -3180,8 +3180,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 85,
-          "weighted_score": 17.0
+          "raw_score": 87,
+          "weighted_score": 17.4
         },
         {
           "name": "Bioavailability",
@@ -3214,7 +3214,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Advanced Digestive Enzymes: A digestive enzyme blend that supports individuals who have indigestion or bloating* scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Advanced Digestive Enzymes scores 86/100 (B grade). Strengths: 1 Grade A, 5 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/bio-gest-reg-60-s-1",
@@ -3230,7 +3230,7 @@
       "category_tags": [
         "Energy"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-advanced-iron-complex/primary.webp",
       "gallery_images": [
@@ -3326,8 +3326,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
@@ -3342,7 +3342,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Advanced Iron Complex scores 88/100 (B). Good — solid product with minor areas for improvement. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Advanced Iron Complex scores 87/100 (B grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/THORNE-Ferrasorb-Essential-Absorption-Gluten-Free/dp/B0797PJQMT/ref=sr_1_1?crid=2Y6IO0Z2AEXCM&dib=eyJ2IjoiMSJ9.YKERn8ELaraTGe36sEZEeMLGVsUuCdQxuF_PZ8vwmNEaSaIuqL76lnYCh9hhXabdptmWGUHU5xXFgm1yigcON5Rs3x523rdYSIXuLGaKsAMtouvqsFPJ4GfTipVJ0h0Z-p8AznUFpcXo9ruG6oEiu8gIQ4iDyOodbjXsN56N1TILFdAGC-pfrEJcIG1Mx0K1JmB7UXpDkA2GADFxrHsganQqxpzxZod5JhSWDBY9OHbSLS1vt9gZwp-9qtRtUts_mUcPa6Zpc2tBU97ob9CXZZPD2nBEbvHS8p9adS48qhM.zSQUKQEUWFsO9dzotK8U98nWOYx2CUqOv77YO70ffZY&dib_tag=se&keywords=Thorne+Advanced+Iron+Complex+%28formerly+Ferrasorb%29&qid=1767571577&sprefix=thorne+advanced+iron+complex+formerly+ferrasorb+%2Caps%2C209&sr=8-1",
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/ferrasorb-reg",
@@ -3359,8 +3359,8 @@
         "Healthy Aging",
         "Eye Health"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 88,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-advanced-nutrients-an-advanced-multi-formula-with-added-benefits-to-support-healthy-aging-and-eye-he/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-advanced-nutrients-an-advanced-multi-formula-with-added-benefits-to-support-healthy-aging-and-eye-he/gallery_1.webp",
@@ -3626,8 +3626,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 81,
-          "weighted_score": 16.2
+          "raw_score": 77,
+          "weighted_score": 15.4
         },
         {
           "name": "Bioavailability",
@@ -3644,8 +3644,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -3660,7 +3660,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Advanced Nutrients: An advanced multi formula with added benefits to support healthy aging and eye health* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Advanced Nutrients scores 88/100 (B grade). Strengths: 21 Grade A, 11 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/extra-nutrients",
@@ -3677,7 +3677,7 @@
         "Men's Health",
         "Muscle"
       ],
-      "score": 89,
+      "score": 88,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-advanced-testosterone-support/primary.webp",
       "gallery_images": [
@@ -3746,8 +3746,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 83,
-          "weighted_score": 16.6
+          "raw_score": 85,
+          "weighted_score": 17.0
         },
         {
           "name": "Bioavailability",
@@ -3764,14 +3764,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -3780,7 +3780,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Advanced Testosterone Support scores 89/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Advanced Testosterone Support scores 88/100 (B grade). Strengths: Mixed evidence quality (3 A, 1 B). ",
       "amazon_url": "https://www.amazon.com/THORNE-Advanced-Testosterone-Support-Ashwagandha/dp/B0DN7JGVG2/ref=sr_1_1?crid=29GMIAZQ9XLPN&dib=eyJ2IjoiMSJ9.2ZZVXg6nKTDJCVKf2l07WNoysHlGksdgESLb9HQoXH_3D-Dqv3tJHl5hDi_T-SfWf8s6sTPX0Ts83YlZGLJMoh42jMcIsZowK8opQdXvkc4DHkjTk2Mayjn-LvJ_lKRZRaMSbN1y6FkOJOSPyqo3ddvgJo4kzugthe5bJeOyGXXb-ceCvI72IlKtptRdBcmobRLc6yFrGXQzKi_nobDOWKw1NfrhyUYUO0WdhNw9O2qn0l93ld6AioV-VracLo3bFpVH5VZEQdyj2mLDuK3Kc1QCSzNVhbbJHsY5rS5St5c._vULuuRo4PcGcfhhQmRA6jHCx3uBTGR6VLyovmyym78&dib_tag=se&keywords=thorne+Advanced+Testosterone+Support&qid=1767662389&sprefix=thorne+advanced+testosterone+support%2Caps%2C189&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-advanced-testosterone-support-60-capsules/147640",
       "url": "https://www.thorne.com/products/dp/advanced-testosterone-support",
@@ -3865,8 +3865,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
@@ -3881,7 +3881,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Alpha-Lipoic Acid: Protect nerves and other sensitive tissues from oxidative stress* scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Alpha-Lipoic Acid scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/thiocid-300-reg",
@@ -3899,7 +3899,7 @@
         "Muscle",
         "Recovery"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-amino-complex-berry-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscles-and-your-lo/primary.webp",
       "gallery_images": [
@@ -4013,14 +4013,14 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 89,
-          "weighted_score": 22.25
+          "raw_score": 88,
+          "weighted_score": 22.0
         },
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 82,
-          "weighted_score": 16.4
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -4037,8 +4037,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 75,
-          "weighted_score": 7.5
+          "raw_score": 70,
+          "weighted_score": 7.0
         },
         {
           "name": "Manufacturing",
@@ -4053,7 +4053,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Amino Complex scores 88/100 (B grade). Strengths: 3 Grade A, 9 Grade B ingredients. ",
+      "explanation": "Amino Complex - Berry scores 87/100 (B grade). Strengths: 2 Grade A, 9 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/amino-complex-berry",
@@ -4071,8 +4071,8 @@
         "Muscle",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-amino-complex-lemon-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscles-and-your-lo/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-amino-complex-lemon-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscles-and-your-lo/gallery_1.webp",
@@ -4191,8 +4191,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -4209,8 +4209,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 75,
-          "weighted_score": 7.5
+          "raw_score": 70,
+          "weighted_score": 7.0
         },
         {
           "name": "Manufacturing",
@@ -4225,7 +4225,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Amino Complex - Lemon: Clinically validated EAA and BCAA formula that supports your muscles and your love for training and weightlifting* scores 90/100 (A grade). Strengths: 3 Grade A, 10 Grade B ingredients. ",
+      "explanation": "Amino Complex - Lemon scores 87/100 (B grade). Strengths: 2 Grade A, 9 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/amino-complex-lemon",
@@ -4243,7 +4243,7 @@
         "Muscle",
         "Recovery"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-amino-complex-travel-packs-berry-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscle/primary.webp",
       "gallery_images": [
@@ -4366,8 +4366,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 75,
-          "weighted_score": 15.0
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -4384,14 +4384,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 75,
-          "weighted_score": 7.5
+          "raw_score": 70,
+          "weighted_score": 7.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -4400,7 +4400,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Amino Complex - Travel Packs - Berry: Clinically validated EAA and BCAA formula that supports your muscles and your love for training and weightlifting* scores 88/100 (B). Good — solid product with minor areas for improvement. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Amino Complex - Travel Packs - Berry scores 87/100 (B grade). Strengths: 2 Grade A, 9 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/amino-complex-berry-sp641p",
@@ -4418,7 +4418,7 @@
         "Muscle",
         "Recovery"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-amino-complex-travel-packs-lemon-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscle/primary.webp",
       "gallery_images": [
@@ -4541,8 +4541,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 75,
-          "weighted_score": 15.0
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -4559,14 +4559,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 75,
-          "weighted_score": 7.5
+          "raw_score": 70,
+          "weighted_score": 7.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -4575,7 +4575,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Amino Complex - Travel Packs - Lemon: Clinically validated EAA and BCAA formula that supports your muscles and your love for training and weightlifting* scores 88/100 (B). Good — solid product with minor areas for improvement. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Amino Complex - Travel Packs - Lemon scores 87/100 (B grade). Strengths: 2 Grade A, 9 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/amino-complex-lemon-sp637p",
@@ -4654,8 +4654,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
@@ -4687,8 +4687,8 @@
         "Brain Health",
         "Energy"
       ],
-      "score": 91,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-b-complex-12/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-b-complex-12/gallery_1.webp",
@@ -4794,8 +4794,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 88,
-          "weighted_score": 17.6
+          "raw_score": 83,
+          "weighted_score": 16.6
         },
         {
           "name": "Bioavailability",
@@ -4812,14 +4812,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -4828,7 +4828,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "B-Complex #12 scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "B-Complex #12 scores 89/100 (B grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-B-Complex-Vitamin-Capsules/dp/B0797JXKL9/ref=sr_1_1?crid=1O7XB6LZTPJ8R&dib=eyJ2IjoiMSJ9.Bw6Mrrr0b3PdcqDHWp5uEawrGMNxjGsEXOaBb1dQde6sB323sGbz8C6KmgQzARoF4RWsOQgHAQMLRgLBhKbatIE-hHA0BiO4m1hsQOzdOEiDT2RguX2a_PI2RA76v1jmYcD9YgeyYkxS5fS0G_EoLbtK5jSAqbkf8zYhrxGJxLHqNGdPt3rXio5UBmvNIUuq03ah6bmHEuBcrtoiyEUIGO1j74LVzHfsprw0xUi0Cv1wqY1Fd-2_CYhPLU-vRquhSyj1OpIl-D8XOKROW04AB6qMnmZj5e7P_oY99D1JJ4Y.ByKk_O0XFQwiDG9iAmUMsSGlLL6LDQtXi4g9k3YvSI0&dib_tag=se&keywords=thorne+B-Complex+%2312&qid=1767661582&sprefix=thorne+b-complex+12%2Caps%2C195&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-b-complex-12-60-capsules/18126",
       "url": "https://www.thorne.com/products/dp/b-complex-12",
@@ -4845,7 +4845,7 @@
         "Women's Health",
         "Energy"
       ],
-      "score": 92,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-b-complex-6/primary.webp",
       "gallery_images": [
@@ -4951,8 +4951,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 90,
-          "weighted_score": 18.0
+          "raw_score": 85,
+          "weighted_score": 17.0
         },
         {
           "name": "Bioavailability",
@@ -4969,14 +4969,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 90,
-          "weighted_score": 9.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -4985,7 +4985,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "B-Complex #6 scores 92/100 (A grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
+      "explanation": "B-Complex #6 scores 90/100 (A grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-B-Complex-Essential-Vitamins/dp/B0797RXHJ7/ref=sr_1_1?crid=ET6WTIR21VKH&dib=eyJ2IjoiMSJ9.-j1y2B0Co8xMee9TSBXlFawrGMNxjGsEXOaBb1dQde7m8piQ3s6Ipqj5AsCSDQYuJDgEGXfyLIhRbJ8eJIxT5YcGY3jcIr-uUgON-y-9XkR7rqKMVWAtzPfFds2WZFt-BJN-EroS61U0D-aBF1DZVeH3AvixuKzsj6faoGi053xUHoZzaWwcdjzpVdBqcyGsLdxtlHACwP56ZY5CpfrtXQ0PbwplTOemck8Rq8qY75LG3TD2tvC2UKPnt8drM-t4p2loMbfkTHEqwV-HRhVpOviidt2q46ydk_NU-RcRIWE.5K3QUfw4O0-Dnnom80MELiGGgLbqrQvFCbSXi7xhfso&dib_tag=se&keywords=thorne+B-Complex+%236&qid=1767983928&sprefix=thorne+b-complex+6%2Caps%2C222&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-b-complex-6-60-capsules/18129",
       "url": "https://www.thorne.com/products/dp/b-complex-6",
@@ -5084,7 +5084,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Bacillus Coagulans: An everyday, all-ages probiotic that promotes GI function and bowel regularity* scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
+      "explanation": "Bacillus Coagulans scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/bacillus-coagulans",
@@ -5101,8 +5101,8 @@
         "Stress",
         "Energy"
       ],
-      "score": 91,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-basic-b-complex/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-basic-b-complex/gallery_1.webp",
@@ -5207,8 +5207,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 88,
-          "weighted_score": 17.6
+          "raw_score": 83,
+          "weighted_score": 16.6
         },
         {
           "name": "Bioavailability",
@@ -5225,14 +5225,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -5241,7 +5241,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Basic B Complex scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Basic B Complex scores 89/100 (B grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/THORNE-Basic-B-Complex-Tissue-Ready-Gluten-Free/dp/B00HST919C/ref=sr_1_1?crid=1LR6WG2WV7B3M&dib=eyJ2IjoiMSJ9.yYNdycbb2JifvmKvrqIRnrRwdKWJTAJ1u32l5q0U8uYwPxJa6gMxvthNpFWA-OZWV3L7YpZfMN5jOZ_yRaItfnSEhjvAJ6O089rb8ZLQByfObbcohFQe7D1QNBAqRsa3Uexmx2HCOr-IE8ykq4s87j2rKv3bG1Tv4C0oqYTuyfBc7j6bV325iKdNr2R9VVSZwcft0VWX1Gk0PTeLM0Kxc2KgwLQUnsmTFVbCMOgTPxhXzYU07ubAlP2t1hyXmd8OAYlBLF5SgiA0KIRiewdWs9WyMX0AUEU6GYCUD7PFdSY.mGnw2uSzY_mNgTyPkdCUBYfuoCGRBAhcwtrSyLtZiig&dib_tag=se&keywords=thorne+Basic+B+Complex&qid=1767582895&sprefix=thorne+basic+b+complex%2Caps%2C254&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-basic-b-complex-60-capsules/18791",
       "url": "https://www.thorne.com/products/dp/basic-b-complex",
@@ -5474,8 +5474,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 86,
-          "weighted_score": 17.2
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -5492,14 +5492,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -5508,7 +5508,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Basic Nutrients 2/Day scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Basic Nutrients 2/Day scores 91/100 (A grade). Strengths: 19 Grade A, 7 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Basic-Nutrients-Comprehensive-Bioavailability/dp/B00FOTMGTU/ref=sr_1_1_sspa?crid=39SV89TAIRYOQ&dib=eyJ2IjoiMSJ9.4Xj7HGLL0u8ZohpIsUlcJLSYnX-C4EZCosOn6H0on_mY3B61Zs799xUqiwT_8BOJvqH9xy4zrXKQ6DwCDNsKNbJwqZtCR1h4oVc1oOAe3tczvKSqTlAnaBt8nRzP_4sDH_yf5Dg0mqGFP7JrDrewXSwNXZ7BeU280hU8bCMxk6FhVznACXSOg6dL9UiFegZKf-peqSTPHLD4ezsmyhU9Q5C0ZjV6RFYbD4ZLUbMrBrFLZShk6253Zx9r7aDFR7dYE7JMHKQn13tFUqfjFAZ9ySt854cFtRe-Kz57niei_1M.cFb_bb-sWMR18o3QKyL1_2cqb_RDz_O0Yxp9Rg3ECDI&dib_tag=se&keywords=Thorne+Basic+Nutrients+2%2FDay+-+60+Servings&qid=1767571046&sprefix=thorne+basic+nutrients+2%2Fday+-+60+servings%2Caps%2C252&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-basic-nutrients-2-day-60-capsules/85476",
       "url": "https://www.thorne.com/products/dp/basic-nutrients-2-day-120",
@@ -5524,7 +5524,7 @@
       "category_tags": [
         "General Health"
       ],
-      "score": 94,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-basic-nutrients-2-day/primary.webp",
       "gallery_images": [
@@ -5747,8 +5747,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 87,
-          "weighted_score": 17.4
+          "raw_score": 82,
+          "weighted_score": 16.4
         },
         {
           "name": "Bioavailability",
@@ -5765,14 +5765,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -5781,7 +5781,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Basic Nutrients 2/Day scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Basic Nutrients 2/Day scores 91/100 (A grade). Strengths: 20 Grade A, 7 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-basic-nutrients-2-day-60-capsules/85476",
       "url": "https://www.thorne.com/products/dp/basic-nutrients-2-day-vm2nc",
@@ -5797,7 +5797,7 @@
       "category_tags": [
         "General Health"
       ],
-      "score": 94,
+      "score": 90,
       "grade": "A",
       "image_url": null,
       "gallery_images": [],
@@ -6014,8 +6014,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 86,
-          "weighted_score": 17.2
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Bioavailability",
@@ -6032,14 +6032,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -6048,7 +6048,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Basic Nutrients 2/Day scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Basic Nutrients 2/Day scores 90/100 (A grade). Strengths: 20 Grade A, 7 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-basic-nutrients-2-day-60-capsules/85476",
       "url": "https://www.thorne.com/products/dp/basic-nutrients-2-day",
@@ -6064,7 +6064,7 @@
       "category_tags": [
         "Women's Health"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-basic-prenatal/primary.webp",
       "gallery_images": [
@@ -6273,8 +6273,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 87,
-          "weighted_score": 17.4
+          "raw_score": 82,
+          "weighted_score": 16.4
         },
         {
           "name": "Bioavailability",
@@ -6291,14 +6291,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -6307,7 +6307,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Basic Prenatal scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Basic Prenatal scores 90/100 (A grade). Strengths: 20 Grade A, 5 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/s?k=thorne+basic+prenatal&crid=3MBJS3DP1GWMP&sprefix=thorne+basic+pre%2Caps%2C214&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_ci_hl-bn-left_1_16",
       "iherb_url": "https://www.iherb.com/pr/thorne-basic-prenatal-90-capsules/18131",
       "url": "https://www.thorne.com/products/dp/basic-prenatal",
@@ -6431,7 +6431,7 @@
         "Blood Sugar",
         "GI Support"
       ],
-      "score": 95,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-berberine-a-powerful-botanical-for-heart-health-metabolic-support-glucose-balance-and-gi-support/primary.webp",
       "gallery_images": [
@@ -6503,8 +6503,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 90,
-          "weighted_score": 9.0
+          "raw_score": 84,
+          "weighted_score": 8.4
         },
         {
           "name": "Manufacturing",
@@ -6519,7 +6519,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Berberine - 200 mg scores 95/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Berberine - 200 mg scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/berbercap-reg",
@@ -6537,7 +6537,7 @@
         "Muscle",
         "Endurance"
       ],
-      "score": 98,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-beta-alanine-sr-train-harder-for-longer-with-support-for-muscle-output-and-endurance/primary.webp",
       "gallery_images": [
@@ -6607,14 +6607,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -6623,7 +6623,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Beta Alanine-SR: Train harder for longer with support for muscle output and endurance* scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Beta Alanine-SR scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/beta-alanine-sr",
@@ -6639,7 +6639,7 @@
       "category_tags": [
         "GI Support"
       ],
-      "score": 86,
+      "score": 85,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-betaine-hcl-pepsin-supports-a-healthy-digestive-environment-to-provide-relief-from-symptoms-related/primary.webp",
       "gallery_images": [
@@ -6728,7 +6728,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Betaine HCL & Pepsin: Supports a healthy digestive environment to provide relief from symptoms related to occasional indigestion* scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Betaine HCL & Pepsin scores 85/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/betaine-hcl-pepsin-225-s",
@@ -6744,8 +6744,8 @@
       "category_tags": [
         "Skin / Hair"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-biotin/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-biotin/gallery_1.webp",
@@ -6811,14 +6811,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -6827,7 +6827,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Biotin scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Safety: Drug interactions: None significant. ",
+      "explanation": "Biotin scores 89/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Vitamin-Healthy-Capsules/dp/B0797CG5R8/ref=sr_1_1_sspa?crid=1KBZROQLDMNWK&dib=eyJ2IjoiMSJ9.mDn2LuD9PQIth3A4mVuM3QF08P-FYPyP-mKKzH7EzXHgm3YLaejioiS1GtjttP0AvxYM77yO77klmrpJcyHXwfsYV1LeSS8J-KAHirU9K2dua7rwhYcOdyVAfq9UpUh0SS59r5Too6iQtHFIKkgYbppCIDQC9aOdR4vR_EACyVA88cR7J5pMzJkAp_JHGI7x7TBoUULt7elkHTmpmAXF_BSnF4MwCvMKfj5GTtTRmbEiTR59VlhGZP0yBY6Z6-lpvBALF2crRzAk9jT1-29u5PUUbpURcrDBAyIxBgB4gk4.zui-TKgjq4aw5V5RjYydOBXpsR8xhnKSz7cX6VpPqww&dib_tag=se&keywords=thorne+Biotin&qid=1767983192&sprefix=thorne+biotin%2Caps%2C188&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-biotin-8-000-mcg-60-capsules/18454",
       "url": "https://www.thorne.com/products/dp/biotin-8",
@@ -6925,7 +6925,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Boswellia Phytosome: Supports a healthy inflammatory response* scores 89/100 (B grade). Strengths: 1 ingredients with Grade B evidence. ",
+      "explanation": "Boswellia Phytosome scores 89/100 (B grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/boswellia-phytosome",
@@ -6943,7 +6943,7 @@
         "Cognition",
         "Memory"
       ],
-      "score": 87,
+      "score": 86,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-brain-factors-help-your-brain-reach-full-potential-by-promoting-cognition-learning-and-memory-functi/primary.webp",
       "gallery_images": [
@@ -7004,8 +7004,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 81,
-          "weighted_score": 16.2
+          "raw_score": 76,
+          "weighted_score": 15.2
         },
         {
           "name": "Bioavailability",
@@ -7022,8 +7022,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
@@ -7038,7 +7038,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Brain Factors: Help your brain reach full potential by promoting cognition, learning, and memory function* scores 87/100 (B grade). Strengths: 3 ingredients with Grade B evidence. ",
+      "explanation": "Brain Factors scores 86/100 (B grade). Strengths: 4 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/brain-factors",
@@ -7055,7 +7055,7 @@
         "Liver Support",
         "Antioxidant"
       ],
-      "score": 92,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-broccoli-seed-extract-long-lasting-cell-protection-and-liver-detoxification-with-an-advanced-antioxi/primary.webp",
       "gallery_images": [
@@ -7109,8 +7109,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 95,
-          "weighted_score": 23.75
+          "raw_score": 90,
+          "weighted_score": 22.5
         },
         {
           "name": "Dose Accuracy",
@@ -7121,8 +7121,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 85,
-          "weighted_score": 17.0
+          "raw_score": 88,
+          "weighted_score": 17.6
         },
         {
           "name": "Transparency",
@@ -7133,8 +7133,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
@@ -7149,7 +7149,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Broccoli Seed Extract: Long-lasting cell protection and liver detoxification with an advanced antioxidant formula derived from vegetables* scores 92/100 (A grade). Strengths: 2 Grade A, 1 Grade B ingredients. ",
+      "explanation": "Broccoli Seed Extract scores 90/100 (A grade). Strengths: 1 Grade A, 2 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/crucera-sgs",
@@ -7165,7 +7165,7 @@
       "category_tags": [
         "Bone Support"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-calcium/primary.webp",
       "gallery_images": [
@@ -7231,14 +7231,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -7247,7 +7247,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Calcium scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Calcium scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-DiCalcium-Concentrated-Supplement/dp/B06VVTCHB8/ref=sr_1_1_sspa?crid=2MFIUDSCU31IB&dib=eyJ2IjoiMSJ9.YmE_n0n_HyTpfYQD7t-rd9PpraMTAF0aJcSkKIQ8fOffZ7jNfBD7faxJSQT4lHvl40PhqHTBRegg_uZxttnFIHI-Hi_Fkd0lMYQhI7gYoyR2G5sL3kCBnJ6FtpPMJygg3we1E_4ALkwLPEnLMNDAYzl-5WySODk3uLPy6WmQ1aBU4Q8TZG9aV9IR-aeCaqfaus-3fcAxtwSSogD5ni4QfkIJVp8-BE5EYUkFYbcKFM0BrWG2ZVgMtb3gQtN_t_peDcMFXHihqP0Dqm-lO_he4TUiFdAetX5y4Jy0sxHmRXU._Iwz0V6a2Gm9nYnghZey87lDSc1BfcskHsUaEW_zs_I&dib_tag=se&keywords=thorne+Calcium&qid=1767995809&sprefix=thorne+calcium%2Caps%2C197&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-calcium-120-capsules-250-mg-per-capsule/72885",
       "url": "https://www.thorne.com/products/dp/dicalcium-malate",
@@ -7264,8 +7264,8 @@
         "Sports Performance",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 88,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-catalyte-restores-electrolytes-that-promote-performance-endurance-and-recovery/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-catalyte-restores-electrolytes-that-promote-performance-endurance-and-recovery/gallery_1.webp",
@@ -7418,8 +7418,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 93,
-          "weighted_score": 18.6
+          "raw_score": 87,
+          "weighted_score": 17.4
         },
         {
           "name": "Transparency",
@@ -7430,8 +7430,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
@@ -7446,7 +7446,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Catalyte®: Restores electrolytes that promote performance, endurance, and recovery* scores 90/100 (A grade). Strengths: 12 Grade A, 3 Grade B ingredients. ",
+      "explanation": "Catalyte® scores 88/100 (B grade). Strengths: 12 Grade A, 3 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/catalyte-lemon-lime",
@@ -7463,7 +7463,7 @@
         "Blood Sugar",
         "Metabolism"
       ],
-      "score": 92,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-chromium-picolinate-essential-mineral-that-supports-healthy-blood-sugar-levels-and-helps-lessen-carb/primary.webp",
       "gallery_images": [
@@ -7546,7 +7546,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Chromium Picolinate: Essential mineral that supports healthy blood sugar levels and helps lessen carbohydrate cravings* scores 92/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Chromium Picolinate scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/chromium-picolinate",
@@ -7648,14 +7648,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 96,
-          "weighted_score": 9.6
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -7682,7 +7682,7 @@
         "Joint Support",
         "Sports Performance"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-collagen-fit/primary.webp",
       "gallery_images": [
@@ -7762,8 +7762,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 81,
-          "weighted_score": 16.2
+          "raw_score": 76,
+          "weighted_score": 15.2
         },
         {
           "name": "Bioavailability",
@@ -7780,14 +7780,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 97,
+          "weighted_score": 9.7
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -7796,7 +7796,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Collagen Fit scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Collagen Fit scores 90/100 (A grade). Strengths: 1 Grade A, 4 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Collagen-Fit-Unflavored-Nicotinamide/dp/B0B7K9Y1FD/ref=sr_1_1?crid=30OXDOXHFPFBB&dib=eyJ2IjoiMSJ9.y4KF-fv5CBbfm0V9bC1kRHAVx8V2VL0f3KCUXSZd3O_Pi8pW8flpa4EWkZFGUq6zK_koJF9OL3R7T-hIszdL3l-L9WWjt-X4xNFBAAzMbuM0ENoXX5czBoA4nAirQnnKj3-mGAKe1zoH1QLOluaCoie5IQgpe6UXO38bIf8AhkhHhy7jtnJnIoH5-1OTQXVOIEyasOBQKTkbS3N-nLGlOO0kN0QJYLYma6GewdzlwPPOPFjrM3OLTfPVmIsE87yALy8I0HI9caqMBlpow3uAc6pDkklMYBWRTKdjOujSVN0.J8YYf2yRC7to-4lKli_B_DsMI32ovL-iK_lHQl2h5RE&dib_tag=se&keywords=thorne+Collagen+Fit&qid=1767582202&sprefix=thorne+collagen+fit%2Caps%2C233&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-collagen-fit-17-8-oz-506-g/114841",
       "url": "https://www.thorne.com/products/dp/collagen-fit",
@@ -7813,7 +7813,7 @@
         "Healthy Aging",
         "Skin / Hair"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-collagen-plus/primary.webp",
       "gallery_images": [
@@ -7914,20 +7914,20 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 85,
-          "weighted_score": 21.25
+          "raw_score": 90,
+          "weighted_score": 22.5
         },
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 79,
-          "weighted_score": 15.8
+          "raw_score": 73,
+          "weighted_score": 14.6
         },
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 93,
-          "weighted_score": 18.6
+          "raw_score": 95,
+          "weighted_score": 19.0
         },
         {
           "name": "Transparency",
@@ -7938,14 +7938,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 97,
+          "weighted_score": 9.7
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 90,
-          "weighted_score": 9.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -7954,7 +7954,7 @@
           "weighted_score": 2.0
         }
       ],
-      "explanation": "Collagen Plus scores 88/100 (B grade). Strengths: 4 ingredients with Grade B evidence. ",
+      "explanation": "Collagen Plus scores 87/100 (B grade). Strengths: 1 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Collagen-Peptides-Nicotinamide-Riboside/dp/B09BT31TW2/ref=sr_1_1_sspa?crid=2IUGCWMEYFNK1&dib=eyJ2IjoiMSJ9.KbT48LsbdTjDqTzvANxM8mKnIm4LOcmFpC21Ovq5teVN2tGLyhXee-GbDps9LNtLT1qyNUnTjE5iGXXErvkdvVwa6sCzjjqVryX_XoiXsF2CeiJZ_Ck_2DXorzRYBX1KD_CdalBqvQqzMdjL4vyy0eDGPwHSSN0sd2zENhyc1RxDXsSR3Zscm2Hehhd_p7WzajLamZEjfmRBsgBqGnqW8-tIn8FVxQepc7yUYRG3iEn6_QApRCIeukDQ2UY-g-lW8rtXTGGJOT8Z9aBh2pvkznuBLFFamWDEB8pyFjU5Nl4.WsaVV4WNbwtLKveSuEJ8vVq2Njk3u9k2XHSncD1tHQQ&dib_tag=se&keywords=thorne+Collagen+Plus&qid=1767657937&sprefix=thorne+collagen+plus%2Caps%2C187&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-collagen-plus-passion-berry-1-09-lb-495-g/110262",
       "url": "https://www.thorne.com/products/dp/collagen-plus",
@@ -7971,7 +7971,7 @@
         "GI Support",
         "Prebiotics"
       ],
-      "score": 79,
+      "score": 70,
       "grade": "C",
       "image_url": "/images/products/thorne/thorne-complete-biotic-supports-a-healthy-microbiome-for-complete-gut-comfort/primary.webp",
       "gallery_images": [
@@ -8039,8 +8039,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 70,
-          "weighted_score": 14.0
+          "raw_score": 27,
+          "weighted_score": 5.4
         },
         {
           "name": "Bioavailability",
@@ -8057,8 +8057,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
@@ -8073,7 +8073,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Complete Biotic: Supports a healthy microbiome for complete gut comfort* scores 79/100 (C). Average — decent but has notable gaps in quality or evidence. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Complete Biotic scores 70/100 (C grade). Strengths: Third-party testing verified. Areas for improvement: Below RDA: Bacillus subtilis.",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/complete-biotic",
@@ -8090,7 +8090,7 @@
         "Heart Health",
         "Bone Support"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-copper-bisglycinate-a-well-absorbed-form-of-copper-which-is-essential-for-heart-blood-vessel-nerve-c/primary.webp",
       "gallery_images": [
@@ -8172,7 +8172,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Copper Bisglycinate: A well-absorbed form of copper, which is essential for heart, blood vessel, nerve, collagen health* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Copper Bisglycinate scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/copper-bisglycinate",
@@ -8190,7 +8190,7 @@
         "Mood",
         "Weight Management"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-craving-and-stress-support-manage-the-effects-of-stress-with-a-formula-that-reduces-cravings-promote/primary.webp",
       "gallery_images": [
@@ -8279,8 +8279,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 98,
-          "weighted_score": 19.6
+          "raw_score": 99,
+          "weighted_score": 19.8
         },
         {
           "name": "Bioavailability",
@@ -8297,8 +8297,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 91,
+          "weighted_score": 9.1
         },
         {
           "name": "Manufacturing",
@@ -8313,7 +8313,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Craving and Stress Support: Manage the effects of stress with a formula that reduces cravings, promotes a positive mood, and supports a balanced cortisol level* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Craving and Stress Support scores 93/100 (A grade). Strengths: 6 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/relora-plus",
@@ -8332,7 +8332,7 @@
         "Muscle",
         "Energy"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-creatine/primary.webp",
       "gallery_images": [
@@ -8404,8 +8404,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -8414,7 +8414,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Creatine scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Creatine scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Creatine-High-Quality-Monohydrate-Gluten-Free/dp/B07978VPPH/ref=sr_1_1?crid=99A76P8OFEWD&dib=eyJ2IjoiMSJ9.GJFPWJ6ZSABo7ziUATAR3PZ2YzXei_FigrEdZRAI1Clu-ZONKsyNNpaORUjBM7cYxAUBCiYMvoz3o1gSVmOmWibCyubG4tOea04YeOPTldwRC61wqJi0OPp8tQ66OKNFqdbgghILRyeQiSjSr85E0GtWErW7ppuOrwOkWdbJhkVnEQ5Vul4ZZiNxg4erD8t7nD6wJfplQwM3b8R4cb1ULdp-OjK-JIqfATJDD3p-q_O3JKjcVR41TmHqTu0WhkBsGWoMRYsdq7DCgL8DBa2aZcRiilo8yPp1UNQS6Kc1e6k.a81PB2rXT-Iu-XSffQjw7HeErrAH3rJSKOERqkFFW_s&dib_tag=se&keywords=thorne+creatine&qid=1767560579&sprefix=thorne+crea%2Caps%2C317&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
       "url": "https://www.thorne.com/products/dp/creatine-sf904",
@@ -8432,7 +8432,7 @@
         "Sports Performance",
         "Muscle"
       ],
-      "score": 97,
+      "score": 96,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-creatine-alpha-gpc/primary.webp",
       "gallery_images": [
@@ -8530,8 +8530,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -8540,7 +8540,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Creatine + Alpha GPC scores 97/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Creatine + Alpha GPC scores 96/100 (A grade). Strengths: 2 Grade A, 1 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/THORNE-Micronized-Monohydrate-Cognitive-Watermelon/dp/B0FLZXHZ8F/ref=sr_1_2?crid=2PROR3O7R7OHS&dib=eyJ2IjoiMSJ9.OAxJUhX0T9rPs85rlJYr6JbD8oG9hpBkYkCrH379JFXl-gg9KbduovXYEvXmLLln0M-bdbHnZUjGHTlMU-abAL8uRpgt_uXJg67GyeKjeZ0cXrMPQfkbI6gkC5Lj3CyQZmJq3KzYV7DGVcf4M3Iu2u11h2gMJ5wXYTENRcdWYtnGjNo_6aW0uvx1ZrA07-rRMUYq_hQXDh1bBbDEtvZMpWR11F0V5Xep9bhMSwfYf_bvUV09OKHqqupsBO1eEbll4yJyL1wqmnXKVF2QBt-sM6KYatVw6l_4gScSBigJvd4.ZNcvQUO0FaVe2UdRJlDQCcOaPtdpt_O0qUN5yVXyPAA&dib_tag=se&keywords=Thorne+Creatine+%2B+Alpha+GPC&qid=1767571203&sprefix=thorne+creatine+%2B+alpha+gpc%2Caps%2C268&sr=8-2",
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/creatine-alpha-gpc",
@@ -8712,7 +8712,7 @@
         "Muscle",
         "Energy"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-creatine-pineapple-orange-high-quality-creatine-for-lean-muscle-mass-endurance-cellular-energy-and-b/primary.webp",
       "gallery_images": [
@@ -8779,14 +8779,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -8795,7 +8795,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Creatine - Pineapple Orange: High-quality creatine for lean muscle mass, endurance, cellular energy, and brain function* scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Creatine - Pineapple Orange scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/creatine-pineapple-orange-flavored",
@@ -8814,7 +8814,7 @@
         "Muscle",
         "Energy"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-creatine-strawberry-high-quality-creatine-for-lean-muscle-mass-endurance-cellular-energy-and-brain-f/primary.webp",
       "gallery_images": [
@@ -8882,14 +8882,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -8898,7 +8898,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Creatine - Strawberry: High-quality creatine for lean muscle mass, endurance, cellular energy, and brain function* scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Creatine - Strawberry scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/creatine-strawberry-flavored",
@@ -8917,7 +8917,7 @@
         "Muscle",
         "Energy"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-creatine-travel-packs-high-quality-creatine-for-lean-muscle-mass-endurance-cellular-energy-and-brain/primary.webp",
       "gallery_images": [
@@ -8982,14 +8982,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -8998,7 +8998,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Creatine - Travel Packs: High-quality creatine for lean muscle mass, endurance, cellular energy, and brain function* scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Creatine - Travel Packs scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/creatine-sf903p",
@@ -9081,26 +9081,26 @@
         {
           "name": "Transparency",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 75,
-          "weighted_score": 3.75
+          "raw_score": 60,
+          "weighted_score": 3.0
         }
       ],
       "explanation": "Curcumin Phytosome scores 91/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
@@ -9413,7 +9413,7 @@
         "Immune Support",
         "Bone Support"
       ],
-      "score": 95,
+      "score": 94,
       "grade": "A",
       "image_url": null,
       "gallery_images": [],
@@ -9482,8 +9482,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -9492,7 +9492,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "D-1,000 scores 95/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "D-1,000 scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/THORNE-Vitamin-D-1000-Cardiovascular-Gluten-Free/dp/B0797H3VQS/ref=sr_1_1?crid=2YN5ETZRXN2DE&dib=eyJ2IjoiMSJ9.hCuq1B8XgfvY-2FPMXtDwWrfvZVQ201aCIdgCzW0emnzt9qfi0Oy7TOz6XbQgp3fb_yLBoPFJLUqMmJ5SjOWjGRDoQXgYKIrCVtboek94NomadmcpdB_Mj5MJDKhW9BAScnmbeb6WQwKXQznYOt5JzFM3X8wgnihp9yszreDZ30iS7h5FD3Gn1wwmRvcCgPhbomSWHhVFGVU1vfLrAxu6hmkBHifLM2HlJ1VYC1uhbNo0__LnaXF31RnHMmgPhxTigrT6B2XCnG8blXYukI4IUXf0DfY0Pe__bKXbsyu3u4.z6AVcFckEwnyo52UJHZDFFD9FjTE33LvA4mhMRQO5Po&dib_tag=se&keywords=thorne%2BVitamin%2BD-1%2C000%2B-%2B90%2BServings&qid=1767981264&sprefix=thorne%2Bvitamin%2Bd-1%2C000%2B-%2B90%2Bservings%2Caps%2C209&sr=8-1&th=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-d-1-000-90-capsules-25-mcg-per-capsule/18445",
       "url": "https://www.thorne.com/products/dp/d-1000-vitamin-d-capsule",
@@ -9603,7 +9603,7 @@
         "Energy",
         "Antioxidant"
       ],
-      "score": 84,
+      "score": 82,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-daily-greens-plus-energize-your-morning-or-break-through-an-afternoon-slump-with-the-power-of-daily/primary.webp",
       "gallery_images": [
@@ -9843,14 +9843,14 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 65,
-          "weighted_score": 13.0
+          "raw_score": 56,
+          "weighted_score": 11.2
         },
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 90,
-          "weighted_score": 18.0
+          "raw_score": 88,
+          "weighted_score": 17.6
         },
         {
           "name": "Transparency",
@@ -9877,7 +9877,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Daily Greens Plus: Energize your morning – or break through an afternoon slump – with the power of Daily Greens Plus* scores 84/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Daily Greens Plus scores 82/100 (B grade). Strengths: 5 Grade A, 24 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/daily-greens-plus",
@@ -10005,7 +10005,7 @@
         "Blood Sugar",
         "Metabolism"
       ],
-      "score": 86,
+      "score": 85,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-diabenil-a-unique-blend-of-botanicals-and-nutrients-to-help-maintain-healthy-blood-sugar-levels/primary.webp",
       "gallery_images": [
@@ -10088,8 +10088,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 87,
-          "weighted_score": 21.75
+          "raw_score": 88,
+          "weighted_score": 22.0
         },
         {
           "name": "Dose Accuracy",
@@ -10112,8 +10112,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
@@ -10128,7 +10128,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Diabenil®: A unique blend of botanicals and nutrients to help maintain healthy blood sugar levels* scores 86/100 (B grade). Strengths: 1 Grade A, 6 Grade B ingredients. ",
+      "explanation": "Diabenil® scores 85/100 (B grade). Strengths: 1 Grade A, 5 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/diabenil-reg",
@@ -10145,8 +10145,8 @@
         "Sports Performance",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-daily-electrolytes-blood-orange-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-daily-electrolytes-blood-orange-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/gallery_1.webp",
@@ -10243,14 +10243,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 88,
+          "weighted_score": 8.8
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -10259,7 +10259,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Daily Electrolytes - Blood Orange: Replenish electrolytes to optimize cellular rehydration and recovery* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. Areas for improvement: Dose Adequacy: Below RDA: Chloride (from Himalayan Pink Salt).",
+      "explanation": "Electrolytes - Blood Orange scores 87/100 (B grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/daily-electrolytes-blood-orange-flavored-drink-mix",
@@ -10276,8 +10276,8 @@
         "Sports Performance",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-daily-electrolytes-mango-limeade-replenish-electrolytes-to-optimize-cellular-rehydration-and-recover/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-daily-electrolytes-mango-limeade-replenish-electrolytes-to-optimize-cellular-rehydration-and-recover/gallery_1.webp",
@@ -10374,14 +10374,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 88,
+          "weighted_score": 8.8
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -10390,7 +10390,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Daily Electrolytes - Mango Limeade: Replenish electrolytes to optimize cellular rehydration and recovery* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. Areas for improvement: Dose Adequacy: Below RDA: Chloride (from Himalayan Pink Salt).",
+      "explanation": "Electrolytes - Mango Limeade scores 87/100 (B grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/daily-electrolytes-mangolimeade-flavored-drink-mix",
@@ -10407,8 +10407,8 @@
         "Sports Performance",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-daily-electrolytes-variety-pack-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-daily-electrolytes-variety-pack-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/gallery_1.webp",
@@ -10499,14 +10499,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 88,
+          "weighted_score": 8.8
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -10515,7 +10515,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Daily Electrolytes - Variety Pack: Replenish electrolytes to optimize cellular rehydration and recovery* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. Areas for improvement: Dose Adequacy: Below RDA: Chloride (from Himalayan Pink Salt).",
+      "explanation": "Electrolytes - Variety Pack scores 87/100 (B grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/daily-electrolytes-30-stick-variety-pack",
@@ -10532,8 +10532,8 @@
         "Sports Performance",
         "Recovery"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-daily-electrolytes-watermelon-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-daily-electrolytes-watermelon-replenish-electrolytes-to-optimize-cellular-rehydration-and-recovery/gallery_1.webp",
@@ -10632,14 +10632,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 88,
+          "weighted_score": 8.8
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -10648,7 +10648,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Daily Electrolytes - Watermelon: Replenish electrolytes to optimize cellular rehydration and recovery* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. Areas for improvement: Dose Adequacy: Below RDA: Chloride (from Himalayan Pink Salt).",
+      "explanation": "Electrolytes - Watermelon scores 87/100 (B grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/daily-electrolytes-watermelon-flavored-drink-mix",
@@ -10666,7 +10666,7 @@
         "Cognition",
         "Stress"
       ],
-      "score": 88,
+      "score": 86,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-emotion-balance-support-a-multi-faceted-formula-of-nutrients-and-botanicals-designed-to-safely-enhan/primary.webp",
       "gallery_images": [
@@ -10780,8 +10780,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 92,
-          "weighted_score": 23.0
+          "raw_score": 90,
+          "weighted_score": 22.5
         },
         {
           "name": "Dose Accuracy",
@@ -10792,8 +10792,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 90,
-          "weighted_score": 18.0
+          "raw_score": 89,
+          "weighted_score": 17.8
         },
         {
           "name": "Transparency",
@@ -10804,8 +10804,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 81,
-          "weighted_score": 8.1
+          "raw_score": 65,
+          "weighted_score": 6.5
         },
         {
           "name": "Manufacturing",
@@ -10820,7 +10820,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Emotion Balance Support: A multi-faceted formula of nutrients and botanicals designed to safely enhance mood and cognition* scores 88/100 (B grade). Strengths: Mixed evidence quality (6 A, 4 B). ",
+      "explanation": "Emotion Balance Support scores 86/100 (B grade). Strengths: Mixed evidence quality (5 A, 5 B). ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/deproloft-hf",
@@ -10965,7 +10965,7 @@
         "GI Support",
         "Liver Support"
       ],
-      "score": 83,
+      "score": 81,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-fibermend/primary.webp",
       "gallery_images": [
@@ -11072,8 +11072,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 76,
-          "weighted_score": 15.2
+          "raw_score": 57,
+          "weighted_score": 11.4
         },
         {
           "name": "Bioavailability",
@@ -11090,14 +11090,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 82,
-          "weighted_score": 8.2
+          "raw_score": 76,
+          "weighted_score": 7.6
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -11106,7 +11106,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "FiberMend scores 83/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "FiberMend scores 81/100 (B grade). Strengths: 2 Grade A, 4 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/s?k=thorne+FiberMend®&crid=2GOS3VNH2A0JS&sprefix=thorne+fibermend+%2Caps%2C271&ref=nb_sb_noss_2",
       "iherb_url": "https://www.iherb.com/pr/thorne-fibermend-prebiotic-11-6-oz-330-g/71894",
       "url": "https://www.thorne.com/products/dp/fibermend-trade",
@@ -11246,7 +11246,7 @@
         "GI Support",
         "Sports Performance"
       ],
-      "score": 93,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-florasport-20b-the-four-unique-strains-in-florasport-20b-provide-20-billion-live-organisms-per-capsu/primary.webp",
       "gallery_images": [
@@ -11340,8 +11340,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -11350,7 +11350,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "FloraSport 20B®: The four unique strains in FloraSport 20B provide 20 billion live organisms per capsule scores 93/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "FloraSport 20B® scores 91/100 (A grade). Strengths: Mixed evidence quality (1 A, 1 B). ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/florasport-20b",
@@ -11488,7 +11488,7 @@
         "Energy",
         "Cognition"
       ],
-      "score": 89,
+      "score": 88,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-ginseng-plus-feel-the-benefits-while-building-stress-resiliency-and-managing-the-impact-of-stress-wi/primary.webp",
       "gallery_images": [
@@ -11569,8 +11569,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -11585,7 +11585,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Ginseng Plus: Feel the benefits while building stress resiliency and managing the impact of stress with Thorne’s newest botanical adaptogen and nootropic formula* scores 89/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
+      "explanation": "Ginseng Plus scores 88/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/ginseng-plus",
@@ -11602,7 +11602,7 @@
         "Joint Support",
         "Bone Support"
       ],
-      "score": 93,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-glucosamine/primary.webp",
       "gallery_images": [
@@ -11674,8 +11674,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
@@ -11690,7 +11690,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Glucosamine scores 93/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Glucosamine scores 92/100 (A grade). Strengths: 1 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-glucosamine-chondroitin-90-capsules/18565",
       "url": "https://www.thorne.com/products/dp/glucosamine-chondroitin",
@@ -11708,7 +11708,7 @@
         "Detox",
         "Antioxidant"
       ],
-      "score": 92,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-glutathione-sr/primary.webp",
       "gallery_images": [
@@ -11784,8 +11784,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -11794,7 +11794,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Glutathione-SR scores 92/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Glutathione-SR scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Glutathione-SR-Sustained-Release-Glutathione/dp/B004H6OLV2/ref=sr_1_1?crid=1LRBU1POIUD4C&dib=eyJ2IjoiMSJ9.cqPleqJ2IVSVVKpSP191ZAXga964nwWRk4pwJVO3rA8jZx1FEI99IDBZmTuvVlIDFrobvct0oe0jhFZvXZoDQNG1o8RVSWEdgH674_MoXqNbi5sQ-MMoqQFHxAGtHmt9mwwsmbZKsGlfveqM9V5Xm0M64m-BMG08ZuXaxc4CIS8WzCshr-rEPWolEmEFAWBc3ucLeeBLYmKkNivzWbYyqQrNO0zJSsM7FfhFSjU7gwxvPTVLf6TTPFS3ixpGKmsBVjR0dARwu_6ro5tchViMiQyVVBDBEYeA1sxSXunTQog.0Bse4rlKL5ue_K3-0TAOG_0r2d4Boi20OZbiEUDv8xY&dib_tag=se&keywords=thorne+Glutathione-SR&qid=1767983667&sprefix=thorne+glutathione-sr%2Caps%2C179&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-glutathione-sr-60-capsules-175-mg-per-capsule/18512",
       "url": "https://www.thorne.com/products/dp/glutathione-sr",
@@ -11878,8 +11878,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
@@ -11894,7 +11894,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Glycine: Amino acid that promotes relaxation, detoxification, and normal muscle function* scores 91/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
+      "explanation": "Glycine scores 91/100 (A grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/glycine",
@@ -11912,8 +11912,8 @@
         "Heart Health",
         "Eye Health"
       ],
-      "score": 93,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-grape-seed-extract-optimally-absorbed-grape-seed-extract-formulated-to-support-blood-vessel-strength/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-grape-seed-extract-optimally-absorbed-grape-seed-extract-formulated-to-support-blood-vessel-strength/gallery_1.webp",
@@ -11953,8 +11953,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 100,
-          "weighted_score": 25.0
+          "raw_score": 85,
+          "weighted_score": 21.25
         },
         {
           "name": "Dose Accuracy",
@@ -11993,7 +11993,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Grape Seed Extract: Optimally absorbed grape seed extract formulated to support blood vessel strength and eye health* scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Grape Seed Extract scores 89/100 (B grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/o-p-c-100-trade",
@@ -12011,7 +12011,7 @@
         "Liver Support",
         "Antioxidant"
       ],
-      "score": 95,
+      "score": 94,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-green-tea-phytosome-an-optimally-absorbed-form-of-green-tea-that-supports-fat-burning-and-provides-l/primary.webp",
       "gallery_images": [
@@ -12080,8 +12080,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
@@ -12096,7 +12096,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Green Tea Phytosome: An optimally absorbed form of green tea that supports fat burning and provides liver protection* scores 95/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Green Tea Phytosome scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/green-tea-phytosome",
@@ -12113,8 +12113,8 @@
         "Heart Health",
         "CoQ10"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 88,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-heart-health-complex-a-combination-of-coenzyme-q10-minerals-amino-acids-and-botanicals-to-benefit-th/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-heart-health-complex-a-combination-of-coenzyme-q10-minerals-amino-acids-and-botanicals-to-benefit-th/gallery_1.webp",
@@ -12196,8 +12196,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 93,
-          "weighted_score": 18.6
+          "raw_score": 89,
+          "weighted_score": 17.8
         },
         {
           "name": "Transparency",
@@ -12208,8 +12208,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 88,
-          "weighted_score": 8.8
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
@@ -12224,7 +12224,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Heart Health Complex: A combination of coenzyme Q10, minerals, amino acids, and botanicals to benefit the heart* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Heart Health Complex scores 88/100 (B grade). Strengths: 3 Grade A, 2 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/q10-plus-reg",
@@ -12241,7 +12241,7 @@
         "Immune Support",
         "Antioxidant"
       ],
-      "score": 89,
+      "score": 86,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-high-potency-vitamin-c-formerly-buffered-c-powder-vitamin-c-with-buffering-minerals-so-its-gentle-on/primary.webp",
       "gallery_images": [
@@ -12307,14 +12307,14 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 74,
-          "weighted_score": 14.8
+          "raw_score": 72,
+          "weighted_score": 14.4
         },
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 88,
-          "weighted_score": 17.6
+          "raw_score": 84,
+          "weighted_score": 16.8
         },
         {
           "name": "Transparency",
@@ -12325,8 +12325,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
@@ -12337,11 +12337,11 @@
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 75,
-          "weighted_score": 3.75
+          "raw_score": 90,
+          "weighted_score": 4.5
         }
       ],
-      "explanation": "High Potency Vitamin C (formerly Buffered C Powder): Vitamin C with buffering minerals, so it’s gentle on the stomach scores 89/100 (B grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "High Potency Vitamin C scores 86/100 (B grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/buffered-c-powder",
@@ -12470,7 +12470,7 @@
       "category_tags": [
         "Energy"
       ],
-      "score": 99,
+      "score": 96,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-iron-bisglycinate/primary.webp",
       "gallery_images": [
@@ -12538,14 +12538,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -12554,7 +12554,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Iron Bisglycinate scores 99/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Iron Bisglycinate scores 96/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Bisglycinate-Supplement-Gastrointestinal/dp/B0797GZDZL/ref=sr_1_1?crid=34WJAEC5IIYO4&dib=eyJ2IjoiMSJ9.KEiwvVKXnMtXRGrmh-Smrs-cdfKfKhVVrGSkk1exA5vJleZI9XUlbgr4gw0G_RlIYQQAGpwFNvNaYjk1bluy_cb1e_LHo62d4xOeE74TxW1JuZynUQKDIxXNixhmB6x-YbvMVedB93CRSKmGwisWuwxLKJslLfNn9zHyq3PRqmn74bE9La5w-MRUUMf99bIMpnK6ZJQdgmhm5-D5Tq-jejGs4l1tUZOptLkmBzXGtWLrmyycfX3LMvuSvGGkVHN5OQHQmNtcEA5dVPF5YpJEqGA6L_9ojG9mod43A_zPgkU.yR0HKRENagFkSWCmKCpgFvCn8GGsMFYDO7OJhRuvolA&dib_tag=se&keywords=Thorne+Iron+Bisglycinate&qid=1767571656&sprefix=thorne+iron+bisglycinate%2Caps%2C194&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-iron-bisglycinate-60-capsules-25-mg-per-capsule/52838",
       "url": "https://www.thorne.com/products/dp/iron-bisglycinate",
@@ -12910,8 +12910,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 79,
-          "weighted_score": 7.9
+          "raw_score": 76,
+          "weighted_score": 7.6
         },
         {
           "name": "Manufacturing",
@@ -12926,7 +12926,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "L-Arginine Plus: Maintain healthy blood pressure and support healthy aging with L-arginine and added antioxidant support* scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "L-Arginine Plus scores 86/100 (B grade). Strengths: Mixed evidence quality (4 A, 2 B). ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/perfusia-plus-reg",
@@ -12944,7 +12944,7 @@
         "Muscle",
         "Immune Support"
       ],
-      "score": 89,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-l-glutamine-an-amino-acid-that-promotes-post-exercise-muscle-cell-repair-and-supports-gastrointestin/primary.webp",
       "gallery_images": [
@@ -13016,8 +13016,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -13026,7 +13026,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "L-Glutamine: An amino acid that promotes post-exercise muscle cell repair and supports gastrointestinal and immune system health* scores 89/100 (B). Good — solid product with minor areas for improvement. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "L-Glutamine scores 87/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/l-glutamine",
@@ -13044,7 +13044,7 @@
         "Muscle",
         "Immune Support"
       ],
-      "score": 94,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-l-glutamine-powder-helps-with-muscle-cell-repair-post-exercise-and-promotes-gastrointestinal-and-imm/primary.webp",
       "gallery_images": [
@@ -13111,8 +13111,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -13121,7 +13121,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "L-Glutamine Powder: Helps with muscle cell repair post-exercise and promotes gastrointestinal and immune system health* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "L-Glutamine Powder scores 92/100 (A grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/l-glutamine-powder",
@@ -13259,7 +13259,7 @@
         "Bone Support",
         "Skin / Hair"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-lysine/primary.webp",
       "gallery_images": [
@@ -13342,7 +13342,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Lysine scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Lysine scores 90/100 (A grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": "https://www.amazon.com/s?k=Thorne+Lysine",
       "iherb_url": "https://www.iherb.com/search?kw=Thorne+Lysine",
       "url": "https://www.thorne.com/products/dp/l-lysine",
@@ -13361,7 +13361,7 @@
         "Heart Health",
         "Bone Support"
       ],
-      "score": 94,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-magnesium-bisglycinate/primary.webp",
       "gallery_images": [
@@ -13426,14 +13426,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -13442,7 +13442,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Magnesium Bisglycinate scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Magnesium Bisglycinate scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Bisglycinate-Production-Metabolism/dp/B0797HBLL3/ref=sr_1_1_sspa?crid=E3THNOU72FMU&dib=eyJ2IjoiMSJ9.JvJh_JHPQv_U6PBO5BxXHlTONdW3MTkw5WvoRmVJzmgjCO1v4h1Mh1saBfD8I65_uZqSQ_GZ2rl3lfT5b9TWx8t7wx4GDpZ4KPnzaSK0ip2b0ygJRwH9l62GLLjSldgP1g91-eAJ4p5NzxWacC24hnbCi9xV6CpGd4XdyhUXrsIqWL8bJoNgpQpJ1i1J8jpfHbbvpeEB87esQG4dgiBF9Sz6Uyy9THxIp2suxXHLOLTGIPPMm7VYfalgOvIuc0kEUYPYJZgf1f-idkhYUCODynTwufIgUxH446YgbaigE9k.xMKFQ2nATZ1MHp9sN-LXcoS7k1jBYOy0ofAchG-im-s&dib_tag=se&keywords=thorne%2Bmagnesium%2Bbisglycinate&qid=1767565319&sprefix=thorne%2Bmagn%2Caps%2C198&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-magnesium-bisglycinate-6-5-oz-187-g/72886",
       "url": "https://www.thorne.com/products/dp/magnesium-bisglycinate",
@@ -13459,7 +13459,7 @@
         "Sleep",
         "Muscle"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-magnesium-bisglycinate-travel-packs-powdered-formula-that-promotes-restful-sleep-and-muscle-relaxati/primary.webp",
       "gallery_images": [
@@ -13527,8 +13527,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -13543,7 +13543,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Magnesium Bisglycinate - Travel Packs: Powdered formula that promotes restful sleep and muscle relaxation* scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Magnesium Bisglycinate - Travel Packs scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/magnesium-bisglycinate-m204p",
@@ -13561,7 +13561,7 @@
         "Bone Support",
         "Muscle"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-magnesium-citramate/primary.webp",
       "gallery_images": [
@@ -13629,14 +13629,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 87,
+          "weighted_score": 8.7
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -13645,7 +13645,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Magnesium CitraMate scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Magnesium CitraMate scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/THORNE-Magnesium-CitraMate-Supplement-Third-Party/dp/B0797SJ88Y/ref=sr_1_1?crid=1PJOLKAMO0IHV&dib=eyJ2IjoiMSJ9.MpCByHvC7pw43FpfiTDLwy3LRjr2khVO6KHPY16xegT9N4o5DtHc4vfmhJlyZpbtWLdtQ_qhQ3pZcWl7qPju16alur70LT5kdvLV4hxvdZM_okBWAFUvVAagl4Yu_RuMlmZlUwMhrfp4HKgT-_BPOsG_EWED-69X6LO5K3Fo_hfWCmNBAwa2diR-5fJjq7m56uivIuEY1g_1eyyMzDV8K37ExNVhsRTkkvOjcFWtM7IdPeQJ7QinL9rP9LGIugmnhG752yrGbwgTzAd-u_vAO_wMlMYn-WhtyCQDWFJjsLY.tsQ2RjhwiGvpoERc7jTvsw4lycwcy5Od7WFh0A3GHVg&dib_tag=se&keywords=thorne+Magnesium+CitraMate&qid=1767657195&sprefix=thorne+magnesium+citramate%2Caps%2C174&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-magnesium-citramate-90-capsules-135-mg-per-capsule/18627",
       "url": "https://www.thorne.com/products/dp/magnesium-citramate",
@@ -13664,7 +13664,7 @@
         "Heart Health",
         "Bone Support"
       ],
-      "score": 96,
+      "score": 94,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-magnesium-glycinate/primary.webp",
       "gallery_images": [
@@ -13728,14 +13728,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -13744,7 +13744,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Magnesium Glycinate scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Magnesium Glycinate scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/THORNE-Magnesium-Glycinate-Relaxation-Metabolism/dp/B0F5XYHRPV/ref=sr_1_2?crid=1F2P7ZWHM4T3W&dib=eyJ2IjoiMSJ9.uqVLsueqhn0LTOMWxbDqBrXd_fS0pBnR6iqrolOzb0EEEL_H8xCLhNaGEjASrBrWwMhntMpVU0QkRTiRTHirL3iozntMJohfkjrA0Qw3679J6tbzkM5sNlZ9UF4ZlMLjnL4iDBg8haLD7OE1_51eoz8bMiKaIwulVu2zZbegx9O18YqHkkgsvHmUbXLqEZ35HUPL0YmbZqICXW-P3Ns_ZizEzgMwevTCuM7jq8maJbdyjtcBQzTXgSQ2216nuzGtzHGuZtI0pKth4mo3ma_qtGJp2LFEi32_nxqc8WQT8m4.GYqNJWRjg82Na5SuLRgSsvA0VZobzYexifWkmjG9A8g&dib_tag=se&keywords=thorne+magnesium+glycinate&qid=1767558293&sprefix=thorne+%2Caps%2C239&sr=8-2",
       "iherb_url": "https://www.iherb.com/pr/thorne-magnesium-glycinate-90-capsules-120-mg-per-capsule/152148",
       "url": "https://www.thorne.com/products/dp/magnesium-glycinate",
@@ -15005,7 +15005,7 @@
       "category_tags": [
         "Sleep"
       ],
-      "score": 97,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-melaton-3tm-to-enhance-sleep-and-help-maintain-normal-circadian-rhythms/primary.webp",
       "gallery_images": [
@@ -15073,14 +15073,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -15089,7 +15089,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Melaton-3™: To enhance sleep and help maintain normal circadian rhythms* scores 97/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Melaton-3™ scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/melaton-3-trade",
@@ -15105,7 +15105,7 @@
       "category_tags": [
         "Sleep"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-melaton-5tm-to-enhance-sleep-and-help-maintain-normal-circadian-rhythms/primary.webp",
       "gallery_images": [
@@ -15172,8 +15172,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -15188,7 +15188,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Melaton-5™: To enhance sleep and help maintain normal circadian rhythms* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Melaton-5™ scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/melaton-5-trade",
@@ -15206,7 +15206,7 @@
         "Cognition",
         "Memory"
       ],
-      "score": 88,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-memoractivtm-maintain-your-mental-edge-and-fight-brain-fog-with-a-nootropic-for-cognitive-function-a/primary.webp",
       "gallery_images": [
@@ -15295,14 +15295,14 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 94,
-          "weighted_score": 23.5
+          "raw_score": 92,
+          "weighted_score": 23.0
         },
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 75,
-          "weighted_score": 15.0
+          "raw_score": 87,
+          "weighted_score": 17.4
         },
         {
           "name": "Bioavailability",
@@ -15319,8 +15319,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 75,
+          "weighted_score": 7.5
         },
         {
           "name": "Manufacturing",
@@ -15335,7 +15335,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Memoractiv™: Maintain your mental edge and fight brain fog with a nootropic for cognitive function and mental focus* scores 88/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Memoractiv™ scores 87/100 (B grade). Strengths: 4 Grade A, 4 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/memoractiv-trade",
@@ -15351,7 +15351,7 @@
       "category_tags": [
         "Men's Health"
       ],
-      "score": 86,
+      "score": 84,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-mens-multi-50/primary.webp",
       "gallery_images": [
@@ -15551,8 +15551,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 76,
-          "weighted_score": 15.2
+          "raw_score": 71,
+          "weighted_score": 14.2
         },
         {
           "name": "Bioavailability",
@@ -15575,8 +15575,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 60,
-          "weighted_score": 6.0
+          "raw_score": 62,
+          "weighted_score": 6.2
         },
         {
           "name": "Value",
@@ -15585,7 +15585,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Men's Multi 50+ scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. Areas for improvement: Manufacturing: GMP certified only.",
+      "explanation": "Men's Multi 50+ scores 84/100 (B grade). Strengths: 17 Grade A, 6 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Basic-Nutrients-Comprehensive-Bioavailability/dp/B00FOTMGTU/ref=sr_1_1?crid=1YP1W592NMVD6&dib=eyJ2IjoiMSJ9.02fOW9ifZ717eG-Ad-igkdU97TyAKS_0Hf8ocm_C71sAYn2PSKGuqAhEN9kywwxMDPSIqklO-QE9Y3pucZGlc9Z9vx3heQgPm6UtT2iGa0P_kvwKZfBNpXbAE36EOC742kB9hBtpEnwoQPTj5SWgXMcYl6YFXXytoWwImNS9783HovkvZfFdEwulWeigxDf1RNSBOC0I3-3of4UTv8CSo3q1GYA41-3UlBerX0fm_TV02Ncuu94peqsfFUXt7wY0veJ0hBh_bcWDnTZvfyRnWRPP98ZGlvN40G3giuGUZAM.hEHSSRcz19MkiZxuHpKOpspOYmwX5fp6QATIk_Sjxek&dib_tag=se&keywords=thorne+Men%27s+Multi+50%2B&qid=1767656076&sprefix=thorne+men%27s+multi+50%2B%2Caps%2C194&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-men-s-multi-50-180-capsules/102917",
       "url": "https://www.thorne.com/products/dp/mens-multi-50",
@@ -15830,7 +15830,7 @@
         "Heart Health",
         "Methylation"
       ],
-      "score": 93,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-methyl-guard-plus/primary.webp",
       "gallery_images": [
@@ -15906,8 +15906,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -15924,14 +15924,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 94,
+          "weighted_score": 9.4
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -15940,7 +15940,7 @@
           "weighted_score": 2.0
         }
       ],
-      "explanation": "Methyl-Guard Plus scores 93/100 (A grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
+      "explanation": "Methyl-Guard Plus scores 92/100 (A grade). Strengths: 4 Grade A, 1 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Methyl-Guard-Plus-methylation-homocysteine/dp/B00O5AHC4S/ref=sr_1_1?crid=3M4TDX8ZPB3QW&dib=eyJ2IjoiMSJ9.-rBrVRl50PLJ0YJavmxRL8rf49UdeIR1ePzQpkNzu9TJHYceSgE16wTNsiOSrCmhaizXklQlhgetAX7EWhnxrR9T4g3jCA7skK5bzUo8gCg4_OwbAZgKDR69w5BOfpqYU0bUgc8khhwfRvuqSbtT6RjLEzT1_NxJ1ZlyJQas1MwOQYCz2UxJf6EWmoYQynH2FTD2z3OTvd_GfZk6SLCt6Cs8Qs6rjSpLFw_fQQpn9amsmwDu4-Jv1Yk9Vpf5CwwKK8N6lhfYr-KyTSKKzlXyisJqAi-vO7UDV981LgLcBFg.NaTW27Dppon4UO3lCLsynXW4y9SSiX6NxnLKW7g_fus&dib_tag=se&keywords=thorne+Methyl-Guard+Plus®&qid=1767674742&sprefix=thorne+methyl-guard+plus+%2Caps%2C194&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-methyl-guard-plus-90-capsules/33646",
       "url": "https://www.thorne.com/products/dp/methyl-guard-plus-reg",
@@ -15958,7 +15958,7 @@
         "Methylation",
         "Brain Health"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-methyl-guard-supports-methylation-for-healthy-heart-blood-vessels-brain-and-bones/primary.webp",
       "gallery_images": [
@@ -16046,8 +16046,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 94,
+          "weighted_score": 9.4
         },
         {
           "name": "Manufacturing",
@@ -16062,7 +16062,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Methyl-Guard®: Supports methylation for healthy heart, blood vessels, brain, and bones* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Methyl-Guard® scores 93/100 (A grade). Strengths: 3 Grade A, 1 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/methyl-guard-reg",
@@ -16179,7 +16179,7 @@
       "category_tags": [
         "GI Support"
       ],
-      "score": 86,
+      "score": 84,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-multi-enzyme-a-comprehensive-digestive-enzyme-blend-of-hcl-pepsin-and-pancreatin-for-supporting-good/primary.webp",
       "gallery_images": [
@@ -16275,7 +16275,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Multi Enzyme: A comprehensive digestive enzyme blend of HCl, pepsin, and pancreatin for supporting good digestion* scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Multi Enzyme scores 84/100 (B grade). Strengths: 4 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/b-p-p",
@@ -16294,7 +16294,7 @@
         "Antioxidant",
         "Immune Support"
       ],
-      "score": 96,
+      "score": 94,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-nac/primary.webp",
       "gallery_images": [
@@ -16360,14 +16360,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 96,
-          "weighted_score": 9.6
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -16376,7 +16376,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "NAC scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "NAC scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Cysteplus-N-Acetylcysteine-Detoxification/dp/B000FGZG3A/ref=sr_1_1_sspa?crid=3HN6TY22BNCPS&dib=eyJ2IjoiMSJ9.WoMzbz-Tb6_VW4CSjo2LtRzP9WajX5Am39RYMj6OmPt__KS7QBbPKp3qnGv6ekz6yKr6df9bietxhOiKdF9awPD1JP-YzvWokaOk5E9hSjWsAlSe9DYOpo05JV73cczYPgxblBMssUweJ-Ck_sqwcOkiT-mnNDdQKFPeAjQslLVcbXBoix2Kx_cHdtXuzkPCEgp6qXxCSWOelt6QFRwRb3g9MkHqorjRoTPiQIRelo1GDoep1PJhN1VkpuSKK7OByMlvTabwfTwS_BkKpW1ue3AKbPY9J0T-olBphdHZuzA.4-UxT-bYlT2rH8XcxqM6PA0X3TaaRa3Xb9WseTXmPT8&dib_tag=se&keywords=thorne%2BNAC%2B-%2BN-Acetylcysteine%2B-%2B90%2BServings&qid=1767657379&sprefix=thorne%2Bnac%2B-%2Bn-acetylcysteine%2B-%2B90%2Bservings%2Caps%2C250&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-nac-90-capsules-500-mg-per-capsule/19111",
       "url": "https://www.thorne.com/products/dp/cysteplus-reg",
@@ -16394,7 +16394,7 @@
         "Immune Support",
         "Antioxidant"
       ],
-      "score": 96,
+      "score": 94,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-nac-n-acetylcysteine/primary.webp",
       "gallery_images": [
@@ -16459,8 +16459,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 96,
-          "weighted_score": 9.6
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -16475,7 +16475,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "NAC - N-Acetylcysteine scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "NAC - N-Acetylcysteine scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-nac-90-capsules-500-mg-per-capsule/19111",
       "url": "https://www.thorne.com/products/dp/nac-180",
@@ -16493,8 +16493,8 @@
         "Energy",
         "Brain Health"
       ],
-      "score": 94,
-      "grade": "A",
+      "score": 88,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-niacel-400-support-the-vitality-of-your-brain-and-body-with-the-youthful-power-of-nicotinamide-ribos/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-niacel-400-support-the-vitality-of-your-brain-and-body-with-the-youthful-power-of-nicotinamide-ribos/gallery_1.webp",
@@ -16549,8 +16549,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 78,
-          "weighted_score": 15.6
+          "raw_score": 73,
+          "weighted_score": 14.6
         },
         {
           "name": "Bioavailability",
@@ -16567,14 +16567,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -16583,7 +16583,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "NiaCel® 400: Support the vitality of your brain and body with the youthful power of Nicotinamide Riboside* scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "NiaCel® 400 scores 88/100 (B grade). Strengths: 3 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/niacel-400",
@@ -16601,7 +16601,7 @@
         "Skin / Hair",
         "Sleep"
       ],
-      "score": 94,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-niacinamide-a-form-of-vitamin-b3-that-provides-cellular-protection-and-supports-joints-skin-and-rest/primary.webp",
       "gallery_images": [
@@ -16648,8 +16648,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -16682,7 +16682,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Niacinamide: A form of vitamin B3 that provides cellular protection and supports joints, skin, and restful sleep* scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Niacinamide scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/niacinamide",
@@ -16907,14 +16907,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 85,
-          "weighted_score": 8.5
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -16941,7 +16941,7 @@
         "Hormones",
         "Fertility"
       ],
-      "score": 87,
+      "score": 85,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-ovarian-care-promote-healthy-ovarian-function-and-support-natural-fertility/primary.webp",
       "gallery_images": [
@@ -17027,14 +17027,14 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 94,
-          "weighted_score": 23.5
+          "raw_score": 89,
+          "weighted_score": 22.25
         },
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 80,
-          "weighted_score": 16.0
+          "raw_score": 76,
+          "weighted_score": 15.2
         },
         {
           "name": "Bioavailability",
@@ -17063,11 +17063,11 @@
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 60,
-          "weighted_score": 3.0
+          "raw_score": 90,
+          "weighted_score": 4.5
         }
       ],
-      "explanation": "Ovarian Care: Promote healthy ovarian function and support natural fertility* scores 87/100 (B grade). Strengths: 5 Grade A, 3 Grade B ingredients. ",
+      "explanation": "Ovarian Care scores 85/100 (B grade). Strengths: 2 Grade A, 6 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/ovarian-care",
@@ -17264,7 +17264,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "PharmaGABA-100: Contains natural-source GABA, a brain chemical to promote a calm state of mind and restful sleep* scores 86/100 (B grade). Strengths: Third-party testing verified. ",
+      "explanation": "PharmaGABA-100 scores 86/100 (B grade). Strengths: Third-party testing verified. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/pharmagaba-100",
@@ -17365,7 +17365,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "PharmaGABA-250: Contains natural-source GABA, a brain chemical to promote a calm state of mind and restful sleep* scores 86/100 (B grade). Strengths: Third-party testing verified. ",
+      "explanation": "PharmaGABA-250 scores 86/100 (B grade). Strengths: Third-party testing verified. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/pharmagaba-250",
@@ -17382,7 +17382,7 @@
         "Liver Support",
         "Brain Health"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-phosphatidyl-choline-an-excellent-source-of-choline-for-liver-support-cholesterol-metabolism-and-hea/primary.webp",
       "gallery_images": [
@@ -17460,7 +17460,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Phosphatidyl Choline: An excellent source of choline for liver support, cholesterol metabolism, and healthy bile* scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Phosphatidyl Choline scores 90/100 (A grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/phosphatidyl-choline",
@@ -17639,8 +17639,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 88,
-          "weighted_score": 22.0
+          "raw_score": 89,
+          "weighted_score": 22.25
         },
         {
           "name": "Dose Accuracy",
@@ -17663,8 +17663,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 88,
-          "weighted_score": 8.8
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
@@ -17679,7 +17679,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Phytoprofen®: Botanical extracts that support a healthy cytokine balance and help minimize bruising and swelling* scores 89/100 (B grade). Strengths: 1 Grade A, 4 Grade B ingredients. ",
+      "explanation": "Phytoprofen® scores 89/100 (B grade). Strengths: 1 Grade A, 3 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/phytoprofen-reg-60-s",
@@ -17696,8 +17696,8 @@
         "Heart Health",
         "Muscle"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-potassium-citrate-essential-mineral-support-for-healthy-heart-skeletal-muscle-and-urinary-tract/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-potassium-citrate-essential-mineral-support-for-healthy-heart-skeletal-muscle-and-urinary-tract/gallery_1.webp",
@@ -17763,8 +17763,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
@@ -17779,7 +17779,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Potassium Citrate: Essential mineral support for healthy heart, skeletal muscle, and urinary tract* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. Areas for improvement: Dose Adequacy: Severely below: Potassium (as Potassium Citrate).",
+      "explanation": "Potassium Citrate scores 87/100 (B grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/potassium-citrate",
@@ -17796,8 +17796,8 @@
         "Sports Performance",
         "Energy"
       ],
-      "score": 93,
-      "grade": "A",
+      "score": 87,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-pre-workout-elite-get-the-most-out-of-what-you-put-into-every-workout-with-pre-workout-elite-without/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-pre-workout-elite-get-the-most-out-of-what-you-put-into-every-workout-with-pre-workout-elite-without/gallery_1.webp",
@@ -17881,14 +17881,14 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 76,
-          "weighted_score": 15.2
+          "raw_score": 84,
+          "weighted_score": 16.8
         },
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 89,
-          "weighted_score": 17.8
+          "raw_score": 81,
+          "weighted_score": 16.2
         },
         {
           "name": "Transparency",
@@ -17899,14 +17899,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 91,
+          "weighted_score": 9.1
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -17915,7 +17915,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Pre-Workout Elite: Get the most out of what you put into every workout with Pre-Workout Elite - without the jitters and crash* scores 93/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Pre-Workout Elite scores 87/100 (B grade). Strengths: Mixed evidence quality (1 A, 2 B). ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/pre-workout-elite",
@@ -17933,7 +17933,7 @@
         "Brain Health",
         "Prenatal"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-prenatal-dha/primary.webp",
       "gallery_images": [
@@ -18037,8 +18037,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 91,
+          "weighted_score": 9.1
         },
         {
           "name": "Manufacturing",
@@ -18053,7 +18053,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Prenatal DHA scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Prenatal DHA scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Prenatal-DHA-Development-Pregnancy/dp/B0BDMTY4D8/ref=sr_1_1?crid=1ARXYRVM2BJI0&dib=eyJ2IjoiMSJ9._ub8XOzcAIUJVaO50-PqxPxoc7N1Nszke9pjU5jXzSyNO55lgv-sRiF6gyvjZDdDCCEbPlTFA2zINsHlwaHfrcOmOhrZswc8hvE-4wdlxbmhcU7VhwEyd6GMXJx5LUGU0-BYjfeRYA23CWXEagMlvgWSW2rUXv2ooeLqrD8G7olkSE5smYtjfSIdPqMZynTFrZZF-izZfJI1qQpwiHzalv56YBMRpL_kHwEDT6PWz-eNPStSYHldrRJCFCaA8RqYo5hQzIMVn5tFQ1DNs3rnNid4-FbZcKZMF4ImrSSsAko.vClTWQTecpzcSkl6aBtPiGoURNRPAQUfvpvnZGLJjmw&dib_tag=se&keywords=thorne+Prenatal+DHA&qid=1767659580&sprefix=thorne+prenatal+dha%2Caps%2C200&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-prenatal-dha-60-gelcaps/121597",
       "url": "https://www.thorne.com/products/dp/prenatal-dha",
@@ -18326,7 +18326,7 @@
         "Sports Performance",
         "Muscle"
       ],
-      "score": 95,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/primary.webp",
       "gallery_images": [
@@ -18415,14 +18415,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 91,
-          "weighted_score": 9.1
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -18431,7 +18431,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Whey Protein Isolate - Vanilla: 21 grams of bioavailable protein with flavors and sweeteners derived from natural sources scores 95/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "Protein Isolate - Vanilla scores 91/100 (A grade). Strengths: 2 Grade A, 2 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/whey-protein-isolate-vanilla",
@@ -18448,7 +18448,7 @@
         "Energy",
         "Brain Health"
       ],
-      "score": 96,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-pyridoxal-5-phosphate-a-tissue-ready-form-of-vitamin-b6-that-promotes-energy-production-and-neurotra/primary.webp",
       "gallery_images": [
@@ -18531,7 +18531,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Pyridoxal 5'-Phosphate: A tissue-ready form of vitamin B6 that promotes energy production and neurotransmitter synthesis* scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Pyridoxal 5'-Phosphate scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/pyridoxal-5-phosphate-60-s-1",
@@ -18549,8 +18549,8 @@
         "Inflammation",
         "Antioxidant"
       ],
-      "score": 91,
-      "grade": "A",
+      "score": 89,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-quercetin-complex-a-combination-of-quercetin-phytosome-and-bromelain-that-provides-support-for-aller/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-quercetin-complex-a-combination-of-quercetin-phytosome-and-bromelain-that-provides-support-for-aller/gallery_1.webp",
@@ -18623,8 +18623,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 93,
-          "weighted_score": 9.3
+          "raw_score": 87,
+          "weighted_score": 8.7
         },
         {
           "name": "Manufacturing",
@@ -18639,7 +18639,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Quercetin Complex: A combination of quercetin phytosome and bromelain that provides support for allergy sufferers, enhances immune function, and  helps reduce bruising and swelling* scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Quercetin Complex scores 89/100 (B grade). Strengths: 2 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/quercenase-reg",
@@ -18657,7 +18657,7 @@
         "Inflammation",
         "Antioxidant"
       ],
-      "score": 93,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-quercetin-phytosome-give-your-immune-system-an-advantage-with-the-optimized-plant-based-antioxidant/primary.webp",
       "gallery_images": [
@@ -18724,8 +18724,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 96,
+          "weighted_score": 9.6
         },
         {
           "name": "Manufacturing",
@@ -18740,7 +18740,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Quercetin Phytosome: Give your immune system an advantage with the optimized, plant-based antioxidant support of quercetin* scores 93/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Form/Bioavailability: 1 high bioavailability: Quercetin Phytosome (standard). ",
+      "explanation": "Quercetin Phytosome scores 91/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/quercetin-phytosome",
@@ -18854,8 +18854,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 73,
-          "weighted_score": 14.6
+          "raw_score": 75,
+          "weighted_score": 15.0
         },
         {
           "name": "Bioavailability",
@@ -18872,23 +18872,23 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 75,
+          "weighted_score": 7.5
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 50,
-          "weighted_score": 2.5
+          "raw_score": 40,
+          "weighted_score": 2.0
         }
       ],
-      "explanation": "RecoveryPro®: A synergistic blend of four proven ingredients to moderate stress, support restful sleep, and optimize nighttime muscle recovery* scores 87/100 (B). Good — solid product with minor areas for improvement. Strengths: Manufacturing: Clinical grade manufacturing standards. ",
+      "explanation": "RecoveryPro® scores 87/100 (B grade). Strengths: Mixed evidence quality (3 A, 3 B). ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/recoverypro-sp114",
@@ -18905,7 +18905,7 @@
         "Heart Health",
         "Cholesterol"
       ],
-      "score": 94,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-red-yeast-rice-formerly-choleast-900-helps-maintain-healthy-cholesterol-levels-and-supports-cardiova/primary.webp",
       "gallery_images": [
@@ -18969,8 +18969,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 87,
+          "weighted_score": 8.7
         },
         {
           "name": "Manufacturing",
@@ -18985,7 +18985,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Red Yeast Rice (formerly Choleast-900): Helps maintain healthy cholesterol levels and supports cardiovascular health* scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Red Yeast Rice scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/choleast-900",
@@ -19002,7 +19002,7 @@
         "Heart Health",
         "Cholesterol"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-red-yeast-rice-coq10/primary.webp",
       "gallery_images": [
@@ -19071,8 +19071,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 96,
-          "weighted_score": 9.6
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
@@ -19087,7 +19087,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Red Yeast Rice + CoQ10 scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Red Yeast Rice + CoQ10 scores 90/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/THORNE-Yeast-Rice-CoQ10-Cardiovascular/dp/B00192G10Q/ref=sr_1_1?crid=2HOU1C1U6ISEC&dib=eyJ2IjoiMSJ9.1ymStaatpTpwTRO3MlJKqKrb5Cb0vJ2oDWUn7EZIZ_S_l5UpCB8pkGnwpufq97-oA6B2Uf1Zy0bhblXD6j-0y6A81tU_SAhKvt8jf05UNGfK5P9OJyE0Wmq6QzrYrxTmiPXl0p9TRZ8M-H7dVNdIhzh2NlKQ5LMKAzcWN9pZn2znd2OSn-dlFAAcn0opwuZbmmL58EgcBH6mwSCoB8KYptwgJec1OE7juUlMBfFu62OIS4zPsjzE0TnYhgKejbN4ey_MznUDlaUtF6Hmu_fsZW-FHe5j6LD0fcuF5oJ1h3w.vb1ubHz9CmcSpgNLIsq7zZoqXMWJ0RfFX0Kv1cF7P_E&dib_tag=se&keywords=thorne+Red+Yeast+Rice+%2B+CoQ10&qid=1767675143&sprefix=thorne+red+yeast+rice+%2B+coq10%2Caps%2C190&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-red-yeast-rice-coq10-120-capsules/18124",
       "url": "https://www.thorne.com/products/dp/choleast-trade",
@@ -19104,7 +19104,7 @@
         "Healthy Aging",
         "Metabolism"
       ],
-      "score": 89,
+      "score": 85,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-resveracel/primary.webp",
       "gallery_images": [
@@ -19176,8 +19176,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 78,
-          "weighted_score": 15.6
+          "raw_score": 73,
+          "weighted_score": 14.6
         },
         {
           "name": "Bioavailability",
@@ -19194,23 +19194,23 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 91,
-          "weighted_score": 9.1
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 50,
-          "weighted_score": 2.5
+          "raw_score": 40,
+          "weighted_score": 2.0
         }
       ],
-      "explanation": "ResveraCel scores 89/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "ResveraCel scores 85/100 (B grade). Strengths: 5 ingredients with Grade B evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-ResveraCel-Nicotinamide-Resveratrol-Methylation/dp/B097Z5387H/ref=sr_1_1?crid=2MUUMXIUAXXBO&dib=eyJ2IjoiMSJ9.0gMCpTkw5G_W191mGAtk5Bj_KX8MzlALjMyhBFBgGvsSZXTEv5rbUkBdzN45eGqQPMYqOLc_Yf-Ireu9JcJoXzi9DLbEGRcBjq4PNGklaNx2wRv68wJjzSTv704BTrr1l6DlH_fUWTan90iDU5GKotyrU81ctfXuZe3tf8pKCxPf4v6uXtRSMVBhLOTY7WpLd4rQ8E0LTtxtBFmTgyQpdBK1wdPJHk3Q7LHjDhMmcM6QdTc_iAjSwruyPK7dC_9s2ZFz9oPQwSjAvw0HOvLNz1pYmdyIkzTBvusqJeWrhWM.XhLXECQ6ISUI9nXoIl5zpKkoQpIVyTOU-GWZqL_x1TE&dib_tag=se&keywords=thorne+ResveraCel®&qid=1767656525&sprefix=thorne+resveracel+%2Caps%2C195&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-resveracel-60-capsules/109407",
       "url": "https://www.thorne.com/products/dp/resveracel",
@@ -19228,7 +19228,7 @@
         "Antioxidant",
         "Inflammation"
       ],
-      "score": 89,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-resveratrol-complex-formerly-polyresveratrol-sr-a-unique-blend-of-antioxidant-nutrients-for-supporti/primary.webp",
       "gallery_images": [
@@ -19308,8 +19308,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 72,
-          "weighted_score": 14.4
+          "raw_score": 82,
+          "weighted_score": 16.4
         },
         {
           "name": "Bioavailability",
@@ -19326,8 +19326,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 85,
-          "weighted_score": 8.5
+          "raw_score": 79,
+          "weighted_score": 7.9
         },
         {
           "name": "Manufacturing",
@@ -19342,7 +19342,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Resveratrol Complex (formerly PolyResveratrol-SR): A unique blend of antioxidant nutrients for supporting healthy aging and a normal inflammatory response* scores 89/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Resveratrol Complex scores 87/100 (B grade). Strengths: 1 Grade A, 4 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/polyresveratrol-sr-reg",
@@ -19361,7 +19361,7 @@
         "Sleep",
         "Energy"
       ],
-      "score": 94,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-rhodiola-a-stress-relieving-botanical-to-support-neurotransmitters-that-enhance-mood-sleep-and-menta/primary.webp",
       "gallery_images": [
@@ -19404,8 +19404,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 100,
-          "weighted_score": 25.0
+          "raw_score": 85,
+          "weighted_score": 21.25
         },
         {
           "name": "Dose Accuracy",
@@ -19428,8 +19428,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
@@ -19444,7 +19444,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Rhodiola: A stress-relieving botanical to support neurotransmitters that enhance mood, sleep, and mental focus* scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Rhodiola scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/rhodiola",
@@ -19542,7 +19542,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Riboflavin 5'-Phosphate: The bioactive, tissue ready form of riboflavin, necessary for the formation of other B vitamins* scores 93/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Riboflavin 5'-Phosphate scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/riboflavin-5-phosphate",
@@ -19771,7 +19771,7 @@
         "Liver Support",
         "Thyroid"
       ],
-      "score": 96,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-selenium/primary.webp",
       "gallery_images": [
@@ -19843,8 +19843,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -19853,7 +19853,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Selenium scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Selenium scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Selenomethionine-Supplement-Antioxidant/dp/B00B5N9IDQ/ref=sr_1_1?crid=1UNJQE3IJFRKG&dib=eyJ2IjoiMSJ9._kd8EEvRIRRMJ9pNXRN-MVjD6toZ9Fo2qeD38bJX1gLvdmhrfBLtzwpv-vQR4KMJaxT47GPfLf6Lju3dL9Zzt2iL8OUSgHuf-obsh-UZjoK6pnLEO-Um6mlERaJn63HMGWhS4VRmOTr26sFcRCLZCm7_bfHy2NJrO-omzcD2xu0uuDgLXaCtEQD9PzshCDwlpLlE4MfoO9JB-XtBb4XD4X_rDI7yY4B2wXRSSpCxrlTqZc9jSC-tD-Uji5QmwA3fb-Q7eCCOAg7K3UopjuwCbU8kdOoVRWDftp2VLMXMFj8.DWhaplNLPCHGS8PYhbm-LEQUu5IJER90M8a4zL-FyUs&dib_tag=se&keywords=thorne+Selenium&qid=1767678754&sprefix=thorne+selenium%2Caps%2C218&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-selenium-200-mcg-60-capsules/46040",
       "url": "https://www.thorne.com/products/dp/selenomethionine",
@@ -19869,7 +19869,7 @@
       "category_tags": [
         "Stress"
       ],
-      "score": 89,
+      "score": 87,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-stress-b-complex/primary.webp",
       "gallery_images": [
@@ -19968,8 +19968,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 88,
-          "weighted_score": 17.6
+          "raw_score": 83,
+          "weighted_score": 16.6
         },
         {
           "name": "Bioavailability",
@@ -19986,8 +19986,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
@@ -20002,7 +20002,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Stress B-Complex scores 89/100 (B grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
+      "explanation": "Stress B-Complex scores 87/100 (B grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-B-Complex-Vitamin-Capsules/dp/B0797DVMF3/ref=sr_1_1?crid=VQR7DG6QY4O4&dib=eyJ2IjoiMSJ9.zGB5BH8-ZoVl4GlAI-NaV59rMqnEF9iVLrUE_5QbkwD0yJTI2-T4_ZHPmUtNpyAt1rZBnKi2F_GXIgLeK1Wp5oaALj67M0BKyNTOZxqmAUs2hNEEz2Woj5X9ZElpjoWd_c2SPkT4p7zC3rLaLc2rBKMGlU_AoB0WJPZn4D362GqDIls-jD-k8s9HdgN4x5-iXOvfDjT0hvIU2IpcfvN2R-VxHr2ptbmHDOCbjukPmuQquXN7jyxV1uy8cNOvltRZYJFewwHstNizn0ZhUZ68c97qNqmJ9MC7ryJJYE_Rvnk.AhLxf-hd3ukeqbuHowVlpaEf7OEXdAOEFTYNnY5J_3M&dib_tag=se&keywords=thorne+Stress+B-Complex&qid=1767673472&sprefix=thorne+stress+b-complex%2Caps%2C209&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-stress-b-complex-60-capsules/49834",
       "url": "https://www.thorne.com/products/dp/stress-b-complex",
@@ -20019,7 +20019,7 @@
         "Stress",
         "Mood"
       ],
-      "score": 89,
+      "score": 88,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-stress-balance-manage-the-effects-of-stress-naturally-with-a-vegetarian-formula-that-promotes-resili/primary.webp",
       "gallery_images": [
@@ -20133,20 +20133,20 @@
         {
           "name": "Evidence Quality",
           "weight": 0.25,
-          "raw_score": 93,
-          "weighted_score": 23.25
+          "raw_score": 95,
+          "weighted_score": 23.75
         },
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 82,
-          "weighted_score": 16.4
+          "raw_score": 83,
+          "weighted_score": 16.6
         },
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 89,
-          "weighted_score": 17.8
+          "raw_score": 87,
+          "weighted_score": 17.4
         },
         {
           "name": "Transparency",
@@ -20157,8 +20157,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 85,
+          "weighted_score": 8.5
         },
         {
           "name": "Manufacturing",
@@ -20173,7 +20173,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Stress Balance: Manage the effects of stress naturally with a vegetarian formula that promotes resilience* scores 89/100 (B grade). Strengths: 6 Grade A, 5 Grade B ingredients. ",
+      "explanation": "Stress Balance scores 88/100 (B grade). Strengths: 7 Grade A, 4 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/phytisone-reg",
@@ -20191,7 +20191,7 @@
         "Brain Health",
         "Joint Support"
       ],
-      "score": 97,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-super-epa/primary.webp",
       "gallery_images": [
@@ -20286,14 +20286,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 91,
+          "weighted_score": 9.1
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 92,
+          "weighted_score": 9.2
         },
         {
           "name": "Value",
@@ -20302,7 +20302,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Super EPA scores 97/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Super EPA scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Super-EPA-Cardiovascular-Gluten-Free/dp/B0018CJ17W/ref=sr_1_1?crid=WATCRC5OMID9&dib=eyJ2IjoiMSJ9.V5SA7eS5gXq4ntmccJZg40c-ptAQ_f727Khpmc1wIoojir3U8MIlYxrm6E4Dybjdqmo-ELn-7_HbDdY25PPYgGVHB6iY00Z1skb-QQbIrHlnEktuRuqJeGUDbO1V0fxx-ws2qeLmD9iy5XhQeGer3EvT_81UG49-hRIJYmgq1mOTJqoe4Fq03i6I7lHBZlHzDCDLanpBYtLSOhi-_oEF0iWGqWFpbDcs8ytaYWIdRACoWR0csCHmZkXUgImQWgB0APjWdwC-NXBHzU5Q1az8sR4pOuIH18fhAvrNMneP-Dw.I9nsRplucei_rsgH1UmPKDbYVjg5dnpxuUQLAe_gNUU&dib_tag=se&keywords=thorne%2Bsuper%2Bepa%2B-%2B90%2Bservings&qid=1767572094&sprefix=thorne%2Bsuper%2Bepa%2B-%2B90%2Bservings%2Caps%2C195&sr=8-1&th=1",
       "iherb_url": "https://www.iherb.com/pr/thorne-super-epa-90-gelcaps/18682",
       "url": "https://www.thorne.com/products/dp/super-epa-180",
@@ -20318,7 +20318,7 @@
       "category_tags": [
         "Heart Health"
       ],
-      "score": 97,
+      "score": 96,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-super-epa-pro-support-healthy-blood-lipids-with-a-high-concentration-of-the-omega-3-fatty-acid-epa/primary.webp",
       "gallery_images": [
@@ -20396,8 +20396,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -20406,7 +20406,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Super EPA Pro: Support healthy blood lipids with a high concentration of the omega-3 fatty acid EPA* scores 97/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Super EPA Pro scores 96/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/super-epa-pro-60-s-1",
@@ -20689,8 +20689,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -20699,7 +20699,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Theanine scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Theanine scores 94/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-L-Theanine-Supplement-Relaxation/dp/B0797BLW59/ref=sr_1_1?crid=MW11YFLAGE4X&dib=eyJ2IjoiMSJ9.u3qDuWozmZQJqsxRHD3vLB27DTe_R1zYxQISXOYEQfrwc_D4yjWGyP_-XXSA34hNgzqzCc_c-9se-yoUwkAHrb6R-FrKNzBy3F9lvDg0Pqfi-4LdHyG1oKGCxLKY0xvHn4H0Akx1xtOsbUIDkXCajEPaNcED7xashzRd-uHJ1TIqBQN7XipAY1EgNFvXYOy60m6hJ68GGu14VW0_ORifKFoIKCFxckA01m_VUwvCoWPLdtqUdD2q8J5pa9hZAYoLhGxbuaBbRm6UZMy5XrILCnYZf_e4xXYHAP5b6Q2Ca1A.xbOjSAqi5CmX3mx8CRSqHF0hweMAibUstDv7BEcrfU4&dib_tag=se&keywords=thorne+Theanine&qid=1767982868&sprefix=thorne+theanine%2Caps%2C302&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-picolinate-15-mg-60-capsules/18476",
       "url": "https://www.thorne.com/products/dp/theanine",
@@ -20717,8 +20717,8 @@
         "Energy",
         "Metabolism"
       ],
-      "score": 90,
-      "grade": "A",
+      "score": 88,
+      "grade": "B",
       "image_url": "/images/products/thorne/thorne-thyroid-health-complex-formerly-thyrocsin-a-comprehensive-blend-of-nutrients-and-botanicals-for-supp/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-thyroid-health-complex-formerly-thyrocsin-a-comprehensive-blend-of-nutrients-and-botanicals-for-supp/gallery_1.webp",
@@ -20841,8 +20841,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 82,
-          "weighted_score": 8.2
+          "raw_score": 71,
+          "weighted_score": 7.1
         },
         {
           "name": "Manufacturing",
@@ -20857,7 +20857,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Thyroid Health Complex (formerly Thyrocsin): A comprehensive blend of nutrients and botanicals for supporting healthy thyroid function* scores 90/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Thyroid Health Complex scores 88/100 (B grade). Strengths: 7 Grade A, 2 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/thyrocsin-trade-60-s-1",
@@ -20873,7 +20873,7 @@
       "category_tags": [
         "Foundational"
       ],
-      "score": 86,
+      "score": 85,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-trace-minerals-a-complete-trace-mineral-complex-with-highly-absorbable-mineral-chelates/primary.webp",
       "gallery_images": [
@@ -20968,8 +20968,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 94,
-          "weighted_score": 9.4
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Manufacturing",
@@ -20984,7 +20984,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Trace Minerals: A complete trace mineral complex with highly absorbable mineral chelates* scores 86/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Trace Minerals scores 85/100 (B grade). Strengths: 2 Grade A, 3 Grade B ingredients. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/trace-minerals",
@@ -21001,7 +21001,7 @@
         "Heart Health",
         "Antioxidant"
       ],
-      "score": 95,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-ultimate-e-vitamin-e-fat-soluble-antioxidants-for-cardiovascular-support/primary.webp",
       "gallery_images": [
@@ -21055,8 +21055,8 @@
         {
           "name": "Bioavailability",
           "weight": 0.2,
-          "raw_score": 97,
-          "weighted_score": 19.4
+          "raw_score": 85,
+          "weighted_score": 17.0
         },
         {
           "name": "Transparency",
@@ -21079,11 +21079,11 @@
         {
           "name": "Value",
           "weight": 0.05,
-          "raw_score": 75,
-          "weighted_score": 3.75
+          "raw_score": 90,
+          "weighted_score": 4.5
         }
       ],
-      "explanation": "Ultimate-E®: Vitamin E fat-soluble antioxidants for cardiovascular support* scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Ultimate-E® scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/ultimate-e-reg",
@@ -21099,7 +21099,7 @@
       "category_tags": [
         "GI Support"
       ],
-      "score": 87,
+      "score": 86,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-undecylenic-acid-fatty-acid-support-for-a-healthy-balance-of-gut-and-vaginal-flora/primary.webp",
       "gallery_images": [
@@ -21179,7 +21179,7 @@
           "weighted_score": 3.75
         }
       ],
-      "explanation": "Undecylenic Acid: Fatty acid support for a healthy balance of gut and vaginal flora* scores 87/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Undecylenic Acid scores 86/100 (B grade). Strengths: Third-party testing verified. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/formula-sf722-reg",
@@ -21294,7 +21294,7 @@
       "category_tags": [
         "Brain Health"
       ],
-      "score": 96,
+      "score": 95,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-vitamin-b12/primary.webp",
       "gallery_images": [
@@ -21363,8 +21363,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 99,
+          "weighted_score": 9.9
         },
         {
           "name": "Manufacturing",
@@ -21379,7 +21379,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin B12 scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Vitamin B12 scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Methylcobalamin-Vitamin-Capsules/dp/B002BKW1YA/ref=sr_1_1?crid=3OIW1Q1L79VN1&dib=eyJ2IjoiMSJ9.JM3Ic-aJLXAwjPXVIBPQWbRwdKWJTAJ1u32l5q0U8ubESJ4n8QxuPFCSAExcnTD0g949Drq3-uY1U6oD9Q3VvUE-JKctvqX0cwznTj1Kb9SSItPOATX4XuWEai2LPI_T_NhC6sgyedzJIRrL_OscWu-S6FKkwQVFdw4zcChzs6Isnl7_-jz57xoDvKINgUcqhX7DBzwzaxKJ8HW-715Yf_1Zt7IKqXNJj6xmJOhuK7DaJUU2LWbwa8HoYX8VsQ1TBXJ9SbyVlp61iiSEYViPokbhGS_75XQaMUoH4wqkiyM.8B--sO2NR_K7Gsqcj-oM1FtPZr8V9Mcjc8iYu_O5Dlg&dib_tag=se&keywords=Thorne+Vitamin+B12&qid=1767571820&sprefix=thorne+vitamin+b12%2Caps%2C343&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-vitamin-b12-as-methylcobalamin-60-capsules-1-mg-per-capsule/18440",
       "url": "https://www.thorne.com/products/dp/methylcobalamin",
@@ -21495,7 +21495,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": null,
       "gallery_images": [],
@@ -21563,14 +21563,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 99,
-          "weighted_score": 9.9
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -21579,7 +21579,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin C 500 mg with Flavonoids scores 92/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Vitamin C 500 mg with Flavonoids scores 91/100 (A grade). Strengths: 1 Grade A, 1 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/THORNE-Vitamin-Bioflavonoids-Production-Gluten-Free/dp/B09FYFM7N3/ref=sr_1_1?crid=1W12Y51BTMDWM&dib=eyJ2IjoiMSJ9.ooGu_n_jwZ_4CCiiHRqI-MmMnr9DuimT9iBQl8yazxnoo5LZGkFSxCkckiAdSPb6UuxeDumpyyYcFxsEz6j_KGKoUIPA69PpjMJT5vt_mRiJWd4g9tWk5h-t2RU1G57U4dyd4qDHFlgk8jHmSKbcVZFiiI3YxF5MX5aeCEObZQnc4wZWE-JQ8xZuDuqCZScYL-g7emPzMtdlbrVyd-MpRa-n9HTQn_Utr-znCtZtHsN3WTKplPzHPzqEXarqY5OcTk9a900PmpQLVINw1UJw09mY6DLjw0bfF2MCsQ3Ar20.V33zMiZLwT74BsudjqYGuB-EV-Ptn1EDTDEWzLsjgfo&dib_tag=se&keywords=thorne+Vitamin+C+with+Flavonoids&qid=1767581680&sprefix=thorne+vitamin+c+with+flavonoids%2Caps%2C253&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-vitamin-c-with-flavonoids-90-capsules/111899",
       "url": "https://www.thorne.com/products/dp/vit-c-w-flavonoids",
@@ -21784,7 +21784,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin D Liquid: Good health starts with vitamin D, which supports healthy bones and muscles, cardiovascular health, and immune function* scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Vitamin D Liquid scores 95/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/vitamin-d-liquid",
@@ -21801,7 +21801,7 @@
         "Immune Support",
         "Bone Support"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-vitamin-d-1-000/primary.webp",
       "gallery_images": [
@@ -21875,8 +21875,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -21885,7 +21885,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin D-1,000 scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Vitamin D-1,000 scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-vitamin-d-liquid-1-fl-oz-30-ml/23516",
       "url": "https://www.thorne.com/products/dp/d-1-000-180",
@@ -21902,7 +21902,7 @@
         "Immune Support",
         "Bone Support"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-vitamin-d-10-000-get-the-vitamin-that-supports-healthy-teeth-bones-and-muscles-as-well-as-cardiovasc/primary.webp",
       "gallery_images": [
@@ -21976,8 +21976,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -21986,7 +21986,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin D-10,000: Get the vitamin that supports healthy teeth, bones, and muscles, as well as cardiovascular and immune function* scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Vitamin D-10,000 scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/d-10-000",
@@ -22003,7 +22003,7 @@
         "Immune Support",
         "Bone Support"
       ],
-      "score": 98,
+      "score": 97,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-vitamin-d-5-000/primary.webp",
       "gallery_images": [
@@ -22077,8 +22077,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -22087,7 +22087,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin D-5,000 scores 98/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Vitamin D-5,000 scores 97/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-vitamin-k-60-capsules/75088",
       "url": "https://www.thorne.com/products/dp/d-5-000-120",
@@ -22226,7 +22226,7 @@
         "Bone Support",
         "Heart Health"
       ],
-      "score": 91,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-vitamin-k2-a-concentrated-liquid-form-of-an-extensively-studied-form-of-vitamin-k2-to-help-maintain/primary.webp",
       "gallery_images": [
@@ -22290,8 +22290,8 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 96,
-          "weighted_score": 9.6
+          "raw_score": 91,
+          "weighted_score": 9.1
         },
         {
           "name": "Manufacturing",
@@ -22306,7 +22306,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Vitamin K2: A concentrated liquid form of an extensively studied form of vitamin K2 to help maintain bone mineral density* scores 91/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Transparency: Full disclosure - all doses labeled. ",
+      "explanation": "Vitamin K2 scores 90/100 (A grade). Strengths: 1 ingredients with Grade B evidence. ",
       "amazon_url": null,
       "iherb_url": null,
       "url": "https://www.thorne.com/products/dp/vitamin-k2-liquid",
@@ -22323,8 +22323,8 @@
         "Women's Health",
         "GI Support"
       ],
-      "score": 85,
-      "grade": "B",
+      "score": 77,
+      "grade": "C",
       "image_url": "/images/products/thorne/thorne-womens-daily-probiotic/primary.webp",
       "gallery_images": [
         "/images/products/thorne/thorne-womens-daily-probiotic/gallery_1.webp",
@@ -22394,8 +22394,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 86,
-          "weighted_score": 17.2
+          "raw_score": 50,
+          "weighted_score": 10.0
         },
         {
           "name": "Bioavailability",
@@ -22418,8 +22418,8 @@
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 60,
-          "weighted_score": 6.0
+          "raw_score": 62,
+          "weighted_score": 6.2
         },
         {
           "name": "Value",
@@ -22428,7 +22428,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Women's Daily Probiotic scores 85/100 (B). Good — solid product with minor areas for improvement. Strengths: Transparency: Full disclosure - all doses labeled. Areas for improvement: Manufacturing: GMP certified only.",
+      "explanation": "Women's Daily Probiotic scores 77/100 (C grade). Strengths: 2 Grade A, 2 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Womens-Daily-Probiotic-Capsules/dp/B0BRYS247Y/ref=sr_1_1?crid=337KFF3HTFAGT&dib=eyJ2IjoiMSJ9.cAKbLjOEqLXh9vjs1xTFC8iSH0kRwg4xkSNLzFYrBnmwnl4z7o5SedQI-JyA9wI-AuaobwlTPmaxpqnTHPzwG5qq9GQCs7KTeDigSR0TTPVAIuLBivHUgMMY3SNz5RwHEDUqtsV9VTAjZlRlQdbS7hJUeuiOu3FoE5VKzJzDJzdvS-vnHEEYNFOEoEyi9XK3Mvy7ukVuMV45zZ8rRSEncSpcWsEhtCQWb6DDGRtisaBLqDBCqizXSWI34dQOKCuTOFUI8e9LYRsfqXcnKYxkYEoJwjmsyCN-QioKVr0-MwA.ICtHS0mGIbMGu1YObHyUOslIWZguqswNr7xAlWskFYc&dib_tag=se&keywords=thorne+Women%27s+Daily+Probiotic&qid=1767661289&sprefix=thorne+women%27s+daily+probiotic%2Caps%2C217&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-women-s-daily-probiotic-30-capsules/117164",
       "url": "https://www.thorne.com/products/dp/women-s-daily-probiotic",
@@ -22444,7 +22444,7 @@
       "category_tags": [
         "Women's Health"
       ],
-      "score": 87,
+      "score": 82,
       "grade": "B",
       "image_url": "/images/products/thorne/thorne-womens-multi-50/primary.webp",
       "gallery_images": [
@@ -22651,8 +22651,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 76,
-          "weighted_score": 15.2
+          "raw_score": 51,
+          "weighted_score": 10.2
         },
         {
           "name": "Bioavailability",
@@ -22669,14 +22669,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 95,
-          "weighted_score": 9.5
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -22685,7 +22685,7 @@
           "weighted_score": 3.0
         }
       ],
-      "explanation": "Women's Multi 50+ scores 87/100 (B grade). Strengths: 19 Grade A, 5 Grade B ingredients. ",
+      "explanation": "Women's Multi 50+ scores 82/100 (B grade). Strengths: 19 Grade A, 5 Grade B ingredients. ",
       "amazon_url": "https://www.amazon.com/Thorne-Womens-Multi-Multivitamin-Comprehensive/dp/B0877WJHN7/ref=sr_1_1?crid=335P405MDY5MZ&dib=eyJ2IjoiMSJ9.zjZBJSky6FXuddbYVAsb5zcALc6ILwpoH7omKZtsj__Q158drHI1kVtsICmt-xD-FqilZdp2al9SiloHhrMHqz9bj3ZVYKMU2p9Oyb5EjRf239hhOmvhvHy28loEtB9rUa_I860h0Z4QPOHNLe_xrE8fRVhFka5rhuzUW-IklGF8_oyp4u8vHAkSyQWwfnIybBWQCGfVa9PN5Sm7c9IUZqbdwM6-VsbVlTBBjDBK4aiFkqQVQFUmEzgZANWBpZQXhYrXEFCxIXv8X9SdDBooWVHPK7l6ROel1iDNlamICaw.zkmFCPlPhFPBXp_9Ih88smElXM-No-YfdqDWjSMDyT4&dib_tag=se&keywords=thorne+Women%27s+Multi+50%2B&qid=1767582620&sprefix=thorne+women%27s+multi+50%2B%2Caps%2C281&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-women-s-multi-50-180-capsules/102918",
       "url": "https://www.thorne.com/products/dp/womens-multi-50",
@@ -22701,7 +22701,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-zinc-bisglycinate-15-mg/primary.webp",
       "gallery_images": [
@@ -22769,14 +22769,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -22785,7 +22785,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Zinc Bisglycinate 15 mg scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Zinc Bisglycinate 15 mg scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Zinc-Bisglycinate-Capsules/dp/B08BTK4494/ref=sr_1_1?crid=1ZVLIPN9OFVJU&dib=eyJ2IjoiMSJ9.PUTpipjmM7sO4dh26HTIYIATUtOKSXZkMgXuehYIr8318FFqnv4OAR78VK2iXRYmll193tfQG_gWyBJc1rlVNlY6WN5cGb4oRtirY-FMe6F1zweKGnVvJvv1o0rSdTKAI2Y9YkPTwtaLAkO4siOKL_v0ffl4T_2xNE7-Wh9pwYFyc9NKdS7o6blpQ8TALMllWN-pbvokKoo4CWW0kpe4beKAsWACnlOil2uxjDkoK-g4uMofzsrFNLdwrmu4XG0wvDb_YkQcfZEBC6fWRMXtx4UCBQX-zlxy9-cDkudS_2Y.MT9Maf_MTckIUsbSz0B6Kox94mjdDVggXPufWq0bTAg&dib_tag=se&keywords=thorne+Zinc+Bisglycinate+15+mg&qid=1767984277&sprefix=thorne+zinc+bisglycinate+15+mg%2Caps%2C223&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-bisglycinate-15-mg-60-capsules/101384",
       "url": "https://www.thorne.com/products/dp/zinc-bisglycinate-15-mg",
@@ -22801,7 +22801,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 94,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-zinc-bisglycinate-30-mg/primary.webp",
       "gallery_images": [
@@ -22850,8 +22850,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -22868,14 +22868,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -22884,7 +22884,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Zinc Bisglycinate 30 mg scores 94/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Zinc Bisglycinate 30 mg scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Zinc-Bisglycinate-Capsules/dp/B08BTLRY42/ref=sr_1_1?crid=2K1HE3MPA5Y3N&dib=eyJ2IjoiMSJ9.V3vw6Q02NGPkmYt1HVox5Jcyjx1TiIvm1xHHV_aaIUhe6zB2plXohxikAFes2gGLk7Un2EN7lztrvt6YBR8wAQJ2uaK_3T_tOZPXAC3fBjI2tJgvahEOu8cCNfipNa7Uiy0A3JtxDqsYIvgcdjEMmelnkhUKnGo6oG88_WUuP5zUnfBbTOTgt2gRnda5x65YEesJtHN2JeFPzspWLYh7b8iCphyFkRrma9pcCUBFrsZFX-otce9ye-_ODcEym8Ub_8yOiblwO9o5tdjLe3ceU1LAoRFn7o9n_qlabPYh-9A.zDXsecyKNWqdPd7FRengKcCsa7kdT5l-SEeaqhbJwEE&dib_tag=se&keywords=thorne+Zinc+Bisglycinate+30+mg&qid=1767658965&sprefix=thorne+zinc+bisglycinate+30+mg%2Caps%2C185&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-bisglycinate-30-mg-60-capsules/101383",
       "url": "https://www.thorne.com/products/dp/zinc-bisglycinate-30-mg",
@@ -22900,7 +22900,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 92,
+      "score": 91,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-zinc-picolinate-15-mg/primary.webp",
       "gallery_images": [
@@ -22967,14 +22967,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 80,
-          "weighted_score": 8.0
+          "raw_score": 82,
+          "weighted_score": 8.2
         },
         {
           "name": "Value",
@@ -22983,7 +22983,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Zinc Picolinate 15 mg scores 92/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
+      "explanation": "Zinc Picolinate 15 mg scores 91/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": "https://www.amazon.com/Thorne-Research-Picolinate-Absorbable-Reproductive/dp/B0797NSHQX/ref=sr_1_1?crid=1UQZG3EL6C4WP&dib=eyJ2IjoiMSJ9.DLJst1ILMZhMTEUmIAP3Yw9iV-k7i6N8NpdJ20e3yiw_gVaGNTnIahfzQ4RH0gas3OdHVJAhkQwQHbNRgiwyggA9I96-X-yGmzgwATyMvoG_PzIAtw3sPViWf0_PCEG8Aqo_yrDwqlwy77hE05FOSjxHUn6YJAYUzdZILh2Z3d-uEuwPLBh7mgw0U47FXe5WC9M5HmM73cY-1LHGKkACu9jYFg5m8oPscRChj5y-fl7NwOxcQ789Aah1ZwfxZQnMV1XAGbNM6pGr8RuhN2soPMZqU9gavHzkUBTCzKyciUI.P8aAOO-rZ4ejtVmx5hd8SYGwnL9aXh86F2ZWjHfeAeQ&dib_tag=se&keywords=thorne+Zinc+Picolinate+15+mg&qid=1767982563&sprefix=thorne+zinc+picolinate+15+mg%2Caps%2C228&sr=8-1",
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-picolinate-15-mg-60-capsules/18476",
       "url": "https://www.thorne.com/products/dp/zinc-picolinate",
@@ -22999,7 +22999,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 96,
+      "score": 93,
       "grade": "A",
       "image_url": "/images/products/thorne/thorne-zinc-picolinate-30-mg/primary.webp",
       "gallery_images": [
@@ -23048,8 +23048,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -23066,14 +23066,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -23082,7 +23082,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Zinc Picolinate 30 mg scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Zinc Picolinate 30 mg scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-picolinate-30-mg-180-capsules/18460",
       "url": "https://www.thorne.com/products/dp/double-strength-zinc-picolinate-60-s-1",
@@ -23098,7 +23098,7 @@
       "category_tags": [
         "Immune Support"
       ],
-      "score": 96,
+      "score": 93,
       "grade": "A",
       "image_url": null,
       "gallery_images": [],
@@ -23141,8 +23141,8 @@
         {
           "name": "Dose Accuracy",
           "weight": 0.2,
-          "raw_score": 95,
-          "weighted_score": 19.0
+          "raw_score": 90,
+          "weighted_score": 18.0
         },
         {
           "name": "Bioavailability",
@@ -23159,14 +23159,14 @@
         {
           "name": "Safety",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 93,
+          "weighted_score": 9.3
         },
         {
           "name": "Manufacturing",
           "weight": 0.1,
-          "raw_score": 100,
-          "weighted_score": 10.0
+          "raw_score": 90,
+          "weighted_score": 9.0
         },
         {
           "name": "Value",
@@ -23175,7 +23175,7 @@
           "weighted_score": 4.5
         }
       ],
-      "explanation": "Zinc Picolinate 30 mg scores 96/100 (A). Excellent — top-tier formulation with strong evidence and quality. Strengths: Evidence Quality: All ingredients have Grade A evidence. ",
+      "explanation": "Zinc Picolinate 30 mg scores 93/100 (A grade). Strengths: All ingredients have Grade A evidence. ",
       "amazon_url": null,
       "iherb_url": "https://www.iherb.com/pr/thorne-zinc-picolinate-30-mg-180-capsules/18460",
       "url": "https://www.thorne.com/products/dp/double-strength-zinc-picolinate-60-s",
@@ -24672,7 +24672,7 @@
       "slug": "thorne",
       "name": "Thorne",
       "product_count": 162,
-      "avg_score": 91,
+      "avg_score": 90,
       "top_category": "Omega-3",
       "logo_url": null
     },

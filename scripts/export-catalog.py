@@ -230,7 +230,7 @@ def export_catalog():
         ).fetchall()
         other_ingredients = [row["name"] for row in other_rows]
 
-        # --- Score (best/primary score for this product) ---
+        # --- Score (most recently computed score for this product) ---
         # Score variant_id uses "product:<family_id>" format
         score_key = f"product:{family_id}"
         score_row = conn.execute(
@@ -241,7 +241,7 @@ def export_catalog():
                    comparison_group_id
             FROM product_score
             WHERE variant_id = ?
-            ORDER BY category_score_abs DESC
+            ORDER BY computed_at DESC
             LIMIT 1
             """,
             (score_key,),
