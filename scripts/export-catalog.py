@@ -16,6 +16,7 @@ import sqlite3
 import json
 import os
 import shutil
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -136,6 +137,49 @@ def score_to_grade(score: int | None) -> str | None:
     return "F"
 
 
+def _get_latest_score(conn: sqlite3.Connection, score_key: str) -> sqlite3.Row | None:
+    """Get the most recent score for a product — matches the app's get_latest_score() logic.
+
+    The app uses ORDER BY updated_at DESC LIMIT 1 (see app/scoring/repo.py).
+    We must use the exact same query to stay in sync.
+    """
+    return conn.execute(
+        """
+        SELECT category_score_abs, evidence_score, dose_score,
+               bioavailability_score, transparency_score, safety_score,
+               manufacturing_score, value_score, explain_json,
+               comparison_group_id, updated_at
+        FROM product_score
+        WHERE variant_id = ?
+        ORDER BY updated_at DESC
+        LIMIT 1
+        """,
+        (score_key,),
+    ).fetchone()
+
+
+def _validate_scores(conn: sqlite3.Connection, products: list[dict]) -> list[str]:
+    """Cross-check exported scores against the DB using the same query the app uses.
+
+    Returns a list of error messages (empty = all good).
+    """
+    errors = []
+    for p in products:
+        if p["score"] is None:
+            continue
+        score_key = p["id"]
+        row = _get_latest_score(conn, score_key)
+        if row is None:
+            errors.append(f"  {p['brand']} - {p['name']}: exported score={p['score']} but no DB row found")
+        elif row["category_score_abs"] != p["score"]:
+            errors.append(
+                f"  {p['brand']} - {p['name']}: "
+                f"exported={p['score']}, DB={row['category_score_abs']} "
+                f"(group={row['comparison_group_id']})"
+            )
+    return errors
+
+
 def export_catalog():
     print(f"Connecting to: {DB_PATH}")
     conn = sqlite3.connect(DB_PATH)
@@ -154,6 +198,9 @@ def export_catalog():
     ).fetchall()
 
     print(f"Found {len(families)} published product families")
+
+    # Track the latest score update across all products for staleness detection
+    latest_score_update = None
 
     products = []
 
@@ -230,22 +277,9 @@ def export_catalog():
         ).fetchall()
         other_ingredients = [row["name"] for row in other_rows]
 
-        # --- Score (most recently computed score for this product) ---
-        # Score variant_id uses "product:<family_id>" format
+        # --- Score (most recently updated — matches app's get_latest_score()) ---
         score_key = f"product:{family_id}"
-        score_row = conn.execute(
-            """
-            SELECT category_score_abs, evidence_score, dose_score,
-                   bioavailability_score, transparency_score, safety_score,
-                   manufacturing_score, value_score, explain_json,
-                   comparison_group_id
-            FROM product_score
-            WHERE variant_id = ?
-            ORDER BY computed_at DESC
-            LIMIT 1
-            """,
-            (score_key,),
-        ).fetchone()
+        score_row = _get_latest_score(conn, score_key)
 
         score = None
         grade = None
@@ -254,6 +288,11 @@ def export_catalog():
 
         if score_row:
             score = score_row["category_score_abs"]
+
+            # Track latest update for staleness metadata
+            if score_row["updated_at"]:
+                if latest_score_update is None or score_row["updated_at"] > latest_score_update:
+                    latest_score_update = score_row["updated_at"]
 
             # Try to get grade from explain_json first
             explain = {}
@@ -354,6 +393,18 @@ def export_catalog():
         }
         products.append(product)
 
+    # --- Self-validation: cross-check every score against the DB ---
+    print("Validating scores...")
+    errors = _validate_scores(conn, products)
+    if errors:
+        print(f"\nERROR: {len(errors)} score mismatches detected!")
+        for e in errors:
+            print(e)
+        print("\nAborting export — catalog.json was NOT updated.")
+        conn.close()
+        sys.exit(1)
+    print(f"  All {sum(1 for p in products if p['score'] is not None)} scores verified OK")
+
     # --- Build brand summaries ---
     brand_map: dict[str, list] = {}
     for p in products:
@@ -382,6 +433,7 @@ def export_catalog():
     catalog = {
         "version": "1.0.0",
         "exported_at": datetime.now(timezone.utc).isoformat(),
+        "latest_score_update": latest_score_update,
         "product_count": len(products),
         "brand_count": len(brands),
         "products": products,
@@ -392,13 +444,15 @@ def export_catalog():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
 
-    print(f"Exported {len(products)} products, {len(brands)} brands")
+    print(f"\nExported {len(products)} products, {len(brands)} brands")
     print(f"Output: {OUTPUT_PATH}")
 
     scored = sum(1 for p in products if p["score"] is not None)
     with_images = sum(1 for p in products if p["image_url"] is not None)
     print(f"Scored: {scored}/{len(products)}")
     print(f"Images: {with_images}/{len(products)}")
+    if latest_score_update:
+        print(f"Latest score update: {latest_score_update}")
 
     conn.close()
 

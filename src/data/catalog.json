@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-13T23:30:14.858888+00:00",
+  "exported_at": "2026-03-13T23:35:03.567750+00:00",
+  "latest_score_update": "2026-03-10T17:04:45.228660",
   "product_count": 192,
   "brand_count": 6,
   "products": [
@@ -24705,7 +24706,7 @@
       "name": "MegaFood Inc.",
       "product_count": 3,
       "avg_score": 78,
-      "top_category": "energy",
+      "top_category": "Vitamin D",
       "logo_url": null
     }
   ]
