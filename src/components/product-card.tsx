@@ -74,34 +74,49 @@ const TAG_INFO: Record<string, { emoji: string; bg: string; text: string }> = {
 const DEFAULT_TAG = { emoji: "📦", bg: "rgba(148,163,184,0.15)", text: "#94A3B8" };
 
 /* ── Category → emoji + color (for the chip next to name) ────────── */
+/* Keys here are the *display labels* returned by formatCategory()    */
 const CATEGORY_INFO: Record<string, { emoji: string; bg: string; text: string }> = {
-  Iron: { emoji: "🩸", bg: "rgba(254,226,226,0.3)", text: "#FCA5A5" },
-  "Iron Supplements": { emoji: "🩸", bg: "rgba(254,226,226,0.3)", text: "#FCA5A5" },
-  Creatine: { emoji: "💪", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
-  "Beta Alanine": { emoji: "🏃", bg: "rgba(254,242,242,0.3)", text: "#FCA5A5" },
-  "Vitamin D": { emoji: "☀️", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
   Vitamins: { emoji: "💊", bg: "rgba(248,250,252,0.3)", text: "#CBD5E1" },
+  Multivitamin: { emoji: "💊", bg: "rgba(248,250,252,0.3)", text: "#CBD5E1" },
   Multivitamins: { emoji: "💊", bg: "rgba(248,250,252,0.3)", text: "#CBD5E1" },
+  "B Vitamins": { emoji: "🅱️", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
+  "Vitamin C": { emoji: "🍊", bg: "rgba(254,215,170,0.3)", text: "#FDBA74" },
+  "Vitamin D": { emoji: "☀️", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
+  "Vitamin K": { emoji: "🥬", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
   Minerals: { emoji: "💎", bg: "rgba(253,244,255,0.3)", text: "#D8B4FE" },
+  "Fish Oil & Omegas": { emoji: "🐟", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
+  "Amino Acids": { emoji: "🧬", bg: "rgba(207,250,254,0.3)", text: "#67E8F9" },
+  Protein: { emoji: "💪", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
+  Creatine: { emoji: "💪", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
+  "Sports Performance": { emoji: "🏋️", bg: "rgba(254,226,226,0.3)", text: "#FCA5A5" },
+  Recovery: { emoji: "🔄", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
+  Electrolytes: { emoji: "⚡", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
+  Collagen: { emoji: "✨", bg: "rgba(253,244,255,0.3)", text: "#D8B4FE" },
+  Adaptogens: { emoji: "🌿", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
   Antioxidants: { emoji: "🫐", bg: "rgba(237,233,254,0.3)", text: "#C4B5FD" },
   Probiotics: { emoji: "🦠", bg: "rgba(224,231,255,0.3)", text: "#A5B4FC" },
-  Adaptogens: { emoji: "🌿", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
-  "Amino Acids": { emoji: "🧬", bg: "rgba(207,250,254,0.3)", text: "#67E8F9" },
-  "Fish Oil": { emoji: "🐟", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
-  "Fish Oil & Omegas": { emoji: "🐟", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
-  Protein: { emoji: "💪", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
-  "Protein Powder": { emoji: "💪", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
+  "Digestive Enzymes": { emoji: "🦠", bg: "rgba(224,231,255,0.3)", text: "#A5B4FC" },
+  "Gut Health": { emoji: "🦠", bg: "rgba(224,231,255,0.3)", text: "#A5B4FC" },
+  Nootropics: { emoji: "🧠", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
+  Energy: { emoji: "⚡", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
+  Sleep: { emoji: "😴", bg: "rgba(237,233,254,0.3)", text: "#C4B5FD" },
+  Mood: { emoji: "💜", bg: "rgba(252,231,243,0.3)", text: "#F9A8D4" },
+  Stress: { emoji: "🧘", bg: "rgba(243,232,255,0.3)", text: "#D8B4FE" },
   Greens: { emoji: "🥬", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
   Mushrooms: { emoji: "🍄", bg: "rgba(254,215,170,0.3)", text: "#FDBA74" },
-  Collagen: { emoji: "✨", bg: "rgba(253,244,255,0.3)", text: "#D8B4FE" },
-  Electrolytes: { emoji: "⚡", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
-  Magnesium: { emoji: "💎", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
-  Ashwagandha: { emoji: "🌿", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
-  Herbal: { emoji: "🌿", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
-  "B Vitamins": { emoji: "🅱️", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
-  Melatonin: { emoji: "🌙", bg: "rgba(237,233,254,0.3)", text: "#C4B5FD" },
-  Sleep: { emoji: "😴", bg: "rgba(237,233,254,0.3)", text: "#C4B5FD" },
-  CoQ10: { emoji: "⚡", bg: "rgba(254,243,199,0.3)", text: "#FCD34D" },
+  "Liver Support": { emoji: "🫘", bg: "rgba(209,250,229,0.3)", text: "#6EE7B7" },
+  "Heart Health": { emoji: "❤️", bg: "rgba(255,228,230,0.3)", text: "#FCA5A5" },
+  Metabolism: { emoji: "🔥", bg: "rgba(254,215,170,0.3)", text: "#FDBA74" },
+  "Joint Support": { emoji: "🦵", bg: "rgba(255,237,213,0.3)", text: "#FDBA74" },
+  "Bone Support": { emoji: "🦴", bg: "rgba(245,245,244,0.3)", text: "#D6D3D1" },
+  "Anti-Inflammatory": { emoji: "🔥", bg: "rgba(254,215,170,0.3)", text: "#FDBA74" },
+  Hormones: { emoji: "🧬", bg: "rgba(255,241,242,0.3)", text: "#FCA5A5" },
+  "Men's Health": { emoji: "♂️", bg: "rgba(219,234,254,0.3)", text: "#93C5FD" },
+  "Women's Health": { emoji: "♀️", bg: "rgba(252,231,243,0.3)", text: "#F9A8D4" },
+  Prenatal: { emoji: "🤰", bg: "rgba(254,205,211,0.3)", text: "#FCA5A5" },
+  "Immune Support": { emoji: "🛡️", bg: "rgba(236,252,203,0.3)", text: "#BEF264" },
+  Thyroid: { emoji: "🦋", bg: "rgba(237,233,254,0.3)", text: "#C4B5FD" },
+  // ── Fallback ─────────────────────────────────────────────────────
   Supplements: { emoji: "💊", bg: "rgba(148,163,184,0.2)", text: "#94A3B8" },
 };
 
@@ -200,7 +215,65 @@ function parseCertifications(certs: string[]): CertLabel[] {
   return labels.slice(0, 4);
 }
 
+/* ── Normalize granular categories to broader display labels ──────── */
+const CATEGORY_DISPLAY: Record<string, string> = {
+  // Specific amino acids → Amino Acids
+  NAC: "Amino Acids", GABA: "Amino Acids", "5-HTP": "Amino Acids",
+  Carnitine: "Amino Acids", Glycine: "Amino Acids", Lysine: "Amino Acids",
+  "L-Arginine": "Amino Acids", "L-Glutamine": "Amino Acids", "L-Theanine": "Amino Acids",
+  Phosphatidylcholine: "Amino Acids", Phosphatidylserine: "Amino Acids",
+  // Specific B vitamins → B Vitamins
+  "B-Complex": "B Vitamins", "Vitamin B12": "B Vitamins",
+  "Vitamin B2": "B Vitamins", "Vitamin B6": "B Vitamins",
+  Folate: "B Vitamins", Biotin: "B Vitamins", Niacinamide: "B Vitamins",
+  // Specific minerals → Minerals
+  Magnesium: "Minerals", "Calcium-Magnesium": "Minerals", Calcium: "Minerals",
+  Zinc: "Minerals", Selenium: "Minerals", Copper: "Minerals",
+  Potassium: "Minerals", Chromium: "Minerals", "Trace Minerals": "Minerals",
+  Iron: "Minerals",
+  // Omega / Fish Oil → Fish Oil & Omegas
+  "Omega-3": "Fish Oil & Omegas", "Fish Oil": "Fish Oil & Omegas",
+  // Adaptogens/herbs → Adaptogens
+  Ashwagandha: "Adaptogens", Rhodiola: "Adaptogens", Ginseng: "Adaptogens",
+  Valerian: "Adaptogens",
+  // Antioxidants/polyphenols → Antioxidants
+  Resveratrol: "Antioxidants", Quercetin: "Antioxidants", Curcumin: "Antioxidants",
+  "Alpha-Lipoic Acid": "Antioxidants", "Grape Seed Extract": "Antioxidants",
+  "Green Tea Extract": "Antioxidants",
+  // Gut / Digestive
+  Probiotic: "Probiotics", Fiber: "Gut Health", Berberine: "Gut Health",
+  "GI Support": "Gut Health",
+  // Sleep
+  Melatonin: "Sleep", "Sleep Formula": "Sleep",
+  // Energy
+  CoQ10: "Energy", NR: "Energy", energy: "Energy",
+  // Heart
+  "Heart Formula": "Heart Health", "Red Yeast Rice": "Heart Health", Cholesterol: "Heart Health",
+  // Liver
+  "Liver Formula": "Liver Support", "Milk Thistle": "Liver Support",
+  // Joint / Bone
+  "Joint Formula": "Joint Support", Glucosamine: "Joint Support",
+  "Bone Formula": "Bone Support",
+  Boswellia: "Anti-Inflammatory", "Anti-Inflammatory": "Anti-Inflammatory",
+  // Hormones
+  "Hormone Formula": "Hormones", "Ovarian Support": "Women's Health",
+  "Testosterone Support": "Men's Health",
+  // Other
+  Glutathione: "Antioxidants", "Thyroid Formula": "Thyroid",
+  "Adrenal Extract": "Adaptogens", "Broccoli Extract": "Antioxidants",
+  "immune-support": "Immune Support", "Undecylenic Acid": "Immune Support",
+  "Blood Sugar Formula": "Metabolism", "Metabolism Formula": "Metabolism",
+  "Greens Powder": "Greens", "Mood Formula": "Mood", "Stress Formula": "Stress",
+  Nootropic: "Nootropics", "Recovery Formula": "Recovery",
+  "Beta-Alanine": "Sports Performance", "Beta Alanine": "Sports Performance",
+  "Pre-Workout": "Sports Performance",
+  "Vitamin D+K2": "Vitamin D",
+  "Vitamin K2": "Vitamin K",
+  "Vitamin E": "Vitamins",
+};
+
 function formatCategory(cat: string): string {
+  if (CATEGORY_DISPLAY[cat]) return CATEGORY_DISPLAY[cat];
   if (cat.includes("-")) {
     return cat
       .split("-")
@@ -299,7 +372,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
                 ${perServing.toFixed(2)}/srv
               </span>
             )}
-            <span className="text-[10px] text-muted/60">
+            <span className="text-[10px] text-accent/70">
               {product.servings_per_container != null && (
                 <>{product.servings_per_container} srv · </>
               )}

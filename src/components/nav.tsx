@@ -5,25 +5,16 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { AuthModal } from "@/components/auth-modal";
+import { UserMenu } from "@/components/user-menu";
 
 function AuthButtons() {
-  const { isSignedIn, user, signOut, isLoading } = useAuth();
+  const { isSignedIn, isLoading } = useAuth();
   const [modalOpen, setModalOpen] = useState(false);
 
   if (isLoading) return null;
 
-  if (isSignedIn && user) {
-    return (
-      <div className="flex items-center gap-3">
-        <span className="text-sm text-muted">{user.email}</span>
-        <button
-          onClick={() => signOut()}
-          className="px-4 py-2 rounded-xl text-sm font-medium text-muted hover:text-text border border-border hover:border-accent/40 transition-all cursor-pointer"
-        >
-          Sign Out
-        </button>
-      </div>
-    );
+  if (isSignedIn) {
+    return <UserMenu />;
   }
 
   return (
