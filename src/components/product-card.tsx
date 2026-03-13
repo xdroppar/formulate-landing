@@ -316,7 +316,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         />
         {/* Score ring overlay */}
         <div className="absolute top-2 left-2 bg-[rgba(8,8,15,0.7)] rounded-full p-0.5">
-          <ScoreRing score={product.score} size={36} strokeWidth={3} />
+          <ScoreRing score={product.score} size={44} strokeWidth={5} />
         </div>
         {showDevBadge && product.is_draft && (
           <div className="absolute top-2 right-2">
