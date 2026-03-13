@@ -1,30 +1,110 @@
 """
 Export supplement catalog from Formulate SQLite DB to static JSON for the website.
 
+Also copies product images (primary.webp, thumb.webp, gallery_*.webp) into
+public/images/products/{brand}/{product}/ so Next.js can serve them.
+
 Usage:
     python scripts/export-catalog.py
 
 Output:
     src/data/catalog.json
+    public/images/products/...
 """
 
 import sqlite3
 import json
 import os
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
 # Paths
+LANDING_ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = os.environ.get(
     "FORMULATE_DB",
-    str(Path(__file__).resolve().parents[1].parent / "Formulate" / "data" / "app.db"),
+    str(LANDING_ROOT.parent / "Formulate" / "data" / "app.db"),
 )
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "src" / "data" / "catalog.json"
+ASSETS_ROOT = LANDING_ROOT.parent / "Formulate" / "assets" / "products"
+OUTPUT_PATH = LANDING_ROOT / "src" / "data" / "catalog.json"
+IMAGES_DEST = LANDING_ROOT / "public" / "images" / "products"
 
 
 def slugify(text: str) -> str:
     """Convert text to URL-friendly slug."""
-    return text.lower().replace(" ", "-").replace("'", "").replace("&", "and")
+    return text.lower().replace(" ", "-").replace("'", "").replace("&", "and").rstrip(".")
+
+
+def find_asset_dir(brand_slug: str, family_id: str) -> Path | None:
+    """Find the asset directory for a product by matching family_id prefix."""
+    brand_dir = ASSETS_ROOT / brand_slug
+    if not brand_dir.exists():
+        return None
+
+    # Strip brand prefix from family_id to get product prefix
+    if family_id.startswith(brand_slug + "-"):
+        product_prefix = family_id[len(brand_slug) + 1 :]
+    else:
+        product_prefix = family_id
+
+    # Find directories starting with this prefix
+    matches = [d for d in brand_dir.iterdir() if d.is_dir() and d.name.startswith(product_prefix)]
+
+    if not matches:
+        return None
+
+    # Prefer exact match, then shortest name
+    for m in matches:
+        if m.name == product_prefix:
+            return m
+    return min(matches, key=lambda p: len(p.name))
+
+
+def _find_primary_image(asset_dir: Path) -> Path | None:
+    """Find the best primary image: prefer primary.webp, fall back to 01_gallery_hero.*"""
+    primary = asset_dir / "primary.webp"
+    if primary.exists():
+        return primary
+    for hero in sorted(asset_dir.glob("01_gallery_hero.*")):
+        if hero.suffix.lower() in (".webp", ".jpg", ".jpeg", ".png"):
+            return hero
+    return None
+
+
+def copy_product_images(asset_dir: Path, brand_slug: str, product_slug: str) -> tuple[str | None, list[str]]:
+    """Copy processed images to public dir. Returns (image_url, gallery_images) with web paths."""
+    dest_dir = IMAGES_DEST / brand_slug / product_slug
+    primary_src = _find_primary_image(asset_dir)
+    if not primary_src:
+        return None, []
+
+    dest_dir.mkdir(parents=True, exist_ok=True)
+
+    # Copy primary (keep original extension)
+    primary_name = f"primary{primary_src.suffix}"
+    shutil.copy2(primary_src, dest_dir / primary_name)
+    image_url = f"/images/products/{brand_slug}/{product_slug}/{primary_name}"
+
+    # Copy thumb if present
+    thumb_path = asset_dir / "thumb.webp"
+    if thumb_path.exists():
+        shutil.copy2(thumb_path, dest_dir / "thumb.webp")
+
+    # Copy gallery images (prefer .webp, fall back to raw)
+    gallery = []
+    webp_gallery = sorted(asset_dir.glob("gallery_*.webp"))
+    if webp_gallery:
+        for gimg in webp_gallery:
+            shutil.copy2(gimg, dest_dir / gimg.name)
+            gallery.append(f"/images/products/{brand_slug}/{product_slug}/{gimg.name}")
+    else:
+        # Fall back to raw gallery images (02_gallery_02.*, 03_gallery_03.*, etc.)
+        for raw in sorted(asset_dir.glob("0[2-9]_gallery_*.*")):
+            if raw.suffix.lower() in (".webp", ".jpg", ".jpeg", ".png"):
+                shutil.copy2(raw, dest_dir / raw.name)
+                gallery.append(f"/images/products/{brand_slug}/{product_slug}/{raw.name}")
+
+    return image_url, gallery
 
 
 def score_to_grade(score: int | None) -> str | None:
@@ -239,6 +319,13 @@ def export_catalog():
         # --- Build product entry ---
         slug = f"{brand_slug}-{family_id}" if not family_id.startswith(brand_slug) else family_id
 
+        # --- Find and copy product images ---
+        image_url = None
+        gallery_images = []
+        asset_dir = find_asset_dir(brand_slug, family_id)
+        if asset_dir:
+            image_url, gallery_images = copy_product_images(asset_dir, brand_slug, slug)
+
         product = {
             "id": f"product:{family_id}",
             "slug": slug,
@@ -249,8 +336,8 @@ def export_catalog():
             "category_tags": category_tags,
             "score": score,
             "grade": grade,
-            "image_url": None,  # Images served separately
-            "gallery_images": [],
+            "image_url": image_url,
+            "gallery_images": gallery_images,
             "price_usd": price_usd,
             "serving_size": variant["serving_size_text"],
             "servings_per_container": variant["servings_per_container"],
@@ -309,7 +396,9 @@ def export_catalog():
     print(f"Output: {OUTPUT_PATH}")
 
     scored = sum(1 for p in products if p["score"] is not None)
+    with_images = sum(1 for p in products if p["image_url"] is not None)
     print(f"Scored: {scored}/{len(products)}")
+    print(f"Images: {with_images}/{len(products)}")
 
     conn.close()
 
