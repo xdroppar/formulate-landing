@@ -74,33 +74,23 @@ body {
 }
 
 /* Card border — fades at corners, accent on hover */
-.card-border {
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  mask-image: none;
-}
-.card-border::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border: 1px solid transparent;
-  pointer-events: none;
-  z-index: 1;
-  transition: border-color 0.2s;
-  mask-image: linear-gradient(
+.card-wrap {
+  padding: 1px;
+  background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 1) 30%,
-    rgba(0, 0, 0, 1) 70%,
-    rgba(0, 0, 0, 0.6) 100%
+    rgba(255, 255, 255, 0.01) 0%,
+    rgba(255, 255, 255, 0.06) 30%,
+    rgba(255, 255, 255, 0.06) 70%,
+    rgba(255, 255, 255, 0.01) 100%
   );
-  -webkit-mask-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 1) 30%,
-    rgba(0, 0, 0, 1) 70%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
+  transition: background 0.2s;
 }
-.card-border:hover::before {
-  border-color: var(--color-accent);
+.card-wrap:hover {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--color-accent) 30%,
+    var(--color-accent) 70%,
+    transparent 100%
+  );
 }

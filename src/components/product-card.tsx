@@ -301,9 +301,10 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
       : null;
 
   return (
+    <div className="card-wrap h-full hover:-translate-y-0.5 transition-all">
     <Link
       href={`/catalog/${product.slug}`}
-      className="group relative bg-[#0d0d1a] overflow-hidden hover:-translate-y-0.5 transition-all block h-full card-border"
+      className="group bg-[#0d0d1a] overflow-hidden block h-full"
     >
       {/* Image carousel with score overlay */}
       <div className="relative w-full aspect-square bg-[#111125]">
@@ -421,5 +422,6 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         )}
       </div>
     </Link>
+    </div>
   );
 }
