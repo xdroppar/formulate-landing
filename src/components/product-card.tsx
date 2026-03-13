@@ -89,6 +89,62 @@ function getBrandColor(brand: string): string {
   return BRAND_COLOR[brand] ?? "#7a7a9a";
 }
 
+/* ── Grade → color mapping ───────────────────────────────────────── */
+const GRADE_COLORS: Record<string, string> = {
+  "A+": "#059669",
+  A: "#059669",
+  "A-": "#10B981",
+  "B+": "#2563EB",
+  B: "#2563EB",
+  "B-": "#3B82F6",
+  "C+": "#D97706",
+  C: "#D97706",
+  "C-": "#F59E0B",
+  "D+": "#EA580C",
+  D: "#EA580C",
+  "D-": "#F97316",
+  F: "#DC2626",
+};
+
+function getGradeColor(grade: string): string {
+  return GRADE_COLORS[grade] ?? "#6B7280";
+}
+
+/* ── Certification display labels ────────────────────────────────── */
+function formatCertifications(certs: string[]): string[] {
+  const labels: string[] = [];
+  const seen = new Set<string>();
+  for (const c of certs) {
+    const cl = c.toLowerCase();
+    if (cl.includes("nsf") && cl.includes("sport") && !seen.has("nsf_sport")) {
+      labels.push("NSF Sport");
+      seen.add("nsf_sport");
+    } else if (cl.includes("nsf") && !seen.has("nsf") && !seen.has("nsf_sport")) {
+      labels.push("NSF");
+      seen.add("nsf");
+    } else if (cl.includes("third") && (cl.includes("party") || cl.includes("tested")) && !seen.has("3p")) {
+      labels.push("3rd Party Tested");
+      seen.add("3p");
+    } else if (cl.includes("gmp") && !seen.has("gmp")) {
+      labels.push("GMP");
+      seen.add("gmp");
+    } else if (cl.includes("usp") && !seen.has("usp")) {
+      labels.push("USP");
+      seen.add("usp");
+    } else if (cl.includes("organic") && !seen.has("organic")) {
+      labels.push("Organic");
+      seen.add("organic");
+    } else if (cl.includes("vegan") && !seen.has("vegan")) {
+      labels.push("Vegan");
+      seen.add("vegan");
+    } else if (cl.includes("gluten") && cl.includes("free") && !seen.has("gf")) {
+      labels.push("Gluten Free");
+      seen.add("gf");
+    }
+  }
+  return labels.slice(0, 4);
+}
+
 function formatCategory(cat: string): string {
   if (cat.includes("-")) {
     return cat
@@ -150,16 +206,46 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
           )}
         </div>
 
-        {/* Brand */}
-        <div
-          className="text-[10px] font-extrabold tracking-wider mb-2 uppercase"
-          style={{ color: brandColor }}
-        >
-          {product.brand}
+        {/* Brand + grade badge */}
+        <div className="flex items-center gap-1.5 mb-1">
+          <span
+            className="text-[10px] font-extrabold tracking-wider uppercase"
+            style={{ color: brandColor }}
+          >
+            {product.brand}
+          </span>
+          {product.grade && product.grade !== "?" && (
+            <span
+              className="text-[9px] font-bold px-1.5 py-px rounded text-white leading-tight"
+              style={{ backgroundColor: getGradeColor(product.grade) }}
+            >
+              {product.grade}
+            </span>
+          )}
         </div>
 
+        {/* Price + form */}
+        {product.price_usd && (
+          <div className="text-[11px] text-muted/70 mb-1">
+            ${product.price_usd.toFixed(2)}
+            {product.form && (
+              <span className="ml-1 opacity-60">· {product.form}</span>
+            )}
+          </div>
+        )}
+
+        {/* Certifications */}
+        {product.certifications.length > 0 && (() => {
+          const labels = formatCertifications(product.certifications);
+          return labels.length > 0 ? (
+            <div className="text-[8px] text-muted/40 mb-1.5 leading-tight">
+              {labels.join(" · ")}
+            </div>
+          ) : null;
+        })()}
+
         {/* Benefit tags with emojis */}
-        <div className="flex flex-wrap gap-1 mb-2">
+        <div className="flex flex-wrap gap-1">
           {product.category_tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
@@ -175,16 +261,6 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
             </span>
           )}
         </div>
-
-        {/* Price + form */}
-        {product.price_usd && (
-          <div className="text-[11px] text-muted">
-            ${product.price_usd.toFixed(2)}
-            {product.form && (
-              <span className="ml-1 opacity-50">· {product.form}</span>
-            )}
-          </div>
-        )}
       </div>
     </Link>
   );
