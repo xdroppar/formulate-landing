@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #08080f;
+  --color-surface: #0f0f1a;
+  --color-surface2: #16162a;
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-accent: #00e5a0;
+  --color-accent2: #7c6dfa;
+  --color-text: #f0f0f8;
+  --color-muted: #7a7a9a;
+  --color-danger: #ff4f6a;
+  --color-warning: #ffa94d;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface2);
+  border-radius: 3px;
+}
+
+/* Score colors */
+.score-high {
+  color: var(--color-accent);
+}
+.score-mid {
+  color: var(--color-warning);
+}
+.score-low {
+  color: var(--color-danger);
+}
+
+/* Grade badges */
+.grade-a {
+  background: rgba(0, 229, 160, 0.15);
+  color: var(--color-accent);
+  border: 1px solid rgba(0, 229, 160, 0.3);
+}
+.grade-b {
+  background: rgba(124, 109, 250, 0.15);
+  color: var(--color-accent2);
+  border: 1px solid rgba(124, 109, 250, 0.3);
+}
+.grade-c {
+  background: rgba(255, 169, 77, 0.15);
+  color: var(--color-warning);
+  border: 1px solid rgba(255, 169, 77, 0.3);
+}
+.grade-d,
+.grade-f {
+  background: rgba(255, 79, 106, 0.15);
+  color: var(--color-danger);
+  border: 1px solid rgba(255, 79, 106, 0.3);
+}
