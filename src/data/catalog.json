@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-13T23:35:03.567750+00:00",
+  "exported_at": "2026-03-14T00:37:40.176869+00:00",
   "latest_score_update": "2026-03-10T17:04:45.228660",
   "product_count": 192,
   "brand_count": 6,
@@ -24666,7 +24666,19 @@
       "name": "Momentous",
       "product_count": 4,
       "avg_score": 93,
-      "top_category": "Nootropics",
+      "score": null,
+      "grade": null,
+      "confidence": null,
+      "components": null,
+      "standout": null,
+      "tags": [
+        {
+          "text": "omega-fatty-acids",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "Minerals",
       "logo_url": null
     },
     {
@@ -24674,6 +24686,34 @@
       "name": "Thorne",
       "product_count": 162,
       "avg_score": 90,
+      "score": 93,
+      "grade": "A",
+      "confidence": "high",
+      "components": {
+        "integrity": 100,
+        "product_quality": 90,
+        "innovation": 76,
+        "transparency": 96,
+        "verification": 100
+      },
+      "standout": "Most Verified",
+      "tags": [
+        {
+          "text": "Science-Led",
+          "color": "#06B6D4",
+          "icon": "🔬"
+        },
+        {
+          "text": "Clean Labels",
+          "color": "#3B82F6",
+          "icon": "🧼"
+        },
+        {
+          "text": "Heart Health",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
       "top_category": "Omega-3",
       "logo_url": null
     },
@@ -24682,6 +24722,34 @@
       "name": "Complement",
       "product_count": 3,
       "avg_score": 89,
+      "score": 81,
+      "grade": "B-",
+      "confidence": "high",
+      "components": {
+        "integrity": 82,
+        "product_quality": 87,
+        "innovation": 67,
+        "transparency": 96,
+        "verification": 66
+      },
+      "standout": "Most Transparent",
+      "tags": [
+        {
+          "text": "Clean Labels",
+          "color": "#3B82F6",
+          "icon": "🧼"
+        },
+        {
+          "text": "Open Book",
+          "color": "#22C55E",
+          "icon": "📖"
+        },
+        {
+          "text": "immune-support",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
       "top_category": "Multivitamins",
       "logo_url": null
     },
@@ -24690,15 +24758,35 @@
       "name": "Nootropics Depot",
       "product_count": 10,
       "avg_score": 89,
+      "score": 80,
+      "grade": "B-",
+      "confidence": "high",
+      "components": {
+        "integrity": 84,
+        "product_quality": 0,
+        "innovation": 61,
+        "transparency": 88,
+        "verification": 71
+      },
+      "standout": null,
+      "tags": [
+        {
+          "text": "energy",
+          "color": "#6B7280",
+          "icon": ""
+        },
+        {
+          "text": "hormones",
+          "color": "#6B7280",
+          "icon": ""
+        },
+        {
+          "text": "mood",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
       "top_category": "Adaptogens",
-      "logo_url": null
-    },
-    {
-      "slug": "transparent-labs",
-      "name": "Transparent Labs",
-      "product_count": 10,
-      "avg_score": 89,
-      "top_category": "Minerals",
       "logo_url": null
     },
     {
@@ -24706,7 +24794,60 @@
       "name": "MegaFood Inc.",
       "product_count": 3,
       "avg_score": 78,
-      "top_category": "Vitamin D",
+      "score": null,
+      "grade": null,
+      "confidence": null,
+      "components": null,
+      "standout": null,
+      "tags": [
+        {
+          "text": "energy",
+          "color": "#6B7280",
+          "icon": ""
+        },
+        {
+          "text": "detox-liver",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "energy",
+      "logo_url": null
+    },
+    {
+      "slug": "transparent-labs",
+      "name": "Transparent Labs",
+      "product_count": 10,
+      "avg_score": 89,
+      "score": 67,
+      "grade": "D+",
+      "confidence": "low",
+      "components": {
+        "integrity": 71,
+        "product_quality": 0,
+        "innovation": 85,
+        "transparency": 88,
+        "verification": 59
+      },
+      "standout": "Most Innovative",
+      "tags": [
+        {
+          "text": "Trailblazer",
+          "color": "#F59E0B",
+          "icon": "🔥"
+        },
+        {
+          "text": "bone",
+          "color": "#6B7280",
+          "icon": ""
+        },
+        {
+          "text": "minerals",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "Minerals",
       "logo_url": null
     }
   ]

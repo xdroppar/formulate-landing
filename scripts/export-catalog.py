@@ -405,10 +405,99 @@ def export_catalog():
         sys.exit(1)
     print(f"  All {sum(1 for p in products if p['score'] is not None)} scores verified OK")
 
+    # --- Load brand scores from DB ---
+    brand_scores_map: dict[str, dict] = {}
+    for row in conn.execute(
+        "SELECT brand_gid, final_score, grade, breakdown_json, confidence_level FROM brand_scores"
+    ).fetchall():
+        gid = row["brand_gid"]  # e.g., "brand:thorne"
+        slug = gid.replace("brand:", "") if gid.startswith("brand:") else gid
+        breakdown = {}
+        if row["breakdown_json"]:
+            try:
+                breakdown = json.loads(row["breakdown_json"])
+            except json.JSONDecodeError:
+                pass
+
+        # Extract component scores
+        components = {}
+        for comp in breakdown.get("components", []):
+            key = comp["name"].lower().replace(" ", "_")
+            components[key] = comp["raw_score"]
+
+        brand_scores_map[slug] = {
+            "score": row["final_score"],
+            "grade": row["grade"],
+            "confidence": row["confidence_level"],
+            "components": {
+                "integrity": components.get("integrity", 0),
+                "product_quality": components.get("product_quality", 0),
+                "innovation": components.get("innovation", 0),
+                "transparency": components.get("transparency", 0),
+                "verification": components.get("verification", 0),
+            },
+        }
+
     # --- Build brand summaries ---
     brand_map: dict[str, list] = {}
     for p in products:
         brand_map.setdefault(p["brand_slug"], []).append(p)
+
+    # Determine standout badges (highest score per dimension across all brands)
+    standout_map: dict[str, str] = {}  # dimension -> brand_slug
+    dimensions = ["integrity", "product_quality", "innovation", "transparency", "verification"]
+    for dim in dimensions:
+        best_slug = None
+        best_score = -1
+        for bslug in brand_map:
+            bs = brand_scores_map.get(bslug)
+            if bs and bs["components"].get(dim, 0) > best_score:
+                best_score = bs["components"][dim]
+                best_slug = bslug
+        if best_slug and best_score >= 85:
+            standout_map[best_slug] = dim
+
+    standout_labels = {
+        "integrity": "Most Trusted",
+        "product_quality": "Highest Quality",
+        "innovation": "Most Innovative",
+        "transparency": "Most Transparent",
+        "verification": "Most Verified",
+    }
+
+    # Derive brand tags from component scores
+    achievement_thresholds = [
+        ("verification", 85, "Science-Led", "#06B6D4", "🔬"),
+        ("product_quality", 85, "Clean Labels", "#3B82F6", "🧼"),
+        ("transparency", 90, "Open Book", "#22C55E", "📖"),
+        ("innovation", 85, "Trailblazer", "#F59E0B", "🔥"),
+        ("integrity", 90, "Gold Standard", "#8B5CF6", "🏅"),
+    ]
+
+    def _derive_brand_tags(bslug: str, bproducts: list) -> list[dict]:
+        """Derive up to 3 display tags for a brand card."""
+        tags = []
+        bs = brand_scores_map.get(bslug)
+        if bs:
+            comps = bs["components"]
+            for dim, threshold, label, color, icon in achievement_thresholds:
+                if comps.get(dim, 0) >= threshold and len(tags) < 2:
+                    tags.append({"text": label, "color": color, "icon": icon})
+
+        # Fill remaining slots with top product category tags
+        if len(tags) < 3:
+            cat_counts: dict[str, int] = {}
+            for p in bproducts:
+                for tag in p.get("category_tags", []):
+                    if tag.lower() not in ("general", "other", "supplements"):
+                        cat_counts[tag] = cat_counts.get(tag, 0) + 1
+            top_cats = sorted(cat_counts.items(), key=lambda x: -x[1])
+            for cat, _ in top_cats:
+                if len(tags) >= 3:
+                    break
+                tags.append({"text": cat, "color": "#6B7280", "icon": ""})
+
+        return tags[:3]
 
     brands = []
     for bslug, bproducts in sorted(brand_map.items()):
@@ -416,18 +505,27 @@ def export_catalog():
         categories = [p["category"] for p in bproducts if p["category"]]
         top_cat = max(set(categories), key=categories.count) if categories else None
 
+        bs = brand_scores_map.get(bslug)
+        standout_dim = standout_map.get(bslug)
+
         brands.append(
             {
                 "slug": bslug,
                 "name": bproducts[0]["brand"],
                 "product_count": len(bproducts),
                 "avg_score": round(sum(scores) / len(scores)) if scores else None,
+                "score": bs["score"] if bs else None,
+                "grade": bs["grade"] if bs else None,
+                "confidence": bs["confidence"] if bs else None,
+                "components": bs["components"] if bs else None,
+                "standout": standout_labels.get(standout_dim, "") if standout_dim else None,
+                "tags": _derive_brand_tags(bslug, bproducts),
                 "top_category": top_cat,
                 "logo_url": None,
             }
         )
 
-    brands.sort(key=lambda b: b["avg_score"] or 0, reverse=True)
+    brands.sort(key=lambda b: b["score"] or b["avg_score"] or 0, reverse=True)
 
     # --- Output ---
     catalog = {

@@ -29,6 +29,16 @@ export async function getAllBrands(): Promise<CatalogBrand[]> {
   return catalog.brands;
 }
 
+export async function getBrandBySlug(slug: string): Promise<CatalogBrand | null> {
+  const catalog = await loadCatalog();
+  return catalog.brands.find((b) => b.slug === slug) ?? null;
+}
+
+export async function getProductsByBrand(brandSlug: string): Promise<CatalogProduct[]> {
+  const catalog = await loadCatalog();
+  return catalog.products.filter((p) => p.brand_slug === brandSlug && !p.is_draft);
+}
+
 export async function getAllCategories(): Promise<string[]> {
   const catalog = await loadCatalog();
   const cats = new Set(catalog.products.map((p) => p.category).filter(Boolean));

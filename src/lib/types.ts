@@ -42,11 +42,31 @@ export interface ScoreComponent {
   weighted_score: number;
 }
 
+export interface BrandComponents {
+  integrity: number;
+  product_quality: number;
+  innovation: number;
+  transparency: number;
+  verification: number;
+}
+
+export interface BrandTag {
+  text: string;
+  color: string;
+  icon: string;
+}
+
 export interface CatalogBrand {
   slug: string;
   name: string;
   product_count: number;
   avg_score: number | null;
+  score: number | null;
+  grade: string | null;
+  confidence: string | null;
+  components: BrandComponents | null;
+  standout: string | null;
+  tags: BrandTag[];
   top_category: string | null;
   logo_url: string | null;
 }
