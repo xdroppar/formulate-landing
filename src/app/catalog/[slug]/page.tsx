@@ -20,9 +20,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = await getProductBySlug(slug);
   if (!product) return { title: "Not Found — Formulate" };
+
+  const title = `${product.name} by ${product.brand} — Formulate`;
+  const description = `Score: ${product.score}/100. ${product.explanation || ""}`
+    .slice(0, 160);
+  const url = `https://formulate-health.app/catalog/${product.slug}`;
+
   return {
-    title: `${product.name} by ${product.brand} — Formulate`,
-    description: `Score: ${product.score}/100. ${product.explanation || ""}`,
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "website",
+      ...(product.image_url
+        ? { images: [{ url: `https://formulate-health.app${product.image_url}`, width: 600, height: 600, alt: product.name }] }
+        : {}),
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+      ...(product.image_url ? { images: [`https://formulate-health.app${product.image_url}`] } : {}),
+    },
   };
 }
 
@@ -43,8 +65,67 @@ export default async function ProductDetailPage({ params }: Props) {
           ? "text-warning"
           : "text-danger";
 
+  const pricePerServing =
+    product.price_usd && product.servings_per_container
+      ? (product.price_usd / product.servings_per_container).toFixed(2)
+      : null;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    brand: { "@type": "Brand", name: product.brand },
+    description: product.explanation || `${product.name} by ${product.brand}`,
+    category: product.category,
+    ...(product.image_url
+      ? { image: `https://formulate-health.app${product.image_url}` }
+      : {}),
+    ...(product.price_usd
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: product.price_usd.toFixed(2),
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+          },
+        }
+      : {}),
+    ...(product.score !== null
+      ? {
+          review: {
+            "@type": "Review",
+            author: { "@type": "Organization", name: "Formulate" },
+            reviewRating: {
+              "@type": "Rating",
+              ratingValue: (product.score / 20).toFixed(1),
+              bestRating: "5",
+              worstRating: "1",
+            },
+            reviewBody: product.explanation || undefined,
+          },
+        }
+      : {}),
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Catalog", item: "https://formulate-health.app/catalog" },
+      { "@type": "ListItem", position: 2, name: product.name },
+    ],
+  };
+
   return (
     <div className="pt-24 px-6 pb-16 max-w-[900px] mx-auto">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-muted mb-8">
         <Link href="/catalog" className="hover:text-accent transition-colors">
