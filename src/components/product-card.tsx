@@ -121,16 +121,26 @@ const CATEGORY_INFO: Record<string, { emoji: string; bg: string; text: string }>
   Supplements: { emoji: "💊", bg: "rgba(148,163,184,0.2)", text: "#94A3B8" },
 };
 
-/* ── Certification → emoji + color ───────────────────────────────── */
-const CERT_INFO: Record<string, { emoji: string; bg: string; text: string }> = {
-  nsf_sport: { emoji: "🏅", bg: "rgba(37,99,235,0.2)", text: "#93C5FD" },
-  nsf: { emoji: "✅", bg: "rgba(59,130,246,0.2)", text: "#93C5FD" },
-  "3p": { emoji: "🔬", bg: "rgba(13,148,136,0.2)", text: "#5EEAD4" },
-  gmp: { emoji: "🏭", bg: "rgba(124,58,237,0.2)", text: "#C4B5FD" },
-  usp: { emoji: "🛡️", bg: "rgba(217,119,6,0.2)", text: "#FCD34D" },
-  organic: { emoji: "🌱", bg: "rgba(21,128,61,0.2)", text: "#86EFAC" },
-  vegan: { emoji: "🌿", bg: "rgba(22,163,74,0.2)", text: "#86EFAC" },
-  gf: { emoji: "🌾", bg: "rgba(139,92,246,0.2)", text: "#C4B5FD" },
+/* ── Certification → emoji + color + tooltip ─────────────────────── */
+const CERT_INFO: Record<string, { emoji: string; bg: string; text: string; tooltip: string }> = {
+  nsf_sport: { emoji: "🏅", bg: "rgba(37,99,235,0.2)", text: "#93C5FD", tooltip: "NSF Certified for Sport — tested for banned substances" },
+  nsf: { emoji: "✅", bg: "rgba(59,130,246,0.2)", text: "#93C5FD", tooltip: "NSF Certified — independently verified" },
+  "3p": { emoji: "🔬", bg: "rgba(13,148,136,0.2)", text: "#5EEAD4", tooltip: "Third-Party Tested — verified by independent lab" },
+  gmp: { emoji: "🏭", bg: "rgba(124,58,237,0.2)", text: "#C4B5FD", tooltip: "cGMP Certified — manufactured in certified facility" },
+  usp: { emoji: "🛡️", bg: "rgba(217,119,6,0.2)", text: "#FCD34D", tooltip: "USP Verified — meets purity & potency standards" },
+  organic: { emoji: "🌱", bg: "rgba(21,128,61,0.2)", text: "#86EFAC", tooltip: "Certified Organic ingredients" },
+  vegan: { emoji: "🌿", bg: "rgba(22,163,74,0.2)", text: "#86EFAC", tooltip: "100% plant-based, no animal-derived ingredients" },
+  gf: { emoji: "🌾", bg: "rgba(139,92,246,0.2)", text: "#C4B5FD", tooltip: "Gluten-Free — no wheat or gluten ingredients" },
+  fda: { emoji: "🏛️", bg: "rgba(59,130,246,0.2)", text: "#93C5FD", tooltip: "FDA Registered manufacturing facility" },
+  usa: { emoji: "🇺🇸", bg: "rgba(59,130,246,0.2)", text: "#93C5FD", tooltip: "Made in USA" },
+  non_gmo: { emoji: "🚫", bg: "rgba(22,163,74,0.2)", text: "#86EFAC", tooltip: "Non-GMO — no genetically modified ingredients" },
+  kosher: { emoji: "✡️", bg: "rgba(100,116,139,0.2)", text: "#CBD5E1", tooltip: "Kosher certified" },
+  soy_free: { emoji: "🚫", bg: "rgba(217,119,6,0.2)", text: "#FCD34D", tooltip: "Soy-Free — no soy-derived ingredients" },
+  cruelty_free: { emoji: "🐰", bg: "rgba(236,72,153,0.2)", text: "#F9A8D4", tooltip: "Cruelty-Free — not tested on animals" },
+  vegetarian: { emoji: "🥬", bg: "rgba(22,163,74,0.2)", text: "#86EFAC", tooltip: "Suitable for vegetarians" },
+  lactose_free: { emoji: "🥛", bg: "rgba(139,92,246,0.2)", text: "#C4B5FD", tooltip: "Lactose-Free" },
+  iso: { emoji: "📋", bg: "rgba(100,116,139,0.2)", text: "#CBD5E1", tooltip: "ISO/IEC Certified manufacturing" },
+  coa: { emoji: "📄", bg: "rgba(13,148,136,0.2)", text: "#5EEAD4", tooltip: "Certificate of Analysis available" },
 };
 
 function getTagInfo(tag: string) {
@@ -171,35 +181,71 @@ interface CertLabel {
 function parseCertifications(certs: string[]): CertLabel[] {
   const labels: CertLabel[] = [];
   const seen = new Set<string>();
-  for (const c of certs) {
-    const cl = c.toLowerCase();
-    if (cl.includes("nsf") && cl.includes("sport") && !seen.has("nsf_sport")) {
-      labels.push({ key: "nsf_sport", label: "NSF Sport" });
-      seen.add("nsf_sport");
-    } else if (cl.includes("nsf") && !seen.has("nsf") && !seen.has("nsf_sport")) {
-      labels.push({ key: "nsf", label: "NSF" });
-      seen.add("nsf");
-    } else if (cl.includes("third") && (cl.includes("party") || cl.includes("tested")) && !seen.has("3p")) {
-      labels.push({ key: "3p", label: "3rd Party" });
-      seen.add("3p");
-    } else if (cl.includes("gmp") && !seen.has("gmp")) {
-      labels.push({ key: "gmp", label: "GMP" });
-      seen.add("gmp");
-    } else if (cl.includes("usp") && !seen.has("usp")) {
-      labels.push({ key: "usp", label: "USP" });
-      seen.add("usp");
-    } else if (cl.includes("organic") && !seen.has("organic")) {
-      labels.push({ key: "organic", label: "Organic" });
-      seen.add("organic");
-    } else if (cl.includes("vegan") && !seen.has("vegan")) {
-      labels.push({ key: "vegan", label: "Vegan" });
-      seen.add("vegan");
-    } else if (cl.includes("gluten") && cl.includes("free") && !seen.has("gf")) {
-      labels.push({ key: "gf", label: "GF" });
-      seen.add("gf");
+
+  function add(key: string, label: string) {
+    if (!seen.has(key)) {
+      labels.push({ key, label });
+      seen.add(key);
     }
   }
-  return labels.slice(0, 4);
+
+  for (const c of certs) {
+    const cl = c.toLowerCase();
+    if (cl.includes("nsf") && cl.includes("sport")) {
+      add("nsf_sport", "NSF Sport");
+    } else if (cl.includes("nsf")) {
+      add("nsf", "NSF");
+    }
+    if (cl.includes("third") && (cl.includes("party") || cl.includes("tested"))) {
+      add("3p", "3rd Party");
+    }
+    if (cl.includes("gmp") || cl.includes("cgmp")) {
+      add("gmp", "GMP");
+    }
+    if (cl.includes("usp")) {
+      add("usp", "USP");
+    }
+    if (cl.includes("organic")) {
+      add("organic", "Organic");
+    }
+    if (cl.includes("vegan") && !cl.includes("vegetarian")) {
+      add("vegan", "Vegan");
+    }
+    if (cl.includes("gluten") && cl.includes("free")) {
+      add("gf", "GF");
+    }
+    if (cl.includes("fda") && cl.includes("register")) {
+      add("fda", "FDA");
+    }
+    if (cl.includes("made in") && cl.includes("usa")) {
+      add("usa", "USA");
+    }
+    if (cl.includes("non") && cl.includes("gmo")) {
+      add("non_gmo", "Non-GMO");
+    }
+    if (cl.includes("kosher")) {
+      add("kosher", "Kosher");
+    }
+    if (cl.includes("soy") && cl.includes("free")) {
+      add("soy_free", "Soy Free");
+    }
+    if (cl.includes("cruelty") && cl.includes("free")) {
+      add("cruelty_free", "Cruelty Free");
+    }
+    if (cl.includes("vegetarian") && !cl.includes("vegan")) {
+      add("vegetarian", "Vegetarian");
+    }
+    if (cl.includes("lactose") && cl.includes("free")) {
+      add("lactose_free", "Lactose Free");
+    }
+    if (cl.includes("iso") && cl.includes("iec")) {
+      add("iso", "ISO");
+    }
+    if (cl.includes("coa") || (cl.includes("certificate") && cl.includes("analysis"))) {
+      add("coa", "COA");
+    }
+  }
+  return labels;
 }
 
 /* ── Normalize granular categories to broader display labels ──────── */
@@ -393,22 +439,34 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
           )}
         </div>
 
-        {/* Certifications as bubble tags with emojis (under benefit tags) */}
+        {/* Certifications as emoji circle bubbles with tooltips */}
         {certLabels.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {certLabels.map((cert) => {
-              const info = CERT_INFO[cert.key] ?? { emoji: "✓", bg: "rgba(100,116,139,0.15)", text: "#94A3B8" };
+          <div className="flex flex-wrap gap-1 items-center">
+            {certLabels.slice(0, 5).map((cert) => {
+              const info = CERT_INFO[cert.key] ?? { emoji: "✓", bg: "rgba(100,116,139,0.15)", text: "#94A3B8", tooltip: cert.label };
               return (
                 <span
                   key={cert.key}
-                  className="inline-flex items-center gap-0.5 px-1.5 py-px rounded-full text-[8px] font-semibold"
-                  style={{ backgroundColor: info.bg, color: info.text }}
+                  title={info.tooltip}
+                  className="inline-flex items-center justify-center w-[22px] h-[22px] rounded-full text-[11px] cursor-default shrink-0"
+                  style={{ backgroundColor: info.bg }}
                 >
-                  <span className="text-[8px]">{info.emoji}</span>
-                  {cert.label}
+                  {info.emoji}
                 </span>
               );
             })}
+            {certLabels.length > 5 && (
+              <span
+                title={certLabels.slice(5).map((c) => {
+                  const i = CERT_INFO[c.key];
+                  return i ? `${i.emoji} ${c.label}` : c.label;
+                }).join(", ")}
+                className="inline-flex items-center justify-center h-[22px] px-1.5 rounded-full text-[9px] font-semibold cursor-default"
+                style={{ backgroundColor: "rgba(100,116,139,0.15)", color: "#94A3B8" }}
+              >
+                +{certLabels.length - 5}
+              </span>
+            )}
           </div>
         )}
       </div>
