@@ -357,30 +357,31 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
 
   return (
     <CardBorderWrap>
-    <Link
-      href={`/catalog/${displaySlug}`}
-      className="group bg-[#0d0d1a] overflow-hidden block h-full"
-    >
-      {/* Image carousel with score overlay */}
-      <div className="relative w-full aspect-[5/4] bg-[#0d0d1a] overflow-hidden">
-        <CardImageCarousel
-          key={activeVariant?.id ?? product.id}
-          images={displayImages}
-          alt={product.name}
-        />
-        {/* Score ring overlay */}
-        <div className="absolute top-2 left-2 z-10">
-          <ScoreRing score={displayScore} size={44} strokeWidth={5} />
-        </div>
-        {showDevBadge && product.is_draft && (
-          <div className="absolute top-2 right-2 z-10">
-            <DevBadge />
+    <div className="flex flex-col h-full bg-[#0d0d1a] overflow-hidden group">
+      <Link
+        href={`/catalog/${displaySlug}`}
+        className="block flex-1 min-h-0"
+      >
+        {/* Image carousel with score overlay */}
+        <div className="relative w-full aspect-[5/4] bg-[#0d0d1a] overflow-hidden">
+          <CardImageCarousel
+            key={activeVariant?.id ?? product.id}
+            images={displayImages}
+            alt={product.name}
+          />
+          {/* Score ring overlay */}
+          <div className="absolute top-2 left-2 z-10">
+            <ScoreRing score={displayScore} size={44} strokeWidth={5} />
           </div>
-        )}
-      </div>
+          {showDevBadge && product.is_draft && (
+            <div className="absolute top-2 right-2 z-10">
+              <DevBadge />
+            </div>
+          )}
+        </div>
 
-      {/* Content — flush against image, no gap */}
-      <div className="px-3 pt-1 pb-1 flex flex-col gap-0.5">
+        {/* Content — flush against image, no gap */}
+        <div className="px-3 pt-1 pb-1 flex flex-col gap-0.5">
         {/* Name + category chip with emoji & color */}
         <div className="flex items-start gap-1.5">
           <span className="text-[12px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">
@@ -519,11 +520,11 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
             )}
           </div>
         )}
-      </div>
-    </Link>
+        </div>
+      </Link>
 
       {/* Action buttons — outside the Link so clicks don't navigate */}
-      <div className="flex gap-1.5 px-3 pb-2.5">
+      <div className="flex gap-1.5 px-3 pb-2.5 pt-1 mt-auto">
         <button
           onClick={(e) => {
             e.preventDefault();
@@ -564,6 +565,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
           </a>
         )}
       </div>
+    </div>
     </CardBorderWrap>
   );
 }
