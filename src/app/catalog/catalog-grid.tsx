@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { ProductCard } from "@/components/product-card";
 import { InsightsPanel } from "@/components/insights-panel";
 import type { CatalogProduct } from "@/lib/types";
+import { buildFlavorGroups } from "@/lib/flavor-groups";
 
 interface CatalogGridProps {
   products: CatalogProduct[];
@@ -123,6 +124,9 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     return result;
   }, [products, search, category, tagFilter, sort, sortAsc, scoreRange, brandFilter, brandGradeFilter, brandAvgScores]);
 
+  // Group flavor variants (e.g., Creatine Strawberry + Pineapple → one card)
+  const grouped = useMemo(() => buildFlavorGroups(filtered), [filtered]);
+
   // Active filter chips
   const activeFilters: { label: string; clear: () => void }[] = [];
   if (scoreRange) {
@@ -235,13 +239,14 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
         </div>
 
         {/* Grid */}
-        {filtered.length > 0 ? (
+        {grouped.length > 0 ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3">
-            {filtered.map((product) => (
+            {grouped.map((g) => (
               <ProductCard
-                key={product.id}
-                product={product}
+                key={g.product.id}
+                product={g.product}
                 showDevBadge={isDev}
+                variants={g.variants.length >= 2 ? g.variants : undefined}
               />
             ))}
           </div>
