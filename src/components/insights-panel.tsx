@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { ScoreRing } from "./score-ring";
 import type { CatalogProduct } from "@/lib/types";
@@ -152,7 +153,6 @@ export function InsightsPanel({
   onBrandGradeClick,
 }: InsightsPanelProps) {
   const scored = products.filter((p) => p.score !== null);
-  const total = products.length;
 
   // --- Score Distribution ---
   const scoreDist = SCORE_RANGES.map((r) => {
@@ -226,33 +226,33 @@ export function InsightsPanel({
   const topCategories = [...tagMap.entries()]
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10);
-  const maxCatCount = Math.max(...topCategories.map(([, c]) => c), 1);
-
-  // --- Avg Score ---
-  const avgScore =
-    scored.length > 0
-      ? Math.round(
-          scored.reduce((a, p) => a + (p.score ?? 0), 0) / scored.length
-        )
-      : null;
-
   const card = "bg-[#0d0d1a] border border-[rgba(255,255,255,0.06)] rounded-xl p-3";
   const heading = "text-[9px] font-semibold text-muted uppercase tracking-wider mb-2.5";
 
+  const [collapsed, setCollapsed] = useState(false);
+
   return (
     <aside className="w-60 shrink-0 space-y-3">
-      {/* Overview */}
-      <div className={card}>
-        <div className={heading}>Catalog Overview</div>
-        <div className="flex items-center gap-3">
-          <ScoreRing score={avgScore} size={44} strokeWidth={3.5} />
-          <div>
-            <div className="text-xl font-black text-text">{total}</div>
-            <div className="text-[10px] text-muted">products scored</div>
-          </div>
-        </div>
-      </div>
+      {/* Insights header */}
+      <button
+        className="w-full flex items-center justify-between px-1 cursor-pointer"
+        onClick={() => setCollapsed(!collapsed)}
+      >
+        <span className="text-[10px] font-semibold text-muted uppercase tracking-wider">
+          Insights
+        </span>
+        <svg
+          className={`w-3.5 h-3.5 text-muted transition-transform duration-200 ${collapsed ? "-rotate-90" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2.5}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
 
+      {!collapsed && <>
       {/* Brand Grades */}
       <div className={card}>
         <div className={heading}>Brand Grades</div>
@@ -376,12 +376,6 @@ export function InsightsPanel({
               <span className="text-[10px] text-muted truncate flex-1 text-left group-hover/cat:text-accent transition-colors">
                 {cat}
               </span>
-              <div className="w-14 h-2.5 bg-white/[0.03] rounded overflow-hidden shrink-0">
-                <div
-                  className="h-full rounded bg-accent/50 group-hover/cat:bg-accent/80 transition-all"
-                  style={{ width: `${(count / maxCatCount) * 100}%` }}
-                />
-              </div>
               <span className="text-[9px] font-bold text-muted w-4 text-right shrink-0">
                 {count}
               </span>
@@ -389,6 +383,7 @@ export function InsightsPanel({
           ))}
         </div>
       </div>
+      </>}
     </aside>
   );
 }
