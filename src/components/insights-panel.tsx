@@ -232,27 +232,26 @@ export function InsightsPanel({
   const [collapsed, setCollapsed] = useState(false);
 
   return (
-    <aside className="w-60 shrink-0 space-y-3">
-      {/* Insights header */}
+    <aside
+      className={`shrink-0 transition-all duration-200 ease-in-out ${collapsed ? "w-11" : "w-60"}`}
+    >
+      {/* Collapse toggle */}
       <button
-        className="w-full flex items-center justify-between px-1 cursor-pointer"
+        className="flex items-center gap-2 px-1 mb-3 cursor-pointer group"
         onClick={() => setCollapsed(!collapsed)}
+        title={collapsed ? "Expand insights" : "Collapse insights"}
       >
-        <span className="text-[10px] font-semibold text-muted uppercase tracking-wider">
-          Insights
+        <span className="text-[11px] text-muted group-hover:text-text transition-colors">
+          {collapsed ? "▶" : "◀"}
         </span>
-        <svg
-          className={`w-3.5 h-3.5 text-muted transition-transform duration-200 ${collapsed ? "-rotate-90" : ""}`}
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2.5}
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
+        {!collapsed && (
+          <span className="text-[10px] font-semibold text-muted uppercase tracking-wider">
+            Insights
+          </span>
+        )}
       </button>
 
-      {!collapsed && <>
+      {!collapsed && <div className="space-y-3">
       {/* Brand Grades */}
       <div className={card}>
         <div className={heading}>Brand Grades</div>
@@ -383,7 +382,7 @@ export function InsightsPanel({
           ))}
         </div>
       </div>
-      </>}
+      </div>}
     </aside>
   );
 }
