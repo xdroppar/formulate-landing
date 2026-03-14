@@ -73,7 +73,7 @@ body {
   border: 1px solid rgba(255, 79, 106, 0.3);
 }
 
-/* Card border — all sides visible, corners fade, accent on hover */
+/* Card border — all sides, corners fade to bg, accent on hover */
 .card-wrap {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -81,4 +81,44 @@ body {
 }
 .card-wrap:hover {
   border-color: var(--color-accent);
+}
+/* Corner fade overlays — 4 tiny gradient patches over each corner */
+.card-wrap::before,
+.card-wrap::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 2;
+}
+.card-wrap::before {
+  top: -1px;
+  left: -1px;
+  background: radial-gradient(circle at 0% 0%, var(--color-bg) 60%, transparent 100%);
+}
+.card-wrap::after {
+  top: -1px;
+  right: -1px;
+  background: radial-gradient(circle at 100% 0%, var(--color-bg) 60%, transparent 100%);
+}
+/* Bottom corners via inner element */
+.card-wrap > a::before,
+.card-wrap > a::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 2;
+}
+.card-wrap > a::before {
+  bottom: -1px;
+  left: -1px;
+  background: radial-gradient(circle at 0% 100%, var(--color-bg) 60%, transparent 100%);
+}
+.card-wrap > a::after {
+  bottom: -1px;
+  right: -1px;
+  background: radial-gradient(circle at 100% 100%, var(--color-bg) 60%, transparent 100%);
 }
