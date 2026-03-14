@@ -73,11 +73,24 @@ body {
   border: 1px solid rgba(255, 79, 106, 0.3);
 }
 
-/* Card border — accent on hover */
+/* Card border — faded corners, accent on hover */
 .card-wrap {
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: border-color 0.2s;
+  border: 1px solid;
+  border-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.08) 15%,
+    rgba(255, 255, 255, 0.08) 85%,
+    transparent 100%
+  ) 1;
+  transition: border-image 0.2s;
 }
 .card-wrap:hover {
-  border-color: var(--color-accent);
+  border-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--color-accent) 15%,
+    var(--color-accent) 85%,
+    transparent 100%
+  ) 1;
 }
