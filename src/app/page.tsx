@@ -70,18 +70,20 @@ export default function Home() {
             <div className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
             <div className="w-3 h-3 rounded-full bg-[#28ca42]" />
           </div>
-          <div className="p-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-8 grid grid-cols-2 md:grid-cols-5 gap-4">
             {[
-              { score: 88, name: "Magnesium Glycinate", brand: "Thorne", color: "text-accent", fill: "w-[88%] bg-accent" },
-              { score: 61, name: "Omega-3 Fish Oil", brand: "Nootropics Depot", color: "text-warning", fill: "w-[61%] bg-warning" },
-              { score: 32, name: "Vitamin C Complex", brand: "Generic Brand", color: "text-danger", fill: "w-[32%] bg-danger" },
+              { score: 94, name: "Creatine Monohydrate", brand: "Thorne", hex: "#10B981" },
+              { score: 88, name: "Magnesium Glycinate", brand: "Thorne", hex: "#3B82F6" },
+              { score: 73, name: "Tongkat Ali", brand: "Nootropics Depot", hex: "#F59E0B" },
+              { score: 61, name: "Omega-3 Fish Oil", brand: "Nootropics Depot", hex: "#F97316" },
+              { score: 54, name: "Daily Greens", brand: "Complement", hex: "#EF4444" },
             ].map((card) => (
               <div key={card.name} className="bg-surface2 border border-border rounded-[14px] p-5">
-                <div className={`text-4xl font-black mb-1 ${card.color}`}>{card.score}</div>
+                <div className="text-4xl font-black mb-1" style={{ color: card.hex }}>{card.score}</div>
                 <div className="text-[13px] font-semibold text-text mb-1">{card.name}</div>
                 <div className="text-[11px] text-muted">{card.brand}</div>
                 <div className="mt-3.5 h-1 bg-white/5 rounded-sm">
-                  <div className={`h-full rounded-sm ${card.fill}`} />
+                  <div className="h-full rounded-sm" style={{ width: `${card.score}%`, backgroundColor: card.hex }} />
                 </div>
               </div>
             ))}

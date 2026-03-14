@@ -16,11 +16,15 @@ export function ScoreRing({ score, size = 64, strokeWidth = 5, className = "" }:
   const color =
     score === null
       ? "#7a7a9a"
-      : score >= 75
-        ? "#00e5a0"
-        : score >= 50
-          ? "#ffa94d"
-          : "#ff4f6a";
+      : score >= 90
+        ? "#10B981"
+        : score >= 80
+          ? "#3B82F6"
+          : score >= 70
+            ? "#F59E0B"
+            : score >= 60
+              ? "#F97316"
+              : "#EF4444";
 
   return (
     <div className={`relative inline-flex items-center justify-center ${className}`} style={{ width: size, height: size }}>
