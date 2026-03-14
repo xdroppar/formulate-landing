@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ScoreRing } from "./score-ring";
 import { DevBadge } from "./dev-badge";
 import { CardImageCarousel } from "./card-image-carousel";
+import { CardBorderWrap } from "./card-border-wrap";
 import type { CatalogProduct } from "@/lib/types";
 
 /* ── Tag → emoji + vivid color mapping (matches app CategoryChip style) ── */
@@ -333,7 +334,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
       : null;
 
   return (
-    <div className="card-wrap h-full hover:-translate-y-0.5 transition-all">
+    <CardBorderWrap>
     <Link
       href={`/catalog/${product.slug}`}
       className="group bg-[#0d0d1a] overflow-hidden block h-full"
@@ -471,6 +472,6 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         )}
       </div>
     </Link>
-    </div>
+    </CardBorderWrap>
   );
 }
