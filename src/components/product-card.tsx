@@ -362,25 +362,25 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
       className="group bg-[#0d0d1a] overflow-hidden block h-full"
     >
       {/* Image carousel with score overlay */}
-      <div className="relative w-full aspect-[5/4] bg-[#111125]">
+      <div className="relative w-full aspect-[5/4] bg-[#0d0d1a] overflow-hidden">
         <CardImageCarousel
           key={activeVariant?.id ?? product.id}
           images={displayImages}
           alt={product.name}
         />
         {/* Score ring overlay */}
-        <div className="absolute top-2 left-2">
+        <div className="absolute top-2 left-2 z-10">
           <ScoreRing score={displayScore} size={44} strokeWidth={5} />
         </div>
         {showDevBadge && product.is_draft && (
-          <div className="absolute top-2 right-2">
+          <div className="absolute top-2 right-2 z-10">
             <DevBadge />
           </div>
         )}
       </div>
 
-      {/* Content */}
-      <div className="px-3 pt-1.5 pb-1 flex flex-col gap-0.5">
+      {/* Content — flush against image, no gap */}
+      <div className="px-3 pt-1 pb-1 flex flex-col gap-0.5">
         {/* Name + category chip with emoji & color */}
         <div className="flex items-start gap-1.5">
           <span className="text-[12px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">

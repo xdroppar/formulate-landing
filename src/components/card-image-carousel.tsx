@@ -43,7 +43,7 @@ export function CardImageCarousel({ images, alt }: CardImageCarouselProps) {
       <img
         src={images[index]}
         alt={`${alt} — image ${index + 1} of ${count}`}
-        className="w-full h-full object-contain"
+        className="w-full h-full object-cover"
         draggable={false}
       />
 
