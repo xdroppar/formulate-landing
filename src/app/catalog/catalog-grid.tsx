@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import { ProductCard } from "@/components/product-card";
 import { InsightsPanel } from "@/components/insights-panel";
 import type { CatalogProduct } from "@/lib/types";
-import { buildFlavorGroups } from "@/lib/flavor-groups";
+import { buildFlavorGroups, isTravelPack } from "@/lib/flavor-groups";
 
 interface CatalogGridProps {
   products: CatalogProduct[];
@@ -22,6 +22,8 @@ function gradeFromScore(score: number): string {
   return "F";
 }
 
+const PRODUCTS_PER_PAGE = 36;
+
 export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
@@ -31,6 +33,8 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
   const [brandFilter, setBrandFilter] = useState<string | null>(null);
   const [brandGradeFilter, setBrandGradeFilter] = useState<string | null>(null);
   const [tagFilter, setTagFilter] = useState<string | null>(null);
+  const [travelPackFilter, setTravelPackFilter] = useState<"all" | "only" | "hide">("all");
+  const [currentPage, setCurrentPage] = useState(1);
 
   // Pre-compute brand avg scores for grade filtering
   const brandAvgScores = useMemo(() => {
@@ -90,6 +94,13 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
       result = result.filter((p) => p.brand === brandFilter);
     }
 
+    // Travel pack filter
+    if (travelPackFilter === "only") {
+      result = result.filter((p) => isTravelPack(p.name));
+    } else if (travelPackFilter === "hide") {
+      result = result.filter((p) => !isTravelPack(p.name));
+    }
+
     // Brand grade filter
     if (brandGradeFilter) {
       result = result.filter((p) => {
@@ -122,10 +133,26 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     });
 
     return result;
-  }, [products, search, category, tagFilter, sort, sortAsc, scoreRange, brandFilter, brandGradeFilter, brandAvgScores]);
+  }, [products, search, category, tagFilter, travelPackFilter, sort, sortAsc, scoreRange, brandFilter, brandGradeFilter, brandAvgScores]);
+
+  // Reset to page 1 when filters change
+  const filterKey = `${search}|${category}|${tagFilter}|${travelPackFilter}|${sort}|${sortAsc}|${scoreRange}|${brandFilter}|${brandGradeFilter}`;
+  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
+  if (filterKey !== prevFilterKey) {
+    setPrevFilterKey(filterKey);
+    setCurrentPage(1);
+  }
 
   // Group flavor variants (e.g., Creatine Strawberry + Pineapple → one card)
   const grouped = useMemo(() => buildFlavorGroups(filtered), [filtered]);
+
+  // Pagination
+  const totalPages = Math.max(1, Math.ceil(grouped.length / PRODUCTS_PER_PAGE));
+  const safePage = Math.min(currentPage, totalPages);
+  const paginatedGroups = grouped.slice(
+    (safePage - 1) * PRODUCTS_PER_PAGE,
+    safePage * PRODUCTS_PER_PAGE
+  );
 
   // Active filter chips
   const activeFilters: { label: string; clear: () => void }[] = [];
@@ -157,6 +184,12 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     activeFilters.push({
       label: tagFilter,
       clear: () => setTagFilter(null),
+    });
+  }
+  if (travelPackFilter !== "all") {
+    activeFilters.push({
+      label: travelPackFilter === "only" ? "Travel Packs only" : "No Travel Packs",
+      clear: () => setTravelPackFilter("all"),
     });
   }
 
@@ -202,6 +235,33 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
           >
             {sortAsc ? "↑" : "↓"}
           </button>
+          <button
+            onClick={() =>
+              setTravelPackFilter((v) =>
+                v === "all" ? "only" : v === "only" ? "hide" : "all"
+              )
+            }
+            className={`px-3 py-2.5 rounded-xl border text-sm transition-colors cursor-pointer ${
+              travelPackFilter === "only"
+                ? "bg-accent/15 border-accent/40 text-accent"
+                : travelPackFilter === "hide"
+                  ? "bg-red-500/10 border-red-500/30 text-red-400"
+                  : "bg-surface border-border text-muted hover:border-accent hover:text-accent"
+            }`}
+            title={
+              travelPackFilter === "all"
+                ? "Showing all — click to show only Travel Packs"
+                : travelPackFilter === "only"
+                  ? "Showing Travel Packs only — click to hide Travel Packs"
+                  : "Hiding Travel Packs — click to show all"
+            }
+          >
+            {travelPackFilter === "only"
+              ? "🧳 Travel Packs"
+              : travelPackFilter === "hide"
+                ? "🧳 Hidden"
+                : "🧳"}
+          </button>
         </div>
 
         {/* Active filter chips */}
@@ -224,6 +284,7 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
                 setBrandGradeFilter(null);
                 setCategory("all");
                 setTagFilter(null);
+                setTravelPackFilter("all");
               }}
               className="text-[11px] text-muted hover:text-accent transition-colors cursor-pointer"
             >
@@ -234,22 +295,85 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
 
         {/* Results count */}
         <div className="text-xs text-muted mb-4">
-          {filtered.length} product{filtered.length !== 1 ? "s" : ""}
+          {totalPages > 1
+            ? `${(safePage - 1) * PRODUCTS_PER_PAGE + 1}–${Math.min(safePage * PRODUCTS_PER_PAGE, grouped.length)} of ${grouped.length} product${grouped.length !== 1 ? "s" : ""}`
+            : `${grouped.length} product${grouped.length !== 1 ? "s" : ""}`}
           {search && ` matching "${search}"`}
         </div>
 
         {/* Grid */}
         {grouped.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3">
-            {grouped.map((g) => (
-              <ProductCard
-                key={g.product.id}
-                product={g.product}
-                showDevBadge={isDev}
-                variants={g.variants.length >= 2 ? g.variants : undefined}
-              />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3">
+              {paginatedGroups.map((g) => (
+                <ProductCard
+                  key={g.product.id}
+                  product={g.product}
+                  showDevBadge={isDev}
+                  variants={g.variants.length >= 2 ? g.variants : undefined}
+                />
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-2 mt-8 mb-4">
+                {/* Previous arrow */}
+                <button
+                  onClick={() => { setCurrentPage(Math.max(1, safePage - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={safePage <= 1}
+                  className="w-9 h-9 flex items-center justify-center rounded-lg border border-border text-sm text-muted hover:border-accent hover:text-accent disabled:opacity-30 disabled:hover:border-border disabled:hover:text-muted transition-colors cursor-pointer disabled:cursor-default"
+                >
+                  ‹
+                </button>
+
+                {/* Page numbers */}
+                {(() => {
+                  const pages: (number | "...")[] = [];
+                  if (totalPages <= 7) {
+                    for (let i = 1; i <= totalPages; i++) pages.push(i);
+                  } else {
+                    pages.push(1);
+                    if (safePage > 3) pages.push("...");
+                    const start = Math.max(2, safePage - 1);
+                    const end = Math.min(totalPages - 1, safePage + 1);
+                    for (let i = start; i <= end; i++) pages.push(i);
+                    if (safePage < totalPages - 2) pages.push("...");
+                    pages.push(totalPages);
+                  }
+
+                  return pages.map((p, i) =>
+                    p === "..." ? (
+                      <span key={`dots-${i}`} className="w-9 h-9 flex items-center justify-center text-muted text-sm">
+                        ...
+                      </span>
+                    ) : (
+                      <button
+                        key={p}
+                        onClick={() => { setCurrentPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                        className={`w-9 h-9 flex items-center justify-center rounded-lg border text-sm font-medium transition-colors cursor-pointer ${
+                          p === safePage
+                            ? "border-accent bg-accent/15 text-accent"
+                            : "border-border text-muted hover:border-accent hover:text-accent hover:bg-accent/5"
+                        }`}
+                      >
+                        {p}
+                      </button>
+                    )
+                  );
+                })()}
+
+                {/* Next arrow */}
+                <button
+                  onClick={() => { setCurrentPage(Math.min(totalPages, safePage + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={safePage >= totalPages}
+                  className="w-9 h-9 flex items-center justify-center rounded-lg border border-border text-sm text-muted hover:border-accent hover:text-accent disabled:opacity-30 disabled:hover:border-border disabled:hover:text-muted transition-colors cursor-pointer disabled:cursor-default"
+                >
+                  ›
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-20">
             <div className="text-4xl mb-4 opacity-20">🔍</div>

@@ -9,7 +9,7 @@ import { CardBorderWrap } from "./card-border-wrap";
 import { useStack } from "@/lib/stack-context";
 import type { CatalogProduct } from "@/lib/types";
 import type { FlavorVariant } from "@/lib/flavor-groups";
-import { getFlavorColor } from "@/lib/flavor-groups";
+import { getFlavorColor, isTravelPack } from "@/lib/flavor-groups";
 
 /* ── Tag → emoji + vivid color mapping (matches app CategoryChip style) ── */
 const TAG_INFO: Record<string, { emoji: string; bg: string; text: string; label?: string }> = {
@@ -346,6 +346,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
   const displaySlug = activeVariant?.slug ?? product.slug;
 
   const brandColor = "var(--color-accent)";
+  const travelPack = isTravelPack(product.name);
   const catInfo = product.category ? getCategoryInfo(formatCategory(product.category)) : null;
   const certLabels = parseCertifications(product.certifications);
 
@@ -387,9 +388,18 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
           <span className="text-[12px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">
             {product.name}
           </span>
-          {product.category && catInfo && (
+          {travelPack && (
             <span
-              className="shrink-0 text-[9px] font-semibold px-1.5 py-px rounded inline-flex items-center gap-0.5"
+              className="shrink-0 text-[9px] font-semibold px-1.5 py-px rounded-full inline-flex items-center gap-0.5"
+              style={{ backgroundColor: "rgba(139,92,246,0.25)", color: "#C4B5FD" }}
+            >
+              <span className="text-[8px]">🧳</span>
+              Travel Pack
+            </span>
+          )}
+          {product.category && catInfo && !travelPack && (
+            <span
+              className="shrink-0 text-[9px] font-semibold px-1.5 py-px rounded-full inline-flex items-center gap-0.5"
               style={{ backgroundColor: catInfo.bg, color: catInfo.text }}
             >
               <span className="text-[8px]">{catInfo.emoji}</span>

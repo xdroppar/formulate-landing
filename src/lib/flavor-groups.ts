@@ -88,6 +88,11 @@ export interface GroupedProduct {
   variants: FlavorVariant[];
 }
 
+/** Detect travel-pack products by name */
+export function isTravelPack(name: string): boolean {
+  return /travel\s+pack/i.test(name);
+}
+
 /**
  * Extract the flavor label from a product name.
  * Returns null if no known flavor word is found.
@@ -97,6 +102,8 @@ export interface GroupedProduct {
  *   "Creatine - Pineapple Orange" → "Pineapple Orange"
  *   "Creatine" → null
  *   "Creatine + Alpha GPC" → null
+ *   "Amino Complex - Travel Packs - Berry" → "Berry"
+ *   "Creatine - Travel Packs" → null
  */
 function extractFlavor(name: string): string | null {
   // Combo products are never flavors
@@ -106,7 +113,15 @@ function extractFlavor(name: string): string | null {
   const dashIdx = name.indexOf(" - ");
   if (dashIdx === -1) return null;
 
-  const afterDash = name.slice(dashIdx + 3).trim();
+  let afterDash = name.slice(dashIdx + 3).trim();
+
+  // Travel packs: skip "Travel Packs" segment, look for flavor after next " - "
+  if (isTravelPack(afterDash)) {
+    const nextDash = afterDash.indexOf(" - ");
+    if (nextDash === -1) return null; // "Creatine - Travel Packs" → no flavor
+    afterDash = afterDash.slice(nextDash + 3).trim();
+  }
+
   // Strip colon descriptions: "Strawberry: High-quality..." → "Strawberry"
   const label = afterDash.includes(":") ? afterDash.split(":")[0].trim() : afterDash;
 
@@ -121,13 +136,20 @@ function extractFlavor(name: string): string | null {
 /**
  * Extract the base name (without flavor) for grouping.
  * "Creatine - Strawberry" → "creatine" (brand-scoped)
+ * "Amino Complex - Travel Packs - Berry" → "amino complex - travel packs" (separate from regular)
  */
 function baseKey(product: CatalogProduct): string | null {
   const flavor = extractFlavor(product.name);
   if (!flavor) return null;
 
   const dashIdx = product.name.indexOf(" - ");
-  const base = product.name.slice(0, dashIdx).trim().toLowerCase();
+  let base = product.name.slice(0, dashIdx).trim().toLowerCase();
+
+  // Travel packs get a distinct base key so they never merge with regular products
+  if (isTravelPack(product.name)) {
+    base += " - travel packs";
+  }
+
   return `${product.brand_slug}|${base}`;
 }
 
