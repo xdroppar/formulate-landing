@@ -21,10 +21,10 @@ const BRAND_GRADES = [
 ] as const;
 
 function gradeFromScore(score: number): string {
-  if (score >= 80) return "A";
-  if (score >= 60) return "B";
-  if (score >= 40) return "C";
-  if (score >= 27) return "D";
+  if (score >= 90) return "A";
+  if (score >= 80) return "B";
+  if (score >= 70) return "C";
+  if (score >= 60) return "D";
   return "F";
 }
 
