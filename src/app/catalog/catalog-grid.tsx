@@ -13,6 +13,14 @@ interface CatalogGridProps {
 
 type SortKey = "score" | "name" | "price" | "brand";
 
+function gradeFromScore(score: number): string {
+  if (score >= 80) return "A";
+  if (score >= 60) return "B";
+  if (score >= 40) return "C";
+  if (score >= 27) return "D";
+  return "F";
+}
+
 export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
@@ -20,6 +28,25 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
   const [sortAsc, setSortAsc] = useState(false);
   const [scoreRange, setScoreRange] = useState<[number, number] | null>(null);
   const [brandFilter, setBrandFilter] = useState<string | null>(null);
+  const [brandGradeFilter, setBrandGradeFilter] = useState<string | null>(null);
+  const [tagFilter, setTagFilter] = useState<string | null>(null);
+
+  // Pre-compute brand avg scores for grade filtering
+  const brandAvgScores = useMemo(() => {
+    const map = new Map<string, number[]>();
+    for (const p of products) {
+      if (p.score !== null) {
+        const scores = map.get(p.brand) || [];
+        scores.push(p.score);
+        map.set(p.brand, scores);
+      }
+    }
+    const result = new Map<string, number>();
+    for (const [brand, scores] of map) {
+      result.set(brand, Math.round(scores.reduce((a, c) => a + c, 0) / scores.length));
+    }
+    return result;
+  }, [products]);
 
   const filtered = useMemo(() => {
     let result = products;
@@ -31,13 +58,20 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
         (p) =>
           p.name.toLowerCase().includes(q) ||
           p.brand.toLowerCase().includes(q) ||
-          p.category_tags.some((t) => t.includes(q))
+          p.category_tags.some((t) => t.toLowerCase().includes(q))
       );
     }
 
-    // Category filter
+    // Category filter (from dropdown — matches primary category)
     if (category !== "all") {
       result = result.filter((p) => p.category === category);
+    }
+
+    // Tag filter (from insights By Type — matches category_tags)
+    if (tagFilter) {
+      result = result.filter((p) =>
+        p.category_tags.some((t) => t.toLowerCase() === tagFilter.toLowerCase())
+      );
     }
 
     // Score range filter
@@ -53,6 +87,14 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     // Brand filter
     if (brandFilter) {
       result = result.filter((p) => p.brand === brandFilter);
+    }
+
+    // Brand grade filter
+    if (brandGradeFilter) {
+      result = result.filter((p) => {
+        const avg = brandAvgScores.get(p.brand);
+        return avg !== undefined && gradeFromScore(avg) === brandGradeFilter;
+      });
     }
 
     // Sort
@@ -79,7 +121,7 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     });
 
     return result;
-  }, [products, search, category, sort, sortAsc, scoreRange, brandFilter]);
+  }, [products, search, category, tagFilter, sort, sortAsc, scoreRange, brandFilter, brandGradeFilter, brandAvgScores]);
 
   // Active filter chips
   const activeFilters: { label: string; clear: () => void }[] = [];
@@ -87,6 +129,12 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     activeFilters.push({
       label: `Score ${scoreRange[0]}–${scoreRange[1]}`,
       clear: () => setScoreRange(null),
+    });
+  }
+  if (brandGradeFilter) {
+    activeFilters.push({
+      label: `Grade ${brandGradeFilter} brands`,
+      clear: () => setBrandGradeFilter(null),
     });
   }
   if (brandFilter) {
@@ -99,6 +147,12 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
     activeFilters.push({
       label: category,
       clear: () => setCategory("all"),
+    });
+  }
+  if (tagFilter) {
+    activeFilters.push({
+      label: tagFilter,
+      clear: () => setTagFilter(null),
     });
   }
 
@@ -163,7 +217,9 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
               onClick={() => {
                 setScoreRange(null);
                 setBrandFilter(null);
+                setBrandGradeFilter(null);
                 setCategory("all");
+                setTagFilter(null);
               }}
               className="text-[11px] text-muted hover:text-accent transition-colors cursor-pointer"
             >
@@ -208,11 +264,14 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
               setScoreRange([min, max]);
             }
           }}
-          onCategoryClick={(cat) => {
-            setCategory(category === cat ? "all" : cat);
+          onCategoryClick={(tag) => {
+            setTagFilter(tagFilter === tag ? null : tag);
           }}
           onBrandClick={(brand) => {
             setBrandFilter(brandFilter === brand ? null : brand);
+          }}
+          onBrandGradeClick={(grade) => {
+            setBrandGradeFilter(brandGradeFilter === grade ? null : grade);
           }}
         />
       </div>
