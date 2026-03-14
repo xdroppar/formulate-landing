@@ -61,15 +61,18 @@ export function CatalogGrid({ products, categories, isDev }: CatalogGridProps) {
       switch (sort) {
         case "score":
           cmp = (b.score ?? 0) - (a.score ?? 0);
+          if (cmp === 0) cmp = a.name.localeCompare(b.name);
           break;
         case "name":
           cmp = a.name.localeCompare(b.name);
           break;
         case "price":
           cmp = (a.price_usd ?? 999) - (b.price_usd ?? 999);
+          if (cmp === 0) cmp = a.name.localeCompare(b.name);
           break;
         case "brand":
           cmp = a.brand.localeCompare(b.brand);
+          if (cmp === 0) cmp = a.name.localeCompare(b.name);
           break;
       }
       return sortAsc ? -cmp : cmp;
