@@ -2,14 +2,24 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useAuth } from "@/lib/auth-context";
+import { useStack } from "@/lib/stack-context";
 import { AuthModal } from "@/components/auth-modal";
 import { UserMenu } from "@/components/user-menu";
 
 function AuthButtons() {
   const { isSignedIn, isLoading } = useAuth();
+  const stack = useStack();
   const [modalOpen, setModalOpen] = useState(false);
+
+  // Open auth modal when stack action requires login
+  useEffect(() => {
+    if (stack.authRequired) {
+      setModalOpen(true);
+      stack.dismissAuth();
+    }
+  }, [stack.authRequired, stack.dismissAuth]);
 
   if (isLoading) return null;
 
@@ -32,6 +42,8 @@ function AuthButtons() {
 
 export function Nav() {
   const pathname = usePathname();
+  const { isSignedIn } = useAuth();
+  const stack = useStack();
 
   const linkClass = (href: string) =>
     `text-sm font-medium transition-colors ${
@@ -53,6 +65,16 @@ export function Nav() {
         <Link href="/brands" className={linkClass("/brands")}>
           Brands
         </Link>
+        {isSignedIn && (
+          <Link href="/stack" className={`${linkClass("/stack")} relative`}>
+            My Stack
+            {stack.count > 0 && (
+              <span className="absolute -top-1.5 -right-4 inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent text-bg text-[9px] font-bold">
+                {stack.count}
+              </span>
+            )}
+          </Link>
+        )}
         <Link href="/#features" className="text-sm font-medium text-muted hover:text-text transition-colors">
           Features
         </Link>

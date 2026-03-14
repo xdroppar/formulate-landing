@@ -2,6 +2,7 @@
 
 import { AuthProvider } from "@/lib/auth-context";
 import { PreferencesProvider } from "@/lib/preferences";
+import { StackProvider } from "@/lib/stack-context";
 
 /**
  * Auth wrapper — replaced Clerk with custom AuthProvider backed by Formulate API.
@@ -10,7 +11,9 @@ import { PreferencesProvider } from "@/lib/preferences";
 export function ClerkWrapper({ children }: { children: React.ReactNode }) {
   return (
     <AuthProvider>
-      <PreferencesProvider>{children}</PreferencesProvider>
+      <PreferencesProvider>
+        <StackProvider>{children}</StackProvider>
+      </PreferencesProvider>
     </AuthProvider>
   );
 }

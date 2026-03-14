@@ -1,9 +1,15 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { ScoreRing } from "./score-ring";
 import { DevBadge } from "./dev-badge";
 import { CardImageCarousel } from "./card-image-carousel";
 import { CardBorderWrap } from "./card-border-wrap";
+import { useStack } from "@/lib/stack-context";
 import type { CatalogProduct } from "@/lib/types";
+import type { FlavorVariant } from "@/lib/flavor-groups";
+import { getFlavorColor } from "@/lib/flavor-groups";
 
 /* ── Tag → emoji + vivid color mapping (matches app CategoryChip style) ── */
 const TAG_INFO: Record<string, { emoji: string; bg: string; text: string; label?: string }> = {
@@ -320,37 +326,51 @@ function formatCategory(cat: string): string {
 interface ProductCardProps {
   product: CatalogProduct;
   showDevBadge?: boolean;
+  /** Flavor variants for this card (2+ to show switcher) */
+  variants?: FlavorVariant[];
 }
 
-export function ProductCard({ product, showDevBadge }: ProductCardProps) {
+export function ProductCard({ product, showDevBadge, variants }: ProductCardProps) {
+  const [selectedIdx, setSelectedIdx] = useState(0);
+  const stack = useStack();
+  const hasVariants = variants && variants.length >= 2;
+
+  // Use selected variant's data when available
+  const activeVariant = hasVariants ? variants[selectedIdx] : null;
+  const displayImages = activeVariant
+    ? [...(activeVariant.image_url ? [activeVariant.image_url] : []), ...activeVariant.gallery_images]
+    : [...(product.image_url ? [product.image_url] : []), ...product.gallery_images];
+  const displayPrice = activeVariant?.price_usd ?? product.price_usd;
+  const displayServings = activeVariant?.servings_per_container ?? product.servings_per_container;
+  const displayScore = activeVariant?.score ?? product.score;
+  const displaySlug = activeVariant?.slug ?? product.slug;
+
   const brandColor = "var(--color-accent)";
   const catInfo = product.category ? getCategoryInfo(formatCategory(product.category)) : null;
   const certLabels = parseCertifications(product.certifications);
 
   // Per-serving price
   const perServing =
-    product.price_usd && product.servings_per_container && product.servings_per_container > 0
-      ? product.price_usd / product.servings_per_container
+    displayPrice && displayServings && displayServings > 0
+      ? displayPrice / displayServings
       : null;
 
   return (
     <CardBorderWrap>
     <Link
-      href={`/catalog/${product.slug}`}
+      href={`/catalog/${displaySlug}`}
       className="group bg-[#0d0d1a] overflow-hidden block h-full"
     >
       {/* Image carousel with score overlay */}
-      <div className="relative w-full aspect-square bg-[#111125]">
+      <div className="relative w-full aspect-[4/5] bg-[#111125]">
         <CardImageCarousel
-          images={[
-            ...(product.image_url ? [product.image_url] : []),
-            ...product.gallery_images,
-          ]}
+          key={activeVariant?.id ?? product.id}
+          images={displayImages}
           alt={product.name}
         />
         {/* Score ring overlay */}
         <div className="absolute top-2 left-2">
-          <ScoreRing score={product.score} size={44} strokeWidth={5} />
+          <ScoreRing score={displayScore} size={44} strokeWidth={5} />
         </div>
         {showDevBadge && product.is_draft && (
           <div className="absolute top-2 right-2">
@@ -401,7 +421,7 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         </div>
 
         {/* Price: per-serving · servings · total */}
-        {product.price_usd != null && (
+        {displayPrice != null && (
           <div className="flex items-baseline gap-1">
             {perServing != null && (
               <span className="text-[12px] font-bold text-accent">
@@ -409,12 +429,41 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
               </span>
             )}
             <span className="text-[10px] text-text/70">
-              {product.servings_per_container != null && (
-                <>{product.servings_per_container} srv · </>
+              {displayServings != null && (
+                <>{displayServings} srv · </>
               )}
-              ${product.price_usd.toFixed(2)}
+              ${displayPrice.toFixed(2)}
               {product.form && <> · {product.form}</>}
             </span>
+          </div>
+        )}
+
+        {/* Flavor variant chips */}
+        {hasVariants && (
+          <div className="flex flex-wrap gap-1">
+            {variants.map((v, i) => {
+              const color = getFlavorColor(v.label);
+              const isActive = i === selectedIdx;
+              return (
+                <button
+                  key={v.id}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setSelectedIdx(i);
+                  }}
+                  className="text-[9px] font-semibold px-1.5 py-px rounded-full cursor-pointer transition-all duration-150"
+                  style={{
+                    backgroundColor: color.bg,
+                    color: color.text,
+                    border: isActive ? `1px solid ${color.text}` : "1px solid transparent",
+                    opacity: isActive ? 1 : 0.7,
+                  }}
+                >
+                  {v.label}
+                </button>
+              );
+            })}
           </div>
         )}
 
@@ -472,6 +521,49 @@ export function ProductCard({ product, showDevBadge }: ProductCardProps) {
         )}
       </div>
     </Link>
+
+      {/* Action buttons — outside the Link so clicks don't navigate */}
+      <div className="flex gap-1.5 px-3 pb-2.5">
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            stack.toggle(product.id);
+          }}
+          className="flex-1 h-[28px] rounded-lg text-[10px] font-semibold transition-all cursor-pointer border"
+          style={
+            stack.has(product.id)
+              ? {
+                  backgroundColor: "rgba(0,229,160,0.15)",
+                  borderColor: "rgba(0,229,160,0.3)",
+                  color: "var(--color-accent)",
+                }
+              : {
+                  backgroundColor: "rgba(0,229,160,0.08)",
+                  borderColor: "rgba(0,229,160,0.15)",
+                  color: "var(--color-accent)",
+                }
+          }
+        >
+          {stack.has(product.id) ? "In Stack" : "Add to Stack"}
+        </button>
+        {(product.amazon_url || product.iherb_url || product.url) && (
+          <a
+            href={product.amazon_url || product.iherb_url || product.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="inline-flex items-center justify-center h-[28px] px-3 rounded-lg text-[10px] font-semibold transition-all cursor-pointer border"
+            style={{
+              backgroundColor: "rgba(124,109,250,0.12)",
+              borderColor: "rgba(124,109,250,0.25)",
+              color: "#a99bff",
+            }}
+          >
+            Buy
+          </a>
+        )}
+      </div>
     </CardBorderWrap>
   );
 }
