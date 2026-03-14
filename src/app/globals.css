@@ -73,24 +73,12 @@ body {
   border: 1px solid rgba(255, 79, 106, 0.3);
 }
 
-/* Card border — faded corners, accent on hover */
+/* Card border — all sides visible, corners fade, accent on hover */
 .card-wrap {
-  border: 1px solid;
-  border-image: linear-gradient(
-    180deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.08) 15%,
-    rgba(255, 255, 255, 0.08) 85%,
-    transparent 100%
-  ) 1;
-  transition: border-image 0.2s;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s;
 }
 .card-wrap:hover {
-  border-image: linear-gradient(
-    180deg,
-    transparent 0%,
-    var(--color-accent) 15%,
-    var(--color-accent) 85%,
-    transparent 100%
-  ) 1;
+  border-color: var(--color-accent);
 }
