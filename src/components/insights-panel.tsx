@@ -333,12 +333,6 @@ export function InsightsPanel({
               <span className="text-[11px] font-medium text-text truncate flex-1">
                 {p.name}
               </span>
-              <span
-                className="text-[9px] font-bold uppercase shrink-0"
-                style={{ color: "var(--color-accent)" }}
-              >
-                {p.brand_slug.slice(0, 5)}
-              </span>
             </Link>
           ))}
         </div>
@@ -356,8 +350,7 @@ export function InsightsPanel({
             >
               <ScoreRing score={b.avgScore} size={24} strokeWidth={2} />
               <span
-                className="text-[11px] font-extrabold uppercase tracking-wide truncate flex-1 text-left"
-                style={{ color: "var(--color-accent)" }}
+                className="text-[11px] font-extrabold uppercase tracking-wide truncate flex-1 text-left text-text"
               >
                 {b.name}
               </span>
