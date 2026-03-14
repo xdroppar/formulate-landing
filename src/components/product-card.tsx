@@ -362,7 +362,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
       className="group bg-[#0d0d1a] overflow-hidden block h-full"
     >
       {/* Image carousel with score overlay */}
-      <div className="relative w-full aspect-[4/5] bg-[#111125]">
+      <div className="relative w-full aspect-[5/4] bg-[#111125]">
         <CardImageCarousel
           key={activeVariant?.id ?? product.id}
           images={displayImages}
@@ -380,7 +380,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
       </div>
 
       {/* Content */}
-      <div className="px-3 pt-2 pb-3 flex flex-col gap-1">
+      <div className="px-3 pt-1.5 pb-1 flex flex-col gap-0.5">
         {/* Name + category chip with emoji & color */}
         <div className="flex items-start gap-1.5">
           <span className="text-[12px] font-bold text-text leading-tight group-hover:text-accent transition-colors line-clamp-1 flex-1">
@@ -469,7 +469,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
 
         {/* Benefit tags with emojis and colored backgrounds */}
         <div className="flex flex-wrap gap-1">
-          {product.category_tags.slice(0, 4).map((tag) => {
+          {product.category_tags.slice(0, 3).map((tag) => {
             const info = getTagInfo(tag);
             return (
               <span
@@ -482,9 +482,9 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
               </span>
             );
           })}
-          {product.category_tags.length > 4 && (
+          {product.category_tags.length > 3 && (
             <span className="text-[9px] text-muted/50 py-px">
-              +{product.category_tags.length - 4}
+              +{product.category_tags.length - 3}
             </span>
           )}
         </div>
@@ -492,7 +492,7 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
         {/* Certifications as emoji circle bubbles with tooltips */}
         {certLabels.length > 0 && (
           <div className="flex flex-wrap gap-1 items-center">
-            {certLabels.slice(0, 5).map((cert) => {
+            {certLabels.slice(0, 4).map((cert) => {
               const info = CERT_INFO[cert.key] ?? { emoji: "✓", bg: "rgba(100,116,139,0.15)", text: "#94A3B8", tooltip: cert.label };
               return (
                 <span
@@ -505,16 +505,16 @@ export function ProductCard({ product, showDevBadge, variants }: ProductCardProp
                 </span>
               );
             })}
-            {certLabels.length > 5 && (
+            {certLabels.length > 4 && (
               <span
-                title={certLabels.slice(5).map((c) => {
+                title={certLabels.slice(4).map((c) => {
                   const i = CERT_INFO[c.key];
                   return i ? `${i.emoji} ${c.label}` : c.label;
                 }).join(", ")}
                 className="inline-flex items-center justify-center h-[22px] px-1.5 rounded-full text-[9px] font-semibold cursor-default"
                 style={{ backgroundColor: "rgba(100,116,139,0.15)", color: "#94A3B8" }}
               >
-                +{certLabels.length - 5}
+                +{certLabels.length - 4}
               </span>
             )}
           </div>
