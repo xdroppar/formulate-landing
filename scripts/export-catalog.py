@@ -412,6 +412,7 @@ def export_catalog():
     ).fetchall():
         gid = row["brand_gid"]  # e.g., "brand:thorne"
         slug = gid.replace("brand:", "") if gid.startswith("brand:") else gid
+        slug = slug.rstrip(".")  # normalize trailing period (e.g., "megafood-inc." → "megafood-inc")
         breakdown = {}
         if row["breakdown_json"]:
             try:

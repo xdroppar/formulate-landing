@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-14T00:37:40.176869+00:00",
+  "exported_at": "2026-03-14T00:56:47.583173+00:00",
   "latest_score_update": "2026-03-10T17:04:45.228660",
   "product_count": 192,
   "brand_count": 6,
@@ -24662,26 +24662,6 @@
   ],
   "brands": [
     {
-      "slug": "momentous",
-      "name": "Momentous",
-      "product_count": 4,
-      "avg_score": 93,
-      "score": null,
-      "grade": null,
-      "confidence": null,
-      "components": null,
-      "standout": null,
-      "tags": [
-        {
-          "text": "omega-fatty-acids",
-          "color": "#6B7280",
-          "icon": ""
-        }
-      ],
-      "top_category": "Minerals",
-      "logo_url": null
-    },
-    {
       "slug": "thorne",
       "name": "Thorne",
       "product_count": 162,
@@ -24718,6 +24698,42 @@
       "logo_url": null
     },
     {
+      "slug": "momentous",
+      "name": "Momentous",
+      "product_count": 4,
+      "avg_score": 93,
+      "score": 88,
+      "grade": "B+",
+      "confidence": "high",
+      "components": {
+        "integrity": 100,
+        "product_quality": 93,
+        "innovation": 40,
+        "transparency": 100,
+        "verification": 90
+      },
+      "standout": "Most Transparent",
+      "tags": [
+        {
+          "text": "Science-Led",
+          "color": "#06B6D4",
+          "icon": "🔬"
+        },
+        {
+          "text": "Clean Labels",
+          "color": "#3B82F6",
+          "icon": "🧼"
+        },
+        {
+          "text": "omega-fatty-acids",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "Omega-3",
+      "logo_url": null
+    },
+    {
       "slug": "complement",
       "name": "Complement",
       "product_count": 3,
@@ -24732,7 +24748,7 @@
         "transparency": 96,
         "verification": 66
       },
-      "standout": "Most Transparent",
+      "standout": null,
       "tags": [
         {
           "text": "Clean Labels",
@@ -24790,31 +24806,6 @@
       "logo_url": null
     },
     {
-      "slug": "megafood-inc",
-      "name": "MegaFood Inc.",
-      "product_count": 3,
-      "avg_score": 78,
-      "score": null,
-      "grade": null,
-      "confidence": null,
-      "components": null,
-      "standout": null,
-      "tags": [
-        {
-          "text": "energy",
-          "color": "#6B7280",
-          "icon": ""
-        },
-        {
-          "text": "detox-liver",
-          "color": "#6B7280",
-          "icon": ""
-        }
-      ],
-      "top_category": "energy",
-      "logo_url": null
-    },
-    {
       "slug": "transparent-labs",
       "name": "Transparent Labs",
       "product_count": 10,
@@ -24848,6 +24839,37 @@
         }
       ],
       "top_category": "Minerals",
+      "logo_url": null
+    },
+    {
+      "slug": "megafood-inc",
+      "name": "MegaFood Inc.",
+      "product_count": 3,
+      "avg_score": 78,
+      "score": 62,
+      "grade": "D-",
+      "confidence": "high",
+      "components": {
+        "integrity": 50,
+        "product_quality": 78,
+        "innovation": 40,
+        "transparency": 81,
+        "verification": 75
+      },
+      "standout": null,
+      "tags": [
+        {
+          "text": "energy",
+          "color": "#6B7280",
+          "icon": ""
+        },
+        {
+          "text": "detox-liver",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "Magnesium",
       "logo_url": null
     }
   ]
