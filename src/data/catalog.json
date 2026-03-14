@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exported_at": "2026-03-14T00:56:47.583173+00:00",
+  "exported_at": "2026-03-14T01:04:23.053166+00:00",
   "latest_score_update": "2026-03-10T17:04:45.228660",
   "product_count": 192,
   "brand_count": 6,
@@ -24730,7 +24730,43 @@
           "icon": ""
         }
       ],
-      "top_category": "Omega-3",
+      "top_category": "Nootropics",
+      "logo_url": null
+    },
+    {
+      "slug": "nootropics-depot",
+      "name": "Nootropics Depot",
+      "product_count": 10,
+      "avg_score": 89,
+      "score": 82,
+      "grade": "B-",
+      "confidence": "high",
+      "components": {
+        "integrity": 90,
+        "product_quality": 89,
+        "innovation": 40,
+        "transparency": 100,
+        "verification": 80
+      },
+      "standout": null,
+      "tags": [
+        {
+          "text": "Clean Labels",
+          "color": "#3B82F6",
+          "icon": "🧼"
+        },
+        {
+          "text": "Open Book",
+          "color": "#22C55E",
+          "icon": "📖"
+        },
+        {
+          "text": "energy",
+          "color": "#6B7280",
+          "icon": ""
+        }
+      ],
+      "top_category": "Adaptogens",
       "logo_url": null
     },
     {
@@ -24770,70 +24806,34 @@
       "logo_url": null
     },
     {
-      "slug": "nootropics-depot",
-      "name": "Nootropics Depot",
-      "product_count": 10,
-      "avg_score": 89,
-      "score": 80,
-      "grade": "B-",
-      "confidence": "high",
-      "components": {
-        "integrity": 84,
-        "product_quality": 0,
-        "innovation": 61,
-        "transparency": 88,
-        "verification": 71
-      },
-      "standout": null,
-      "tags": [
-        {
-          "text": "energy",
-          "color": "#6B7280",
-          "icon": ""
-        },
-        {
-          "text": "hormones",
-          "color": "#6B7280",
-          "icon": ""
-        },
-        {
-          "text": "mood",
-          "color": "#6B7280",
-          "icon": ""
-        }
-      ],
-      "top_category": "Adaptogens",
-      "logo_url": null
-    },
-    {
       "slug": "transparent-labs",
       "name": "Transparent Labs",
       "product_count": 10,
       "avg_score": 89,
-      "score": 67,
-      "grade": "D+",
-      "confidence": "low",
+      "score": 77,
+      "grade": "C+",
+      "confidence": "high",
       "components": {
-        "integrity": 71,
-        "product_quality": 0,
-        "innovation": 85,
-        "transparency": 88,
-        "verification": 59
+        "integrity": 75,
+        "product_quality": 89,
+        "innovation": 40,
+        "transparency": 97,
+        "verification": 85
       },
-      "standout": "Most Innovative",
+      "standout": null,
       "tags": [
         {
-          "text": "Trailblazer",
-          "color": "#F59E0B",
-          "icon": "🔥"
+          "text": "Science-Led",
+          "color": "#06B6D4",
+          "icon": "🔬"
+        },
+        {
+          "text": "Clean Labels",
+          "color": "#3B82F6",
+          "icon": "🧼"
         },
         {
           "text": "bone",
-          "color": "#6B7280",
-          "icon": ""
-        },
-        {
-          "text": "minerals",
           "color": "#6B7280",
           "icon": ""
         }
@@ -24869,7 +24869,7 @@
           "icon": ""
         }
       ],
-      "top_category": "Magnesium",
+      "top_category": "Vitamin D",
       "logo_url": null
     }
   ]
