@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
+import { useAuth } from "@/lib/auth-context";
 import { WaitlistForm } from "@/components/waitlist-form";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
@@ -16,17 +17,20 @@ interface DownloadInfo {
 export function DownloadClient() {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
+  const { user, isLoading: authLoading } = useAuth();
   const [status, setStatus] = useState<Status>("loading");
   const [downloadInfo, setDownloadInfo] = useState<DownloadInfo | null>(null);
   const [error, setError] = useState("");
 
   useEffect(() => {
+    if (authLoading) return; // Wait for auth to settle
+
     if (token) {
       validateToken(token);
     } else {
       checkEmailStatus();
     }
-  }, [token]);
+  }, [token, authLoading, user]);
 
   async function validateToken(t: string) {
     try {
@@ -46,7 +50,11 @@ export function DownloadClient() {
   }
 
   async function checkEmailStatus() {
-    const email = localStorage.getItem("formulate_waitlist_email");
+    // Try signed-in user's email first, then localStorage
+    const email =
+      user?.email ||
+      localStorage.getItem("formulate_waitlist_email");
+
     if (!email) {
       setStatus("not_found");
       return;
@@ -64,7 +72,6 @@ export function DownloadClient() {
       setStatus(data.status as Status);
 
       if (data.status === "approved") {
-        // Fetch the download URL via the latest release
         setDownloadInfo({
           download_url: `https://github.com/xdroppar/Formulate/releases/latest`,
         });
