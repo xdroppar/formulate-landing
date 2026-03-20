@@ -29,6 +29,8 @@ export function WaitlistForm() {
       }
 
       setStatus("success");
+      // Save email so the /download page can check their status later
+      localStorage.setItem("formulate_waitlist_email", email.trim().toLowerCase());
       setEmail("");
     } catch (err) {
       setStatus("error");

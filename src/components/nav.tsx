@@ -75,6 +75,9 @@ export function Nav() {
             )}
           </Link>
         )}
+        <Link href="/download" className={linkClass("/download")}>
+          Download
+        </Link>
         <Link href="/#features" className="text-sm font-medium text-muted hover:text-text transition-colors">
           Features
         </Link>

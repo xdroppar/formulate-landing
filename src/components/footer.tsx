@@ -13,6 +13,9 @@ export function Footer() {
         <Link href="/brands" className="text-xs text-muted hover:text-text transition-colors">
           Brands
         </Link>
+        <Link href="/download" className="text-xs text-muted hover:text-text transition-colors">
+          Download
+        </Link>
         <Link href="/methodology" className="text-xs text-muted hover:text-text transition-colors">
           Methodology
         </Link>
