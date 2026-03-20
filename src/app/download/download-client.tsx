@@ -72,18 +72,10 @@ export function DownloadClient() {
       setStatus(data.status as Status);
 
       if (data.status === "approved") {
-        // Fetch the direct .exe URL from the API
-        try {
-          const rlsRes = await fetch(`${API_URL}/api/v1/releases/latest`);
-          if (rlsRes.ok) {
-            const rls = await rlsRes.json();
-            setDownloadInfo({ download_url: rls.download_url, version: rls.version });
-          } else {
-            setDownloadInfo({ download_url: `https://github.com/xdroppar/Formulate/releases/latest` });
-          }
-        } catch {
-          setDownloadInfo({ download_url: `https://github.com/xdroppar/Formulate/releases/latest` });
-        }
+        // Use the API proxy to download the installer (repo is private)
+        setDownloadInfo({
+          download_url: `${API_URL}/api/v1/releases/download/installer`,
+        });
       }
     } catch {
       setStatus("not_found");
