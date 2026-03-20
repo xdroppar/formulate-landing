@@ -72,9 +72,18 @@ export function DownloadClient() {
       setStatus(data.status as Status);
 
       if (data.status === "approved") {
-        setDownloadInfo({
-          download_url: `https://github.com/xdroppar/Formulate/releases/latest`,
-        });
+        // Fetch the direct .exe URL from the API
+        try {
+          const rlsRes = await fetch(`${API_URL}/api/v1/releases/latest`);
+          if (rlsRes.ok) {
+            const rls = await rlsRes.json();
+            setDownloadInfo({ download_url: rls.download_url, version: rls.version });
+          } else {
+            setDownloadInfo({ download_url: `https://github.com/xdroppar/Formulate/releases/latest` });
+          }
+        } catch {
+          setDownloadInfo({ download_url: `https://github.com/xdroppar/Formulate/releases/latest` });
+        }
       }
     } catch {
       setStatus("not_found");
