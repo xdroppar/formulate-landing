@@ -1,12 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { useAuth } from "@/lib/auth-context";
-import {
-  usePreferences,
-  ACCENT_PRESETS,
-  CURRENCIES,
-} from "@/lib/preferences";
+import { AccentColorPicker } from "@/components/accent-color-picker";
+import { CurrencySelector } from "@/components/currency-selector";
 
 /* ── Avatar: first letter of email ────────────────────────────────── */
 function UserAvatar({ email }: { email: string }) {
@@ -26,7 +24,6 @@ function Divider() {
 /* ── Dropdown ─────────────────────────────────────────────────────── */
 export function UserMenu() {
   const { user, signOut } = useAuth();
-  const { accentColor, setAccentColor, currency, setCurrency } = usePreferences();
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -90,28 +87,7 @@ export function UserMenu() {
             <p className="text-[11px] font-semibold text-muted uppercase tracking-wider mb-2">
               Accent Color
             </p>
-            <div className="flex gap-2 flex-wrap">
-              {ACCENT_PRESETS.map((preset) => (
-                <button
-                  key={preset.value}
-                  onClick={() => setAccentColor(preset.value)}
-                  className="w-7 h-7 rounded-full border-2 transition-all cursor-pointer hover:scale-110"
-                  style={{
-                    backgroundColor: preset.value,
-                    borderColor:
-                      accentColor === preset.value
-                        ? "#fff"
-                        : "rgba(255,255,255,0.1)",
-                    boxShadow:
-                      accentColor === preset.value
-                        ? `0 0 8px ${preset.value}60`
-                        : "none",
-                  }}
-                  title={preset.name}
-                  aria-label={`Set accent color to ${preset.name}`}
-                />
-              ))}
-            </div>
+            <AccentColorPicker />
           </div>
 
           <Divider />
@@ -121,28 +97,20 @@ export function UserMenu() {
             <p className="text-[11px] font-semibold text-muted uppercase tracking-wider mb-2">
               Currency
             </p>
-            <select
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
-              className="w-full bg-bg border border-border rounded-lg px-3 py-2 text-sm text-text focus:outline-none focus:border-accent/50 cursor-pointer appearance-none"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237a7a9a' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 10px center",
-              }}
-            >
-              {CURRENCIES.map((c) => (
-                <option key={c.code} value={c.code}>
-                  {c.symbol} {c.code} — {c.label}
-                </option>
-              ))}
-            </select>
+            <CurrencySelector />
           </div>
 
           <Divider />
 
-          {/* Sign out */}
-          <div className="px-4 py-2.5">
+          {/* Account link + Sign out */}
+          <div className="px-4 py-2.5 space-y-1">
+            <Link
+              href="/account"
+              onClick={() => setOpen(false)}
+              className="block text-sm text-text hover:bg-surface2 px-3 py-2 rounded-lg transition-colors"
+            >
+              Account Settings
+            </Link>
             <button
               onClick={() => {
                 setOpen(false);

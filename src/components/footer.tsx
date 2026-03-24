@@ -29,7 +29,12 @@ export function Footer() {
           Terms
         </Link>
       </div>
-      <div className="text-xs text-muted">© 2026 Formulate. All rights reserved.</div>
+      <div className="flex items-center gap-4">
+        <a href="mailto:support@formulate-health.app" className="text-xs text-muted hover:text-text transition-colors">
+          Support
+        </a>
+        <span className="text-xs text-muted">© 2026 Formulate. All rights reserved.</span>
+      </div>
     </footer>
   );
 }

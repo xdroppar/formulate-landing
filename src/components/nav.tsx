@@ -66,14 +66,19 @@ export function Nav() {
           Brands
         </Link>
         {isSignedIn && (
-          <Link href="/stack" className={`${linkClass("/stack")} relative`}>
-            My Stack
-            {stack.count > 0 && (
-              <span className="absolute -top-1.5 -right-4 inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent text-bg text-[9px] font-bold">
-                {stack.count}
-              </span>
-            )}
-          </Link>
+          <>
+            <Link href="/stack" className={`${linkClass("/stack")} relative`}>
+              My Stack
+              {stack.count > 0 && (
+                <span className="absolute -top-1.5 -right-4 inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent text-bg text-[9px] font-bold">
+                  {stack.count}
+                </span>
+              )}
+            </Link>
+            <Link href="/account" className={linkClass("/account")}>
+              Account
+            </Link>
+          </>
         )}
         <Link href="/download" className={linkClass("/download")}>
           Download
