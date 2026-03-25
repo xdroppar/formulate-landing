@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { WaitlistForm } from "@/components/waitlist-form";
+
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://app.formulate-health.app";
 
 export default function Home() {
   return (
@@ -28,20 +29,19 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-16 w-full">
-          <WaitlistForm />
           <div className="flex gap-3.5 flex-wrap justify-center">
             <Link
-              href="/catalog"
-              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
+              href="/download"
+              className="inline-flex items-center gap-2 px-8 py-3 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+            >
+              Download for Windows
+            </Link>
+            <a
+              href={`${APP_URL}/catalog`}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
               Browse Catalog
-            </Link>
-            <Link
-              href="#features"
-              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
-            >
-              See Features
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -146,14 +146,27 @@ export default function Home() {
 
       {/* CTA */}
       <section className="py-24 px-6 text-center max-w-[640px] mx-auto flex flex-col items-center">
-        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Get early access</div>
+        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Get started</div>
         <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] mb-4">
           Start optimizing your stack.
         </h2>
         <p className="text-muted text-[17px] leading-relaxed mb-10">
-          Join the waitlist to get early access. We&apos;ll let you know when your spot is ready.
+          Download Formulate for free and take control of your supplement routine — backed by science, not marketing.
         </p>
-        <WaitlistForm />
+        <div className="flex gap-3.5 flex-wrap justify-center">
+          <Link
+            href="/download"
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+          >
+            Download for Windows
+          </Link>
+          <a
+            href={APP_URL}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
+          >
+            Open Web App
+          </a>
+        </div>
       </section>
     </>
   );
