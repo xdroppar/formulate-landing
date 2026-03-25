@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://app.formulate-health.app";
+const APP_URL = "https://app.formulate-health.app";
 
 export default function Home() {
   return (
