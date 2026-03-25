@@ -135,7 +135,7 @@ export default function Home() {
               { num: "04", title: "Optimize & buy smart", desc: "See the best-value options for each category. One click takes you to the product." },
             ].map((s) => (
               <div key={s.num}>
-                <div className="text-[56px] font-black text-accent/10 leading-none mb-3">{s.num}</div>
+                <div className="text-[56px] font-black text-accent leading-none mb-3">{s.num}</div>
                 <div className="text-lg font-bold mb-2">{s.title}</div>
                 <div className="text-sm text-muted leading-relaxed">{s.desc}</div>
               </div>
