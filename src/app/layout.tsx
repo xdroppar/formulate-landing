@@ -1,21 +1,29 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import "./globals.css";
 
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
 export const metadata: Metadata = {
   title: {
-    default: "Formulate — Build Your Longevity Stack",
+    default: "Formulate — Every Supplement Scored Against Clinical Research",
     template: "%s | Formulate",
   },
   description:
-    "Formulate scores and ranks supplements so you know exactly what to take, what to skip, and why. Build your optimal longevity stack.",
+    "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack. Free, transparent, no brand sponsorships.",
   metadataBase: new URL("https://formulate-health.app"),
   alternates: { canonical: "https://formulate-health.app" },
   openGraph: {
-    title: "Formulate — Build Your Longevity Stack",
+    title: "Formulate — Every Supplement Scored Against Clinical Research",
     description:
-      "Scores every supplement against clinical research. Build your perfect longevity stack.",
+      "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
     url: "https://formulate-health.app",
     siteName: "Formulate",
     type: "website",
@@ -23,15 +31,35 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Formulate — Build Your Longevity Stack",
+    title: "Formulate — Every Supplement Scored Against Clinical Research",
     description:
-      "Scores every supplement against clinical research. Build your perfect longevity stack.",
+      "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
   },
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Formulate",
+  applicationCategory: "HealthApplication",
+  operatingSystem: "Windows, Web",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+  },
+  description:
+    "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+  url: "https://formulate-health.app",
 };
 
 export default function RootLayout({
@@ -40,17 +68,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="min-h-screen">
