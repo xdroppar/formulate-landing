@@ -89,7 +89,7 @@ export default async function Image() {
               maxWidth: "700px",
             }}
           >
-            Score any supplement 0–100. Check dose safety. Compare brands. Build your stack.
+            Score any supplement 50–100. Check dose safety. Compare brands. Build your stack.
           </div>
         </div>
 

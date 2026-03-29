@@ -26,7 +26,7 @@ export default function Home() {
         </h1>
 
         <p className="hero-animate-delay-2 text-[clamp(16px,2vw,20px)] text-muted max-w-[560px] leading-relaxed mb-10">
-          Every supplement scored 0–100 against clinical research. Check doses,
+          Every supplement scored 50–100 against clinical research. Check doses,
           compare brands, and build a stack you can actually trust.
         </p>
 
@@ -229,7 +229,7 @@ export default function Home() {
               {
                 icon: "🔬",
                 title: "Score any supplement in seconds",
-                desc: "Every product is scored 0–100 across ingredient quality, dose accuracy, bioavailability, third-party testing, and clinical evidence. No guesswork.",
+                desc: "Every product is scored 50–100 across ingredient quality, dose accuracy, bioavailability, third-party testing, and clinical evidence. No guesswork.",
                 example: "\"Is this magnesium actually dosed correctly?\" → Check the score.",
               },
               {
@@ -435,7 +435,7 @@ export default function Home() {
               },
               {
                 q: "How do you score supplements?",
-                a: "Each product is evaluated across multiple factors including ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence. Scores range from 0–100.",
+                a: "Each product is evaluated across multiple factors including ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence. Scores range from 50–100 — anything below 50 would indicate a potentially harmful product.",
               },
               {
                 q: "Is this medical advice?",

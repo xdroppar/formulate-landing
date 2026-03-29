@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     template: "%s | Formulate",
   },
   description:
-    "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack. Free, transparent, no brand sponsorships.",
+    "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack. Free, transparent, no brand sponsorships.",
   metadataBase: new URL("https://formulate-health.app"),
   alternates: { canonical: "https://formulate-health.app" },
   openGraph: {
     title: "Formulate — Every Supplement Scored Against Clinical Research",
     description:
-      "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+      "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
     url: "https://formulate-health.app",
     siteName: "Formulate",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Formulate — Every Supplement Scored Against Clinical Research",
     description:
-      "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+      "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ const jsonLd = {
     priceCurrency: "USD",
   },
   description:
-    "Score any supplement 0–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+    "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
   url: "https://formulate-health.app",
 };
 
