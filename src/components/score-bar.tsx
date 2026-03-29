@@ -40,7 +40,8 @@ export function ScoreBar({ label, score, desc }: ScoreBarProps) {
         <div
           className="h-full rounded-full"
           style={{
-            width: visible ? `${score}%` : "0%",
+            // Scores are on a 50-100 scale; map 50→0% and 100→100% bar width
+            width: visible ? `${Math.max(0, (score - 50) * 2)}%` : "0%",
             backgroundColor: color,
             transition: "width 1s cubic-bezier(0.22, 1, 0.36, 1)",
           }}
