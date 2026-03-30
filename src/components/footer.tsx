@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="px-6 md:px-12 pt-10 pb-6 border-t border-border">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-2">
-          <Image src="/logo.png" alt="Formulate" width={24} height={24} className="rounded-md" />
+          <Image src="/logo.png" alt="Formulate" width={24} height={24} className="rounded-md" unoptimized />
           <span className="text-base font-extrabold">
             Formulate<span className="text-accent">.</span>
           </span>
@@ -15,7 +15,7 @@ export function Footer() {
           <Link href="/download" className="text-xs text-muted hover:text-text transition-colors py-2">
             Download
           </Link>
-          <a href="https://app.formulate-health.app/methodology" className="text-xs text-muted hover:text-text transition-colors py-2">
+          <a href="https://app.formulate-health.app/methodology" className="text-xs text-muted hover:text-text transition-colors py-2" target="_blank" rel="noopener noreferrer">
             Methodology
           </a>
           <Link href="/disclosure" className="text-xs text-muted hover:text-text transition-colors py-2">
@@ -35,7 +35,7 @@ export function Footer() {
           <span className="text-xs text-muted">&copy; 2026 Formulate. All rights reserved.</span>
         </div>
       </div>
-      <div className="text-[11px] text-muted/50 text-center leading-relaxed max-w-[700px] mx-auto">
+      <div className="text-[11px] text-muted/70 text-center leading-relaxed max-w-[700px] mx-auto">
         Formulate is an informational tool and does not provide medical advice, diagnosis, or treatment.
         Supplement scores are based on publicly available clinical research and do not constitute a recommendation
         to take or avoid any product. Always consult a qualified healthcare professional before making changes to
