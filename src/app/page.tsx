@@ -469,6 +469,75 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Guides */}
+      <section className="max-w-[1100px] mx-auto px-6 py-24">
+        <Reveal>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Learn</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-4">
+            Evidence-based supplement guides
+          </h2>
+          <p className="text-muted text-[17px] max-w-[560px] leading-relaxed mb-12">
+            Deep-dives, best-of roundups, and stacking protocols — every recommendation backed by clinical research.
+          </p>
+        </Reveal>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {[
+            {
+              slug: "how-to-build-a-supplement-stack",
+              category: "Guide",
+              title: "How to Build a Supplement Stack",
+              desc: "Learn how to pick supplements that actually work, avoid redundancy, and build a stack tailored to your goals.",
+              readTime: "12 min read",
+            },
+            {
+              slug: "best-creatine-supplements",
+              category: "Roundup",
+              title: "Best Creatine Supplements in 2026",
+              desc: "We scored 8 creatine supplements on dose accuracy, purity, and bioavailability. No sponsorships, just data.",
+              readTime: "8 min read",
+            },
+            {
+              slug: "best-sleep-supplement-protocol",
+              category: "Protocol",
+              title: "The Best Sleep Supplement Protocol",
+              desc: "Magnesium, L-theanine, and glycine — how to combine sleep supplements backed by clinical trials.",
+              readTime: "10 min read",
+            },
+          ].map((guide, i) => (
+            <Reveal key={guide.slug} delay={i * 80}>
+              <Link
+                href={`/guides/${guide.slug}`}
+                className="group block bg-surface border border-border rounded-2xl p-7 hover:border-accent/30 hover:-translate-y-0.5 transition-all h-full"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-[10px] font-bold tracking-[1.5px] uppercase text-accent">
+                    {guide.category}
+                  </span>
+                  <span className="text-[10px] text-muted">{guide.readTime}</span>
+                </div>
+                <h3 className="text-base font-bold leading-snug mb-2 group-hover:text-accent transition-colors">
+                  {guide.title}
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">{guide.desc}</p>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+        <Reveal delay={200}>
+          <div className="mt-8">
+            <Link
+              href="/guides"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+            >
+              Browse all guides
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
       {/* Final CTA */}
       <Reveal>
         <section className="py-24 px-6 text-center max-w-[640px] mx-auto flex flex-col items-center">

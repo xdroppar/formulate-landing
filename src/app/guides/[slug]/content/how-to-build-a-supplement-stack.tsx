@@ -86,12 +86,12 @@ export function HowToBuildStack() {
       <ul>
         <li>L-Theanine: 200mg before bed</li>
         <li>Glycine: 3g before bed</li>
-        <li>Magnesium glycinate (already in your base stack)</li>
+        <li>Magnesium glycinate (covered in the base stack above)</li>
       </ul>
 
       <h3>For Exercise Performance</h3>
       <ul>
-        <li>Creatine (already in your base stack)</li>
+        <li>Creatine (covered in the base stack above)</li>
         <li>L-Citrulline: 6–8g before training</li>
         <li>Beta-alanine: 3.2g daily</li>
         <li>Caffeine: 200–400mg before training</li>
@@ -99,8 +99,8 @@ export function HowToBuildStack() {
 
       <h3>For Cognitive Function</h3>
       <ul>
-        <li>Omega-3 (already in your base stack, emphasize DHA)</li>
-        <li>Creatine (already in your base stack)</li>
+        <li>Omega-3 (covered in the base stack above — emphasize DHA)</li>
+        <li>Creatine (covered in the base stack above)</li>
         <li>Magnesium L-threonate: 144mg elemental (brain-specific form)</li>
         <li>Lion&rsquo;s Mane: 500–1000mg (emerging evidence for NGF)</li>
       </ul>
