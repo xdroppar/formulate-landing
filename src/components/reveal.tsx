@@ -11,8 +11,16 @@ interface RevealProps {
 export function Reveal({ children, className = "", delay = 0 }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [revealed, setRevealed] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   useEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (mq.matches) {
+      setPrefersReducedMotion(true);
+      setRevealed(true);
+      return;
+    }
+
     const el = ref.current;
     if (!el) return;
 
@@ -41,7 +49,7 @@ export function Reveal({ children, className = "", delay = 0 }: RevealProps) {
     <div
       ref={ref}
       className={className}
-      style={{
+      style={prefersReducedMotion ? {} : {
         opacity: revealed ? 1 : 0,
         transform: revealed ? "translateY(0)" : "translateY(24px)",
         transition: "opacity 0.6s ease-out, transform 0.6s ease-out",

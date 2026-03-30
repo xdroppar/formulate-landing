@@ -37,7 +37,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Browse Supplement Scores
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
@@ -78,13 +78,17 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
               {[
-                { score: 94, name: "Creatine Monohydrate", brand: "Thorne", hex: "#10B981", img: "/images/products/thorne/thorne-creatine/primary.webp" },
-                { score: 88, name: "Magnesium Bisglycinate", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-magnesium-bisglycinate/primary.webp" },
-                { score: 82, name: "Vitamin D 5,000 IU", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-vitamin-d-5000/primary.webp" },
-                { score: 73, name: "Tongkat Ali 10%", brand: "Nootropics Depot", hex: "#F59E0B", img: "/images/products/nootropics-depot/tongkat-ali/primary.jpg" },
-                { score: 85, name: "L-Theanine", brand: "Nootropics Depot", hex: "#3B82F6", img: "/images/products/nootropics-depot/l-theanine/primary.jpg" },
+                { score: 94, name: "Creatine Monohydrate", brand: "Thorne", hex: "#10B981", img: "/images/products/thorne/thorne-creatine/primary.webp", slug: "thorne-creatine" },
+                { score: 88, name: "Magnesium Bisglycinate", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-magnesium-bisglycinate/primary.webp", slug: "thorne-magnesium-bisglycinate" },
+                { score: 82, name: "Vitamin D 5,000 IU", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-vitamin-d-5000/primary.webp", slug: "thorne-vitamin-d-5000" },
+                { score: 73, name: "Tongkat Ali 10%", brand: "Nootropics Depot", hex: "#F59E0B", img: "/images/products/nootropics-depot/tongkat-ali/primary.jpg", slug: "nootropics-depot-tongkat-ali" },
+                { score: 85, name: "L-Theanine", brand: "Nootropics Depot", hex: "#3B82F6", img: "/images/products/nootropics-depot/l-theanine/primary.jpg", slug: "nootropics-depot-l-theanine" },
               ].map((card, i) => (
-                <div key={card.name} className={`bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all ${i >= 3 ? "hidden md:block" : ""} ${i === 2 ? "hidden sm:block" : ""}`}>
+                <a
+                  key={card.name}
+                  href={`${APP_URL}/catalog/${card.slug}`}
+                  className={`bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all ${i >= 3 ? "hidden md:block" : ""} ${i === 2 ? "hidden sm:block" : ""}`}
+                >
                   <div className="relative aspect-square bg-surface2 flex items-center justify-center p-4">
                     <Image src={card.img} alt={card.name} width={140} height={140} className="object-contain max-h-[120px]" />
                     <div
@@ -95,10 +99,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-3.5">
-                    <div className="text-[13px] font-semibold text-text truncate">{card.name}</div>
+                    <div className="text-[13px] font-semibold text-text truncate" title={card.name}>{card.name}</div>
                     <div className="text-[11px] text-muted truncate">{card.brand}</div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
             <div className="mt-6 text-center">
@@ -139,7 +143,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Without */}
             <div className="bg-surface border border-border rounded-2xl p-6 md:p-8">
-              <div className="text-xs font-bold tracking-[2px] uppercase text-danger/80 mb-5">Without Formulate</div>
+              <div className="text-xs font-bold tracking-[2px] uppercase text-danger/80 mb-5">✕ Without Formulate</div>
               <ul className="space-y-4">
                 {[
                   "Hours reading Reddit threads and blog posts",
@@ -150,7 +154,7 @@ export default function Home() {
                   "Overpaying for underdosed products",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-muted leading-relaxed">
-                    <svg className="w-4 h-4 text-danger/60 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <svg className="w-4 h-4 text-danger/60 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     {item}
@@ -161,7 +165,7 @@ export default function Home() {
             {/* With */}
             <div className="bg-surface border border-accent/20 rounded-2xl p-6 md:p-8 relative overflow-hidden">
               <div className="absolute -top-[100px] -right-[100px] w-[250px] h-[250px] rounded-full bg-[radial-gradient(circle,rgba(0,229,160,0.06)_0%,transparent_70%)] pointer-events-none" />
-              <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-5">With Formulate</div>
+              <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-5">✓ With Formulate</div>
               <ul className="space-y-4">
                 {[
                   "Every product scored in seconds, not hours",
@@ -172,7 +176,7 @@ export default function Home() {
                   "Best value per category clearly identified",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-text leading-relaxed">
-                    <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -298,7 +302,7 @@ export default function Home() {
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
               >
                 See scores for 230+ products
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </a>
@@ -480,7 +484,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Browse Supplement Scores
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
