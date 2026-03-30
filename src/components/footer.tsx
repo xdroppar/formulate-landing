@@ -15,6 +15,9 @@ export function Footer() {
           <Link href="/download" className="text-xs text-muted hover:text-text transition-colors py-2">
             Download
           </Link>
+          <Link href="/guides" className="text-xs text-muted hover:text-text transition-colors py-2">
+            Guides
+          </Link>
           <a href="https://app.formulate-health.app/methodology" className="text-xs text-muted hover:text-text transition-colors py-2" target="_blank" rel="noopener noreferrer">
             Methodology
           </a>

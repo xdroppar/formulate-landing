@@ -49,6 +49,9 @@ export function Nav() {
             <Link href="/#features" className="text-sm font-medium text-muted hover:text-text transition-colors">
               Features
             </Link>
+            <Link href="/guides" className={linkClass("/guides")}>
+              Guides
+            </Link>
             <Link href="/#methodology" className="text-sm font-medium text-muted hover:text-text transition-colors">
               Methodology
             </Link>
@@ -83,6 +86,9 @@ export function Nav() {
           <div className="md:hidden border-t border-border bg-bg/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4" role="menu">
             <Link href="/#features" onClick={() => setOpen(false)} className="text-sm font-medium text-muted hover:text-text transition-colors py-1" role="menuitem">
               Features
+            </Link>
+            <Link href="/guides" onClick={() => setOpen(false)} className={`${linkClass("/guides")} py-1`} role="menuitem">
+              Guides
             </Link>
             <Link href="/#methodology" onClick={() => setOpen(false)} className="text-sm font-medium text-muted hover:text-text transition-colors py-1" role="menuitem">
               Methodology

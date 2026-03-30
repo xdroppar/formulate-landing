@@ -126,3 +126,80 @@ body {
 .card-wrap {
   position: relative;
 }
+
+/* Article prose */
+.prose {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--color-muted);
+}
+
+.prose h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+  letter-spacing: -0.3px;
+}
+
+.prose h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.prose p {
+  margin-bottom: 1.2em;
+}
+
+.prose strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.2em;
+  padding-left: 1.5em;
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose li strong {
+  color: var(--color-text);
+}
+
+/* Clamp for guide card descriptions */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
