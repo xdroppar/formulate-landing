@@ -283,11 +283,11 @@ export default function Home() {
             {/* Score bars */}
             <div className="p-6 md:p-8 space-y-5">
               {[
-                { label: "Ingredient Quality", score: 96, desc: "Pure creatine monohydrate — the most studied form" },
-                { label: "Dose Accuracy", score: 95, desc: "5g per serving matches clinical effective dose" },
-                { label: "Label Transparency", score: 98, desc: "Full disclosure, no proprietary blends" },
-                { label: "Third-Party Testing", score: 90, desc: "NSF Certified for Sport" },
-                { label: "Bioavailability", score: 92, desc: "Micronized for improved absorption" },
+                { label: "Ingredient Quality", score: 96, desc: "Pure creatine monohydrate — the most studied form", color: "#EF4444" },
+                { label: "Dose Accuracy", score: 95, desc: "5g per serving matches clinical effective dose", color: "#4CAF50" },
+                { label: "Label Transparency", score: 98, desc: "Full disclosure, no proprietary blends", color: "#9C27B0" },
+                { label: "Third-Party Testing", score: 90, desc: "NSF Certified for Sport", color: "#00BCD4" },
+                { label: "Bioavailability", score: 92, desc: "Micronized for improved absorption", color: "#2196F3" },
               ].map((item) => (
                 <ScoreBar key={item.label} {...item} />
               ))}

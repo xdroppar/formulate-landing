@@ -6,13 +6,14 @@ interface ScoreBarProps {
   label: string;
   score: number;
   desc: string;
+  color?: string;
 }
 
-export function ScoreBar({ label, score, desc }: ScoreBarProps) {
+export function ScoreBar({ label, score, desc, color: colorProp }: ScoreBarProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
-  const color = score >= 90 ? "#10B981" : score >= 75 ? "#3B82F6" : score >= 60 ? "#F59E0B" : "#EF4444";
+  const color = colorProp ?? (score >= 90 ? "#10B981" : score >= 75 ? "#3B82F6" : score >= 60 ? "#F59E0B" : "#EF4444");
 
   useEffect(() => {
     const el = ref.current;
