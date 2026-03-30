@@ -14,7 +14,6 @@
     "url": "git+https://github.com/xdroppar/formulate-landing.git"
   },
   "dependencies": {
-    "@vercel/analytics": "^2.0.1",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
