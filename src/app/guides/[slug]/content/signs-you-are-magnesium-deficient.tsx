@@ -2,211 +2,435 @@ export function MagnesiumDeficiency() {
   return (
     <>
       <p>
-        Magnesium is involved in over 300 enzymatic reactions in your body, yet
-        an estimated 50% of Americans don&rsquo;t get enough from their diet.
-        The problem: overt magnesium deficiency is rare, but{" "}
-        <strong>subclinical deficiency</strong> &mdash; not low enough to
-        trigger alarm bells on a blood test, but low enough to affect how you
-        feel &mdash; is widespread and easy to miss.
+        You&rsquo;re lying in bed at 1am. Your eyelid has been twitching for
+        three days. Your calves cramp when you stretch. You slept seven hours
+        last night and still feel like you got four. You&rsquo;re irritable
+        for no particular reason.
+      </p>
+      <p>
+        If this sounds familiar, there&rsquo;s a good chance you&rsquo;re low
+        on magnesium &mdash; and you&rsquo;re not alone. Roughly{" "}
+        <strong>50% of Americans don&rsquo;t meet the recommended daily
+        intake</strong>, according to data from the USDA. It&rsquo;s one of
+        the most common nutrient deficiencies in the developed world, and one
+        of the most underdiagnosed &mdash; because the standard blood test
+        most doctors order is almost useless at catching it.
       </p>
 
-      <h2>Why Magnesium Deficiency Is So Common</h2>
+      <h2>Why Your Doctor Probably Won&rsquo;t Catch It</h2>
       <p>
-        Modern diets have drifted away from magnesium-rich foods. Soil
-        depletion has reduced magnesium content in crops over the past 50
-        years. Water purification removes naturally occurring magnesium.
-        Processed foods are inherently low in it.
+        This is the part that frustrates people once they learn it. The
+        standard blood panel measures <strong>serum magnesium</strong> &mdash;
+        the magnesium floating in your blood. Sounds reasonable, except for
+        one problem: <strong>only 1% of your body&rsquo;s magnesium is in
+        your blood</strong>. The other 99% is in your bones, muscles, and
+        soft tissues.
       </p>
       <p>
-        On top of that, several common factors actively deplete magnesium:
+        Your body treats serum magnesium like a thermostat. When blood levels
+        dip, it pulls magnesium from your bones and muscles to keep the number
+        stable. So your blood test reads &ldquo;normal&rdquo; while your
+        tissues are slowly being drained.
+      </p>
+      <p>
+        By the time serum magnesium actually drops below the reference range,
+        you&rsquo;re in serious deficiency territory. The subclinical
+        stage &mdash; where you <em>feel</em> it but it doesn&rsquo;t show on
+        labs &mdash; can last for months or years.
+      </p>
+      <p>
+        The better test is <strong>RBC magnesium</strong> (red blood cell
+        magnesium), which measures what&rsquo;s actually inside your cells.
+        Most doctors don&rsquo;t order it unless you specifically ask. If you
+        suspect you&rsquo;re low, request it. Optimal RBC magnesium is
+        generally considered 5.0&ndash;6.5 mg/dL, though reference ranges
+        vary by lab.
+      </p>
+
+      <h2>Why Half the Population Is Running Low</h2>
+      <p>
+        It&rsquo;s not just that people eat badly (though that&rsquo;s part of
+        it). The deck is genuinely stacked against magnesium intake in modern
+        life:
       </p>
       <ul>
         <li>
-          <strong>Stress:</strong> Cortisol increases magnesium excretion
-          through urine. Chronic stress creates a vicious cycle &mdash; low
-          magnesium increases stress reactivity, which depletes more magnesium.
+          <strong>The soil is depleted.</strong> Industrial farming has reduced
+          the magnesium content of crops by an estimated 20&ndash;30% over the
+          past 50 years. The spinach your grandmother ate had meaningfully more
+          magnesium than yours does.
         </li>
         <li>
-          <strong>Caffeine:</strong> Coffee and tea increase renal magnesium
-          excretion. Heavy caffeine users are at higher risk.
+          <strong>Water treatment removes it.</strong> Municipal water
+          purification strips out naturally occurring minerals, including
+          magnesium. People who drink well water tend to have higher magnesium
+          status.
         </li>
         <li>
-          <strong>Alcohol:</strong> Even moderate alcohol consumption increases
-          magnesium loss.
+          <strong>Processed food has almost none.</strong> Refining grains
+          removes 80&ndash;95% of their magnesium content. If your diet leans
+          heavily on packaged food, you&rsquo;re almost certainly short.
+        </li>
+      </ul>
+      <p>
+        But even if your diet is solid, certain lifestyle factors actively
+        drain your magnesium faster than you can replace it:
+      </p>
+      <ul>
+        <li>
+          <strong>Stress is the big one.</strong> Cortisol increases urinary
+          magnesium excretion. But here&rsquo;s the cruel twist: low magnesium
+          <em>increases</em> your stress response, which burns through more
+          magnesium, which makes you more stressed. It&rsquo;s a vicious cycle
+          that hits high-achievers and anxious people hardest.
         </li>
         <li>
-          <strong>Intense exercise:</strong> Magnesium is lost through sweat
-          and used in muscle contraction. Athletes have higher requirements.
+          <strong>Caffeine.</strong> Coffee and tea increase renal magnesium
+          excretion. If you&rsquo;re a 3+ cups/day person, you&rsquo;re
+          flushing more than you think.
         </li>
         <li>
-          <strong>Certain medications:</strong> Proton pump inhibitors (PPIs),
-          diuretics, and some antibiotics can deplete magnesium stores.
+          <strong>Intense exercise.</strong> You lose magnesium through sweat
+          and burn through it during muscle contraction. Athletes and regular
+          gym-goers have significantly higher requirements &mdash; and
+          ironically, many sports drinks don&rsquo;t contain any.
+        </li>
+        <li>
+          <strong>Alcohol.</strong> Even moderate drinking increases magnesium
+          loss. Regular drinkers are at meaningfully higher risk.
+        </li>
+        <li>
+          <strong>Common medications.</strong> Proton pump inhibitors (Prilosec,
+          Nexium), diuretics, and certain antibiotics can deplete magnesium
+          stores over time. If you&rsquo;ve been on a PPI for months, your
+          magnesium status deserves a look.
         </li>
       </ul>
 
-      <h2>The Blood Test Problem</h2>
+      <h2>The 8 Signs to Watch For</h2>
       <p>
-        Standard blood tests measure <strong>serum magnesium</strong> &mdash;
-        the magnesium in your blood. But only about 1% of your body&rsquo;s
-        magnesium is in the blood. The rest is in bones, muscles, and soft
-        tissues.
-      </p>
-      <p>
-        Your body aggressively maintains serum magnesium levels by pulling from
-        tissue stores. This means your blood test can look perfectly normal
-        while your intracellular magnesium is depleted. A more accurate test
-        is <strong>RBC magnesium</strong> (red blood cell magnesium), which
-        measures intracellular levels, but it&rsquo;s rarely ordered
-        in routine bloodwork.
+        None of these are magnesium-specific on their own. But if you&rsquo;re
+        experiencing <strong>three or more of them</strong>, and you tick a
+        few of the risk factors above, the pattern starts to look very
+        familiar.
       </p>
 
-      <h2>Signs of Subclinical Magnesium Deficiency</h2>
+      <h3>1. Muscle Cramps and Eye Twitches That Won&rsquo;t Quit</h3>
       <p>
-        None of these symptoms are specific to magnesium alone, but if you
-        have several of them &mdash; especially combined with the dietary and
-        lifestyle risk factors above &mdash; subclinical deficiency is worth
-        considering:
+        This is the one most people notice first. Magnesium regulates the
+        flow of calcium into muscle cells &mdash; calcium triggers
+        contraction, magnesium enables relaxation. When magnesium is low,
+        the &ldquo;relax&rdquo; signal gets weak.
+      </p>
+      <p>
+        The result: involuntary contractions. A twitching eyelid that lasts
+        for days. Calf cramps at 3am. That charley horse after a workout
+        that seems disproportionate to what you did. Many people dismiss
+        these as random, but persistent twitching and cramping is your
+        neuromuscular system telling you something.
       </p>
 
-      <h3>1. Muscle Cramps and Twitches</h3>
+      <h3>2. You Sleep Enough Hours But Wake Up Unrested</h3>
       <p>
-        Magnesium regulates neuromuscular signaling. Low levels can cause
-        involuntary muscle contractions, eye twitches, and calf cramps,
-        particularly at night. This is one of the most commonly reported early
-        signs.
+        Magnesium doesn&rsquo;t just help you <em>fall</em> asleep &mdash;
+        it affects the <em>quality</em> of sleep you get. It activates the
+        parasympathetic nervous system (your &ldquo;rest and digest&rdquo;
+        mode) and regulates GABA, the neurotransmitter that quiets neural
+        activity.
+      </p>
+      <p>
+        A 2012 double-blind RCT in the <em>Journal of Research in Medical
+        Sciences</em> gave elderly insomniacs 500mg of magnesium daily for 8
+        weeks. The results: significantly better sleep time, sleep efficiency,
+        and melatonin levels, with lower cortisol. Participants reported
+        falling asleep faster and waking less often.
+      </p>
+      <p>
+        If you track your sleep and consistently see low deep sleep
+        percentages despite adequate total hours, magnesium is one of the
+        first things worth trying. For more on sleep supplementation, see
+        our{" "}
+        <a href="/guides/best-sleep-supplement-protocol">
+          sleep supplement protocol guide
+        </a>.
       </p>
 
-      <h3>2. Poor Sleep Quality</h3>
+      <h3>3. Anxiety or Irritability That Feels Disproportionate</h3>
       <p>
-        Magnesium activates the parasympathetic nervous system and regulates
-        GABA receptors &mdash; the neurotransmitter responsible for calming
-        neural activity. Low magnesium is associated with difficulty falling
-        asleep, frequent waking, and unrefreshing sleep. Multiple clinical
-        trials have shown magnesium supplementation improves subjective sleep
-        quality in people with low intake.
+        You snap at your partner over nothing. You feel a low-grade
+        background anxiety that doesn&rsquo;t match your circumstances.
+        Things that normally wouldn&rsquo;t bother you feel overwhelming.
+      </p>
+      <p>
+        This isn&rsquo;t in your head (well, technically it is). Magnesium
+        modulates the HPA axis &mdash; your body&rsquo;s central stress
+        response system. It also regulates GABA receptors and restricts the
+        release of stress hormones. When magnesium is low, your nervous
+        system runs hotter than it should.
+      </p>
+      <p>
+        A 2017 systematic review across 18 studies, published in{" "}
+        <em>Nutrients</em>, found a statistically significant link between low
+        magnesium intake and increased anxiety. Several included trials showed
+        improvement in anxiety scores with supplementation in as little as
+        6 weeks.
       </p>
 
-      <h3>3. Anxiety and Irritability</h3>
+      <h3>4. Persistent Fatigue That Sleep Doesn&rsquo;t Fix</h3>
       <p>
-        The same GABA-regulatory mechanism that affects sleep also impacts
-        mood. A 2017 systematic review in <em>Nutrients</em> found a
-        significant association between low magnesium intake and anxiety
-        symptoms. Some people report noticeable calming effects within days of
-        starting supplementation.
+        Every cell in your body uses ATP for energy. Magnesium is required
+        for ATP to function &mdash; technically, it&rsquo;s &ldquo;Mg-ATP&rdquo;
+        that your cells actually use, not ATP alone. When magnesium is
+        depleted, your cells literally cannot produce energy as efficiently.
+      </p>
+      <p>
+        This shows up as that bone-deep tiredness that doesn&rsquo;t improve
+        with more sleep. You&rsquo;re not sleep-deprived &mdash; you&rsquo;re
+        energy-deprived at the cellular level. People often attribute this to
+        getting older, overtraining, or burnout, when the root cause is
+        sometimes as simple as a mineral deficiency.
       </p>
 
-      <h3>4. Fatigue Despite Adequate Sleep</h3>
+      <h3>5. Headaches or Migraines</h3>
       <p>
-        Magnesium is required for ATP production &mdash; the energy currency
-        of every cell. Low magnesium can cause persistent tiredness even when
-        you&rsquo;re sleeping enough hours. If you feel chronically drained
-        despite good sleep habits, magnesium status is worth investigating.
+        The American Migraine Foundation explicitly recognizes magnesium
+        supplementation as a preventive therapy for migraines, especially in
+        people with demonstrated low levels. The mechanism involves magnesium&rsquo;s
+        role in neurotransmitter release, blood vessel constriction, and
+        cortical spreading depression (the wave of neural activity believed
+        to trigger migraine aura).
+      </p>
+      <p>
+        Clinical trials have used 400&ndash;600mg daily (typically magnesium
+        citrate or oxide) for migraine prophylaxis, with a 2021 meta-analysis
+        in <em>Headache</em> confirming reduced frequency and intensity. If
+        you get regular headaches &mdash; especially tension headaches or
+        migraines &mdash; this is worth a conversation with your doctor.
       </p>
 
-      <h3>5. Headaches and Migraines</h3>
+      <h3>6. An Irregular Heartbeat or Random Palpitations</h3>
       <p>
-        The American Migraine Foundation recognizes magnesium as a
-        supplement with evidence for migraine prevention. Low magnesium may
-        contribute to blood vessel constriction and neurotransmitter
-        imbalances that trigger migraines. Studies have used 400&ndash;600mg
-        of magnesium (often as citrate or oxide) for migraine prophylaxis.
+        Magnesium helps maintain the electrical stability of your heart
+        muscle. Low levels can cause premature atrial or ventricular
+        contractions &mdash; those unsettling &ldquo;skipped beat&rdquo;
+        sensations. Hospitals routinely administer IV magnesium for cardiac
+        arrhythmias, which tells you how seriously cardiologists take
+        this mineral.
       </p>
-
-      <h3>6. Heart Palpitations</h3>
       <p>
-        Magnesium helps maintain normal heart rhythm. Irregular heartbeat,
-        skipped beats, or palpitations can be associated with low magnesium,
-        particularly in people who also have low potassium. Note: heart
-        palpitations warrant medical evaluation regardless of suspected cause.
+        <strong>Important:</strong> Heart palpitations can have many causes,
+        some of them serious. Don&rsquo;t self-diagnose this one &mdash;
+        get it checked out. But if your workup comes back &ldquo;structurally
+        normal,&rdquo; ask about your magnesium levels.
       </p>
 
       <h3>7. Constipation</h3>
       <p>
-        Magnesium draws water into the intestines and relaxes smooth muscle in
-        the GI tract. Low levels can contribute to sluggish motility and
-        constipation. This is why magnesium citrate and oxide are commonly
-        used as osmotic laxatives.
+        There&rsquo;s a reason magnesium citrate is sold in the pharmacy
+        laxative aisle. Magnesium draws water into the intestines through
+        osmosis and relaxes the smooth muscle of the GI tract. When levels
+        are low, things slow down.
+      </p>
+      <p>
+        If you eat plenty of fiber, drink enough water, and still deal with
+        sluggish motility, subclinical magnesium deficiency is one of the
+        less obvious culprits worth considering.
       </p>
 
-      <h3>8. Brain Fog and Difficulty Concentrating</h3>
+      <h3>8. Brain Fog and Scattered Focus</h3>
       <p>
-        Through its role in neurotransmitter function and synaptic plasticity,
-        magnesium affects cognitive function. Some research suggests that
-        magnesium L-threonate in particular may cross the blood-brain barrier
-        more effectively, though the evidence is still emerging.
+        Magnesium is involved in synaptic plasticity &mdash; your brain&rsquo;s
+        ability to form and strengthen connections. It also regulates NMDA
+        receptors, which are central to learning and memory. Research from
+        MIT, published in <em>Neuron</em> (2010), found that increasing
+        brain magnesium levels (using magnesium L-threonate) enhanced
+        synaptic density and improved both short-term and long-term memory
+        in animal models.
+      </p>
+      <p>
+        Human data on magnesium and cognition is still developing, but if
+        you&rsquo;re experiencing that &ldquo;can&rsquo;t think straight&rdquo;
+        feeling alongside other symptoms on this list, the connection is
+        plausible.
       </p>
 
-      <h2>Who&rsquo;s Most at Risk</h2>
-      <ul>
-        <li>People under chronic stress</li>
-        <li>Heavy exercisers and athletes</li>
-        <li>Anyone on PPIs, diuretics, or metformin</li>
-        <li>Heavy coffee drinkers (4+ cups/day)</li>
-        <li>Regular alcohol consumers</li>
-        <li>People with type 2 diabetes (urinary magnesium wasting)</li>
-        <li>Older adults (absorption decreases with age)</li>
-        <li>Anyone eating a highly processed diet</li>
-      </ul>
-
-      <h2>What to Do About It</h2>
-
-      <h3>Diet First</h3>
+      <h2>A Quick Self-Assessment</h2>
       <p>
-        The best dietary sources of magnesium:
-      </p>
-      <ul>
-        <li>Pumpkin seeds: ~150mg per ounce</li>
-        <li>Dark chocolate (70%+): ~65mg per ounce</li>
-        <li>Almonds: ~80mg per ounce</li>
-        <li>Spinach (cooked): ~160mg per cup</li>
-        <li>Black beans: ~120mg per cup</li>
-        <li>Avocado: ~58mg per avocado</li>
-      </ul>
-
-      <h3>Supplementation</h3>
-      <p>
-        If you decide to supplement, the form matters significantly:
+        Count how many of these apply to you:
       </p>
       <ul>
+        <li>You drink 3+ cups of coffee daily</li>
+        <li>You exercise intensely 3+ times per week</li>
+        <li>Your diet includes significant processed or packaged food</li>
+        <li>You&rsquo;re under chronic work or life stress</li>
+        <li>You take a PPI, diuretic, or metformin</li>
+        <li>You drink alcohol more than a couple times per week</li>
+        <li>You&rsquo;re over 50 (absorption decreases with age)</li>
+        <li>You have type 2 diabetes</li>
+      </ul>
+      <p>
+        <strong>3+ risk factors plus 2+ symptoms?</strong> Your magnesium
+        intake is almost certainly worth investigating. The good news: it&rsquo;s
+        cheap, safe, and fast to address.
+      </p>
+
+      <h2>How to Fix It</h2>
+
+      <h3>Start With Food</h3>
+      <p>
+        Before reaching for a bottle, look at your plate. These foods are
+        legitimately high in magnesium (and come with other nutrients your
+        body wants):
+      </p>
+      <ul>
+        <li><strong>Pumpkin seeds:</strong> 156mg per ounce &mdash; the single best food source</li>
+        <li><strong>Spinach (cooked):</strong> 157mg per cup</li>
+        <li><strong>Dark chocolate (70%+):</strong> 65mg per ounce &mdash; yes, really</li>
+        <li><strong>Black beans:</strong> 120mg per cup</li>
+        <li><strong>Almonds:</strong> 80mg per ounce</li>
+        <li><strong>Avocado:</strong> 58mg per avocado</li>
+      </ul>
+      <p>
+        The RDA is 400&ndash;420mg for men and 310&ndash;320mg for women.
+        Most people eating a whole-foods diet still land somewhere around
+        250mg, which is why supplementation fills an important gap for many
+        people.
+      </p>
+
+      <h3>Choosing the Right Form (This Actually Matters)</h3>
+      <p>
+        Not all magnesium is the same. The form determines how much you
+        absorb, what it&rsquo;s best for, and what side effects you might
+        experience. Here&rsquo;s the honest breakdown:
+      </p>
+      <ul>
         <li>
-          <strong>Magnesium glycinate:</strong> Well-absorbed, calming, gentle
-          on the stomach. Best for sleep and anxiety support. Most popular form.
+          <strong>Magnesium glycinate</strong> &mdash; The most popular form
+          for a reason. Well-absorbed, gentle on the stomach, and the glycine
+          component has its own calming properties. Best for: sleep, anxiety,
+          general replenishment. This is what most people should start with.
         </li>
         <li>
-          <strong>Magnesium L-threonate:</strong> May cross the blood-brain
-          barrier. Used for cognitive support. Smaller elemental magnesium
-          content per dose.
+          <strong>Magnesium L-threonate</strong> &mdash; The only form shown
+          to meaningfully raise brain magnesium levels in research (the MIT
+          study mentioned above). Best for: cognitive function and focus.
+          Downside: lower elemental magnesium per dose, so you&rsquo;d need
+          a separate form if correcting a broader deficiency.
         </li>
         <li>
-          <strong>Magnesium citrate:</strong> Good absorption, but can have a
-          laxative effect at higher doses. Useful if constipation is also an
-          issue.
+          <strong>Magnesium citrate</strong> &mdash; Well-absorbed and
+          affordable. Best for: people who also deal with constipation (it has
+          a mild osmotic laxative effect). Can cause loose stools at higher
+          doses &mdash; some people consider this a feature, not a bug.
         </li>
         <li>
-          <strong>Magnesium oxide:</strong> Cheap but poorly absorbed
-          (approximately 4%). Primarily useful as a laxative, not for
-          correcting deficiency.
+          <strong>Magnesium taurate</strong> &mdash; The taurine component
+          has cardiovascular benefits of its own. Some cardiologists
+          specifically recommend this form. Best for: heart health focus.
         </li>
         <li>
-          <strong>Magnesium taurate:</strong> Combined with taurine. Some
-          evidence for cardiovascular benefits.
+          <strong>Magnesium oxide</strong> &mdash; Cheap and ubiquitous.
+          But only about 4% is absorbed, making it one of the worst choices
+          for actually correcting a deficiency. It&rsquo;s essentially a
+          laxative. If this is what&rsquo;s in your current supplement, you&rsquo;re
+          probably not absorbing much.
         </li>
       </ul>
       <p>
-        A typical supplemental dose is 200&ndash;400mg of elemental magnesium
-        daily. Start low and increase gradually to avoid GI issues. Take in
-        the evening for sleep benefits.
+        For more on evaluating supplement quality, check our{" "}
+        <a href="/guides/how-to-read-a-supplement-label">
+          guide to reading supplement labels
+        </a>.
+      </p>
+
+      <h3>Dosing and Timing</h3>
+      <p>
+        Start with <strong>200mg of elemental magnesium</strong> in the
+        evening and work up to 300&ndash;400mg over a week or two. Taking it
+        at night leverages the calming and sleep-supporting effects. Most
+        people notice a difference in sleep quality within 3&ndash;5 days,
+        with broader benefits (mood, cramps, energy) appearing over
+        2&ndash;4 weeks.
+      </p>
+      <p>
+        One important note: check your magnesium supplement for{" "}
+        <strong>elemental magnesium</strong> content, not total compound
+        weight. A capsule labeled &ldquo;500mg magnesium glycinate&rdquo;
+        contains roughly 70mg of actual magnesium. The rest is glycine. Always
+        look at the Supplement Facts panel for the actual magnesium amount.
+      </p>
+      <p>
+        For a full breakdown of when to take magnesium relative to other
+        supplements, see our{" "}
+        <a href="/guides/supplement-timing-guide">
+          supplement timing guide
+        </a>.
+      </p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can you take too much magnesium?</h3>
+      <p>
+        From food, practically no &mdash; your kidneys excrete the excess.
+        From supplements, the main risk is GI distress (loose stools,
+        diarrhea) at higher doses, especially with citrate and oxide forms.
+        The tolerable upper intake for supplemental magnesium is 350mg/day
+        per NIH guidelines, though many people tolerate more without issues.
+        People with kidney disease should consult a doctor before
+        supplementing, as impaired kidneys can&rsquo;t clear excess
+        magnesium effectively.
+      </p>
+
+      <h3>How fast will I notice a difference?</h3>
+      <p>
+        Sleep improvements are often the fastest &mdash; many people report
+        better sleep within 3&ndash;7 days. Muscle cramps and twitches
+        typically improve within 1&ndash;2 weeks. Mood and anxiety effects
+        may take 2&ndash;6 weeks to become noticeable. If you&rsquo;re
+        genuinely deficient, the first week often feels dramatic.
+      </p>
+
+      <h3>Should I take magnesium glycinate or threonate?</h3>
+      <p>
+        If you had to pick one: glycinate. It&rsquo;s better absorbed, has
+        more elemental magnesium per dose, and covers the most common
+        deficiency symptoms (sleep, cramps, anxiety, energy). Add threonate
+        if cognitive function is a specific priority &mdash; some people take
+        both (glycinate at night, threonate in the morning).
+      </p>
+
+      <h3>Does magnesium interfere with any other supplements?</h3>
+      <p>
+        High-dose calcium (500mg+) can compete with magnesium for absorption
+        &mdash; separate them by 2 hours if you take both. Magnesium can also
+        reduce absorption of certain antibiotics (tetracyclines,
+        fluoroquinolones) and bisphosphonate medications. Space them
+        2&ndash;3 hours apart.
+      </p>
+
+      <h3>Is magnesium safe to take every day long-term?</h3>
+      <p>
+        Yes. There is no evidence of harm from long-term daily magnesium
+        supplementation at standard doses (200&ndash;400mg). Your body
+        regulates magnesium through renal excretion &mdash; excess is
+        eliminated in urine. Many integrative medicine practitioners consider
+        it a foundational daily supplement alongside vitamin D and omega-3.
       </p>
 
       <h2>The Bottom Line</h2>
       <p>
-        Magnesium deficiency is common, undertested, and easy to address.
-        If you&rsquo;re experiencing muscle cramps, poor sleep, anxiety, or
-        unexplained fatigue &mdash; and you drink a lot of coffee, exercise
-        hard, or eat a processed diet &mdash; your magnesium intake is worth
-        examining. The downside risk of supplementing is minimal (your body
-        excretes excess through urine), and many people notice improvements
-        within the first week.
+        Magnesium deficiency is one of those problems that&rsquo;s incredibly
+        common, genuinely affects quality of life, and remarkably easy to
+        fix. The tricky part is recognizing it &mdash; because the symptoms
+        are vague enough to blame on stress, aging, or poor sleep, and the
+        standard blood test isn&rsquo;t designed to catch it.
+      </p>
+      <p>
+        If you&rsquo;re dealing with a cluster of the symptoms above and
+        you tick a few risk factors, a quality magnesium supplement is one of
+        the lowest-risk, highest-potential-upside interventions you can try.
+        Start with glycinate, take it at night, give it two weeks, and see
+        what shifts.
       </p>
       <p>
         <a href="https://app.formulate-health.app/catalog?q=magnesium">

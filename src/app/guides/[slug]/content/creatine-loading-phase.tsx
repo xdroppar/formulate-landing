@@ -2,11 +2,11 @@ export function CreatineLoadingPhase() {
   return (
     <>
       <p>
-        You bought creatine. The label says to take 20 grams per day for the
-        first week. The internet says you can skip the loading phase entirely.
-        Your gym buddy insists it&rsquo;s mandatory. Here&rsquo;s what the
-        actual research says &mdash; and why the answer is simpler than
-        you&rsquo;d think.
+        You bought creatine. The label says 3&ndash;5 grams a day. But
+        somewhere online you read you should be taking 20 grams a day for the
+        first week. Your gym buddy insists the loading phase is mandatory.
+        Here&rsquo;s what the actual research says &mdash; and why the answer
+        is simpler than you&rsquo;d think.
       </p>
 
       <h2>What the Loading Phase Is</h2>
