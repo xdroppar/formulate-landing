@@ -11,6 +11,13 @@ import { BestVitaminD } from "./content/best-vitamin-d-supplements";
 import { BestSleepProtocol } from "./content/best-sleep-supplement-protocol";
 import { BestPreWorkoutProtocol } from "./content/best-pre-workout-supplement-protocol";
 import { HowToBuildStack } from "./content/how-to-build-a-supplement-stack";
+import { SupplementTimingGuide } from "./content/supplement-timing-guide";
+import { HowToReadSupplementLabel } from "./content/how-to-read-a-supplement-label";
+import { MagnesiumDeficiency } from "./content/signs-you-are-magnesium-deficient";
+import { DoYouNeedMultivitamin } from "./content/do-you-need-a-multivitamin";
+import { WhatToLookForInProbiotic } from "./content/what-to-look-for-in-a-probiotic";
+import { BeginnerLongevityStack } from "./content/beginner-longevity-supplement-stack";
+import { CreatineLoadingPhase } from "./content/creatine-loading-phase";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -20,6 +27,13 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-sleep-supplement-protocol": BestSleepProtocol,
   "best-pre-workout-supplement-protocol": BestPreWorkoutProtocol,
   "how-to-build-a-supplement-stack": HowToBuildStack,
+  "supplement-timing-guide": SupplementTimingGuide,
+  "how-to-read-a-supplement-label": HowToReadSupplementLabel,
+  "signs-you-are-magnesium-deficient": MagnesiumDeficiency,
+  "do-you-need-a-multivitamin": DoYouNeedMultivitamin,
+  "what-to-look-for-in-a-probiotic": WhatToLookForInProbiotic,
+  "beginner-longevity-supplement-stack": BeginnerLongevityStack,
+  "creatine-loading-phase": CreatineLoadingPhase,
 };
 
 /* ---------- static params ---------- */
