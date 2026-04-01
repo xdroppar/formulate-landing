@@ -171,22 +171,41 @@ export function BestSleepProtocol() {
 
       <h2>What to Avoid (and Why)</h2>
 
-      <h3>High-Dose Melatonin (5&ndash;10mg Nightly)</h3>
+      <h3>Melatonin: Misunderstood, Not Bad</h3>
       <p>
-        This is the biggest mistake in sleep supplementation. Walk into any
-        drugstore and you&rsquo;ll find melatonin gummies with 5, 10, even
-        15mg per serving. These are wildly supraphysiological. A 2005 study
-        from MIT (Zhdanova et al.) found that the optimal dose for sleep
-        onset is <strong>0.3mg</strong> &mdash; yes, one-thirtieth of what
-        most products contain. Higher doses actually fragmented sleep and
-        caused next-day grogginess.
+        Walk into any drugstore and you&rsquo;ll find melatonin gummies with
+        5, 10, even 15mg per serving. These are wildly supraphysiological. A
+        2005 study from MIT (Zhdanova et al.) found that the optimal dose
+        for <em>sleep onset</em> is <strong>0.3mg</strong> &mdash; yes,
+        one-thirtieth of what most products contain. At higher doses,
+        melatonin actually fragmented sleep and caused next-day grogginess
+        in that study.
       </p>
       <p>
-        Melatonin is a chronobiotic, not a sedative. It tells your brain
-        what time it is, not to go to sleep. Use 0.3&ndash;0.5mg for jet lag
-        or circadian rhythm shifts. Do not use it as a nightly sleep aid &mdash;
-        chronic high-dose use may suppress your body&rsquo;s endogenous
-        production, making the underlying problem worse.
+        Melatonin is a chronobiotic, not a sedative. It signals to your
+        brain what time it is, not to go to sleep. For jet lag or circadian
+        rhythm shifts, 0.3&ndash;0.5mg is the evidence-based dose.
+      </p>
+      <p>
+        One common concern worth addressing: the idea that exogenous
+        melatonin &ldquo;shuts down&rdquo; your body&rsquo;s natural
+        production. The evidence doesn&rsquo;t support this. A study by
+        Matsumoto et al. (1997) published in <em>Clinical Endocrinology</em>{" "}
+        found that exogenous melatonin can shift the <em>timing</em> of
+        pineal secretion but does not reduce its <em>amplitude</em> &mdash;
+        your body keeps making the same amount. No withdrawal symptoms or
+        rebound insomnia have been demonstrated in clinical studies.
+      </p>
+      <p>
+        That said, using high-dose melatonin as a nightly sedative is still
+        not the best approach for most people &mdash; not because it
+        suppresses production, but because it&rsquo;s treating a timing
+        signal as a sleeping pill. If you need it nightly to fall asleep,
+        the root issue is likely sleep hygiene, circadian disruption, or
+        something else this stack addresses more effectively. There is,
+        however, growing research into higher-dose melatonin
+        (3&ndash;10mg+) for its antioxidant and anti-inflammatory
+        properties &mdash; a different use case entirely from sleep onset.
       </p>
 
       <h3>Valerian Root</h3>
