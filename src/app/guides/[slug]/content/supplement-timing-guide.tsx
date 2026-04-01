@@ -372,6 +372,32 @@ export function SupplementTimingGuide() {
         with food.
       </p>
 
+      <h3>Does calcium in food (yogurt, kefir, milk) block iron the same way calcium supplements do?</h3>
+      <p>
+        Yes. It&rsquo;s the calcium itself that inhibits iron absorption, not
+        the pill form. A cup of kefir or yogurt contains roughly
+        300&ndash;400mg of calcium &mdash; more than enough to reduce iron
+        uptake by 50&ndash;60%. If your morning routine includes dairy
+        (kefir, yogurt, milk in coffee), don&rsquo;t take your iron
+        supplement at the same time. Either take iron 30&ndash;60 minutes
+        before your dairy, or shift iron to a different time of day entirely
+        (like mid-afternoon between meals). The same applies to
+        calcium-fortified foods like orange juice or plant milks &mdash;
+        check the label for added calcium.
+      </p>
+
+      <h3>I drink kefir first thing in the morning for protein. When should I take iron?</h3>
+      <p>
+        You have two good options. First: take your iron with a vitamin C
+        source 30&ndash;60 minutes <em>before</em> your kefir, then enjoy
+        your kefir as breakfast. The iron gets a head start on absorption
+        before the calcium arrives. Second: skip morning iron entirely and
+        take it mid-afternoon on a relatively empty stomach with vitamin C
+        &mdash; this avoids the conflict altogether and still gives you
+        strong absorption. Either way, don&rsquo;t take iron and kefir at
+        the same time.
+      </p>
+
       <h2>The Bottom Line</h2>
       <p>
         Three rules matter: take fat-soluble vitamins with fat, separate
