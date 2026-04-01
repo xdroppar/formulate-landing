@@ -142,13 +142,40 @@ export function BestPreWorkoutProtocol() {
         range of activities.
       </p>
       <p>
-        <strong>Practical considerations:</strong> Tolerance is real. If
-        you drink 3 cups of coffee daily, you may need the higher end of
-        the range &mdash; or consider periodically cycling off caffeine for
-        1&ndash;2 weeks to resensitize. Also, caffeine has a half-life of
-        5&ndash;7 hours. If you train in the afternoon, that pre-workout
-        caffeine will still be circulating at bedtime. For more on how
-        caffeine interacts with other supplements, see our{" "}
+        <strong>Tolerance and dosing strategy:</strong> Caffeine tolerance
+        is real and determines how much you need. If you&rsquo;re a regular
+        coffee drinker (3+ cups/day), your adenosine receptors have
+        upregulated &mdash; you&rsquo;ll need the higher end (5&ndash;6mg/kg)
+        and even then the boost may be blunted. If you rarely consume
+        caffeine, start low (2&ndash;3mg/kg). The performance benefits will
+        be more pronounced, and you&rsquo;ll avoid the jitters, anxiety, and
+        GI distress that hit caffeine-naive people at full dose.
+      </p>
+      <p>
+        <strong>Will you build tolerance over time?</strong> Yes, but the
+        speed depends on frequency. Daily caffeine use builds meaningful
+        tolerance within 1&ndash;3 weeks. If you only use caffeine
+        3&ndash;4 times per week for training, tolerance builds more
+        slowly. To maintain sensitivity long-term, consider cycling off
+        caffeine entirely for 7&ndash;14 days every 2&ndash;3 months. The
+        withdrawal is unpleasant (headaches and fatigue for 2&ndash;5 days),
+        but resensitization is rapid and the ergogenic effects come back
+        stronger. If you don&rsquo;t drink coffee or tea at all, you
+        likely won&rsquo;t need to cycle &mdash; your baseline sensitivity
+        stays high as long as you&rsquo;re only using caffeine a few times
+        per week pre-training.
+      </p>
+      <p>
+        <strong>The sleep tradeoff:</strong> Caffeine has a half-life of
+        5&ndash;7 hours. If you train at 4pm and take 300mg, you&rsquo;ll
+        still have ~150mg circulating at 10pm &mdash; roughly a cup of
+        coffee&rsquo;s worth. If sleep quality matters to you (and it should
+        &mdash; see our{" "}
+        <a href="/guides/best-sleep-supplement-protocol">
+          sleep protocol guide
+        </a>
+        ), keep afternoon doses moderate or train earlier. For more on
+        caffeine and supplement interactions, see our{" "}
         <a href="/guides/supplement-timing-guide">
           supplement timing guide
         </a>.
