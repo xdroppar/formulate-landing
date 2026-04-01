@@ -2,156 +2,216 @@ export function WhatToLookForInProbiotic() {
   return (
     <>
       <p>
-        The probiotic market is overwhelming. Thousands of products, dozens of
-        strains, CFU counts ranging from 1 billion to 100 billion, and
-        marketing claims that range from plausible to absurd. Most
-        &ldquo;best probiotics&rdquo; lists won&rsquo;t tell you this, but
-        choosing a probiotic is fundamentally different from choosing most
-        other supplements &mdash; because strain specificity matters more than
-        almost anything else.
+        Walk into any pharmacy and you&rsquo;ll see it: an entire aisle of
+        probiotic products, each one louder than the last. &ldquo;50 billion
+        CFU!&rdquo; &ldquo;30 clinically studied strains!&rdquo;
+        &ldquo;Immune support + digestive health + mood + weight
+        management!&rdquo;
+      </p>
+      <p>
+        Here&rsquo;s the problem: almost none of that marketing tells you
+        anything useful. The probiotic industry has a unique issue that most
+        supplement categories don&rsquo;t &mdash; the thing that actually
+        determines whether a probiotic works (the specific <em>strain</em>)
+        is the thing most products don&rsquo;t even list on the label.
+      </p>
+      <p>
+        This guide will teach you to cut through the noise and choose a
+        probiotic that has actual clinical evidence behind it &mdash; not
+        just a big number on the box.
       </p>
 
-      <h2>The Single Most Important Thing: Strain Specificity</h2>
+      <h2>The One Thing Most People Get Wrong</h2>
       <p>
-        Here&rsquo;s what most people get wrong about probiotics: they shop by
-        genus and species (like <em>Lactobacillus acidophilus</em>) when they
-        should be shopping by <strong>strain</strong>.
+        When people shop for probiotics, they look at CFU count (how many
+        organisms), maybe the number of strains, and the price. These are
+        the three <em>least</em> important factors. The single most important
+        factor is one that most consumers don&rsquo;t even know to look
+        for: <strong>strain specificity</strong>.
       </p>
       <p>
-        A probiotic strain is identified by three parts:{" "}
-        <em>Lactobacillus rhamnosus <strong>GG</strong></em>. That last part
-        &mdash; the strain designation &mdash; is what determines whether the
-        probiotic has clinical evidence behind it. <em>L. rhamnosus GG</em>{" "}
-        has hundreds of clinical trials. A different strain of{" "}
-        <em>L. rhamnosus</em> may have zero.
+        A probiotic organism is identified by three parts: genus, species,
+        and strain. For example: <em>Lactobacillus rhamnosus{" "}
+        <strong>GG</strong></em>. That last part &mdash; GG &mdash; is the
+        strain designation. And it makes all the difference.
       </p>
       <p>
-        <strong>If a product doesn&rsquo;t list specific strain
-        designations, you have no way to evaluate its evidence base.</strong>{" "}
-        This is the #1 red flag in probiotic shopping.
+        <em>Lactobacillus rhamnosus GG</em> has been the subject of over
+        1,000 published studies. It has strong evidence for preventing
+        antibiotic-associated diarrhea, reducing IBS symptoms, and supporting
+        immune function in children. A <em>different</em> strain of{" "}
+        <em>Lactobacillus rhamnosus</em> &mdash; say, one with no strain
+        designation or a different code &mdash; may have zero clinical
+        evidence. Same genus. Same species. Completely different evidence
+        base.
+      </p>
+      <p>
+        <strong>If a probiotic product doesn&rsquo;t list specific strain
+        designations (the letters/numbers after the species name), you
+        literally cannot evaluate whether it has any evidence behind
+        it.</strong> This is the #1 red flag &mdash; and the majority of
+        products on shelves fail this basic test.
       </p>
 
-      <h2>CFU Count: More Isn&rsquo;t Always Better</h2>
+      <h2>CFU Count: Why Bigger Isn&rsquo;t Better</h2>
       <p>
-        CFU (Colony Forming Units) measures the number of viable organisms per
-        dose. The marketing arms race has pushed CFU counts to absurd levels
-        &mdash; 100 billion, 200 billion. But clinical trials typically use
-        1&ndash;20 billion CFU and show clear benefits at these doses.
+        The marketing arms race around CFU (Colony Forming Units) has gotten
+        absurd. Products now advertise 100 billion, 200 billion CFU. The
+        implication is that more = better. The research says otherwise.
       </p>
       <p>
-        What matters more than total CFU:
+        Most clinical trials showing real benefits use{" "}
+        <strong>1&ndash;20 billion CFU</strong> of specific strains. The
+        studies that demonstrated <em>L. rhamnosus GG</em>&rsquo;s benefits
+        for gut health? 10 billion CFU. <em>Saccharomyces boulardii</em>{" "}
+        for antibiotic-associated diarrhea? 5&ndash;10 billion CFU.
+      </p>
+      <p>
+        What actually matters about CFU:
       </p>
       <ul>
         <li>
-          <strong>CFU at expiration, not at manufacture:</strong> Probiotics
-          die over time. A product that guarantees &ldquo;50 billion at
-          time of manufacture&rdquo; might deliver 5 billion by expiration.
-          Look for guaranteed CFU <em>through expiration date</em>.
+          <strong>CFU at expiration, not at manufacture.</strong> Probiotics
+          die over time. Heat, moisture, and oxygen kill them. A product
+          boasting &ldquo;100 billion at time of manufacture&rdquo; might
+          deliver 10 billion by the time you open it. The only number that
+          matters is what&rsquo;s guaranteed <em>through the expiration
+          date</em>. If the label doesn&rsquo;t specify, assume the worst.
         </li>
         <li>
-          <strong>CFU per strain, not per total blend:</strong> A product with
-          &ldquo;50 billion CFU from 30 strains&rdquo; may have meaningful
-          doses of none of them. Clinical studies typically use 1&ndash;10
-          billion of a <em>single specific strain</em>.
+          <strong>CFU per strain, not per blend.</strong> &ldquo;50 billion
+          CFU from 30 strains&rdquo; sounds impressive. But that&rsquo;s an
+          average of 1.6 billion per strain &mdash; potentially below clinical
+          thresholds for any of them. What you want is a product with
+          clinically studied doses of a <em>few well-chosen</em> strains,
+          not a shotgun blast of 30.
         </li>
         <li>
-          <strong>Survival to the gut:</strong> A high CFU count means nothing
-          if the organisms die in stomach acid. Delivery mechanism matters
-          (see below).
+          <strong>Survival matters more than quantity.</strong> 100 billion
+          organisms that die in stomach acid before reaching your intestines
+          are worth less than 5 billion that actually survive the trip. Which
+          brings us to delivery.
         </li>
       </ul>
 
-      <h2>Clinically Studied Strains Worth Knowing</h2>
+      <h2>The Strains Worth Knowing About</h2>
       <p>
-        These strains have significant clinical trial evidence behind them:
+        If a product contains one of these strains at the studied dose, it
+        has real evidence behind it &mdash; not just marketing:
       </p>
       <ul>
         <li>
-          <strong>Lactobacillus rhamnosus GG:</strong> One of the most-studied
-          probiotic strains in the world. Evidence for antibiotic-associated
-          diarrhea prevention, IBS symptom reduction, and immune support.
+          <strong>Lactobacillus rhamnosus GG (LGG):</strong> The most studied
+          probiotic strain in the world. Strong evidence for
+          antibiotic-associated diarrhea prevention, IBS symptom reduction,
+          and pediatric gastroenteritis. Studied at 10&ndash;20 billion CFU.
         </li>
         <li>
-          <strong>Saccharomyces boulardii:</strong> A yeast-based probiotic
-          (not a bacterium) with strong evidence for preventing and treating
-          diarrhea, including C. difficile-associated diarrhea. Unique in
-          being naturally resistant to antibiotics.
+          <strong>Saccharomyces boulardii (CNCM I-745):</strong> Not a
+          bacterium &mdash; it&rsquo;s a yeast. And that&rsquo;s its
+          superpower: it&rsquo;s naturally antibiotic-resistant, so you can
+          take it <em>during</em> an antibiotic course without it being
+          killed. Strong evidence for C. difficile prevention and
+          traveler&rsquo;s diarrhea. Studied at 5&ndash;10 billion CFU.
         </li>
         <li>
-          <strong>Bifidobacterium lactis BB-12:</strong> Evidence for
-          regularity, immune function, and gut barrier integrity. One of the
-          best-documented bifidobacteria.
+          <strong>Bifidobacterium lactis BB-12:</strong> One of the
+          best-documented bifidobacteria. Evidence for improved regularity,
+          immune function in infants, and gut barrier integrity. Studied at
+          1&ndash;10 billion CFU.
         </li>
         <li>
           <strong>Lactobacillus plantarum 299v (LP299V):</strong> Specifically
-          studied for IBS, particularly bloating and abdominal pain.
+          studied for IBS, particularly bloating and abdominal pain. Multiple
+          RCTs showing benefit. Studied at 10&ndash;20 billion CFU.
         </li>
         <li>
-          <strong>VSL#3 combination:</strong> A specific multi-strain
-          formulation with evidence for ulcerative colitis and IBS. The exact
-          strains and ratios matter &mdash; generic copies may not have the
-          same evidence base.
+          <strong>Bifidobacterium longum 35624:</strong> Also known as
+          Alflorex&reg;. Evidence from multiple trials for IBS symptom
+          improvement (bloating, pain, bowel habit). Studied at 1 billion
+          CFU &mdash; proving that low-dose, single-strain products can be
+          highly effective.
         </li>
       </ul>
       <p>
-        The key takeaway: match the strain to your goal. A probiotic for
-        general gut health, IBS, immune support, or antibiotic recovery
-        should ideally use strains studied for that specific purpose.
+        The pattern: match the strain to your goal. &ldquo;I want better
+        gut health&rdquo; isn&rsquo;t specific enough. &ldquo;I get IBS
+        bloating&rdquo; points you toward LP299V or B. longum 35624.
+        &ldquo;I&rsquo;m going on antibiotics&rdquo; points you toward S.
+        boulardii. This is strain-specific medicine, not one-size-fits-all.
       </p>
 
-      <h2>Delivery and Survival</h2>
+      <h2>Delivery: Getting Them There Alive</h2>
       <p>
-        Probiotics must survive stomach acid to reach the intestines alive.
-        Several factors affect this:
+        Your stomach has a pH of 1.5&ndash;3.5. That&rsquo;s acidic enough
+        to dissolve metal. Most probiotic bacteria die in it. How a product
+        handles this determines whether you&rsquo;re swallowing live
+        organisms or expensive dead ones.
       </p>
       <ul>
         <li>
-          <strong>Enteric-coated or delayed-release capsules:</strong> Resist
-          stomach acid and dissolve in the intestines. This significantly
-          improves survival rates.
+          <strong>Enteric-coated or delayed-release capsules:</strong> These
+          resist stomach acid and dissolve in the less acidic environment of
+          the small intestine. This is the most reliable delivery method for
+          acid-sensitive strains.
         </li>
         <li>
           <strong>Spore-based probiotics:</strong> Bacillus strains naturally
-          form protective spores that survive stomach acid, heat, and shelf
-          storage. No refrigeration needed.
+          form protective endospores &mdash; essentially armor plating that
+          survives stomach acid, heat, and even boiling water. They don&rsquo;t
+          need refrigeration and have excellent shelf stability. The tradeoff:
+          they&rsquo;re a different category of organism than Lactobacillus
+          and Bifidobacterium, with a different (and smaller) evidence base.
         </li>
         <li>
-          <strong>Taking with food:</strong> Eating before or during probiotic
-          consumption buffers stomach pH and may improve survival. Some
-          studies suggest taking probiotics with a meal containing fat is
-          optimal.
+          <strong>Taking with food:</strong> Eating buffers stomach acid and
+          can improve survival. Some studies suggest taking probiotics with a
+          meal (especially one containing some fat) is optimal for conventional
+          capsules.
         </li>
         <li>
-          <strong>Refrigeration:</strong> Many traditional Lactobacillus and
-          Bifidobacterium strains are sensitive to heat and moisture.
-          Shelf-stable claims should be backed by stability testing data.
+          <strong>Refrigerated products:</strong> Many Lactobacillus and
+          Bifidobacterium strains are heat-sensitive. A product that says
+          &ldquo;shelf stable&rdquo; should back that up with stability
+          testing data showing viable CFU at room temperature through
+          expiration. If it doesn&rsquo;t, be skeptical.
         </li>
       </ul>
 
-      <h2>Red Flags When Shopping</h2>
+      <h2>The Red Flag Checklist</h2>
+      <p>
+        If a probiotic product does any of these, think twice:
+      </p>
       <ul>
         <li>
-          <strong>No strain designations listed:</strong> Just saying
-          &ldquo;Lactobacillus acidophilus&rdquo; without a strain code means
-          you can&rsquo;t verify any clinical evidence.
+          <strong>Lists no strain designations</strong> &mdash; just genus
+          and species. Without the strain code, you can&rsquo;t verify any
+          clinical evidence. This eliminates the majority of products on
+          shelves.
         </li>
         <li>
-          <strong>&ldquo;30+ strains!&rdquo; as a selling point:</strong> More
-          strains doesn&rsquo;t mean more effective. Many of those strains
-          may have no individual evidence and may compete with each other.
+          <strong>Advertises &ldquo;30+ strains!&rdquo; as a selling
+          point</strong> &mdash; more strains usually means less of each.
+          The best-studied probiotic products use 1&ndash;4 strains at
+          individually validated doses.
         </li>
         <li>
-          <strong>CFU guaranteed only at manufacture:</strong> Should be
-          guaranteed through the expiration date.
+          <strong>Guarantees CFU only at manufacture</strong> &mdash; this is
+          effectively meaningless. Demand &ldquo;through expiration date.&rdquo;
         </li>
         <li>
-          <strong>Proprietary blend with undisclosed strain amounts:</strong>{" "}
-          You need to know how much of each strain you&rsquo;re getting.
+          <strong>Uses a proprietary blend with undisclosed per-strain
+          amounts</strong> &mdash; you need to know how much of each strain
+          you&rsquo;re getting. (See our{" "}
+          <a href="/guides/how-to-read-a-supplement-label">
+            label reading guide
+          </a>{" "}
+          for more on proprietary blends.)
         </li>
         <li>
-          <strong>Broad health claims without citing specific strains:</strong>{" "}
-          &ldquo;Supports immune health, digestive wellness, mood,
-          weight management, and skin health&rdquo; from one product is
+          <strong>Claims to support 5+ health outcomes</strong> &mdash;
+          &ldquo;immune, digestive, mood, weight, skin, energy!&rdquo; No
+          single probiotic product has evidence for all of these. This is
           marketing, not science.
         </li>
       </ul>
@@ -161,32 +221,66 @@ export function WhatToLookForInProbiotic() {
         A quality probiotic should have:
       </p>
       <ul>
-        <li>
-          Specific strain designations (e.g., <em>L. rhamnosus GG</em>, not
-          just <em>L. rhamnosus</em>)
-        </li>
-        <li>
-          Clinical evidence for those specific strains at the doses provided
-        </li>
+        <li>Specific strain designations (e.g., <em>L. rhamnosus GG</em>, not just <em>L. rhamnosus</em>)</li>
+        <li>Clinical evidence for those specific strains at the doses provided</li>
         <li>CFU guaranteed through expiration date</li>
         <li>Individual CFU counts per strain, not just a total</li>
-        <li>
-          Appropriate delivery mechanism (enteric-coated, spore-based, or
-          with clear survival data)
-        </li>
+        <li>A delivery mechanism that addresses stomach acid survival</li>
+        <li>Clear storage instructions (refrigerated or shelf-stable with supporting data)</li>
         <li>Third-party testing for purity and potency</li>
-        <li>Clear storage instructions</li>
       </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Should I take a probiotic every day?</h3>
+      <p>
+        Most probiotic strains don&rsquo;t colonize your gut permanently
+        &mdash; they pass through over 1&ndash;3 weeks. For ongoing benefits,
+        daily supplementation is typically needed. If you&rsquo;re taking a
+        probiotic for a specific event (like during antibiotics), you can
+        stop afterward &mdash; most practitioners recommend continuing for
+        1&ndash;2 weeks after the antibiotic course ends.
+      </p>
+
+      <h3>Can probiotics cause side effects?</h3>
+      <p>
+        Mild bloating and gas are common when starting a probiotic &mdash;
+        they usually resolve within a few days to a week as your microbiome
+        adjusts. If symptoms persist or worsen, try reducing the dose or
+        switching strains. People with SIBO (small intestinal bacterial
+        overgrowth) should consult a doctor before starting probiotics, as
+        they can sometimes worsen symptoms.
+      </p>
+
+      <h3>Are probiotic foods (yogurt, kefir, kimchi) better than supplements?</h3>
+      <p>
+        They&rsquo;re different. Fermented foods provide a diverse range of
+        organisms and have strong epidemiological evidence for gut health.
+        But you can&rsquo;t control which strains or how many CFU you&rsquo;re
+        getting. Supplements give you specific strains at known doses. Ideally,
+        eat fermented foods regularly AND supplement a specific strain if
+        you have a targeted goal.
+      </p>
+
+      <h3>Do I need to refrigerate my probiotic?</h3>
+      <p>
+        Depends on the product. Traditional Lactobacillus and Bifidobacterium
+        products often need refrigeration. Spore-based (Bacillus) and
+        yeast-based (S. boulardii) probiotics are inherently shelf-stable.
+        If a conventional probiotic claims to be shelf-stable, check whether
+        the CFU guarantee accounts for room temperature storage through
+        expiration. When in doubt, refrigerate.
+      </p>
 
       <h2>The Bottom Line</h2>
       <p>
-        Probiotics are not interchangeable. A high CFU count and a long strain
-        list mean nothing without clinical evidence for the specific strains
-        at the specific doses in the product. Start by identifying what you
-        want the probiotic to do (digestive support, immune health, IBS
-        relief, antibiotic recovery), then find a product using clinically
-        studied strains for that purpose. Ignore the CFU arms race and focus
-        on evidence, strain specificity, and delivery mechanism.
+        Stop shopping for probiotics by CFU count or number of strains.
+        Start shopping by evidence. Identify what you want the probiotic
+        to do, find a product using clinically studied strains for that
+        specific purpose at validated doses, and verify it has a delivery
+        mechanism that gets the organisms past your stomach acid alive.
+        It&rsquo;s a smaller pool of products than the aisle suggests &mdash;
+        but the ones that pass are the ones that actually work.
       </p>
       <p>
         <a href="https://app.formulate-health.app/catalog?q=probiotic">
