@@ -174,38 +174,55 @@ export function BestSleepProtocol() {
       <h3>Melatonin: Misunderstood, Not Bad</h3>
       <p>
         Walk into any drugstore and you&rsquo;ll find melatonin gummies with
-        5, 10, even 15mg per serving. These are wildly supraphysiological. A
-        2005 study from MIT (Zhdanova et al.) found that the optimal dose
-        for <em>sleep onset</em> is <strong>0.3mg</strong> &mdash; yes,
-        one-thirtieth of what most products contain. At higher doses,
-        melatonin actually fragmented sleep and caused next-day grogginess
-        in that study.
+        5, 10, even 15mg per serving. For <em>sleep onset</em> specifically,
+        these are overkill. A 2005 study from MIT (Zhdanova et al.) found
+        that the optimal chronobiotic dose is <strong>0.3mg</strong> &mdash;
+        yes, one-thirtieth of what most products contain. At higher doses,
+        melatonin shifted from acting as a timing signal to causing
+        next-day grogginess in that study.
       </p>
       <p>
-        Melatonin is a chronobiotic, not a sedative. It signals to your
-        brain what time it is, not to go to sleep. For jet lag or circadian
-        rhythm shifts, 0.3&ndash;0.5mg is the evidence-based dose.
+        Melatonin is a chronobiotic, not a sedative. It tells your brain
+        what time it is, not to go to sleep. For jet lag or circadian rhythm
+        shifts, 0.3&ndash;0.5mg is the evidence-based dose and it works
+        well for that purpose.
       </p>
       <p>
-        One common concern worth addressing: the idea that exogenous
-        melatonin &ldquo;shuts down&rdquo; your body&rsquo;s natural
-        production. The evidence doesn&rsquo;t support this. A study by
+        <strong>Now let&rsquo;s kill a persistent myth: melatonin does NOT
+        suppress your body&rsquo;s natural production.</strong> This claim
+        has been repeated so often it became accepted wisdom, but the
+        clinical evidence simply doesn&rsquo;t support it. A study by
         Matsumoto et al. (1997) published in <em>Clinical Endocrinology</em>{" "}
-        found that exogenous melatonin can shift the <em>timing</em> of
-        pineal secretion but does not reduce its <em>amplitude</em> &mdash;
-        your body keeps making the same amount. No withdrawal symptoms or
-        rebound insomnia have been demonstrated in clinical studies.
+        directly measured this and found that exogenous melatonin can shift
+        the <em>timing</em> of pineal secretion but does not reduce its{" "}
+        <em>amplitude</em> &mdash; your body keeps making the same amount.
+        No withdrawal symptoms, no rebound insomnia, and no downregulation
+        of endogenous production have been demonstrated in clinical studies,
+        even with long-term use (up to 12 months). Your pineal gland
+        doesn&rsquo;t &ldquo;forget&rdquo; how to make melatonin because
+        you supplemented it.
       </p>
       <p>
-        That said, using high-dose melatonin as a nightly sedative is still
-        not the best approach for most people &mdash; not because it
-        suppresses production, but because it&rsquo;s treating a timing
-        signal as a sleeping pill. If you need it nightly to fall asleep,
-        the root issue is likely sleep hygiene, circadian disruption, or
-        something else this stack addresses more effectively. There is,
-        however, growing research into higher-dose melatonin
-        (3&ndash;10mg+) for its antioxidant and anti-inflammatory
-        properties &mdash; a different use case entirely from sleep onset.
+        What about high-dose melatonin? This is where it gets interesting.
+        Beyond its role as a sleep timing signal, melatonin is a powerful
+        endogenous antioxidant. Some researchers are actively studying
+        higher doses (3&ndash;10mg+) for antioxidant, anti-inflammatory,
+        and neuroprotective effects &mdash; a completely separate use case
+        from sleep onset. A 2023 review in <em>Antioxidants</em> highlighted
+        melatonin&rsquo;s ability to neutralize free radicals, reduce
+        oxidative stress, and support mitochondrial function at
+        pharmacological doses. Some longevity-focused practitioners
+        deliberately megadose melatonin for these properties.
+      </p>
+      <p>
+        The bottom line on melatonin: it&rsquo;s safe, it doesn&rsquo;t
+        suppress your natural production, and it has legitimate uses at both
+        low doses (circadian signaling) and higher doses (antioxidant). The
+        reason we don&rsquo;t include it in the core sleep stack above is
+        simply that magnesium, L-theanine, and glycine address the actual
+        mechanisms of poor sleep more directly. If you&rsquo;re already
+        taking melatonin and it works for you, there&rsquo;s no reason to
+        stop.
       </p>
 
       <h3>Valerian Root</h3>
