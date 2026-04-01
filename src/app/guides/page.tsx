@@ -54,6 +54,11 @@ export default function GuidesPage() {
                   {guide.categoryLabel}
                 </span>
                 <span className="text-[10px] text-muted">{guide.readTime}</span>
+                {guide.isNew && (
+                  <span className="px-1.5 py-0.5 rounded-md text-[9px] font-bold tracking-wide uppercase bg-accent/15 text-accent border border-accent/25">
+                    New
+                  </span>
+                )}
               </div>
               <h2 className="text-base font-bold leading-snug mb-2 group-hover:text-accent transition-colors">
                 {guide.title}

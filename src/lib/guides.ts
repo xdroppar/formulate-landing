@@ -10,6 +10,8 @@ export interface Guide {
   tags: string[];
   /** Link to relevant catalog page in the web app */
   catalogLink?: string;
+  /** Show a "New" badge on the guide card */
+  isNew?: boolean;
 }
 
 export const guides: Guide[] = [
@@ -194,6 +196,76 @@ export const guides: Guide[] = [
     readTime: "8 min read",
     tags: ["Creatine", "Dosing", "Sports Performance"],
     catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+  },
+  {
+    slug: "zinc-guide",
+    title: "Zinc — Immune Support, Testosterone, and the Copper Connection",
+    description:
+      "Zinc lozenges cut colds by 33%, but high-dose zinc depletes copper. Forms, dosing, the testosterone question, and who's most at risk for deficiency.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    readTime: "11 min read",
+    tags: ["Zinc", "Minerals", "Immune Support", "Testosterone", "Copper"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=zinc",
+    isNew: true,
+  },
+  {
+    slug: "lions-mane-guide",
+    title: "Lion\u2019s Mane Mushroom \u2014 Cognitive Benefits, Evidence, and What to Look For",
+    description:
+      "Lion\u2019s mane stimulates nerve growth factor (NGF) and has real human trial data for cognition. Fruiting body vs mycelium, dosing, and quality markers explained.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    readTime: "10 min read",
+    tags: ["Lion\u2019s Mane", "Nootropics", "Brain Health", "Mushrooms", "NGF"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=lion%27s+mane",
+    isNew: true,
+  },
+  {
+    slug: "nac-guide",
+    title: "NAC (N-Acetyl Cysteine) \u2014 The Antioxidant Precursor You Should Know About",
+    description:
+      "NAC is the most efficient oral precursor to glutathione. From ER overdose treatment to mental health research \u2014 dosing, evidence, and who benefits most.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    readTime: "11 min read",
+    tags: ["NAC", "Glutathione", "Antioxidant", "Liver Support", "Mental Health"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=nac",
+    isNew: true,
+  },
+  {
+    slug: "ashwagandha-guide",
+    title: "Ashwagandha — Does It Actually Work?",
+    description:
+      "KSM-66 vs Sensoril vs generic root powder. The cortisol, anxiety, and testosterone evidence — what holds up and what doesn't.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    readTime: "11 min read",
+    tags: ["Ashwagandha", "Stress", "Cortisol", "Adaptogens", "KSM-66"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=ashwagandha",
+    isNew: true,
+  },
+  {
+    slug: "collagen-guide",
+    title: "Collagen Supplements — What the Evidence Actually Supports",
+    description:
+      "Your body doesn't just digest collagen into random amino acids. Specific peptides survive intact and signal tissue repair. Here's what works and what's marketing.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    readTime: "10 min read",
+    tags: ["Collagen", "Skin Health", "Joint Health", "Peptides"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=collagen",
+    isNew: true,
   },
 ];
 

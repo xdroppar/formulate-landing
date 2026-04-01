@@ -18,6 +18,11 @@ import { DoYouNeedMultivitamin } from "./content/do-you-need-a-multivitamin";
 import { WhatToLookForInProbiotic } from "./content/what-to-look-for-in-a-probiotic";
 import { BeginnerLongevityStack } from "./content/beginner-longevity-supplement-stack";
 import { CreatineLoadingPhase } from "./content/creatine-loading-phase";
+import { ZincGuide } from "./content/zinc-guide";
+import { LionsManeGuide } from "./content/lions-mane-guide";
+import { NACGuide } from "./content/nac-guide";
+import { AshwagandhaGuide } from "./content/ashwagandha-guide";
+import { CollagenGuide } from "./content/collagen-guide";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -34,6 +39,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "what-to-look-for-in-a-probiotic": WhatToLookForInProbiotic,
   "beginner-longevity-supplement-stack": BeginnerLongevityStack,
   "creatine-loading-phase": CreatineLoadingPhase,
+  "zinc-guide": ZincGuide,
+  "lions-mane-guide": LionsManeGuide,
+  "nac-guide": NACGuide,
+  "ashwagandha-guide": AshwagandhaGuide,
+  "collagen-guide": CollagenGuide,
 };
 
 /* ---------- static params ---------- */
