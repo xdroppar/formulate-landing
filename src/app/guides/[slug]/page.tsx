@@ -23,6 +23,12 @@ import { LionsManeGuide } from "./content/lions-mane-guide";
 import { NACGuide } from "./content/nac-guide";
 import { AshwagandhaGuide } from "./content/ashwagandha-guide";
 import { CollagenGuide } from "./content/collagen-guide";
+import { VitaminB12Guide } from "./content/vitamin-b12-guide";
+import { BerberineGuide } from "./content/berberine-guide";
+import { ElectrolytesGuide } from "./content/electrolytes-guide";
+import { TaurineGuide } from "./content/taurine-guide";
+import { IronGuide } from "./content/iron-guide";
+import { NootropicsGuide } from "./content/nootropics-guide";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -44,6 +50,12 @@ const contentMap: Record<string, React.ComponentType> = {
   "nac-guide": NACGuide,
   "ashwagandha-guide": AshwagandhaGuide,
   "collagen-guide": CollagenGuide,
+  "vitamin-b12-guide": VitaminB12Guide,
+  "berberine-guide": BerberineGuide,
+  "electrolytes-guide": ElectrolytesGuide,
+  "taurine-guide": TaurineGuide,
+  "iron-guide": IronGuide,
+  "nootropics-guide": NootropicsGuide,
 };
 
 /* ---------- static params ---------- */
