@@ -6,6 +6,44 @@ interface ArticleLayoutProps {
   children: React.ReactNode;
 }
 
+function buildArticleSchema(guide: Guide) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.description,
+    datePublished: guide.publishedAt,
+    dateModified: guide.updatedAt,
+    author: {
+      "@type": "Organization",
+      name: "Formulate",
+      url: "https://formulate-health.app",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Formulate",
+      url: "https://formulate-health.app",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://formulate-health.app/guides/${guide.slug}`,
+    },
+    keywords: guide.tags.join(", "),
+  };
+}
+
+function buildBreadcrumbSchema(guide: Guide) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://formulate-health.app" },
+      { "@type": "ListItem", position: 2, name: "Guides", item: "https://formulate-health.app/guides" },
+      { "@type": "ListItem", position: 3, name: guide.title },
+    ],
+  };
+}
+
 const categoryColors: Record<string, string> = {
   roundup: "text-accent",
   protocol: "text-accent2",
@@ -16,6 +54,14 @@ const categoryColors: Record<string, string> = {
 export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
   return (
     <div className="pt-24 pb-20 px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildArticleSchema(guide)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildBreadcrumbSchema(guide)) }}
+      />
       <article className="max-w-[760px] mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-xs text-muted mb-8">
