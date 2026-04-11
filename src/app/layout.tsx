@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { AttributionTracker } from "@/components/attribution-tracker";
 import "./globals.css";
 
 const inter = Inter({
@@ -81,6 +82,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Analytics />
+        <AttributionTracker />
       </body>
     </html>
   );

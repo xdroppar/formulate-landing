@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { ScoreBar } from "@/components/score-bar";
+import { TrackedDownloadLink } from "@/components/tracked-download-link";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -41,12 +42,13 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-            <Link
+            <TrackedDownloadLink
               href="/download"
+              source="landing_hero"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
               Download Desktop App
-            </Link>
+            </TrackedDownloadLink>
           </div>
           <span className="text-[13px] text-muted/60">Free forever. No account required to browse.</span>
         </div>
@@ -557,12 +559,13 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-            <Link
+            <TrackedDownloadLink
               href="/download"
+              source="landing_page_bottom"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
               Download for Windows
-            </Link>
+            </TrackedDownloadLink>
           </div>
         </section>
       </Reveal>

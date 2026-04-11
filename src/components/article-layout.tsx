@@ -1,5 +1,7 @@
 import Link from "next/link";
 import type { Guide } from "@/lib/guides";
+import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 
 interface ArticleLayoutProps {
   guide: Guide;
@@ -121,12 +123,13 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
                 View in Catalog
               </a>
             )}
-            <Link
+            <TrackedDownloadLink
               href="/download"
+              source={`guide_cta:${guide.slug}`}
               className="px-6 py-3 rounded-xl text-sm font-semibold bg-surface2 text-text hover:bg-surface2/80 border border-border transition-all"
             >
               Download Desktop App
-            </Link>
+            </TrackedDownloadLink>
           </div>
         </div>
 
@@ -142,6 +145,9 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
           ))}
         </div>
       </article>
+
+      {/* Sticky bottom CTA — always visible while reading long guides */}
+      <GuideStickyCTA slug={guide.slug} />
     </div>
   );
 }

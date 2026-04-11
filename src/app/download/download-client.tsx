@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { trackEvent } from "@/lib/analytics";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
@@ -67,6 +68,11 @@ export function DownloadClient() {
             href={downloadInfo.download_url}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() =>
+              trackEvent("download_start", {
+                version: downloadInfo.version ?? null,
+              })
+            }
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-base font-bold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,160,0.3)] transition-all"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
