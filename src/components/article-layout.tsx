@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Guide } from "@/lib/guides";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
+import { TableOfContents } from "@/components/table-of-contents";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -105,7 +106,10 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
         </header>
 
         {/* Body */}
-        <div className="prose">{children}</div>
+        <div className="prose">
+          <TableOfContents />
+          {children}
+        </div>
 
         {/* CTA */}
         <div className="mt-16 p-8 rounded-2xl bg-surface border border-border text-center">
