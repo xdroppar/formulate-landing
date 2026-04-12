@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Guide } from "@/lib/guides";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
+import { RelatedGuides } from "@/components/related-guides";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -130,6 +131,9 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
             </Link>
           </div>
         </div>
+
+        {/* Related guides */}
+        <RelatedGuides current={guide} />
 
         {/* Tags */}
         <div className="mt-10 flex flex-wrap gap-2">
