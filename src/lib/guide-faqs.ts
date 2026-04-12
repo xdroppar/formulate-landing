@@ -340,6 +340,176 @@ export const guideFaqs: Record<string, FaqItem[]> = {
         "Some, but not all. Fat-soluble vitamins (D, E, K, A) need food with fat. Calcium and iron compete for absorption and should be separated by at least 2 hours. Magnesium is best in the evening. Caffeine-containing supplements should be avoided after early afternoon.",
     },
   ],
+  "best-pre-workout-supplement-protocol": [
+    {
+      question: "Do I need a pre-workout supplement?",
+      answer:
+        "No. For most trainees, creatine, caffeine, and adequate carbs cover 90% of the performance benefit a pre-workout delivers. Dedicated pre-workouts add convenience and extras like beta-alanine and citrulline — useful but not essential. If you're new to lifting, a simple cup of coffee 30–60 minutes before training is a reasonable starting protocol.",
+    },
+    {
+      question: "How much caffeine is effective before training?",
+      answer:
+        "3–6 mg per kg of bodyweight, taken 30–60 minutes before training. That's roughly 200–400 mg for most adults. Above 6 mg/kg, side effects (jitters, GI distress, elevated heart rate) rise without additional performance benefit. Regular caffeine consumers may need the higher end of this range due to tolerance.",
+    },
+    {
+      question: "What does citrulline actually do?",
+      answer:
+        "L-citrulline raises plasma arginine, which supports nitric oxide production and vasodilation. Effective doses are 6–8g of L-citrulline or 8g of citrulline malate. Meta-analyses show small but measurable increases in reps-to-failure and reductions in perceived exertion. Most commercial pre-workouts underdose it — check for at least 6g per serving.",
+    },
+  ],
+  "supplement-timing-guide": [
+    {
+      question: "Does it really matter when I take my supplements?",
+      answer:
+        "For some, yes. Fat-soluble vitamins (D, E, K, A) require dietary fat for absorption. Iron is best on an empty stomach away from calcium. Magnesium glycinate is better tolerated at night. For most water-soluble vitamins and creatine, timing barely matters — consistency does.",
+    },
+    {
+      question: "Should I take creatine before or after training?",
+      answer:
+        "Neither specifically. Creatine works by saturating muscle stores over weeks; a single day's timing barely moves the needle. Take 3–5g daily at any consistent time. Some research suggests a modest post-workout edge when combined with carbs, but the effect is small compared to just taking it every day.",
+    },
+    {
+      question: "Is there a supplement I should never take at night?",
+      answer:
+        "Anything with caffeine, high-dose B vitamins (especially B12), and green tea extract can disrupt sleep if taken after early afternoon. Saffron, ashwagandha, and magnesium are all safer evening choices. If you take a multivitamin with B-complex, move it to morning.",
+    },
+  ],
+  "how-to-read-a-supplement-label": [
+    {
+      question: "What does '% Daily Value' actually mean?",
+      answer:
+        "It's the percentage of the reference daily intake (RDI) that one serving provides. The RDI was set in 1968 to prevent deficiency, not to support optimal function. Many supplements are usefully dosed at 200–1000% DV. High %DV isn't inherently bad — what matters is whether the total daily dose is evidence-based.",
+    },
+    {
+      question: "Why do some supplements list 'Proprietary Blend'?",
+      answer:
+        "A proprietary blend discloses total weight but hides individual ingredient doses. This is almost always a red flag — it means the brand can use pixie-dust amounts of the expensive actives while leaning on cheap fillers. Choose products that disclose every ingredient dose individually.",
+    },
+    {
+      question: "What third-party testing certifications actually matter?",
+      answer:
+        "NSF Certified for Sport, Informed Sport, USP Verified, and ConsumerLab are the four that carry real weight. They test for label accuracy, contamination, and banned substances. 'GMP certified' alone is manufacturing hygiene — useful but a much lower bar. If a brand claims 'third-party tested' without naming the lab, assume it's marketing.",
+    },
+  ],
+  "signs-you-are-magnesium-deficient": [
+    {
+      question: "Can a blood test confirm magnesium deficiency?",
+      answer:
+        "Only indirectly. Serum magnesium reflects only 1% of total body magnesium and stays in the normal range even when tissue levels are low. An RBC magnesium test is more sensitive but still imperfect. Clinical picture (symptoms + dietary intake) plus a trial of supplementation is often how deficiency is actually diagnosed.",
+    },
+    {
+      question: "How long does it take to correct a magnesium deficiency?",
+      answer:
+        "4–6 weeks of consistent supplementation at 300–400 mg/day is typical for symptom improvement. Full tissue repletion can take 6+ months in chronic deficiency. Glycinate and citrate are the best-absorbed common forms. Don't expect overnight changes — magnesium works slowly.",
+    },
+    {
+      question: "Can I be deficient if I eat a healthy diet?",
+      answer:
+        "Yes, and it's common. Modern soil depletion, food processing, and common medications (PPIs, diuretics, metformin) all reduce magnesium status. Roughly half of US adults consume below the RDA. Symptoms like muscle cramps, poor sleep, and anxiety often appear before any lab test flags it.",
+    },
+  ],
+  "do-you-need-a-multivitamin": [
+    {
+      question: "Is a multivitamin actually worth taking?",
+      answer:
+        "For most people, a quality multivitamin is a cheap insurance policy — not a game-changer. It fills small gaps but can't correct significant deficiencies. If your diet is varied and you're not on restrictive eating, targeted supplementation (D3, magnesium, omega-3) typically outperforms a generic multi.",
+    },
+    {
+      question: "What's wrong with cheap drugstore multivitamins?",
+      answer:
+        "Most use the lowest-cost forms: cyanocobalamin instead of methylcobalamin for B12, folic acid instead of L-methylfolate, magnesium oxide instead of glycinate. Some nutrients (iron, calcium) are dosed at levels that compete with each other for absorption. Quality multis cost more because the forms actually work.",
+    },
+    {
+      question: "Should men and women take different multivitamins?",
+      answer:
+        "Yes, usually. Menstruating women need more iron than men do; postmenopausal women need less. Men generally benefit from zinc; women often need more magnesium and calcium. Gender-specific multis address this, though the simpler answer is to skip the multi and supplement the 2–3 nutrients you actually need.",
+    },
+  ],
+  "what-to-look-for-in-a-probiotic": [
+    {
+      question: "Are probiotic CFU counts meaningful?",
+      answer:
+        "Partially. CFU (colony-forming units) tells you how many live bacteria are in the capsule, but not how many reach your gut alive. A 50 billion CFU product without enteric coating may deliver fewer live bacteria than a 10 billion CFU product that survives stomach acid. Strain survivability and delivery method matter more than raw CFU.",
+    },
+    {
+      question: "What probiotic strains have the best evidence?",
+      answer:
+        "Lactobacillus rhamnosus GG and Saccharomyces boulardii have the strongest RCT evidence, primarily for antibiotic-associated diarrhea and IBS symptoms. Bifidobacterium longum 35624 has evidence for IBS. Outside these well-studied strains, most probiotics have only weak or inconsistent trial support.",
+    },
+    {
+      question: "Do probiotics need to be refrigerated?",
+      answer:
+        "Depends on the strain and formulation. Many modern probiotics use lyophilized (freeze-dried) strains in blister packs and are shelf-stable. Refrigeration matters most for cheap bulk-bottle products exposed to humidity and heat. Check the label — a quality product will say 'no refrigeration required' or give a shelf-life guarantee.",
+    },
+  ],
+  "beginner-longevity-supplement-stack": [
+    {
+      question: "What's the minimum effective stack for a healthy beginner?",
+      answer:
+        "Vitamin D3 (2000–4000 IU/day), magnesium glycinate (300–400 mg/day), omega-3 (1–2g combined EPA+DHA), and creatine monohydrate (5g/day). These four cover the highest-evidence deficiencies and longevity adaptations most adults deal with, at a total cost of roughly $30–40/month.",
+    },
+    {
+      question: "Do I need bloodwork before starting a supplement stack?",
+      answer:
+        "No, not for the foundation stack — the risk of harm at standard doses is very low. But bloodwork transforms supplementation from guessing to precision. A basic panel (vitamin D, ferritin, B12, magnesium RBC) costs ~$100 and tells you exactly what to prioritize.",
+    },
+    {
+      question: "How long until I feel anything from a beginner stack?",
+      answer:
+        "Most stack benefits are slow and cumulative. Creatine: 2–4 weeks for strength effects. Vitamin D: 6–12 weeks to raise serum levels. Magnesium: 4–6 weeks for sleep/anxiety effects. Omega-3: 3+ months for cardiovascular markers. If you expected a noticeable day-one change, you're confusing supplements with stimulants.",
+    },
+  ],
+  "electrolytes-guide": [
+    {
+      question: "Do I really need electrolyte supplements?",
+      answer:
+        "Only under specific conditions: high sweat loss (over 60 min of exercise, hot climates), low-carb diets (which increase sodium excretion), illness with vomiting/diarrhea, or high water intake without food. Most sedentary adults eating normally don't need them. The 'everyone needs electrolytes' marketing push is overstated.",
+    },
+    {
+      question: "What's a good sodium-to-potassium ratio?",
+      answer:
+        "For exercise and hydration, roughly 3:1 sodium to potassium (e.g., 600 mg sodium + 200 mg potassium per serving) matches typical sweat losses. Products with equal or higher potassium are formulated for medical rehydration, not athletic use. LMNT, Liquid IV, and DripDrop all use variations on this ratio.",
+    },
+    {
+      question: "Is table salt enough, or do I need a supplement?",
+      answer:
+        "For most people with normal activity levels, salting food to taste covers sodium needs. Electrolyte supplements become worth it when you're sweating heavily, on a low-carb diet, or need precise dosing during endurance events. For everyday hydration, plain water + a normal diet handles it.",
+    },
+  ],
+  "taurine-guide": [
+    {
+      question: "Is taurine the same as caffeine?",
+      answer:
+        "No. Taurine is a sulfur-containing amino acid with no stimulant effect on its own — it often appears alongside caffeine in energy drinks but acts very differently. Taurine itself is mildly calming and is studied for cardiovascular and metabolic effects, not stimulation.",
+    },
+    {
+      question: "Does the lifespan research on taurine apply to humans?",
+      answer:
+        "The 2023 mouse study showing 10–12% lifespan extension with taurine got major press, but human data is much thinner. The paper's human cohort data was correlational, not causal. Taurine is safe at 1–3g/day and has modest evidence for cardiovascular markers, but claims of human longevity extension are speculative.",
+    },
+    {
+      question: "How much taurine should I take?",
+      answer:
+        "1–3g per day is the range most research uses. Higher doses (up to 6g) have been tested for specific conditions without clear harm. Taurine has an excellent safety profile even at high doses. Take with or without food — absorption is not strongly food-dependent.",
+    },
+  ],
+  "nootropics-guide": [
+    {
+      question: "Do nootropics actually work?",
+      answer:
+        "Some do; most don't. Caffeine + L-theanine has solid evidence for focus and reduced jitter. Creatine modestly improves cognitive performance under sleep deprivation. Lion's mane has some early evidence for nerve growth factor. Most branded 'nootropic stacks' overpromise and underdeliver — the ingredients that work are all cheap and available individually.",
+    },
+    {
+      question: "Are nootropics safe to take daily?",
+      answer:
+        "The evidence-supported ones (caffeine, L-theanine, creatine, lion's mane) are well-tolerated long-term at standard doses. Racetams, modafinil, and other prescription-grade options have more caveats and aren't recommended without clinical supervision. Avoid proprietary blends where you can't see individual doses.",
+    },
+    {
+      question: "What's the best nootropic for focus?",
+      answer:
+        "Caffeine (100–200 mg) plus L-theanine (200 mg) is the most replicated stack for focus and reaction time with minimal downside. It takes effect in 30–60 minutes and lasts 4–6 hours. For sustained focus across multiple hours, pair it with adequate sleep, consistent meal timing, and a low-distraction environment — no supplement fixes those.",
+    },
+  ],
   "strength-training-frequency-longevity": [
     {
       question: "Is lifting twice a week really enough?",

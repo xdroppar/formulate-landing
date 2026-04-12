@@ -2,6 +2,7 @@ import Link from "next/link";
 import { slugifyTag, type Guide } from "@/lib/guides";
 import { getFaqsForGuide } from "@/lib/guide-faqs";
 import { getCrossSellsForGuide } from "@/lib/guide-cross-sells";
+import { getAuthor, getReviewer, type Author } from "@/lib/authors";
 import { withUtm } from "@/lib/app-url";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
@@ -15,7 +16,20 @@ interface ArticleLayoutProps {
   children: React.ReactNode;
 }
 
+function authorSchema(a: Author) {
+  return {
+    "@type": "Person",
+    name: a.name,
+    jobTitle: a.title,
+    description: a.bio,
+    ...(a.slug ? { url: `https://formulate-health.app/about/${a.slug}` } : {}),
+    ...(a.sameAs && a.sameAs.length > 0 ? { sameAs: a.sameAs } : {}),
+  };
+}
+
 function buildArticleSchema(guide: Guide) {
+  const author = getAuthor(guide.author);
+  const reviewer = getReviewer(guide.reviewer);
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -31,11 +45,8 @@ function buildArticleSchema(guide: Guide) {
         height: 630,
       },
     ],
-    author: {
-      "@type": "Organization",
-      name: "Formulate Team",
-      url: "https://formulate-health.app",
-    },
+    author: authorSchema(author),
+    ...(reviewer ? { reviewedBy: authorSchema(reviewer) } : {}),
     publisher: {
       "@type": "Organization",
       name: "Formulate",
@@ -94,6 +105,8 @@ const categoryColors: Record<string, string> = {
 export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
   const faqSchema = buildFaqSchema(guide);
   const crossSells = getCrossSellsForGuide(guide.slug);
+  const author = getAuthor(guide.author);
+  const reviewer = getReviewer(guide.reviewer);
   return (
     <div className="pt-24 pb-20 px-6">
       <script
@@ -145,6 +158,32 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
             </time>
             <span>·</span>
             <span>{guide.readTime}</span>
+          </div>
+          <div className="mt-5 pt-5 border-t border-border text-xs text-muted leading-relaxed">
+            <div>
+              <span className="text-muted/70">By </span>
+              {author.slug ? (
+                <Link href={`/about/${author.slug}`} className="text-text font-medium hover:text-accent transition-colors">
+                  {author.name}
+                </Link>
+              ) : (
+                <span className="text-text font-medium">{author.name}</span>
+              )}
+              <span className="text-muted/70"> · {author.title}</span>
+            </div>
+            {reviewer && (
+              <div className="mt-1">
+                <span className="text-muted/70">Medically reviewed by </span>
+                {reviewer.slug ? (
+                  <Link href={`/about/${reviewer.slug}`} className="text-text font-medium hover:text-accent transition-colors">
+                    {reviewer.name}
+                  </Link>
+                ) : (
+                  <span className="text-text font-medium">{reviewer.name}</span>
+                )}
+                <span className="text-muted/70"> · {reviewer.title}</span>
+              </div>
+            )}
           </div>
         </header>
 

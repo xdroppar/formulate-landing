@@ -17,6 +17,10 @@ export interface Guide {
    * renders at its URL but is marked noindex so search engines drop it.
    */
   hidden?: boolean;
+  /** Author id from authors.ts — omit to use the default team byline. */
+  author?: string;
+  /** Optional medical/clinical reviewer id from authors.ts. */
+  reviewer?: string;
 }
 
 export const guides: Guide[] = [
