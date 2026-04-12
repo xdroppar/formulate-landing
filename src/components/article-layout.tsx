@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Guide } from "@/lib/guides";
-import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
+
+const APP_URL = "https://app.formulate-health.app";
 
 interface ArticleLayoutProps {
   guide: Guide;
@@ -108,28 +109,25 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
         {/* CTA */}
         <div className="mt-16 p-8 rounded-2xl bg-surface border border-border text-center">
           <h3 className="text-lg font-bold mb-2">
-            See full scores in the Formulate app
+            See full scores in Formulate
           </h3>
           <p className="text-sm text-muted mb-5 max-w-[440px] mx-auto">
             Every product scored 50–100 against clinical research. Compare
-            brands, check dose safety, and build your stack.
+            brands, check dose safety, and build your stack — free, no account required.
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
-            {guide.catalogLink && (
-              <a
-                href={guide.catalogLink}
-                className="px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
-              >
-                View in Catalog
-              </a>
-            )}
-            <TrackedDownloadLink
-              href="/download"
-              source={`guide_cta:${guide.slug}`}
-              className="px-6 py-3 rounded-xl text-sm font-semibold bg-surface2 text-text hover:bg-surface2/80 border border-border transition-all"
+            <a
+              href={guide.catalogLink || `${APP_URL}/catalog`}
+              className="px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
-              Download Desktop App
-            </TrackedDownloadLink>
+              Browse Supplement Scores
+            </a>
+            <Link
+              href="/download"
+              className="px-6 py-3 rounded-xl text-sm font-semibold text-muted hover:text-text transition-all"
+            >
+              Or download the desktop app →
+            </Link>
           </div>
         </div>
 
@@ -147,7 +145,7 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
       </article>
 
       {/* Sticky bottom CTA — always visible while reading long guides */}
-      <GuideStickyCTA slug={guide.slug} />
+      <GuideStickyCTA slug={guide.slug} catalogLink={guide.catalogLink} />
     </div>
   );
 }

@@ -1,26 +1,27 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
 interface Props {
   slug: string;
+  catalogLink?: string;
 }
 
+const APP_URL = "https://app.formulate-health.app";
 const DISMISS_KEY = "formulate.guide_cta_dismissed";
 
 /**
  * Sticky bottom bar on guide articles. Guides are 400+ lines so the CTA at
  * the end of the article is invisible to anyone who doesn't read to the
- * bottom. This bar stays pinned while reading, fires `download_click` on tap,
+ * bottom. This bar stays pinned while reading, fires analytics on tap,
  * and can be dismissed (persisted in localStorage so we don't nag return
  * visitors).
  *
  * Appears after a small scroll threshold so it doesn't cover the article
  * header on load.
  */
-export function GuideStickyCTA({ slug }: Props) {
+export function GuideStickyCTA({ slug, catalogLink }: Props) {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
@@ -48,8 +49,8 @@ export function GuideStickyCTA({ slug }: Props) {
     return () => window.removeEventListener("scroll", onScroll);
   }, [dismissed]);
 
-  const handleDownloadClick = () => {
-    trackEvent("download_click", {
+  const handleClick = () => {
+    trackEvent("catalog_click", {
       source: `guide_sticky:${slug}`,
     });
   };
@@ -66,10 +67,12 @@ export function GuideStickyCTA({ slug }: Props) {
 
   if (dismissed || !visible) return null;
 
+  const href = catalogLink || `${APP_URL}/catalog`;
+
   return (
     <div
       role="region"
-      aria-label="Download Formulate"
+      aria-label="Browse Formulate catalog"
       style={{
         animation: "sticky-cta-slide-up 280ms cubic-bezier(0.16, 1, 0.3, 1)",
       }}
@@ -81,15 +84,15 @@ export function GuideStickyCTA({ slug }: Props) {
             See full scores in Formulate
           </div>
           <div className="text-xs text-muted truncate">
-            Free desktop app · 230+ products scored against clinical research
+            Free · No account required · 230+ products scored
           </div>
         </div>
-        <Link
-          href="/download"
-          onClick={handleDownloadClick}
+        <a
+          href={href}
+          onClick={handleClick}
           className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
         >
-          Download
+          Browse Scores
           <svg
             className="w-3.5 h-3.5"
             fill="none"
@@ -100,7 +103,7 @@ export function GuideStickyCTA({ slug }: Props) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
-        </Link>
+        </a>
         <button
           type="button"
           onClick={handleDismiss}

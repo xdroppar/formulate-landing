@@ -38,6 +38,27 @@ export default function GuidesPage() {
           recommendation backed by clinical research and scored in our catalog.
         </p>
 
+        {/* CTA banner */}
+        <div className="mb-10 p-6 rounded-2xl bg-surface border border-accent/20 flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex-1 min-w-0">
+            <div className="text-base font-bold text-text mb-1">
+              See how your supplements score
+            </div>
+            <div className="text-sm text-muted">
+              230+ products scored 50–100 against clinical research. Free, no account required.
+            </div>
+          </div>
+          <a
+            href="https://app.formulate-health.app/catalog"
+            className="shrink-0 inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+          >
+            Browse Scores
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
+
         <div className="grid gap-5 sm:grid-cols-2">
           {guides.map((guide) => (
             <Link
