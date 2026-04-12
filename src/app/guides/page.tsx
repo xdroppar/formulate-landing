@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { guides } from "@/lib/guides";
+import { visibleGuides, getAllTags } from "@/lib/guides";
+import { withUtm } from "@/lib/app-url";
 
 export const metadata: Metadata = {
   title: "Supplement Guides — Evidence-Based Reviews & Protocols",
@@ -49,7 +50,10 @@ export default function GuidesPage() {
             </div>
           </div>
           <a
-            href="https://app.formulate-health.app/catalog"
+            href={withUtm("https://app.formulate-health.app/catalog", {
+              source: "guides_hub",
+              campaign: "guides_hub_banner",
+            })}
             className="shrink-0 inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
           >
             Browse Scores
@@ -59,8 +63,26 @@ export default function GuidesPage() {
           </a>
         </div>
 
+        {/* Browse by topic */}
+        <div className="mb-10">
+          <div className="text-[11px] font-bold tracking-[1.5px] uppercase text-muted mb-3">
+            Browse by topic
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {getAllTags().slice(0, 20).map(({ tag, slug, count }) => (
+              <Link
+                key={slug}
+                href={`/guides/tag/${slug}`}
+                className="px-3 py-1.5 rounded-full text-xs text-muted bg-surface border border-border hover:border-accent/30 hover:text-text transition-all"
+              >
+                {tag} <span className="text-muted/70">· {count}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div className="grid gap-5 sm:grid-cols-2">
-          {guides.map((guide) => (
+          {visibleGuides.map((guide) => (
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}

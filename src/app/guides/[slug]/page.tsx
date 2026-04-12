@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { guides, getGuideBySlug, getAllGuideSlugs } from "@/lib/guides";
+import { getGuideBySlug, getAllGuideSlugs } from "@/lib/guides";
 import { ArticleLayout } from "@/components/article-layout";
 
 /* ---------- article content map ---------- */
@@ -29,6 +29,21 @@ import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
 import { NootropicsGuide } from "./content/nootropics-guide";
+import { StrengthTrainingFrequencyLongevity } from "./content/strength-training-frequency-longevity";
+import { BestLongevityExercises } from "./content/best-longevity-exercises";
+import { Zone2CardioLongevity } from "./content/zone-2-cardio-longevity";
+import { MinimumEffectiveDoseStrengthTraining } from "./content/minimum-effective-dose-strength-training";
+import { WeeklyLongevityTrainingPlan } from "./content/weekly-longevity-training-plan";
+import { VO2MaxLongevity } from "./content/vo2-max-longevity";
+import { GripStrengthLongevity } from "./content/grip-strength-longevity";
+import { HowToTrainAfter50 } from "./content/how-to-train-after-50";
+import { SetsPerMusclePerWeek } from "./content/sets-per-muscle-per-week";
+import { BestExercisesForLegs } from "./content/best-exercises-for-legs";
+import { BestExercisesForBack } from "./content/best-exercises-for-back";
+import { Zone2VsHiit } from "./content/zone-2-vs-hiit";
+import { WalkingVsRunningLongevity } from "./content/walking-vs-running-longevity";
+import { ProteinIntakeMuscleAfter40 } from "./content/protein-intake-muscle-after-40";
+import { SarcopeniaReverseMuscleLoss } from "./content/sarcopenia-reverse-muscle-loss";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -56,6 +71,21 @@ const contentMap: Record<string, React.ComponentType> = {
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,
   "nootropics-guide": NootropicsGuide,
+  "strength-training-frequency-longevity": StrengthTrainingFrequencyLongevity,
+  "best-longevity-exercises": BestLongevityExercises,
+  "zone-2-cardio-longevity": Zone2CardioLongevity,
+  "minimum-effective-dose-strength-training": MinimumEffectiveDoseStrengthTraining,
+  "weekly-longevity-training-plan": WeeklyLongevityTrainingPlan,
+  "vo2-max-longevity": VO2MaxLongevity,
+  "grip-strength-longevity": GripStrengthLongevity,
+  "how-to-train-after-50": HowToTrainAfter50,
+  "sets-per-muscle-per-week": SetsPerMusclePerWeek,
+  "best-exercises-for-legs": BestExercisesForLegs,
+  "best-exercises-for-back": BestExercisesForBack,
+  "zone-2-vs-hiit": Zone2VsHiit,
+  "walking-vs-running-longevity": WalkingVsRunningLongevity,
+  "protein-intake-muscle-after-40": ProteinIntakeMuscleAfter40,
+  "sarcopenia-reverse-muscle-loss": SarcopeniaReverseMuscleLoss,
 };
 
 /* ---------- static params ---------- */
@@ -79,6 +109,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://formulate-health.app/guides/${guide.slug}`,
     },
+    robots: guide.hidden ? { index: false, follow: false } : undefined,
     openGraph: {
       title: guide.title,
       description: guide.description,

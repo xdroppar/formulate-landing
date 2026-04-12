@@ -1,5 +1,8 @@
 import Link from "next/link";
-import type { Guide } from "@/lib/guides";
+import { slugifyTag, type Guide } from "@/lib/guides";
+import { getFaqsForGuide } from "@/lib/guide-faqs";
+import { getCrossSellsForGuide } from "@/lib/guide-cross-sells";
+import { withUtm } from "@/lib/app-url";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
 import { TableOfContents } from "@/components/table-of-contents";
@@ -20,21 +23,52 @@ function buildArticleSchema(guide: Guide) {
     description: guide.description,
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
+    image: [
+      {
+        "@type": "ImageObject",
+        url: `https://formulate-health.app/guides/${guide.slug}/opengraph-image`,
+        width: 1200,
+        height: 630,
+      },
+    ],
     author: {
       "@type": "Organization",
-      name: "Formulate",
+      name: "Formulate Team",
       url: "https://formulate-health.app",
     },
     publisher: {
       "@type": "Organization",
       name: "Formulate",
       url: "https://formulate-health.app",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://formulate-health.app/logo.png",
+        width: 512,
+        height: 512,
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `https://formulate-health.app/guides/${guide.slug}`,
     },
     keywords: guide.tags.join(", "),
+  };
+}
+
+function buildFaqSchema(guide: Guide) {
+  const faqs = getFaqsForGuide(guide.slug);
+  if (!faqs || faqs.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.answer,
+      },
+    })),
   };
 }
 
@@ -58,6 +92,8 @@ const categoryColors: Record<string, string> = {
 };
 
 export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
+  const faqSchema = buildFaqSchema(guide);
+  const crossSells = getCrossSellsForGuide(guide.slug);
   return (
     <div className="pt-24 pb-20 px-6">
       <script
@@ -68,6 +104,12 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildBreadcrumbSchema(guide)) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <article className="max-w-[760px] mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-xs text-muted mb-8">
@@ -112,6 +154,31 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
           {children}
         </div>
 
+        {/* Supplement cross-sells (for guides where the topic has supplement support) */}
+        {crossSells && crossSells.length > 0 && (
+          <div className="mt-14 p-6 rounded-2xl bg-surface/50 border border-border">
+            <h3 className="text-[11px] font-bold tracking-[1.5px] uppercase text-muted mb-4">
+              Supplements that support this
+            </h3>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {crossSells.map((cs) => (
+                <Link
+                  key={cs.slug}
+                  href={`/guides/${cs.slug}`}
+                  className="group block p-4 rounded-xl bg-bg border border-border hover:border-accent/30 transition-all"
+                >
+                  <div className="text-sm font-semibold text-text group-hover:text-accent transition-colors">
+                    {cs.label}
+                  </div>
+                  <div className="text-xs text-muted mt-1 leading-relaxed">
+                    {cs.blurb}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* CTA */}
         <div className="mt-16 p-8 rounded-2xl bg-surface border border-border text-center">
           <h3 className="text-lg font-bold mb-2">
@@ -123,7 +190,11 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
             <a
-              href={guide.catalogLink || `${APP_URL}/catalog`}
+              href={withUtm(guide.catalogLink || `${APP_URL}/catalog`, {
+                source: "guide",
+                campaign: "guide_cta_bottom",
+                content: guide.slug,
+              })}
               className="px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Browse Supplement Scores
@@ -146,12 +217,13 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
         {/* Tags */}
         <div className="mt-10 flex flex-wrap gap-2">
           {guide.tags.map((tag) => (
-            <span
+            <Link
               key={tag}
-              className="px-3 py-1 rounded-full text-xs text-muted bg-surface border border-border"
+              href={`/guides/tag/${slugifyTag(tag)}`}
+              className="px-3 py-1 rounded-full text-xs text-muted bg-surface border border-border hover:border-accent/30 hover:text-text transition-all"
             >
               {tag}
-            </span>
+            </Link>
           ))}
         </div>
       </article>

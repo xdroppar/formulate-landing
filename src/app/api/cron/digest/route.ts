@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { guides } from "@/lib/guides";
+import { visibleGuides } from "@/lib/guides";
 
 const API_URL = process.env.API_URL || "https://formulate-api.onrender.com";
 const CRON_SECRET = process.env.CRON_SECRET || "";
@@ -21,7 +21,7 @@ export async function GET(request: Request) {
   }
 
   const payload = {
-    guides: guides.map((g) => ({
+    guides: visibleGuides.map((g) => ({
       slug: g.slug,
       title: g.title,
       description: g.description,

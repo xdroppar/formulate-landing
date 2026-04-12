@@ -12,6 +12,11 @@ export interface Guide {
   catalogLink?: string;
   /** Show a "New" badge on the guide card */
   isNew?: boolean;
+  /**
+   * Hide from listings, sitemap, related-guides, and tag pages. The page still
+   * renders at its URL but is marked noindex so search engines drop it.
+   */
+  hidden?: boolean;
 }
 
 export const guides: Guide[] = [
@@ -351,12 +356,271 @@ export const guides: Guide[] = [
     catalogLink: "https://app.formulate-health.app/catalog",
     isNew: true,
   },
+  {
+    slug: "strength-training-frequency-longevity",
+    title: "How Many Times Per Week Should You Strength Train for Longevity?",
+    description:
+      "The dose-response research on strength training and all-cause mortality — how many weekly sessions actually matter, and where diminishing returns kick in.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "11 min read",
+    tags: ["Strength Training", "Longevity", "Frequency", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "best-longevity-exercises",
+    title: "The 6 Best Exercises for Longevity, Backed by Research",
+    description:
+      "Squat, hinge, carry, push, pull, and Zone 2 — the six movement patterns that predict how well you age, and how to train each one.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Longevity", "Strength Training", "Exercise Selection", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "zone-2-cardio-longevity",
+    title: "How Much Zone 2 Cardio You Actually Need for Longevity",
+    description:
+      "What Zone 2 really is, how to find it without a lab, and the weekly dose that drives mitochondrial adaptation and long-term VO2 max.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Zone 2", "Cardio", "Longevity", "VO2 Max", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=electrolytes",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "minimum-effective-dose-strength-training",
+    title: "The Minimum Effective Dose for Strength Training",
+    description:
+      "The smallest amount of lifting that still builds strength, muscle, bone density, and longevity benefit — two sessions a week, done right.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "11 min read",
+    tags: ["Strength Training", "Longevity", "Minimum Effective Dose", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "weekly-longevity-training-plan",
+    title: "The Ideal Weekly Training Plan for Longevity",
+    description:
+      "Strength, Zone 2, VO2 max, and walking — the complete weekly training structure that covers every adaptation that matters for healthspan.",
+    category: "protocol",
+    categoryLabel: "Protocol",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "13 min read",
+    tags: ["Longevity", "Weekly Plan", "Strength Training", "Zone 2", "VO2 Max", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/stack",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "vo2-max-longevity",
+    title: "VO2 Max and Longevity: Why It\u2019s the #1 Mortality Predictor",
+    description:
+      "VO2 max predicts all-cause mortality better than smoking, hypertension, or diabetes. Here\u2019s what it is, how to measure it, and how to raise yours at any age.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "13 min read",
+    tags: ["VO2 Max", "Longevity", "Cardio", "Mortality", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=beetroot",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "grip-strength-longevity",
+    title: "Grip Strength and Longevity: Why It Predicts Mortality Better Than Blood Pressure",
+    description:
+      "Every 5 kg drop in grip strength is linked to a 16% higher risk of all-cause mortality. What grip strength measures, target numbers by age, and three exercises that build it.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "11 min read",
+    tags: ["Grip Strength", "Longevity", "Mortality", "Sarcopenia", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "how-to-train-after-50",
+    title: "How to Train After 50: The Evidence-Based Playbook",
+    description:
+      "Heavier, not lighter. More focused, not less. What actually works for strength, power, and cardio training in adults over 50 \u2014 plus how to train around old injuries.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "14 min read",
+    tags: ["Training Over 50", "Longevity", "Strength Training", "Sarcopenia", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "sets-per-muscle-per-week",
+    title: "How Many Sets Per Muscle Per Week? The Volume Guide",
+    description:
+      "10\u201320 sets for hypertrophy, 5\u201312 for strength, 4\u201310 for longevity \u2014 but the word \u201chard\u201d is doing most of the work. Here\u2019s what the volume research actually shows.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Training Volume", "Hypertrophy", "Strength Training", "Programming", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "best-exercises-for-legs",
+    title: "The Best Leg Exercises for Strength and Longevity",
+    description:
+      "Squats, trap bar deadlifts, Bulgarian split squats, RDLs, step-ups \u2014 the lower-body exercises that actually build useful strength and predict how well you\u2019ll age.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Leg Exercises", "Squats", "Deadlifts", "Longevity", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "best-exercises-for-back",
+    title: "The Best Back Exercises for Strength, Posture, and Longevity",
+    description:
+      "Deadlifts, pull-ups, rows, and face pulls \u2014 the four back exercises that build the muscle mass and postural strength that protect you into old age.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Back Exercises", "Pull-Ups", "Deadlifts", "Posture", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "zone-2-vs-hiit",
+    title: "Zone 2 vs HIIT: Which Matters More for Longevity?",
+    description:
+      "Zone 2 and HIIT aren\u2019t competitors \u2014 they produce different adaptations. The 80/20 polarized split that elite endurance athletes use, and why it works for non-athletes too.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Zone 2", "HIIT", "Cardio", "VO2 Max", "Longevity", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=electrolytes",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "walking-vs-running-longevity",
+    title: "Walking vs Running for Longevity: What the Research Actually Shows",
+    description:
+      "Running produces bigger per-minute mortality benefits; walking produces benefits with almost no injury risk. The real answer isn\u2019t either \u2014 it\u2019s both, in a specific ratio.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "12 min read",
+    tags: ["Walking", "Running", "Longevity", "Cardio", "Steps", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=omega",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "protein-intake-muscle-after-40",
+    title: "Protein Intake for Muscle Growth After 40 \u2014 How Much and When",
+    description:
+      "The RDA is half of what you need. The evidence-based target for adults over 40 is 1.6\u20132.0 g/kg per day across 3\u20134 meals of 30\u201340g each. Here\u2019s how to actually hit it.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "13 min read",
+    tags: ["Protein", "Nutrition", "Muscle Growth", "Sarcopenia", "Over 40", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=protein",
+    isNew: true,
+    hidden: true,
+  },
+  {
+    slug: "sarcopenia-reverse-muscle-loss",
+    title: "Sarcopenia: How to Reverse Age-Related Muscle Loss",
+    description:
+      "Studies in adults in their 80s and 90s show sarcopenia is reversible. The evidence-based protocol: resistance training, protein, vitamin D, and creatine \u2014 plus how to tell if you have it.",
+    category: "protocol",
+    categoryLabel: "Protocol",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-04-05",
+    readTime: "14 min read",
+    tags: ["Sarcopenia", "Muscle Loss", "Aging", "Strength Training", "Protein", "Fitness"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=creatine",
+    isNew: true,
+    hidden: true,
+  },
 ];
 
+/** Guides visible in listings, sitemap, tag pages, and related-guides. */
+export const visibleGuides: Guide[] = guides.filter((g) => !g.hidden);
+
 export function getGuideBySlug(slug: string): Guide | undefined {
+  // Still resolve hidden guides so existing URLs don't 404; the page marks them noindex.
   return guides.find((g) => g.slug === slug);
 }
 
 export function getAllGuideSlugs(): string[] {
+  // Keep hidden routes pre-rendered so direct URL hits still work.
   return guides.map((g) => g.slug);
+}
+
+export function slugifyTag(tag: string): string {
+  return tag
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function getAllTags(): { tag: string; slug: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const g of visibleGuides) {
+    for (const t of g.tags) {
+      counts.set(t, (counts.get(t) ?? 0) + 1);
+    }
+  }
+  return Array.from(counts.entries())
+    .map(([tag, count]) => ({ tag, slug: slugifyTag(tag), count }))
+    .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
+}
+
+export function getGuidesByTagSlug(tagSlug: string): { tag: string; guides: Guide[] } | null {
+  const matched = visibleGuides.filter((g) =>
+    g.tags.some((t) => slugifyTag(t) === tagSlug)
+  );
+  if (matched.length === 0) return null;
+  const canonical = matched[0].tags.find((t) => slugifyTag(t) === tagSlug) ?? tagSlug;
+  return { tag: canonical, guides: matched };
 }

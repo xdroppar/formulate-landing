@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { guides, type Guide } from "@/lib/guides";
+import { visibleGuides, type Guide } from "@/lib/guides";
 
 interface RelatedGuidesProps {
   current: Guide;
@@ -21,7 +21,7 @@ const categoryColors: Record<string, string> = {
 function findRelated(current: Guide, count: number): Guide[] {
   const currentTags = new Set(current.tags);
 
-  const scored = guides
+  const scored = visibleGuides
     .filter((g) => g.slug !== current.slug)
     .map((g) => {
       const tagOverlap = g.tags.filter((t) => currentTags.has(t)).length;

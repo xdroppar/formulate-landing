@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { guides } from "@/lib/guides";
+import { visibleGuides } from "@/lib/guides";
 
 /**
  * Exposes the guide manifest as JSON for the newsletter cron job.
@@ -7,7 +7,7 @@ import { guides } from "@/lib/guides";
  */
 export function GET() {
   return NextResponse.json({
-    guides: guides.map((g) => ({
+    guides: visibleGuides.map((g) => ({
       slug: g.slug,
       title: g.title,
       description: g.description,
