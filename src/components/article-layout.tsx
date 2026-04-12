@@ -3,6 +3,7 @@ import type { Guide } from "@/lib/guides";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
 import { TableOfContents } from "@/components/table-of-contents";
+import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -138,6 +139,9 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
 
         {/* Related guides */}
         <RelatedGuides current={guide} />
+
+        {/* Newsletter signup */}
+        <NewsletterSignup source={`guide:${guide.slug}`} />
 
         {/* Tags */}
         <div className="mt-10 flex flex-wrap gap-2">
