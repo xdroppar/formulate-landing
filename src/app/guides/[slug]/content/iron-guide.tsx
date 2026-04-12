@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function IronGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Never supplement iron without bloodwork first — your body has no way to excrete excess iron",
+          "Iron bisglycinate (Ferrochel) achieves equivalent repletion at half the dose of ferrous sulfate, with far fewer side effects",
+          "Every-other-day dosing absorbs ~40% more iron per dose than daily dosing (Stoffel et al., Lancet Haematology)",
+          "Always take iron with vitamin C and away from calcium, coffee, and tea",
+        ]}
+      />
+
       <p>
         Your doctor casually mentions your ferritin is &ldquo;a little
         low&rdquo; at your annual physical. You grab an iron supplement from
@@ -9,6 +30,15 @@ export function IronGuide() {
         one of the most commonly supplemented minerals and one of the most
         commonly <em>misunderstood</em>.
       </p>
+
+      <Callout variant="warning" title="The cardinal rule">
+        <strong>Never supplement iron without bloodwork first.</strong> Your
+        body has no regulated mechanism to excrete excess iron. What comes in,
+        stays in &mdash; unless you bleed. Iron overload damages the liver,
+        heart, and pancreas. Get tested, confirm you&rsquo;re deficient, then
+        supplement. In that order.
+      </Callout>
+
       <p>
         Here&rsquo;s the thing about iron that makes it fundamentally different
         from, say,{" "}
@@ -20,13 +50,6 @@ export function IronGuide() {
         overload damages the liver, heart, and pancreas, and hereditary
         hemochromatosis (a genetic condition causing iron accumulation) affects
         roughly <strong>1 in 200 people</strong> of Northern European descent.
-      </p>
-      <p>
-        The cardinal rule:{" "}
-        <strong>never supplement iron without bloodwork first.</strong> This
-        isn&rsquo;t the usual supplement-industry overcaution. It&rsquo;s a
-        genuinely important safety boundary. Get tested, confirm you&rsquo;re
-        deficient, then supplement. In that order.
       </p>
       <p>
         This guide covers who actually needs iron, what to test and what the
@@ -52,7 +75,7 @@ export function IronGuide() {
           those with heavy periods. A 2014 study in{" "}
           <em>PLOS ONE</em> (Percy et al.) found that nearly 20% of
           menstruating women in the UK had ferritin below 15 ng/mL &mdash;
-          the threshold for outright depletion.
+          the threshold for outright depletion. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Pregnant women.</strong> Iron requirements roughly double
@@ -80,7 +103,7 @@ export function IronGuide() {
           intense exercise, and dilution from expanded plasma volume. A 2019
           review in <em>Nutrients</em> (Sim et al.) found that iron
           deficiency without anemia affected up to <strong>35% of female
-          athletes</strong> and 11% of male athletes.
+          athletes</strong> and 11% of male athletes. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Frequent blood donors.</strong> Each standard whole blood
@@ -110,6 +133,14 @@ export function IronGuide() {
         raids storage iron first. By the time hemoglobin drops, you&rsquo;re
         already deeply depleted.
       </p>
+
+      <Callout variant="info" title="The test you need">
+        The marker you need is <strong>ferritin</strong>, not hemoglobin.
+        Ferritin reflects your body&rsquo;s iron <em>stores</em>. Normal
+        hemoglobin with low ferritin means you&rsquo;re running on fumes.
+        Optimal ferritin is generally 40&ndash;100 ng/mL.
+      </Callout>
+
       <p>
         The marker you need is <strong>ferritin</strong>. Ferritin reflects
         your body&rsquo;s iron <em>stores</em>, not just what&rsquo;s
@@ -169,7 +200,7 @@ export function IronGuide() {
           <em>Current Therapeutic Research</em> (Name et al.) showed iron
           bisglycinate achieved equivalent iron repletion to ferrous sulfate
           at <em>half the dose</em>, with significantly fewer GI side
-          effects. If you can find it, buy it. The branded form
+          effects. <EvidenceBadge level="strong" /> If you can find it, buy it. The branded form
           Ferrochel&reg; has the most clinical data behind it.
         </li>
         <li>
@@ -213,13 +244,15 @@ export function IronGuide() {
           ideal.
         </li>
       </ul>
-      <p>
-        <strong>Bottom line:</strong> Iron bisglycinate (Ferrochel&reg;)
-        first. Ferrous fumarate if cost matters. Ferrous sulfate if
-        that&rsquo;s what your doctor prescribed and you tolerate it. Avoid
-        slow-release unless GI distress is so severe that poor absorption
-        beats no absorption.
-      </p>
+
+      <Callout variant="tip" title="Form recommendation">
+        Iron bisglycinate (Ferrochel) first. Ferrous fumarate if cost matters.
+        Ferrous sulfate if that&rsquo;s what your doctor prescribed and you
+        tolerate it. Avoid slow-release unless GI distress is so severe that
+        poor absorption beats no absorption.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-iron-bisglycinate"]} />
 
       <h2>The Every-Other-Day Dosing Breakthrough</h2>
       <p>
@@ -227,14 +260,16 @@ export function IronGuide() {
         this guide, and it comes from a study most doctors haven&rsquo;t
         read yet.
       </p>
-      <p>
-        In 2017, Stoffel et al. published a landmark study in{" "}
-        <em>The Lancet Haematology</em> that upended conventional iron
-        dosing wisdom. The researchers tracked iron absorption using stable
-        isotope methods and found something counterintuitive:{" "}
-        <strong>taking iron every other day resulted in higher fractional
-        absorption than taking it daily.</strong>
-      </p>
+
+      <Callout variant="evidence" title="The Stoffel protocol">
+        In 2017, Stoffel et al. published in <em>The Lancet Haematology</em>{" "}
+        that taking iron every other day resulted in{" "}
+        <strong>~40% higher fractional absorption</strong> than taking it daily.
+        The mechanism: hepcidin spikes after each iron dose and stays elevated
+        for ~24 hours, blocking absorption of the next day&rsquo;s dose. A
+        2020 follow-up confirmed these findings. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         The mechanism involves hepcidin, the master hormone regulating iron
         absorption. When you take an iron dose, hepcidin levels spike within
@@ -245,10 +280,6 @@ export function IronGuide() {
       <p>
         By spacing doses 48 hours apart, hepcidin returns to baseline
         between doses, allowing each dose to be absorbed more efficiently.
-        The study found that <strong>fractional absorption was approximately
-        40% higher</strong> with alternate-day dosing versus consecutive-day
-        dosing. A follow-up 2020 study in the same journal (Stoffel et al.)
-        confirmed these findings in iron-depleted women.
       </p>
       <p>
         <strong>Practical application:</strong> Instead of taking 60mg of
@@ -269,6 +300,38 @@ export function IronGuide() {
         around the time you take it. Getting this right can double your
         effective absorption; getting it wrong can cut it by 60% or more.
       </p>
+
+      <InteractionGroup title="Iron absorption interactions">
+        <InteractionCard
+          type="synergy"
+          a="Iron"
+          b="Vitamin C"
+          effect="Vitamin C converts non-heme iron to its more absorbable ferrous form. 100mg of vitamin C increases absorption by 4.1x (Hallberg et al., 1989)."
+          recommendation="Take 200mg+ vitamin C with your iron dose. A glass of OJ or a vitamin C tablet."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Iron"
+          b="Calcium"
+          effect="Calcium inhibits both heme and non-heme iron absorption. A 200mg calcium dose reduces iron absorption by 50-60%."
+          recommendation="Separate by at least 2 hours. Take iron in the morning, calcium in the evening."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Iron"
+          b="Coffee / Tea"
+          effect="Tannins and polyphenols bind iron in the gut. Tea reduces absorption by 60-70%, coffee by ~40%."
+          recommendation="Wait at least 30 minutes after iron before coffee. Better yet, take iron at a different meal."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Iron"
+          b="Zinc"
+          effect="At supplemental doses, zinc and iron compete for the same absorption transporters."
+          recommendation="Space by at least 2 hours. Taking with food partially mitigates the competition."
+        />
+      </InteractionGroup>
+
       <h3>Take WITH:</h3>
       <ul>
         <li>
@@ -278,7 +341,7 @@ export function IronGuide() {
           classic study by Hallberg et al. (1989, <em>American Journal of
           Clinical Nutrition</em>) showed that 100mg of vitamin C taken
           alongside non-heme iron increased absorption by{" "}
-          <strong>4.1x</strong>. A glass of orange juice or a 250mg vitamin
+          <strong>4.1x</strong>. <EvidenceBadge level="strong" /> A glass of orange juice or a 250mg vitamin
           C tablet with your iron dose is the simplest high-impact move you
           can make.
         </li>
@@ -298,7 +361,7 @@ export function IronGuide() {
           nutrient interactions that affects both forms. A 200mg calcium
           dose can reduce iron absorption by up to <strong>50&ndash;60%</strong>{" "}
           (Hallberg et al., 1991, <em>American Journal of Clinical
-          Nutrition</em>).
+          Nutrition</em>). <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Coffee and tea</strong> &mdash; Tannins and polyphenols
@@ -353,19 +416,15 @@ export function IronGuide() {
           above this are appropriate only under clinical guidance.
         </li>
       </ul>
-      <p>
-        <strong>Important:</strong> &ldquo;Elemental iron&rdquo; is not the
-        same as the weight of the iron compound on the label. Ferrous
-        sulfate is only 20% elemental iron, so a 325mg ferrous sulfate
-        tablet delivers about 65mg of actual iron. Ferrous fumarate is 33%
-        elemental. Iron bisglycinate varies by manufacturer. Always check
-        how much <em>elemental</em> iron is listed, not the total compound
-        weight. Our{" "}
-        <a href="/guides/how-to-read-a-supplement-label">
-          label reading guide
-        </a>{" "}
+
+      <Callout variant="info" title="Elemental iron vs compound weight">
+        &ldquo;Elemental iron&rdquo; is not the same as the weight of the iron
+        compound on the label. Ferrous sulfate is only 20% elemental iron, so a
+        325mg ferrous sulfate tablet delivers about 65mg of actual iron. Always
+        check how much <em>elemental</em> iron is listed. Our{" "}
+        <a href="/guides/how-to-read-a-supplement-label">label reading guide</a>{" "}
         breaks this down in detail.
-      </p>
+      </Callout>
 
       <h2>When to Worry: Signs of Iron Overload</h2>
       <p>
@@ -380,17 +439,19 @@ export function IronGuide() {
         <li>Unexplained weight loss</li>
         <li>Bronze or gray skin discoloration</li>
       </ul>
+
+      <Callout variant="warning" title="Hemochromatosis">
+        Hereditary hemochromatosis is one of the most common genetic disorders
+        in people of Northern European descent (1 in 200). Many carriers
+        don&rsquo;t know they have it until organ damage has begun. If you have
+        a family history or unexplained elevated ferritin, ask about HFE gene
+        testing.
+      </Callout>
+
       <p>
         Long-term iron overload damages the liver (cirrhosis), heart
-        (cardiomyopathy), and pancreas (diabetes). Hereditary
-        hemochromatosis is one of the most common genetic disorders in
-        people of Northern European descent, and many carriers don&rsquo;t
-        know they have it until organ damage has begun. If you have a
-        family history of hemochromatosis or unexplained elevated ferritin,
-        ask your doctor about HFE gene testing.
-      </p>
-      <p>
-        This is precisely why the &ldquo;get tested first&rdquo; rule
+        (cardiomyopathy), and pancreas (diabetes). This is precisely why the
+        &ldquo;get tested first&rdquo; rule
         exists for iron and essentially no other common supplement. It
         isn&rsquo;t paternalism &mdash; it&rsquo;s biochemistry.
       </p>
@@ -414,6 +475,14 @@ export function IronGuide() {
         </a>{" "}
         walks through prioritization.
       </p>
+
+      <ProductRow
+        title="Iron repletion stack"
+        products={[
+          PRODUCTS["thorne-iron-bisglycinate"],
+          PRODUCTS["megafood-blood-builder"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 

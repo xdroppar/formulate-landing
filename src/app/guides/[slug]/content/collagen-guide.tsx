@@ -1,6 +1,26 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function CollagenGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="11 min read"
+        takeaways={[
+          "Collagen peptides survive digestion as bioactive dipeptides that signal fibroblasts to produce more collagen",
+          "Skin elasticity improves measurably in 8 weeks; joint pain in 12–24 weeks (strong RCT evidence)",
+          "Vitamin C is essential for collagen synthesis — ensure adequate intake alongside supplementation",
+          "5–10g/day hydrolyzed peptides for skin/joints, or 40mg UC-II for osteoarthritis specifically",
+        ]}
+      />
+
       <p>
         Collagen supplements are a $7 billion industry built on a premise that
         sounds too simple: eat the protein your skin is made of, and your skin
@@ -19,6 +39,16 @@ export function CollagenGuide() {
         them, not specifically to your skin or joints. Therefore, collagen
         supplements are no different from eating chicken breast.
       </p>
+
+      <Callout variant="evidence" title="The digestion argument is outdated">
+        Hydrolyzed collagen peptides are not fully broken down into individual
+        amino acids. A significant portion survives digestion as bioactive
+        dipeptides and tripeptides — most importantly Pro-Hyp
+        (prolyl-hydroxyproline) — which act as signaling molecules that
+        stimulate fibroblasts to produce collagen.{" "}
+        <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         This was a perfectly reasonable argument &mdash; until researchers
         actually measured what happens. It turns out that{" "}
@@ -37,7 +67,8 @@ export function CollagenGuide() {
         within 1&ndash;2 hours of ingestion and persist for several hours.
         These peptides don&rsquo;t just float around aimlessly &mdash;
         research suggests they act as signaling molecules, stimulating
-        fibroblasts (the cells that produce collagen) to ramp up production.
+        fibroblasts (the cells that produce collagen) to ramp up production.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         So the critics are partially right: your body does digest collagen. But
@@ -71,6 +102,14 @@ export function CollagenGuide() {
           supplements. Important for skin structure and cardiovascular tissue.
         </li>
       </ul>
+
+      <Callout variant="info" title="Type labels are less important than you think">
+        Once collagen is hydrolyzed into peptides, the &ldquo;type&rdquo;
+        distinction becomes less meaningful. The exception is undenatured
+        type II collagen (UC-II), taken intact at 40mg and working through
+        immune modulation, not structural rebuilding.
+      </Callout>
+
       <p>
         Here&rsquo;s the nuance most marketing ignores: once collagen is
         hydrolyzed into peptides, the &ldquo;type&rdquo; distinction becomes
@@ -92,7 +131,8 @@ export function CollagenGuide() {
         <strong>statistically significant improvements in skin
         elasticity</strong> compared to placebo, with the effect persisting
         4 weeks after supplementation stopped. A follow-up study by the same
-        group found reduced wrinkle depth after 8 weeks.
+        group found reduced wrinkle depth after 8 weeks.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         A 2019 systematic review by de Miranda et al. in the{" "}
@@ -100,7 +140,8 @@ export function CollagenGuide() {
         with over 800 participants and concluded that collagen
         supplementation improves skin hydration, elasticity, and wrinkle
         depth. The effects are real, measurable, and replicated &mdash; though
-        modest. Nobody is reversing 20 years of aging with a powder.
+        modest. Nobody is reversing 20 years of aging with a powder.{" "}
+        <EvidenceBadge level="strong" />
       </p>
 
       <h3>Joint Pain</h3>
@@ -112,7 +153,7 @@ export function CollagenGuide() {
         <strong>significantly less joint pain during activity</strong>
         &mdash; walking, standing, carrying objects, and at rest. This was
         a well-designed trial in a population that puts serious stress on
-        their joints.
+        their joints. <EvidenceBadge level="strong" />
       </p>
       <p>
         For osteoarthritis specifically, a 2016 RCT by Kumar et al. in the{" "}
@@ -121,7 +162,7 @@ export function CollagenGuide() {
         of 1,500mg glucosamine plus 1,200mg chondroitin for knee joint
         comfort over 180 days. That&rsquo;s notable because glucosamine and
         chondroitin have been the standard joint supplement recommendation
-        for decades.
+        for decades. <EvidenceBadge level="strong" />
       </p>
 
       <h3>Bone Density</h3>
@@ -132,8 +173,11 @@ export function CollagenGuide() {
         density in the spine and femoral neck of postmenopausal women compared
         to placebo. Bone formation markers went up while bone degradation
         markers went down. One study isn&rsquo;t conclusive, but the mechanism
-        is plausible and the results are encouraging.
+        is plausible and the results are encouraging.{" "}
+        <EvidenceBadge level="emerging" />
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-collagen-plus"]} />
 
       <h2>Marine vs. Bovine vs. Chicken: Choosing a Source</h2>
       <p>
@@ -154,7 +198,8 @@ export function CollagenGuide() {
           2015 study in the <em>Journal of the Science of Food and
           Agriculture</em> found marine collagen peptides had 1.5x higher
           intestinal absorption than bovine peptides in a Caco-2 cell model.
-          Best for: skin-focused goals, pescatarian diets.
+          Best for: skin-focused goals, pescatarian diets.{" "}
+          <EvidenceBadge level="moderate" />
         </li>
         <li>
           <strong>Chicken:</strong> Rich in type II collagen. Most relevant
@@ -163,12 +208,13 @@ export function CollagenGuide() {
           particularly osteoarthritis.
         </li>
       </ul>
-      <p>
+
+      <Callout variant="tip" title="Choosing a source">
         The practical differences between bovine and marine for general use
-        are probably small enough that price and dietary preference should
-        drive your decision. Choose chicken/UC-II only if joint cartilage is
-        your primary concern.
-      </p>
+        are small enough that price and dietary preference should drive your
+        decision. Choose chicken/UC-II only if joint cartilage is your
+        primary concern.
+      </Callout>
 
       <h2>Dosing: How Much and How</h2>
       <p>
@@ -197,6 +243,14 @@ export function CollagenGuide() {
       </p>
 
       <h2>The Vitamin C Connection</h2>
+
+      <Callout variant="warning" title="Vitamin C is non-negotiable">
+        Vitamin C is an essential cofactor for collagen synthesis. Your body
+        literally cannot produce collagen without it. Supplementing collagen
+        without adequate vitamin C is like buying building materials without
+        hiring a contractor.
+      </Callout>
+
       <p>
         This is genuinely important and often overlooked.{" "}
         <strong>Vitamin C is an essential cofactor for collagen
@@ -221,6 +275,23 @@ export function CollagenGuide() {
         </a>{" "}
         can help you parse what&rsquo;s actually in the formula.
       </p>
+
+      <InteractionGroup title="Collagen synergies">
+        <InteractionCard
+          type="synergy"
+          a="Collagen"
+          b="Vitamin C"
+          effect="Vitamin C is required for the hydroxylation of proline and lysine — the step that gives collagen its structural stability. Without it, collagen synthesis stalls."
+          recommendation="Ensure at least 75–90mg vitamin C daily. Some collagen products include it."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Collagen"
+          b="Glycine"
+          effect="Collagen is ~33% glycine. Additional glycine supports overall collagen synthesis and has independent benefits for sleep quality."
+          recommendation="Consider 3g glycine at bedtime for dual collagen + sleep benefits."
+        />
+      </InteractionGroup>
 
       <h2>Timing: Does It Matter?</h2>
       <p>
@@ -257,6 +328,13 @@ export function CollagenGuide() {
       </p>
 
       <h2>How Long Before You See Results?</h2>
+
+      <Callout variant="info" title="Set realistic expectations">
+        Skin hydration: 4&ndash;8 weeks. Wrinkle depth: 8&ndash;12 weeks.
+        Joint pain: 12&ndash;24 weeks. Bone density: 12 months. If someone
+        claims results in 3 days, that&rsquo;s placebo.
+      </Callout>
+
       <p>
         Set realistic expectations:
       </p>
@@ -324,7 +402,7 @@ export function CollagenGuide() {
         low end of clinical doses. Supplements offer more consistent and
         concentrated dosing, but bone broth has other nutritional benefits
         (minerals, glutamine, glycine) that make it a worthwhile food
-        regardless.
+        regardless. <EvidenceBadge level="moderate" />
       </p>
 
       <h3>Can collagen supplements cause any side effects?</h3>

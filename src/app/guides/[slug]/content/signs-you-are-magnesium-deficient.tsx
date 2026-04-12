@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function MagnesiumDeficiency() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "~50% of Americans don't meet the recommended daily magnesium intake — and the standard blood test is almost useless at catching it",
+          "Only 1% of your body's magnesium is in your blood; request RBC magnesium (intracellular) for an accurate picture",
+          "Magnesium glycinate is the best starting form — well-absorbed, gentle, and the glycine has its own calming benefits",
+          "Start with 200mg elemental magnesium at night; most people notice sleep improvements within 3-7 days",
+        ]}
+      />
+
       <p>
         You&rsquo;re lying in bed at 1am. Your eyelid has been twitching for
         three days. Your calves cramp when you stretch. You slept seven hours
@@ -18,6 +39,15 @@ export function MagnesiumDeficiency() {
       </p>
 
       <h2>Why Your Doctor Probably Won&rsquo;t Catch It</h2>
+
+      <Callout variant="warning" title="The wrong test">
+        The standard blood panel measures <strong>serum magnesium</strong> &mdash;
+        but only 1% of your body&rsquo;s magnesium is in your blood. Your body
+        pulls from bones and muscles to keep serum levels stable. By the time
+        serum magnesium drops below range, you&rsquo;re in serious trouble.
+        Request <strong>RBC magnesium</strong> instead.
+      </Callout>
+
       <p>
         This is the part that frustrates people once they learn it. The
         standard blood panel measures <strong>serum magnesium</strong> &mdash;
@@ -107,6 +137,14 @@ export function MagnesiumDeficiency() {
         </li>
       </ul>
 
+      <Callout variant="info" title="The stress-magnesium cycle">
+        Stress burns through magnesium via cortisol-driven excretion. Low
+        magnesium amplifies your stress response, burning more magnesium.
+        This vicious cycle hits high-stress, high-caffeine, high-exercise
+        individuals hardest &mdash; exactly the people most likely to dismiss
+        their symptoms.
+      </Callout>
+
       <h2>The 8 Signs to Watch For</h2>
       <p>
         None of these are magnesium-specific on their own. But if you&rsquo;re
@@ -138,13 +176,14 @@ export function MagnesiumDeficiency() {
         mode) and regulates GABA, the neurotransmitter that quiets neural
         activity.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="Sleep quality study">
         A 2012 double-blind RCT in the <em>Journal of Research in Medical
         Sciences</em> gave elderly insomniacs 500mg of magnesium daily for 8
-        weeks. The results: significantly better sleep time, sleep efficiency,
-        and melatonin levels, with lower cortisol. Participants reported
-        falling asleep faster and waking less often.
-      </p>
+        weeks. Results: significantly better sleep time, sleep efficiency,
+        and melatonin levels, with lower cortisol. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         If you track your sleep and consistently see low deep sleep
         percentages despite adequate total hours, magnesium is one of the
@@ -173,7 +212,7 @@ export function MagnesiumDeficiency() {
         <em>Nutrients</em>, found a statistically significant link between low
         magnesium intake and increased anxiety. Several included trials showed
         improvement in anxiety scores with supplementation in as little as
-        6 weeks.
+        6 weeks. <EvidenceBadge level="moderate" />
       </p>
 
       <h3>4. Persistent Fatigue That Sleep Doesn&rsquo;t Fix</h3>
@@ -200,13 +239,14 @@ export function MagnesiumDeficiency() {
         cortical spreading depression (the wave of neural activity believed
         to trigger migraine aura).
       </p>
-      <p>
-        Clinical trials have used 400&ndash;600mg daily (typically magnesium
-        citrate or oxide) for migraine prophylaxis, with a 2021 meta-analysis
-        in <em>Headache</em> confirming reduced frequency and intensity. If
-        you get regular headaches &mdash; especially tension headaches or
-        migraines &mdash; this is worth a conversation with your doctor.
-      </p>
+
+      <Callout variant="evidence" title="Migraine prevention">
+        Clinical trials have used 400&ndash;600mg daily for migraine
+        prophylaxis, with a 2021 meta-analysis in <em>Headache</em>{" "}
+        confirming reduced frequency and intensity. The American Migraine
+        Foundation officially recognizes magnesium as a preventive
+        therapy. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h3>6. An Irregular Heartbeat or Random Palpitations</h3>
       <p>
@@ -217,12 +257,13 @@ export function MagnesiumDeficiency() {
         arrhythmias, which tells you how seriously cardiologists take
         this mineral.
       </p>
-      <p>
-        <strong>Important:</strong> Heart palpitations can have many causes,
-        some of them serious. Don&rsquo;t self-diagnose this one &mdash;
-        get it checked out. But if your workup comes back &ldquo;structurally
-        normal,&rdquo; ask about your magnesium levels.
-      </p>
+
+      <Callout variant="warning" title="Get checked">
+        Heart palpitations can have many causes, some of them serious.
+        Don&rsquo;t self-diagnose this one &mdash; get it checked out. But
+        if your workup comes back &ldquo;structurally normal,&rdquo; ask
+        about your magnesium levels.
+      </Callout>
 
       <h3>7. Constipation</h3>
       <p>
@@ -245,7 +286,7 @@ export function MagnesiumDeficiency() {
         MIT, published in <em>Neuron</em> (2010), found that increasing
         brain magnesium levels (using magnesium L-threonate) enhanced
         synaptic density and improved both short-term and long-term memory
-        in animal models.
+        in animal models. <EvidenceBadge level="moderate" />
       </p>
       <p>
         Human data on magnesium and cognition is still developing, but if
@@ -336,12 +377,22 @@ export function MagnesiumDeficiency() {
           probably not absorbing much.
         </li>
       </ul>
+
+      <Callout variant="warning" title="Avoid magnesium oxide">
+        Magnesium oxide absorbs at roughly 4% &mdash; making it one of the
+        worst choices for correcting a deficiency. If your current supplement
+        uses oxide, you&rsquo;re essentially buying a laxative, not a
+        magnesium supplement. Switch to glycinate, citrate, or threonate.
+      </Callout>
+
       <p>
         For more on evaluating supplement quality, check our{" "}
         <a href="/guides/how-to-read-a-supplement-label">
           guide to reading supplement labels
         </a>.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h3>Dosing and Timing</h3>
       <p>
@@ -352,13 +403,14 @@ export function MagnesiumDeficiency() {
         with broader benefits (mood, cramps, energy) appearing over
         2&ndash;4 weeks.
       </p>
-      <p>
-        One important note: check your magnesium supplement for{" "}
-        <strong>elemental magnesium</strong> content, not total compound
-        weight. A capsule labeled &ldquo;500mg magnesium glycinate&rdquo;
-        contains roughly 70mg of actual magnesium. The rest is glycine. Always
-        look at the Supplement Facts panel for the actual magnesium amount.
-      </p>
+
+      <Callout variant="info" title="Elemental vs compound weight">
+        A capsule labeled &ldquo;500mg magnesium glycinate&rdquo; contains
+        roughly 70mg of actual magnesium. The rest is glycine. Always look at
+        the Supplement Facts panel for the actual magnesium amount, not the
+        compound weight.
+      </Callout>
+
       <p>
         For a full breakdown of when to take magnesium relative to other
         supplements, see our{" "}
@@ -366,6 +418,39 @@ export function MagnesiumDeficiency() {
           supplement timing guide
         </a>.
       </p>
+
+      <InteractionGroup title="Magnesium interactions">
+        <InteractionCard
+          type="synergy"
+          a="Magnesium"
+          b="Vitamin B6"
+          effect="B6 may facilitate magnesium transport into cells. A 2018 PLOS ONE study found the combo more effective for stress than either alone."
+          recommendation="Many quality magnesium products include B6 for this reason. Otherwise, your morning B-complex covers it."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Magnesium"
+          b="Vitamin D"
+          effect="Magnesium is required for vitamin D activation. Low magnesium impairs the enzymes that convert D to its active form."
+          recommendation="If you supplement vitamin D (most people should), ensure your magnesium is adequate for full benefit."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Magnesium"
+          b="Calcium (500mg+)"
+          effect="At high doses, calcium and magnesium compete for absorption. This is less critical than calcium-iron but still worth separating."
+          recommendation="Take calcium and magnesium at different times of day if taking therapeutic doses of both."
+        />
+      </InteractionGroup>
+
+      <ProductRow
+        title="Magnesium supplements — top scored"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-magnesium-glycinate"],
+          PRODUCTS["thorne-magnesium-citramate"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 

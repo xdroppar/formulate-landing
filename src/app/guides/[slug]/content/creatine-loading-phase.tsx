@@ -1,6 +1,25 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function CreatineLoadingPhase() {
   return (
     <>
+      <TLDRBox
+        readTime="8 min read"
+        takeaways={[
+          "Loading (20g/day for 5-7 days) fills muscle creatine stores in ~1 week; 3-5g/day reaches the same level in ~28 days",
+          "Both protocols achieve identical end-state muscle creatine concentrations — loading is a fast lane, not a different destination",
+          "Don't cycle creatine — long-term daily use (studied up to 5 years) is safe with no kidney concerns in healthy individuals",
+          "Vegetarians see the biggest response; 20-30% of people are low/non-responders based on baseline muscle creatine",
+        ]}
+      />
+
       <p>
         You bought creatine. The label says 3&ndash;5 grams a day. But
         somewhere online you read you should be taking 20 grams a day for the
@@ -27,13 +46,14 @@ export function CreatineLoadingPhase() {
         for 5&ndash;7 days &mdash; fills that tank to 100% capacity in about
         a week. After that, you drop to 3&ndash;5g per day to keep it full.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="The original research">
         This protocol comes from the original creatine research by Roger
         Harris and colleagues, published in <em>Clinical Science</em> in
-        1992. They used muscle biopsies &mdash; actual tissue samples &mdash;
-        to directly measure intramuscular creatine content. The loading
-        protocol increased muscle creatine stores by 20&ndash;40%.
-      </p>
+        1992. They used muscle biopsies to directly measure intramuscular
+        creatine content. The loading protocol increased muscle creatine
+        stores by 20&ndash;40%. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h2>The Part Nobody Tells You: You Don&rsquo;t Need It</h2>
       <p>
@@ -42,12 +62,15 @@ export function CreatineLoadingPhase() {
         phase</strong>, reaches the exact same muscle saturation level. It
         just takes about 28 days instead of 5&ndash;7.
       </p>
-      <p>
-        Hultman et al. confirmed this in a 2003 study in the{" "}
+
+      <Callout variant="evidence" title="Same destination, different speed">
+        Hultman et al. confirmed in a 2003 study in the{" "}
         <em>Journal of Applied Physiology</em>: both protocols achieve
         identical end-state creatine concentrations in muscle tissue. The
-        loading phase is a fast lane, not a different destination.
-      </p>
+        loading phase is a fast lane, not a different
+        destination. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Same tank. Same fuel level. Different fill speed. That&rsquo;s it.
       </p>
@@ -76,6 +99,14 @@ export function CreatineLoadingPhase() {
       </ul>
 
       <h2>Loading: The Cons</h2>
+
+      <Callout variant="warning" title="GI distress is the #1 reason people quit">
+        20g of creatine per day causes bloating, stomach cramps, or diarrhea
+        in a meaningful percentage of users. Many people load, feel terrible,
+        and conclude creatine &ldquo;doesn&rsquo;t work for them&rdquo;
+        &mdash; when the loading dose was the problem, not the creatine.
+      </Callout>
+
       <ul>
         <li>
           <strong>GI distress is common.</strong> 20g of creatine per day
@@ -108,6 +139,15 @@ export function CreatineLoadingPhase() {
         </li>
       </ul>
 
+      <Callout variant="tip" title="Our recommendation">
+        Skip loading. Take 3&ndash;5g daily from day one. You avoid the GI
+        issues, save product, and arrive at the exact same muscle saturation
+        within a month. The only exception: you&rsquo;re prepping for a
+        competition in the next 2 weeks.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
       <h2>What About Cycling? (Spoiler: Don&rsquo;t)</h2>
       <p>
         Cycling creatine &mdash; 8 weeks on, 4 weeks off, repeat &mdash;
@@ -119,14 +159,16 @@ export function CreatineLoadingPhase() {
       <p>
         Neither is true.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="ISSN position stand">
         The <strong>International Society of Sports Nutrition (ISSN)</strong>{" "}
         position stand on creatine, updated in 2017, explicitly states that
         long-term daily creatine supplementation (studied for up to 5 years)
-        is safe, with no evidence of kidney damage in healthy individuals
-        and no clinically meaningful suppression of endogenous creatine
-        synthesis.
-      </p>
+        is safe, with no evidence of kidney damage in healthy individuals and
+        no clinically meaningful suppression of endogenous creatine
+        synthesis. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         When you stop taking creatine, muscle stores gradually return to
         baseline over 4&ndash;6 weeks. You lose the performance benefits you
@@ -144,7 +186,7 @@ export function CreatineLoadingPhase() {
         Sports Nutrition</em> compared pre-workout vs. post-workout creatine
         in resistance-trained men. The post-workout group showed a slight
         edge in lean mass and strength gains, but the study was small
-        (n=19) and the effect was modest.
+        (n=19) and the effect was modest. <EvidenceBadge level="emerging" />
       </p>
       <p>
         The practical answer: take creatine whenever you&rsquo;ll actually
@@ -197,13 +239,15 @@ export function CreatineLoadingPhase() {
         body&rsquo;s energy despite being 2% of your body weight. That energy
         comes from ATP, which requires creatine to recycle.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="Cognitive benefits">
         Multiple studies have shown that creatine supplementation improves
         cognitive performance under conditions of stress, sleep deprivation,
         and demanding mental tasks. A 2018 systematic review in{" "}
         <em>Experimental Gerontology</em> found evidence for cognitive
-        benefits in older adults specifically.
-      </p>
+        benefits in older adults specifically. <EvidenceBadge level="moderate" />
+      </Callout>
+
       <p>
         This is why creatine appears in our{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
@@ -229,9 +273,17 @@ export function CreatineLoadingPhase() {
         been debunked in multiple studies. A 2003 study in the{" "}
         <em>Journal of Athletic Training</em> found that creatine users
         actually experienced <em>fewer</em> muscle cramps than non-users
-        during preseason football training. But staying hydrated is still
+        during preseason football training. <EvidenceBadge level="moderate" /> But staying hydrated is still
         good practice.
       </p>
+
+      <ProductRow
+        title="Top-scored creatine supplements"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 
@@ -251,7 +303,7 @@ export function CreatineLoadingPhase() {
         linked to male pattern baldness. However, no follow-up study has
         replicated this finding, and no study has directly measured hair loss
         from creatine supplementation. The concern is theoretically plausible
-        but currently unsupported by evidence.
+        but currently unsupported by evidence. <EvidenceBadge level="emerging" />
       </p>
 
       <h3>Should I take creatine on rest days?</h3>

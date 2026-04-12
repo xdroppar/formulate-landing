@@ -1,6 +1,28 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  ScheduleTable,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BestSleepProtocol() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "Core stack: magnesium glycinate (200–400mg) + L-theanine (200mg) + glycine (3g) before bed",
+          "This protocol costs under $1/night and is non-habit-forming",
+          "Melatonin is safe but misunderstood — optimal sleep dose is 0.3mg, not 10mg",
+          "Give the stack 2–3 weeks of consistent use before evaluating results",
+        ]}
+      />
+
       <p>
         It&rsquo;s 2 AM. You&rsquo;ve been lying there for an hour,
         mentally rehearsing tomorrow&rsquo;s to-do list while your body
@@ -18,13 +40,17 @@ export function BestSleepProtocol() {
       </p>
 
       <h2>Yes, Sleep Hygiene Matters &mdash; But You Already Know That</h2>
+
+      <Callout variant="tip" title="The non-negotiable foundation">
+        Consistent sleep/wake times, 65&ndash;68&deg;F bedroom, blackout curtains,
+        no caffeine after noon, and screens off 30&ndash;60 minutes before bed.
+        If you&rsquo;re doing none of them, supplements won&rsquo;t save you.
+      </Callout>
+
       <p>
         Every sleep article opens with &ldquo;keep your room cool and dark
         and put your phone down.&rdquo; You&rsquo;ve heard it. So let&rsquo;s
-        be brief: consistent sleep/wake times, 65&ndash;68&deg;F bedroom,
-        blackout curtains, no caffeine after noon, and screens off 30&ndash;60
-        minutes before bed. These are the foundation. If you&rsquo;re doing
-        none of them, supplements won&rsquo;t save you. If you&rsquo;re doing
+        be brief. These are the foundation. If you&rsquo;re doing
         most of them and still struggling, that&rsquo;s exactly where targeted
         supplementation shines.
       </p>
@@ -44,14 +70,15 @@ export function BestSleepProtocol() {
         signaling system in your brain. And roughly half of adults
         don&rsquo;t get enough from diet alone.
       </p>
-      <p>
-        A 2012 randomized controlled trial published in the{" "}
-        <em>Journal of Research in Medical Sciences</em> gave elderly
-        insomniacs 500mg of magnesium or placebo for 8 weeks. The magnesium
-        group saw significant improvements in sleep efficiency, sleep time,
-        melatonin levels, and serum cortisol &mdash; the stress hormone that
-        keeps you wired at night.
-      </p>
+
+      <Callout variant="evidence" title="RCT: magnesium improves sleep markers">
+        A 2012 randomized controlled trial in the{" "}
+        <em>Journal of Research in Medical Sciences</em> gave elderly insomniacs
+        500mg of magnesium or placebo for 8 weeks. The magnesium group saw
+        significant improvements in sleep efficiency, sleep time, melatonin
+        levels, and serum cortisol. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         <strong>Why glycinate specifically?</strong> The glycinate form has
         two advantages. First, it&rsquo;s better absorbed than oxide or
@@ -65,6 +92,8 @@ export function BestSleepProtocol() {
         covers the signs to watch for.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
+
       <h3>L-Theanine &mdash; 200mg (Before Bed)</h3>
       <p>
         L-theanine is an amino acid found naturally in green tea, and
@@ -73,21 +102,23 @@ export function BestSleepProtocol() {
         the pattern associated with calm, focused wakefulness &mdash; and
         by reducing the beta waves that characterize anxious mental chatter.
       </p>
-      <p>
-        A 2019 randomized, placebo-controlled trial published in{" "}
-        <em>Nutrients</em> found that 200mg of L-theanine daily
-        significantly improved sleep quality scores (measured by PSQI) and
-        reduced sleep disturbances. Participants reported falling asleep
-        faster and waking up feeling more rested.
-      </p>
+
+      <Callout variant="evidence" title="Improved sleep quality without dependency">
+        A 2019 randomized, placebo-controlled trial in <em>Nutrients</em> found
+        that 200mg of L-theanine daily significantly improved sleep quality scores
+        (PSQI) and reduced sleep disturbances. Unlike melatonin, your body
+        doesn&rsquo;t develop tolerance. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         What makes L-theanine especially useful: it doesn&rsquo;t create
         dependency, it has no next-day grogginess, and it actually works
-        better with consistent use rather than worse. Unlike melatonin,
-        your body doesn&rsquo;t develop tolerance. The 200mg dose is the
+        better with consistent use rather than worse. The 200mg dose is the
         clinical sweet spot &mdash; going higher doesn&rsquo;t add much
         benefit.
       </p>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-l-theanine"]} />
 
       <h3>Glycine &mdash; 3g (Before Bed)</h3>
       <p>
@@ -98,15 +129,15 @@ export function BestSleepProtocol() {
         temperature by about 1&ndash;2&deg;F to initiate sleep &mdash;
         glycine accelerates this process.
       </p>
-      <p>
-        Yamadera et al. published a key study in <em>Sleep and Biological
-        Rhythms</em> (2007) showing that 3g of glycine before bed
-        improved subjective sleep quality, reduced daytime sleepiness, and
-        improved cognitive performance the next day. A companion study in{" "}
-        <em>Neuropsychopharmacology</em> confirmed the mechanism and showed
-        glycine reduced time to sleep onset and increased time spent in
-        slow-wave sleep &mdash; the deep, restorative stage.
-      </p>
+
+      <Callout variant="evidence" title="Glycine improves deep sleep">
+        Yamadera et al. (<em>Sleep and Biological Rhythms</em>, 2007) showed that
+        3g of glycine before bed improved subjective sleep quality, reduced
+        daytime sleepiness, and improved next-day cognition. A companion study in{" "}
+        <em>Neuropsychopharmacology</em> confirmed glycine increased time spent in
+        slow-wave (deep) sleep. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Glycine is also dirt cheap. A month&rsquo;s supply in powder form
         costs $10&ndash;15 from most brands, dissolves easily in water, and
@@ -116,17 +147,28 @@ export function BestSleepProtocol() {
         other supplementation.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-glycine"]} />
+
       <h2>How to Take the Core Stack</h2>
-      <p>
-        Timing matters here. Take all three 30&ndash;60 minutes before your
-        target bedtime, together. They don&rsquo;t interfere with each
-        other and actually work synergistically:
-      </p>
-      <ul>
-        <li>Magnesium glycinate: 200&ndash;400mg elemental magnesium</li>
-        <li>L-Theanine: 200mg</li>
-        <li>Glycine: 3g powder dissolved in water or herbal tea</li>
-      </ul>
+
+      <ScheduleTable
+        title="Sleep protocol timing"
+        slots={[
+          {
+            emoji: "😴",
+            label: "Before Bed",
+            time: "30–60 min before sleep",
+            color: "#6366F1",
+            supplements: [
+              "Magnesium Glycinate (200–400mg elemental)",
+              "L-Theanine (200mg)",
+              "Glycine (3g powder in water or herbal tea)",
+            ],
+            note: "Take all three together — they work through different mechanisms and are synergistic",
+          },
+        ]}
+      />
+
       <p>
         Total cost: roughly $0.50&ndash;$1.00 per night depending on brands
         and sources. For a deeper dive on when to take supplements relative
@@ -135,12 +177,30 @@ export function BestSleepProtocol() {
           supplement timing guide
         </a>.
       </p>
-      <p>
-        Give this protocol at least 2&ndash;3 weeks of consistent use
-        before evaluating. Magnesium levels take time to normalize if
-        you&rsquo;re depleted, and the sleep architecture improvements from
-        glycine are cumulative, not instant.
-      </p>
+
+      <Callout variant="info" title="Give it time">
+        Give this protocol at least 2&ndash;3 weeks of consistent use before
+        evaluating. Magnesium levels take time to normalize if you&rsquo;re
+        depleted, and the sleep architecture improvements from glycine are
+        cumulative, not instant.
+      </Callout>
+
+      <InteractionGroup title="Sleep stack synergies">
+        <InteractionCard
+          type="synergy"
+          a="Magnesium Glycinate"
+          b="L-Theanine"
+          effect="Magnesium regulates GABA receptors while L-theanine promotes alpha brain waves — complementary calming mechanisms."
+          recommendation="Take together 30–60 min before bed for maximum effect."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Magnesium Glycinate"
+          b="Glycine"
+          effect="The glycine in magnesium glycinate provides some glycine, but not enough for the 3g sleep dose. Adding free glycine compounds the benefit."
+          recommendation="Take 3g free glycine powder in addition to your magnesium glycinate."
+        />
+      </InteractionGroup>
 
       <h2>Secondary Options: Worth Considering, Weaker Evidence</h2>
 
@@ -150,7 +210,7 @@ export function BestSleepProtocol() {
         anxiolytic through GABA-A receptor modulation. The direct clinical
         evidence for sleep is thinner than the core three &mdash; most of
         the data comes from chamomile extract studies rather than isolated
-        apigenin. That said, it&rsquo;s safe, inexpensive, and many users
+        apigenin. <EvidenceBadge level="emerging" /> That said, it&rsquo;s safe, inexpensive, and many users
         report a noticeable calming effect. It gained popularity through
         Andrew Huberman&rsquo;s sleep protocol, and while it&rsquo;s not a
         must-have, it&rsquo;s a reasonable addition if the core stack alone
@@ -163,7 +223,7 @@ export function BestSleepProtocol() {
         anti-inflammatory anthocyanins. A 2018 pilot study in the{" "}
         <em>American Journal of Therapeutics</em> found that tart cherry
         juice increased sleep time by 84 minutes and improved sleep
-        efficiency. The study was small, but the signal is interesting &mdash;
+        efficiency. <EvidenceBadge level="emerging" /> The study was small, but the signal is interesting &mdash;
         particularly for people who exercise heavily, since the
         anti-inflammatory benefits may compound the sleep benefits. Think of
         this as a &ldquo;nice to have,&rdquo; not a cornerstone.
@@ -172,36 +232,31 @@ export function BestSleepProtocol() {
       <h2>What to Avoid (and Why)</h2>
 
       <h3>Melatonin: Misunderstood, Not Bad</h3>
+
+      <Callout variant="info" title="The optimal melatonin dose is 0.3mg, not 10mg">
+        A 2005 MIT study (Zhdanova et al.) found that the optimal chronobiotic dose
+        for sleep onset is <strong>0.3mg</strong> &mdash; one-thirtieth of what
+        most products contain. At higher doses, melatonin caused next-day
+        grogginess. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Walk into any drugstore and you&rsquo;ll find melatonin gummies with
         5, 10, even 15mg per serving. For <em>sleep onset</em> specifically,
-        these are overkill. A 2005 study from MIT (Zhdanova et al.) found
-        that the optimal chronobiotic dose is <strong>0.3mg</strong> &mdash;
-        yes, one-thirtieth of what most products contain. At higher doses,
-        melatonin shifted from acting as a timing signal to causing
-        next-day grogginess in that study.
-      </p>
-      <p>
-        Melatonin is a chronobiotic, not a sedative. It tells your brain
+        these are overkill. Melatonin is a chronobiotic, not a sedative. It tells your brain
         what time it is, not to go to sleep. For jet lag or circadian rhythm
         shifts, 0.3&ndash;0.5mg is the evidence-based dose and it works
         well for that purpose.
       </p>
-      <p>
-        <strong>Now let&rsquo;s kill a persistent myth: melatonin does NOT
-        suppress your body&rsquo;s natural production.</strong> This claim
-        has been repeated so often it became accepted wisdom, but the
-        clinical evidence simply doesn&rsquo;t support it. A study by
-        Matsumoto et al. (1997) published in <em>Clinical Endocrinology</em>{" "}
-        directly measured this and found that exogenous melatonin can shift
-        the <em>timing</em> of pineal secretion but does not reduce its{" "}
-        <em>amplitude</em> &mdash; your body keeps making the same amount.
-        No withdrawal symptoms, no rebound insomnia, and no downregulation
-        of endogenous production have been demonstrated in clinical studies,
-        even with long-term use (up to 12 months). Your pineal gland
-        doesn&rsquo;t &ldquo;forget&rdquo; how to make melatonin because
-        you supplemented it.
-      </p>
+
+      <Callout variant="evidence" title="Melatonin does NOT suppress natural production">
+        This myth has been repeated so often it became accepted wisdom, but a study
+        by Matsumoto et al. (1997) in <em>Clinical Endocrinology</em> found that
+        exogenous melatonin can shift the timing of pineal secretion but does not
+        reduce its amplitude. No withdrawal, no rebound insomnia, and no
+        downregulation have been demonstrated even with long-term use. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         What about high-dose melatonin? This is where it gets interesting.
         Beyond its role as a sleep timing signal, melatonin is a powerful
@@ -211,7 +266,7 @@ export function BestSleepProtocol() {
         from sleep onset. A 2023 review in <em>Antioxidants</em> highlighted
         melatonin&rsquo;s ability to neutralize free radicals, reduce
         oxidative stress, and support mitochondrial function at
-        pharmacological doses. Some longevity-focused practitioners
+        pharmacological doses. <EvidenceBadge level="emerging" /> Some longevity-focused practitioners
         deliberately megadose melatonin for these properties.
       </p>
       <p>
@@ -226,15 +281,13 @@ export function BestSleepProtocol() {
       </p>
 
       <h3>Valerian Root</h3>
-      <p>
-        Valerian has been used for centuries, but the modern evidence is
-        disappointing. A 2006 meta-analysis in the{" "}
-        <em>American Journal of Medicine</em> concluded that valerian might
-        improve subjective sleep quality but found no significant
-        improvement in objective measures like sleep latency or efficiency.
-        Product standardization is also a mess &mdash; the active
-        compounds vary wildly between brands. There are better options.
-      </p>
+
+      <Callout variant="warning" title="Weak evidence for valerian">
+        A 2006 meta-analysis in the <em>American Journal of Medicine</em> found
+        valerian might improve subjective sleep quality but showed no significant
+        improvement in objective measures like sleep latency or efficiency. Product
+        standardization is also a mess. <EvidenceBadge level="mixed" />
+      </Callout>
 
       <h3>Oral GABA Supplements</h3>
       <p>
@@ -248,14 +301,14 @@ export function BestSleepProtocol() {
       </p>
 
       <h3>Diphenhydramine (Benadryl, ZzzQuil)</h3>
-      <p>
-        Not technically a supplement, but so commonly used for sleep that
-        it&rsquo;s worth addressing. Antihistamines produce drowsiness but
-        degrade sleep quality &mdash; less time in REM and deep sleep.
-        Tolerance develops within days. And long-term anticholinergic use
-        is associated with increased dementia risk, per a 2015 study in{" "}
-        <em>JAMA Internal Medicine</em>. This is not a sleep solution.
-      </p>
+
+      <Callout variant="warning" title="Antihistamines degrade sleep quality">
+        Not technically a supplement, but so commonly used for sleep it&rsquo;s
+        worth addressing. Antihistamines produce drowsiness but reduce time in
+        REM and deep sleep. Tolerance develops within days. Long-term
+        anticholinergic use is associated with increased dementia risk per a 2015
+        study in <em>JAMA Internal Medicine</em>. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h2>A Note on Expectations</h2>
       <p>
@@ -326,6 +379,16 @@ export function BestSleepProtocol() {
         automatically, so you&rsquo;ll know if anything in your broader
         stack conflicts with this sleep protocol.
       </p>
+
+      <ProductRow
+        title="Build the sleep stack"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["thorne-glycine"],
+        ]}
+      />
+
       <p>
         <a href="https://app.formulate-health.app/catalog?q=sleep">
           Browse sleep supplements in the catalog &rarr;

@@ -1,6 +1,28 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  ScheduleTable,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BestPreWorkoutProtocol() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "Only 4 ingredients have strong evidence: creatine (5g), citrulline (6–8g), beta-alanine (3.2g), caffeine (3–6mg/kg)",
+          "Creatine and beta-alanine work through daily loading — timing doesn't matter for these",
+          "Most commercial pre-workouts underdose the active ingredients and hide behind proprietary blends",
+          "Building your own costs ~$0.30–0.60/workout vs $1.50–2.50 for branded tubs",
+        ]}
+      />
+
       <p>
         Flip over your favorite pre-workout and read the label. Chances are
         you&rsquo;ll see something like &ldquo;Explosive Performance
@@ -30,19 +52,19 @@ export function BestPreWorkoutProtocol() {
         Creatine is the most studied ergogenic supplement in existence &mdash;
         over 500 peer-reviewed papers and counting. It replenishes
         phosphocreatine stores in muscle, which fuel short-burst, high-intensity
-        efforts: heavy lifts, sprints, HIIT intervals. The performance
+        efforts: heavy lifts, sprints, HIIT intervals. <EvidenceBadge level="strong" /> The performance
         benefits are consistent and well-documented: increased strength,
         improved power output, faster recovery between sets.
       </p>
-      <p>
-        <strong>The key insight most people miss:</strong> creatine works
-        through daily saturation, not acute pre-workout timing. Your muscles
-        maintain a creatine &ldquo;tank&rdquo; that stays full as long as
-        you take 3&ndash;5g every day. Whether you take it in the morning,
-        before training, or with dinner makes no meaningful difference.
-        Putting it in your pre-workout is fine for convenience, but
-        it&rsquo;s not doing anything special at that moment.
-      </p>
+
+      <Callout variant="tip" title="Creatine works by saturation, not timing">
+        Your muscles maintain a creatine &ldquo;tank&rdquo; that stays full
+        as long as you take 3&ndash;5g every day. Whether you take it in the
+        morning, before training, or with dinner makes no meaningful difference.
+        Putting it in your pre-workout is fine for convenience, but it&rsquo;s
+        not doing anything special at that moment.
+      </Callout>
+
       <p>
         Stick with creatine monohydrate &mdash; not HCl, not buffered, not
         ethyl ester. The monohydrate form is what the research used, and
@@ -54,6 +76,8 @@ export function BestPreWorkoutProtocol() {
         </a>.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
       <h3>L-Citrulline &mdash; 6&ndash;8g (30&ndash;60 Min Before Training)</h3>
       <p>
         Citrulline gets converted to arginine in the kidneys, which boosts
@@ -62,15 +86,15 @@ export function BestPreWorkoutProtocol() {
         transport, and the &ldquo;pump&rdquo; that people chase with
         pre-workouts &mdash; except this one is backed by data.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="52.9% more reps to failure">
         A landmark 2010 study in the{" "}
-        <em>Journal of Strength and Conditioning Research</em> (P&eacute;rez-Guti&eacute;rrez
-        et al.) found that 8g of citrulline malate increased reps to
-        failure by 52.9% across 8 sets of bench press, and significantly
-        reduced muscle soreness at 24 and 48 hours post-exercise. That&rsquo;s
-        not a subtle effect &mdash; it&rsquo;s one of the largest
-        performance improvements found for any legal supplement.
-      </p>
+        <em>Journal of Strength and Conditioning Research</em> found that 8g of
+        citrulline malate increased reps to failure by 52.9% across 8 sets of
+        bench press, and significantly reduced muscle soreness at 24 and 48
+        hours. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         <strong>Citrulline vs. citrulline malate:</strong> Citrulline malate
         is citrulline bonded to malic acid, typically in a 2:1 ratio. If a
@@ -79,14 +103,13 @@ export function BestPreWorkoutProtocol() {
         delivers more active ingredient with less powder. Either works &mdash;
         just check the math.
       </p>
-      <p>
-        <strong>Why not just take arginine?</strong> Oral arginine is subject
-        to extensive first-pass metabolism in the liver &mdash; most of it
-        gets broken down before it reaches your bloodstream. Citrulline
-        bypasses this entirely, making it a far more efficient way to raise
-        arginine and nitric oxide levels. This is one of the few cases where
-        the precursor genuinely outperforms the target compound.
-      </p>
+
+      <Callout variant="info" title="Why not just take arginine?">
+        Oral arginine is subject to extensive first-pass metabolism in the
+        liver &mdash; most of it gets broken down before reaching your
+        bloodstream. Citrulline bypasses this entirely, making it a far more
+        efficient way to raise arginine and nitric oxide levels.
+      </Callout>
 
       <h3>Beta-Alanine &mdash; 3.2&ndash;6.4g Daily (Timing Flexible)</h3>
       <p>
@@ -98,14 +121,14 @@ export function BestPreWorkoutProtocol() {
         force you to stop. More carnosine means more reps before failure in
         the 1&ndash;4 minute effort range.
       </p>
-      <p>
-        A 2012 meta-analysis in <em>Amino Acids</em> (Hobson et al.)
-        analyzed 15 studies and found a statistically significant improvement
-        in exercise capacity for efforts lasting 60&ndash;240 seconds. The
-        effect is modest but consistent &mdash; roughly 2.85% improvement
-        in performance, which matters for competitive athletes and
-        translates to real extra reps for recreational lifters.
-      </p>
+
+      <Callout variant="evidence" title="Consistent performance improvement">
+        A 2012 meta-analysis in <em>Amino Acids</em> (Hobson et al.) analyzed 15
+        studies and found a statistically significant improvement in exercise
+        capacity for efforts lasting 60&ndash;240 seconds — roughly 2.85%
+        improvement. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Like creatine, beta-alanine works through chronic loading, not
         acute dosing. You need 3&ndash;4 weeks of daily use to fully
@@ -113,16 +136,15 @@ export function BestPreWorkoutProtocol() {
         it&rsquo;s not doing anything <em>at that moment</em> &mdash; the
         benefit is from the accumulated carnosine in your muscles.
       </p>
-      <p>
-        <strong>About the tingling:</strong> Beta-alanine causes
-        paresthesia &mdash; a harmless tingling or prickling sensation in
-        the skin, usually in the face, ears, and hands. It&rsquo;s
-        dose-dependent and completely benign. Many people actually like it
-        (it feels like &ldquo;the pre-workout kicking in&rdquo;), but
-        it&rsquo;s just a nerve response, not an indicator of efficacy. If
-        it bothers you, split the daily dose across two servings or use a
-        sustained-release formulation.
-      </p>
+
+      <Callout variant="info" title="About the tingling">
+        Beta-alanine causes paresthesia &mdash; a harmless tingling in the
+        skin, usually in the face, ears, and hands. It&rsquo;s dose-dependent
+        and completely benign. If it bothers you, split the daily dose across
+        two servings or use a sustained-release formulation.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-beta-alanine"]} />
 
       <h3>Caffeine &mdash; 3&ndash;6mg/kg Bodyweight (30 Min Before Training)</h3>
       <p>
@@ -132,15 +154,15 @@ export function BestPreWorkoutProtocol() {
         (improving alertness and reaction time), and enhances calcium
         release in muscle fibers (directly improving force output).
       </p>
-      <p>
-        The evidence-based dose is 3&ndash;6mg per kg of bodyweight, taken
-        30&ndash;60 minutes before training. For a 70kg (154 lb) person,
-        that&rsquo;s 210&ndash;420mg. A 2019 umbrella review in the{" "}
-        <em>British Journal of Sports Medicine</em> (Grgic et al.)
-        concluded that caffeine improves muscle strength, power,
-        endurance, and high-intensity exercise performance across a wide
-        range of activities.
-      </p>
+
+      <Callout variant="evidence" title="Broad performance benefits confirmed">
+        A 2019 umbrella review in the <em>British Journal of Sports Medicine</em>{" "}
+        (Grgic et al.) concluded that caffeine improves muscle strength, power,
+        endurance, and high-intensity exercise performance across a wide range
+        of activities. Evidence-based dose: 3&ndash;6mg/kg bodyweight (210&ndash;420mg
+        for a 70kg person). <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         <strong>Tolerance and dosing strategy:</strong> Caffeine tolerance
         is real and determines how much you need. If you&rsquo;re a regular
@@ -165,19 +187,21 @@ export function BestPreWorkoutProtocol() {
         stays high as long as you&rsquo;re only using caffeine a few times
         per week pre-training.
       </p>
+
+      <Callout variant="warning" title="The sleep tradeoff">
+        Caffeine has a half-life of 5&ndash;7 hours. If you train at 4pm and
+        take 300mg, you&rsquo;ll still have ~150mg circulating at 10pm. If
+        sleep quality matters to you, keep afternoon doses moderate or train
+        earlier.
+      </Callout>
+
       <p>
-        <strong>The sleep tradeoff:</strong> Caffeine has a half-life of
-        5&ndash;7 hours. If you train at 4pm and take 300mg, you&rsquo;ll
-        still have ~150mg circulating at 10pm &mdash; roughly a cup of
-        coffee&rsquo;s worth. If sleep quality matters to you (and it should
-        &mdash; see our{" "}
-        <a href="/guides/best-sleep-supplement-protocol">
-          sleep protocol guide
-        </a>
-        ), keep afternoon doses moderate or train earlier. For more on
-        caffeine and supplement interactions, see our{" "}
+        For more on caffeine and supplement interactions, see our{" "}
         <a href="/guides/supplement-timing-guide">
           supplement timing guide
+        </a>. For the full sleep protocol, see our{" "}
+        <a href="/guides/best-sleep-supplement-protocol">
+          sleep supplement guide
         </a>.
       </p>
 
@@ -189,7 +213,7 @@ export function BestPreWorkoutProtocol() {
         different pathway than citrulline, improving oxygen efficiency
         during aerobic exercise. A 2017 systematic review in{" "}
         <em>Nutrients</em> found consistent improvements in time-trial
-        performance and time to exhaustion in endurance activities. Less
+        performance and time to exhaustion in endurance activities. <EvidenceBadge level="moderate" /> Less
         relevant for pure strength training, but a solid addition if your
         training includes significant cardio or conditioning work.
       </p>
@@ -199,24 +223,19 @@ export function BestPreWorkoutProtocol() {
         A choline source that may increase acetylcholine availability and
         acute growth hormone output. A 2008 study in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em>{" "}
-        found 600mg Alpha-GPC increased bench press power output by 14%.
+        found 600mg Alpha-GPC increased bench press power output by 14%. <EvidenceBadge level="emerging" />{" "}
         The evidence is promising but limited to a handful of small studies.
         Consider it experimental rather than foundational.
       </p>
 
       <h2>What to Skip (and Why)</h2>
 
-      <h3>BCAAs (Branched-Chain Amino Acids)</h3>
-      <p>
-        BCAAs were heavily marketed in the 2010s as essential for muscle
-        growth and recovery. The reality: if you eat 1.6g+ of protein per
-        kg of bodyweight daily (which you should for any serious training),
-        you&rsquo;re already getting more BCAAs than any supplement
-        provides. A 2017 review in the{" "}
-        <em>Journal of the International Society of Sports Nutrition</em>{" "}
-        (Wolfe) concluded that BCAAs alone cannot stimulate muscle protein
-        synthesis to a meaningful degree. Save your money; eat protein.
-      </p>
+      <Callout variant="warning" title="BCAAs are unnecessary with adequate protein">
+        A 2017 review in the <em>JISSN</em> (Wolfe) concluded that BCAAs alone
+        cannot stimulate muscle protein synthesis to a meaningful degree. If you
+        eat 1.6g+ protein per kg bodyweight daily, you&rsquo;re already getting
+        more BCAAs than any supplement provides. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h3>L-Arginine</h3>
       <p>
@@ -242,9 +261,13 @@ export function BestPreWorkoutProtocol() {
       </p>
 
       <h2>Why Building Your Own Is Better</h2>
-      <p>
-        The math on DIY pre-workout is straightforward:
-      </p>
+
+      <Callout variant="tip" title="DIY vs. commercial pre-workout">
+        Individual bulk ingredients cost ~$0.30&ndash;$0.60 per workout at full
+        clinical doses. A name-brand pre-workout runs $1.50&ndash;$2.50 per
+        scoop at sub-clinical doses. You&rsquo;re paying more for less.
+      </Callout>
+
       <ul>
         <li>
           <strong>You control the doses.</strong> Most commercial
@@ -272,25 +295,43 @@ export function BestPreWorkoutProtocol() {
       </ul>
 
       <h2>The Protocol: Putting It All Together</h2>
-      <p>
-        <strong>Daily (any time, for chronic loading):</strong>
-      </p>
-      <ul>
-        <li>Creatine monohydrate: 5g</li>
-        <li>Beta-alanine: 3.2g (can split into two 1.6g doses to reduce tingling)</li>
-      </ul>
-      <p>
-        <strong>30&ndash;60 minutes before training:</strong>
-      </p>
-      <ul>
-        <li>L-Citrulline: 6&ndash;8g (or 8&ndash;10g citrulline malate)</li>
-        <li>Caffeine: 200&ndash;400mg based on bodyweight and tolerance (optional)</li>
-      </ul>
-      <p>
-        Mix in water. It won&rsquo;t taste like a Blue Raspberry
-        Explosion&trade;, but it&rsquo;ll actually work. If taste matters
-        to you, add a squeeze of lemon or a sugar-free flavoring packet.
-      </p>
+
+      <ScheduleTable
+        title="Pre-workout protocol"
+        slots={[
+          {
+            emoji: "📅",
+            label: "Daily",
+            time: "Any time (chronic loading)",
+            color: "#6B7280",
+            supplements: [
+              "Creatine monohydrate: 5g",
+              "Beta-alanine: 3.2g (can split to reduce tingling)",
+            ],
+            note: "These work through saturation — timing is irrelevant, consistency is everything",
+          },
+          {
+            emoji: "💪",
+            label: "Pre-Training",
+            time: "30–60 min before",
+            color: "#F97316",
+            supplements: [
+              "L-Citrulline: 6–8g (or 8–10g citrulline malate)",
+              "Caffeine: 200–400mg based on bodyweight (optional)",
+            ],
+            note: "Mix in water — it won't taste like Blue Raspberry Explosion™, but it'll actually work",
+          },
+        ]}
+      />
+
+      <ProductRow
+        title="Build the evidence-based pre-workout"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["thorne-beta-alanine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 

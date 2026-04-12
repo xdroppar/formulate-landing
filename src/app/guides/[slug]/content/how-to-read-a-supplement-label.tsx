@@ -1,6 +1,25 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function HowToReadSupplementLabel() {
   return (
     <>
+      <TLDRBox
+        readTime="9 min read"
+        takeaways={[
+          "Always check the serving size first — a product claiming '500mg magnesium' at 3 capsules/serving gives you 167mg if you take one",
+          "Look for clinical doses, not label decoration — 50mg of magnesium (need 300+) or 25mg of CoQ10 (need 100+) is marketing, not medicine",
+          "Proprietary blends that hide individual amounts are the biggest red flag — every reputable brand fully discloses",
+          "Compare cost per clinically effective serving, not sticker price — a $30 bottle can be cheaper than a $15 one",
+        ]}
+      />
+
       <p>
         You&rsquo;re standing in the supplement aisle. There are 40 magnesium
         products in front of you. They all say &ldquo;supports muscle and
@@ -15,11 +34,26 @@ export function HowToReadSupplementLabel() {
         for the rest of your life.
       </p>
 
+      <Callout variant="tip" title="The 60-second skill">
+        The front of a supplement bottle is marketing. The back is data.
+        Learning to read the Supplement Facts panel takes 60 seconds and will
+        save you from wasting money on underdosed products for the rest of
+        your life.
+      </Callout>
+
       <h2>Step 1: Check the Serving Size (The Sneakiest Trick in the Industry)</h2>
       <p>
         Always start here. Always. This is where supplement companies play
         the most common trick in the book.
       </p>
+
+      <Callout variant="warning" title="The serving size trap">
+        A product screams &ldquo;500mg Magnesium!&rdquo; on the front. You
+        flip it over: <em>Serving Size: 3 capsules</em>. If you pop one
+        capsule a day, you&rsquo;re getting 167mg, not 500. This trick is
+        everywhere and perfectly legal.
+      </Callout>
+
       <p>
         A product screams &ldquo;500mg Magnesium!&rdquo; on the front label.
         You flip it over, check the Supplement Facts panel, and there it
@@ -73,13 +107,14 @@ export function HowToReadSupplementLabel() {
         <li><strong>Vitamin D3:</strong> 1,000&ndash;5,000 IU depending on your blood levels.</li>
         <li><strong>L-theanine:</strong> 200mg. Many products contain 100mg.</li>
       </ul>
-      <p>
+
+      <Callout variant="info" title="Label decoration">
         The industry term for including an ingredient at a tiny, ineffective
-        dose is <strong>&ldquo;label decoration&rdquo;</strong> &mdash; it&rsquo;s
-        there to look impressive on the panel, not to do anything in your
-        body. This is especially rampant in multivitamins, greens powders,
+        dose is <strong>&ldquo;label decoration&rdquo;</strong> &mdash;
+        it&rsquo;s there to look impressive on the panel, not to do anything
+        in your body. Especially rampant in multivitamins, greens powders,
         and &ldquo;all-in-one&rdquo; formulas.
-      </p>
+      </Callout>
 
       <h2>Step 3: Check the Form (Bioavailability Is Not Optional)</h2>
       <p>
@@ -105,7 +140,7 @@ export function HowToReadSupplementLabel() {
           significantly more effective at raising and maintaining blood levels
           than D2 (ergocalciferol). A 2012 meta-analysis in the{" "}
           <em>American Journal of Clinical Nutrition</em> confirmed D3&rsquo;s
-          superiority. If your product uses D2, switch.
+          superiority. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Folic acid vs. methylfolate (5-MTHF):</strong> This one&rsquo;s
@@ -128,7 +163,25 @@ export function HowToReadSupplementLabel() {
         </li>
       </ul>
 
+      <ProductRow
+        title="Examples of bioavailable forms done right"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-b-complex-12"],
+        ]}
+      />
+
       <h2>Step 4: Spot Proprietary Blends (The Biggest Red Flag)</h2>
+
+      <Callout variant="warning" title="Proprietary blends hide underdosing">
+        A label reading &ldquo;Neuro Focus Matrix (800mg): L-Tyrosine,
+        Alpha-GPC, Bacopa, Lion&rsquo;s Mane, Huperzine A&rdquo; tells you
+        the total is 800mg but hides individual amounts. It could be 790mg of
+        the cheapest ingredient and 2mg of everything else. This is legal.
+        Every reputable brand fully discloses individual amounts.
+      </Callout>
+
       <p>
         If a supplement label includes a <strong>proprietary blend</strong>,
         treat it as a red flag until proven otherwise. Here&rsquo;s what
@@ -189,6 +242,16 @@ export function HowToReadSupplementLabel() {
         on the FDA to prove a product is <em>unsafe</em> rather than
         requiring the manufacturer to prove it&rsquo;s effective.
       </p>
+
+      <Callout variant="info" title="Certification tiers">
+        <strong>USP Verified</strong> is the gold standard (potency, purity,
+        dissolution, manufacturing). <strong>NSF Certified for Sport</strong>{" "}
+        and <strong>Informed Sport</strong> add banned-substance testing.{" "}
+        <strong>GMP Certified</strong> is an FDA baseline requirement, not a
+        differentiator &mdash; it&rsquo;s like a restaurant advertising
+        &ldquo;We Wash Our Hands.&rdquo;
+      </Callout>
+
       <p>
         Third-party certifications are the closest thing to independent
         quality verification. Here&rsquo;s what they mean, ranked by rigor:
@@ -248,19 +311,13 @@ export function HowToReadSupplementLabel() {
         actually get 60 effective servings &mdash; and your real cost per
         serving just doubled.
       </p>
-      <p>
-        Example: Two fish oil bottles. Product A costs $30 for 60 softgels
-        with 500mg EPA+DHA each. Product B costs $20 for 90 softgels with
-        300mg EPA+DHA each. You need ~1,000mg EPA+DHA daily.
-      </p>
-      <ul>
-        <li>Product A: $30 &divide; 30 effective servings (2 caps/day) = <strong>$1.00/day</strong></li>
-        <li>Product B: $20 &divide; 27 effective servings (3.3 caps/day) = <strong>$0.74/day</strong></li>
-      </ul>
-      <p>
-        Product B is cheaper per effective dose despite the lower per-cap
-        EPA+DHA. But you&rsquo;d never know that from the shelf price.
-      </p>
+
+      <Callout variant="tip" title="The real cost formula">
+        Example: Two fish oil bottles. Product A: $30, 60 softgels, 500mg
+        EPA+DHA each = $1.00/day (2 caps). Product B: $20, 90 softgels,
+        300mg EPA+DHA each = $0.74/day (3.3 caps). Product B is cheaper
+        per effective dose despite the lower per-cap EPA+DHA.
+      </Callout>
 
       <h2>Ignore the Front Label (Seriously)</h2>
       <p>
@@ -311,6 +368,16 @@ export function HowToReadSupplementLabel() {
         There are too many good products out there to settle for mediocre
         ones.
       </p>
+
+      <ProductRow
+        title="Products that pass the checklist"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["thorne-omega-3-coq10"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 

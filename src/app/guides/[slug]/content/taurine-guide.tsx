@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function TaurineGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "Taurine is a calming compound, not a stimulant — despite its association with energy drinks",
+          "A landmark 2023 Science study linked taurine deficiency to accelerated aging, with supplementation extending mouse lifespan by 10-12%",
+          "Human blood taurine levels decline by ~80% between childhood and old age",
+          "1-3g daily for general health; 3-6g for longevity focus — with one of the cleanest safety profiles of any supplement",
+        ]}
+      />
+
       <p>
         You&rsquo;ve probably seen taurine on the back of a Red Bull can and
         never given it a second thought. It&rsquo;s listed right there between
@@ -13,6 +34,14 @@ export function TaurineGuide() {
         and sugar &mdash; the taurine is quietly doing something far more
         interesting.
       </p>
+
+      <Callout variant="info" title="Not what you think">
+        Despite its association with energy drinks, taurine is actually an
+        inhibitory neuromodulator &mdash; closer to a calming compound than a
+        stimulant. The &ldquo;energy&rdquo; from energy drinks comes from
+        caffeine and sugar. Taurine may actually smooth out caffeine jitters.
+      </Callout>
+
       <p>
         And in 2023, taurine went from &ldquo;that thing in energy
         drinks&rdquo; to one of the most talked-about molecules in
@@ -36,7 +65,7 @@ export function TaurineGuide() {
         Dietary sources include meat, fish, and shellfish &mdash; vegans and
         vegetarians have consistently lower plasma taurine levels, as
         documented by Laidlaw et al. (1988) in the{" "}
-        <em>American Journal of Clinical Nutrition</em>.
+        <em>American Journal of Clinical Nutrition</em>. <EvidenceBadge level="moderate" />
       </p>
       <p>
         What does taurine actually <em>do</em>? The list is surprisingly
@@ -73,11 +102,18 @@ export function TaurineGuide() {
       </ul>
 
       <h2>The Longevity Bombshell: Singh et al. (2023)</h2>
+
+      <Callout variant="evidence" title="Landmark longevity study">
+        In June 2023, Singh et al. published &ldquo;Taurine deficiency as a
+        driver of aging&rdquo; in <em>Science</em> (Vol. 380, Issue 6649).
+        Taurine supplementation in middle-aged mice increased median lifespan
+        by <strong>10&ndash;12%</strong> and improved healthspan markers
+        including bone density, muscle strength, immune function, and glucose
+        tolerance. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
-        In June 2023, Vijay Yadav and colleagues published{" "}
-        <strong>&ldquo;Taurine deficiency as a driver of aging&rdquo;</strong>{" "}
-        in <em>Science</em> (Singh et al., Vol. 380, Issue 6649). This
-        wasn&rsquo;t a small pilot study or an in-vitro experiment &mdash;
+        This wasn&rsquo;t a small pilot study or an in-vitro experiment &mdash;
         it was a massive, multi-species investigation that made a bold
         claim: taurine deficiency doesn&rsquo;t just correlate with aging,
         it <em>drives</em> it.
@@ -108,12 +144,16 @@ export function TaurineGuide() {
           function, cellular senescence, and chronic inflammation.
         </li>
       </ul>
+
+      <Callout variant="warning" title="Important caveats">
+        This is an animal study. Mice are not humans. The lifespan extension
+        in mice doesn&rsquo;t directly translate to a 10% increase in human
+        lifespan. The supplementation doses were high (roughly equivalent to
+        3&ndash;6g per day in humans). Human longevity trials are needed.
+      </Callout>
+
       <p>
-        The caveats are important. This is an animal study. Mice are not
-        humans. The lifespan extension in mice doesn&rsquo;t directly
-        translate to a 10% increase in human lifespan. And the
-        supplementation doses were high (roughly equivalent to 3&ndash;6g
-        per day in humans, depending on body weight scaling). But the
+        But the
         breadth of the study &mdash; spanning multiple species, multiple
         aging hallmarks, and multiple organ systems &mdash; is why it
         generated so much attention. It&rsquo;s one of the strongest
@@ -130,6 +170,8 @@ export function TaurineGuide() {
         covers how to prioritize and layer these interventions.
       </p>
 
+      <ProductCallout product={PRODUCTS["nootropics-depot-taurine"]} />
+
       <h2>Cardiovascular Evidence</h2>
       <p>
         Taurine&rsquo;s cardiovascular benefits have the most robust human
@@ -139,7 +181,7 @@ export function TaurineGuide() {
         supplementation significantly{" "}
         <strong>reduced systolic and diastolic blood pressure</strong>,
         with effects comparable to some first-line antihypertensive
-        medications at doses of 1&ndash;6g per day.
+        medications at doses of 1&ndash;6g per day. <EvidenceBadge level="strong" />
       </p>
       <p>
         The mechanism appears to involve multiple pathways: taurine
@@ -149,7 +191,7 @@ export function TaurineGuide() {
         vessel walls. A 2012 study by Sun et al. in the{" "}
         <em>Journal of Biomedical Science</em> demonstrated that taurine
         supplementation at 1.6g/day for 12 weeks improved arterial
-        stiffness and endothelial function in young overweight adults.
+        stiffness and endothelial function in young overweight adults. <EvidenceBadge level="moderate" />
       </p>
       <p>
         For anyone managing blood pressure or concerned about
@@ -166,7 +208,7 @@ export function TaurineGuide() {
         on endurance and time-to-exhaustion protocols. The findings: taurine
         supplementation at <strong>1&ndash;6g doses</strong>, taken
         1&ndash;3 hours before exercise, significantly{" "}
-        <strong>improved endurance performance</strong>. The proposed
+        <strong>improved endurance performance</strong>. <EvidenceBadge level="strong" /> The proposed
         mechanisms include enhanced fat oxidation during exercise, improved
         calcium handling in skeletal muscle (leading to stronger
         contractions), and reduced exercise-induced oxidative damage.
@@ -183,6 +225,31 @@ export function TaurineGuide() {
         , taurine slots in naturally alongside caffeine, creatine, and
         citrulline.
       </p>
+
+      <InteractionGroup title="Taurine pairings">
+        <InteractionCard
+          type="synergy"
+          a="Taurine"
+          b="Caffeine"
+          effect="Taurine may counteract caffeine's jitteriness and anxiety while preserving the performance boost. The calming + stimulating combination appears complementary."
+          recommendation="1-3g taurine alongside your usual caffeine dose pre-workout. This is why energy drinks include both."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Taurine"
+          b="Magnesium"
+          effect="Both support cardiovascular function independently. Magnesium taurate delivers both in a single chelated form."
+          recommendation="Consider magnesium taurate if you want both minerals. Otherwise, they can be taken together without interaction."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Taurine"
+          b="Creatine"
+          effect="Both support cellular energy production through different mechanisms. Taurine enhances fat oxidation while creatine supports ATP recycling."
+          recommendation="Stack together in pre-workout. No timing conflicts."
+        />
+      </InteractionGroup>
+
       <p>
         Interestingly, taurine may also <em>counteract</em> some of
         caffeine&rsquo;s negative effects. While caffeine stimulates the
@@ -266,7 +333,7 @@ export function TaurineGuide() {
         independently support endothelial function, blood pressure
         regulation, and anti-inflammatory pathways. The synergy is
         logical, though head-to-head trials comparing magnesium taurate to
-        other magnesium forms are still limited.
+        other magnesium forms are still limited. <EvidenceBadge level="emerging" />
       </p>
       <p>
         For a deeper dive on choosing between magnesium forms, see our{" "}
@@ -275,6 +342,14 @@ export function TaurineGuide() {
         </a>
         .
       </p>
+
+      <ProductRow
+        title="Taurine + magnesium stack"
+        products={[
+          PRODUCTS["nootropics-depot-taurine"],
+          PRODUCTS["nootropics-depot-magnesium-glycinate"],
+        ]}
+      />
 
       <h2>Safety: Remarkably Clean</h2>
       <p>
@@ -286,7 +361,7 @@ export function TaurineGuide() {
         <em>Regulatory Toxicology and Pharmacology</em> established an
         Observed Safe Level (OSL) of <strong>3g per day</strong> based on
         the available clinical trial data at the time, with no identified
-        upper limit of toxicity.
+        upper limit of toxicity. <EvidenceBadge level="strong" />
       </p>
       <p>
         Side effects at normal supplemental doses (1&ndash;6g) are
@@ -296,6 +371,14 @@ export function TaurineGuide() {
         on an empty stomach, easily avoided by taking taurine with food
         or splitting the dose.
       </p>
+
+      <Callout variant="tip" title="Zero-downside bet">
+        Taurine has no significant drug interactions and no meaningful side
+        effects at doses up to 6g/day. The downside risk is essentially zero,
+        which changes the cost-benefit calculation considerably compared to
+        most supplements.
+      </Callout>
+
       <p>
         This safety profile is one of taurine&rsquo;s strongest practical
         arguments. Many supplements with promising evidence carry

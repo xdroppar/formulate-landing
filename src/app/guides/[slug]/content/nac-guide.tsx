@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function NACGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "NAC is the most efficient oral precursor to glutathione — your body's master antioxidant",
+          "Hospital standard of care for acetaminophen overdose; FDA-approved as a mucolytic",
+          "Emerging evidence for OCD, addiction, and depression as an adjunctive treatment",
+          "600mg twice daily on an empty stomach; take before (never during) drinking alcohol",
+        ]}
+      />
+
       <p>
         Here&rsquo;s a supplement with a strange resume: it&rsquo;s been
         used in emergency rooms for decades to save people from
@@ -28,6 +49,14 @@ export function NACGuide() {
         and glutamic acid, but cysteine availability determines how much
         glutathione you can produce.
       </p>
+
+      <Callout variant="info" title="Why NAC instead of glutathione?">
+        Oral glutathione has terrible bioavailability — it gets broken down
+        in your digestive tract before reaching cells. NAC sidesteps the
+        problem by giving your cells the raw material (cysteine) and letting
+        them build glutathione on-site, where it&rsquo;s actually needed.
+      </Callout>
+
       <p>
         Why not just take glutathione directly? Because oral glutathione has
         terrible bioavailability. It gets broken down in your digestive
@@ -42,7 +71,8 @@ export function NACGuide() {
         Therapeutics</em> laid out the biochemistry clearly: NAC replenishes
         intracellular cysteine pools, which directly increases glutathione
         synthesis in the liver, lungs, and kidneys &mdash; the organs with
-        the highest detoxification burden.
+        the highest detoxification burden.{" "}
+        <EvidenceBadge level="strong" />
       </p>
 
       <h2>The Evidence: Where NAC Is Strongest</h2>
@@ -55,8 +85,17 @@ export function NACGuide() {
         intervention, this causes acute liver failure. IV NAC is the
         standard antidote, used in emergency departments worldwide since
         the 1970s. It works by rapidly restoring glutathione levels so the
-        liver can neutralize NAPQI before irreversible damage occurs.
+        liver can neutralize NAPQI before irreversible damage occurs.{" "}
+        <EvidenceBadge level="strong" />
       </p>
+
+      <Callout variant="evidence" title="Decades of clinical proof">
+        NAC&rsquo;s glutathione-replenishing mechanism isn&rsquo;t theoretical.
+        It&rsquo;s been the hospital standard of care for acetaminophen
+        overdose since the 1970s — genuinely, measurably replenishing
+        glutathione when it matters most.
+      </Callout>
+
       <p>
         This isn&rsquo;t theoretical or preliminary. It&rsquo;s established
         medicine with decades of clinical use. It tells you something
@@ -72,7 +111,7 @@ export function NACGuide() {
         cystic fibrosis, COPD, and other respiratory conditions. If
         you&rsquo;ve ever had a stubborn chest cold, NAC at 600mg twice
         daily can meaningfully reduce mucus thickness and make productive
-        coughing easier.
+        coughing easier. <EvidenceBadge level="strong" />
       </p>
 
       <h3>Mental Health: OCD, Addiction, and Compulsive Behaviors</h3>
@@ -89,7 +128,8 @@ export function NACGuide() {
         controlled trial in <em>Biological Psychiatry</em> showing that
         NAC at 1,200&ndash;2,400mg/day significantly reduced gambling urges
         in pathological gamblers compared to placebo. 83% of NAC
-        participants were classified as responders versus 29% on placebo.
+        participants were classified as responders versus 29% on placebo.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         <strong>Berk et al. (2013)</strong>, in a meta-analysis published in{" "}
@@ -98,21 +138,32 @@ export function NACGuide() {
         its use as an adjunctive treatment for depression, bipolar disorder,
         OCD, and addiction. The proposed mechanism: by normalizing glutamate
         signaling, NAC reduces the compulsive &ldquo;pull&rdquo; that
-        underlies these conditions.
+        underlies these conditions. <EvidenceBadge level="moderate" />
       </p>
       <p>
         <strong>Deepmala et al. (2015)</strong> published a systematic review
         in <em>The Journal of Clinical Psychiatry</em> covering 16 RCTs
         across psychiatric and neurological conditions. They found the
         strongest evidence for NAC in depressive symptoms, with emerging
-        support for addiction, OCD, and schizophrenia.
+        support for addiction, OCD, and schizophrenia.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
+
+      <Callout variant="tip" title="NAC is an adjunct, not a replacement">
+        NAC is not a replacement for psychiatric medication. But as an adjunct
+        — something you take alongside conventional treatment — the evidence
+        for compulsive behaviors and depression is surprisingly solid for a
+        supplement.
+      </Callout>
+
       <p>
         To be clear: NAC is not a replacement for psychiatric medication.
         But as an adjunct &mdash; something you take alongside conventional
         treatment &mdash; the evidence is surprisingly solid for a
         supplement.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-nac"]} />
 
       <h2>Liver Support and Detoxification</h2>
       <p>
@@ -128,7 +179,7 @@ export function NACGuide() {
         non-alcoholic fatty liver disease (NAFLD). For people who drink
         regularly, take frequent Tylenol, or live in high-pollution
         environments, NAC provides meaningful support to a system that&rsquo;s
-        under chronic load.
+        under chronic load. <EvidenceBadge level="moderate" />
       </p>
       <p>
         If you&rsquo;re building a longevity-oriented stack, liver
@@ -140,6 +191,13 @@ export function NACGuide() {
       </p>
 
       <h2>The FDA Controversy</h2>
+
+      <Callout variant="info" title="FDA status resolved">
+        In 2020, the FDA briefly tried to ban NAC as a supplement, arguing
+        it was approved as a drug first. By 2022, they reversed course and
+        NAC returned to shelves. It&rsquo;s widely available again.
+      </Callout>
+
       <p>
         In 2020, the FDA sent warning letters to several NAC supplement
         manufacturers, arguing that because NAC was approved as a drug
@@ -191,6 +249,31 @@ export function NACGuide() {
         </li>
       </ul>
 
+      <InteractionGroup title="NAC synergies">
+        <InteractionCard
+          type="synergy"
+          a="NAC"
+          b="Vitamin C"
+          effect="Vitamin C recycles oxidized glutathione back to its active form, extending the antioxidant benefit of NAC-boosted glutathione stores."
+          recommendation="Take together for comprehensive antioxidant support."
+        />
+        <InteractionCard
+          type="synergy"
+          a="NAC"
+          b="Glycine"
+          effect="Cysteine (from NAC) and glycine are the two rate-limiting amino acids for glutathione synthesis. Older adults especially benefit from both."
+          recommendation="Consider adding 3g glycine, particularly if over 50."
+        />
+      </InteractionGroup>
+
+      <ProductRow
+        title="NAC stack essentials"
+        products={[
+          PRODUCTS["thorne-nac"],
+          PRODUCTS["thorne-glycine"],
+        ]}
+      />
+
       <h2>Who Benefits Most</h2>
       <p>
         NAC isn&rsquo;t for everyone in the same way magnesium or vitamin D
@@ -241,6 +324,14 @@ export function NACGuide() {
         body odor in some people &mdash; this is harmless but worth knowing
         about.
       </p>
+
+      <Callout variant="tip" title="Timing around exercise">
+        Because NAC is a potent antioxidant, very high doses could
+        theoretically blunt the hormetic stress response from exercise. If
+        this concerns you, take NAC away from your training window — morning
+        and evening dosing with afternoon training, for example.
+      </Callout>
+
       <p>
         One theoretical concern: because NAC is a potent antioxidant, very
         high doses could theoretically blunt the hormetic stress response
@@ -279,6 +370,14 @@ export function NACGuide() {
       </p>
 
       <h3>Should I take NAC before or after drinking alcohol?</h3>
+
+      <Callout variant="warning" title="Before drinking, never during">
+        Take NAC 30&ndash;60 minutes before your first drink to pre-load
+        glutathione. Do NOT take NAC during or after active drinking — animal
+        data suggests NAC combined with alcohol and acetaldehyde already in
+        the liver could increase oxidative stress rather than reduce it.
+      </Callout>
+
       <p>
         <strong>Before.</strong> NAC works by pre-loading glutathione stores
         so your liver has ammunition ready when alcohol metabolites hit.
@@ -289,7 +388,8 @@ export function NACGuide() {
         some animal data (Yilmaz et al., 2016, <em>Frontiers in
         Pharmacology</em>) suggests NAC combined with alcohol and
         acetaldehyde already present in the liver could theoretically
-        increase oxidative stress rather than reduce it. Before, not during.
+        increase oxidative stress rather than reduce it. Before, not during.{" "}
+        <EvidenceBadge level="emerging" />
       </p>
 
       <h3>Why does NAC smell so bad?</h3>

@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function NootropicsGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="11 min read"
+        takeaways={[
+          "Caffeine + L-theanine is the most evidence-backed nootropic stack — simple, cheap, effective",
+          "Creatine improves short-term memory and reasoning under stress, not just muscle performance",
+          "Bacopa and lion's mane need 8–12 weeks of daily use before cognitive benefits emerge",
+          "If a product uses a proprietary blend or promises \"10x focus,\" it's selling hype, not science",
+        ]}
+      />
+
       <p>
         You&rsquo;re staring at your screen at 2 PM, re-reading the same
         paragraph for the third time, and your brain feels like it&rsquo;s
@@ -30,21 +51,21 @@ export function NootropicsGuide() {
       </p>
 
       <h2>The Foundation You Can&rsquo;t Supplement Around</h2>
-      <p>
-        Before we talk about any pill or powder, a hard truth: no nootropic
-        will compensate for poor sleep, no exercise, chronic stress, or a
-        bad diet. These aren&rsquo;t just wellness platitudes &mdash;
-        they&rsquo;re the primary drivers of cognitive performance, and
-        the research isn&rsquo;t close.
-      </p>
+
+      <Callout variant="warning" title="No nootropic compensates for poor fundamentals">
+        No supplement will reverse the cognitive cost of poor sleep, no
+        exercise, chronic stress, or a bad diet. These are the primary
+        drivers of cognitive performance, and the research isn&rsquo;t close.
+      </Callout>
+
       <p>
         A 2017 meta-analysis in <em>Sleep Medicine Reviews</em> (Lowe et
         al.) found that even one night of partial sleep restriction
         reduced working memory, attention, and processing speed by{" "}
-        <strong>15&ndash;25%</strong>. No supplement reverses that. Regular
+        <strong>15&ndash;25%</strong>. <EvidenceBadge level="strong" /> No supplement reverses that. Regular
         aerobic exercise increases BDNF (brain-derived neurotrophic factor)
         more reliably than any nootropic studied to date (Szuhany et al.,
-        2015, <em>Journal of Psychiatric Research</em>).
+        2015, <em>Journal of Psychiatric Research</em>). <EvidenceBadge level="strong" />
       </p>
       <p>
         Think of nootropics as the last 5&ndash;10% of cognitive
@@ -69,25 +90,41 @@ export function NootropicsGuide() {
         tends to increase anxiety, jitteriness, and an unfocused &ldquo;wired&rdquo;
         feeling &mdash; especially at higher doses.
       </p>
+
+      <Callout variant="evidence" title="The caffeine + L-theanine combo">
+        A landmark 2008 study by Owen et al. in <em>Nutritional
+        Neuroscience</em> showed that 100mg caffeine + 200mg L-theanine
+        improved both accuracy and speed on attention-switching tasks
+        compared to either compound alone. <EvidenceBadge level="strong" /> Subsequent studies
+        (Haskell et al., 2008, <em>Biological Psychology</em>) confirmed
+        improved attention and task-switching with the combo.
+      </Callout>
+
       <p>
-        L-theanine, an amino acid found naturally in tea leaves, solves
-        this. A landmark 2008 study by Owen et al. in{" "}
-        <em>Nutritional Neuroscience</em> showed that 100mg caffeine +
-        200mg L-theanine improved both accuracy and speed on attention-switching
-        tasks compared to either compound alone. The combination preserves
+        L-theanine, an amino acid found naturally in tea leaves, preserves
         caffeine&rsquo;s alertness benefits while smoothing out the anxiety
-        and jitteriness. Subsequent studies (Haskell et al., 2008,{" "}
-        <em>Biological Psychology</em>) confirmed improved attention and
-        task-switching with the combo.
+        and jitteriness.
       </p>
-      <p>
-        <strong>Dose:</strong> 100&ndash;200mg caffeine with 200mg
-        L-theanine. The classic ratio is 1:2 (caffeine:theanine). Take in
-        the morning or early afternoon &mdash; caffeine&rsquo;s half-life
-        of 5&ndash;6 hours means afternoon dosing disrupts sleep in most
-        people. If you already drink coffee, simply add an L-theanine
-        capsule alongside it.
-      </p>
+
+      <Callout variant="tip" title="Dosing">
+        100&ndash;200mg caffeine with 200mg L-theanine. The classic ratio
+        is 1:2 (caffeine:theanine). Take in the morning or early
+        afternoon &mdash; caffeine&rsquo;s half-life of 5&ndash;6 hours
+        means afternoon dosing disrupts sleep in most people. If you
+        already drink coffee, simply add an L-theanine capsule alongside it.
+      </Callout>
+
+      <InteractionGroup title="Caffeine + L-Theanine synergy">
+        <InteractionCard
+          type="synergy"
+          a="Caffeine"
+          b="L-Theanine"
+          effect="L-theanine promotes alpha brain wave activity, counteracting caffeine's tendency to increase anxiety and jitteriness while preserving alertness."
+          recommendation="Use a 1:2 ratio (100mg caffeine : 200mg L-theanine). Add L-theanine to your existing coffee habit."
+        />
+      </InteractionGroup>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-l-theanine"]} />
 
       <h3>Creatine (Not Just for Muscles)</h3>
       <p>
@@ -100,19 +137,18 @@ export function NootropicsGuide() {
         phosphocreatine to buffer ATP during periods of high demand, which
         is exactly why cognitive benefits emerge under stress.
       </p>
-      <p>
-        A 2018 systematic review by Avgerinos et al. in{" "}
-        <em>Experimental Gerontology</em> analyzed six RCTs and found that
-        creatine supplementation significantly improved{" "}
-        <strong>short-term memory and reasoning</strong>, with the strongest
-        effects appearing under conditions of{" "}
-        <strong>sleep deprivation and mental fatigue</strong>. A 2003 study
-        by Rae et al. in the <em>Proceedings of the Royal Society B</em>{" "}
-        showed creatine supplementation improved working memory and
-        processing speed in vegetarians &mdash; who tend to have lower
-        baseline creatine stores since dietary creatine comes almost
-        exclusively from meat.
-      </p>
+
+      <Callout variant="evidence" title="Creatine and cognition">
+        A 2018 systematic review by Avgerinos et al. in <em>Experimental
+        Gerontology</em> analyzed six RCTs and found that creatine
+        supplementation significantly improved short-term memory and
+        reasoning, with the strongest effects under sleep deprivation and
+        mental fatigue. <EvidenceBadge level="strong" /> A 2003 study by Rae et al. showed
+        creatine improved working memory and processing speed in
+        vegetarians &mdash; who have lower baseline creatine stores.
+        <EvidenceBadge level="moderate" />
+      </Callout>
+
       <p>
         <strong>Dose:</strong> 3&ndash;5g creatine monohydrate daily. No
         loading phase necessary for cognitive benefits &mdash; it
@@ -121,6 +157,14 @@ export function NootropicsGuide() {
         effects. Creatine monohydrate is the only form with strong
         evidence; skip the fancy variants.
       </p>
+
+      <ProductRow
+        title="Top-scored creatine"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h3>Omega-3 DHA (Structural Brain Support)</h3>
       <p>
@@ -132,20 +176,24 @@ export function NootropicsGuide() {
         appears most beneficial for people with low baseline intake (i.e.,
         those who don&rsquo;t eat fatty fish regularly).
       </p>
-      <p>
+
+      <Callout variant="evidence" title="MIDAS trial">
         A 2012 study by Yurko-Mauro et al. in <em>Alzheimer&rsquo;s &amp;
-        Dementia</em> (the MIDAS trial) found that 900mg DHA daily for 24
-        weeks significantly improved episodic memory in healthy older adults
-        with mild memory complaints. The benefits weren&rsquo;t dramatic
-        on a day-to-day basis, but the trajectory of cognitive preservation
-        over time is what matters with DHA.
-      </p>
+        Dementia</em> found that 900mg DHA daily for 24 weeks significantly
+        improved episodic memory in healthy older adults with mild memory
+        complaints. <EvidenceBadge level="strong" /> The benefits aren&rsquo;t dramatic on a
+        day-to-day basis, but the trajectory of cognitive preservation over
+        time is what matters with DHA.
+      </Callout>
+
       <p>
         <strong>Dose:</strong> 1&ndash;2g combined EPA/DHA daily, with at
         least 500mg from DHA specifically. Take with a fat-containing meal
         for absorption. This is a long-game supplement &mdash; think months
         and years, not days.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h2>Tier 2: Moderate Evidence (Worth Considering)</h2>
       <p>
@@ -164,18 +212,19 @@ export function NootropicsGuide() {
         (2009, <em>Phytotherapy Research</em>) conducted a double-blind,
         placebo-controlled trial showing that 3g/day of lion&rsquo;s mane
         for 16 weeks significantly improved cognitive function scores in
-        older adults with mild cognitive impairment. Benefits disappeared
+        older adults with mild cognitive impairment. <EvidenceBadge level="moderate" /> Benefits disappeared
         four weeks after stopping supplementation, suggesting an ongoing
         mechanism rather than a permanent structural change.
       </p>
-      <p>
-        <strong>Dose:</strong> 500&ndash;3,000mg daily of a fruiting body
-        extract standardized for beta-glucans and hericenones. Mycelium-on-grain
-        products are typically lower potency. We cover this in depth in our{" "}
+
+      <Callout variant="tip" title="Lion's mane dosing">
+        500&ndash;3,000mg daily of a fruiting body extract standardized for
+        beta-glucans and hericenones. Mycelium-on-grain products are
+        typically lower potency. We cover this in depth in our{" "}
         <a href="/guides/lions-mane-guide">
           complete lion&rsquo;s mane guide
         </a>.
-      </p>
+      </Callout>
 
       <h3>Bacopa Monnieri</h3>
       <p>
@@ -184,7 +233,7 @@ export function NootropicsGuide() {
         <em>Journal of Ethnopharmacology</em> pooled nine RCTs and
         concluded that bacopa significantly improved{" "}
         <strong>attention, cognitive processing speed, and working
-        memory</strong> in healthy subjects. The catch? Effects typically
+        memory</strong> in healthy subjects. <EvidenceBadge level="moderate" /> The catch? Effects typically
         require <strong>8&ndash;12 weeks</strong> of consistent use to
         emerge. This isn&rsquo;t a take-it-and-feel-it supplement &mdash;
         it&rsquo;s a slow-building cognitive support.
@@ -196,7 +245,7 @@ export function NootropicsGuide() {
         found that 300mg of a standardized extract (KeenMind&reg;, 55%
         bacosides) improved the speed of visual information processing,
         learning rate, and memory consolidation in healthy adults over 12
-        weeks.
+        weeks. <EvidenceBadge level="moderate" />
       </p>
       <p>
         <strong>Dose:</strong> 300&ndash;600mg daily of an extract
@@ -219,7 +268,7 @@ export function NootropicsGuide() {
         A 2003 clinical trial by De Jesus Moreno Moreno in{" "}
         <em>Clinical Therapeutics</em> found that 1,200mg/day of alpha-GPC
         improved cognitive scores in patients with mild to moderate
-        Alzheimer&rsquo;s dementia over 180 days. In healthy adults, the
+        Alzheimer&rsquo;s dementia over 180 days. <EvidenceBadge level="moderate" /> In healthy adults, the
         evidence is thinner but directionally positive, particularly for
         people with low dietary choline intake (eggs and liver are the
         primary food sources, and many people under-consume both).
@@ -230,6 +279,16 @@ export function NootropicsGuide() {
         Alpha-GPC is hygroscopic (absorbs moisture), so store it sealed
         and in a cool place.
       </p>
+
+      <InteractionGroup title="Cholinergic stacking caution">
+        <InteractionCard
+          type="conflict"
+          a="Alpha-GPC"
+          b="Other cholinergics (e.g. CDP-Choline)"
+          effect="Stacking multiple cholinergic compounds can cause excess acetylcholine — headache, jaw tension, brain fog."
+          recommendation="Pick one choline source. Add one new compound at a time and run it for 2–4 weeks before stacking."
+        />
+      </InteractionGroup>
 
       <h2>Tier 3: Emerging or Mixed Evidence</h2>
       <p>
@@ -246,7 +305,7 @@ export function NootropicsGuide() {
         family modulates glutamate and acetylcholine signaling, and there
         is <em>some</em> evidence for cognitive benefits in elderly
         populations with cognitive decline (Waegemans et al., 2002,{" "}
-        <em>Dementia and Geriatric Cognitive Disorders</em>). However,
+        <em>Dementia and Geriatric Cognitive Disorders</em>). <EvidenceBadge level="emerging" /> However,
         evidence in healthy young adults is weak and inconsistent.
         Racetams are prescription medications in many European countries
         and exist in a regulatory gray zone in the US &mdash; not
@@ -256,17 +315,20 @@ export function NootropicsGuide() {
       </p>
 
       <h3>Modafinil</h3>
+
+      <Callout variant="warning" title="This is a prescription drug, not a supplement">
+        Modafinil is a prescription wakefulness-promoting agent approved for
+        narcolepsy, shift-work sleep disorder, and obstructive sleep apnea.
+        It requires a prescription, has side effects (headache, insomnia,
+        appetite suppression), and carries legal risks if obtained without one.
+      </Callout>
+
       <p>
-        Modafinil is a prescription wakefulness-promoting agent approved
-        for narcolepsy, shift-work sleep disorder, and obstructive sleep
-        apnea. It is emphatically <strong>not a supplement</strong>.
         Including it here because it appears constantly in nootropic
         communities and the distinction matters. Battleday &amp; Brem (2015,{" "}
         <em>European Neuropsychopharmacology</em>) conducted a systematic
         review finding that modafinil did enhance attention and executive
-        function in non-sleep-deprived individuals, but it requires a
-        prescription, has side effects (headache, insomnia, appetite
-        suppression), and carries legal risks if obtained without one.
+        function in non-sleep-deprived individuals. <EvidenceBadge level="moderate" />
       </p>
 
       <h3>Noopept</h3>
@@ -275,18 +337,19 @@ export function NootropicsGuide() {
         racetams but structurally distinct. Noopept has shown
         neuroprotective effects in animal models and some preliminary
         human data in cognitively impaired populations (Neznamov &amp;
-        Teleshova, 2009, <em>Neuroscience and Behavioral Physiology</em>).
+        Teleshova, 2009, <em>Neuroscience and Behavioral Physiology</em>). <EvidenceBadge level="emerging" />{" "}
         It&rsquo;s potent at very low doses (10&ndash;30mg) but lacks
         robust human RCT data in healthy adults. Another
         self-experimentation compound.
       </p>
 
       <h2>Red Flags in Nootropic Marketing</h2>
-      <p>
-        The nootropics space attracts more snake oil than almost any other
-        supplement category. Here&rsquo;s what should make you immediately
-        skeptical:
-      </p>
+
+      <Callout variant="warning" title="The nootropics space is full of snake oil">
+        More than almost any other supplement category, nootropics attract
+        products with unsubstantiated claims. Know what to look for.
+      </Callout>
+
       <ul>
         <li>
           <strong>Proprietary blends.</strong> If a product lists
@@ -365,6 +428,16 @@ export function NootropicsGuide() {
         compounds.
       </p>
 
+      <ProductRow
+        title="The evidence-based cognitive stack"
+        products={[
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["thorne-super-epa-pro"],
+          PRODUCTS["nootropics-depot-cognizin"],
+        ]}
+      />
+
       <h2>The Role of Adaptogens</h2>
       <p>
         Adaptogens like{" "}
@@ -375,17 +448,24 @@ export function NootropicsGuide() {
         hippocampal function (memory consolidation), reduces prefrontal
         cortex activity (executive function), and fragments attention.
       </p>
-      <p>
+
+      <Callout variant="tip" title="When stress is the bottleneck">
         If your cognitive fog is driven by stress and anxiety rather than
         raw processing-speed limitations, an adaptogen may do more for your
         subjective experience of &ldquo;mental clarity&rdquo; than a
-        traditional nootropic. Ashwagandha in particular has solid human
+        traditional nootropic.
+      </Callout>
+
+      <p>
+        Ashwagandha in particular has solid human
         data for reducing perceived stress and anxiety (Chandrasekhar et
-        al., 2012, <em>Indian Journal of Psychological Medicine</em>).
+        al., 2012, <em>Indian Journal of Psychological Medicine</em>). <EvidenceBadge level="strong" />{" "}
         It won&rsquo;t make you &ldquo;smarter,&rdquo; but it may remove
         the stress-induced cognitive ceiling that no amount of caffeine
         or lion&rsquo;s mane can fix.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
 
       <h2>Frequently Asked Questions</h2>
 
@@ -441,7 +521,7 @@ export function NootropicsGuide() {
         by Marschall et al. in <em>Translational Psychiatry</em> found
         that microdosing psilocybin did not improve cognitive performance,
         emotional processing, or creativity compared to placebo over four
-        weeks. Positive reports from open-label and anecdotal sources
+        weeks. <EvidenceBadge level="emerging" /> Positive reports from open-label and anecdotal sources
         likely reflect expectation effects. Psychedelics also carry legal
         risk in most jurisdictions. We won&rsquo;t say &ldquo;never,&rdquo;
         but the evidence doesn&rsquo;t currently support microdosing as
@@ -464,6 +544,17 @@ export function NootropicsGuide() {
         That&rsquo;s it. That&rsquo;s the evidence-based nootropic stack
         for someone who wants to think more clearly without getting scammed.
       </p>
+
+      <ProductRow
+        title="Build your cognitive stack"
+        products={[
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["nootropics-depot-creatine"],
+          PRODUCTS["thorne-super-epa-pro"],
+          PRODUCTS["thorne-ashwagandha"],
+        ]}
+      />
+
       <p>
         <a href="https://app.formulate-health.app/catalog">
           Explore cognitive supplements in the Formulate catalog &rarr;

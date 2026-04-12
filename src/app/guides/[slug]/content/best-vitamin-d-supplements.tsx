@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BestVitaminD() {
   return (
     <>
+      <TLDRBox
+        readTime="9 min read"
+        takeaways={[
+          "D3 is 87% more effective than D2 at raising blood levels — always choose D3",
+          "Pair with K2 (MK-7) at doses above 2,000 IU to direct calcium into bones, not arteries",
+          "Take with a fat-containing meal — absorption increases up to 50%",
+          "Get a 25(OH)D blood test ($30–60) to find your ideal dose instead of guessing",
+        ]}
+      />
+
       <p>
         Here&rsquo;s a number that should bother you: 42% of American adults are
         vitamin D deficient. If you work indoors, live above the 37th parallel
@@ -12,15 +33,14 @@ export function BestVitaminD() {
       </p>
 
       <h2>D3 vs. D2: This Is Not a Close Contest</h2>
-      <p>
-        Vitamin D comes in two forms: D3 (cholecalciferol) and D2
-        (ergocalciferol). If you remember one thing from this guide, make it this:
-        <strong> D3 is roughly 87% more effective at raising blood levels than
-        D2</strong>. That&rsquo;s not marketing &mdash; it&rsquo;s from a 2012
-        meta-analysis by Tripkovic et al. in the{" "}
-        <em>American Journal of Clinical Nutrition</em> that pooled data across
-        multiple randomized controlled trials.
-      </p>
+
+      <Callout variant="evidence" title="D3 outperforms D2 by 87%">
+        A 2012 meta-analysis by Tripkovic et al. in the{" "}
+        <em>American Journal of Clinical Nutrition</em> pooled data across multiple
+        RCTs and found D3 (cholecalciferol) is roughly 87% more effective at
+        raising blood levels than D2 (ergocalciferol). <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         D2 is cheaper to produce and is the form historically used in prescription
         vitamin D supplements. But it clears from your bloodstream faster and is
@@ -38,13 +58,37 @@ export function BestVitaminD() {
         direct calcium into bones and teeth while keeping it out of soft tissues
         and blood vessels.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="K2 improves arterial health">
         A 2017 study by Knapen et al. in <em>Thrombosis and Haemostasis</em> found
         that MK-7 supplementation (180mcg/day for three years) significantly
-        improved arterial stiffness in healthy postmenopausal women. The D3 + K2
-        combination is increasingly recommended by integrative and longevity-focused
-        practitioners, especially at doses above 2,000 IU/day.
-      </p>
+        improved arterial stiffness in healthy postmenopausal women. <EvidenceBadge level="strong" />
+      </Callout>
+
+      <InteractionGroup title="Vitamin D synergies">
+        <InteractionCard
+          type="synergy"
+          a="Vitamin D3"
+          b="Vitamin K2 (MK-7)"
+          effect="D3 increases calcium absorption. K2 directs that calcium into bones and teeth, not arteries and soft tissue."
+          recommendation="At D3 doses above 2,000 IU, pair with 100–200mcg K2 (MK-7). Many quality products combine both."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Vitamin D3"
+          b="Dietary fat"
+          effect="D3 is fat-soluble and absorbs up to 50% better when taken with a fat-containing meal."
+          recommendation="Take with eggs, avocado, nuts, or any meal with fat. Softgels in oil have built-in absorption."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Vitamin D3"
+          b="Magnesium"
+          effect="Magnesium is required for vitamin D metabolism — converting it to its active form."
+          recommendation="Ensure adequate magnesium intake (200–400mg/day) to fully utilize your vitamin D."
+        />
+      </InteractionGroup>
+
       <p>
         <strong>Practical advice:</strong> If you&rsquo;re taking 1,000 IU or less,
         you&rsquo;re probably fine without K2 (assuming a reasonable diet). At 2,000+
@@ -52,15 +96,18 @@ export function BestVitaminD() {
         products now combine both in a single capsule or drop.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
+
       <h2>Fat-Soluble Means Take It With Fat</h2>
-      <p>
-        Vitamin D is fat-soluble, which means your body needs dietary fat to absorb
-        it properly. A 2015 study by Dawson-Hughes et al. in the{" "}
+
+      <Callout variant="evidence" title="Absorption study">
+        A 2015 study by Dawson-Hughes et al. in the{" "}
         <em>Journal of the Academy of Nutrition and Dietetics</em> found that
-        taking vitamin D with the largest meal of the day (which typically contains
-        the most fat) increased blood levels by up to 50% compared to taking it on
-        an empty stomach or with a fat-free meal.
-      </p>
+        taking vitamin D with the largest meal of the day increased blood levels
+        by up to 50% compared to taking it on an empty stomach or with a fat-free
+        meal. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         This has direct implications for product format:
       </p>
@@ -86,11 +133,17 @@ export function BestVitaminD() {
       </p>
 
       <h2>How to Determine Your Dose: Test, Don&rsquo;t Guess</h2>
+
+      <Callout variant="tip" title="A $30 blood test beats guessing">
+        A 25(OH)D blood test costs $30&ndash;60 and tells you exactly what dose
+        you need. Most adults land between 1,000 and 5,000 IU daily for
+        maintenance, but your number is personal.
+      </Callout>
+
       <p>
-        This is where vitamin D supplementation gets personal. The right dose
+        The right dose
         depends on your current blood level, which varies enormously based on
-        sun exposure, skin tone, latitude, body weight, and genetics. A 25(OH)D
-        blood test costs $30&ndash;60 and gives you the answer. Here&rsquo;s how
+        sun exposure, skin tone, latitude, body weight, and genetics. Here&rsquo;s how
         to read it:
       </p>
       <ul>
@@ -123,7 +176,7 @@ export function BestVitaminD() {
         The Endocrine Society&rsquo;s 2011 clinical practice guideline (Holick
         et al., <em>Journal of Clinical Endocrinology &amp; Metabolism</em>)
         recommends 1,500&ndash;2,000 IU/day for adults to maintain levels above
-        30 ng/mL. That&rsquo;s a reasonable starting point if you don&rsquo;t have
+        30 ng/mL. <EvidenceBadge level="strong" /> That&rsquo;s a reasonable starting point if you don&rsquo;t have
         a blood test yet, but getting tested is always better than guessing.
       </p>
 
@@ -170,6 +223,9 @@ export function BestVitaminD() {
         Certified for Sport. The liquid format makes it easy to titrate up or down
         based on blood test results. Hard to beat for a D3 + K2 combo.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
+
       <p>
         <strong>Momentous Vitamin D3</strong> offers well-dosed D3 with their
         standard high manufacturing transparency and Informed Sport certification.
@@ -181,11 +237,13 @@ export function BestVitaminD() {
         1,000 and 5,000 IU strengths to match different needs.
       </p>
       <p>
-        <strong>Thorne Vitamin D3 1,000 IU</strong> is a simple, affordable
-        maintenance option. No K2 included, so pair it separately if you&rsquo;re
-        at higher doses. Good for people who already have a K2 source in their
-        stack.
+        <strong>Thorne Vitamin D3 5,000 IU</strong> is a straightforward
+        high-dose option for those correcting a deficiency. No K2 included, so
+        pair it separately if needed.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-5000"]} />
+
       <p>
         Building a broader supplement protocol? See{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
@@ -195,28 +253,26 @@ export function BestVitaminD() {
       </p>
 
       <h2>Common Mistakes to Avoid</h2>
-      <ul>
-        <li>
-          <strong>Taking D2 because your doctor prescribed it.</strong> Prescription
-          vitamin D is often D2 (ergocalciferol) in a 50,000 IU weekly dose.
-          Ask your provider about switching to daily D3 &mdash; the evidence
-          favors it.
-        </li>
-        <li>
-          <strong>Taking it on an empty stomach.</strong> You&rsquo;re absorbing
-          up to 50% less. Take with your fattiest meal.
-        </li>
-        <li>
-          <strong>Megadosing without testing.</strong> Taking 10,000 IU/day
-          &ldquo;just in case&rdquo; without blood work is reckless. Vitamin D
-          toxicity is rare but real. Test first, dose accordingly.
-        </li>
-        <li>
-          <strong>Ignoring K2 at higher doses.</strong> D3 without K2 means more
-          calcium absorbed but less control over where it goes. Add K2 (MK-7) at
-          doses above 2,000 IU/day.
-        </li>
-      </ul>
+
+      <Callout variant="warning" title="Taking D2 because your doctor prescribed it">
+        Prescription vitamin D is often D2 (ergocalciferol) in a 50,000 IU weekly
+        dose. Ask your provider about switching to daily D3 &mdash; the evidence
+        favors it.
+      </Callout>
+
+      <Callout variant="warning" title="Taking it on an empty stomach">
+        You&rsquo;re absorbing up to 50% less. Take with your fattiest meal.
+      </Callout>
+
+      <Callout variant="warning" title="Megadosing without testing">
+        Taking 10,000 IU/day &ldquo;just in case&rdquo; without blood work is
+        reckless. Vitamin D toxicity is rare but real. Test first, dose accordingly.
+      </Callout>
+
+      <Callout variant="warning" title="Ignoring K2 at higher doses">
+        D3 without K2 means more calcium absorbed but less control over where it
+        goes. Add K2 (MK-7) at doses above 2,000 IU/day.
+      </Callout>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -244,7 +300,7 @@ export function BestVitaminD() {
       <p>
         Take it with your largest meal (for fat content). Some anecdotal reports
         suggest evening vitamin D can interfere with sleep by suppressing melatonin
-        production, though clinical evidence for this is limited. If you notice any
+        production, though clinical evidence for this is limited. <EvidenceBadge level="emerging" /> If you notice any
         sleep disruption, switch to a morning or lunchtime dose with food.
       </p>
 
@@ -265,6 +321,16 @@ export function BestVitaminD() {
         between 1,000 and 5,000 IU daily for maintenance, but your number is
         personal.
       </p>
+
+      <ProductRow
+        title="Top-scored vitamin D supplements"
+        products={[
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-vitamin-k"],
+        ]}
+      />
+
       <p>
         <a href="https://app.formulate-health.app/catalog?q=vitamin+d">
           Browse vitamin D supplements in the Formulate catalog &rarr;

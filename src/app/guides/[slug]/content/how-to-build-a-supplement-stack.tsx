@@ -1,6 +1,28 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  ScheduleTable,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function HowToBuildStack() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Start with bloodwork (vitamin D, magnesium, omega-3 index, B12, iron) — fixing deficiencies beats any exotic supplement",
+          "Foundation stack: D3+K2, omega-3, magnesium glycinate, creatine — covers the biggest gaps for ~$2/day",
+          "Add one supplement at a time with 1–2 weeks between additions to isolate effects",
+          "If you're spending $200+/month, you're almost certainly taking redundant products",
+        ]}
+      />
+
       <p>
         You&rsquo;ve watched the YouTube video. The guy with 14% body fat
         and perfect lighting just showed you his &ldquo;daily
@@ -19,14 +41,19 @@ export function HowToBuildStack() {
       </p>
 
       <h2>Step 1: Start With Deficiencies, Not Desires</h2>
+
+      <Callout variant="tip" title="The highest-ROI move in supplementation">
+        Get bloodwork. Fixing a real deficiency produces dramatically more
+        noticeable results than any exotic compound ever will. A $100 blood
+        panel tells you more than a $250/month supplement haul.
+      </Callout>
+
       <p>
         This is the single most important principle, and almost everyone
         gets it backwards. People start by googling &ldquo;best supplements
         for energy&rdquo; or &ldquo;best supplements for focus&rdquo; when
         the most impactful thing they could do is check whether they&rsquo;re
-        deficient in basic nutrients. Fixing a real deficiency produces
-        dramatically more noticeable results than any exotic compound ever
-        will.
+        deficient in basic nutrients.
       </p>
       <p>
         Get bloodwork. Specifically, ask your doctor (or use a direct-to-consumer
@@ -36,7 +63,7 @@ export function HowToBuildStack() {
         <li>
           <strong>Vitamin D (25-hydroxyvitamin D):</strong> 42% of US
           adults are deficient according to a 2011 study in{" "}
-          <em>Nutrition Research</em> (Forrest &amp; Stuhldreher). If
+          <em>Nutrition Research</em> (Forrest &amp; Stuhldreher). <EvidenceBadge level="strong" /> If
           you&rsquo;re indoors most of the day, live above the 37th
           parallel, or have darker skin, your odds of deficiency are even
           higher. Optimal range: 40&ndash;60 ng/mL.
@@ -71,6 +98,13 @@ export function HowToBuildStack() {
           genuinely backfire.
         </li>
       </ul>
+
+      <Callout variant="warning" title="Never supplement iron without testing">
+        Unlike most supplements, excess iron is actively harmful and
+        pro-oxidative. Always get ferritin levels tested before starting
+        iron supplementation.
+      </Callout>
+
       <p>
         This step alone will tell you more about what your body needs than
         any quiz, influencer, or supplement company marketing page. It&rsquo;s
@@ -90,7 +124,7 @@ export function HowToBuildStack() {
         Even if your levels aren&rsquo;t clinically deficient, maintaining
         optimal vitamin D (40&ndash;60 ng/mL) is associated with better
         immune function, bone density, mood regulation, and reduced
-        all-cause mortality in observational studies. Dose: 2,000&ndash;5,000
+        all-cause mortality in observational studies. <EvidenceBadge level="strong" /> Dose: 2,000&ndash;5,000
         IU daily, adjusted based on bloodwork. Always pair with K2
         (MK-7 form, 100&ndash;200mcg) &mdash; K2 directs calcium into
         bones and teeth rather than arteries and soft tissue.
@@ -104,6 +138,8 @@ export function HowToBuildStack() {
         </a>.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
+
       <h3>Omega-3 (EPA + DHA)</h3>
       <p>
         Target 1,000&ndash;2,000mg combined EPA+DHA daily (not total fish
@@ -112,13 +148,15 @@ export function HowToBuildStack() {
         inflammatory markers, and mood. A 2019 meta-analysis in the{" "}
         <em>Journal of the American Heart Association</em> found that
         marine omega-3 supplementation reduced cardiovascular events by
-        8% with stronger effects at higher doses.
+        8% with stronger effects at higher doses. <EvidenceBadge level="strong" />
       </p>
       <p>
         Quality matters here more than with most supplements. Look for
         products that disclose total oxidation values (TOTOX) and use
         molecular distillation. Rancid fish oil is worse than no fish oil.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h3>Magnesium Glycinate</h3>
       <p>
@@ -133,6 +171,8 @@ export function HowToBuildStack() {
         goes deeper on forms and dosing.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
+
       <h3>Creatine Monohydrate</h3>
       <p>
         3&ndash;5g daily. Yes, even if you don&rsquo;t lift weights.
@@ -142,23 +182,53 @@ export function HowToBuildStack() {
         systematic review in <em>Experimental Gerontology</em> found
         cognitive benefits in older adults, and studies in younger
         populations show improvements under sleep deprivation and mental
-        stress.
+        stress. <EvidenceBadge level="strong" />
       </p>
-      <p>
+
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
+      <Callout variant="info" title="Foundation stack cost">
         These four supplements cover the most common nutritional gaps in a
         modern diet. Total cost with quality brands: roughly $1.50&ndash;$2.00
         per day, or about $45&ndash;$60 per month.
-      </p>
+      </Callout>
+
+      <ScheduleTable
+        title="Foundation stack daily schedule"
+        slots={[
+          {
+            emoji: "🍳",
+            label: "Morning",
+            time: "With breakfast (fat-containing)",
+            color: "#F59E0B",
+            supplements: [
+              "Vitamin D3+K2 (2,000–5,000 IU D3 + 100mcg K2)",
+              "Omega-3 (1,000mg EPA+DHA)",
+              "Creatine (5g in water or coffee)",
+            ],
+            note: "Fat-soluble vitamins need fat for absorption — eggs, avocado, nuts",
+          },
+          {
+            emoji: "😴",
+            label: "Evening",
+            time: "With dinner or before bed",
+            color: "#6366F1",
+            supplements: [
+              "Magnesium glycinate (200–400mg elemental)",
+            ],
+            note: "Calming effect supports sleep — take 30–60 min before bed for best results",
+          },
+        ]}
+      />
 
       <h2>Step 3: Add Goal-Specific Supplements</h2>
-      <p>
-        Only after your foundation is solid should you consider adding
-        targeted supplements. This is where most people go wrong &mdash;
-        they skip the basics and jump straight to exotic compounds because
-        they sound more exciting. Ashwagandha is sexier than vitamin D,
-        but vitamin D deficiency is probably affecting your energy more
-        than ashwagandha ever will.
-      </p>
+
+      <Callout variant="tip" title="Foundation first, goals second">
+        Only after your foundation is solid should you consider targeted
+        supplements. Ashwagandha is sexier than vitamin D, but vitamin D
+        deficiency is probably affecting your energy more than ashwagandha
+        ever will.
+      </Callout>
 
       <h3>For Better Sleep</h3>
       <ul>
@@ -166,6 +236,15 @@ export function HowToBuildStack() {
         <li>Glycine: 3g before bed</li>
         <li>Magnesium glycinate (already in your foundation)</li>
       </ul>
+
+      <ProductRow
+        title="Sleep additions"
+        products={[
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["thorne-glycine"],
+        ]}
+      />
+
       <p>
         Full protocol with dosing and timing in our{" "}
         <a href="/guides/supplement-timing-guide">
@@ -181,20 +260,33 @@ export function HowToBuildStack() {
         <li>Caffeine: 200&ndash;400mg before training (optional)</li>
       </ul>
 
+      <ProductRow
+        title="Performance additions"
+        products={[
+          PRODUCTS["thorne-beta-alanine"],
+          PRODUCTS["nootropics-depot-taurine"],
+        ]}
+      />
+
       <h3>For Cognitive Function</h3>
       <ul>
         <li>Omega-3 (already in your foundation &mdash; emphasize DHA)</li>
         <li>Creatine (already in your foundation)</li>
         <li>Magnesium L-threonate: 144mg elemental (the form that crosses the blood-brain barrier most efficiently)</li>
-        <li>Lion&rsquo;s Mane: 500&ndash;1,000mg (emerging evidence for nerve growth factor stimulation)</li>
+        <li>Lion&rsquo;s Mane: 500&ndash;1,000mg (emerging evidence for nerve growth factor stimulation) <EvidenceBadge level="emerging" /></li>
       </ul>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-cognizin"]} />
 
       <h3>For Longevity</h3>
       <ul>
-        <li>NR or NMN: 300&ndash;500mg (NAD+ precursors, active area of research)</li>
-        <li>CoQ10: 100&ndash;200mg (mitochondrial function, especially relevant after age 40)</li>
-        <li>Quercetin: 500&ndash;1,000mg (senolytic properties, early but promising research)</li>
+        <li>NR or NMN: 300&ndash;500mg (NAD+ precursors, active area of research) <EvidenceBadge level="emerging" /></li>
+        <li>CoQ10: 100&ndash;200mg (mitochondrial function, especially relevant after age 40) <EvidenceBadge level="moderate" /></li>
+        <li>Quercetin: 500&ndash;1,000mg (senolytic properties, early but promising research) <EvidenceBadge level="emerging" /></li>
       </ul>
+
+      <ProductCallout product={PRODUCTS["thorne-coq10"]} />
+
       <p>
         For a complete longevity-focused protocol, see our{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
@@ -203,19 +295,12 @@ export function HowToBuildStack() {
       </p>
 
       <h2>Step 4: Avoid the Most Common Mistakes</h2>
-      <p>
-        These are the traps that waste the most money and produce the most
-        frustration. Every one of them is extremely common.
-      </p>
 
-      <h3>Buying Everything at Once</h3>
-      <p>
-        If you start 6 supplements on the same day and feel different
-        (better or worse), you have no idea which one is responsible.
-        Add one supplement at a time, give each 1&ndash;2 weeks before
-        adding the next. This also lets you identify any adverse reactions
-        immediately rather than playing detective across a dozen variables.
-      </p>
+      <Callout variant="warning" title="Add one supplement at a time">
+        If you start 6 supplements on the same day and feel different (better
+        or worse), you have no idea which one is responsible. Add one at a time,
+        give each 1&ndash;2 weeks before adding the next.
+      </Callout>
 
       <h3>Not Checking Actual Doses</h3>
       <p>
@@ -231,25 +316,39 @@ export function HowToBuildStack() {
         breaks down exactly what to look for.
       </p>
 
-      <h3>Falling for Influencer Stacks</h3>
-      <p>
+      <Callout variant="warning" title="Influencer stacks are paid endorsements">
         When someone with a large following recommends 15 supplements, they
         are almost certainly being paid by at least some of those brands.
-        That doesn&rsquo;t automatically make the recommendations bad, but
-        it does mean financial incentive &mdash; not evidence &mdash; is
-        driving the selection. Build your stack from the research, not from
-        someone&rsquo;s affiliate page.
-      </p>
+        Financial incentive &mdash; not evidence &mdash; is driving the
+        selection. Build your stack from the research, not from someone&rsquo;s
+        affiliate page.
+      </Callout>
 
       <h3>Ignoring Interactions and Redundancy</h3>
-      <p>
-        Taking a multivitamin, a standalone vitamin D, and a calcium-D
-        combo can result in triple-dosing vitamin D without realizing it.
-        Calcium inhibits iron absorption when taken together. Fat-soluble
-        vitamins (D, E, K, A) need dietary fat for absorption &mdash;
-        taking them on an empty stomach wastes your money. Track what
-        you&rsquo;re actually getting across all your products.
-      </p>
+
+      <InteractionGroup title="Common stacking mistakes">
+        <InteractionCard
+          type="conflict"
+          a="Calcium"
+          b="Iron"
+          effect="Taking a multivitamin, standalone vitamin D, and calcium-D combo can result in triple-dosing vitamin D. Calcium inhibits iron absorption when taken together."
+          recommendation="Track total intake across ALL products. Separate calcium and iron by 2+ hours."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Fat-soluble vitamins"
+          b="Empty stomach"
+          effect="Vitamins D, E, K, and A need dietary fat for absorption. Taking them fasted wastes your money."
+          recommendation="Always take fat-soluble vitamins with a meal containing fat."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Vitamin D3"
+          b="Vitamin K2 (MK-7)"
+          effect="D3 increases calcium absorption; K2 directs calcium into bones, not arteries."
+          recommendation="Always pair D3 with K2 at doses above 2,000 IU."
+        />
+      </InteractionGroup>
 
       <h2>Step 5: Evaluate Product Quality</h2>
       <p>
@@ -284,19 +383,15 @@ export function HowToBuildStack() {
           manufacturing; artificial dyes never are.
         </li>
       </ul>
-      <p>
+
+      <Callout variant="info" title="Formulate automates this evaluation">
         This evaluation process is exactly what Formulate&rsquo;s scoring
-        system automates &mdash; every product is rated on clinical dose
-        alignment, form quality, label transparency, and third-party
-        testing so you can compare objectively.
-      </p>
+        system does &mdash; every product is rated on clinical dose alignment,
+        form quality, label transparency, and third-party testing so you can
+        compare objectively.
+      </Callout>
 
       <h2>Budget Tiers: What Good Stacks Actually Cost</h2>
-      <p>
-        One of the most useful things nobody talks about is what a
-        well-constructed stack should actually cost. Here are realistic
-        budget tiers:
-      </p>
 
       <h3>Basic Foundation &mdash; ~$30&ndash;$40/month</h3>
       <ul>
@@ -327,41 +422,59 @@ export function HowToBuildStack() {
         <li>2&ndash;3 goal-specific supplements: ~$25&ndash;$40/month</li>
         <li>Premium brands with third-party testing: additional ~$15&ndash;$30/month premium</li>
       </ul>
-      <p>
-        This tier makes sense for people who&rsquo;ve been consistent with
-        the basics for 3+ months, have bloodwork confirming their
-        foundation is dialed in, and have specific performance or longevity
-        goals. It does <em>not</em> make sense as a starting point.
-      </p>
-      <p>
+
+      <Callout variant="warning" title="$200+/month is a red flag">
         If you&rsquo;re spending $200+/month on supplements, you&rsquo;re
         almost certainly either taking redundant products, overpaying for
         brands, or supplementing things you don&rsquo;t need. More isn&rsquo;t
         better &mdash; more <em>targeted</em> is better.
-      </p>
+      </Callout>
 
       <h2>A Starter Stack You Can Use Today</h2>
+
+      <ScheduleTable
+        title="Starter stack protocol"
+        slots={[
+          {
+            emoji: "🍳",
+            label: "Morning",
+            time: "With breakfast",
+            color: "#F59E0B",
+            supplements: [
+              "Vitamin D3+K2 (2,000–5,000 IU + 100mcg K2)",
+              "Omega-3 (1,000mg EPA+DHA)",
+              "Creatine (5g in water or coffee)",
+            ],
+            note: "Take with a fat-containing meal for optimal absorption",
+          },
+          {
+            emoji: "😴",
+            label: "Evening",
+            time: "With dinner or before bed",
+            color: "#6366F1",
+            supplements: [
+              "Magnesium glycinate (200–400mg elemental)",
+            ],
+            note: "Four supplements, under $2/day — covers the most common gaps",
+          },
+        ]}
+      />
+
       <p>
-        If you want a concrete starting point, here&rsquo;s a basic daily
-        protocol:
-      </p>
-      <ul>
-        <li>
-          <strong>Morning (with breakfast):</strong> Vitamin D3+K2
-          (2,000&ndash;5,000 IU D3 + 100mcg K2), Omega-3 (1,000mg
-          EPA+DHA), Creatine (5g in water or coffee)
-        </li>
-        <li>
-          <strong>Evening (with dinner or before bed):</strong> Magnesium
-          glycinate (200&ndash;400mg elemental)
-        </li>
-      </ul>
-      <p>
-        Four supplements. Under $2/day. Covers the most common deficiencies
-        and the highest-evidence general health benefits. Run this for
+        Run this for
         4&ndash;6 weeks, get follow-up bloodwork if possible, then decide
         whether to add goal-specific supplements from Step 3.
       </p>
+
+      <ProductRow
+        title="The foundation stack — top scored"
+        products={[
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-super-epa-pro"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["thorne-creatine"],
+        ]}
+      />
 
       <h2>Frequently Asked Questions</h2>
 

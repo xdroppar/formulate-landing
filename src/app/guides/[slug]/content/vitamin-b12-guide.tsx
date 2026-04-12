@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function VitaminB12Guide() {
   return (
     <>
+      <TLDRBox
+        readTime="13 min read"
+        takeaways={[
+          "Up to 86% of vegans and 50% of long-term vegetarians are B12 deficient without supplementation",
+          "Methylcobalamin (sublingual) is the preferred form — it skips the conversion step cyanocobalamin requires",
+          "B12 won't boost energy if you're already replete — the 'energy vitamin' marketing is misleading",
+          "If serum B12 is in the gray zone (200–400 pg/mL), insist on an MMA test for accurate diagnosis",
+        ]}
+      />
+
       <p>
         Picture this: you&rsquo;ve been sleeping eight hours a night, eating
         well, exercising consistently &mdash; and yet you&rsquo;re exhausted.
@@ -44,7 +65,8 @@ export function VitaminB12Guide() {
           homocysteine is an independent risk factor for cardiovascular disease.
           A 2015 meta-analysis in the <em>European Journal of Clinical
           Nutrition</em> (Huang et al.) confirmed the association between low
-          B12 status and elevated homocysteine in vegetarian populations.
+          B12 status and elevated homocysteine in vegetarian populations.{" "}
+          <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Methylmalonyl-CoA mutase</strong> &mdash; involved in fatty
@@ -53,6 +75,15 @@ export function VitaminB12Guide() {
           useful than serum B12 itself, as we&rsquo;ll discuss later.
         </li>
       </ul>
+
+      <Callout variant="warning" title="Nerve damage can be irreversible">
+        B12 is essential for myelin production — the protective sheath around
+        nerve fibers. Severe, prolonged deficiency causes neurological damage
+        that can become permanent. A 2003 case series in the NEJM documented
+        patients with irreversible nerve damage from undiagnosed B12
+        deficiency mistaken for aging or early Alzheimer&rsquo;s.
+      </Callout>
+
       <p>
         B12 is also essential for <strong>myelin production</strong> &mdash;
         the protective sheath around nerve fibers. This is why severe deficiency
@@ -61,7 +92,8 @@ export function VitaminB12Guide() {
         irreversible. A sobering 2003 case series in the{" "}
         <em>New England Journal of Medicine</em> (Stabler) documented patients
         with permanent neurological damage from undiagnosed B12 deficiency that
-        was mistakenly attributed to aging or early Alzheimer&rsquo;s.
+        was mistakenly attributed to aging or early Alzheimer&rsquo;s.{" "}
+        <EvidenceBadge level="strong" />
       </p>
 
       <h2>Who Is Actually at Risk?</h2>
@@ -79,40 +111,30 @@ export function VitaminB12Guide() {
           that up to <strong>86% of vegans</strong> and{" "}
           <strong>up to 50% of long-term vegetarians</strong> had B12 deficiency
           or insufficiency when not supplementing. The numbers are stark because
-          there are no reliable plant sources of bioavailable B12. Nutritional
-          yeast and certain algae contain B12 analogues, but these can actually
-          interfere with true B12 absorption. If you eat no animal products,
-          supplementation is not optional &mdash; it&rsquo;s mandatory.
+          there are no reliable plant sources of bioavailable B12.{" "}
+          <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Adults over 50.</strong> Between{" "}
           <strong>10&ndash;30% of older adults</strong> develop atrophic
           gastritis, a condition where the stomach lining thins and produces less
           hydrochloric acid and intrinsic factor &mdash; the protein required to
-          absorb B12 from food. You can eat all the steak you want, but if your
-          intrinsic factor is depleted, that B12 isn&rsquo;t getting into your
-          bloodstream. The Institute of Medicine specifically recommends that
-          adults over 50 get their B12 from supplements or fortified foods for
-          this reason.
+          absorb B12 from food. The Institute of Medicine specifically recommends
+          that adults over 50 get their B12 from supplements or fortified foods
+          for this reason. <EvidenceBadge level="strong" />
         </li>
         <li>
-          <strong>Metformin users.</strong> Metformin, the most widely prescribed
-          type 2 diabetes drug (and increasingly popular in longevity circles),
-          reduces B12 absorption by up to <strong>30%</strong>. A 2010
-          randomized controlled trial published in the{" "}
+          <strong>Metformin users.</strong> Metformin reduces B12 absorption by
+          up to <strong>30%</strong>. A 2010 RCT published in the{" "}
           <em>British Medical Journal</em> (de Jager et al.) found that
           long-term metformin use was associated with a 19% increase in B12
-          deficiency risk. If you&rsquo;re taking metformin, B12 monitoring
-          should be routine.
+          deficiency risk. <EvidenceBadge level="strong" />
         </li>
         <li>
-          <strong>People on proton pump inhibitors (PPIs).</strong> Omeprazole,
-          pantoprazole, and similar acid-suppressing medications reduce the
-          stomach acid needed to liberate B12 from food proteins. A 2013 study
+          <strong>People on proton pump inhibitors (PPIs).</strong> A 2013 study
           in <em>JAMA</em> (Lam et al.) found that{" "}
           <strong>2+ years of PPI use increased B12 deficiency risk by
-          65%</strong>. If you&rsquo;ve been on a PPI for reflux or GERD for
-          more than a year, get your levels checked.
+          65%</strong>. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>People with GI conditions.</strong> Crohn&rsquo;s disease
@@ -121,6 +143,13 @@ export function VitaminB12Guide() {
           regardless of dietary intake.
         </li>
       </ul>
+
+      <Callout variant="tip" title="If you're vegan, this is not optional">
+        There are no reliable plant sources of bioavailable B12. Nutritional
+        yeast and certain algae contain B12 analogues that can actually
+        interfere with true B12 absorption. If you eat no animal products,
+        supplementation is mandatory.
+      </Callout>
 
       <h2>Symptoms That Mimic Everything Else</h2>
       <p>
@@ -143,7 +172,8 @@ export function VitaminB12Guide() {
           anxiety that seems disproportionate to circumstances. A 2005 study in{" "}
           <em>Journal of Psychopharmacology</em> (Hvas et al.) found that B12
           supplementation improved depressive symptoms in B12-deficient patients,
-          though it had no effect in those with normal levels
+          though it had no effect in those with normal levels{" "}
+          <EvidenceBadge level="moderate" />
         </li>
         <li>
           <strong>Peripheral neuropathy</strong> &mdash; numbness, tingling, or
@@ -162,11 +192,13 @@ export function VitaminB12Guide() {
           or prolonged cases
         </li>
       </ul>
-      <p>
-        The neurological symptoms are particularly concerning because they can
-        precede anemia by months or even years. You can have nerve damage
-        progressing silently while your blood counts still look normal.
-      </p>
+
+      <Callout variant="warning" title="Neurological symptoms can precede anemia">
+        You can have nerve damage progressing silently while your blood counts
+        still look normal. The neurological symptoms can precede anemia by
+        months or even years. Don&rsquo;t wait for anemia to show up before
+        investigating.
+      </Callout>
 
       <h2>Methylcobalamin vs. Cyanocobalamin: The Form Debate</h2>
       <p>
@@ -190,10 +222,8 @@ export function VitaminB12Guide() {
           <strong>Cyanocobalamin</strong> &mdash; a synthetic form that does
           not occur in nature. Your body must remove the cyanide molecule and
           convert it to methylcobalamin or adenosylcobalamin before it can be
-          used. Yes, there is a tiny amount of cyanide involved &mdash; it&rsquo;s
-          toxicologically insignificant at supplemental doses, but it does
-          represent an extra conversion step. This form is cheaper to manufacture,
-          more shelf-stable, and has the most clinical research behind it.
+          used. This form is cheaper to manufacture, more shelf-stable, and has
+          the most clinical research behind it.
         </li>
         <li>
           <strong>Adenosylcobalamin</strong> &mdash; the other bioactive form,
@@ -207,6 +237,14 @@ export function VitaminB12Guide() {
           severe deficiency. Not commonly found in oral supplements.
         </li>
       </ul>
+
+      <Callout variant="tip" title="Choose methylcobalamin">
+        Methylcobalamin is the better choice for daily supplementation.
+        It&rsquo;s the form your body actually uses, skips the conversion
+        step, and is widely available at reasonable prices. Particularly
+        important for people with MTHFR polymorphisms.
+      </Callout>
+
       <p>
         <strong>Our take:</strong> methylcobalamin is the better choice for
         daily supplementation. It&rsquo;s the form your body actually uses,
@@ -228,7 +266,18 @@ export function VitaminB12Guide() {
         walks through every panel on the bottle.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-b12"]} />
+
       <h2>Dosing: More Than You&rsquo;d Expect</h2>
+
+      <Callout variant="info" title="Why supplement doses seem so high">
+        Oral B12 absorption happens through two mechanisms: intrinsic
+        factor-mediated transport (saturates at ~1.5mcg per meal) and passive
+        diffusion (~1&ndash;2% of dose). From a 1,000mcg tablet, you absorb
+        roughly 12&ndash;22mcg total. That&rsquo;s why effective doses are
+        far above the 2.4mcg RDA.
+      </Callout>
+
       <p>
         B12 dosing looks strange if you&rsquo;re used to other vitamins. The
         RDA is just <strong>2.4mcg/day</strong> for adults, but supplement
@@ -250,8 +299,8 @@ export function VitaminB12Guide() {
           <strong>1,000&ndash;2,000mcg/day</strong> sublingual methylcobalamin
           for 4&ndash;8 weeks. A 2003 study in <em>Blood</em> (Kuzminski et al.)
           demonstrated that high-dose oral B12 was as effective as intramuscular
-          injections for correcting deficiency in most patients, provided the
-          dose was adequate.
+          injections for correcting deficiency in most patients.{" "}
+          <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Ongoing maintenance (at-risk groups):</strong>{" "}
@@ -277,7 +326,8 @@ export function VitaminB12Guide() {
         surgery patients, or anyone with Crohn&rsquo;s affecting the ileum.
         A 2006 study in the <em>British Journal of Clinical Pharmacology</em>{" "}
         (Sharabi et al.) found sublingual B12 to be clinically effective for
-        correcting deficiency in patients with gastrointestinal malabsorption.
+        correcting deficiency in patients with gastrointestinal malabsorption.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         <strong>The &ldquo;you can&rsquo;t overdose&rdquo; reality:</strong>{" "}
@@ -291,6 +341,15 @@ export function VitaminB12Guide() {
       </p>
 
       <h2>The Energy Drink Myth</h2>
+
+      <Callout variant="info" title="B12 does not equal energy (unless you're deficient)">
+        A 2020 systematic review in Nutrients confirmed that B vitamin
+        supplementation improved self-reported energy only in individuals
+        with baseline deficiency. In replete individuals, there was no
+        measurable effect. That energy drink&rsquo;s boost is from the
+        caffeine, not the B12. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Walk into any convenience store and you&rsquo;ll see energy drinks
         plastered with &ldquo;B12! B6! ENERGY BLEND!&rdquo; The implied
@@ -336,7 +395,7 @@ export function VitaminB12Guide() {
         low-normal serum B12 is a strong indicator of functional deficiency. A
         2009 review in <em>Clinical Chemistry and Laboratory Medicine</em>{" "}
         (Herrmann &amp; Obeid) established MMA as the gold standard for
-        detecting subclinical B12 deficiency.
+        detecting subclinical B12 deficiency. <EvidenceBadge level="strong" />
       </p>
       <p>
         <strong>Homocysteine</strong> can also be elevated in B12 deficiency,
@@ -354,6 +413,13 @@ export function VitaminB12Guide() {
       </p>
 
       <h2>B12 in a Broader Stack</h2>
+
+      <Callout variant="warning" title="The folate masking problem">
+        High folate intake can correct the anemia caused by B12 deficiency
+        while allowing neurological damage to progress silently. Always
+        ensure adequate B12 alongside folate supplementation.
+      </Callout>
+
       <p>
         B12 doesn&rsquo;t work in isolation. It partners closely with folate
         (vitamin B9) in the methylation cycle &mdash; supplementing one without
@@ -391,6 +457,31 @@ export function VitaminB12Guide() {
         </a>.
       </p>
 
+      <InteractionGroup title="B12 pairings and conflicts">
+        <InteractionCard
+          type="synergy"
+          a="Vitamin B12"
+          b="Folate (B9)"
+          effect="B12 and folate are partners in the methylation cycle. Both are needed for proper DNA synthesis and homocysteine metabolism."
+          recommendation="Take together in a quality B-complex. But ensure B12 is adequate — high folate can mask B12 deficiency anemia."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Vitamin B12"
+          b="Iron"
+          effect="Both are needed for healthy red blood cell production. B12 deficiency and iron deficiency both cause anemia but through different mechanisms."
+          recommendation="If anemic, test for both. Supplementing only one may not resolve symptoms."
+        />
+      </InteractionGroup>
+
+      <ProductRow
+        title="B12 and B-complex options"
+        products={[
+          PRODUCTS["thorne-vitamin-b12"],
+          PRODUCTS["thorne-b-complex-12"],
+        ]}
+      />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Can I get enough B12 from fortified foods alone?</h3>
@@ -417,7 +508,8 @@ export function VitaminB12Guide() {
         Kuzminski study in <em>Blood</em> is often cited as the landmark
         trial establishing oral equivalence to injections. Injections are
         more expensive, require clinical visits, and aren&rsquo;t necessary
-        for the majority of people who simply need to maintain adequate levels.
+        for the majority of people who simply need to maintain adequate levels.{" "}
+        <EvidenceBadge level="strong" />
       </p>
 
       <h3>I take metformin for longevity. Should I worry about B12?</h3>

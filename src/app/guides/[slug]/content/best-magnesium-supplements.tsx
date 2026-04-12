@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BestMagnesium() {
   return (
     <>
+      <TLDRBox
+        readTime="9 min read"
+        takeaways={[
+          "Choose by form, not brand — glycinate for sleep, threonate for cognition, citrate for budget",
+          "Magnesium oxide (4% absorption) is a waste of money — glycinate absorbs at ~80%",
+          "Always check elemental magnesium per serving, not compound weight",
+          "50% of adults are below optimal intake — a 100–200mg supplement covers the gap",
+        ]}
+      />
+
       <p>
         You take magnesium for sleep, but you&rsquo;re wired at midnight. Your
         friend takes magnesium for sleep and is out cold by 10pm. Same mineral,
@@ -15,15 +36,19 @@ export function BestMagnesium() {
         Magnesium is involved in over 300 enzymatic reactions in your body &mdash;
         sleep, muscle contraction, blood pressure regulation, nerve signaling, DNA
         synthesis. An estimated 50% of Americans don&rsquo;t meet the RDA
-        (Rosanoff et al., 2012, <em>Nutrition Reviews</em>). But &ldquo;take
+        (Rosanoff et al., 2012, <em>Nutrition Reviews</em>). <EvidenceBadge level="strong" /> But &ldquo;take
         magnesium&rdquo; is incomplete advice because the form you choose
         determines where it goes and what it does.
       </p>
+
+      <Callout variant="evidence" title="Absorption varies 20x across forms">
+        Magnesium oxide absorbs at roughly 4%. Magnesium glycinate absorbs at
+        closer to 80%. You could take the same number of milligrams and get 20x
+        more usable magnesium from one form versus the other. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
-        Here&rsquo;s the quick version: magnesium oxide absorbs at roughly 4%.
-        Magnesium glycinate absorbs at closer to 80%. You could take the same number
-        of milligrams and get 20x more usable magnesium from one form versus the
-        other. If you&rsquo;re not sure whether you&rsquo;re deficient in the first
+        If you&rsquo;re not sure whether you&rsquo;re deficient in the first
         place,{" "}
         <a href="/guides/signs-you-are-magnesium-deficient">
           check our guide on signs of magnesium deficiency
@@ -43,25 +68,28 @@ export function BestMagnesium() {
         calming, inhibitory effects on the nervous system. A 2012 study in the{" "}
         <em>Journal of Research in Medical Sciences</em> (Abbasi et al.) found
         magnesium supplementation significantly improved subjective sleep quality,
-        sleep time, and sleep onset latency in elderly subjects. The glycinate form
+        sleep time, and sleep onset latency in elderly subjects. <EvidenceBadge level="strong" /> The glycinate form
         is gentle on the stomach &mdash; no laxative effect &mdash; making it the
         best all-around choice for most people.
       </p>
-      <p>
-        <strong>Take this if:</strong> You want better sleep, you deal with
-        anxiety, or you just need to cover a general magnesium gap. This is the
-        default recommendation.
-      </p>
+
+      <Callout variant="tip" title="Default recommendation">
+        If you want better sleep, deal with anxiety, or just need to cover a
+        general magnesium gap, glycinate is the default choice. Start here
+        unless you have a specific cognitive or cardiovascular goal.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h3>Magnesium L-Threonate &mdash; Best for Cognitive Function</h3>
       <p>
         Threonate is the only form shown to meaningfully cross the blood-brain
         barrier and increase brain magnesium levels. The key study (Slutsky et al.,
         2010, <em>Neuron</em>) demonstrated improved learning, working memory, and
-        both short- and long-term memory in animal models. Subsequent human trials
+        both short- and long-term memory in animal models. <EvidenceBadge level="moderate" /> Subsequent human trials
         using the patented Magtein&reg; form (Liu et al., 2016,{" "}
         <em>Journal of Alzheimer&rsquo;s Disease</em>) showed improved cognitive
-        ability in older adults with cognitive concerns.
+        ability in older adults with cognitive concerns. <EvidenceBadge level="moderate" />
       </p>
       <p>
         <strong>Take this if:</strong> Brain fog, memory support, or neuroprotection
@@ -83,12 +111,14 @@ export function BestMagnesium() {
         regularity.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-magnesium-citramate"]} />
+
       <h3>Magnesium Taurate &mdash; Best for Cardiovascular Support</h3>
       <p>
         Combines magnesium with taurine, which has independent cardiovascular
         benefits. A 2018 meta-analysis by Zhang et al. in{" "}
         <em>Hypertension Research</em> found magnesium supplementation reduced
-        systolic blood pressure by 2&ndash;3 mmHg. Taurate is the form with the
+        systolic blood pressure by 2&ndash;3 mmHg. <EvidenceBadge level="moderate" /> Taurate is the form with the
         most emerging evidence for blood pressure and heart rhythm support.
       </p>
       <p>
@@ -97,25 +127,27 @@ export function BestMagnesium() {
       </p>
 
       <h3>Magnesium Oxide &mdash; Skip It</h3>
-      <p>
-        Let&rsquo;s be direct: magnesium oxide has roughly 4% bioavailability
-        (Firoz and Graber, 2001, <em>Magnesium Research</em>). It&rsquo;s the
-        cheapest form on the shelf because most of it passes straight through you.
-        If you see magnesium oxide as the primary form in a product, put it back.
-        The only exception is if you specifically want a laxative effect.
-      </p>
+
+      <Callout variant="warning" title="Avoid magnesium oxide">
+        Magnesium oxide has roughly 4% bioavailability (Firoz and Graber, 2001,{" "}
+        <em>Magnesium Research</em>). It&rsquo;s the cheapest form on the shelf
+        because most of it passes straight through you. If you see magnesium oxide
+        as the primary form in a product, put it back. The only exception is if
+        you specifically want a laxative effect. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h2>The Elemental Magnesium Trap</h2>
+
+      <Callout variant="warning" title="Don't be fooled by compound weight">
+        When a label says &ldquo;Magnesium Glycinate &mdash; 1,000mg,&rdquo;
+        that&rsquo;s the weight of the entire compound (magnesium + glycine). The
+        actual elemental magnesium might only be 100&ndash;140mg. Good brands list
+        both. Shady brands only list the compound weight to make the dose look bigger.
+      </Callout>
+
       <p>
-        This catches almost everyone. When a label says &ldquo;Magnesium Glycinate
-        &mdash; 1,000mg,&rdquo; that&rsquo;s the weight of the <em>entire
-        compound</em> (magnesium + glycine). The actual elemental magnesium in that
-        capsule might only be 100&ndash;140mg. The elemental number is what your
-        body uses, and it&rsquo;s what the RDA refers to.
-      </p>
-      <p>
-        Good brands list both. Shady brands only list the compound weight to make
-        the dose look bigger. If you&rsquo;re not sure how to decode the label,{" "}
+        The elemental number is what your body uses, and it&rsquo;s what the RDA
+        refers to. If you&rsquo;re not sure how to decode the label,{" "}
         <a href="/guides/how-to-read-a-supplement-label">
           our supplement label reading guide
         </a>{" "}
@@ -131,6 +163,30 @@ export function BestMagnesium() {
         without risk of excess. There&rsquo;s no need to megadose.
       </p>
 
+      <InteractionGroup title="Magnesium interactions to know">
+        <InteractionCard
+          type="conflict"
+          a="Magnesium"
+          b="Antibiotics"
+          effect="Magnesium binds to tetracyclines and quinolones, reducing absorption of both."
+          recommendation="Separate magnesium from antibiotics by at least 2 hours."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Calcium (500mg+)"
+          b="Magnesium"
+          effect="At high doses, calcium and magnesium compete for absorption."
+          recommendation="Separate therapeutic doses. Take calcium and magnesium at different times of day."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Magnesium"
+          b="Vitamin B6"
+          effect="B6 may facilitate magnesium transport into cells. A 2018 PLOS ONE study found the combo more effective for stress."
+          recommendation="Many quality magnesium products include B6 for this reason."
+        />
+      </InteractionGroup>
+
       <h2>Brands That Do It Right</h2>
       <p>
         Instead of a numbered ranking, here are brands that consistently deliver on
@@ -142,6 +198,21 @@ export function BestMagnesium() {
         option. NSF Certified for Sport, clean label, no fillers. If you want
         glycinate and don&rsquo;t want to overthink it, start here.
       </p>
+      <p>
+        <strong>Nootropics Depot Magnesium Glycinate</strong> is another strong
+        glycinate option at a competitive price point, with rigorous in-house
+        testing and full label transparency.
+      </p>
+
+      <ProductRow
+        title="Top-scored magnesium supplements"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-magnesium-glycinate"],
+          PRODUCTS["thorne-magnesium-citramate"],
+        ]}
+      />
+
       <p>
         <strong>Nootropics Depot Magnesium L-Threonate (Magtein&reg;)</strong> is
         the cognitive-focused pick. They use the patented Magtein ingredient at

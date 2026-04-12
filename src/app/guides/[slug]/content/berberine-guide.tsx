@@ -1,6 +1,26 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BerberineGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="13 min read"
+        takeaways={[
+          "Berberine activates AMPK — the same pathway as metformin and exercise — lowering blood sugar comparably to metformin in trials",
+          "Split dosing is critical: 500mg 2–3x daily with meals (short half-life of 3–4 hours)",
+          "Serious drug interactions with diabetes meds, statins, and blood thinners — not a casual supplement",
+          "Best suited for prediabetics and metabolic syndrome; limited benefit if blood sugar is already normal",
+        ]}
+      />
+
       <p>
         You&rsquo;re scrolling through a longevity podcast thread and someone
         drops the phrase &ldquo;nature&rsquo;s metformin.&rdquo; A few clicks
@@ -46,6 +66,14 @@ export function BerberineGuide() {
         &mdash; it&rsquo;s a convergence point where pharmaceutical, botanical,
         and lifestyle interventions all meet.
       </p>
+
+      <Callout variant="evidence" title="Head-to-head with metformin">
+        In the landmark Yin 2008 trial, berberine lowered HbA1c by 2.0%
+        vs. metformin&rsquo;s 1.7% in newly diagnosed type 2 diabetics.
+        Berberine also outperformed metformin on triglycerides (35.9% vs.
+        25.3% reduction). <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         The comparison to metformin isn&rsquo;t just theoretical hand-waving.
         In 2008, <strong>Yin et al.</strong> published a landmark study in{" "}
@@ -56,7 +84,8 @@ export function BerberineGuide() {
         metformin&rsquo;s 1.7% reduction</strong> in the same trial.
         Fasting blood glucose dropped by 25.9% with berberine versus 20.9%
         with metformin. Berberine also outperformed metformin on lipid markers,
-        reducing triglycerides by 35.9% versus 25.3%.
+        reducing triglycerides by 35.9% versus 25.3%.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         That single study put berberine on the metabolic health map. But
@@ -69,7 +98,7 @@ export function BerberineGuide() {
         meta-analysis in <em>Planta Medica</em> covering{" "}
         <strong>14 randomized controlled trials</strong> with 1,068
         participants. The pooled results showed berberine significantly
-        reduced:
+        reduced: <EvidenceBadge level="strong" />
       </p>
       <ul>
         <li>
@@ -94,7 +123,8 @@ export function BerberineGuide() {
         <strong>Zhang et al. (2015)</strong>, in a meta-analysis published in{" "}
         <em>Evidence-Based Complementary and Alternative Medicine</em>,
         further confirmed these findings across 27 clinical trials, noting
-        consistent blood sugar and lipid improvements with good tolerability.
+        consistent blood sugar and lipid improvements with good tolerability.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         For people interested in metabolic health as part of a broader
@@ -122,7 +152,7 @@ export function BerberineGuide() {
         receptor mRNA by 3.5-fold through a mechanism independent of the
         statin pathway (HMG-CoA reductase inhibition). This is significant
         because it means berberine can potentially complement statins rather
-        than duplicate their action.
+        than duplicate their action. <EvidenceBadge level="strong" />
       </p>
       <p>
         Across clinical trials, berberine consistently shows:
@@ -138,12 +168,13 @@ export function BerberineGuide() {
           <strong>Modest HDL increases</strong> in some studies
         </li>
       </ul>
-      <p>
-        For someone with metabolic syndrome &mdash; elevated blood sugar,
-        high triglycerides, borderline LDL &mdash; berberine addresses
-        multiple parameters simultaneously. That&rsquo;s unusual for a
-        single compound.
-      </p>
+
+      <Callout variant="tip" title="Multi-target metabolic benefits">
+        For someone with metabolic syndrome — elevated blood sugar, high
+        triglycerides, borderline LDL — berberine addresses multiple
+        parameters simultaneously. That&rsquo;s unusual for a single
+        compound.
+      </Callout>
 
       <h2>Weight Management: Real but Modest</h2>
       <p>
@@ -152,7 +183,8 @@ export function BerberineGuide() {
         (2012)</strong> published a study in <em>Phytomedicine</em> where
         obese participants taking 500mg berberine three times daily for 12
         weeks lost an average of 5 pounds and reduced BMI by 1.5 points.
-        Waist circumference decreased by about 1 inch.
+        Waist circumference decreased by about 1 inch.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         Are those numbers life-changing? No. But they&rsquo;re real,
@@ -166,7 +198,17 @@ export function BerberineGuide() {
         alongside diet and exercise changes, berberine delivers.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-berberine"]} />
+
       <h2>Dosing: Split It or Waste It</h2>
+
+      <Callout variant="warning" title="Split your doses — this matters">
+        Berberine has a short half-life of 3&ndash;4 hours. Taking 1,500mg
+        once a day gives you one spike and long valleys. Taking 500mg three
+        times daily maintains steady blood levels — and this is the protocol
+        used in successful clinical trials.
+      </Callout>
+
       <p>
         Berberine has a <strong>short half-life of about 3&ndash;4
         hours</strong>, which is the single most important thing to
@@ -214,6 +256,14 @@ export function BerberineGuide() {
         side effects in approximately <strong>35% of berberine
         participants</strong>, similar to the metformin group.
       </p>
+
+      <Callout variant="tip" title="Managing GI side effects">
+        Start at 500mg once daily and ramp up over 2&ndash;3 weeks. Most GI
+        issues resolve as your gut microbiome adapts. Always take with food.
+        If tolerance remains a problem, consider dihydroberberine (DHB) at
+        200&ndash;300mg for equivalent effect with better absorption.
+      </Callout>
+
       <p>
         The good news: these effects are usually transient and
         dose-dependent. Most people who ramp up gradually (starting at 500mg
@@ -232,10 +282,19 @@ export function BerberineGuide() {
         supplement market. The clinical evidence for DHB specifically is
         thinner than for regular berberine, but the pharmacokinetic
         rationale is sound &mdash; higher bioavailability means less
-        unabsorbed compound irritating your GI tract.
+        unabsorbed compound irritating your GI tract.{" "}
+        <EvidenceBadge level="emerging" />
       </p>
 
       <h2>Drug Interactions: This Is Not Optional Reading</h2>
+
+      <Callout variant="warning" title="Berberine has real drug interactions">
+        Berberine inhibits CYP3A4, CYP2D6, and P-glycoprotein — the same
+        metabolic pathways that process many prescription drugs. It is
+        pharmacologically active and behaves like a drug. Do NOT add
+        berberine to any prescription medication without medical oversight.
+      </Callout>
+
       <p>
         Berberine is one of those supplements where drug interaction
         awareness is genuinely important, not just a boilerplate disclaimer.
@@ -243,37 +302,38 @@ export function BerberineGuide() {
         P-glycoprotein &mdash; the same metabolic pathways that process a
         wide range of pharmaceutical drugs.
       </p>
-      <p>
-        <strong>Critical interactions to know about:</strong>
-      </p>
-      <ul>
-        <li>
-          <strong>Diabetes medications</strong> (metformin, sulfonylureas,
-          insulin) &mdash; berberine lowers blood sugar independently.
-          Combining it with diabetes drugs can cause{" "}
-          <strong>hypoglycemia</strong> (dangerously low blood sugar). If
-          you take any blood sugar-lowering medication, do not add berberine
-          without your doctor&rsquo;s oversight and blood glucose monitoring.
-        </li>
-        <li>
-          <strong>Statins</strong> (atorvastatin, simvastatin) &mdash;
-          berberine inhibits CYP3A4, the enzyme that metabolizes most
-          statins. This can increase statin blood levels and potentially
-          increase the risk of statin side effects, including
-          rhabdomyolysis in extreme cases.
-        </li>
-        <li>
-          <strong>Blood thinners</strong> (warfarin, heparin) &mdash;
-          berberine may enhance anticoagulant effects, increasing bleeding
-          risk. Combined use requires careful monitoring of INR levels.
-        </li>
-        <li>
-          <strong>Immunosuppressants</strong> (cyclosporine, tacrolimus)
-          &mdash; CYP3A4 inhibition can raise blood levels of these
-          narrow-therapeutic-index drugs to potentially toxic
-          concentrations.
-        </li>
-      </ul>
+
+      <InteractionGroup title="Critical berberine interactions">
+        <InteractionCard
+          type="conflict"
+          a="Berberine"
+          b="Diabetes medications"
+          effect="Berberine lowers blood sugar independently. Combining with metformin, sulfonylureas, or insulin can cause dangerous hypoglycemia."
+          recommendation="Do not add berberine without doctor's oversight and blood glucose monitoring."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Berberine"
+          b="Statins"
+          effect="Berberine inhibits CYP3A4, the enzyme that metabolizes most statins. This can increase statin blood levels, raising risk of side effects including rhabdomyolysis."
+          recommendation="Medical supervision required. Dose adjustment may be needed."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Berberine"
+          b="Blood thinners"
+          effect="May enhance anticoagulant effects of warfarin and heparin, increasing bleeding risk."
+          recommendation="Requires careful INR monitoring if combined."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Berberine"
+          b="Immunosuppressants"
+          effect="CYP3A4 inhibition can raise blood levels of cyclosporine and tacrolimus to potentially toxic concentrations."
+          recommendation="Avoid combining without specialist supervision."
+        />
+      </InteractionGroup>
+
       <p>
         This isn&rsquo;t meant to scare you away from berberine &mdash;
         it&rsquo;s meant to underscore that &ldquo;natural&rdquo; does not
@@ -325,6 +385,13 @@ export function BerberineGuide() {
       </ul>
 
       <h2>Who Should NOT Take Berberine</h2>
+
+      <Callout variant="warning" title="Hard contraindications">
+        Pregnant or breastfeeding women must avoid berberine — it crosses the
+        placenta and has caused kernicterus in animal studies. People with
+        normal blood sugar get minimal benefit for real side effect risk.
+      </Callout>
+
       <ul>
         <li>
           <strong>Pregnant or breastfeeding women</strong> &mdash; berberine
@@ -347,6 +414,15 @@ export function BerberineGuide() {
       </ul>
 
       <h2>The &ldquo;Natural Metformin&rdquo; Caveat</h2>
+
+      <Callout variant="info" title="Not a metformin replacement">
+        Metformin has decades of long-term safety data and established
+        cardiovascular outcomes (UKPDS trial: 36% reduction in all-cause
+        mortality). Berberine has promising short-term data but nothing
+        approaching that level of evidence. Do not swap prescribed metformin
+        for berberine on your own.
+      </Callout>
+
       <p>
         Let&rsquo;s address this directly: berberine is not a replacement
         for metformin in diagnosed type 2 diabetes. Metformin has decades of
@@ -354,7 +430,7 @@ export function BerberineGuide() {
         (the UKPDS trial showed a 36% reduction in all-cause mortality in
         overweight diabetics), and a well-understood safety profile.
         Berberine has promising short-term trial data but nothing approaching
-        that level of long-term evidence.
+        that level of long-term evidence. <EvidenceBadge level="strong" />
       </p>
       <p>
         If your doctor has prescribed metformin, do not swap it for berberine
@@ -412,7 +488,7 @@ export function BerberineGuide() {
         standard berberine at 500mg 2&ndash;3x daily has the deeper evidence
         base. If you&rsquo;re struggling with stomach issues, DHB is a
         reasonable alternative with sound pharmacological reasoning behind
-        it.
+        it. <EvidenceBadge level="emerging" />
       </p>
 
       <h3>Does berberine affect gut bacteria?</h3>
@@ -428,7 +504,7 @@ export function BerberineGuide() {
         berberine&rsquo;s metabolic benefits may actually be mediated through
         these microbiome changes rather than direct AMPK activation. The
         GI side effects during the first few weeks likely reflect this
-        microbiome remodeling.
+        microbiome remodeling. <EvidenceBadge level="moderate" />
       </p>
 
       <h2>The Bottom Line</h2>

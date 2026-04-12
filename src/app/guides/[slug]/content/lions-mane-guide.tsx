@@ -1,6 +1,26 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function LionsManeGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="10 min read"
+        takeaways={[
+          "Lion's mane stimulates nerve growth factor (NGF) — a unique mechanism among nootropics",
+          "The Mori 2009 RCT showed significant cognitive improvement over 16 weeks in mild cognitive impairment",
+          "Buy fruiting body dual extract with ≥25% beta-glucans — avoid mycelium-on-grain products",
+          "Expect 2–4 weeks before noticing effects; benefits compound over months of use",
+        ]}
+      />
+
       <p>
         You&rsquo;re sitting at your desk at 2pm, staring at the same
         paragraph you&rsquo;ve read three times. You had coffee an hour ago.
@@ -27,8 +47,18 @@ export function LionsManeGuide() {
         <strong>hericenones</strong> (found in the fruiting body) and{" "}
         <strong>erinacines</strong> (found in the mycelium), have been shown
         to cross the blood-brain barrier and stimulate the production of NGF
-        and brain-derived neurotrophic factor (BDNF).
+        and brain-derived neurotrophic factor (BDNF).{" "}
+        <EvidenceBadge level="strong" />
       </p>
+
+      <Callout variant="evidence" title="Unique mechanism">
+        Unlike most nootropics that tweak neurotransmitter levels, lion&rsquo;s
+        mane stimulates NGF — promoting new nerve cell growth, myelination,
+        and neuron survival. This was first demonstrated by Kawagishi et al.
+        (1991) and confirmed in subsequent studies.{" "}
+        <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         Think of NGF as fertilizer for your neurons. It promotes the growth
         of new nerve cells, supports myelination (the insulating sheath
@@ -57,7 +87,8 @@ export function LionsManeGuide() {
         placebo-controlled trial published in <em>Phytotherapy Research</em>.
         Thirty Japanese men and women aged 50&ndash;80, all diagnosed with
         mild cognitive impairment, took 250mg lion&rsquo;s mane tablets four
-        times daily (1,000mg/day of 96% dry powder) for 16 weeks.
+        times daily (1,000mg/day of 96% dry powder) for 16 weeks.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         The results: the lion&rsquo;s mane group showed{" "}
@@ -67,6 +98,14 @@ export function LionsManeGuide() {
         time &mdash; meaning the longer they took it, the better the scores
         got.
       </p>
+
+      <Callout variant="evidence" title="Benefits reverse when you stop">
+        In the Mori 2009 trial, when participants stopped lion&rsquo;s mane
+        after 16 weeks, cognitive scores declined back toward baseline within
+        4 weeks. This suggests the effect is real, ongoing, and requires
+        sustained supplementation to maintain.
+      </Callout>
+
       <p>
         Here&rsquo;s the part that makes this study especially interesting:
         when participants stopped taking lion&rsquo;s mane after 16 weeks,{" "}
@@ -82,7 +121,8 @@ export function LionsManeGuide() {
         for four weeks reported significantly reduced feelings of anxiety,
         irritation, and depression compared to placebo. The mechanism is
         thought to involve NGF&rsquo;s role in hippocampal neurogenesis,
-        which is linked to mood regulation.
+        which is linked to mood regulation.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
 
       <h2>The Fruiting Body vs. Mycelium Debate</h2>
@@ -119,6 +159,13 @@ export function LionsManeGuide() {
           never separated from the mycelium.
         </li>
       </ul>
+
+      <Callout variant="warning" title="Watch out for starch filler">
+        Most mycelium-on-grain products contain 30&ndash;70% residual starch.
+        You&rsquo;re paying for rice flour, not mushroom. Always check for
+        starch content &lt;5% and beta-glucan content &ge;25%.
+      </Callout>
+
       <p>
         In an ideal world, you&rsquo;d want both hericenones and erinacines.
         In practice, fruiting body extracts are more reliable because
@@ -137,6 +184,15 @@ export function LionsManeGuide() {
         won&rsquo;t fully liberate either group because the compounds are
         locked inside the chitin cell walls of the mushroom.
       </p>
+
+      <Callout variant="tip" title="Look for dual extraction">
+        A dual extract (hot water + alcohol extraction) breaks down chitin
+        cell walls and pulls out both water-soluble and fat-soluble active
+        compounds. Products labeled simply as &ldquo;lion&rsquo;s mane
+        powder&rdquo; without mentioning extraction are likely just dried,
+        ground mushroom — much less bioavailable.
+      </Callout>
+
       <p>
         A <strong>dual extract</strong> (hot water extraction + alcohol
         extraction) breaks down the chitin and pulls out both water-soluble
@@ -242,6 +298,13 @@ export function LionsManeGuide() {
         doses, which typically resolves within a few days or by taking it
         with food.
       </p>
+
+      <Callout variant="warning" title="Allergy and medication cautions">
+        If you have a mushroom allergy, avoid lion&rsquo;s mane. People on
+        anticoagulant or antiplatelet medications should consult their doctor,
+        as lion&rsquo;s mane may have mild antiplatelet activity.
+      </Callout>
+
       <p>
         One caution: if you have a mushroom allergy, avoid lion&rsquo;s mane
         supplements. There have been rare case reports of allergic reactions,
@@ -275,6 +338,23 @@ export function LionsManeGuide() {
         literature, though if you&rsquo;re on prescription medications,
         check with your doctor as a standard precaution.
       </p>
+
+      <InteractionGroup title="Lion's mane pairings">
+        <InteractionCard
+          type="synergy"
+          a="Lion's Mane"
+          b="Omega-3 (DHA)"
+          effect="Both support neuroplasticity through complementary mechanisms — NGF stimulation (lion's mane) and membrane fluidity/anti-inflammation (DHA)."
+          recommendation="Take together for comprehensive cognitive support."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Lion's Mane"
+          b="Ashwagandha"
+          effect="Lion's mane for cognitive clarity, ashwagandha for stress-related cognitive fog. Different mechanisms, complementary outcomes."
+          recommendation="Lion's mane in the morning, ashwagandha morning or evening depending on extract type."
+        />
+      </InteractionGroup>
 
       <h3>Is lion&rsquo;s mane a psychedelic or does it cause a &ldquo;high&rdquo;?</h3>
       <p>
@@ -314,6 +394,16 @@ export function LionsManeGuide() {
         focus or easier word recall, you&rsquo;ve got your answer. If not,
         it&rsquo;s not for everyone &mdash; and that&rsquo;s fine too.
       </p>
+
+      <ProductRow
+        title="Pair with your cognitive stack"
+        products={[
+          PRODUCTS["thorne-omega-3-coq10"],
+          PRODUCTS["nootropics-depot-cognizin"],
+          PRODUCTS["thorne-ashwagandha"],
+        ]}
+      />
+
       <p>
         <a href="https://app.formulate-health.app/catalog?q=lion%27s+mane">
           Compare lion&rsquo;s mane supplements in the Formulate catalog &rarr;

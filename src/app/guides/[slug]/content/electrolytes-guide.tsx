@@ -1,6 +1,26 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function ElectrolytesGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Most people are dramatically under-consuming potassium (97% of Americans miss the 4,700mg target)",
+          "The sodium-to-potassium ratio matters more than absolute sodium intake",
+          "Low-carb dieters, fasters, and heavy exercisers need significantly more electrolytes than guidelines suggest",
+          "A DIY electrolyte drink costs ~$0.10/serving vs $1.50+ for commercial products",
+        ]}
+      />
+
       <p>
         It&rsquo;s day three of your new low-carb diet. You&rsquo;re doing
         everything right &mdash; hitting your macros, staying disciplined,
@@ -19,6 +39,14 @@ export function ElectrolytesGuide() {
         <em>worse</em>, because you&rsquo;re diluting what little you have
         left.
       </p>
+
+      <Callout variant="info" title="It's not keto flu">
+        What most people call &ldquo;keto flu&rdquo; is actually an electrolyte
+        deficiency &mdash; specifically sodium and potassium. Low-carb diets
+        cause your kidneys to dump sodium at an accelerated rate, and drinking
+        more plain water only dilutes what&rsquo;s left.
+      </Callout>
+
       <p>
         But this isn&rsquo;t just a keto problem. Most people&rsquo;s
         electrolyte intake is quietly terrible, and the conventional advice
@@ -77,6 +105,13 @@ export function ElectrolytesGuide() {
         catastrophically low in potassium.
       </p>
 
+      <Callout variant="warning" title="The potassium gap">
+        97% of Americans don&rsquo;t meet the 4,700mg daily potassium target.
+        Most people worry about sodium while being catastrophically low in
+        potassium &mdash; the mineral that actually buffers sodium&rsquo;s
+        effect on blood pressure.
+      </Callout>
+
       <h3>Magnesium &mdash; The Silent Deficiency</h3>
       <p>
         The third pillar. Magnesium is involved in over 300 enzymatic
@@ -95,6 +130,8 @@ export function ElectrolytesGuide() {
         covers form selection in detail.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
+
       <h2>The Sodium Controversy: Why &ldquo;Salt Is Bad&rdquo; Is Oversimplified</h2>
       <p>
         For fifty years, public health messaging has been unequivocal: eat
@@ -103,18 +140,16 @@ export function ElectrolytesGuide() {
         less sodium means less heart disease. But the actual evidence is far
         more nuanced than the soundbite.
       </p>
-      <p>
-        A <strong>2011 Cochrane systematic review</strong> (Graudal et al.,{" "}
-        <em>Cochrane Database of Systematic Reviews</em>) analyzed 167
+
+      <Callout variant="evidence" title="Cochrane review on sodium">
+        A 2011 Cochrane systematic review (Graudal et al.) analyzed 167
         studies on sodium reduction and concluded that while reducing sodium
         modestly lowers blood pressure in hypertensive individuals, there was{" "}
         <strong>no strong evidence</strong> that sodium reduction decreased
         all-cause mortality or cardiovascular events in people with normal
-        blood pressure. The review explicitly noted that low-sodium diets
-        activated the renin-angiotensin-aldosterone system and increased
-        triglycerides and catecholamines &mdash; hormonal changes that could
-        offset the blood pressure benefit.
-      </p>
+        blood pressure. <EvidenceBadge level="moderate" />
+      </Callout>
+
       <p>
         Then came the <strong>PURE study</strong> (Mente et al., 2014,{" "}
         <em>The New England Journal of Medicine</em>), which followed over
@@ -124,7 +159,7 @@ export function ElectrolytesGuide() {
         <strong>3,000&ndash;6,000mg of sodium per day</strong> &mdash; well
         above the 2,300mg upper limit recommended by the AHA. Both very low{" "}
         <em>and</em> very high sodium intakes were associated with increased
-        mortality.
+        mortality. <EvidenceBadge level="strong" />
       </p>
       <p>
         What does this mean practically? If you&rsquo;re sedentary, eating
@@ -144,7 +179,7 @@ export function ElectrolytesGuide() {
         (Aburto et al., originally 2013, WHO-commissioned review) found
         that higher potassium intake was associated with a{" "}
         <strong>24% lower risk of stroke</strong> and significantly lower
-        blood pressure, independent of sodium intake.
+        blood pressure, independent of sodium intake. <EvidenceBadge level="strong" />
       </p>
       <p>
         The ideal dietary sodium-to-potassium ratio is roughly{" "}
@@ -153,6 +188,13 @@ export function ElectrolytesGuide() {
         to slash sodium; it&rsquo;s to dramatically increase potassium while
         keeping sodium appropriate for your activity level.
       </p>
+
+      <Callout variant="tip" title="Fix the ratio">
+        The ideal sodium-to-potassium ratio is roughly 1:2. Most Americans eat
+        closer to 2:1. The fix isn&rsquo;t to slash sodium &mdash; it&rsquo;s to
+        dramatically increase potassium while keeping sodium appropriate for
+        your activity level.
+      </Callout>
 
       <h2>Who Actually Needs Electrolyte Supplements</h2>
       <p>
@@ -188,13 +230,18 @@ export function ElectrolytesGuide() {
         pounds lost on keto is almost entirely water weight &mdash; your
         body is shedding fluid because it can&rsquo;t hold onto sodium.
       </p>
-      <p>
-        Volek &amp; Phinney, in <em>The Art and Science of Low
-        Carbohydrate Living</em> (2011), recommended that ketogenic
-        dieters consume <strong>3,000&ndash;5,000mg of sodium</strong>,{" "}
+
+      <Callout variant="evidence" title="Keto electrolyte needs">
+        Volek &amp; Phinney, in <em>The Art and Science of Low Carbohydrate
+        Living</em> (2011), recommended that ketogenic dieters consume{" "}
+        <strong>3,000&ndash;5,000mg of sodium</strong>,{" "}
         <strong>1,000&ndash;3,500mg of potassium</strong>, and{" "}
-        <strong>300&ndash;500mg of magnesium</strong> daily &mdash; far
-        above standard dietary guidelines. Most keto &ldquo;failures&rdquo;
+        <strong>300&ndash;500mg of magnesium</strong> daily &mdash; far above
+        standard dietary guidelines. <EvidenceBadge level="moderate" />
+      </Callout>
+
+      <p>
+        Most keto &ldquo;failures&rdquo;
         in the first two weeks are electrolyte failures, not willpower
         failures.
       </p>
@@ -217,6 +264,8 @@ export function ElectrolytesGuide() {
         are a heavy sodium sweater and need more replacement than average.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-daily-electrolytes"]} />
+
       <h2>The &ldquo;8 Glasses of Water&rdquo; Myth and Overhydration</h2>
       <p>
         The advice to drink eight glasses (64oz) of water per day has no
@@ -225,6 +274,14 @@ export function ElectrolytesGuide() {
         misinterpretation of a 1945 National Research Council recommendation
         that included water from <em>food</em>. Yet it persists as gospel.
       </p>
+
+      <Callout variant="warning" title="Overhydration is real">
+        Exercise-associated hyponatremia (dangerously low blood sodium from
+        drinking too much water) hospitalizes marathon runners every year.
+        Drink to thirst rather than forcing a fixed volume &mdash; your
+        body&rsquo;s thirst mechanism is more reliable than any formula.
+      </Callout>
+
       <p>
         The real danger here isn&rsquo;t dehydration &mdash; it&rsquo;s{" "}
         <strong>overhydration diluting your electrolytes</strong>.
@@ -234,7 +291,7 @@ export function ElectrolytesGuide() {
         <em>Clinical Journal of Sport Medicine</em> (Hew-Butler et al.)
         recommended drinking to thirst rather than forcing a fixed volume
         &mdash; your body&rsquo;s thirst mechanism is more reliable than
-        any formula.
+        any formula. <EvidenceBadge level="strong" />
       </p>
 
       <h2>Commercial Electrolyte Products: An Honest Assessment</h2>
@@ -270,11 +327,12 @@ export function ElectrolytesGuide() {
         magnesium are present (though supplementary, not replacements for
         dietary intake), and there&rsquo;s no sugar undermining the effect.
       </p>
-      <p>
+
+      <Callout variant="tip" title="What to look for">
         The criteria that matter: does it provide at least 500mg sodium per
         serving, does it include all three electrolytes, and is it low or
         zero sugar? Most products fail on at least one of those.
-      </p>
+      </Callout>
 
       <h2>The DIY Electrolyte Recipe</h2>
       <p>
@@ -352,6 +410,23 @@ export function ElectrolytesGuide() {
         .
       </p>
 
+      <InteractionGroup title="Electrolyte interactions to know">
+        <InteractionCard
+          type="synergy"
+          a="Magnesium"
+          b="Potassium"
+          effect="Magnesium is required for proper potassium retention. Low magnesium causes the kidneys to waste potassium, making deficiency harder to correct."
+          recommendation="Always address magnesium alongside potassium. Supplementing potassium alone may not resolve deficiency if magnesium is low."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Sodium"
+          b="Potassium"
+          effect="These two electrolytes work as a pair for nerve signaling and fluid balance. The ratio between them matters more than either absolute amount."
+          recommendation="Aim for a 1:2 sodium-to-potassium ratio. Increase potassium before cutting sodium."
+        />
+      </InteractionGroup>
+
       <h2>Signs You&rsquo;re Electrolyte Deficient</h2>
       <p>
         Electrolyte deficiency rarely shows up on standard blood tests
@@ -394,6 +469,14 @@ export function ElectrolytesGuide() {
       </p>
 
       <h2>Cautions and Contraindications</h2>
+
+      <Callout variant="warning" title="Medical cautions">
+        Supplementing electrolytes without medical supervision is not
+        appropriate for everyone. Kidney disease, heart failure, and
+        aldosterone disorders fundamentally change how your body handles
+        sodium and potassium.
+      </Callout>
+
       <ul>
         <li>
           <strong>Kidney disease:</strong> impaired kidneys cannot excrete

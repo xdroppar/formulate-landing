@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function ZincGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Zinc lozenges reduce cold duration by ~33% — but only if started within 24 hours of symptoms",
+          "High-dose zinc (40mg+/day) depletes copper — always pair with 1–2mg copper for daily use",
+          "Zinc picolinate or bisglycinate are the best-absorbed forms; avoid zinc oxide",
+          "15–30mg/day with food for maintenance; take with food to avoid nausea",
+        ]}
+      />
+
       <p>
         You feel that telltale tickle in the back of your throat on a Sunday
         evening. By Monday morning you&rsquo;re reaching for the zinc lozenges
@@ -40,7 +61,8 @@ export function ZincGuide() {
         randomized controlled trials and found that zinc lozenges or syrup{" "}
         <strong>reduced the duration of the common cold by approximately
         33%</strong> &mdash; but only when taken within 24 hours of symptom
-        onset. Wait two days and the benefit largely disappears.
+        onset. Wait two days and the benefit largely disappears.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         A more recent 2017 meta-analysis published in <em>JRSM Open</em> by
@@ -48,8 +70,15 @@ export function ZincGuide() {
         of zinc per day shortened colds by an average of 2.7 days. The
         mechanism is straightforward: zinc ions interfere with rhinovirus
         replication in the nasal mucosa and modulate the inflammatory
-        response.
+        response. <EvidenceBadge level="strong" />
       </p>
+
+      <Callout variant="tip" title="Timing is everything for colds">
+        Zinc lozenges must be started within 24 hours of first symptoms to
+        be effective. Keep them on hand so you&rsquo;re ready — buying them
+        on day 3 of a cold is too late.
+      </Callout>
+
       <p>
         The catch? It has to be the right form. Zinc lozenges work because
         they release ionic zinc directly into the throat and nasal passages.
@@ -65,7 +94,7 @@ export function ZincGuide() {
         mild zinc deficiency impairs T-cell function, reduces natural killer
         cell activity, and increases susceptibility to infections. This is why
         older adults with low zinc status tend to get sicker more often and
-        recover more slowly.
+        recover more slowly. <EvidenceBadge level="strong" />
       </p>
 
       <h2>Zinc and Testosterone: Separating Hype From Reality</h2>
@@ -81,8 +110,16 @@ export function ZincGuide() {
         restricted their zinc intake for 20 weeks. Serum testosterone dropped
         significantly. When zinc was restored, testosterone came back up. A
         separate arm of the study found that zinc supplementation in marginally
-        deficient elderly men increased testosterone.
+        deficient elderly men increased testosterone.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
+
+      <Callout variant="info" title="Zinc is a testosterone normalizer, not a booster">
+        Zinc supplementation raises testosterone in people who are zinc
+        deficient. If you&rsquo;re already zinc-sufficient, adding more zinc
+        will not push your testosterone above its natural set point.
+      </Callout>
+
       <p>
         Here&rsquo;s the key takeaway:{" "}
         <strong>zinc supplementation raises testosterone in people who are
@@ -102,6 +139,14 @@ export function ZincGuide() {
       </p>
 
       <h2>The Copper Connection You Can&rsquo;t Ignore</h2>
+
+      <Callout variant="warning" title="Critical: high-dose zinc depletes copper">
+        At 40mg/day or above taken consistently, zinc induces metallothionein
+        production that blocks copper absorption. Copper deficiency causes
+        anemia, neutropenia, fatigue, and neurological symptoms. Always pair
+        daily zinc with 1&ndash;2mg copper.
+      </Callout>
+
       <p>
         This is the most important section of this guide, and the one that
         most zinc supplement labels conveniently leave out.
@@ -113,7 +158,8 @@ export function ZincGuide() {
         protein that binds copper and prevents it from being absorbed into the
         bloodstream. At normal zinc intakes, this is fine. At{" "}
         <strong>40mg/day or above</strong>, taken consistently over weeks to
-        months, you can tip into genuine copper deficiency.
+        months, you can tip into genuine copper deficiency.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         Copper deficiency is not something you want. The symptoms include:
@@ -143,7 +189,7 @@ export function ZincGuide() {
         significantly reduced copper status markers in healthy adults. Case
         reports have documented full copper deficiency myelopathy in people
         taking high-dose zinc for months to years without copper
-        co-supplementation.
+        co-supplementation. <EvidenceBadge level="strong" />
       </p>
       <p>
         <strong>The fix is simple:</strong> if you take zinc daily, pair it
@@ -162,6 +208,30 @@ export function ZincGuide() {
         a narrow therapeutic window.
       </p>
 
+      <InteractionGroup title="Zinc interactions">
+        <InteractionCard
+          type="conflict"
+          a="Zinc (40mg+)"
+          b="Copper"
+          effect="Chronic high-dose zinc depletes copper stores via metallothionein induction, causing anemia, neutropenia, and neurological symptoms."
+          recommendation="Always pair daily zinc with 1–2mg copper at a 15:1 ratio."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Zinc"
+          b="Iron"
+          effect="On an empty stomach, zinc and iron compete for the same DMT-1 transporters, reducing absorption of both."
+          recommendation="Take with food to largely resolve this, or take at different times of day."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Zinc"
+          b="Vitamin D"
+          effect="Zinc is a cofactor in vitamin D receptor signaling. The two work synergistically for immune function."
+          recommendation="Take together — both are foundational for immune support."
+        />
+      </InteractionGroup>
+
       <h2>Which Form of Zinc Actually Works?</h2>
       <p>
         Like magnesium, the form of zinc you choose dramatically affects how
@@ -175,7 +245,8 @@ export function ZincGuide() {
           highest absorption rates in comparative studies. A 1987 study in{" "}
           <em>Agents and Actions</em> (Barrie et al.) found zinc picolinate
           was absorbed significantly better than zinc gluconate or zinc
-          citrate. This is the gold standard for daily supplementation.
+          citrate. This is the gold standard for daily supplementation.{" "}
+          <EvidenceBadge level="moderate" />
         </li>
         <li>
           <strong>Zinc bisglycinate (glycinate)</strong> &mdash; Chelated to
@@ -205,10 +276,13 @@ export function ZincGuide() {
           &mdash; cheap for the manufacturer, useless for you.
         </li>
       </ul>
-      <p>
-        <strong>Bottom line:</strong> Zinc picolinate or zinc bisglycinate.
-        Everything else is a compromise.
-      </p>
+
+      <Callout variant="tip" title="Best forms">
+        Zinc picolinate or zinc bisglycinate. Everything else is a compromise.
+        Avoid zinc oxide — absorption is roughly 50% lower.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-zinc-bisglycinate"]} />
 
       <h2>Who&rsquo;s Most at Risk for Deficiency?</h2>
       <p>
@@ -283,6 +357,13 @@ export function ZincGuide() {
         </li>
       </ul>
       <h3>Timing</h3>
+
+      <Callout variant="warning" title="Take zinc with food">
+        On an empty stomach, zinc commonly causes nausea — sometimes
+        intensely. A light meal or snack is enough to prevent this. Avoid
+        taking zinc at the same time as high-dose calcium or iron.
+      </Callout>
+
       <p>
         <strong>Take zinc with food.</strong> On an empty stomach, zinc
         commonly causes nausea &mdash; sometimes intensely. A light meal or
@@ -307,6 +388,14 @@ export function ZincGuide() {
       </p>
 
       <h2>The Zinc Taste Test Is Pseudoscience</h2>
+
+      <Callout variant="info" title="Skip the taste test">
+        There is no credible evidence supporting the &ldquo;zinc taste
+        test.&rdquo; A 2005 review found no correlation between taste test
+        results and actual serum zinc levels. Get a serum zinc blood test
+        instead. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         You may have heard of the &ldquo;zinc taste test&rdquo; &mdash; where
         you swish liquid zinc sulfate in your mouth and your ability to taste
@@ -362,6 +451,15 @@ export function ZincGuide() {
         </a>.
       </p>
 
+      <ProductRow
+        title="Zinc stack essentials"
+        products={[
+          PRODUCTS["thorne-zinc-bisglycinate"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+        ]}
+      />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Can zinc supplements cause nausea?</h3>
@@ -397,7 +495,7 @@ export function ZincGuide() {
         properties are the likely mechanisms. It&rsquo;s not a miracle cure,
         but for people with mild to moderate acne who are also zinc deficient,
         it can meaningfully help &mdash; and it has far fewer side effects
-        than long-term antibiotic use.
+        than long-term antibiotic use. <EvidenceBadge level="moderate" />
       </p>
 
       <h3>Should I take zinc if I&rsquo;m already eating red meat regularly?</h3>

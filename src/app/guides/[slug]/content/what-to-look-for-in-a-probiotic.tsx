@@ -1,6 +1,24 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function WhatToLookForInProbiotic() {
   return (
     <>
+      <TLDRBox
+        readTime="8 min read"
+        takeaways={[
+          "Strain specificity is the #1 factor — L. rhamnosus GG has 1,000+ studies; a different L. rhamnosus strain may have zero",
+          "Most clinical trials showing real benefits use 1-20 billion CFU — not the 100+ billion marketed by many brands",
+          "If a probiotic doesn't list specific strain designations (the letters after the species), you can't evaluate its evidence",
+          "Match the strain to your goal: S. boulardii for antibiotics, LP299V for IBS bloating, LGG for general gut health",
+        ]}
+      />
+
       <p>
         Walk into any pharmacy and you&rsquo;ll see it: an entire aisle of
         probiotic products, each one louder than the last. &ldquo;50 billion
@@ -29,6 +47,16 @@ export function WhatToLookForInProbiotic() {
         factor is one that most consumers don&rsquo;t even know to look
         for: <strong>strain specificity</strong>.
       </p>
+
+      <Callout variant="warning" title="The #1 red flag">
+        If a probiotic product doesn&rsquo;t list specific strain designations
+        (the letters/numbers after the species name), you literally cannot
+        evaluate whether it has any evidence behind it. <em>L. rhamnosus
+        GG</em> has over 1,000 published studies. A different{" "}
+        <em>L. rhamnosus</em> strain may have zero. Same species, completely
+        different evidence.
+      </Callout>
+
       <p>
         A probiotic organism is identified by three parts: genus, species,
         and strain. For example: <em>Lactobacillus rhamnosus{" "}
@@ -45,13 +73,6 @@ export function WhatToLookForInProbiotic() {
         evidence. Same genus. Same species. Completely different evidence
         base.
       </p>
-      <p>
-        <strong>If a probiotic product doesn&rsquo;t list specific strain
-        designations (the letters/numbers after the species name), you
-        literally cannot evaluate whether it has any evidence behind
-        it.</strong> This is the #1 red flag &mdash; and the majority of
-        products on shelves fail this basic test.
-      </p>
 
       <h2>CFU Count: Why Bigger Isn&rsquo;t Better</h2>
       <p>
@@ -59,13 +80,16 @@ export function WhatToLookForInProbiotic() {
         absurd. Products now advertise 100 billion, 200 billion CFU. The
         implication is that more = better. The research says otherwise.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="What the research actually uses">
         Most clinical trials showing real benefits use{" "}
         <strong>1&ndash;20 billion CFU</strong> of specific strains. The
-        studies that demonstrated <em>L. rhamnosus GG</em>&rsquo;s benefits
-        for gut health? 10 billion CFU. <em>Saccharomyces boulardii</em>{" "}
-        for antibiotic-associated diarrhea? 5&ndash;10 billion CFU.
-      </p>
+        studies demonstrating <em>L. rhamnosus GG</em>&rsquo;s benefits used
+        10 billion CFU. <em>S. boulardii</em> for antibiotic-associated
+        diarrhea? 5&ndash;10 billion CFU. <em>B. longum 35624</em> for IBS?
+        Just 1 billion. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         What actually matters about CFU:
       </p>
@@ -104,7 +128,7 @@ export function WhatToLookForInProbiotic() {
           <strong>Lactobacillus rhamnosus GG (LGG):</strong> The most studied
           probiotic strain in the world. Strong evidence for
           antibiotic-associated diarrhea prevention, IBS symptom reduction,
-          and pediatric gastroenteritis. Studied at 10&ndash;20 billion CFU.
+          and pediatric gastroenteritis. Studied at 10&ndash;20 billion CFU. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Saccharomyces boulardii (CNCM I-745):</strong> Not a
@@ -112,34 +136,37 @@ export function WhatToLookForInProbiotic() {
           superpower: it&rsquo;s naturally antibiotic-resistant, so you can
           take it <em>during</em> an antibiotic course without it being
           killed. Strong evidence for C. difficile prevention and
-          traveler&rsquo;s diarrhea. Studied at 5&ndash;10 billion CFU.
+          traveler&rsquo;s diarrhea. Studied at 5&ndash;10 billion CFU. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Bifidobacterium lactis BB-12:</strong> One of the
           best-documented bifidobacteria. Evidence for improved regularity,
           immune function in infants, and gut barrier integrity. Studied at
-          1&ndash;10 billion CFU.
+          1&ndash;10 billion CFU. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Lactobacillus plantarum 299v (LP299V):</strong> Specifically
           studied for IBS, particularly bloating and abdominal pain. Multiple
-          RCTs showing benefit. Studied at 10&ndash;20 billion CFU.
+          RCTs showing benefit. Studied at 10&ndash;20 billion CFU. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Bifidobacterium longum 35624:</strong> Also known as
           Alflorex&reg;. Evidence from multiple trials for IBS symptom
           improvement (bloating, pain, bowel habit). Studied at 1 billion
           CFU &mdash; proving that low-dose, single-strain products can be
-          highly effective.
+          highly effective. <EvidenceBadge level="strong" />
         </li>
       </ul>
-      <p>
-        The pattern: match the strain to your goal. &ldquo;I want better
-        gut health&rdquo; isn&rsquo;t specific enough. &ldquo;I get IBS
-        bloating&rdquo; points you toward LP299V or B. longum 35624.
-        &ldquo;I&rsquo;m going on antibiotics&rdquo; points you toward S.
-        boulardii. This is strain-specific medicine, not one-size-fits-all.
-      </p>
+
+      <Callout variant="tip" title="Match strain to goal">
+        &ldquo;I want better gut health&rdquo; isn&rsquo;t specific enough.
+        &ldquo;I get IBS bloating&rdquo; points you toward LP299V or B.
+        longum 35624. &ldquo;I&rsquo;m going on antibiotics&rdquo; points
+        you toward S. boulardii. This is strain-specific medicine, not
+        one-size-fits-all.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-floramend"]} />
 
       <h2>Delivery: Getting Them There Alive</h2>
       <p>
@@ -179,6 +206,14 @@ export function WhatToLookForInProbiotic() {
       </ul>
 
       <h2>The Red Flag Checklist</h2>
+
+      <Callout variant="warning" title="If a probiotic does any of these, think twice">
+        No strain designations listed. Advertises 30+ strains as a selling
+        point. Guarantees CFU only at manufacture. Uses proprietary blends
+        with undisclosed per-strain amounts. Claims to support 5+ health
+        outcomes.
+      </Callout>
+
       <p>
         If a probiotic product does any of these, think twice:
       </p>

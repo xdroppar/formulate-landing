@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BeginnerLongevityStack() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Tier 1 (omega-3, vitamin D + K2, magnesium) covers the most common deficiencies with the strongest longevity evidence",
+          "Tier 2 (creatine, CoQ10, curcumin) adds evidence-based depth once your foundation is solid",
+          "Tier 3 (NMN, resveratrol, spermidine) is exciting science but unproven in humans — skip until Tiers 1–2 are dialed in",
+          "Exercise, sleep, and nutrition matter more than any supplement stack — build the foundation first",
+        ]}
+      />
+
       <p>
         Somewhere in the last five years, &ldquo;longevity&rdquo; went from
         a niche research topic to a full-blown industry. Peter Attia has a
@@ -22,6 +43,12 @@ export function BeginnerLongevityStack() {
         worth your money now, what&rsquo;s worth watching, and what&rsquo;s
         probably not worth the premium.
       </p>
+
+      <Callout variant="tip" title="How to use this guide">
+        Start with Tier 1. Get bloodwork. Add Tier 2 after 3 months of
+        consistency. Consider Tier 3 only after everything else is dialed
+        in. Resist the urge to buy everything at once.
+      </Callout>
 
       <h2>How We Think About Evidence</h2>
       <p>
@@ -68,7 +95,7 @@ export function BeginnerLongevityStack() {
         The evidence: the <strong>VITAL trial</strong> (25,871 participants)
         found significant reductions in heart attacks. <strong>REDUCE-IT</strong>{" "}
         (8,179 patients) showed a 25% reduction in cardiovascular events with
-        high-dose EPA. A 2021 umbrella review in the <em>British Medical
+        high-dose EPA. <EvidenceBadge level="strong" /> A 2021 umbrella review in the <em>British Medical
         Journal</em> confirmed benefits for cardiovascular mortality and
         coronary heart disease.
       </p>
@@ -80,15 +107,17 @@ export function BeginnerLongevityStack() {
         <em>Journal of Clinical Lipidology</em> found that people in the
         highest Omega-3 Index quartile lived an estimated{" "}
         <strong>5 years longer</strong> than those in the lowest. That&rsquo;s
-        comparable to the mortality impact of smoking.
+        comparable to the mortality impact of smoking. <EvidenceBadge level="strong" />
       </p>
-      <p>
-        <strong>What to look for:</strong> Combined EPA+DHA of
-        1,000&ndash;2,000mg daily (not total fish oil &mdash; check the
-        Supplement Facts). Triglyceride form absorbs better than ethyl ester.
-        IFOS certification is the gold standard for purity testing (heavy
-        metals, oxidation). Take with any fat-containing meal.
-      </p>
+
+      <Callout variant="info" title="What to look for in omega-3">
+        Combined EPA+DHA of 1,000&ndash;2,000mg daily (not total fish oil
+        &mdash; check the Supplement Facts). Triglyceride form absorbs better
+        than ethyl ester. IFOS certification is the gold standard for purity
+        testing (heavy metals, oxidation). Take with any fat-containing meal.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h3>Vitamin D3 + K2</h3>
       <p>
@@ -99,20 +128,23 @@ export function BeginnerLongevityStack() {
         disease, autoimmune conditions, type 2 diabetes, and cognitive
         decline.
       </p>
-      <p>
-        About <strong>42% of American adults are deficient</strong>
-        (&lt;20 ng/mL). If you work indoors, live above the 37th parallel
-        (roughly north of San Francisco or Richmond, VA), or have darker
-        skin, your risk is even higher.
-      </p>
+
+      <Callout variant="warning" title="42% of American adults are deficient">
+        If you work indoors, live above the 37th parallel (roughly north of
+        San Francisco or Richmond, VA), or have darker skin, your risk of
+        vitamin D deficiency is even higher. Get tested before guessing your
+        dose.
+      </Callout>
+
       <p>
         The K2 part is critical and often skipped. Vitamin D increases
         calcium absorption, but K2 (specifically MK-7) directs that calcium
         into bones rather than arteries. Taking high-dose D3 without K2 is
         like flooding a highway with cars and removing all the road signs.
       </p>
-      <p>
-        <strong>What to look for:</strong> D3 (not D2 &mdash;{" "}
+
+      <Callout variant="info" title="What to look for in D3 + K2">
+        D3 (not D2 &mdash;{" "}
         <a href="/guides/best-vitamin-d-supplements">
           here&rsquo;s why
         </a>
@@ -120,7 +152,26 @@ export function BeginnerLongevityStack() {
         need 2,000&ndash;5,000 IU daily to maintain the optimal range of
         40&ndash;60 ng/mL. Pair with 100&ndash;200mcg K2 (MK-7). Take with
         a fat-containing meal.
-      </p>
+      </Callout>
+
+      <InteractionGroup title="D3 + K2 synergy">
+        <InteractionCard
+          type="synergy"
+          a="Vitamin D3"
+          b="Vitamin K2 (MK-7)"
+          effect="D3 increases calcium absorption. K2 directs that calcium into bones rather than arteries, preventing vascular calcification."
+          recommendation="At D3 doses above 2,000 IU, always pair with 100–200mcg K2."
+        />
+      </InteractionGroup>
+
+      <ProductRow
+        title="Top-scored D3 + K2 options"
+        products={[
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-vitamin-k"],
+        ]}
+      />
 
       <h3>Magnesium</h3>
       <p>
@@ -133,17 +184,26 @@ export function BeginnerLongevityStack() {
         role in metabolic health (insulin sensitivity), cardiovascular
         function (blood pressure, heart rhythm), and inflammatory
         regulation. Low magnesium is independently associated with increased
-        cardiovascular mortality and type 2 diabetes risk.
+        cardiovascular mortality and type 2 diabetes risk. <EvidenceBadge level="strong" />
       </p>
-      <p>
-        <strong>What to look for:</strong> Glycinate for general use and
-        sleep support. Threonate if cognitive function is a priority. Avoid
-        oxide. 200&ndash;400mg elemental magnesium daily, taken in the
-        evening. (Deep dive in our{" "}
+
+      <Callout variant="info" title="What to look for in magnesium">
+        Glycinate for general use and sleep support. Threonate if cognitive
+        function is a priority. Avoid oxide. 200&ndash;400mg elemental
+        magnesium daily, taken in the evening. (Deep dive in our{" "}
         <a href="/guides/signs-you-are-magnesium-deficient">
           magnesium deficiency guide
         </a>.)
-      </p>
+      </Callout>
+
+      <ProductRow
+        title="Top-scored magnesium"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-magnesium-glycinate"],
+          PRODUCTS["thorne-magnesium-citramate"],
+        ]}
+      />
 
       <h2>Tier 2: Evidence-Based Additions</h2>
       <p>
@@ -162,20 +222,30 @@ export function BeginnerLongevityStack() {
         in aging populations. Sarcopenia (age-related muscle loss) begins
         in your 30s and accelerates after 60. Creatine is the single most
         evidence-backed supplement for maintaining strength and lean mass.
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         Beyond muscle, creatine has emerging neuroprotective evidence.
         Preclinical data shows benefits for brain energy metabolism, and
         several human trials have demonstrated cognitive benefits,
         particularly under conditions of stress or sleep deprivation.
+        <EvidenceBadge level="moderate" />
       </p>
-      <p>
-        <strong>What to look for:</strong> Creatine monohydrate, 3&ndash;5g
-        daily. No fancy forms needed. Don&rsquo;t cycle it. Take it every
-        day, any time. (More in our{" "}
+
+      <Callout variant="tip" title="Creatine is the easiest supplement to take">
+        Creatine monohydrate, 3&ndash;5g daily. No fancy forms needed.
+        Don&rsquo;t cycle it. Take it every day, any time. (More in our{" "}
         <a href="/guides/creatine-loading-phase">creatine loading guide</a>
         .)
-      </p>
+      </Callout>
+
+      <ProductRow
+        title="Top-scored creatine"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h3>CoQ10 (Coenzyme Q10)</h3>
       <p>
@@ -185,19 +255,23 @@ export function BeginnerLongevityStack() {
         Natural levels decline with age, and statins (taken by 25% of
         adults over 40) further deplete them.
       </p>
-      <p>
-        The strongest human evidence comes from the <strong>Q-SYMBIO</strong>{" "}
-        trial: 420 patients with chronic heart failure randomized to CoQ10
-        or placebo for 2 years. The CoQ10 group showed significant
-        reductions in cardiovascular mortality and hospital admissions.
-        That&rsquo;s a hard clinical endpoint, not a biomarker.
-      </p>
+
+      <Callout variant="evidence" title="Q-SYMBIO trial">
+        The strongest human evidence comes from the Q-SYMBIO trial: 420
+        patients with chronic heart failure randomized to CoQ10 or placebo
+        for 2 years. The CoQ10 group showed significant reductions in
+        cardiovascular mortality and hospital admissions. That&rsquo;s a
+        hard clinical endpoint, not a biomarker. <EvidenceBadge level="strong" />
+      </Callout>
+
       <p>
         <strong>What to look for:</strong> Ubiquinol (reduced form) is more
         bioavailable, especially over age 40 when the body&rsquo;s ability
         to convert ubiquinone diminishes. 100&ndash;200mg daily with a
         fat-containing meal.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-coq10"]} />
 
       <h3>Curcumin</h3>
       <p>
@@ -210,17 +284,19 @@ export function BeginnerLongevityStack() {
       </p>
       <p>
         Human trials show benefits for inflammatory markers (CRP, IL-6),
-        joint health, and cardiovascular risk factors. The catch:
+        joint health, and cardiovascular risk factors. <EvidenceBadge level="moderate" /> The catch:
         standard curcumin has terrible bioavailability &mdash; most passes
         through unabsorbed.
       </p>
-      <p>
-        <strong>What to look for:</strong> You need an enhanced
-        bioavailability formulation: Meriva (phytosome), Longvida,
-        CurcuWIN, or standard curcumin with piperine (black pepper
-        extract) for ~2,000% better absorption. 500&ndash;1,000mg daily.
-        Without a bioavailability enhancer, you&rsquo;re wasting your money.
-      </p>
+
+      <Callout variant="warning" title="Bioavailability is non-negotiable">
+        Without an enhanced bioavailability formulation (Meriva, Longvida,
+        CurcuWIN, or standard curcumin with piperine), you&rsquo;re
+        absorbing almost nothing. Standard curcumin with piperine gives
+        ~2,000% better absorption. 500&ndash;1,000mg daily.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-curcumin-phytosome"]} />
 
       <h2>Tier 3: The Interesting Bets</h2>
       <p>
@@ -243,16 +319,17 @@ export function BeginnerLongevityStack() {
         precursors that raise NAD+ levels. The animal data is remarkable:
         improved mitochondrial function, enhanced DNA repair, metabolic
         improvements, and in some studies, extended lifespan.
+        <EvidenceBadge level="emerging" />
       </p>
-      <p>
-        The human reality: supplementation does raise blood NAD+ levels.
-        That&rsquo;s been confirmed in multiple trials. What hasn&rsquo;t
-        been confirmed is whether raising NAD+ in humans translates to
-        the dramatic benefits seen in mice. The gap between &ldquo;it
-        raises a biomarker&rdquo; and &ldquo;it makes you live longer&rdquo;
-        is enormous and still unproven. At $1&ndash;3/day for quality
-        products, it&rsquo;s an expensive experiment.
-      </p>
+
+      <Callout variant="info" title="The gap between biomarker and benefit">
+        Supplementation does raise blood NAD+ levels &mdash; that&rsquo;s
+        been confirmed in multiple trials. What hasn&rsquo;t been confirmed
+        is whether raising NAD+ in humans translates to the dramatic benefits
+        seen in mice. At $1&ndash;3/day for quality products, it&rsquo;s an
+        expensive experiment.
+      </Callout>
+
       <p>
         <strong>Current verdict:</strong> Fascinating science. Unproven
         human benefit. If you have the budget and you&rsquo;ve nailed
@@ -266,19 +343,14 @@ export function BeginnerLongevityStack() {
         2008&ndash;2015. Activates sirtuins, extends lifespan in yeast and
         mice, has beautiful in-vitro data.
       </p>
-      <p>
-        The problem: human trials have been largely disappointing.
+
+      <Callout variant="warning" title="Human trials have been disappointing">
         Bioavailability is poor (most is metabolized before reaching target
         tissues), and clinical trials have failed to show consistent
-        benefits on metabolic or cardiovascular endpoints in humans. The
-        REWRITE trial for Alzheimer&rsquo;s showed some interesting brain
-        biomarker changes but no clinical improvement.
-      </p>
-      <p>
-        Most serious longevity researchers have quietly moved on.
-        Resveratrol isn&rsquo;t harmful, but the money is probably better
-        spent elsewhere.
-      </p>
+        benefits on metabolic or cardiovascular endpoints in humans.
+        <EvidenceBadge level="emerging" /> Most serious longevity researchers
+        have quietly moved on. Your money is probably better spent elsewhere.
+      </Callout>
 
       <h3>Spermidine</h3>
       <p>
@@ -291,7 +363,7 @@ export function BeginnerLongevityStack() {
         The most interesting data comes from the <strong>Bruneck
         study</strong>: a 20-year observational cohort that found higher
         dietary spermidine intake was associated with significantly reduced
-        all-cause mortality. Supplementation trials are ongoing, with early
+        all-cause mortality. <EvidenceBadge level="moderate" /> Supplementation trials are ongoing, with early
         results showing improved memory in older adults.
       </p>
       <p>
@@ -324,13 +396,24 @@ export function BeginnerLongevityStack() {
         </a>.
       </p>
 
+      <ProductRow
+        title="The starter longevity stack"
+        products={[
+          PRODUCTS["thorne-super-epa-pro"],
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["thorne-creatine"],
+        ]}
+      />
+
       <h2>What Matters More Than Any Supplement</h2>
-      <p>
+
+      <Callout variant="warning" title="No supplement stack compensates for poor fundamentals">
         This section isn&rsquo;t here for completeness &mdash; it&rsquo;s
         here because it&rsquo;s genuinely more important than everything
-        above combined. No supplement stack compensates for poor
-        fundamentals:
-      </p>
+        above combined.
+      </Callout>
+
       <ul>
         <li>
           <strong>Exercise.</strong> Resistance training preserves muscle mass

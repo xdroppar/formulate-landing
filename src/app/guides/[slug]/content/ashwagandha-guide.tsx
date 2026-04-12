@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function AshwagandhaGuide() {
   return (
     <>
+      <TLDRBox
+        readTime="12 min read"
+        takeaways={[
+          "Ashwagandha reduces cortisol by ~28% in chronically stressed adults (strong RCT evidence)",
+          "Extract type matters enormously — KSM-66 (5% withanolides) for general use, Sensoril (10%) for sleep/anxiety",
+          "Cycle 8–12 weeks on, 2–4 weeks off as a precautionary default",
+          "Skip entirely if you have autoimmune conditions, thyroid issues, or are pregnant",
+        ]}
+      />
+
       <p>
         You&rsquo;ve been sleeping seven hours but waking up wired. Your
         resting heart rate has crept up. You snap at people over nothing, and
@@ -44,7 +65,8 @@ export function AshwagandhaGuide() {
         or placebo for 60 days. The ashwagandha group showed a{" "}
         <strong>27.9% reduction in serum cortisol</strong> compared to
         baseline, versus a negligible change in the placebo group. Perceived
-        stress scores dropped significantly on every validated scale they used.
+        stress scores dropped significantly on every validated scale they used.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         A 2019 RCT by Lopresti et al. in <em>Medicine</em> confirmed this
@@ -52,8 +74,15 @@ export function AshwagandhaGuide() {
         withanolides), finding significant reductions in both cortisol and
         self-reported stress at 60 days. The cortisol reduction is not subtle
         &mdash; it&rsquo;s one of the larger effect sizes you&rsquo;ll see
-        in herbal supplement research.
+        in herbal supplement research. <EvidenceBadge level="strong" />
       </p>
+
+      <Callout variant="evidence" title="Cortisol reduction">
+        Multiple RCTs consistently show ashwagandha reduces serum cortisol by
+        20&ndash;30% over 8&ndash;12 weeks. This is one of the strongest
+        effect sizes in herbal supplement research.{" "}
+        <EvidenceBadge level="strong" />
+      </Callout>
 
       <h3>Anxiety</h3>
       <p>
@@ -63,7 +92,8 @@ export function AshwagandhaGuide() {
         <strong>consistently outperformed placebo on anxiety measures</strong>,
         including the Hamilton Anxiety Rating Scale. The effect sizes ranged
         from moderate to large. This isn&rsquo;t &ldquo;maybe it helps a
-        little&rdquo; territory &mdash; the signal is clear.
+        little&rdquo; territory &mdash; the signal is clear.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         That said, ashwagandha is not a replacement for clinical anxiety
@@ -78,7 +108,8 @@ export function AshwagandhaGuide() {
         quality, sleep onset latency, and overall restfulness in both healthy
         adults and people with insomnia over 10 weeks. The{" "}
         <em>somnifera</em> in the Latin name literally means
-        &ldquo;sleep-inducing,&rdquo; and the data backs it up.
+        &ldquo;sleep-inducing,&rdquo; and the data backs it up.{" "}
+        <EvidenceBadge level="strong" />
       </p>
       <p>
         If you&rsquo;re building a sleep protocol, ashwagandha is worth
@@ -99,7 +130,8 @@ export function AshwagandhaGuide() {
         <em>American Journal of Men&rsquo;s Health</em> found a 14.7%
         increase in testosterone over 8 weeks with 600mg of KSM-66. A 2010
         study by Ahmad et al. in <em>Fertility and Sterility</em> showed
-        improved semen parameters in infertile men.
+        improved semen parameters in infertile men.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         Don&rsquo;t expect this to turn you into a different person. The
@@ -116,8 +148,11 @@ export function AshwagandhaGuide() {
         greater increases in muscle strength (bench press and leg extension)
         and muscle size compared to placebo over 8 weeks. Recovery markers
         also improved. The effect is real but modest &mdash; don&rsquo;t
-        expect it to replace creatine or good programming.
+        expect it to replace creatine or good programming.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
 
       <h2>The Form Matters More Than the Brand</h2>
       <p>
@@ -145,6 +180,14 @@ export function AshwagandhaGuide() {
         for anxiety and sleep. The higher withanolide content means you need
         a lower dose &mdash; 125&ndash;250mg vs. 600mg for KSM-66.
       </p>
+
+      <Callout variant="warning" title="Avoid generic root powder">
+        Unextracted root powder typically contains only 1&ndash;2%
+        withanolides. You&rsquo;d need several grams to match a single
+        capsule of KSM-66 or Sensoril. Many budget products use this without
+        disclosing it clearly. Always check the Supplement Facts panel for
+        extract ratio or withanolide percentage.
+      </Callout>
 
       <h3>Generic Root Powder</h3>
       <p>
@@ -180,11 +223,12 @@ export function AshwagandhaGuide() {
           standardization varies.
         </li>
       </ul>
-      <p>
-        Taking more does not mean better results. Some evidence suggests that
-        very high doses can cause GI discomfort without additional benefit.
-        Stick to the studied ranges.
-      </p>
+
+      <Callout variant="tip" title="More is not better">
+        Some evidence suggests that very high doses can cause GI discomfort
+        without additional benefit. Stick to the studied ranges for your
+        chosen extract type.
+      </Callout>
 
       <h2>Timing: Morning or Evening?</h2>
       <p>
@@ -216,6 +260,13 @@ export function AshwagandhaGuide() {
       </p>
 
       <h2>Who Should Not Take Ashwagandha</h2>
+
+      <Callout variant="warning" title="Hard contraindications">
+        Ashwagandha stimulates immune activity and affects thyroid hormones.
+        Do not take it if you have autoimmune conditions, thyroid disorders,
+        are pregnant, or have surgery scheduled within 2 weeks.
+      </Callout>
+
       <p>
         Ashwagandha is generally well-tolerated, but there are real
         contraindications &mdash; not just boilerplate warnings:
@@ -257,7 +308,8 @@ export function AshwagandhaGuide() {
         events in published trials at standard doses, and a 2020 safety
         review by Tandon and Yadav in the{" "}
         <em>Journal of Ethnopharmacology</em> that found ashwagandha
-        well-tolerated in doses up to 1,250mg daily for 30 days.
+        well-tolerated in doses up to 1,250mg daily for 30 days.{" "}
+        <EvidenceBadge level="moderate" />
       </p>
       <p>
         A common practitioner recommendation is to cycle ashwagandha: take it
@@ -282,6 +334,32 @@ export function AshwagandhaGuide() {
         for how to layer these together.
       </p>
 
+      <InteractionGroup title="Ashwagandha pairings">
+        <InteractionCard
+          type="synergy"
+          a="Ashwagandha"
+          b="Magnesium Glycinate"
+          effect="Complementary stress-reduction pathways — ashwagandha lowers cortisol, magnesium activates the parasympathetic nervous system and regulates GABA."
+          recommendation="Take ashwagandha in the morning for daytime stress, magnesium glycinate in the evening for sleep."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Ashwagandha"
+          b="L-Theanine"
+          effect="Both reduce stress and anxiety through different mechanisms. L-theanine promotes alpha brain waves while ashwagandha blunts cortisol."
+          recommendation="Can be taken together. L-theanine works acutely (30–60 min), ashwagandha builds over weeks."
+        />
+      </InteractionGroup>
+
+      <ProductRow
+        title="Pair with your ashwagandha"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+        ]}
+      />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Can ashwagandha cause weight gain?</h3>
@@ -296,6 +374,14 @@ export function AshwagandhaGuide() {
       </p>
 
       <h3>Does ashwagandha interact with antidepressants or anxiety medications?</h3>
+
+      <Callout variant="warning" title="Medication interaction">
+        Ashwagandha has GABAergic and serotonergic activity, meaning it could
+        potentiate the effects of SSRIs, benzodiazepines, or other CNS-active
+        medications. Discuss with your prescribing doctor before combining.
+        Serotonin syndrome, while rare, is serious.
+      </Callout>
+
       <p>
         Ashwagandha has GABAergic and serotonergic activity, meaning it could
         theoretically potentiate the effects of SSRIs, benzodiazepines, or

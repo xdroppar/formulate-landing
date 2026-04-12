@@ -1,6 +1,25 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function BestCreatine() {
   return (
     <>
+      <TLDRBox
+        readTime="8 min read"
+        takeaways={[
+          "Creatine monohydrate is the only form backed by 500+ studies — every alternative is marketing",
+          "You need 3–5g per day (powder format) — most capsule products are underdosed",
+          "Look for Creapure sourcing and NSF/Informed Sport certification",
+          "Creatine works through daily saturation — timing doesn't matter, consistency does",
+        ]}
+      />
+
       <p>
         You&rsquo;re standing in the supplement aisle staring at fifteen different
         creatine products. One says &ldquo;HCl for 70x better absorption.&rdquo;
@@ -18,16 +37,17 @@ export function BestCreatine() {
         &mdash; including a landmark 2017 position stand by the{" "}
         <em>International Society of Sports Nutrition</em> (Kreider et al.) &mdash;
         confirm its benefits for strength, power output, lean mass, and even
-        cognitive function. Every other form (HCl, ethyl ester, buffered, liquid)
+        cognitive function. <EvidenceBadge level="strong" /> Every other form (HCl, ethyl ester, buffered, liquid)
         is riding on monohydrate&rsquo;s coattails.
       </p>
-      <p>
+
+      <Callout variant="evidence" title="No advantage from alternative forms">
         A 2021 systematic review in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em> (Antonio
         et al.) compared monohydrate head-to-head against alternative forms and
         found no meaningful difference in muscle creatine uptake. You&rsquo;re
-        paying 3&ndash;5x more for identical results. Don&rsquo;t do that.
-      </p>
+        paying 3&ndash;5x more for identical results. <EvidenceBadge level="strong" />
+      </Callout>
 
       <h2>What Actually Matters When Choosing Creatine</h2>
       <p>
@@ -44,11 +64,16 @@ export function BestCreatine() {
         per serving are underdosed &mdash; and this is shockingly common in capsule
         formats.
       </p>
-      <p>
-        Quick math: a typical capsule holds about 750mg. To hit 5g, you&rsquo;d need
+
+      <Callout variant="warning" title="Capsules are almost always underdosed">
+        A typical capsule holds about 750mg. To hit 5g, you&rsquo;d need
         to swallow seven capsules. Most capsule products suggest 2&ndash;3 per day,
         which gives you 1.5&ndash;2.25g. That&rsquo;s not enough. Powder is almost
-        always the better choice for creatine specifically. If you want to learn
+        always the better choice for creatine specifically.
+      </Callout>
+
+      <p>
+        If you want to learn
         more about decoding what&rsquo;s actually in your supplement,{" "}
         <a href="/guides/how-to-read-a-supplement-label">
           our guide to reading supplement labels
@@ -84,6 +109,12 @@ export function BestCreatine() {
         one ingredient on the label.
       </p>
 
+      <Callout variant="tip" title="The clean-label test">
+        The best creatine products have exactly one ingredient on the label:
+        creatine monohydrate. If there are more ingredients than you can count on
+        one hand, you&rsquo;re paying for filler, not function.
+      </Callout>
+
       <h2>Brands Worth Considering</h2>
       <p>
         Rather than pretending we&rsquo;ve ranked every creatine on the market,
@@ -96,6 +127,17 @@ export function BestCreatine() {
         It&rsquo;s the supplement equivalent of buying a Honda Civic: not flashy,
         just reliable.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
+      <p>
+        <strong>Nootropics Depot Creatine</strong> is another excellent option &mdash;
+        pure monohydrate powder at clinical dose with rigorous in-house testing.
+        Outstanding value per serving.
+      </p>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-creatine"]} />
+
       <p>
         <strong>Momentous Creatine</strong> is another Creapure-based option with
         Informed Sport certification. Used by several professional sports teams,
@@ -108,7 +150,7 @@ export function BestCreatine() {
         beta-methylbutyrate) and vitamin D. HMB has modest evidence for reducing
         muscle protein breakdown (Wilson et al., 2013,{" "}
         <em>European Journal of Applied Physiology</em>), which makes this a
-        reasonable combo product for strength-focused users. You will pay more for
+        reasonable combo product for strength-focused users. <EvidenceBadge level="moderate" /> You will pay more for
         the extras.
       </p>
       <p>
@@ -126,6 +168,13 @@ export function BestCreatine() {
         from day one gets you to the same saturation point in about 28 days, without
         the GI discomfort that large doses can cause.
       </p>
+
+      <Callout variant="info" title="Loading vs. maintenance">
+        Loading (20g/day for 5&ndash;7 days) reaches saturation faster but often
+        causes GI distress. Standard dosing (3&ndash;5g/day) takes ~28 days to
+        saturate but is better tolerated. Both reach the same endpoint.
+      </Callout>
+
       <p>
         We wrote{" "}
         <a href="/guides/creatine-loading-phase">
@@ -139,7 +188,7 @@ export function BestCreatine() {
         Creatine works by accumulation, not acute timing. Take it whenever
         you&rsquo;ll actually remember. A 2013 study by Antonio and Ciccone in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em> found a
-        slight advantage for post-workout supplementation, but the effect was small.
+        slight advantage for post-workout supplementation, but the effect was small. <EvidenceBadge level="moderate" />{" "}
         Consistency beats timing every time. For a full breakdown of when to take
         all your supplements, check{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
@@ -157,43 +206,40 @@ export function BestCreatine() {
           <strong>Cognitive function:</strong> A 2018 meta-analysis by Avgerinos
           et al. in <em>Experimental Gerontology</em> found creatine
           supplementation improved short-term memory and reasoning, particularly
-          under stress or sleep deprivation.
+          under stress or sleep deprivation. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Aging populations:</strong> Creatine supports muscle mass
           preservation in older adults. The ISSN position stand notes benefits for
-          sarcopenia prevention when combined with resistance training.
+          sarcopenia prevention when combined with resistance training. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>Vegetarians and vegans:</strong> Dietary creatine comes primarily
           from meat. People who don&rsquo;t eat meat tend to have lower baseline
           creatine stores and often see more pronounced benefits from
-          supplementation.
+          supplementation. <EvidenceBadge level="moderate" />
         </li>
       </ul>
 
       <h2>Common Myths, Quickly Debunked</h2>
-      <ul>
-        <li>
-          <strong>&ldquo;Creatine causes kidney damage&rdquo;</strong> &mdash; No.
-          Dozens of long-term studies (up to 5 years) show no adverse kidney
-          effects in healthy individuals. A 2019 review in the{" "}
-          <em>Journal of the International Society of Sports Nutrition</em>{" "}
-          (Kreider et al.) explicitly addresses this.
-        </li>
-        <li>
-          <strong>&ldquo;Creatine causes hair loss&rdquo;</strong> &mdash; Based
-          on a single 2009 study on rugby players that measured DHT (a hormone
-          linked to hair loss). The study has never been replicated, and no
-          subsequent research has found a direct link between creatine and
-          hair loss.
-        </li>
-        <li>
-          <strong>&ldquo;You need to cycle creatine&rdquo;</strong> &mdash; No.
-          There is no evidence that your body builds tolerance or that cycling
-          provides any benefit. Take it daily.
-        </li>
-      </ul>
+
+      <Callout variant="info" title="&ldquo;Creatine causes kidney damage&rdquo;">
+        No. Dozens of long-term studies (up to 5 years) show no adverse kidney
+        effects in healthy individuals. A 2019 review in the{" "}
+        <em>Journal of the International Society of Sports Nutrition</em>{" "}
+        (Kreider et al.) explicitly addresses this. <EvidenceBadge level="strong" />
+      </Callout>
+
+      <Callout variant="info" title="&ldquo;Creatine causes hair loss&rdquo;">
+        Based on a single 2009 study on rugby players that measured DHT. The study
+        has never been replicated, and no subsequent research has found a direct link
+        between creatine and hair loss. <EvidenceBadge level="emerging" />
+      </Callout>
+
+      <Callout variant="info" title="&ldquo;You need to cycle creatine&rdquo;">
+        No. There is no evidence that your body builds tolerance or that cycling
+        provides any benefit. Take it daily.
+      </Callout>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -211,7 +257,7 @@ export function BestCreatine() {
         Absolutely. The &ldquo;creatine is for bodybuilders&rdquo; perception is
         outdated. A 2021 narrative review by Smith-Ryan et al. in{" "}
         <em>Nutrients</em> highlighted benefits for women including improved
-        strength, body composition, bone health, and mood. Creatine does not cause
+        strength, body composition, bone health, and mood. <EvidenceBadge level="strong" /> Creatine does not cause
         &ldquo;bulking&rdquo; &mdash; the initial weight gain (1&ndash;2 lbs) is
         water drawn into muscle cells, not fat.
       </p>
@@ -243,6 +289,15 @@ export function BestCreatine() {
         you want extra confidence. Don&rsquo;t pay more than $0.50 per serving.
         Take it every day. That&rsquo;s it.
       </p>
+
+      <ProductRow
+        title="Top-scored creatine supplements"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
+
       <p>
         <a href="https://app.formulate-health.app/catalog?q=creatine">
           Browse creatine supplements in the Formulate catalog &rarr;

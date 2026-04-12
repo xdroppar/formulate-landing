@@ -1,6 +1,27 @@
+import {
+  TLDRBox,
+  Callout,
+  ProductCallout,
+  ProductRow,
+  InteractionCard,
+  InteractionGroup,
+  EvidenceBadge,
+  PRODUCTS,
+} from "@/components/guide";
+
 export function DoYouNeedMultivitamin() {
   return (
     <>
+      <TLDRBox
+        readTime="9 min read"
+        takeaways={[
+          "A 2024 JAMA meta-analysis of 700,000+ participants found no significant mortality reduction from multivitamins",
+          "The format forces underdosing — you can't fit clinical doses of 25+ nutrients into 1-2 pills",
+          "Targeted supplementation of your actual gaps (usually vitamin D, magnesium, omega-3) is more effective at the same cost",
+          "Multivitamins still make sense for restricted diets, pregnancy, older adults, or people who won't take multiple bottles",
+        ]}
+      />
+
       <p>
         One in three American adults takes a daily multivitamin. It&rsquo;s
         the most popular supplement category in the world. And if you ask
@@ -35,28 +56,28 @@ export function DoYouNeedMultivitamin() {
           incidence. No significant effect on cardiovascular disease, stroke,
           or cognitive decline. An 8% cancer reduction sounds good until you
           realize the absolute risk reduction was tiny &mdash; about 1 fewer
-          cancer per 1,000 men per year.
+          cancer per 1,000 men per year. <EvidenceBadge level="strong" />
         </li>
         <li>
           <strong>COSMOS-Mind (2022):</strong> A substudy found that daily
           multivitamin use was associated with slowed cognitive aging &mdash;
           roughly 1.8 years of preserved memory function over 3 years.
           This was legitimately interesting, but it was a secondary endpoint
-          in a larger trial, and the effect needs replication.
+          in a larger trial, and the effect needs replication. <EvidenceBadge level="moderate" />
         </li>
         <li>
           <strong>JAMA Network Open meta-analysis (2024):</strong> Pooled
           data from 20 studies and over 700,000 participants. Result: no
           significant reduction in all-cause mortality from multivitamin use.
-          Zero.
+          Zero. <EvidenceBadge level="strong" />
         </li>
       </ul>
-      <p>
-        Translation: multivitamins probably aren&rsquo;t hurting you. They
-        might help marginally with cancer risk and cognitive aging. But
-        they&rsquo;re not the health insurance policy most people believe
-        them to be.
-      </p>
+
+      <Callout variant="info" title="The verdict">
+        Multivitamins probably aren&rsquo;t hurting you. They might help
+        marginally with cancer risk and cognitive aging. But they&rsquo;re
+        not the health insurance policy most people believe them to be.
+      </Callout>
 
       <h2>Why the Format Itself Is the Problem</h2>
       <p>
@@ -74,12 +95,14 @@ export function DoYouNeedMultivitamin() {
         <li>Calcium needs 500&ndash;1,000mg</li>
         <li>Fish oil needs 1,000&ndash;2,000mg</li>
       </ul>
-      <p>
-        It&rsquo;s literally impossible. So what happens? Everything gets
-        scaled down. You end up with 50mg of magnesium (need 300+), a token
-        25mg of CoQ10 (clinical dose is 100&ndash;200mg), and trace amounts
-        of specialty ingredients that are pure label decoration.
-      </p>
+
+      <Callout variant="warning" title="The physics problem">
+        It&rsquo;s literally impossible to fit clinical doses of 25+ nutrients
+        into 1&ndash;2 capsules. You end up with 50mg of magnesium (need
+        300+), a token 25mg of CoQ10 (clinical dose is 100&ndash;200mg), and
+        trace amounts of specialty ingredients that are pure label decoration.
+      </Callout>
+
       <p>
         Check the{" "}
         <a href="/guides/how-to-read-a-supplement-label">
@@ -96,6 +119,24 @@ export function DoYouNeedMultivitamin() {
         shipping two rival packages in the same box and hoping they both
         arrive intact.
       </p>
+
+      <InteractionGroup title="Mineral conflicts inside your multivitamin">
+        <InteractionCard
+          type="conflict"
+          a="Calcium"
+          b="Iron"
+          effect="Calcium reduces iron absorption by 50-60%. In a multivitamin, they arrive at the same transporter simultaneously."
+          recommendation="This is why targeted supplementation with proper timing is more effective than a multi."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Zinc"
+          b="Copper"
+          effect="Chronic zinc supplementation depletes copper. Many multivitamins include zinc but insufficient copper to compensate."
+          recommendation="Look for multis with a zinc-to-copper ratio of roughly 10:1 to 15:1."
+        />
+      </InteractionGroup>
+
       <p>
         This is why our{" "}
         <a href="/guides/supplement-timing-guide">timing guide</a> recommends
@@ -165,6 +206,12 @@ export function DoYouNeedMultivitamin() {
         </li>
       </ul>
 
+      <Callout variant="tip" title="The compliance rule">
+        If the alternative to a multivitamin is taking nothing, a multi at
+        suboptimal doses still beats 5 optimal supplements collecting dust.
+        Compliance always wins.
+      </Callout>
+
       <h2>The Better Alternative: Targeted Supplementation</h2>
       <p>
         For most people with a reasonably varied diet, the smarter approach
@@ -209,6 +256,16 @@ export function DoYouNeedMultivitamin() {
         for a complete starter protocol.)
       </p>
 
+      <ProductRow
+        title="The targeted stack most people actually need"
+        products={[
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["thorne-omega-3-coq10"],
+          PRODUCTS["thorne-b-complex-12"],
+        ]}
+      />
+
       <h2>If You Do Choose a Multivitamin: What to Look For</h2>
       <p>
         Not all multis are created equal. The difference between a good
@@ -247,6 +304,15 @@ export function DoYouNeedMultivitamin() {
           the physics don&rsquo;t add up.
         </li>
       </ul>
+
+      <Callout variant="tip" title="The one-pill test">
+        If a multivitamin claims to deliver everything you need in a single
+        pill, the physics don&rsquo;t add up. Quality multis require 2&ndash;4
+        capsules per serving to fit meaningful doses. One pill = guaranteed
+        underdosing.
+      </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-advanced-nutrients"]} />
 
       <h2>Frequently Asked Questions</h2>
 
