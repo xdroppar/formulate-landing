@@ -319,6 +319,95 @@ export function HowToReadSupplementLabel() {
         per effective dose despite the lower per-cap EPA+DHA.
       </Callout>
 
+      <h2>Three Real Labels, Decoded</h2>
+      <p>
+        Here&rsquo;s what the math looks like when you actually apply this
+        framework. These are composite examples of labels you&rsquo;ll see on
+        shelves &mdash; not specific brands &mdash; but the patterns are real.
+      </p>
+
+      <h3>Example 1: The &ldquo;Premium&rdquo; Multivitamin</h3>
+      <p>
+        <strong>Label claims:</strong> 90 tablets, $40, &ldquo;high-potency
+        daily essentials with superfoods.&rdquo;
+      </p>
+      <p>
+        <strong>Serving size:</strong> 3 tablets. So you get 30 servings, not
+        90. True cost: $1.33/day.
+      </p>
+      <p>
+        <strong>Dose check:</strong> Vitamin D 1,000 IU (below the 2,000&ndash;4,000
+        IU that most adults actually need). Magnesium oxide 100 mg (the
+        poorly-absorbed form, at a fraction of the studied dose). B12 as
+        cyanocobalamin 200 mcg (cheap form, adequate dose).
+      </p>
+      <p>
+        <strong>Red flags:</strong> &ldquo;Superfood blend 500 mg&rdquo; as a
+        proprietary blend &mdash; could be mostly rice powder. Three tablets
+        per day is common to pad the supplement facts panel and make doses
+        look larger than they are.
+      </p>
+      <p>
+        <strong>Real value:</strong> You&rsquo;re paying $1.33/day for one
+        useful dose of B12, under-dosed vitamin D, and ineffective magnesium.
+        You&rsquo;d get more for less with a $0.15/day D3 + $0.20/day
+        magnesium glycinate + skipping the multi.
+      </p>
+
+      <h3>Example 2: The &ldquo;Clean&rdquo; Omega-3</h3>
+      <p>
+        <strong>Label claims:</strong> 60 softgels, $25,
+        &ldquo;triple-strength&rdquo; 1,400 mg fish oil.
+      </p>
+      <p>
+        <strong>Serving size:</strong> 2 softgels. So 30 servings.
+      </p>
+      <p>
+        <strong>Dose check:</strong> Per serving: EPA 540 mg + DHA 360 mg = 900
+        mg combined EPA+DHA. The &ldquo;1,400 mg&rdquo; on the front is total
+        fish oil weight, not EPA+DHA. This distinction is where most consumers
+        get misled. The 900 mg combined figure is what actually matters and
+        is close to the 1,000&ndash;2,000 mg target for general health.
+      </p>
+      <p>
+        <strong>Quality signal:</strong> Oxidation values (TOTOX) listed on
+        the certificate of analysis, not just &ldquo;tested for purity.&rdquo;
+      </p>
+      <p>
+        <strong>Real value:</strong> $0.83/day for a clinical dose of EPA+DHA
+        in triglyceride form. Reasonable.
+      </p>
+
+      <h3>Example 3: The Hidden Winner</h3>
+      <p>
+        <strong>Label claims:</strong> 100 capsules, $12, magnesium glycinate
+        200 mg elemental.
+      </p>
+      <p>
+        <strong>Serving size:</strong> 1 capsule. So 100 servings at a common
+        300&ndash;400 mg target means 1.5&ndash;2 caps per day =
+        50&ndash;66 servings.
+      </p>
+      <p>
+        <strong>Dose check:</strong> 200 mg <em>elemental</em> magnesium per cap
+        &mdash; this is the honest way to report, since magnesium compounds are
+        much heavier than the active mineral. Glycinate form = high bioavailability,
+        low GI distress.
+      </p>
+      <p>
+        <strong>Real value:</strong> $0.18&ndash;$0.24 per day for a
+        well-dosed magnesium in the best-absorbed form. The $12 bottle is
+        objectively better than the $30 &ldquo;premium&rdquo; magnesium
+        that uses oxide in a fancier box.
+      </p>
+
+      <Callout variant="tip" title="The pattern">
+        Price correlates weakly with quality. Form, dose, and serving-size
+        honesty matter far more. A $12 product that nails the basics will
+        consistently outperform a $40 product that hides under-dosing behind
+        proprietary blends and marketing language.
+      </Callout>
+
       <h2>Ignore the Front Label (Seriously)</h2>
       <p>
         FDA rules allow <strong>structure/function claims</strong> on

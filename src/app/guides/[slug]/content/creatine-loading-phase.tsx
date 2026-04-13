@@ -75,6 +75,51 @@ export function CreatineLoadingPhase() {
         Same tank. Same fuel level. Different fill speed. That&rsquo;s it.
       </p>
 
+      <h2>The Saturation Math</h2>
+      <p>
+        The numbers behind the loading debate are actually quite specific, and
+        once you see them, the decision gets easier.
+      </p>
+      <p>
+        Baseline muscle creatine stores in an untrained omnivore run roughly
+        <strong> 120&ndash;125 mmol/kg of dry muscle</strong>. Full
+        saturation caps out around <strong>150&ndash;160 mmol/kg</strong> — the
+        physiological ceiling where additional intake stops raising muscle
+        concentration because you&rsquo;re just excreting the excess.
+        Performance and hypertrophy gains correlate with <em>how saturated</em>
+        your muscles are, not how much you took today.
+      </p>
+      <p>
+        The two protocols reach that same ceiling on different timelines:
+      </p>
+      <ul>
+        <li>
+          <strong>Loading protocol:</strong> 20&ndash;25g/day (split into 4&ndash;5
+          doses) for 5&ndash;7 days, then 3&ndash;5g/day maintenance. Full
+          saturation at day 5&ndash;7. Originally demonstrated in the classic
+          Harris et al. 1992 study in <em>Clinical Science</em>.
+        </li>
+        <li>
+          <strong>Steady-state protocol:</strong> 3&ndash;5g/day from day one.
+          Full saturation at day 28&ndash;30. Confirmed in a 1996 follow-up
+          by Hultman et al. showing the same endpoint with no loading phase.
+        </li>
+      </ul>
+      <p>
+        From day 30 onward, the two protocols are <strong>identical in every
+        measurable way</strong> — same muscle creatine, same performance
+        effect, same body composition adjustment. The choice is purely about
+        the first month.
+      </p>
+      <p>
+        One more number worth knowing: daily creatine losses through urinary
+        creatinine run roughly 2g for a 70 kg person. That&rsquo;s why 3&ndash;5g/day
+        maintenance works — it replaces daily losses and accounts for a small
+        amount of ongoing gut/kidney inefficiency. Higher maintenance doses
+        (10g, 20g) after saturation produce no additional benefit; the excess
+        is excreted.
+      </p>
+
       <h2>Loading: The Pros</h2>
       <ul>
         <li>

@@ -165,6 +165,52 @@ export function DoYouNeedMultivitamin() {
         they&rsquo;re buying the same generic multivitamin.
       </p>
 
+      <h2>What the Deficiency Numbers Actually Look Like</h2>
+      <p>
+        NHANES (the CDC&rsquo;s National Health and Nutrition Examination
+        Survey) tracks US nutrient intake across decades. When people argue
+        for multivitamins, they cite the population-level gaps. When people
+        argue against, they cite the same data. Here&rsquo;s what the numbers
+        show, and why both sides are partly right:
+      </p>
+      <ul>
+        <li>
+          <strong>Vitamin D:</strong> Roughly 40% of US adults have serum 25(OH)D
+          below 20 ng/mL (deficient). Closer to 70% are below 30 ng/mL
+          (insufficient). This is the single most common fixable micronutrient
+          gap in the US.
+        </li>
+        <li>
+          <strong>Magnesium:</strong> Roughly 48% of Americans consume below
+          the EAR (estimated average requirement) from food. Subclinical
+          deficiency is common and correlates with poor sleep, cramping, and
+          glucose dysregulation.
+        </li>
+        <li>
+          <strong>Vitamin B12:</strong> ~6% of adults under 60 are deficient;
+          ~20% of adults over 60 are at least marginally deficient due to
+          age-related reductions in intrinsic factor.
+        </li>
+        <li>
+          <strong>Iron:</strong> ~10% of premenopausal women are iron-deficient;
+          ~4% have iron-deficiency anemia. Negligible in men and postmenopausal
+          women.
+        </li>
+        <li>
+          <strong>Folate, riboflavin, thiamine, vitamin A, vitamin C:</strong>
+          Frank deficiency is rare in the US outside of alcohol use disorder,
+          bariatric surgery, or severely restrictive diets. Food fortification
+          handles most of these.
+        </li>
+      </ul>
+      <p>
+        The pattern: a handful of nutrients are common gaps; most aren&rsquo;t.
+        A multivitamin covers all of them generically, which means you&rsquo;re
+        paying to fix things that weren&rsquo;t broken. Targeted supplementation
+        of the 3&ndash;4 that actually matter for your profile is cheaper and
+        more effective.
+      </p>
+
       <h2>When a Multivitamin Actually Makes Sense</h2>
       <p>
         Despite everything above, there are real scenarios where a daily
