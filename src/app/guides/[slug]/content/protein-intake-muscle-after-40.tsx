@@ -315,7 +315,7 @@ export function ProteinIntakeMuscleAfter40() {
       </p>
 
       <Callout variant="tip" title="Don't forget creatine">
-        Creatine monohydrate is one of the most evidence-backed supplements
+        <a href="/guides/best-creatine-supplements">Creatine monohydrate</a> is one of the most evidence-backed supplements
         in existence for muscle mass and strength gains, and the benefits
         are particularly pronounced in older adults. <EvidenceBadge level="strong" /> 3&ndash;5g daily,
         any time of day. (More in our{" "}

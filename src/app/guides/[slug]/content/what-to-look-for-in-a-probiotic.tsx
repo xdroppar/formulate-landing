@@ -267,7 +267,7 @@ export function WhatToLookForInProbiotic() {
       <ul>
         <li>
           <strong>Chronic constipation as a standalone complaint.</strong>{" "}
-          Fiber, hydration, and magnesium oxide/citrate all outperform
+          Fiber, hydration, and <a href="/guides/best-magnesium-supplements">magnesium</a> oxide/citrate all outperform
           probiotics here. Probiotic effects on transit time are small and
           strain-dependent.
         </li>

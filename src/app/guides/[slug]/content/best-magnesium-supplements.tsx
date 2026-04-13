@@ -115,7 +115,7 @@ export function BestMagnesium() {
 
       <h3>Magnesium Taurate &mdash; Best for Cardiovascular Support</h3>
       <p>
-        Combines magnesium with taurine, which has independent cardiovascular
+        Combines magnesium with <a href="/guides/taurine-guide">taurine</a>, which has independent cardiovascular
         benefits. A 2018 meta-analysis by Zhang et al. in{" "}
         <em>Hypertension Research</em> found magnesium supplementation reduced
         systolic blood pressure by 2&ndash;3 mmHg. <EvidenceBadge level="moderate" /> Taurate is the form with the
@@ -199,7 +199,7 @@ export function BestMagnesium() {
         glycinate and don&rsquo;t want to overthink it, start here.
       </p>
       <p>
-        <strong>Nootropics Depot Magnesium Glycinate</strong> is another strong
+        <strong><a href="/guides/nootropics-guide">Nootropics</a> Depot Magnesium Glycinate</strong> is another strong
         glycinate option at a competitive price point, with rigorous in-house
         testing and full label transparency.
       </p>

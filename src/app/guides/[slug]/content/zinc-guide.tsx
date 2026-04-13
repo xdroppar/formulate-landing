@@ -166,7 +166,7 @@ export function ZincGuide() {
       </p>
       <ul>
         <li>
-          <strong>Anemia</strong> that doesn&rsquo;t respond to iron
+          <strong>Anemia</strong> that doesn&rsquo;t respond to <a href="/guides/iron-guide">iron</a>
           supplementation (because copper is needed to mobilize iron stores)
         </li>
         <li>
@@ -180,7 +180,7 @@ export function ZincGuide() {
         </li>
         <li>
           <strong>Neurological symptoms</strong> &mdash; numbness, tingling,
-          and in severe cases, gait disturbance resembling B12 deficiency
+          and in severe cases, gait disturbance resembling <a href="/guides/vitamin-b12-guide">B12</a> deficiency
         </li>
       </ul>
       <p>
@@ -234,7 +234,7 @@ export function ZincGuide() {
 
       <h2>Which Form of Zinc Actually Works?</h2>
       <p>
-        Like magnesium, the form of zinc you choose dramatically affects how
+        Like <a href="/guides/best-magnesium-supplements">magnesium</a>, the form of zinc you choose dramatically affects how
         much you actually absorb. Not all zinc is created equal, and cheap
         formulations can leave you getting a fraction of what the label
         promises.
@@ -432,7 +432,7 @@ export function ZincGuide() {
           zinc) &mdash; non-negotiable for daily use, as discussed above
         </li>
         <li>
-          <strong>Zinc + vitamin D</strong> &mdash; zinc is a cofactor in
+          <strong>Zinc + <a href="/guides/best-vitamin-d-supplements">vitamin D</a></strong> &mdash; zinc is a cofactor in
           vitamin D receptor signaling; the two work synergistically for
           immune function
         </li>

@@ -346,7 +346,7 @@ export function MagnesiumDeficiency() {
       </p>
       <ul>
         <li>
-          <strong>Magnesium glycinate</strong> &mdash; The most popular form
+          <strong><a href="/guides/best-magnesium-supplements">Magnesium glycinate</a></strong> &mdash; The most popular form
           for a reason. Well-absorbed, gentle on the stomach, and the glycine
           component has its own calming properties. Best for: sleep, anxiety,
           general replenishment. This is what most people should start with.
@@ -365,7 +365,7 @@ export function MagnesiumDeficiency() {
           doses &mdash; some people consider this a feature, not a bug.
         </li>
         <li>
-          <strong>Magnesium taurate</strong> &mdash; The taurine component
+          <strong>Magnesium taurate</strong> &mdash; The <a href="/guides/taurine-guide">taurine</a> component
           has cardiovascular benefits of its own. Some cardiologists
           specifically recommend this form. Best for: heart health focus.
         </li>
@@ -499,7 +499,7 @@ export function MagnesiumDeficiency() {
         supplementation at standard doses (200&ndash;400mg). Your body
         regulates magnesium through renal excretion &mdash; excess is
         eliminated in urine. Many integrative medicine practitioners consider
-        it a foundational daily supplement alongside vitamin D and omega-3.
+        it a foundational daily supplement alongside <a href="/guides/best-vitamin-d-supplements">vitamin D</a> and <a href="/guides/best-omega-3-supplements">omega-3</a>.
       </p>
 
       <h2>The Bottom Line</h2>

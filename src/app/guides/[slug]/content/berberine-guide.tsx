@@ -350,7 +350,7 @@ export function BerberineGuide() {
       <h2>Who Should Consider Berberine</h2>
       <p>
         Berberine is not a general-purpose wellness supplement the way
-        vitamin D or magnesium might be. It shines in specific metabolic
+        <a href="/guides/best-vitamin-d-supplements">vitamin D</a> or <a href="/guides/best-magnesium-supplements">magnesium</a> might be. It shines in specific metabolic
         contexts:
       </p>
       <ul>

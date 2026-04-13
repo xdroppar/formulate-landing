@@ -236,7 +236,7 @@ export function CreatineLoadingPhase() {
       <p>
         The practical answer: take creatine whenever you&rsquo;ll actually
         remember. Mixed into morning water. In your protein shake. With
-        dinner. Creatine monohydrate is tasteless, dissolves in any liquid,
+        dinner. <a href="/guides/best-creatine-supplements">Creatine monohydrate</a> is tasteless, dissolves in any liquid,
         and doesn&rsquo;t care what time it is. The only timing variable
         that matters is daily consistency.
       </p>

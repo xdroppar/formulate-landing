@@ -50,18 +50,38 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "Formulate",
-  applicationCategory: "HealthApplication",
-  operatingSystem: "Windows, Web",
-  offers: {
-    "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD",
-  },
-  description:
-    "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
-  url: "https://formulate-health.app",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://formulate-health.app/#organization",
+      name: "Formulate",
+      url: "https://formulate-health.app",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://formulate-health.app/logo.png",
+        width: 512,
+        height: 512,
+      },
+      description:
+        "Evidence-based supplement scoring platform. Every supplement rated 50–100 against clinical research.",
+      sameAs: ["https://app.formulate-health.app"],
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Formulate",
+      applicationCategory: "HealthApplication",
+      operatingSystem: "Windows, Web",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+      description:
+        "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+      url: "https://formulate-health.app",
+      publisher: { "@id": "https://formulate-health.app/#organization" },
+    },
+  ],
 };
 
 export default function RootLayout({

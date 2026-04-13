@@ -334,7 +334,7 @@ export function BestSleepProtocol() {
 
       <h3>Can I take all three core supplements together?</h3>
       <p>
-        Yes. Magnesium glycinate, L-theanine, and glycine work through
+        Yes. <a href="/guides/best-magnesium-supplements">Magnesium glycinate</a>, L-theanine, and glycine work through
         different mechanisms and don&rsquo;t compete for absorption or
         interfere with each other. Taking them together 30&ndash;60 minutes
         before bed is the simplest approach and how most people run this

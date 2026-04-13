@@ -66,7 +66,7 @@ export function BestPreWorkoutProtocol() {
       </Callout>
 
       <p>
-        Stick with creatine monohydrate &mdash; not HCl, not buffered, not
+        Stick with <a href="/guides/best-creatine-supplements">creatine monohydrate</a> &mdash; not HCl, not buffered, not
         ethyl ester. The monohydrate form is what the research used, and
         fancier forms haven&rsquo;t demonstrated any advantage despite
         costing 3&ndash;5x more. For a deeper dive on dosing protocol

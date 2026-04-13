@@ -428,7 +428,7 @@ export function SarcopeniaReverseMuscleLoss() {
 
       <ul>
         <li>
-          <strong>Creatine monohydrate.</strong> 3&ndash;5g per day. A
+          <strong><a href="/guides/best-creatine-supplements">Creatine monohydrate</a>.</strong> 3&ndash;5g per day. A
           2018 meta-analysis in <em>Experimental Gerontology</em> found
           that creatine supplementation combined with resistance
           training produced significantly greater gains in lean mass and
@@ -448,7 +448,7 @@ export function SarcopeniaReverseMuscleLoss() {
         <li>
           <strong>Omega-3s (EPA/DHA).</strong> 2&ndash;3g per day. A 2019
           randomized trial in the <em>American Journal of Clinical
-          Nutrition</em> found that omega-3 supplementation enhanced
+          Nutrition</em> found that <a href="/guides/best-omega-3-supplements">omega-3</a> supplementation enhanced
           muscle protein synthesis response to resistance training in
           older adults. Evidence is encouraging but smaller than for
           creatine or protein.

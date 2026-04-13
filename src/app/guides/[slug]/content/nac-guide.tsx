@@ -276,7 +276,7 @@ export function NACGuide() {
 
       <h2>Who Benefits Most</h2>
       <p>
-        NAC isn&rsquo;t for everyone in the same way magnesium or vitamin D
+        NAC isn&rsquo;t for everyone in the same way <a href="/guides/best-magnesium-supplements">magnesium</a> or <a href="/guides/best-vitamin-d-supplements">vitamin D</a>
         might be. It shines brightest for people with specific oxidative
         stress burdens:
       </p>

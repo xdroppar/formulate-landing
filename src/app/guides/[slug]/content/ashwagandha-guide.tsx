@@ -148,7 +148,7 @@ export function AshwagandhaGuide() {
         greater increases in muscle strength (bench press and leg extension)
         and muscle size compared to placebo over 8 weeks. Recovery markers
         also improved. The effect is real but modest &mdash; don&rsquo;t
-        expect it to replace creatine or good programming.{" "}
+        expect it to replace <a href="/guides/best-creatine-supplements">creatine</a> or good programming.{" "}
         <EvidenceBadge level="moderate" />
       </p>
 
@@ -324,9 +324,9 @@ export function AshwagandhaGuide() {
       <h2>How It Fits Into a Broader Stack</h2>
       <p>
         Ashwagandha pairs well with a few other supplements. For stress and
-        cortisol management, magnesium glycinate in the evening is a natural
+        cortisol management, <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> in the evening is a natural
         complement. For a comprehensive longevity-focused approach, it fits
-        neatly into a foundational stack alongside vitamin D, omega-3, and
+        neatly into a foundational stack alongside <a href="/guides/best-vitamin-d-supplements">vitamin D</a>, <a href="/guides/best-omega-3-supplements">omega-3</a>, and
         magnesium &mdash; see our{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
           beginner longevity stack guide

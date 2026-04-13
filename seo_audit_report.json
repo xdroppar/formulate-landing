@@ -1,0 +1,713 @@
+[
+  {
+    "slug": "nootropics-guide",
+    "title": "A Beginner\\u2019s Guide to Nootropics \\u2014 What Works, What\\u2019s Hype, and Where to Start",
+    "category": "guide",
+    "word_count": 2621,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 3.9,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 40)"
+    ],
+    "total": 37.9
+  },
+  {
+    "slug": "iron-guide",
+    "title": "Iron Supplements \\u2014 Who Needs Them, Who Should Avoid Them, and How to Not Waste Your Money",
+    "category": "guide",
+    "word_count": 2796,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.5,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 4.5,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 37.0
+  },
+  {
+    "slug": "ashwagandha-guide",
+    "title": "Ashwagandha \u2014 Does It Actually Work?",
+    "category": "guide",
+    "word_count": 2002,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 4.5,
+    "actionability": 4.2,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 36.2
+  },
+  {
+    "slug": "sarcopenia-reverse-muscle-loss",
+    "title": "Sarcopenia: How to Reverse Age-Related Muscle Loss",
+    "category": "protocol",
+    "word_count": 2381,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.8,
+    "internal_linking": 5,
+    "actionability": 3.9,
+    "trust": 3.6,
+    "engagement": 4.9,
+    "notes": [],
+    "total": 36.2
+  },
+  {
+    "slug": "vitamin-b12-guide",
+    "title": "Vitamin B12 \\u2014 Who Actually Needs It and Which Form to Take",
+    "category": "guide",
+    "word_count": 2829,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.5,
+    "internal_linking": 4.5,
+    "actionability": 4.5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 39)"
+    ],
+    "total": 36.0
+  },
+  {
+    "slug": "electrolytes-guide",
+    "title": "Electrolytes \\u2014 What You Actually Need, When, and How Much",
+    "category": "guide",
+    "word_count": 2867,
+    "intent_fit": 4.5,
+    "monetization": 4.2,
+    "structure": 4.5,
+    "unique_value": 3.9,
+    "internal_linking": 4.5,
+    "actionability": 4.0,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 35.6
+  },
+  {
+    "slug": "zinc-guide",
+    "title": "Zinc \u2014 Immune Support, Testosterone, and the Copper Connection",
+    "category": "guide",
+    "word_count": 2666,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 4.5,
+    "internal_linking": 4.5,
+    "actionability": 5,
+    "trust": 3.3,
+    "engagement": 5,
+    "notes": [],
+    "total": 35.3
+  },
+  {
+    "slug": "berberine-guide",
+    "title": "Berberine \\u2014 The Blood Sugar Supplement Compared to Metformin",
+    "category": "guide",
+    "word_count": 2640,
+    "intent_fit": 3.0,
+    "monetization": 3.4,
+    "structure": 4.5,
+    "unique_value": 4.7,
+    "internal_linking": 4.5,
+    "actionability": 4.9,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 35)"
+    ],
+    "total": 35.0
+  },
+  {
+    "slug": "signs-you-are-magnesium-deficient",
+    "title": "8 Signs You Might Be Magnesium Deficient",
+    "category": "guide",
+    "word_count": 2441,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 4.3,
+    "internal_linking": 3.3,
+    "actionability": 5,
+    "trust": 2.6,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 34.7
+  },
+  {
+    "slug": "how-to-build-a-supplement-stack",
+    "title": "How to Build a Supplement Stack \u2014 A Beginner's Evidence-Based Guide",
+    "category": "guide",
+    "word_count": 1965,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.9,
+    "internal_linking": 5,
+    "actionability": 4.8,
+    "trust": 1.8,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 34.5
+  },
+  {
+    "slug": "taurine-guide",
+    "title": "Taurine \\u2014 The Longevity Amino Acid Hiding in Your Energy Drink",
+    "category": "guide",
+    "word_count": 2319,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.5,
+    "internal_linking": 3.9,
+    "actionability": 4.6,
+    "trust": 5,
+    "engagement": 4.9,
+    "notes": [
+      "low readability (Flesch 33)"
+    ],
+    "total": 34.4
+  },
+  {
+    "slug": "nac-guide",
+    "title": "NAC (N-Acetyl Cysteine) \\u2014 The Antioxidant Precursor You Should Know About",
+    "category": "guide",
+    "word_count": 2007,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.7,
+    "internal_linking": 4.5,
+    "actionability": 3.2,
+    "trust": 3.9,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 36)"
+    ],
+    "total": 34.3
+  },
+  {
+    "slug": "best-vitamin-d-supplements",
+    "title": "Best Vitamin D Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1455,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 2.5,
+    "internal_linking": 3.3,
+    "actionability": 4.8,
+    "trust": 3.6,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 34.2
+  },
+  {
+    "slug": "best-sleep-supplement-protocol",
+    "title": "The Best Sleep Supplement Protocol \u2014 Evidence-Based Stack for Deep Sleep",
+    "category": "protocol",
+    "word_count": 1817,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 3.5,
+    "unique_value": 4.7,
+    "internal_linking": 3.3,
+    "actionability": 3.3,
+    "trust": 4.2,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.0
+  },
+  {
+    "slug": "collagen-guide",
+    "title": "Collagen Supplements \u2014 What the Evidence Actually Supports",
+    "category": "guide",
+    "word_count": 2150,
+    "intent_fit": 4.5,
+    "monetization": 3.4,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 2.7,
+    "actionability": 4.1,
+    "trust": 4.8,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.0
+  },
+  {
+    "slug": "best-omega-3-supplements",
+    "title": "Best Omega-3 & Fish Oil Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1464,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 3.4,
+    "internal_linking": 3.3,
+    "actionability": 3.2,
+    "trust": 3.9,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 33.8
+  },
+  {
+    "slug": "best-pre-workout-supplement-protocol",
+    "title": "The Best Pre-Workout Supplement Protocol \u2014 Build Your Own Evidence-Based Stack",
+    "category": "protocol",
+    "word_count": 1851,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.4,
+    "internal_linking": 3.9,
+    "actionability": 3.9,
+    "trust": 3.0,
+    "engagement": 5,
+    "notes": [],
+    "total": 33.7
+  },
+  {
+    "slug": "best-creatine-supplements",
+    "title": "Best Creatine Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1428,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 2.7,
+    "internal_linking": 3.9,
+    "actionability": 3.3,
+    "trust": 4.5,
+    "engagement": 5,
+    "notes": [],
+    "total": 33.4
+  },
+  {
+    "slug": "lions-mane-guide",
+    "title": "Lion\\u2019s Mane Mushroom \\u2014 Cognitive Benefits, Evidence, and What to Look For",
+    "category": "guide",
+    "word_count": 1986,
+    "intent_fit": 4.5,
+    "monetization": 3.4,
+    "structure": 5,
+    "unique_value": 4.7,
+    "internal_linking": 3.9,
+    "actionability": 3.0,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [],
+    "total": 33.3
+  },
+  {
+    "slug": "do-you-need-a-multivitamin",
+    "title": "Do You Actually Need a Multivitamin?",
+    "category": "guide",
+    "word_count": 1935,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4,
+    "unique_value": 3.8,
+    "internal_linking": 5,
+    "actionability": 3.6,
+    "trust": 2.4,
+    "engagement": 4.9,
+    "notes": [],
+    "total": 33.2
+  },
+  {
+    "slug": "best-magnesium-supplements",
+    "title": "Best Magnesium Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1344,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.1,
+    "internal_linking": 3.9,
+    "actionability": 2.3,
+    "trust": 3.6,
+    "engagement": 4.9,
+    "notes": [
+      "few study references"
+    ],
+    "total": 32.3
+  },
+  {
+    "slug": "protein-intake-muscle-after-40",
+    "title": "Protein Intake for Muscle Growth After 40 \\u2014 How Much and When",
+    "category": "guide",
+    "word_count": 2050,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 2.5,
+    "internal_linking": 4.2,
+    "actionability": 4.1,
+    "trust": 3.0,
+    "engagement": 5,
+    "notes": [],
+    "total": 32.3
+  },
+  {
+    "slug": "beginner-longevity-supplement-stack",
+    "title": "A Beginner's Longevity Supplement Stack \u2014 What the Evidence Actually Supports",
+    "category": "guide",
+    "word_count": 2163,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4,
+    "unique_value": 3.4,
+    "internal_linking": 4.5,
+    "actionability": 3.6,
+    "trust": 2.1,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 32.1
+  },
+  {
+    "slug": "how-to-read-a-supplement-label",
+    "title": "How to Read a Supplement Label \u2014 Doses, Forms, and Red Flags",
+    "category": "guide",
+    "word_count": 2667,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.6,
+    "internal_linking": 3.3,
+    "actionability": 4.7,
+    "trust": 1.5,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 32.1
+  },
+  {
+    "slug": "creatine-loading-phase",
+    "title": "Creatine Loading Phase \u2014 Is It Necessary?",
+    "category": "guide",
+    "word_count": 1881,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.2,
+    "internal_linking": 2.7,
+    "actionability": 4.6,
+    "trust": 3.3,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 31.3
+  },
+  {
+    "slug": "supplement-timing-guide",
+    "title": "When to Take Your Supplements \u2014 A Complete Timing Guide",
+    "category": "guide",
+    "word_count": 1559,
+    "intent_fit": 3.5,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 2.8,
+    "internal_linking": 3.9,
+    "actionability": 3.6,
+    "trust": 2.4,
+    "engagement": 5,
+    "notes": [
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 31.2
+  },
+  {
+    "slug": "strength-training-frequency-longevity",
+    "title": "How Many Times Per Week Should You Strength Train for Longevity?",
+    "category": "guide",
+    "word_count": 1652,
+    "intent_fit": 3.5,
+    "monetization": 2.9,
+    "structure": 5,
+    "unique_value": 4.2,
+    "internal_linking": 3.6,
+    "actionability": 2.3,
+    "trust": 3.0,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 29.5
+  },
+  {
+    "slug": "how-to-train-after-50",
+    "title": "How to Train After 50: The Evidence-Based Playbook",
+    "category": "guide",
+    "word_count": 2234,
+    "intent_fit": 4.5,
+    "monetization": 2.9,
+    "structure": 4.5,
+    "unique_value": 2.5,
+    "internal_linking": 3.6,
+    "actionability": 3.2,
+    "trust": 2.0,
+    "engagement": 4.9,
+    "notes": [
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 28.1
+  },
+  {
+    "slug": "what-to-look-for-in-a-probiotic",
+    "title": "What to Look for in a Probiotic \u2014 Strains, CFU, and Red Flags",
+    "category": "guide",
+    "word_count": 2243,
+    "intent_fit": 4.5,
+    "monetization": 3.4,
+    "structure": 4.5,
+    "unique_value": 2.8,
+    "internal_linking": 2.7,
+    "actionability": 2.1,
+    "trust": 2.6,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 27.6
+  },
+  {
+    "slug": "vo2-max-longevity",
+    "title": "VO2 Max and Longevity: Why It\\u2019s the #1 Mortality Predictor",
+    "category": "guide",
+    "word_count": 1944,
+    "intent_fit": 4.5,
+    "monetization": 2.9,
+    "structure": 4.5,
+    "unique_value": 3.1,
+    "internal_linking": 3.6,
+    "actionability": 1.9,
+    "trust": 1.5,
+    "engagement": 4.7,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 26.7
+  },
+  {
+    "slug": "best-longevity-exercises",
+    "title": "The 6 Best Exercises for Longevity, Backed by Research",
+    "category": "roundup",
+    "word_count": 1856,
+    "intent_fit": 2.5,
+    "monetization": 2.9,
+    "structure": 4.0,
+    "unique_value": 3.4,
+    "internal_linking": 3.6,
+    "actionability": 2.0,
+    "trust": 3.0,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 26.4
+  },
+  {
+    "slug": "grip-strength-longevity",
+    "title": "Grip Strength and Longevity: Why It Predicts Mortality Better Than Blood Pressure",
+    "category": "guide",
+    "word_count": 1790,
+    "intent_fit": 4.5,
+    "monetization": 2.9,
+    "structure": 4.5,
+    "unique_value": 2.7,
+    "internal_linking": 3.6,
+    "actionability": 1.8,
+    "trust": 1.5,
+    "engagement": 4.7,
+    "notes": [
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 26.2
+  },
+  {
+    "slug": "sets-per-muscle-per-week",
+    "title": "How Many Sets Per Muscle Per Week? The Volume Guide",
+    "category": "guide",
+    "word_count": 1950,
+    "intent_fit": 4.5,
+    "monetization": 2.4,
+    "structure": 4.2,
+    "unique_value": 2.8,
+    "internal_linking": 3.1,
+    "actionability": 3.2,
+    "trust": 1.2,
+    "engagement": 4.7,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 26.1
+  },
+  {
+    "slug": "minimum-effective-dose-strength-training",
+    "title": "The Minimum Effective Dose for Strength Training",
+    "category": "guide",
+    "word_count": 1736,
+    "intent_fit": 3.0,
+    "monetization": 2.4,
+    "structure": 4.5,
+    "unique_value": 3.2,
+    "internal_linking": 3.1,
+    "actionability": 2.8,
+    "trust": 1.5,
+    "engagement": 4.9,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 25.4
+  },
+  {
+    "slug": "walking-vs-running-longevity",
+    "title": "Walking vs Running for Longevity: What the Research Actually Shows",
+    "category": "guide",
+    "word_count": 1856,
+    "intent_fit": 2.5,
+    "monetization": 2.9,
+    "structure": 3.5,
+    "unique_value": 3.4,
+    "internal_linking": 3.6,
+    "actionability": 2.4,
+    "trust": 2.1,
+    "engagement": 4.9,
+    "notes": [
+      "transactional title but few product mentions",
+      "weak citation density"
+    ],
+    "total": 25.3
+  },
+  {
+    "slug": "zone-2-vs-hiit",
+    "title": "Zone 2 vs HIIT: Which Matters More for Longevity?",
+    "category": "guide",
+    "word_count": 1972,
+    "intent_fit": 2.5,
+    "monetization": 2.9,
+    "structure": 4.5,
+    "unique_value": 2.5,
+    "internal_linking": 4.8,
+    "actionability": 2.2,
+    "trust": 1.2,
+    "engagement": 4.7,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 25.3
+  },
+  {
+    "slug": "weekly-longevity-training-plan",
+    "title": "The Ideal Weekly Training Plan for Longevity",
+    "category": "protocol",
+    "word_count": 1616,
+    "intent_fit": 3.0,
+    "monetization": 2.9,
+    "structure": 4.2,
+    "unique_value": 2.2,
+    "internal_linking": 3.6,
+    "actionability": 3.3,
+    "trust": 1.2,
+    "engagement": 4.7,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 25.1
+  },
+  {
+    "slug": "zone-2-cardio-longevity",
+    "title": "How Much Zone 2 Cardio You Actually Need for Longevity",
+    "category": "guide",
+    "word_count": 1905,
+    "intent_fit": 4.5,
+    "monetization": 2.4,
+    "structure": 4.8,
+    "unique_value": 2.5,
+    "internal_linking": 3.1,
+    "actionability": 1.1,
+    "trust": 1.8,
+    "engagement": 4.9,
+    "notes": [
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 25.1
+  },
+  {
+    "slug": "best-exercises-for-legs",
+    "title": "The Best Leg Exercises for Strength and Longevity",
+    "category": "roundup",
+    "word_count": 2058,
+    "intent_fit": 2.5,
+    "monetization": 2.9,
+    "structure": 4.0,
+    "unique_value": 1.9,
+    "internal_linking": 3.6,
+    "actionability": 2.1,
+    "trust": 1.8,
+    "engagement": 4.7,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 23.5
+  },
+  {
+    "slug": "best-exercises-for-back",
+    "title": "The Best Back Exercises for Strength, Posture, and Longevity",
+    "category": "roundup",
+    "word_count": 2000,
+    "intent_fit": 2.5,
+    "monetization": 2.4,
+    "structure": 4.0,
+    "unique_value": 0.8,
+    "internal_linking": 3.7,
+    "actionability": 2.0,
+    "trust": 1.2,
+    "engagement": 4.5,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references",
+      "weak citation density"
+    ],
+    "total": 21.1
+  }
+]

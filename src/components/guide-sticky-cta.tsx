@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
+import { withUtm } from "@/lib/app-url";
 
 interface Props {
   slug: string;
@@ -67,7 +68,11 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
 
   if (dismissed || !visible) return null;
 
-  const href = catalogLink || `${APP_URL}/catalog`;
+  const href = withUtm(catalogLink || `${APP_URL}/catalog`, {
+    source: "guide",
+    campaign: "guide_cta_sticky",
+    content: slug,
+  });
 
   return (
     <div

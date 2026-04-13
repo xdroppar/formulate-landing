@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import { usePathname } from "next/navigation";
+import { withUtm } from "@/lib/app-url";
 
 export function Nav() {
   const pathname = usePathname();
@@ -52,8 +53,11 @@ export function Nav() {
             <Link href="/guides" className={linkClass("/guides")}>
               Guides
             </Link>
-            <Link href="/#methodology" className="text-sm font-medium text-muted hover:text-text transition-colors">
+            <Link href="/methodology" className={linkClass("/methodology")}>
               Methodology
+            </Link>
+            <Link href="/about" className={linkClass("/about")}>
+              About
             </Link>
             <Link href="/download" className={linkClass("/download")}>
               Download
@@ -62,7 +66,7 @@ export function Nav() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://app.formulate-health.app"
+              href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app" })}
               className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Open App
@@ -90,8 +94,11 @@ export function Nav() {
             <Link href="/guides" onClick={() => setOpen(false)} className={`${linkClass("/guides")} py-1`} role="menuitem">
               Guides
             </Link>
-            <Link href="/#methodology" onClick={() => setOpen(false)} className="text-sm font-medium text-muted hover:text-text transition-colors py-1" role="menuitem">
+            <Link href="/methodology" onClick={() => setOpen(false)} className={`${linkClass("/methodology")} py-1`} role="menuitem">
               Methodology
+            </Link>
+            <Link href="/about" onClick={() => setOpen(false)} className={`${linkClass("/about")} py-1`} role="menuitem">
+              About
             </Link>
             <Link href="/download" onClick={() => setOpen(false)} className={`${linkClass("/download")} py-1`} role="menuitem">
               Download

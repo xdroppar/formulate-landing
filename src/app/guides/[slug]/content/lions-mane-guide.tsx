@@ -32,7 +32,7 @@ export function LionsManeGuide() {
         If you&rsquo;ve gone looking for something to sharpen the edges,
         you&rsquo;ve probably encountered lion&rsquo;s mane mushroom &mdash;
         the shaggy, white fungus that looks like a pompom and has become the
-        darling of the nootropics world. Unlike most nootropics, lion&rsquo;s
+        darling of the <a href="/guides/nootropics-guide">nootropics</a> world. Unlike most nootropics, lion&rsquo;s
         mane has a genuinely interesting mechanism behind it: it appears to
         stimulate <strong>nerve growth factor (NGF)</strong>, a protein your
         brain uses to grow and maintain neurons. That&rsquo;s not a marketing
@@ -333,7 +333,7 @@ export function LionsManeGuide() {
       <p>
         Yes. Lion&rsquo;s mane plays well with most supplement stacks.
         It&rsquo;s commonly paired with omega-3s (which also support
-        neuroplasticity), vitamin D, and adaptogens like ashwagandha. There
+        neuroplasticity), <a href="/guides/best-vitamin-d-supplements">vitamin D</a>, and adaptogens like <a href="/guides/ashwagandha-guide">ashwagandha</a>. There
         are no known significant drug interactions in the published
         literature, though if you&rsquo;re on prescription medications,
         check with your doctor as a standard precaution.

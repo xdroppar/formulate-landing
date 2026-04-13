@@ -131,7 +131,7 @@ export function BestCreatine() {
       <ProductCallout product={PRODUCTS["thorne-creatine"]} />
 
       <p>
-        <strong>Nootropics Depot Creatine</strong> is another excellent option &mdash;
+        <strong><a href="/guides/nootropics-guide">Nootropics</a> Depot Creatine</strong> is another excellent option &mdash;
         pure monohydrate powder at clinical dose with rigorous in-house testing.
         Outstanding value per serving.
       </p>
@@ -147,7 +147,7 @@ export function BestCreatine() {
       <p>
         <strong>Transparent Labs Creatine HMB</strong> is an interesting variation
         &mdash; 5g creatine monohydrate combined with HMB (beta-hydroxy
-        beta-methylbutyrate) and vitamin D. HMB has modest evidence for reducing
+        beta-methylbutyrate) and <a href="/guides/best-vitamin-d-supplements">vitamin D</a>. HMB has modest evidence for reducing
         muscle protein breakdown (Wilson et al., 2013,{" "}
         <em>European Journal of Applied Physiology</em>), which makes this a
         reasonable combo product for strength-focused users. <EvidenceBadge level="moderate" /> You will pay more for

@@ -113,7 +113,7 @@ export function DoYouNeedMultivitamin() {
 
       <h3>Problem 2: Minerals Fight Each Other</h3>
       <p>
-        Calcium reduces iron absorption by up to 60%. Zinc and copper
+        Calcium reduces <a href="/guides/iron-guide">iron</a> absorption by up to 60%. <a href="/guides/zinc-guide">Zinc</a> and copper
         compete. Magnesium and calcium interfere at high doses. Putting all
         these minerals in one pill and swallowing them together is like
         shipping two rival packages in the same box and hoping they both
@@ -293,8 +293,8 @@ export function DoYouNeedMultivitamin() {
       </p>
       <p>
         For most people, the targeted stack ends up being surprisingly
-        simple: vitamin D3 + K2, magnesium glycinate, and omega-3. Maybe
-        B12 if bloodwork shows low levels. That&rsquo;s it. Three to four
+        simple: <a href="/guides/best-vitamin-d-supplements">vitamin D3</a> + K2, <a href="/guides/best-magnesium-supplements">magnesium glycinate</a>, and <a href="/guides/best-omega-3-supplements">omega-3</a>. Maybe
+        <a href="/guides/vitamin-b12-guide">B12</a> if bloodwork shows low levels. That&rsquo;s it. Three to four
         supplements at proper doses instead of 25 at token doses. (See our{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
           longevity stack guide

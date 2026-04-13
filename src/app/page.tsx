@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { ScoreBar } from "@/components/score-bar";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { withUtm } from "@/lib/app-url";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -34,7 +35,7 @@ export default function Home() {
         <div className="hero-animate-delay-3 flex flex-col items-center gap-4 mb-16 w-full">
           <div className="flex gap-3.5 flex-wrap justify-center">
             <a
-              href={`${APP_URL}/catalog`}
+              href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home" })}
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Browse Supplement Scores
@@ -88,7 +89,7 @@ export default function Home() {
               ].map((card, i) => (
                 <a
                   key={card.name}
-                  href={`${APP_URL}/catalog/${card.slug}`}
+                  href={withUtm(`${APP_URL}/catalog/${card.slug}`, { source: "landing", campaign: "home_featured_product" })}
                   className={`bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all ${i >= 3 ? "hidden md:block" : ""} ${i === 2 ? "hidden sm:block" : ""}`}
                 >
                   <div className="relative aspect-square bg-surface2 flex items-center justify-center p-4">
@@ -108,7 +109,7 @@ export default function Home() {
               ))}
             </div>
             <div className="mt-6 text-center">
-              <a href="https://app.formulate-health.app/catalog" className="text-sm font-medium text-accent hover:underline">
+              <a href={withUtm("https://app.formulate-health.app/catalog", { source: "landing", campaign: "home_card_grid" })} className="text-sm font-medium text-accent hover:underline">
                 Browse all 230+ scored products →
               </a>
             </div>
@@ -306,7 +307,7 @@ export default function Home() {
             </div>
             <div className="px-6 md:px-8 pb-6 md:pb-8">
               <a
-                href={`${APP_URL}/catalog`}
+                href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home" })}
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
               >
                 See scores for 230+ products
@@ -557,7 +558,7 @@ export default function Home() {
           </p>
           <div className="flex gap-3.5 flex-wrap justify-center">
             <a
-              href={`${APP_URL}/catalog`}
+              href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home" })}
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Browse Supplement Scores

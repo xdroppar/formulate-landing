@@ -150,7 +150,7 @@ export function NootropicsGuide() {
       </Callout>
 
       <p>
-        <strong>Dose:</strong> 3&ndash;5g creatine monohydrate daily. No
+        <strong>Dose:</strong> 3&ndash;5g <a href="/guides/best-creatine-supplements">creatine monohydrate</a> daily. No
         loading phase necessary for cognitive benefits &mdash; it
         saturates brain stores over 4&ndash;8 weeks of consistent use.
         Vegetarians and vegans may see the most pronounced cognitive
@@ -403,7 +403,7 @@ export function NootropicsGuide() {
           accumulate over weeks. Virtually no downside at this dose.
         </li>
         <li>
-          <strong>Step 3:</strong> Omega-3 (DHA-dominant, 1&ndash;2g
+          <strong>Step 3:</strong> <a href="/guides/best-omega-3-supplements">Omega-3</a> (DHA-dominant, 1&ndash;2g
           daily). Long-game cognitive preservation. Also supports
           cardiovascular health.
         </li>

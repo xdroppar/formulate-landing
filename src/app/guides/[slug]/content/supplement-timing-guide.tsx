@@ -25,7 +25,7 @@ export function SupplementTimingGuide() {
 
       <p>
         It&rsquo;s 7am. You&rsquo;re staring at a row of supplement bottles
-        on your kitchen counter. Vitamin D, magnesium, iron, zinc, fish oil,
+        on your kitchen counter. Vitamin D, magnesium, iron, <a href="/guides/zinc-guide">zinc</a>, fish oil,
         a B-complex. Do you take them all at once? Some with food, some
         without? Does it even matter?
       </p>
@@ -60,10 +60,10 @@ export function SupplementTimingGuide() {
       </Callout>
 
       <p>
-        That means if you&rsquo;re taking your vitamin D with a black coffee
+        That means if you&rsquo;re taking your <a href="/guides/best-vitamin-d-supplements">vitamin D</a> with a black coffee
         and nothing else, you&rsquo;re absorbing roughly half of what
         you&rsquo;re paying for. Take it with eggs, avocado toast, a handful
-        of nuts &mdash; anything with fat. This applies to omega-3 capsules
+        of nuts &mdash; anything with fat. This applies to <a href="/guides/best-omega-3-supplements">omega-3</a> capsules
         and CoQ10 as well.
       </p>
 
@@ -198,7 +198,7 @@ export function SupplementTimingGuide() {
 
       <h3>Before Breakfast (Empty Stomach)</h3>
       <p>
-        <strong>Iron</strong> absorbs best on an empty stomach. Take
+        <strong><a href="/guides/iron-guide">Iron</a></strong> absorbs best on an empty stomach. Take
         with a vitamin C source, then wait 30 minutes before coffee &mdash;
         tannins in coffee and tea reduce iron absorption by up to 60%.
         Yes, this is annoying. Yes, it matters if you&rsquo;re actually
@@ -225,7 +225,7 @@ export function SupplementTimingGuide() {
           people find it mildly energizing.
         </li>
         <li>
-          <strong>B-complex / B12</strong> &mdash; B vitamins can be mildly
+          <strong>B-complex / <a href="/guides/vitamin-b12-guide">B12</a></strong> &mdash; B vitamins can be mildly
           stimulating. Taking B12 at night interferes with sleep for some people.
         </li>
       </ul>
@@ -246,7 +246,7 @@ export function SupplementTimingGuide() {
       </p>
       <ul>
         <li>
-          <strong>Magnesium glycinate</strong> &mdash; the MVP of evening
+          <strong><a href="/guides/best-magnesium-supplements">Magnesium glycinate</a></strong> &mdash; the MVP of evening
           supplementation. Activates the parasympathetic nervous system,
           regulates GABA, and the glycine component has its own sleep-promoting
           effects. 200&ndash;400mg about 30&ndash;60 minutes before bed.

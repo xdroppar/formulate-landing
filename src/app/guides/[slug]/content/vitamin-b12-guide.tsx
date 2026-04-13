@@ -441,12 +441,12 @@ export function VitaminB12Guide() {
           adequate B6, folate, and other B vitamins that work synergistically
         </li>
         <li>
-          <strong>Vitamin D</strong> &mdash; another commonly deficient
+          <strong><a href="/guides/best-vitamin-d-supplements">Vitamin D</a></strong> &mdash; another commonly deficient
           nutrient, especially if you&rsquo;re also in the &ldquo;lives
           indoors and eats no animal products&rdquo; demographic
         </li>
         <li>
-          <strong>Omega-3s</strong> &mdash; for cardiovascular and
+          <strong><a href="/guides/best-omega-3-supplements">Omega-3s</a></strong> &mdash; for cardiovascular and
           neurological support alongside B12&rsquo;s nerve-protective role
         </li>
       </ul>

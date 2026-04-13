@@ -222,7 +222,7 @@ export function TaurineGuide() {
         <a href="/guides/best-pre-workout-supplement-protocol">
           pre-workout protocol
         </a>
-        , taurine slots in naturally alongside caffeine, creatine, and
+        , taurine slots in naturally alongside caffeine, <a href="/guides/best-creatine-supplements">creatine</a>, and
         citrulline.
       </p>
 
@@ -454,7 +454,7 @@ export function TaurineGuide() {
       <p>
         Yes. Taurine has no known significant interactions with common
         supplements. It pairs well with magnesium (as discussed above),
-        omega-3 fatty acids, and pre-workout ingredients like caffeine,
+        <a href="/guides/best-omega-3-supplements">omega-3</a> fatty acids, and pre-workout ingredients like caffeine,
         creatine, and citrulline. The one theoretical consideration: if
         you&rsquo;re taking blood pressure medication, the additive
         blood-pressure-lowering effect of taurine is worth mentioning to

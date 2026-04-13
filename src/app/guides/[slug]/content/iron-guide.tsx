@@ -42,7 +42,7 @@ export function IronGuide() {
       <p>
         Here&rsquo;s the thing about iron that makes it fundamentally different
         from, say,{" "}
-        <a href="/guides/zinc-guide">zinc</a> or magnesium:{" "}
+        <a href="/guides/zinc-guide">zinc</a> or <a href="/guides/best-magnesium-supplements">magnesium</a>:{" "}
         <strong>your body has no regulated mechanism to excrete excess
         iron</strong>. What comes in, stays in &mdash; unless you bleed. This
         means iron is one of the very few supplements that can be genuinely{" "}

@@ -68,11 +68,17 @@ export function DownloadClient() {
             href={downloadInfo.download_url}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() =>
+            onClick={() => {
+              const params = new URLSearchParams(window.location.search);
               trackEvent("download_start", {
                 version: downloadInfo.version ?? null,
-              })
-            }
+                utm_source: params.get("utm_source"),
+                utm_medium: params.get("utm_medium"),
+                utm_campaign: params.get("utm_campaign"),
+                utm_content: params.get("utm_content"),
+                referrer: document.referrer || null,
+              });
+            }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-base font-bold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,160,0.3)] transition-all"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -120,7 +126,10 @@ export function DownloadClient() {
         {/* Web app alternative */}
         <p className="text-sm text-muted">
           Don&apos;t want to install?{" "}
-          <a href="https://app.formulate-health.app" className="text-accent hover:underline font-medium">
+          <a
+            href="https://app.formulate-health.app?utm_source=download_page&utm_medium=landing&utm_campaign=download_fallback"
+            className="text-accent hover:underline font-medium"
+          >
             Use the web app
           </a>
         </p>

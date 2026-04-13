@@ -101,7 +101,7 @@ export function BeginnerLongevityStack() {
       </p>
       <p>
         But the longevity angle goes beyond heart health. The{" "}
-        <strong>Omega-3 Index</strong> &mdash; the percentage of EPA+DHA in
+        <strong><a href="/guides/best-omega-3-supplements">Omega-3</a> Index</strong> &mdash; the percentage of EPA+DHA in
         your red blood cell membranes &mdash; is emerging as a standalone
         longevity biomarker. A 2018 study in the{" "}
         <em>Journal of Clinical Lipidology</em> found that people in the
@@ -233,7 +233,7 @@ export function BeginnerLongevityStack() {
       </p>
 
       <Callout variant="tip" title="Creatine is the easiest supplement to take">
-        Creatine monohydrate, 3&ndash;5g daily. No fancy forms needed.
+        <a href="/guides/best-creatine-supplements">Creatine monohydrate</a>, 3&ndash;5g daily. No fancy forms needed.
         Don&rsquo;t cycle it. Take it every day, any time. (More in our{" "}
         <a href="/guides/creatine-loading-phase">creatine loading guide</a>
         .)
@@ -380,7 +380,7 @@ export function BeginnerLongevityStack() {
       <ul>
         <li><strong>Omega-3 (EPA+DHA):</strong> 1&ndash;2g/day with meals</li>
         <li><strong>Vitamin D3 + K2:</strong> 2,000&ndash;5,000 IU D3 + 100&ndash;200mcg K2 (MK-7), with fat</li>
-        <li><strong>Magnesium glycinate:</strong> 300&ndash;400mg, evening</li>
+        <li><strong><a href="/guides/best-magnesium-supplements">Magnesium glycinate</a>:</strong> 300&ndash;400mg, evening</li>
         <li><strong>Creatine monohydrate:</strong> 3&ndash;5g/day, anytime</li>
       </ul>
       <p>

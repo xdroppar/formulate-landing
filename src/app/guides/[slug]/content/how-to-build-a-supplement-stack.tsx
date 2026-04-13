@@ -79,18 +79,18 @@ export function HowToBuildStack() {
           covers the symptoms and testing in detail.
         </li>
         <li>
-          <strong>Omega-3 index:</strong> Measures EPA+DHA in red blood
+          <strong><a href="/guides/best-omega-3-supplements">Omega-3</a> index:</strong> Measures EPA+DHA in red blood
           cell membranes. Optimal is above 8%. Most people eating a
           standard Western diet land at 4&ndash;5%, which is associated
           with higher cardiovascular risk.
         </li>
         <li>
-          <strong>B12:</strong> Especially critical if you eat little or
+          <strong><a href="/guides/vitamin-b12-guide">B12</a>:</strong> Especially critical if you eat little or
           no meat. Serum B12 can miss early depletion &mdash;
           methylmalonic acid (MMA) is the more sensitive marker.
         </li>
         <li>
-          <strong>Iron / ferritin:</strong> Particularly relevant for
+          <strong><a href="/guides/iron-guide">Iron</a> / ferritin:</strong> Particularly relevant for
           women, endurance athletes, and vegetarians. But here&rsquo;s
           a crucial distinction: <strong>never supplement iron without
           testing first</strong>. Excess iron is harmful and
@@ -225,7 +225,7 @@ export function HowToBuildStack() {
 
       <Callout variant="tip" title="Foundation first, goals second">
         Only after your foundation is solid should you consider targeted
-        supplements. Ashwagandha is sexier than vitamin D, but vitamin D
+        supplements. <a href="/guides/ashwagandha-guide">Ashwagandha</a> is sexier than vitamin D, but vitamin D
         deficiency is probably affecting your energy more than ashwagandha
         ever will.
       </Callout>
@@ -395,9 +395,9 @@ export function HowToBuildStack() {
 
       <h3>Basic Foundation &mdash; ~$30&ndash;$40/month</h3>
       <ul>
-        <li>Vitamin D3+K2: ~$8&ndash;$12/month</li>
+        <li><a href="/guides/best-vitamin-d-supplements">Vitamin D3</a>+K2: ~$8&ndash;$12/month</li>
         <li>Magnesium glycinate: ~$8&ndash;$10/month</li>
-        <li>Creatine monohydrate: ~$8&ndash;$10/month</li>
+        <li><a href="/guides/best-creatine-supplements">Creatine monohydrate</a>: ~$8&ndash;$10/month</li>
       </ul>
       <p>
         This covers the highest-ROI supplements for someone on a tight

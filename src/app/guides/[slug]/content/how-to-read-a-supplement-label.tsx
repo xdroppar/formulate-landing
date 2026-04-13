@@ -100,10 +100,10 @@ export function HowToReadSupplementLabel() {
         supplement being an expensive placebo:
       </p>
       <ul>
-        <li><strong>Creatine monohydrate:</strong> 3&ndash;5g/day. Not 1g, not 750mg. If your creatine capsule gives you 1g per serving, you need 3&ndash;5 capsules daily.</li>
+        <li><strong><a href="/guides/best-creatine-supplements">Creatine monohydrate</a>:</strong> 3&ndash;5g/day. Not 1g, not 750mg. If your creatine capsule gives you 1g per serving, you need 3&ndash;5 capsules daily.</li>
         <li><strong>Magnesium:</strong> 200&ndash;400mg <em>elemental</em>. Note: &ldquo;500mg magnesium glycinate&rdquo; contains about 70mg actual magnesium. The rest is glycine.</li>
-        <li><strong>Omega-3:</strong> 1,000&ndash;2,000mg combined EPA+DHA. Not &ldquo;1,000mg fish oil&rdquo; &mdash; a 1,000mg fish oil capsule might contain only 300mg of actual EPA+DHA.</li>
-        <li><strong>Ashwagandha (KSM-66):</strong> 600mg/day. Many products use 300mg or less.</li>
+        <li><strong><a href="/guides/best-omega-3-supplements">Omega-3</a>:</strong> 1,000&ndash;2,000mg combined EPA+DHA. Not &ldquo;1,000mg fish oil&rdquo; &mdash; a 1,000mg fish oil capsule might contain only 300mg of actual EPA+DHA.</li>
+        <li><strong><a href="/guides/ashwagandha-guide">Ashwagandha</a> (KSM-66):</strong> 600mg/day. Many products use 300mg or less.</li>
         <li><strong>Vitamin D3:</strong> 1,000&ndash;5,000 IU depending on your blood levels.</li>
         <li><strong>L-theanine:</strong> 200mg. Many products contain 100mg.</li>
       </ul>
@@ -151,7 +151,7 @@ export function HowToReadSupplementLabel() {
           &ldquo;5-MTHF,&rdquo; you might not be getting full value.
         </li>
         <li>
-          <strong>Cyanocobalamin vs. methylcobalamin (B12):</strong> Both work,
+          <strong>Cyanocobalamin vs. methylcobalamin (<a href="/guides/vitamin-b12-guide">B12</a>):</strong> Both work,
           but methylcobalamin is the biologically active form your body uses
           directly. Cyanocobalamin requires conversion and contains a tiny
           amount of cyanide (safe, but unnecessary when better options exist).
@@ -350,8 +350,8 @@ export function HowToReadSupplementLabel() {
       <p>
         <strong>Real value:</strong> You&rsquo;re paying $1.33/day for one
         useful dose of B12, under-dosed vitamin D, and ineffective magnesium.
-        You&rsquo;d get more for less with a $0.15/day D3 + $0.20/day
-        magnesium glycinate + skipping the multi.
+        You&rsquo;d get more for less with a $0.15/day <a href="/guides/best-vitamin-d-supplements">D3</a> + $0.20/day
+        <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> + skipping the multi.
       </p>
 
       <h3>Example 2: The &ldquo;Clean&rdquo; Omega-3</h3>
