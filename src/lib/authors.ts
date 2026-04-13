@@ -24,16 +24,17 @@ export interface Author {
 
 /**
  * Default author applied to any guide that doesn't set `author` explicitly.
- * Replace this placeholder with a real named person to get full E-E-A-T credit.
+ * Google gives stronger E-E-A-T credit to named individuals; swap this for a
+ * real named contributor if/when available.
  */
-export const DEFAULT_AUTHOR_ID = "formulate-research";
+export const DEFAULT_AUTHOR_ID = "formulate-team";
 
 export const authors: Record<string, Author> = {
-  "formulate-research": {
-    id: "formulate-research",
-    name: "Formulate Research Team",
+  "formulate-team": {
+    id: "formulate-team",
+    name: "Formulate Team",
     title: "Independent supplement research",
-    bio: "The Formulate research team scores every supplement in our catalog against published clinical evidence. No sponsorships, no affiliate bias — every recommendation is anchored in peer-reviewed research.",
+    bio: "The Formulate team scores every supplement in our catalog against published clinical evidence. No sponsorships, no affiliate bias — every recommendation is anchored in peer-reviewed research.",
   },
 };
 
