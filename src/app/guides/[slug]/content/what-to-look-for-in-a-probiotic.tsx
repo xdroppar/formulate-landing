@@ -352,6 +352,108 @@ export function WhatToLookForInProbiotic() {
         />
       </InteractionGroup>
 
+      <h2>The 4-Week Starter Protocol</h2>
+      <p>
+        Most probiotic users make two mistakes: they switch products every
+        time they don&rsquo;t feel dramatic results in a week, and they have
+        no plan for evaluating whether it&rsquo;s working. Here&rsquo;s a
+        structured 4-week protocol that lets you actually judge a probiotic
+        on its merits.
+      </p>
+
+      <h3>Week 0: Baseline (Before You Start)</h3>
+      <p>
+        Spend three days tracking before you take your first capsule. You
+        can&rsquo;t tell if a probiotic helped if you don&rsquo;t know your
+        starting point. Log daily:
+      </p>
+      <ul>
+        <li>
+          <strong>Bowel movements</strong> — frequency, consistency (Bristol
+          scale 1&ndash;7), urgency
+        </li>
+        <li>
+          <strong>Bloating</strong> — 1&ndash;10 scale, worst time of day
+        </li>
+        <li>
+          <strong>Energy</strong> — 1&ndash;10 morning/afternoon/evening
+        </li>
+        <li>
+          <strong>Any target symptom</strong> — IBS pain, reflux, eczema
+          flare, whatever prompted you to try a probiotic
+        </li>
+      </ul>
+
+      <h3>Week 1: Introduction</h3>
+      <p>
+        Start at <strong>half the recommended dose</strong> for the first
+        3&ndash;5 days. This reduces the initial bloating / gas most people
+        experience as gut microbial populations shift. Take with food
+        (especially a meal with some fat) unless the product instructions
+        say otherwise. By day 5&ndash;7, move to the full dose.
+      </p>
+      <p>
+        Expect mild GI adjustment symptoms this week — that&rsquo;s your
+        microbiome changing, not a failure of the product. If symptoms are
+        severe (cramping, diarrhea beyond day 7), either the dose is too
+        high or the strain is wrong for you.
+      </p>
+
+      <h3>Weeks 2&ndash;3: Consolidation</h3>
+      <p>
+        Hold at the full dose. Don&rsquo;t add new supplements. Don&rsquo;t
+        switch strains. Don&rsquo;t change your diet dramatically — you need
+        a stable background to isolate the probiotic&rsquo;s effect.
+      </p>
+      <p>
+        Add <strong>prebiotic fiber</strong> to your diet if you aren&rsquo;t
+        already. Probiotics colonize better when there&rsquo;s substrate for
+        them to feed on. Good sources: oats, lentils, beans, onions, garlic,
+        asparagus, green bananas, and fermented foods like sauerkraut and
+        kefir. Target 25&ndash;35g total fiber per day.
+      </p>
+      <p>
+        Continue your daily log. Most probiotic benefits appear in this
+        window, not earlier. If you&rsquo;re going to see a signal, it
+        usually shows up somewhere between day 10 and day 21.
+      </p>
+
+      <h3>Week 4: Evaluation</h3>
+      <p>
+        Compare your week-4 averages to your week-0 baseline. This is where
+        most people skip the critical step — they rely on memory instead of
+        data. Memory is biased toward the last few days and toward the
+        symptom you&rsquo;re most aware of.
+      </p>
+      <p>
+        Three possible outcomes:
+      </p>
+      <ul>
+        <li>
+          <strong>Clear improvement</strong> in your target symptom or at
+          least two tracked metrics — continue the same product. Re-evaluate
+          at 8 and 12 weeks.
+        </li>
+        <li>
+          <strong>No change</strong> after 4 weeks at full dose with prebiotic
+          fiber — the product/strain isn&rsquo;t working for you. Switch to
+          a different strain matched to your target condition (see the
+          cheat sheet above) and repeat the protocol.
+        </li>
+        <li>
+          <strong>Worsening symptoms</strong> — stop. This is rare but
+          suggests either SIBO, histamine intolerance, or a strain that
+          doesn&rsquo;t match your gut ecology. Consider a GI workup before
+          trying another product.
+        </li>
+      </ul>
+
+      <Callout variant="tip" title="The single biggest protocol mistake">
+        Quitting at day 7 because nothing happened. Most probiotic benefits
+        take 10&ndash;21 days to manifest. If you switch products weekly
+        based on feel, you&rsquo;ll never actually learn what works.
+      </Callout>
+
       <h2>The Antibiotic Protocol</h2>
       <p>
         This is the single highest-evidence use case for probiotics, and it&rsquo;s

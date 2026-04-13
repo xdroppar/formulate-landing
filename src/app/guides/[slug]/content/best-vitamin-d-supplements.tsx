@@ -252,6 +252,88 @@ export function BestVitaminD() {
         for how vitamin D fits into the full picture.
       </p>
 
+      <h2>The Dosing Ladder — By Starting Level</h2>
+      <p>
+        Generic &ldquo;take 2,000 IU&rdquo; advice ignores where you&rsquo;re
+        starting. The dose that raises a deeply-deficient person into the
+        sufficient range does nothing for someone already there, and can
+        push a replete person into excess over months. Here&rsquo;s the
+        approximate ladder based on your current 25(OH)D level:
+      </p>
+
+      <InteractionGroup title="Daily dose by current 25(OH)D level">
+        <InteractionCard
+          type="synergy"
+          a="Below 20 ng/mL (deficient)"
+          b="5,000 IU/day"
+          effect="Roughly 40% of US adults fall here. Clinical deficiency territory; warrants aggressive correction."
+          recommendation="5,000 IU/day with K2 (100–200 mcg MK-7) for 8–12 weeks, then retest. Some protocols use 50,000 IU weekly short-term; equivalent daily dosing is typically cleaner."
+        />
+        <InteractionCard
+          type="synergy"
+          a="20–30 ng/mL (insufficient)"
+          b="2,000–4,000 IU/day"
+          effect="Most common bucket. Symptoms are often subtle (fatigue, low immunity, mood). Raising to 40+ ng/mL is the goal."
+          recommendation="2,000–4,000 IU/day with K2. Retest after 12 weeks to confirm trajectory."
+        />
+        <InteractionCard
+          type="synergy"
+          a="30–50 ng/mL (sufficient)"
+          b="1,000–2,000 IU/day"
+          effect="The maintenance zone. Most research associates this range with lowest risk for cardiovascular, autoimmune, and respiratory outcomes."
+          recommendation="1,000–2,000 IU/day is enough to hold level in winter for most adults at temperate latitudes."
+        />
+        <InteractionCard
+          type="synergy"
+          a="50–80 ng/mL (high-normal)"
+          b="Pause or reduce"
+          effect="Some longevity practitioners target this range, but incremental benefit above 50 ng/mL is unclear and inconsistently supported."
+          recommendation="Drop to 1,000 IU/day or take seasonally (winter only). Continue K2 if dosing above 2,000 IU."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Above 80 ng/mL"
+          b="Stop supplementing"
+          effect="No evidence of additional benefit; rising risk of hypercalcemia. Pause until level falls into target range."
+          recommendation="Stop vitamin D entirely for 4–8 weeks, retest, then resume at a lower maintenance dose."
+        />
+      </InteractionGroup>
+
+      <p>
+        Two caveats. First, BMI matters — vitamin D is stored in adipose
+        tissue, so people with higher body fat percentages may need 1.5&ndash;2x
+        the dose to reach the same serum level. Second, dose-response is
+        individual: some people raise their serum level 10 ng/mL per 1,000 IU
+        daily; others see half that. Retesting after 10&ndash;12 weeks is how
+        you actually calibrate to <em>your</em> physiology, not the population
+        average.
+      </p>
+
+      <h2>Seasonal Adjustments</h2>
+      <p>
+        Vitamin D production from sunlight is nearly zero above 37° latitude
+        (roughly San Francisco, Washington DC, Athens) between October and
+        March — the UVB angle is too shallow to produce cholecalciferol in
+        skin, regardless of how much time you spend outside. This is why
+        serum 25(OH)D follows a predictable seasonal curve in most people:
+        peaks in September, bottoms in February or March.
+      </p>
+      <p>
+        Two practical implications:
+      </p>
+      <ul>
+        <li>
+          If you live above 37°N (or below 37°S), your winter dose should
+          likely be 1.5&ndash;2x your summer dose to maintain level.
+        </li>
+        <li>
+          The ideal time to test is late winter (February/March). A
+          late-summer test shows your peak, not your trough — and
+          &ldquo;sufficient&rdquo; in August can mean &ldquo;deficient&rdquo;
+          by March.
+        </li>
+      </ul>
+
       <h2>Common Mistakes to Avoid</h2>
 
       <Callout variant="warning" title="Taking D2 because your doctor prescribed it">

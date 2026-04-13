@@ -221,6 +221,67 @@ export function BestCreatine() {
         </li>
       </ul>
 
+      <h2>Responders and Non-Responders — the Muscle Biopsy Data</h2>
+      <p>
+        Roughly <strong>20&ndash;30% of people are &ldquo;non-responders&rdquo;</strong>
+        to creatine supplementation, meaning muscle creatine concentration
+        barely rises on a standard protocol. This isn&rsquo;t failure of
+        compliance — it&rsquo;s baseline physiology.
+      </p>
+      <p>
+        The mechanism: some people already sit near the physiological ceiling
+        of muscle creatine storage (~150&ndash;160 mmol/kg dry muscle). If
+        your baseline is already 140, you can only add 10&ndash;20 mmol/kg of
+        &ldquo;room.&rdquo; If your baseline is 110, you can add 40&ndash;50
+        mmol/kg — and you&rsquo;ll feel it. High-meat diets raise baseline,
+        which is why vegetarians and vegans are disproportionately
+        represented among strong responders.
+      </p>
+      <Callout variant="tip" title="Are you a responder?">
+        If you&rsquo;ve been on 5g/day for 6 weeks with zero change in
+        bodyweight, strength, or workout capacity, you&rsquo;re likely a
+        low-responder. This isn&rsquo;t a verdict — creatine still has
+        documented cognitive and bone-density benefits independent of
+        muscle-performance response. But if your only goal was the
+        performance bump, your money may be better spent elsewhere.
+      </Callout>
+
+      <h2>Creatine in Special Populations</h2>
+
+      <h3>Women</h3>
+      <p>
+        Women respond to creatine the same way men do in terms of strength,
+        lean mass, and cognitive effects — at the same 3&ndash;5g/day dose.
+        The &ldquo;creatine will make me bulky&rdquo; concern comes from
+        misunderstanding the initial 1&ndash;2 lb water-weight shift, which
+        is intracellular (inside the muscle) rather than visible bloat.
+        Recent research also suggests specific benefits around menopause:
+        bone density, mood, and cognitive markers all show measurable
+        improvement in peri- and postmenopausal women on creatine.
+      </p>
+
+      <h3>Vegetarians and Vegans</h3>
+      <p>
+        The largest responder group. Dietary creatine comes almost entirely
+        from meat and fish (beef contains ~5g/kg; salmon ~4g/kg). A plant-based
+        diet delivers near zero. Baseline muscle stores in long-term
+        vegetarians run 15&ndash;30% below omnivores, which translates to
+        larger performance gains on supplementation. If you&rsquo;re
+        plant-based and doing any kind of resistance training, creatine is
+        the single highest-leverage supplement you can add.
+      </p>
+
+      <h3>Older Adults (60+)</h3>
+      <p>
+        Benefits are consistently larger in older adults than in young
+        lifters. Meta-analyses show creatine combined with resistance training
+        produces meaningfully greater gains in lean mass, strength, and
+        functional capacity than resistance training alone. Doses of
+        3&ndash;5g/day appear sufficient; higher doses haven&rsquo;t shown
+        additional benefit in this age group. No kidney concerns in
+        otherwise-healthy older adults.
+      </p>
+
       <h2>Common Myths, Quickly Debunked</h2>
 
       <Callout variant="info" title="&ldquo;Creatine causes kidney damage&rdquo;">

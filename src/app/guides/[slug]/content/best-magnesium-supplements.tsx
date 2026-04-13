@@ -154,6 +154,83 @@ export function BestMagnesium() {
         walks through exactly what to look for.
       </p>
 
+      <h2>Drug and Supplement Interactions to Know</h2>
+      <p>
+        Magnesium is generally well-tolerated, but a handful of interactions
+        come up often enough to be worth flagging. Most aren&rsquo;t
+        deal-breakers — they just mean adjusting timing.
+      </p>
+      <ul>
+        <li>
+          <strong>Antibiotics (tetracyclines, quinolones):</strong> Magnesium
+          binds to these antibiotics in the gut and reduces absorption by up
+          to 50%. Separate by at least 2 hours. Take the antibiotic first.
+        </li>
+        <li>
+          <strong>Bisphosphonates (osteoporosis meds):</strong> Same binding
+          issue. Separate by 2&ndash;4 hours.
+        </li>
+        <li>
+          <strong>Levothyroxine (thyroid meds):</strong> Magnesium can reduce
+          absorption. Take thyroid medication on an empty stomach 30&ndash;60
+          minutes before any magnesium-containing supplement or meal.
+        </li>
+        <li>
+          <strong>Proton pump inhibitors (PPIs):</strong> Long-term PPI use
+          reduces magnesium absorption, and patients often develop
+          subclinical deficiency. If you&rsquo;re on omeprazole or similar,
+          supplementation is often warranted — and worth discussing with your
+          prescriber.
+        </li>
+        <li>
+          <strong>Diuretics:</strong> Loop and thiazide diuretics increase
+          urinary magnesium losses. People on these medications often need
+          ongoing supplementation.
+        </li>
+        <li>
+          <strong>Calcium:</strong> At high doses (500mg+ of either), the two
+          compete for absorption. Separate by at least a few hours for best
+          results. Less critical at typical supplement doses.
+        </li>
+      </ul>
+
+      <h2>Signs You&rsquo;re Taking Too Much</h2>
+      <p>
+        Magnesium has a wide safety margin, but going well above needs can
+        produce symptoms. The tolerable upper intake level (UL) for
+        <em> supplemental</em> magnesium (excluding food) is 350mg/day of
+        elemental magnesium in adults. This is a safety cushion, not a
+        ceiling beyond which harm is guaranteed — but it&rsquo;s a reasonable
+        target.
+      </p>
+      <ul>
+        <li>
+          <strong>Loose stools / diarrhea:</strong> The most common sign,
+          especially with citrate or oxide forms. Switch to glycinate or
+          reduce the dose.
+        </li>
+        <li>
+          <strong>Abdominal cramping:</strong> Often paired with loose
+          stools. Dose-dependent.
+        </li>
+        <li>
+          <strong>Low blood pressure / drowsiness at high doses:</strong>
+          Rare at common supplement doses but documented at 1,000mg+. Back
+          off immediately if you feel unusually sluggish.
+        </li>
+        <li>
+          <strong>Serious toxicity (hypermagnesemia):</strong> Nearly always
+          in people with kidney impairment. Healthy kidneys excrete excess
+          magnesium readily. If you have CKD, talk to your nephrologist
+          before supplementing.
+        </li>
+      </ul>
+      <p>
+        For most healthy adults, there&rsquo;s a wide zone between the RDA
+        and problematic doses. Stick to 200&ndash;400mg of elemental
+        supplemental magnesium and the safety margin is enormous.
+      </p>
+
       <h2>How Much Do You Actually Need?</h2>
       <p>
         The RDA is 400&ndash;420mg/day for men and 310&ndash;320mg/day for women

@@ -44,12 +44,30 @@
     "monetization": 5,
     "structure": 4.5,
     "unique_value": 5,
-    "internal_linking": 4.5,
+    "internal_linking": 5,
     "actionability": 4.2,
     "trust": 5,
     "engagement": 5,
     "notes": [],
-    "total": 36.2
+    "total": 36.7
+  },
+  {
+    "slug": "signs-you-are-magnesium-deficient",
+    "title": "8 Signs You Might Be Magnesium Deficient",
+    "category": "guide",
+    "word_count": 2441,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 4.3,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 2.6,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 36.4
   },
   {
     "slug": "sarcopenia-reverse-muscle-loss",
@@ -86,6 +104,22 @@
     "total": 36.0
   },
   {
+    "slug": "zinc-guide",
+    "title": "Zinc \u2014 Immune Support, Testosterone, and the Copper Connection",
+    "category": "guide",
+    "word_count": 2666,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 4.5,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 3.3,
+    "engagement": 5,
+    "notes": [],
+    "total": 35.8
+  },
+  {
     "slug": "electrolytes-guide",
     "title": "Electrolytes \\u2014 What You Actually Need, When, and How Much",
     "category": "guide",
@@ -102,20 +136,40 @@
     "total": 35.6
   },
   {
-    "slug": "zinc-guide",
-    "title": "Zinc \u2014 Immune Support, Testosterone, and the Copper Connection",
+    "slug": "best-magnesium-supplements",
+    "title": "Best Magnesium Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1687,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.6,
+    "internal_linking": 5,
+    "actionability": 3.9,
+    "trust": 3.6,
+    "engagement": 4.9,
+    "notes": [
+      "few study references"
+    ],
+    "total": 35.5
+  },
+  {
+    "slug": "taurine-guide",
+    "title": "Taurine \\u2014 The Longevity Amino Acid Hiding in Your Energy Drink",
     "category": "guide",
-    "word_count": 2666,
+    "word_count": 2319,
     "intent_fit": 3.0,
     "monetization": 5,
-    "structure": 5,
-    "unique_value": 4.5,
-    "internal_linking": 4.5,
-    "actionability": 5,
-    "trust": 3.3,
-    "engagement": 5,
-    "notes": [],
-    "total": 35.3
+    "structure": 4.5,
+    "unique_value": 3.5,
+    "internal_linking": 5,
+    "actionability": 4.6,
+    "trust": 5,
+    "engagement": 4.9,
+    "notes": [
+      "low readability (Flesch 33)"
+    ],
+    "total": 35.5
   },
   {
     "slug": "berberine-guide",
@@ -136,22 +190,54 @@
     "total": 35.0
   },
   {
-    "slug": "signs-you-are-magnesium-deficient",
-    "title": "8 Signs You Might Be Magnesium Deficient",
-    "category": "guide",
-    "word_count": 2441,
-    "intent_fit": 4.5,
+    "slug": "best-omega-3-supplements",
+    "title": "Best Omega-3 & Fish Oil Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1709,
+    "intent_fit": 5.0,
     "monetization": 5,
     "structure": 5,
-    "unique_value": 4.3,
+    "unique_value": 3.7,
     "internal_linking": 3.3,
-    "actionability": 5,
-    "trust": 2.6,
+    "actionability": 4.1,
+    "trust": 3.9,
     "engagement": 5,
     "notes": [
-      "weak citation density"
+      "few study references"
     ],
-    "total": 34.7
+    "total": 35.0
+  },
+  {
+    "slug": "best-creatine-supplements",
+    "title": "Best Creatine Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1815,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 2.9,
+    "internal_linking": 5,
+    "actionability": 3.4,
+    "trust": 4.5,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.8
+  },
+  {
+    "slug": "best-sleep-supplement-protocol",
+    "title": "The Best Sleep Supplement Protocol \u2014 Evidence-Based Stack for Deep Sleep",
+    "category": "protocol",
+    "word_count": 1817,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 3.5,
+    "unique_value": 4.7,
+    "internal_linking": 3.9,
+    "actionability": 3.3,
+    "trust": 4.2,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.6
   },
   {
     "slug": "how-to-build-a-supplement-stack",
@@ -172,22 +258,54 @@
     "total": 34.5
   },
   {
-    "slug": "taurine-guide",
-    "title": "Taurine \\u2014 The Longevity Amino Acid Hiding in Your Energy Drink",
-    "category": "guide",
-    "word_count": 2319,
-    "intent_fit": 3.0,
+    "slug": "best-vitamin-d-supplements",
+    "title": "Best Vitamin D Supplements in 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 1707,
+    "intent_fit": 5.0,
     "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.5,
-    "internal_linking": 3.9,
-    "actionability": 4.6,
-    "trust": 5,
-    "engagement": 4.9,
+    "structure": 5,
+    "unique_value": 2.5,
+    "internal_linking": 3.3,
+    "actionability": 5,
+    "trust": 3.6,
+    "engagement": 5,
     "notes": [
-      "low readability (Flesch 33)"
+      "few study references"
     ],
     "total": 34.4
+  },
+  {
+    "slug": "lions-mane-guide",
+    "title": "Lion\\u2019s Mane Mushroom \\u2014 Cognitive Benefits, Evidence, and What to Look For",
+    "category": "guide",
+    "word_count": 1986,
+    "intent_fit": 4.5,
+    "monetization": 3.4,
+    "structure": 5,
+    "unique_value": 4.7,
+    "internal_linking": 5,
+    "actionability": 3.0,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.4
+  },
+  {
+    "slug": "best-pre-workout-supplement-protocol",
+    "title": "The Best Pre-Workout Supplement Protocol \u2014 Build Your Own Evidence-Based Stack",
+    "category": "protocol",
+    "word_count": 1851,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.4,
+    "internal_linking": 4.5,
+    "actionability": 3.9,
+    "trust": 3.0,
+    "engagement": 5,
+    "notes": [],
+    "total": 34.3
   },
   {
     "slug": "nac-guide",
@@ -208,40 +326,6 @@
     "total": 34.3
   },
   {
-    "slug": "best-vitamin-d-supplements",
-    "title": "Best Vitamin D Supplements in 2026, Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 1455,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 5,
-    "unique_value": 2.5,
-    "internal_linking": 3.3,
-    "actionability": 4.8,
-    "trust": 3.6,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 34.2
-  },
-  {
-    "slug": "best-sleep-supplement-protocol",
-    "title": "The Best Sleep Supplement Protocol \u2014 Evidence-Based Stack for Deep Sleep",
-    "category": "protocol",
-    "word_count": 1817,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 3.5,
-    "unique_value": 4.7,
-    "internal_linking": 3.3,
-    "actionability": 3.3,
-    "trust": 4.2,
-    "engagement": 5,
-    "notes": [],
-    "total": 34.0
-  },
-  {
     "slug": "collagen-guide",
     "title": "Collagen Supplements \u2014 What the Evidence Actually Supports",
     "category": "guide",
@@ -258,70 +342,22 @@
     "total": 34.0
   },
   {
-    "slug": "best-omega-3-supplements",
-    "title": "Best Omega-3 & Fish Oil Supplements in 2026, Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 1464,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 5,
-    "unique_value": 3.4,
-    "internal_linking": 3.3,
-    "actionability": 3.2,
-    "trust": 3.9,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 33.8
-  },
-  {
-    "slug": "best-pre-workout-supplement-protocol",
-    "title": "The Best Pre-Workout Supplement Protocol \u2014 Build Your Own Evidence-Based Stack",
-    "category": "protocol",
-    "word_count": 1851,
-    "intent_fit": 5.0,
+    "slug": "how-to-read-a-supplement-label",
+    "title": "How to Read a Supplement Label \u2014 Doses, Forms, and Red Flags",
+    "category": "guide",
+    "word_count": 2667,
+    "intent_fit": 4.5,
     "monetization": 5,
     "structure": 4.5,
-    "unique_value": 3.4,
-    "internal_linking": 3.9,
-    "actionability": 3.9,
-    "trust": 3.0,
+    "unique_value": 3.6,
+    "internal_linking": 5,
+    "actionability": 4.7,
+    "trust": 1.5,
     "engagement": 5,
-    "notes": [],
-    "total": 33.7
-  },
-  {
-    "slug": "best-creatine-supplements",
-    "title": "Best Creatine Supplements in 2026, Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 1428,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.0,
-    "unique_value": 2.7,
-    "internal_linking": 3.9,
-    "actionability": 3.3,
-    "trust": 4.5,
-    "engagement": 5,
-    "notes": [],
-    "total": 33.4
-  },
-  {
-    "slug": "lions-mane-guide",
-    "title": "Lion\\u2019s Mane Mushroom \\u2014 Cognitive Benefits, Evidence, and What to Look For",
-    "category": "guide",
-    "word_count": 1986,
-    "intent_fit": 4.5,
-    "monetization": 3.4,
-    "structure": 5,
-    "unique_value": 4.7,
-    "internal_linking": 3.9,
-    "actionability": 3.0,
-    "trust": 3.8,
-    "engagement": 5,
-    "notes": [],
-    "total": 33.3
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 33.8
   },
   {
     "slug": "do-you-need-a-multivitamin",
@@ -340,24 +376,6 @@
     "total": 33.2
   },
   {
-    "slug": "best-magnesium-supplements",
-    "title": "Best Magnesium Supplements in 2026, Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 1344,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.1,
-    "internal_linking": 3.9,
-    "actionability": 2.3,
-    "trust": 3.6,
-    "engagement": 4.9,
-    "notes": [
-      "few study references"
-    ],
-    "total": 32.3
-  },
-  {
     "slug": "protein-intake-muscle-after-40",
     "title": "Protein Intake for Muscle Growth After 40 \\u2014 How Much and When",
     "category": "guide",
@@ -366,12 +384,12 @@
     "monetization": 5,
     "structure": 4.0,
     "unique_value": 2.5,
-    "internal_linking": 4.2,
+    "internal_linking": 4.8,
     "actionability": 4.1,
     "trust": 3.0,
     "engagement": 5,
     "notes": [],
-    "total": 32.3
+    "total": 32.9
   },
   {
     "slug": "beginner-longevity-supplement-stack",
@@ -382,50 +400,14 @@
     "monetization": 5,
     "structure": 4,
     "unique_value": 3.4,
-    "internal_linking": 4.5,
+    "internal_linking": 5,
     "actionability": 3.6,
     "trust": 2.1,
     "engagement": 5,
     "notes": [
       "weak citation density"
     ],
-    "total": 32.1
-  },
-  {
-    "slug": "how-to-read-a-supplement-label",
-    "title": "How to Read a Supplement Label \u2014 Doses, Forms, and Red Flags",
-    "category": "guide",
-    "word_count": 2667,
-    "intent_fit": 4.5,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.6,
-    "internal_linking": 3.3,
-    "actionability": 4.7,
-    "trust": 1.5,
-    "engagement": 5,
-    "notes": [
-      "weak citation density"
-    ],
-    "total": 32.1
-  },
-  {
-    "slug": "creatine-loading-phase",
-    "title": "Creatine Loading Phase \u2014 Is It Necessary?",
-    "category": "guide",
-    "word_count": 1881,
-    "intent_fit": 3.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.2,
-    "internal_linking": 2.7,
-    "actionability": 4.6,
-    "trust": 3.3,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 31.3
+    "total": 32.6
   },
   {
     "slug": "supplement-timing-guide",
@@ -436,7 +418,7 @@
     "monetization": 5,
     "structure": 5,
     "unique_value": 2.8,
-    "internal_linking": 3.9,
+    "internal_linking": 5,
     "actionability": 3.6,
     "trust": 2.4,
     "engagement": 5,
@@ -444,7 +426,25 @@
       "few study references",
       "weak citation density"
     ],
-    "total": 31.2
+    "total": 32.3
+  },
+  {
+    "slug": "creatine-loading-phase",
+    "title": "Creatine Loading Phase \u2014 Is It Necessary?",
+    "category": "guide",
+    "word_count": 1881,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.2,
+    "internal_linking": 3.3,
+    "actionability": 4.6,
+    "trust": 3.3,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 31.9
   },
   {
     "slug": "strength-training-frequency-longevity",
@@ -465,6 +465,24 @@
     "total": 29.5
   },
   {
+    "slug": "what-to-look-for-in-a-probiotic",
+    "title": "What to Look for in a Probiotic \u2014 Strains, CFU, and Red Flags",
+    "category": "guide",
+    "word_count": 2746,
+    "intent_fit": 4.5,
+    "monetization": 3.4,
+    "structure": 4.5,
+    "unique_value": 2.8,
+    "internal_linking": 2.7,
+    "actionability": 3.2,
+    "trust": 2.6,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 28.7
+  },
+  {
     "slug": "how-to-train-after-50",
     "title": "How to Train After 50: The Evidence-Based Playbook",
     "category": "guide",
@@ -482,24 +500,6 @@
       "weak citation density"
     ],
     "total": 28.1
-  },
-  {
-    "slug": "what-to-look-for-in-a-probiotic",
-    "title": "What to Look for in a Probiotic \u2014 Strains, CFU, and Red Flags",
-    "category": "guide",
-    "word_count": 2243,
-    "intent_fit": 4.5,
-    "monetization": 3.4,
-    "structure": 4.5,
-    "unique_value": 2.8,
-    "internal_linking": 2.7,
-    "actionability": 2.1,
-    "trust": 2.6,
-    "engagement": 5,
-    "notes": [
-      "weak citation density"
-    ],
-    "total": 27.6
   },
   {
     "slug": "vo2-max-longevity",

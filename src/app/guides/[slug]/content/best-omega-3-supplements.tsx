@@ -210,6 +210,87 @@ export function BestOmega3() {
         for how omega-3 fits into the bigger picture.
       </p>
 
+      <h2>Interpreting the Omega-3 Index</h2>
+      <p>
+        The <strong>Omega-3 Index</strong> — the percentage of EPA + DHA in
+        your red blood cell membranes — is the single most reliable biomarker
+        for long-chain omega-3 status. Serum omega-3 fluctuates with what you
+        ate yesterday; the RBC membrane index reflects 3&ndash;4 months of
+        intake and maps better to outcomes like sudden cardiac death risk
+        and inflammatory markers.
+      </p>
+      <ul>
+        <li>
+          <strong>Below 4%:</strong> High-risk zone. Most US adults fall here
+          by default. Associated with elevated cardiovascular mortality in
+          epidemiological cohorts.
+        </li>
+        <li>
+          <strong>4&ndash;8%:</strong> Intermediate. Typical of people taking
+          a low-dose supplement (500&ndash;1,000 mg combined EPA+DHA) or
+          eating fish 1&ndash;2x/week.
+        </li>
+        <li>
+          <strong>Above 8%:</strong> Target range for most research-backed
+          benefits. Requires roughly 1,500&ndash;2,500 mg combined EPA+DHA
+          daily for most people, or regular oily-fish consumption (3&ndash;4
+          servings/week).
+        </li>
+      </ul>
+      <p>
+        Tests cost $50&ndash;80 through labs like OmegaQuant and require a
+        single finger-stick blood drop. Retest 3&ndash;4 months after
+        changing dose — anything sooner captures the ramp, not the steady
+        state.
+      </p>
+
+      <h2>Dose-Response for Specific Outcomes</h2>
+      <p>
+        One of the biggest sources of confusion in the omega-3 literature is
+        that different outcomes require very different doses. A dose that
+        helps joint inflammation won&rsquo;t meaningfully move triglycerides;
+        a dose that lowers triglycerides is probably overkill for general
+        cardiovascular maintenance.
+      </p>
+
+      <InteractionGroup title="Dose targets by goal">
+        <InteractionCard
+          type="synergy"
+          a="General cardiovascular / longevity"
+          b="1,000–2,000 mg EPA+DHA/day"
+          effect="The dose most large-cohort studies associate with lower all-cause mortality. Enough to raise Omega-3 Index into the 6–8% range in most people."
+          recommendation="Consistency matters more than precise dose in this range. Pair with weekly fatty fish when possible."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Elevated triglycerides"
+          b="2,000–4,000 mg EPA+DHA/day"
+          effect="At 4,000 mg/day, expect 25–30% triglyceride reduction. Below 2,000 mg, effects on triglycerides are modest."
+          recommendation="EPA-dominant products outperform balanced EPA/DHA for triglyceride lowering. Prescription-grade icosapent ethyl is the high-dose option."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Inflammatory joint conditions"
+          b="2,700 mg EPA+DHA/day"
+          effect="The dose used in most RA trials. Measurable reductions in joint tenderness and morning stiffness over 8–12 weeks."
+          recommendation="Higher EPA content preferred (EPA is more directly anti-inflammatory than DHA)."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Major depression (adjunctive)"
+          b="1,000–2,000 mg EPA/day (EPA-dominant)"
+          effect="Meta-analyses show meaningful adjunctive benefit when EPA:DHA ratio is >2:1 and EPA dose exceeds 1,000 mg."
+          recommendation="DHA-heavy fish oils won't replicate these results. Check the EPA:DHA ratio specifically."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Pregnancy / lactation"
+          b="200–300 mg DHA/day minimum"
+          effect="DHA is preferentially transferred to the fetus/infant and supports neural development."
+          recommendation="DHA-dominant or balanced products preferred. Algal oil is a good vegan-compatible option."
+        />
+      </InteractionGroup>
+
       <h2>How to Take Fish Oil for Maximum Absorption</h2>
 
       <Callout variant="evidence" title="Always take with fat">
