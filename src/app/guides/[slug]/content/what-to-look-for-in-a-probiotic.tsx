@@ -207,6 +207,99 @@ export function WhatToLookForInProbiotic() {
         </li>
       </ul>
 
+      <h2>The Evidence Hierarchy</h2>
+      <p>
+        Not all probiotic claims are equal. Some strains are backed by
+        Cochrane-level systematic reviews; others rest on one small trial
+        in a specific population. When you see marketing language like
+        &ldquo;clinically studied,&rdquo; check <em>which</em> tier of
+        evidence the product is riding.
+      </p>
+
+      <Callout variant="evidence" title="Tier 1 — Strong evidence (multiple RCTs + meta-analyses)">
+        <strong>LGG (L. rhamnosus GG):</strong> 2013 Cochrane review of 23
+        RCTs for pediatric acute gastroenteritis showed reduced diarrhea
+        duration by roughly 25 hours.<br />
+        <strong>S. boulardii CNCM I-745:</strong> 2017 <em>JAMA</em>{" "}
+        meta-analysis of 82 RCTs showed ~60% reduction in C. difficile diarrhea
+        when co-administered with antibiotics in high-risk groups.<br />
+        <strong>B. longum 35624 (Alflorex):</strong> Multiple RCTs published
+        in <em>Gastroenterology</em> and <em>Alimentary Pharmacology &amp;
+        Therapeutics</em> showed composite IBS symptom improvement at 1 billion
+        CFU. <EvidenceBadge level="strong" />
+      </Callout>
+
+      <Callout variant="evidence" title="Tier 2 — Moderate evidence (few RCTs, consistent direction)">
+        <strong>LP299V (L. plantarum 299v):</strong> Several RCTs showing
+        IBS bloating and pain reduction; effect sizes variable across
+        studies.<br />
+        <strong>BB-12 (B. animalis subsp. lactis):</strong> Evidence for
+        bowel regularity and some immune markers; results in healthy adults
+        more mixed than in infants.<br />
+        <strong>L. reuteri DSM 17938:</strong> Infant colic RCTs in breastfed
+        babies are positive; formula-fed results are inconsistent.
+        <EvidenceBadge level="moderate" />
+      </Callout>
+
+      <Callout variant="warning" title="Tier 3 — Weak or preliminary evidence">
+        Most multi-strain &ldquo;broad spectrum&rdquo; blends. Strains with
+        a single small trial. Any product making claims about mood, weight,
+        skin, or immunity based on mechanistic reasoning without a named
+        strain and RCT backing. The research may come; for now, the dollar
+        value is marketing more than medicine.
+      </Callout>
+
+      <p>
+        A practical rule: if a product&rsquo;s marketing leans on the word
+        &ldquo;probiotic&rdquo; generically rather than naming a specific
+        strain plus the condition it&rsquo;s been studied for, you&rsquo;re
+        in Tier 3. The strong-evidence products are almost always boring —
+        one or two named strains, a specific condition, a studied dose.
+      </p>
+
+      <h2>When Probiotics Won&rsquo;t Help</h2>
+      <p>
+        Some conditions consistently fail to respond to probiotic
+        supplementation, despite marketing suggesting otherwise. Knowing
+        when to skip the probiotic aisle is as valuable as knowing what to
+        buy.
+      </p>
+      <ul>
+        <li>
+          <strong>Chronic constipation as a standalone complaint.</strong>{" "}
+          Fiber, hydration, and magnesium oxide/citrate all outperform
+          probiotics here. Probiotic effects on transit time are small and
+          strain-dependent.
+        </li>
+        <li>
+          <strong>SIBO (small intestinal bacterial overgrowth).</strong>{" "}
+          Conventional Lactobacillus probiotics can worsen SIBO symptoms by
+          adding to the bacterial load in the wrong part of the gut. Spore
+          or S. boulardii may be tolerated; diagnosis first is critical.
+        </li>
+        <li>
+          <strong>Weight loss.</strong> The &ldquo;probiotic for weight
+          management&rdquo; category has extremely thin evidence. Modest
+          signals exist for specific strains (L. gasseri, L. plantarum)
+          but effect sizes are 1&ndash;3 lb over 12 weeks — not
+          clinically meaningful.
+        </li>
+        <li>
+          <strong>Generalized immune support in healthy adults.</strong>{" "}
+          Probiotics have stronger immune effects in specific scenarios
+          (antibiotics, daycare-age children, athletes in heavy training)
+          than in the average adult. &ldquo;Immune health&rdquo; on a
+          probiotic label is closer to marketing than evidence in most
+          contexts.
+        </li>
+        <li>
+          <strong>During active gut inflammation (IBD flare).</strong>{" "}
+          Evidence is strain-specific and nuanced; self-supplementing during
+          active Crohn&rsquo;s or UC flares can worsen symptoms. Work with
+          a GI specialist.
+        </li>
+      </ul>
+
       <h2>Condition-to-Strain Cheat Sheet</h2>
       <p>
         If you have a specific goal, start here. This is where the research
