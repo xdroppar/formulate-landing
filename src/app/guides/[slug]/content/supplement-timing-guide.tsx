@@ -275,6 +275,132 @@ export function SupplementTimingGuide() {
         ]}
       />
 
+      <h2>Timing Around Medications</h2>
+      <p>
+        This is the category where &ldquo;timing matters&rdquo; stops being
+        optimization and starts being genuinely important. Several common
+        supplement-medication interactions are well-documented and clinically
+        relevant. If you take any of the following, build your supplement
+        schedule around them.
+      </p>
+
+      <InteractionGroup title="Supplement ↔ medication timing">
+        <InteractionCard
+          type="conflict"
+          a="Levothyroxine"
+          b="Calcium, iron, magnesium"
+          effect="These minerals bind to levothyroxine in the gut and can reduce absorption by 30–40%. Also applies to coffee taken within 30 minutes."
+          recommendation="Take thyroid meds on an empty stomach 30–60 minutes before breakfast. Save mineral supplements for later in the day."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Statins"
+          b="Grapefruit, St. John's Wort"
+          effect="Grapefruit inhibits CYP3A4, raising statin blood levels and myopathy risk. St. John's Wort does the opposite, reducing efficacy."
+          recommendation="Avoid grapefruit and St. John's Wort entirely if you're on simvastatin, atorvastatin, or lovastatin."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Warfarin / blood thinners"
+          b="Vitamin K, fish oil, ginkgo"
+          effect="Vitamin K directly opposes warfarin; fish oil and ginkgo add antiplatelet effects. Even small dose changes can shift INR."
+          recommendation="Never start or stop these supplements abruptly if you're on anticoagulants. Talk to your prescriber first."
+        />
+        <InteractionCard
+          type="conflict"
+          a="Antibiotics (tetracyclines, quinolones)"
+          b="Calcium, iron, magnesium, zinc"
+          effect="Polyvalent cations bind to the antibiotic in the gut, reducing absorption by up to 50%."
+          recommendation="Separate by at least 2 hours. Take the antibiotic first, minerals later."
+        />
+      </InteractionGroup>
+
+      <Callout variant="warning" title="If you take prescription meds">
+        Build your supplement timing around your medication schedule, not
+        the other way around. Many of these interactions aren&rsquo;t
+        obvious from reading a supplement bottle &mdash; they require
+        knowing the pharmacokinetics of both. If you&rsquo;re on anything
+        chronic, a 10-minute conversation with your pharmacist is worth
+        more than any online timing guide.
+      </Callout>
+
+      <h2>Timing Around Training</h2>
+      <p>
+        If you lift, do cardio, or compete, a handful of supplements have
+        meaningfully different effects based on timing relative to the workout.
+        Most of this is overhyped online, but a few items are real:
+      </p>
+
+      <h3>Creatine</h3>
+      <p>
+        The timing debate is mostly noise. Creatine works by saturating muscle
+        stores over weeks; a single day&rsquo;s timing changes almost nothing.
+        That said, a 2013 study by Antonio and Ciccone in the{" "}
+        <em>Journal of the International Society of Sports Nutrition</em>{" "}
+        suggested a modest post-workout advantage when combined with carbs and
+        protein. The effect size was small. Far more important:{" "}
+        <strong>take it every day, including rest days</strong>. The saturation
+        is what matters, not when you top it up. <EvidenceBadge level="moderate" />
+      </p>
+
+      <h3>Protein</h3>
+      <p>
+        The &ldquo;anabolic window&rdquo; has been quietly walked back by the
+        research community over the last decade. A 2013 meta-analysis by
+        Schoenfeld et al. in the <em>Journal of the International Society of
+        Sports Nutrition</em> found that protein timing produced small effects
+        on hypertrophy compared to total daily intake. Practical rule: get
+        20&ndash;40g of protein within two hours of training, and hit your
+        daily target (1.6&ndash;2.2g/kg). Nailing the second matters far more
+        than the first.
+      </p>
+
+      <h3>Caffeine + pre-workout</h3>
+      <p>
+        Caffeine peaks in plasma 30&ndash;60 minutes after ingestion. Take it
+        closer to 45 minutes before the hardest portion of your session. Avoid
+        it within 6&ndash;8 hours of your intended sleep time &mdash; caffeine&rsquo;s
+        half-life is 5&ndash;6 hours, so an afternoon pre-workout will blunt
+        deep sleep that night even if you don&rsquo;t feel wired at bedtime.
+      </p>
+
+      <h3>Beta-alanine</h3>
+      <p>
+        Like creatine, beta-alanine is a saturation supplement &mdash; daily
+        dose matters, acute timing doesn&rsquo;t. The tingling (paresthesia)
+        from a single large dose is harmless but can be unpleasant. Split
+        3.2&ndash;6.4g across the day in 1.5&ndash;2g doses, preferably with
+        meals, to minimize it.
+      </p>
+
+      <h2>Bioavailability vs Absorption — Why the Distinction Matters</h2>
+      <p>
+        A lot of supplement marketing conflates two different concepts:
+        <strong>absorption</strong> (how much of the dose crosses your gut
+        wall) and <strong>bioavailability</strong> (how much of the absorbed
+        dose reaches systemic circulation in an active form). They&rsquo;re
+        related but not interchangeable.
+      </p>
+      <p>
+        Curcumin is the canonical example. Plain curcumin is absorbed at
+        roughly 1&ndash;2% of the oral dose because it&rsquo;s heavily
+        metabolized in the gut wall and liver before it reaches the
+        bloodstream. Piperine-boosted curcumin raises absorption by inhibiting
+        that first-pass metabolism. Lipid delivery systems (Meriva, Longvida,
+        Theracurmin) work by a different mechanism &mdash; they change how
+        curcumin is packaged into chylomicrons, improving both absorption and
+        bioavailability. &ldquo;High-absorption&rdquo; claims on a label are
+        meaningless without knowing the mechanism.
+      </p>
+      <p>
+        Similar distinctions matter for B12 (methylcobalamin vs cyanocobalamin),
+        folate (L-methylfolate vs folic acid), magnesium (glycinate vs oxide),
+        and iron (bisglycinate vs sulfate). In each case, the &ldquo;better&rdquo;
+        form costs more because it either absorbs better, reaches tissues more
+        effectively, or causes fewer GI side effects. Timing won&rsquo;t fix
+        a poor-form supplement.
+      </p>
+
       <h2>The 5 Most Common Timing Mistakes</h2>
 
       <Callout variant="warning" title="Mistake #1: The handful approach">

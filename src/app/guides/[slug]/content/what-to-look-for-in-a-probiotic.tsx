@@ -3,6 +3,8 @@ import {
   Callout,
   ProductCallout,
   EvidenceBadge,
+  InteractionCard,
+  InteractionGroup,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -204,6 +206,97 @@ export function WhatToLookForInProbiotic() {
           expiration. If it doesn&rsquo;t, be skeptical.
         </li>
       </ul>
+
+      <h2>Condition-to-Strain Cheat Sheet</h2>
+      <p>
+        If you have a specific goal, start here. This is where the research
+        actually converges &mdash; generic &ldquo;gut health&rdquo; probiotics
+        are vague by design; strain-condition matching is not.
+      </p>
+
+      <InteractionGroup title="Match your goal to a studied strain">
+        <InteractionCard
+          type="synergy"
+          a="Antibiotic-associated diarrhea"
+          b="S. boulardii CNCM I-745 or LGG"
+          effect="Meta-analyses show roughly 50% reduction in antibiotic-associated diarrhea with either strain. S. boulardii is yeast-based and naturally antibiotic-resistant."
+          recommendation="5–10 billion CFU daily of S. boulardii, starting day 1 of antibiotics and continuing 1–2 weeks after."
+        />
+        <InteractionCard
+          type="synergy"
+          a="IBS — bloating and pain"
+          b="B. longum 35624 (Alflorex) or LP299V"
+          effect="Multiple RCTs show measurable improvement in composite IBS symptom scores at 4–8 weeks."
+          recommendation="1 billion CFU B. longum 35624, or 10–20 billion CFU LP299V. Give it 4 weeks before judging effect."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Traveler's diarrhea prevention"
+          b="S. boulardii CNCM I-745"
+          effect="Cochrane reviews show ~15% absolute risk reduction in travelers taking S. boulardii prophylactically."
+          recommendation="5 billion CFU daily, starting 5 days before travel and continuing throughout the trip."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Recurrent vaginal/UTI issues"
+          b="L. rhamnosus GR-1 + L. reuteri RC-14"
+          effect="Urogenital strains with evidence for reducing BV and UTI recurrence. Different from gut strains."
+          recommendation="1–10 billion CFU of each, oral daily for 30+ days. Strain designations matter enormously here."
+        />
+        <InteractionCard
+          type="synergy"
+          a="Infant colic"
+          b="L. reuteri DSM 17938"
+          effect="RCTs show reduced crying time in breastfed colicky infants; less consistent in formula-fed."
+          recommendation="100 million CFU daily, 5 drops typically. Only under pediatrician supervision."
+        />
+        <InteractionCard
+          type="synergy"
+          a="General gut health / maintenance"
+          b="Multi-strain with LGG, BB-12, and a Bifidobacterium"
+          effect="Weakest evidence category — no strong consensus. Fermented food may be equal or better."
+          recommendation="If supplementing, choose a simple 2–3 strain product with disclosed individual CFU. Consider kefir, yogurt, sauerkraut instead."
+        />
+      </InteractionGroup>
+
+      <h2>The Antibiotic Protocol</h2>
+      <p>
+        This is the single highest-evidence use case for probiotics, and it&rsquo;s
+        often done wrong. The common mistake is taking the probiotic at the
+        same time as the antibiotic &mdash; which kills most bacterial strains
+        outright.
+      </p>
+      <ol>
+        <li>
+          <strong>Start on day 1 of antibiotics</strong>, not after. Waiting
+          until the course is over means you&rsquo;ve already lost the
+          protective window.
+        </li>
+        <li>
+          <strong>Separate antibiotic and probiotic doses by at least 2 hours.</strong>
+          If your antibiotic is twice daily at 8am and 8pm, take the probiotic
+          at 2pm. S. boulardii is the exception &mdash; as a yeast, antibiotics
+          don&rsquo;t affect it, so timing is flexible.
+        </li>
+        <li>
+          <strong>Continue 1&ndash;2 weeks after the antibiotic course ends.</strong>
+          Gut microbial recovery takes longer than the prescription. Stopping
+          on the last antibiotic day is premature.
+        </li>
+        <li>
+          <strong>Pair with dietary fiber.</strong> Probiotics colonize better
+          when there&rsquo;s prebiotic substrate available. Oats, lentils,
+          onions, garlic, and fermented foods all help.
+        </li>
+      </ol>
+
+      <Callout variant="evidence" title="What the evidence supports">
+        A 2017 meta-analysis in <em>JAMA</em> of 82 RCTs found probiotic use
+        during antibiotic therapy reduced the incidence of C. difficile–associated
+        diarrhea by roughly 60% in high-risk populations. The largest effects
+        came from S. boulardii and LGG at clinically validated doses.
+        <EvidenceBadge level="strong" />
+      </Callout>
 
       <h2>The Red Flag Checklist</h2>
 
