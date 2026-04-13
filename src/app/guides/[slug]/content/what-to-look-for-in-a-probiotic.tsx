@@ -2,6 +2,7 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
+  ProductRow,
   EvidenceBadge,
   InteractionCard,
   InteractionGroup,
@@ -288,9 +289,10 @@ export function WhatToLookForInProbiotic() {
           <strong>Generalized immune support in healthy adults.</strong>{" "}
           Probiotics have stronger immune effects in specific scenarios
           (antibiotics, daycare-age children, athletes in heavy training)
-          than in the average adult. &ldquo;Immune health&rdquo; on a
-          probiotic label is closer to marketing than evidence in most
-          contexts.
+          than in the average adult. For baseline immune support in
+          otherwise-healthy adults, <a href="/guides/best-vitamin-d-supplements">vitamin D</a> and{" "}
+          <a href="/guides/zinc-guide">zinc</a> have stronger evidence than
+          most probiotic formulations.
         </li>
         <li>
           <strong>During active gut inflammation (IBD flare).</strong>{" "}
@@ -493,6 +495,8 @@ export function WhatToLookForInProbiotic() {
         <EvidenceBadge level="strong" />
       </Callout>
 
+      <ProductCallout product={PRODUCTS["thorne-floramend"]} />
+
       <h2>The Red Flag Checklist</h2>
 
       <Callout variant="warning" title="If a probiotic does any of these, think twice">
@@ -594,6 +598,27 @@ export function WhatToLookForInProbiotic() {
         the CFU guarantee accounts for room temperature storage through
         expiration. When in doubt, refrigerate.
       </p>
+
+      <h2>Supporting the Gut Beyond the Capsule</h2>
+      <p>
+        A probiotic is one lever, not the whole system. The gut-barrier and
+        microbiome work the research consistently points to also includes
+        long-chain <a href="/guides/best-omega-3-supplements">omega-3 fatty acids</a>{" "}
+        (anti-inflammatory effect on the gut lining), magnesium for motility
+        when constipation is part of the picture, and in some cases{" "}
+        <a href="/guides/collagen-guide">collagen</a>-derived glycine and
+        proline for epithelial repair. Put another way: the probiotic is the
+        seed; the rest of your stack is the soil.
+      </p>
+
+      <ProductRow
+        title="Gut-support stack — top scored"
+        products={[
+          PRODUCTS["thorne-floramend"],
+          PRODUCTS["thorne-omega-3-coq10"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
       <p>

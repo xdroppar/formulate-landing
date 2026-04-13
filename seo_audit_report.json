@@ -376,6 +376,24 @@
     "total": 33.2
   },
   {
+    "slug": "what-to-look-for-in-a-probiotic",
+    "title": "What to Look for in a Probiotic \u2014 Strains, CFU, and Red Flags",
+    "category": "guide",
+    "word_count": 2829,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 5,
+    "unique_value": 2.8,
+    "internal_linking": 5,
+    "actionability": 3.2,
+    "trust": 2.6,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 33.1
+  },
+  {
     "slug": "protein-intake-muscle-after-40",
     "title": "Protein Intake for Muscle Growth After 40 \\u2014 How Much and When",
     "category": "guide",
@@ -463,24 +481,6 @@
       "weak citation density"
     ],
     "total": 29.5
-  },
-  {
-    "slug": "what-to-look-for-in-a-probiotic",
-    "title": "What to Look for in a Probiotic \u2014 Strains, CFU, and Red Flags",
-    "category": "guide",
-    "word_count": 2746,
-    "intent_fit": 4.5,
-    "monetization": 3.4,
-    "structure": 4.5,
-    "unique_value": 2.8,
-    "internal_linking": 2.7,
-    "actionability": 3.2,
-    "trust": 2.6,
-    "engagement": 5,
-    "notes": [
-      "weak citation density"
-    ],
-    "total": 28.7
   },
   {
     "slug": "how-to-train-after-50",

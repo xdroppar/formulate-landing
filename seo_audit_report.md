@@ -28,12 +28,12 @@ Scored 40 guides on 8 axes (0–5 each, 40 total).
 | 20 | [collagen-guide](src/app/guides/[slug]/content/collagen-guide.tsx) | **34.0** | 4.5 | 3.4 | 4.5 | 5 | 2.7 | 4.1 | 4.8 | 5 | 2150 |
 | 21 | [how-to-read-a-supplement-label](src/app/guides/[slug]/content/how-to-read-a-supplement-label.tsx) | **33.8** | 4.5 | 5 | 4.5 | 3.6 | 5 | 4.7 | 1.5 | 5 | 2667 |
 | 22 | [do-you-need-a-multivitamin](src/app/guides/[slug]/content/do-you-need-a-multivitamin.tsx) | **33.2** | 4.5 | 5 | 4 | 3.8 | 5 | 3.6 | 2.4 | 4.9 | 1935 |
-| 23 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
-| 24 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **32.6** | 4.5 | 5 | 4 | 3.4 | 5 | 3.6 | 2.1 | 5 | 2163 |
-| 25 | [supplement-timing-guide](src/app/guides/[slug]/content/supplement-timing-guide.tsx) | **32.3** | 3.5 | 5 | 5 | 2.8 | 5 | 3.6 | 2.4 | 5 | 1559 |
-| 26 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **31.9** | 3.0 | 5 | 4.5 | 3.2 | 3.3 | 4.6 | 3.3 | 5 | 1881 |
-| 27 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
-| 28 | [what-to-look-for-in-a-probiotic](src/app/guides/[slug]/content/what-to-look-for-in-a-probiotic.tsx) | **28.7** | 4.5 | 3.4 | 4.5 | 2.8 | 2.7 | 3.2 | 2.6 | 5 | 2746 |
+| 23 | [what-to-look-for-in-a-probiotic](src/app/guides/[slug]/content/what-to-look-for-in-a-probiotic.tsx) | **33.1** | 4.5 | 5 | 5 | 2.8 | 5 | 3.2 | 2.6 | 5 | 2829 |
+| 24 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
+| 25 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **32.6** | 4.5 | 5 | 4 | 3.4 | 5 | 3.6 | 2.1 | 5 | 2163 |
+| 26 | [supplement-timing-guide](src/app/guides/[slug]/content/supplement-timing-guide.tsx) | **32.3** | 3.5 | 5 | 5 | 2.8 | 5 | 3.6 | 2.4 | 5 | 1559 |
+| 27 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **31.9** | 3.0 | 5 | 4.5 | 3.2 | 3.3 | 4.6 | 3.3 | 5 | 1881 |
+| 28 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
 | 29 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
 | 30 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
 | 31 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
@@ -103,10 +103,10 @@ Scored 40 guides on 8 axes (0–5 each, 40 total).
 ## Axis averages
 
 - **intent_fit**: 3.98
-- **monetization**: 4.09
-- **structure**: 4.44
+- **monetization**: 4.13
+- **structure**: 4.46
 - **unique_value**: 3.48
-- **internal_linking**: 4.20
+- **internal_linking**: 4.26
 - **actionability**: 3.54
 - **trust**: 3.04
 - **engagement**: 4.92
