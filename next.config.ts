@@ -41,11 +41,6 @@ const nextConfig: NextConfig = {
         destination: "https://app.formulate-health.app/stack",
         permanent: true,
       },
-      {
-        source: "/methodology",
-        destination: "https://app.formulate-health.app/methodology",
-        permanent: true,
-      },
     ];
   },
 };
