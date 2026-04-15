@@ -56,7 +56,7 @@ export function SupplementTimingGuide() {
         A 2015 study in the <em>Journal of the Academy of Nutrition and
         Dietetics</em> found that taking vitamin D with a fat-containing meal
         increased absorption by <strong>up to 50%</strong> compared to taking
-        it fasted. <EvidenceBadge level="strong" />
+        it fasted. <EvidenceBadge level="strong" studiesId="vitamin-d-absorption-fat-2015" />
       </Callout>
 
       <p>
@@ -259,7 +259,7 @@ export function SupplementTimingGuide() {
         <li>
           <strong>Glycine</strong> &mdash; 3g before bed improves subjective
           sleep quality. It lowers core body temperature slightly, triggering
-          sleep onset. <EvidenceBadge level="strong" />
+          sleep onset. <EvidenceBadge level="strong" studiesId="glycine-sleep-bannai-2012" />
         </li>
         <li>
           <strong>Calcium</strong> &mdash; if you take it, evening is ideal.
@@ -340,7 +340,7 @@ export function SupplementTimingGuide() {
         suggested a modest post-workout advantage when combined with carbs and
         protein. The effect size was small. Far more important:{" "}
         <strong>take it every day, including rest days</strong>. The saturation
-        is what matters, not when you top it up. <EvidenceBadge level="moderate" />
+        is what matters, not when you top it up. <EvidenceBadge level="moderate" studiesId="creatine-post-vs-pre-antonio-2013" />
       </p>
 
       <h3>Protein</h3>
@@ -352,7 +352,7 @@ export function SupplementTimingGuide() {
         on hypertrophy compared to total daily intake. Practical rule: get
         20&ndash;40g of protein within two hours of training, and hit your
         daily target (1.6&ndash;2.2g/kg). Nailing the second matters far more
-        than the first.
+        than the first. <EvidenceBadge level="strong" studiesId="protein-timing-schoenfeld-2013" />
       </p>
 
       <h3>Caffeine + pre-workout</h3>

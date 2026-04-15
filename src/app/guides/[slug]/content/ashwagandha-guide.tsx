@@ -66,7 +66,7 @@ export function AshwagandhaGuide() {
         <strong>27.9% reduction in serum cortisol</strong> compared to
         baseline, versus a negligible change in the placebo group. Perceived
         stress scores dropped significantly on every validated scale they used.{" "}
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge level="strong" studiesId="ashwagandha-cortisol-2012" />
       </p>
       <p>
         A 2019 RCT by Lopresti et al. in <em>Medicine</em> confirmed this
@@ -74,14 +74,17 @@ export function AshwagandhaGuide() {
         withanolides), finding significant reductions in both cortisol and
         self-reported stress at 60 days. The cortisol reduction is not subtle
         &mdash; it&rsquo;s one of the larger effect sizes you&rsquo;ll see
-        in herbal supplement research. <EvidenceBadge level="strong" />
+        in herbal supplement research. <EvidenceBadge level="strong" studiesId="ashwagandha-lopresti-2019" />
       </p>
 
       <Callout variant="evidence" title="Cortisol reduction">
         Multiple RCTs consistently show ashwagandha reduces serum cortisol by
         20&ndash;30% over 8&ndash;12 weeks. This is one of the strongest
         effect sizes in herbal supplement research.{" "}
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge
+          level="strong"
+          studiesIds={["ashwagandha-cortisol-2012", "ashwagandha-lopresti-2019"]}
+        />
       </Callout>
 
       <h3>Anxiety</h3>

@@ -492,7 +492,7 @@ export function WhatToLookForInProbiotic() {
         during antibiotic therapy reduced the incidence of C. difficile–associated
         diarrhea by roughly 60% in high-risk populations. The largest effects
         came from S. boulardii and LGG at clinically validated doses.
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge level="strong" studiesId="probiotics-cdifficile-jama-2017" />
       </Callout>
 
       <ProductCallout product={PRODUCTS["thorne-floramend"]} />

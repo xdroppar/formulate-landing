@@ -52,7 +52,7 @@ export function CreatineLoadingPhase() {
         Harris and colleagues, published in <em>Clinical Science</em> in
         1992. They used muscle biopsies to directly measure intramuscular
         creatine content. The loading protocol increased muscle creatine
-        stores by 20&ndash;40%. <EvidenceBadge level="strong" />
+        stores by 20&ndash;40%. <EvidenceBadge level="strong" studiesId="creatine-loading-harris-1992" />
       </Callout>
 
       <h2>The Part Nobody Tells You: You Don&rsquo;t Need It</h2>
@@ -68,7 +68,7 @@ export function CreatineLoadingPhase() {
         <em>Journal of Applied Physiology</em>: both protocols achieve
         identical end-state creatine concentrations in muscle tissue. The
         loading phase is a fast lane, not a different
-        destination. <EvidenceBadge level="strong" />
+        destination. <EvidenceBadge level="strong" studiesId="creatine-hultman-1996" />
       </Callout>
 
       <p>
@@ -231,7 +231,7 @@ export function CreatineLoadingPhase() {
         Sports Nutrition</em> compared pre-workout vs. post-workout creatine
         in resistance-trained men. The post-workout group showed a slight
         edge in lean mass and strength gains, but the study was small
-        (n=19) and the effect was modest. <EvidenceBadge level="emerging" />
+        (n=19) and the effect was modest. <EvidenceBadge level="emerging" studiesId="creatine-post-vs-pre-antonio-2013" />
       </p>
       <p>
         The practical answer: take creatine whenever you&rsquo;ll actually
