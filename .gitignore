@@ -1,3 +1,9 @@
+
+# SEO tooling runtime logs — not useful in history
+tools/*.log
+*_sweep.log
+faq_expander.log
+meta_optimizer.log
 # dependencies
 /node_modules
 /.pnp
