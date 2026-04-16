@@ -449,6 +449,66 @@ export function NootropicsGuide() {
 
       <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
 
+      <h2>Drug Interactions and Medical Contraindications</h2>
+
+      <p><strong>Drug interactions with nootropics</strong> are poorly tracked because most of these compounds aren't regulated as pharmaceuticals — meaning interaction data comes from case reports, pharmacological reasoning, and limited clinical trials rather than the systematic post-market surveillance applied to prescription drugs. That gap makes this section more important, not less.</p>
+
+      <h3>Compound-Specific Interactions</h3>
+
+      <p><strong>Bacopa monnieri</strong> may potentiate thyroid medications (it has shown thyroid-stimulating effects in animal models — Kar et al., 2002, <em>Journal of Ethnopharmacology</em>) and could theoretically compete with anticholinergic drugs by raising acetylcholine activity. It may also slow heart rate, compounding effects of beta-blockers or calcium channel blockers. If you take thyroid or cardiovascular medication, consult your prescriber before adding bacopa.</p>
+
+      <p><strong>Omega-3 (EPA/DHA)</strong> at doses above 2g/day can inhibit platelet aggregation, increasing bleeding risk. This is clinically relevant if you're on warfarin, aspirin, clopidogrel, or other anticoagulants/antiplatelets (Buckley et al., 2004, <em>Atherosclerosis</em>). <EvidenceBadge level="moderate" /> Discuss timing and dosing with your doctor before combining.</p>
+
+      <p><strong>Alpha-GPC</strong> raises acetylcholine levels, which means it can interact with cholinesterase inhibitors (donepezil, rivastigmine) used in dementia treatment — potentially causing cholinergic excess (nausea, bradycardia, excessive salivation). It may also interact with scopolamine and atropine by opposing their mechanism.</p>
+
+      <p><strong>Caffeine</strong> has the longest interaction list of anything in this guide. It's metabolized by CYP1A2, meaning drugs that inhibit that enzyme — fluvoxamine, ciprofloxacin, oral contraceptives — can dramatically increase caffeine's half-life and side effects. Caffeine also interacts with MAOIs, lithium (by increasing renal clearance), and adenosine-based cardiac drugs. If you're on <em>any</em> psychiatric or cardiovascular medication, verify caffeine safety with your provider.</p>
+
+      <Callout variant="warning" title="Categorical Disclaimer">
+      If you are currently taking prescription medications, are pregnant or breastfeeding, or are under 18, consult your healthcare provider before using any compound discussed in this guide — including the Tier 1 supplements. "Generally well-tolerated in healthy adults" does not mean safe in your specific context. Bring your full supplement list to your next appointment.
+      </Callout>
+
+      <h2>How to Verify Supplement Quality (Third-Party Testing)</h2>
+
+      <p>Knowing how to verify supplement quality is the difference between trusting a label and trusting evidence. The FDA doesn't approve dietary supplements for safety or efficacy before they hit shelves — it only intervenes <em>after</em> problems surface. That means the burden of verification falls entirely on you. Fortunately, three certification programs do the heavy lifting if you know what to look for.</p>
+
+      <h3>The Three Certifications That Matter</h3>
+
+      <p><strong>NSF Certified for Sport</strong> tests for label accuracy, contaminant screening (heavy metals, pesticides), and over 270 banned substances. It's the gold standard for athletes but equally useful for anyone who wants proof that what's on the label is what's in the capsule. <strong>USP Verified</strong> confirms potency, purity, and manufacturing quality through facility audits and product testing. <strong>Informed Sport</strong> focuses on banned-substance screening and is widely recognized in professional and Olympic athletics.</p>
+
+      <p>None of these certifications evaluate whether a supplement <em>works</em> — they verify that it contains what it claims, at the stated dose, without dangerous contaminants. That's the baseline, and most nootropic products don't clear it.</p>
+
+      <h3>Why Proprietary Blends Fail Here</h3>
+
+      <p>Even a third-party tested product is useless if you can't verify individual ingredient doses. Proprietary blends — the "Cognitive Enhancement Matrix" formulas called out in our <a href="/guides/how-to-read-supplement-labels">label reading guide</a> — make it impossible to confirm whether any single ingredient reaches a clinically relevant amount. A certified proprietary blend is still a black box. Certification plus full label transparency is the combination you need.</p>
+
+      <h3>Your 3-Step Verification Checklist</h3>
+
+      <p><strong>Step 1: Look for a certification mark.</strong> Check the product packaging or manufacturer's website for NSF Certified for Sport, USP Verified, or Informed Sport logos. No mark? Move to Step 2 with higher skepticism.</p>
+
+      <p><strong>Step 2: Request or find the Certificate of Analysis (COA).</strong> A COA is a document from an independent lab confirming the product's identity, potency, and contaminant levels for a specific batch. Reputable brands publish COAs on their website or provide them on request. If a company won't share a COA, treat that as a disqualifying red flag.</p>
+
+      <p><strong>Step 3: Cross-check the COA details.</strong> Verify that the batch number matches your product, the testing lab is ISO 17025 accredited, and the results confirm the label's claimed doses. A COA from an unaccredited lab or with a mismatched batch number is theater, not transparency.</p>
+
+      <Callout variant="warning" title="No Certification ≠ Unsafe, But…">
+      Many smaller nootropic brands skip certification due to cost. That doesn't automatically mean their products are contaminated or underdosed — but it does mean you're relying entirely on the company's integrity with no independent verification. For compounds you'll take daily for months (creatine, omega-3, lion's mane), the cost of choosing a verified product is worth the peace of mind.
+      </Callout>
+
+      <p>If you're building a <a href="/guides/how-to-build-a-supplement-stack">supplement stack</a> with multiple products, apply this checklist to each one. Quality failures compound just like the supplements do — except in the wrong direction.</p>
+
+      <h3>Caffeine Genetics: Why the Same Dose Affects People Differently</h3>
+
+      <p>Caffeine genetics explain why your coworker drinks three espressos and sleeps like a rock while you're wired until 2 AM from a single cup. The difference isn't tolerance or willpower — it's largely determined by two genes that govern how your body processes and responds to caffeine.</p>
+
+      <p>The first is <strong>CYP1A2</strong>, which codes for the liver enzyme responsible for metabolizing roughly 95% of ingested caffeine. About half the population carries a variant (CYP1A2*1F) that makes them <em>slow metabolizers</em> — caffeine lingers in their system significantly longer. Sachse et al. (1999, <em>British Journal of Clinical Pharmacology</em>) identified this polymorphism, and subsequent research by Cornelis et al. (2006, <em>JAMA</em>) linked slow-metabolizer status to increased cardiovascular risk from coffee, suggesting the extended exposure window has real physiological consequences.</p>
+
+      <p>The second gene is <strong>ADORA2A</strong>, which encodes the adenosine A2A receptor — the very receptor caffeine blocks. Certain ADORA2A variants make you substantially more prone to caffeine-induced anxiety. Alsene et al. (2003, <em>Neuropsychopharmacology</em>) found that individuals with the 1976T/T genotype reported significantly higher anxiety after 150mg of caffeine compared to other genotypes. <EvidenceBadge level="moderate" /> If caffeine makes you jittery or anxious even at low doses, this variant is a likely culprit — and L-theanine can only partially compensate.</p>
+
+      <Callout variant="warning" title="If caffeine has ever kept you up or made you anxious">
+      You may be a CYP1A2 slow metabolizer, an ADORA2A anxiety-sensitive type, or both. Start at <strong>50–75mg caffeine</strong> (roughly half a small coffee) rather than the 100–200mg range. Cut off caffeine by 10 AM instead of early afternoon — your effective half-life may be closer to 8–9 hours, not the standard 5–6. Pair with L-theanine regardless, and titrate up only if you tolerate the lower dose well.
+      </Callout>
+
+      <p>You can get CYP1A2 and ADORA2A genotyping through consumer DNA services or pharmacogenomic panels. But honestly, your own response history is a decent proxy — if you've always been "sensitive to caffeine," act accordingly rather than forcing a standard dose. The <a href="/guides/nootropics-guide">caffeine + L-theanine recommendation</a> in this guide still applies, but the dose that works for <em>you</em> may be half of what works for a fast metabolizer.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The Tier 1 and Tier 2 compounds in this guide are well-studied in healthy, unmedicated adults. But "well-studied in healthy adults" is not the same as "safe for everyone." If any of the following apply to you, get clinical input before starting — or stacking — these supplements.

@@ -484,6 +484,167 @@ export function IronGuide() {
         ]}
       />
 
+      <h2>How to Get Ferritin Tested (Without Fighting Your Doctor)</h2>
+
+      <p>Getting a ferritin test is the single most important step before touching an iron supplement, yet most routine bloodwork doesn't include it. A standard complete blood count (CBC) measures hemoglobin and hematocrit — markers that only flag iron problems <em>after</em> your stores are already deeply depleted. Ferritin, the marker that actually reflects your iron reserves, requires a separate order.</p>
+
+      <h3>Ask for It by Name</h3>
+
+      <p>At your next GP visit, don't say "check my iron." That typically gets you a CBC and maybe a serum iron level — neither of which tells you what you need to know. Say this instead:</p>
+
+      <Callout variant="info" title="Script for Your Doctor">
+      "I'd like my <strong>serum ferritin</strong> tested specifically. I know a standard CBC doesn't include it, and I want to check my iron stores — not just my hemoglobin. Can you add ferritin to my lab order?"
+      </Callout>
+
+      <p>That's it. Most providers will add it without pushback — it's a routine, inexpensive blood draw. If your doctor pushes back or says your CBC is "fine," remind them that ferritin below 30 ng/mL can cause symptoms even with normal hemoglobin. The section above on <strong>iron deficiency without anemia</strong> explains exactly why this matters.</p>
+
+      <h3>Direct-to-Consumer Lab Options</h3>
+
+      <p>If you'd rather skip the appointment entirely, several services let you order a ferritin test yourself. Expect to pay <strong>$25–$50 out of pocket</strong> at companies like Quest Direct, LabCorp OnDemand, or online aggregators such as Walk-In Lab or Ulta Lab Tests. You order online, visit a local draw site, and get results in 1–3 business days — no prescription needed in most U.S. states.</p>
+
+      <Callout variant="warning" title="Don't Self-Interpret Borderline Results">
+      Lab reference ranges often list ferritin as "normal" starting at 10–12 ng/mL, which many hematologists consider clearly deficient. If your result falls in the 15–30 ng/mL range, consult your healthcare provider before supplementing — context matters, especially if you have inflammation or chronic illness that can artificially inflate ferritin.
+      </Callout>
+
+      <p>Once you have your number, revisit the ferritin ranges earlier in this guide to understand what it means. Then — and only then — decide whether supplementation makes sense. For guidance on reading the labels of whatever you end up buying, see our <a href="/guides/reading-supplement-labels">supplement label guide</a>.</p>
+
+      <h2>Elemental Iron Quick-Reference Table</h2>
+
+      <p>The elemental iron content of your supplement is what actually matters — not the compound weight on the front of the bottle. A "325mg iron" tablet almost certainly contains 325mg of the <em>iron compound</em>, not 325mg of absorbable iron. The difference is enormous, and it's the single most common source of confusion when people compare products or try to hit a dosing target.</p>
+
+      <p>This table breaks it down for the six forms you'll actually encounter:</p>
+
+      <table>
+      <thead>
+      <tr>
+      <th>Iron Form</th>
+      <th>Elemental Iron %</th>
+      <th>Example Product</th>
+      <th>Typical Pill Size</th>
+      <th>GI Tolerability</th>
+      <th>Relative Cost</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td><strong>Ferrous sulfate</strong></td>
+      <td>~20%</td>
+      <td>Nature Made 325mg (65mg elemental)</td>
+      <td>325mg</td>
+      <td>Poor</td>
+      <td>$</td>
+      </tr>
+      <tr>
+      <td><strong>Ferrous fumarate</strong></td>
+      <td>~33%</td>
+      <td>Vitron-C 200mg (65mg elemental)</td>
+      <td>200mg</td>
+      <td>Fair</td>
+      <td>$</td>
+      </tr>
+      <tr>
+      <td><strong>Ferrous gluconate</strong></td>
+      <td>~12%</td>
+      <td>Fergon 240mg (27mg elemental)</td>
+      <td>240mg</td>
+      <td>Good</td>
+      <td>$</td>
+      </tr>
+      <tr>
+      <td><strong>Iron bisglycinate</strong></td>
+      <td>~20%</td>
+      <td>Thorne Iron Bisglycinate 25mg</td>
+      <td>25–36mg elemental</td>
+      <td>Very Good</td>
+      <td>$$</td>
+      </tr>
+      <tr>
+      <td><strong>Carbonyl iron</strong></td>
+      <td>~98%</td>
+      <td>Feosol Original 45mg</td>
+      <td>45mg</td>
+      <td>Very Good</td>
+      <td>$$</td>
+      </tr>
+      <tr>
+      <td><strong>Liquid iron (ferrous sulfate or gluconate)</strong></td>
+      <td>Varies by product</td>
+      <td>Floradix 10mg/10mL</td>
+      <td>10–15mg per dose</td>
+      <td>Good</td>
+      <td>$$$</td>
+      </tr>
+      </tbody>
+      </table>
+
+      <Callout variant="info" title="The label-math shortcut">
+      To find elemental iron from ferrous sulfate: multiply the compound weight by 0.20. So 325mg × 0.20 = <strong>65mg elemental iron</strong>. For fumarate, multiply by 0.33. For gluconate, multiply by 0.12. Bisglycinate products almost always list elemental iron directly — if yours doesn't, that's a red flag about label transparency.
+      </Callout>
+
+      <p>Notice that carbonyl iron is nearly 98% elemental, but its slow dissolution in stomach acid means <em>effective</em> absorption is lower than that percentage suggests. And bisglycinate's real advantage isn't the elemental percentage — it's the dramatically better absorption per milligram due to chelation, as demonstrated by Name et al. (2014). <EvidenceBadge level="moderate" /> You often need less elemental iron from bisglycinate to achieve the same repletion as higher doses of ferrous sulfate.</p>
+
+      <p>For a deeper walkthrough of how to decode what's actually in any supplement bottle, see our <a href="/guides/reading-supplement-labels">label reading guide</a>.</p>
+
+      <h2>Iron for People With GI Conditions or On Acid-Suppressing Drugs</h2>
+
+      <p>Iron absorption for people with GI conditions or on acid-suppressing drugs follows different rules than for the general population — and standard oral supplementation protocols can fail or even cause harm. If you fall into one of these categories, the advice elsewhere in this guide needs significant modification.</p>
+
+      <h3>Inflammatory Bowel Disease (IBD)</h3>
+
+      <p>Oral iron is a particular problem if you have Crohn's disease or ulcerative colitis. Unabsorbed iron in the gut generates reactive oxygen species and shifts the microbiome toward pro-inflammatory species. A 2015 Cochrane review (Defined et al.) found that oral iron worsened disease activity markers in some IBD patients. <EvidenceBadge level="moderate" /> For this reason, European Crohn's and Colitis Organisation (ECCO) guidelines recommend <strong>intravenous iron as first-line therapy</strong> for IBD patients with active inflammation or documented oral iron intolerance. Talk to your gastroenterologist — do not self-supplement orally.</p>
+
+      <Callout variant="warning" title="IBD and Oral Iron">
+      Standard oral iron may worsen intestinal inflammation in active IBD. IV iron formulations like ferric carboxymaltose or iron sucrose bypass the gut entirely and are often better tolerated and more effective. This decision belongs to your GI specialist, not a supplement guide.
+      </Callout>
+
+      <h3>Celiac Disease</h3>
+
+      <p>Iron deficiency that doesn't respond to supplementation is one of the most common presentations of undiagnosed celiac disease. Villous atrophy in the duodenum — the primary site of iron absorption — means oral iron simply has nowhere to go. A 2020 study in <em>Nutrients</em> (Stefanelli et al.) found that refractory iron deficiency was present in up to 46% of celiac patients at diagnosis. <EvidenceBadge level="moderate" /> If you've supplemented consistently for 8–12 weeks without meaningful ferritin improvement, <strong>ask your doctor about celiac screening</strong> before increasing your dose.</p>
+
+      <h3>PPI and H2 Blocker Users</h3>
+
+      <p>Proton pump inhibitors (omeprazole, pantoprazole) and H2 blockers (famotidine, ranitidine) reduce stomach acid — the very thing needed to solubilize ferrous iron salts. A 2015 meta-analysis (Lam et al., <em>Expert Review of Clinical Pharmacology</em>) linked chronic PPI use to significantly increased risk of iron deficiency. <EvidenceBadge level="moderate" /> If you're on long-term acid suppression, <strong>iron bisglycinate is the preferred form</strong> because it doesn't require an acidic environment for absorption. Even so, monitor ferritin more frequently — every 3–4 months — and discuss whether your acid-suppressing medication is still necessary with your prescriber.</p>
+
+      <Callout variant="info" title="Bottom Line for These Groups">
+      All three populations — IBD, celiac, and chronic PPI/H2 blocker users — should work with a gastroenterologist before starting or adjusting iron supplementation. Generic dosing advice doesn't account for your absorption barriers, and self-supplementing without specialist input risks both failure and unnecessary side effects.
+      </Callout>
+
+      <h2>The UL Contradiction Explained: Why Therapeutic Doses Exceed the 45mg Daily Limit</h2>
+
+      <p>If you've read the dosing section carefully, you may have noticed something that doesn't add up: the NIH sets the <strong>Tolerable Upper Intake Level (UL) for iron at 45mg/day</strong> for adults, yet therapeutic repletion protocols call for 60–120mg of elemental iron per dose. That's not an oversight — it's a distinction that matters enormously for your safety.</p>
+
+      <p>The 45mg UL applies to <strong>chronic, unsupervised daily supplementation in healthy adults</strong>. It's designed to prevent GI side effects — nausea, cramping, constipation — in people supplementing without medical guidance. The Institute of Medicine set this threshold in 2001 based primarily on gastrointestinal tolerability data, not organ toxicity at that dose range. <EvidenceBadge level="moderate" /> It's a guardrail for self-directed use, not a ceiling on what's medically appropriate.</p>
+
+      <p>Therapeutic doses of 60–120mg every other day exceed the UL <em>by design</em>. The Stoffel et al. (2017) protocol discussed in this guide was conducted under clinical supervision with lab monitoring. These aren't casual maintenance doses — they're time-limited interventions (typically 8–12 weeks) aimed at correcting confirmed deficiency, tracked with follow-up ferritin testing.</p>
+
+      <Callout variant="warning" title="Do not self-manage above-UL dosing">
+      Taking 60–120mg of elemental iron without a confirmed deficiency diagnosis, physician oversight, and scheduled follow-up bloodwork is not the same as following a therapeutic protocol. Above-UL dosing requires a provider who can monitor ferritin, transferrin saturation, and signs of overload. This is non-negotiable — your body cannot excrete excess iron.
+      </Callout>
+
+      <p>Think of it this way: the UL tells you where self-supplementation should stop. Everything above that line is physician territory. If your provider has prescribed or recommended a repletion protocol above 45mg, that's appropriate medicine. If you're dosing above 45mg because you read about it online — including in this guide — without bloodwork and clinical follow-up, you're taking a real risk with a mineral that accumulates permanently. See our <a href="/guides/iron-guide">dosing guidelines</a> above and bring them to your next appointment.</p>
+
+      <h2>Iron Supplements During Pregnancy: What's Safe Without a Doctor</h2>
+
+      <p><strong>Iron supplements during pregnancy</strong> occupy a unique clinical space: this is one of the few situations where major medical bodies recommend supplementation even before confirming deficiency. The American College of Obstetricians and Gynecologists (ACOG) and WHO both recommend routine low-dose iron supplementation for all pregnant women because requirements nearly double — from 18mg to 27mg of elemental iron daily — to support expanded maternal blood volume and fetal development.</p>
+
+      <h3>What You Can Safely Do Over the Counter</h3>
+
+      <p>Most prenatal vitamins already contain 27–28mg of elemental iron, which covers the full pregnancy RDA. If your prenatal includes this amount and your ferritin is within a normal range, <strong>you likely don't need additional iron supplements during pregnancy</strong>. Stacking a separate iron tablet on top of a complete prenatal is a common mistake that pushes you well past the 45mg tolerable upper limit without clinical justification. Check your prenatal label — our <a href="/guides/reading-supplement-labels">label reading guide</a> can help you find the elemental iron content.</p>
+
+      <p>If your prenatal contains less than 27mg, a small top-up to reach that threshold is generally considered safe OTC. Beyond that — particularly therapeutic doses of 60–120mg used to correct confirmed deficiency — you need provider oversight with repeat ferritin and hemoglobin monitoring.</p>
+
+      <h3>Managing Pregnancy GI Intolerance</h3>
+
+      <p>Pregnancy already brings nausea, constipation, and reflux. Ferrous sulfate makes all three worse. Two strategies have decent evidence behind them:</p>
+
+      <p><strong>Iron bisglycinate</strong> is substantially better tolerated. Name et al. (2018, <em>Journal of Perinatal Medicine</em>) found that pregnant women taking bisglycinate reported significantly fewer GI side effects than those on ferrous sulfate, with comparable improvements in hemoglobin. <strong>Liquid iron formulations</strong> (typically iron protein succinylate or ferric pyrophosphate) allow flexible micro-dosing — starting low and titrating up — which can help women whose first-trimester nausea makes swallowing iron tablets impossible. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="Don't Self-Prescribe High-Dose Iron in Pregnancy">
+      Doses above 45mg elemental iron daily require medical supervision during pregnancy. Iron overload carries risks for both mother and fetus, and pregnancy-related inflammation can artificially elevate ferritin, masking true iron status. If your provider has identified deficiency, they'll set a specific dose and recheck labs — don't adjust on your own.
+      </Callout>
+
+      <p>The every-other-day dosing protocol (Stoffel et al., 2017) has not been extensively studied in pregnant populations specifically, so consult your healthcare provider before applying it. For broader context on how iron fits alongside other prenatal nutrients, see our <a href="/guides/supplement-stacking">stack-building guide</a>.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Iron supplementation is well-studied and straightforward for otherwise healthy adults with confirmed deficiency. But several populations face absorption challenges, interaction risks, or diagnostic complexity that make clinical guidance essential before starting — or continuing — a protocol.

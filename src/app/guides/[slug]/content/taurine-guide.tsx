@@ -420,6 +420,93 @@ export function TaurineGuide() {
         </li>
       </ul>
 
+      <h2>How Much Taurine Is in Food? (And Do You Actually Need to Supplement?)</h2>
+
+      <p><strong>Taurine in food</strong> varies dramatically depending on your protein sources. Shellfish and dark-meat fish top the list, while plant foods contain essentially zero. Here's what common servings actually deliver:</p>
+
+      <table>
+      <thead><tr><th>Food</th><th>Serving Size</th><th>Taurine (mg)</th></tr></thead>
+      <tbody>
+      <tr><td>Scallops</td><td>100g (3.5 oz)</td><td>~827</td></tr>
+      <tr><td>Mussels</td><td>100g (3.5 oz)</td><td>~655</td></tr>
+      <tr><td>Clams</td><td>100g (3.5 oz)</td><td>~520</td></tr>
+      <tr><td>Dark-meat turkey</td><td>100g (3.5 oz)</td><td>~306</td></tr>
+      <tr><td>Beef</td><td>100g (3.5 oz)</td><td>~36–77</td></tr>
+      <tr><td>Chicken (dark meat)</td><td>100g (3.5 oz)</td><td>~170</td></tr>
+      <tr><td>Chicken (breast)</td><td>100g (3.5 oz)</td><td>~18</td></tr>
+      <tr><td>Salmon</td><td>100g (3.5 oz)</td><td>~94</td></tr>
+      <tr><td>Tuna</td><td>100g (3.5 oz)</td><td>~70</td></tr>
+      </tbody>
+      </table>
+
+      <p>Data drawn primarily from Laidlaw et al. (1988) and the Pasantes-Morales (2023) review of taurine content in animal tissues. Cooking reduces taurine content modestly — roughly 10–20% depending on method — so these are approximate values for prepared food.</p>
+
+      <p>If you're an omnivore eating seafood two to three times per week with regular meat intake, you're likely getting <strong>200–400mg of taurine daily</strong> from diet alone. That's enough to prevent outright deficiency, but it falls well short of the 1,000–3,000mg range associated with cardiovascular and general health benefits in clinical studies — and far below the 3–6g longevity-oriented dose scaled from Singh et al. (2023).</p>
+
+      <p>If you're <a href="/guides/taurine-guide">vegan or vegetarian</a>, your dietary taurine intake is effectively zero. Laidlaw et al. (1988) confirmed that vegans have significantly lower plasma taurine than omnivores. Your body does synthesize taurine from cysteine and methionine, but endogenous production is limited — especially as you age.</p>
+
+      <Callout variant="info" title="Do you need to supplement?">
+      <strong>Omnivore eating shellfish regularly?</strong> You're getting some taurine, but still likely under 400mg/day — supplementation bridges the gap to therapeutic doses. <strong>Vegan or vegetarian?</strong> Supplementation is the only realistic way to reach the 1–3g general health range. <strong>Over 40?</strong> Age-related decline in taurine levels makes dietary intake even less sufficient, regardless of diet pattern.
+      </Callout>
+
+      <p>The math is straightforward: even the most taurine-rich diet rarely exceeds 500mg/day, and the evidence-backed target for health benefits starts at 1,000mg. For most people — and virtually all plant-based eaters — the gap between food and effective dose makes <strong>supplementing taurine</strong> a practical necessity, not a luxury.</p>
+
+      <h2>Taurine and Medications: What to Know Before You Start</h2>
+
+      <p><strong>Taurine and medications</strong> deserve more careful discussion than most supplement guides provide. Taurine's safety profile in healthy adults is genuinely impressive — but "healthy adults not taking medications" describes a shrinking percentage of the population, especially over 40. If you take prescription drugs, here's what actually matters.</p>
+
+      <h3>Blood Pressure Medications</h3>
+
+      <p>The Waldron et al. (2018) meta-analysis confirmed that taurine at 1–6g/day meaningfully lowers both systolic and diastolic blood pressure. If you're already on ACE inhibitors, ARBs, calcium channel blockers, or diuretics, the effect is <em>additive</em> — not dangerous per se, but enough to cause symptomatic hypotension (dizziness, lightheadedness) if your medication dose isn't adjusted. <EvidenceBadge level="moderate" /> Inform your prescriber and monitor your blood pressure at home for the first few weeks.</p>
+
+      <h3>Diabetes Medications</h3>
+
+      <p>Singh et al. (2023) documented improved fasting glucose in taurine-supplemented monkeys, and smaller human studies suggest taurine enhances insulin sensitivity. That's beneficial in isolation — but stacked on top of metformin, sulfonylureas, or exogenous insulin, the theoretical risk of hypoglycemia increases. <EvidenceBadge level="emerging" /> The evidence here is less direct than for blood pressure, but the consequence of getting it wrong is acute. Check with your provider.</p>
+
+      <h3>Psychiatric Medications</h3>
+
+      <p>Taurine acts as an inhibitory neuromodulator with GABAergic activity. If you take benzodiazepines, lithium, anticonvulsants, or other neuropsychiatric medications that modulate GABA or calcium signaling, adding a GABAergic compound at multi-gram doses warrants a conversation with your prescriber — even if direct interaction data is sparse. <EvidenceBadge level="emerging" /> Absence of evidence isn't evidence of absence.</p>
+
+      <h3>Kidney Disease</h3>
+
+      <p>Taurine is cleared renally. Healthy kidneys handle supplemental doses without issue, but impaired renal function alters excretion kinetics in ways that haven't been well-studied for taurine specifically. If you have CKD at any stage, talk to your nephrologist before supplementing.</p>
+
+      <Callout variant="warning" title="Polypharmacy Rule of Thumb">
+      If you take two or more prescription medications, bring your full supplement list — including planned additions like taurine — to your pharmacist or physician before starting. Pharmacists are particularly good at catching interaction risks that individual prescribers may miss. This isn't overcaution; it's basic due diligence.
+      </Callout>
+
+      <h2>What the Singh et al. Study Actually Proves (And What It Doesn't)</h2>
+
+      <p>The Singh et al. (2023) paper is genuinely impressive in scope — multi-species, multi-organ, multi-biomarker. But impressive scope doesn't mean the longevity headline translates directly to humans. Before you dose taurine expecting extra decades, you need an honest look at what this study can and can't tell us.</p>
+
+      <Callout variant="warning" title="Limitations you should know">
+      <strong>Mouse lifespan models have a poor translation record.</strong> Resveratrol extended mouse lifespan dramatically in early studies (Baur et al., 2006) — human trials never replicated meaningful longevity effects. Rapamycin showed 9–14% lifespan extension in mice (Harrison et al., 2009); no human longevity RCT exists. Taurine could follow the same pattern.
+
+      <strong>The doses were unusually high.</strong> Mice received 1,000 mg/kg/day. Allometric scaling puts the rough human equivalent at 3–6g daily — the upper end of what EFSA considers safe, and far beyond what most people consume from diet alone.
+
+      <strong>No human RCT on longevity endpoints exists.</strong> Zero. The cardiovascular and exercise data in humans is solid, but nobody has run a controlled trial measuring whether taurine supplementation extends human lifespan or delays hard aging endpoints like all-cause mortality.
+
+      <strong>The monkey data is promising but underpowered.</strong> The primate arm showed improvements in metabolic and immune markers over six months, but the sample size was small and the observation period far too short to draw lifespan conclusions.
+      </Callout>
+
+      <h3>What IS Well-Supported</h3>
+
+      <p>The correlation between declining taurine levels and aging biomarkers is real and consistent across mice, monkeys, and humans. <EvidenceBadge level="moderate" /> That age-related decline — roughly 80% between childhood and old age — tracks with deterioration in mitochondrial function, immune competence, and cardiovascular health. Whether taurine deficiency <em>drives</em> aging or merely accompanies it remains unresolved, but the pattern is robust enough to take seriously.</p>
+
+      <p>The honest framing: taurine has stronger mechanistic and animal evidence than most longevity supplements, a validated age-related decline, and a near-zero risk profile. That's a reasonable basis for supplementation. It is <strong>not</strong> a basis for claiming it will extend your lifespan. If you're building a longevity-focused stack, our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> covers how to weigh this kind of evidence against alternatives.</p>
+
+      <h2>Taurine for Pregnant and Breastfeeding Women</h2>
+
+      <p>Taurine is considered <strong>conditionally essential</strong> during fetal and neonatal development. The fetus cannot synthesize adequate taurine on its own, relying instead on placental transfer from the mother. After birth, breast milk provides a concentrated supply — human colostrum contains roughly 30–50 mg/dL of taurine (Sturman, 1993), and infant formula manufacturers add synthetic taurine specifically because its absence was linked to retinal and neurodevelopmental concerns in preterm infants during the 1980s.</p>
+
+      <p>This biological importance doesn't translate into a green light for supplementation. <strong>No human randomized controlled trial has tested supplemental taurine in pregnant or breastfeeding women at doses above normal dietary intake.</strong> <EvidenceBadge level="emerging" /> The animal data is suggestive — taurine deficiency in pregnant cats and primates led to offspring with visual and neurological impairments (Sturman, 1988) — but animal models of fetal nutrition don't reliably predict human outcomes or safe dosing thresholds.</p>
+
+      <p>Dietary taurine from food sources like meat, fish, and shellfish is generally considered safe during pregnancy and is part of a normal omnivorous diet. The question mark surrounds <em>supplemental</em> doses — particularly the 1–6g range discussed elsewhere in this guide — where no pregnancy-specific safety data exists.</p>
+
+      <Callout variant="warning" title="Consult your OB or midwife before supplementing">
+      Despite taurine's role in fetal development and its presence in breast milk, supplemental taurine during pregnancy and lactation has not been studied for safety at doses above dietary intake. Do not start taurine supplementation without guidance from your prenatal care provider. This applies equally to <a href="/guides/magnesium-supplements">magnesium taurate</a>, which delivers taurine as part of the chelate.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Taurine's safety profile is well-documented in healthy adults at doses up to 6g/day. But "healthy adults" is doing a lot of work in that sentence. Several populations need clinical input before adding taurine — particularly because the guide's own evidence highlights blood pressure, glucose, and neuromodulatory effects that interact with common medications.

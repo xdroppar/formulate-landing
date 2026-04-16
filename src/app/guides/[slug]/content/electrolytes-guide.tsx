@@ -493,6 +493,68 @@ export function ElectrolytesGuide() {
         doses described here is extremely low.
       </p>
 
+      <h2>Drug Interactions: When Electrolyte Supplementation Becomes Dangerous</h2>
+
+      <p>Electrolyte drug interactions are among the most under-discussed risks in supplement guides, and this one needs to address that directly. The DIY recipe above contains potassium chloride (NoSalt), which is safe for healthy people — but genuinely dangerous if you're on certain medications. This isn't a hypothetical concern. Hyperkalemia (elevated blood potassium) causes cardiac arrhythmias and can be fatal.</p>
+
+      <Callout variant="warning" title="Do not supplement potassium without physician clearance if you take any of the following">
+      <strong>ACE inhibitors</strong> (lisinopril, enalapril, ramipril), <strong>ARBs</strong> (losartan, valsartan, irbesartan), and <strong>potassium-sparing diuretics</strong> (spironolactone, amiloride, triamterene) all reduce your kidneys' ability to excrete potassium. Combining any of these with supplemental potassium chloride can push serum levels into dangerous territory. <strong>NSAIDs</strong> (ibuprofen, naproxen) and the antibiotic <strong>trimethoprim</strong> (commonly prescribed as Bactrim/Septra) independently impair renal potassium excretion and compound the risk further. A 2016 retrospective study (Antoniou et al., <em>BMJ</em>) found that trimethoprim co-prescribed with ACE inhibitors or ARBs was associated with a significantly elevated risk of sudden death from hyperkalemia. <EvidenceBadge level="moderate" /> These aren't edge cases — these are among the most commonly prescribed drugs in the world.
+      </Callout>
+
+      <h3>Lithium and Sodium: A Separate but Serious Concern</h3>
+
+      <p>If you take <strong>lithium</strong> for bipolar disorder, sodium intake directly affects your lithium blood levels. Lithium and sodium compete for reabsorption in the kidneys. Increasing sodium intake accelerates lithium excretion, potentially making your medication less effective. Decreasing sodium — or becoming dehydrated — causes lithium retention and can push you toward toxicity. Either direction is dangerous. Evidence suggests even moderate changes in daily sodium intake can shift lithium levels enough to matter (Finley et al., 1995). <EvidenceBadge level="moderate" /></p>
+
+      <p>The bottom line: the DIY recipe's NoSalt component specifically requires physician clearance if you take any of the medications listed above. This isn't overcautious boilerplate — it's the single most important safety consideration in this entire guide. If you're on <a href="/guides/supplement-safety">any chronic medication</a>, consult your healthcare provider before adding supplemental potassium or meaningfully changing your sodium intake.</p>
+
+      <h2>High-Potassium Foods: The Food-First Approach Before You Buy Anything</h2>
+
+      <p>Before reaching for supplements, consider <strong>high-potassium foods</strong> as your primary strategy. The "7–8 bananas" framing makes dietary potassium sound impossible, but bananas are actually a mediocre source — just 422mg each. Plenty of common whole foods deliver far more per serving, and a deliberate day of eating can get you surprisingly close to that 4,700mg target.</p>
+
+      <h3>Potassium-Dense Whole Foods by the Numbers</h3>
+
+      <p>A <strong>medium baked potato with skin</strong> delivers roughly 926mg. One cup of cooked <strong>lentils</strong> provides about 731mg. A cup of cooked <strong>spinach</strong> hits around 839mg. One cup of <strong>acorn squash</strong> gives you approximately 896mg. A 6oz fillet of <strong>Atlantic salmon</strong> contains about 730mg. And one cup of <strong>edamame</strong> adds roughly 676mg. These aren't exotic superfoods — they're grocery store staples.</p>
+
+      <p>A realistic day might look like this: baked potato at lunch (926mg), lentil soup at dinner with a side of spinach (731mg + 839mg), salmon for protein (730mg), and edamame as a snack (676mg). That's approximately <strong>3,900mg of potassium</strong> from food alone — without touching a supplement bottle.</p>
+
+      <Callout variant="info" title="The Gap Is Real, But Smaller Than You Think">Most people eating a standard American diet land around 2,500mg/day because they're eating processed food, not because food-based potassium is inherently insufficient. Shifting toward whole foods closes the majority of that gap. Supplements fill the remaining 800–1,700mg — they shouldn't be doing all the heavy lifting.</Callout>
+
+      <p>That said, consistently hitting 4,700mg from diet alone does require intentional planning. Evidence suggests most people will still fall short by 500–1,000mg on an average day (Cogswell et al., 2012). <EvidenceBadge level="moderate" /> This is where a small potassium chloride supplement — like the NoSalt in the <a href="/guides/electrolytes-guide">DIY recipe above</a> — makes sense as a gap-filler, not a replacement for eating actual food.</p>
+
+      <p>If you're also working on your <a href="/guides/magnesium-deficiency">magnesium intake</a>, the good news is that many high-potassium foods — spinach, lentils, edamame — are solid magnesium sources too. Two deficiencies, one plate.</p>
+
+      <h2>Electrolytes for Older Adults (65+)</h2>
+
+      <p>Electrolytes for older adults require a fundamentally different approach than the general advice above. Several age-related physiological changes make the standard "drink to thirst" strategy unreliable and the DIY protocol potentially risky without medical oversight.</p>
+
+      <h3>Your Thirst Mechanism Is No Longer Trustworthy</h3>
+
+      <p>The "drink to thirst" recommendation we endorsed earlier assumes a functioning thirst response. After 65, that assumption breaks down. Kenney and Chiu (2001) documented that aging blunts osmoreceptor sensitivity, meaning your brain responds more slowly — or not at all — to rising blood concentration. Phillips et al. (1984) showed that older adults deprived of water for 24 hours reported significantly less thirst than younger subjects despite identical levels of dehydration. <EvidenceBadge level="moderate" /> You cannot rely on the signal that isn't firing.</p>
+
+      <h3>Potassium Tolerance Drops With Kidney Function</h3>
+
+      <p>Glomerular filtration rate declines roughly 1% per year after age 40. By 70, many people have lost 25–30% of their kidney function without knowing it — serum creatinine can appear normal due to reduced muscle mass. This means your kidneys clear potassium more slowly. The DIY recipe's 650mg potassium dose may be fine for a healthy 35-year-old, but it demands more caution here, especially if you're on ACE inhibitors, ARBs, or potassium-sparing diuretics — medications that are extremely common in this age group. <EvidenceBadge level="strong" /></p>
+
+      <Callout variant="warning" title="Hyperkalemia Risk">
+      Potassium supplementation combined with common blood pressure medications can push serum potassium to dangerous levels. Do not start the DIY protocol — or any potassium-containing electrolyte product — without discussing it with your physician and getting a recent metabolic panel.
+      </Callout>
+
+      <h3>Sodium Depletion Hits Harder</h3>
+
+      <p>Orthostatic hypotension — that dizziness when you stand up — affects roughly 20–30% of adults over 65 (Saedon et al., 2012). <EvidenceBadge level="moderate" /> Sodium depletion worsens it by reducing blood volume, and the consequences are more severe: falls in this population cause hip fractures, head injuries, and hospitalizations. Aggressive sodium restriction or under-supplementation isn't just uncomfortable here — it's genuinely dangerous.</p>
+
+      <Callout variant="info" title="Before You Start">
+      If you're over 65, ask your doctor for a basic metabolic panel (sodium, potassium, magnesium, creatinine, eGFR) before adjusting electrolyte intake. Bring the DIY recipe to your appointment so they can evaluate it against your medications and kidney function. This isn't overcaution — it's the minimum responsible step.
+      </Callout>
+
+      <h3>The PURE Study Controversy: What Critics Say</h3>
+      <p>The PURE study is one of the most cited — and most criticized — pieces of evidence in the sodium debate. You should know what the objections are before deciding how much weight to give it.</p>
+      <p>The main criticisms are serious. PURE estimated sodium intake from spot urine samples rather than 24-hour collections, a method that Cogswell et al. (2016) and others have argued systematically biases results. The low-sodium populations in PURE were disproportionately from low-income countries where poverty, malnutrition, and poor healthcare access are <em>independently</em> associated with higher mortality — meaning the increased risk at low sodium intakes may reflect confounding, not causation. And as an observational study, PURE cannot establish that low sodium <strong>caused</strong> worse outcomes. The AHA and World Heart Federation have both issued statements cautioning against using PURE to justify higher sodium intake. <EvidenceBadge level="moderate" /></p>
+      <Callout variant="info" title="Why we still mention PURE">
+      Despite these valid criticisms, PURE isn't an outlier. Multiple large observational datasets — including O'Donnell et al. (2011) and Alderman et al. (1998) — have found similar J-shaped curves. The consistent signal across different populations and methodologies is worth noting, even if each individual study has flaws. We treat the J-curve as a plausible hypothesis, not a settled fact.
+      </Callout>
+      <p>The practical takeaway doesn't change: if you're active, eating whole foods, and not hypertensive, rigidly restricting sodium to below 2,300mg is likely unnecessary. But intellectual honesty requires acknowledging that the evidence is observational, contested, and far from conclusive. If you have hypertension or cardiovascular risk factors, consult your healthcare provider rather than self-adjusting based on any single study.</p>
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Can I just add more salt to my food instead of making electrolyte drinks?</h3>

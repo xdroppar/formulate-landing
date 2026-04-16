@@ -466,6 +466,75 @@ export function VitaminB12Guide() {
         ]}
       />
 
+      <h2>Pernicious Anemia: When Supplementing Alone Isn't Enough</h2>
+
+      <p>Pernicious anemia is an autoimmune condition where your body produces antibodies that destroy intrinsic factor — the gastric protein you need to absorb B12 from food. Without intrinsic factor, the active transport mechanism in your ileum is effectively shut down, leaving only passive diffusion (that ~1–2% absorption rate) to do all the work. Standard oral doses of 25–100mcg won't even come close to correcting this.</p>
+
+      <p>It's the most common cause of severe B12 deficiency in adults over 50, and it's frequently missed. A 2012 review in <em>Blood Reviews</em> (Toh et al.) estimated prevalence at roughly 1–2% of the general population, rising significantly with age. Because its symptoms — fatigue, cognitive decline, neuropathy — overlap with "normal aging," many cases go undiagnosed for years.</p>
+
+      <h3>Diagnosis Requires Specific Antibody Testing</h3>
+
+      <p>A low serum B12 and elevated MMA tell you <em>that</em> you're deficient, but not <em>why</em>. Pernicious anemia diagnosis relies on two antibody tests: <strong>anti-intrinsic factor antibodies</strong> (highly specific, ~70% sensitive) and <strong>anti-parietal cell antibodies</strong> (more sensitive but less specific, as they also appear in atrophic gastritis without autoimmunity). If anti-IF antibodies come back positive, the diagnosis is essentially confirmed. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="When to push for autoimmune testing">
+      Don't assume dietary deficiency if you eat animal products regularly, your MMA is markedly elevated, or high-dose oral supplementation fails to normalize your levels within 8–12 weeks. These are red flags for pernicious anemia. Ask your provider specifically for anti-intrinsic factor and anti-parietal cell antibody testing — they're not included in routine bloodwork.
+      </Callout>
+
+      <h3>Why Standard Oral Supplementation Falls Short</h3>
+
+      <p>With intrinsic factor knocked out, you're relying entirely on passive diffusion. The standard treatment is intramuscular <strong>hydroxocobalamin injections</strong> — typically 1,000mcg every other day for 2–3 weeks, then monthly for life. A 2005 Cochrane review (Vidal-Alaball et al.) confirmed that very high-dose oral B12 (1,000–2,000mcg daily) can maintain adequate levels through passive diffusion alone, but this requires consistent daily compliance and isn't appropriate for initial correction of severe deficiency with neurological involvement.</p>
+
+      <p>If you've been diagnosed with pernicious anemia, this isn't a "take a supplement and forget it" situation. You need a treatment protocol supervised by your provider, regular monitoring, and awareness that this is a lifelong condition. Because pernicious anemia is autoimmune, it also clusters with other autoimmune diseases — thyroid disorders, type 1 diabetes, vitiligo — so a broader autoimmune workup may be warranted. For context on how B12 fits alongside other foundational nutrients, see our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity supplement stack guide</a>.</p>
+
+      <h2>How Long Until B12 Supplements Actually Work (Timeline)</h2>
+
+      <p>"How long until B12 supplements work" is the first question most people ask after starting a regimen — and the honest answer is that it depends entirely on which symptoms you're trying to resolve. B12 recovery isn't a single event. It's a staggered process where different body systems respond on different timelines.</p>
+
+      <h3>Energy and Fatigue: 2–6 Weeks</h3>
+
+      <p>Fatigue is usually the first symptom to improve. Most people supplementing 1,000–2,000mcg/day of sublingual methylcobalamin report noticeable energy improvements within 2–6 weeks. A 2003 study (Kuzminski et al., <em>Blood</em>) showed measurable hematological response beginning within the first month of high-dose oral supplementation. If your fatigue was genuinely B12-driven, you'll likely know relatively quickly. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Blood Cell Normalization: 6–8 Weeks</h3>
+
+      <p>If you had macrocytic anemia — those abnormally large red blood cells flagged as elevated MCV on your CBC — expect normalization within 6–8 weeks. Reticulocyte counts (a marker of new red blood cell production) typically spike within 7–10 days, which is actually a good early sign that supplementation is working before you feel dramatically different.</p>
+
+      <h3>Neurological Symptoms: Months to Potentially Never</h3>
+
+      <p>This is the sobering category. Peripheral neuropathy, balance problems, and cognitive symptoms improve much more slowly — typically over 3–12 months — and the degree of recovery depends heavily on how long the deficiency persisted before treatment. Healton et al. (1991, <em>Medicine</em>) found that neurological symptoms present for less than 6 months had the best recovery outcomes, while damage sustained over years was frequently permanent. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="No improvement after 8 weeks?">
+      If you've been supplementing consistently at corrective doses (1,000–2,000mcg/day) for 8 weeks with no symptom improvement, something else may be going on. Possible explanations: misdiagnosed deficiency (your symptoms have a different cause), an absorption issue requiring <a href="/guides/vitamin-b12-guide">injections rather than oral supplementation</a>, or a concurrent deficiency — iron and folate deficiencies can produce nearly identical fatigue and anemia. Go back to your provider and request MMA, ferritin, and folate testing.
+      </Callout>
+
+      <p>Mood-related symptoms — depression, irritability, brain fog — tend to fall somewhere in between, often improving within 4–8 weeks if B12 deficiency was a contributing factor. But as Hvas et al. (2004) demonstrated, B12 only helps mood when deficiency is actually present. If your levels were adequate all along, supplementation won't move the needle on how you feel.</p>
+
+      <h2>B12 During Pregnancy and Breastfeeding</h2>
+
+      <p><strong>B12 during pregnancy</strong> isn't optional — it's critical for fetal brain and spinal cord development. The RDA increases to 2.6mcg/day during pregnancy and 2.8mcg/day during lactation, but these numbers assume adequate absorption and baseline stores. If you're entering pregnancy already depleted — common among vegans, vegetarians, and women with undiagnosed subclinical deficiency — these minimums won't be enough to catch up.</p>
+
+      <h3>The Folate-B12 Interaction Gets Dangerous Here</h3>
+
+      <p>This guide already covers how <a href="/guides/vitamin-b12-guide">high folate can mask B12 deficiency</a> by correcting anemia while neurological damage continues silently. During pregnancy, the stakes multiply. A 2009 study (Molloy et al., <em>Pediatrics</em>) found that low maternal B12 combined with high folate status was associated with a significantly increased risk of neural tube defects — the very outcome folic acid supplementation is designed to prevent. <EvidenceBadge level="moderate" /> Taking your prenatal folate without ensuring adequate B12 may be undermining the protection you think you have.</p>
+
+      <h3>Vegan and Vegetarian Mothers: Non-Negotiable Supplementation</h3>
+
+      <p>If you eat no animal products, your breast milk will reflect your B12 status. Case reports document serious neurological consequences in exclusively breastfed infants of B12-deficient mothers — including developmental regression, hypotonia, and brain atrophy. A 2005 case series (Dror & Allen, <em>Advances in Nutrition</em>, later reviewed 2008) found that infant symptoms could appear as early as 4–6 months of age and were not always fully reversible even after treatment. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="This is not general supplementation advice">
+      Pregnancy-specific B12 dosing depends on your baseline status, dietary pattern, and what's already in your prenatal vitamin. Do not rely on the general maintenance doses discussed elsewhere in this guide. Consult your OB, midwife, or registered dietitian to determine the right protocol for you — especially if you follow a plant-based diet or have a history of GI malabsorption.
+      </Callout>
+
+      <p>The bottom line: every pregnant and breastfeeding woman should know her B12 status, not just her folate status. If you're in a <a href="/guides/beginner-longevity-supplement-stack">high-risk group</a> — vegan, vegetarian, history of GI issues, or on medications that impair absorption — get serum B12 and MMA tested early in pregnancy. Your baby's developing nervous system doesn't have years of liver stores to fall back on. It depends entirely on yours.</p>
+
+      <h3>MMA Testing Caveat: Why Kidney Function Matters</h3>
+      <p>If you follow this guide's recommendation to get an <strong>MMA test</strong> to confirm functional B12 deficiency, you need to know about a significant confound: <strong>impaired kidney function independently elevates MMA levels</strong>, regardless of your actual B12 status. This is directly relevant if you're an older adult or a metformin user — the two groups most likely reading this guide — because both populations have substantially higher rates of chronic kidney disease (CKD).</p>
+      <Callout variant="warning" title="Elevated MMA doesn't always mean B12 deficiency">
+      A 2011 analysis by Obeid and Herrmann in <em>Clinical Chemistry and Laboratory Medicine</em> found that MMA concentrations rise significantly once eGFR drops below 60 mL/min/1.73m², even in patients with adequate B12 levels. Without accounting for kidney function, you could misinterpret a high MMA result and over-supplement — or worse, miss the actual underlying issue.
+      </Callout>
+      <p>The fix is straightforward: <strong>ask your provider to check creatinine and eGFR alongside MMA</strong>. If your eGFR is below 60, your MMA result needs to be interpreted with that context — a mildly elevated MMA in the setting of reduced kidney function may mean nothing about your B12 status. <EvidenceBadge level="strong" /></p>
+      <p>If kidney function is compromised and you still need to assess B12 status, <strong>holotranscobalamin (holoTC)</strong> is a more reliable alternative functional marker. HoloTC measures only the biologically active fraction of B12 bound to transcobalamin II — the portion actually available to your cells — and is not significantly affected by renal function. A 2012 review by Nexo and Hoffmann-Lücke in <em>Journal of Internal Medicine</em> supported holoTC as the earliest marker of B12 depletion, particularly useful when MMA is unreliable. <EvidenceBadge level="moderate" /> Not every lab offers it routinely, so you may need to specifically request it.</p>
+      <p>Bottom line: MMA remains an excellent test for most people, but it's not infallible. If you're over 50, on metformin, or have any reason to suspect reduced kidney function, don't interpret MMA results in isolation. Pair them with a kidney function panel, or ask about <a href="/guides/vitamin-b12-guide">holotranscobalamin testing</a> as an alternative.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         B12 supplementation has an excellent safety profile in healthy adults, and this guide covers the major at-risk groups in detail. But several populations face unique considerations that go beyond general recommendations — and deserve a conversation with a clinician before starting or adjusting a regimen.

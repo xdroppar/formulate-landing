@@ -432,6 +432,85 @@ export function BerberineGuide() {
         limitations.
       </p>
 
+      <h2>Berberine for PCOS: A Separate Evidence Base</h2>
+
+      <p><strong>Berberine for PCOS</strong> has its own body of randomized controlled trial evidence — distinct from the blood sugar and lipid data covered above. Polycystic ovary syndrome involves insulin resistance, elevated androgens, and irregular ovulation, and berberine's AMPK-mediated improvements in insulin sensitivity make it a logical candidate. The clinical data backs that logic up.</p>
+
+      <h3>What the Trials Show</h3>
+
+      <p>Li et al. (2015), published in <em>Fertility and Sterility</em>, compared berberine (1,500mg/day) to metformin (1,500mg/day) and placebo in 150 women with PCOS undergoing IVF. Berberine reduced insulin resistance comparably to metformin, lowered total testosterone, and — critically — improved live birth rates (53.3% vs. 36.0% for placebo). <EvidenceBadge level="moderate" /> An earlier RCT by Wei et al. (2012) found berberine at the same dose significantly improved menstrual regularity and reduced waist-to-hip ratio over 12 weeks, again performing comparably to metformin on metabolic markers.</p>
+
+      <p>A meta-analysis by Li et al. (2023) in <em>Frontiers in Endocrinology</em> pooled data from multiple PCOS-specific RCTs and confirmed consistent improvements in HOMA-IR (a measure of insulin resistance), testosterone levels, and lipid profiles. The evidence is moderate — we're talking about small-to-mid-sized trials, not 10,000-person outcome studies — but the direction is consistent and clinically meaningful. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Dosing and Practical Considerations</h3>
+
+      <p>The PCOS trials used the same <strong>500mg three times daily</strong> protocol described in the <a href="/guides/berberine-guide">dosing section above</a>. The same ramp-up strategy applies: start at 500mg once daily and increase over two to three weeks to minimize GI side effects. If you're also taking hormonal contraceptives or fertility medications, the <a href="/guides/supplement-timing-guide">CYP enzyme interactions</a> discussed earlier become especially relevant.</p>
+
+      <Callout variant="warning" title="PCOS and fertility medications">
+      If you're undergoing fertility treatment or taking medications like clomiphene or letrozole, do not add berberine without your reproductive endocrinologist's involvement. The Li 2015 trial was conducted under close clinical supervision — self-prescribing alongside fertility drugs is not the same thing.
+      </Callout>
+
+      <p>This is a genuinely distinct indication with its own data. If you have PCOS and are exploring berberine specifically for insulin resistance and androgen management — rather than general blood sugar control — the evidence supports it as a reasonable option to discuss with your healthcare provider.</p>
+
+      <h2>Specific Drug Interactions: What to Check Before You Buy</h2>
+
+      <p>Before purchasing berberine, you need to understand its <strong>specific drug interactions</strong> — not just a vague warning to "ask your doctor," but the actual mechanisms and consequences. Berberine's inhibition of CYP3A4, CYP2D6, and P-glycoprotein means it directly alters how your body processes a surprisingly long list of common medications. Here's what that looks like in practice.</p>
+
+      <h3>Statins</h3>
+      <p>CYP3A4 metabolizes atorvastatin, lovastatin, and simvastatin. Berberine inhibits CYP3A4, which <strong>increases statin blood levels</strong> — raising your risk of myopathy and rhabdomyolysis. Xin et al. (2006) demonstrated that berberine increased the AUC of cyclosporine (another CYP3A4 substrate) by 88%. Rosuvastatin and pravastatin use different clearance pathways and are less affected, but medical supervision is still warranted. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Blood Thinners</h3>
+      <p>Warfarin is metabolized partly by CYP3A4 and CYP2C9. Berberine can <strong>increase warfarin levels</strong>, raising bleeding risk. Case reports have documented elevated INR values in patients combining the two. If you're on warfarin or other anticoagulants, this combination requires close INR monitoring — not a guess. <EvidenceBadge level="emerging" /></p>
+
+      <h3>Oral Contraceptives</h3>
+      <p>Many combined oral contraceptives rely on CYP3A4 for metabolism. Berberine's inhibition could theoretically <strong>increase estrogen and progestin levels</strong>, amplifying side effects like blood clots, or — if P-glycoprotein efflux is increased — potentially <strong>decrease</strong> absorption. The direction isn't fully settled. If you're relying on hormonal birth control, consult your healthcare provider before adding berberine. <EvidenceBadge level="emerging" /></p>
+
+      <h3>SSRIs and Other Antidepressants</h3>
+      <p>CYP2D6 processes fluoxetine, paroxetine, and venlafaxine, among others. Berberine inhibition of CYP2D6 <strong>increases blood levels of these drugs</strong>, potentially intensifying side effects like serotonin syndrome symptoms, dizziness, or cardiac QT prolongation. This is especially concerning for people who are already CYP2D6 poor metabolizers — roughly 6–10% of Caucasian populations. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Immunosuppressants and Thyroid Medications</h3>
+      <p>Cyclosporine and tacrolimus (both CYP3A4 substrates) can reach <strong>dangerously elevated levels</strong> when combined with berberine — these are narrow-therapeutic-index drugs where small changes cause serious toxicity. Levothyroxine absorption may be affected by berberine's impact on P-glycoprotein transporters in the gut, potentially <strong>reducing thyroid medication effectiveness</strong>. Separate dosing by several hours and monitor TSH levels.</p>
+
+      <Callout variant="warning" title="Narrow-Therapeutic-Index Drugs">
+      If your medication requires regular blood level monitoring — warfarin (INR), cyclosporine (trough levels), tacrolimus, lithium — adding berberine without medical supervision is reckless, not bold. These drugs have tiny margins between therapeutic and toxic doses. Berberine can push you over that line.
+      </Callout>
+
+      <p>The practical takeaway: print this list and bring it to your prescriber. A pharmacist can also run an interaction check in minutes. Understanding <a href="/guides/supplement-safety">supplement safety fundamentals</a> — including how CYP enzyme inhibition works — makes you a better advocate for yourself in those conversations. Our <a href="/guides/supplement-label-guide">supplement label guide</a> covers how to spot products that disclose (or fail to disclose) these risks upfront.</p>
+
+      <h2>How Long to Take Berberine: Cycling vs. Continuous Use</h2>
+
+      <p>How long to take berberine is one of the most common questions people ask after starting a protocol — and the honest answer is that nobody knows for certain. The vast majority of clinical trials ran for <strong>12 to 24 weeks</strong>. Beyond that window, we're extrapolating rather than citing evidence. That's not a reason to panic, but it is a reason to plan.</p>
+
+      <h3>What the Trials Actually Covered</h3>
+
+      <p>The Yin 2008 study lasted 13 weeks. The Hu 2012 weight study ran 12 weeks. The trials pooled in the Dong 2012 and Zhang 2015 meta-analyses mostly fell in the 8–24 week range. A handful of Chinese studies have extended to 1–2 years, but these are methodologically weaker and weren't designed to assess long-term safety endpoints like liver function, kidney function, or microbiome stability over time. <EvidenceBadge level="emerging" /> Long-term safety data simply doesn't exist at the standard we'd want.</p>
+
+      <h3>The Cycling Convention</h3>
+
+      <p>In practice, many integrative physicians recommend cycling berberine — typically <strong>8–12 weeks on, 4 weeks off</strong>. This is convention, not evidence-based protocol. The rationale is partly borrowed from its antimicrobial properties: prolonged use could theoretically cause unwanted shifts in gut flora beyond the initial remodeling period. Some practitioners also worry about sustained CYP enzyme inhibition affecting drug metabolism over months or years.</p>
+
+      <p>To be clear: no controlled trial has validated a specific cycling schedule. If someone tells you "8 on, 4 off" is proven optimal, they're presenting clinical habit as clinical evidence.</p>
+
+      <h3>What Should Guide Your Decision</h3>
+
+      <Callout variant="warning" title="Monitor, Don't Guess">Get comprehensive blood work — fasting glucose, HbA1c, lipid panel, liver enzymes (ALT/AST), and kidney markers (creatinine, BUN) — before starting, at 12 weeks, and at regular intervals if continuing. Let your results, not a Reddit protocol, determine whether to extend, cycle, or stop.</Callout>
+
+      <p>If your markers have improved and stabilized, a cycling approach gives your body periodic breaks while maintaining most gains. If you're using berberine as a long-term metabolic intervention, physician-monitored continuous use is reasonable — but "reasonable" and "proven safe" aren't the same thing. Your doctor should be actively involved in that decision, especially if you're also managing medications with <a href="/guides/berberine-guide">known CYP interactions</a>. The absence of long-term data isn't an indictment of berberine — it's an invitation to be methodical rather than complacent.</p>
+
+      <h2>Berberine and Exercise: The AMPK Conflict Athletes Need to Know</h2>
+
+      <p>Berberine and exercise both activate AMPK — and that overlap isn't purely synergistic. AMPK activation directly suppresses mTORC1 signaling, the pathway that governs muscle protein synthesis (MPS). When you finish a resistance training session, your body wants to flip from a catabolic state to an anabolic one, ramping up mTORC1 to build and repair muscle. Berberine, by keeping AMPK elevated, may blunt that switch.</p>
+
+      <p>This isn't theoretical hand-waving. Inoki et al. (2003) demonstrated in <em>Cell</em> that AMPK phosphorylates TSC2, which in turn inhibits mTORC1 activity. More recently, Yue et al. (2019) showed in cell models that berberine specifically suppressed mTORC1-mediated protein synthesis through this AMPK-TSC2 axis. <EvidenceBadge level="moderate" /> The mechanism is well-characterized at the molecular level.</p>
+
+      <p>The practical question — whether timing berberine away from the post-workout anabolic window (say, 2+ hours after training) meaningfully mitigates interference — is reasonable but currently unanswered. <strong>No human study has directly measured the effect of berberine timing on exercise-induced MPS.</strong> <EvidenceBadge level="emerging" /> We're extrapolating from metformin data here: Walton et al. (2019) found that metformin blunted the hypertrophic response to resistance training in older adults over 14 weeks. Whether berberine does the same, and whether timing can fix it, remains unknown.</p>
+
+      <Callout variant="warning" title="No Direct Human Data on Timing">
+      The strategy of separating berberine from your post-workout window by 2–3 hours is pharmacokinetically plausible given berberine's short half-life (3–4 hours), but it has not been validated in any controlled trial. If maximizing muscle growth is your primary goal, be aware you're navigating without a map.
+      </Callout>
+
+      <p>If you're taking berberine primarily for metabolic health but also training hard, the conservative approach is to dose it with meals that are farthest from your training window. Morning and evening doses with a mid-afternoon workout, for example, creates the largest buffer. Athletes focused on hypertrophy should weigh whether berberine's metabolic benefits justify the theoretical cost — especially if blood sugar and lipids are already well-managed through training and <a href="/guides/supplement-timing">proper supplement timing</a>.</p>
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Can I take berberine and metformin together?</h3>
