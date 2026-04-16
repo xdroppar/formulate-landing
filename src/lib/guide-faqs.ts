@@ -2016,6 +2016,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Both berberine and metformin are associated with modest weight loss (1–3 kg over 12 weeks in clinical trials), likely driven by improved insulin sensitivity and appetite effects. Neither is a primary weight loss tool. If weight management is your goal, the evidence for either compound is modest compared to dedicated interventions like GLP-1 receptor agonists or structured caloric restriction.",
     },
+    {
+      question:
+        "berberine dihydroberberine which is better",
+      answer:
+        "Standard berberine HCl has the stronger evidence base. Every major clinical trial showing HbA1c and lipid improvements — including Yin et al. 2008 and the meta-analyses by Liang et al. and Lan et al. — used berberine HCl. Dihydroberberine's claimed 5x absorption advantage traces to a single rat study; no published human RCT has demonstrated superior clinical outcomes. Until human outcome trials exist, default to berberine HCl at the doses clinical research actually used: 500 mg two to three times daily.",
+    },
+    {
+      question:
+        "how long can you safely take berberine",
+      answer:
+        "No long-term safety studies of berberine exceed one year, so the honest answer is: we don't know. The guide doesn't address cycling protocols (e.g., 8 weeks on, 4 weeks off) that some practitioners recommend — and neither does the published literature. If you plan extended use, the guide advises periodic liver function tests and B12 monitoring under clinical supervision. For specific cycling protocols, consult a healthcare provider rather than relying on influencer-derived guidance.",
+    },
+    {
+      question:
+        "berberine metformin interaction safe to combine",
+      answer:
+        "Combining berberine and metformin is practiced by some clinicians but increases hypoglycemia risk, since both lower blood glucose through independent mechanisms. The guide does not quantify exactly how much lower blood sugar may drop, nor does it specify target glucose ranges. Key hypoglycemia warning signs — shakiness, sweating, confusion, rapid heartbeat — warrant immediate response. This combination also compounds GI side effects. Physician oversight and regular glucose monitoring are essential before attempting this combination.",
+    },
+    {
+      question:
+        "berberine PCOS evidence",
+      answer:
+        "Berberine has a small but meaningful PCOS-specific evidence base. Zhao et al. (2013), An et al. (2014), and Wei et al. (2017) each found berberine (1,500 mg/day) comparable to metformin for reducing fasting insulin, testosterone, and improving menstrual regularity. However, all trials were small (≤150 participants), short (≤6 months), and conducted in Chinese populations. Critically, berberine is contraindicated in pregnancy — a major concern for women with PCOS trying to conceive. Metformin has an established safety profile for PCOS-related fertility treatment. This decision belongs in a clinical conversation.",
+    },
+    {
+      question:
+        "berberine blood pressure drop how much",
+      answer:
+        "The guide flags that berberine may lower blood pressure and advises monitoring if you take antihypertensives, but does not quantify the effect. Clinical trials suggest reductions in the range of 3–5 mmHg systolic — modest but potentially significant if you already run hypotensive or take antihypertensive medications. For anyone on blood pressure drugs, consult your physician before starting berberine; the interaction table in the guide lists additive hypotension risk with ACE inhibitors, ARBs, and calcium channel blockers.",
+    },
+    {
+      question:
+        "what does berberine do to the gut microbiome",
+      answer:
+        "The guide notes berberine 'modulates gut microbiota composition' as a mechanism differentiating it from metformin but doesn't elaborate. Research suggests berberine's gut effects are dual-edged: it may correct dysbiosis in metabolic disease, but its antimicrobial activity could also reduce beneficial bacteria with sustained use. This is a meaningful distinction from metformin, which alters the microbiome through different pathways. Long-term gut microbiome effects of berberine remain understudied — the guide doesn't address them further, so consult a healthcare provider if this is a primary concern.",
+    },
+    {
+      question:
+        "berberine liver damage risk",
+      answer:
+        "The guide notes berberine is hepatically metabolized and recommends liver function monitoring for people with impaired organ function, but does not disclose published case reports of berberine-associated hepatotoxicity. This is a meaningful gap for the guide's core audience: metabolic syndrome patients frequently have elevated liver enzymes or fatty liver disease. If you have any liver condition or elevated baseline liver enzymes, the guide's advice to consult a hepatologist before use applies directly. Routine liver function testing during extended berberine use is prudent regardless.",
+    },
   ],
   "creatine-for-endurance-athletes": [
     {
@@ -2043,6 +2085,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Yes. Creatine works identically in female athletes. Women may actually see relatively greater benefits because they tend to have lower baseline creatine stores (due to lower average dietary meat intake and smaller muscle mass). The dose is the same: 3–5 g/day. Emerging research also suggests potential benefits for bone health and mood, though these are still being investigated.",
     },
+    {
+      question:
+        "does creatine affect VO2max or lactate threshold at all",
+      answer:
+        "Creatine does not directly improve VO₂max or lactate threshold. VO₂max is governed by oxygen delivery mechanisms—cardiac output, hemoglobin mass, mitochondrial density—that creatine doesn't influence. Graef et al. (2009) confirmed no VO₂max differences after four weeks of creatine supplementation. Lactate threshold depends on MCT density and buffering capacity; Nelson et al. (2000) found no effect on ventilatory threshold or blood lactate. The indirect benefit: creatine lets you sustain target power through more interval repeats, compounding training quality that drives aerobic adaptation over a full mesocycle.",
+    },
+    {
+      question:
+        "creatine and GI issues during running or triathlon",
+      answer:
+        "GI distress from creatine is almost entirely dose- and timing-dependent. Loading doses (20 g/day) are the primary culprit—Ostojic and Ahmetovic (2008) found significantly higher GI side effects at loading doses versus the 3–5 g maintenance dose. Skip the loading phase entirely to avoid this. Never take creatine mid-run or mixed into on-course fueling; your gut is already stressed during sustained efforts. If you train early with minimal food, take creatine post-workout with a meal. Switching to micronized monohydrate, which dissolves more completely, reduces complaints for athletes with sensitive stomachs.",
+    },
+    {
+      question:
+        "best creatine for vegans or vegetarians endurance athlete",
+      answer:
+        "Standard creatine monohydrate is both vegan-compatible and the highest-value option for plant-based athletes. It's synthesized from sarcosine and cyanamide—no animal-derived ingredients. More importantly, vegan and vegetarian athletes have the lowest baseline intramuscular creatine stores of any dietary group. Burke et al. (2003) found vegetarians had roughly 50% lower resting creatine concentrations than omnivores and experienced greater gains in creatine stores and work capacity when supplementing. You don't need a specialty product—just look for third-party testing certification. Protocol is unchanged: 3–5 g daily with food.",
+    },
+    {
+      question:
+        "creatine and altitude training or hypoxic adaptation",
+      answer:
+        "The guide doesn't cover creatine and altitude training directly, and the evidence base here remains early-stage. What the guide does establish is that creatine may support thermoregulation via intracellular water retention and that its benefits concentrate in high-intensity, high-demand training blocks—conditions that describe altitude camps. For decisions about supplementation during a structured altitude block, consult a sports medicine physician or exercise physiologist familiar with hypoxic training protocols.",
+    },
+    {
+      question:
+        "creatine timing around long rides or runs vs short intervals",
+      answer:
+        "The guide recommends post-workout with food as a slight edge for uptake, but emphasizes consistency over precision timing. That principle holds across training day types. On long ride or run days, take creatine with your post-session recovery meal alongside carbohydrate—which the guide notes enhances creatine uptake (Green et al., 1996). On short interval days, the same applies. What the guide explicitly warns against is taking creatine mid-workout or on a near-empty stomach. The specific mechanism of benefit is chronic muscle saturation, not acute dosing around any single session.",
+    },
+    {
+      question:
+        "does creatine interact with sodium bicarbonate or beta alanine buffering for triathlon",
+      answer:
+        "The guide covers the creatine-plus-beta-alanine combination: they target different bottlenecks (ATP recycling vs. hydrogen ion buffering), and Hoffman et al. (2006) found the pairing improved high-intensity endurance performance more than either alone. Sodium bicarbonate isn't addressed in the guide. For questions about a three-way creatine, beta-alanine, and sodium bicarbonate stack—including timing interactions and GI load, which is already substantial with bicarb—consult a sports dietitian. Stacking multiple buffering agents involves practical GI considerations the guide doesn't cover.",
+    },
+    {
+      question:
+        "creatine monohydrate vs creatine HCl for runners who hate water weight",
+      answer:
+        "The guide recommends creatine monohydrate exclusively as the most studied and effective form. Creatine HCl is marketed as causing less water retention, but this claim lacks the research backing that monohydrate has. The intracellular water weight from monohydrate—1–2 lbs—is stored inside muscle cells, not subcutaneously. If the gradual fluid shift still bothers you, the guide's answer isn't a different form: it's skipping the loading phase and taking 3–5 g daily from the start, which produces a slower, less noticeable shift. No exotic form is necessary or supported by the evidence reviewed here.",
+    },
   ],
   "ashwagandha-for-testosterone": [
     {
@@ -2069,6 +2153,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Will ashwagandha show up on a drug test?",
       answer:
         "Ashwagandha is not a banned substance under WADA or standard employment drug panels. It does not produce synthetic androgens or their metabolites. However, contaminated or adulterated products could theoretically cause issues — buy third-party tested supplements from reputable brands.",
+    },
+    {
+      question:
+        "ashwagandha testosterone before and after bloodwork results",
+      answer:
+        "Order a panel covering total testosterone, free testosterone, SHBG, LH, DHEA-S, and morning cortisol — not total T alone. Draw blood between 7:00–9:30 AM, fasted, after a normal night's sleep, and avoid testing within 24 hours of intense training. Intra-individual variability in total testosterone runs roughly 15% between draws under identical conditions, so a meaningful change must exceed that noise floor and be corroborated by directional shifts in at least one related marker, such as lower cortisol or higher DHEA-S.",
+    },
+    {
+      question:
+        "can I take ashwagandha every day long term or should I cycle it",
+      answer:
+        "Every major testosterone RCT ran for 8 weeks; no 6- or 12-month trial exists measuring testosterone outcomes. The guide recommends a precautionary default of 8–12 weeks on, followed by 2–4 weeks off — not because any study validated this cycle, but because long-term efficacy data simply doesn't exist. If you skip cycling, you aren't contradicting a study, but you're operating without evidence of sustained benefit. Retest bloodwork at the 8-week mark and after any break to track whether the effect holds.",
+    },
+    {
+      question:
+        "ashwagandha testosterone study sample sizes too small to trust",
+      answer:
+        "Skepticism is warranted. The two most-cited trials — Wankhede (2015) and Lopresti (2019) — each enrolled 57 participants. The 2022 Smith et al. systematic review pooled five RCTs and called the effect \"statistically significant but clinically modest,\" flagging small sample sizes and short durations as the primary limitations. No multi-center, large-sample, long-duration trial exists yet. The evidence is consistent enough to take seriously, but not strong enough to call definitive — a distinction the guide makes explicitly.",
+    },
+    {
+      question:
+        "KSM-66 vs Sensoril vs Shoden ashwagandha which is best",
+      answer:
+        "KSM-66 has the most direct testosterone trial data, used at 600 mg/day in the Wankhede trial. Sensoril has stronger evidence for cortisol reduction and anxiety. Shoden — the concentrated extract used in the Lopresti (2019) trial — produced a ~14% testosterone increase at just 240 mg/day, suggesting its higher withanolide density may offset the lower dose. The guide doesn't compare all three head-to-head, but if testosterone is your primary goal, KSM-66 has the broadest trial support; Shoden is a reasonable alternative with at least one positive RCT.",
+    },
+    {
+      question:
+        "ashwagandha and alcohol interaction",
+      answer:
+        "The guide flags alcohol explicitly in its drug interaction checklist. The concern is twofold: additive CNS depression amplifying ashwagandha's sedative effects, and compounded liver stress. Ashwagandha has rare but documented hepatotoxicity case reports, and regular alcohol use independently stresses hepatic function. The guide lists regular alcohol use as a compounding risk factor for liver injury and recommends consulting a healthcare provider before use if you drink more than a few drinks per week.",
+    },
+    {
+      question:
+        "ashwagandha free testosterone vs total testosterone difference",
+      answer:
+        "Free testosterone is the biologically active fraction not bound to SHBG or albumin — it's what your tissues actually use. Total testosterone can look normal while free T is low if SHBG is elevated. The guide recommends testing both, along with SHBG, for this reason. The Wankhede trial measured DHEA-S alongside total testosterone, and the guide notes that without SHBG and free T data, a total T reading is \"nearly useless for tracking supplement effects.\" Whether ashwagandha specifically lowers SHBG isn't established in the available trials.",
+    },
+    {
+      question:
+        "best ashwagandha supplement brand third-party tested",
+      answer:
+        "The guide doesn't name specific brands or testing certifications. For verification, look for products certified by NSF International, Informed Sport, or USP — these organizations independently test for label accuracy and banned-substance contamination. Certification logos should be verifiable on the certifying body's website, not just printed on the label. The guide recommends standalone, standardized ashwagandha extract (KSM-66 at 600 mg/day has the most trial support) over proprietary blends, and directs readers to the Formulate catalog for curated options.",
     },
   ],
   "best-multivitamin-over-50": [
@@ -2102,6 +2228,54 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "\"Food-based\" and \"whole food\" multivitamins are a marketing category, not a scientific one. Some use nutrient-enriched yeast, which may improve tolerance but doesn't necessarily improve absorption. What matters more is the specific form of each nutrient (methylcobalamin vs. cyanocobalamin, D3 vs. D2) and whether doses are clinically meaningful.",
     },
+    {
+      question:
+        "Can I take too much vitamin D3 as an older adult?",
+      answer:
+        "Yes — vitamin D3 is fat-soluble, meaning it accumulates in body fat and can reach toxic levels over time. The guide recommends up to 5,000 IU/day for some older adults but does not detail toxicity thresholds or symptoms. Vitamin D toxicity (hypercalcemia) can cause nausea, weakness, kidney damage, and cardiac issues. If you're combining a multivitamin with a standalone D3 supplement, total daily intake can exceed safe limits without realizing it. Get a 25-hydroxyvitamin D blood test before adding standalone D3, and consult your physician about your specific ceiling dose.",
+    },
+    {
+      question:
+        "What is the best multivitamin for over 50 that I can buy at Walmart or CVS?",
+      answer:
+        "The guide's top picks (Thorne, Pure Encapsulations, Nordic Naturals) are primarily available online or at specialty retailers. However, the guide does address accessible budget options: Centrum Silver, Kirkland Mature Multi (Costco), and Nature Made Multi 50+ ($4–$10/month) get the basics right — iron-free, reasonable B12 doses, broad micronutrient coverage. Their shared gaps are low D3 (1,000 IU) and no K2. The guide recommends adding a D3/K2 combo supplement (~$2–3/month) to close both gaps for under $13/month total.",
+    },
+    {
+      question:
+        "Do I need a multivitamin if I eat a healthy diet after 50?",
+      answer:
+        "Possibly yes, even with a good diet — primarily because of B12. After 50, gastric acid declines 20–30%, which impairs your ability to extract B12 from food proteins, regardless of how much meat or dairy you eat. Nearly 40% of adults show low-normal B12 levels (Framingham Offspring Study). Supplemental B12 bypasses this absorption problem because it's already in free form. A healthy diet matters, but it can't compensate for a digestive system that's less efficient at liberating nutrients from food.",
+    },
+    {
+      question:
+        "Are the nutritional differences between men's and women's multivitamins over 50 actually meaningful?",
+      answer:
+        "The guide identifies iron as the clearest difference: postmenopausal women and most men should both choose iron-free formulas, making that distinction largely moot after menopause. Beyond iron, the guide notes the overlap between sexes is substantial and both should prioritize methylcobalamin B12, D3, and K2. The guide does not address sex-specific considerations like boron for estrogen metabolism, iodine needs tied to thyroid changes, or zinc dosing for testosterone-related concerns in men. For those questions, consult a healthcare provider.",
+    },
+    {
+      question:
+        "Should I take my multivitamin in the morning or at night?",
+      answer:
+        "Morning with your fattiest meal is the guide's recommended window for your multivitamin, D3, K2, and omega-3s — all fat-soluble nutrients that absorb significantly better with dietary fat (one study found ~50% higher D3 absorption with a fat-containing meal). Take magnesium (glycinate or citrate, 200–400 mg) in the evening to avoid competing with calcium and to support sleep. If you take levothyroxine, take it 30–60 minutes before breakfast on an empty stomach — your multivitamin should wait until you eat.",
+    },
+    {
+      question:
+        "Is it safe to take a multivitamin with metformin or statins?",
+      answer:
+        "Both interactions are clinically relevant. Metformin depletes B12 — one trial found a 19% reduction in B12 levels over 4 years — which compounds age-related absorption decline. If you take metformin, a multivitamin with 500–1,000 mcg of methylcobalamin is especially important, and annual B12 monitoring is warranted. Statins deplete CoQ10 by 20–40%, potentially contributing to muscle fatigue; most multivitamins don't include CoQ10, so a standalone 100–200 mg supplement taken with a fat-containing meal is a reasonable addition. Discuss both with your physician.",
+    },
+    {
+      question:
+        "What multivitamin is safe with kidney disease stage 3?",
+      answer:
+        "The guide doesn't cover this directly. It notes that kidney patients should get nephrologist approval before taking any multivitamin — including standard formulas — because impaired kidneys can't efficiently excrete excess potassium, phosphorus, or certain B vitamins, and vitamin D metabolism is altered in CKD. No specific product recommendation is appropriate here. If you have CKD stage 3, bring your full supplement list to your nephrologist before starting or changing anything. This is not a decision to make based on general supplement guidance.",
+    },
+    {
+      question:
+        "How long until I notice if a multivitamin is working?",
+      answer:
+        "The guide doesn't set explicit timelines, and subjective changes are unreliable markers — B12 insufficiency symptoms like fatigue and cognitive fog overlap with normal aging and may improve gradually over weeks or not at all in ways you'd notice. The guide's recommended measure is annual bloodwork: 25-hydroxyvitamin D, serum B12 or methylmalonic acid, ferritin, RBC magnesium, and a metabolic panel. These labs — not how you feel after a few weeks — tell you whether your regimen is working or just producing expensive urine.",
+    },
   ],
   "nac-and-alcohol": [
     {
@@ -2129,6 +2303,36 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "NAC supports ongoing glutathione production, which is part of the liver's antioxidant defense system. There is some evidence it can reduce markers of oxidative stress in the liver. However, it cannot reverse fibrosis or established liver disease. If you have concerns about liver damage, get liver function tests from your doctor rather than relying on supplements.",
     },
+    {
+      question:
+        "What if I already took NAC after drinking — is it dangerous or just not helpful?",
+      answer:
+        "You're almost certainly fine. The pro-oxidant concern from post-alcohol NAC is documented in rodent liver tissue but has not been confirmed in humans at standard OTC doses (600–1200 mg). There are no documented case reports of acute harm from this timing. This is not a medical emergency. Drink water, eat something, and rest. If you experience significant abdominal pain, jaundice, dark urine, or nausea beyond a typical hangover, seek medical attention — though those symptoms would warrant evaluation regardless of NAC.",
+    },
+    {
+      question:
+        "Can I take NAC every day, or only on drinking days?",
+      answer:
+        "The guide covers NAC specifically as a pre-drink intervention and doesn't address daily baseline use or whether chronic users are effectively 'pre-loaded.' Daily NAC is used for other reasons (lung health, mental health), but how that changes the timing math for alcohol isn't discussed. If you're already taking NAC daily for another purpose, consult your healthcare provider about whether additional pre-drink dosing is appropriate or redundant in your case.",
+    },
+    {
+      question:
+        "What's the best NAC supplement brand or form to buy?",
+      answer:
+        "Standard NAC (600 mg per capsule) is the evidence-backed form — NAC amide exists but lacks human data for alcohol-specific use. Due to FDA regulatory turbulence in 2020–2022, product quality varies significantly. Prioritize brands with third-party verification: USP certification is the gold standard; NSF International and Informed Sport also confirm label accuracy and purity. Avoid proprietary blends that obscure NAC's actual milligram content. You need a precise dose given the timing-sensitive nature of this protocol.",
+    },
+    {
+      question:
+        "Does NAC interact with antidepressants or SSRIs?",
+      answer:
+        "The guide addresses this directly but with important caveats. NAC modulates glutamate signaling, which is pharmacologically coupled to serotonin systems influenced by SSRIs and SNRIs. Small trials used NAC as an SSRI adjunct without major safety signals, but not alongside alcohol. For bupropion specifically, the guide flags real caution: bupropion already lowers seizure threshold, alcohol compounds this, and NAC's glutamatergic effects add unstudied complexity. Consult your prescriber before combining psychiatric medications, NAC, and alcohol.",
+    },
+    {
+      question:
+        "Is NAC legal and available without a prescription?",
+      answer:
+        "The guide covers this: the FDA sent warning letters to NAC supplement companies in 2020–2021, arguing its prior drug approval precluded supplement status. Amazon temporarily delisted it. The FDA softened its position in 2022, but regulatory status remains unsettled in the US. NAC is currently widely available OTC in the US. The guide doesn't address international availability or prescription requirements in other countries — if you're outside the US, check local regulations or ask a pharmacist.",
+    },
   ],
   "probiotic-strains-for-ibs": [
     {
@@ -2155,6 +2359,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "How do I know if my IBS probiotic is working?",
       answer:
         "Track your primary symptoms weekly using a simple scale: abdominal pain (0–10), bloating severity (0–10), stool consistency (Bristol scale 1–7), and number of urgent episodes. Compare your baseline week to weeks 4 and 8. A meaningful response is usually a 30%+ improvement in your worst symptom. If nothing has changed by week 8, switch strains.",
+    },
+    {
+      question:
+        "Is Align probiotic worth the price vs generic B. infantis 35624?",
+      answer:
+        "The guide identifies Align as the branded source of B. infantis 35624 — the specific strain tested in the Whorwell (2006) RCT — and notes it uses blister packaging that guarantees CFU through expiration. The guide does not address whether cheaper products claiming to contain B. infantis 35624 are legitimate. Strain identity matters: a label can name the strain without containing the genuine isolate. If you're evaluating alternatives, verify the strain designation matches exactly and that CFU is guaranteed through expiration, not just at manufacture.",
+    },
+    {
+      question:
+        "What probiotic strains are safe during pregnancy for IBS?",
+      answer:
+        "The guide doesn't cover this directly, noting only that B. infantis 35624 and L. plantarum 299v haven't been extensively studied in pregnancy and that you should consult your OB/GYN before starting any new supplement. Pregnant women with IBS should not rely on general adult IBS probiotic guidance without provider input, as safety profiles, dosing, and risk-benefit assessments differ during pregnancy and lactation.",
+    },
+    {
+      question:
+        "Can I take probiotics while on SSRIs or antidepressants for IBS?",
+      answer:
+        "The guide doesn't address this directly. It acknowledges the gut-brain axis but does not discuss interactions between probiotics and SSRIs, SNRIs, or tricyclics. Drug-probiotic interactions are not well-characterized in the literature generally. If you're prescribed any of these medications for IBS, bring your full supplement list to your prescriber before adding a probiotic — this is standard guidance for any new supplement in a medicated patient.",
+    },
+    {
+      question:
+        "How long should I take a probiotic for IBS — is it forever?",
+      answer:
+        "The guide covers the trial period (4–8 weeks to assess response) but does not address maintenance dosing, whether to stop once symptoms improve, or whether benefits persist after discontinuation. These are legitimate questions the guide leaves unanswered. The clinical evidence base for IBS probiotics is largely built on short-term trials, so long-term dosing strategy is genuinely unclear. A gastroenterologist can help you decide whether continued use is warranted based on your symptom trajectory.",
+    },
+    {
+      question:
+        "Lactobacillus rhamnosus GG for IBS — does it work?",
+      answer:
+        "The guide does not include LGG among the three evidence-backed IBS strains (B. infantis 35624, L. plantarum 299v, S. boulardii CNCM I-745). It explicitly notes that strains without IBS-specific RCT evidence should be treated with skepticism, regardless of how widely recognized the strain is in other contexts. LGG has strong evidence for pediatric diarrhea and antibiotic-associated diarrhea, but that data does not transfer to IBS. Based on the guide's framework, LGG is not a supported choice for IBS.",
+    },
+    {
+      question:
+        "What probiotic should I try for IBS-C if B. infantis 35624 didn't work?",
+      answer:
+        "The guide is candid that IBS-C has the weakest probiotic evidence overall. If B. infantis 35624 failed after an 8-week trial, the guide mentions B. lactis BB-12 as a strain some clinicians use for transit time, but explicitly flags it as having limited IBS-specific evidence. No fallback strain with strong IBS-C RCT data exists per the guide. For constipation-predominant IBS, a gastroenterologist can assess whether other interventions — dietary, motility-based, or pharmacological — are more appropriate than continuing to cycle through probiotics.",
+    },
+    {
+      question:
+        "Can children take these IBS probiotics?",
+      answer:
+        "The guide doesn't cover this directly. All three evidence-backed strains (B. infantis 35624, L. plantarum 299v, S. boulardii CNCM I-745) were studied in adult populations, and pediatric IBS requires separate clinical evaluation. Adult trial data cannot be automatically extrapolated to children for dosing, safety, or efficacy. Consult a pediatric gastroenterologist before giving any of these strains to a child with IBS symptoms.",
     },
   ],
   "magnesium-for-anxiety": [
@@ -2188,6 +2434,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "There's overlapping evidence. Tarleton et al. (2017) found that 248 mg of elemental magnesium daily improved both anxiety and depression scores in mildly depressed adults. The mechanisms partially overlap—both conditions involve HPA axis dysregulation and neurotransmitter imbalances that magnesium modulates. However, magnesium is not a standalone treatment for clinical depression.",
     },
+    {
+      question:
+        "How much glycine is in magnesium glycinate per dose?",
+      answer:
+        "A typical 300 mg elemental magnesium dose from magnesium bisglycinate delivers roughly 1.8 g of glycine — meaningful, but about 60% of the 3 g threshold used in standalone glycine clinical trials. The guide is direct about this: glycine acts as a supporting player, not an equal co-star. The magnesium itself drives most of the anxiolytic benefit. If you want to reach the full 3 g glycine threshold, supplementing glycine separately alongside magnesium glycinate is inexpensive and well-tolerated.",
+    },
+    {
+      question:
+        "Can I take magnesium glycinate while pregnant for anxiety?",
+      answer:
+        "The guide doesn't address prenatal anxiety dosing in detail. It notes that magnesium needs increase during pregnancy and many prenatal vitamins include it, but flags that therapeutic doses for anxiety (300–400 mg supplemental elemental magnesium) should be discussed with your OB-GYN — particularly because high-dose magnesium sulfate is used medically in pregnancy for separate indications. Do not self-dose magnesium glycinate for anxiety during pregnancy without explicit guidance from your prenatal care provider.",
+    },
+    {
+      question:
+        "Magnesium glycinate vs. magnesium taurate for anxiety — which is better?",
+      answer:
+        "Magnesium glycinate has stronger clinical support. The guide notes that taurine has GABAergic properties and cardiovascular calming effects, making taurate theoretically appealing for somatic anxiety symptoms like racing heart. However, no published RCT directly compares the two forms for anxiety outcomes — taurate's evidence is largely preclinical. If anxiety and sleep disruption are your primary targets, glycinate is the better-evidenced choice. Taurate is a reasonable alternative if your anxiety is predominantly physical, but you're relying on mechanistic plausibility more than clinical proof.",
+    },
+    {
+      question:
+        "Does magnesium glycinate help with anxiety directly, or only through better sleep?",
+      answer:
+        "Both pathways are real and partially independent. The guide identifies direct anxiolytic mechanisms — magnesium blocks NMDA glutamate receptors and enhances GABA-A receptor function — that operate separately from sleep improvement. The Boyle (2017) meta-analysis measured subjective anxiety scores broadly, not just sleep-related symptoms. That said, anxiety and sleep disruption are tightly linked, and glycine's sedating effects mean sleep improvement often comes first. Reduced muscle tension and fewer racing thoughts during the day are indicators of direct anxiolytic benefit beyond sleep.",
+    },
+    {
+      question:
+        "What should I look for when buying magnesium glycinate?",
+      answer:
+        "The guide doesn't evaluate specific brands, but it provides clear criteria. Check the Supplement Facts panel for elemental magnesium content — a label reading '2,000 mg magnesium glycinate' may contain only 200 mg of actual magnesium. Target 200–400 mg elemental magnesium per serving. Look for magnesium bisglycinate (the chelated form) specifically. Consider formulas that include 25–50 mg of vitamin B6 as P5P, based on the Pouteau (2018) combination data. Third-party testing certification is a reasonable quality signal the guide doesn't specifically address — consult your pharmacist for verified brands.",
+    },
+    {
+      question:
+        "Can children or teenagers take magnesium glycinate for anxiety?",
+      answer:
+        "The guide doesn't cover pediatric or adolescent use — it's written for adults. Magnesium requirements, tolerable upper intake levels, and anxiety presentations differ meaningfully in children and teenagers. The adult UL of 350 mg supplemental elemental magnesium does not apply directly to younger age groups. If you're considering magnesium glycinate for an anxious child or teen, consult their pediatrician or a child psychiatrist before starting. Do not extrapolate adult dosing protocols to minors.",
+    },
+    {
+      question:
+        "Magnesium for anxiety vs. ashwagandha — which is better?",
+      answer:
+        "The guide doesn't directly compare the two. It briefly mentions ashwagandha as having 'a different evidence profile' and links to a separate adaptogens guide. What the guide does establish: magnesium's anxiolytic mechanisms are well-characterized (NMDA blockade, GABA enhancement, HPA axis modulation), with a small-to-moderate effect size in the Boyle (2017) meta-analysis. Ashwagandha's evidence profile and mechanisms differ. For a direct comparison, consult the linked adaptogens guide — or discuss both options with a healthcare provider, particularly if you're already on medication.",
+    },
   ],
   "best-collagen-for-joints": [
     {
@@ -2220,6 +2508,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Bone broth contains collagen, but the collagen is largely denatured during cooking, and the amount per serving is highly variable and generally much lower than supplemental doses. You also can't get the intact undenatured Type II collagen needed for oral tolerance from boiled bones. Bone broth is fine as food; it's not a reliable substitute for a standardized UC-II supplement.",
     },
+    {
+      question:
+        "Is UC-II safe to take with NSAIDs or ibuprofen?",
+      answer:
+        "No controlled trial has specifically tested UC-II alongside NSAIDs, so \"safe\" can't be stated with certainty. Mechanistically, NSAIDs block COX enzymes while UC-II modulates regulatory T-cells — distinct pathways with no obvious conflict. The Lugo 2016 trial washed out NSAIDs before assessments, so concurrent-use data simply doesn't exist. No adverse interaction signals have appeared in published safety data, but that's not the same as proven safe. If you're taking NSAIDs regularly for osteoarthritis, mention UC-II to your prescriber.",
+    },
+    {
+      question:
+        "Does collagen supplementation actually rebuild cartilage, or does it only reduce symptoms?",
+      answer:
+        "Based on current evidence, collagen supplementation reduces symptoms — it has not been shown to rebuild or structurally preserve cartilage. Both UC-II trials (Crowley 2009, Lugo 2016) measured pain and function scores only; neither used MRI, X-ray, or arthroscopy to assess cartilage thickness or joint space. Until imaging trials are conducted, any claim that UC-II \"restores\" cartilage is speculation. If your orthopedist is tracking joint space narrowing on imaging, UC-II supplementation does not change that clinical picture based on current evidence.",
+    },
+    {
+      question:
+        "What collagen supplement should I take if I'm vegetarian or vegan?",
+      answer:
+        "There is no vegan collagen supplement — collagen is an animal protein and doesn't exist in plants. Products labeled \"vegan collagen\" contain vitamin C, silica, or amino acids, not collagen. What you can do is support your body's own collagen production: ensure adequate vitamin C (100–250 mg/day), consider glycine supplementation (3–5 g/day), and prioritize progressive resistance training, which is the strongest known driver of collagen synthesis. These strategies support endogenous production but cannot replicate UC-II's oral tolerance mechanism. For diagnosed OA, discuss pharmaceutical options with your provider.",
+    },
+    {
+      question:
+        "What's the best collagen supplement for joint pain in people over 65?",
+      answer:
+        "The guide doesn't address age-specific considerations directly. UC-II at 40 mg/day remains the best-evidenced option for osteoarthritis symptoms regardless of age — the Crowley and Lugo trials enrolled adults with knee OA, though mean ages and comorbidity profiles aren't highlighted. Polypharmacy is common over 65, and UC-II's immune-modulating mechanism warrants extra caution if you're on immunosuppressants, DMARDs, or biologics. Before starting, review your full medication list with your prescriber — this population has the most to gain from UC-II but also the most variables to account for.",
+    },
+    {
+      question:
+        "Can I stop taking UC-II once my joint pain improves, or do I need to take it indefinitely?",
+      answer:
+        "The guide doesn't cover discontinuation, and no published trial has tracked what happens after stopping UC-II. Based on the mechanism — ongoing immune modulation of an active inflammatory process — it's reasonable to expect that symptoms may return if you stop, since the underlying cartilage loss likely continues. The Lugo trial showed improvements still accruing at 180 days, suggesting this is maintenance rather than a completed repair. Whether benefits persist, taper, or reverse after discontinuation is genuinely unknown. This is a gap worth raising with your healthcare provider.",
+    },
+    {
+      question:
+        "Is the UC-II in my current joint supplement real or a knockoff?",
+      answer:
+        "Look for the UC-II logo or explicit Lonza branding on the label or product page — the clinical trials used this specific patented ingredient. If a product claims \"undenatured Type II collagen\" without that branding, it may be a generic that's actually hydrolyzed (denatured), which defeats the mechanism entirely. The label should list 40 mg UC-II per serving, providing approximately 10 mg active undenatured collagen. Third-party testing (NSF, USP, or Informed Sport) adds a layer of purity verification. Ingredient misrepresentation is a documented problem in the supplement industry; branding and third-party certification are your best available checks.",
+    },
+    {
+      question:
+        "Does collagen help with hip pain or shoulder pain, or only knees?",
+      answer:
+        "Both UC-II trials enrolled knee osteoarthritis patients exclusively, so there's no direct RCT evidence for hip, shoulder, or ankle joints. However, UC-II's oral tolerance mechanism targets Type II collagen epitopes systemically — regulatory T-cells don't discriminate by joint location, and Type II collagen is the dominant cartilage collagen throughout the body. Mechanistically plausible, but not clinically demonstrated. If you have hip or shoulder OA, UC-II at 40 mg/day is still the most reasonable collagen option based on shared biology — just recognize you're extrapolating from knee data. Track symptoms over 90–180 days.",
+    },
   ],
   "zinc-for-immune-support": [
     {
@@ -2246,6 +2576,42 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Is zinc safe during pregnancy?",
       answer:
         "Standard zinc supplementation at dietary levels (8–12 mg/day) is generally considered safe during pregnancy. However, the high-dose acute cold protocol (75–92 mg/day) has not been adequately studied in pregnant individuals. If you're pregnant or breastfeeding and considering zinc lozenges for a cold, consult your healthcare provider before using doses above the standard recommended intake.",
+    },
+    {
+      question:
+        "What zinc lozenges actually meet these criteria — no citric acid, zinc acetate or gluconate?",
+      answer:
+        "The guide doesn't name specific brands. To evaluate any product yourself: check the Supplement Facts panel for zinc acetate or zinc gluconate as the zinc source, then scan the inactive ingredients for citric acid, tartaric acid, sorbitol, or mannitol — if any appear, skip it. Also confirm each lozenge delivers 13–23 mg elemental zinc. Applying this label-reading framework at the pharmacy or online filters out most products that would otherwise neutralize the active zinc ions before they reach your throat.",
+    },
+    {
+      question:
+        "Can I give zinc lozenges to my child?",
+      answer:
+        "The guide doesn't address pediatric use — it covers healthy adults only. Do not extrapolate the adult protocol (75–92 mg/day) to children; zinc toxicity thresholds are lower in children, and appropriate doses, lozenge formulations, and age cutoffs differ. Consult your child's pediatrician before using any zinc lozenge protocol for a child.",
+    },
+    {
+      question:
+        "I already took zinc pills on day 1 — should I switch to lozenges now on day 2?",
+      answer:
+        "The guide doesn't address mixed or partial protocol scenarios directly. What it does make clear is that the 24-hour window is critical and that pills provide no cold-shortening benefit regardless of timing. Whether lozenges started on day 2 still deliver partial benefit isn't something the guide covers. Based on the underlying mechanism — lozenges work by contacting pharyngeal tissue during early viral replication — starting later is likely less effective, but the guide doesn't quantify that trade-off.",
+    },
+    {
+      question:
+        "How long can I store zinc lozenges before they lose potency?",
+      answer:
+        "The guide doesn't address shelf life or storage conditions. Generally, follow the expiration date printed on the packaging and store lozenges in a cool, dry location away from humidity, which can degrade lozenge integrity. If a lozenge has visibly degraded — crumbled, discolored, or tacky — don't rely on it. When stocking up before cold season as the guide recommends, check expiration dates at purchase to ensure you'll have viable product when you need it.",
+    },
+    {
+      question:
+        "Does zinc interact with my blood pressure medication / thyroid medication / proton pump inhibitor?",
+      answer:
+        "The guide only covers interactions with antibiotics and immunosuppressants. It does not address ACE inhibitors, thiazide diuretics, thyroid medications, or proton pump inhibitors — all common in adults over 50. Clinically relevant interactions exist with these drug classes. If you take any of them, consult your prescriber or pharmacist before using the high-dose acute zinc lozenge protocol.",
+    },
+    {
+      question:
+        "Can I take zinc lozenges and NyQuil / DayQuil / other OTC cold medicine at the same time?",
+      answer:
+        "The guide doesn't address combination use with OTC cold remedies. Some combination products contain vitamin C formulations or acidic inactive ingredients that could theoretically chelate zinc ions — the same mechanism the guide warns about with citric acid in lozenges themselves. Because the guide is silent on this scenario, check the inactive ingredients of any OTC remedy for chelating additives and, if uncertain, ask a pharmacist before combining.",
     },
   ],
   "vitamin-b12-methylcobalamin-vs-cyanocobalamin": [
@@ -2278,6 +2644,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Do high-dose B12 supplements cause acne?",
       answer:
         "Possibly. A study by Kang et al. (2015) found that B12 supplementation altered the gene expression of skin bacteria (Cutibacterium acnes), promoting inflammatory compound production. This effect was observed at high doses and appeared form-independent. If you notice breakouts after starting B12, try lowering the dose before switching forms.",
+    },
+    {
+      question:
+        "what is a normal B12 blood level and how do I know if I'm actually deficient",
+      answer:
+        "The guide doesn't define specific serum B12 ranges or explain functional markers like methylmalonic acid (MMA). Generally, serum B12 alone can miss functional deficiency — MMA rises when cells are actually B12-depleted, even when serum levels appear borderline normal. For precise cutoffs and interpretation, consult your healthcare provider or a clinical lab reference. The guide does recommend retesting serum B12 and MMA after 8–12 weeks of supplementation to confirm your supplement is working.",
+    },
+    {
+      question:
+        "does methylcobalamin cause any side effects or can you take too much",
+      answer:
+        "Methylcobalamin has no established tolerable upper intake level and a low toxicity profile. The guide notes high-dose B12 may contribute to acne via bacterial skin changes. Other reported side effects at high doses — including sleep disturbance, anxiety, and skin flushing — are not addressed in the guide. The guide does flag that absorption efficiency drops sharply above 1,000 mcg per oral dose, so higher isn't always better. If you experience unusual symptoms at doses of 1,000–5,000 mcg, reduce the dose and consult a provider.",
+    },
+    {
+      question:
+        "methylcobalamin vs cyanocobalamin for nerve damage or neuropathy",
+      answer:
+        "The guide identifies methylcobalamin as the better choice for neurological symptoms, citing its superior blood-brain barrier penetration (Izumi Kaji, 2007). It doesn't, however, review clinical trial evidence specifically for peripheral neuropathy treatment. The guide's reasoning still applies: methylcobalamin's direct bioavailability and nervous system access make it the more logical form when B12 deficiency is linked to numbness, tingling, or cognitive fog. For therapeutic use in diagnosed neuropathy, dose and duration should be directed by a physician.",
+    },
+    {
+      question:
+        "how long does it take for B12 supplements to work",
+      answer:
+        "The guide recommends retesting serum B12 and methylmalonic acid after 8–12 weeks but doesn't specify a symptom improvement timeline. In general, energy and cognitive symptoms tied to B12 deficiency may begin improving within weeks, while neurological symptoms can take months and may not fully resolve. Results depend on deficiency severity, the form used, and individual absorption. If you notice no improvement after 8–12 weeks of consistent supplementation, retest before adjusting dose or switching forms.",
+    },
+    {
+      question:
+        "best B12 supplement for pernicious anemia",
+      answer:
+        "The guide doesn't cover pernicious anemia. This is a critical gap: pernicious anemia involves autoimmune destruction of intrinsic factor, which is required for standard oral B12 absorption. Standard oral doses are unlikely to correct deficiency in these patients regardless of form. Treatment typically requires injections or very high-dose oral supplementation relying on passive diffusion — neither of which is detailed in this guide. If you have or suspect pernicious anemia, work with your physician to determine the appropriate form, route, and dose.",
+    },
+    {
+      question:
+        "can I get enough B12 from food instead of supplements",
+      answer:
+        "The guide focuses on supplementation and doesn't address when dietary sources alone are sufficient. B12 is found almost exclusively in animal products — meat, fish, dairy, and eggs. Healthy omnivores under 50 with normal digestion may meet needs through diet alone. Vegans, vegetarians, adults over 50 with declining stomach acid, and anyone with absorption issues are unlikely to get adequate B12 from food. If you're borderline insufficient rather than deficient, dietary changes plus a retest in 8–12 weeks may be a reasonable first step — discuss with your provider.",
+    },
+    {
+      question:
+        "methylcobalamin storage — does it really go bad faster",
+      answer:
+        "The guide confirms methylcobalamin degrades faster than cyanocobalamin when exposed to light and heat, which is why it costs 2–3x more to manufacture. It doesn't provide specific storage instructions. Practically: store methylcobalamin in a cool, dark location away from humidity; avoid leaving it on a sunny counter or in a hot car. When evaluating brands, look for opaque or dark bottles and third-party quality testing as signals that the manufacturer takes stability seriously — the guide prioritizes verified quality over form alone.",
     },
   ],
 };
