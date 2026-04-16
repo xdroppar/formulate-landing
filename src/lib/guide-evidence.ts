@@ -139,6 +139,118 @@ export const studies: Record<string, Study> = {
     summary: "LGG reduced diarrhea duration by roughly 25 hours in pediatric gastroenteritis across multiple RCTs.",
   },
 
+  // ------------------------------- Creatine (additional)
+  "creatine-antonio-forms-2021": {
+    authors: "Antonio et al.",
+    year: 2021,
+    journal: "Journal of the International Society of Sports Nutrition",
+    title: "Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show?",
+    url: "https://pubmed.ncbi.nlm.nih.gov/33557850/",
+    summary: "Systematic review comparing monohydrate to alternative forms — no meaningful difference in muscle creatine uptake.",
+  },
+  "creatine-smith-ryan-women-2021": {
+    authors: "Smith-Ryan et al.",
+    year: 2021,
+    journal: "Nutrients",
+    title: "Creatine Supplementation in Women's Health: A Lifespan Perspective",
+    url: "https://pubmed.ncbi.nlm.nih.gov/33578876/",
+    summary: "Narrative review highlighting benefits for women: strength, body composition, bone health, mood, and cognitive function.",
+  },
+  "creatine-avgerinos-cognitive-2018": {
+    authors: "Avgerinos et al.",
+    year: 2018,
+    journal: "Experimental Gerontology",
+    title: "Effects of creatine supplementation on cognitive function of healthy individuals: a systematic review of 6 randomized controlled trials",
+    url: "https://pubmed.ncbi.nlm.nih.gov/29704637/",
+    summary: "Meta-analysis of 6 RCTs showing creatine improved short-term memory and reasoning in healthy adults, especially under stress/sleep deprivation.",
+  },
+
+  // ------------------------------- Vitamin D (additional)
+  "vitamin-d-tripkovic-d3vsd2-2012": {
+    authors: "Tripkovic et al.",
+    year: 2012,
+    journal: "American Journal of Clinical Nutrition",
+    title: "Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status",
+    url: "https://pubmed.ncbi.nlm.nih.gov/22552031/",
+    summary: "Meta-analysis showing D3 is ~87% more effective than D2 at raising blood 25(OH)D levels.",
+  },
+  "vitamin-d-knapen-k2-2017": {
+    authors: "Knapen et al.",
+    year: 2017,
+    journal: "Thrombosis and Haemostasis",
+    title: "Menaquinone-7 supplementation improves arterial stiffness in healthy postmenopausal women",
+    url: "https://pubmed.ncbi.nlm.nih.gov/28440744/",
+    summary: "180mcg/day MK-7 for 3 years significantly improved arterial stiffness in postmenopausal women.",
+  },
+  "vitamin-d-vital-manson-2019": {
+    authors: "Manson et al.",
+    year: 2019,
+    journal: "New England Journal of Medicine",
+    title: "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease",
+    url: "https://pubmed.ncbi.nlm.nih.gov/30415629/",
+    summary: "VITAL trial (n=25,871). 2,000 IU/day D3 did not significantly reduce cancer incidence or cardiovascular events in a generally replete population.",
+  },
+
+  // ------------------------------- Omega-3 (additional)
+  "omega3-reduce-it-bhatt-2019": {
+    authors: "Bhatt et al.",
+    year: 2019,
+    journal: "New England Journal of Medicine",
+    title: "Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia",
+    url: "https://pubmed.ncbi.nlm.nih.gov/30415628/",
+    summary: "REDUCE-IT trial. 4g/day icosapent ethyl (EPA) reduced major cardiovascular events by 25% in high-risk statin-treated patients.",
+  },
+  "omega3-dyerberg-tg-vs-ee-2010": {
+    authors: "Dyerberg et al.",
+    year: 2010,
+    journal: "Prostaglandins, Leukotrienes and Essential Fatty Acids",
+    title: "Bioavailability of marine n-3 fatty acid formulations",
+    url: "https://pubmed.ncbi.nlm.nih.gov/20434881/",
+    summary: "TG-form omega-3s had approximately 70% better absorption than ethyl ester form.",
+  },
+  "omega3-liao-epa-depression-2019": {
+    authors: "Liao et al.",
+    year: 2019,
+    journal: "Translational Psychiatry",
+    title: "Efficacy of omega-3 PUFAs in depression: a meta-analysis",
+    url: "https://pubmed.ncbi.nlm.nih.gov/31383846/",
+    summary: "EPA-dominant formulas (≥60% EPA) were significantly more effective for depression than DHA-dominant ones.",
+  },
+  "omega3-albert-oxidation-2015": {
+    authors: "Albert et al.",
+    year: 2015,
+    journal: "Scientific Reports",
+    title: "Fish oil supplements in New Zealand are highly oxidised and do not meet label content of n-3 PUFA",
+    url: "https://pubmed.ncbi.nlm.nih.gov/25604397/",
+    summary: "Significant percentage of commercially available fish oil exceeded recommended oxidation limits (TOTOX values).",
+  },
+
+  // ------------------------------- Magnesium (additional)
+  "magnesium-abbasi-sleep-2012": {
+    authors: "Abbasi et al.",
+    year: 2012,
+    journal: "Journal of Research in Medical Sciences",
+    title: "The effect of magnesium supplementation on primary insomnia in elderly",
+    url: "https://pubmed.ncbi.nlm.nih.gov/23853635/",
+    summary: "Magnesium supplementation significantly improved sleep quality, sleep time, and sleep onset latency in elderly subjects.",
+  },
+  "magnesium-slutsky-threonate-2010": {
+    authors: "Slutsky et al.",
+    year: 2010,
+    journal: "Neuron",
+    title: "Enhancement of learning and memory by elevating brain magnesium",
+    url: "https://pubmed.ncbi.nlm.nih.gov/20152124/",
+    summary: "Magnesium L-threonate crossed the blood-brain barrier and improved learning, working memory, and both short/long-term memory in animal models.",
+  },
+  "magnesium-zhang-bp-2017": {
+    authors: "Zhang et al.",
+    year: 2017,
+    journal: "Hypertension Research",
+    title: "Effects of magnesium supplementation on blood pressure",
+    url: "https://pubmed.ncbi.nlm.nih.gov/27402922/",
+    summary: "Meta-analysis finding magnesium supplementation reduced systolic blood pressure by 2–3 mmHg.",
+  },
+
   // ------------------------------- Protein timing
   "protein-timing-schoenfeld-2013": {
     authors: "Schoenfeld, Aragon, and Krieger",

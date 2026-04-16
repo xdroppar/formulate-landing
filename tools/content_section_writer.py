@@ -113,7 +113,19 @@ def main():
             seen.add(key)
             unique.append(a)
 
-    targets = unique[: args.limit]
+    # Skip already-generated sections from previous runs
+    already_done = set()
+    if OUT_JSON.exists():
+        try:
+            prev = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+            for p in prev:
+                already_done.add((p["slug"], p.get("section_title", "")))
+            print(f"Skipping {len(already_done)} already-generated sections from previous run")
+        except Exception:
+            pass
+
+    remaining = [a for a in unique if (a["slug"], a.get("section_title", "")) not in already_done]
+    targets = remaining[: args.limit]
     print(f"Will generate {len(targets)} high-impact sections (est. ${len(targets) * 0.75:.2f})")
 
     client = Anthropic()
@@ -191,7 +203,15 @@ def main():
         wc = parsed.get("word_count", "?")
         print(f"OK ({wc} words, ${cost:.4f}, {elapsed:.1f}s)")
 
-    OUT_JSON.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Append to existing results from previous runs
+    all_results = []
+    if OUT_JSON.exists():
+        try:
+            all_results = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    all_results.extend(results)
+    OUT_JSON.write_text(json.dumps(all_results, indent=2, ensure_ascii=False), encoding="utf-8")
 
     lines = ["# Content Sections Output", f"\n{len(results)} sections. Total: ${total_cost:.3f}\n"]
     for r in results:

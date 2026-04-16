@@ -37,6 +37,15 @@ export function BestOmega3() {
         but don&rsquo;t.
       </p>
 
+      <Callout variant="info" title="How we scored these">
+        We evaluated 10 omega-3 and fish oil products across six pillars:
+        clinical evidence (25%), manufacturing quality (20%), dose accuracy
+        (20%), bioavailability (15%), label transparency (10%), and safety
+        (10%). Products that didn&rsquo;t meet minimum thresholds for
+        third-party testing or dose accuracy were excluded. See our{" "}
+        <a href="/methodology">full methodology</a> for details.
+      </Callout>
+
       <h2>The Number That Actually Matters: Combined EPA + DHA</h2>
       <p>
         &ldquo;Fish oil&rdquo; is not the same as omega-3. Fish oil is the carrier.

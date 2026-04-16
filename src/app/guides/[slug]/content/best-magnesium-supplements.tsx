@@ -37,6 +37,15 @@ export function BestMagnesium() {
         actually does what you need.
       </p>
 
+      <Callout variant="info" title="How we scored these">
+        We evaluated 15 magnesium products across multiple forms and six
+        pillars: clinical evidence (25%), manufacturing quality (20%), dose
+        accuracy (20%), bioavailability (15%), label transparency (10%), and
+        safety (10%). Products that didn&rsquo;t meet minimum thresholds for
+        third-party testing or dose accuracy were excluded. See our{" "}
+        <a href="/methodology">full methodology</a> for details.
+      </Callout>
+
       <h2>Why the Form of Magnesium Matters More Than the Brand</h2>
       <p>
         Magnesium is involved in over 300 enzymatic reactions in your body &mdash;

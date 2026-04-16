@@ -37,6 +37,15 @@ export function BestVitaminD() {
         are even worse.
       </p>
 
+      <Callout variant="info" title="How we scored these">
+        We evaluated 14 vitamin D products across six pillars: clinical evidence
+        (25%), manufacturing quality (20%), dose accuracy (20%), bioavailability
+        (15%), label transparency (10%), and safety (10%). Products that
+        didn&rsquo;t meet minimum thresholds for third-party testing or dose
+        accuracy were excluded. See our{" "}
+        <a href="/methodology">full methodology</a> for details.
+      </Callout>
+
       <h2>D3 vs. D2: This Is Not a Close Contest</h2>
 
       <Callout variant="evidence" title="D3 outperforms D2 by 87%">
