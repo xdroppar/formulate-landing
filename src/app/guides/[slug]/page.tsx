@@ -60,6 +60,12 @@ import { MagnesiumForAnxiety } from "./content/magnesium-for-anxiety";
 import { BestCollagenForJoints } from "./content/best-collagen-for-joints";
 import { ZincForImmuneSupport } from "./content/zinc-for-immune-support";
 import { VitaminB12MethylcobalaminVsCyanocobalamin } from "./content/vitamin-b12-methylcobalamin-vs-cyanocobalamin";
+import { BestSupplementsForPcos } from "./content/best-supplements-for-pcos";
+import { BestSupplementsForMenopause } from "./content/best-supplements-for-menopause";
+import { BestSupplementsForFattyLiver } from "./content/best-supplements-for-fatty-liver";
+import { BestSupplementsForAdhdFocus } from "./content/best-supplements-for-adhd-focus";
+import { BestSupplementsForRunners } from "./content/best-supplements-for-runners";
+import { BestSupplementsForPerimenopause } from "./content/best-supplements-for-perimenopause";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -118,6 +124,12 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-collagen-for-joints": BestCollagenForJoints,
   "zinc-for-immune-support": ZincForImmuneSupport,
   "vitamin-b12-methylcobalamin-vs-cyanocobalamin": VitaminB12MethylcobalaminVsCyanocobalamin,
+  "best-supplements-for-pcos": BestSupplementsForPcos,
+  "best-supplements-for-menopause": BestSupplementsForMenopause,
+  "best-supplements-for-fatty-liver": BestSupplementsForFattyLiver,
+  "best-supplements-for-adhd-focus": BestSupplementsForAdhdFocus,
+  "best-supplements-for-runners": BestSupplementsForRunners,
+  "best-supplements-for-perimenopause": BestSupplementsForPerimenopause,
 };
 
 /* ---------- static params ---------- */

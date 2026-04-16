@@ -203,7 +203,7 @@ export function BerberineVsMetformin() {
       If you have PCOS and are trying to conceive, pregnant, or not using reliable contraception, berberine is contraindicated. Metformin, by contrast, has an established safety profile in PCOS-related fertility treatment and is commonly used through the first trimester under obstetric supervision. This is not a situation where "natural" means safer. Consult your healthcare provider before starting either compound.
       </Callout>
 
-      <p>The PCOS evidence for berberine is genuinely interesting — comparable hormonal and metabolic effects to metformin in short-term trials. But the population most likely to seek it out is also the population most at risk from its reproductive toxicity. If you're managing PCOS, especially with fertility goals, this decision belongs in a clinical conversation, not a supplement aisle.</p>
+      <p>The PCOS evidence for berberine is genuinely interesting — comparable hormonal and metabolic effects to metformin in short-term trials. But the population most likely to seek it out is also the population most at risk from its reproductive toxicity. If you're managing PCOS, especially with fertility goals, this decision belongs in a clinical conversation, not a supplement aisle. For the broader picture of what actually works — inositol, NAC, vitamin D, magnesium, and the rest — see our <a href="/guides/best-supplements-for-pcos">best supplements for PCOS</a> guide.</p>
 
       <h3>Dihydroberberine vs. Standard Berberine HCl: What the Marketing Doesn't Tell You</h3>
 

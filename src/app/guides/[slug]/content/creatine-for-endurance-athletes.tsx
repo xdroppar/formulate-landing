@@ -23,7 +23,7 @@ export function CreatineForEnduranceAthletes() {
       />
 
       <p>
-        Creatine for endurance athletes is far more useful than most people think. While it&rsquo;s been stereotyped as a bodybuilder&rsquo;s supplement, the evidence shows meaningful benefits for runners, cyclists, triathletes, and anyone whose training includes repeated high-intensity efforts&mdash;which, in practice, describes almost every endurance sport.
+        Creatine for endurance athletes is far more useful than most people think. While it&rsquo;s been stereotyped as a bodybuilder&rsquo;s supplement, the evidence shows meaningful benefits for runners, cyclists, triathletes, and anyone whose training includes repeated high-intensity efforts&mdash;which, in practice, describes almost every endurance sport. For the complete runner-specific supplement picture, including iron, caffeine, beetroot, and what to skip, see our <a href="/guides/best-supplements-for-runners">best supplements for runners</a> guide.
       </p>
 
       <h2>The Endurance Athlete&rsquo;s Creatine Myth</h2>

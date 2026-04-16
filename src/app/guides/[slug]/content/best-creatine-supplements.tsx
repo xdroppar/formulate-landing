@@ -487,7 +487,7 @@ export function BestCreatine() {
 
       <h2>Creatine for Endurance Athletes: Worth It or Dead Weight?</h2>
 
-      <p><strong>Creatine for endurance athletes</strong> is one of the most polarizing topics in sports nutrition — and the honest answer lands somewhere between "probably not transformative" and "not the liability you think it is." If you're a runner, cyclist, or triathlete, here's what the evidence actually says.</p>
+      <p><strong>Creatine for endurance athletes</strong> is one of the most polarizing topics in sports nutrition — and the honest answer lands somewhere between "probably not transformative" and "not the liability you think it is." If you're a runner, cyclist, or triathlete, here's what the evidence actually says. For the full endurance supplement picture — iron, electrolytes, caffeine, beetroot, and what to skip — see our <a href="/guides/best-supplements-for-runners">best supplements for runners</a> guide.</p>
 
       <h3>The Water-Weight Concern Is Real but Overstated</h3>
 

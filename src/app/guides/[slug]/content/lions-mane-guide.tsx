@@ -69,7 +69,13 @@ export function LionsManeGuide() {
         <a href="/guides/beginner-longevity-supplement-stack">
           longevity-focused supplement stack
         </a>, lion&rsquo;s mane is one of the more evidence-backed options
-        for the cognitive pillar.
+        for the cognitive pillar. If the focus problem you&rsquo;re targeting is more
+        acute &mdash; attention deficits, executive function, or ADHD-pattern
+        symptoms &mdash; our{" "}
+        <a href="/guides/best-supplements-for-adhd-focus">
+          best supplements for ADHD and focus
+        </a>{" "}
+        roundup covers the compounds with stronger evidence in that specific space.
       </p>
 
       <h2>The Human Evidence: What We Actually Know</h2>

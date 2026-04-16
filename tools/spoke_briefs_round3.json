@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "best-supplements-for-pcos",
+    "title": "Best Supplements for PCOS: Evidence-Based Stack (2026)",
+    "description": "Inositol, NAC, vitamin D, and magnesium all have meaningful PCOS evidence. Here's which ones actually move insulin, cycles, and fertility — and at what doses.",
+    "category": "roundup",
+    "primary_keyword": "best supplements for pcos",
+    "target_queries": ["best supplements for pcos", "pcos supplements", "inositol for pcos", "supplements for pcos weight loss", "best vitamins for pcos"],
+    "key_points": [
+      "Inositol (myo + D-chiro, 40:1 ratio, 2-4g daily) — strongest PCOS evidence. Unfer 2017 meta-analysis showed improved insulin sensitivity, ovulation, and cycle regularity",
+      "NAC (1.5-3g daily) — improved ovulation rates in PCOS vs placebo (Fulghesu 2002). Also supports oral glucose tolerance",
+      "Vitamin D (2000-5000 IU D3) — PCOS patients frequently deficient. Correction improves menstrual regularity per several RCTs",
+      "Magnesium glycinate (200-400mg) — addresses common deficiency, supports insulin sensitivity + reduces anxiety common in PCOS",
+      "Omega-3 (1-2g EPA+DHA) — reduces androgens and improves lipid profile in PCOS (Sadeghi 2017)",
+      "Berberine (500mg 3x/day) — metformin-like effects on insulin; useful when metformin isn't tolerated. NOT to combine without doctor supervision",
+      "Spearmint tea (not a supplement but evidence-supported for androgen reduction) — briefly mention",
+      "What NOT to take: high-dose biotin (skews TSH labs), cinnamon extract (weak evidence for PCOS specifically despite marketing), excess iodine (can worsen thyroid dysregulation common in PCOS)",
+      "Protocol consideration: introduce one at a time, track symptoms (cycle length, hirsutism, weight, mood) for 3 months per addition"
+    ],
+    "sections_to_cover": [
+      "Why PCOS Needs a Multi-Target Approach",
+      "Inositol: The First-Line Supplement",
+      "NAC for Ovulation and Insulin",
+      "Vitamin D: The Frequently-Missed Deficiency",
+      "Magnesium for Insulin Sensitivity + Mood",
+      "Omega-3 for Androgen and Lipid Control",
+      "Berberine: Metformin Alternative (With Caveats)",
+      "What to Skip",
+      "Sample Stack by PCOS Subtype (Insulin-Resistant vs Lean vs Inflammatory)",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "nac-guide", "anchor": "NAC guide"},
+      {"slug": "best-vitamin-d-supplements", "anchor": "best vitamin D supplements"},
+      {"slug": "best-magnesium-supplements", "anchor": "best magnesium supplements"},
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"},
+      {"slug": "berberine-guide", "anchor": "berberine guide"},
+      {"slug": "berberine-vs-metformin", "anchor": "berberine vs metformin"}
+    ],
+    "evidence_registry_ids_to_use": [],
+    "read_time": "12 min read",
+    "target_word_count": 2800
+  },
+  {
+    "slug": "best-supplements-for-menopause",
+    "title": "Best Supplements for Menopause: What Actually Works",
+    "description": "Hot flashes, bone loss, sleep disruption, and mood changes — menopause is multi-system. Here's the evidence-based stack that addresses each without HRT.",
+    "category": "roundup",
+    "primary_keyword": "best supplements for menopause",
+    "target_queries": ["best supplements for menopause", "menopause supplements", "supplements for hot flashes", "supplements for menopause weight gain", "natural menopause remedies"],
+    "key_points": [
+      "Vitamin D3 + K2 (2000-5000 IU D3 + 90-180mcg MK-7) — critical for bone density post-menopause. Cosman 2014 meta-analysis supports supplementation",
+      "Calcium (500-1000mg, paired with K2) — dose DEPENDS on dietary intake; excess without K2 increases arterial calcification risk",
+      "Magnesium glycinate (300-400mg) — sleep, anxiety, and bone co-factor. Most perimenopausal/menopausal women deficient",
+      "Creatine (3-5g) — NOT just for athletes. Chilibeck 2017 showed reduced bone density loss in postmenopausal women + improved lean mass",
+      "Omega-3 (1-2g EPA+DHA) — cardiovascular protection as estrogen drops, plus mood support (EPA-dominant)",
+      "Ashwagandha (KSM-66, 600mg) — mood, sleep, and cortisol modulation during the vasomotor-symptom years",
+      "Black cohosh — specific evidence for hot flashes (Leach 2012 Cochrane), but quality and dosing matters. Modest effect",
+      "Soy isoflavones — mixed evidence, more effective in women with genetic equol-producer status",
+      "What NOT to take: phytoestrogens indiscriminately (estrogen-sensitive cancer survivors should avoid), high-dose evening primrose (minimal evidence), maca root (limited RCT data for hot flashes)",
+      "Coordinate with healthcare provider — supplements complement but don't replace decisions about HRT"
+    ],
+    "sections_to_cover": [
+      "The Menopause Symptom Stack",
+      "Bone Health: D3 + K2 + Magnesium + Calcium (In That Order)",
+      "Creatine for Postmenopausal Muscle and Bone",
+      "Ashwagandha for Mood and Vasomotor Symptoms",
+      "Omega-3 for Cardiovascular Protection",
+      "Hot Flash-Specific: Black Cohosh, Soy Isoflavones",
+      "What the Research Doesn't Support",
+      "Sample Stack by Symptom Priority",
+      "HRT vs Supplements: Not an Either/Or",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "best-vitamin-d-supplements", "anchor": "best vitamin D supplements"},
+      {"slug": "best-magnesium-supplements", "anchor": "best magnesium supplements"},
+      {"slug": "best-creatine-supplements", "anchor": "best creatine supplements"},
+      {"slug": "creatine-for-women", "anchor": "creatine for women"},
+      {"slug": "ashwagandha-guide", "anchor": "ashwagandha guide"},
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"}
+    ],
+    "evidence_registry_ids_to_use": [
+      "creatine-smith-ryan-women-2021"
+    ],
+    "read_time": "12 min read",
+    "target_word_count": 2700
+  },
+  {
+    "slug": "best-supplements-for-fatty-liver",
+    "title": "Best Supplements for Fatty Liver (NAFLD): What the Evidence Shows",
+    "description": "NAC, vitamin E, omega-3, and milk thistle all have NAFLD evidence — but quality varies wildly. Here's which actually reduce liver enzymes and fat.",
+    "category": "roundup",
+    "primary_keyword": "best supplements for fatty liver",
+    "target_queries": ["best supplements for fatty liver", "supplements for nafld", "nac for fatty liver", "vitamin e fatty liver", "natural remedies fatty liver"],
+    "key_points": [
+      "Vitamin E (800 IU/day in NASH) — PIVENS trial showed histological improvement in non-diabetic NASH patients. Careful: doses >400 IU have cardiovascular caveats",
+      "NAC (1200mg daily) — improves liver enzymes (ALT/AST) in NAFLD per multiple small RCTs. Replenishes hepatic glutathione",
+      "Omega-3 EPA+DHA (2-4g) — reduces liver fat content on MRI per meta-analyses (Parker 2012). Works through reduced hepatic de novo lipogenesis",
+      "Milk thistle (silymarin) — mixed evidence; better when standardized. Gillessen 2020 meta-analysis showed ALT reduction in NAFLD",
+      "Berberine (500mg 3x) — improves lipid profile + reduces hepatic steatosis markers in human trials",
+      "Vitamin D (if deficient) — common deficiency in NAFLD patients, correction may help but not standalone treatment",
+      "Coffee (not a supplement but solid evidence for liver health) — note separately",
+      "Weight loss, exercise, and dietary pattern are primary — supplements are adjunctive, not replacement",
+      "What NOT to take: high-dose iron without confirmed deficiency (liver is iron-sensitive), high-dose niacin for cholesterol (can worsen transaminases)",
+      "Monitor LFTs at baseline + 3 months when starting any stack"
+    ],
+    "sections_to_cover": [
+      "Why Supplements Matter for NAFLD (Lifestyle First)",
+      "Vitamin E: The PIVENS Evidence",
+      "NAC for Liver Enzyme Reduction",
+      "Omega-3 for Liver Fat Content",
+      "Milk Thistle (Silymarin): Mixed but Meaningful",
+      "Berberine for Metabolic NAFLD",
+      "Vitamin D: Common Deficiency, Common Fix",
+      "What to Avoid (Iron, Niacin, Megadose Vitamins)",
+      "Monitoring: Labs at Baseline + 3 Months",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "nac-guide", "anchor": "NAC guide"},
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"},
+      {"slug": "berberine-guide", "anchor": "berberine guide"},
+      {"slug": "nac-and-alcohol", "anchor": "NAC and alcohol"}
+    ],
+    "evidence_registry_ids_to_use": [],
+    "read_time": "11 min read",
+    "target_word_count": 2600
+  },
+  {
+    "slug": "best-supplements-for-adhd-focus",
+    "title": "Best Supplements for ADHD and Focus: Evidence-Based Stack",
+    "description": "Omega-3, L-theanine, and magnesium have real ADHD focus evidence. Here's how they work, what they don't replace, and stacking with or without stimulants.",
+    "category": "roundup",
+    "primary_keyword": "best supplements for adhd",
+    "target_queries": ["best supplements for adhd", "natural adhd supplements", "omega 3 for adhd", "supplements for focus", "l-theanine adhd"],
+    "key_points": [
+      "Omega-3 EPA-dominant (1-2g, high EPA ratio) — strongest evidence. Chang 2018 meta-analysis showed modest but significant improvement in inattention scores",
+      "L-theanine (200-400mg) — reduces hyperactivity and improves attention in ADHD children (Lyon 2011). Safer than caffeine for hyperarousal",
+      "Magnesium glycinate (200-400mg) — low magnesium correlates with ADHD severity. Starobrat-Hermelin 1997 showed symptom improvement in deficient kids",
+      "Zinc (15-30mg) — some positive trials, especially in zinc-deficient ADHD patients. Bilici 2004 showed improvement",
+      "Iron (if ferritin <30ng/mL) — low ferritin linked to ADHD severity. Don't supplement without confirmed deficiency",
+      "Vitamin D — many ADHD patients deficient. Correction may help, not a standalone",
+      "Creatine (5g daily) — emerging cognitive evidence (Avgerinos 2018), particularly under sleep deprivation",
+      "L-tyrosine (500-1000mg) — precursor to dopamine. Anecdotal support but limited RCT evidence for ADHD specifically",
+      "Lion's mane — NGF mechanism, emerging cognitive evidence",
+      "Stacking with stimulants: generally safe but watch magnesium with amphetamines (can alter absorption timing)",
+      "What NOT to take: Adderall-alternative 'stimulant' products with yohimbine or high caffeine, mega-dose B-vitamins without deficiency"
+    ],
+    "sections_to_cover": [
+      "Supplements Don't Replace Treatment — They Support It",
+      "Omega-3: The Most-Studied ADHD Supplement",
+      "L-Theanine for Hyperactivity and Anxiety",
+      "Magnesium: Correcting the Common Deficiency",
+      "Zinc and Iron: Test Before Supplementing",
+      "Vitamin D: Status Matters",
+      "Creatine for Cognitive Performance",
+      "L-Tyrosine and Dopamine Precursors",
+      "Stacking With Stimulant Medication",
+      "What to Avoid",
+      "Sample Stack for Adults",
+      "Sample Stack for Kids (Pediatrician Required)",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"},
+      {"slug": "best-magnesium-supplements", "anchor": "best magnesium supplements"},
+      {"slug": "zinc-guide", "anchor": "zinc guide"},
+      {"slug": "iron-guide", "anchor": "iron guide"},
+      {"slug": "lions-mane-guide", "anchor": "lion's mane guide"},
+      {"slug": "nootropics-guide", "anchor": "nootropics guide"}
+    ],
+    "evidence_registry_ids_to_use": [
+      "creatine-avgerinos-cognitive-2018"
+    ],
+    "read_time": "12 min read",
+    "target_word_count": 2800
+  },
+  {
+    "slug": "best-supplements-for-runners",
+    "title": "Best Supplements for Runners: What Actually Helps Endurance",
+    "description": "Iron, electrolytes, beta-alanine — runner-specific supplements with real evidence. Plus the ones runners waste money on (looking at you, BCAAs).",
+    "category": "roundup",
+    "primary_keyword": "best supplements for runners",
+    "target_queries": ["best supplements for runners", "running supplements", "supplements for marathon runners", "iron for runners", "best supplements for distance running"],
+    "key_points": [
+      "Iron (if ferritin <30ng/mL) — runners commonly iron-deficient (foot-strike hemolysis, GI bleeding). Check BEFORE supplementing",
+      "Electrolytes (Na, K, Mg) — not Gatorade. For runs >60min, especially in heat. Precision Hydration model or DIY",
+      "Creatine (3-5g) — YES for runners. Improves repeated sprint performance, glycogen storage, recovery between hard sessions",
+      "Beta-alanine (3.2-6.4g/day) — improves buffering capacity, particularly 400m-2mi pace work. Tingling is normal (paresthesia)",
+      "Caffeine (3-6mg/kg pre-run) — strongest ergogenic aid in all of sport science. Works for endurance via glycogen sparing + CNS stimulation",
+      "Nitrate (beetroot juice, 6-12 mmol pre-event) — reduces oxygen cost of submaximal running by 1-3%. Meaningful over marathon distance",
+      "Omega-3 — anti-inflammatory for recovery, cardiovascular protection",
+      "Vitamin D — affects bone stress fracture risk. Check levels",
+      "Protein adequate daily intake (1.4-1.8g/kg) — whey or casein for post-run recovery",
+      "BCAAs: skip. If your daily protein is adequate, BCAAs add nothing (Morton 2018 meta-analysis)",
+      "Glutamine: skip. Claims don't hold up in RCTs",
+      "HMB: narrow evidence, mostly for novice lifters, not endurance"
+    ],
+    "sections_to_cover": [
+      "Why Runner Supplement Needs Are Different",
+      "Iron: Test First, Supplement Second",
+      "Electrolytes: Beyond the Sports Drink Aisle",
+      "Creatine Is for Runners Too",
+      "Beta-Alanine for Pace Work",
+      "Caffeine: The Most Reliable Ergogenic",
+      "Nitrate/Beetroot for Endurance",
+      "Protein: Post-Run Recovery",
+      "Omega-3 and Vitamin D: Daily Foundation",
+      "What to Skip (BCAAs, Glutamine, HMB)",
+      "Sample Daily Stack + Race-Day Protocol",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "best-creatine-supplements", "anchor": "best creatine supplements"},
+      {"slug": "creatine-for-endurance-athletes", "anchor": "creatine for endurance athletes"},
+      {"slug": "electrolytes-guide", "anchor": "electrolytes guide"},
+      {"slug": "iron-guide", "anchor": "iron guide"},
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"},
+      {"slug": "taurine-guide", "anchor": "taurine guide"},
+      {"slug": "best-pre-workout-supplement-protocol", "anchor": "best pre-workout supplement protocol"}
+    ],
+    "evidence_registry_ids_to_use": [
+      "creatine-kreider-issn-2017"
+    ],
+    "read_time": "11 min read",
+    "target_word_count": 2600
+  },
+  {
+    "slug": "best-supplements-for-perimenopause",
+    "title": "Best Supplements for Perimenopause: The Pre-Menopause Protocol",
+    "description": "Perimenopause starts up to 10 years before menopause. The supplement needs are different — and most guides conflate the two. Here's the perimenopause-specific stack.",
+    "category": "roundup",
+    "primary_keyword": "best supplements for perimenopause",
+    "target_queries": ["best supplements for perimenopause", "perimenopause supplements", "supplements for perimenopause weight gain", "perimenopause vitamins", "supplements for irregular periods perimenopause"],
+    "key_points": [
+      "Perimenopause = 4-10 years BEFORE final period. Distinct from menopause — hormones are fluctuating, not low",
+      "Magnesium glycinate (300-400mg) — sleep disruption is the most common early perimenopause symptom. Glycinate for sleep + mood",
+      "Vitamin D3 + K2 — start BEFORE menopause for bone density. Correction takes months",
+      "Omega-3 (1-2g EPA+DHA) — hormone fluctuations increase inflammation markers. EPA for mood stability",
+      "B-complex (B6, B12, folate methyl forms) — energy support during hormonal volatility. Methyl forms for MTHFR variants",
+      "Ashwagandha (KSM-66, 600mg) — mood swings and cortisol spikes common in perimenopause. Doesn't affect hormones directly, supports HPA axis",
+      "Creatine (3-5g) — bone and muscle mass preservation BEFORE menopause changes. Smith-Ryan 2021 evidence extends here",
+      "DIM (diindolylmethane, 100-200mg) — estrogen metabolism support. Some evidence for symptom relief in estrogen-dominant perimenopause",
+      "Chasteberry (Vitex agnus-castus, 20-40mg extract) — progesterone support for irregular cycles and PMS worsening in perimenopause",
+      "What NOT to take: bioidentical progesterone cream without medical guidance, high-dose phytoestrogens in personal/family history of hormone-sensitive cancer",
+      "Track symptoms: HOT flashes, sleep, mood, cycle length. Supplements alone won't manage severe symptoms — discuss HRT options with provider"
+    ],
+    "sections_to_cover": [
+      "Perimenopause vs Menopause: Different Needs",
+      "Sleep Foundation: Magnesium Glycinate",
+      "Bone Building Starts Now: D3 + K2",
+      "Omega-3 for Mood and Inflammation",
+      "B-Complex for Energy Fluctuations",
+      "Ashwagandha for Mood Swings",
+      "Creatine: Preserving Muscle and Bone",
+      "DIM for Estrogen Metabolism",
+      "Chasteberry for Cycle Irregularity",
+      "What to Avoid Without Medical Guidance",
+      "Sample Stack by Dominant Symptom",
+      "Transitioning Into Menopause",
+      "Who Should Talk to a Doctor First",
+      "FAQ",
+      "The Bottom Line"
+    ],
+    "cross_links": [
+      {"slug": "best-magnesium-supplements", "anchor": "best magnesium supplements"},
+      {"slug": "best-vitamin-d-supplements", "anchor": "best vitamin D supplements"},
+      {"slug": "best-omega-3-supplements", "anchor": "best omega-3 supplements"},
+      {"slug": "ashwagandha-guide", "anchor": "ashwagandha guide"},
+      {"slug": "creatine-for-women", "anchor": "creatine for women"},
+      {"slug": "vitamin-b12-guide", "anchor": "vitamin B12 guide"},
+      {"slug": "best-supplements-for-menopause", "anchor": "best supplements for menopause"}
+    ],
+    "evidence_registry_ids_to_use": [
+      "creatine-smith-ryan-women-2021"
+    ],
+    "read_time": "12 min read",
+    "target_word_count": 2700
+  }
+]

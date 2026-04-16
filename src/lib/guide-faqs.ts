@@ -2688,6 +2688,198 @@ export const guideFaqs: Record<string, FaqItem[]> = {
         "The guide confirms methylcobalamin degrades faster than cyanocobalamin when exposed to light and heat, which is why it costs 2–3x more to manufacture. It doesn't provide specific storage instructions. Practically: store methylcobalamin in a cool, dark location away from humidity; avoid leaving it on a sunny counter or in a hot car. When evaluating brands, look for opaque or dark bottles and third-party quality testing as signals that the manufacturer takes stability seriously — the guide prioritizes verified quality over form alone.",
     },
   ],
+  "best-supplements-for-pcos": [
+    {
+      question: "How long do PCOS supplements take to work?",
+      answer:
+        "Most clinical trials show measurable changes in insulin markers within 8–12 weeks, and cycle regularity improvements within 3–6 months. Hormonal endpoints like testosterone reduction tend to follow insulin improvements. This isn't a 2-week fix — commit to 3 months minimum before reassessing your stack.",
+    },
+    {
+      question: "Can I take inositol and metformin together?",
+      answer:
+        "Yes, and several studies have actually tested this combination. Inositol and metformin work through partially overlapping but complementary pathways. Some endocrinologists prescribe both. However, always confirm with your prescribing doctor before adding inositol to an existing metformin regimen, especially if you're on a higher metformin dose.",
+    },
+    {
+      question: "Is berberine safe long-term?",
+      answer:
+        "Most PCOS berberine trials lasted 3–6 months. Longer-term safety data in PCOS is limited. Berberine inhibits several CYP450 enzymes, which can change how your body processes other medications. If you plan to use it beyond 6 months, periodic liver function tests and medication interaction reviews with your provider are prudent.",
+    },
+    {
+      question: "Do these supplements replace medication?",
+      answer:
+        "They can complement medication, and in some cases (particularly berberine vs. metformin) evidence suggests comparable effects. But PCOS management often requires a combination of dietary changes, exercise, stress management, and sometimes pharmaceutical intervention. Supplements are one layer — not the whole strategy.",
+    },
+    {
+      question: "What about DIM or saw palmetto for PCOS?",
+      answer:
+        "DIM (diindolylmethane) has theoretical anti-androgen mechanisms via estrogen metabolism modulation, but PCOS-specific clinical trials are essentially absent. Saw palmetto has some prostate-related evidence in men but minimal controlled data in PCOS. Neither makes our recommended list due to insufficient human evidence in this population.",
+    },
+    {
+      question: "Should I take all six supplements at once?",
+      answer:
+        "No. Start with inositol (the broadest evidence base), add vitamin D if deficient, and layer in one additional supplement every 4–6 weeks based on your dominant symptoms. Taking six new things simultaneously makes it impossible to identify what's working, what's not, and what might be causing side effects.",
+    },
+  ],
+  "best-supplements-for-menopause": [
+    {
+      question: "What is the single most important supplement for menopause?",
+      answer:
+        "If you can only take one, vitamin D3 with K2 gets the nod. Bone density loss is the highest-stakes consequence of menopause, and most women are vitamin D insufficient. A combined D3/K2 supplement addresses the most clinically significant long-term risk with the strongest evidence base. Everything else is layered on top of this foundation.",
+    },
+    {
+      question: "Does creatine cause weight gain in menopausal women?",
+      answer:
+        "At the recommended 3–5 g/day without a loading phase, meaningful weight gain is unlikely. Any initial scale movement (1–2 pounds) reflects intracellular water in muscle tissue, not fat gain. Over time, creatine supports lean mass preservation, which actually improves metabolic rate and body composition. The Chilibeck (2017) trial showed favorable body composition changes in postmenopausal women using creatine.",
+    },
+    {
+      question: "Are soy isoflavones safe for breast cancer survivors?",
+      answer:
+        "This remains an area of active debate. Soy isoflavones are phytoestrogens that can bind estrogen receptors, albeit weakly. The American Institute for Cancer Research states that moderate dietary soy is safe, but supplemental isoflavone concentrates are a different question. If you have a history of estrogen receptor-positive breast cancer, discuss soy isoflavone supplements specifically with your oncologist before use.",
+    },
+    {
+      question: "How long does black cohosh take to work for hot flashes?",
+      answer:
+        "Most positive trials showed effects emerging by 4–8 weeks, with full benefit assessment recommended at 12 weeks. If you've seen no improvement after 12 weeks of consistent use with a standardized extract, it's reasonable to conclude it's not effective for you. The Cochrane review noted significant individual variation in response.",
+    },
+    {
+      question: "Can I take all of these supplements together?",
+      answer:
+        "Yes, with one timing note: take calcium and magnesium at separate times if possible (they compete for absorption at high doses). A practical approach is D3/K2 and calcium with a meal, omega-3 with a fat-containing meal, creatine at any consistent time, magnesium in the evening (it supports sleep), and ashwagandha in the evening. No known dangerous interactions exist among these supplements at recommended doses.",
+    },
+    {
+      question: "Do menopause supplements help with weight gain?",
+      answer:
+        "No supplement directly prevents menopausal weight gain. However, creatine supports lean mass (which drives metabolic rate), magnesium supports sleep quality (poor sleep increases appetite hormones), and omega-3s may reduce systemic inflammation that contributes to metabolic dysfunction. The real driver is maintaining resistance training and adequate protein intake — supplements support that effort but don't replace it.",
+    },
+  ],
+  "best-supplements-for-fatty-liver": [
+    {
+      question: "Can supplements actually reverse fatty liver?",
+      answer:
+        "Supplements alone are unlikely to fully reverse NAFLD. The PIVENS trial showed histological improvement with vitamin E in NASH, but even there, the primary driver of reversal is weight loss of 7–10% of body weight. Supplements can reduce liver enzymes, lower hepatic fat content, and slow progression — but they work best as part of a comprehensive plan including diet, exercise, and metabolic management.",
+    },
+    {
+      question: "Is it safe to combine multiple liver supplements?",
+      answer:
+        "Combining NAC + omega-3 + vitamin D is generally well-tolerated since they work through different mechanisms. Adding vitamin E at the 800 IU dose or berberine introduces more complexity and drug-interaction potential. Start one supplement at a time, give it 4–6 weeks, then add the next. This lets you identify what's helping and what's causing side effects.",
+    },
+    {
+      question: "How long before I see results on liver enzymes?",
+      answer:
+        "Most trials showing ALT improvement report changes at 8–12 weeks. NAC tends to work fastest (some studies show enzyme changes by 4 weeks). Vitamin E and omega-3 trials typically assess at 24–96 weeks for histological endpoints. Give any supplement at least 3 months before judging effectiveness, and confirm with lab work, not just how you feel.",
+    },
+    {
+      question: "Does coffee help fatty liver?",
+      answer:
+        "Yes, and the evidence is surprisingly robust. Multiple large observational studies and meta-analyses associate regular coffee consumption (2–3 cups/day) with lower risk of liver fibrosis, reduced ALT, and decreased risk of hepatocellular carcinoma. The mechanisms include caffeine's antifibrotic effects and polyphenol antioxidant activity. It's not a supplement, but it's arguably the best-supported daily habit for liver health.",
+    },
+    {
+      question: "Should I take a \"liver detox\" supplement?",
+      answer:
+        "Most \"liver detox\" or \"liver cleanse\" products contain proprietary blends with underdosed active ingredients and no clinical trial data specific to NAFLD. Your liver doesn't need detoxing — it is the detox organ. What it needs in NAFLD is reduced fat accumulation and oxidative stress, which targeted, evidence-based supplements at proper doses can help with. Skip the blends; use individual ingredients at studied doses.",
+    },
+    {
+      question: "Is berberine better than metformin for fatty liver?",
+      answer:
+        "Head-to-head data is limited. Yan et al. (2015) compared berberine to pioglitazone (not metformin) and found comparable hepatic fat reduction. Berberine and metformin share some mechanisms (AMPK activation), and berberine may have additional lipid-lowering benefits. However, metformin has far more long-term safety data. If you're already on metformin, don't swap it for berberine without discussing with your provider.",
+    },
+  ],
+  "best-supplements-for-adhd-focus": [
+    {
+      question: "Can supplements replace ADHD medication?",
+      answer:
+        "For moderate to severe ADHD, no. Stimulant medications have effect sizes 3–5x larger than even the best-studied supplements. For very mild presentations, or for people who can't tolerate medication, a well-designed supplement stack may provide meaningful support. But the honest answer is that supplements and medication work on different scales of impact.",
+    },
+    {
+      question: "How long before I notice a difference from omega-3s?",
+      answer:
+        "Most omega-3 ADHD trials ran 8–12 weeks before measuring outcomes. Neuronal membrane composition changes slowly. If you don't notice anything after 3 months of consistent EPA-dominant supplementation at adequate doses, it's reasonable to discontinue and redirect your budget.",
+    },
+    {
+      question: "Is lion's mane good for ADHD?",
+      answer:
+        "Lion's mane stimulates nerve growth factor (NGF) production, which is theoretically relevant to ADHD neurodevelopment. However, there are currently no RCTs testing lion's mane specifically in ADHD populations. The cognitive evidence is early-stage and mostly in elderly populations. It's not harmful, but it's speculative for ADHD.",
+    },
+    {
+      question: "Should I take L-theanine with or without caffeine for ADHD?",
+      answer:
+        "For adults, the L-theanine + caffeine combination (200mg + 100mg) can improve alert focus without the jitteriness caffeine alone causes. However, if you're already on stimulant medication, adding caffeine may increase heart rate and anxiety. In that case, L-theanine alone is the safer choice. For children, skip the caffeine entirely.",
+    },
+    {
+      question: "Are there supplements that make ADHD worse?",
+      answer:
+        "High-dose caffeine (300mg+) without L-theanine can worsen anxiety and emotional reactivity. Yohimbine increases norepinephrine and can trigger panic-like symptoms. High sugar intake — while not a supplement — worsens attention in some individuals. And paradoxically, melatonin at excessive doses (>3mg) can cause next-day grogginess that mimics inattention.",
+    },
+    {
+      question: "Do I need genetic testing before picking ADHD supplements?",
+      answer:
+        "Genetic testing (MTHFR, COMT, etc.) is heavily marketed in the functional medicine space but has limited actionable value for ADHD supplementation specifically. Standard bloodwork — ferritin, zinc, RBC magnesium, 25(OH)D, and an omega-3 index — gives you far more practical information for far less money.",
+    },
+  ],
+  "best-supplements-for-runners": [
+    {
+      question: "Do I need a loading phase for creatine?",
+      answer:
+        "No. A loading phase (20 g/day for 5–7 days) saturates stores faster, but 3–5 g/day reaches the same saturation level within 3–4 weeks. For runners who want to avoid the initial water weight spike, skipping the loading phase and taking a consistent daily dose is the better approach. The end result is the same.",
+    },
+    {
+      question: "Can caffeine dehydrate me during a marathon?",
+      answer:
+        "At the doses used for performance (3–6 mg/kg), caffeine does not cause clinically meaningful dehydration during exercise. Killer et al. (2014) found no significant difference in hydration status between moderate coffee and water intake in regular drinkers. The mild diuretic effect at rest is overridden by the anti-diuretic response during exercise. Drink to thirst as usual.",
+    },
+    {
+      question: "Should I take iron \"just in case\" as a runner?",
+      answer:
+        "Absolutely not. Iron is one of the few supplements where \"more is better\" does not apply. Excess iron can cause oxidative stress, GI damage, and in people with undiagnosed hemochromatosis, organ damage. Always test serum ferritin (and ideally a complete iron panel with transferrin saturation) before supplementing. Test, don't guess.",
+    },
+    {
+      question: "Is beetroot juice worth the taste?",
+      answer:
+        "If you're a recreational to sub-elite runner targeting a PR, the evidence says yes. A 1–3% improvement in running economy is significant over long distances. Concentrated shots minimize the volume you have to consume. If you genuinely cannot tolerate it, nitrate capsules exist but have less robust evidence behind them compared to the juice form used in most studies.",
+    },
+    {
+      question: "How much protein do I actually need after a long run?",
+      answer:
+        "Aim for 20–40 g of high-quality protein within 2 hours post-run, ideally paired with carbohydrates at a roughly 3:1 or 4:1 carb-to-protein ratio to maximize glycogen resynthesis. But don't stress the exact window — total daily protein intake (1.4–1.8 g/kg) matters far more than any single meal's timing.",
+    },
+    {
+      question: "Are there supplements that help prevent running injuries?",
+      answer:
+        "Directly, the strongest evidence is for vitamin D and calcium supporting bone mineral density and reducing stress fracture risk. Omega-3s may reduce chronic inflammation that contributes to overuse injuries. Collagen peptides (15 g with vitamin C, 30–60 min before exercise) have emerging evidence for tendon and ligament health (Shaw et al., 2017), but this research is still early. No supplement replaces proper training load management.",
+    },
+  ],
+  "best-supplements-for-perimenopause": [
+    {
+      question: "How do I know if I'm in perimenopause?",
+      answer:
+        "The hallmark is cycle irregularity — periods that come closer together or further apart, heavier or lighter than your norm. Other early signs include sleep disruption, increased PMS severity, and mood volatility. Blood tests for FSH and estradiol can help, but levels fluctuate so much in perimenopause that a single snapshot is often unreliable. Your symptom pattern over 3–6 months is usually more informative than any single lab value.",
+    },
+    {
+      question: "Can supplements replace hormone replacement therapy (HRT)?",
+      answer:
+        "For mild-to-moderate symptoms, supplements can meaningfully improve quality of life. For severe hot flashes, significant mood disorders, or rapid bone loss, HRT remains the most effective intervention with strong evidence behind it. Think of supplements as the foundation and HRT as a targeted medical treatment. They're complementary, not competing approaches.",
+    },
+    {
+      question: "Will creatine cause weight gain?",
+      answer:
+        "Creatine can increase scale weight by 1–2 pounds due to intracellular water retention in muscle tissue. This is not fat gain. In the context of perimenopause, preserving and building lean muscle mass actually supports metabolic rate and long-term body composition. The water weight typically stabilizes within 2–3 weeks.",
+    },
+    {
+      question: "Should I take DIM or chasteberry?",
+      answer:
+        "It depends on your symptom pattern. DIM is better suited for estrogen-dominant symptoms: heavy periods, breast tenderness, bloating, and weight gain in the hips and thighs. Chasteberry targets progesterone-deficient patterns: short luteal phases, spotting before your period, worsening PMS, and irregular cycles. Some people benefit from both, but start with one, track symptoms for 6–8 weeks, then reassess.",
+    },
+    {
+      question: "How long do supplements take to work for perimenopause symptoms?",
+      answer:
+        "Magnesium for sleep often shows effects within 1–2 weeks. Ashwagandha for stress/mood typically takes 4–6 weeks. Chasteberry requires at least 2–3 full cycles (2–3 months) to evaluate. Vitamin D correction takes 2–3 months. Creatine benefits accumulate over 4–8 weeks with consistent resistance training. Give each supplement an adequate trial before deciding it doesn't work.",
+    },
+    {
+      question: "Is it safe to take all of these together?",
+      answer:
+        "The supplements on this list are generally safe to combine at the recommended doses. However, we don't recommend starting everything simultaneously. Add one new supplement every 1–2 weeks so you can identify what's helping and what's causing side effects. If you take prescription medications — especially thyroid drugs, blood thinners, or antidepressants — check interactions with your pharmacist or provider.",
+    },
+  ],
 };
 
 export function getFaqsForGuide(slug: string): FaqItem[] | undefined {

@@ -170,7 +170,13 @@ export function NACGuide() {
         non-alcoholic fatty liver disease (NAFLD). For people who drink
         regularly, take frequent Tylenol, or live in high-pollution
         environments, NAC provides meaningful support to a system that&rsquo;s
-        under chronic load. <EvidenceBadge level="moderate" />
+        under chronic load. <EvidenceBadge level="moderate" /> For the full
+        NAFLD supplement picture &mdash; vitamin E, omega-3s, milk thistle, and
+        berberine alongside NAC &mdash; see our{" "}
+        <a href="/guides/best-supplements-for-fatty-liver">
+          best supplements for fatty liver
+        </a>{" "}
+        roundup.
       </p>
       <p>
         If you&rsquo;re building a longevity-oriented stack, liver
@@ -400,7 +406,7 @@ Inhaled (nebulized) NAC — sometimes used as a mucolytic — can trigger bronch
 NAC's safety profile during pregnancy and lactation is not well-established. If you have PCOS and are trying to conceive, do not self-prescribe NAC as a fertility intervention. Bring this evidence to your reproductive endocrinologist or OB/GYN and let them integrate it into your treatment plan — particularly if you're already on metformin or clomiphene.
       </Callout>
 
-      <p>The bottom line: NAC is not a standalone fertility treatment, but the RCT evidence for <strong>NAC in PCOS</strong> — particularly for ovulation support at 1,200–1,800 mg/day — is more substantive than what most supplements can claim in this space. It deserves a conversation with your doctor, not a solo experiment.</p>
+      <p>The bottom line: NAC is not a standalone fertility treatment, but the RCT evidence for <strong>NAC in PCOS</strong> — particularly for ovulation support at 1,200–1,800 mg/day — is more substantive than what most supplements can claim in this space. It deserves a conversation with your doctor, not a solo experiment. For how NAC fits alongside inositol, vitamin D, and the other evidence-backed options, see our full <a href="/guides/best-supplements-for-pcos">best supplements for PCOS</a> roundup.</p>
 
 
       <h2>How Long Until NAC Works? Setting Realistic Expectations</h2>

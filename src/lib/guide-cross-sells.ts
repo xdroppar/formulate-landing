@@ -298,6 +298,37 @@ export const guideCrossSells: Record<string, CrossSellLink[]> = {
     { slug: "best-multivitamin-over-50", label: "Best Multivitamin Over 50", blurb: "B12 form matters most in senior formulas — here's which multis get it right." },
     { slug: "do-you-need-a-multivitamin", label: "Do You Need a Multivitamin?", blurb: "B12 is one of the nutrients where targeted supplementation usually beats a generic multi." },
   ],
+  // ------------------------------- Condition-specific spoke guides (Round 3)
+  "best-supplements-for-pcos": [
+    { slug: "nac-guide", label: "NAC Guide", blurb: "The full mechanism behind NAC's role in PCOS ovulation and insulin sensitivity — dosing, safety, and fertility considerations." },
+    { slug: "berberine-guide", label: "Berberine Guide", blurb: "Metformin-like AMPK activation for insulin-resistant PCOS — forms, timing, and drug interactions in depth." },
+    { slug: "berberine-vs-metformin", label: "Berberine vs Metformin", blurb: "Head-to-head comparison for anyone weighing a non-pharmaceutical path in PCOS management." },
+  ],
+  "best-supplements-for-menopause": [
+    { slug: "best-vitamin-d-supplements", label: "Best Vitamin D Supplements", blurb: "The D3+K2 foundation for postmenopausal bone health — ranked by clinical evidence and third-party testing." },
+    { slug: "creatine-for-women", label: "Creatine for Women", blurb: "Why 3–5 g/day preserves bone density and lean mass after menopause without bulking or water weight concerns." },
+    { slug: "ashwagandha-guide", label: "Ashwagandha Guide", blurb: "KSM-66 for cortisol modulation, mood stability, and the sleep disruption that defines the menopausal transition." },
+  ],
+  "best-supplements-for-fatty-liver": [
+    { slug: "nac-guide", label: "NAC Guide", blurb: "Glutathione replenishment mechanism behind NAC's ALT-lowering effects in NAFLD — dosing, safety, and timing." },
+    { slug: "best-omega-3-supplements", label: "Best Omega-3 Supplements", blurb: "2–4 g EPA+DHA reliably reduces liver fat content on MRI — ranked picks with verified concentration." },
+    { slug: "nac-and-alcohol", label: "NAC and Alcohol", blurb: "If alcohol is part of your liver risk picture, NAC's hepatoprotective mechanisms overlap meaningfully with the NAFLD evidence." },
+  ],
+  "best-supplements-for-adhd-focus": [
+    { slug: "best-omega-3-supplements", label: "Best Omega-3 Supplements", blurb: "EPA-dominant formulas are the strongest-evidence ADHD supplement — here's how to find one that's actually dosed correctly." },
+    { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Magnesium glycinate for the deficiency-driven hyperactivity component — form matters more than dose for neurological applications." },
+    { slug: "nootropics-guide", label: "Nootropics Guide", blurb: "Where ADHD supplements fit in the broader cognitive-support landscape — including what's overhyped and what actually works." },
+  ],
+  "best-supplements-for-runners": [
+    { slug: "iron-guide", label: "Iron Guide", blurb: "Ferritin testing and safe supplementation for the #1 runner-specific deficiency — foot-strike hemolysis is real." },
+    { slug: "electrolytes-guide", label: "Electrolytes Guide", blurb: "Sodium-forward hydration for runs over 60 minutes — most commercial sports drinks underdose where it matters." },
+    { slug: "creatine-for-endurance-athletes", label: "Creatine for Endurance Athletes", blurb: "Why 3–5 g/day improves hard session quality without meaningful water weight for marathoners and trail runners." },
+  ],
+  "best-supplements-for-perimenopause": [
+    { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Glycinate form targets the sleep disruption that defines early perimenopause — form and timing both matter." },
+    { slug: "best-supplements-for-menopause", label: "Best Supplements for Menopause", blurb: "The post-menopause stack once cycles have stopped — different hormonal picture, different priorities." },
+    { slug: "creatine-for-women", label: "Creatine for Women", blurb: "Muscle and bone preservation during the transition — Smith-Ryan 2021 evidence applies before menopause, not just after." },
+  ],
 };
 
 export function getCrossSellsForGuide(slug: string): CrossSellLink[] | undefined {

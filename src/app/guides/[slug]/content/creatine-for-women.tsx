@@ -123,7 +123,8 @@ export function CreatineForWomen() {
       <h2>Creatine for Menopause and Postmenopausal Bone Health</h2>
 
       <p>
-        Declining estrogen during perimenopause and menopause accelerates bone
+        Declining estrogen during <a href="/guides/best-supplements-for-perimenopause">perimenopause</a> and{" "}
+        <a href="/guides/best-supplements-for-menopause">menopause</a> accelerates bone
         mineral density (BMD) loss and shifts body composition toward higher
         fat mass and lower lean mass. Creatine addresses both concerns
         indirectly through enhanced resistance training capacity, and possibly

@@ -53,7 +53,11 @@ export function NootropicsGuide() {
         Think of nootropics as the last 5&ndash;10% of cognitive
         optimization. If sleep, exercise, nutrition, and stress management
         are the engine, nootropics are the fuel additive. Useful, but only
-        once the engine is running properly.
+        once the engine is running properly. If the focus problem you&rsquo;re
+        trying to solve is specifically ADHD rather than general cognitive
+        performance, our <a href="/guides/best-supplements-for-adhd-focus">best supplements for ADHD and focus</a> guide
+        covers the evidence-backed stack that complements (rather than replaces)
+        stimulant medication.
       </p>
 
       <h2>Tier 1: Strong Human Evidence</h2>
