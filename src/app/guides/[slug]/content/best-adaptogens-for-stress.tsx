@@ -1,7 +1,6 @@
 import {
   TLDRBox,
   Callout,
-  ComparisonTable,
   EvidenceBadge,
 } from "@/components/guide";
 
@@ -90,36 +89,26 @@ export function BestAdaptogensForStress() {
       </p>
 
       <h2>Head-to-Head Comparison</h2>
-      <ComparisonTable
-        products={["Ashwagandha (KSM-66)", "Rhodiola Rosea", "Reishi"]}
-        columns={["Primary Mechanism", "Best-Supported Use", "Standard Dose", "Onset", "Evidence Quality", "Cycling Needed?"]}
-        data={{
-          "Ashwagandha (KSM-66)": [
-            "HPA-axis / cortisol reduction",
-            "Chronic stress, anxiety, sleep",
-            "600 mg/day",
-            "4–8 weeks",
-            "Strong (multiple RCTs, meta-analyses)",
-            "No — daily long-term use is supported",
-          ],
-          "Rhodiola Rosea": [
-            "SAM system / monoamines",
-            "Acute fatigue, burnout, cognition",
-            "200–600 mg/day (3% rosavins)",
-            "30–60 min (acute); 1–4 weeks (burnout)",
-            "Moderate (good RCTs, smaller samples)",
-            "Yes — 4 weeks on / 1–2 weeks off",
-          ],
-          "Reishi": [
-            "Immune cytokine modulation",
-            "Immune support, gentle sleep aid",
-            "1–1.5 g/day hot-water extract",
-            "2–4 weeks (subtle)",
-            "Emerging (limited human stress RCTs)",
-            "No — daily long-term appears safe",
-          ],
-        }}
-      />
+      <div className="overflow-x-auto my-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-3 font-semibold"></th>
+              <th className="text-left py-2 pr-3 font-semibold">Ashwagandha (KSM-66)</th>
+              <th className="text-left py-2 pr-3 font-semibold">Rhodiola Rosea</th>
+              <th className="text-left py-2 font-semibold">Reishi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3 text-muted">Primary mechanism</td><td className="py-2 pr-3">HPA-axis / cortisol reduction</td><td className="py-2 pr-3">SAM system / monoamines</td><td className="py-2">Immune cytokine modulation</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3 text-muted">Best-supported use</td><td className="py-2 pr-3">Chronic stress, anxiety, sleep</td><td className="py-2 pr-3">Acute fatigue, burnout, cognition</td><td className="py-2">Immune support, gentle sleep aid</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3 text-muted">Standard dose</td><td className="py-2 pr-3">600 mg/day</td><td className="py-2 pr-3">200&ndash;600 mg/day (3% rosavins)</td><td className="py-2">1&ndash;1.5 g/day hot-water extract</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3 text-muted">Onset</td><td className="py-2 pr-3">4&ndash;8 weeks</td><td className="py-2 pr-3">30&ndash;60 min acute; 1&ndash;4 wk burnout</td><td className="py-2">2&ndash;4 weeks (subtle)</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3 text-muted">Evidence quality</td><td className="py-2 pr-3">Strong (RCTs, meta-analyses)</td><td className="py-2 pr-3">Moderate (good RCTs, smaller samples)</td><td className="py-2">Emerging (limited human stress RCTs)</td></tr>
+            <tr><td className="py-2 pr-3 text-muted">Cycling needed?</td><td className="py-2 pr-3">No &mdash; daily long-term supported</td><td className="py-2 pr-3">Yes &mdash; 4 weeks on / 1&ndash;2 off</td><td className="py-2">No &mdash; daily long-term appears safe</td></tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>How to Choose: A Decision Tree</h2>
       <p>

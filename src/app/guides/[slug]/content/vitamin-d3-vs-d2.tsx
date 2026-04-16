@@ -2,7 +2,6 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ComparisonTable,
   EvidenceBadge,
   PRODUCTS,
 } from "@/components/guide";
@@ -207,22 +206,21 @@ export function VitaminD3VsD2() {
         25(OH)D.
       </p>
 
-      <ComparisonTable
-        products={["D2 Prescription", "D3 OTC Equivalent"]}
-        columns={["Regimen", "Weekly D2 Dose", "Approximate Daily D3 Equivalent"]}
-        data={{
-          "D2 Prescription": {
-            "Regimen": "Standard weekly repletion",
-            "Weekly D2 Dose": "50,000 IU once weekly",
-            "Approximate Daily D3 Equivalent": "~3,800 IU daily*",
-          },
-          "D3 OTC Equivalent": {
-            "Regimen": "Daily maintenance equivalent",
-            "Weekly D2 Dose": "N/A",
-            "Approximate Daily D3 Equivalent": "~4,000&ndash;5,000 IU daily",
-          },
-        }}
-      />
+      <div className="overflow-x-auto my-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-3 font-semibold">Regimen</th>
+              <th className="text-left py-2 pr-3 font-semibold">Weekly D2 dose</th>
+              <th className="text-left py-2 font-semibold">Approximate daily D3 equivalent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border/50"><td className="py-2 pr-3">Standard weekly repletion</td><td className="py-2 pr-3">50,000 IU once weekly</td><td className="py-2">~3,800 IU daily*</td></tr>
+            <tr><td className="py-2 pr-3">Daily maintenance equivalent</td><td className="py-2 pr-3">N/A</td><td className="py-2">~4,000&ndash;5,000 IU daily</td></tr>
+          </tbody>
+        </table>
+      </div>
 
       <p>
         <em>

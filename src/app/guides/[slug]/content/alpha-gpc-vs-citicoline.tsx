@@ -1,7 +1,6 @@
 import {
   TLDRBox,
   Callout,
-  ComparisonTable,
   EvidenceBadge,
 } from "@/components/guide";
 
@@ -72,22 +71,28 @@ export function AlphaGpcVsCiticoline() {
 
       <h2>Head-to-Head Comparison</h2>
 
-      <ComparisonTable
-        products={["Alpha-GPC", "Citicoline"]}
-        columns={["Feature", "Alpha-GPC", "Citicoline"]}
-        data={{
-          "Choline by weight": ["~40%", "~18%"],
-          "Additional metabolite": ["Glycerophosphate", "Cytidine → Uridine"],
-          "Onset speed": ["30–60 min", "60–90 min"],
-          "Primary strength": ["Acute focus, power output", "Long-term memory, neuroprotection"],
-          "Standard dose": ["300–600 mg", "250–500 mg"],
-          "Side effects": ["Headaches, GI upset at high doses", "Very well-tolerated"],
-          "Cost per serving": ["$0.15–0.40", "$0.20–0.50"],
-          "Evidence depth": ["Moderate (athletic + acute cognition)", "Moderate (long-term cognition + stroke)"],
-          "BBB penetration": ["Rapid", "Efficient but slower"],
-          "Safety flag": ["Observational stroke concern (Lee 2021)", "None significant"]
-        }}
-      />
+      <div className="overflow-x-auto my-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-4 font-semibold">Feature</th>
+              <th className="text-left py-2 pr-4 font-semibold">Alpha-GPC</th>
+              <th className="text-left py-2 font-semibold">Citicoline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Choline by weight</td><td className="py-2 pr-4">~40%</td><td className="py-2">~18%</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Additional metabolite</td><td className="py-2 pr-4">Glycerophosphate</td><td className="py-2">Cytidine &rarr; Uridine</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Onset speed</td><td className="py-2 pr-4">30&ndash;60 min</td><td className="py-2">60&ndash;90 min</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Primary strength</td><td className="py-2 pr-4">Acute focus, power output</td><td className="py-2">Long-term memory, neuroprotection</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Standard dose</td><td className="py-2 pr-4">300&ndash;600 mg</td><td className="py-2">250&ndash;500 mg</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Side effects</td><td className="py-2 pr-4">Headaches, GI upset at high doses</td><td className="py-2">Very well-tolerated</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">Cost per serving</td><td className="py-2 pr-4">$0.15&ndash;0.40</td><td className="py-2">$0.20&ndash;0.50</td></tr>
+            <tr className="border-b border-border/50"><td className="py-2 pr-4 text-muted">BBB penetration</td><td className="py-2 pr-4">Rapid</td><td className="py-2">Efficient but slower</td></tr>
+            <tr><td className="py-2 pr-4 text-muted">Safety flag</td><td className="py-2 pr-4">Observational stroke concern (Lee 2021)</td><td className="py-2">None significant</td></tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>Who Should Take Alpha-GPC</h2>
 

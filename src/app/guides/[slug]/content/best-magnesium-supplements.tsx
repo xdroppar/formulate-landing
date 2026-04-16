@@ -290,7 +290,7 @@ export function BestMagnesium() {
         products={[
           PRODUCTS["thorne-magnesium-bisglycinate"],
           PRODUCTS["nootropics-depot-magnesium-glycinate"],
-          PRODUCTS["nootropics-depot-micromag"],
+          PRODUCTS["thorne-magnesium-citramate"],
         ]}
         columns={[
           { label: "Form", key: "form" },
@@ -301,7 +301,7 @@ export function BestMagnesium() {
         data={{
           "thorne-magnesium-bisglycinate": { form: "Bisglycinate", dose: "200mg", use: "Sleep, general", certs: "NSF Sport" },
           "nootropics-depot-magnesium-glycinate": { form: "Glycinate", dose: "200mg", use: "Sleep, anxiety", certs: "In-house" },
-          "nootropics-depot-micromag": { form: "Sucrosomial", dose: "200mg", use: "Absorption, GI-sensitive", certs: "In-house" },
+          "thorne-magnesium-citramate": { form: "Citrate + malate", dose: "135mg", use: "Budget, GI motility", certs: "NSF Sport" },
         }}
       />
       <p>

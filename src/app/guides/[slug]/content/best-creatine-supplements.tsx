@@ -134,7 +134,6 @@ export function BestCreatine() {
         products={[
           PRODUCTS["thorne-creatine"],
           PRODUCTS["nootropics-depot-creatine"],
-          PRODUCTS["transparent-labs-creatine-hmb"],
         ]}
         columns={[
           { label: "Form", key: "form" },
@@ -145,7 +144,6 @@ export function BestCreatine() {
         data={{
           "thorne-creatine": { form: "Monohydrate (Creapure)", dose: "5g", certs: "NSF Sport", price: "~$0.60" },
           "nootropics-depot-creatine": { form: "Monohydrate", dose: "5g", certs: "In-house", price: "~$0.30" },
-          "transparent-labs-creatine-hmb": { form: "Monohydrate + HMB", dose: "5g + 1.5g HMB", certs: "Informed Sport", price: "~$1.00" },
         }}
       />
       <p>
