@@ -1,0 +1,57 @@
+Will critique 31 guide(s). Estimated cost: $1.55
+[1/31] best-creatine-supplements ... OK  8 rebuttals, 6 additions ($0.088)
+[2/31] best-magnesium-supplements ... OK  8 rebuttals, 7 additions ($0.098)
+[3/31] best-omega-3-supplements ... OK  7 rebuttals, 6 additions ($0.098)
+[4/31] best-vitamin-d-supplements ... OK  8 rebuttals, 7 additions ($0.103)
+[5/31] best-sleep-supplement-protocol ... OK  9 rebuttals, 6 additions ($0.094)
+[6/31] best-pre-workout-supplement-protocol ... OK  8 rebuttals, 6 additions ($0.092)
+[7/31] how-to-build-a-supplement-stack ... OK  9 rebuttals, 6 additions ($0.104)
+[8/31] supplement-timing-guide ... OK  10 rebuttals, 7 additions ($0.107)
+[9/31] how-to-read-a-supplement-label ... OK  8 rebuttals, 6 additions ($0.099)
+[10/31] signs-you-are-magnesium-deficient ... OK  9 rebuttals, 6 additions ($0.098)
+[11/31] do-you-need-a-multivitamin ... OK  8 rebuttals, 6 additions ($0.109)
+[12/31] what-to-look-for-in-a-probiotic ... OK  9 rebuttals, 7 additions ($0.106)
+[13/31] beginner-longevity-supplement-stack ... OK  11 rebuttals, 7 additions ($0.121)
+[14/31] creatine-loading-phase ... OK  9 rebuttals, 6 additions ($0.104)
+[15/31] zinc-guide ... OK  7 rebuttals, 6 additions ($0.095)
+[16/31] lions-mane-guide ... OK  9 rebuttals, 7 additions ($0.095)
+[17/31] nac-guide ... OK  8 rebuttals, 5 additions ($0.092)
+[18/31] ashwagandha-guide ... OK  7 rebuttals, 6 additions ($0.093)
+[19/31] collagen-guide ... OK  8 rebuttals, 6 additions ($0.102)
+[20/31] vitamin-b12-guide ... Traceback (most recent call last):
+  File "C:\Users\xdrop\clawd\formulate-landing\tools\critic_guides.py", line 188, in critique_guide
+    critique = json.loads(text)
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 34 column 173 (char 4270)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xdrop\clawd\formulate-landing\tools\critic_guides.py", line 323, in main
+    result = critique_guide(client, slug, meta, content)
+  File "C:\Users\xdrop\clawd\formulate-landing\tools\critic_guides.py", line 192, in critique_guide
+    critique = json.loads(m.group()) if m else {"error": f"parse failed: {e}", "raw": text[:500]}
+               ~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xdrop\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 34 column 173 (char 4270)
+ERR JSONDecodeError: Expecting ',' delimiter: line 34 column 173 (char 4270)
+[21/31] berberine-guide ... OK  7 rebuttals, 6 additions ($0.096)
+[22/31] electrolytes-guide ... OK  9 rebuttals, 7 additions ($0.111)
+[23/31] taurine-guide ... OK  8 rebuttals, 5 additions ($0.092)
+[24/31] iron-guide ... 

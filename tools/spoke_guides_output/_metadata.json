@@ -1,50 +1,116 @@
 [
   {
-    "slug": "creatine-for-women",
-    "pascal": "CreatineForWomen",
-    "word_count": 2480,
+    "slug": "berberine-vs-metformin",
+    "pascal": "BerberineVsMetformin",
+    "word_count": 2420,
     "internal_links": [
-      "best-creatine-supplements",
-      "creatine-loading-phase",
-      "best-magnesium-supplements",
-      "best-vitamin-d-supplements",
+      "berberine-guide",
+      "how-to-read-a-supplement-label",
       "beginner-longevity-supplement-stack"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=berberine",
+    "brief": {
+      "slug": "berberine-vs-metformin",
+      "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
+      "description": "Berberine is marketed as natural metformin, but the comparison is more nuanced. Here's how the mechanisms, evidence, and safety profiles actually stack up.",
+      "category": "review",
+      "primary_keyword": "berberine vs metformin",
+      "target_queries": [
+        "berberine vs metformin",
+        "is berberine as good as metformin",
+        "berberine instead of metformin",
+        "berberine for type 2 diabetes",
+        "natural metformin alternative"
+      ],
+      "key_points": [
+        "Both activate AMPK pathway, reduce hepatic glucose output, improve insulin sensitivity — mechanistic overlap is real",
+        "Yin et al. 2008 — 500mg berberine 3x/day for 3 months produced HbA1c reductions similar to 500mg metformin 3x/day in newly-diagnosed type 2 diabetics",
+        "BUT: Yin study was small (n=84), limited duration, Chinese cohort — not equivalent to metformin's massive evidence base (50+ years, millions of patients)",
+        "Metformin has documented cardiovascular and longevity benefits in large trials; berberine does not yet have equivalent outcome data",
+        "Berberine has poor oral bioavailability (~5%) — dihydroberberine or berberine + silymarin improves absorption",
+        "Side effects: berberine causes GI issues in 30-40% of users; metformin similar but more studied. Both can cause B12 depletion long-term",
+        "NEVER substitute without physician oversight — hypoglycemia risk if taking both, and metformin has better evidence for diabetic complications prevention",
+        "For prediabetes or insulin sensitivity in non-diabetics, berberine may be reasonable under supervision. For established T2D, metformin remains first-line per ADA guidelines"
+      ],
+      "sections_to_cover": [
+        "Why the Comparison Gets Made",
+        "Shared Mechanism: AMPK Activation",
+        "The Evidence Gap: RCTs and Timelines",
+        "Safety Profiles Compared",
+        "Side Effects: Similar Profile, Different Depths",
+        "Who Should Consider Berberine",
+        "Who Should Stay on Metformin",
+        "Can You Take Both?",
+        "The Bioavailability Problem",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "berberine-guide",
+          "anchor": "berberine guide"
+        },
+        {
+          "slug": "how-to-read-a-supplement-label",
+          "anchor": "supplement label"
+        },
+        {
+          "slug": "beginner-longevity-supplement-stack",
+          "anchor": "longevity supplement stack"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "read_time": "10 min read",
+      "target_word_count": 2400
+    }
+  },
+  {
+    "slug": "creatine-for-endurance-athletes",
+    "pascal": "CreatineForEnduranceAthletes",
+    "word_count": 2340,
+    "internal_links": [
+      "electrolytes-guide",
+      "creatine-loading-phase",
+      "best-creatine-supplements",
+      "best-pre-workout-supplement-protocol"
     ],
     "catalog_link": "https://app.formulate-health.app/catalog?q=creatine",
     "brief": {
-      "slug": "creatine-for-women",
-      "title": "Creatine for Women: The Complete Evidence-Based Guide (2026)",
-      "description": "Women's creatine research through menopause, training, body composition, and mood. No bloating myths, no men's-magazine claims — just the evidence.",
+      "slug": "creatine-for-endurance-athletes",
+      "title": "Creatine for Endurance Athletes: The Overlooked Performance Tool",
+      "description": "Creatine is labeled a 'strength supplement' but endurance athletes from cyclists to triathletes benefit in surprising ways. Here's what the evidence actually shows.",
       "category": "guide",
-      "primary_keyword": "creatine for women",
+      "primary_keyword": "creatine for endurance athletes",
       "target_queries": [
-        "creatine for women",
-        "is creatine safe for women",
-        "does creatine cause weight gain in women",
-        "creatine for women over 40",
-        "creatine and menopause"
+        "creatine for endurance athletes",
+        "creatine for runners",
+        "creatine for cyclists",
+        "does creatine help endurance",
+        "creatine for triathletes"
       ],
       "key_points": [
-        "Women have ~70-80% lower baseline muscle creatine than men (Forsberg et al., 1991), so response to supplementation may be larger",
-        "Smith-Ryan et al. 2021 (Nutrients) — comprehensive review of creatine benefits across female lifespan: strength, body composition, bone health, mood, cognitive function",
-        "Chilibeck et al. 2017 (Medicine & Science in Sports & Exercise) — creatine + resistance training reduced bone mineral density loss in postmenopausal women",
-        "Gordon et al. 2018 — creatine may improve mood and reduce depression symptoms in women, particularly effective when combined with SSRIs",
-        "Dispel bloating myth — water retention is INTRA-cellular (inside muscle cells), not sub-cutaneous puffiness. Visible weight gain 1-2 lbs is muscle cell hydration",
-        "Dose is same as men (3-5g daily) — no adjustment for body weight needed at maintenance",
-        "Discuss pregnancy/breastfeeding: insufficient human data, consult OB-GYN (Dickinson et al. 2014 animal data on fetal neuroprotection is promising but not clinically actionable)",
-        "Hormonal contraceptives don't affect creatine absorption or efficacy",
-        "Creatine works particularly well paired with resistance training (not cardio alone)"
+        "Creatine is NOT anti-endurance — the weight gain concern is ~1-2lbs water retention in muscle cells, negligible for most endurance athletes",
+        "Benefits for endurance: improved glycogen replenishment (Robinson 1999), better repeated sprint performance (critical for cycling/soccer), faster recovery between training sessions",
+        "ISSN position stand (Kreider 2017) — creatine benefits span strength, power, AND high-intensity intermittent exercise (relevant to interval training)",
+        "Dose same as strength athletes: 3-5g daily, no need to cycle",
+        "Especially beneficial during heavy training blocks when glycogen demands are high",
+        "May help with heat tolerance — creatine's water retention occurs intracellularly, which can aid fluid balance",
+        "Not a race-day supplement — benefits come from chronic saturation, not acute dosing",
+        "Some endurance athletes report improved recovery markers (reduced CK, less DOMS) though this is individual",
+        "Combining creatine with beta-alanine has synergistic effects on high-intensity endurance"
       ],
       "sections_to_cover": [
-        "Why Women Respond Differently to Creatine (mechanism, baseline levels)",
-        "What the Research Actually Shows (Smith-Ryan 2021, Chilibeck 2017, Gordon 2018)",
-        "Body Composition: Does Creatine Make Women 'Bulky'? (debunk)",
-        "Creatine for Menopause and Postmenopausal Bone Health",
-        "Creatine and Mood/Depression in Women",
-        "How to Take It: Dose, Timing, Forms (all same as men)",
-        "Common Concerns: Bloating, Water Weight, Hair Loss (spoiler: no, no, probably not)",
-        "Who Should Consult a Doctor First (pregnancy, breastfeeding, kidney issues)",
-        "FAQ (pregnancy, PCOS, fertility, weight loss, hair loss, timing with cycle)",
+        "The Endurance Athlete's Creatine Myth",
+        "What Creatine Actually Does (And Doesn't)",
+        "Evidence Base: Beyond the Weightlifting Lens",
+        "When Endurance Athletes Should Consider It",
+        "Glycogen, Sprints, and Recovery",
+        "The Weight Gain Question",
+        "Protocol: Dose, Timing, Cycling",
+        "Creatine + Other Endurance Supplements",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
         "The Bottom Line"
       ],
       "cross_links": [
@@ -57,222 +123,68 @@
           "anchor": "creatine loading phase"
         },
         {
-          "slug": "best-magnesium-supplements",
-          "anchor": "magnesium"
-        },
-        {
-          "slug": "best-vitamin-d-supplements",
-          "anchor": "vitamin D"
-        },
-        {
-          "slug": "beginner-longevity-supplement-stack",
-          "anchor": "beginner longevity stack"
-        }
-      ],
-      "evidence_registry_ids_to_use": [
-        "creatine-smith-ryan-women-2021",
-        "creatine-kreider-issn-2017",
-        "creatine-avgerinos-cognitive-2018"
-      ],
-      "read_time": "10 min read",
-      "target_word_count": 2500
-    }
-  },
-  {
-    "slug": "best-time-to-take-magnesium",
-    "pascal": "BestTimeToTakeMagnesium",
-    "word_count": 2280,
-    "internal_links": [
-      "best-magnesium-supplements",
-      "signs-you-are-magnesium-deficient",
-      "supplement-timing-guide",
-      "best-sleep-supplement-protocol"
-    ],
-    "catalog_link": "https://app.formulate-health.app/catalog?q=magnesium",
-    "brief": {
-      "slug": "best-time-to-take-magnesium",
-      "title": "Best Time to Take Magnesium: The Timing Science (2026)",
-      "description": "Morning, evening, or with food — when you take magnesium matters more than you think. Form-specific timing rules backed by clinical research.",
-      "category": "guide",
-      "primary_keyword": "best time to take magnesium",
-      "target_queries": [
-        "best time to take magnesium",
-        "when to take magnesium glycinate",
-        "magnesium morning or night",
-        "take magnesium with food",
-        "magnesium timing for sleep"
-      ],
-      "key_points": [
-        "Glycinate and threonate: take 30-60 min before bed for sleep benefit (glycine has calming effect, threonate supports cognition with overnight consolidation)",
-        "Citrate: morning or early afternoon — mild laxative effect makes evening dosing impractical for most",
-        "Oxide: skip entirely (~4% absorption per Firoz & Graber 2001)",
-        "Take with food if sensitive stomach — slightly reduces absorption but reduces GI issues",
-        "Space from iron, calcium, and certain antibiotics by at least 2 hours",
-        "Split doses over 200mg into morning + evening to improve absorption",
-        "If taking for muscle cramps during exercise, take 1-2 hours before activity",
-        "Abbasi et al. 2012 sleep study used bedtime dosing — supports pre-bed timing for glycinate",
-        "Don't take with coffee (tannins may slightly impair absorption; wait 1 hour)",
-        "Magnesium threonate (Magtein) — evidence for cognitive benefits at split AM/PM dosing per Liu 2016"
-      ],
-      "sections_to_cover": [
-        "Why Magnesium Timing Actually Matters (absorption + form-specific effects)",
-        "Morning vs Evening: It Depends on the Form",
-        "Form-by-Form Timing Guide (glycinate, threonate, citrate, taurate, oxide)",
-        "With or Without Food?",
-        "Timing for Specific Goals (sleep, anxiety, cognition, cramps)",
-        "Drug and Supplement Interactions to Time Around",
-        "Should You Split Doses?",
-        "Who Should Talk to a Doctor First",
-        "FAQ (coffee, calcium, timing with other supplements)",
-        "The Bottom Line: Your Personal Timing Plan"
-      ],
-      "cross_links": [
-        {
-          "slug": "best-magnesium-supplements",
-          "anchor": "best magnesium supplements"
-        },
-        {
-          "slug": "signs-you-are-magnesium-deficient",
-          "anchor": "magnesium deficiency"
-        },
-        {
-          "slug": "supplement-timing-guide",
-          "anchor": "supplement timing guide"
-        },
-        {
-          "slug": "best-sleep-supplement-protocol",
-          "anchor": "sleep supplement protocol"
-        }
-      ],
-      "evidence_registry_ids_to_use": [
-        "magnesium-abbasi-sleep-2012",
-        "magnesium-slutsky-threonate-2010",
-        "magnesium-liu-magtein-2016",
-        "magnesium-firoz-graber-2001"
-      ],
-      "read_time": "9 min read",
-      "target_word_count": 2200
-    }
-  },
-  {
-    "slug": "alpha-gpc-vs-citicoline",
-    "pascal": "AlphaGpcVsCiticoline",
-    "word_count": 2320,
-    "internal_links": [
-      "how-to-read-a-supplement-label",
-      "nootropics-guide",
-      "best-pre-workout-supplement-protocol",
-      "lions-mane-guide"
-    ],
-    "catalog_link": "https://app.formulate-health.app/catalog?q=choline",
-    "brief": {
-      "slug": "alpha-gpc-vs-citicoline",
-      "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
-      "description": "Two of the most effective nootropics, both precursors to acetylcholine. We break down the evidence, dosing, bioavailability, and which one fits which goal.",
-      "category": "review",
-      "primary_keyword": "alpha-gpc vs citicoline",
-      "target_queries": [
-        "alpha-gpc vs citicoline",
-        "best choline supplement",
-        "nootropic choline source",
-        "which is better alpha gpc or citicoline",
-        "choline for focus"
-      ],
-      "key_points": [
-        "Both are phospholipid choline sources that cross the blood-brain barrier efficiently (unlike choline bitartrate or CDP-choline)",
-        "Alpha-GPC: ~40% elemental choline by weight. Crosses BBB fast, raises brain acetylcholine within 30-60 min",
-        "Citicoline (CDP-choline): ~18% elemental choline by weight, but provides cytidine which converts to uridine (phospholipid synthesis)",
-        "Alpha-GPC — better evidence for acute cognitive performance, power output in athletes (Bellar 2015)",
-        "Citicoline — better evidence for long-term memory, age-related cognitive decline, stroke recovery",
-        "Dose: Alpha-GPC 300-600mg, Citicoline 250-500mg",
-        "Side effects: Alpha-GPC more likely to cause headaches (fat-soluble, fast BBB crossing); Citicoline very well-tolerated",
-        "2021 observational concern about Alpha-GPC and increased stroke risk (Lee et al.) — small association, unclear causation, flag for cautious use if cardiovascular risk",
-        "Cost: Citicoline typically more expensive per mg, but dose is lower so per-serving cost is similar",
-        "Can be stacked together for broader coverage — common advanced nootropics stack"
-      ],
-      "sections_to_cover": [
-        "The Choline Problem: Why Form Matters",
-        "Alpha-GPC: Mechanism, Evidence, Best Use Cases",
-        "Citicoline (CDP-Choline): Mechanism, Evidence, Best Use Cases",
-        "Head-to-Head Comparison Table",
-        "Who Should Take Alpha-GPC",
-        "Who Should Take Citicoline",
-        "Can You Stack Both?",
-        "The Alpha-GPC Stroke Concern: What the Data Actually Says",
-        "Dosing and Timing",
-        "Who Should Talk to a Doctor First",
-        "FAQ",
-        "The Bottom Line"
-      ],
-      "cross_links": [
-        {
-          "slug": "nootropics-guide",
-          "anchor": "nootropics"
-        },
-        {
-          "slug": "lions-mane-guide",
-          "anchor": "lion's mane"
-        },
-        {
-          "slug": "how-to-read-a-supplement-label",
-          "anchor": "supplement label"
+          "slug": "electrolytes-guide",
+          "anchor": "electrolytes"
         },
         {
           "slug": "best-pre-workout-supplement-protocol",
           "anchor": "pre-workout protocol"
         }
       ],
-      "evidence_registry_ids_to_use": [],
-      "include_comparison_table": true,
+      "evidence_registry_ids_to_use": [
+        "creatine-kreider-issn-2017"
+      ],
       "read_time": "9 min read",
       "target_word_count": 2300
     }
   },
   {
-    "slug": "best-adaptogens-for-stress",
-    "pascal": "BestAdaptogensForStress",
-    "word_count": 2580,
+    "slug": "ashwagandha-for-testosterone",
+    "pascal": "AshwagandhaForTestosterone",
+    "word_count": 2340,
     "internal_links": [
       "ashwagandha-guide",
-      "best-sleep-supplement-protocol",
-      "nootropics-guide",
-      "lions-mane-guide"
+      "best-adaptogens-for-stress",
+      "zinc-guide"
     ],
-    "catalog_link": "https://app.formulate-health.app/catalog?q=adaptogens",
+    "catalog_link": "https://app.formulate-health.app/catalog?q=ashwagandha",
     "brief": {
-      "slug": "best-adaptogens-for-stress",
-      "title": "Best Adaptogens for Stress: Ashwagandha vs Rhodiola vs Reishi",
-      "description": "Three of the most-studied adaptogens, compared head-to-head on clinical evidence, mechanism, and which one fits which stress profile.",
-      "category": "roundup",
-      "primary_keyword": "best adaptogens for stress",
+      "slug": "ashwagandha-for-testosterone",
+      "title": "Ashwagandha for Testosterone: What the Evidence Actually Shows",
+      "description": "Ashwagandha shows modest but real testosterone effects in men — especially stressed or sedentary men. Here's how the mechanism works and whether you'll notice.",
+      "category": "review",
+      "primary_keyword": "ashwagandha testosterone",
       "target_queries": [
-        "best adaptogens for stress",
-        "ashwagandha vs rhodiola",
-        "adaptogens for anxiety",
-        "reishi mushroom benefits",
-        "adaptogens for cortisol"
+        "does ashwagandha increase testosterone",
+        "ashwagandha for testosterone",
+        "ashwagandha men",
+        "ashwagandha testosterone study",
+        "natural testosterone boosters"
       ],
       "key_points": [
-        "Ashwagandha (KSM-66, 600mg/day): strongest evidence for cortisol reduction (~28% vs placebo, Chandrasekhar 2012), anxiety, sleep onset. Best for chronic stress + sleep issues",
-        "Rhodiola (3% rosavins, 200-600mg): best for acute stress, fatigue, cognitive performance under pressure. Kasper 2017 — significant burnout symptom reduction in 12 weeks",
-        "Reishi (Ganoderma lucidum, hot water extract 1-1.5g): weakest adaptogen evidence but good for immune modulation + sleep support. Wachtel-Galor 2011 safety data",
-        "Ashwagandha acts primarily via HPA axis (cortisol), Rhodiola via SAM/PEA/serotonin, Reishi via immune cytokine modulation",
-        "Onset: Rhodiola fastest (30-60 min acute effects), Ashwagandha requires 4-8 weeks, Reishi subtle over weeks",
-        "Cycling: Rhodiola may be best cycled (4 weeks on / 2 off) due to potential tolerance; Ashwagandha and Reishi can be daily long-term",
-        "Side effects: Ashwagandha GI/drowsiness (flag liver concerns), Rhodiola mild insomnia if taken late, Reishi generally very mild",
-        "Not true adaptogens but sometimes grouped: holy basil, eleuthero, schisandra — briefly note"
+        "Wankhede et al. 2015 — 600mg KSM-66 × 8 weeks increased testosterone by 15% and DHEA-S in resistance-trained men vs placebo",
+        "Lopresti et al. 2019 — 240mg ashwagandha × 8 weeks increased testosterone 14% in overweight men aged 40-70 vs placebo",
+        "Mechanism: cortisol reduction → reduced HPA stress on testicular function → modest endogenous T increase",
+        "NOT a steroid, NOT a SARM. Increases are 10-20% typical — meaningful for low-normal but won't push high-normal men into high range",
+        "Works better in stressed men, sedentary men, and older men (where cortisol load is suppressing natural T)",
+        "Doesn't work in young fit men with already-optimal T levels — ceiling effect",
+        "Dose: 300-600mg/day KSM-66 or Sensoril, with food, for 8+ weeks before expecting change",
+        "Side effects: mild drowsiness, GI upset, rare liver injury case reports",
+        "Men with hormone-sensitive prostate cancer: avoid",
+        "TRT patients: consult endocrinologist before adding — T effects may stack",
+        "Avoid with sedatives/sleep meds (additive drowsiness)"
       ],
       "sections_to_cover": [
-        "What Actually Makes an Herb an 'Adaptogen'",
-        "Ashwagandha: The Chronic-Stress Workhorse",
-        "Rhodiola Rosea: The Acute Performance Enhancer",
-        "Reishi Mushroom: The Immune-Sleep Bridge",
-        "Head-to-Head Comparison (mechanism, dose, onset, evidence quality)",
-        "How to Choose: A Decision Tree",
-        "Can You Stack Them?",
-        "Quality and Form Matters (KSM-66, standardized rosavins, hot water extract)",
+        "What the Research Actually Shows",
+        "Mechanism: Cortisol → Testosterone",
+        "Who Responds (And Who Doesn't)",
+        "Dose, Timing, and Form",
+        "Realistic Expectations: The 10-20% Reality",
+        "Stacking With Other Supplements",
+        "Compared to Other 'Natural Testosterone Boosters'",
+        "TRT Patients: A Note on Combining",
         "Who Should Talk to a Doctor First",
-        "FAQ (pregnancy, meds, cycling, tolerance)",
+        "FAQ",
         "The Bottom Line"
       ],
       "cross_links": [
@@ -281,163 +193,219 @@
           "anchor": "ashwagandha guide"
         },
         {
-          "slug": "lions-mane-guide",
-          "anchor": "lion's mane"
+          "slug": "best-adaptogens-for-stress",
+          "anchor": "best adaptogens for stress"
         },
         {
-          "slug": "best-sleep-supplement-protocol",
-          "anchor": "sleep supplement protocol"
-        },
-        {
-          "slug": "nootropics-guide",
-          "anchor": "nootropics"
+          "slug": "zinc-guide",
+          "anchor": "zinc"
         }
       ],
       "evidence_registry_ids_to_use": [
-        "ashwagandha-cortisol-2012",
+        "ashwagandha-wankhede-2015",
         "ashwagandha-lopresti-2019",
-        "ashwagandha-pratte-2014"
+        "ashwagandha-cortisol-2012"
       ],
-      "include_comparison_table": true,
-      "read_time": "11 min read",
-      "target_word_count": 2600
+      "read_time": "9 min read",
+      "target_word_count": 2300
     }
   },
   {
-    "slug": "creatine-and-hair-loss",
-    "pascal": "CreatineAndHairLoss",
-    "word_count": 2350,
+    "slug": "best-multivitamin-over-50",
+    "pascal": "BestMultivitaminOver50",
+    "word_count": 2520,
     "internal_links": [
-      "best-creatine-supplements",
-      "creatine-loading-phase",
-      "creatine-for-women",
-      "best-vitamin-d-supplements"
-    ],
-    "catalog_link": "https://app.formulate-health.app/catalog?q=creatine",
-    "brief": {
-      "slug": "creatine-and-hair-loss",
-      "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
-      "description": "The only study linking creatine to hair loss measured a DHT proxy, not actual hair loss — and has never been replicated. Here's what the evidence really shows.",
-      "category": "review",
-      "primary_keyword": "creatine hair loss",
-      "target_queries": [
-        "does creatine cause hair loss",
-        "creatine and dht",
-        "creatine hair loss study",
-        "creatine for men with male pattern baldness",
-        "is creatine safe for hair"
-      ],
-      "key_points": [
-        "The entire creatine-hair-loss concern traces to ONE study: van der Merwe, Brooks, Myburgh (2009, Clinical Journal of Sport Medicine)",
-        "That study measured DHT (dihydrotestosterone) ratios, not actual hair loss — 20 rugby players, 7 days loading + 14 days maintenance",
-        "DHT increased by ~56% (within normal clinical range throughout), DHT:T ratio increased by 36%",
-        "Has never been replicated — 15+ years, zero follow-up confirmation",
-        "DHT increase does NOT automatically equal hair loss — requires genetic predisposition to androgenic alopecia (AGA) plus scalp follicle sensitivity",
-        "Antonio et al. 2024 reviewed all creatine DHT studies — concluded evidence for hair loss is 'extremely limited and speculative'",
-        "If you have family history of MPB: creatine may theoretically accelerate existing pattern, but clinical evidence is absent",
-        "Topical finasteride or minoxidil works alongside creatine — no documented negative interactions",
-        "Not a reason to stop taking creatine for the 99% of users without genetic predisposition",
-        "Honest take: if you're already using finasteride/minoxidil, keep taking creatine; if you're concerned and have strong MPB family history, you can skip without losing much"
-      ],
-      "sections_to_cover": [
-        "The One Study Everyone References",
-        "What They Actually Measured (DHT vs actual hair)",
-        "Why DHT Increase Doesn't Equal Hair Loss",
-        "15 Years Later: Zero Replication",
-        "The Genetic Piece: Androgenic Alopecia Basics",
-        "What Recent Reviews Conclude (Antonio 2024)",
-        "Can You Take Creatine With Finasteride or Minoxidil?",
-        "Practical Guide: Should You Worry?",
-        "Who Should Talk to a Doctor First",
-        "FAQ (genetic testing, topical treatments, other DHT modulators)",
-        "The Bottom Line"
-      ],
-      "cross_links": [
-        {
-          "slug": "best-creatine-supplements",
-          "anchor": "best creatine supplements"
-        },
-        {
-          "slug": "creatine-loading-phase",
-          "anchor": "creatine loading phase"
-        },
-        {
-          "slug": "creatine-for-women",
-          "anchor": "creatine for women"
-        },
-        {
-          "slug": "best-vitamin-d-supplements",
-          "anchor": "vitamin D"
-        }
-      ],
-      "evidence_registry_ids_to_use": [
-        "creatine-kreider-issn-2017"
-      ],
-      "read_time": "8 min read",
-      "target_word_count": 2000
-    }
-  },
-  {
-    "slug": "vitamin-d3-vs-d2",
-    "pascal": "VitaminD3VsD2",
-    "word_count": 2150,
-    "internal_links": [
+      "do-you-need-a-multivitamin",
       "best-vitamin-d-supplements",
-      "supplement-timing-guide",
+      "vitamin-b12-guide",
       "best-magnesium-supplements",
-      "how-to-read-a-supplement-label"
+      "iron-guide"
     ],
-    "catalog_link": "https://app.formulate-health.app/catalog?q=vitamin+d3",
+    "catalog_link": "https://app.formulate-health.app/catalog?q=senior+multivitamin",
     "brief": {
-      "slug": "vitamin-d3-vs-d2",
-      "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
-      "description": "D3 raises blood levels 87% more effectively than D2 — and your prescription vitamin D might be the inferior form. Here's what to know.",
-      "category": "review",
-      "primary_keyword": "vitamin d3 vs d2",
+      "slug": "best-multivitamin-over-50",
+      "title": "Best Multivitamin for Adults Over 50: What to Actually Look For",
+      "description": "Over 50, nutrient absorption declines and specific needs change (B12, D, calcium, iron). Most senior multivitamins get it wrong. Here's what to check.",
+      "category": "roundup",
+      "primary_keyword": "best multivitamin over 50",
       "target_queries": [
-        "vitamin d3 vs d2",
-        "cholecalciferol vs ergocalciferol",
-        "which vitamin d is best",
-        "prescription vitamin d form",
-        "d2 vs d3 absorption"
+        "best multivitamin over 50",
+        "multivitamin for seniors",
+        "senior multivitamin",
+        "best multivitamin for women over 50",
+        "best multivitamin for men over 50"
       ],
       "key_points": [
-        "Tripkovic et al. 2012 meta-analysis (American Journal of Clinical Nutrition) — pooled RCT data showing D3 is ~87% more effective at raising serum 25(OH)D than D2",
-        "D3 (cholecalciferol) — what your skin makes from sunlight, what's in most animal-based foods, most OTC supplements",
-        "D2 (ergocalciferol) — derived from yeast/fungi, what prescription 50,000 IU weekly pills typically contain, cheaper to produce",
-        "D3 binds more efficiently to vitamin D binding protein in blood, has longer half-life (~24 hours vs 6-8 hours for D2)",
-        "D2 clears faster and is less efficiently converted to 25(OH)D in liver",
-        "Vegans: lichen-sourced D3 now widely available — no longer forced to take D2",
-        "If your doctor prescribed 50,000 IU weekly D2: ask about switching to daily D3 — many clinicians still prescribe D2 out of habit",
-        "Equivalent doses: roughly 1 unit D3 ≈ 1.87 units D2 in raising blood levels",
-        "Combine D3 with K2 (MK-7) at doses above 2,000 IU/day (Knapen 2017)",
-        "Take with fat-containing meal — absorption up to 50% better (Dawson-Hughes 2015)"
+        "Adults 50+ need DIFFERENT nutrients than younger adults: more B12 (absorption drops), more D3, LESS iron (for men), more calcium with K2",
+        "Stomach acid production declines with age → food-bound B12 poorly absorbed → need supplemental methylcobalamin",
+        "Most 'senior' multivitamins still contain iron — men over 50 should avoid iron supplementation without deficiency documented",
+        "Calcium should be limited to 500mg/dose for absorption; spread across day; always paired with K2 (MK-7) to direct to bones",
+        "Vitamin D3 at 1,000-2,000 IU minimum; test first for personal dose (many older adults need 5,000 IU)",
+        "Magnesium: 200-400mg, prefer glycinate (sleep) or citrate (regularity) — often missing from senior multis",
+        "Omega-3 not in multivitamins — take separately for cardiovascular + cognitive benefits",
+        "Avoid proprietary blends, copper-free formulas (long-term zinc depletes copper), and underdosed B-complex",
+        "Recommended brands: Thorne Advanced Nutrients 2-Day (pharmaceutical-grade), Pure Encapsulations ONE Multivitamin (simplicity), Nordic Naturals Complete Multi (omega-3 included)"
       ],
       "sections_to_cover": [
-        "What D3 and D2 Actually Are",
-        "The Tripkovic 2012 Meta-Analysis: 87% More Effective",
-        "Why D3 Outperforms D2 (mechanism)",
-        "Why Is D2 Still Prescribed?",
-        "Vegan D3: The Lichen Option",
-        "What to Do If Your Doctor Prescribed D2",
-        "Dose Equivalence: How to Convert",
-        "Take It Right: Fat, K2, Magnesium Cofactors",
+        "Why Nutrient Needs Change After 50",
+        "The B12 Absorption Problem",
+        "Iron: Men vs Women After 50",
+        "Vitamin D: The Aging Deficiency",
+        "Calcium + K2: The Bone Direction Question",
+        "What Most 'Senior' Multivitamins Get Wrong",
+        "Our Top Picks and Why",
+        "What to Take Separately",
         "Who Should Talk to a Doctor First",
-        "FAQ (prescription D2, multivitamin D forms, UV B vs supplements)",
+        "FAQ",
         "The Bottom Line"
       ],
       "cross_links": [
+        {
+          "slug": "do-you-need-a-multivitamin",
+          "anchor": "do you need a multivitamin"
+        },
         {
           "slug": "best-vitamin-d-supplements",
           "anchor": "best vitamin D supplements"
         },
         {
-          "slug": "supplement-timing-guide",
-          "anchor": "supplement timing"
+          "slug": "vitamin-b12-guide",
+          "anchor": "vitamin B12 guide"
         },
         {
           "slug": "best-magnesium-supplements",
-          "anchor": "magnesium"
+          "anchor": "best magnesium supplements"
+        },
+        {
+          "slug": "iron-guide",
+          "anchor": "iron guide"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "read_time": "11 min read",
+      "target_word_count": 2500
+    }
+  },
+  {
+    "slug": "nac-and-alcohol",
+    "pascal": "NacAndAlcohol",
+    "word_count": 2150,
+    "internal_links": [
+      "nac-guide",
+      "electrolytes-guide",
+      "what-to-look-for-in-a-probiotic"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=nac",
+    "brief": {
+      "slug": "nac-and-alcohol",
+      "title": "NAC and Alcohol: The Liver Protection Timing Question",
+      "description": "NAC genuinely protects the liver from alcohol damage, but ONLY when taken before drinking. Here's the evidence-based protocol and why post-drink timing fails.",
+      "category": "review",
+      "primary_keyword": "nac and alcohol",
+      "target_queries": [
+        "nac and alcohol",
+        "nac before drinking",
+        "nac hangover",
+        "nac liver protection",
+        "does nac help with drinking"
+      ],
+      "key_points": [
+        "NAC precursor to glutathione, which detoxifies alcohol's toxic metabolite acetaldehyde",
+        "KEY: Take BEFORE drinking (30-60 min) to pre-load liver glutathione stores — NOT during/after",
+        "Post-drink NAC can paradoxically increase oxidative stress (free radical generation in presence of acetaldehyde) per some animal studies",
+        "Typical protocol: 600-1200mg NAC + 200-400mg vitamin C 30-60 min before first drink",
+        "Does NOT prevent hangover fully — many hangover symptoms are dehydration, inflammation, GI, not just oxidative liver damage",
+        "Evidence specifically for acute alcohol exposure: Morelli 1986, Chung 2001 (animal) — good mechanistic support, limited human RCTs",
+        "Chronic heavy drinking: NAC shows promise for alcohol use disorder as adjunct (Wilson 2017), but not as standalone treatment",
+        "Does NOT make drinking 'safe' — liver damage is cumulative regardless of glutathione support",
+        "Don't take NAC with acetaminophen + alcohol combo — acetaminophen+alcohol is independently hepatotoxic",
+        "Don't rely on NAC to drink more — limit alcohol to current health guidelines"
+      ],
+      "sections_to_cover": [
+        "Why NAC Works With Alcohol (The Glutathione Story)",
+        "The Critical Timing Rule: Before, Not After",
+        "Why Post-Drink Timing Can Backfire",
+        "Evidence Base: Animal, Human, Mechanistic",
+        "The Pre-Drinking Protocol",
+        "What NAC Won't Do (Hangover Realities)",
+        "Chronic Drinking and NAC",
+        "Drug Combos to Avoid",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "nac-guide",
+          "anchor": "NAC guide"
+        },
+        {
+          "slug": "what-to-look-for-in-a-probiotic",
+          "anchor": "probiotic"
+        },
+        {
+          "slug": "electrolytes-guide",
+          "anchor": "electrolytes"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "read_time": "8 min read",
+      "target_word_count": 2100
+    }
+  },
+  {
+    "slug": "probiotic-strains-for-ibs",
+    "pascal": "ProbioticStrainsForIbs",
+    "word_count": 2340,
+    "internal_links": [
+      "what-to-look-for-in-a-probiotic",
+      "how-to-read-a-supplement-label"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=probiotic+ibs",
+    "brief": {
+      "slug": "probiotic-strains-for-ibs",
+      "title": "Probiotic Strains for IBS: Which Actually Have Evidence",
+      "description": "Most probiotic marketing ignores strain specificity. For IBS, three strains have real clinical evidence — and dozens of common ones have none.",
+      "category": "review",
+      "primary_keyword": "probiotic strains for ibs",
+      "target_queries": [
+        "best probiotic for ibs",
+        "probiotic strains for ibs",
+        "bifidobacterium ibs",
+        "ibs probiotic evidence",
+        "which probiotic helps ibs"
+      ],
+      "key_points": [
+        "'Probiotic for IBS' is meaningless without strain specificity — most 'IBS blend' products are inadequately targeted",
+        "Bifidobacterium infantis 35624 (Align) — strongest RCT evidence for IBS (Whorwell 2006), reduces bloating and abdominal pain",
+        "Lactobacillus plantarum 299v (DSM 9843) — reduces IBS symptoms (Nobaek 2000), particularly gas and abdominal pain",
+        "Saccharomyces boulardii CNCM I-745 — yeast probiotic, good evidence for IBS-D (diarrhea-predominant)",
+        "NOT helpful: generic 'acidophilus,' multi-strain blends without specific strain IDs, yogurt cultures",
+        "IBS subtype matters: IBS-D, IBS-C, IBS-M respond differently",
+        "Dose: 1-10 billion CFU daily, consistent for 4-8 weeks minimum before assessing",
+        "Combining probiotics with low-FODMAP diet has better outcomes than either alone",
+        "Storage: CFU-through-expiration guaranteed brands preserve viability better than refrigerator requirement brands",
+        "NOT for SIBO — probiotics may WORSEN small intestinal bacterial overgrowth; rule out first with breath test"
+      ],
+      "sections_to_cover": [
+        "Why Strain Specificity Changes Everything",
+        "B. infantis 35624: The Align Evidence",
+        "L. plantarum 299v: Nobaek's IBS Data",
+        "S. boulardii: The IBS-D Option",
+        "What Doesn't Have IBS Evidence (Don't Waste Money)",
+        "IBS Subtypes: D, C, M",
+        "How Long to Try Before Switching",
+        "Probiotic + Low-FODMAP Combination",
+        "The SIBO Exception",
+        "Storage and CFU Viability",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "what-to-look-for-in-a-probiotic",
+          "anchor": "what to look for in a probiotic"
         },
         {
           "slug": "how-to-read-a-supplement-label",
@@ -445,13 +413,289 @@
         }
       ],
       "evidence_registry_ids_to_use": [
-        "vitamin-d-tripkovic-d3vsd2-2012",
-        "vitamin-d-knapen-k2-2017",
-        "vitamin-d-absorption-fat-2015",
-        "vitamin-d-holick-endocrine-2011"
+        "probiotics-cdifficile-jama-2017"
       ],
+      "read_time": "9 min read",
+      "target_word_count": 2300
+    }
+  },
+  {
+    "slug": "magnesium-for-anxiety",
+    "pascal": "MagnesiumForAnxiety",
+    "word_count": 2340,
+    "internal_links": [
+      "best-magnesium-supplements",
+      "signs-you-are-magnesium-deficient",
+      "best-sleep-supplement-protocol",
+      "best-adaptogens-for-stress"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=magnesium+glycinate",
+    "brief": {
+      "slug": "magnesium-for-anxiety",
+      "title": "Magnesium for Anxiety: The Glycinate-GABA Connection",
+      "description": "Magnesium deficiency is linked to anxiety symptoms. Glycinate is the form with evidence for anxiety reduction — here's the mechanism and protocol.",
+      "category": "guide",
+      "primary_keyword": "magnesium for anxiety",
+      "target_queries": [
+        "magnesium for anxiety",
+        "magnesium glycinate anxiety",
+        "does magnesium help anxiety",
+        "best magnesium for anxiety",
+        "magnesium dose for anxiety"
+      ],
+      "key_points": [
+        "Magnesium modulates NMDA receptor activity (reducing glutamate excitation) and enhances GABA receptor function → calming effect",
+        "Boyle et al. 2017 meta-analysis — magnesium supplementation showed small-to-moderate effect on subjective anxiety in mildly anxious adults",
+        "Glycinate form best for anxiety: the glycine component itself is inhibitory neurotransmitter with calming effect",
+        "Pouteau 2018 — magnesium + B6 significantly reduced stress scores in adults with severe stress vs magnesium alone",
+        "Dose: 200-400mg elemental magnesium (glycinate form), taken evening",
+        "Onset: 2-4 weeks typical, not acute relief",
+        "Works BEST for: anxiety with accompanying sleep issues, muscle tension, magnesium deficiency",
+        "LESS EFFECTIVE for: panic disorder, severe generalized anxiety disorder (these need clinical treatment)",
+        "Food sources: dark leafy greens, pumpkin seeds, dark chocolate (often insufficient for therapeutic effect)",
+        "Test RBC magnesium if anxiety is severe and chronic — deficiency is common and underdiagnosed"
+      ],
+      "sections_to_cover": [
+        "How Magnesium Affects the Anxiety Circuit",
+        "The Evidence: Boyle 2017 Meta-Analysis",
+        "Why Glycinate Specifically",
+        "Magnesium + B6: The Pouteau Combination",
+        "Dose and Timing Protocol",
+        "Realistic Expectations (2-4 Week Onset)",
+        "Who Responds Best",
+        "When Magnesium Isn't Enough",
+        "Food Sources vs Supplements",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "best-magnesium-supplements",
+          "anchor": "best magnesium supplements"
+        },
+        {
+          "slug": "signs-you-are-magnesium-deficient",
+          "anchor": "signs of magnesium deficiency"
+        },
+        {
+          "slug": "best-sleep-supplement-protocol",
+          "anchor": "sleep supplement protocol"
+        },
+        {
+          "slug": "best-adaptogens-for-stress",
+          "anchor": "best adaptogens for stress"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "magnesium-abbasi-sleep-2012",
+        "magnesium-b6-stress-2018"
+      ],
+      "read_time": "9 min read",
+      "target_word_count": 2200
+    }
+  },
+  {
+    "slug": "best-collagen-for-joints",
+    "pascal": "BestCollagenForJoints",
+    "word_count": 2350,
+    "internal_links": [
+      "collagen-guide",
+      "how-to-read-a-supplement-label"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=collagen+joints",
+    "brief": {
+      "slug": "best-collagen-for-joints",
+      "title": "Best Collagen for Joints: Type II vs Type I for Cartilage Support",
+      "description": "Collagen supplements are marketed for joint health but type matters. Type II undenatured collagen has the strongest joint-specific evidence — here's why.",
+      "category": "roundup",
+      "primary_keyword": "best collagen for joints",
+      "target_queries": [
+        "best collagen for joints",
+        "type 2 collagen for joints",
+        "undenatured collagen",
+        "collagen for knee pain",
+        "collagen for arthritis"
+      ],
+      "key_points": [
+        "Type II collagen (found in cartilage) vs Type I (skin, bone) — different mechanisms, different uses",
+        "Undenatured Type II collagen (UC-II) — 40mg/day works via oral tolerance mechanism, NOT as building block",
+        "Crowley et al. 2009 — UC-II outperformed glucosamine + chondroitin for knee OA symptoms",
+        "Lugo et al. 2016 — 40mg UC-II daily improved joint function in knee OA subjects",
+        "Hydrolyzed Type I collagen (10g+ daily) — different mechanism, evidence more mixed for joints, stronger for skin",
+        "UC-II works at tiny doses (40mg) because it modulates immune response to joint cartilage",
+        "Hydrolyzed collagen needs gram-level doses and works by providing amino acid substrate",
+        "Best brand standards: Lonza Elite (UC-II), Peptan (hydrolyzed Type I), bovine-sourced (pescetarians marine versions)",
+        "Onset: UC-II shows effects at 90 days; hydrolyzed takes similar timeline",
+        "Combine with vitamin C for collagen synthesis support"
+      ],
+      "sections_to_cover": [
+        "Type I vs Type II Collagen: The Key Distinction",
+        "How UC-II Actually Works (Oral Tolerance)",
+        "The Crowley 2009 and Lugo 2016 Evidence",
+        "Hydrolyzed Collagen: Different Mechanism",
+        "Comparison Table: UC-II vs Hydrolyzed",
+        "What to Look For (Brand Standards)",
+        "Dosing: Why 40mg Is the Magic Number",
+        "Combining With Vitamin C",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "collagen-guide",
+          "anchor": "collagen guide"
+        },
+        {
+          "slug": "how-to-read-a-supplement-label",
+          "anchor": "supplement label"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "read_time": "9 min read",
+      "target_word_count": 2200
+    }
+  },
+  {
+    "slug": "zinc-for-immune-support",
+    "pascal": "ZincForImmuneSupport",
+    "word_count": 2180,
+    "internal_links": [
+      "zinc-guide",
+      "best-vitamin-d-supplements",
+      "what-to-look-for-in-a-probiotic"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=zinc",
+    "brief": {
+      "slug": "zinc-for-immune-support",
+      "title": "Zinc for Immune Support: Timing and Form Matter More Than Dose",
+      "description": "Zinc genuinely shortens colds, but only when taken correctly. Lozenges within 24 hours of first symptoms — not pills, not after you're already sick.",
+      "category": "guide",
+      "primary_keyword": "zinc for immune support",
+      "target_queries": [
+        "zinc for cold",
+        "zinc for immune system",
+        "zinc lozenge timing",
+        "does zinc shorten colds",
+        "zinc acetate vs gluconate"
+      ],
+      "key_points": [
+        "Hemilä 2017 meta-analysis — zinc lozenges (80-92mg/day) shortened cold duration by ~33% when started within 24 hours of symptoms",
+        "Form critical: zinc acetate or zinc gluconate lozenges work; zinc oxide, citrate, citrate-gluconate do NOT",
+        "Mechanism: direct contact with throat/nasal tissue where cold virus replicates (ionic zinc disrupts viral binding)",
+        "Swallowed zinc pills DON'T shorten colds — must be dissolved in mouth to contact pharyngeal tissues",
+        "Timing essential: within 24 hours of first symptoms. After 48 hours, effect diminishes dramatically",
+        "Dose: 13-23mg elemental zinc per lozenge, every 2-3 hours while awake, max 5-6 lozenges/day",
+        "Duration: until symptom resolution, typically 3-5 days",
+        "Side effects: metallic taste, nausea if dissolved too fast, temporary taste changes",
+        "For chronic immune support (not acute cold): 15-30mg/day with 1-2mg copper is different from cold protocol",
+        "NOT for prevention — meta-analyses show limited prophylactic effect at standard doses"
+      ],
+      "sections_to_cover": [
+        "What Zinc Lozenges Actually Do",
+        "Form Matters: Acetate and Gluconate Only",
+        "Timing: The 24-Hour Window",
+        "Why Pills Don't Work for Colds",
+        "Protocol: Dose and Frequency",
+        "Side Effects and Tolerability",
+        "Acute Cold vs Chronic Immune Support",
+        "What About Zinc Nasal Sprays? (Warning)",
+        "Common Product Mistakes",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "zinc-guide",
+          "anchor": "zinc guide"
+        },
+        {
+          "slug": "best-vitamin-d-supplements",
+          "anchor": "vitamin D"
+        },
+        {
+          "slug": "what-to-look-for-in-a-probiotic",
+          "anchor": "probiotic"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
       "read_time": "8 min read",
       "target_word_count": 2100
+    }
+  },
+  {
+    "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
+    "pascal": "VitaminB12MethylcobalaminVsCyanocobalamin",
+    "word_count": 2340,
+    "internal_links": [
+      "vitamin-b12-guide",
+      "how-to-read-a-supplement-label",
+      "best-multivitamin-over-50",
+      "do-you-need-a-multivitamin"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=vitamin+b12",
+    "brief": {
+      "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
+      "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
+      "description": "Most B12 supplements use cyanocobalamin — but methylcobalamin is the bioactive form. Here's when the difference matters and when it doesn't.",
+      "category": "review",
+      "primary_keyword": "methylcobalamin vs cyanocobalamin",
+      "target_queries": [
+        "methylcobalamin vs cyanocobalamin",
+        "best form of vitamin b12",
+        "which b12 supplement is best",
+        "methylcobalamin benefits",
+        "cyanocobalamin dangerous"
+      ],
+      "key_points": [
+        "Cyanocobalamin — synthetic, cheap, stable. Must be converted to methylcobalamin or adenosylcobalamin by body",
+        "Methylcobalamin — bioactive form your cells actually use. Directly absorbed and usable without conversion",
+        "For people with MTHFR gene variants (C677T, A1298C), conversion of cyanocobalamin may be impaired → methyl form may perform better",
+        "Cyanocobalamin releases tiny amounts of cyanide (10mcg cyanide per 1000mcg B12) — trivial for most but concerning for chronic smokers, kidney disease",
+        "Absorption similar for both at typical doses; difference is in post-absorption utilization",
+        "Adenosylcobalamin — other bioactive form, used in mitochondrial energy production, less commonly supplemented",
+        "Hydroxocobalamin — injection form, longer acting, used for severe deficiency",
+        "Cost difference: methylcobalamin 2-3x more expensive than cyanocobalamin",
+        "For most healthy people, cyanocobalamin works fine. For MTHFR carriers, methylfolate-deficient individuals, kidney disease, elderly — methyl form preferred",
+        "Recommended doses: 500-1000mcg methylcobalamin daily for most; 1000-5000mcg for deficiency"
+      ],
+      "sections_to_cover": [
+        "The Four Forms of B12 Explained",
+        "Methylcobalamin: The Bioactive Form",
+        "Cyanocobalamin: Why It's Cheap and Common",
+        "The Cyanide Question",
+        "MTHFR Gene Variants and B12 Form",
+        "Adenosylcobalamin and Hydroxocobalamin",
+        "Who Should Choose Methylcobalamin",
+        "Who Can Save Money on Cyanocobalamin",
+        "Dose Recommendations by Form",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "vitamin-b12-guide",
+          "anchor": "vitamin B12 guide"
+        },
+        {
+          "slug": "how-to-read-a-supplement-label",
+          "anchor": "supplement label"
+        },
+        {
+          "slug": "do-you-need-a-multivitamin",
+          "anchor": "multivitamin"
+        },
+        {
+          "slug": "best-multivitamin-over-50",
+          "anchor": "multivitamin for adults over 50"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "read_time": "9 min read",
+      "target_word_count": 2300
     }
   }
 ]

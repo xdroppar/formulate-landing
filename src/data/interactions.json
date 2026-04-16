@@ -1315,5 +1315,260 @@
       "PMID: 17846391"
     ],
     "pair_key": "boron--vitamin-d"
+  },
+  {
+    "substance_a": "ppi",
+    "substance_b": "vitamin b12",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "Long-term PPI use reduces B12 absorption",
+    "details": "Proton pump inhibitors (omeprazole, esomeprazole, etc.) suppress stomach acid needed to release B12 from food proteins. Use >2 years is associated with a ~65% increase in B12 deficiency risk.",
+    "recommendation": "If on long-term PPIs, supplement with methylcobalamin (1000mcg) or sublingual B12 which bypasses the need for gastric acid.",
+    "timing_advice": "Take B12 supplement separately; form matters more than timing",
+    "sources": [
+      "JAMA 2013",
+      "PMID: 24327038"
+    ],
+    "pair_key": "ppi--vitamin-b12"
+  },
+  {
+    "substance_a": "ppi",
+    "substance_b": "magnesium",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "PPIs can cause hypomagnesemia",
+    "details": "The FDA issued a safety warning in 2011: PPI use >1 year is associated with low serum magnesium, sometimes severe enough to require hospitalization. Mechanism involves reduced intestinal absorption.",
+    "recommendation": "Monitor magnesium levels annually on long-term PPIs. Supplement with 200-400mg magnesium glycinate if levels are low.",
+    "timing_advice": "Take magnesium 2+ hours away from PPI dose",
+    "sources": [
+      "FDA Drug Safety Communication 2011",
+      "PMID: 22109896"
+    ],
+    "pair_key": "magnesium--ppi"
+  },
+  {
+    "substance_a": "ppi",
+    "substance_b": "calcium",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "PPIs reduce calcium carbonate absorption",
+    "details": "Calcium carbonate requires stomach acid to dissolve. Long-term PPI use is associated with reduced bone density and increased fracture risk, partly via impaired calcium absorption.",
+    "recommendation": "On PPIs, switch from calcium carbonate to calcium citrate — citrate does not require gastric acid for absorption.",
+    "timing_advice": "Take calcium with meals regardless of PPI timing",
+    "sources": [
+      "JAMA 2006",
+      "PMID: 17190895"
+    ],
+    "pair_key": "calcium--ppi"
+  },
+  {
+    "substance_a": "ppi",
+    "substance_b": "iron",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "PPIs reduce non-heme iron absorption",
+    "details": "Gastric acid is required to reduce ferric iron to the absorbable ferrous form. PPI use can worsen iron-deficiency anemia, especially in people with marginal iron status.",
+    "recommendation": "If iron-deficient on PPIs, take iron bisglycinate (requires less acid) with vitamin C to enhance absorption. Consider checking ferritin.",
+    "timing_advice": "Take iron 2+ hours away from PPI with 500mg vitamin C",
+    "sources": [
+      "American Journal of Medicine",
+      "PMID: 28063295"
+    ],
+    "pair_key": "iron--ppi"
+  },
+  {
+    "substance_a": "antibiotics",
+    "substance_b": "probiotics",
+    "severity": "caution",
+    "interaction_type": "timing",
+    "summary": "Antibiotics kill probiotic bacteria if taken together",
+    "details": "Oral antibiotics will kill live probiotic organisms if taken at the same time, making the probiotic useless. Spacing them out preserves both.",
+    "recommendation": "Continue probiotics during an antibiotic course — they reduce antibiotic-associated diarrhea. Take the probiotic 2-3 hours after the antibiotic dose.",
+    "timing_advice": "Separate by at least 2-3 hours; continue for 2+ weeks after finishing antibiotics",
+    "sources": [
+      "Cochrane Review 2017",
+      "PMID: 29257353"
+    ],
+    "pair_key": "antibiotics--probiotics"
+  },
+  {
+    "substance_a": "antibiotics",
+    "substance_b": "iron",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "Fluoroquinolones and tetracyclines chelate iron",
+    "details": "Ciprofloxacin, doxycycline, minocycline, and other fluoroquinolones and tetracyclines form insoluble complexes with iron, dramatically reducing absorption of both the drug and the mineral.",
+    "recommendation": "Take iron 2 hours before or 6 hours after these antibiotics to avoid reducing the antibiotic's effectiveness.",
+    "timing_advice": "Separate by at least 2 hours before or 6 hours after antibiotic",
+    "sources": [
+      "Antimicrobial Agents and Chemotherapy",
+      "PMID: 2285283"
+    ],
+    "pair_key": "antibiotics--iron"
+  },
+  {
+    "substance_a": "creatine",
+    "substance_b": "caffeine",
+    "severity": "caution",
+    "interaction_type": "antagonism",
+    "summary": "Caffeine may blunt some creatine effects",
+    "details": "An older study suggested caffeine could interfere with creatine's performance benefits, though more recent research is mixed. Any effect is likely modest and dose-dependent. Both are widely co-supplemented in pre-workouts without obvious problems.",
+    "recommendation": "If you want to be conservative, take creatine post-workout and caffeine pre-workout. For most people co-timing is fine.",
+    "timing_advice": "Optional: space 2+ hours apart",
+    "sources": [
+      "Journal of Applied Physiology 1996",
+      "PMID: 8941544"
+    ],
+    "pair_key": "caffeine--creatine"
+  },
+  {
+    "substance_a": "creatine",
+    "substance_b": "beta-alanine",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Creatine and beta-alanine stack well for power + endurance",
+    "details": "Creatine improves short-burst power output (≤10 sec); beta-alanine buffers muscle acidity and extends high-intensity endurance (1-4 min). Combined supplementation outperforms either alone for most athletes.",
+    "recommendation": "Standard doses: 3-5g creatine monohydrate daily, 3.2-6.4g beta-alanine daily (split into 2-3 doses to reduce paresthesia).",
+    "timing_advice": "Can take together; timing flexible",
+    "sources": [
+      "Journal of the International Society of Sports Nutrition",
+      "PMID: 17136939"
+    ],
+    "pair_key": "beta-alanine--creatine"
+  },
+  {
+    "substance_a": "creatine",
+    "substance_b": "hmb",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "HMB + creatine synergy for strength and lean mass",
+    "details": "A 2001 study found combined HMB (3g/day) and creatine (10g/day) produced greater gains in strength and fat-free mass than either alone.",
+    "recommendation": "If already on creatine, adding 3g HMB daily may further enhance strength gains — especially during caloric deficit or deload periods.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "Nutrition 2001",
+      "PMID: 11477443"
+    ],
+    "pair_key": "creatine--hmb"
+  },
+  {
+    "substance_a": "vitamin b12",
+    "substance_b": "folate",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "B12 and folate work together in methylation",
+    "details": "B12 and folate are both required for DNA methylation and red blood cell formation. Supplementing folate alone can mask B12 deficiency by correcting anemia while allowing neurological damage to progress — always co-supplement.",
+    "recommendation": "When taking folate (especially >400mcg), always include 500-1000mcg B12. Prefer methylfolate + methylcobalamin for MTHFR variants.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "NIH Office of Dietary Supplements",
+      "PMID: 18174293"
+    ],
+    "pair_key": "folate--vitamin-b12"
+  },
+  {
+    "substance_a": "iron",
+    "substance_b": "fiber",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Phytates in fiber reduce non-heme iron absorption",
+    "details": "Whole grains, legumes, and high-fiber plant foods contain phytates and oxalates that bind non-heme iron, reducing absorption by up to 50%. Vegetarians and vegans need ~1.8× more iron as a result.",
+    "recommendation": "Take iron supplements between meals, or with vitamin C which overrides the phytate-binding effect.",
+    "timing_advice": "Take iron at least 1-2 hours away from high-fiber meals",
+    "sources": [
+      "American Journal of Clinical Nutrition",
+      "PMID: 8780333"
+    ],
+    "pair_key": "fiber--iron"
+  },
+  {
+    "substance_a": "omega-3",
+    "substance_b": "vitamin e",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin E protects omega-3 fats from oxidation",
+    "details": "Omega-3 fatty acids are highly prone to peroxidation both on the shelf and in the body. Most quality fish oil products already include mixed tocopherols as an antioxidant for this reason.",
+    "recommendation": "Choose a fish oil that lists mixed tocopherols on the label. No need to separately megadose vitamin E.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "Lipids 1992",
+      "PMID: 1487956"
+    ],
+    "pair_key": "omega-3--vitamin-e"
+  },
+  {
+    "substance_a": "ashwagandha",
+    "substance_b": "ssri",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Ashwagandha may enhance SSRI effects",
+    "details": "Ashwagandha has mild serotonergic and GABAergic activity. Adding it to an SSRI is not known to cause serotonin syndrome but may potentiate sedation, dizziness, or mood changes, especially during dose changes.",
+    "recommendation": "If on an SSRI, introduce ashwagandha at a low dose (300mg) and monitor. Discuss with your prescriber before adding.",
+    "timing_advice": "If combined, take at different times of day to separate peak effects",
+    "sources": [
+      "Phytotherapy Research 2014",
+      "PMID: 24811260"
+    ],
+    "pair_key": "ashwagandha--ssri"
+  },
+  {
+    "substance_a": "collagen",
+    "substance_b": "vitamin c",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin C is required for collagen synthesis",
+    "details": "Vitamin C is a cofactor for prolyl and lysyl hydroxylase, the enzymes that cross-link collagen fibers. Without adequate vitamin C the body cannot effectively incorporate collagen amino acids into new tissue.",
+    "recommendation": "Take 50-500mg vitamin C with collagen peptides (10-20g) for best use.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Amino Acids 2006",
+      "PMID: 16622713"
+    ],
+    "pair_key": "collagen--vitamin-c"
+  },
+  {
+    "substance_a": "nac",
+    "substance_b": "glutathione",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "NAC is the rate-limiting precursor to glutathione",
+    "details": "N-acetylcysteine supplies the cysteine needed to synthesize glutathione, the body's primary intracellular antioxidant. Oral glutathione has poor bioavailability, so raising glutathione via NAC is usually more effective.",
+    "recommendation": "600-1200mg NAC daily is typically more effective than oral glutathione for raising cellular glutathione levels.",
+    "timing_advice": "Take NAC on an empty stomach",
+    "sources": [
+      "Biochimica et Biophysica Acta",
+      "PMID: 23747562"
+    ],
+    "pair_key": "glutathione--nac"
+  },
+  {
+    "substance_a": "taurine",
+    "substance_b": "magnesium",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Taurine and magnesium support sleep and cardiovascular calm",
+    "details": "Taurine modulates GABA activity and calcium signaling; magnesium supports NMDA receptor regulation and muscle relaxation. The combination is a well-established nighttime stack for stress and sleep support.",
+    "recommendation": "500-2000mg taurine + 200-400mg magnesium glycinate, 30-60 min before bed.",
+    "timing_advice": "Take together in the evening",
+    "sources": [
+      "Advances in Experimental Medicine",
+      "PMID: 25833584"
+    ],
+    "pair_key": "magnesium--taurine"
+  },
+  {
+    "substance_a": "coq10",
+    "substance_b": "beta blocker",
+    "severity": "info",
+    "interaction_type": "potentiation",
+    "summary": "Beta blockers may deplete CoQ10",
+    "details": "Like statins, some beta blockers (propranolol, metoprolol) can inhibit CoQ10 biosynthesis. Not as well-documented as statin depletion, but supplementation is often considered for long-term users with fatigue.",
+    "recommendation": "100-200mg ubiquinol daily is reasonable for long-term beta blocker users — especially if experiencing exercise intolerance.",
+    "timing_advice": "Take with a fat-containing meal for absorption",
+    "sources": [
+      "Biochemical and Biophysical Research Communications",
+      "PMID: 4146484"
+    ],
+    "pair_key": "beta-blocker--coq10"
   }
 ]

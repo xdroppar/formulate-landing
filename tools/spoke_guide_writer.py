@@ -38,7 +38,8 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
-BRIEFS_FILE = ROOT / "tools" / "spoke_briefs.json"
+import os as _os
+BRIEFS_FILE = ROOT / "tools" / (_os.environ.get("SPOKE_BRIEFS") or "spoke_briefs.json")
 OUT_DIR = ROOT / "tools" / "spoke_guides_output"
 OUT_DIR.mkdir(exist_ok=True)
 

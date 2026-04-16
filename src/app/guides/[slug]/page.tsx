@@ -50,6 +50,16 @@ import { AlphaGpcVsCiticoline } from "./content/alpha-gpc-vs-citicoline";
 import { BestAdaptogensForStress } from "./content/best-adaptogens-for-stress";
 import { CreatineAndHairLoss } from "./content/creatine-and-hair-loss";
 import { VitaminD3VsD2 } from "./content/vitamin-d3-vs-d2";
+import { BerberineVsMetformin } from "./content/berberine-vs-metformin";
+import { CreatineForEnduranceAthletes } from "./content/creatine-for-endurance-athletes";
+import { AshwagandhaForTestosterone } from "./content/ashwagandha-for-testosterone";
+import { BestMultivitaminOver50 } from "./content/best-multivitamin-over-50";
+import { NacAndAlcohol } from "./content/nac-and-alcohol";
+import { ProbioticStrainsForIbs } from "./content/probiotic-strains-for-ibs";
+import { MagnesiumForAnxiety } from "./content/magnesium-for-anxiety";
+import { BestCollagenForJoints } from "./content/best-collagen-for-joints";
+import { ZincForImmuneSupport } from "./content/zinc-for-immune-support";
+import { VitaminB12MethylcobalaminVsCyanocobalamin } from "./content/vitamin-b12-methylcobalamin-vs-cyanocobalamin";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -98,6 +108,16 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-adaptogens-for-stress": BestAdaptogensForStress,
   "creatine-and-hair-loss": CreatineAndHairLoss,
   "vitamin-d3-vs-d2": VitaminD3VsD2,
+  "berberine-vs-metformin": BerberineVsMetformin,
+  "creatine-for-endurance-athletes": CreatineForEnduranceAthletes,
+  "ashwagandha-for-testosterone": AshwagandhaForTestosterone,
+  "best-multivitamin-over-50": BestMultivitaminOver50,
+  "nac-and-alcohol": NacAndAlcohol,
+  "probiotic-strains-for-ibs": ProbioticStrainsForIbs,
+  "magnesium-for-anxiety": MagnesiumForAnxiety,
+  "best-collagen-for-joints": BestCollagenForJoints,
+  "zinc-for-immune-support": ZincForImmuneSupport,
+  "vitamin-b12-methylcobalamin-vs-cyanocobalamin": VitaminB12MethylcobalaminVsCyanocobalamin,
 };
 
 /* ---------- static params ---------- */

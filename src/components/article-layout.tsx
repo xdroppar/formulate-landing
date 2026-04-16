@@ -6,6 +6,7 @@ import { getAuthor, getReviewer, type Author } from "@/lib/authors";
 import { withUtm } from "@/lib/app-url";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
+import { RelatedInteractions } from "@/components/related-interactions";
 import { TableOfContents } from "@/components/table-of-contents";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 
@@ -246,6 +247,9 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
             </Link>
           </div>
         </div>
+
+        {/* Related interactions (auto-injected from guide tags) */}
+        <RelatedInteractions tags={guide.tags} />
 
         {/* Related guides */}
         <RelatedGuides current={guide} />

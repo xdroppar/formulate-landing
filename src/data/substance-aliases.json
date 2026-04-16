@@ -60,20 +60,33 @@
     "display": "antacids",
     "aliases": [
       "calcium antacid",
-      "esomeprazole",
       "famotidine",
-      "lansoprazole",
       "maalox",
-      "nexium",
-      "omeprazole",
-      "pantoprazole",
       "pepcid",
-      "prevacid",
-      "prilosec",
-      "protonix",
       "ranitidine",
       "tums",
       "zantac"
+    ]
+  },
+  {
+    "slug": "antibiotics",
+    "canonical": "antibiotics",
+    "display": "antibiotics",
+    "aliases": [
+      "amoxicillin",
+      "antibiotic",
+      "antibiotics",
+      "augmentin",
+      "azithromycin",
+      "cipro",
+      "ciprofloxacin",
+      "doxycycline",
+      "fluoroquinolone",
+      "fluoroquinolones",
+      "levofloxacin",
+      "minocycline",
+      "tetracycline",
+      "zithromax"
     ]
   },
   {
@@ -183,21 +196,44 @@
     ]
   },
   {
-    "slug": "beta-blockers",
-    "canonical": "beta blockers",
-    "display": "beta blockers",
+    "slug": "beta-blocker",
+    "canonical": "beta blocker",
+    "display": "beta blocker",
     "aliases": [
       "atenolol",
+      "beta blocker",
+      "beta blockers",
+      "beta-blocker",
+      "beta-blockers",
       "bisoprolol",
+      "bystolic",
       "carvedilol",
       "coreg",
       "inderal",
       "lopressor",
       "metoprolol",
+      "nebivolol",
       "propranolol",
       "tenormin",
-      "toprol",
+      "toprol"
+    ]
+  },
+  {
+    "slug": "beta-blockers",
+    "canonical": "beta blockers",
+    "display": "beta blockers",
+    "aliases": [
       "zebeta"
+    ]
+  },
+  {
+    "slug": "beta-alanine",
+    "canonical": "beta-alanine",
+    "display": "beta-alanine",
+    "aliases": [
+      "beta alanine",
+      "beta-alanine",
+      "carnosyn"
     ]
   },
   {
@@ -315,6 +351,18 @@
     ]
   },
   {
+    "slug": "collagen",
+    "canonical": "collagen",
+    "display": "collagen",
+    "aliases": [
+      "bovine collagen",
+      "collagen",
+      "collagen peptides",
+      "hydrolyzed collagen",
+      "marine collagen"
+    ]
+  },
+  {
     "slug": "copper",
     "canonical": "copper",
     "display": "copper",
@@ -333,6 +381,17 @@
       "coq10",
       "ubiquinol",
       "ubiquinone"
+    ]
+  },
+  {
+    "slug": "creatine",
+    "canonical": "creatine",
+    "display": "creatine",
+    "aliases": [
+      "creapure",
+      "creatine",
+      "creatine hcl",
+      "creatine monohydrate"
     ]
   },
   {
@@ -465,6 +524,18 @@
     ]
   },
   {
+    "slug": "folate",
+    "canonical": "folate",
+    "display": "folate",
+    "aliases": [
+      "5-mthf",
+      "folate",
+      "folic acid",
+      "l-methylfolate",
+      "methylfolate"
+    ]
+  },
+  {
     "slug": "gaba",
     "canonical": "gaba",
     "display": "gaba",
@@ -528,6 +599,17 @@
     ]
   },
   {
+    "slug": "glutathione",
+    "canonical": "glutathione",
+    "display": "glutathione",
+    "aliases": [
+      "glutathione",
+      "gsh",
+      "l-glutathione",
+      "liposomal glutathione"
+    ]
+  },
+  {
     "slug": "glycine",
     "canonical": "glycine",
     "display": "glycine",
@@ -564,6 +646,15 @@
       "crataegus",
       "hawthorn",
       "hawthorn berry"
+    ]
+  },
+  {
+    "slug": "hmb",
+    "canonical": "hmb",
+    "display": "hmb",
+    "aliases": [
+      "beta-hydroxy-beta-methylbutyrate",
+      "hmb"
     ]
   },
   {
@@ -786,6 +877,41 @@
       "potassium chloride",
       "potassium citrate",
       "potassium gluconate"
+    ]
+  },
+  {
+    "slug": "ppi",
+    "canonical": "ppi",
+    "display": "ppi",
+    "aliases": [
+      "aciphex",
+      "dexilant",
+      "dexlansoprazole",
+      "esomeprazole",
+      "lansoprazole",
+      "nexium",
+      "omeprazole",
+      "pantoprazole",
+      "ppi",
+      "ppis",
+      "prevacid",
+      "prilosec",
+      "proton pump inhibitor",
+      "proton pump inhibitors",
+      "protonix",
+      "rabeprazole"
+    ]
+  },
+  {
+    "slug": "probiotics",
+    "canonical": "probiotics",
+    "display": "probiotics",
+    "aliases": [
+      "bifidobacterium",
+      "lactobacillus",
+      "probiotic",
+      "probiotics",
+      "saccharomyces boulardii"
     ]
   },
   {
