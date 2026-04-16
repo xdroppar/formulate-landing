@@ -224,7 +224,8 @@ export function BestCreatine() {
       <h2>Who Should Take Creatine?</h2>
       <p>
         Almost everyone, honestly. While creatine is best known for strength and
-        power sports, the evidence extends well beyond the gym:
+        power sports, the evidence extends well beyond the gym — including{" "}
+        <a href="/guides/creatine-for-endurance-athletes">endurance athletes</a>:
       </p>
       <ul>
         <li>

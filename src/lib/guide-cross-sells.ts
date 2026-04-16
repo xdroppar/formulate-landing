@@ -247,6 +247,57 @@ export const guideCrossSells: Record<string, CrossSellLink[]> = {
     { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Magnesium is a required cofactor for both hepatic and renal vitamin D activation." },
     { slug: "how-to-read-a-supplement-label", label: "How to Read a Supplement Label", blurb: "How to spot 'cholecalciferol' vs 'ergocalciferol' on the ingredients panel." },
   ],
+  // ------------------------------- Round 2 spoke guides
+  "berberine-vs-metformin": [
+    { slug: "berberine-guide", label: "Berberine Guide", blurb: "The full mechanism, dosing, and evidence deep-dive that sits behind the metformin comparison." },
+    { slug: "how-to-build-a-supplement-stack", label: "How to Build a Supplement Stack", blurb: "Where berberine fits as a targeted metabolic addition to a broader stack." },
+    { slug: "vitamin-b12-guide", label: "Vitamin B12 Guide", blurb: "Both berberine and metformin can deplete B12 long-term — worth monitoring if you're using either." },
+  ],
+  "creatine-for-endurance-athletes": [
+    { slug: "best-creatine-supplements", label: "Best Creatine Supplements", blurb: "Which creatine to buy — same monohydrate picks apply to endurance athletes." },
+    { slug: "creatine-loading-phase", label: "Creatine Loading: Yes or No?", blurb: "Skip the loading phase if you're worried about water weight — 3–5 g/day saturates in 28 days." },
+    { slug: "electrolytes-guide", label: "Electrolytes Guide", blurb: "Creatine pairs with sodium and potassium replacement for long-duration endurance sessions." },
+  ],
+  "ashwagandha-for-testosterone": [
+    { slug: "ashwagandha-guide", label: "Ashwagandha Guide", blurb: "The full cortisol, sleep, and adaptogen evidence base behind the testosterone story." },
+    { slug: "best-adaptogens-for-stress", label: "Best Adaptogens for Stress", blurb: "Ashwagandha's testosterone effect is downstream of cortisol — adaptogens are upstream." },
+    { slug: "zinc-guide", label: "Zinc Guide", blurb: "Zinc is a more direct lever for testosterone in deficient men, and it's commonly overlooked." },
+  ],
+  "best-multivitamin-over-50": [
+    { slug: "do-you-need-a-multivitamin", label: "Do You Need a Multivitamin?", blurb: "Whether the format itself makes sense before picking a senior formula." },
+    { slug: "vitamin-b12-methylcobalamin-vs-cyanocobalamin", label: "Methylcobalamin vs Cyanocobalamin", blurb: "B12 form matters more after 50 — here's why methylcobalamin often wins." },
+    { slug: "best-vitamin-d-supplements", label: "Best Vitamin D Supplements", blurb: "Most senior multis underdose D3 — you likely need a standalone D3 alongside." },
+  ],
+  "nac-and-alcohol": [
+    { slug: "nac-guide", label: "NAC Guide", blurb: "The full mechanism, dose, and evidence deep-dive on NAC beyond the alcohol use case." },
+    { slug: "how-to-build-a-supplement-stack", label: "How to Build a Supplement Stack", blurb: "Where NAC fits as a targeted add-on rather than a foundation pick." },
+    { slug: "best-omega-3-supplements", label: "Best Omega-3 Supplements", blurb: "Complementary anti-inflammatory support for the liver under regular alcohol load." },
+  ],
+  "probiotic-strains-for-ibs": [
+    { slug: "what-to-look-for-in-a-probiotic", label: "What to Look for in a Probiotic", blurb: "How to evaluate any probiotic product — strain, CFU, and storage basics." },
+    { slug: "how-to-read-a-supplement-label", label: "How to Read a Supplement Label", blurb: "Probiotic labels are where strain designations aren't optional — here's how to spot them." },
+    { slug: "collagen-guide", label: "Collagen Guide", blurb: "Glycine and proline from collagen may support epithelial repair alongside targeted IBS strains." },
+  ],
+  "magnesium-for-anxiety": [
+    { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Which form to buy once you've decided magnesium fits your anxiety protocol." },
+    { slug: "signs-you-are-magnesium-deficient", label: "Signs You're Magnesium Deficient", blurb: "The deficiency symptoms most likely to respond to glycinate supplementation." },
+    { slug: "best-sleep-supplement-protocol", label: "Best Sleep Supplement Protocol", blurb: "Anxiety and sleep are tightly coupled — glycinate does double duty in the evening stack." },
+  ],
+  "best-collagen-for-joints": [
+    { slug: "collagen-guide", label: "Collagen Guide", blurb: "The broader collagen evidence base — skin, hair, and connective tissue beyond joints." },
+    { slug: "best-omega-3-supplements", label: "Best Omega-3 Supplements", blurb: "Complementary anti-inflammatory support for joints under repetitive training load." },
+    { slug: "how-to-read-a-supplement-label", label: "How to Read a Supplement Label", blurb: "Collagen labels conflate Type I peptides with Type II UC-II — here's how to tell them apart." },
+  ],
+  "zinc-for-immune-support": [
+    { slug: "zinc-guide", label: "Zinc Guide", blurb: "The full zinc picture beyond colds — testosterone, wound healing, and copper balance." },
+    { slug: "best-vitamin-d-supplements", label: "Best Vitamin D Supplements", blurb: "Low vitamin D is the most common fixable immune weakness, and it pairs synergistically with zinc." },
+    { slug: "what-to-look-for-in-a-probiotic", label: "What to Look for in a Probiotic", blurb: "Gut-based immune modulation is the other evidence-backed pillar alongside zinc for immunity." },
+  ],
+  "vitamin-b12-methylcobalamin-vs-cyanocobalamin": [
+    { slug: "vitamin-b12-guide", label: "Vitamin B12 Guide", blurb: "The full B12 picture — dosing, deficiency, at-risk populations, and form choice in context." },
+    { slug: "best-multivitamin-over-50", label: "Best Multivitamin Over 50", blurb: "B12 form matters most in senior formulas — here's which multis get it right." },
+    { slug: "do-you-need-a-multivitamin", label: "Do You Need a Multivitamin?", blurb: "B12 is one of the nutrients where targeted supplementation usually beats a generic multi." },
+  ],
 };
 
 export function getCrossSellsForGuide(slug: string): CrossSellLink[] | undefined {

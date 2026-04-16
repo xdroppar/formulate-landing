@@ -160,7 +160,7 @@ export function NACGuide() {
       <p>
         Beyond the dramatic overdose scenario, NAC supports everyday liver
         function through the same glutathione mechanism. Your liver
-        processes every toxin you encounter &mdash; alcohol, environmental
+        processes every toxin you encounter &mdash; <a href="/guides/nac-and-alcohol">alcohol</a>, environmental
         pollutants, medication metabolites, food additives &mdash; and
         glutathione is the primary molecule it uses to neutralize them.
       </p>

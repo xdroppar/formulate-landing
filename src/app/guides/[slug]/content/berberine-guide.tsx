@@ -24,7 +24,7 @@ export function BerberineGuide() {
       <p>
         Berberine is a plant-derived alkaloid with two decades of controlled
         trial data showing it lowers blood sugar through the same AMPK pathway
-        activated by metformin and exercise. Researchers first noticed the
+        activated by <a href="/guides/berberine-vs-metformin">metformin</a> and exercise. Researchers first noticed the
         effect in 2004 when patients taking berberine for diarrhea saw
         dramatic glucose improvements, and subsequent trials &mdash; also
         targeting cholesterol &mdash; have held up remarkably well.

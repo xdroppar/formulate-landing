@@ -65,7 +65,7 @@ export function WhatToLookForInProbiotic() {
       <p>
         <em>Lactobacillus rhamnosus GG</em> has been the subject of over
         1,000 published studies. It has strong evidence for preventing
-        antibiotic-associated diarrhea, reducing IBS symptoms, and supporting
+        antibiotic-associated diarrhea, reducing <a href="/guides/probiotic-strains-for-ibs">IBS</a> symptoms, and supporting
         immune function in children. A <em>different</em> strain of{" "}
         <em>Lactobacillus rhamnosus</em> &mdash; say, one with no strain
         designation or a different code &mdash; may have zero clinical

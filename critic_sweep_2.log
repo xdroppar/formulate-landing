@@ -54,4 +54,14 @@ ERR JSONDecodeError: Expecting ',' delimiter: line 34 column 173 (char 4270)
 [21/31] berberine-guide ... OK  7 rebuttals, 6 additions ($0.096)
 [22/31] electrolytes-guide ... OK  9 rebuttals, 7 additions ($0.111)
 [23/31] taurine-guide ... OK  8 rebuttals, 5 additions ($0.092)
-[24/31] iron-guide ... 
+[24/31] iron-guide ... OK  9 rebuttals, 7 additions ($0.110)
+[25/31] nootropics-guide ... OK  10 rebuttals, 8 additions ($0.111)
+[26/31] creatine-for-women ... OK  7 rebuttals, 6 additions ($0.080)
+[27/31] best-time-to-take-magnesium ... OK  8 rebuttals, 6 additions ($0.079)
+[28/31] alpha-gpc-vs-citicoline ... OK  9 rebuttals, 6 additions ($0.077)
+[29/31] best-adaptogens-for-stress ... OK  7 rebuttals, 5 additions ($0.076)
+[30/31] creatine-and-hair-loss ... OK  7 rebuttals, 6 additions ($0.073)
+[31/31] vitamin-d3-vs-d2 ... OK  9 rebuttals, 6 additions ($0.088)
+
+DONE: wrote guide_critic_report.json and guide_critic_report.md
+  Total cost: $2.890 across 30 guides

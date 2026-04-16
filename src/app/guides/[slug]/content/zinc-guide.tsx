@@ -24,8 +24,8 @@ export function ZincGuide() {
 
       <p>
         Zinc is an essential mineral involved in over{" "}
-        <strong>300 enzymatic reactions</strong> that directly supports immune
-        function, testosterone production, and wound healing. According to the
+        <strong>300 enzymatic reactions</strong> that directly supports{" "}
+        <a href="/guides/zinc-for-immune-support">immune</a> function, testosterone production, and wound healing. According to the
         WHO, roughly <strong>2 billion people worldwide</strong> are zinc
         deficient, and in the U.S. up to 40% of older adults don&rsquo;t
         consume enough from food alone. Getting the form, dose, and timing

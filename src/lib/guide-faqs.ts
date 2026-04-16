@@ -1985,6 +1985,301 @@ export const guideFaqs: Record<string, FaqItem[]> = {
         "Most people see a meaningful change in serum 25(OH)D within 4–6 weeks of consistent daily D3 supplementation. Full steady-state levels typically take 8–12 weeks. If you're severely deficient (below 20 ng/mL), your provider may start with a higher loading dose before transitioning to a maintenance regimen.",
     },
   ],
+  "berberine-vs-metformin": [
+    {
+      question: "Is berberine as effective as metformin for blood sugar?",
+      answer:
+        "In one small trial (Yin et al. 2008, n=36 per arm), berberine 500 mg three times daily reduced HbA1c by a similar amount to metformin 500 mg three times daily over 13 weeks. However, this is a single short-term study. Metformin's efficacy is supported by decades of large-scale trials. \"Similar in one trial\" is not \"equivalent in clinical practice.\"",
+    },
+    {
+      question: "Can I replace metformin with berberine?",
+      answer:
+        "Not without physician involvement. If you have type 2 diabetes, metformin has proven benefits for cardiovascular outcomes and complication prevention that berberine has not been shown to provide. Stopping a prescription diabetes medication in favor of a supplement is a decision that should only be made with your doctor, and most endocrinologists would advise against it based on current evidence.",
+    },
+    {
+      question: "What dose of berberine mimics metformin?",
+      answer:
+        "The Yin trial used 500 mg berberine three times daily (1,500 mg/day total), which matched 500 mg metformin three times daily for glucose metrics. This dose range (1,000–1,500 mg/day in divided doses) is what most clinical trials use. But \"mimics metformin\" overstates the comparison — it approximated one metric in one trial.",
+    },
+    {
+      question: "Does berberine have the same side effects as metformin?",
+      answer:
+        "The GI side effects are similar: diarrhea, nausea, cramping, and bloating affect 30–40% of users for both compounds. Both may deplete B12 long-term. The key difference is depth of knowledge — metformin's side effect profile is documented across millions of patient-years; berberine's comes from much smaller, shorter studies.",
+    },
+    {
+      question: "Is berberine safe long-term?",
+      answer:
+        "There are no long-term safety studies of berberine lasting more than a year. Most trials run 8–16 weeks. The absence of reported serious adverse events is reassuring but not equivalent to confirmed long-term safety. If you plan to use berberine indefinitely, periodic liver function tests and B12 monitoring are prudent, and clinical supervision is strongly advised.",
+    },
+    {
+      question: "Does berberine help with weight loss like metformin?",
+      answer:
+        "Both berberine and metformin are associated with modest weight loss (1–3 kg over 12 weeks in clinical trials), likely driven by improved insulin sensitivity and appetite effects. Neither is a primary weight loss tool. If weight management is your goal, the evidence for either compound is modest compared to dedicated interventions like GLP-1 receptor agonists or structured caloric restriction.",
+    },
+  ],
+  "creatine-for-endurance-athletes": [
+    {
+      question: "Will creatine make me slower because of weight gain?",
+      answer:
+        "Almost certainly not. The 1–2 lbs of intracellular water weight is a negligible fraction of body mass for most athletes. The recovery, glycogen, and sprint-capacity benefits consistently outweigh this minor increase. Elite-level ultralight climbers might run a different calculus, but for the vast majority of endurance athletes, this fear is unfounded.",
+    },
+    {
+      question: "Does creatine help with long, steady-state efforts like a marathon?",
+      answer:
+        "The direct performance boost for pure steady-state work is minimal. Creatine primarily supports the phosphocreatine system, which dominates during short, intense efforts. However, the indirect benefits—better training recovery, improved glycogen replenishment between sessions, and stronger interval workouts that build your aerobic engine—can absolutely improve marathon performance over a training cycle.",
+    },
+    {
+      question: "Should I stop taking creatine during a taper?",
+      answer:
+        "No. Creatine stores take 4–6 weeks to deplete after you stop supplementing. Discontinuing during a 1–2 week taper won't reduce your stores, but it also won't provide any benefit to stop. Keep your daily 3–5 g dose consistent through your taper and race.",
+    },
+    {
+      question: "Is creatine safe for my kidneys?",
+      answer:
+        "In healthy individuals, creatine supplementation at recommended doses (3–5 g/day) has shown no adverse effects on kidney function across hundreds of studies and the ISSN position stand. Creatine does raise serum creatinine (a kidney marker), which can confuse lab work. Tell your doctor you supplement before bloodwork so they can interpret results correctly.",
+    },
+    {
+      question: "Can I take creatine if I'm a female endurance athlete?",
+      answer:
+        "Yes. Creatine works identically in female athletes. Women may actually see relatively greater benefits because they tend to have lower baseline creatine stores (due to lower average dietary meat intake and smaller muscle mass). The dose is the same: 3–5 g/day. Emerging research also suggests potential benefits for bone health and mood, though these are still being investigated.",
+    },
+  ],
+  "ashwagandha-for-testosterone": [
+    {
+      question: "How long does ashwagandha take to affect testosterone?",
+      answer:
+        "Most clinical trials measure outcomes at 8 weeks, and that's a reasonable minimum to expect. Cortisol begins to shift within 2–4 weeks, but downstream testosterone changes require more time as the HPA axis recalibrates. Don't assess efficacy before the 8-week mark.",
+    },
+    {
+      question: "Can women take ashwagandha for testosterone?",
+      answer:
+        "The testosterone trials focused exclusively on men, and the hormonal dynamics differ significantly in women. Ashwagandha may benefit women through cortisol reduction and stress management, but extrapolating the male testosterone data to women is not supported. Women concerned about androgen levels should work with an endocrinologist.",
+    },
+    {
+      question: "Does ashwagandha increase DHT or estrogen?",
+      answer:
+        "The existing trials did not show significant increases in DHT or estradiol, but they also weren't specifically designed to detect them. A modest increase in total testosterone could theoretically increase downstream conversion to either hormone, but at 10–20% increases, this is unlikely to be clinically meaningful for most men.",
+    },
+    {
+      question: "Is KSM-66 better than Sensoril for testosterone?",
+      answer:
+        "Most testosterone-specific trials used KSM-66, so it has more direct data for this outcome. Sensoril has stronger evidence for cortisol reduction and anxiety. Both contain active withanolides. If testosterone is your primary goal, KSM-66 at 600 mg/day has the most trial support. If stress and sleep are the priority, Sensoril may be a better fit.",
+    },
+    {
+      question: "Will ashwagandha show up on a drug test?",
+      answer:
+        "Ashwagandha is not a banned substance under WADA or standard employment drug panels. It does not produce synthetic androgens or their metabolites. However, contaminated or adulterated products could theoretically cause issues — buy third-party tested supplements from reputable brands.",
+    },
+  ],
+  "best-multivitamin-over-50": [
+    {
+      question: "Is a senior multivitamin really different from a regular one?",
+      answer:
+        "It should be, but many aren't. A well-designed senior formula adjusts B12 upward (as methylcobalamin), removes iron for most formulations, increases D3 beyond the standard 400–600 IU, and includes K2. If the only difference on the label is the word \"Silver\" or \"50+,\" look more carefully at the Supplement Facts panel.",
+    },
+    {
+      question: "Can I just take the same multivitamin I've taken for years?",
+      answer:
+        "You can, but you may not be absorbing what you think. The B12 in a standard multi may be the wrong form. The iron may now be excessive. The D3 may be insufficient. It's worth reassessing your formula at 50, again at 65, and after any major health change. Your body at 55 is not your body at 35.",
+    },
+    {
+      question: "Should men and women over 50 take different multivitamins?",
+      answer:
+        "The biggest difference is iron. Postmenopausal women and most men over 50 should choose iron-free formulas. Women may benefit from slightly higher calcium if dietary intake is low, and both sexes should prioritize B12, D3, and K2. Beyond iron, the overlap is substantial.",
+    },
+    {
+      question: "Do gummy vitamins work for seniors?",
+      answer:
+        "Gummy vitamins typically contain fewer nutrients at lower doses because the gummy matrix can't hold much. They also add sugar (2–4 grams per serving). If swallowing capsules is difficult, look for liquid or mini-tablet options before defaulting to gummies. You're likely getting a fraction of what the label suggests.",
+    },
+    {
+      question: "How do I know if my multivitamin is actually working?",
+      answer:
+        "Annual bloodwork is the gold standard. Ask for 25-hydroxyvitamin D, serum B12 (or methylmalonic acid for a more sensitive marker), ferritin, RBC magnesium, and a comprehensive metabolic panel. These five tests will tell you whether your supplement regimen is doing its job or just making expensive urine.",
+    },
+    {
+      question: "Are food-based multivitamins better for absorption?",
+      answer:
+        "\"Food-based\" and \"whole food\" multivitamins are a marketing category, not a scientific one. Some use nutrient-enriched yeast, which may improve tolerance but doesn't necessarily improve absorption. What matters more is the specific form of each nutrient (methylcobalamin vs. cyanocobalamin, D3 vs. D2) and whether doses are clinically meaningful.",
+    },
+  ],
+  "nac-and-alcohol": [
+    {
+      question: "Can I take NAC the morning after drinking?",
+      answer:
+        "It's not recommended. By the morning after, acetaldehyde has already done its damage and may still be circulating. Some animal data suggests post-alcohol NAC can increase oxidative stress rather than reduce it. The protective window is before drinking, not after. For morning-after recovery, focus on hydration, electrolytes, and food.",
+    },
+    {
+      question: "Does NAC reduce how drunk I get?",
+      answer:
+        "No. NAC does not affect blood alcohol concentration, alcohol absorption rate, or the subjective experience of intoxication. It supports one downstream detoxification pathway in the liver. You will feel exactly as intoxicated with or without NAC.",
+    },
+    {
+      question: "How much NAC should I take before drinking?",
+      answer:
+        "Most protocols suggest 600–1200 mg taken 30–60 minutes before your first drink. The 600 mg dose is the most commonly studied in clinical NAC research generally. There's no evidence that doses above 1200 mg provide additional benefit for this purpose, and higher doses increase the chance of GI side effects like nausea.",
+    },
+    {
+      question: "Is NAC safe to take with alcohol?",
+      answer:
+        "NAC taken before alcohol appears safe based on available data. NAC is generally well-tolerated at standard doses (600–1800 mg/day) with mild GI effects as the most common side effect. The concern is specifically about post-alcohol timing, not about a dangerous direct interaction between NAC and ethanol.",
+    },
+    {
+      question: "Can NAC help repair liver damage from past drinking?",
+      answer:
+        "NAC supports ongoing glutathione production, which is part of the liver's antioxidant defense system. There is some evidence it can reduce markers of oxidative stress in the liver. However, it cannot reverse fibrosis or established liver disease. If you have concerns about liver damage, get liver function tests from your doctor rather than relying on supplements.",
+    },
+  ],
+  "probiotic-strains-for-ibs": [
+    {
+      question: "Can I take multiple probiotic strains at once for IBS?",
+      answer:
+        "You can, but it makes it harder to identify what's working. The evidence-backed strains for IBS were each studied individually. If you start two strains simultaneously and your symptoms improve (or worsen), you won't know which strain is responsible. Start with one, give it 4–8 weeks, and assess before adding or switching.",
+    },
+    {
+      question: "Are higher CFU counts better for IBS?",
+      answer:
+        "Not necessarily. The Whorwell (2006) trial for B. infantis 35624 found that 1×10^8 CFU outperformed 1×10^10 CFU. More isn't automatically better with probiotics — optimal dose depends on the specific strain. Follow the dose used in the clinical trial for your chosen strain, not the highest number on the shelf.",
+    },
+    {
+      question: "Should I take probiotics with food or on an empty stomach?",
+      answer:
+        "Most IBS probiotic trials administered the strain with or shortly before a meal. Food buffers stomach acid, which improves bacterial survival through the upper GI tract. S. boulardii is more acid-resistant as a yeast and is less sensitive to timing. A reasonable default: take your probiotic with breakfast.",
+    },
+    {
+      question: "Will probiotics help IBS caused by stress or anxiety?",
+      answer:
+        "The gut-brain axis is real, but the evidence for probiotics specifically improving stress-driven IBS is preliminary. B. infantis 35624 has shown some immune-modulating effects that may be relevant, but no probiotic has strong evidence as a primary treatment for psychologically driven IBS. Address the stress component with your provider in parallel.",
+    },
+    {
+      question: "How do I know if my IBS probiotic is working?",
+      answer:
+        "Track your primary symptoms weekly using a simple scale: abdominal pain (0–10), bloating severity (0–10), stool consistency (Bristol scale 1–7), and number of urgent episodes. Compare your baseline week to weeks 4 and 8. A meaningful response is usually a 30%+ improvement in your worst symptom. If nothing has changed by week 8, switch strains.",
+    },
+  ],
+  "magnesium-for-anxiety": [
+    {
+      question: "How quickly does magnesium glycinate work for anxiety?",
+      answer:
+        "Most people notice subtle changes in 2–4 weeks, with more consistent effects by 6–8 weeks. You may notice improved sleep or reduced muscle tension within the first week, but the anxiolytic effect on mood and racing thoughts takes longer as brain magnesium levels normalize. This is not an acute anxiolytic—don't expect same-day relief.",
+    },
+    {
+      question: "Can I take magnesium glycinate with my anxiety medication?",
+      answer:
+        "Magnesium glycinate is generally compatible with SSRIs, SNRIs, and buspirone. However, it can interact with certain antibiotics (tetracyclines, fluoroquinolones) by reducing their absorption, and it may enhance the effects of muscle relaxants or blood pressure medications. Always inform your prescriber about all supplements you take, especially if you're on benzodiazepines, since both enhance GABA signaling.",
+    },
+    {
+      question: "Is magnesium glycinate or threonate better for anxiety?",
+      answer:
+        "Glycinate has more direct anxiety evidence and the added benefit of the glycine molecule, which is itself an inhibitory neurotransmitter. Threonate (Magtein) has interesting data for brain magnesium penetrance and cognition (Slutsky et al. 2010), but its anxiety-specific clinical evidence is thinner. Glycinate is also significantly less expensive. For anxiety as the primary target, glycinate is the more evidence-supported choice.",
+    },
+    {
+      question: "What are signs that magnesium is helping my anxiety?",
+      answer:
+        "Early indicators (week 1–2): reduced muscle tension, fewer leg cramps, slightly easier time falling asleep. Mid-term indicators (week 3–6): less background mental tension, fewer intrusive worried thoughts, improved ability to relax in the evening. If you notice none of these by week 6–8 at a full dose, magnesium deficiency likely isn't a significant contributor to your anxiety.",
+    },
+    {
+      question: "Can you take too much magnesium for anxiety?",
+      answer:
+        "The tolerable upper intake level for supplemental magnesium is 350 mg/day of elemental magnesium (this doesn't include dietary magnesium). Exceeding this primarily causes GI symptoms—loose stools or diarrhea. Glycinate is the most GI-friendly form. True magnesium toxicity (hypermagnesemia) is rare and almost exclusively seen in people with kidney disease. Healthy kidneys efficiently excrete excess magnesium.",
+    },
+    {
+      question: "Does magnesium help with anxiety and depression together?",
+      answer:
+        "There's overlapping evidence. Tarleton et al. (2017) found that 248 mg of elemental magnesium daily improved both anxiety and depression scores in mildly depressed adults. The mechanisms partially overlap—both conditions involve HPA axis dysregulation and neurotransmitter imbalances that magnesium modulates. However, magnesium is not a standalone treatment for clinical depression.",
+    },
+  ],
+  "best-collagen-for-joints": [
+    {
+      question: "Can I take UC-II and hydrolyzed collagen together?",
+      answer:
+        "Yes, they work through different mechanisms and don't interfere with each other. Some people take UC-II (40 mg) for joint-specific immune modulation and hydrolyzed Type I collagen (10–15 g) for skin, hair, and general connective tissue support. Just don't take them at the same time — UC-II is best on an empty stomach, while hydrolyzed collagen can go with meals.",
+    },
+    {
+      question: "How long before I notice joint improvements?",
+      answer:
+        "Plan for at least 90 days of consistent daily use. The Lugo 2016 trial showed improvements continued to build between day 90 and day 180. If you've been taking a collagen product for two weeks and feel nothing, that's expected. Immune modulation and cartilage turnover are slow processes.",
+    },
+    {
+      question: "Does collagen work for rheumatoid arthritis?",
+      answer:
+        "Early research on oral tolerance with Type II collagen in rheumatoid arthritis showed some promise (Trentham et al. 1993), but results across subsequent trials were inconsistent. RA is a complex autoimmune disease, and collagen supplements should not replace disease-modifying antirheumatic drugs (DMARDs). Talk to your rheumatologist before adding any supplement.",
+    },
+    {
+      question: "Is marine collagen good for joints?",
+      answer:
+        "Marine collagen is typically Type I, hydrolyzed from fish skin. It provides the same amino acid profile as bovine hydrolyzed collagen and is a good option for pescetarians. However, there is no marine-sourced UC-II product on the market — the patented UC-II ingredient comes from chicken sternum cartilage. If joint pain is your primary concern, source matters less than collagen type.",
+    },
+    {
+      question: "Will collagen help my knees if I'm a runner?",
+      answer:
+        "Possibly. Clark et al. (2008) showed 10 g/day of collagen hydrolysate reduced activity-related knee pain in athletes. UC-II hasn't been specifically studied in runners, but its mechanism (reducing immune-mediated cartilage degradation) could theoretically benefit anyone with repetitive joint stress. Neither replaces proper training load management, mobility work, or addressing biomechanical issues.",
+    },
+    {
+      question: "What about bone broth as a collagen source for joints?",
+      answer:
+        "Bone broth contains collagen, but the collagen is largely denatured during cooking, and the amount per serving is highly variable and generally much lower than supplemental doses. You also can't get the intact undenatured Type II collagen needed for oral tolerance from boiled bones. Bone broth is fine as food; it's not a reliable substitute for a standardized UC-II supplement.",
+    },
+  ],
+  "zinc-for-immune-support": [
+    {
+      question: "Does zinc actually shorten colds, or is this overhyped?",
+      answer:
+        "It genuinely shortens colds — this is one of the better-supported supplement claims. Hemilä's 2017 meta-analysis found a ~33% reduction in cold duration with zinc acetate lozenges providing 80+ mg/day, started within 24 hours. The catch is that most people use the wrong form or start too late, then conclude zinc doesn't work. When the protocol is followed correctly, the evidence is strong.",
+    },
+    {
+      question: "Can I just take extra zinc pills when I feel a cold coming on?",
+      answer:
+        "No. Swallowed zinc pills do not shorten colds. The mechanism is topical — ionic zinc must contact the pharyngeal tissue where the virus replicates. A swallowed pill gets absorbed in the small intestine and never reaches the right tissue. You need lozenges that dissolve slowly in your mouth.",
+    },
+    {
+      question: "Zinc acetate vs. zinc gluconate lozenges — which is better?",
+      answer:
+        "Both work. Zinc acetate releases ionic zinc more efficiently in saliva, and Hemilä's analysis found slightly more consistent results with acetate. However, zinc gluconate lozenges also shorten colds effectively, provided they don't contain citric acid or other chelating additives. Zinc acetate lozenges tend to taste more metallic, which is a tolerability trade-off.",
+    },
+    {
+      question: "Should I take zinc lozenges every day during cold season to prevent colds?",
+      answer:
+        "The evidence for zinc as a preventive measure in people with adequate zinc levels is weak. Daily high-dose lozenges for weeks or months would also cause side effects including nausea, copper depletion, and taste disturbances. A better strategy: keep lozenges on hand and deploy them within 24 hours of your first symptoms. For general prevention, maintain adequate daily zinc intake (15–30 mg) through diet or a standard supplement.",
+    },
+    {
+      question: "Is zinc safe during pregnancy?",
+      answer:
+        "Standard zinc supplementation at dietary levels (8–12 mg/day) is generally considered safe during pregnancy. However, the high-dose acute cold protocol (75–92 mg/day) has not been adequately studied in pregnant individuals. If you're pregnant or breastfeeding and considering zinc lozenges for a cold, consult your healthcare provider before using doses above the standard recommended intake.",
+    },
+  ],
+  "vitamin-b12-methylcobalamin-vs-cyanocobalamin": [
+    {
+      question: "Is cyanocobalamin dangerous?",
+      answer:
+        "No. For healthy individuals with normal kidney function, the trace cyanide released by cyanocobalamin (roughly 10 mcg per 1,000 mcg dose) is easily detoxified by the liver. It's been used safely in supplements and food fortification for over 50 years. The concern is limited to specific populations: people with kidney disease, chronic smokers, and those on extremely high doses long-term.",
+    },
+    {
+      question: "Can I take methylcobalamin and adenosylcobalamin together?",
+      answer:
+        "Yes. These are the two bioactive forms, and they serve different enzymatic roles — methylcobalamin in cytoplasmic methylation and adenosylcobalamin in mitochondrial energy metabolism. Some practitioners recommend combining both, especially for patients with persistently elevated homocysteine and methylmalonic acid. No adverse interactions between the two forms have been reported.",
+    },
+    {
+      question: "How do I know if I have an MTHFR variant?",
+      answer:
+        "MTHFR variants are detected through genetic testing, available via clinical lab orders or consumer genomics services like 23andMe. If you've done consumer testing, look for rs1801133 (C677T) and rs1801131 (A1298C) in your raw data. Alternatively, elevated homocysteine levels on a standard blood panel can suggest impaired methylation, though they don't confirm the specific cause.",
+    },
+    {
+      question: "Does B12 form matter if I'm getting injections?",
+      answer:
+        "Injections bypass the gastrointestinal tract entirely, so absorption is not a variable. Hydroxocobalamin is the standard injection form because of its long half-life and strong protein binding. Cyanocobalamin injections are also used, though hydroxocobalamin is generally preferred for fewer required injections. Methylcobalamin injections exist but are less stable and less commonly prescribed.",
+    },
+    {
+      question: "Will switching to methylcobalamin fix my fatigue?",
+      answer:
+        "It depends on why you're fatigued. If your fatigue stems from B12 deficiency and you have impaired conversion of cyanocobalamin (due to MTHFR variants, aging, or other factors), switching to methylcobalamin may help. But fatigue is multifactorial. If your serum B12 and MMA levels are already normal, the form of B12 likely isn't the bottleneck. Rule out iron deficiency, thyroid dysfunction, and sleep disorders first.",
+    },
+    {
+      question: "Do high-dose B12 supplements cause acne?",
+      answer:
+        "Possibly. A study by Kang et al. (2015) found that B12 supplementation altered the gene expression of skin bacteria (Cutibacterium acnes), promoting inflammatory compound production. This effect was observed at high doses and appeared form-independent. If you notice breakouts after starting B12, try lowering the dose before switching forms.",
+    },
+  ],
 };
 
 export function getFaqsForGuide(slug: string): FaqItem[] | undefined {

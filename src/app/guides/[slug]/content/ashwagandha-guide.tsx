@@ -121,7 +121,8 @@ export function AshwagandhaGuide() {
 
       <h3>Testosterone and Male Fertility</h3>
       <p>
-        Several studies suggest ashwagandha can increase testosterone in men,
+        Several studies suggest ashwagandha can increase{" "}
+        <a href="/guides/ashwagandha-for-testosterone">testosterone</a> in men,
         though the effects are modest in healthy young men and more pronounced
         in older or stressed populations. A 2019 RCT by Lopresti et al. in{" "}
         <em>American Journal of Men&rsquo;s Health</em> found a 14.7%

@@ -258,7 +258,7 @@ export function DoYouNeedMultivitamin() {
         Use a food tracker for one week. Most people discover they&rsquo;re
         short on 2&ndash;4 specific nutrients, not all 25. The most common
         gaps in American diets: vitamin D, magnesium, omega-3, and sometimes
-        B12 (especially for people over 50 or on plant-based diets).
+        B12 (especially for people <a href="/guides/best-multivitamin-over-50">over 50</a> or on plant-based diets).
       </p>
 
       <h3>Step 2: Get Bloodwork</h3>

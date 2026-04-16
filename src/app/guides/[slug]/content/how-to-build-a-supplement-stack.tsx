@@ -502,7 +502,7 @@ export function HowToBuildStack() {
 
 <p><strong>SSRIs/SNRIs + Omega-3 and L-Theanine:</strong> High-dose omega-3 has mild serotonergic activity and could theoretically compound SSRI effects, though clinically significant serotonin syndrome from fish oil alone is not well-documented. L-theanine modulates GABA and glutamate but has no reported dangerous SSRI interactions at 200mg. <strong>Action: generally safe at guide doses, but mention both to your prescriber.</strong> <EvidenceBadge level="emerging" /></p>
 
-<p><strong>Metformin + B12:</strong> Long-term metformin use reduces B12 absorption in 10–30% of users (Aroda et al., 2016, <em>Journal of Clinical Endocrinology &amp; Metabolism</em>). <strong>Action: if you're on metformin, get B12 and MMA tested annually and supplement if levels drop.</strong> Magnesium is also worth monitoring since metformin may increase urinary magnesium loss. <EvidenceBadge level="moderate" /></p>
+<p><strong>Metformin + B12:</strong> Long-term <a href="/guides/berberine-vs-metformin">metformin</a> use reduces B12 absorption in 10–30% of users (Aroda et al., 2016, <em>Journal of Clinical Endocrinology &amp; Metabolism</em>). <strong>Action: if you're on metformin, get B12 and MMA tested annually and supplement if levels drop.</strong> Magnesium is also worth monitoring since metformin may increase urinary magnesium loss. <EvidenceBadge level="moderate" /></p>
 
 <p><strong>Oral contraceptives + Magnesium and B vitamins:</strong> OCs can deplete magnesium, B6, B12, and folate over time (Palmery et al., 2013). The foundation stack's magnesium already partially addresses this. <strong>Action: no conflicts — supplementation is actually more important if you're on OCs.</strong> <EvidenceBadge level="moderate" /></p>
 

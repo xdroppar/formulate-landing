@@ -192,7 +192,7 @@ export function MagnesiumDeficiency() {
       <h3>3. Anxiety or Irritability That Feels Disproportionate</h3>
       <p>
         You snap at your partner over nothing. You feel a low-grade
-        background anxiety that doesn&rsquo;t match your circumstances.
+        background <a href="/guides/magnesium-for-anxiety">anxiety</a> that doesn&rsquo;t match your circumstances.
         Things that normally wouldn&rsquo;t bother you feel overwhelming.
       </p>
       <p>

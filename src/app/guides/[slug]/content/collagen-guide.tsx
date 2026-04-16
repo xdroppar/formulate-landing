@@ -23,7 +23,7 @@ export function CollagenGuide() {
 
       <p>
         Collagen supplements have evidence supporting modest improvements in
-        skin elasticity and joint pain, though the research is stronger than
+        skin elasticity and <a href="/guides/best-collagen-for-joints">joint pain</a>, though the research is stronger than
         skeptics suggest and weaker than marketing implies. The $7 billion
         industry rests on a counterintuitive digestive mechanism &mdash;
         collagen peptides survive gut breakdown and signal the body to produce

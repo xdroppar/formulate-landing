@@ -230,7 +230,8 @@ export function VitaminB12Guide() {
       </Callout>
 
       <p>
-        <strong>Our take:</strong> methylcobalamin is the better choice for
+        <strong>Our take:</strong>{" "}
+        <a href="/guides/vitamin-b12-methylcobalamin-vs-cyanocobalamin">methylcobalamin</a> is the better choice for
         daily supplementation. It&rsquo;s the form your body actually uses,
         skips the conversion step, and is widely available at reasonable
         prices. Cyanocobalamin isn&rsquo;t dangerous &mdash; decades of
@@ -470,7 +471,7 @@ export function VitaminB12Guide() {
 
       <p>Pernicious anemia is an autoimmune condition where your body produces antibodies that destroy intrinsic factor — the gastric protein you need to absorb B12 from food. Without intrinsic factor, the active transport mechanism in your ileum is effectively shut down, leaving only passive diffusion (that ~1–2% absorption rate) to do all the work. Standard oral doses of 25–100mcg won't even come close to correcting this.</p>
 
-      <p>It's the most common cause of severe B12 deficiency in adults over 50, and it's frequently missed. A 2012 review in <em>Blood Reviews</em> (Toh et al.) estimated prevalence at roughly 1–2% of the general population, rising significantly with age. Because its symptoms — fatigue, cognitive decline, neuropathy — overlap with "normal aging," many cases go undiagnosed for years.</p>
+      <p>It's the most common cause of severe B12 deficiency in adults <a href="/guides/best-multivitamin-over-50">over 50</a>, and it's frequently missed. A 2012 review in <em>Blood Reviews</em> (Toh et al.) estimated prevalence at roughly 1–2% of the general population, rising significantly with age. Because its symptoms — fatigue, cognitive decline, neuropathy — overlap with "normal aging," many cases go undiagnosed for years.</p>
 
       <h3>Diagnosis Requires Specific Antibody Testing</h3>
 
