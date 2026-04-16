@@ -31,6 +31,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "At maintenance doses (3–5g/day), expect full muscle saturation in about 28 days. With a loading protocol, you can reach saturation in 5–7 days. Performance benefits become noticeable once stores are saturated.",
     },
+    {
+      question:
+        "Can I take creatine while pregnant or breastfeeding?",
+      answer:
+        "The guide doesn't cover this directly. Creatine research in pregnancy is emerging but not yet sufficient to establish safety guidelines for supplementation. Because pregnancy and breastfeeding involve distinct physiological and fetal considerations, this is a decision that requires physician supervision — not a supplement guide. Consult your OB-GYN or midwife before adding creatine during pregnancy or lactation.",
+    },
+    {
+      question:
+        "Can I take creatine with my medications? Does it interact with metformin, SSRIs, diuretics?",
+      answer:
+        "The guide doesn't address drug interactions. This matters: creatine affects kidney filtration markers, and combining it with nephrotoxic drugs (certain NSAIDs or antibiotics) or diuretics — which alter hydration status relevant to creatine's mechanism — introduces variables the guide doesn't account for. If you take any prescription medication, particularly those affecting kidney function or fluid balance, consult your prescribing physician before starting creatine.",
+    },
+    {
+      question:
+        "Does creatine need to be cycled or will it stop working over time?",
+      answer:
+        "No cycling needed. The guide states clearly there is no evidence your body builds tolerance to creatine. Unlike stimulants or some hormonal compounds, creatine doesn't trigger receptor downregulation — it works by saturating intracellular phosphocreatine stores, a structural state that simply needs to be maintained. Taking 3–5g daily, indefinitely, keeps those stores topped off. Cycling off means letting saturation drop and restarting the 28-day buildup.",
+    },
+    {
+      question:
+        "Should I take creatine on rest days?",
+      answer:
+        "Yes. Creatine works through accumulation, not acute dosing. The 3–5g daily recommendation applies every day — training days and rest days alike — because maintaining muscle saturation is the goal. Skipping rest days erodes the intracellular creatine stores built over roughly 28 days of consistent dosing. Inconsistent intake is one of the most common reasons people conclude creatine \"isn't working\" for them.",
+    },
+    {
+      question:
+        "Does creatine break a fast or is it okay during intermittent fasting?",
+      answer:
+        "The guide doesn't address intermittent fasting specifically. Creatine monohydrate is calorie-free, so it doesn't break a fast in the caloric sense. The guide emphasizes that timing matters little — consistency beats timing. Whether fasted-state insulin dynamics meaningfully affect creatine uptake is a mechanistic question the guide doesn't resolve. For most users, taking creatine at any point during your eating window is a practical solution.",
+    },
+    {
+      question:
+        "What happens if I have one kidney or existing kidney disease?",
+      answer:
+        "The guide's kidney safety assurances apply explicitly to \"healthy individuals\" and \"otherwise-healthy older adults\" — it does not address chronic kidney disease, solitary kidney, or transplant. Creatine raises serum creatinine, a standard kidney function marker, which complicates monitoring in people with compromised renal function. If you have any kidney condition, this is a physician conversation before starting supplementation, not a decision to make based on healthy-population research.",
+    },
+    {
+      question:
+        "Which creatine is best for kids or teenagers?",
+      answer:
+        "The guide doesn't provide age-specific guidance for minors. Its \"almost everyone\" recommendation is grounded in adult clinical data. Major sports medicine organizations generally advise that youth athletes prioritize training, nutrition, and sleep before any supplementation, and that creatine use in adolescents should involve a physician and parental oversight. Do not extrapolate adult dosing protocols to children or teenagers without professional guidance.",
+    },
   ],
   "best-magnesium-supplements": [
     {
@@ -52,6 +94,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Does magnesium interact with any medications?",
       answer:
         "Yes. Magnesium can interact with antibiotics (tetracyclines, quinolones), bisphosphonates, and some blood pressure medications. Separate magnesium from antibiotics by at least 2 hours, and check with your doctor or pharmacist if you're on prescription medications.",
+    },
+    {
+      question:
+        "Can I take magnesium glycinate and L-threonate together?",
+      answer:
+        "Yes, but track your total elemental magnesium carefully. The guide notes some people take both — glycinate at night for sleep, threonate in the morning for cognition — but each form contributes to your daily elemental total, which should stay within the 350mg supplemental upper limit for most adults. Check both labels for elemental magnesium per serving, not compound weight, and add those numbers together before stacking. If you're unsure how to read those labels, the guide recommends its supplement label reading resource.",
+    },
+    {
+      question:
+        "What is an RBC magnesium test and where do I get one?",
+      answer:
+        "The guide recommends an RBC (red blood cell) magnesium test as more useful than guessing at deficiency, but doesn't cover the specifics — what it costs, how it differs from a standard serum magnesium test, whether insurance typically covers it, or how to interpret results. For those details, ask your primary care provider or request it through a direct-to-consumer lab service. A physician can also help you interpret your results in the context of your symptoms and health history.",
+    },
+    {
+      question:
+        "Is magnesium safe during pregnancy?",
+      answer:
+        "The guide doesn't cover pregnancy directly. This is a significant gap — magnesium is commonly used during pregnancy for leg cramps, and clinical contexts like preeclampsia involve medical-grade magnesium protocols. The RDA and safety thresholds may differ from the general adult figures cited in this guide. Do not rely on this guide for gestational dosing. Consult your OB-GYN or midwife before starting or continuing magnesium supplementation during pregnancy.",
+    },
+    {
+      question:
+        "How long does magnesium take to work for sleep?",
+      answer:
+        "The guide covers when to take magnesium for sleep (30–60 minutes before bed) but not how long consistent use takes to produce results. Based on the cited Abbasi et al. 2012 trial, which measured outcomes over eight weeks, sleep benefits are unlikely to appear after a single dose. Most users should expect 2–4 weeks of nightly use before judging effectiveness. If you abandon supplementation after a few nights of no change, you're likely quitting before the timeline the clinical evidence reflects.",
+    },
+    {
+      question:
+        "Which magnesium form is best for muscle cramps or restless legs?",
+      answer:
+        "The guide doesn't address muscle cramps or restless leg syndrome directly — its form-matching section covers sleep, cognition, budget, and cardiovascular goals but omits musculoskeletal use cases. Glycinate's high bioavailability and GI tolerability make it the guide's default recommendation for general magnesium repletion, which may be relevant if cramps are driven by deficiency. For restless legs specifically, consult a healthcare provider, as the condition has multiple causes beyond magnesium status.",
+    },
+    {
+      question:
+        "Does magnesium glycinate make you tired during the day?",
+      answer:
+        "It can, if timed incorrectly. The guide recommends taking glycinate 30–60 minutes before bed for sleep — that timing recommendation exists precisely because the glycine component has calming, inhibitory effects on the nervous system. Taking it in the morning or midday may cause unwanted drowsiness in some people. If you're using glycinate for general health rather than sleep, take it with an evening meal or shift to a morning dose of citrate, which lacks glycine's sedating effect.",
+    },
+    {
+      question:
+        "Is magnesium threonate worth the extra cost compared to glycinate?",
+      answer:
+        "For most people, probably not. The guide confirms threonate is genuinely more expensive to produce and delivers less elemental magnesium per capsule — making it a poor choice for fixing a general deficiency. The human evidence for cognitive benefits (Liu et al., 2016) is limited to older adults with cognitive concerns. If that's your specific goal, the premium has some justification. For sleep, anxiety, or general magnesium repletion, glycinate delivers better value with stronger practical evidence.",
     },
   ],
   "best-omega-3-supplements": [
@@ -75,6 +159,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Krill oil contains EPA and DHA in phospholipid form and also contains astaxanthin. However, krill oil typically delivers far less EPA + DHA per serving (often 100–200mg total) at a higher cost per milligram. For most people, concentrated TG-form fish oil is more practical and economical.",
     },
+    {
+      question:
+        "Can I take fish oil while pregnant?",
+      answer:
+        "The guide doesn't cover prenatal dosing, trimester timing, algal-vs-fish choices during pregnancy, or overlap with prenatal vitamins — all high-stakes specifics. What it does confirm: DHA is critical for fetal brain development. Because prenatal supplementation involves both your health and a developing baby's, consult your OB or midwife for dose and form guidance before starting or adjusting omega-3 supplementation during pregnancy.",
+    },
+    {
+      question:
+        "Does fish oil interact with statins?",
+      answer:
+        "The guide recommends Thorne Omega-3 with CoQ10 for people on statins but doesn't explain the interaction profile. It doesn't address whether the combination is additive, synergistic, or risky at high doses. Because statins are a prescribed medication with their own metabolic effects, your prescribing physician is the right person to evaluate whether and at what dose omega-3 supplementation fits your specific regimen.",
+    },
+    {
+      question:
+        "Is fish oil safe at high doses — what are the risks of too much omega-3?",
+      answer:
+        "The guide notes that doses above 2,000–4,000mg EPA + DHA daily should involve a healthcare provider, but doesn't explain why. It doesn't address risks such as immune suppression, potential glycemic effects in diabetics, or regulatory ceilings. The guide's position: high-dose omega-3 use isn't a DIY decision. If you're targeting therapeutic doses, work with a physician who can monitor relevant biomarkers and adjust accordingly.",
+    },
+    {
+      question:
+        "What's the best fish oil for kids?",
+      answer:
+        "The guide doesn't cover pediatric dosing, age-appropriate forms (liquid, gummy, softgel), or child-specific products. This is a genuine gap. For children's omega-3 supplementation, consult a pediatrician for weight-appropriate dosing. The guide's general quality criteria still apply when evaluating any product: look for confirmed EPA + DHA amounts, triglyceride form where possible, and IFOS certification or published TOTOX values.",
+    },
+    {
+      question:
+        "Does fish oil expire, and can I take expired fish oil?",
+      answer:
+        "The guide explains that oxidized fish oil may be actively harmful and recommends a smell test — if it smells strongly fishy or off, the oil is likely rancid. That principle applies directly to expired product: expiration dates exist precisely because oxidation accelerates over time. The guide recommends cool, dark storage and refrigeration to slow this process, but doesn't specify how long an open bottle remains good. When in doubt, use your nose — and replace it.",
+    },
+    {
+      question:
+        "What's a good budget fish oil that still passes quality tests?",
+      answer:
+        "The guide doesn't recommend specific budget brands. It does give you the criteria to evaluate any product: confirmed EPA + DHA per serving, triglyceride form for better absorption, and IFOS certification or published TOTOX values under 26. If you're buying a cheaper ethyl ester product, the guide notes absorption is roughly 70% lower than TG form — partially offset by taking it with a fat-containing meal. IFOS-certified EE-form oil taken with food outperforms an unverified TG-form product.",
+    },
+    {
+      question:
+        "What does the Omega-3 Index test actually tell me and should I get one before buying?",
+      answer:
+        "Your Omega-3 Index measures EPA + DHA as a percentage of red blood cell membranes — a 3-to-4-month average of status, not a snapshot of yesterday's meal. Below 4% is high-risk; above 8% is the research-backed target. The guide lists OmegaQuant as a source for $50–80 finger-stick tests, with a retest window of 3–4 months after changing your dose. Testing before you start gives you a baseline; testing after tells you whether your current dose is actually moving the needle.",
+    },
   ],
   "best-vitamin-d-supplements": [
     {
@@ -96,6 +222,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Do I need vitamin D if I take a multivitamin?",
       answer:
         "Most multivitamins contain 400–1,000 IU of vitamin D, which is likely insufficient for anyone deficient or insufficient. Check the label, get blood levels tested, and supplement the difference. A multivitamin is a starting point, not necessarily the whole solution.",
+    },
+    {
+      question:
+        "Can you take too much vitamin D3 long-term even under 10,000 IU?",
+      answer:
+        "Yes, though the guide doesn't detail cumulative toxicity risk. Vitamin D is fat-soluble and stored in tissue, so excess builds up gradually over months — not days. The guide flags above 100 ng/mL as a toxicity threshold and calls self-dosing at 10,000 IU without blood work 'reckless.' Early hypercalcemia symptoms (nausea, fatigue, frequent urination, confusion) aren't covered here. If you're taking 5,000–8,000 IU long-term without periodic 25(OH)D testing, consult a healthcare provider to monitor your serum levels.",
+    },
+    {
+      question:
+        "What medications interact with vitamin D supplements?",
+      answer:
+        "The guide doesn't address drug interactions — a meaningful gap. Several common medications affect vitamin D metabolism or risk: thiazide diuretics may increase hypercalcemia risk when combined with high-dose D; corticosteroids can impair D metabolism; orlistat, cholestyramine, and some anticonvulsants reduce absorption. If you take any of these or other chronic medications, consult a physician or pharmacist before starting or adjusting a vitamin D supplement regimen.",
+    },
+    {
+      question:
+        "Is vitamin D safe during pregnancy?",
+      answer:
+        "The guide doesn't cover pregnancy-specific dosing or safety. Pregnant women are a high-risk group for deficiency, and organizations like ACOG and RCOG have specific guidance on testing and supplementation during pregnancy that differs from general adult recommendations. Do not rely on this guide for prenatal vitamin D decisions. Consult your OB-GYN or midwife, who can order appropriate testing and recommend a dose that's safe for both you and the fetus.",
+    },
+    {
+      question:
+        "What does my vitamin D blood test number actually mean and where do I get it tested?",
+      answer:
+        "Order a 25(OH)D test — not a 1,25(OH)2D test, which measures the active hormone and isn't useful for assessing deficiency. The guide covers what your result means: below 20 ng/mL is deficient, 20–30 insufficient, 30–50 sufficient, and above 100 carries toxicity risk. For ordering, the guide mentions a $30–60 cost but doesn't name sources. Direct-to-consumer options like LabCorp OnDemand, Ulta Lab Tests, or your primary care provider can order it without a prior appointment in most states.",
+    },
+    {
+      question:
+        "Does vitamin D help with depression, immunity, or autoimmune conditions?",
+      answer:
+        "The guide frames vitamin D primarily around bone health and correcting deficiency — it doesn't evaluate evidence for depression, immune function, or autoimmune conditions specifically. The honest summary from the broader literature: associations exist and are biologically plausible, but RCT evidence for these outcomes is mixed and often weak. Correcting a confirmed deficiency is reasonable regardless of the reason you're supplementing. For condition-specific claims, the evidence doesn't yet support supplementing beyond sufficiency as a treatment.",
+    },
+    {
+      question:
+        "Which vitamin K2 supplement should I buy separately if my D3 doesn't include it?",
+      answer:
+        "The guide recommends pairing K2 (MK-7 form, at least 90–120mcg/day) with D3 doses of 2,000 IU or higher, and notes that products like Momentous D3, Nordic Naturals D3, and Thorne D3 5,000 IU don't include K2. However, the guide names zero standalone K2 products or brands. For standalone K2 selection, look for MK-7 (not MK-4), at least 90–100mcg per serving, third-party tested, and ideally in an oil-based capsule for absorption — the same criteria applied to D3 products in this guide.",
+    },
+    {
+      question:
+        "Does vitamin D supplementation actually reduce all-cause mortality or major disease outcomes?",
+      answer:
+        "The evidence is more limited than supplement marketing suggests, and the guide doesn't address this directly. The VITAL trial (n=25,871, NEJM 2019) — the largest RCT on vitamin D supplementation — found no significant reduction in cardiovascular events or cancer incidence in a generally replete population. Some secondary analyses suggested reduced cancer mortality, but results were mixed. Correcting confirmed deficiency has clear benefits for bone and muscle health; claims about preventing major disease in already-sufficient populations are not well-supported by current RCT evidence.",
     },
   ],
   "best-sleep-supplement-protocol": [
@@ -119,6 +287,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Most multivitamins contain 50–100mg of magnesium in oxide form (poorly absorbed), which isn't enough to affect sleep meaningfully. You can still take 200–400mg of magnesium glycinate in the evening — the total is within safe limits. The upper tolerable intake for supplemental magnesium is 350mg elemental per day from supplements.",
     },
+    {
+      question:
+        "Is magnesium glycinate safe during pregnancy?",
+      answer:
+        "The guide doesn't cover this directly. Magnesium is an essential nutrient and magnesium glycinate is commonly used, but pregnancy changes both nutrient needs and supplement safety thresholds in ways this guide doesn't address. Pregnant women should consult an OB or midwife before adding any supplement to their routine, including magnesium — dosing and form recommendations may differ from general adult guidance.",
+    },
+    {
+      question:
+        "Can I take this sleep stack with SSRIs or antidepressants?",
+      answer:
+        "The guide doesn't address this directly. L-theanine has mild serotonergic activity, and combining it with SSRIs or other antidepressants warrants medical review before use. The guide notes the Formulate app flags potential interactions, but that's not a substitute for speaking with your prescribing physician or pharmacist before starting this stack. Do not rely on supplement guidance alone when managing psychiatric medication.",
+    },
+    {
+      question:
+        "Does magnesium glycinate interact with thyroid medication or blood pressure drugs?",
+      answer:
+        "The guide doesn't cover drug interactions for magnesium. This is a real safety gap: magnesium is known to reduce absorption of levothyroxine and may potentiate antihypertensive medications — neither interaction is addressed. The guide recommends 200–400mg elemental magnesium with no caveats for medicated individuals. If you take thyroid or blood pressure medication, consult your pharmacist or physician before adding magnesium glycinate to your routine.",
+    },
+    {
+      question:
+        "What brand of magnesium glycinate should I actually buy?",
+      answer:
+        "The guide doesn't recommend specific brands inline. It points to the Formulate app for brand comparisons by evidence score. As a general principle — not covered by this guide — look for products verified by independent third-party testers like USP, NSF International, or Informed Sport. These certifications confirm label accuracy and screen for contaminants, which matters more than brand name or price.",
+    },
+    {
+      question:
+        "Is glycine safe for people with kidney disease?",
+      answer:
+        "The guide doesn't address kidney disease. It describes glycine as broadly safe at 3g, but glycine is metabolized renally, and higher amino acid loads can be problematic for people with impaired kidney function. The guide's 'universally safe' framing does not account for this population. If you have chronic kidney disease or compromised renal function, consult a nephrologist before supplementing with glycine.",
+    },
+    {
+      question:
+        "Will L-theanine interfere with my sleep if I take it in the morning too?",
+      answer:
+        "The guide doesn't address daytime L-theanine use or stacked dosing across morning and evening. It covers only the evening 200mg dose as the clinical sweet spot for sleep. Whether morning use — common for focus or caffeine pairing — compounds or conflicts with the evening protocol isn't discussed. The guide notes that 'going higher doesn't add much benefit,' but total daily dose considerations aren't covered. Use the Formulate app to flag redundancies in your full stack.",
+    },
+    {
+      question:
+        "How do I know if my poor sleep is actually insomnia disorder vs. lifestyle-driven?",
+      answer:
+        "The guide doesn't provide a diagnostic threshold, but it does flag the limit: 'No supplement will fix truly pathological insomnia.' A rough clinical signal — not from the guide — is sleep difficulty occurring three or more nights per week for three or more months despite adequate sleep opportunity. If that describes you, the guide explicitly recommends CBT-I and a physician over continued self-supplementation. Supplements address suboptimal sleep; insomnia disorder requires professional evaluation.",
+    },
   ],
   "ashwagandha-guide": [
     {
@@ -140,6 +350,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "How long does ashwagandha take to work?",
       answer:
         "Most people notice changes in stress reactivity and sleep quality within 2–4 weeks. Cortisol and testosterone data in trials typically reaches statistical significance at the 8-week mark. Give it a full 8–12 week trial before deciding whether it's working for you.",
+    },
+    {
+      question:
+        "ashwagandha liver damage risk — is it real?",
+      answer:
+        "Yes, the risk is real and worth knowing. The guide's 2020 safety review found ashwagandha well-tolerated at standard doses, but peer-reviewed case reports published after 2021 — including Björnsson et al. (2022) and Drug-Induced Liver Injury Network data — document rare but serious cases of drug-induced liver injury linked to ashwagandha. These cases are uncommon, not clearly dose-dependent, and may involve product quality issues. If you develop jaundice, dark urine, or unusual fatigue while taking ashwagandha, stop immediately and see a doctor.",
+    },
+    {
+      question:
+        "can I take ashwagandha every day or should I cycle it?",
+      answer:
+        "Daily use for a defined period is the practical approach. The guide recommends 8–12 weeks on, then 2–4 weeks off as a reasonable default — not because continuous use has demonstrated harm, but as a precaution against habituation and chronic cortisol suppression. The guide is explicit that whether cycling is strictly necessary is debated. A concrete signal to stop early: if you feel unusually fatigued, emotionally flat, or experience GI distress, that's reason to pause regardless of where you are in a cycle.",
+    },
+    {
+      question:
+        "does ashwagandha affect women's hormones?",
+      answer:
+        "The guide doesn't cover this directly. Its hormone data focuses entirely on testosterone in men, and it doesn't address estrogen, DHEA, PCOS, or interactions with hormonal contraceptives. Ashwagandha does affect the HPA axis and may influence DHEA-S, which matters for women — but the guide provides no basis for specific claims here. Women with hormonal conditions or those on hormonal birth control should consult a physician before use, particularly given the guide's existing contraindications around thyroid and autoimmune conditions.",
+    },
+    {
+      question:
+        "ashwagandha and thyroid — Hashimoto's specifically",
+      answer:
+        "The guide lists both autoimmune conditions and thyroid disorders as contraindications separately, and Hashimoto's is both. The guide's position is clear: ashwagandha stimulates immune activity (problematic when your immune system is attacking thyroid tissue) and raises T3 and T4 (potentially destabilizing for anyone on levothyroxine). Whether that applies equally to all Hashimoto's patients versus only those on medication isn't addressed. Given that Hashimoto's sits at the intersection of both contraindication categories, the conservative read is: don't take it without explicit physician sign-off.",
+    },
+    {
+      question:
+        "which ashwagandha brands are actually third-party tested?",
+      answer:
+        "The guide doesn't name specific brands or third-party certifications. For quality verification, look for products carrying NSF Certified for Sport, USP Verified, or Informed Sport seals — these programs test for label accuracy, contaminants, and banned substances. Athletes concerned about contamination should prioritize NSF Certified for Sport or Informed Sport specifically. Beyond certification, confirm the Supplement Facts panel shows a standardized extract (KSM-66 or Sensoril) with disclosed withanolide percentage — the guide is explicit that unlabeled generics are unreliable.",
+    },
+    {
+      question:
+        "ashwagandha and alcohol interaction",
+      answer:
+        "The guide doesn't address alcohol directly. Both ashwagandha and alcohol have CNS depressant properties — ashwagandha via GABAergic activity, alcohol via multiple mechanisms. The guide already flags that ashwagandha may potentiate benzodiazepines and sedatives; alcohol operates through overlapping pathways. Combining them may increase sedation, particularly with Sensoril taken in the evening. This is a gap in the guide's coverage. If you drink regularly or heavily, mention ashwagandha use to your doctor.",
+    },
+    {
+      question:
+        "is KSM-66 worth the higher price over generic ashwagandha?",
+      answer:
+        "The guide makes a clear case that form determines efficacy. Generic root powder runs 1–2% withanolides; KSM-66 is standardized to 5%. To match one 600mg KSM-66 capsule, you'd need several grams of unextracted powder. The guide doesn't address specific price points, but the cost difference becomes less meaningful if you're taking four times the dose. The narrow exception: a generic that clearly discloses its withanolide percentage (e.g., 2.5–5%) at an appropriate dose. If that disclosure isn't on the label, assume it's underpowered.",
     },
   ],
   "zinc-guide": [
@@ -163,6 +415,42 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Maybe not. A 6oz serving of beef provides about 7mg of zinc in a highly bioavailable form. If you eat red meat or shellfish several times per week and don't have risk factors like heavy exercise, GI issues, or heavy sweating, you may be getting enough from food. Track your intake or get a serum zinc test to know for sure.",
     },
+    {
+      question:
+        "Is it safe to take 80mg zinc lozenges when the daily limit is 40mg?",
+      answer:
+        "Yes, in this specific context — but the two numbers refer to different situations. The 40mg NIH Tolerable Upper Intake Level applies to chronic daily supplementation. The 75–92mg/day lozenge protocol is a short-term therapeutic dose used only for the duration of a cold (typically 5–7 days). At acute lozenge doses, GI side effects — nausea, stomach upset — are common and worth expecting. Do not use 80–92mg/day as a maintenance dose. Once the cold resolves, return to 15–30mg/day or stop entirely.",
+    },
+    {
+      question:
+        "What does zinc deficiency look like on a blood test?",
+      answer:
+        "A standard serum zinc panel is what your doctor orders — it's a routine blood draw. The guide cites an optimal range of 80–120 mcg/dL. A result below 80 mcg/dL suggests deficiency; results in the 60–79 mcg/dL range are typically considered borderline low. One caveat: serum zinc drops during active infection or inflammation, so test when you're healthy for an accurate baseline. For interpreting your specific result or determining whether treatment is warranted, consult your physician.",
+    },
+    {
+      question:
+        "Can I take zinc with my prescription medication?",
+      answer:
+        "The guide doesn't cover drug-supplement interactions directly, and this is a genuine patient-safety gap. What is well-established outside this guide: zinc significantly reduces absorption of quinolone and tetracycline antibiotics (it chelates them), and may interact with penicillamine and immunosuppressants. If you take any prescription medication, consult your prescribing physician or pharmacist before adding zinc supplementation. This is especially important if zinc is being taken at therapeutic doses.",
+    },
+    {
+      question:
+        "What should I look for — and avoid — on a zinc lozenge ingredient label?",
+      answer:
+        "The guide recommends zinc acetate or zinc gluconate for cold lozenges, since both release ionic zinc effectively in the throat. What the guide doesn't address: formulation additives. Research outside this guide suggests citric acid and sorbitol may reduce ionic zinc availability, potentially blunting efficacy. When evaluating lozenges, prioritize zinc acetate as the active form, check for minimal sweeteners, and confirm the elemental zinc dose per lozenge so you can track your daily total against the 75–92mg therapeutic target.",
+    },
+    {
+      question:
+        "Can children take zinc supplements?",
+      answer:
+        "The guide doesn't cover pediatric use. Zinc Upper Intake Levels and safe doses differ substantially by age — for example, the NIH UL for children aged 4–8 is just 12mg/day, far below the adult 40mg ceiling. Parents should not extrapolate adult dosing to children. Consult a pediatrician before giving any child zinc supplements, particularly for cold treatment, where the lozenge protocols described in this guide are based on adult studies.",
+    },
+    {
+      question:
+        "Does zinc interact with copper supplements — can I take them together?",
+      answer:
+        "The guide recommends pairing zinc with 1–2mg of copper daily but doesn't address timing. The depletion mechanism — zinc inducing intestinal metallothionein, which binds copper and blocks its absorption — means the two compete at the intestinal level. To minimize this competition, spacing zinc and copper at least 2 hours apart is a reasonable precaution, consistent with the guide's advice to space competing minerals. At minimum, do not skip the copper: the guide is explicit that chronic zinc at 40mg/day or above without copper co-supplementation carries documented deficiency risk.",
+    },
   ],
   "lions-mane-guide": [
     {
@@ -184,6 +472,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Fruiting body or mycelium — which should I actually buy?",
       answer:
         "For most people, fruiting body extract is the safer bet. More consistent active compound content, verified beta-glucan levels, and avoids the grain starch contamination issue. If you want to try mycelium, look for brands that specifically separate the mycelium from its growth substrate and verify low starch content (<5%).",
+    },
+    {
+      question:
+        "What is the best lion's mane supplement brand?",
+      answer:
+        "The guide doesn't evaluate or rank specific brands. Instead, it identifies quality markers you can apply yourself: fruiting body extract (not myceliated grain), dual extraction (hot water + alcohol), beta-glucan content ≥25%, starch content ≤5%, and third-party heavy metal testing. Any product meeting all five criteria is a sound choice. Use these as a checklist when comparing options rather than relying on brand reputation alone.",
+    },
+    {
+      question:
+        "Can I take lion's mane while pregnant or breastfeeding?",
+      answer:
+        "The guide doesn't address pregnancy or lactation — and neither does the published clinical literature in any meaningful way. This is a genuine gap. Given that safety data for any supplement during pregnancy is limited by ethical constraints on research, consult your OB-GYN or midwife before using lion's mane while pregnant or breastfeeding. Don't rely on general supplement safety profiles here; the populations are too different.",
+    },
+    {
+      question:
+        "Lion's mane side effects long-term",
+      answer:
+        "The guide is candid about a limitation worth flagging: the longest human trial on record (Mori 2009) ran only 16 weeks. There are no published long-term human safety studies beyond that window. Short-term, lion's mane is well-tolerated — mild digestive discomfort at higher doses is the most common complaint and usually resolves quickly. For use beyond several months, the honest answer is that the data doesn't exist yet. If you're supplementing long-term, periodic check-ins with a healthcare provider are reasonable.",
+    },
+    {
+      question:
+        "Does lion's mane work for ADHD?",
+      answer:
+        "The guide doesn't address ADHD specifically, and no published human trials have tested lion's mane in ADHD populations. The mechanism — NGF stimulation supporting neuronal growth and myelination — is plausible for general cognitive support, but \"general focus\" and attention-deficit disorder are clinically distinct. Critically, the guide does not cover interactions with stimulant medications (amphetamines, methylphenidate). If you're managing ADHD, discuss lion's mane with a prescribing physician before adding it to your regimen.",
+    },
+    {
+      question:
+        "Lion's mane certificate of analysis — how to read it",
+      answer:
+        "The guide advises seeking third-party testing and checking beta-glucan content (≥25%) and starch content (≤5%), but doesn't explain how to evaluate a COA itself. Generally, a credible COA will identify the testing laboratory by name, list the specific analytes tested (beta-glucans, heavy metals, microbial contamination), show results against pass/fail specifications, and include a test date. Recognized labs include Eurofins, NSF, and USP-accredited facilities. Request COAs directly from manufacturers — reputable brands post them publicly or provide them on request.",
+    },
+    {
+      question:
+        "Lion's mane vs. other mushroom supplements (reishi, cordyceps, chaga)",
+      answer:
+        "The guide focuses exclusively on lion's mane and doesn't compare it to other medicinal mushrooms. What it does establish is lion's mane's specific mechanism: NGF and BDNF stimulation for cognitive and neurological support. Reishi, cordyceps, and chaga have different proposed mechanisms and evidence bases — none of which the guide covers. If you're choosing between mushroom supplements for cognitive goals specifically, lion's mane has the strongest targeted human trial data for that outcome. For other goals, consult category-specific resources.",
+    },
+    {
+      question:
+        "Can I take lion's mane every day or should I cycle it?",
+      answer:
+        "The guide supports daily use — the Mori 2009 trial ran daily dosing for 16 weeks, and cognitive scores declined within 4 weeks of stopping, suggesting sustained supplementation is required to maintain benefits. The guide does not discuss cycling protocols, and there's no published human evidence showing that cycling improves outcomes or prevents tolerance. Until evidence suggests otherwise, daily use at 500–1,000mg is the approach supported by available research.",
     },
   ],
   "nac-guide": [
@@ -207,6 +537,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "NAC is a sulfur-containing compound. The sulfur is what makes it biochemically useful — the thiol (-SH) group is the reactive site that enables glutathione's antioxidant activity. Capsules largely eliminate the taste issue; if using powder, mix it into a strongly flavored drink and consume quickly.",
     },
+    {
+      question:
+        "NAC vs GlyNAC — which is better?",
+      answer:
+        "The guide doesn't cover GlyNAC (glycine + NAC combined). It does note that glycine is a rate-limiting amino acid in glutathione production — especially in older adults — and suggests pairing NAC with glycine as a synergistic stack. Whether a combined GlyNAC supplement outperforms separate supplementation is not addressed. Emerging research on GlyNAC exists, but this guide doesn't evaluate it. Check sources covering aging-specific protocols or consult a healthcare provider.",
+    },
+    {
+      question:
+        "Can I take NAC while pregnant or breastfeeding?",
+      answer:
+        "The guide doesn't cover NAC use during pregnancy or breastfeeding. No dosing guidance, safety data, or risk assessment for these populations is provided. NAC has clinical uses in obstetric settings, but self-supplementation without supervision is a different context. If you are pregnant or breastfeeding, consult your OB-GYN or midwife before taking NAC or any supplement.",
+    },
+    {
+      question:
+        "Does NAC interact with my medications?",
+      answer:
+        "The guide doesn't address drug interactions. This is a meaningful gap — particularly for readers using NAC for mental health support alongside psychiatric medications. Clinically relevant interactions exist with certain drugs. If you take any prescription medication, discuss NAC with your prescribing physician or pharmacist before starting. Do not assume supplement status means interaction-free.",
+    },
+    {
+      question:
+        "How long does it take for NAC to work?",
+      answer:
+        "The guide suggests giving NAC 2–4 weeks, but that timeline is most applicable to oxidative stress benefits like liver support and hangover reduction. For mental health applications — OCD, compulsive behaviors, depression — the clinical trials cited ran 8–12 weeks before measuring outcomes. If you're taking NAC for psychiatric reasons, expect a longer runway before judging effectiveness, and don't discontinue prematurely.",
+    },
+    {
+      question:
+        "Is NAC safe with cancer treatment?",
+      answer:
+        "The guide doesn't address this. There is genuine scientific debate about whether antioxidant supplementation can interfere with chemotherapy or radiation, which often work partly through oxidative mechanisms. This guide provides no guidance for oncology patients. If you are undergoing cancer treatment, do not start NAC without explicit clearance from your oncologist.",
+    },
+    {
+      question:
+        "What's the difference between NAC and S-acetyl glutathione?",
+      answer:
+        "The guide doesn't cover S-acetyl glutathione. It does explain why standard oral glutathione has poor bioavailability — it breaks down in digestion before reaching cells — and positions NAC as the more practical alternative. Whether S-acetyl glutathione or liposomal glutathione forms meaningfully outperform NAC as a precursor strategy is not evaluated here. The guide recommends NAC on the basis of established absorption and clinical evidence.",
+    },
+    {
+      question:
+        "Can I take NAC if I have kidney disease?",
+      answer:
+        "The guide doesn't address kidney disease. It notes NAC supports the kidneys as a high-detoxification-burden organ, but provides no guidance for people with impaired kidney function. If you have chronic kidney disease or compromised renal function, consult a nephrologist before supplementing with NAC. High cysteine loading has theoretical implications in this population that this guide does not evaluate.",
+    },
   ],
   "berberine-guide": [
     {
@@ -228,6 +600,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Does berberine affect gut bacteria?",
       answer:
         "Yes. Berberine has broad antimicrobial properties and modulates gut microbiome composition, increasing beneficial bacteria like Akkermansia muciniphila while reducing populations linked to inflammation. Some of berberine's metabolic benefits may be mediated through these microbiome changes.",
+    },
+    {
+      question:
+        "Can I take berberine with statins?",
+      answer:
+        "Use caution — there are two distinct interactions worth understanding. First, berberine inhibits CYP3A4, the enzyme that metabolizes many statins (including atorvastatin and simvastatin). Inhibiting this pathway can raise statin plasma levels, potentially increasing the risk of myopathy or rhabdomyolysis. Second, berberine lowers LDL through a different mechanism than statins (upregulating LDL receptors rather than inhibiting HMG-CoA reductase), so effects may be additive on lipids — which the guide frames as a potential benefit. Both sides of this interaction are real. If you're on a statin, discuss berberine with your prescribing physician before starting.",
+    },
+    {
+      question:
+        "Does berberine interfere with birth control pills?",
+      answer:
+        "The guide doesn't cover this directly. However, it does note that berberine inhibits CYP3A4 — the same enzyme pathway that metabolizes most oral contraceptives. In principle, CYP3A4 inhibition could alter hormone levels in ways that are unpredictable. Because this interaction is not addressed in the guide and the stakes are significant, consult a physician or pharmacist before combining berberine with hormonal contraceptives.",
+    },
+    {
+      question:
+        "How long should I take berberine — is it a forever supplement?",
+      answer:
+        "The guide doesn't address duration or cycling — an important gap. Most positive clinical trials ran 12–13 weeks, meaning robust human safety data beyond that window is sparse. Berberine is not validated for indefinite unsupervised use the way vitamin D might be. If you're using it for prediabetes or metabolic syndrome, periodic reassessment with a physician — including blood glucose and lipid monitoring — is a reasonable standard. Do not assume long-term use is safe simply because short-term trials show tolerability.",
+    },
+    {
+      question:
+        "Will berberine hurt my muscle gains or interfere with my workouts?",
+      answer:
+        "The guide doesn't cover this directly. It describes berberine as an \"exercise mimetic\" via AMPK activation, but does not address whether chronic AMPK activation could suppress mTORC1 signaling and blunt muscle protein synthesis — a concern raised in some animal research. This is a legitimate question for serious trainees that the guide leaves unanswered. If optimizing hypertrophy is a primary goal, discuss the potential tradeoff with a sports medicine physician or registered dietitian before adding berberine.",
+    },
+    {
+      question:
+        "What should I look for on a berberine supplement label?",
+      answer:
+        "The guide doesn't specify label criteria, but names the standard clinical dose (500mg berberine, two to three times daily) and mentions dihydroberberine (DHB) as a higher-bioavailability alternative. General principles for any supplement purchase apply: look for products specifying berberine HCl (the form used in research), third-party testing verification (USP, NSF International, or Informed Sport), and a clear dose per capsule that matches the 500mg clinical protocol. The guide's supplement label resource covers evaluating dosing, forms, and safety disclosures in more detail.",
+    },
+    {
+      question:
+        "Is berberine safe for people with kidney or liver conditions?",
+      answer:
+        "The guide doesn't address hepatic or renal safety — a meaningful gap given that berberine is hepatically metabolized and metabolic syndrome often co-occurs with NAFLD or mild liver impairment. The guide does flag that berberine inhibits CYP enzymes, which affects hepatic drug processing. If you have any liver or kidney condition, do not start berberine without physician oversight. This is not a population the existing evidence base adequately covers.",
+    },
+    {
+      question:
+        "Can I take berberine while fasting or eating a ketogenic diet?",
+      answer:
+        "The guide doesn't address this directly. Its dosing protocol assumes berberine is taken with meals to maximize glucose-blunting effects and minimize GI side effects — an instruction that presupposes regular meal timing. If you practice intermittent fasting (16:8, OMAD) or follow a ketogenic diet, combining berberine's blood-sugar-lowering effect with already-reduced glucose intake could meaningfully increase hypoglycemia risk. Until the guide addresses this population specifically, consult a physician about dose timing and monitoring if you combine berberine with fasting or keto protocols.",
     },
   ],
   "vitamin-b12-guide": [
@@ -251,6 +665,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "PPIs, H2 blockers, metformin, and colchicine reduce B12 absorption and may necessitate higher supplement doses. Chloramphenicol can interfere with B12's role in red blood cell production. No known cases of B12 supplementation reducing the effectiveness of other medications.",
     },
+    {
+      question:
+        "What is pernicious anemia and do I need injections if I have it?",
+      answer:
+        "The guide doesn't cover pernicious anemia directly. Pernicious anemia is an autoimmune condition where the body destroys the parietal cells that produce intrinsic factor, eliminating the primary absorption pathway for dietary B12. Because standard oral absorption is largely blocked, most patients require either intramuscular injections or very high-dose sublingual B12 to rely on passive diffusion. Diagnosis typically involves testing for anti-intrinsic factor and anti-parietal cell antibodies. If you've been diagnosed with pernicious anemia, consult a physician — self-supplementing with standard oral doses is unlikely to be sufficient.",
+    },
+    {
+      question:
+        "Can B12 deficiency cause permanent nerve damage — and how do I know if mine is reversible?",
+      answer:
+        "Yes, prolonged B12 deficiency can cause permanent neurological damage. The guide cites a 2003 NEJM case series documenting irreversible nerve damage from undiagnosed deficiency, and explicitly warns that neurological symptoms can precede anemia by months or years. However, the guide does not provide a practical framework for assessing reversibility — such as duration thresholds, symptom severity markers, or when to seek urgent care vs. supplement independently. If you have active neurological symptoms (numbness, balance problems, gait instability), see a physician promptly rather than self-supplementing and waiting.",
+    },
+    {
+      question:
+        "How long does it take for B12 supplements to work — when will I feel better?",
+      answer:
+        "The guide doesn't address recovery timelines directly. It recommends 1,000–2,000mcg/day for 4–8 weeks to correct active deficiency, but doesn't specify when symptoms resolve. Generally, energy and mood often improve within weeks of correction; neurological symptoms (tingling, numbness) take longer — sometimes months — and some residual damage may be permanent if deficiency was prolonged. If you're supplementing appropriately and symptoms aren't improving after several weeks, that warrants follow-up testing and medical evaluation rather than assuming more time is needed.",
+    },
+    {
+      question:
+        "Does B12 deficiency cause hair loss?",
+      answer:
+        "The guide doesn't list hair loss among B12 deficiency symptoms. Its documented symptom list includes fatigue, brain fog, mood changes, peripheral neuropathy, glossitis, macrocytic anemia, and balance problems. While hair loss is widely searched in relation to B12, the guide doesn't address this association. If hair loss is your primary concern, consult a healthcare provider — other causes (thyroid dysfunction, iron deficiency, androgenic alopecia) are more commonly established drivers and should be evaluated alongside B12 status.",
+    },
+    {
+      question:
+        "Does B12 deficiency present differently in women than in men?",
+      answer:
+        "The guide doesn't address sex-specific differences in B12 deficiency symptoms or risk. It does note that folate and B12 interact — high folate can mask B12 deficiency anemia while neurological damage progresses — which has particular relevance for women of childbearing age taking prenatal supplements. Women on metformin for PCOS are also flagged as a high-risk group via the metformin section. For pregnancy-specific B12 guidance, consult a healthcare provider; the guide does not cover prenatal protocols or hormonal influences on B12 metabolism.",
+    },
+    {
+      question:
+        "Are supplement label doses for B12 actually accurate — how are supplements regulated?",
+      answer:
+        "The guide recommends specific doses (250–500mcg for maintenance, 1,000–2,000mcg for correction) but doesn't address label accuracy or regulatory oversight. U.S. supplements are not FDA-approved before sale, meaning label claims aren't independently verified by default. Third-party certifications — USP, NSF International, or Informed Sport — indicate that a product has been independently tested for potency and purity. The guide references its own supplement label guide for further detail. When choosing a B12 supplement, prioritizing third-party verified products is the most direct way to validate that label doses reflect actual content.",
+    },
+    {
+      question:
+        "What's the difference between serum B12, active B12 (holotranscobalamin), and MMA — which test should I get?",
+      answer:
+        "The guide covers serum B12 and MMA but doesn't mention holotranscobalamin (holo-TC). Serum B12 measures total circulating B12, including inactive analogues — it can appear normal while functional deficiency exists. MMA is the guide's recommended confirmatory test: elevated MMA above 0.4 µmol/L alongside low-normal serum B12 indicates functional deficiency. Holo-TC (active B12) measures only the fraction bound to transcobalamin and available to tissues, and is considered more sensitive than serum B12 — but the guide doesn't address it. Ask your provider or private lab about holo-TC availability if you want the most sensitive early marker.",
+    },
   ],
   "collagen-guide": [
     {
@@ -272,6 +728,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Can collagen supplements cause side effects?",
       answer:
         "Side effects are rare and mild. Some people report aftertaste (especially marine collagen), bloating, or fullness. People with fish or shellfish allergies should avoid marine collagen. No serious adverse events reported in clinical trials at standard doses up to 15g daily.",
+    },
+    {
+      question:
+        "Is collagen safe during pregnancy?",
+      answer:
+        "The guide doesn't cover collagen safety during pregnancy. Clinical trials on collagen supplements have not included pregnant populations, so there's no evidence base to draw from. Collagen is derived from animal sources and is generally considered low-risk, but 'generally safe' data from healthy adults doesn't automatically extend to pregnancy. Consult your OB or midwife before starting any collagen supplement while pregnant or breastfeeding.",
+    },
+    {
+      question:
+        "Can I take collagen if I'm on blood thinners, metformin, or immunosuppressants?",
+      answer:
+        "The guide doesn't address drug interactions. This is a meaningful gap — particularly for immunosuppressants, since undenatured type II collagen (UC-II) works through immune modulation, which could theoretically interact with drugs that suppress immune activity. Hydrolyzed peptides are less likely to pose interaction risks, but no interaction data exists in the guide or, to our knowledge, in published literature. If you're on any prescription medication, consult your prescribing physician before adding collagen.",
+    },
+    {
+      question:
+        "What should I look for when evaluating collagen powder quality?",
+      answer:
+        "The guide doesn't cover label evaluation or brand selection criteria. General quality markers worth researching independently include: third-party testing certifications (NSF Certified for Sport, Informed Sport), whether the product specifies hydrolyzed collagen peptides (not just 'collagen protein'), molecular weight of peptides, and whether vitamin C is included — the guide confirms it's a required cofactor for collagen synthesis. Our label-reading guide, linked in the guide above, may provide additional help.",
+    },
+    {
+      question:
+        "Does collagen break a fast, and is it compatible with intermittent fasting?",
+      answer:
+        "The guide doesn't address intermittent fasting specifically. From a biology standpoint, collagen is a protein — it contains calories (~35–40 kcal per 10g) and triggers an insulin response, which technically breaks a strict fast. The guide notes that some users prefer taking collagen on an empty stomach for absorption, and that UC-II specifically requires an empty stomach. Whether a small collagen dose disrupts your fasting goals depends on your fasting protocol. This is worth discussing with a registered dietitian familiar with your approach.",
+    },
+    {
+      question:
+        "How does collagen compare to creatine for joint health?",
+      answer:
+        "The guide doesn't compare collagen to creatine or omega-3s for joint outcomes. It does benchmark UC-II (40mg) against glucosamine plus chondroitin, where UC-II outperformed the combination over 180 days in one RCT. Creatine's evidence base is primarily for muscle performance and power output, not cartilage-specific joint health — though some research suggests secondary connective tissue benefits. If you're deciding between interventions for joint health, a sports medicine physician or sports dietitian can help weigh the options against your specific situation.",
+    },
+    {
+      question:
+        "Does collagen help with gut health or leaky gut?",
+      answer:
+        "The guide doesn't address gut health claims. Collagen is rich in glycine and proline, and glycine in particular has shown anti-inflammatory properties in preclinical research — which is likely the basis for gut-health marketing claims. However, no clinical evidence for collagen improving intestinal permeability ('leaky gut') is cited or implied in the guide. Given how frequently this claim appears on product labels, the absence of data is worth noting. For gut health concerns, consult a gastroenterologist.",
+    },
+    {
+      question:
+        "Is there an upper limit to how much collagen you can take — can you take too much?",
+      answer:
+        "The guide establishes a clinical range of 2.5–15g daily for hydrolyzed peptides and notes no serious adverse events at standard doses up to 15g. It doesn't specify whether exceeding 15g is harmful, wasteful, or simply unstudied. For UC-II, the guide is explicit: 40mg is the studied dose and more is not better. Beyond 15g of hydrolyzed collagen, you're outside the studied range — not necessarily in danger, but without evidence of added benefit and with increased cost. The guide recommends 5–10g for general use.",
     },
   ],
   "iron-guide": [
@@ -295,6 +793,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Heme iron absorbs better (15–35% vs 2–20% for non-heme) and is less affected by food interactions. However, heme iron may increase oxidative stress and has been linked to slightly elevated colorectal cancer risk at very high intakes. For most people, well-absorbed non-heme forms like iron bisglycinate provide a better balance.",
     },
+    {
+      question:
+        "How do I get a ferritin test if my doctor won't order one?",
+      answer:
+        "Direct-to-consumer lab services let you order a ferritin test without a physician's order. Services like Ulta Lab Tests and Any Lab Test Now typically charge $30–50 cash pay for a standalone ferritin panel. Alternatively, when seeing your GP, request ferritin by name — not just a CBC or hemoglobin — and explain your symptoms. Many doctors default to hemoglobin alone, which the guide notes is insufficient for catching iron deficiency without anemia.",
+    },
+    {
+      question:
+        "How much elemental iron is in my specific iron supplement?",
+      answer:
+        "Elemental iron content varies significantly by form. Ferrous fumarate is approximately 33% elemental iron; ferrous sulfate, 20%; iron bisglycinate, roughly 20%; and ferrous gluconate, about 12%. Practically: a 325mg ferrous sulfate tablet delivers ~65mg elemental iron, while a 100mg bisglycinate capsule delivers ~20mg. Always check the Supplement Facts panel for the elemental iron figure — the compound weight on the front label is not what your body absorbs.",
+    },
+    {
+      question:
+        "Can I take iron while pregnant without a doctor's prescription?",
+      answer:
+        "The guide doesn't address whether self-initiating OTC iron during pregnancy is appropriate, and this is a case where consulting your OB or midwife matters. While the guide notes ACOG supports 27mg daily during pregnancy, gestational iron needs vary, GI side effects can be more severe in pregnancy, and monitoring for overload requires clinical context. OTC iron at standard prenatal doses is widely used, but dosing and form decisions during pregnancy should be confirmed with your healthcare provider.",
+    },
+    {
+      question:
+        "Iron bisglycinate vs. ferrous sulfate — which is cheaper and by how much?",
+      answer:
+        "The guide doesn't provide specific pricing, but iron bisglycinate typically costs 2–4x more per dose than ferrous sulfate. However, bisglycinate achieves equivalent repletion at roughly half the dose (per the 2014 Name et al. study cited in the guide), which narrows the real cost gap considerably. If tolerability isn't an issue, ferrous sulfate is a defensible budget choice. If GI side effects cause you to stop taking it — which happens in 30–40% of users — bisglycinate's higher sticker price may be the cheaper option in practice.",
+    },
+    {
+      question:
+        "What do I do if my ferritin is above 150 but I have no symptoms?",
+      answer:
+        "The guide doesn't cover next steps for mildly elevated ferritin beyond flagging it as worth investigating. Ferritin above 150 ng/mL without a clear cause — such as recent illness or inflammation — warrants follow-up with your physician. The guide mentions HFE gene testing for hereditary hemochromatosis and notes that ferritin also rises as an acute-phase reactant. For specific guidance on which tests to request or whether to discontinue iron-containing supplements, consult a physician, as next steps depend on your full clinical picture.",
+    },
+    {
+      question:
+        "Is liquid iron better than pills for people with GI issues?",
+      answer:
+        "The guide doesn't address liquid iron formulations directly. Generally, the same principles apply: the iron form matters more than the delivery format. Liquid bisglycinate or liquid ferrous gluconate may be easier to tolerate for people with swallowing difficulties or severe nausea. The guide does establish that chelated forms like bisglycinate cause fewer GI side effects than ferrous sulfate regardless of format. For specific use during pregnancy or in elderly patients, consult a healthcare provider about appropriate formulations and doses.",
+    },
+    {
+      question:
+        "Can children take adult iron supplements and what's the dose?",
+      answer:
+        "The guide doesn't cover pediatric iron dosing, and this is a gap where it's important not to improvise. The guide explicitly flags iron toxicity risk in children in the context of carbonyl iron. Pediatric iron dosing is weight-based and age-dependent, and accidental overdose is a leading cause of poisoning deaths in young children. Do not use adult iron supplements for a child without guidance from a pediatrician. If your child has suspected iron deficiency, request ferritin testing and dosing recommendations from their doctor.",
+    },
   ],
   "creatine-loading-phase": [
     {
@@ -316,6 +856,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Does the brand of creatine monohydrate matter?",
       answer:
         "Not much. Creapure (manufactured in Germany) is the highest-purity source, but independent testing of major brands consistently shows that most monohydrate products contain what they claim. Don't overpay for fancy branding on what is essentially a commodity ingredient.",
+    },
+    {
+      question:
+        "What happens if I miss a day of creatine?",
+      answer:
+        "Missing one or two days has negligible impact on muscle creatine saturation. The guide notes that once saturated, stores return to baseline over 4–6 weeks — meaning a single skipped dose barely moves the needle. Don't double up; just resume your normal 3–5g the following day. Daily consistency matters over weeks and months, not whether every single dose lands perfectly.",
+    },
+    {
+      question:
+        "Can I take creatine with coffee or caffeine?",
+      answer:
+        "The guide doesn't address this directly. The widely circulated claim that caffeine blunts creatine uptake originates from a single 1996 study and has not been consistently replicated in more recent research. Current evidence does not strongly support avoiding caffeine with creatine. Since the guide's timing section concludes that consistency matters more than precise conditions, this interaction is unlikely to meaningfully affect your results — but consult a healthcare provider if you have specific concerns.",
+    },
+    {
+      question:
+        "Does creatine affect women differently?",
+      answer:
+        "The guide doesn't cover sex-based differences in creatine response. The underlying research is heavily male-dominated, and women's baseline creatine stores and hormonal factors may influence uptake. The guide's general protocol — 3–5g daily of creatine monohydrate — applies as written, but women seeking guidance specific to their physiology or hormonal context should consult a healthcare provider or sports medicine specialist.",
+    },
+    {
+      question:
+        "Can I take creatine while cutting or in a caloric deficit?",
+      answer:
+        "The guide doesn't directly address creatine use during a caloric deficit. It does flag that loading causes a 2–4 lb intracellular water gain that can alarm people tracking scale weight — and that this is water inside muscle cells, not fat. Skipping the loading phase (3–5g daily from day one) minimizes that initial jump. The guide makes no recommendation against creatine during a cut, and nothing in the guide's evidence base suggests a deficit changes creatine's mechanism.",
+    },
+    {
+      question:
+        "What form of creatine is best — monohydrate vs. HCl vs. buffered?",
+      answer:
+        "Creatine monohydrate is the only form with 30+ years of research behind it. The guide's entire protocol — the Harris 1992 and Hultman studies, the ISSN position stand, all saturation data — is based on monohydrate. Alternatives like creatine HCl, Kre-Alkalyn, and ethyl ester are marketed as superior but lack equivalent evidence. The guide recommends monohydrate explicitly and notes that even brand differences within monohydrate are minor. Don't pay a premium for less-studied forms.",
+    },
+    {
+      question:
+        "Should I take creatine with food or on an empty stomach?",
+      answer:
+        "The guide's practical answer is to take creatine whenever you'll consistently remember — morning water, a protein shake, or with dinner. It doesn't specifically address food co-ingestion. Some evidence suggests carbohydrate-driven insulin release may enhance creatine uptake, but the guide's timing section concludes that daily consistency is the only variable that meaningfully matters. Taking it with a meal is a reasonable default and may reduce any GI sensitivity.",
+    },
+    {
+      question:
+        "Is creatine safe with pre-existing kidney conditions?",
+      answer:
+        "The guide states that long-term creatine use is safe in healthy individuals per the ISSN, but it does not address people with pre-existing kidney conditions. This is an important gap: creatine supplementation raises serum creatinine — a standard kidney filtration marker — which can produce false-positive signals of kidney impairment on bloodwork. If you have reduced kidney function, a single kidney, or any kidney history, consult a physician before starting creatine. Do not rely on this guide's safety statement in that context.",
     },
   ],
   "how-to-build-a-supplement-stack": [
@@ -339,6 +921,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Some, but not all. Fat-soluble vitamins (D, E, K, A) need food with fat. Calcium and iron compete for absorption and should be separated by at least 2 hours. Magnesium is best in the evening. Caffeine-containing supplements should be avoided after early afternoon.",
     },
+    {
+      question:
+        "Can I take creatine if I have kidney disease or high creatinine?",
+      answer:
+        "The guide doesn't cover this directly. Creatine supplementation raises serum creatinine as a byproduct of normal creatine metabolism — this can falsely suggest reduced kidney function on standard labs, and the distinction matters if you already have kidney disease or elevated creatinine. If you have any diagnosed kidney condition or abnormal kidney markers, consult a nephrologist or physician before starting creatine. This is a case where the guide's general recommendation doesn't apply without medical clearance.",
+    },
+    {
+      question:
+        "What supplements should I avoid while pregnant or breastfeeding?",
+      answer:
+        "The guide doesn't cover pregnancy or breastfeeding at all. This is a meaningful gap: high-dose vitamin A (common in multivitamins) is teratogenic above certain thresholds, some herbal compounds have unknown safety profiles in pregnancy, and even fish oil dosing has pregnancy-specific guidance. Do not use this guide to build a supplement stack during pregnancy or while breastfeeding. Consult your OB-GYN or midwife — prenatal-specific supplementation guidance exists and is meaningfully different.",
+    },
+    {
+      question:
+        "Do any of these supplements interact with my medication (antidepressants, blood thinners, statins)?",
+      answer:
+        "The guide flags interactions as a concern but doesn't detail specific risks. Several are clinically significant: K2 (MK-7) can interfere with warfarin's anticoagulant effect; high-dose omega-3 may increase bleeding risk on blood thinners; CoQ10 has documented interactions with statins; St. John's Wort (not in this guide but common in stacks) severely reduces SSRI efficacy. If you take any prescription medication, review your full supplement list with a pharmacist or physician before starting — this is a non-negotiable step the guide doesn't substitute for.",
+    },
+    {
+      question:
+        "How long before I see results from vitamin D or magnesium supplementation?",
+      answer:
+        "The guide recommends running the starter stack for 4–6 weeks before evaluating results, which is reasonable for both. Vitamin D levels typically rise measurably within 4–8 weeks of consistent supplementation, but symptoms of deficiency (fatigue, mood, immune function) may improve before bloodwork reflects full correction. Magnesium changes can appear faster — some people notice improved sleep and reduced muscle tension within 1–2 weeks. Bloodwork at 6–8 weeks is the most reliable way to confirm progress rather than relying on subjective feel alone.",
+    },
+    {
+      question:
+        "Is creatine safe for teenagers?",
+      answer:
+        "The guide doesn't address age-specific safety for creatine. Most major sports medicine and pediatric organizations have historically recommended against creatine supplementation for under-18s, citing insufficient long-term safety data in adolescents rather than known harm. The guide's recommendation applies to adults. If you're considering creatine for a teenager, consult a sports medicine physician or pediatrician — this guide doesn't provide a basis for that decision.",
+    },
+    {
+      question:
+        "What's the best vegan omega-3 supplement?",
+      answer:
+        "The guide only mentions fish oil and marine omega-3 without addressing vegan sources. Algae-based DHA/EPA is the only evidence-supported vegan alternative — it's also the original source fish accumulate omega-3 from, so bioavailability is comparable. Look for algae oil products that list EPA and DHA amounts separately, targeting the same 1,000–2,000mg combined EPA+DHA the guide recommends. Apply the same quality criteria: third-party testing, disclosed oxidation values, and transparent labeling.",
+    },
+    {
+      question:
+        "Can I take magnesium and zinc together?",
+      answer:
+        "The guide doesn't address this combination directly. At supplemental doses, high zinc (above ~40mg/day) competes with copper absorption and can deplete it over time — this is a more established concern than zinc-magnesium competition. Zinc and magnesium at typical stack doses (200–400mg magnesium glycinate, 15–30mg zinc) are generally taken together without issue, but if you're using high-dose zinc for immune or testosterone goals, pair it with a small amount of copper (1–2mg) and avoid taking it simultaneously with iron.",
+    },
   ],
   "best-pre-workout-supplement-protocol": [
     {
@@ -355,6 +979,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "What does citrulline actually do?",
       answer:
         "L-citrulline raises plasma arginine, which supports nitric oxide production and vasodilation. Effective doses are 6–8g of L-citrulline or 8g of citrulline malate. Meta-analyses show small but measurable increases in reps-to-failure and reductions in perceived exertion. Most commercial pre-workouts underdose it — check for at least 6g per serving.",
+    },
+    {
+      question:
+        "is pre-workout safe during pregnancy",
+      answer:
+        "The guide doesn't cover pregnancy or prenatal contraindications. This is a meaningful gap: the caffeine doses recommended here (3–6mg/kg, or 210–420mg for a 70kg person) far exceed the 200mg/day ceiling widely cited for pregnancy. Do not follow this protocol while pregnant without explicit medical clearance. Consult your OB or midwife before using any pre-workout supplement, including individual ingredients like caffeine and creatine.",
+    },
+    {
+      question:
+        "does creatine cause hair loss",
+      answer:
+        "The guide doesn't address this concern. The hypothesis comes from a single 2009 study showing creatine supplementation raised DHT (a hormone linked to androgenic hair loss) in rugby players — but no study has directly measured creatine's effect on hair loss. Current evidence is insufficient to confirm a causal link. If you have a personal or family history of androgenic alopecia and are concerned, discuss creatine use with a dermatologist or physician before starting.",
+    },
+    {
+      question:
+        "pre-workout supplement interactions with SSRIs / antidepressants",
+      answer:
+        "The guide doesn't cover drug interactions. This is a real concern: caffeine interacts with MAOIs (a class of antidepressants) and can potentiate cardiovascular side effects. High-dose citrulline may amplify the blood-pressure-lowering effects of certain medications, including PDE5 inhibitors. If you take any prescription medication — including antidepressants — consult your prescribing physician or pharmacist before adding high-dose caffeine or citrulline to your routine.",
+    },
+    {
+      question:
+        "best pre-workout for women",
+      answer:
+        "The guide's dosing examples use a 70kg reference, but the principles apply to any bodyweight — caffeine is dosed per kilogram, so a 60kg woman would use 180–360mg rather than 210–420mg. The guide doesn't address sex-specific differences in caffeine sensitivity or creatine response rates. Women tend to have smaller absolute muscle mass, which can affect creatine saturation timelines. The core stack (creatine, citrulline, beta-alanine, optional caffeine) has evidence across sexes; adjust all weight-based doses to your actual bodyweight.",
+    },
+    {
+      question:
+        "how to mix creatine and citrulline together — do they interact",
+      answer:
+        "The guide doesn't address mixing compatibility directly. There is no known chemical interaction between creatine monohydrate, L-citrulline, and beta-alanine that would reduce their efficacy when combined in one shaker. Practically, creatine monohydrate dissolves best in warm water and may clump in cold liquid; citrulline and beta-alanine dissolve readily. Mixing all four ingredients in a single serving is standard practice and the guide explicitly recommends it for convenience — no special sequencing or separation is required.",
+    },
+    {
+      question:
+        "citrulline malate vs L-citrulline which to buy",
+      answer:
+        "Buy whichever form delivers 6–8g of actual citrulline at the lowest cost per dose. The guide explains the math clearly: citrulline malate (2:1) is roughly 67% citrulline by weight, so you need ~9–12g of the bonded form to match 6–8g of pure L-citrulline. Pure L-citrulline typically requires less powder per effective dose and is often cheaper per gram of active ingredient. Check the label math on any product before buying — the form matters less than hitting the clinical dose.",
+    },
+    {
+      question:
+        "pre-workout without caffeine — does it actually work",
+      answer:
+        "Yes, with realistic expectations. The guide notes caffeine is optional, and the remaining three ingredients carry independent, well-documented benefits: creatine increases strength and power output, beta-alanine improves capacity in the 60–240 second effort range, and citrulline increased reps to failure by 52.9% in a key bench press study. You won't get the acute alertness or perceived-fatigue reduction that caffeine provides, but the structural performance benefits from a stimulant-free stack are real — they just require 3–4 weeks of consistent loading to fully emerge.",
     },
   ],
   "supplement-timing-guide": [
@@ -373,6 +1039,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Anything with caffeine, high-dose B vitamins (especially B12), and green tea extract can disrupt sleep if taken after early afternoon. Saffron, ashwagandha, and magnesium are all safer evening choices. If you take a multivitamin with B-complex, move it to morning.",
     },
+    {
+      question:
+        "Can I take vitamin D and magnesium together?",
+      answer:
+        "Yes — taking vitamin D and magnesium together is actively beneficial. Magnesium is a required cofactor for the enzymes that convert vitamin D into its active form; without adequate magnesium, supplemental vitamin D may be less effective. The guide already recommends vitamin D with breakfast (with fat) and magnesium in the evening, but if you prefer to take both at the same meal, there's no conflict. Just keep the fat requirement for vitamin D in mind.",
+    },
+    {
+      question:
+        "What supplements should I avoid while pregnant?",
+      answer:
+        "The guide doesn't cover this directly — it mentions pregnancy only briefly in the context of caffeine metabolism. Supplement safety during pregnancy is a clinical question, not a timing question: high-dose vitamin A, for example, carries known teratogenic risk, and folate form (L-methylfolate vs. folic acid) matters in ways the guide doesn't address. Consult your OB or midwife before adding or continuing any supplement during pregnancy.",
+    },
+    {
+      question:
+        "When should I take ashwagandha — morning or night?",
+      answer:
+        "The guide doesn't cover ashwagandha or adaptogens. As a general principle from the guide's framework: supplements with calming or cortisol-modulating effects would logically fit the evening stack alongside magnesium and L-theanine, while those taken for energy or focus fit the morning stack. That said, the guide explicitly cautions against applying generic timing logic to supplements it hasn't reviewed. Consult product research or a healthcare provider for ashwagandha-specific timing.",
+    },
+    {
+      question:
+        "Does long-term zinc supplementation deplete copper — should I take copper alongside it?",
+      answer:
+        "The guide notes zinc-copper competition in passing but doesn't detail the clinical risk. This gap matters: long-term zinc supplementation can induce copper deficiency, potentially causing anemia and neurological symptoms, because zinc upregulates a protein that traps copper in gut cells. If you take zinc regularly, this is worth discussing with a healthcare provider, who can assess whether copper co-supplementation or periodic monitoring is appropriate for your dose and duration.",
+    },
+    {
+      question:
+        "When should I take probiotics?",
+      answer:
+        "The guide mentions probiotics only briefly — noting heat-sensitive strains shouldn't be mixed into hot liquids. It doesn't address meal timing or antibiotic spacing. General evidence suggests taking probiotics with or just before a meal reduces exposure to stomach acid, improving survival. If you're taking antibiotics, spacing probiotics several hours from each dose is commonly recommended. For specific protocols, check the probiotic product's strain-level research or consult a pharmacist.",
+    },
+    {
+      question:
+        "What supplements interact with blood pressure medications?",
+      answer:
+        "The guide flags medication interactions as genuinely important — more so than general timing optimization — but doesn't list specifics for antihypertensives. It explicitly recommends a conversation with your pharmacist over any online timing guide when you're on chronic medications. That advice applies here: supplements like magnesium, fish oil, CoQ10, and potassium all have potential interactions with blood pressure drugs that require individualized review, not generic guidance.",
+    },
+    {
+      question:
+        "How much fat do I need to absorb fat-soluble vitamins effectively?",
+      answer:
+        "The guide says to take fat-soluble vitamins (A, D, E, K) and CoQ10 with a fat-containing meal but doesn't specify a minimum amount. It cites a 2015 study showing vitamin D absorption increased up to 50% with a fat-containing meal versus fasted, and gives practical examples — eggs, avocado, nuts, butter. The guide doesn't state a gram threshold. If you eat a very low-fat breakfast, prioritize any of those fat sources; the guide's core point is that zero fat meaningfully reduces absorption.",
+    },
   ],
   "how-to-read-a-supplement-label": [
     {
@@ -389,6 +1097,42 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "What third-party testing certifications actually matter?",
       answer:
         "NSF Certified for Sport, Informed Sport, USP Verified, and ConsumerLab are the four that carry real weight. They test for label accuracy, contamination, and banned substances. 'GMP certified' alone is manufacturing hygiene — useful but a much lower bar. If a brand claims 'third-party tested' without naming the lab, assume it's marketing.",
+    },
+    {
+      question:
+        "What is a clinical dose for ashwagandha — does it matter which extract type (KSM-66 vs. Sensoril vs. generic)?",
+      answer:
+        "Yes, extract type matters significantly. The guide cites 600mg/day for KSM-66, a root-only extract standardized to ≥5% withanolides. Sensoril uses root-and-leaf extract with higher withanolide concentration, so its clinical dose is lower — typically 125–250mg/day in published research. Generic ashwagandha powder often has no standardization at all, making dose comparisons unreliable. Always check which extract is listed and match the dose to that specific extract's studied range, not a generic ashwagandha number.",
+    },
+    {
+      question:
+        "How do I check if a supplement actually passed third-party testing — where do I find the certificate of analysis?",
+      answer:
+        "The guide explains what certifications mean but not how to verify them. For USP, check the USP Verified Products Database at usp.org. For NSF, search NSF's certified products list at nsf.org. For Informed Sport, use their public registry at informed.sport. For brands without a certification seal, contact them directly and request a current Certificate of Analysis (COA) from their third-party lab — reputable brands provide this without hesitation. A COA that's missing potency or contaminant test results is a red flag.",
+    },
+    {
+      question:
+        "Are supplement label rules the same in Canada, the UK, and the EU?",
+      answer:
+        "The guide is US-specific. In the US, DSHEA (1994) is unusually permissive — products reach shelves without pre-market approval. Canada (Health Canada's Natural Health Products Regulations) and the EU (Food Supplements Directive, EFSA oversight) require pre-market authorization, stricter manufacturing evidence, and more limited health claims. UK rules post-Brexit largely mirror EU standards. If you're outside the US, this guide's FDA-centric framework doesn't fully apply — check your local regulatory authority for applicable rules.",
+    },
+    {
+      question:
+        "Can I take too much of a fat-soluble vitamin by combining a multivitamin with individual supplements?",
+      answer:
+        "Yes — this is a real stacking risk the guide doesn't address directly. Fat-soluble vitamins (A, D, E, K) accumulate in body fat rather than being excreted like water-soluble vitamins. If you follow the guide's suggestion to add individual D3 to a multivitamin, check the D3 amount in your multi first and add both doses together. Chronic vitamin A excess in particular carries toxicity risk. For personalized upper limits and stacking guidance, consult a physician or registered dietitian — this isn't a calculation to estimate casually.",
+    },
+    {
+      question:
+        "What does 'elemental' magnesium mean and how do I calculate it from compound weight?",
+      answer:
+        "Elemental magnesium is the actual mineral content — the portion your body absorbs. Supplement labels often list the compound weight (e.g., magnesium glycinate 1,000mg), not the elemental amount. To calculate: multiply compound weight by the elemental fraction. Magnesium glycinate is roughly 14% elemental magnesium, so 1,000mg glycinate ≈ 140mg elemental. Magnesium citrate is ~16%; oxide is ~60% (though poorly absorbed). When a label says '200mg elemental magnesium' like the guide's Example 3, that's the honest, directly usable number — no calculation needed.",
+    },
+    {
+      question:
+        "Is it safe to take supplements while on prescription medications?",
+      answer:
+        "The guide doesn't cover this, and it's a genuine safety gap. Drug-nutrient interactions are common and clinically significant — fish oil can potentiate blood thinners, magnesium can impair absorption of certain antibiotics, and St. John's Wort interacts with dozens of medications including antidepressants and birth control. Before adding any supplement to a prescription regimen, consult your prescribing physician or a pharmacist. This isn't a label-reading problem — it requires individualized medical review.",
     },
   ],
   "signs-you-are-magnesium-deficient": [
@@ -407,6 +1151,42 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Yes, and it's common. Modern soil depletion, food processing, and common medications (PPIs, diuretics, metformin) all reduce magnesium status. Roughly half of US adults consume below the RDA. Symptoms like muscle cramps, poor sleep, and anxiety often appear before any lab test flags it.",
     },
+    {
+      question:
+        "Can I get an RBC magnesium test without a doctor's order?",
+      answer:
+        "The guide recommends requesting an RBC magnesium test from your doctor but doesn't address direct-to-consumer options. In the US, services like Ulta Lab Tests and Any Lab Test Now allow you to order an RBC magnesium test without a physician's order, typically for $30–50. If your doctor won't order it, this is a practical workaround. Interpreting results still benefits from clinical context — the guide notes optimal RBC magnesium is generally 5.0–6.5 mg/dL, though lab reference ranges vary.",
+    },
+    {
+      question:
+        "Is magnesium safe during pregnancy?",
+      answer:
+        "The guide doesn't cover pregnancy safety or dosing. This is an important gap: pregnant individuals should consult their OB or midwife before supplementing, as magnesium has distinct roles and risks in pregnancy — including interactions with preeclampsia management at clinical doses. Don't rely on general supplementation guidance here. A qualified provider can recommend an appropriate form and dose for pregnancy-related symptoms like leg cramps or sleep disruption.",
+    },
+    {
+      question:
+        "Can magnesium supplements affect blood sugar or diabetes medications?",
+      answer:
+        "The guide flags type 2 diabetes as a risk factor for deficiency but doesn't explain why or address interactions with diabetes medications. The guide does note that metformin users appear in its risk checklist, which suggests relevance. However, specifics on magnesium's effect on glucose control or interactions with metformin and other diabetes drugs aren't covered here. If you manage blood sugar with medication, consult your prescribing physician before adding magnesium supplementation.",
+    },
+    {
+      question:
+        "Can low magnesium cause high blood pressure?",
+      answer:
+        "The guide covers magnesium's role in heart palpitations and electrical stability but doesn't mention blood pressure. Magnesium's role in blood pressure regulation isn't addressed in this guide. Given the well-documented relationship between magnesium and cardiovascular function — the guide even recommends magnesium taurate for heart health focus — this is a notable gap. If hypertension is your primary concern, discuss magnesium's potential role with your doctor rather than relying on this guide.",
+    },
+    {
+      question:
+        "Does magnesium help with PMS or period cramps?",
+      answer:
+        "The guide doesn't address PMS or menstrual cramps specifically. This use case isn't covered here, despite magnesium's established connections to the muscle-relaxation and anxiety symptoms the guide does discuss. If you're interested in magnesium for cycle-related symptoms, speak with a healthcare provider — they can advise on whether the evidence supports supplementation for your specific situation and recommend appropriate dosing.",
+    },
+    {
+      question:
+        "Should I take magnesium with food or on an empty stomach?",
+      answer:
+        "The guide recommends taking magnesium in the evening but doesn't specify whether to take it with food. Generally, magnesium citrate and glycinate — the forms the guide recommends most — are better tolerated with food, especially if you have a sensitive stomach. Taking magnesium on an empty stomach increases the risk of GI discomfort, particularly with citrate, which already has a mild laxative effect at higher doses. For full supplement timing guidance, the guide references a separate supplement timing guide.",
+    },
   ],
   "do-you-need-a-multivitamin": [
     {
@@ -423,6 +1203,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "Should men and women take different multivitamins?",
       answer:
         "Yes, usually. Menstruating women need more iron than men do; postmenopausal women need less. Men generally benefit from zinc; women often need more magnesium and calcium. Gender-specific multis address this, though the simpler answer is to skip the multi and supplement the 2–3 nutrients you actually need.",
+    },
+    {
+      question:
+        "which multivitamin brands are actually third-party tested and use methylated forms",
+      answer:
+        "The guide doesn't name specific brands, but it gives clear criteria: look for USP, NSF, or Informed Sport certification (third-party testing), methylcobalamin and methylfolate (not cyanocobalamin or folic acid), D3 not D2, and a 2–4 capsule serving size. One-pill-a-day formulas are almost certainly underdosed by physics alone. For vetted product comparisons, check the Formulate supplement catalog linked at the bottom of this guide.",
+    },
+    {
+      question:
+        "how much vitamin D should I actually take daily",
+      answer:
+        "The guide identifies vitamin D as the most common fixable micronutrient gap in the US and cites an optimal serum range of 40–60 ng/mL, but it does not recommend a specific supplemental dose. Appropriate dosing depends on your baseline blood level, which varies widely. The guide recommends getting a 25-hydroxyvitamin D test first. For a dose recommendation based on your result, consult a healthcare provider.",
+    },
+    {
+      question:
+        "can I take magnesium glycinate and vitamin D at the same time",
+      answer:
+        "The guide recommends vitamin D3 + K2, magnesium glycinate, and omega-3 as its core targeted stack, but doesn't provide a specific daily schedule. It does warn that calcium and magnesium compete at high doses and recommends timing separation for competing minerals. Magnesium glycinate and vitamin D3 are not flagged as competing — both are fat-soluble or mineral-based and are commonly taken together. For a full timing protocol, see the guide's linked timing resource.",
+    },
+    {
+      question:
+        "do multivitamins interact with my medication",
+      answer:
+        "The guide doesn't cover drug-nutrient interactions in meaningful depth — it briefly notes metformin can deplete B12, but doesn't address warfarin, thyroid medications, SSRIs, or other common combinations. If you take prescription medications, this is a significant gap the guide acknowledges it cannot fill. Consult a pharmacist or physician before starting any supplement regimen, as interactions vary widely by drug class and individual health status.",
+    },
+    {
+      question:
+        "what prenatal vitamin should I take and does it need extra choline",
+      answer:
+        "The guide confirms choline is 'often underdosed even in prenatals' and lists it as a non-negotiable nutrient during pregnancy alongside folate, iron, and DHA — but doesn't specify adequate choline amounts, name any prenatal products, or advise whether a separate choline supplement is needed. This is a gap the guide doesn't resolve. Given the stakes, consult your OB or midwife for prenatal-specific dosing guidance.",
+    },
+    {
+      question:
+        "is it worth taking a multivitamin if I already eat pretty healthy",
+      answer:
+        "Probably not as your primary strategy. The guide's position is that most people with a reasonably varied diet have gaps in only 2–4 nutrients — typically vitamin D, magnesium, and omega-3 — not all 25 in a multivitamin. You'd be paying to cover deficiencies you likely don't have. The smarter move: track food for one week, get targeted bloodwork, and supplement only confirmed gaps at clinical doses. It costs roughly the same and works better.",
+    },
+    {
+      question:
+        "can I get a vitamin D test through my doctor or do I need to order it myself",
+      answer:
+        "The guide recommends getting a 25-hydroxyvitamin D test but doesn't address how to obtain one, insurance coverage, or direct-to-consumer options. In practice, you can request it from your primary care physician — it's a standard blood draw. Coverage varies by insurer and whether deficiency risk factors are documented. Direct-to-consumer lab services (e.g., LabCorp, Quest walk-in) also offer it without a physician order, typically for $30–60 out of pocket.",
     },
   ],
   "what-to-look-for-in-a-probiotic": [
@@ -441,6 +1263,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "Depends on the strain and formulation. Many modern probiotics use lyophilized (freeze-dried) strains in blister packs and are shelf-stable. Refrigeration matters most for cheap bulk-bottle products exposed to humidity and heat. Check the label — a quality product will say 'no refrigeration required' or give a shelf-life guarantee.",
     },
+    {
+      question:
+        "What probiotic brands actually contain LGG or LP299V?",
+      answer:
+        "The guide doesn't name specific brands — it focuses on how to evaluate any product by strain designation, dose, and CFU guarantee. To find products containing a specific strain, search the strain name (e.g., \"L. rhamnosus GG\" or \"L. plantarum 299v\") directly on a retailer or the manufacturer's site, then verify the product meets the guide's criteria: strain code listed, CFU guaranteed through expiration, and individual per-strain counts disclosed.",
+    },
+    {
+      question:
+        "Can I take probiotics while pregnant?",
+      answer:
+        "The guide doesn't cover probiotic use during pregnancy. This is a meaningful gap — pregnancy involves specific considerations around strain safety, immune modulation, and conditions like Group B Strep or gestational constipation that require clinical guidance. Consult your OB-GYN or midwife before starting any probiotic during pregnancy. Do not rely on general supplement guidance for this decision.",
+    },
+    {
+      question:
+        "What probiotic should I take for vaginal health or BV?",
+      answer:
+        "The guide doesn't address vaginal health or bacterial vaginosis — its condition coverage is entirely GI-focused. Vaginal microbiome support (including BV) involves specific strains such as L. crispatus and the L. reuteri RC-14 + L. rhamnosus GR-1 combination that the guide does not evaluate. For evidence-based guidance on this use case, consult a gynecologist or a clinician familiar with the vaginal microbiome literature.",
+    },
+    {
+      question:
+        "How long should I stay on a probiotic before stopping?",
+      answer:
+        "It depends on your goal. The guide's 4-week protocol gives a structured evaluation window: if you see clear improvement, continue and reassess at 8 and 12 weeks. For event-based use — like antibiotic support — the guide recommends stopping 1–2 weeks after the course ends. For ongoing conditions like IBS, daily supplementation is typically needed since most strains don't permanently colonize. If symptoms resolve, reassess whether continued use is still warranted.",
+    },
+    {
+      question:
+        "Are probiotics safe for kids and what dose?",
+      answer:
+        "The guide doesn't provide pediatric dosing guidance or age-specific product recommendations. It does reference positive Cochrane-level evidence for LGG in pediatric gastroenteritis and notes L. reuteri DSM 17938 has positive RCT data for infant colic in breastfed babies. For weight-based dosing, appropriate age ranges, or product form (chewable vs. capsule), consult a pediatrician — do not extrapolate adult doses to children.",
+    },
+    {
+      question:
+        "What is the difference between spore-based probiotics (Bacillus) and regular probiotics?",
+      answer:
+        "Spore-based probiotics use Bacillus strains that form protective endospores, surviving stomach acid, heat, and room-temperature storage without refrigeration. The guide notes this as a delivery advantage over conventional Lactobacillus and Bifidobacterium strains. The tradeoff: the guide explicitly states spore-based products have a \"different and smaller evidence base\" than well-studied strains like LGG or LP299V, without evaluating specific Bacillus strains or products. Apply the same standard — demand named strain designations and published RCT evidence, not just survival claims.",
+    },
+    {
+      question:
+        "Does taking a probiotic interact with my medication?",
+      answer:
+        "The guide covers one drug interaction: separate bacterial probiotic doses from antibiotics by at least 2 hours (S. boulardii is the exception, as a yeast it's unaffected). Beyond this, the guide is silent on interactions with immunosuppressants, proton pump inhibitors, chemotherapy, or other medications. These are safety-critical gaps. If you are immunocompromised or on any prescription medication, consult a pharmacist or physician before starting a probiotic.",
+    },
   ],
   "beginner-longevity-supplement-stack": [
     {
@@ -457,6 +1321,54 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "How long until I feel anything from a beginner stack?",
       answer:
         "Most stack benefits are slow and cumulative. Creatine: 2–4 weeks for strength effects. Vitamin D: 6–12 weeks to raise serum levels. Magnesium: 4–6 weeks for sleep/anxiety effects. Omega-3: 3+ months for cardiovascular markers. If you expected a noticeable day-one change, you're confusing supplements with stimulants.",
+    },
+    {
+      question:
+        "Can I take these supplements if I'm on blood thinners / warfarin?",
+      answer:
+        "The guide doesn't cover drug interactions. This is a real safety concern: omega-3 at higher doses has antiplatelet effects, curcumin inhibits platelet aggregation, and vitamin K2 directly affects warfarin's mechanism of action. These aren't theoretical risks — they can alter your INR and bleeding profile. If you're on warfarin or any anticoagulant, consult your prescribing physician before starting any supplement in this stack.",
+    },
+    {
+      question:
+        "What supplements in this stack should I avoid or adjust during pregnancy?",
+      answer:
+        "The guide doesn't address pregnancy. This is a meaningful gap: some supplements discussed here (high-dose fish oil, fat-soluble vitamins, and especially Tier 3 compounds like NMN and spermidine) have either known cautions or completely unknown safety profiles in pregnancy. Do not self-prescribe from this guide if you are pregnant or planning to conceive. Work with your OB or midwife on a pregnancy-appropriate supplement protocol.",
+    },
+    {
+      question:
+        "Which of these supplements are vegan, or do any contain animal products?",
+      answer:
+        "The guide doesn't flag animal-derived ingredients, but the sourcing varies. Standard omega-3 (EPA+DHA) is fish-derived; algal omega-3 is the vegan alternative with equivalent EPA+DHA. D3 is typically derived from lanolin (sheep's wool); lichen-derived D3 is the vegan option. K2 MK-7 is usually fermentation-derived and generally vegan, but verify by brand. Creatine monohydrate is synthetically produced and vegan. Check individual product labels to confirm.",
+    },
+    {
+      question:
+        "Does NMN vs. NR actually matter — which one should I buy?",
+      answer:
+        "The guide groups them as 'NAD+ precursors' without distinguishing them. Both raise blood NAD+ levels — confirmed in human trials — but the metabolic pathways differ, and NMN costs significantly more than NR. The guide's honest verdict applies to both equally: compelling mechanism, unproven human benefit, and expensive relative to Tier 1 options. If you're choosing between them specifically, the guide doesn't go there — and the science hasn't clearly settled it either. Prioritize Tiers 1 and 2 first.",
+    },
+    {
+      question:
+        "Can I get too much vitamin D — what's the toxicity threshold?",
+      answer:
+        "Yes. Vitamin D toxicity (hypercalcemia) is real, though rare at standard doses. The guide recommends 2,000–5,000 IU daily but explicitly states dose should depend on blood levels — get tested first. The higher end of that range without baseline testing is where risk creeps in, particularly for people who are hypersensitive or already replete. Pairing D3 with K2 (as the guide recommends) helps direct calcium appropriately, but it doesn't eliminate the case for testing before dosing aggressively.",
+    },
+    {
+      question:
+        "Which supplements in this stack interact with each other?",
+      answer:
+        "The guide identifies one positive interaction: D3 paired with K2 to direct calcium safely into bone rather than arteries. It doesn't address negative interactions. Notable gaps the guide doesn't cover: piperine (used in curcumin formulations to boost absorption) can alter the absorption of other supplements taken simultaneously; CoQ10 may have additive blood-pressure-lowering effects. If you're on medications, review potential interactions with a pharmacist before combining these.",
+    },
+    {
+      question:
+        "Where can I actually get the omega-3 index test done?",
+      answer:
+        "The guide recommends testing your Omega-3 Index but notes 'if your lab offers it' — most standard clinical labs don't. OmegaQuant is the primary direct-to-consumer option; you order a kit, do a finger-prick blood spot at home, and mail it in. Some functional medicine providers also offer it. The guide correctly treats this as a meaningful longevity biomarker, so it's worth seeking out rather than skipping.",
+    },
+    {
+      question:
+        "Should adults over 65 dose these supplements differently than younger adults?",
+      answer:
+        "The guide doesn't address age-specific dosing. This is a genuine gap: vitamin D metabolism, magnesium excretion, and renal function all change meaningfully with age, and creatine's evidence for sarcopenia is most relevant to adults over 60 — the exact population most likely reading a longevity guide. Adults 65+ should consult a physician before adopting this stack, particularly if kidney function is a concern or if multiple medications are involved.",
     },
   ],
   "electrolytes-guide": [
@@ -475,6 +1387,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "For most people with normal activity levels, salting food to taste covers sodium needs. Electrolyte supplements become worth it when you're sweating heavily, on a low-carb diet, or need precise dosing during endurance events. For everyday hydration, plain water + a normal diet handles it.",
     },
+    {
+      question:
+        "Is it safe to take NoSalt or NuSalt if I'm on blood pressure medication?",
+      answer:
+        "Do not use NoSalt or NuSalt without consulting your prescribing physician if you take blood pressure medication. The guide notes that ACE inhibitors, ARBs, and potassium-sparing diuretics all affect potassium balance — and adding supplemental potassium chloride on top of these medications can cause dangerous hyperkalemia (elevated blood potassium), which can trigger cardiac arrhythmia. This interaction is not covered in detail in the guide. Your doctor can review your specific medication and kidney function before you add any potassium source.",
+    },
+    {
+      question:
+        "How much potassium is too much per day from supplements?",
+      answer:
+        "The guide targets up to 3,500mg/day of potassium for keto dieters, but doesn't state the tolerable upper intake or explain why OTC potassium pills are capped at 99mg per tablet by the FDA. That cap exists specifically because high-dose potassium can cause hyperkalemia — dangerously elevated blood potassium — particularly in people with impaired kidney function or on certain medications. The gap between a 99mg pill and a 3,500mg daily target is typically made up through food and potassium chloride salt substitutes, not by taking dozens of pills.",
+    },
+    {
+      question:
+        "Electrolytes during pregnancy — what's safe?",
+      answer:
+        "The guide doesn't cover pregnancy. Pregnancy significantly alters fluid and electrolyte needs, and conditions like pre-eclampsia can make standard sodium advice inappropriate. Do not apply the doses or protocols in this guide during pregnancy without guidance from your OB or midwife. This is a case where individual medical supervision is essential, not optional.",
+    },
+    {
+      question:
+        "What kind of magnesium powder should I buy for the DIY recipe?",
+      answer:
+        "Buy a pure magnesium citrate powder sold as a dietary supplement — not a laxative preparation like Milk of Magnesia or liquid magnesium citrate bowel-prep products, which are entirely different formulations. Look for bulk magnesium citrate powder from a supplement supplier; the label should list elemental magnesium per gram. The guide's magnesium supplement roundup covers form selection in more detail if you want to compare alternatives like magnesium glycinate or malate.",
+    },
+    {
+      question:
+        "Do electrolytes break a fast?",
+      answer:
+        "The guide recommends spreading electrolyte intake throughout fasting windows but doesn't address whether flavored electrolyte products break a fast. Plain sodium, potassium, and magnesium dissolved in water contain no calories and are generally considered fasting-compatible. However, products containing citric acid, natural flavors, stevia, or trace carbohydrates may affect insulin response depending on your fasting goal. For strict fasting protocols, use unflavored electrolytes or add only plain lemon juice, as the DIY recipe does.",
+    },
+    {
+      question:
+        "Electrolytes for children — are adult doses safe?",
+      answer:
+        "The guide doesn't address pediatric dosing. Adult electrolyte targets — up to 5,000mg sodium and 3,500mg potassium daily — are not appropriate for children, and medical keto protocols for epilepsy in particular require individualized clinical management. Do not use adult supplement doses for children. Consult a pediatrician or registered dietitian, especially if your child is on a therapeutic ketogenic diet.",
+    },
+    {
+      question:
+        "Can I get enough potassium from food without supplements?",
+      answer:
+        "Yes, for many people — the guide's banana-and-avocado example illustrates difficulty hitting 4,700mg/day, but other high-potassium foods are more practical. A large baked potato with skin (~900mg), a cup of cooked lentils (~730mg), cooked spinach (~840mg per cup), and a salmon fillet (~600mg) all deliver meaningful potassium. Stacking several of these daily can get you close to the AI without supplements. Supplementation becomes more relevant if you eat low-carb, fast, or restrict potassium-rich foods.",
+    },
   ],
   "taurine-guide": [
     {
@@ -492,6 +1446,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       answer:
         "1–3g per day is the range most research uses. Higher doses (up to 6g) have been tested for specific conditions without clear harm. Taurine has an excellent safety profile even at high doses. Take with or without food — absorption is not strongly food-dependent.",
     },
+    {
+      question:
+        "does taurine affect kidney function or is it safe with kidney disease",
+      answer:
+        "The guide doesn't cover this directly. Taurine is renally excreted, which is relevant for anyone with chronic kidney disease (CKD) or impaired kidney function — conditions that alter amino acid metabolism and excretion. The guide's 'essentially zero downside risk' characterization applies to healthy adults in the reviewed clinical trials, not to populations with renal impairment. If you have CKD or any kidney condition, consult a nephrologist before supplementing.",
+    },
+    {
+      question:
+        "can I take taurine while pregnant or breastfeeding",
+      answer:
+        "The guide doesn't address pregnancy or breastfeeding. This is a meaningful gap — taurine is naturally present in breast milk and added to infant formula, suggesting physiological relevance during these periods, but the guide provides no guidance on supplemental doses for pregnant or nursing individuals. Given the YMYL stakes, consult your OB or midwife before adding taurine supplementation during pregnancy or lactation.",
+    },
+    {
+      question:
+        "taurine and diabetes — does it affect blood sugar",
+      answer:
+        "The guide notes that taurine supplementation improved glucose tolerance in mice and monkeys in the Singh et al. (2023) study — a potential benefit for metabolic health. However, the guide doesn't address implications for people with type 2 diabetes on medication. If you take metformin, insulin, or other glucose-lowering drugs, an additive blood-sugar-lowering effect is plausible. Discuss with your physician before supplementing, as medication adjustments may be warranted.",
+    },
+    {
+      question:
+        "what should I look for when buying a taurine supplement",
+      answer:
+        "The guide recommends standalone taurine powder or capsules but names no brands. When evaluating products, prioritize third-party testing certifications — NSF Certified for Sport, Informed Sport, or USP verification — which confirm label accuracy and screen for contaminants. Taurine powder is unflavored, inexpensive (roughly $0.05–$0.10 per gram), and widely available as a single-ingredient product, making it straightforward to source without proprietary blends that obscure actual dosing.",
+    },
+    {
+      question:
+        "can children take taurine supplements",
+      answer:
+        "The guide doesn't address supplementation in children or teenagers. It does note that taurine levels are highest in childhood and decline with age — suggesting children are not deficient under normal circumstances. The guide's dosing and safety data apply to adults. Separately, taurine is present in energy drinks heavily marketed near teens; those products carry caffeine and sugar risks the guide explicitly flags. Consult a pediatrician before giving taurine supplements to anyone under 18.",
+    },
+    {
+      question:
+        "taurine vs. glycine for longevity — which is better",
+      answer:
+        "The guide doesn't compare taurine to glycine. Both amino acids have attracted longevity interest from recent research, and the comparison is common in longevity communities, but the guide focuses exclusively on taurine. It would be speculative to rank them based on this content alone. If you're building a longevity stack, consult primary literature on glycine separately — the guide's longevity case for taurine rests specifically on the Singh et al. (2023) Science study.",
+    },
+    {
+      question:
+        "how much taurine is in food — can I get enough from diet alone",
+      answer:
+        "The guide confirms that meat, fish, and shellfish are the primary dietary sources and that vegans and vegetarians have measurably lower plasma taurine levels, but it doesn't quantify food amounts. Without those figures, it's difficult to assess whether diet alone is sufficient. What the guide does establish: taurine levels decline roughly 80% between childhood and old age regardless of diet, and the supplemental doses with documented benefits (1–6g/day) likely exceed what most omnivores consume through food.",
+    },
   ],
   "nootropics-guide": [
     {
@@ -508,6 +1504,48 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question: "What's the best nootropic for focus?",
       answer:
         "Caffeine (100–200 mg) plus L-theanine (200 mg) is the most replicated stack for focus and reaction time with minimal downside. It takes effect in 30–60 minutes and lasts 4–6 hours. For sustained focus across multiple hours, pair it with adequate sleep, consistent meal timing, and a low-distraction environment — no supplement fixes those.",
+    },
+    {
+      question:
+        "Can I take nootropics if I'm on antidepressants / SSRIs?",
+      answer:
+        "The guide doesn't cover drug interactions directly. This is a legitimate concern: bacopa monnieri, covered in Tier 2, is noted in the guide as modulating serotonin pathways — combining it with SSRIs or SNRIs could theoretically affect serotonin signaling. Caffeine and L-theanine interactions with antidepressants also vary by medication. Do not add any nootropic to a psychiatric medication regimen without first consulting your prescribing physician or a pharmacist.",
+    },
+    {
+      question:
+        "Are nootropics safe during pregnancy or breastfeeding?",
+      answer:
+        "The guide doesn't address pregnancy or breastfeeding at all. This is a significant gap: several compounds covered here — including high-dose caffeine and bacopa — have either known contraindications or insufficient safety data for pregnant and breastfeeding women. Do not use nootropics during pregnancy or while breastfeeding without explicit guidance from your OB or midwife. This applies even to Tier 1 compounds.",
+    },
+    {
+      question:
+        "What is the best nootropic for ADHD (without medication)?",
+      answer:
+        "The guide doesn't distinguish ADHD-related focus deficits from general fatigue-driven brain fog, and that distinction matters. The compounds covered here — caffeine, creatine, bacopa — are studied in neurotypical populations; their effects in ADHD brains can differ meaningfully. Caffeine in particular behaves differently in people with ADHD. Nothing in this guide should be treated as a substitute for an evidence-based ADHD treatment plan. Consult a physician before using nootropics alongside or instead of prescribed ADHD management.",
+    },
+    {
+      question:
+        "Which nootropic supplements are safe for teenagers?",
+      answer:
+        "The guide provides no age-based guidance, and the absence of that caveat is worth flagging directly. Developing brains respond differently to compounds that affect cholinergic signaling, stimulant activity, and neuroplasticity. The doses and populations referenced in the guide's cited studies are adults. Parents should not apply this guide's recommendations to teenagers without consulting a pediatrician or adolescent medicine specialist.",
+    },
+    {
+      question:
+        "How do I know if my lion's mane supplement is actually potent or not fake?",
+      answer:
+        "The guide flags the fruiting body vs. mycelium-on-grain distinction — fruiting body extracts are higher potency — and recommends products standardized for beta-glucans and hericenones. Beyond that, the guide doesn't cover verification methods. For a reliable product, look for third-party testing certifications (NSF, USP, or Informed Sport), a disclosed beta-glucan percentage on the label, and the specific fruiting body designation. The guide's complete lion's mane article covers product selection in more depth.",
+    },
+    {
+      question:
+        "Do nootropics work for anxiety-driven brain fog specifically?",
+      answer:
+        "Possibly — but not the standard starting stack. The guide explicitly notes that if your cognitive fog is stress- and anxiety-driven, adaptogens like ashwagandha may do more than traditional nootropics by removing the cortisol-related cognitive ceiling. Critically, the guide's default starting point — caffeine + L-theanine — may worsen anxiety in some people despite L-theanine's smoothing effect. If anxiety is your primary driver, the guide suggests addressing that first through adaptogens before adding stimulants.",
+    },
+    {
+      question:
+        "Can I cycle nootropics or do I need to take them every day?",
+      answer:
+        "The guide doesn't address cycling protocols directly. What it does clarify is mechanism: lion's mane benefits disappeared four weeks after stopping supplementation in the cited trial, indicating an ongoing mechanism that requires continued use. Bacopa requires 8–12 weeks of daily use to produce cognitive improvements. For caffeine, tolerance is a known issue not covered in the guide — cycling is a reasonable practical consideration. The guide recommends evaluating each compound over 2–4 weeks of consistent daily use before drawing conclusions about effectiveness.",
     },
   ],
   "strength-training-frequency-longevity": [

@@ -26,9 +26,9 @@ export interface Guide {
 export const guides: Guide[] = [
   {
     slug: "best-creatine-supplements",
-    title: "Best Creatine Supplements in 2026, Ranked by Clinical Evidence",
+    title: "Best Creatine Supplements 2026, Ranked by Evidence",
     description:
-      "We scored 8 creatine supplements on dose accuracy, purity, and bioavailability. Here are the results — no sponsorships, just data.",
+      "We tested 8 creatine supplements on dose accuracy, purity, and Creapure sourcing. Find out which monohydrate products actually deliver 3–5g per serving.",
     category: "roundup",
     categoryLabel: "Roundup",
     publishedAt: "2026-03-29",
@@ -39,9 +39,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "best-magnesium-supplements",
-    title: "Best Magnesium Supplements in 2026, Ranked by Clinical Evidence",
+    title: "Best Magnesium Supplements 2026, Ranked by Clinical Evidence",
     description:
-      "Magnesium glycinate vs citrate vs threonate — we scored every form on absorption, dose accuracy, and third-party testing.",
+      "Learn which magnesium form actually matches your goal. We scored glycinate, threonate, and citrate on absorption, dose accuracy, and third-party testing.",
     category: "roundup",
     categoryLabel: "Roundup",
     publishedAt: "2026-03-29",
@@ -52,9 +52,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "best-omega-3-supplements",
-    title: "Best Omega-3 & Fish Oil Supplements in 2026, Ranked by Clinical Evidence",
+    title: "Best Omega-3 Supplements 2026, Ranked by Clinical Evidence",
     description:
-      "EPA/DHA dose, oxidation levels, heavy metal testing — we scored 8 omega-3 supplements so you don't have to guess.",
+      "Learn to decode EPA+DHA labels, absorption forms, and oxidation scores. We ranked 8 omega-3 supplements using clinical evidence — no guesswork.",
     category: "roundup",
     categoryLabel: "Roundup",
     publishedAt: "2026-03-29",
@@ -65,9 +65,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "best-vitamin-d-supplements",
-    title: "Best Vitamin D Supplements in 2026, Ranked by Clinical Evidence",
+    title: "Best Vitamin D Supplements 2026: Ranked by Clinical Evidence",
     description:
-      "D3 vs D2, dosing for deficiency, and which brands actually deliver what's on the label. Evidence-based rankings inside.",
+      "42% of adults are deficient. Learn which D3 form, dose, and brand actually raises blood levels — with cofactor guidance and lab-verified picks.",
     category: "roundup",
     categoryLabel: "Roundup",
     publishedAt: "2026-03-29",
@@ -78,9 +78,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "best-sleep-supplement-protocol",
-    title: "The Best Sleep Supplement Protocol — Evidence-Based Stack for Deep Sleep",
+    title: "Best Sleep Supplement Protocol 2026: Clinical Evidence Stack",
     description:
-      "Magnesium, L-theanine, and glycine — how to combine sleep supplements backed by clinical trials into one effective protocol.",
+      "Build a cheap, non-habit-forming sleep stack using magnesium glycinate, L-theanine, and glycine — three compounds with the strongest clinical trial support.",
     category: "protocol",
     categoryLabel: "Protocol",
     publishedAt: "2026-03-29",
@@ -91,9 +91,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "best-pre-workout-supplement-protocol",
-    title: "The Best Pre-Workout Supplement Protocol — Build Your Own Evidence-Based Stack",
+    title: "Best Pre-Workout Protocol 2026: Clinical Evidence Stack",
     description:
-      "Creatine, beta-alanine, citrulline, and caffeine — the clinically validated pre-workout stack without proprietary blend nonsense.",
+      "Build a pre-workout stack that actually works. Learn the 4 clinically validated ingredients — creatine, citrulline, beta-alanine, caffeine — at doses that deliver results.",
     category: "protocol",
     categoryLabel: "Protocol",
     publishedAt: "2026-03-29",
@@ -104,9 +104,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "how-to-build-a-supplement-stack",
-    title: "How to Build a Supplement Stack — A Beginner's Evidence-Based Guide",
+    title: "How to Build a Supplement Stack (2026) — Evidence-Based",
     description:
-      "Stop guessing. Learn how to pick supplements that actually work, avoid redundancy, and build a stack tailored to your goals.",
+      "Skip the influencer hauls. Learn a step-by-step, evidence-based method to build a supplement stack that fits your goals — without wasting money.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-29",
@@ -117,9 +117,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "supplement-timing-guide",
-    title: "When to Take Your Supplements — A Complete Timing Guide",
+    title: "Supplement Timing Guide 2026 — Backed by Science",
     description:
-      "Which supplements to take morning vs night, what to pair together, what to separate, and which timing rules actually matter.",
+      "Learn which supplement timing rules genuinely affect absorption — fat-soluble vitamins, mineral conflicts, and what disrupts sleep. A practical, evidence-based guide.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -130,9 +130,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "how-to-read-a-supplement-label",
-    title: "How to Read a Supplement Label — Doses, Forms, and Red Flags",
+    title: "How to Read a Supplement Label 2026 — No Sponsorships",
     description:
-      "Proprietary blends, underdosed ingredients, and cheap forms — learn to spot them in 60 seconds by reading the Supplement Facts panel.",
+      "Learn to decode the Supplement Facts panel in 60 seconds — spot proprietary blends, underdosed ingredients, and cheap forms before you buy.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -143,9 +143,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "signs-you-are-magnesium-deficient",
-    title: "8 Signs You Might Be Magnesium Deficient",
+    title: "8 Signs of Magnesium Deficiency – 2026 Guide",
     description:
-      "Muscle cramps, poor sleep, anxiety, fatigue — subclinical magnesium deficiency is common and easy to miss. Here's how to identify and fix it.",
+      "Muscle cramps, twitching eyelids, and poor sleep may signal low magnesium. Learn all 8 signs, why standard blood tests miss it, and how to fix it.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -156,9 +156,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "do-you-need-a-multivitamin",
-    title: "Do You Actually Need a Multivitamin?",
+    title: "Do You Need a Multivitamin? Clinical Evidence 2026",
     description:
-      "The research is surprisingly mixed. We break down when multivitamins make sense, when they don't, and what to do instead.",
+      "Most adults take multivitamins as nutritional insurance — but 700,000-person studies show near-zero mortality benefit. Learn when one helps and when to target instead.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -169,9 +169,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "what-to-look-for-in-a-probiotic",
-    title: "What to Look for in a Probiotic — Strains, CFU, and Red Flags",
+    title: "What to Look for in a Probiotic — Evidence-Based 2026",
     description:
-      "Most probiotic advice is wrong. Strain specificity matters more than CFU count — here's how to choose one that actually works.",
+      "Strain specificity beats CFU count every time. Learn the 3 label clues that separate clinically backed probiotics from marketing noise in 2026.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -182,9 +182,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "beginner-longevity-supplement-stack",
-    title: "A Beginner's Longevity Supplement Stack — What the Evidence Actually Supports",
+    title: "Longevity Supplement Stack for Beginners 2026",
     description:
-      "NAD+, resveratrol, spermidine — longevity supplements are everywhere. We tier them by evidence strength so you know where to start.",
+      "Learn which longevity supplements are actually backed by human evidence. We tier NAD+, omega-3s, and more by clinical strength — no hype, no wasted money.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -195,9 +195,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "creatine-loading-phase",
-    title: "Creatine Loading Phase — Is It Necessary?",
+    title: "Creatine Loading Phase: Evidence-Based Guide 2026",
     description:
-      "The loading phase gets you to saturation faster, but you end up in the same place either way. Here's what the research says about loading, cycling, and timing.",
+      "Find out if creatine loading is worth it. We break down the saturation science, compare both protocols, and tell you which fits your timeline.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-30",
@@ -208,9 +208,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "zinc-guide",
-    title: "Zinc — Immune Support, Testosterone, and the Copper Connection",
+    title: "Zinc Supplement Guide 2026: Evidence-Based & Ranked",
     description:
-      "Zinc lozenges cut colds by 33%, but high-dose zinc depletes copper. Forms, dosing, the testosterone question, and who's most at risk for deficiency.",
+      "Learn which zinc forms actually shorten colds, how dosing affects testosterone and copper balance, and who faces the highest deficiency risk.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-31",
@@ -222,9 +222,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "lions-mane-guide",
-    title: "Lion\u2019s Mane Mushroom \u2014 Cognitive Benefits, Evidence, and What to Look For",
+    title: "Lion\u2019s Mane Mushroom: Evidence-Based Guide 2026",
     description:
-      "Lion\u2019s mane stimulates nerve growth factor (NGF) and has real human trial data for cognition. Fruiting body vs mycelium, dosing, and quality markers explained.",
+      "Discover how lion\u2019s mane stimulates NGF and BDNF to support cognition. Human trial data, fruiting body vs mycelium, dosing, and quality markers — all explained.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-31",
@@ -236,9 +236,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "nac-guide",
-    title: "NAC (N-Acetyl Cysteine) \u2014 The Antioxidant Precursor You Should Know About",
+    title: "NAC Supplement Guide 2026 | Evidence-Based Overview",
     description:
-      "NAC is the most efficient oral precursor to glutathione. From ER overdose treatment to mental health research \u2014 dosing, evidence, and who benefits most.",
+      "NAC is your body\u2019s most efficient glutathione precursor. Explore clinical evidence on dosing, OCD, liver protection, and who benefits most from supplementing.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-31",
@@ -250,9 +250,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "ashwagandha-guide",
-    title: "Ashwagandha — Does It Actually Work?",
+    title: "Ashwagandha Guide 2026: Clinical Evidence Reviewed",
     description:
-      "KSM-66 vs Sensoril vs generic root powder. The cortisol, anxiety, and testosterone evidence — what holds up and what doesn't.",
+      "Learn which ashwagandha extract actually matches the RCT evidence — KSM-66, Sensoril, or generic powder — and what cortisol, anxiety, and testosterone data show.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-31",
@@ -264,9 +264,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "collagen-guide",
-    title: "Collagen Supplements — What the Evidence Actually Supports",
+    title: "Collagen Supplements 2026 — Backed by Clinical Evidence",
     description:
-      "Your body doesn't just digest collagen into random amino acids. Specific peptides survive intact and signal tissue repair. Here's what works and what's marketing.",
+      "Learn which collagen supplements actually work and why. Bioactive peptides survive digestion and signal tissue repair — here\u2019s what 2026 clinical research supports.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-03-31",
@@ -278,9 +278,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "vitamin-b12-guide",
-    title: "Vitamin B12 \u2014 Who Actually Needs It and Which Form to Take",
+    title: "Vitamin B12 Guide 2026: Which Form & Dose You Need",
     description:
-      "B12 deficiency is common in vegans, older adults, and metformin users \u2014 and standard blood tests can miss it. Methylcobalamin vs cyanocobalamin, dosing, and the MMA test explained.",
+      "Find out if you\u2019re actually B12 deficient — and why standard tests miss it. Covers methylcobalamin vs cyanocobalamin, dosing, and the MMA test.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
@@ -292,9 +292,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "berberine-guide",
-    title: "Berberine \u2014 The Blood Sugar Supplement Compared to Metformin",
+    title: "Berberine 2026: Blood Sugar Benefits, Clinical Evidence",
     description:
-      "Berberine activates AMPK, lowers blood sugar comparably to metformin in clinical trials, and improves lipid markers. Dosing, drug interactions, and who actually benefits.",
+      "Learn how berberine activates AMPK, matches metformin in 3 clinical trials, cuts triglycerides 35%, and who actually benefits — dosing and drug interactions included.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
@@ -306,9 +306,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "electrolytes-guide",
-    title: "Electrolytes \u2014 What You Actually Need, When, and How Much",
+    title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:
-      "The sports drink industry massively overstates the need. Sodium, potassium, magnesium \u2014 who actually benefits, the DIY recipe, and why \u201Cketo flu\u201D is just an electrolyte deficit.",
+      "Discover who actually needs electrolyte supplements, the real science on sodium, and a DIY fix for keto flu symptoms — for about 15 cents a day.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
@@ -320,9 +320,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "taurine-guide",
-    title: "Taurine \u2014 The Longevity Amino Acid Hiding in Your Energy Drink",
+    title: "Taurine for Longevity: Clinical Evidence & Guide 2026",
     description:
-      "A 2023 Science paper linked taurine deficiency to aging and showed 10\u201312% lifespan extension in mice. Cardiovascular evidence, exercise performance, dosing, and the energy drink irony.",
+      "Taurine deficiency accelerates aging — a 2023 Science study showed 10\u201312% lifespan extension in mice. Explore dosing, cardiovascular benefits, and the energy drink paradox.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
@@ -334,9 +334,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "iron-guide",
-    title: "Iron Supplements \u2014 Who Needs Them, Who Should Avoid Them, and How to Not Waste Your Money",
+    title: "Iron Supplements Guide 2026: Evidence-Based & Ranked",
     description:
-      "Iron is one of the few supplements that can genuinely harm you in excess. Ferritin testing, bisglycinate vs sulfate, the every-other-day dosing trick, and absorption boosters explained.",
+      "Learn who needs iron supplements, what bloodwork to get, and which forms won\u2019t wreck your stomach. Covers dosing science most doctors skip.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
@@ -348,9 +348,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "nootropics-guide",
-    title: "A Beginner\u2019s Guide to Nootropics \u2014 What Works, What\u2019s Hype, and Where to Start",
+    title: "Nootropics Guide 2026: Ranked by Clinical Evidence",
     description:
-      "We tier nootropics by human evidence: caffeine + L-theanine, creatine, and omega-3 on top \u2014 then lion\u2019s mane, bacopa, alpha-GPC. Red flags, stack building, and realistic expectations.",
+      "Learn which nootropics actually work for focus and cognition. Tiered by human RCT data — from caffeine + L-theanine to lion\u2019s mane — with doses, red flags, and stack advice.",
     category: "guide",
     categoryLabel: "Guide",
     publishedAt: "2026-04-01",
