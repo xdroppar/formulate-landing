@@ -202,6 +202,62 @@ export function MagnesiumForAnxiety() {
         There&rsquo;s overlapping evidence. Tarleton et al. (2017) found that 248 mg of elemental magnesium daily improved both anxiety and depression scores in mildly depressed adults. The mechanisms partially overlap&mdash;both conditions involve HPA axis dysregulation and neurotransmitter imbalances that magnesium modulates. However, magnesium is not a standalone treatment for clinical depression.
       </p>
 
+      <h3>How Much Glycine Are You Actually Getting Per Dose?</h3>
+
+      <p>The glycine per dose of magnesium glycinate is lower than most people assume. In magnesium bisglycinate (the most common form), each magnesium ion is chelated to two glycine molecules. By molecular weight, elemental magnesium makes up roughly 11–14% of the total compound. A dose delivering 200–400 mg of elemental magnesium translates to approximately 1,400–2,800 mg of the full chelate—meaning you're getting roughly <strong>1.2–2.4 g of glycine</strong> per dose.</p>
+
+      <p>That matters because the clinical evidence for glycine's independent anxiolytic and sleep-promoting effects—like Bannai et al. (2012) and Inagawa et al. (2006)—used doses of <strong>3 g or more</strong>. At a typical 300 mg elemental magnesium dose, you're landing around 1.8 g of glycine: meaningful, but roughly 60% of the standalone therapeutic threshold. <EvidenceBadge level="moderate" /></p>
+
+      <p>So is the "two-for-one" claim overstated? Partially—but it's not worthless. You're getting a <em>partial</em> glycinergic contribution, not the full clinical dose. Think of it as a meaningful nudge rather than a complete glycine intervention.</p>
+
+      <p>Where glycinate still clearly wins is <strong>GI tolerability</strong>. Compared to citrate or oxide, glycinate causes significantly less osmotic diarrhea, which means you can actually sustain the 300–400 mg elemental doses used in anxiety trials without the digestive side effects that cause people to quit. Adherence is the most underrated variable in supplementation—a form you stop taking delivers zero milligrams of anything.</p>
+
+      <Callout variant="info" title="Practical takeaway">
+      Magnesium glycinate gives you a partial glycine dose (~1.2–2.4 g) that contributes to but doesn't replicate standalone glycine research. Its real advantage over other magnesium forms is sustained tolerability at therapeutic doses. If you want to reach the full 3 g glycine threshold, you'd need to supplement glycine separately—which is inexpensive and generally well-tolerated.
+      </Callout>
+
+      <p>None of this undermines the case for glycinate as the best magnesium form for anxiety. It just means the primary driver of benefit is the magnesium itself—correcting deficiency, modulating NMDA receptors, enhancing GABA signaling—with glycine acting as a useful supporting player rather than an equal co-star. If you're building a broader <a href="/guides/best-sleep-supplements">sleep supplement protocol</a>, adding standalone glycine on top of your magnesium glycinate is a reasonable, low-risk strategy to capture both benefits fully.</p>
+
+      <h2>Magnesium Glycinate vs. Magnesium Taurate for Anxiety</h2>
+
+      <p><strong>Magnesium glycinate vs. magnesium taurate for anxiety</strong> is one of the most common comparison searches in the supplement space, and both forms have legitimate mechanistic arguments. The difference comes down to which amino acid is bonded to the magnesium ion—and what that amino acid does in your brain once the chelate dissociates.</p>
+
+      <h3>The Glycine Advantage</h3>
+
+      <p>You already know glycine's role from earlier in this guide: it's an inhibitory neurotransmitter that acts at its own receptors and as an NMDA receptor co-agonist (at the glycine binding site, which paradoxically helps regulate—not amplify—excitatory signaling). Supplemental glycine at 3+ grams has shown independent anxiolytic and sleep-promoting effects (Bannai et al., 2012). A standard 300 mg elemental magnesium dose from glycinate delivers roughly 2 g of glycine—not quite therapeutic on its own, but a meaningful contribution. <EvidenceBadge level="moderate" /></p>
+
+      <h3>The Taurine Case</h3>
+
+      <p>Taurine is an amino sulfonic acid with GABAergic properties—it activates GABA-A receptors directly, though with lower affinity than GABA itself (Jia et al., 2008). It also has cardiovascular calming effects, reducing blood pressure and heart rate in stressed populations (Sun et al., 2016). For people whose anxiety manifests as pounding heart and chest tightness, the taurine component is theoretically appealing. <EvidenceBadge level="emerging" /></p>
+
+      <h3>Where the Evidence Actually Stands</h3>
+
+      <p>Here's the honest gap: <strong>no published RCT directly compares magnesium glycinate and magnesium taurate for anxiety outcomes.</strong> The clinical anxiety data—including the Boyle (2017) meta-analysis—predominantly used glycinate, oxide, or citrate forms. Magnesium taurate's anxiety-specific evidence is largely preclinical (animal models) and mechanistic inference. Taurine itself has stronger standalone data for cardiovascular markers than for subjective anxiety scores.</p>
+
+      <Callout variant="info" title="Practical recommendation">
+      If anxiety and sleep disruption are your primary targets, magnesium glycinate remains the better-supported choice. If your anxiety is heavily somatic—racing heart, elevated blood pressure, physical restlessness—magnesium taurate is a reasonable alternative worth trying, but you're relying more on mechanistic plausibility than clinical proof. Either form is well-absorbed and gentle on the gut.
+      </Callout>
+
+      <p>Some people cycle between the two or combine them. There's no safety concern with this approach at standard doses. If you're already following the <a href="/guides/magnesium-for-anxiety">dosing protocol outlined above</a>, you can substitute taurate at the same elemental magnesium dose and evaluate over 4–6 weeks. Just don't expect dramatically different results—the magnesium ion is still doing most of the heavy lifting. For a broader comparison of forms, see our guide to the <a href="/guides/best-magnesium-supplements">best magnesium supplements</a>.</p>
+
+      <h2>Protocol Reconciliation: Dosing Within the Tolerable Upper Limit</h2>
+
+      <p>You may have noticed a tension in the dosing within the tolerable upper limit guidance: we recommend 300–400 mg of elemental magnesium daily, yet the Institute of Medicine's Tolerable Upper Intake Level (UL) for supplemental magnesium is 350 mg. That's not an oversight—it's a nuance worth unpacking, because blindly citing the UL without context is just as misleading as ignoring it.</p>
+
+      <h3>What the UL Actually Represents</h3>
+
+      <p>The 350 mg UL, established in 1997, was set based on the lowest dose at which osmotic diarrhea appeared in studies using poorly absorbed forms—primarily magnesium oxide, chloride, and carbonate (IOM, 1997). It was deliberately conservative, applying a standard uncertainty factor. Critically, the UL applies only to supplemental magnesium, not dietary intake. The IOM explicitly noted that the adverse effect driving the limit was GI disturbance, <strong>not systemic toxicity</strong>. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Why Glycinate Changes the Equation</h3>
+
+      <p>Magnesium glycinate is a chelated form with substantially better GI tolerability than the salts that generated the UL data. The very side effect the UL was designed to prevent—osmotic diarrhea—occurs at significantly higher thresholds with glycinate because it's absorbed via amino acid transport pathways rather than relying on passive paracellular absorption that draws water into the intestinal lumen. Multiple clinical trials, including Pouteau et al. (2018), administered 300 mg of elemental magnesium daily without notable adverse effects. <EvidenceBadge level="moderate" /></p>
+
+      <p>This doesn't mean the UL is meaningless. It means that a healthy adult with normal kidney function (eGFR above 60) taking 400 mg of elemental magnesium as glycinate is not at meaningful risk of systemic toxicity. Healthy kidneys clear excess magnesium efficiently—hypermagnesemia is almost exclusively a concern in <a href="/guides/magnesium-and-kidney-function">renal impairment</a>.</p>
+
+      <Callout variant="warning" title="Transparency on Limits">
+      Our protocol recommends starting at 200 mg and titrating to 300–400 mg <em>as tolerated</em>. If you experience loose stools at any dose, that's your body signaling you've exceeded your personal absorption threshold—reduce accordingly. The 350 mg UL remains a reasonable general guardrail, and exceeding it modestly with glycinate is a different risk profile than exceeding it with magnesium oxide. If you have any kidney concerns, consult your healthcare provider before supplementing above 200 mg.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>

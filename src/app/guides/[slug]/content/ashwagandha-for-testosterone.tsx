@@ -207,6 +207,147 @@ export function AshwagandhaForTestosterone() {
         Ashwagandha is not a banned substance under WADA or standard employment drug panels. It does not produce synthetic androgens or their metabolites. However, contaminated or adulterated products could theoretically cause issues &mdash; buy third-party tested supplements from reputable brands.
       </p>
 
+      <h2>How to Test Your Testosterone Before and After (The Right Bloodwork Protocol)</h2>
+
+      <p>Testing your testosterone before and after ashwagandha requires more than a single total T reading. Hormone levels fluctuate enough within the same person — on the same day, even — that a sloppy testing protocol will produce noise you'll mistake for signal. Here's how to do it properly.</p>
+
+      <h3>The Biomarkers to Order</h3>
+
+      <p>Don't just test total testosterone. Request a panel that includes <strong>total testosterone</strong>, <strong>free testosterone</strong>, <strong>SHBG</strong> (sex hormone-binding globulin), <strong>LH</strong> (luteinizing hormone), <strong>DHEA-S</strong>, and <strong>morning cortisol</strong>. Free T tells you what's actually bioavailable. SHBG explains discrepancies between total and free T. LH confirms whether any testosterone change is coming from upstream signaling — which is the proposed <a href="/guides/ashwagandha-for-testosterone">ashwagandha mechanism</a>. And cortisol is the whole point: you need to see whether the HPA-axis brake is actually being released.</p>
+
+      <h3>When to Draw Blood</h3>
+
+      <p>Testosterone peaks in the early morning and drops 20–30% by afternoon (Brambilla et al., 2009). Always draw between <strong>7:00–9:30 AM</strong>, <strong>fasted</strong>, after a normal night of sleep. Avoid testing the day after intense training — acute exercise transiently raises T, and you'll capture the wrong signal. Aim for day 2 or 3 of a rest or deload period. Replicate these exact conditions for your follow-up draw.</p>
+
+      <h3>What Counts as a Real Change</h3>
+
+      <p>Intra-individual variability in total testosterone runs roughly <strong>15%</strong> between draws even under identical conditions (Vermeulen &amp; Verdonck, 1992; Travison et al., 2007). That means if your baseline is 400 ng/dL, a follow-up of 430 ng/dL is within normal fluctuation — not evidence of anything. <EvidenceBadge level="moderate" /> A meaningful delta should exceed that ~15% noise floor <em>and</em> be corroborated by directional changes in at least one related marker (lower cortisol, higher DHEA-S, or higher LH).</p>
+
+      <Callout variant="info" title="Minimum testing timeline">
+      Draw baseline labs before you start supplementation. Retest at <strong>8–10 weeks</strong> under identical conditions — same time, same fasting status, same proximity to training. A single follow-up draw is the minimum; two post-intervention draws 2–4 weeks apart give you much more confidence the change is real.
+      </Callout>
+
+      <Callout variant="warning" title="One number isn't enough">
+      A total T reading in isolation is nearly useless for tracking supplement effects. Without SHBG and free T, you can't interpret the result. Without cortisol, you can't evaluate the mechanism. If cost is a concern, prioritize total T + free T + cortisol AM as your minimum panel.
+      </Callout>
+
+      <h2>Long-Term Use and Cycling: What to Do After 8–12 Weeks</h2>
+
+      <p>Long-term ashwagandha use beyond 12 weeks is where the clinical data simply stops. Every major testosterone RCT — Wankhede (2015), Lopresti (2019), and the trials pooled in Smith et al. (2022) — ran for 8 weeks. The longest controlled ashwagandha trial with any endpoint, Chandrasekhar et al. (2012), lasted 60 days. Nobody has published a 6-month or 12-month RCT measuring testosterone outcomes. That's not a minor gap — it means we genuinely don't know whether the 10–20% testosterone increase holds, plateaus, or reverses with continued use.</p>
+
+      <h3>The Case for Cycling</h3>
+
+      <p>The theoretical rationale for cycling adaptogens comes from receptor desensitization — the idea that sustained modulation of HPA-axis signaling could blunt the body's response over time, similar to how chronic benzodiazepine use downregulates GABA receptors. Some practitioners in Ayurvedic and integrative medicine recommend cycling ashwagandha (8–12 weeks on, 2–4 weeks off) to prevent this. The logic is pharmacologically plausible, but <strong>no human study has tested whether ashwagandha's cortisol-lowering or testosterone effects actually diminish with continuous use.</strong> <EvidenceBadge level="emerging" /></p>
+
+      <h3>The Case for Continuous Use</h3>
+
+      <p>Safety data, at least, extends a bit further. Ashwagandha has been used in Ayurvedic practice for extended periods, and the adverse event profile in 8-week trials is mild. A 2021 systematic review of ashwagandha safety (Tandon & Yadav) found no dose-dependent toxicity signals at standard doses across available studies. But tolerability isn't the same as sustained efficacy — your liver may be fine while the testosterone benefit quietly fades.</p>
+
+      <h3>A Practical Default</h3>
+
+      <Callout variant="info" title="Reasonable approach given current evidence">
+      Use ashwagandha for 8–12 weeks, then take 2–4 weeks off before resuming. This isn't clinically validated — it's a precautionary default based on the limits of existing data. If you want to skip cycling, you're not contradicting any study, but you're also operating without a safety net of long-term evidence.
+      </Callout>
+
+      <p>Either way, get bloodwork at baseline, at the 8-week mark, and again after any break. Total testosterone, free testosterone, and cortisol give you an actual signal instead of guesswork. If your numbers improved and hold through a cycle, you have your answer. If they didn't budge after 8–12 weeks, continuing indefinitely won't fix that — revisit whether you're in the <a href="/guides/ashwagandha-for-testosterone">responder profile</a> or whether the fundamentals (sleep, training, <a href="/guides/best-adaptogens-for-stress">stress management</a>) need more attention first.</p>
+
+      <h2>Ashwagandha and Liver Health: Understanding the Hepatotoxicity Signal</h2>
+
+      <p>Ashwagandha and liver health deserves a more thorough treatment than the "case reports exist, causality debated" framing you'll find on most supplement sites. Multiple regulatory agencies have now weighed in, and ignoring that context does you a disservice.</p>
+
+      <h3>What the Case Reports Show</h3>
+
+      <p>As of 2024, at least 20 published case reports describe clinically significant liver injury associated with ashwagandha use. Björnsson et al. (2020) documented five cases in Iceland alone, with liver biopsies showing patterns consistent with drug-induced liver injury (DILI). Onset typically occurred between 2 and 12 weeks of use, and most patients recovered after discontinuation — though at least one case required hospitalization. <EvidenceBadge level="emerging" /></p>
+
+      <h3>Regulatory Warnings Are Real</h3>
+
+      <p>The UK's MHRA issued a safety alert in 2023 flagging ashwagandha-containing products after receiving multiple Yellow Card reports of hepatotoxicity. Health Canada has similarly flagged liver injury as a potential risk. These aren't fringe concerns — they represent formal regulatory signals from agencies that don't issue warnings casually.</p>
+
+      <Callout variant="warning" title="This Is Not Theoretical">
+      Regulatory warnings from the MHRA and Health Canada mean the hepatotoxicity signal has crossed the threshold from anecdotal case reports to active pharmacovigilance concern. This doesn't mean ashwagandha is broadly unsafe, but it does mean liver risk should factor into your decision.
+      </Callout>
+
+      <h3>Who's at Higher Risk</h3>
+
+      <p>The case literature suggests several compounding risk factors: pre-existing liver disease or elevated baseline liver enzymes, regular alcohol use (which independently stresses hepatic function), and concurrent use of hepatotoxic medications — <strong>statins, acetaminophen at high doses, certain antifungals, and methotrexate</strong> among them. If any of these apply to you, the risk-benefit calculation shifts meaningfully.</p>
+
+      <p>A practical screening question before starting ashwagandha: <em>Do you drink alcohol regularly (more than a few drinks per week), or are you taking a statin or other medication metabolized heavily by the liver?</em> If yes, consult your healthcare provider before use. Baseline liver function tests (ALT, AST, bilirubin) are a reasonable precaution, especially if you plan to use ashwagandha for the 8–12 week durations discussed in the <a href="/guides/ashwagandha-for-testosterone">testosterone section above</a>.</p>
+
+      <h3>Keeping This in Perspective</h3>
+
+      <p>Millions of people take ashwagandha without liver problems. The absolute incidence of hepatotoxicity appears low — likely well under 1% — but "rare" and "zero" are different things. The signal is strong enough that regulatory bodies acted on it, yet not strong enough to trigger market withdrawals. For most healthy adults without liver risk factors, standard-dose ashwagandha for 8–12 weeks remains reasonable. But transparency about this risk is more useful to you than false reassurance. <EvidenceBadge level="emerging" /></p>
+
+      <h2>Ashwagandha for Women: A Different Hormonal Picture</h2>
+
+      <p>Ashwagandha's effects on female hormones don't mirror the male testosterone story, and you shouldn't assume they do. The trials cited throughout this guide enrolled men exclusively. Women have a fundamentally different hormonal architecture — testosterone matters, but it circulates at roughly 5–10% of male levels, and the clinical implications of raising it depend entirely on context.</p>
+
+      <h3>What the Female-Specific Data Actually Shows</h3>
+
+      <p>The most cited trial in women is Dongre et al. (2015), which gave 50 healthy women 300 mg of KSM-66 twice daily for 8 weeks. The study focused on sexual function, not testosterone per se. The ashwagandha group reported significant improvements in arousal, lubrication, orgasm, and satisfaction versus placebo. <EvidenceBadge level="moderate" /> The mechanism likely involves cortisol reduction and improved DHEA-S — not a direct androgenic effect.</p>
+
+      <p>Cortisol lowering appears consistent across sexes. Chandrasekhar et al. (2012) included both men and women, and the stress-buffering effects weren't sex-dependent. For women dealing with chronic fatigue, poor sleep, or stress-driven libido issues, the HPA-axis pathway described in our <a href="/guides/ashwagandha">full ashwagandha guide</a> applies here too.</p>
+
+      <h3>PCOS and Androgen Excess: A Critical Distinction</h3>
+
+      <Callout variant="warning" title="PCOS Caution">If you have polycystic ovary syndrome or any condition involving elevated androgens, ashwagandha's potential to raise DHEA-S and testosterone — even modestly — could worsen symptoms like acne, hirsutism, or irregular cycles. Consult your healthcare provider before using it.</Callout>
+
+      <p>For women <em>without</em> androgen excess, the risk profile looks different. Ashwagandha for women's hormones is less about boosting testosterone and more about normalizing a stress-disrupted endocrine environment. The evidence is emerging rather than definitive — we have one solid sexual function trial and cortisol data extrapolated from mixed-sex studies. That's enough to be interesting, not enough to be prescriptive. <EvidenceBadge level="emerging" /></p>
+
+      <p>If your concern is fatigue or low libido tied to chronic stress, ashwagandha is worth discussing with your provider. If your concern is a specific hormonal imbalance, get labs first. The male data in this guide does not transfer.</p>
+
+      <h2>Drug and Supplement Interactions Checklist</h2>
+      <p>Ashwagandha drug interactions are poorly catalogued in large trials, but the pharmacological profile gives us enough to build a practical checklist. Most interaction concerns stem from ashwagandha's GABAergic activity, thyroid hormone potentiation, immunomodulatory effects, and mild hypoglycemic properties. The table below consolidates what's known — and flags where the evidence is thin.</p>
+
+      <div className="overflow-x-auto">
+      <table className="w-full text-sm border-collapse">
+      <thead>
+      <tr className="border-b-2 border-gray-300">
+      <th className="text-left py-2 pr-4">Drug / Substance</th>
+      <th className="text-left py-2 pr-4">Interaction Concern</th>
+      <th className="text-left py-2">Evidence Quality</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>Benzodiazepines &amp; sedatives</strong> (lorazepam, zolpidem, etc.)</td>
+      <td className="py-2 pr-4">Additive CNS depression — increased drowsiness, impaired coordination. Ashwagandha's GABAergic activity (Candelario et al., 2015) compounds sedative effects.</td>
+      <td className="py-2">Preclinical + pharmacological plausibility</td>
+      </tr>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>Thyroid medications</strong> (levothyroxine, methimazole)</td>
+      <td className="py-2 pr-4">May elevate T3 and T4 independently. Sharma et al. (2018) reported significant increases in serum T4 at 600 mg/day. Could destabilize thyroid medication dosing in both hypo- and hyperthyroid patients.</td>
+      <td className="py-2">RCT data (secondary endpoint)</td>
+      </tr>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>Immunosuppressants</strong> (tacrolimus, cyclosporine, mycophenolate)</td>
+      <td className="py-2 pr-4">Ashwagandha upregulates NK cell activity and Th1 cytokines. Potential conflict with immunosuppressive goals post-transplant or in autoimmune disease management.</td>
+      <td className="py-2">Preclinical + case-level concern</td>
+      </tr>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>Hypoglycemic medications</strong> (metformin, sulfonylureas, insulin)</td>
+      <td className="py-2 pr-4">Ashwagandha may lower fasting blood glucose by 12–15 mg/dL (Andallu &amp; Radhika, 2000). Overlap could increase hypoglycemia risk, especially with sulfonylureas or insulin.</td>
+      <td className="py-2">Small RCTs + preclinical</td>
+      </tr>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>SSRIs &amp; SNRIs</strong> (sertraline, escitalopram, venlafaxine)</td>
+      <td className="py-2 pr-4">Theoretical serotonergic overlap. No confirmed cases of serotonin syndrome, but ashwagandha's mild monoamine-modulating activity warrants caution when stacked with serotonergic drugs.</td>
+      <td className="py-2">Theoretical / preclinical only</td>
+      </tr>
+      <tr className="border-b border-gray-200">
+      <td className="py-2 pr-4"><strong>Alcohol</strong></td>
+      <td className="py-2 pr-4">Amplified sedation via additive CNS depression. Rare ashwagandha hepatotoxicity case reports (Björnsson et al., 2020) raise concern about compounded liver stress with regular alcohol use.</td>
+      <td className="py-2">Case reports + pharmacological plausibility</td>
+      </tr>
+      </tbody>
+      </table>
+      </div>
+
+      <Callout variant="warning" title="If you take any of these medications">
+      Do not start or stop ashwagandha without discussing it with your prescriber. Bring your full supplement list — including doses and brands — to your next appointment. Ashwagandha interaction data is limited, which is itself a reason for caution, not reassurance.
+      </Callout>
+
+      <p>Two groups deserve special emphasis because they're often missed: <strong>diabetics on metformin or sulfonylureas</strong> should monitor blood glucose more frequently if adding ashwagandha, and <strong>SSRI users</strong> should watch for unusual mood shifts or agitation, even though confirmed interactions haven't been documented. The absence of case reports doesn't equal safety — it may reflect underreporting. For more on ashwagandha's broader safety profile, see our full <a href="/guides/ashwagandha">ashwagandha guide</a>.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>

@@ -302,6 +302,92 @@ export function NacAndAlcohol() {
         than relying on supplements.
       </p>
 
+      <h2>How Many Drinks Does One Dose Cover? Scaling the Protocol</h2>
+
+      <p>The question of how many drinks one dose of NAC covers is the most practical question you'll have after reading the protocol — and unfortunately, it's one the research hasn't directly answered. There are no human dose-response studies calibrating NAC milligrams to drink count, body weight, or drinking history. What follows is a conservative heuristic built on biochemistry, not clinical proof.</p>
+
+      <h3>What We Can Reason From the Biochemistry</h3>
+
+      <p>Each standard drink generates a roughly predictable amount of acetaldehyde, and neutralizing it requires glutathione. Morelli et al. (1986) showed that a single binge-equivalent dose in rats depleted liver glutathione by 40–50%. It's reasonable to assume that more drinks mean more glutathione burned — but the relationship isn't necessarily linear. Your liver's glutathione turnover rate, baseline stores, body mass, and ALDH enzyme efficiency all introduce individual variability that no simple formula can capture.</p>
+
+      <h3>A Working Heuristic (With Honest Uncertainty)</h3>
+
+      <p>Based on the commonly studied dose range and the logic above, a conservative approach: <strong>600 mg NAC for a light session (1–3 standard drinks)</strong>, and <strong>1200 mg for heavier sessions (4+ drinks)</strong>, always taken 30–60 minutes before the first drink. There's no evidence that going above 1200 mg adds further benefit, and higher doses increase the likelihood of GI side effects like nausea. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="warning" title="This Is an Educated Guess, Not a Proven Protocol">
+      No human trial has tested whether 1200 mg protects better than 600 mg at higher drink counts. This heuristic is extrapolated from glutathione biochemistry and standard clinical dosing — not from controlled dose-escalation data. Your individual response will vary based on body weight, liver health, genetics, and drinking history. Do not treat this as a precise formula.
+      </Callout>
+
+      <p>Body weight likely matters — a 60 kg person and a 100 kg person have meaningfully different liver capacities and glutathione pools — but no study has established weight-based NAC dosing for alcohol specifically. If you're on the heavier side and planning a heavier session, 1200 mg is the more logical choice, but that's reasoning by analogy, not data.</p>
+
+      <p>One thing is clear: no dose of NAC transforms a heavy drinking session into a safe one. If you're regularly needing to think about whether 600 mg or 1200 mg is "enough," the more effective intervention is fewer drinks. For broader context on NAC dosing across different use cases, see our full <a href="/guides/nac">NAC guide</a>.</p>
+
+      <h2>Medication Interactions: The Full List (Including Psychiatric Drugs)</h2>
+
+      <p>NAC and antidepressants are one of the most common supplement-drug overlaps we see — and one of the least discussed. If you're taking psychiatric medication and drinking socially, adding NAC into the mix creates a three-way interaction picture that deserves careful attention. Here's what's documented, what's theoretical, and where the lines blur.</p>
+
+      <h3>SSRIs and SNRIs</h3>
+
+      <p>NAC modulates glutamate via the cystine-glutamate antiporter (system Xc⁻), effectively increasing extrasynaptic glutamate while reducing synaptic overflow. SSRIs and SNRIs influence serotonin reuptake, and serotonin and glutamate systems are tightly coupled in prefrontal and limbic circuits. A few small trials have used NAC as an <em>adjunct</em> to SSRIs for OCD and depression (Oliver et al., 2015; Berk et al., 2014) without major safety signals, but these were conducted under clinical supervision — not alongside alcohol. The interaction is <strong>theoretical but pharmacologically plausible</strong>: alcohol itself disrupts glutamate signaling acutely, and stacking NAC's glutamatergic effects on top of SSRI-altered serotonin tone while drinking is unstudied territory. <EvidenceBadge level="emerging" /> Consult your prescriber before combining all three.</p>
+
+      <h3>Bupropion (Wellbutrin)</h3>
+
+      <p>Bupropion lowers the seizure threshold in a dose-dependent manner — this is well-documented and is the reason it carries a seizure warning. Alcohol independently lowers seizure threshold. NAC's glutamate modulation could theoretically further alter excitatory/inhibitory balance, though no published case reports or studies have directly examined this three-way combination. The interaction is <strong>theoretical</strong>, but the underlying pharmacology warrants real caution. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="warning" title="Bupropion + Alcohol + NAC">
+      Bupropion's prescribing information already warns against alcohol use due to seizure risk. Adding a glutamate-modulating supplement like NAC into this combination has not been studied. Talk to your psychiatrist before proceeding.
+      </Callout>
+
+      <h3>Metformin</h3>
+
+      <p>Both metformin and NAC undergo hepatic processing, and both can cause GI side effects (nausea, diarrhea) independently. Alcohol adds a third hepatic stressor. The concern here is less about a direct pharmacokinetic clash and more about <strong>cumulative hepatic burden and additive GI distress</strong>. One small study (Moreira et al., 2020) suggested NAC may actually support mitochondrial function in metformin-treated diabetic models, but this hasn't been validated in humans drinking alcohol concurrently. The interaction is <strong>theoretical with limited supporting data</strong>. <EvidenceBadge level="emerging" /></p>
+
+      <h3>CYP2E1-Metabolized Drugs (Narrow Therapeutic Index)</h3>
+
+      <p>CYP2E1 is the enzyme alcohol upregulates with chronic use — the same enzyme that bioactivates acetaminophen into its toxic metabolite (already covered in our <a href="/guides/nac-and-alcohol">acetaminophen section above</a>). Other drugs metabolized by CYP2E1 include certain volatile anesthetics (sevoflurane, isoflurane), chlorzoxazone, and some industrial solvents. NAC's glutathione replenishment can alter the detoxification of CYP2E1-generated metabolites. For medications with a <strong>narrow therapeutic index</strong> — where small changes in metabolism meaningfully shift efficacy or toxicity — this matters. The interaction is <strong>documented for acetaminophen</strong> and <strong>theoretical for other CYP2E1 substrates</strong>. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="info" title="Documented vs. Theoretical — Why It Matters">
+      Of all the interactions listed here, only the acetaminophen-NAC-alcohol combination has robust clinical documentation. The psychiatric drug interactions are grounded in plausible pharmacology but lack direct human evidence. That doesn't mean they're safe to ignore — it means the absence of data isn't the same as the absence of risk. Bring your full medication and supplement list to your prescriber.
+      </Callout>
+
+      <h2>I Already Took NAC After Drinking — What Now?</h2>
+
+      <p>If you took NAC after drinking and found this guide afterward, take a breath. You're almost certainly fine. The pro-oxidant concern described above is real in rodent liver tissue, but it has <strong>not been confirmed in humans at standard supplemental doses</strong> (600–1200 mg). There is no documented case report of a person experiencing acute harm from taking OTC NAC after alcohol. <EvidenceBadge level="emerging" /></p>
+
+      <p>This is not a medical emergency. NAC has a wide safety margin — hospitals administer it intravenously at doses far exceeding anything you'd take orally, precisely because its toxicity threshold is high. The theoretical risk from post-alcohol timing involves a subtle shift in oxidative balance, not an acute poisoning event.</p>
+
+      <Callout variant="info" title="What to do right now">
+      Drink water, eat something, and move on. You don't need to "counteract" the NAC. Your liver is well-equipped to handle a single mistimed dose. Focus on hydration and rest — the same advice that applies to any morning after drinking.
+      </Callout>
+
+      <p>That said, if you experience unusual symptoms — <strong>significant abdominal pain, yellowing of the skin or eyes, dark urine, or persistent nausea beyond typical hangover levels</strong> — seek medical attention. These would warrant evaluation regardless of whether you took NAC, because they can indicate alcohol-related complications on their own.</p>
+
+      <p>Going forward, the evidence-informed approach is straightforward: use NAC <em>before</em> drinking or not at all. Don't beat yourself up over past timing — just adjust the protocol next time. For the full breakdown of why timing matters, see the <a href="/guides/nac-and-alcohol">critical timing section</a> above.</p>
+
+      <h2>Buying NAC: What to Look for (Form, Dose, Third-Party Testing)</h2>
+
+      <p>Buying NAC sounds simple until you realize the market is a mess. Regulatory ambiguity, inconsistent dosing, and a confusing form landscape mean you can easily end up with an underdosed or poorly manufactured product. Here's what actually matters when choosing one.</p>
+
+      <h3>NAC vs. NAC Amide</h3>
+
+      <p>Standard NAC (N-acetylcysteine) has decades of clinical data behind it. <strong>NAC amide</strong> (NACA) is a newer derivative with higher lipophilicity, meaning it crosses cell membranes more readily in preclinical models (Sunitha et al., 2013). In theory, this improves bioavailability. In practice, human data comparing the two for alcohol-related glutathione support is essentially nonexistent. Unless you have a specific reason to seek out NAC amide, standard NAC at 600–1200 mg is the evidence-backed choice. <EvidenceBadge level="emerging" /></p>
+
+      <h3>The FDA Regulatory Situation</h3>
+
+      <p>In 2020–2021, the FDA sent warning letters to NAC supplement companies, arguing NAC was first approved as a drug (Mucomyst, 1963) and therefore couldn't legally be sold as a dietary supplement. Amazon temporarily pulled NAC products. The FDA later softened its stance in 2022, issuing a proposed rule that would allow NAC in supplements, but as of now, the situation remains in regulatory limbo. NAC is widely available again, but this history means quality varies — fly-by-night brands flooded back in once sales resumed.</p>
+
+      <Callout variant="warning" title="Avoid Unverified Products">
+      The regulatory gray zone attracted low-quality manufacturers. Products without third-party verification are higher risk for underdosing or contamination. Don't buy NAC from brands that can't show independent testing.
+      </Callout>
+
+      <h3>Third-Party Certifications That Matter</h3>
+
+      <p><strong>USP (United States Pharmacopeia)</strong> verifies identity, potency, purity, and dissolution. It's the gold standard. <strong>NSF International</strong> and <strong>NSF Certified for Sport / Informed Sport</strong> also confirm what's on the label matches what's in the capsule, with additional contamination screening. If a product carries none of these, you're trusting the brand's internal QC alone — which, in the supplement industry, is a gamble.</p>
+
+      <p>Look for capsules or tablets standardized at 600 mg per unit — this matches the dose used in the vast majority of clinical research. Avoid proprietary blends that bury NAC inside an undisclosed formula. You need to know exactly how many milligrams you're getting, especially given the <a href="/guides/nac-and-alcohol">timing-sensitive nature of NAC and alcohol</a> use described above.</p>
+
+      <p>Ready to find a product that meets these criteria? <a href="/guides/nac">Browse verified NAC options in the catalog</a>.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>

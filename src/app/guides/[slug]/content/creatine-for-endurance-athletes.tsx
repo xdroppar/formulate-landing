@@ -192,6 +192,96 @@ export function CreatineForEnduranceAthletes() {
         Yes. Creatine works identically in female athletes. Women may actually see relatively greater benefits because they tend to have lower baseline creatine stores (due to lower average dietary meat intake and smaller muscle mass). The dose is the same: 3&ndash;5 g/day. Emerging research also suggests potential benefits for bone health and mood, though these are still being investigated. <EvidenceBadge level="emerging" />
       </p>
 
+      <h2>Creatine for Endurance Athletes: What the Evidence Actually Shows About VO₂max and Lactate Threshold</h2>
+
+      <p>
+      Creatine for endurance athletes generates the most skepticism around two specific markers: VO₂max and lactate threshold. If creatine doesn't move these numbers directly, why bother? It's a fair question—and the honest answer is that creatine <em>doesn't</em> directly improve either one. But the indirect pathway is where things get interesting.
+      </p>
+
+      <h3>Why Creatine Doesn't Budge VO₂max</h3>
+
+      <p>
+      VO₂max is fundamentally an oxygen-delivery metric. It's governed by cardiac output, hemoglobin mass, capillary density, and mitochondrial oxidative capacity. Creatine operates in a completely different lane—it recycles ATP via the phosphocreatine shuttle, a system that peaks in the first 10–15 seconds of maximal effort. Graef et al. (2009) tested creatine supplementation against placebo over four weeks of aerobic training and found <strong>no significant difference in VO₂max</strong> between groups. <EvidenceBadge level="moderate" /> This isn't surprising. Creatine doesn't increase mitochondrial density, stimulate erythropoietin, or expand blood volume.
+      </p>
+
+      <h3>Why Lactate Threshold Doesn't Shift Either</h3>
+
+      <p>
+      Lactate threshold depends on your muscles' ability to clear and buffer lactate—driven by monocarboxylate transporter (MCT) density, intracellular buffering capacity, and oxidative enzyme activity. Creatine doesn't meaningfully interact with any of these mechanisms. Nelson et al. (2000) found that creatine supplementation had no effect on ventilatory threshold or blood lactate accumulation during incremental cycling. <EvidenceBadge level="moderate" /> If you want a supplement that directly targets buffering, that's <a href="/guides/beta-alanine">beta-alanine's</a> territory, not creatine's.
+      </p>
+
+      <h3>The Indirect Pathway: Better Intervals → Better Aerobic Adaptations</h3>
+
+      <p>
+      Here's the pivot most coaches miss. Creatine doesn't improve your aerobic ceiling directly, but it lets you <strong>train closer to it more often</strong>. If your VO₂max intervals call for six repeats at 95% max heart rate, and creatine lets you sustain target power through all six instead of fading on repeats five and six, you accumulate a greater total training stimulus at the intensity that actually drives aerobic adaptation.
+      </p>
+
+      <p>
+      Rico-Sanz and Mendez Marco (2000) showed creatine-supplemented subjects maintained higher power output across repeated high-intensity cycling bouts. Over a full mesocycle of interval-focused training, that compounding effect on session quality is how creatine indirectly supports VO₂max and threshold improvements—not by altering the physiology of oxygen transport, but by enabling the training that does. <EvidenceBadge level="emerging" />
+      </p>
+
+      <Callout variant="info" title="The takeaway for skeptics">
+      Creatine won't shift your lab-tested VO₂max or lactate threshold numbers on its own. But higher-quality interval sessions—sustained across weeks of training—will. Creatine supports the work that drives the adaptation, not the adaptation itself.
+      </Callout>
+
+      <h2>GI Tolerance: How to Avoid Stomach Issues With Creatine During Training</h2>
+
+      <p>Stomach issues with creatine are the number-one reason endurance athletes quit the supplement before it ever has a chance to work. The good news: GI distress is almost entirely dose- and timing-dependent, not an inherent property of creatine itself. A few adjustments to how you take it can eliminate the problem for most people.</p>
+
+      <h3>Why Loading Doses Wreck Your Gut</h3>
+
+      <p>Most GI complaints—nausea, cramping, diarrhea—cluster during loading phases (20 g/day). Ostojic and Ahmetovic (2008) reported significantly higher GI side effects at loading doses compared to maintenance doses of 3–5 g. The mechanism is straightforward: dump a large bolus of osmotically active powder into your stomach and your gut pulls in water to dilute it. During training, when blood is already diverted away from your digestive tract, the result is predictable misery.</p>
+
+      <p>The simplest fix is to skip the loading phase entirely. As covered in the protocol section above, 3–5 g daily reaches full saturation in 3–4 weeks. If you insist on loading, split the 20 g into four 5 g doses spread across the day with meals. Never take a full loading dose on an empty stomach before a workout.</p>
+
+      <h3>Training-Specific Timing</h3>
+
+      <p>If you train early morning with minimal food, take your creatine with your <em>post</em>-workout meal instead—not pre-workout on a nearly empty stomach. For mid-long-run fueling, do not mix creatine into gels or on-the-run hydration. Your gut is already under stress during sustained efforts; adding creatine mid-run is asking for trouble. Keep supplementation separate from training sessions entirely.</p>
+
+      <h3>Micronized vs. Standard Monohydrate</h3>
+
+      <p>Micronized creatine monohydrate has smaller particle sizes, which improves solubility in water. It's chemically identical to standard monohydrate—same molecule, same efficacy—but the finer grind means less undissolved powder sitting in your stomach. <EvidenceBadge level="emerging" /> Anecdotally and in practitioner reports, micronized forms produce fewer GI complaints, particularly in athletes with sensitive stomachs. If standard monohydrate gives you grief despite proper dosing and timing, switching to a micronized version is a low-cost experiment worth running. Check our <a href="/guides/best-creatine-supplements">best creatine supplements</a> guide for micronized options.</p>
+
+      <Callout variant="warning" title="Red Flag">
+      If GI symptoms persist at 3–5 g/day taken with food and well-dissolved in liquid, the issue may not be the creatine. Persistent nausea or diarrhea warrants a conversation with your healthcare provider to rule out other causes.
+      </Callout>
+
+      <h2>Creatine for Vegan and Vegetarian Endurance Athletes</h2>
+
+      <p><strong>Creatine for vegan runners and plant-based endurance athletes</strong> may be the single highest-value supplement decision you can make. Here's why: your body synthesizes some creatine endogenously, but the rest comes from dietary meat and fish. If you eat neither, your baseline intramuscular creatine stores are substantially lower than those of omnivores—and that gap translates directly into a larger response when you supplement.</p>
+
+      <p>Burke et al. (2003) found that vegetarians had roughly 50% lower resting muscle creatine concentrations compared to meat-eaters. <EvidenceBadge level="moderate" /> When these vegetarians supplemented with creatine monohydrate, they experienced greater increases in total creatine stores, lean tissue, and work capacity than their omnivore counterparts. In practical terms, the athletes starting furthest behind got the biggest boost.</p>
+
+      <p>For plant-based endurance athletes already managing <a href="/guides/creatine-for-endurance-athletes">repeated-sprint capacity, glycogen replenishment, and recovery</a>, this means creatine supplementation closes a genuine nutritional gap rather than simply topping off already-adequate stores. The performance ceiling is higher because the floor is lower.</p>
+
+      <Callout variant="info" title="Creatine Monohydrate Is Vegan">
+      Creatine monohydrate is produced by chemical synthesis from sarcosine and cyanamide—no animal-derived ingredients are involved. You don't need a specialty "vegan creatine" product. Standard creatine monohydrate from any reputable manufacturer is plant-compatible. Check for third-party testing certifications if cross-contamination is a concern, and see our <a href="/guides/best-creatine-supplements">best creatine supplements</a> guide for vetted options.
+      </Callout>
+
+      <p>The protocol doesn't change: 3–5 g daily, with food, consistently. But if you're a vegan or vegetarian endurance athlete who hasn't tried creatine for vegan runners yet, the expected magnitude of benefit is meaningfully greater than what your omnivore training partners will experience. Few supplements offer that combination of strong safety data, low cost, and outsized returns for a specific population.</p>
+
+      <h2>Phase-Specific Protocol: When to Start, Pause, or Adjust During Your Season</h2>
+
+      <p>A phase-specific creatine protocol makes more sense than "just take it every day" when you think in training cycles. The daily dose doesn't change—3–5 g of creatine monohydrate regardless of phase—but <em>when</em> you start, whether you continue through taper, and whether off-season breaks are worth it all deserve clear answers.</p>
+
+      <h3>Build Phase: Start Here</h3>
+
+      <p>Begin creatine at the start of your build phase, ideally 3–4 weeks before your highest-intensity mesocycle kicks in. That's the saturation window if you skip loading. For a fall marathon, that might mean starting in mid-July when your interval work ramps up. For a spring triathlon, begin in January when structured intensity returns. The goal is full intramuscular saturation by the time your hardest sessions arrive—when creatine's benefits for <a href="/guides/creatine-for-endurance-athletes">repeated-sprint capacity and glycogen replenishment</a> matter most.</p>
+
+      <h3>Peak and Taper: Keep Going</h3>
+
+      <p>Don't stop during taper. Creatine stores take 4–6 weeks to fully deplete after cessation (Hultman et al., 1996), so a 10–14 day taper won't meaningfully reduce levels. But there's also no reason to introduce uncertainty. Continue your 3–5 g daily through taper and race day. You won't notice any weight change at this point—saturation is already established.</p>
+
+      <Callout variant="info" title="Race Day Reminder">Creatine isn't an acute performance supplement. Taking it race morning does nothing if you haven't been supplementing for weeks. The benefit is already locked in your muscles—or it isn't.</Callout>
+
+      <h3>Off-Season: Your Call</h3>
+
+      <p>Here's where a phase-specific creatine protocol gets genuinely optional. If you have a true off-season between your fall marathon and spring triathlon—say, 6–8 weeks of reduced or unstructured training—you <em>can</em> stop supplementing without consequence. You'll lose the intracellular water weight (1–2 lbs) and your stores will gradually return to baseline. Some athletes appreciate the psychological "reset." Others find it simpler to keep the daily habit year-round, which the ISSN confirms is safe long-term (Kreider et al., 2017). <EvidenceBadge level="strong" /></p>
+
+      <p>If you do pause, restart 3–4 weeks before your next build phase begins. The math is simple: count backward from your first hard training block, not your race.</p>
+
+      <Callout variant="warning" title="Don't Overthink Periodization">Unlike <a href="/guides/beta-alanine-supplements">beta-alanine</a>, which also requires a saturation period, creatine has no performance downside to continuous use. Cycling off is a personal preference, not a physiological requirement. If managing one more variable during your season sounds like a hassle, just take it daily year-round.</Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>

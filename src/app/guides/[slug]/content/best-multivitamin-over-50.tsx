@@ -230,6 +230,132 @@ export function BestMultivitaminOver50() {
         &ldquo;Food-based&rdquo; and &ldquo;whole food&rdquo; multivitamins are a marketing category, not a scientific one. Some use nutrient-enriched yeast, which may improve tolerance but doesn&rsquo;t necessarily improve absorption. What matters more is the specific <em>form</em> of each nutrient (methylcobalamin vs. cyanocobalamin, D3 vs. D2) and whether doses are clinically meaningful.
       </p>
 
+      <h2>Budget-Friendly Options: What to Do If You Can't Afford Premium Brands</h2>
+
+      <p>The <strong>best multivitamin over 50</strong> doesn't have to cost $40–55/month. Centrum Silver, Kirkland Mature Multi (Costco), and Nature Made Multi for Him/Her 50+ all cost between $4–$10/month and get several things right: they're iron-free (most formulations), they include B12 at reasonable doses, and they provide a broad micronutrient base. But each has predictable gaps when measured against the criteria in this guide.</p>
+
+      <h3>Where Budget Multis Fall Short</h3>
+
+      <p><strong>Centrum Silver Adults 50+</strong> provides only 1,000 IU of D3, uses <em>cyanocobalamin</em> rather than methylcobalamin for B12, and contains no K2. Magnesium is a token 50 mg of magnesium oxide — roughly 2 mg of actual absorbed magnesium. It does include 25 mcg of B12, which is adequate in form-agnostic terms but suboptimal given the absorption challenges discussed above. <EvidenceBadge level="moderate" /></p>
+
+      <p><strong>Kirkland Mature Multi</strong> is nearly identical in profile: cyanocobalamin, 1,000 IU D3, no K2, minimal magnesium oxide. Its main advantage is price — often under $5/month at Costco.</p>
+
+      <p><strong>Nature Made Multi for Him/Her 50+</strong> bumps D3 to 1,000 IU and includes 50 mcg of B12 as cyanocobalamin. Still no K2, still negligible magnesium. USP-verified, which is a genuine quality differentiator at this price point.</p>
+
+      <h3>Close the Gaps for Under $15/Month Total</h3>
+
+      <p>All three budget multis share the same two critical deficiencies: <strong>insufficient D3</strong> and <strong>no vitamin K2</strong>. You can fix both with one or two inexpensive add-ons.</p>
+
+      <p>A standalone <strong>D3 + K2 combo supplement</strong> — such as NOW Foods D3 2,000 IU + K2 100 mcg MK-7 — runs roughly $8–$10 for a 4-month supply. That's about $2.50/month and closes both gaps simultaneously. Pair this with any of the three budget multis and you're spending $7–$13/month total with dramatically better coverage. If your bloodwork shows 25-hydroxyvitamin D below 40 ng/mL, choose a D3/K2 combo offering 4,000–5,000 IU instead. For a full breakdown, see our <a href="/guides/best-vitamin-d-supplements">best vitamin D supplements</a> guide.</p>
+
+      <Callout variant="info" title="The Budget Stack">
+      Budget multi ($4–$10/mo) + D3/K2 combo ($2–$3/mo) = under $13/month. You'll still want to add <a href="/guides/best-magnesium-supplements">magnesium</a> (glycinate or citrate, 200–400 mg) separately — that's another $5–$8/month. Total: roughly $15/month for coverage that rivals premium options costing 3× more.
+      </Callout>
+
+      <p>The cyanocobalamin B12 in these budget formulas isn't ideal, but it's not useless. Healthy adults without MTHFR polymorphisms or severe atrophic gastritis generally convert it adequately (Paul & Brady, 2017). If you have documented B12 deficiency or absorption issues, a standalone <a href="/guides/vitamin-b12">methylcobalamin supplement</a> (1,000 mcg, ~$5/month) is a worthwhile third add-on. For everyone else, the cyanocobalamin in your budget multi is acceptable — imperfect, but functional.</p>
+
+      <Callout variant="warning" title="Don't Overspend to Compensate">
+      Resist the urge to buy five separate supplements to "fix" a cheap multi. Two targeted add-ons (D3/K2 and magnesium) close 80% of the gaps. Annual bloodwork tells you whether you need anything else.
+      </Callout>
+
+      <h2>Drug Interactions to Know: Metformin, Statins, Blood Pressure Medications</h2>
+
+      <p>Drug interactions with multivitamins are the most under-discussed risk for adults over 50 — precisely the demographic most likely to be taking multiple prescriptions. Nearly 40% of adults aged 65+ take five or more medications (Kantor et al., 2015). If you're choosing a multivitamin, you need to know how it intersects with what's already in your medicine cabinet.</p>
+
+      <h3>Metformin and B12 Depletion</h3>
+
+      <p>Metformin — the most prescribed diabetes drug in the world — depletes vitamin B12. A landmark trial by de Jager et al. (2010) found that metformin use over 4.3 years reduced B12 levels by 19% and increased the risk of B12 deficiency by 7.2 percentage points versus placebo. <EvidenceBadge level="strong" /> This directly compounds the age-related B12 absorption decline we covered above. If you take metformin, a multivitamin with 500–1,000 mcg of methylcobalamin isn't optional — it's essential. Ask your doctor to monitor serum B12 or methylmalonic acid annually.</p>
+
+      <h3>Statins and CoQ10</h3>
+
+      <p>Statins (atorvastatin, rosuvastatin, simvastatin) inhibit the same enzyme pathway your body uses to produce coenzyme Q10. Observational data suggests statin users show 20–40% reductions in plasma CoQ10 levels (Littarru & Langsjoen, 2007). <EvidenceBadge level="moderate" /> This may contribute to the muscle fatigue and weakness some users report. Most multivitamins don't include CoQ10 — you'll typically need a standalone 100–200 mg supplement. Take it with a fat-containing meal.</p>
+
+      <h3>ACE Inhibitors, ARBs, and Potassium</h3>
+
+      <p>Blood pressure medications like lisinopril (ACE inhibitor) and losartan (ARB) raise potassium levels by reducing its excretion. Adding a multivitamin or supplement containing potassium can push levels into a dangerous range, risking cardiac arrhythmias. Check your multi's label — most contain minimal potassium, but verify. If you're on these drugs, routine electrolyte panels are non-negotiable.</p>
+
+      <h3>Thyroid Medications and Mineral Timing</h3>
+
+      <p>Levothyroxine — taken by roughly 10% of women over 50 — is notoriously sensitive to interference. Calcium, magnesium, iron, and zinc all impair its absorption (Singh et al., 2000). <EvidenceBadge level="strong" /> Take your thyroid medication on an empty stomach at least 60 minutes before any multivitamin. This isn't a suggestion — it's the difference between your medication working and not working.</p>
+
+      <h3>Blood Thinners and Vitamin K</h3>
+
+      <p>If you're on warfarin, vitamin K — present in virtually every multivitamin — directly affects your INR and clotting time. The key isn't avoidance; it's <strong>consistency</strong>. Switching multivitamins or taking them erratically creates dangerous fluctuations. Newer anticoagulants like apixaban and rivarelbaan are less affected by vitamin K, but consult your prescribing physician before adding any supplement containing K1 or K2. For more on K2's role in bone health, see our discussion of <a href="/guides/best-multivitamin-over-50">calcium and K2 above</a>.</p>
+
+      <Callout variant="warning" title="Timing matters as much as the supplement itself">As a general rule: take your multivitamin at least 2 hours apart from prescription medications unless your pharmacist confirms no interaction. Bring your full supplement list — with doses — to every provider visit and annual medication review.</Callout>
+
+      <h2>Timing and Stacking: A Daily Schedule That Actually Works</h2>
+
+      <p>Supplement timing and stacking matters more than most people realize — especially after 50, when you're juggling multiple nutrients that can compete for absorption or interfere with medications. The good news: a simple two-window schedule handles almost every common interaction.</p>
+
+      <h3>Morning With Breakfast (Your Fattiest Meal)</h3>
+
+      <p>Take your <strong>multivitamin</strong>, <strong>vitamin D3</strong>, <strong>K2 (MK-7)</strong>, and <strong>omega-3s</strong> together with a meal containing fat. D3, K2, and omega-3s are all fat-soluble — Dawson-Hughes et al. (2015) found that taking vitamin D with the largest meal of the day increased serum levels by roughly 50% compared to taking it on an empty stomach. If breakfast is your fattiest meal, this is your window. If dinner is, shift these there instead.</p>
+
+      <p>If you take <strong>calcium</strong>, morning is fine — but keep it at <strong>500 mg or less per dose</strong>, and take it at least 2 hours apart from any standalone <strong>iron</strong> supplement. Calcium and iron compete for the same divalent metal transporter (DMT-1), and co-administration can reduce iron absorption by 50–60% (Hallberg et al., 1991). <EvidenceBadge level="strong" /></p>
+
+      <Callout variant="warning" title="Thyroid Medication Alert">If you take levothyroxine, take it 30–60 minutes before breakfast on an empty stomach. Calcium, magnesium, and iron all impair its absorption. Your multivitamin should wait until you eat.</Callout>
+
+      <h3>Evening (2–3 Hours Before Bed)</h3>
+
+      <p>Take <strong>magnesium</strong> — glycinate or citrate, 200–400 mg — in the evening. This avoids competition with calcium for absorption and doubles as sleep support. Magnesium glycinate in particular has calming properties without the laxative effect of citrate. If you need a second 500 mg calcium dose, take it at lunch or early afternoon, well separated from your evening magnesium. For details on choosing forms, see our guide on the <a href="/guides/best-magnesium-supplements">best magnesium supplements</a>.</p>
+
+      <Callout variant="info" title="What Not to Combine in One Dose"><strong>Calcium + iron</strong> — iron absorption drops significantly. <strong>Calcium + magnesium</strong> at high doses — they share absorption pathways. <strong>Zinc + copper</strong> — your multi should already balance these (15 mg zinc to 1–2 mg copper), but don't add standalone zinc without copper. <strong>Fish oil + blood thinners</strong> — <a href="/guides/best-omega-3-supplements">omega-3s</a> have mild antiplatelet effects; consult your provider if you're on warfarin or aspirin therapy.</Callout>
+
+      <h2>How to Read a Supplement Facts Panel: A 60-Second Checklist</h2>
+
+      <p>Knowing how to <strong>read a supplement facts panel</strong> turns you from a passive buyer into an informed one. You don't need a biochemistry degree — just 60 seconds and six checkpoints. This works for any multivitamin you pick up, not only the three reviewed above.</p>
+
+      <h3>1. B12 Form</h3>
+      <p>Look for <strong>methylcobalamin</strong> or adenosylcobalamin — the bioactive forms your body can use directly. If you see <em>cyanocobalamin</em>, that's the cheap synthetic form requiring hepatic conversion. Not a dealbreaker in younger adults, but after 50 with declining gastric acid, you want every efficiency advantage. Downgrade any product using cyanocobalamin as its sole B12 source.</p>
+
+      <h3>2. D3 vs. D2</h3>
+      <p>The panel should say <strong>cholecalciferol (D3)</strong>, not ergocalciferol (D2). Tripkovic et al. (2012) confirmed D3 raises and sustains serum 25(OH)D levels more effectively. If it just says "Vitamin D" without specifying the form, assume D2 until proven otherwise.</p>
+
+      <h3>3. Iron: Present or Absent?</h3>
+      <p>Scan for iron anywhere on the panel. If it's listed and you're a man or postmenopausal woman without documented deficiency, flag it. Move on to an iron-free formula unless your doctor says otherwise.</p>
+
+      <h3>4. Vitamin K Type</h3>
+      <p>K1 (phylloquinone) supports clotting but does little for calcium metabolism. You want <strong>K2 as MK-7</strong> (menaquinone-7) at 100–200 mcg for arterial and bone benefits. If the label just says "Vitamin K" with no subtype, it's almost certainly K1 only.</p>
+
+      <h3>5. Magnesium Form and Dose</h3>
+      <p>Token doses of 25–50 mg are window dressing. Check the <em>form</em>: magnesium oxide has roughly 4% bioavailability (Firoz & Graber, 2001). <strong>Glycinate, citrate, or malate</strong> are meaningfully better. You'll still likely need a standalone supplement, but a multi with 100+ mg of a quality form signals a serious formulator.</p>
+
+      <h3>6. Proprietary Blends</h3>
+      <p>If you see a "proprietary blend" listing total milligrams for a group of ingredients without individual doses, put the bottle down. You cannot evaluate what you cannot measure. Every ingredient should have its own line with a specific amount.</p>
+
+      <Callout variant="info" title="Quick-scan rule">
+      If a supplement facts panel fails on three or more of these six checkpoints, it's not designed for adults over 50 — regardless of what the front label says. Use this checklist at the shelf, on Amazon, or when evaluating any product from our <a href="/guides/best-magnesium-supplements">magnesium</a> or <a href="/guides/best-vitamin-d-supplements">vitamin D</a> guides.
+      </Callout>
+
+      <h2>The Calcium Debate: What We Actually Know (And Don't)</h2>
+
+      <p>Calcium supplementation after 50 remains one of the most genuinely unresolved questions in nutrition science. The existing evidence doesn't lend itself to clean answers — and you should be skeptical of anyone who claims otherwise.</p>
+
+      <h3>The Bolland Controversy</h3>
+
+      <p>In 2010, Bolland et al. published a meta-analysis of 15 trials involving over 12,000 participants, finding that calcium supplements (without vitamin D) were associated with a roughly 30% increased risk of myocardial infarction. A follow-up re-analysis of the Women's Health Initiative data (Bolland et al., 2011) extended similar concerns to calcium <em>with</em> vitamin D. These findings haven't been fully refuted — but they haven't been universally replicated either. <EvidenceBadge level="moderate" /> The cardiovascular signal is real enough to take seriously, but not so definitive that supplementation is clearly harmful.</p>
+
+      <h3>What the USPSTF Actually Says</h3>
+
+      <p>The U.S. Preventive Services Task Force (2018) recommends <strong>against</strong> daily supplementation with ≤400 IU vitamin D and ≤1,000 mg calcium for fracture prevention in healthy, community-dwelling postmenopausal women. For higher doses, they concluded the evidence is insufficient to assess the balance of benefits and harms. That's not an endorsement of calcium supplements — it's an acknowledgment that we don't have clear answers. <EvidenceBadge level="moderate" /></p>
+
+      <h3>The K2 Question — Promising but Not Proven</h3>
+
+      <p>Vitamin K2 (MK-7) is often presented as the solution to calcium's arterial risk. Knapen et al. (2015) did show that 180 mcg/day of MK-7 improved arterial stiffness markers in postmenopausal women — but that study didn't test whether K2 specifically prevents the cardiovascular harms associated with calcium supplementation. No randomized trial has directly demonstrated that adding K2 to calcium neutralizes the risks Bolland identified. K2 is a <em>reasonable precaution</em>, not a proven fix. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="warning" title="Don't assume K2 makes calcium supplements safe">
+      The claim that K2 "redirects calcium from arteries to bones" is mechanistically plausible but clinically unproven as a strategy to offset supplemental calcium's cardiovascular signal. Treat it as an open question, not a settled one.
+      </Callout>
+
+      <h3>What You Should Actually Do</h3>
+
+      <p>Prioritize <strong>dietary calcium</strong> first — dairy, sardines, fortified foods, leafy greens. Most adults can reach 800–1,000 mg/day through food with modest effort. Supplement only for <em>documented shortfalls</em>, ideally confirmed by a dietary intake assessment or discussion with your provider. If you do supplement, keep doses at 500 mg or less per sitting, use calcium citrate (which doesn't depend on stomach acid), and yes — adding K2 and <a href="/guides/best-vitamin-d-supplements">vitamin D3</a> is reasonable. Just don't mistake "reasonable" for "evidence-based certainty."</p>
+
+      <Callout variant="info" title="Who should consult a doctor first">
+      If you're on blood thinners, have a history of cardiovascular disease, or take bisphosphonates for osteoporosis, discuss any calcium supplementation changes with your healthcare provider before adjusting your regimen.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>
