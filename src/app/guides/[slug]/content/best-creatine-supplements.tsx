@@ -21,13 +21,11 @@ export function BestCreatine() {
       />
 
       <p>
-        You&rsquo;re standing in the supplement aisle staring at fifteen different
-        creatine products. One says &ldquo;HCl for 70x better absorption.&rdquo;
-        Another promises &ldquo;micronized for rapid uptake.&rdquo; A third costs
-        $45 for something called &ldquo;buffered creatine alkalyn.&rdquo; Here&rsquo;s
-        the thing: the most-studied sports supplement in human history costs about
-        three cents per serving, and every fancy variation is just marketing wrapped
-        around the same molecule.
+        The best creatine supplement is plain creatine monohydrate &mdash; the
+        most-studied sports supplement in human history, effective at roughly
+        three cents per serving. Fancy variations like HCl, buffered alkalyn,
+        and &ldquo;rapid uptake&rdquo; micronized formulas offer no clinical
+        advantage; every one is marketing wrapped around the same molecule.
       </p>
 
       <h2>The Only Form That Matters: Creatine Monohydrate</h2>

@@ -22,21 +22,13 @@ export function LionsManeGuide() {
       />
 
       <p>
-        You&rsquo;re sitting at your desk at 2pm, staring at the same
-        paragraph you&rsquo;ve read three times. You had coffee an hour ago.
-        You slept fine. But your brain feels like it&rsquo;s running through
-        fog &mdash; ideas that should connect aren&rsquo;t connecting, and
-        the word you want is perpetually on the tip of your tongue.
-      </p>
-      <p>
-        If you&rsquo;ve gone looking for something to sharpen the edges,
-        you&rsquo;ve probably encountered lion&rsquo;s mane mushroom &mdash;
-        the shaggy, white fungus that looks like a pompom and has become the
-        darling of the <a href="/guides/nootropics-guide">nootropics</a> world. Unlike most nootropics, lion&rsquo;s
-        mane has a genuinely interesting mechanism behind it: it appears to
-        stimulate <strong>nerve growth factor (NGF)</strong>, a protein your
-        brain uses to grow and maintain neurons. That&rsquo;s not a marketing
-        claim &mdash; that&rsquo;s peer-reviewed neuroscience.
+        Lion&rsquo;s mane mushroom supports cognitive function by stimulating{" "}
+        <strong>nerve growth factor (NGF)</strong>, a protein the brain uses
+        to grow and maintain neurons. This mechanism is backed by
+        peer-reviewed neuroscience, not marketing claims &mdash; making
+        lion&rsquo;s mane one of the few{" "}
+        <a href="/guides/nootropics-guide">nootropics</a> with a genuinely
+        interesting biological basis worth examining closely.
       </p>
 
       <h2>Why NGF Matters (and Why It&rsquo;s Unusual)</h2>
@@ -315,6 +307,35 @@ export function LionsManeGuide() {
         People on anticoagulant or antiplatelet medications should consult
         their doctor before supplementing, as lion&rsquo;s mane may have
         mild antiplatelet activity based on in vitro data.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Lion's mane is generally well-tolerated in the limited human trials conducted so far. But "limited" is the key word — the primary RCT involved just 30 participants, all older adults with mild cognitive impairment. If you fall outside that narrow profile, or take medications that could interact, get clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you take blood thinners or antiplatelet drugs">
+        Lion's mane may have antiplatelet activity. If you're on warfarin, aspirin, clopidogrel, or regular NSAIDs, talk to your prescriber before supplementing — this is a real interaction concern, not a theoretical one.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        No safety data exists for lion's mane during pregnancy or lactation. Until evidence says otherwise, consult your OB-GYN or midwife before use.
+      </Callout>
+
+      <Callout variant="warning" title="If you take antidepressants (SSRIs, SNRIs, or similar)">
+        The mood-related findings from the Nagano 2010 study are preliminary and should not substitute for clinical treatment. Talk to your prescriber before combining lion's mane with psychiatric medications.
+      </Callout>
+
+      <Callout variant="warning" title="If you have a history of allergies — especially to fungi">
+        Rare but serious allergic reactions, including respiratory symptoms and eosinophilia, have been documented in case reports. A known mushroom or mold allergy is a clear reason to avoid lion's mane entirely or proceed only under medical supervision.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a healthy adult under 50 without cognitive impairment">
+        The existing human evidence comes from older adults with diagnosed mild cognitive impairment. Whether lion's mane benefits younger, cognitively healthy adults is an open question — not a settled one. Manage your expectations accordingly.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

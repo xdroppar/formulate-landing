@@ -23,12 +23,12 @@ export function IronGuide() {
       />
 
       <p>
-        Your doctor casually mentions your ferritin is &ldquo;a little
-        low&rdquo; at your annual physical. You grab an iron supplement from
-        the pharmacy, take it for a few days, feel vaguely nauseous, and
-        quietly stop. Sound familiar? You&rsquo;re not alone &mdash; iron is
-        one of the most commonly supplemented minerals and one of the most
-        commonly <em>misunderstood</em>.
+        Iron supplements should never be taken without bloodwork confirming a
+        deficiency &mdash; your body has no regulated mechanism to excrete
+        excess iron, so what comes in stays in unless you bleed. Unchecked
+        iron overload damages the liver, heart, and pancreas, and hereditary
+        hemochromatosis affects roughly 1 in 200 people of Northern European
+        descent.
       </p>
 
       <Callout variant="warning" title="The cardinal rule">
@@ -483,6 +483,39 @@ export function IronGuide() {
           PRODUCTS["megafood-blood-builder"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Iron supplementation is well-studied and straightforward for otherwise healthy adults with confirmed deficiency. But several populations face absorption challenges, interaction risks, or diagnostic complexity that make clinical guidance essential before starting — or continuing — a protocol.
+      </p>
+
+      <Callout variant="warning" title="If you have inflammatory bowel disease (Crohn's or ulcerative colitis)">
+        Standard oral iron may worsen intestinal inflammation and is often poorly tolerated in IBD. IV iron is frequently required instead. Talk to your gastroenterologist before supplementing orally.
+      </Callout>
+
+      <Callout variant="warning" title="If you take PPIs or H2 blockers long-term">
+        The guide notes that PPIs reduce the stomach acid needed to solubilize iron salts. If you're on chronic acid suppression, discuss whether a chelated form, adjusted dosing, or more frequent ferritin monitoring is appropriate with your provider.
+      </Callout>
+
+      <Callout variant="warning" title="If you're a postmenopausal woman with unexplained fatigue">
+        The guide groups postmenopausal women with men at 8mg RDA, but iron deficiency can still develop from GI bleeding, malabsorption, or prior depletion. Don't assume you're in the "no supplementation needed" camp without current ferritin testing.
+      </Callout>
+
+      <Callout variant="warning" title="If you're 65 or older">
+        Aging reduces stomach acid, increases GI bleeding risk (especially with NSAID or aspirin use), and complicates ferritin interpretation — elevated ferritin may reflect inflammation rather than adequate stores. Talk to your provider before self-supplementing.
+      </Callout>
+
+      <Callout variant="warning" title="If you have celiac disease or suspected gluten intolerance">
+        Duodenal villous atrophy impairs iron absorption at the primary uptake site. If you've supplemented consistently without ferritin improvement, discuss celiac screening with your doctor — it's a leading cause of iron deficiency that doesn't respond to oral supplementation.
+      </Callout>
+
+      <Callout variant="warning" title="If you're an endurance athlete adjusting your own protocol">
+        The guide identifies athletes as high-risk but your ferritin targets and timing considerations may differ from the general population. Consult a sports medicine provider to set appropriate targets and coordinate supplementation timing with training loads.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

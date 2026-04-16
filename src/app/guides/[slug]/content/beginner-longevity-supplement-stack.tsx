@@ -23,25 +23,18 @@ export function BeginnerLongevityStack() {
       />
 
       <p>
-        Somewhere in the last five years, &ldquo;longevity&rdquo; went from
-        a niche research topic to a full-blown industry. Peter Attia has a
-        bestselling book. Bryan Johnson is spending $2 million a year trying
-        not to age. Your coworker is putting NMN in his morning smoothie.
-        And the supplement market has noticed &mdash; suddenly every product
-        is &ldquo;anti-aging.&rdquo;
+        A beginner longevity supplement stack supported by human evidence
+        starts with three tiers: foundational supplements backed by robust
+        clinical data (Tier 1), promising compounds with emerging human
+        trials (Tier 2), and speculative additions still relying mostly on
+        animal research (Tier 3). Most &ldquo;longevity supplements&rdquo;
+        run far ahead of the human evidence &mdash; many are expensive bets
+        on mouse data. Start with Tier 1, get bloodwork, and add tiers only
+        after months of consistency.
       </p>
       <p>
         Here&rsquo;s the uncomfortable reality: most &ldquo;longevity
-        supplements&rdquo; are running far ahead of the human evidence. Some
-        are worth taking. Many are expensive bets on animal data. And a few
-        are basically astrology for biohackers.
-      </p>
-      <p>
-        This guide tiers longevity supplements by the strength of their
-        evidence in <em>humans</em> &mdash; not mice, not cell cultures,
-        not David Sinclair&rsquo;s podcast. We&rsquo;ll tell you what&rsquo;s
-        worth your money now, what&rsquo;s worth watching, and what&rsquo;s
-        probably not worth the premium.
+        supplements&rdquo; are running far ahead of the human evidence.
       </p>
 
       <Callout variant="tip" title="How to use this guide">
@@ -450,6 +443,35 @@ export function BeginnerLongevityStack() {
         Supplements are the optimization layer. Exercise, sleep, nutrition,
         and stress management are the foundation. Build the foundation
         first.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The supplements in this guide are well-studied in generally healthy adults, but several carry meaningful interactions or unknowns for specific populations. If any of the following apply to you, get clinical input before starting — or changing — this stack.
+      </p>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Curcumin with piperine inhibits CYP3A4 and P-glycoprotein, which can alter blood levels of statins, immunosuppressants, antidepressants, and dozens of other drugs. Omega-3s have antiplatelet effects relevant to blood thinners. CoQ10 may lower blood pressure. Bring your full medication list and this stack to your prescriber before combining anything.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 65 or managing multiple conditions">
+        Age-related changes in kidney function affect how your body handles magnesium and creatine. Polypharmacy raises the interaction risks noted above. Vitamin D dosing and fall-risk context may differ from general-population guidance. Your provider can adjust doses to match your lab work and medication profile.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Safety data for several supplements in this stack — particularly curcumin with piperine, high-dose omega-3, and spermidine — is limited or absent in pregnancy and lactation. Do not extrapolate general-adult dosing to this period without obstetric guidance.
+      </Callout>
+
+      <Callout variant="warning" title="If you already take a daily multivitamin">
+        Many multivitamins contain vitamin D, magnesium, and sometimes K2. Adding this stack on top without auditing your multi could mean double-dosing. Compare Supplement Facts panels and discuss overlap with your provider.
+      </Callout>
+
+      <Callout variant="warning" title="If you follow a vegan or vegetarian diet">
+        Standard omega-3, D3, and K2 sourcing is animal-derived. Vegan-compatible forms exist (algal EPA/DHA, lichen-sourced D3, vegan MK-7) but aren't addressed in the stack above. Vegans may also have higher baseline needs for nutrients like B12 and zinc that interact with pathways this guide discusses — worth screening with bloodwork.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

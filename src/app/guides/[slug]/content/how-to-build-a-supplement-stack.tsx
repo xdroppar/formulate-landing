@@ -24,20 +24,12 @@ export function HowToBuildStack() {
       />
 
       <p>
-        You&rsquo;ve watched the YouTube video. The guy with 14% body fat
-        and perfect lighting just showed you his &ldquo;daily
-        stack&rdquo; &mdash; 23 supplements, conveniently available through
-        his affiliate link. Your cart total: $247/month. Your confidence
-        that any of it will work: approximately zero.
-      </p>
-      <p>
-        Here&rsquo;s a better approach. Building a supplement stack
-        isn&rsquo;t about copying someone else&rsquo;s regimen or buying
-        everything that sounds sciencey. It&rsquo;s a systematic process:
-        identify what <em>you</em> actually need, start with the
-        highest-evidence basics, layer in goal-specific compounds, and
-        avoid the traps that waste money. This guide walks through it
-        step by step.
+        Building a supplement stack is a systematic process: identify your
+        actual needs, start with the highest-evidence basics like creatine
+        and vitamin D, layer in goal-specific compounds, and cut everything
+        that wastes money. The key is prioritizing supplements with strong
+        research support over influencer-endorsed megadoses &mdash; then
+        adding only what targets your specific goals and deficiencies.
       </p>
 
       <h2>Step 1: Start With Deficiencies, Not Desires</h2>
@@ -475,6 +467,39 @@ export function HowToBuildStack() {
           PRODUCTS["thorne-creatine"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The foundation stack outlined above is well-studied in generally healthy adults. But several populations have specific risks, interactions, or absorption differences that change the calculus. If any of the following apply to you, get clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you have kidney disease or reduced kidney function">
+        Creatine monohydrate raises serum creatinine levels, which can produce false positives on kidney function panels — a direct concern if you're also following this guide's advice to get bloodwork. People with pre-existing kidney disease or single-kidney status should consult a nephrologist before using creatine.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant, breastfeeding, or trying to conceive">
+        This guide does not cover pregnancy-specific needs like folate, choline, or iodine, and some compounds in the goal-specific tiers may be contraindicated. Talk to your OB-GYN or midwife before building any stack.
+      </Callout>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Statins, SSRIs, blood thinners, thyroid medications (especially levothyroxine), and metformin all have documented supplement interactions. Bring your full supplement list — including what you're considering — to your prescriber or pharmacist before adding anything.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 60">
+        B12 absorption declines with age due to atrophic gastritis, and calcium and vitamin D needs shift meaningfully. The doses and forms in this guide target a general adult population and may not be appropriate without provider review.
+      </Callout>
+
+      <Callout variant="warning" title="If you have a diagnosed condition such as hypothyroidism, autoimmune disease, or IBD">
+        These conditions alter nutrient absorption and create timing constraints with medications. A blanket stack built for healthy adults can interfere with treatment. Work with your treating physician.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a competitive athlete subject to drug testing">
+        The guide mentions NSF Certified for Sport — that certification exists specifically because supplement contamination with banned substances is a real and career-ending risk. Tested athletes should use only certified products and verify each one.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

@@ -21,17 +21,11 @@ export function CreatineLoadingPhase() {
       />
 
       <p>
-        You bought creatine. The label says 3&ndash;5 grams a day. But
-        somewhere online you read you should be taking 20 grams a day for the
-        first week. Your gym buddy insists the loading phase is mandatory.
-        A Reddit thread says loading is &ldquo;broscience.&rdquo; Someone
-        else says you need to cycle it.
-      </p>
-      <p>
-        Here&rsquo;s the thing: creatine is the most studied sports
-        supplement in history, with over 500 peer-reviewed papers. We
-        don&rsquo;t need to guess about any of this. The answers are clear
-        &mdash; and simpler than the internet makes them seem.
+        A creatine loading phase is not necessary &mdash; taking 3&ndash;5
+        grams daily saturates muscle creatine stores within 3&ndash;4 weeks,
+        reaching the same endpoint as a 20g/day loading protocol. Loading
+        simply gets you there faster. With over 500 peer-reviewed papers on
+        creatine, the evidence on this point is unambiguous.
       </p>
 
       <h2>What the Loading Phase Actually Does</h2>
@@ -329,6 +323,35 @@ export function CreatineLoadingPhase() {
           PRODUCTS["nootropics-depot-creatine"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Creatine monohydrate has a strong safety profile in healthy adults — the ISSN position stand covers studies lasting up to five years. But "healthy adults" is doing a lot of work in that sentence, and several populations need clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you take medications that affect kidney function">
+        NSAIDs, ACE inhibitors, and other nephrotoxic drugs change the calculus on kidney safety. The ISSN data covers healthy kidneys — not kidneys already under pharmacological stress. Talk to your prescriber before adding creatine.
+      </Callout>
+
+      <Callout variant="warning" title="If you're pregnant or breastfeeding">
+        There is not enough evidence to make a safety recommendation for creatine during pregnancy or lactation. Consult your OB-GYN or midwife before supplementing.
+      </Callout>
+
+      <Callout variant="warning" title="If you're over 60 or managing age-related muscle loss">
+        Creatine's cognitive and muscle-preservation benefits may be especially relevant for older adults, but declining kidney function and polypharmacy are common in this age group. Have your provider review your current labs and medication list first.
+      </Callout>
+
+      <Callout variant="warning" title="If you have IBS, Crohn's, gastroparesis, or other GI conditions">
+        The guide notes that even 20g/day causes GI distress in otherwise healthy people. If you already have a sensitive GI tract, discuss dosing strategy with your gastroenterologist before starting — including whether a lower daily dose is more appropriate for you.
+      </Callout>
+
+      <Callout variant="warning" title="If you're a drug-tested competitive athlete">
+        Creatine is not prohibited by WADA, but contamination in untested products is a documented risk. Look for third-party certification (NSF Certified for Sport or Informed Sport) to reduce the chance of a positive test from an adulterant — not from creatine itself.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

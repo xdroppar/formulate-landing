@@ -23,13 +23,17 @@ export function BestVitaminD() {
       />
 
       <p>
-        Here&rsquo;s a number that should bother you: 42% of American adults are
-        vitamin D deficient. If you work indoors, live above the 37th parallel
-        (roughly the latitude of San Francisco or Richmond, Virginia), or have
-        darker skin, your odds are even worse. Vitamin D is one of the few
-        supplements where nearly every major health organization agrees &mdash;
-        most people should be supplementing. But grab the wrong form or skip an
-        important cofactor, and you&rsquo;re leaving a lot of benefit on the table.
+        The best vitamin D supplements use vitamin D3 (cholecalciferol), pair it
+        with vitamin K2 as a cofactor, and are backed by third-party testing
+        &mdash; because form and formulation details matter more than brand. With
+        42% of American adults deficient and nearly every major health
+        organization recommending supplementation, choosing the right product has
+        real clinical stakes.
+      </p>
+      <p>
+        If you work indoors, live above the 37th parallel (roughly the latitude
+        of San Francisco or Richmond, Virginia), or have darker skin, your odds
+        are even worse.
       </p>
 
       <h2>D3 vs. D2: This Is Not a Close Contest</h2>
@@ -355,6 +359,39 @@ export function BestVitaminD() {
         D3 without K2 means more calcium absorbed but less control over where it
         goes. Add K2 (MK-7) at doses above 2,000 IU/day.
       </Callout>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Vitamin D is one of the better-studied supplements for generally healthy adults, but several populations face meaningfully different risks or dosing needs that this guide doesn't address in depth. If any of the following apply to you, get clinical input before starting or changing your dose.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        This guide's dosing recommendations were not developed with pregnancy in mind. Vitamin D needs during pregnancy are specific and tied to outcomes like neonatal bone health and preeclampsia risk. Talk to your OB or midwife before supplementing — including any D3/K2 combination products.
+      </Callout>
+
+      <Callout variant="warning" title="If you take thiazide diuretics, corticosteroids, antiepileptics, statins, or orlistat">
+        High-dose vitamin D combined with thiazide diuretics can raise hypercalcemia risk substantially. Corticosteroids and antiepileptics alter vitamin D metabolism in ways that affect both your need and your safe ceiling. Bring your full medication list to your provider before adding any vitamin D product.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Older adults synthesize vitamin D from sunlight far less efficiently and are more likely to be on multiple medications that interact with supplementation. Dosing guidance and fall-prevention implications differ for this age group — work with your provider rather than self-dosing from general recommendations.
+      </Callout>
+
+      <Callout variant="warning" title="If you have a malabsorption condition (Crohn's, celiac, IBD, or history of bariatric surgery)">
+        Fat-soluble vitamin absorption is significantly impaired in these conditions. Standard doses discussed in this guide may be inadequate, and monitoring needs are more frequent. Talk to your gastroenterologist or prescribing provider before choosing a product or dose.
+      </Callout>
+
+      <Callout variant="warning" title="If you are currently on a prescription vitamin D2 (ergocalciferol) regimen">
+        This guide expresses a preference for D3, but weekly high-dose D2 is a clinically validated repletion protocol your provider may have chosen deliberately. Do not stop or switch a prescribed regimen based on supplement guide recommendations — discuss any change with the provider who prescribed it.
+      </Callout>
+
+      <Callout variant="warning" title="If you are considering doses above 4,000 IU/day without blood work">
+        The guide references the Endocrine Society's 10,000 IU/day figure, but the National Academy of Medicine sets the Tolerable Upper Intake Level at 4,000 IU/day for adults — the standard most clinicians use. Sustained doses above 4,000 IU without 25(OH)D monitoring increase hypercalcemia risk. Test first.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

@@ -23,12 +23,17 @@ export function BestMagnesium() {
       />
 
       <p>
-        You take magnesium for sleep, but you&rsquo;re wired at midnight. Your
-        friend takes magnesium for sleep and is out cold by 10pm. Same mineral,
-        completely different results. The difference? The <em>form</em> of
-        magnesium on that label. And this is where most magnesium guides fail you
-        &mdash; they rank products when they should be teaching you which of the
-        dozen forms actually does what you need.
+        The best magnesium supplements depend entirely on the form of magnesium
+        they use &mdash; there are over a dozen, and each has different absorption
+        rates, tissue targets, and clinical applications. Magnesium glycinate and
+        threonate outperform oxide and citrate for sleep and cognition,
+        respectively, because they cross biological barriers that cheaper forms
+        cannot.
+      </p>
+      <p>
+        And this is where most magnesium guides fail you &mdash; they rank
+        products when they should be teaching you which of the dozen forms
+        actually does what you need.
       </p>
 
       <h2>Why the Form of Magnesium Matters More Than the Brand</h2>
@@ -334,6 +339,35 @@ export function BestMagnesium() {
           our sleep supplement guide
         </a>{" "}
         covers how magnesium fits alongside other sleep-supporting nutrients.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Magnesium is well-studied and well-tolerated for most healthy adults at the doses discussed in this guide. But several populations face meaningfully different risk profiles — and need clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you have chronic kidney disease (CKD)">
+        Even moderate CKD (GFR below 30) significantly impairs your body's ability to excrete excess magnesium, raising the risk of hypermagnesemia. Do not supplement without explicit clearance from your nephrologist — this applies to every form listed above.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Magnesium needs shift during pregnancy (the adjusted RDA is 350–360mg), and evidence on the safety of specific supplemental forms during pregnancy and lactation is limited. Talk to your OB-GYN before choosing a form or dose.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 65">
+        Older adults face reduced absorption, lower dietary intake, and a higher likelihood of taking medications — like PPIs and diuretics — that deplete magnesium. Magnesium's blood-pressure-lowering effect also increases fall risk. Review your full medication list with your provider before adding magnesium.
+      </Callout>
+
+      <Callout variant="warning" title="If you take PPIs, diuretics, or blood pressure medications">
+        As noted in the interactions section, long-term PPI use and loop or thiazide diuretics alter magnesium balance. If you're on any of these, supplementation may be warranted — but the form, dose, and monitoring should be guided by your prescriber.
+      </Callout>
+
+      <Callout variant="warning" title="If you are supplementing a child or adolescent">
+        Every dose, upper limit, and form recommendation in this guide is for adults. Pediatric magnesium needs and tolerances are different. Talk to your child's pediatrician before giving any magnesium supplement.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

@@ -23,12 +23,16 @@ export function BestOmega3() {
       />
 
       <p>
-        Grab the fish oil bottle from your cabinet and flip it over. See where it
-        says &ldquo;1,000mg Fish Oil&rdquo; on the front? Now look at the
-        Supplement Facts panel. The actual EPA + DHA &mdash; the omega-3s that
-        do the work &mdash; might be 300mg. You&rsquo;ve been taking a third of
-        what you thought. This is the single most common trap in the omega-3 market,
-        and it&rsquo;s where most &ldquo;best fish oil&rdquo; guides should start
+        The best omega-3 supplements deliver high combined EPA and DHA per
+        capsule, not just total fish oil &mdash; a critical distinction because
+        a standard &ldquo;1,000mg fish oil&rdquo; softgel often contains only
+        300mg of actual EPA + DHA. Our 2026 rankings prioritize independently
+        verified potency, triglyceride form, and clinical dosing thresholds
+        over label marketing claims.
+      </p>
+      <p>
+        This is the single most common trap in the omega-3 market, and
+        it&rsquo;s where most &ldquo;best fish oil&rdquo; guides should start
         but don&rsquo;t.
       </p>
 
@@ -345,6 +349,31 @@ export function BestOmega3() {
           recommendation="Talk to your doctor before starting high-dose fish oil if you're on warfarin or aspirin."
         />
       </InteractionGroup>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Omega-3 supplementation is well-studied in healthy adults at standard doses, but several populations face specific risks or evidence gaps that warrant clinical input before starting — or before changing a dose.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        DHA is critical for fetal brain development, but safe upper limits for EPA during pregnancy are not well established, and mercury exposure from fish-derived oils is a legitimate concern. Talk to your healthcare provider about whether an algal source or a DHA-dominant formula fits your prenatal regimen.
+      </Callout>
+
+      <Callout variant="warning" title="If you take anticoagulants or antiplatelet medications">
+        Omega-3s have a real anti-platelet effect that compounds with warfarin, apixaban (Eliquis), or daily aspirin therapy. At higher doses this effect becomes clinically meaningful — not just theoretical. Talk to your prescriber about whether INR monitoring or dose adjustments are needed before adding fish oil.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Older adults face polypharmacy interactions, potential age-related changes in fat absorption, and elevated bleeding risk at high doses. Talk to your healthcare provider before starting omega-3 supplementation, especially above 2,000mg combined EPA + DHA.
+      </Callout>
+
+      <Callout variant="warning" title="If you have type 2 diabetes or insulin resistance">
+        High-dose omega-3 supplementation has shown mixed effects on fasting glucose and HbA1c in diabetic populations. Cardiovascular benefits observed in other groups may not translate without caveats. Talk to your healthcare provider before assuming standard dosing recommendations apply to you.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

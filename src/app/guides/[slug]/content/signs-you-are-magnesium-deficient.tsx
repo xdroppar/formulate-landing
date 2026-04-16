@@ -23,19 +23,14 @@ export function MagnesiumDeficiency() {
       />
 
       <p>
-        You&rsquo;re lying in bed at 1am. Your eyelid has been twitching for
-        three days. Your calves cramp when you stretch. You slept seven hours
-        last night and still feel like you got four. You&rsquo;re irritable
-        for no particular reason.
-      </p>
-      <p>
-        If this sounds familiar, there&rsquo;s a good chance you&rsquo;re low
-        on magnesium &mdash; and you&rsquo;re not alone. Roughly{" "}
-        <strong>50% of Americans don&rsquo;t meet the recommended daily
-        intake</strong>, according to data from the USDA. It&rsquo;s one of
-        the most common nutrient deficiencies in the developed world, and one
-        of the most underdiagnosed &mdash; because the standard blood test
-        most doctors order is almost useless at catching it.
+        Common signs of magnesium deficiency include muscle cramps, eyelid
+        twitching, chronic fatigue despite adequate sleep, and unexplained
+        irritability. Roughly{" "}
+        <strong>50% of Americans fail to meet the recommended daily
+        intake</strong>, according to USDA data, making it one of the most
+        widespread yet underdiagnosed nutrient deficiencies &mdash; partly
+        because the standard blood test most doctors order is almost useless
+        at catching it.
       </p>
 
       <h2>Why Your Doctor Probably Won&rsquo;t Catch It</h2>
@@ -451,6 +446,31 @@ export function MagnesiumDeficiency() {
           PRODUCTS["thorne-magnesium-citramate"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Magnesium supplementation is well-studied and well-tolerated by most healthy adults. But this guide recommends a broad protocol — and several populations need clinical input before following it.
+      </p>
+
+      <Callout variant="warning" title="If you have chronic kidney disease or impaired kidney function">
+        Your kidneys are the primary way your body clears excess magnesium. If kidney function is compromised, even standard supplemental doses can cause magnesium to accumulate to dangerous levels (hypermagnesemia). Talk to your nephrologist or primary care provider before supplementing — this isn't a "start low and see" situation.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Magnesium needs change during pregnancy, and some forms or doses may not be appropriate. The evidence base this guide draws from was not studied in pregnant populations. Talk to your OB or midwife before supplementing.
+      </Callout>
+
+      <Callout variant="warning" title="If you take thyroid medication, blood pressure medication, or calcium channel blockers">
+        This guide flags interactions with PPIs, diuretics, antibiotics, and bisphosphonates — but magnesium can also affect absorption of levothyroxine and may interact with calcium channel blockers through a related mechanism. Bring your full medication list to your provider before adding magnesium.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 60">
+        Absorption decreases with age, renal excretion patterns shift, and medication burden is typically higher. The dosing guidance in this guide was not calibrated for older adults specifically. Your provider can help determine the right form and dose for your situation.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

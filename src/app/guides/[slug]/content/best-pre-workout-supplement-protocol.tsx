@@ -24,20 +24,12 @@ export function BestPreWorkoutProtocol() {
       />
 
       <p>
-        Flip over your favorite pre-workout and read the label. Chances are
-        you&rsquo;ll see something like &ldquo;Explosive Performance
-        Matrix&trade; &mdash; 8.5g&rdquo; followed by a laundry list of
-        ingredients with no individual amounts. That&rsquo;s a proprietary
-        blend, and it&rsquo;s how supplement companies hide the fact that
-        the one ingredient you&rsquo;re actually paying for &mdash; usually
-        caffeine &mdash; is the only thing in there at a useful dose.
-      </p>
-      <p>
-        The truth is, evidence-based pre-workout supplementation comes down
-        to four ingredients. They&rsquo;re all well-studied, they&rsquo;re
-        all available individually, and buying them separately costs about
-        a third of what you&rsquo;d pay for a branded tub. Here&rsquo;s
-        how to build a better pre-workout from scratch.
+        The best pre-workout supplement protocol uses four well-studied
+        ingredients purchased individually rather than as a proprietary blend.
+        This approach costs roughly a third of branded pre-workout tubs and
+        ensures each ingredient hits its effective dose &mdash; something most
+        proprietary blends obscure by hiding individual amounts behind a
+        single combined number on the label.
       </p>
 
       <h2>The Four Ingredients That Actually Work</h2>
@@ -332,6 +324,35 @@ export function BestPreWorkoutProtocol() {
           PRODUCTS["nootropics-depot-creatine"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The four core ingredients in this protocol are well-studied in healthy adults, but several populations face specific risks that the general dosing guidance above doesn't cover. If any of the following apply to you, get clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you take blood pressure medication">
+        Both citrulline and beetroot nitrate lower blood pressure via nitric oxide pathways. Combined with antihypertensives, this could cause dangerous hypotension. Talk to your prescribing physician before adding either ingredient.
+      </Callout>
+
+      <Callout variant="warning" title="If you're under 18">
+        Caffeine at the doses discussed here (3–6mg/kg) poses cardiovascular and developmental concerns for adolescents. No part of this protocol has been validated for minors. Talk to your healthcare provider — and a parent — before using any of these compounds.
+      </Callout>
+
+      <Callout variant="warning" title="If you have an anxiety disorder">
+        Caffeine at performance doses is a potent anxiogenic — well beyond the "jitters" mentioned above. If you have generalized anxiety, panic disorder, or are on anxiolytic medication, discuss caffeine use and dosing with your provider before adding it to any stack.
+      </Callout>
+
+      <Callout variant="warning" title="If you're pregnant or breastfeeding">
+        Safety data for supplemental citrulline, beta-alanine, and high-dose caffeine during pregnancy or lactation is insufficient for a recommendation. Consult your OB-GYN before using any of these.
+      </Callout>
+
+      <Callout variant="warning" title="If you're over 50">
+        Caffeine sensitivity tends to increase with age, and interactions with common medications (statins, beta-blockers, etc.) become more likely. Talk to your healthcare provider about appropriate dosing — especially for caffeine and the nitric oxide precursors.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

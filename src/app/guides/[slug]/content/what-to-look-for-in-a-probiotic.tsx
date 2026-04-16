@@ -23,23 +23,19 @@ export function WhatToLookForInProbiotic() {
       />
 
       <p>
-        Walk into any pharmacy and you&rsquo;ll see it: an entire aisle of
-        probiotic products, each one louder than the last. &ldquo;50 billion
-        CFU!&rdquo; &ldquo;30 clinically studied strains!&rdquo;
-        &ldquo;Immune support + digestive health + mood + weight
-        management!&rdquo;
+        The most important thing to look for in a probiotic is the specific
+        strain listed on the label &mdash; not the CFU count, not the number
+        of strains, and not broad health claims. Strain identity is what
+        links a product to actual clinical evidence, yet most probiotic
+        labels omit it entirely, listing only genus and species. A high CFU
+        number without a clinically studied strain behind it tells you
+        almost nothing useful.
       </p>
       <p>
-        Here&rsquo;s the problem: almost none of that marketing tells you
-        anything useful. The probiotic industry has a unique issue that most
-        supplement categories don&rsquo;t &mdash; the thing that actually
-        determines whether a probiotic works (the specific <em>strain</em>)
-        is the thing most products don&rsquo;t even list on the label.
-      </p>
-      <p>
-        This guide will teach you to cut through the noise and choose a
-        probiotic that has actual clinical evidence behind it &mdash; not
-        just a big number on the box.
+        The probiotic industry has a unique issue that most supplement
+        categories don&rsquo;t &mdash; the thing that actually determines
+        whether a probiotic works (the specific <em>strain</em>) is the
+        thing most products don&rsquo;t even list on the label.
       </p>
 
       <h2>The One Thing Most People Get Wrong</h2>
@@ -556,6 +552,35 @@ export function WhatToLookForInProbiotic() {
         <li>Clear storage instructions (refrigerated or shelf-stable with supporting data)</li>
         <li>Third-party testing for purity and potency</li>
       </ul>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The strains discussed in this guide are generally well-studied in healthy adults, but probiotics are live organisms — and that matters more for some people than others. If any of the following apply to you, get clinical input before starting.
+      </p>
+
+      <Callout variant="warning" title="If you are immunocompromised">
+        Live microbial supplements pose a documented infection risk in immunocompromised individuals — including cancer patients on chemotherapy, organ transplant recipients, and those with advanced HIV. Case reports of S. boulardii fungemia exist in critically ill patients. Talk to your specialist before taking any live probiotic.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Some strains discussed here (LGG, BB-12) have reassuring pregnancy data, but safety profiles vary by strain and dose. Talk to your OB or midwife before starting a probiotic — especially high-CFU formulations.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Age-related shifts in gut microbiome composition — particularly declining Bifidobacterium — and higher antibiotic exposure may change which strains and doses are appropriate. Discuss strain selection with your healthcare provider, especially if you have a history of C. difficile infection.
+      </Callout>
+
+      <Callout variant="warning" title="If you suspect SIBO">
+        The relationship between conventional Lactobacillus probiotics and SIBO is contested in the literature, not settled. Do not self-diagnose or self-treat based on this guide. Get a proper workup from a GI provider before adding or avoiding any probiotic.
+      </Callout>
+
+      <Callout variant="warning" title="If you have histamine intolerance">
+        Certain Lactobacillus strains can influence histamine levels in the gut. If you have known or suspected histamine intolerance, consult your healthcare provider about strain-specific considerations before starting.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

@@ -24,18 +24,16 @@ export function SupplementTimingGuide() {
       />
 
       <p>
-        It&rsquo;s 7am. You&rsquo;re staring at a row of supplement bottles
-        on your kitchen counter. Vitamin D, magnesium, iron, <a href="/guides/zinc-guide">zinc</a>, fish oil,
-        a B-complex. Do you take them all at once? Some with food, some
-        without? Does it even matter?
+        Supplement timing matters only in a few specific cases: fat-soluble
+        vitamins (D, E, K, A) need dietary fat for absorption, iron and{" "}
+        <a href="/guides/zinc-guide">zinc</a> compete for the same uptake
+        pathways and should be separated, and stimulating supplements like
+        B-complex can disrupt sleep if taken late. Beyond these interactions,
+        consistency matters far more than clock precision.
       </p>
       <p>
-        The short answer: mostly no, but sometimes very yes. Most supplement
-        timing advice online is overthought nonsense &mdash; the difference
-        between taking magnesium at 8pm vs 9pm is zero. But certain
-        combinations genuinely block each other&rsquo;s absorption, some
-        supplements need fat to work at all, and taking the wrong things
-        before bed can wreck your sleep.
+        A supplement taken at the &ldquo;wrong&rdquo; time still works. A
+        supplement you skip because the timing felt complicated does nothing.
       </p>
 
       <Callout variant="tip" title="The #1 rule">
@@ -468,6 +466,39 @@ export function SupplementTimingGuide() {
         reduce iron uptake by 50&ndash;60%. If your morning includes dairy,
         take iron 30&ndash;60 minutes before, or shift iron to a different
         time of day.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Most supplement timing advice in this guide assumes a healthy adult with no chronic conditions and no prescription medications. If any of the following apply to you, get clinical input before building or changing your stack.
+      </p>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Warfarin and vitamin K, levothyroxine and calcium or iron, SSRIs and 5-HTP, and oral contraceptives altering B-vitamin metabolism are all common, high-stakes interactions where timing alone isn't enough — dosing and form matter too. Bring your full supplement list to your prescriber or pharmacist before following any schedule from this guide.
+      </Callout>
+
+      <Callout variant="warning" title="If you supplement iron without a confirmed deficiency">
+        The iron timing advice here is written for people with documented deficiency. Unsupervised iron supplementation — especially in men and post-menopausal women — carries real oxidative stress risk. Talk to your healthcare provider before adding iron to your routine without lab-confirmed need.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a slow caffeine metabolizer or take oral contraceptives">
+        Caffeine half-life varies dramatically — from roughly 1.5 to 9.5 hours — depending on CYP1A2 genetics, oral contraceptive use, pregnancy, liver function, and smoking status. The 5–6 hour figure in this guide is an average, not a universal. If caffeine affects your sleep despite an early cutoff, you may be a slow metabolizer and should adjust accordingly.
+      </Callout>
+
+      <Callout variant="warning" title="If you take magnesium at the upper end of the range mentioned here">
+        The guide references 200–400mg of magnesium glycinate before bed. Note that 400mg of elemental magnesium from supplements exceeds the NIH tolerable upper intake level for supplemental magnesium (350mg) and can cause diarrhea. Start at the lower end and talk to your healthcare provider before pushing toward 400mg, especially if you also get magnesium from food or other supplements.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Reduced stomach acid in older adults impairs B12 absorption from standard oral forms, and high-dose supplemental calcium carries contested cardiovascular concerns in this population. Talk to your healthcare provider about appropriate forms and doses rather than following generic timing advice.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Supplement needs, safe upper limits, and caffeine metabolism all change significantly during pregnancy and lactation. Do not use this guide as a substitute for prenatal supplementation guidance from your provider.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>The Bottom Line</h2>

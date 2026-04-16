@@ -22,31 +22,16 @@ export function BerberineGuide() {
       />
 
       <p>
-        You&rsquo;re scrolling through a longevity podcast thread and someone
-        drops the phrase &ldquo;nature&rsquo;s metformin.&rdquo; A few clicks
-        later you&rsquo;re reading about a bright-yellow plant compound that
-        supposedly lowers blood sugar, torches cholesterol, and activates the
-        same cellular pathways as both the world&rsquo;s most prescribed
-        diabetes drug and vigorous exercise. It sounds like a supplement
-        marketer&rsquo;s fever dream &mdash; except this one actually has a
-        serious body of clinical evidence behind it.
+        Berberine is a plant-derived alkaloid with two decades of controlled
+        trial data showing it lowers blood sugar through the same AMPK pathway
+        activated by metformin and exercise. Researchers first noticed the
+        effect in 2004 when patients taking berberine for diarrhea saw
+        dramatic glucose improvements, and subsequent trials &mdash; also
+        targeting cholesterol &mdash; have held up remarkably well.
       </p>
       <p>
-        Berberine is an alkaloid extracted from several plants, most notably
-        goldenseal (<em>Hydrastis canadensis</em>), barberry
-        (<em>Berberis vulgaris</em>), and Chinese goldthread
-        (<em>Coptis chinensis</em>). It&rsquo;s been a staple of traditional
-        Chinese and Ayurvedic medicine for centuries, primarily for GI
-        infections. But the modern interest in berberine started in 2004 when
-        researchers noticed something unexpected: patients taking berberine
-        for diarrhea saw dramatic improvements in their blood sugar levels.
-        That observation kicked off two decades of controlled trials, and the
-        results have held up remarkably well.
-      </p>
-      <p>
-        This guide covers what berberine does mechanistically, what the human
-        trial data actually shows, how to dose it properly, and who should
-        &mdash; and shouldn&rsquo;t &mdash; consider taking it.
+        It&rsquo;s been a staple of traditional Chinese and Ayurvedic medicine
+        for centuries, primarily for GI infections.
       </p>
 
       <h2>The AMPK Connection: Why Berberine Gets Compared to Metformin</h2>

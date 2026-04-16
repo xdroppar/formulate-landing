@@ -24,19 +24,12 @@ export function BestSleepProtocol() {
       />
 
       <p>
-        It&rsquo;s 2 AM. You&rsquo;ve been lying there for an hour,
-        mentally rehearsing tomorrow&rsquo;s to-do list while your body
-        refuses to cooperate. So you reach for a melatonin gummy &mdash;
-        the 10mg one, because the 5mg &ldquo;stopped working&rdquo; &mdash;
-        and hope for the best. Sound familiar?
-      </p>
-      <p>
-        Here&rsquo;s the problem: most people&rsquo;s sleep supplement
-        strategy is backwards. They reach for the wrong compounds at the
-        wrong doses while ignoring the ones with the strongest evidence.
-        The research on sleep supplementation is actually quite clear, and
-        the protocol that emerges from it is cheap, effective, and
-        non&ndash;habit&ndash;forming. Let&rsquo;s build it.
+        The best sleep supplement protocol combines evidence-backed compounds
+        at correct doses into a cheap, non&ndash;habit&ndash;forming stack
+        that targets deep sleep. Most people get this wrong &mdash; taking
+        the wrong compounds at inflated doses while ignoring the ones with
+        the strongest research support. The protocol that emerges from the
+        actual evidence is straightforward to build.
       </p>
 
       <h2>Yes, Sleep Hygiene Matters &mdash; But You Already Know That</h2>
@@ -328,6 +321,35 @@ export function BestSleepProtocol() {
         <a href="/guides/beginner-longevity-supplement-stack">
           beginner longevity stack guide
         </a>.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The core stack in this guide is well-studied in healthy adults, but several populations need clinical input before starting — particularly where evidence is thin, drug interactions are plausible, or the guide's dosing assumptions may not apply.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        L-theanine has no human safety data in pregnancy. Magnesium supplementation ceilings may differ during pregnancy, and glycine — while generally considered safe — has not been rigorously studied in this population. Talk to your OB or midwife before adding any of these.
+      </Callout>
+
+      <Callout variant="warning" title="If you take prescription sleep medications">
+        If you're currently on zolpidem, trazodone, benzodiazepines, or other sedative-hypnotics, do not layer this stack on top without consulting your prescriber. Combining GABAergic supplements with prescription sedatives could amplify central nervous system depression, and any tapering strategy needs medical supervision.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Older adults are more sensitive to anticholinergic effects (relevant to the diphenhydramine warning in this guide) and are more likely to be on multiple medications with interaction potential. Magnesium can also affect absorption of certain common prescriptions. Bring your full medication list to your provider before starting.
+      </Callout>
+
+      <Callout variant="warning" title="If you have an anxiety disorder or diagnosed depression">
+        L-theanine modulates GABA and serotonin pathways, and magnesium has mood-adjacent effects. If you're on SSRIs, SNRIs, or other psychiatric medications, talk to your prescriber to rule out interactions or unintended effects before adding this stack.
+      </Callout>
+
+      <Callout variant="warning" title="If you have kidney disease or impaired renal function">
+        The kidneys are the primary clearance pathway for supplemental magnesium. Even doses within the ranges discussed in this guide could accumulate to problematic levels if kidney function is compromised. Get provider clearance and consider monitoring serum magnesium.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

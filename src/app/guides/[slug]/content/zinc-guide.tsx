@@ -23,33 +23,14 @@ export function ZincGuide() {
       />
 
       <p>
-        You feel that telltale tickle in the back of your throat on a Sunday
-        evening. By Monday morning you&rsquo;re reaching for the zinc lozenges
-        someone once told you to keep around. Two days later, the cold is gone
-        and you&rsquo;re half-convinced it was the zinc. Was it? Or would it
-        have resolved on its own?
-      </p>
-      <p>
-        Here&rsquo;s what&rsquo;s interesting: the evidence for zinc and colds
-        is actually pretty strong &mdash; <em>if</em> you get the timing and
-        form right. But immune support is only one chapter of the zinc story.
-        This mineral is involved in over <strong>300 enzymatic
-        reactions</strong> and more than <strong>1,000 transcription
-        factors</strong> in your body. It shapes everything from how well your
-        immune system fights off infections to whether your testosterone levels
-        are where they should be, to how fast a cut on your hand heals.
-      </p>
-      <p>
-        And yet, roughly <strong>2 billion people worldwide</strong> are
-        estimated to be zinc deficient, according to the WHO. In the U.S., it&rsquo;s
-        less dramatic but still meaningful &mdash; about 12% of the population
-        and up to 40% of older adults don&rsquo;t consume enough zinc from
-        food alone.
-      </p>
-      <p>
-        This guide covers what zinc actually does, which forms are worth buying
-        (and which are a waste of money), the critical copper connection most
-        people ignore, and how to dose it without making yourself nauseous.
+        Zinc is an essential mineral involved in over{" "}
+        <strong>300 enzymatic reactions</strong> that directly supports immune
+        function, testosterone production, and wound healing. According to the
+        WHO, roughly <strong>2 billion people worldwide</strong> are zinc
+        deficient, and in the U.S. up to 40% of older adults don&rsquo;t
+        consume enough from food alone. Getting the form, dose, and timing
+        right &mdash; and understanding zinc&rsquo;s critical relationship
+        with copper &mdash; determines whether supplementation actually works.
       </p>
 
       <h2>Zinc and Immunity: The Evidence Is Real</h2>
@@ -459,6 +440,39 @@ export function ZincGuide() {
           PRODUCTS["thorne-magnesium-bisglycinate"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        At the 15–30mg/day maintenance range, zinc is well-studied and well-tolerated in healthy adults. But several populations face meaningful interactions or altered risk-benefit profiles that warrant a conversation with a clinician before starting — or before following the higher-dose cold protocol described above.
+      </p>
+
+      <Callout variant="warning" title="A note on the cold-dose protocol">
+        The 75–92mg/day lozenge protocol cited in this guide exceeds the 40mg/day Tolerable Upper Intake Level by roughly 2×. That UL is set for chronic use; short-term therapeutic dosing (5–7 days) carries a different risk profile — but it can still cause nausea, GI distress, and transient copper disruption. Do not treat this as a casual recommendation. Talk to your healthcare provider before using high-dose zinc lozenges, especially if you take other supplements containing zinc (including ZMA) or have any of the conditions listed below.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Zinc requirements increase during pregnancy (11mg RDA) and lactation (12mg RDA), and deficiency carries serious fetal risks — but the safe supplemental range and copper-pairing calculus change too. Talk to your OB or midwife before supplementing beyond what's in your prenatal vitamin.
+      </Callout>
+
+      <Callout variant="warning" title="If you take quinolone or tetracycline antibiotics">
+        Zinc chelates these antibiotics in the gut and can reduce their absorption by up to 50%. If you're on ciprofloxacin, doxycycline, or similar medications, consult your prescriber before adding zinc — even lozenges — and ask about safe spacing.
+      </Callout>
+
+      <Callout variant="warning" title="If you have Wilson's disease or hemochromatosis">
+        Zinc is sometimes used therapeutically in Wilson's disease to block copper absorption — which means the copper co-supplementation advice in this guide could be directly harmful for you. Talk to your specialist before taking any zinc or copper supplement.
+      </Callout>
+
+      <Callout variant="warning" title="If you have type 2 diabetes">
+        Diabetes is associated with increased urinary zinc excretion and higher deficiency risk, and zinc plays a role in insulin secretion and glucose metabolism. Your provider can help determine whether supplementation is appropriate and at what dose.
+      </Callout>
+
+      <Callout variant="warning" title="If you already take a ZMA supplement">
+        ZMA formulas typically contain 30mg of zinc. Adding a standalone zinc supplement on top of that can easily push you past 40mg/day — the threshold where copper depletion becomes a real concern. Audit your full stack before adding anything.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

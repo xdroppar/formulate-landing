@@ -23,22 +23,13 @@ export function NACGuide() {
       />
 
       <p>
-        Here&rsquo;s a supplement with a strange resume: it&rsquo;s been
-        used in emergency rooms for decades to save people from
-        acetaminophen overdose, it&rsquo;s FDA-approved as a mucolytic to
-        break up lung mucus, it&rsquo;s being studied for OCD and
-        addiction &mdash; and the FDA briefly tried to ban it as a dietary
-        supplement in 2020. If that combination doesn&rsquo;t make you
-        curious, nothing will.
-      </p>
-      <p>
-        N-Acetyl Cysteine &mdash; NAC &mdash; is a modified form of the
-        amino acid cysteine. Its primary claim to fame is simple but
-        powerful: it&rsquo;s the most efficient oral precursor to{" "}
+        NAC (N-Acetyl Cysteine) is a modified form of the amino acid
+        cysteine and the most efficient oral precursor to{" "}
         <strong>glutathione</strong>, your body&rsquo;s master antioxidant.
-        Glutathione is involved in virtually every detoxification pathway
-        your liver runs, and your body burns through it constantly. NAC
-        is how you keep the tank full.
+        Glutathione drives virtually every detoxification pathway in the
+        liver, and NAC replenishes it. Originally an ER drug for
+        acetaminophen overdose and an FDA-approved mucolytic, NAC is now
+        studied for OCD, addiction, and broader antioxidant support.
       </p>
 
       <h2>Why Glutathione Matters (and Why You Can&rsquo;t Just Take It Directly)</h2>
@@ -339,6 +330,39 @@ export function NACGuide() {
         post-workout). If this concerns you, take NAC away from your
         training window &mdash; morning and evening dosing with afternoon
         training, for example.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        NAC is well-studied and generally well-tolerated in healthy adults at the doses discussed above. But several populations face specific risks or evidence gaps that warrant a conversation with a clinician before starting.
+      </p>
+
+      <Callout variant="warning" title="If you take psychiatric medications (SSRIs, antipsychotics, or mood stabilizers)">
+        The guide discusses NAC as an adjunct for depression, OCD, and compulsive behaviors — but NAC modulates glutamate signaling, which can interact with psychiatric medications. Talk to your prescriber before adding NAC to any psychiatric regimen.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant, breastfeeding, or trying to conceive">
+        NAC is sometimes used off-label in fertility contexts such as PCOS, but safety data in pregnancy and lactation is limited. Consult your OB-GYN or reproductive endocrinologist before use.
+      </Callout>
+
+      <Callout variant="warning" title="If you have kidney disease">
+        Long-term cysteine loading may pose risks for people with impaired renal function. Talk to your nephrologist before taking NAC continuously.
+      </Callout>
+
+      <Callout variant="warning" title="If you are undergoing cancer treatment">
+        There is an active scientific debate about whether antioxidant supplementation — including NAC — could interfere with chemotherapy efficacy or theoretically support tumor cell survival. Do not add NAC without your oncologist's explicit guidance.
+      </Callout>
+
+      <Callout variant="warning" title="If you have an autoimmune condition">
+        NAC's effects on glutathione and immune activation cut both ways in autoimmune contexts. Discuss potential immunomodulatory effects with your rheumatologist or immunologist before starting.
+      </Callout>
+
+      <Callout variant="warning" title="If you are considering NAC for a child or adolescent">
+        Pediatric research on NAC exists for conditions like OCD, but dosing and safety profiles differ from adults. Work with your child's physician — do not extrapolate adult protocols.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

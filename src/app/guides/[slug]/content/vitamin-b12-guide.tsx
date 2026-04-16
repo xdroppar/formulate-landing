@@ -23,28 +23,12 @@ export function VitaminB12Guide() {
       />
 
       <p>
-        Picture this: you&rsquo;ve been sleeping eight hours a night, eating
-        well, exercising consistently &mdash; and yet you&rsquo;re exhausted.
-        Not the kind of tired that a nap fixes, but a deep, bone-level fatigue
-        that makes you wonder if something is genuinely wrong. You mention it
-        to your doctor, maybe get screened for thyroid issues or anemia. Both
-        come back normal. Months pass. Eventually someone thinks to check your
-        B12, and there it is &mdash; you&rsquo;re profoundly deficient.
-      </p>
-      <p>
-        This scenario plays out more often than you&rsquo;d think. Vitamin B12
-        deficiency is one of the most common yet underdiagnosed nutrient
-        shortfalls in the developed world, partly because its symptoms are
-        maddeningly nonspecific. Fatigue, brain fog, mood changes, numbness in
-        your hands and feet &mdash; these overlap with depression, anxiety, early
-        dementia, and a dozen other conditions. It&rsquo;s the nutritional
-        equivalent of a check engine light that could mean anything.
-      </p>
-      <p>
-        This guide breaks down who actually needs B12 supplementation (spoiler:
-        it&rsquo;s more people than you&rsquo;d guess), which form to take,
-        how much, and why that energy drink loaded with 10,000% of your daily
-        value isn&rsquo;t doing what you think it&rsquo;s doing.
+        Vitamin B12 deficiency is one of the most common yet underdiagnosed
+        nutrient shortfalls in the developed world, largely because its
+        symptoms &mdash; fatigue, brain fog, mood changes, numbness in the
+        hands and feet &mdash; overlap with depression, anxiety, and early
+        dementia. More people need B12 supplementation than expect to, and
+        the form you choose matters as much as the dose.
       </p>
 
       <h2>What B12 Actually Does in Your Body</h2>
@@ -481,6 +465,31 @@ export function VitaminB12Guide() {
           PRODUCTS["thorne-b-complex-12"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        B12 supplementation has an excellent safety profile in healthy adults, and this guide covers the major at-risk groups in detail. But several populations face unique considerations that go beyond general recommendations — and deserve a conversation with a clinician before starting or adjusting a regimen.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant, planning pregnancy, or breastfeeding">
+        B12 requirements increase during pregnancy and lactation, and deficiency carries serious risks for fetal and infant neurological development — especially alongside folate. This guide does not address pregnancy-specific dosing or interactions with prenatal vitamins. Talk to your OB or midwife before relying on the general dosing recommendations here.
+      </Callout>
+
+      <Callout variant="warning" title="If you have chronic kidney disease (CKD)">
+        This guide recommends MMA testing to confirm functional deficiency, but impaired kidney function independently elevates MMA levels regardless of B12 status. If you have CKD, MMA results may be unreliable — ask your nephrologist how to interpret your labs accurately.
+      </Callout>
+
+      <Callout variant="warning" title="If you've had bariatric surgery (gastric bypass or sleeve gastrectomy)">
+        Post-surgical changes to intrinsic factor production can make standard oral supplementation insufficient. Your surgical team or gastroenterologist should guide your B12 protocol, including whether injections are warranted long-term.
+      </Callout>
+
+      <Callout variant="warning" title="If you take both a PPI and metformin">
+        This guide discusses each medication's effect on B12 absorption separately, but the combined depletion risk when taking both — common in older adults with type 2 diabetes — may be substantially higher. Bring your full medication list to your provider and ask about monitoring frequency.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

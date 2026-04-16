@@ -22,22 +22,12 @@ export function ElectrolytesGuide() {
       />
 
       <p>
-        It&rsquo;s day three of your new low-carb diet. You&rsquo;re doing
-        everything right &mdash; hitting your macros, staying disciplined,
-        drinking plenty of water. And yet you feel <em>terrible</em>. Brain
-        fog, muscle cramps, a headache that won&rsquo;t quit, and a vague
-        dizzy spell every time you stand up too fast. You Google &ldquo;keto
-        flu&rdquo; and find a thousand posts telling you to push through it.
-      </p>
-      <p>
-        Here&rsquo;s the truth: there is no &ldquo;keto flu.&rdquo; What
-        you&rsquo;re experiencing is an{" "}
-        <strong>electrolyte deficiency</strong> &mdash; specifically sodium
-        and potassium &mdash; triggered by the fact that low-carb diets cause
-        your kidneys to excrete sodium at a dramatically higher rate. Drink
-        more water without replacing electrolytes and you actually make it{" "}
-        <em>worse</em>, because you&rsquo;re diluting what little you have
-        left.
+        The three electrolytes that actually matter are sodium, potassium, and
+        magnesium &mdash; and most people&rsquo;s intake of all three is
+        quietly terrible. Low-carb diets make this worse by causing your
+        kidneys to dump sodium at an accelerated rate, which is why
+        &ldquo;keto flu&rdquo; is really just electrolyte deficiency. Fixing
+        it costs about 15 cents a day, no sugar-laden sports drinks required.
       </p>
 
       <Callout variant="info" title="It's not keto flu">

@@ -23,24 +23,12 @@ export function DoYouNeedMultivitamin() {
       />
 
       <p>
-        One in three American adults takes a daily multivitamin. It&rsquo;s
-        the most popular supplement category in the world. And if you ask
-        most people why they take one, the answer is some version of
-        &ldquo;insurance&rdquo; &mdash; a nutritional safety net, just in
-        case.
-      </p>
-      <p>
-        But here&rsquo;s the question nobody wants to ask: what if the
-        safety net has holes in it? What if the format itself &mdash; cramming
-        25+ nutrients into one or two small pills &mdash; guarantees that
-        most of those nutrients can&rsquo;t possibly be dosed high enough to
-        do what the label implies?
-      </p>
-      <p>
-        The clinical evidence on multivitamins is surprisingly mixed. This
-        guide breaks down what the research actually shows, when a
-        multivitamin makes sense, and when you&rsquo;re better off with a
-        targeted approach.
+        Most people don&rsquo;t need a multivitamin if they eat a reasonably
+        varied diet. The clinical evidence on multivitamins is surprisingly
+        mixed, in part because cramming 25+ nutrients into one or two small
+        pills guarantees most are underdosed. One in three American adults
+        takes one daily, but a targeted approach &mdash; supplementing
+        specific documented gaps &mdash; is more effective for most people.
       </p>
 
       <h2>What the Largest Studies Actually Found</h2>
@@ -359,6 +347,39 @@ export function DoYouNeedMultivitamin() {
       </Callout>
 
       <ProductCallout product={PRODUCTS["thorne-advanced-nutrients"]} />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Whether you stick with a multivitamin or move to a targeted stack, certain populations face drug interactions, absorption issues, or shifting nutrient needs that generic advice can't safely address. If any of the following apply to you, get clinical input before changing your supplement routine.
+      </p>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Metformin can deplete B12 over time. PPIs reduce absorption of both B12 and magnesium. Warfarin interacts dangerously with vitamin K — including the K found in many multivitamins. Oral contraceptives can affect B6, folate, and zinc status. Bring your full medication and supplement list to your provider so they can flag overlaps.
+      </Callout>
+
+      <Callout variant="warning" title="If you are postmenopausal">
+        The guide notes that postmenopausal women should avoid supplemental iron, but calcium, vitamin D, and vitamin K2 needs also shift after menopause — and calcium supplementation carries its own cardiovascular controversy. Talk to your healthcare provider about bone-health testing before adding or removing anything.
+      </Callout>
+
+      <Callout variant="warning" title="If you have Crohn's, celiac disease, or have had bariatric surgery">
+        Absorption disorders can create severe multi-nutrient deficiencies that standard oral doses won't fix. You may need higher doses, sublingual forms, or clinical monitoring that goes well beyond any over-the-counter multivitamin. Work with a provider who knows your surgical or GI history.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or planning pregnancy">
+        The guide recommends a quality prenatal, but folate form matters — and individual needs for iron, DHA, and choline vary. Talk to your OB or midwife about which prenatal formulation fits your bloodwork and health history.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 60">
+        B12 absorption declines with age due to reduced intrinsic factor, and vitamin D requirements increase. The guide flags these gaps, but the right form and dose — oral vs. sublingual B12, for example — depends on your labs. Ask your provider to check 25(OH)D and B12 levels before supplementing.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a competitive or endurance athlete">
+        High training loads increase iron losses (especially in female runners), magnesium depletion through sweat, and B-vitamin turnover. These needs differ meaningfully from the general population. Talk to a sports-medicine provider or dietitian before building your stack.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

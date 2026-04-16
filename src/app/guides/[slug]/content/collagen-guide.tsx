@@ -22,12 +22,12 @@ export function CollagenGuide() {
       />
 
       <p>
-        Collagen supplements are a $7 billion industry built on a premise that
-        sounds too simple: eat the protein your skin is made of, and your skin
-        gets better. Skeptics call it an expensive way to buy amino acids. True
-        believers swear it erased their wrinkles in a month. The actual science
-        is more interesting than either camp admits &mdash; and it starts with
-        a surprising fact about digestion.
+        Collagen supplements have evidence supporting modest improvements in
+        skin elasticity and joint pain, though the research is stronger than
+        skeptics suggest and weaker than marketing implies. The $7 billion
+        industry rests on a counterintuitive digestive mechanism &mdash;
+        collagen peptides survive gut breakdown and signal the body to produce
+        more of its own collagen.
       </p>
 
       <h2>The &ldquo;Your Body Just Digests It&rdquo; Argument</h2>
@@ -362,6 +362,35 @@ export function CollagenGuide() {
         days,&rdquo; they&rsquo;re experiencing placebo. The biology of
         connective tissue turnover doesn&rsquo;t move that fast. Give it at
         least 8 weeks before judging.
+      </p>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Most collagen research has been conducted in generally healthy adults over relatively short timeframes. If you fall into any of the groups below, get clinical input before starting — the evidence either doesn't cover you or raises specific concerns.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        No randomized controlled trials have included pregnant or breastfeeding women, and collagen is heavily marketed to this group for skin elasticity. Talk to your healthcare provider before supplementing — the guide's evidence base simply does not extend to you.
+      </Callout>
+
+      <Callout variant="warning" title="If you have an autoimmune condition or take immunosuppressants">
+        UC-II works through immune modulation — a mechanism that could interact unpredictably with immunosuppressive medications or conditions where the immune system is already dysregulated. Discuss this with your prescribing physician before adding UC-II or any collagen product.
+      </Callout>
+
+      <Callout variant="warning" title="If you take bisphosphonates or are being treated for osteoporosis">
+        The bone density evidence cited in this guide does not address whether collagen peptides interact with bisphosphonates (like alendronate) or whether they are additive or redundant alongside your existing calcium and vitamin D regimen. Bring your full supplement list to your provider.
+      </Callout>
+
+      <Callout variant="warning" title="If you have fish, shellfish, or egg allergies">
+        Marine collagen is derived from fish, and some products contain eggshell membrane collagen. Allergic reactions are a real risk — verify the source before purchasing and consult your allergist if there is any ambiguity.
+      </Callout>
+
+      <Callout variant="warning" title="If you are concerned about contaminant exposure">
+        Marine collagen sourced from polluted waters can carry heavy metal contamination. Look for third-party tested products and talk to your healthcare provider if you are taking collagen long-term, especially at higher doses.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
       </p>
 
       <h2>Frequently Asked Questions</h2>

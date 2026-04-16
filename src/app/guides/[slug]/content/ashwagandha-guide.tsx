@@ -23,18 +23,12 @@ export function AshwagandhaGuide() {
       />
 
       <p>
-        You&rsquo;ve been sleeping seven hours but waking up wired. Your
-        resting heart rate has crept up. You snap at people over nothing, and
-        by 3pm you&rsquo;re running on fumes and caffeine. Somewhere between
-        a podcast and a Reddit thread, someone mentioned ashwagandha, and now
-        you&rsquo;re wondering: does this stuff actually work, or is it just
-        another overhyped adaptogen riding a wave of wellness marketing?
-      </p>
-      <p>
-        The short answer: ashwagandha is one of the few herbal supplements
-        where the clinical evidence is genuinely interesting &mdash; but the
-        form you take matters enormously, and most of the products on shelves
-        are not the same thing that was used in the studies.
+        Ashwagandha is one of the few herbal supplements where the clinical
+        evidence is genuinely interesting &mdash; multiple trials show
+        measurable effects on cortisol, sleep quality, and stress perception.
+        However, the form you take matters enormously: most products on
+        shelves are not the same thing used in the studies, making extract
+        type the single most important variable.
       </p>
 
       <h2>What Ashwagandha Actually Is</h2>

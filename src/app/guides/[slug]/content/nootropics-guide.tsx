@@ -23,31 +23,13 @@ export function NootropicsGuide() {
       />
 
       <p>
-        You&rsquo;re staring at your screen at 2 PM, re-reading the same
-        paragraph for the third time, and your brain feels like it&rsquo;s
-        running through wet concrete. You&rsquo;ve slept reasonably well.
-        You&rsquo;ve eaten. You&rsquo;ve had coffee. And yet &mdash; nothing.
-        So you start Googling &ldquo;supplements for focus&rdquo; and
-        suddenly you&rsquo;re neck-deep in a world of nootropics, smart
-        drugs, and products promising to &ldquo;unlock your brain&rsquo;s
-        full potential.&rdquo;
-      </p>
-      <p>
-        Let&rsquo;s slow down. The term &ldquo;nootropic&rdquo; was coined
-        in 1972 by Romanian psychologist Corneliu Giurgea to describe
-        compounds that enhance cognition without significant side effects.
-        The original definition was conservative and specific. Today, the
-        word has been stretched to cover everything from caffeine to
-        prescription stimulants to unregulated research chemicals sold in
-        unmarked capsules. That&rsquo;s a problem, because it makes the
-        category nearly impossible to navigate without a filter.
-      </p>
-      <p>
-        This guide is that filter. We&rsquo;ll tier nootropics by the
-        strength of their human evidence, give you concrete doses and forms,
-        call out the hype, and help you build a cognitive stack that
-        actually makes sense &mdash; starting with the boring stuff that
-        works.
+        Nootropics are compounds that enhance cognition without significant
+        side effects &mdash; a term coined in 1972 by Romanian psychologist
+        Corneliu Giurgea with a conservative, specific definition. Today
+        the category has been stretched to cover everything from caffeine to
+        prescription stimulants to unregulated research chemicals, making it
+        nearly impossible to navigate without tiering substances by the
+        strength of their human evidence.
       </p>
 
       <h2>The Foundation You Can&rsquo;t Supplement Around</h2>
@@ -466,6 +448,35 @@ export function NootropicsGuide() {
       </p>
 
       <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        The Tier 1 and Tier 2 compounds in this guide are well-studied in healthy, unmedicated adults. But "well-studied in healthy adults" is not the same as "safe for everyone." If any of the following apply to you, get clinical input before starting — or stacking — these supplements.
+      </p>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Several compounds in this guide have real interaction profiles. Bacopa may interact with thyroid medications and anticholinergic drugs. High-dose omega-3 can affect platelet aggregation, which matters if you're on blood thinners. Alpha-GPC may interact with cholinesterase inhibitors. Caffeine interacts with MAOIs, certain antidepressants, and blood pressure medications. Talk to your prescriber before adding any of these to an existing medication regimen.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Even the Tier 1 compounds in this guide — including caffeine dosing and DHA — require pregnancy-specific guidance that this guide does not cover. Talk to your OB-GYN or midwife before using any nootropic supplement during pregnancy or while nursing.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65 or older">
+        Older adults face different pharmacokinetics and higher polypharmacy risk. You may also benefit most from DHA and lion's mane, but appropriate starting doses and interaction checks differ from those calibrated for younger adults. Discuss with your healthcare provider before beginning a stack.
+      </Callout>
+
+      <Callout variant="warning" title="If you have an anxiety disorder">
+        This guide recommends caffeine + L-theanine as the starting point, but for someone with generalized anxiety disorder or panic disorder, additional caffeine — even buffered by L-theanine — may worsen symptoms. Talk to your provider before adding stimulatory compounds.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a competitive athlete subject to anti-doping testing">
+        Alpha-GPC and many mushroom-derived products are not certified for sport. Untested supplements carry contamination risk that has caused inadvertent doping violations. Look for third-party sport-certified products and consult your sport's anti-doping authority before use.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

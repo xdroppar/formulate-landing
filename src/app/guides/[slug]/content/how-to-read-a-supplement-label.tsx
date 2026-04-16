@@ -21,17 +21,12 @@ export function HowToReadSupplementLabel() {
       />
 
       <p>
-        You&rsquo;re standing in the supplement aisle. There are 40 magnesium
-        products in front of you. They all say &ldquo;supports muscle and
-        nerve function&rdquo; on the front. They range from $8 to $45. One
-        has a gold seal. Another has a picture of a mountain. Very helpful.
-      </p>
-      <p>
-        Here&rsquo;s the thing: the front of a supplement bottle is
-        marketing. The back is data. And learning to read the back &mdash;
-        the Supplement Facts panel &mdash; takes about 60 seconds and will
-        save you from wasting money on underdosed, poorly formulated products
-        for the rest of your life.
+        Reading a supplement label means ignoring the front of the bottle
+        &mdash; that&rsquo;s marketing &mdash; and flipping to the Supplement
+        Facts panel on the back, which is the actual data. The panel lists
+        each ingredient&rsquo;s form, dose per serving, and percent Daily
+        Value, giving you everything you need to spot underdosed or poorly
+        formulated products in about 60 seconds.
       </p>
 
       <Callout variant="tip" title="The 60-second skill">
@@ -467,6 +462,31 @@ export function HowToReadSupplementLabel() {
           PRODUCTS["thorne-omega-3-coq10"],
         ]}
       />
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        This guide is written for generally healthy adults evaluating supplement labels. Several populations face specific risks — from drug interactions to altered absorption to dosing thresholds that differ from the general ranges listed above — and should get clinical input before acting on any of this.
+      </p>
+
+      <Callout variant="warning" title="If you are pregnant or trying to conceive">
+        Dose thresholds for vitamin D, iron, iodine, and choline differ significantly in pregnancy, and excess preformed vitamin A (retinol) is teratogenic — the general dose ranges in this guide were not written with prenatal safety in mind. Talk to your OB or midwife before self-selecting any doses from the tables above.
+      </Callout>
+
+      <Callout variant="warning" title="If you take prescription medications">
+        Common supplements interact with common drugs in ways this guide does not cover — fish oil and vitamin K with blood thinners, calcium and iron with thyroid medication, CoQ10 with statins, St. John's Wort and 5-HTP with SSRIs. Bring your full supplement list to your prescriber before adding anything new.
+      </Callout>
+
+      <Callout variant="warning" title="If you are over 65">
+        Age-related reductions in stomach acid change how you absorb B12, calcium, and iron, and higher medication burden increases interaction risk. Your clinically appropriate dose targets — especially for vitamin D — may differ from the general ranges referenced here.
+      </Callout>
+
+      <Callout variant="warning" title="If you are a tested athlete (collegiate, professional, or military)">
+        Cross-contamination with banned substances in unregulated manufacturing facilities is documented and has ended careers. NSF Certified for Sport or Informed Sport certification is non-negotiable for you — not a nice-to-have. Verify every product, every lot.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 

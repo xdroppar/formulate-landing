@@ -23,16 +23,12 @@ export function TaurineGuide() {
       />
 
       <p>
-        You&rsquo;ve probably seen taurine on the back of a Red Bull can and
-        never given it a second thought. It&rsquo;s listed right there between
-        caffeine and B vitamins &mdash; just another ingredient in the
-        energy drink cocktail, presumably there to make your heart race or
-        give you &ldquo;wings.&rdquo; Here&rsquo;s the irony: taurine is
-        the <em>calming</em> ingredient. It&rsquo;s an inhibitory
-        neuromodulator, closer in function to GABA than to caffeine. The
-        stimulation you feel from an energy drink comes from the caffeine
-        and sugar &mdash; the taurine is quietly doing something far more
-        interesting.
+        Taurine is an inhibitory neuromodulator &mdash; functionally closer
+        to GABA than to caffeine &mdash; that emerged as a serious longevity
+        compound after a 2023 study showed taurine supplementation extended
+        mouse lifespan by 10&ndash;12%. Despite its reputation as an energy
+        drink stimulant, taurine actually smooths out caffeine jitters rather
+        than adding to them.
       </p>
 
       <Callout variant="info" title="Not what you think">
@@ -423,6 +419,35 @@ export function TaurineGuide() {
           and safety profile make it an easy addition to the stack.
         </li>
       </ul>
+
+      <h2>Who Should Talk to a Doctor First</h2>
+      <p>
+        Taurine's safety profile is well-documented in healthy adults at doses up to 6g/day. But "healthy adults" is doing a lot of work in that sentence. Several populations need clinical input before adding taurine — particularly because the guide's own evidence highlights blood pressure, glucose, and neuromodulatory effects that interact with common medications.
+      </p>
+
+      <Callout variant="warning" title="If you take blood pressure medication">
+        Taurine has demonstrated additive blood-pressure-lowering effects. If you're on ACE inhibitors, ARBs, calcium channel blockers, or diuretics, talk to your prescriber before starting taurine — your medication dose may need adjustment and home BP monitoring is warranted.
+      </Callout>
+
+      <Callout variant="warning" title="If you have diabetes or take glucose-lowering medication">
+        Taurine may improve insulin sensitivity and glucose tolerance, which sounds like a benefit — but if you're on metformin, sulfonylureas, or insulin, that overlap could increase hypoglycemia risk. Consult your healthcare provider before adding taurine to your regimen.
+      </Callout>
+
+      <Callout variant="warning" title="If you are pregnant or breastfeeding">
+        Taurine is conditionally essential during fetal development, but supplemental doses in pregnancy and lactation have not been adequately studied for safety. Talk to your OB or midwife before supplementing.
+      </Callout>
+
+      <Callout variant="warning" title="If you have chronic kidney disease">
+        Taurine is cleared renally. Impaired kidney function may alter how your body handles supplemental amino acids. Talk to your nephrologist before starting taurine at any dose.
+      </Callout>
+
+      <Callout variant="warning" title="If you are 65+ and on multiple medications">
+        Polypharmacy increases the odds of unanticipated interactions — especially with taurine's effects on blood pressure, calcium signaling, and GABAergic pathways (relevant if you take lithium or other neuropsychiatric medications). Bring your full supplement list to your provider before adding taurine.
+      </Callout>
+
+      <p>
+        None of the above is medical advice. Bring your full supplement list — including what you're considering — to your next provider visit.
+      </p>
 
       <h2>Frequently Asked Questions</h2>
 
