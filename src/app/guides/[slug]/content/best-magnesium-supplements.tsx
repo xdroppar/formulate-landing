@@ -83,7 +83,7 @@ export function BestMagnesium() {
         calming, inhibitory effects on the nervous system. A 2012 study in the{" "}
         <em>Journal of Research in Medical Sciences</em> (Abbasi et al.) found
         magnesium supplementation significantly improved subjective sleep quality,
-        sleep time, and sleep onset latency in elderly subjects. <EvidenceBadge level="strong" /> The glycinate form
+        sleep time, and sleep onset latency in elderly subjects. <EvidenceBadge level="strong" studiesId="magnesium-abbasi-sleep-2012" /> The glycinate form
         is gentle on the stomach &mdash; no laxative effect &mdash; making it the
         best all-around choice for most people.
       </p>
@@ -101,7 +101,7 @@ export function BestMagnesium() {
         Threonate is the only form shown to meaningfully cross the blood-brain
         barrier and increase brain magnesium levels. The key study (Slutsky et al.,
         2010, <em>Neuron</em>) demonstrated improved learning, working memory, and
-        both short- and long-term memory in animal models. <EvidenceBadge level="moderate" /> Subsequent human trials
+        both short- and long-term memory in animal models. <EvidenceBadge level="moderate" studiesId="magnesium-slutsky-threonate-2010" /> Subsequent human trials
         using the patented Magtein&reg; form (Liu et al., 2016,{" "}
         <em>Journal of Alzheimer&rsquo;s Disease</em>) showed improved cognitive
         ability in older adults with cognitive concerns. <EvidenceBadge level="moderate" />
@@ -133,7 +133,7 @@ export function BestMagnesium() {
         Combines magnesium with <a href="/guides/taurine-guide">taurine</a>, which has independent cardiovascular
         benefits. A 2018 meta-analysis by Zhang et al. in{" "}
         <em>Hypertension Research</em> found magnesium supplementation reduced
-        systolic blood pressure by 2&ndash;3 mmHg. <EvidenceBadge level="moderate" /> Taurate is the form with the
+        systolic blood pressure by 2&ndash;3 mmHg. <EvidenceBadge level="moderate" studiesId="magnesium-zhang-bp-2017" /> Taurate is the form with the
         most emerging evidence for blood pressure and heart rhythm support.
       </p>
       <p>

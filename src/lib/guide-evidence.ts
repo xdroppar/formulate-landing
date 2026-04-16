@@ -251,6 +251,120 @@ export const studies: Record<string, Study> = {
     summary: "Meta-analysis finding magnesium supplementation reduced systolic blood pressure by 2–3 mmHg.",
   },
 
+  // ------------------------------- Ashwagandha (additional)
+  "ashwagandha-pratte-2014": {
+    authors: "Pratte et al.",
+    year: 2014,
+    journal: "Journal of Alternative and Complementary Medicine",
+    title: "An alternative treatment for anxiety: a systematic review of human trial results reported for the Ayurvedic herb ashwagandha",
+    url: "https://pubmed.ncbi.nlm.nih.gov/25405876/",
+    summary: "Systematic review across 5 RCTs. Ashwagandha outperformed placebo for anxiety measures.",
+  },
+  "ashwagandha-langade-sleep-2019": {
+    authors: "Langade et al.",
+    year: 2019,
+    journal: "Cureus",
+    title: "Efficacy and Safety of Ashwagandha (Withania somnifera) Root Extract in Insomnia and Anxiety",
+    url: "https://pubmed.ncbi.nlm.nih.gov/31728244/",
+    summary: "300mg 2x/day KSM-66 for 10 weeks improved sleep onset, sleep quality, and anxiety scores in insomnia patients.",
+  },
+  "ashwagandha-wankhede-2015": {
+    authors: "Wankhede et al.",
+    year: 2015,
+    journal: "Journal of the International Society of Sports Nutrition",
+    title: "Examining the effect of Withania somnifera supplementation on muscle strength and recovery: a randomized controlled trial",
+    url: "https://pubmed.ncbi.nlm.nih.gov/26609282/",
+    summary: "300mg KSM-66 2x/day for 8 weeks increased muscle strength, size, and recovery vs placebo in resistance-trained men.",
+  },
+
+  // ------------------------------- Vitamin D (more)
+  "vitamin-d-holick-endocrine-2011": {
+    authors: "Holick et al.",
+    year: 2011,
+    journal: "Journal of Clinical Endocrinology & Metabolism",
+    title: "Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline",
+    url: "https://pubmed.ncbi.nlm.nih.gov/21646368/",
+    summary: "Endocrine Society guideline. Defines deficiency (<20 ng/mL), insufficiency (20-30), and sufficiency thresholds.",
+  },
+  "vitamin-d-scragg-vida-2017": {
+    authors: "Scragg et al.",
+    year: 2017,
+    journal: "JAMA Cardiology",
+    title: "Monthly High-Dose Vitamin D Supplementation and Cardiovascular Disease (ViDA)",
+    url: "https://pubmed.ncbi.nlm.nih.gov/28384678/",
+    summary: "ViDA trial (n=5,110). Monthly high-dose vitamin D did not reduce cardiovascular events.",
+  },
+  "vitamin-d-neale-dhealth-2022": {
+    authors: "Neale et al.",
+    year: 2022,
+    journal: "The Lancet Diabetes & Endocrinology",
+    title: "The D-Health Trial: a randomised controlled trial of the effect of vitamin D on mortality",
+    url: "https://pubmed.ncbi.nlm.nih.gov/35483396/",
+    summary: "D-HEALTH trial (n=21,315). Monthly 60,000 IU vitamin D did not reduce all-cause mortality over 5 years.",
+  },
+
+  // ------------------------------- Magnesium (more)
+  "magnesium-firoz-graber-2001": {
+    authors: "Firoz and Graber",
+    year: 2001,
+    journal: "Magnesium Research",
+    title: "Bioavailability of US commercial magnesium preparations",
+    url: "https://pubmed.ncbi.nlm.nih.gov/11794633/",
+    summary: "Magnesium oxide had ~4% absorption vs 33% for magnesium chloride/lactate/aspartate forms.",
+  },
+  "magnesium-rosanoff-2012": {
+    authors: "Rosanoff et al.",
+    year: 2012,
+    journal: "Nutrition Reviews",
+    title: "Suboptimal magnesium status in the United States",
+    url: "https://pubmed.ncbi.nlm.nih.gov/22364157/",
+    summary: "Estimated ~50% of Americans consume less than the EAR for magnesium.",
+  },
+  "magnesium-liu-magtein-2016": {
+    authors: "Liu et al.",
+    year: 2016,
+    journal: "Journal of Alzheimer's Disease",
+    title: "Efficacy and Safety of MMFS-01, a Synapse Density Enhancer, for Treating Cognitive Impairment in Older Adults",
+    url: "https://pubmed.ncbi.nlm.nih.gov/26519439/",
+    summary: "Magnesium L-threonate (Magtein) improved cognitive ability in older adults with cognitive concerns over 12 weeks.",
+  },
+
+  // ------------------------------- Creatine (more)
+  "creatine-hmb-wilson-2013": {
+    authors: "Wilson et al.",
+    year: 2013,
+    journal: "European Journal of Applied Physiology",
+    title: "The effects of 12 weeks of beta-hydroxy-beta-methylbutyrate free acid supplementation on muscle mass, strength, and power",
+    url: "https://pubmed.ncbi.nlm.nih.gov/23755828/",
+    summary: "HMB free acid + resistance training produced significantly greater muscle mass and strength gains — the most favorable HMB result published.",
+  },
+
+  // ------------------------------- Omega-3 (more)
+  "omega3-strength-nicholls-2020": {
+    authors: "Nicholls et al.",
+    year: 2020,
+    journal: "JAMA",
+    title: "Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events (STRENGTH)",
+    url: "https://pubmed.ncbi.nlm.nih.gov/33190147/",
+    summary: "STRENGTH trial (n=13,078). High-dose EPA/DHA did not reduce cardiovascular events — contradicts REDUCE-IT finding.",
+  },
+  "omega3-vital-manson-2019": {
+    authors: "Manson et al.",
+    year: 2019,
+    journal: "New England Journal of Medicine",
+    title: "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (VITAL)",
+    url: "https://pubmed.ncbi.nlm.nih.gov/30415637/",
+    summary: "VITAL omega-3 arm (n=25,871). 1g/day fish oil did not significantly reduce cardiovascular events or cancer.",
+  },
+  "omega3-mfgd-makrides-2010": {
+    authors: "Makrides et al.",
+    year: 2010,
+    journal: "JAMA",
+    title: "Effect of DHA supplementation during pregnancy on maternal depression and neurodevelopment (MFGD)",
+    url: "https://pubmed.ncbi.nlm.nih.gov/20978258/",
+    summary: "DHA-rich supplementation during pregnancy did not reduce postnatal depression or improve infant neurodevelopment at 18 months.",
+  },
+
   // ------------------------------- Protein timing
   "protein-timing-schoenfeld-2013": {
     authors: "Schoenfeld, Aragon, and Krieger",

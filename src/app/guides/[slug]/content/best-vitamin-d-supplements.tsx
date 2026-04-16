@@ -52,7 +52,7 @@ export function BestVitaminD() {
         A 2012 meta-analysis by Tripkovic et al. in the{" "}
         <em>American Journal of Clinical Nutrition</em> pooled data across multiple
         RCTs and found D3 (cholecalciferol) is roughly 87% more effective at
-        raising blood levels than D2 (ergocalciferol). <EvidenceBadge level="strong" />
+        raising blood levels than D2 (ergocalciferol). <EvidenceBadge level="strong" studiesId="vitamin-d-tripkovic-d3vsd2-2012" />
       </Callout>
 
       <p>
@@ -76,7 +76,7 @@ export function BestVitaminD() {
       <Callout variant="evidence" title="K2 improves arterial health">
         A 2017 study by Knapen et al. in <em>Thrombosis and Haemostasis</em> found
         that MK-7 supplementation (180mcg/day for three years) significantly
-        improved arterial stiffness in healthy postmenopausal women. <EvidenceBadge level="strong" />
+        improved arterial stiffness in healthy postmenopausal women. <EvidenceBadge level="strong" studiesId="vitamin-d-knapen-k2-2017" />
       </Callout>
 
       <InteractionGroup title="Vitamin D synergies">
@@ -119,7 +119,7 @@ export function BestVitaminD() {
         <em>Journal of the Academy of Nutrition and Dietetics</em> found that
         taking vitamin D with the largest meal of the day increased blood levels
         by up to 50% compared to taking it on an empty stomach or with a fat-free
-        meal. <EvidenceBadge level="strong" />
+        meal. <EvidenceBadge level="strong" studiesId="vitamin-d-absorption-fat-2015" />
       </Callout>
 
       <p>
@@ -393,7 +393,7 @@ export function BestVitaminD() {
 
       <p>The vitamin D RCT evidence is something you should understand before buying any product on this page. Three major trials — each enrolling thousands of participants — tested whether supplementing vitamin D <em>beyond correcting deficiency</em> prevents serious disease. The results were sobering for anyone expecting a miracle pill.</p>
 
-      <p>The <strong>VITAL trial</strong> (Manson et al., 2019, n=25,871) gave healthy adults 2,000 IU/day of D3 for a median of 5.3 years. It found <strong>no significant reduction</strong> in cardiovascular events (HR 0.97) or invasive cancer incidence (HR 0.96). <EvidenceBadge level="strong" /> A secondary analysis did show a 25% reduction in cancer <em>mortality</em> after excluding the first two years, but this was an exploratory finding, not the primary endpoint.</p>
+      <p>The <strong>VITAL trial</strong> (Manson et al., 2019, n=25,871) gave healthy adults 2,000 IU/day of D3 for a median of 5.3 years. It found <strong>no significant reduction</strong> in cardiovascular events (HR 0.97) or invasive cancer incidence (HR 0.96). <EvidenceBadge level="strong" studiesId="vitamin-d-vital-manson-2019" /> A secondary analysis did show a 25% reduction in cancer <em>mortality</em> after excluding the first two years, but this was an exploratory finding, not the primary endpoint.</p>
 
       <p>The <strong>ViDA trial</strong> (Scragg et al., 2017, n=5,110) tested monthly high-dose boluses (100,000 IU) in New Zealand adults and found no reduction in cardiovascular disease. <EvidenceBadge level="strong" /> The <strong>D-HEALTH trial</strong> (Neale et al., 2022, n=21,315) tested 60,000 IU/month for five years in Australian adults aged 60–84 and found no significant reduction in cancer mortality or all-cause mortality. <EvidenceBadge level="strong" /></p>
 

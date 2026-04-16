@@ -45,7 +45,7 @@ export function BestCreatine() {
         &mdash; including a landmark 2017 position stand by the{" "}
         <em>International Society of Sports Nutrition</em> (Kreider et al.) &mdash;
         confirm its benefits for strength, power output, lean mass, and even
-        cognitive function. <EvidenceBadge level="strong" /> Every other form (HCl, ethyl ester, buffered, liquid)
+        cognitive function. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" /> Every other form (HCl, ethyl ester, buffered, liquid)
         is riding on monohydrate&rsquo;s coattails.
       </p>
 
@@ -54,7 +54,7 @@ export function BestCreatine() {
         <em>Journal of the International Society of Sports Nutrition</em> (Antonio
         et al.) compared monohydrate head-to-head against alternative forms and
         found no meaningful difference in muscle creatine uptake. You&rsquo;re
-        paying 3&ndash;5x more for identical results. <EvidenceBadge level="strong" />
+        paying 3&ndash;5x more for identical results. <EvidenceBadge level="strong" studiesId="creatine-antonio-forms-2021" />
       </Callout>
 
       <h2>What Actually Matters When Choosing Creatine</h2>
@@ -215,7 +215,7 @@ export function BestCreatine() {
         Creatine works by accumulation, not acute timing. Take it whenever
         you&rsquo;ll actually remember. A 2013 study by Antonio and Ciccone in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em> found a
-        slight advantage for post-workout supplementation, but the effect was small. <EvidenceBadge level="moderate" />{" "}
+        slight advantage for post-workout supplementation, but the effect was small. <EvidenceBadge level="moderate" studiesId="creatine-post-vs-pre-antonio-2013" />{" "}
         Consistency beats timing every time. For a full breakdown of when to take
         all your supplements, check{" "}
         <a href="/guides/beginner-longevity-supplement-stack">
@@ -233,12 +233,12 @@ export function BestCreatine() {
           <strong>Cognitive function:</strong> A 2018 meta-analysis by Avgerinos
           et al. in <em>Experimental Gerontology</em> found creatine
           supplementation improved short-term memory and reasoning, particularly
-          under stress or sleep deprivation. <EvidenceBadge level="strong" />
+          under stress or sleep deprivation. <EvidenceBadge level="strong" studiesId="creatine-avgerinos-cognitive-2018" />
         </li>
         <li>
           <strong>Aging populations:</strong> Creatine supports muscle mass
           preservation in older adults. The ISSN position stand notes benefits for
-          sarcopenia prevention when combined with resistance training. <EvidenceBadge level="strong" />
+          sarcopenia prevention when combined with resistance training. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" />
         </li>
         <li>
           <strong>Vegetarians and vegans:</strong> Dietary creatine comes primarily
@@ -315,7 +315,7 @@ export function BestCreatine() {
         No. Dozens of long-term studies (up to 5 years) show no adverse kidney
         effects in healthy individuals. A 2019 review in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em>{" "}
-        (Kreider et al.) explicitly addresses this. <EvidenceBadge level="strong" />
+        (Kreider et al.) explicitly addresses this. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" />
       </Callout>
 
       <Callout variant="info" title="&ldquo;Creatine causes hair loss&rdquo;">
@@ -480,7 +480,7 @@ export function BestCreatine() {
         Absolutely. The &ldquo;creatine is for bodybuilders&rdquo; perception is
         outdated. A 2021 narrative review by Smith-Ryan et al. in{" "}
         <em>Nutrients</em> highlighted benefits for women including improved
-        strength, body composition, bone health, and mood. <EvidenceBadge level="strong" /> Creatine does not cause
+        strength, body composition, bone health, and mood. <EvidenceBadge level="strong" studiesId="creatine-smith-ryan-women-2021" /> Creatine does not cause
         &ldquo;bulking&rdquo; &mdash; the initial weight gain (1&ndash;2 lbs) is
         water drawn into muscle cells, not fat.
       </p>

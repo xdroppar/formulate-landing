@@ -59,7 +59,7 @@ export function BestOmega3() {
         The VITAL trial (Manson et al., 2019, <em>NEJM</em>) and the REDUCE-IT trial
         (Bhatt et al., 2019, <em>NEJM</em>) used 1,000&ndash;4,000mg of combined
         EPA + DHA daily. To hit even the low end with a standard fish oil,
-        you&rsquo;d need 3&ndash;4 softgels. <EvidenceBadge level="strong" />
+        you&rsquo;d need 3&ndash;4 softgels. <EvidenceBadge level="strong" studiesIds={["omega3-reduce-it-bhatt-2019"]} />
       </Callout>
 
       <p>
@@ -83,7 +83,7 @@ export function BestOmega3() {
         Essential Fatty Acids</em> found TG-form omega-3s had approximately 70%
         better absorption than ethyl ester form. Your body recognizes and processes
         TG-form fats more efficiently because that&rsquo;s how they exist in
-        nature. <EvidenceBadge level="strong" />
+        nature. <EvidenceBadge level="strong" studiesId="omega3-dyerberg-tg-vs-ee-2010" />
       </Callout>
 
       <p>
@@ -109,7 +109,7 @@ export function BestOmega3() {
         lipids may be actively harmful. A 2015 study by Albert et al. in{" "}
         <em>Scientific Reports</em> found that a significant percentage of
         commercially available fish oil products exceeded recommended oxidation
-        limits. <EvidenceBadge level="strong" />
+        limits. <EvidenceBadge level="strong" studiesId="omega3-albert-oxidation-2015" />
       </p>
 
       <Callout variant="warning" title="How to spot rancid fish oil">
@@ -150,7 +150,7 @@ export function BestOmega3() {
           mood support, inflammation reduction, and cardiovascular markers. A 2019
           meta-analysis by Liao et al. in <em>Translational Psychiatry</em> found
           EPA-dominant formulas were significantly more effective for depression
-          than DHA-dominant ones. <EvidenceBadge level="strong" />
+          than DHA-dominant ones. <EvidenceBadge level="strong" studiesId="omega3-liao-epa-depression-2019" />
         </li>
         <li>
           <strong>Higher DHA:</strong> Better evidence for brain structure,
