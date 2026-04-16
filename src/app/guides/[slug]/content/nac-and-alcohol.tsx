@@ -302,6 +302,31 @@ export function NacAndAlcohol() {
         than relying on supplements.
       </p>
 
+      <h3>What if I already took NAC after drinking &mdash; is it dangerous or just not helpful?</h3>
+      <p>
+        You&rsquo;re almost certainly fine. The pro-oxidant concern from post-alcohol NAC is documented in rodent liver tissue but has not been confirmed in humans at standard OTC doses (600&ndash;1200&nbsp;mg). There are no documented case reports of acute harm from this timing. This is not a medical emergency. Drink water, eat something, and rest. If you experience significant abdominal pain, jaundice, dark urine, or nausea beyond a typical hangover, seek medical attention &mdash; though those symptoms would warrant evaluation regardless of NAC.
+      </p>
+
+      <h3>Can I take NAC every day, or only on drinking days?</h3>
+      <p>
+        The guide covers NAC specifically as a pre-drink intervention and doesn&rsquo;t address daily baseline use or whether chronic users are effectively &lsquo;pre-loaded.&rsquo; Daily NAC is used for other reasons (lung health, mental health), but how that changes the timing math for alcohol isn&rsquo;t discussed. If you&rsquo;re already taking NAC daily for another purpose, consult your healthcare provider about whether additional pre-drink dosing is appropriate or redundant in your case.
+      </p>
+
+      <h3>What&rsquo;s the best NAC supplement brand or form to buy?</h3>
+      <p>
+        Standard NAC (600&nbsp;mg per capsule) is the evidence-backed form &mdash; NAC amide exists but lacks human data for alcohol-specific use. Due to FDA regulatory turbulence in 2020&ndash;2022, product quality varies significantly. Prioritize brands with third-party verification: USP certification is the gold standard; NSF International and Informed Sport also confirm label accuracy and purity. Avoid proprietary blends that obscure NAC&rsquo;s actual milligram content. You need a precise dose given the timing-sensitive nature of this protocol.
+      </p>
+
+      <h3>Does NAC interact with antidepressants or SSRIs?</h3>
+      <p>
+        The guide addresses this directly but with important caveats. NAC modulates glutamate signaling, which is pharmacologically coupled to serotonin systems influenced by SSRIs and SNRIs. Small trials used NAC as an SSRI adjunct without major safety signals, but not alongside alcohol. For bupropion specifically, the guide flags real caution: bupropion already lowers seizure threshold, alcohol compounds this, and NAC&rsquo;s glutamatergic effects add unstudied complexity. Consult your prescriber before combining psychiatric medications, NAC, and alcohol.
+      </p>
+
+      <h3>Is NAC legal and available without a prescription?</h3>
+      <p>
+        The guide covers this: the FDA sent warning letters to NAC supplement companies in 2020&ndash;2021, arguing its prior drug approval precluded supplement status. Amazon temporarily delisted it. The FDA softened its position in 2022, but regulatory status remains unsettled in the US. NAC is currently widely available OTC in the US. The guide doesn&rsquo;t address international availability or prescription requirements in other countries &mdash; if you&rsquo;re outside the US, check local regulations or ask a pharmacist.
+      </p>
+
       <h2>How Many Drinks Does One Dose Cover? Scaling the Protocol</h2>
 
       <p>The question of how many drinks one dose of NAC covers is the most practical question you'll have after reading the protocol — and unfortunately, it's one the research hasn't directly answered. There are no human dose-response studies calibrating NAC milligrams to drink count, body weight, or drinking history. What follows is a conservative heuristic built on biochemistry, not clinical proof.</p>

@@ -354,7 +354,7 @@ export function CreatineLoadingPhase() {
 
       <h3>Hormonal Cycles and Uptake</h3>
 
-      <p>Estrogen and progesterone fluctuations across the menstrual cycle influence fluid balance, but current evidence hasn't demonstrated clinically meaningful differences in creatine uptake between cycle phases. A 2021 narrative review by Smith-Ryan et al. in <em>Nutrients</em> highlighted how understudied women remain in creatine research — most landmark trials used exclusively male participants. The honest answer: we don't yet know whether cycle phase matters for saturation timing. Take your 3–5g daily regardless. <EvidenceBadge level="emerging" /></p>
+      <p>Estrogen and progesterone fluctuations across the menstrual cycle influence fluid balance, but current evidence hasn't demonstrated clinically meaningful differences in creatine uptake between cycle phases. A 2021 narrative review by Smith-Ryan et al. in <em>Nutrients</em> highlighted how understudied women remain in creatine research — most landmark trials used exclusively male participants. The honest answer: we don't yet know whether cycle phase matters for saturation timing. Take your 3–5g daily regardless. <EvidenceBadge level="emerging" studiesId="creatine-smith-ryan-women-2021" /></p>
 
       <h3>Perimenopause, Bone Density, and Muscle Preservation</h3>
 

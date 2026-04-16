@@ -217,6 +217,41 @@ export function BestCollagenForJoints() {
         Bone broth contains collagen, but the collagen is largely denatured during cooking, and the amount per serving is highly variable and generally much lower than supplemental doses. You also can&rsquo;t get the intact undenatured Type II collagen needed for oral tolerance from boiled bones. Bone broth is fine as food; it&rsquo;s not a reliable substitute for a standardized UC-II supplement.
       </p>
 
+      <h3>Is UC-II safe to take with NSAIDs or ibuprofen?</h3>
+      <p>
+        No controlled trial has specifically tested UC-II alongside NSAIDs, so &ldquo;safe&rdquo; can&rsquo;t be stated with certainty. Mechanistically, NSAIDs block COX enzymes while UC-II modulates regulatory T-cells &mdash; distinct pathways with no obvious conflict. The Lugo 2016 trial washed out NSAIDs before assessments, so concurrent-use data simply doesn&rsquo;t exist. No adverse interaction signals have appeared in published safety data, but that&rsquo;s not the same as proven safe. If you&rsquo;re taking NSAIDs regularly for osteoarthritis, mention UC-II to your prescriber.
+      </p>
+
+      <h3>Does collagen supplementation actually rebuild cartilage, or does it only reduce symptoms?</h3>
+      <p>
+        Based on current evidence, collagen supplementation reduces symptoms &mdash; it has not been shown to rebuild or structurally preserve cartilage. Both UC-II trials (Crowley 2009, Lugo 2016) measured pain and function scores only; neither used MRI, X-ray, or arthroscopy to assess cartilage thickness or joint space. Until imaging trials are conducted, any claim that UC-II &ldquo;restores&rdquo; cartilage is speculation. If your orthopedist is tracking joint space narrowing on imaging, UC-II supplementation does not change that clinical picture based on current evidence.
+      </p>
+
+      <h3>What collagen supplement should I take if I&rsquo;m vegetarian or vegan?</h3>
+      <p>
+        There is no vegan collagen supplement &mdash; collagen is an animal protein and doesn&rsquo;t exist in plants. Products labeled &ldquo;vegan collagen&rdquo; contain vitamin C, silica, or amino acids, not collagen. What you can do is support your body&rsquo;s own collagen production: ensure adequate vitamin C (100&ndash;250&nbsp;mg/day), consider glycine supplementation (3&ndash;5&nbsp;g/day), and prioritize progressive resistance training, which is the strongest known driver of collagen synthesis. These strategies support endogenous production but cannot replicate UC-II&rsquo;s oral tolerance mechanism. For diagnosed OA, discuss pharmaceutical options with your provider.
+      </p>
+
+      <h3>What&rsquo;s the best collagen supplement for joint pain in people over 65?</h3>
+      <p>
+        The guide doesn&rsquo;t address age-specific considerations directly. UC-II at 40&nbsp;mg/day remains the best-evidenced option for osteoarthritis symptoms regardless of age &mdash; the Crowley and Lugo trials enrolled adults with knee OA, though mean ages and comorbidity profiles aren&rsquo;t highlighted. Polypharmacy is common over 65, and UC-II&rsquo;s immune-modulating mechanism warrants extra caution if you&rsquo;re on immunosuppressants, DMARDs, or biologics. Before starting, review your full medication list with your prescriber &mdash; this population has the most to gain from UC-II but also the most variables to account for.
+      </p>
+
+      <h3>Can I stop taking UC-II once my joint pain improves, or do I need to take it indefinitely?</h3>
+      <p>
+        The guide doesn&rsquo;t cover discontinuation, and no published trial has tracked what happens after stopping UC-II. Based on the mechanism &mdash; ongoing immune modulation of an active inflammatory process &mdash; it&rsquo;s reasonable to expect that symptoms may return if you stop, since the underlying cartilage loss likely continues. The Lugo trial showed improvements still accruing at 180 days, suggesting this is maintenance rather than a completed repair. Whether benefits persist, taper, or reverse after discontinuation is genuinely unknown. This is a gap worth raising with your healthcare provider.
+      </p>
+
+      <h3>Is the UC-II in my current joint supplement real or a knockoff?</h3>
+      <p>
+        Look for the UC-II logo or explicit Lonza branding on the label or product page &mdash; the clinical trials used this specific patented ingredient. If a product claims &ldquo;undenatured Type II collagen&rdquo; without that branding, it may be a generic that&rsquo;s actually hydrolyzed (denatured), which defeats the mechanism entirely. The label should list 40&nbsp;mg UC-II per serving, providing approximately 10&nbsp;mg active undenatured collagen. Third-party testing (NSF, USP, or Informed Sport) adds a layer of purity verification. Ingredient misrepresentation is a documented problem in the supplement industry; branding and third-party certification are your best available checks.
+      </p>
+
+      <h3>Does collagen help with hip pain or shoulder pain, or only knees?</h3>
+      <p>
+        Both UC-II trials enrolled knee osteoarthritis patients exclusively, so there&rsquo;s no direct RCT evidence for hip, shoulder, or ankle joints. However, UC-II&rsquo;s oral tolerance mechanism targets Type II collagen epitopes systemically &mdash; regulatory T-cells don&rsquo;t discriminate by joint location, and Type II collagen is the dominant cartilage collagen throughout the body. Mechanistically plausible, but not clinically demonstrated. If you have hip or shoulder OA, UC-II at 40&nbsp;mg/day is still the most reasonable collagen option based on shared biology &mdash; just recognize you&rsquo;re extrapolating from knee data. Track symptoms over 90&ndash;180 days.
+      </p>
+
       <h2>What UC-II Won't Do: Structural vs. Symptomatic Evidence</h2>
 
       <p>Every clinical trial supporting UC-II for osteoarthritis measures <strong>symptoms</strong> — pain scores, stiffness ratings, and functional questionnaires like the WOMAC and Lequesne index. None of them include imaging evidence that UC-II preserves or regenerates cartilage. This is the single most important distinction to understand before you buy: feeling better and structurally healing are not the same thing.</p>

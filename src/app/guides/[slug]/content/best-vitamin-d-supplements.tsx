@@ -429,7 +429,7 @@ export function BestVitaminD() {
 
       <h3>What the Guidelines Actually Say</h3>
 
-      <p>ACOG (American College of Obstetricians and Gynecologists) considers 1,000–2,000 IU/day safe during pregnancy and sufficient for most women. The Endocrine Society&rsquo;s 2011 guideline (Holick et al.) recommends at least 1,500–2,000 IU/day for pregnant and lactating women to maintain 25(OH)D above 30 ng/mL. <EvidenceBadge level="moderate" /> Some researchers argue these numbers are still too conservative — a large RCT by Hollis et al. (2011, <em>Journal of Bone and Mineral Research</em>) found that 4,000 IU/day was safe throughout pregnancy and more effective at achieving sufficiency than 400 or 2,000 IU, with no adverse events.</p>
+      <p>ACOG (American College of Obstetricians and Gynecologists) considers 1,000–2,000 IU/day safe during pregnancy and sufficient for most women. The Endocrine Society&rsquo;s 2011 guideline (Holick et al.) recommends at least 1,500–2,000 IU/day for pregnant and lactating women to maintain 25(OH)D above 30 ng/mL. <EvidenceBadge level="moderate" studiesId="vitamin-d-holick-endocrine-2011" /> Some researchers argue these numbers are still too conservative — a large RCT by Hollis et al. (2011, <em>Journal of Bone and Mineral Research</em>) found that 4,000 IU/day was safe throughout pregnancy and more effective at achieving sufficiency than 400 or 2,000 IU, with no adverse events.</p>
 
       <h3>Why It Matters for Your Baby</h3>
 
@@ -504,7 +504,7 @@ export function BestVitaminD() {
       <p>Each softgel provides 90 mcg of MK-7 in sunflower oil — a built-in fat source for absorption. This dose aligns with the minimum threshold supported by the Knapen et al. (2017) data on arterial stiffness. FDA-registered facility, third-party potency and purity testing. Straightforward option if you prefer a pre-measured capsule over liquid drops.</p>
 
       <h3>Jarrow Formulas MK-7 (180 mcg softgels)</h3>
-      <p>Hits the 180 mcg dose used in the Knapen three-year trial, delivered in olive oil. The MK-7 is derived from <em>Bacillus subtilis</em> natto fermentation — the most clinically studied production method. Third-party tested for identity and potency. A solid pick if you want the exact dose that has the strongest standalone evidence behind it. <EvidenceBadge level="moderate" /></p>
+      <p>Hits the 180 mcg dose used in the Knapen three-year trial, delivered in olive oil. The MK-7 is derived from <em>Bacillus subtilis</em> natto fermentation — the most clinically studied production method. Third-party tested for identity and potency. A solid pick if you want the exact dose that has the strongest standalone evidence behind it. <EvidenceBadge level="moderate" studiesId="vitamin-d-knapen-k2-2017" /></p>
 
       <Callout variant="warning" title="K2 and blood thinners">
       If you take warfarin or other vitamin K-sensitive anticoagulants, do not add K2 without consulting your healthcare provider. MK-7 has a longer half-life than K1 and can meaningfully affect INR levels even at low doses.
@@ -575,7 +575,7 @@ export function BestVitaminD() {
 
       <p>Getting trial enrollment numbers right isn't academic nitpicking — it's the difference between a large, population-level RCT and a modest pilot study. A trial with 411 participants has fundamentally different statistical power than one with 21,315. If we cited the wrong <em>n</em>, every conclusion drawn from that trial in this guide would carry a misleading weight.</p>
 
-      <p>The D-HEALTH trial's actual enrollment of 21,315 participants makes it one of the three largest vitamin D RCTs ever conducted, alongside VITAL (Manson et al., 2019, <em>n</em>=25,871) and ViDA (Scragg et al., 2017, <em>n</em>=5,110). Its null findings on cancer mortality and all-cause mortality carry substantial evidential weight <em>precisely because</em> of that sample size. <EvidenceBadge level="strong" /></p>
+      <p>The D-HEALTH trial's actual enrollment of 21,315 participants makes it one of the three largest vitamin D RCTs ever conducted, alongside VITAL (Manson et al., 2019, <em>n</em>=25,871) and ViDA (Scragg et al., 2017, <em>n</em>=5,110). Its null findings on cancer mortality and all-cause mortality carry substantial evidential weight <em>precisely because</em> of that sample size. <EvidenceBadge level="strong" studiesId="vitamin-d-scragg-vida-2017" /></p>
 
       <p>If you're evaluating vitamin D's evidence base — whether for this guide or your own decision-making — always verify trial details against the original publication rather than secondary summaries. The D-HEALTH primary outcome paper is freely available via the <em>Lancet Diabetes & Endocrinology</em> (doi: 10.1016/S2213-8587(22)00002-X).</p>
 

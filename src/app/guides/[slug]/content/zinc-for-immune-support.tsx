@@ -185,6 +185,36 @@ export function ZincForImmuneSupport() {
         Standard zinc supplementation at dietary levels (8&ndash;12 mg/day) is generally considered safe during pregnancy. However, the high-dose acute cold protocol (75&ndash;92 mg/day) has not been adequately studied in pregnant individuals. If you&rsquo;re pregnant or breastfeeding and considering zinc lozenges for a cold, consult your healthcare provider before using doses above the standard recommended intake.
       </p>
 
+      <h3>What zinc lozenges actually meet these criteria &mdash; no citric acid, zinc acetate or gluconate?</h3>
+      <p>
+        The guide doesn&rsquo;t name specific brands. To evaluate any product yourself: check the Supplement Facts panel for zinc acetate or zinc gluconate as the zinc source, then scan the inactive ingredients for citric acid, tartaric acid, sorbitol, or mannitol &mdash; if any appear, skip it. Also confirm each lozenge delivers 13&ndash;23&nbsp;mg elemental zinc. Applying this label-reading framework at the pharmacy or online filters out most products that would otherwise neutralize the active zinc ions before they reach your throat.
+      </p>
+
+      <h3>Can I give zinc lozenges to my child?</h3>
+      <p>
+        The guide doesn&rsquo;t address pediatric use &mdash; it covers healthy adults only. Do not extrapolate the adult protocol (75&ndash;92&nbsp;mg/day) to children; zinc toxicity thresholds are lower in children, and appropriate doses, lozenge formulations, and age cutoffs differ. Consult your child&rsquo;s pediatrician before using any zinc lozenge protocol for a child.
+      </p>
+
+      <h3>I already took zinc pills on day 1 &mdash; should I switch to lozenges now on day 2?</h3>
+      <p>
+        The guide doesn&rsquo;t address mixed or partial protocol scenarios directly. What it does make clear is that the 24-hour window is critical and that pills provide no cold-shortening benefit regardless of timing. Whether lozenges started on day 2 still deliver partial benefit isn&rsquo;t something the guide covers. Based on the underlying mechanism &mdash; lozenges work by contacting pharyngeal tissue during early viral replication &mdash; starting later is likely less effective, but the guide doesn&rsquo;t quantify that trade-off.
+      </p>
+
+      <h3>How long can I store zinc lozenges before they lose potency?</h3>
+      <p>
+        The guide doesn&rsquo;t address shelf life or storage conditions. Generally, follow the expiration date printed on the packaging and store lozenges in a cool, dry location away from humidity, which can degrade lozenge integrity. If a lozenge has visibly degraded &mdash; crumbled, discolored, or tacky &mdash; don&rsquo;t rely on it. When stocking up before cold season as the guide recommends, check expiration dates at purchase to ensure you&rsquo;ll have viable product when you need it.
+      </p>
+
+      <h3>Does zinc interact with my blood pressure medication / thyroid medication / proton pump inhibitor?</h3>
+      <p>
+        The guide only covers interactions with antibiotics and immunosuppressants. It does not address ACE inhibitors, thiazide diuretics, thyroid medications, or proton pump inhibitors &mdash; all common in adults over 50. Clinically relevant interactions exist with these drug classes. If you take any of them, consult your prescriber or pharmacist before using the high-dose acute zinc lozenge protocol.
+      </p>
+
+      <h3>Can I take zinc lozenges and NyQuil / DayQuil / other OTC cold medicine at the same time?</h3>
+      <p>
+        The guide doesn&rsquo;t address combination use with OTC cold remedies. Some combination products contain vitamin C formulations or acidic inactive ingredients that could theoretically chelate zinc ions &mdash; the same mechanism the guide warns about with citric acid in lozenges themselves. Because the guide is silent on this scenario, check the inactive ingredients of any OTC remedy for chelating additives and, if uncertain, ask a pharmacist before combining.
+      </p>
+
       <h2>Who Should Talk to a Doctor First</h2>
 
       <p>

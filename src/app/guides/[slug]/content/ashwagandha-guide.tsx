@@ -129,7 +129,7 @@ export function AshwagandhaGuide() {
         increase in testosterone over 8 weeks with 600mg of KSM-66. A 2010
         study by Ahmad et al. in <em>Fertility and Sterility</em> showed
         improved semen parameters in infertile men.{" "}
-        <EvidenceBadge level="moderate" />
+        <EvidenceBadge level="moderate" studiesId="ashwagandha-lopresti-2019" />
       </p>
       <p>
         Don&rsquo;t expect this to turn you into a different person. The
@@ -280,7 +280,7 @@ Jaundice (yellowing of skin or eyes), dark urine, pale stools, or persistent rig
 
       <h3>What We Know About Hormonal Effects in Women</h3>
 
-      <p>Ashwagandha appears to modestly increase DHEA-S in both sexes. A 2019 RCT by Lopresti et al. found significant DHEA-S increases alongside cortisol reduction — but the downstream hormonal implications differ for women. DHEA-S is a precursor to both testosterone and estrogen, so the net effect on your hormonal profile depends on your baseline levels and individual metabolism. <EvidenceBadge level="moderate" /> There's no strong evidence that ashwagandha meaningfully raises estrogen or testosterone in women at standard doses, but the research simply hasn't been designed to answer this question rigorously.</p>
+      <p>Ashwagandha appears to modestly increase DHEA-S in both sexes. A 2019 RCT by Lopresti et al. found significant DHEA-S increases alongside cortisol reduction — but the downstream hormonal implications differ for women. DHEA-S is a precursor to both testosterone and estrogen, so the net effect on your hormonal profile depends on your baseline levels and individual metabolism. <EvidenceBadge level="moderate" studiesId="ashwagandha-lopresti-2019" /> There's no strong evidence that ashwagandha meaningfully raises estrogen or testosterone in women at standard doses, but the research simply hasn't been designed to answer this question rigorously.</p>
 
       <h3>PCOS and Cycle Effects</h3>
 

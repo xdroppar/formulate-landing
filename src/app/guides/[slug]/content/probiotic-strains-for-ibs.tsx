@@ -103,7 +103,7 @@ export function ProbioticStrainsForIbs() {
 
       <ul>
         <li><strong>IBS-D (diarrhea-predominant):</strong> S. boulardii CNCM I-745 has the most targeted data. B. infantis 35624 also showed benefit in mixed populations that included IBS-D.</li>
-        <li><strong>IBS-C (constipation-predominant):</strong> B. infantis 35624 showed improvement across subtypes in the Whorwell trial, but no single strain has strong IBS-C-specific data. Some clinicians use <em>B. lactis</em> BB-12 for transit time, though IBS-specific evidence is limited. <EvidenceBadge level="emerging" /></li>
+        <li><strong>IBS-C (constipation-predominant):</strong> B. infantis 35624 showed improvement across subtypes in the Whorwell trial, but no single strain has strong IBS-C-specific data. Some clinicians use <em>B. lactis</em> BB-12 for transit time, though IBS-specific evidence is limited. <EvidenceBadge level="emerging" studiesId="probiotics-whorwell-bifido-2006" /></li>
         <li><strong>IBS-M (mixed):</strong> B. infantis 35624 is the most reasonable first choice, given its subtype-agnostic results.</li>
       </ul>
 
@@ -189,6 +189,41 @@ export function ProbioticStrainsForIbs() {
       <h3>How do I know if my IBS probiotic is working?</h3>
       <p>
         Track your primary symptoms weekly using a simple scale: abdominal pain (0&ndash;10), bloating severity (0&ndash;10), stool consistency (Bristol scale 1&ndash;7), and number of urgent episodes. Compare your baseline week to weeks 4 and 8. A meaningful response is usually a 30%+ improvement in your worst symptom. If nothing has changed by week 8, switch strains.
+      </p>
+
+      <h3>Is Align probiotic worth the price vs generic B. infantis 35624?</h3>
+      <p>
+        The guide identifies Align as the branded source of B. infantis 35624 &mdash; the specific strain tested in the Whorwell (2006) RCT &mdash; and notes it uses blister packaging that guarantees CFU through expiration. The guide does not address whether cheaper products claiming to contain B. infantis 35624 are legitimate. Strain identity matters: a label can name the strain without containing the genuine isolate. If you&rsquo;re evaluating alternatives, verify the strain designation matches exactly and that CFU is guaranteed through expiration, not just at manufacture.
+      </p>
+
+      <h3>What probiotic strains are safe during pregnancy for IBS?</h3>
+      <p>
+        The guide doesn&rsquo;t cover this directly, noting only that B. infantis 35624 and L. plantarum 299v haven&rsquo;t been extensively studied in pregnancy and that you should consult your OB/GYN before starting any new supplement. Pregnant women with IBS should not rely on general adult IBS probiotic guidance without provider input, as safety profiles, dosing, and risk-benefit assessments differ during pregnancy and lactation.
+      </p>
+
+      <h3>Can I take probiotics while on SSRIs or antidepressants for IBS?</h3>
+      <p>
+        The guide doesn&rsquo;t address this directly. It acknowledges the gut-brain axis but does not discuss interactions between probiotics and SSRIs, SNRIs, or tricyclics. Drug-probiotic interactions are not well-characterized in the literature generally. If you&rsquo;re prescribed any of these medications for IBS, bring your full supplement list to your prescriber before adding a probiotic &mdash; this is standard guidance for any new supplement in a medicated patient.
+      </p>
+
+      <h3>How long should I take a probiotic for IBS &mdash; is it forever?</h3>
+      <p>
+        The guide covers the trial period (4&ndash;8 weeks to assess response) but does not address maintenance dosing, whether to stop once symptoms improve, or whether benefits persist after discontinuation. These are legitimate questions the guide leaves unanswered. The clinical evidence base for IBS probiotics is largely built on short-term trials, so long-term dosing strategy is genuinely unclear. A gastroenterologist can help you decide whether continued use is warranted based on your symptom trajectory.
+      </p>
+
+      <h3>Lactobacillus rhamnosus GG for IBS &mdash; does it work?</h3>
+      <p>
+        The guide does not include LGG among the three evidence-backed IBS strains (B. infantis 35624, L. plantarum 299v, S. boulardii CNCM I-745). It explicitly notes that strains without IBS-specific RCT evidence should be treated with skepticism, regardless of how widely recognized the strain is in other contexts. LGG has strong evidence for pediatric diarrhea and antibiotic-associated diarrhea, but that data does not transfer to IBS. Based on the guide&rsquo;s framework, LGG is not a supported choice for IBS.
+      </p>
+
+      <h3>What probiotic should I try for IBS-C if B. infantis 35624 didn&rsquo;t work?</h3>
+      <p>
+        The guide is candid that IBS-C has the weakest probiotic evidence overall. If B. infantis 35624 failed after an 8-week trial, the guide mentions B. lactis BB-12 as a strain some clinicians use for transit time, but explicitly flags it as having limited IBS-specific evidence. No fallback strain with strong IBS-C RCT data exists per the guide. For constipation-predominant IBS, a gastroenterologist can assess whether other interventions &mdash; dietary, motility-based, or pharmacological &mdash; are more appropriate than continuing to cycle through probiotics.
+      </p>
+
+      <h3>Can children take these IBS probiotics?</h3>
+      <p>
+        The guide doesn&rsquo;t cover this directly. All three evidence-backed strains (B. infantis 35624, L. plantarum 299v, S. boulardii CNCM I-745) were studied in adult populations, and pediatric IBS requires separate clinical evaluation. Adult trial data cannot be automatically extrapolated to children for dosing, safety, or efficacy. Consult a pediatric gastroenterologist before giving any of these strains to a child with IBS symptoms.
       </p>
 
       <h2>Who Should Talk to a Doctor First</h2>

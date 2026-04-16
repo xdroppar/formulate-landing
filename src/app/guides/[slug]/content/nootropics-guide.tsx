@@ -128,7 +128,7 @@ export function NootropicsGuide() {
         mental fatigue. <EvidenceBadge level="strong" studiesId="creatine-avgerinos-cognitive-2018" /> A 2003 study by Rae et al. showed
         creatine improved working memory and processing speed in
         vegetarians &mdash; who have lower baseline creatine stores.
-        <EvidenceBadge level="moderate" />
+        <EvidenceBadge level="moderate" studiesId="creatine-avgerinos-cognitive-2018" />
       </Callout>
 
       <p>

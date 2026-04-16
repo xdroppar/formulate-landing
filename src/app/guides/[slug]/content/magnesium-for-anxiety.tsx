@@ -202,11 +202,46 @@ export function MagnesiumForAnxiety() {
         There&rsquo;s overlapping evidence. Tarleton et al. (2017) found that 248 mg of elemental magnesium daily improved both anxiety and depression scores in mildly depressed adults. The mechanisms partially overlap&mdash;both conditions involve HPA axis dysregulation and neurotransmitter imbalances that magnesium modulates. However, magnesium is not a standalone treatment for clinical depression.
       </p>
 
+      <h3>How much glycine is in magnesium glycinate per dose?</h3>
+      <p>
+        A typical 300&nbsp;mg elemental magnesium dose from magnesium bisglycinate delivers roughly 1.8&nbsp;g of glycine &mdash; meaningful, but about 60% of the 3&nbsp;g threshold used in standalone glycine clinical trials. The guide is direct about this: glycine acts as a supporting player, not an equal co-star. The magnesium itself drives most of the anxiolytic benefit. If you want to reach the full 3&nbsp;g glycine threshold, supplementing glycine separately alongside magnesium glycinate is inexpensive and well-tolerated.
+      </p>
+
+      <h3>Can I take magnesium glycinate while pregnant for anxiety?</h3>
+      <p>
+        The guide doesn&rsquo;t address prenatal anxiety dosing in detail. It notes that magnesium needs increase during pregnancy and many prenatal vitamins include it, but flags that therapeutic doses for anxiety (300&ndash;400&nbsp;mg supplemental elemental magnesium) should be discussed with your OB-GYN &mdash; particularly because high-dose magnesium sulfate is used medically in pregnancy for separate indications. Do not self-dose magnesium glycinate for anxiety during pregnancy without explicit guidance from your prenatal care provider.
+      </p>
+
+      <h3>Magnesium glycinate vs. magnesium taurate for anxiety &mdash; which is better?</h3>
+      <p>
+        Magnesium glycinate has stronger clinical support. The guide notes that taurine has GABAergic properties and cardiovascular calming effects, making taurate theoretically appealing for somatic anxiety symptoms like racing heart. However, no published RCT directly compares the two forms for anxiety outcomes &mdash; taurate&rsquo;s evidence is largely preclinical. If anxiety and sleep disruption are your primary targets, glycinate is the better-evidenced choice. Taurate is a reasonable alternative if your anxiety is predominantly physical, but you&rsquo;re relying on mechanistic plausibility more than clinical proof.
+      </p>
+
+      <h3>Does magnesium glycinate help with anxiety directly, or only through better sleep?</h3>
+      <p>
+        Both pathways are real and partially independent. The guide identifies direct anxiolytic mechanisms &mdash; magnesium blocks NMDA glutamate receptors and enhances GABA-A receptor function &mdash; that operate separately from sleep improvement. The Boyle (2017) meta-analysis measured subjective anxiety scores broadly, not just sleep-related symptoms. That said, anxiety and sleep disruption are tightly linked, and glycine&rsquo;s sedating effects mean sleep improvement often comes first. Reduced muscle tension and fewer racing thoughts during the day are indicators of direct anxiolytic benefit beyond sleep.
+      </p>
+
+      <h3>What should I look for when buying magnesium glycinate?</h3>
+      <p>
+        The guide doesn&rsquo;t evaluate specific brands, but it provides clear criteria. Check the Supplement Facts panel for elemental magnesium content &mdash; a label reading &lsquo;2,000&nbsp;mg magnesium glycinate&rsquo; may contain only 200&nbsp;mg of actual magnesium. Target 200&ndash;400&nbsp;mg elemental magnesium per serving. Look for magnesium bisglycinate (the chelated form) specifically. Consider formulas that include 25&ndash;50&nbsp;mg of vitamin B6 as P5P, based on the Pouteau (2018) combination data. Third-party testing certification is a reasonable quality signal the guide doesn&rsquo;t specifically address &mdash; consult your pharmacist for verified brands.
+      </p>
+
+      <h3>Can children or teenagers take magnesium glycinate for anxiety?</h3>
+      <p>
+        The guide doesn&rsquo;t cover pediatric or adolescent use &mdash; it&rsquo;s written for adults. Magnesium requirements, tolerable upper intake levels, and anxiety presentations differ meaningfully in children and teenagers. The adult UL of 350&nbsp;mg supplemental elemental magnesium does not apply directly to younger age groups. If you&rsquo;re considering magnesium glycinate for an anxious child or teen, consult their pediatrician or a child psychiatrist before starting. Do not extrapolate adult dosing protocols to minors.
+      </p>
+
+      <h3>Magnesium for anxiety vs. ashwagandha &mdash; which is better?</h3>
+      <p>
+        The guide doesn&rsquo;t directly compare the two. It briefly mentions ashwagandha as having &lsquo;a different evidence profile&rsquo; and links to a separate adaptogens guide. What the guide does establish: magnesium&rsquo;s anxiolytic mechanisms are well-characterized (NMDA blockade, GABA enhancement, HPA axis modulation), with a small-to-moderate effect size in the Boyle (2017) meta-analysis. Ashwagandha&rsquo;s evidence profile and mechanisms differ. For a direct comparison, consult the linked adaptogens guide &mdash; or discuss both options with a healthcare provider, particularly if you&rsquo;re already on medication.
+      </p>
+
       <h3>How Much Glycine Are You Actually Getting Per Dose?</h3>
 
       <p>The glycine per dose of magnesium glycinate is lower than most people assume. In magnesium bisglycinate (the most common form), each magnesium ion is chelated to two glycine molecules. By molecular weight, elemental magnesium makes up roughly 11–14% of the total compound. A dose delivering 200–400 mg of elemental magnesium translates to approximately 1,400–2,800 mg of the full chelate—meaning you're getting roughly <strong>1.2–2.4 g of glycine</strong> per dose.</p>
 
-      <p>That matters because the clinical evidence for glycine's independent anxiolytic and sleep-promoting effects—like Bannai et al. (2012) and Inagawa et al. (2006)—used doses of <strong>3 g or more</strong>. At a typical 300 mg elemental magnesium dose, you're landing around 1.8 g of glycine: meaningful, but roughly 60% of the standalone therapeutic threshold. <EvidenceBadge level="moderate" /></p>
+      <p>That matters because the clinical evidence for glycine's independent anxiolytic and sleep-promoting effects—like Bannai et al. (2012) and Inagawa et al. (2006)—used doses of <strong>3 g or more</strong>. At a typical 300 mg elemental magnesium dose, you're landing around 1.8 g of glycine: meaningful, but roughly 60% of the standalone therapeutic threshold. <EvidenceBadge level="moderate" studiesId="glycine-sleep-bannai-2012" /></p>
 
       <p>So is the "two-for-one" claim overstated? Partially—but it's not worthless. You're getting a <em>partial</em> glycinergic contribution, not the full clinical dose. Think of it as a meaningful nudge rather than a complete glycine intervention.</p>
 
@@ -224,7 +259,7 @@ export function MagnesiumForAnxiety() {
 
       <h3>The Glycine Advantage</h3>
 
-      <p>You already know glycine's role from earlier in this guide: it's an inhibitory neurotransmitter that acts at its own receptors and as an NMDA receptor co-agonist (at the glycine binding site, which paradoxically helps regulate—not amplify—excitatory signaling). Supplemental glycine at 3+ grams has shown independent anxiolytic and sleep-promoting effects (Bannai et al., 2012). A standard 300 mg elemental magnesium dose from glycinate delivers roughly 2 g of glycine—not quite therapeutic on its own, but a meaningful contribution. <EvidenceBadge level="moderate" /></p>
+      <p>You already know glycine's role from earlier in this guide: it's an inhibitory neurotransmitter that acts at its own receptors and as an NMDA receptor co-agonist (at the glycine binding site, which paradoxically helps regulate—not amplify—excitatory signaling). Supplemental glycine at 3+ grams has shown independent anxiolytic and sleep-promoting effects (Bannai et al., 2012). A standard 300 mg elemental magnesium dose from glycinate delivers roughly 2 g of glycine—not quite therapeutic on its own, but a meaningful contribution. <EvidenceBadge level="moderate" studiesId="glycine-sleep-bannai-2012" /></p>
 
       <h3>The Taurine Case</h3>
 
@@ -250,7 +285,7 @@ export function MagnesiumForAnxiety() {
 
       <h3>Why Glycinate Changes the Equation</h3>
 
-      <p>Magnesium glycinate is a chelated form with substantially better GI tolerability than the salts that generated the UL data. The very side effect the UL was designed to prevent—osmotic diarrhea—occurs at significantly higher thresholds with glycinate because it's absorbed via amino acid transport pathways rather than relying on passive paracellular absorption that draws water into the intestinal lumen. Multiple clinical trials, including Pouteau et al. (2018), administered 300 mg of elemental magnesium daily without notable adverse effects. <EvidenceBadge level="moderate" /></p>
+      <p>Magnesium glycinate is a chelated form with substantially better GI tolerability than the salts that generated the UL data. The very side effect the UL was designed to prevent—osmotic diarrhea—occurs at significantly higher thresholds with glycinate because it's absorbed via amino acid transport pathways rather than relying on passive paracellular absorption that draws water into the intestinal lumen. Multiple clinical trials, including Pouteau et al. (2018), administered 300 mg of elemental magnesium daily without notable adverse effects. <EvidenceBadge level="moderate" studiesId="magnesium-b6-stress-2018" /></p>
 
       <p>This doesn't mean the UL is meaningless. It means that a healthy adult with normal kidney function (eGFR above 60) taking 400 mg of elemental magnesium as glycinate is not at meaningful risk of systemic toxicity. Healthy kidneys clear excess magnesium efficiently—hypermagnesemia is almost exclusively a concern in <a href="/guides/magnesium-and-kidney-function">renal impairment</a>.</p>
 

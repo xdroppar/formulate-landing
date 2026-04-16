@@ -411,7 +411,7 @@ export function BestOmega3() {
 
       <h3>How Much DHA Do You Actually Need?</h3>
 
-      <p>The WHO and the International Society for the Study of Fatty Acids and Lipids (ISSFAL) both recommend at least <strong>200mg DHA daily</strong> during pregnancy and lactation. ACOG doesn&rsquo;t set a specific number but endorses omega-3 intake through diet or supplementation. Many maternal-fetal medicine experts consider 200mg a floor, not a target — the MFGD trial (Makrides et al., 2010, <em>JAMA</em>) used 800mg DHA daily and found a reduction in early preterm birth. <EvidenceBadge level="moderate" /></p>
+      <p>The WHO and the International Society for the Study of Fatty Acids and Lipids (ISSFAL) both recommend at least <strong>200mg DHA daily</strong> during pregnancy and lactation. ACOG doesn&rsquo;t set a specific number but endorses omega-3 intake through diet or supplementation. Many maternal-fetal medicine experts consider 200mg a floor, not a target — the MFGD trial (Makrides et al., 2010, <em>JAMA</em>) used 800mg DHA daily and found a reduction in early preterm birth. <EvidenceBadge level="moderate" studiesId="omega3-mfgd-makrides-2010" /></p>
 
       <p>Here&rsquo;s the problem: most prenatal vitamins contain 200–300mg DHA at best, and some contain none. If your prenatal lists &ldquo;omega-3&rdquo; without specifying DHA content separately, assume it&rsquo;s insufficient. You&rsquo;ll likely need a standalone DHA supplement to reach 400–800mg daily.</p>
 
@@ -436,7 +436,7 @@ export function BestOmega3() {
       <p>Three landmark omega-3 trials dominate every &ldquo;clinical evidence&rdquo; claim in this market. Understanding what they actually tested — and where the controversies lie — matters before you spend money based on headline results.</p>
 
       <h3>REDUCE-IT (Bhatt et al., 2019, NEJM)</h3>
-      <p><strong>Dose and form:</strong> 4,000 mg/day of icosapent ethyl (pure EPA in ethyl ester form — the prescription drug Vascepa), not a fish oil supplement. <strong>Finding:</strong> 25% relative risk reduction in major cardiovascular events versus placebo in statin-treated patients with elevated triglycerides. <EvidenceBadge level="strong" /> Impressive — but the placebo was mineral oil, which raised LDL-C, hsCRP, and other inflammatory markers in the control group (Olshansky et al., 2020, <em>European Heart Journal</em>). That means the control group may have gotten <em>worse</em>, inflating EPA&rsquo;s apparent benefit. An FDA advisory panel flagged this. The effect is likely real but probably smaller than the headline number suggests.</p>
+      <p><strong>Dose and form:</strong> 4,000 mg/day of icosapent ethyl (pure EPA in ethyl ester form — the prescription drug Vascepa), not a fish oil supplement. <strong>Finding:</strong> 25% relative risk reduction in major cardiovascular events versus placebo in statin-treated patients with elevated triglycerides. <EvidenceBadge level="strong" studiesId="omega3-reduce-it-bhatt-2019" /> Impressive — but the placebo was mineral oil, which raised LDL-C, hsCRP, and other inflammatory markers in the control group (Olshansky et al., 2020, <em>European Heart Journal</em>). That means the control group may have gotten <em>worse</em>, inflating EPA&rsquo;s apparent benefit. An FDA advisory panel flagged this. The effect is likely real but probably smaller than the headline number suggests.</p>
 
       <Callout variant="warning" title="The Mineral Oil Placebo Problem">
         REDUCE-IT&rsquo;s mineral oil placebo measurably worsened biomarkers in the control arm. This doesn&rsquo;t invalidate the trial, but it means the 25% risk reduction likely overstates the true treatment effect. The STRENGTH trial, using an inert corn oil placebo, found no benefit — and this distinction matters.
@@ -502,7 +502,7 @@ export function BestOmega3() {
       </table>
       </div>
 
-      <p>Notice the gap between sticker price and cost per 1,000mg EPA+DHA. Kirkland dominates on raw cost-efficiency but uses ethyl ester form — meaning lower bioavailability unless you consistently take it with a fat-containing meal (Lawson and Hughes, 2010). <EvidenceBadge level="moderate" /> The TG-form products cost 2–4× more per milligram but deliver roughly 70% better absorption (Dyerberg et al., 2010). <EvidenceBadge level="strong" /></p>
+      <p>Notice the gap between sticker price and cost per 1,000mg EPA+DHA. Kirkland dominates on raw cost-efficiency but uses ethyl ester form — meaning lower bioavailability unless you consistently take it with a fat-containing meal (Lawson and Hughes, 2010). <EvidenceBadge level="moderate" /> The TG-form products cost 2–4× more per milligram but deliver roughly 70% better absorption (Dyerberg et al., 2010). <EvidenceBadge level="strong" studiesId="omega3-dyerberg-tg-vs-ee-2010" /></p>
 
       <p>Scores above 8.5 reflect products that hit clinical dosing thresholds in a single serving, use triglyceride form, and carry robust third-party certification. The two budget EE-form options score lower on bioavailability and transparency but remain solid choices if cost is the binding constraint. For details on how EE absorption improves with dietary fat, see our section on <a href="/guides/best-omega-3-supplements">budget-friendly omega-3 options</a> above.</p>
 

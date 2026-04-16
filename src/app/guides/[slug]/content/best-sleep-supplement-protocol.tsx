@@ -128,7 +128,7 @@ export function BestSleepProtocol() {
         3g of glycine before bed improved subjective sleep quality, reduced
         daytime sleepiness, and improved next-day cognition. A companion study in{" "}
         <em>Neuropsychopharmacology</em> confirmed glycine increased time spent in
-        slow-wave (deep) sleep. <EvidenceBadge level="strong" />
+        slow-wave (deep) sleep. <EvidenceBadge level="strong" studiesId="glycine-sleep-bannai-2012" />
       </Callout>
 
       <p>
@@ -366,7 +366,7 @@ export function BestSleepProtocol() {
       <p>Magnesium binds to levothyroxine in the gut, reducing its absorption. Evidence suggests this can lower thyroid hormone levels meaningfully (Cs&aacute;ko et al., 2001). <EvidenceBadge level="strong" /> Take your thyroid medication first thing in the morning on an empty stomach, and take magnesium glycinate at bedtime — this creates a natural 12+ hour buffer. No spacing issues with L-theanine or glycine.</p>
 
       <h3>Blood Pressure Medications</h3>
-      <p>Magnesium has a mild hypotensive effect — roughly 2–5 mmHg systolic in meta-analyses (Zhang et al., 2016). If you&rsquo;re on ACE inhibitors, ARBs, or calcium channel blockers, this could compound the blood-pressure-lowering effect. <EvidenceBadge level="moderate" /> Not dangerous for most people, but worth monitoring. Track your readings for two weeks after starting.</p>
+      <p>Magnesium has a mild hypotensive effect — roughly 2–5 mmHg systolic in meta-analyses (Zhang et al., 2016). If you&rsquo;re on ACE inhibitors, ARBs, or calcium channel blockers, this could compound the blood-pressure-lowering effect. <EvidenceBadge level="moderate" studiesId="magnesium-zhang-bp-2017" /> Not dangerous for most people, but worth monitoring. Track your readings for two weeks after starting.</p>
 
       <h3>SSRIs and SNRIs</h3>
       <p>L-theanine modulates serotonin and GABA activity. While no serious interactions have been documented in clinical literature, the theoretical overlap with serotonergic medications warrants caution. <EvidenceBadge level="emerging" /> Avoid adding L-theanine to your protocol without discussing it with your prescriber — especially if you&rsquo;re on higher-dose SSRIs or combining multiple serotonergic drugs.</p>
@@ -399,11 +399,11 @@ export function BestSleepProtocol() {
 
       <h3>The Case for Threonate</h3>
 
-      <p>Magnesium L-threonate's claim to fame is CNS penetration. A 2010 study by Bhatt et al. in <em>Neuron</em> (Bhatt's co-author Bhatt — more commonly cited as Bhatt et al., though the landmark paper is Bhatt, Sun, and Liu, <em>Neuron</em>, 2010) demonstrated that threonate elevated brain magnesium levels in rats more effectively than other forms, improving synaptic density and memory. A 2022 randomized controlled trial by Zhang et al. in <em>Nutrients</em> found that magnesium threonate combined with vitamins reduced anxiety and improved sleep quality scores in adults — but the multi-ingredient design makes it impossible to attribute the effect to threonate alone. <EvidenceBadge level="emerging" /></p>
+      <p>Magnesium L-threonate's claim to fame is CNS penetration. A 2010 study by Bhatt et al. in <em>Neuron</em> (Bhatt's co-author Bhatt — more commonly cited as Bhatt et al., though the landmark paper is Bhatt, Sun, and Liu, <em>Neuron</em>, 2010) demonstrated that threonate elevated brain magnesium levels in rats more effectively than other forms, improving synaptic density and memory. A 2022 randomized controlled trial by Zhang et al. in <em>Nutrients</em> found that magnesium threonate combined with vitamins reduced anxiety and improved sleep quality scores in adults — but the multi-ingredient design makes it impossible to attribute the effect to threonate alone. <EvidenceBadge level="emerging" studiesId="magnesium-zhang-bp-2017" /></p>
 
       <h3>The Case for Glycinate</h3>
 
-      <p>Magnesium glycinate has broader clinical support for sleep specifically. The Abbasi et al. (2012) RCT referenced in our core stack showed significant improvements in sleep efficiency, sleep time, and melatonin levels. Beyond the magnesium itself, the glycine component has independent sleep benefits — lowering core body temperature via peripheral vasodilation (Yamadera et al., 2007). You're getting two sleep-active compounds in one molecule. <EvidenceBadge level="moderate" /></p>
+      <p>Magnesium glycinate has broader clinical support for sleep specifically. The Abbasi et al. (2012) RCT referenced in our core stack showed significant improvements in sleep efficiency, sleep time, and melatonin levels. Beyond the magnesium itself, the glycine component has independent sleep benefits — lowering core body temperature via peripheral vasodilation (Yamadera et al., 2007). You're getting two sleep-active compounds in one molecule. <EvidenceBadge level="moderate" studiesId="magnesium-abbasi-sleep-2012" /></p>
 
       <h3>The Cost Problem</h3>
 
@@ -411,7 +411,7 @@ export function BestSleepProtocol() {
 
       <h3>The Verdict</h3>
 
-      <p>No head-to-head human trial has compared magnesium threonate vs. glycinate for sleep outcomes. The threonate-specific evidence is built largely on animal models for cognition and one confounded human trial. Glycinate has cleaner sleep data, delivers more elemental magnesium per dollar, and comes bundled with glycine's own sleep benefits. Unless future RCTs demonstrate a clear sleep advantage for threonate, glycinate remains the stronger recommendation for this protocol. <EvidenceBadge level="moderate" /></p>
+      <p>No head-to-head human trial has compared magnesium threonate vs. glycinate for sleep outcomes. The threonate-specific evidence is built largely on animal models for cognition and one confounded human trial. Glycinate has cleaner sleep data, delivers more elemental magnesium per dollar, and comes bundled with glycine's own sleep benefits. Unless future RCTs demonstrate a clear sleep advantage for threonate, glycinate remains the stronger recommendation for this protocol. <EvidenceBadge level="moderate" studiesId="glycine-sleep-bannai-2012" /></p>
 
       <Callout variant="info" title="Bottom line">
       If you've already bought threonate and it's working for you, there's no safety reason to switch. But if you're choosing between the two, glycinate gives you more evidence, more elemental magnesium, and a built-in glycine bonus — at a fraction of the cost. For more on absorption differences between magnesium forms, see our <a href="/guides/magnesium-deficiency">magnesium deficiency guide</a>.

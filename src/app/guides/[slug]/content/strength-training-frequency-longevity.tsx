@@ -109,7 +109,7 @@ export function StrengthTrainingFrequencyLongevity() {
         A 2016 meta-analysis by Schoenfeld et al. in <em>Sports Medicine</em>{" "}
         found that training each muscle group twice per week produced roughly{" "}
         <strong>double the hypertrophy</strong> of once per week.{" "}
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge level="strong" studiesId="protein-timing-schoenfeld-2013" />
       </Callout>
 
       <p>

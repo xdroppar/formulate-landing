@@ -453,7 +453,7 @@ export function MagnesiumDeficiency() {
 
 <h3>What the Evidence Actually Shows</h3>
 
-<p>A 2016 meta-analysis by Zhang et al., published in <em>Hypertension</em>, pooled 34 randomized controlled trials totaling over 2,000 participants. The finding: magnesium supplementation at a median dose of ~368 mg/day reduced systolic blood pressure by approximately 2 mmHg and diastolic by roughly 1.78 mmHg. <EvidenceBadge level="strong" /> That sounds modest until you realize that population-wide, a 2 mmHg systolic reduction is associated with a 10% lower risk of stroke mortality (Stamler, 1991).</p>
+<p>A 2016 meta-analysis by Zhang et al., published in <em>Hypertension</em>, pooled 34 randomized controlled trials totaling over 2,000 participants. The finding: magnesium supplementation at a median dose of ~368 mg/day reduced systolic blood pressure by approximately 2 mmHg and diastolic by roughly 1.78 mmHg. <EvidenceBadge level="strong" studiesId="magnesium-zhang-bp-2017" /> That sounds modest until you realize that population-wide, a 2 mmHg systolic reduction is associated with a 10% lower risk of stroke mortality (Stamler, 1991).</p>
 
 <p>A separate meta-analysis by Dibaba et al. (2017) in the <em>Journal of Clinical Hypertension</em> largely confirmed these numbers and noted that the effect was more pronounced in studies lasting 12 weeks or longer and using doses above 300 mg/day.</p>
 

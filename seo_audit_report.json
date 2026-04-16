@@ -50,6 +50,24 @@
     "total": 39.2
   },
   {
+    "slug": "ashwagandha-for-testosterone",
+    "title": "Ashwagandha for Testosterone: What the Evidence Actually Shows",
+    "category": "review",
+    "word_count": 4610,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 31)"
+    ],
+    "total": 39.0
+  },
+  {
     "slug": "how-to-build-a-supplement-stack",
     "title": "How to Build a Supplement Stack (2026) \u2014 Evidence-Based",
     "category": "guide",
@@ -82,6 +100,22 @@
     "total": 39.0
   },
   {
+    "slug": "zinc-guide",
+    "title": "Zinc Supplement Guide 2026: Evidence-Based & Ranked",
+    "category": "guide",
+    "word_count": 4789,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 39.0
+  },
+  {
     "slug": "best-magnesium-supplements",
     "title": "Best Magnesium Supplements 2026, Ranked by Clinical Evidence",
     "category": "roundup",
@@ -98,38 +132,20 @@
     "total": 38.9
   },
   {
-    "slug": "zinc-guide",
-    "title": "Zinc Supplement Guide 2026: Evidence-Based & Ranked",
-    "category": "guide",
-    "word_count": 4789,
-    "intent_fit": 4.5,
+    "slug": "best-multivitamin-over-50",
+    "title": "Best Multivitamin for Adults Over 50: What to Actually Look For",
+    "category": "roundup",
+    "word_count": 5394,
+    "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.5,
-    "unique_value": 5,
+    "unique_value": 4.3,
     "internal_linking": 5,
     "actionability": 5,
-    "trust": 4.8,
+    "trust": 5,
     "engagement": 5,
     "notes": [],
     "total": 38.8
-  },
-  {
-    "slug": "ashwagandha-for-testosterone",
-    "title": "Ashwagandha for Testosterone: What the Evidence Actually Shows",
-    "category": "review",
-    "word_count": 3965,
-    "intent_fit": 4.5,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 5,
-    "internal_linking": 5,
-    "actionability": 4.7,
-    "trust": 5,
-    "engagement": 5,
-    "notes": [
-      "low readability (Flesch 31)"
-    ],
-    "total": 38.7
   },
   {
     "slug": "taurine-guide",
@@ -166,22 +182,6 @@
     "total": 38.6
   },
   {
-    "slug": "best-multivitamin-over-50",
-    "title": "Best Multivitamin for Adults Over 50: What to Actually Look For",
-    "category": "roundup",
-    "word_count": 4615,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 4.3,
-    "internal_linking": 5,
-    "actionability": 5,
-    "trust": 4.8,
-    "engagement": 5,
-    "notes": [],
-    "total": 38.6
-  },
-  {
     "slug": "nac-guide",
     "title": "NAC Supplement Guide 2026 | Evidence-Based Overview",
     "category": "guide",
@@ -200,6 +200,24 @@
     "total": 38.6
   },
   {
+    "slug": "best-collagen-for-joints",
+    "title": "Best Collagen for Joints: Type II vs Type I for Cartilage Support",
+    "category": "roundup",
+    "word_count": 4837,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 4.8,
+    "trust": 4.2,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 38)"
+    ],
+    "total": 38.5
+  },
+  {
     "slug": "nootropics-guide",
     "title": "Nootropics Guide 2026: Ranked by Clinical Evidence",
     "category": "guide",
@@ -216,24 +234,6 @@
       "low readability (Flesch 37)"
     ],
     "total": 38.5
-  },
-  {
-    "slug": "best-collagen-for-joints",
-    "title": "Best Collagen for Joints: Type II vs Type I for Cartilage Support",
-    "category": "roundup",
-    "word_count": 4096,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 5,
-    "internal_linking": 5,
-    "actionability": 4.7,
-    "trust": 4.2,
-    "engagement": 5,
-    "notes": [
-      "low readability (Flesch 38)"
-    ],
-    "total": 38.4
   },
   {
     "slug": "vitamin-b12-guide",
@@ -461,19 +461,35 @@
     "slug": "magnesium-for-anxiety",
     "title": "Magnesium for Anxiety: The Glycinate-GABA Connection",
     "category": "guide",
-    "word_count": 3600,
+    "word_count": 4245,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
     "unique_value": 5,
     "internal_linking": 5,
     "actionability": 4.6,
-    "trust": 5.0,
+    "trust": 5,
     "engagement": 5,
     "notes": [
       "low readability (Flesch 32)"
     ],
     "total": 37.1
+  },
+  {
+    "slug": "beginner-longevity-supplement-stack",
+    "title": "Longevity Supplement Stack for Beginners 2026",
+    "category": "guide",
+    "word_count": 4643,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.5,
+    "internal_linking": 5,
+    "actionability": 4.6,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 36.6
   },
   {
     "slug": "best-adaptogens-for-stress",
@@ -494,38 +510,40 @@
     "total": 36.5
   },
   {
-    "slug": "beginner-longevity-supplement-stack",
-    "title": "Longevity Supplement Stack for Beginners 2026",
-    "category": "guide",
-    "word_count": 4643,
-    "intent_fit": 3.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 4.5,
-    "internal_linking": 5,
-    "actionability": 4.6,
-    "trust": 4.8,
-    "engagement": 5,
-    "notes": [],
-    "total": 36.4
-  },
-  {
     "slug": "berberine-vs-metformin",
     "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
     "category": "review",
-    "word_count": 3564,
+    "word_count": 4175,
     "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.0,
-    "unique_value": 4.7,
+    "unique_value": 4.9,
     "internal_linking": 5,
-    "actionability": 3.0,
+    "actionability": 3.2,
     "trust": 4.2,
     "engagement": 5,
     "notes": [
       "low readability (Flesch 29)"
     ],
-    "total": 35.9
+    "total": 36.3
+  },
+  {
+    "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
+    "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
+    "category": "review",
+    "word_count": 2921,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 2.3,
+    "internal_linking": 5,
+    "actionability": 4.7,
+    "trust": 4.2,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 27)"
+    ],
+    "total": 35.7
   },
   {
     "slug": "sarcopenia-reverse-muscle-loss",
@@ -583,7 +601,7 @@
     "slug": "nac-and-alcohol",
     "title": "NAC and Alcohol: The Liver Protection Timing Question",
     "category": "review",
-    "word_count": 3301,
+    "word_count": 3745,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
@@ -599,54 +617,36 @@
     "total": 34.9
   },
   {
-    "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
-    "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
-    "category": "review",
-    "word_count": 2272,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 2.3,
-    "internal_linking": 5,
-    "actionability": 4.2,
-    "trust": 3.8,
-    "engagement": 5,
-    "notes": [
-      "low readability (Flesch 26)"
-    ],
-    "total": 34.8
-  },
-  {
     "slug": "creatine-for-endurance-athletes",
     "title": "Creatine for Endurance Athletes: The Overlooked Performance Tool",
     "category": "guide",
-    "word_count": 3625,
+    "word_count": 4320,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
-    "unique_value": 2.5,
+    "unique_value": 2.6,
     "internal_linking": 5,
     "actionability": 4.6,
-    "trust": 4.1,
+    "trust": 5,
     "engagement": 5,
     "notes": [],
-    "total": 33.7
+    "total": 34.7
   },
   {
     "slug": "zinc-for-immune-support",
     "title": "Zinc for Immune Support: Timing and Form Matter More Than Dose",
     "category": "guide",
-    "word_count": 2198,
+    "word_count": 2695,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
-    "unique_value": 4.2,
+    "unique_value": 4.4,
     "internal_linking": 4.8,
-    "actionability": 4.6,
+    "actionability": 4.7,
     "trust": 2.5,
     "engagement": 5,
     "notes": [],
-    "total": 33.6
+    "total": 33.9
   },
   {
     "slug": "creatine-and-hair-loss",
@@ -704,17 +704,17 @@
     "slug": "probiotic-strains-for-ibs",
     "title": "Probiotic Strains for IBS: Which Actually Have Evidence",
     "category": "review",
-    "word_count": 2257,
+    "word_count": 2860,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
     "unique_value": 3.9,
     "internal_linking": 4.2,
-    "actionability": 1.6,
+    "actionability": 1.8,
     "trust": 5,
     "engagement": 5,
     "notes": [],
-    "total": 32.2
+    "total": 32.4
   },
   {
     "slug": "protein-intake-muscle-after-40",
@@ -743,12 +743,10 @@
     "unique_value": 4.2,
     "internal_linking": 3.6,
     "actionability": 2.3,
-    "trust": 2.2,
+    "trust": 2.5,
     "engagement": 5,
-    "notes": [
-      "weak citation density"
-    ],
-    "total": 28.7
+    "notes": [],
+    "total": 29.0
   },
   {
     "slug": "how-to-train-after-50",

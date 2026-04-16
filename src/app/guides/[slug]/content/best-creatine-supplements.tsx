@@ -243,7 +243,7 @@ export function BestCreatine() {
           <strong>Vegetarians and vegans:</strong> Dietary creatine comes primarily
           from meat. People who don&rsquo;t eat meat tend to have lower baseline
           creatine stores and often see more pronounced benefits from
-          supplementation. <EvidenceBadge level="moderate" />
+          supplementation. <EvidenceBadge level="moderate" studiesId="creatine-kreider-issn-2017" />
         </li>
       </ul>
 
@@ -320,7 +320,7 @@ export function BestCreatine() {
       <Callout variant="info" title="&ldquo;Creatine causes hair loss&rdquo;">
         Based on a single 2009 study on rugby players that measured DHT. The study
         has never been replicated, and no subsequent research has found a direct link
-        between <a href="/guides/creatine-and-hair-loss">creatine and hair loss</a>. <EvidenceBadge level="emerging" />
+        between <a href="/guides/creatine-and-hair-loss">creatine and hair loss</a>. <EvidenceBadge level="emerging" studiesId="creatine-kreider-issn-2017" />
       </Callout>
 
       <Callout variant="info" title="&ldquo;You need to cycle creatine&rdquo;">
@@ -475,7 +475,7 @@ export function BestCreatine() {
 
       <h3>Why One Study Isn't a Consensus</h3>
 
-      <p>This was nine subjects, one protocol, one measure. A 2017 meta-analysis by Trexler and Smith-Ryan in the <em>Journal of Strength and Conditioning Research</em> found that co-ingestion of caffeine and creatine did <strong>not</strong> negate creatine's ergogenic effects across the broader literature. A later review by Kreider et al. (2017) in the ISSN position stand made no recommendation to separate the two. <EvidenceBadge level="moderate" /></p>
+      <p>This was nine subjects, one protocol, one measure. A 2017 meta-analysis by Trexler and Smith-Ryan in the <em>Journal of Strength and Conditioning Research</em> found that co-ingestion of caffeine and creatine did <strong>not</strong> negate creatine's ergogenic effects across the broader literature. A later review by Kreider et al. (2017) in the ISSN position stand made no recommendation to separate the two. <EvidenceBadge level="moderate" studiesId="creatine-kreider-issn-2017" /></p>
 
       <Callout variant="info" title="Practical takeaway">
       There is no strong evidence that your morning coffee or <a href="/guides/best-creatine-supplements">pre-workout caffeine</a> cancels out creatine supplementation. Muscle creatine uptake appears unaffected. The Vandenberghe finding on performance output has not been reliably replicated in subsequent research.
@@ -513,7 +513,7 @@ export function BestCreatine() {
 
       <h3>The Antagonism Debate</h3>
 
-      <p>The idea that caffeine "cancels out" creatine traces back to a single 1996 study by Vandenberghe et al. that found caffeine negated creatine's benefits on intermittent muscle relaxation time. But the protocol was unusual — subjects loaded creatine for six days, <em>then</em> added caffeine. Subsequent research has largely failed to confirm the effect. A 2017 meta-analysis by Trexler and Smith-Ryan found no consistent evidence that caffeine impairs creatine's ergogenic benefits on strength or power output when co-ingested. <EvidenceBadge level="moderate" /> The conflict appears overstated.</p>
+      <p>The idea that caffeine "cancels out" creatine traces back to a single 1996 study by Vandenberghe et al. that found caffeine negated creatine's benefits on intermittent muscle relaxation time. But the protocol was unusual — subjects loaded creatine for six days, <em>then</em> added caffeine. Subsequent research has largely failed to confirm the effect. A 2017 meta-analysis by Trexler and Smith-Ryan found no consistent evidence that caffeine impairs creatine's ergogenic benefits on strength or power output when co-ingested. <EvidenceBadge level="moderate" studiesId="creatine-smith-ryan-women-2021" /> The conflict appears overstated.</p>
 
       <h3>Practical Stacking Guidance</h3>
 

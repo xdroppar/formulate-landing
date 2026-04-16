@@ -138,7 +138,7 @@ export function CreatineForEnduranceAthletes() {
       <ul>
         <li><strong>Form:</strong> Creatine monohydrate. It&rsquo;s the most studied, most effective, and cheapest form. See our <a href="/guides/best-creatine-supplements">best creatine supplements</a> guide for vetted options.</li>
         <li><strong>Dose:</strong> 3&ndash;5 g daily. Larger athletes (&gt;200 lbs) may benefit from the higher end.</li>
-        <li><strong>Timing:</strong> Doesn&rsquo;t matter much. Post-workout with food may slightly enhance uptake (Antonio &amp; Ciccone, 2013), but consistency matters more than timing. <EvidenceBadge level="emerging" /></li>
+        <li><strong>Timing:</strong> Doesn&rsquo;t matter much. Post-workout with food may slightly enhance uptake (Antonio &amp; Ciccone, 2013), but consistency matters more than timing. <EvidenceBadge level="emerging" studiesId="creatine-post-vs-pre-antonio-2013" /></li>
         <li><strong>Cycling:</strong> Not necessary. The ISSN position stand found no evidence that cycling on and off creatine provides any advantage. Daily use is safe long-term.</li>
         <li><strong>Duration to see effects:</strong> Plan on 3&ndash;4 weeks of daily dosing before stores are saturated (without a loading phase).</li>
       </ul>
@@ -190,6 +190,41 @@ export function CreatineForEnduranceAthletes() {
       <h3>Can I take creatine if I&rsquo;m a female endurance athlete?</h3>
       <p>
         Yes. Creatine works identically in female athletes. Women may actually see relatively greater benefits because they tend to have lower baseline creatine stores (due to lower average dietary meat intake and smaller muscle mass). The dose is the same: 3&ndash;5 g/day. Emerging research also suggests potential benefits for bone health and mood, though these are still being investigated. <EvidenceBadge level="emerging" />
+      </p>
+
+      <h3>does creatine affect VO2max or lactate threshold at all</h3>
+      <p>
+        Creatine does not directly improve VO&#8322;max or lactate threshold. VO&#8322;max is governed by oxygen delivery mechanisms&mdash;cardiac output, hemoglobin mass, mitochondrial density&mdash;that creatine doesn&rsquo;t influence. Graef et al. (2009) confirmed no VO&#8322;max differences after four weeks of creatine supplementation. Lactate threshold depends on MCT density and buffering capacity; Nelson et al. (2000) found no effect on ventilatory threshold or blood lactate. The indirect benefit: creatine lets you sustain target power through more interval repeats, compounding training quality that drives aerobic adaptation over a full mesocycle.
+      </p>
+
+      <h3>creatine and GI issues during running or triathlon</h3>
+      <p>
+        GI distress from creatine is almost entirely dose- and timing-dependent. Loading doses (20&nbsp;g/day) are the primary culprit&mdash;Ostojic and Ahmetovic (2008) found significantly higher GI side effects at loading doses versus the 3&ndash;5&nbsp;g maintenance dose. Skip the loading phase entirely to avoid this. Never take creatine mid-run or mixed into on-course fueling; your gut is already stressed during sustained efforts. If you train early with minimal food, take creatine post-workout with a meal. Switching to micronized monohydrate, which dissolves more completely, reduces complaints for athletes with sensitive stomachs.
+      </p>
+
+      <h3>best creatine for vegans or vegetarians endurance athlete</h3>
+      <p>
+        Standard creatine monohydrate is both vegan-compatible and the highest-value option for plant-based athletes. It&rsquo;s synthesized from sarcosine and cyanamide&mdash;no animal-derived ingredients. More importantly, vegan and vegetarian athletes have the lowest baseline intramuscular creatine stores of any dietary group. Burke et al. (2003) found vegetarians had roughly 50% lower resting creatine concentrations than omnivores and experienced greater gains in creatine stores and work capacity when supplementing. You don&rsquo;t need a specialty product&mdash;just look for third-party testing certification. Protocol is unchanged: 3&ndash;5&nbsp;g daily with food.
+      </p>
+
+      <h3>creatine and altitude training or hypoxic adaptation</h3>
+      <p>
+        The guide doesn&rsquo;t cover creatine and altitude training directly, and the evidence base here remains early-stage. What the guide does establish is that creatine may support thermoregulation via intracellular water retention and that its benefits concentrate in high-intensity, high-demand training blocks&mdash;conditions that describe altitude camps. For decisions about supplementation during a structured altitude block, consult a sports medicine physician or exercise physiologist familiar with hypoxic training protocols.
+      </p>
+
+      <h3>creatine timing around long rides or runs vs short intervals</h3>
+      <p>
+        The guide recommends post-workout with food as a slight edge for uptake, but emphasizes consistency over precision timing. That principle holds across training day types. On long ride or run days, take creatine with your post-session recovery meal alongside carbohydrate&mdash;which the guide notes enhances creatine uptake (Green et al., 1996). On short interval days, the same applies. What the guide explicitly warns against is taking creatine mid-workout or on a near-empty stomach. The specific mechanism of benefit is chronic muscle saturation, not acute dosing around any single session.
+      </p>
+
+      <h3>does creatine interact with sodium bicarbonate or beta alanine buffering for triathlon</h3>
+      <p>
+        The guide covers the creatine-plus-beta-alanine combination: they target different bottlenecks (ATP recycling vs. hydrogen ion buffering), and Hoffman et al. (2006) found the pairing improved high-intensity endurance performance more than either alone. Sodium bicarbonate isn&rsquo;t addressed in the guide. For questions about a three-way creatine, beta-alanine, and sodium bicarbonate stack&mdash;including timing interactions and GI load, which is already substantial with bicarb&mdash;consult a sports dietitian. Stacking multiple buffering agents involves practical GI considerations the guide doesn&rsquo;t cover.
+      </p>
+
+      <h3>creatine monohydrate vs creatine HCl for runners who hate water weight</h3>
+      <p>
+        The guide recommends creatine monohydrate exclusively as the most studied and effective form. Creatine HCl is marketed as causing less water retention, but this claim lacks the research backing that monohydrate has. The intracellular water weight from monohydrate&mdash;1&ndash;2&nbsp;lbs&mdash;is stored inside muscle cells, not subcutaneously. If the gradual fluid shift still bothers you, the guide&rsquo;s answer isn&rsquo;t a different form: it&rsquo;s skipping the loading phase and taking 3&ndash;5&nbsp;g daily from the start, which produces a slower, less noticeable shift. No exotic form is necessary or supported by the evidence reviewed here.
       </p>
 
       <h2>Creatine for Endurance Athletes: What the Evidence Actually Shows About VO₂max and Lactate Threshold</h2>
@@ -276,7 +311,7 @@ export function CreatineForEnduranceAthletes() {
 
       <h3>Off-Season: Your Call</h3>
 
-      <p>Here's where a phase-specific creatine protocol gets genuinely optional. If you have a true off-season between your fall marathon and spring triathlon—say, 6–8 weeks of reduced or unstructured training—you <em>can</em> stop supplementing without consequence. You'll lose the intracellular water weight (1–2 lbs) and your stores will gradually return to baseline. Some athletes appreciate the psychological "reset." Others find it simpler to keep the daily habit year-round, which the ISSN confirms is safe long-term (Kreider et al., 2017). <EvidenceBadge level="strong" /></p>
+      <p>Here's where a phase-specific creatine protocol gets genuinely optional. If you have a true off-season between your fall marathon and spring triathlon—say, 6–8 weeks of reduced or unstructured training—you <em>can</em> stop supplementing without consequence. You'll lose the intracellular water weight (1–2 lbs) and your stores will gradually return to baseline. Some athletes appreciate the psychological "reset." Others find it simpler to keep the daily habit year-round, which the ISSN confirms is safe long-term (Kreider et al., 2017). <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" /></p>
 
       <p>If you do pause, restart 3–4 weeks before your next build phase begins. The math is simple: count backward from your first hard training block, not your race.</p>
 

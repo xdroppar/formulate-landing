@@ -79,11 +79,11 @@ export function BestMultivitaminOver50() {
       <h2>Vitamin D: The Aging Deficiency</h2>
 
       <p>
-        Vitamin D deficiency is endemic in older adults. The skin&rsquo;s ability to synthesize D3 from sunlight declines roughly 75% between age 20 and 70 (MacLaughlin &amp; Holick, 1985). <EvidenceBadge level="strong" /> Combine that with less outdoor time, more clothing coverage, and declining kidney conversion &mdash; and you have a perfect storm.
+        Vitamin D deficiency is endemic in older adults. The skin&rsquo;s ability to synthesize D3 from sunlight declines roughly 75% between age 20 and 70 (MacLaughlin &amp; Holick, 1985). <EvidenceBadge level="strong" studiesId="vitamin-d-holick-endocrine-2011" /> Combine that with less outdoor time, more clothing coverage, and declining kidney conversion &mdash; and you have a perfect storm.
       </p>
 
       <p>
-        The RDA of 600&ndash;800 IU for adults over 50 is widely considered insufficient by most functional and integrative practitioners. The Endocrine Society recommends 1,500&ndash;2,000 IU/day for adults at risk of deficiency (Holick et al., 2011). <EvidenceBadge level="strong" /> Many older adults need 4,000&ndash;5,000 IU to reach optimal serum levels of 40&ndash;60 ng/mL.
+        The RDA of 600&ndash;800 IU for adults over 50 is widely considered insufficient by most functional and integrative practitioners. The Endocrine Society recommends 1,500&ndash;2,000 IU/day for adults at risk of deficiency (Holick et al., 2011). <EvidenceBadge level="strong" studiesId="vitamin-d-holick-endocrine-2011" /> Many older adults need 4,000&ndash;5,000 IU to reach optimal serum levels of 40&ndash;60 ng/mL.
       </p>
 
       <Callout variant="tip" title="Test before you dose">
@@ -91,7 +91,7 @@ export function BestMultivitaminOver50() {
       </Callout>
 
       <p>
-        Always look for D3 (cholecalciferol), not D2. D3 raises serum levels more effectively and sustains them longer (Tripkovic et al., 2012). <EvidenceBadge level="strong" /> Our roundup of the <a href="/guides/best-vitamin-d-supplements">best vitamin D supplements</a> covers standalone options if your multi falls short.
+        Always look for D3 (cholecalciferol), not D2. D3 raises serum levels more effectively and sustains them longer (Tripkovic et al., 2012). <EvidenceBadge level="strong" studiesId="vitamin-d-tripkovic-d3vsd2-2012" /> Our roundup of the <a href="/guides/best-vitamin-d-supplements">best vitamin D supplements</a> covers standalone options if your multi falls short.
       </p>
 
       <h2>Calcium + K2: The Bone Direction Question</h2>
@@ -105,7 +105,7 @@ export function BestMultivitaminOver50() {
       </p>
 
       <p>
-        Vitamin K2 activates osteocalcin (which pulls calcium into bone) and matrix GLA protein (which keeps calcium out of arteries). Knapen et al. (2015) demonstrated that 180 mcg/day of MK-7 significantly improved bone mineral density and reduced arterial stiffness in postmenopausal women over three years. <EvidenceBadge level="moderate" />
+        Vitamin K2 activates osteocalcin (which pulls calcium into bone) and matrix GLA protein (which keeps calcium out of arteries). Knapen et al. (2015) demonstrated that 180 mcg/day of MK-7 significantly improved bone mineral density and reduced arterial stiffness in postmenopausal women over three years. <EvidenceBadge level="moderate" studiesId="vitamin-d-knapen-k2-2017" />
       </p>
 
       <Callout variant="info" title="Calcium dosing rules">
@@ -230,6 +230,46 @@ export function BestMultivitaminOver50() {
         &ldquo;Food-based&rdquo; and &ldquo;whole food&rdquo; multivitamins are a marketing category, not a scientific one. Some use nutrient-enriched yeast, which may improve tolerance but doesn&rsquo;t necessarily improve absorption. What matters more is the specific <em>form</em> of each nutrient (methylcobalamin vs. cyanocobalamin, D3 vs. D2) and whether doses are clinically meaningful.
       </p>
 
+      <h3>Can I take too much vitamin D3 as an older adult?</h3>
+      <p>
+        Yes &mdash; vitamin D3 is fat-soluble, meaning it accumulates in body fat and can reach toxic levels over time. The guide recommends up to 5,000&nbsp;IU/day for some older adults but does not detail toxicity thresholds or symptoms. Vitamin D toxicity (hypercalcemia) can cause nausea, weakness, kidney damage, and cardiac issues. If you&rsquo;re combining a multivitamin with a standalone D3 supplement, total daily intake can exceed safe limits without realizing it. Get a 25-hydroxyvitamin D blood test before adding standalone D3, and consult your physician about your specific ceiling dose.
+      </p>
+
+      <h3>What is the best multivitamin for over 50 that I can buy at Walmart or CVS?</h3>
+      <p>
+        The guide&rsquo;s top picks (Thorne, Pure Encapsulations, Nordic Naturals) are primarily available online or at specialty retailers. However, the guide does address accessible budget options: Centrum Silver, Kirkland Mature Multi (Costco), and Nature Made Multi 50+ ($4&ndash;$10/month) get the basics right &mdash; iron-free, reasonable B12 doses, broad micronutrient coverage. Their shared gaps are low D3 (1,000&nbsp;IU) and no K2. The guide recommends adding a D3/K2 combo supplement (~$2&ndash;3/month) to close both gaps for under $13/month total.
+      </p>
+
+      <h3>Do I need a multivitamin if I eat a healthy diet after 50?</h3>
+      <p>
+        Possibly yes, even with a good diet &mdash; primarily because of B12. After 50, gastric acid declines 20&ndash;30%, which impairs your ability to extract B12 from food proteins, regardless of how much meat or dairy you eat. Nearly 40% of adults show low-normal B12 levels (Framingham Offspring Study). Supplemental B12 bypasses this absorption problem because it&rsquo;s already in free form. A healthy diet matters, but it can&rsquo;t compensate for a digestive system that&rsquo;s less efficient at liberating nutrients from food.
+      </p>
+
+      <h3>Are the nutritional differences between men&rsquo;s and women&rsquo;s multivitamins over 50 actually meaningful?</h3>
+      <p>
+        The guide identifies iron as the clearest difference: postmenopausal women and most men should both choose iron-free formulas, making that distinction largely moot after menopause. Beyond iron, the guide notes the overlap between sexes is substantial and both should prioritize methylcobalamin B12, D3, and K2. The guide does not address sex-specific considerations like boron for estrogen metabolism, iodine needs tied to thyroid changes, or zinc dosing for testosterone-related concerns in men. For those questions, consult a healthcare provider.
+      </p>
+
+      <h3>Should I take my multivitamin in the morning or at night?</h3>
+      <p>
+        Morning with your fattiest meal is the guide&rsquo;s recommended window for your multivitamin, D3, K2, and omega-3s &mdash; all fat-soluble nutrients that absorb significantly better with dietary fat (one study found ~50% higher D3 absorption with a fat-containing meal). Take magnesium (glycinate or citrate, 200&ndash;400&nbsp;mg) in the evening to avoid competing with calcium and to support sleep. If you take levothyroxine, take it 30&ndash;60 minutes before breakfast on an empty stomach &mdash; your multivitamin should wait until you eat.
+      </p>
+
+      <h3>Is it safe to take a multivitamin with metformin or statins?</h3>
+      <p>
+        Both interactions are clinically relevant. Metformin depletes B12 &mdash; one trial found a 19% reduction in B12 levels over 4 years &mdash; which compounds age-related absorption decline. If you take metformin, a multivitamin with 500&ndash;1,000&nbsp;mcg of methylcobalamin is especially important, and annual B12 monitoring is warranted. Statins deplete CoQ10 by 20&ndash;40%, potentially contributing to muscle fatigue; most multivitamins don&rsquo;t include CoQ10, so a standalone 100&ndash;200&nbsp;mg supplement taken with a fat-containing meal is a reasonable addition. Discuss both with your physician.
+      </p>
+
+      <h3>What multivitamin is safe with kidney disease stage 3?</h3>
+      <p>
+        The guide doesn&rsquo;t cover this directly. It notes that kidney patients should get nephrologist approval before taking any multivitamin &mdash; including standard formulas &mdash; because impaired kidneys can&rsquo;t efficiently excrete excess potassium, phosphorus, or certain B vitamins, and vitamin D metabolism is altered in CKD. No specific product recommendation is appropriate here. If you have CKD stage 3, bring your full supplement list to your nephrologist before starting or changing anything. This is not a decision to make based on general supplement guidance.
+      </p>
+
+      <h3>How long until I notice if a multivitamin is working?</h3>
+      <p>
+        The guide doesn&rsquo;t set explicit timelines, and subjective changes are unreliable markers &mdash; B12 insufficiency symptoms like fatigue and cognitive fog overlap with normal aging and may improve gradually over weeks or not at all in ways you&rsquo;d notice. The guide&rsquo;s recommended measure is annual bloodwork: 25-hydroxyvitamin D, serum B12 or methylmalonic acid, ferritin, RBC magnesium, and a metabolic panel. These labs &mdash; not how you feel after a few weeks &mdash; tell you whether your regimen is working or just producing expensive urine.
+      </p>
+
       <h2>Budget-Friendly Options: What to Do If You Can't Afford Premium Brands</h2>
 
       <p>The <strong>best multivitamin over 50</strong> doesn't have to cost $40–55/month. Centrum Silver, Kirkland Mature Multi (Costco), and Nature Made Multi for Him/Her 50+ all cost between $4–$10/month and get several things right: they're iron-free (most formulations), they include B12 at reasonable doses, and they provide a broad micronutrient base. But each has predictable gaps when measured against the criteria in this guide.</p>
@@ -342,7 +382,7 @@ export function BestMultivitaminOver50() {
 
       <h3>The K2 Question — Promising but Not Proven</h3>
 
-      <p>Vitamin K2 (MK-7) is often presented as the solution to calcium's arterial risk. Knapen et al. (2015) did show that 180 mcg/day of MK-7 improved arterial stiffness markers in postmenopausal women — but that study didn't test whether K2 specifically prevents the cardiovascular harms associated with calcium supplementation. No randomized trial has directly demonstrated that adding K2 to calcium neutralizes the risks Bolland identified. K2 is a <em>reasonable precaution</em>, not a proven fix. <EvidenceBadge level="emerging" /></p>
+      <p>Vitamin K2 (MK-7) is often presented as the solution to calcium's arterial risk. Knapen et al. (2015) did show that 180 mcg/day of MK-7 improved arterial stiffness markers in postmenopausal women — but that study didn't test whether K2 specifically prevents the cardiovascular harms associated with calcium supplementation. No randomized trial has directly demonstrated that adding K2 to calcium neutralizes the risks Bolland identified. K2 is a <em>reasonable precaution</em>, not a proven fix. <EvidenceBadge level="emerging" studiesId="vitamin-d-knapen-k2-2017" /></p>
 
       <Callout variant="warning" title="Don't assume K2 makes calcium supplements safe">
       The claim that K2 "redirects calcium from arteries to bones" is mechanistically plausible but clinically unproven as a strategy to offset supplemental calcium's cardiovascular signal. Treat it as an open question, not a settled one.
