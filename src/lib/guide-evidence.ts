@@ -365,6 +365,58 @@ export const studies: Record<string, Study> = {
     summary: "DHA-rich supplementation during pregnancy did not reduce postnatal depression or improve infant neurodevelopment at 18 months.",
   },
 
+  // ------------------------------- Zinc / immune
+  "zinc-hemila-cold-2017": {
+    authors: "Hemilä",
+    year: 2017,
+    journal: "BMJ Open",
+    title: "Zinc lozenges and the common cold: a meta-analysis comparing zinc acetate and zinc gluconate, and the role of zinc dosage",
+    url: "https://pubmed.ncbi.nlm.nih.gov/28515951/",
+    summary: "Meta-analysis of zinc lozenge trials showing ~33% reduction in cold duration at 80–92 mg/day elemental zinc when started within 24 hours of symptoms.",
+  },
+  "zinc-science-zn-copper-2016": {
+    authors: "Willis et al.",
+    year: 2005,
+    journal: "American Journal of Clinical Nutrition",
+    title: "Zinc-induced copper deficiency: a report of three cases initially recognized on bone marrow examination",
+    url: "https://pubmed.ncbi.nlm.nih.gov/16155279/",
+    summary: "Documented cases of copper deficiency from chronic high-dose zinc supplementation — supports the 1–2 mg copper pairing guideline.",
+  },
+
+  // ------------------------------- Probiotics (expanded)
+  "probiotics-ibs-meta-ford-2014": {
+    authors: "Ford et al.",
+    year: 2014,
+    journal: "American Journal of Gastroenterology",
+    title: "Efficacy of prebiotics, probiotics, and synbiotics in irritable bowel syndrome and chronic idiopathic constipation: systematic review and meta-analysis",
+    url: "https://pubmed.ncbi.nlm.nih.gov/25070051/",
+    summary: "Pooled analysis of 43 RCTs. Probiotics improved global IBS symptoms vs placebo; specific strains (LP299V, B. longum 35624) showed the largest effects.",
+  },
+  "probiotics-whorwell-bifido-2006": {
+    authors: "Whorwell et al.",
+    year: 2006,
+    journal: "American Journal of Gastroenterology",
+    title: "Efficacy of an encapsulated probiotic Bifidobacterium infantis 35624 in women with irritable bowel syndrome",
+    url: "https://pubmed.ncbi.nlm.nih.gov/16863564/",
+    summary: "362 women with IBS. B. infantis 35624 at 1×10⁸ CFU/day significantly reduced abdominal pain, bloating, and bowel dysfunction vs placebo over 4 weeks.",
+  },
+  "probiotics-ducrotte-lp299v-2012": {
+    authors: "Ducrotté et al.",
+    year: 2012,
+    journal: "World Journal of Gastroenterology",
+    title: "Clinical trial: Lactobacillus plantarum 299v (DSM 9843) improves symptoms of irritable bowel syndrome",
+    url: "https://pubmed.ncbi.nlm.nih.gov/22969234/",
+    summary: "214 patients with moderate-to-severe IBS. LP299V at 10⁹ CFU/day significantly reduced abdominal pain severity and frequency over 4 weeks.",
+  },
+  "probiotics-mcfarland-sboulardii-2010": {
+    authors: "McFarland",
+    year: 2010,
+    journal: "World Journal of Gastroenterology",
+    title: "Systematic review and meta-analysis of Saccharomyces boulardii in adult patients",
+    url: "https://pubmed.ncbi.nlm.nih.gov/20572300/",
+    summary: "Meta-analysis of S. boulardii trials across multiple GI conditions. Consistent reductions in diarrheal symptoms including IBS-D.",
+  },
+
   // ------------------------------- Protein timing
   "protein-timing-schoenfeld-2013": {
     authors: "Schoenfeld, Aragon, and Krieger",

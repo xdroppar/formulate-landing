@@ -208,8 +208,18 @@ def score_guide(slug: str, src: str, meta: dict, has_faq: bool, cross_sell_count
     named_journals = len(re.findall(r"Journal|JAMA|Lancet|BMJ|Cell|Nature", text))
     disclaimer = 1 if re.search(r"not medical advice|consult", text, re.I) else 0
     evidence_badges = len(re.findall(r"EvidenceBadge", src))
-    trust = clamp(min(citations, 10) * 0.3 + min(named_journals, 5) * 0.3 + disclaimer * 0.5 + min(evidence_badges, 5) * 0.3)
-    if citations < 2:
+    # Wired EvidenceBadges (studiesId/studiesIds) carry real citations via PubMed
+    # popover — worth much more than a bare badge for the trust signal.
+    wired_badges = len(re.findall(r"studiesId=\"|studiesIds=\{", src))
+    bare_badges = evidence_badges - wired_badges
+    trust = clamp(
+        min(citations, 10) * 0.3
+        + min(named_journals, 5) * 0.3
+        + disclaimer * 0.5
+        + min(wired_badges, 8) * 0.35   # Wired = a real clickable study
+        + min(bare_badges, 5) * 0.15    # Bare = visual-only, half credit
+    )
+    if citations < 2 and wired_badges == 0:
         notes.append("weak citation density")
 
     # --- ENGAGEMENT / STICKINESS ---------------------------------------------

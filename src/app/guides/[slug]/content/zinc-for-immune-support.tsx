@@ -37,7 +37,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        Hemilä (2017) conducted a meta-analysis of randomized controlled trials and found that zinc lozenges providing 80&ndash;92 mg/day of elemental zinc shortened cold duration by approximately 33% when started within 24 hours of symptom onset. <EvidenceBadge level="strong" /> That&rsquo;s roughly 2&ndash;3 fewer days of symptoms in a typical cold. Few over-the-counter remedies come close to that effect size.
+        Hemilä (2017) conducted a meta-analysis of randomized controlled trials and found that zinc lozenges providing 80&ndash;92 mg/day of elemental zinc shortened cold duration by approximately 33% when started within 24 hours of symptom onset. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> That&rsquo;s roughly 2&ndash;3 fewer days of symptoms in a typical cold. Few over-the-counter remedies come close to that effect size.
       </p>
 
       <h2>Form Matters: Acetate and Gluconate Only</h2>
@@ -52,7 +52,7 @@ export function ZincForImmuneSupport() {
       </Callout>
 
       <p>
-        Hemilä&rsquo;s analysis specifically noted that trials using zinc acetate lozenges showed the most consistent results. <EvidenceBadge level="strong" /> Zinc gluconate lozenges also worked, provided they didn&rsquo;t contain additives like citric acid, tartaric acid, or mannitol that bind the free zinc ions. Many commercial lozenges add these for taste &mdash; and in doing so, neutralize the active mechanism.
+        Hemilä&rsquo;s analysis specifically noted that trials using zinc acetate lozenges showed the most consistent results. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> Zinc gluconate lozenges also worked, provided they didn&rsquo;t contain additives like citric acid, tartaric acid, or mannitol that bind the free zinc ions. Many commercial lozenges add these for taste &mdash; and in doing so, neutralize the active mechanism.
       </p>
 
       <p>
@@ -80,7 +80,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        Trials using oral zinc supplements (swallowed, not dissolved) show no meaningful reduction in cold duration. <EvidenceBadge level="strong" /> The mechanism is topical, not systemic. Think of it less like &ldquo;taking a supplement&rdquo; and more like applying an antiviral directly to the infection site.
+        Trials using oral zinc supplements (swallowed, not dissolved) show no meaningful reduction in cold duration. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> The mechanism is topical, not systemic. Think of it less like &ldquo;taking a supplement&rdquo; and more like applying an antiviral directly to the infection site.
       </p>
 
       <p>
@@ -127,7 +127,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        <strong>For chronic immune support and deficiency prevention:</strong> 15&ndash;30 mg/day of elemental zinc (any well-absorbed form &mdash; picolinate, bisglycinate, gluconate, acetate) is the standard range. If you supplement zinc daily at doses above 15 mg for more than a few weeks, pair it with 1&ndash;2 mg of copper, because chronic zinc intake can deplete copper over time. <EvidenceBadge level="moderate" />
+        <strong>For chronic immune support and deficiency prevention:</strong> 15&ndash;30 mg/day of elemental zinc (any well-absorbed form &mdash; picolinate, bisglycinate, gluconate, acetate) is the standard range. If you supplement zinc daily at doses above 15 mg for more than a few weeks, pair it with 1&ndash;2 mg of copper, because chronic zinc intake can deplete copper over time. <EvidenceBadge level="moderate" studiesId="zinc-science-zn-copper-2016" />
       </p>
 
       <p>

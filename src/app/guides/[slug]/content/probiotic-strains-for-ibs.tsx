@@ -43,7 +43,7 @@ export function ProbioticStrainsForIbs() {
       <h2>B. infantis 35624: The Strongest IBS Evidence</h2>
 
       <p>
-        <em>Bifidobacterium longum</em> subsp. <em>infantis</em> 35624 &mdash; marketed as Align &mdash; has the most robust randomized controlled trial (RCT) data of any probiotic for IBS. The landmark trial by Whorwell et al. (2006) enrolled 362 women with IBS and found that B. infantis 35624 at 1&times;10<sup>8</sup> CFU/day significantly reduced abdominal pain, bloating, bowel dysfunction, incomplete evacuation, straining, and gas compared to placebo over four weeks. <EvidenceBadge level="strong" />
+        <em>Bifidobacterium longum</em> subsp. <em>infantis</em> 35624 &mdash; marketed as Align &mdash; has the most robust randomized controlled trial (RCT) data of any probiotic for IBS. The landmark trial by Whorwell et al. (2006) enrolled 362 women with IBS and found that B. infantis 35624 at 1&times;10<sup>8</sup> CFU/day significantly reduced abdominal pain, bloating, bowel dysfunction, incomplete evacuation, straining, and gas compared to placebo over four weeks. <EvidenceBadge level="strong" studiesId="probiotics-whorwell-bifido-2006" />
       </p>
 
       <p>
@@ -57,7 +57,7 @@ export function ProbioticStrainsForIbs() {
       <h2>L. plantarum 299v: Nobaek&rsquo;s IBS Data</h2>
 
       <p>
-        <em>Lactobacillus plantarum</em> 299v (DSM 9843) was studied in a double-blind RCT by Nobaek et al. (2000) involving 60 IBS patients. Over four weeks, the strain significantly reduced flatulence and abdominal pain compared to placebo. <EvidenceBadge level="moderate" /> A larger trial by Ducrotté et al. (2012) confirmed these findings in 214 patients with moderate-to-severe IBS, showing significant reductions in abdominal pain severity and frequency at a dose of 10&times;10<sup>9</sup> CFU/day. <EvidenceBadge level="moderate" />
+        <em>Lactobacillus plantarum</em> 299v (DSM 9843) was studied in a double-blind RCT by Nobaek et al. (2000) involving 60 IBS patients. Over four weeks, the strain significantly reduced flatulence and abdominal pain compared to placebo. <EvidenceBadge level="moderate" /> A larger trial by Ducrotté et al. (2012) confirmed these findings in 214 patients with moderate-to-severe IBS, showing significant reductions in abdominal pain severity and frequency at a dose of 10&times;10<sup>9</sup> CFU/day. <EvidenceBadge level="moderate" studiesId="probiotics-ducrotte-lp299v-2012" />
       </p>
 
       <p>
@@ -67,7 +67,7 @@ export function ProbioticStrainsForIbs() {
       <h2>S. boulardii: The IBS-D Option</h2>
 
       <p>
-        <em>Saccharomyces boulardii</em> CNCM I-745 is a yeast, not a bacterium, which gives it a unique advantage: it&rsquo;s unaffected by antibiotics. It&rsquo;s best studied for diarrhea-predominant IBS (IBS-D). A meta-analysis by McFarland et al. (2010) found S. boulardii reduced diarrheal symptoms across multiple GI conditions, and IBS-specific trials show modest but consistent improvements in stool consistency and urgency. <EvidenceBadge level="moderate" />
+        <em>Saccharomyces boulardii</em> CNCM I-745 is a yeast, not a bacterium, which gives it a unique advantage: it&rsquo;s unaffected by antibiotics. It&rsquo;s best studied for diarrhea-predominant IBS (IBS-D). A meta-analysis by McFarland et al. (2010) found S. boulardii reduced diarrheal symptoms across multiple GI conditions, and IBS-specific trials show modest but consistent improvements in stool consistency and urgency. <EvidenceBadge level="moderate" studiesId="probiotics-mcfarland-sboulardii-2010" />
       </p>
 
       <p>
