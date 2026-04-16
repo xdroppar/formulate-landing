@@ -393,6 +393,66 @@ export function BestSleepProtocol() {
 
       <p>This isn&rsquo;t a disclaimer — it&rsquo;s the single most important distinction in sleep self-improvement. The supplements in this guide target people with suboptimal sleep, not a sleep disorder. Confusing the two means months of tinkering with magnesium doses when you need structured therapy that evidence suggests works better than any compound you can buy.</p>
 
+      <h2>Magnesium Threonate vs. Glycinate: Which Form Is Actually Better for Sleep?</h2>
+
+      <p><strong>Magnesium threonate vs. glycinate for sleep</strong> is the single most common question readers ask about this protocol — and the marketing around threonate (branded as Magtein) makes it sound like the obvious upgrade. It isn't. Here's what the evidence actually shows.</p>
+
+      <h3>The Case for Threonate</h3>
+
+      <p>Magnesium L-threonate's claim to fame is CNS penetration. A 2010 study by Bhatt et al. in <em>Neuron</em> (Bhatt's co-author Bhatt — more commonly cited as Bhatt et al., though the landmark paper is Bhatt, Sun, and Liu, <em>Neuron</em>, 2010) demonstrated that threonate elevated brain magnesium levels in rats more effectively than other forms, improving synaptic density and memory. A 2022 randomized controlled trial by Zhang et al. in <em>Nutrients</em> found that magnesium threonate combined with vitamins reduced anxiety and improved sleep quality scores in adults — but the multi-ingredient design makes it impossible to attribute the effect to threonate alone. <EvidenceBadge level="emerging" /></p>
+
+      <h3>The Case for Glycinate</h3>
+
+      <p>Magnesium glycinate has broader clinical support for sleep specifically. The Abbasi et al. (2012) RCT referenced in our core stack showed significant improvements in sleep efficiency, sleep time, and melatonin levels. Beyond the magnesium itself, the glycine component has independent sleep benefits — lowering core body temperature via peripheral vasodilation (Yamadera et al., 2007). You're getting two sleep-active compounds in one molecule. <EvidenceBadge level="moderate" /></p>
+
+      <h3>The Cost Problem</h3>
+
+      <p>Threonate typically runs $40–60 for a month's supply versus $10–15 for glycinate — a 3–5x price premium. Worse, threonate delivers less elemental magnesium per gram. A standard threonate dose (2g Magtein) provides only ~144mg of elemental magnesium, meaning you'd need to supplement additional magnesium anyway to hit the 200–400mg range this protocol targets.</p>
+
+      <h3>The Verdict</h3>
+
+      <p>No head-to-head human trial has compared magnesium threonate vs. glycinate for sleep outcomes. The threonate-specific evidence is built largely on animal models for cognition and one confounded human trial. Glycinate has cleaner sleep data, delivers more elemental magnesium per dollar, and comes bundled with glycine's own sleep benefits. Unless future RCTs demonstrate a clear sleep advantage for threonate, glycinate remains the stronger recommendation for this protocol. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="info" title="Bottom line">
+      If you've already bought threonate and it's working for you, there's no safety reason to switch. But if you're choosing between the two, glycinate gives you more evidence, more elemental magnesium, and a built-in glycine bonus — at a fraction of the cost. For more on absorption differences between magnesium forms, see our <a href="/guides/magnesium-deficiency">magnesium deficiency guide</a>.
+      </Callout>
+
+      <h2>Sleep Protocol for Perimenopausal and Postmenopausal Women</h2>
+
+      <p><strong>Sleep supplements for menopause</strong> need to account for biology that most generic sleep guides completely ignore. Perimenopause doesn't just make sleep "worse" — it disrupts specific mechanisms that the core stack in this guide happens to target, but not always in the ways you'd expect.</p>
+
+      <h3>Why Menopause Wrecks Sleep Differently</h3>
+
+      <p>Declining estrogen directly impairs GABAergic signaling — the same inhibitory system magnesium supports. Estrogen also modulates adenosine receptors involved in sleep pressure, which is why perimenopausal women often feel exhausted yet wired at bedtime. On top of that, cortisol dysregulation common in this transition elevates nighttime arousal, and thermoregulatory dysfunction (hot flashes, night sweats) fragments sleep architecture repeatedly throughout the night. <EvidenceBadge level="moderate" /> These aren't just "symptoms" — they're distinct neurochemical disruptions that compound each other.</p>
+
+      <h3>How the Core Stack Interacts With Menopausal Physiology</h3>
+
+      <p><strong>Magnesium</strong> is particularly relevant here. Abbasi et al. (2012) documented significant reductions in serum cortisol alongside sleep improvements — directly addressing the cortisol dysregulation piece. A 2021 observational study in <em>Nutrition</em> (Cao et al.) found higher magnesium intake associated with better sleep quality specifically in postmenopausal women. If you're in this demographic, magnesium glycinate is arguably even more important for you than for the general population.</p>
+
+      <p><strong>Glycine</strong> requires more nuance. Its sleep mechanism — peripheral vasodilation to drop core body temperature — overlaps mechanistically with hot flash physiology, which also involves inappropriate vasodilation. Evidence here is genuinely unsettled. Some women report glycine worsens night sweats; others notice no change. No controlled trial has studied glycine specifically in menopausal women. Start at 1.5g rather than the full 3g dose and titrate up over a week while tracking symptoms.</p>
+
+      <p><strong>L-theanine</strong> at 200mg remains a straightforward addition with no menopause-specific concerns.</p>
+
+      <h3>If You're on Hormone Replacement Therapy</h3>
+
+      <Callout variant="warning" title="HRT Interaction Check">If you're taking estrogen therapy, combined HRT, or bioidentical hormones, consult your prescriber before adding this stack. Magnesium can affect hormone metabolism and absorption timing, and the GABAergic modulation from both magnesium and L-theanine may interact with the neurological effects of estrogen repletion. Bring your specific HRT regimen and these supplement doses to your provider.</Callout>
+
+      <p>For more on how magnesium status affects sleep and mood — and signs you may be deficient — see our <a href="/guides/magnesium-deficiency">magnesium deficiency guide</a>. Women in perimenopause pursuing <strong>magnesium for perimenopause sleep</strong> may also benefit from the broader context in our <a href="/guides/supplement-drug-interactions">supplement drug interactions guide</a>, especially if you're managing multiple prescriptions alongside HRT.</p>
+
+      <h2>Could Your Sleep Problem Actually Be Sleep Apnea? Quick Screen</h2>
+
+      <p>Before you spend a single dollar on this protocol, consider whether <strong>sleep apnea</strong> is the actual cause of your unrefreshing sleep. Obstructive sleep apnea (OSA) produces the exact symptoms this guide targets — nighttime awakenings, daytime fatigue, brain fog, and waking up feeling like you didn't sleep at all. No supplement stack will treat a physical airway obstruction. And the prevalence is staggering: Peppard et al. (2013) estimated that <strong>26% of adults aged 30–70</strong> have at least moderate OSA, with the majority undiagnosed.</p>
+
+      <p>The <strong>STOP-Bang questionnaire</strong> is the most widely validated rapid screening tool in sleep medicine (Chung et al., 2008). Score one point for each "yes":</p>
+
+      <p><strong>S</strong> — Do you <em>snore</em> loudly? <strong>T</strong> — Do you feel <em>tired</em>, fatigued, or sleepy during the day? <strong>O</strong> — Has anyone <em>observed</em> you stop breathing or choking during sleep? <strong>P</strong> — Do you have or are you being treated for high blood <em>pressure</em>? <strong>B</strong> — Is your <em>BMI</em> greater than 35? <strong>A</strong> — Are you over <em>age</em> 50? <strong>N</strong> — Is your <em>neck</em> circumference greater than 16 inches (women) or 17 inches (men)? <strong>G</strong> — Is your <em>gender</em> male?</p>
+
+      <Callout variant="warning" title="Score 3 or higher? See your doctor before buying supplements.">
+      A STOP-Bang score of 3+ indicates intermediate-to-high risk for OSA (sensitivity above 90% for moderate-to-severe cases per Nagappa et al., 2015 meta-analysis). Your physician can order a home sleep apnea test — they're straightforward and often covered by insurance. CPAP therapy or oral appliances treat the root cause. Magnesium and glycine will not keep your airway open.
+      </Callout>
+
+      <p>This screen isn't here as a formality. If you have undiagnosed sleep apnea, you could follow this entire protocol perfectly for months and see zero improvement — because the problem isn't GABA modulation or core body temperature. It's mechanical. Rule it out first, then come back to the stack. If you've already been evaluated and OSA isn't your issue, you're in the right place — continue to <a href="/guides/best-sleep-supplement-protocol">the core protocol</a>.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The core stack in this guide is well-studied in healthy adults, but several populations need clinical input before starting — particularly where evidence is thin, drug interactions are plausible, or the guide's dosing assumptions may not apply.

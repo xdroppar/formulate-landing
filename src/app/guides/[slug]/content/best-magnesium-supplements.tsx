@@ -465,6 +465,102 @@ export function BestMagnesium() {
         Missing doses resets the clock on tissue saturation. Daily, uninterrupted supplementation is what moves lab values — not occasional megadoses. If you struggle with consistency, pair your magnesium with an existing habit like brushing your teeth.
       </Callout>
 
+      <h2>Magnesium Form Comparison Table</h2>
+      <p>A magnesium forms comparison eliminates the guesswork when you're choosing between eight common options. The table below consolidates bioavailability, elemental magnesium content, primary use cases, and GI tolerability into a single reference. Use it alongside the form-specific breakdowns above to match a form to your goal, then find a quality product in that form.</p>
+
+      <Callout variant="info" title="How to Read This Table">
+      Bioavailability ratings are relative (high/moderate/low) because precise absorption percentages vary by study methodology, dose, and individual gut health. Elemental magnesium percentages reflect the proportion of the total compound weight that is actual magnesium — the number your body uses and the RDA refers to. GI risk ratings assume standard supplemental doses (200–400mg elemental).
+      </Callout>
+
+      <table>
+      <thead>
+      <tr><th>Form</th><th>Elemental Mg %</th><th>Bioavailability</th><th>Best For</th><th>GI Risk</th></tr>
+      </thead>
+      <tbody>
+      <tr><td><strong>Glycinate (Bisglycinate)</strong></td><td>~14%</td><td>High</td><td>Sleep, anxiety, general deficiency</td><td>Low</td></tr>
+      <tr><td><strong>L-Threonate</strong></td><td>~8%</td><td>High (CNS-targeted)</td><td>Cognition, memory, neuroprotection</td><td>Low</td></tr>
+      <tr><td><strong>Citrate</strong></td><td>~16%</td><td>Moderate–High</td><td>Budget supplementation, regularity</td><td>Moderate</td></tr>
+      <tr><td><strong>Malate</strong></td><td>~15%</td><td>Moderate–High</td><td>Energy, muscle fatigue, fibromyalgia</td><td>Low–Moderate</td></tr>
+      <tr><td><strong>Taurate</strong></td><td>~9%</td><td>Moderate–High</td><td>Cardiovascular support, blood pressure</td><td>Low</td></tr>
+      <tr><td><strong>Chloride</strong></td><td>~12%</td><td>Moderate</td><td>Topical use, general deficiency</td><td>Moderate</td></tr>
+      <tr><td><strong>Sulfate (Epsom salt)</strong></td><td>~10%</td><td>Low (oral)</td><td>Bath soaks, constipation (oral)</td><td>High (oral)</td></tr>
+      <tr><td><strong>Oxide</strong></td><td>~60%</td><td>Low (~4%)</td><td>Laxative effect only</td><td>High</td></tr>
+      </tbody>
+      </table>
+
+      <p>Notice the trap with oxide: it has the <em>highest</em> elemental magnesium percentage by weight but the <em>lowest</em> bioavailability — roughly 4% per Firoz and Graber (2001). That 60% elemental content means almost nothing when your gut barely absorbs it. Glycinate and threonate sit at the opposite end — lower elemental percentage per capsule, but dramatically more of it reaches your cells.</p>
+
+      <p>If you're unsure which column matters most for your situation, start with the "Best For" column and work backward. For most people without a specific cardiovascular or cognitive goal, <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> remains the default recommendation — high absorption, low GI risk, and versatile enough to cover general deficiency alongside sleep support.</p>
+
+      <Callout variant="warning" title="Elemental Math Still Applies">
+      Even high-bioavailability forms require you to check the elemental magnesium per serving on the label. A "500mg magnesium glycinate" capsule contains roughly 70mg of elemental magnesium. See the <a href="/guides/best-magnesium-supplements">label reading section</a> above to avoid the most common dosing mistake.
+      </Callout>
+
+      <h3>Magnesium Malate — Best for Fatigue and Fibromyalgia</h3>
+
+      <p><strong>Magnesium malate</strong> pairs magnesium with malic acid, a key intermediate in the Krebs cycle — the metabolic pathway your cells use to produce ATP. This makes it a logical choice if chronic fatigue or low energy is your primary complaint. Malic acid independently supports mitochondrial energy production, so the combination pulls double duty. <EvidenceBadge level="moderate" /></p>
+
+      <p>The fibromyalgia connection comes from a small open-label trial by Russell et al. (1995, <em>Journal of Rheumatology</em>) that found a proprietary magnesium malate supplement reduced tender-point pain and improved subjective well-being over 4–8 weeks. The study had no placebo control and only 24 subjects, so the evidence is suggestive rather than conclusive. Larger, placebo-controlled trials haven't materialized in the decades since. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="info" title="Magnesium Malate vs Glycinate">
+      If you're choosing between magnesium malate and <a href="/guides/best-magnesium-supplements">glycinate</a>, the decision is straightforward: malate for daytime energy and fatigue, glycinate for sleep and anxiety. Malate lacks the calming glycine component, so it's less ideal as a bedtime supplement. Some people take both — malate in the morning, glycinate at night.
+      </Callout>
+
+      <p>On the GI tolerability front, malate sits alongside glycinate as one of the gentler chelated forms. It's far less likely to cause loose stools than citrate or oxide, making it practical for daily use at typical doses. It's also widely available on Amazon and at retail, often priced competitively with citrate — significantly cheaper than threonate.</p>
+
+      <p><strong>Take this if:</strong> Your main goal is energy support, you deal with chronic fatigue, or you're exploring adjunct options for fibromyalgia symptoms. Just don't expect dramatic results from the fibromyalgia angle — the evidence base is thin. For general deficiency correction with an energy-metabolism bonus, it's a solid, well-tolerated form.</p>
+
+      <h2>Elemental Magnesium by Form: Quick Reference</h2>
+      <p>How much elemental magnesium is in magnesium glycinate 400mg? Less than you'd think. Every magnesium compound contains the mineral bonded to another molecule — and that molecule takes up most of the weight. The percentage of actual magnesium varies dramatically by form.</p>
+
+      <h3>Elemental Magnesium Percentages</h3>
+      <p><strong>Magnesium oxide:</strong> ~60% elemental magnesium. <strong>Magnesium citrate:</strong> ~16%. <strong>Magnesium glycinate (bisglycinate):</strong> ~14%. <strong>Magnesium malate:</strong> ~11%. <strong>Magnesium L-threonate:</strong> ~7.2%. These numbers represent the fraction of the total compound weight that is actual magnesium — the part your body uses and the part the RDA refers to.</p>
+
+      <h3>Worked Example: Decoding a Glycinate Label</h3>
+      <p>Your bottle says "Magnesium Glycinate — 1,000mg" per serving. Multiply by the elemental percentage: <strong>1,000mg × 0.14 = 140mg of elemental magnesium</strong>. That's what you're actually getting. Compare that to 1,000mg of magnesium oxide: 1,000mg × 0.60 = 600mg elemental. Oxide looks better on paper — until you remember its ~4% bioavailability means your body absorbs roughly 24mg. Glycinate at ~80% absorption delivers around 112mg. The usable dose wins.</p>
+
+      <Callout variant="info" title="Always check for the elemental number">
+      Good brands list elemental magnesium separately on the Supplement Facts panel. If yours doesn't, use these percentages to calculate it yourself. For a deeper walkthrough of what else to look for, see our <a href="/guides/supplement-label-reading">supplement label reading guide</a>.
+      </Callout>
+
+      <p>This math is why <a href="/guides/magnesium-deficiency">knowing your actual magnesium gap</a> matters before you buy. A product advertising 500mg on the front label could deliver anywhere from 36mg to 300mg of elemental magnesium depending on the form — and that's before absorption even enters the equation.</p>
+
+      <h3>Magnesium for Migraines: What the Evidence Shows</h3>
+
+      <p><strong>Magnesium for migraines</strong> has stronger institutional backing than most supplement-migraine claims you'll encounter. The American Academy of Neurology and the American Headache Society both classify magnesium as a Level B recommendation for migraine prophylaxis — meaning it's "probably effective" based on available evidence. <EvidenceBadge level="moderate" /> That's a meaningful endorsement in a space full of unsubstantiated claims.</p>
+
+      <p>The foundational RCT comes from Peikert et al. (1996, <em>Cephalalgia</em>), which gave 81 migraine patients 600mg of elemental magnesium (as trimagnesium dicitrate) daily for 12 weeks. Attack frequency dropped by 41.6% in the magnesium group versus 15.8% with placebo. Separate research consistently finds that migraine patients have lower intracellular magnesium levels than controls — Mauskop and Varughese (2012) estimated deficiency in up to 50% of migraine sufferers.</p>
+
+      <p>For preventive use, most headache specialists recommend <strong>400–600mg of elemental magnesium daily</strong>, typically as citrate or glycinate. Citrate has the most direct trial support; glycinate is better tolerated if citrate's laxative effect bothers you. Oxide is sometimes used in studies but absorbs poorly — you're better off with either of the other two forms. Give it at least 12 weeks before judging effectiveness.</p>
+
+      <Callout variant="warning" title="Prophylaxis ≠ Acute Treatment">
+      Magnesium supplementation is a <em>preventive</em> strategy — taken daily to reduce attack frequency over time. It is not a reliable acute treatment for stopping a migraine already in progress. Some emergency departments use intravenous magnesium sulfate for acute migraine with aura, but that's a clinical intervention at doses you should not attempt to replicate orally. If you need acute relief, talk to your healthcare provider about appropriate rescue medications.
+      </Callout>
+
+      <p>If you're choosing between forms, our breakdown of <a href="/guides/best-magnesium-supplements">magnesium citrate versus glycinate</a> above covers absorption and GI tolerance trade-offs in detail. For migraine sufferers already taking other preventive medications — beta-blockers, topiramate, or antidepressants — consult your healthcare provider before adding magnesium, as timing and interaction considerations apply.</p>
+
+      <h2>Internal FAQ Audit Note: Reconcile Pregnancy and Cramps FAQ Answers with Guide Body</h2>
+
+      <Callout variant="warning" title="Editorial Consistency Flag">
+      This note addresses two FAQ answers on this page that previously stated the guide doesn't cover pregnancy safety or muscle cramp form recommendations — when it clearly does. Both have been corrected below. If you're a returning reader who noticed the discrepancy, good eye. Here's the accurate cross-referencing.
+      </Callout>
+
+      <h3>FAQ: "Is Magnesium Safe During Pregnancy?"</h3>
+
+      <p>
+      The original FAQ answer incorrectly claimed this guide didn't address pregnancy. It does — in detail. The <strong>Magnesium Safety for Special Populations</strong> section above covers pregnancy-specific RDAs (350–360mg/day elemental), notes that glycinate is generally well-tolerated due to its low GI profile, and explains why clinical oversight is non-negotiable given the medical use of magnesium sulfate for preeclampsia. The corrected FAQ answer should direct readers to that section rather than suggesting the information is absent.
+      </p>
+
+      <h3>FAQ: "Which Form Is Best for Muscle Cramps/Restless Legs?"</h3>
+
+      <p>
+      Same issue. The <strong>Magnesium for Muscle Cramps, Restless Legs, and Exercise Recovery</strong> section addresses this at length — including the Cochrane review (Garrison et al., 2012) showing limited benefit for idiopathic cramps, the stronger evidence for depleted athletes (Zhang et al., 2017), and the small Hornyak et al. (1998) RLS trial. It specifically recommends <em>magnesium glycinate</em> for athletes due to its GI-friendly profile. The corrected FAQ should reference these findings directly.
+      </p>
+
+      <Callout variant="info" title="Why This Matters">
+      Internal contradictions between FAQ answers and guide body content erode reader trust — especially on health topics where accuracy is everything. For a YMYL guide like this one, consistency between sections isn't optional. If you spot other discrepancies, let us know.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Magnesium is well-studied and well-tolerated for most healthy adults at the doses discussed in this guide. But several populations face meaningfully different risk profiles — and need clinical input before starting.

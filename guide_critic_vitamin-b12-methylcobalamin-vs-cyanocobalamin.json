@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
+    "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
+    "cost_usd": 0.081957,
+    "rebuttals": [
+      {
+        "claim": "A randomized crossover trial by Okuda et al. (1973) found that methylcobalamin produced higher serum B12 retention at 48 hours compared to cyanocobalamin",
+        "critique": "Citing a 1973 trial as primary evidence for bioavailability superiority is a significant credibility problem. The guide then cites Paul & Brady (2017) but doesn't name the journal, sample size, or study design. Readers and search evaluators will notice the best bioavailability evidence is 50+ years old. More critically, multiple systematic reviews (including Vidal-Alaball et al., Cochrane 2005) found no clinically meaningful difference in deficiency correction between forms at equivalent doses — this contradictory evidence is entirely absent.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "methylcobalamin crosses the blood-brain barrier more readily (Izumi & Kaji, 2007)",
+        "critique": "This claim does significant lifting in the 'Who Should Choose Methylcobalamin' section but the citation appears to reference a Japanese-language clinical report, not a controlled trial. No mechanism, effect size, or study population is given. If the blood-brain barrier claim is unsubstantiated, the neurological symptom recommendation loses its strongest justification. The guide should either provide the actual study details or downgrade the claim to 'theorized' or 'preliminary.'",
+        "severity": "blocking"
+      },
+      {
+        "claim": "Converting cyanocobalamin to methylcobalamin requires adequate methylation capacity — the very thing that's compromised [in MTHFR carriers]",
+        "critique": "This is a common supplement-marketing oversimplification. MTHFR variants affect the folate cycle (5,10-methyleneTHF → 5-MTHF), not directly the B12 conversion enzymes. Cyanocobalamin is converted to methylcobalamin via methionine synthase reductase and other enzymes, not primarily through the MTHFR-dependent pathway. The guide conflates two distinct pathways, creating a false mechanistic chain. While methylcobalamin may still be preferable for MTHFR carriers, the stated reason is biochemically imprecise and would be challenged by any biochemistry-literate reader.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "sublingual (under-the-tongue) delivery is often marketed as superior, but a randomized trial by Sharabi et al. (2003) found no significant difference in serum B12 levels between sublingual and oral cyanocobalamin",
+        "critique": "Applying a cyanocobalamin sublingual study to dismiss sublingual methylcobalamin is a form-swap error. Methylcobalamin's sublingual pharmacokinetics may differ. More importantly, this dismisses sublingual delivery as a meaningful alternative for people with intrinsic factor deficiency or gastric atrophy — where bypassing GI absorption IS clinically meaningful. The guide elsewhere recommends methylcobalamin for adults over 50 (who have exactly this problem) without explaining that sublingual or high-dose passive diffusion mechanisms make form less relevant when GI absorption is compromised.",
+        "severity": "important"
+      },
+      {
+        "claim": "If you're debating between a high-quality cyanocobalamin supplement and a bargain-bin methylcobalamin product with poor third-party testing, the cyanocobalamin wins",
+        "critique": "This is rhetorical framing, not analysis. It creates a false binary — the actual comparison a reader faces is methylcobalamin vs cyanocobalamin at similar quality tiers. This sentence also contradicts the guide's own MTHFR recommendation by implying form is a secondary consideration, which the guide spent significant space arguing against. It reads as a disclaimer to avoid liability rather than useful guidance.",
+        "severity": "important"
+      },
+      {
+        "claim": "B12 requirements increase during pregnancy (2.6 mcg/day RDA) and lactation (2.8 mcg/day). While both forms are considered safe, your prenatal supplement's B12 form should align with your MTHFR status.",
+        "critique": "The guide buries pregnancy guidance in the 'talk to a doctor' section with only 2 sentences, despite pregnancy being a high-stakes use case. It doesn't address that vegans/vegetarians who are pregnant face compounded risk, that B12 deficiency in pregnancy causes neural tube defects and developmental delays, or that the RDA figures cited are likely inadequate for replenishing deficiency states. 'Discuss with your OB' is insufficient given how many pregnant readers will not have that conversation before buying a supplement.",
+        "severity": "important"
+      },
+      {
+        "claim": "Vegans and vegetarians on long-term supplementation — the higher bioavailability of the active form reduces reliance on conversion pathways",
+        "critique": "No citation supports that vegans/vegetarians have impaired conversion pathways. The premise seems to be that conversion capacity is the limiting factor for this group, but the actual limiting factor for vegans is simply inadequate B12 intake — a problem solved equally by either form at sufficient doses. This recommendation conflates two different issues and may mislead vegans into thinking cyanocobalamin 'won't work' for them, which is not supported by evidence.",
+        "severity": "important"
+      }
+    ],
+    "follow_up_questions": [
+      {
+        "question": "what is a normal B12 blood level and how do I know if I'm actually deficient",
+        "why_missing": "The guide recommends supplementing and retesting but never defines what serum B12 levels indicate deficiency vs. insufficiency vs. optimal, nor explains why MMA is a better functional marker. Readers will Google this immediately after reading the dosing section."
+      },
+      {
+        "question": "does methylcobalamin cause any side effects or can you take too much",
+        "why_missing": "The guide states 'no established UL' but doesn't address reported side effects at high doses (acne is mentioned briefly, but sleep disturbance, anxiety, and skin flushing are also reported). Readers being told to take 1,000–5,000 mcg will Google this."
+      },
+      {
+        "question": "methylcobalamin vs cyanocobalamin for nerve damage or neuropathy",
+        "why_missing": "The guide mentions neurological symptoms in the who-should-choose section but never addresses clinical evidence specifically for neuropathy treatment. Japanese clinical trials (e.g., Yaqub et al. 1992) used high-dose methylcobalamin specifically for peripheral neuropathy — this is a major evidence-backed differentiator that's missing."
+      },
+      {
+        "question": "how long does it take for B12 supplements to work",
+        "why_missing": "The guide says 'retest after 8–12 weeks' but never tells readers what symptom improvement timeline to expect, which is what they actually want to know. Readers with fatigue or neurological symptoms will definitely search this."
+      },
+      {
+        "question": "best B12 supplement for pernicious anemia",
+        "why_missing": "Pernicious anemia (autoimmune destruction of intrinsic factor) is a major cause of B12 deficiency but gets zero mention. These patients cannot absorb standard oral B12 regardless of form and need either injections or very high-dose oral supplementation via passive diffusion — a critical gap."
+      },
+      {
+        "question": "can I get enough B12 from food instead of supplements",
+        "why_missing": "The guide focuses entirely on supplements without contextualizing when food sources are sufficient. Readers with mild insufficiency may not need to supplement at all, or may achieve adequate levels through dietary changes."
+      },
+      {
+        "question": "methylcobalamin storage — does it really go bad faster",
+        "why_missing": "The guide mentions light/heat instability but gives no practical guidance on storage conditions, whether this affects potency in typical supplement bottles, or how to evaluate manufacturer handling of methylcobalamin. Readers will want actionable advice."
+      }
+    ],
+    "audience_gaps": [
+      {
+        "audience": "People with pernicious anemia or confirmed intrinsic factor deficiency",
+        "missing_need": "The guide never mentions pernicious anemia, which is one of the most common causes of severe B12 deficiency. These readers need to know that oral supplementation (regardless of form) requires doses of 1,000+ mcg to rely on passive diffusion, and that injections or nasal spray may be necessary. The entire absorption discussion assumes intact GI function."
+      },
+      {
+        "audience": "People currently taking metformin",
+        "missing_need": "Metformin is mentioned in the 'talk to a doctor' section but the guide never explains the mechanism (metformin impairs calcium-dependent absorption in the ileum), the prevalence of deficiency in this group (estimated 10–30% on long-term metformin), or whether the form recommendation changes for this population. This is a massive and growing audience."
+      },
+      {
+        "audience": "Older adults over 65 with cognitive concerns",
+        "missing_need": "The guide mentions 'over 50' as a category but doesn't differentiate the 65+ group, who have significantly higher rates of atrophic gastritis, medication polypharmacy affecting B12, and for whom the neurological/cognitive stakes of deficiency are highest. Specific dosing and monitoring guidance for this group is absent."
+      },
+      {
+        "audience": "Vegans who are pregnant",
+        "missing_need": "This doubly at-risk group faces compounded B12 depletion (no dietary sources + increased pregnancy demand) and the developmental consequences of infant B12 deficiency through breast milk. The guide doesn't address B12 in breast milk, infant dosing needs, or what happens if a breastfeeding vegan is deficient."
+      },
+      {
+        "audience": "People who have had gastric bypass or bariatric surgery",
+        "missing_need": "Bariatric surgery patients have dramatically impaired B12 absorption due to reduced intrinsic factor production and altered GI anatomy. They typically require sublingual, nasal, or injectable forms and cannot rely on standard oral dosing. This group is entirely unaddressed."
+      },
+      {
+        "audience": "People interpreting their 23andMe MTHFR results",
+        "missing_need": "The guide recommends checking rs1801133 and rs1801131 but doesn't explain that having a heterozygous (one copy) C677T variant causes only modest enzyme reduction (~35%) and may not warrant switching forms. Many 23andMe users over-interpret heterozygous results. The guide's blanket recommendation to 'choose methylcobalamin' for any MTHFR variant may cause unnecessary supplement switching and anxiety."
+      },
+      {
+        "audience": "Children and adolescents (or parents supplementing them)",
+        "missing_need": "No dosing guidance or form recommendation for pediatric use. Parents supplementing vegan or picky-eating children will find this guide unhelpful on that specific need."
+      }
+    ],
+    "evidence_gaps": [
+      {
+        "claim": "methylcobalamin crosses the blood-brain barrier more readily (Izumi & Kaji, 2007)",
+        "evidence_needed": "A peer-reviewed, English-language controlled study with mechanistic data or comparative CNS bioavailability measurements. If this claim cannot be supported at that level, it should be reframed as 'theorized based on the form's role as the primary CNS cobalamin' rather than stated as established fact."
+      },
+      {
+        "claim": "Converting cyanocobalamin to methylcobalamin requires adequate methylation capacity — the very thing that's compromised [in MTHFR carriers]",
+        "evidence_needed": "A mechanistic study showing that MTHFR C677T or A1298C variants specifically impair the conversion of cyanocobalamin to methylcobalamin (not just the folate cycle). Without this, the mechanistic argument for MTHFR carriers preferring methylcobalamin rests on a conflated pathway."
+      },
+      {
+        "claim": "methylcobalamin raised intracellular B12 markers without relying on the body's conversion enzymes (Paul & Brady, 2017)",
+        "evidence_needed": "Full citation including journal name, DOI, sample size, and study population. Paul & Brady (2017) appears to reference a narrative review rather than an RCT — if so, the framing 'confirmed that methylcobalamin raises intracellular B12 markers' overstates the evidence level."
+      },
+      {
+        "claim": "Some premium supplements now combine methylcobalamin and adenosylcobalamin to cover both enzymatic pathways. This is theoretically sound",
+        "evidence_needed": "At least one pilot RCT or pharmacokinetic study on combination cobalamin products vs. single-form supplementation, or an explicit acknowledgment that no human trial evidence exists for combination products."
+      },
+      {
+        "claim": "Adults over 50 — declining stomach acid and intrinsic factor reduce absorption and conversion efficiency [making methylcobalamin preferable]",
+        "evidence_needed": "A study showing that methylcobalamin specifically overcomes intrinsic factor-independent absorption limitations better than cyanocobalamin at high doses. The actual mechanism at play for older adults (IF deficiency) is equally problematic for methylcobalamin — passive diffusion at high doses works for both forms similarly, which undermines the form-specific recommendation for this group."
+      }
+    ],
+    "suggested_additions": [
+      {
+        "section_title": "Pernicious Anemia and Intrinsic Factor Deficiency: When Form Is the Wrong Question",
+        "content_summary": "Explains that autoimmune destruction of intrinsic factor (pernicious anemia) prevents absorption of both oral B12 forms via normal pathways, requiring either injections, nasal spray, or very high-dose oral supplementation (1,000+ mcg) relying on passive diffusion. Distinguishes this common cause of severe deficiency from simple dietary insufficiency.",
+        "impact": "high",
+        "rationale": "Pernicious anemia is among the top B12-related search intents and is completely unaddressed. Readers with this condition who follow the guide's standard dosing recommendations will fail to correct their deficiency. This gap is both a rankings opportunity (high-volume query) and a real harm-prevention issue."
+      },
+      {
+        "section_title": "How to Test Your B12 Status: What the Numbers Actually Mean",
+        "content_summary": "Defines serum B12 reference ranges, explains why serum B12 alone misses functional deficiency, introduces methylmalonic acid (MMA) and homocysteine as superior functional markers, and gives readers a testing sequence to follow before and after supplementing.",
+        "impact": "high",
+        "rationale": "The guide repeatedly says 'retest your serum B12 and MMA' but never teaches readers what to do with those numbers. This creates an incomplete loop that sends readers back to Google. Filling this gap increases dwell time, answers a top follow-up query, and adds genuine clinical utility."
+      },
+      {
+        "section_title": "Methylcobalamin for Peripheral Neuropathy: The Clinical Evidence",
+        "content_summary": "Summarizes Japanese RCT data (Yaqub et al. 1992; Ide et al. 1987) using high-dose methylcobalamin (1,500 mcg/day intramuscular or oral) specifically for diabetic and uremic neuropathy, distinguishing this therapeutic use case from general deficiency correction and explaining the dose rationale.",
+        "impact": "high",
+        "rationale": "Neuropathy is a high-intent search cluster for people already symptomatic, represents the strongest evidence-differentiated use case for methylcobalamin over cyanocobalamin, and is currently handled in one vague sentence. This addition targets a valuable, conversion-ready audience segment."
+      },
+      {
+        "section_title": "MTHFR Variants: What Heterozygous vs. Homozygous Actually Means for Your Supplement Choice",
+        "content_summary": "Distinguishes the clinical significance of heterozygous C677T (~35% enzyme reduction, likely not clinically significant for most) vs. homozygous C677T (~70% reduction, clinically meaningful) and compound heterozygous combinations, with specific form/dose recommendations for each genotype tier.",
+        "impact": "high",
+        "rationale": "The current guide gives a blanket 'any MTHFR variant → take methylcobalamin' recommendation that will cause over-supplementation anxiety in the large heterozygous population. Nuancing this prevents reader distrust when they consult their doctor, improves E-E-A-T signals, and directly addresses a major 23andMe follow-up search query."
+      },
+      {
+        "section_title": "B12 Absorption After Bariatric Surgery or GI Surgery",
+        "content_summary": "Addresses how gastric bypass, sleeve gastrectomy, and other GI surgeries impair B12 absorption by reducing parietal cell mass and intrinsic factor output, and provides practical guidance on preferred forms (sublingual or injection) and monitoring frequency for this growing population.",
+        "impact": "medium",
+        "rationale": "Bariatric surgery patients represent a large, nutritionally vulnerable population who actively search for supplement guidance. They are currently completely unaddressed, representing a gap that competitor guides filling first will rank on."
+      },
+      {
+        "section_title": "Comparing Methylcobalamin Products: What to Look for on the Label",
+        "content_summary": "Provides a practical checklist for evaluating methylcobalamin supplement quality — third-party certifications (USP, NSF, Informed Sport), storage packaging (amber glass, blister packs to reduce light exposure), dose accuracy, and red flags like proprietary blends obscuring B12 content.",
+        "impact": "medium",
+        "rationale": "The guide mentions 'third-party testing' twice without explaining what it means or how to verify it. This is the highest-friction decision point before purchase. Answering it here prevents the reader from leaving to Google 'how to check if supplement is third-party tested' and not returning."
+      }
+    ],
+    "overall_verdict": "The guide's biggest weakness is a cluster of mechanistically imprecise claims — particularly around MTHFR conversion pathways and the blood-brain barrier assertion — that rest on dated or unverifiable citations and would collapse under scrutiny from a biochemistry-literate reader or a physician. Fix these first because they undermine the guide's core credibility at the exact moment readers are deciding whether to trust the MTHFR and neurological symptom recommendations. Simultaneously, the complete absence of pernicious anemia/intrinsic factor deficiency content is a critical gap that affects a large, high-risk audience and represents an obvious competitor ranking opportunity; adding a dedicated section on this would both prevent real harm and capture high-intent queries the guide currently cannot rank for."
+  }
+]

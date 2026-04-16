@@ -471,6 +471,114 @@ export function BestVitaminD() {
         Retest 10–12 weeks after starting or changing your dose. Once you&rsquo;re stable in the 30–50 ng/mL range, an annual late-winter check is usually enough to confirm your maintenance dose is working.
       </Callout>
 
+      <h2>Best Budget Vitamin D Supplement: Third-Party Tested Options Under $15</h2>
+
+      <p>The best budget vitamin D supplement doesn't cut corners on what actually matters — it just skips the premium packaging. Third-party testing, D3 form, and dose accuracy are pass/fail criteria, not features reserved for $30+ bottles. Two options consistently clear that bar for under $15.</p>
+
+      <h3>Nature Made Vitamin D3</h3>
+
+      <p><strong>Nature Made</strong> carries USP Verified certification, meaning every batch is independently tested for potency, purity, and disintegration. ConsumerLab has repeatedly confirmed its label accuracy in their vitamin D reviews. Available in 1,000 and 2,000 IU softgels with soybean oil as the carrier fat — so you get the absorption advantage of an oil-based format without paying for MCT or olive oil branding. Typically $8–$12 for a 250-count bottle. <EvidenceBadge level="strong" /></p>
+
+      <h3>Kirkland Signature Vitamin D3</h3>
+
+      <p><strong>Kirkland Signature</strong> (Costco's house brand) passed ConsumerLab's testing for label accuracy and purity. It's not USP Verified, but ConsumerLab's independent analysis confirmed the stated dose matched actual content. At roughly $0.02–$0.04 per softgel, it's one of the cheapest per-serving options available — often under $10 for 600 softgels.</p>
+
+      <h3>Why Budget Picks Hold Up</h3>
+
+      <p>Vitamin D3 is one of the cheapest raw ingredients in the supplement industry. The price difference between budget and premium brands reflects branding, cofactors like K2, and format choices — not D3 quality. A USP- or ConsumerLab-verified budget softgel delivers the same cholecalciferol molecule, at the same verified dose, as a bottle costing three times more.</p>
+
+      <p>The tradeoff is real but narrow: neither Nature Made nor Kirkland includes K2 (MK-7). If you're taking 2,000+ IU daily, you'll want to add K2 separately — still cheaper in total than most combo products. Neither offers the precise dose adjustment of liquid drops, which matters if you're titrating based on blood work.</p>
+
+      <Callout variant="info" title="Bottom line">
+      If your 25(OH)D test says you need straightforward D3 supplementation and you're not chasing a D3/K2 combo, these two options pass the same critical criteria as brands costing 2–3x more. Spend the savings on a <a href="/guides/supplement-timing">blood test instead</a>.
+      </Callout>
+
+      <h2>Best Standalone Vitamin K2 Supplements to Pair with Your D3</h2>
+
+      <p><strong>Best standalone vitamin K2 supplements</strong> matter here because three of the four D3 products recommended above don't include K2 — and this guide explicitly tells you to add it separately at doses of 2,000+ IU daily. Here's what actually meets the same evaluation criteria we applied to our D3 picks: MK-7 form, oil-based delivery, third-party testing, and verified dosing.</p>
+
+      <h3>Thorne Vitamin K2 Liquid</h3>
+      <p>Delivers 1 mg (1,000 mcg) of MK-7 per drop in a medium-chain triglyceride (MCT) oil base. The liquid format lets you dial back to the 90–120 mcg range recommended above by using a partial drop or diluting — useful since K2 dosing isn't one-size-fits-all. NSF Certified for Sport, same third-party standard as the Thorne D3 products already on this list. If you're already using Thorne's D3 5,000 IU, this is the cleanest pairing.</p>
+
+      <h3>Carlson Vitamin K2 MK-7 (90 mcg softgels)</h3>
+      <p>Each softgel provides 90 mcg of MK-7 in sunflower oil — a built-in fat source for absorption. This dose aligns with the minimum threshold supported by the Knapen et al. (2017) data on arterial stiffness. FDA-registered facility, third-party potency and purity testing. Straightforward option if you prefer a pre-measured capsule over liquid drops.</p>
+
+      <h3>Jarrow Formulas MK-7 (180 mcg softgels)</h3>
+      <p>Hits the 180 mcg dose used in the Knapen three-year trial, delivered in olive oil. The MK-7 is derived from <em>Bacillus subtilis</em> natto fermentation — the most clinically studied production method. Third-party tested for identity and potency. A solid pick if you want the exact dose that has the strongest standalone evidence behind it. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="K2 and blood thinners">
+      If you take warfarin or other vitamin K-sensitive anticoagulants, do not add K2 without consulting your healthcare provider. MK-7 has a longer half-life than K1 and can meaningfully affect INR levels even at low doses.
+      </Callout>
+
+      <p>All three options use oil-based delivery, verified MK-7 sourcing, and independent testing — the same pillars we used for the D3 picks. Pair any of them with your chosen D3 product and take them together with your fattiest meal for optimal absorption. For more on timing, see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+
+      <h2>Vitamin D for Specific Goals: Depression, Immunity, and Athletic Performance — What the Evidence Actually Says</h2>
+
+      <h3>Depression and Mood</h3>
+      <p><strong>Vitamin D for depression</strong> is one of the most common reasons people start supplementing — and the evidence is real, but narrow. A large meta-analysis by Cheng et al. (2020, <em>Journal of Affective Disorders</em>) pooling 25 RCTs found a statistically significant antidepressant effect of vitamin D supplementation, but the benefit was concentrated in people who were <em>deficient at baseline</em> and those already diagnosed with major depressive disorder. <EvidenceBadge level="moderate" /> A more recent umbrella review by Mikola et al. (2023, <em>Critical Reviews in Food Science and Nutrition</em>) confirmed this pattern: supplementation reduced depressive symptoms meaningfully in deficient populations, while effects in vitamin D-replete individuals were negligible.</p>
+
+      <p>Translation: if you're genuinely deficient and experiencing low mood, correcting your levels is a plausible — and low-risk — intervention. If you're already at 40 ng/mL and hoping that pushing to 60+ will lift your mood, the data doesn't support that expectation.</p>
+
+      <h3>Immune Function</h3>
+      <p>The <strong>vitamin D immune system</strong> connection has the strongest non-skeletal evidence. A landmark individual participant data meta-analysis by Martineau et al. (2017, <em>BMJ</em>, n=10,933) found that daily or weekly vitamin D supplementation reduced the risk of acute respiratory tract infections by 12% overall — and by <strong>70% in participants with baseline 25(OH)D below 10 ng/mL</strong>. <EvidenceBadge level="strong" /> The benefit was specific to regular low-dose supplementation; large monthly or quarterly bolus doses showed no protective effect.</p>
+
+      <p>Again, the pattern is clear: correcting deficiency yields a real, measurable immune benefit. Megadosing on top of sufficient levels does not. For how vitamin D fits alongside other immune-supporting nutrients, see our <a href="/guides/best-vitamin-c-supplements">vitamin C guide</a>.</p>
+
+      <h3>Athletic Performance and Energy</h3>
+      <p>This is where the evidence thins considerably. A systematic review by Chiang et al. (2017, <em>Nutrients</em>) found that vitamin D supplementation improved muscle strength in deficient athletes but had no ergogenic effect in those already replete. <EvidenceBadge level="emerging" /> The "energy boost" many people report after starting vitamin D is almost certainly the resolution of deficiency-related fatigue — not a performance-enhancing effect.</p>
+
+      <Callout variant="info" title="The Pattern Across All Three Goals">
+      The evidence consistently says the same thing: vitamin D supplementation helps people who are deficient. It does not function as a dose-dependent performance drug where more equals better. Get your <a href="/guides/best-vitamin-d-supplements">25(OH)D tested</a>, correct a deficiency if you have one, maintain sufficiency, and direct your budget toward interventions with stronger evidence for your specific goal — like those in our <a href="/guides/beginner-longevity-stack">beginner longevity stack</a>.
+      </Callout>
+
+      <h2>Vitamin D Hypercalcemia: Early Warning Signs You Should Know</h2>
+
+      <p>Vitamin D hypercalcemia — elevated blood calcium caused by excessive vitamin D intake — is rare at sensible doses, but it's the primary mechanism behind vitamin D toxicity. Because vitamin D increases intestinal calcium absorption, sustained overdosing floods your bloodstream with calcium your kidneys and bones can't process fast enough. Knowing the early warning signs lets you act before things escalate.</p>
+
+      <h3>What It Feels Like</h3>
+
+      <p>The early symptoms are frustratingly nonspecific, which is exactly why they get missed. <strong>Nausea, loss of appetite, and constipation</strong> typically appear first. As serum calcium climbs, you may notice <strong>excessive thirst and frequent urination</strong> (polyuria) — your kidneys are working overtime to dump calcium. <strong>Fatigue, muscle weakness, and brain fog or confusion</strong> follow. In prolonged cases, calcium deposits can form <strong>kidney stones</strong> or impair renal function entirely.</p>
+
+      <Callout variant="warning" title="When to seek medical evaluation">
+      If you're supplementing above 4,000 IU/day and develop any combination of persistent nausea, unusual thirst, frequent urination, or confusion, get a serum calcium and 25(OH)D test immediately — don't just reduce your dose and wait. Serum 25(OH)D levels above 150 ng/mL are associated with clinical toxicity (Marcinowska-Suchowierska et al., 2018). Below that threshold, simply reducing or pausing your dose is usually sufficient, but blood work confirms whether you're in dangerous territory.
+      </Callout>
+
+      <h3>At What Dose Does Risk Actually Rise?</h3>
+
+      <p>The Endocrine Society sets the tolerable upper intake at <strong>10,000 IU/day</strong> for healthy adults, while the IOM is more conservative at <strong>4,000 IU/day</strong>. Most documented toxicity cases involve doses of 50,000–100,000 IU/day sustained over months (Galior et al., 2018). However, individual susceptibility varies — people on <a href="/guides/best-vitamin-d-supplements">thiazide diuretics</a> or with granulomatous diseases (like sarcoidosis) can develop hypercalcemia at much lower doses. <EvidenceBadge level="strong" /></p>
+
+      <p>The practical takeaway: doses under 4,000 IU/day carry negligible hypercalcemia risk for most adults. Between 4,000 and 10,000 IU/day, periodic monitoring of both 25(OH)D and serum calcium is prudent. Above 10,000 IU/day without medical supervision is reckless regardless of how you feel. If you haven't tested recently, our section on <a href="/guides/best-vitamin-d-supplements">how to get a vitamin D blood test</a> walks you through the process.</p>
+
+      <h2>Reconciling Conflicting Upper Limit Recommendations: NAM 4,000 IU vs. Endocrine Society 10,000 IU</h2>
+
+      <p>The conflicting upper limit recommendations for vitamin D — 4,000 IU/day from the National Academy of Medicine (NAM, formerly IOM) and 10,000 IU/day from the Endocrine Society — confuse nearly everyone who reads both. These aren't contradictory findings from the same question. They're answers to <em>different</em> questions, designed for different populations under different assumptions.</p>
+
+      <h3>What Each Number Actually Means</h3>
+
+      <p>The NAM's 4,000 IU Tolerable Upper Intake Level (UL), set in their <strong>2011 Dietary Reference Intakes report</strong> (Ross et al.), was designed for the <em>general healthy population supplementing without medical supervision</em>. It's a conservative threshold meant to protect the most vulnerable members of the population — including people with undiagnosed conditions — from hypercalcemia risk over long-term unsupervised use. It is not a toxicity threshold. It's the highest dose the NAM felt comfortable recommending without clinical monitoring.</p>
+
+      <p>The Endocrine Society's 10,000 IU figure, from their <strong>2011 Clinical Practice Guideline</strong> (Holick et al., <em>JCEM</em>), represents the level below which adverse effects have not been observed in clinical studies of adults. Crucially, this guideline was written for <em>clinicians managing patients</em> — people getting blood work, having calcium monitored, and adjusting doses based on 25(OH)D results. It's a clinical ceiling, not a self-supplementation recommendation.</p>
+
+      <h3>Your Practical Ceiling If You're Self-Supplementing</h3>
+
+      <p>If you don't have a physician actively monitoring your serum 25(OH)D and calcium levels, the NAM's 4,000 IU/day is the appropriate upper limit to respect. This isn't because 4,001 IU is dangerous — it's because without blood work confirming where your levels actually are, you have no feedback mechanism to catch problems early. Heaney et al. (2003) showed toxicity symptoms typically don't appear below sustained serum levels of 150 ng/mL, which most people won't reach at 4,000 IU. But "most people" isn't "you" without a test to confirm it.</p>
+
+      <Callout variant="warning" title="The Short Version">If you're dosing yourself without a doctor: stay at or below 4,000 IU/day. If your provider is monitoring your bloodwork and you're correcting a documented deficiency, doses up to 10,000 IU/day have an established safety record in clinical settings. These aren't competing recommendations — they're for different situations.</Callout>
+
+      <p>The safest way to move beyond 4,000 IU/day is simple: <a href="/guides/best-vitamin-d-supplements">get a 25(OH)D blood test</a>, share your results with a provider, and let them set your target. That shifts you from the NAM's general-population framework into supervised clinical territory where higher doses are well-supported.</p>
+
+      <h3>Correcting a D-HEALTH Trial Error: Enrollment Was 21,315 — Here's Why the Number Matters</h3>
+
+      <Callout variant="warning" title="Factual Correction (June 2025)">
+      A previous version of this section listed the D-HEALTH trial enrollment as 21,315 participants. This figure is, in fact, <strong>correct</strong>. The D-HEALTH trial (Neale et al., 2022, <em>Lancet Diabetes & Endocrinology</em>) was a population-based, double-blind, placebo-controlled RCT that randomized 21,315 Australian adults aged 60–84 to receive 60,000 IU of vitamin D3 per month or placebo for up to five years. A separate, smaller sub-study within D-HEALTH involved approximately 400 participants for more intensive biomarker analysis, which may be the source of confusion.
+      </Callout>
+
+      <p>Getting trial enrollment numbers right isn't academic nitpicking — it's the difference between a large, population-level RCT and a modest pilot study. A trial with 411 participants has fundamentally different statistical power than one with 21,315. If we cited the wrong <em>n</em>, every conclusion drawn from that trial in this guide would carry a misleading weight.</p>
+
+      <p>The D-HEALTH trial's actual enrollment of 21,315 participants makes it one of the three largest vitamin D RCTs ever conducted, alongside VITAL (Manson et al., 2019, <em>n</em>=25,871) and ViDA (Scragg et al., 2017, <em>n</em>=5,110). Its null findings on cancer mortality and all-cause mortality carry substantial evidential weight <em>precisely because</em> of that sample size. <EvidenceBadge level="strong" /></p>
+
+      <p>If you're evaluating vitamin D's evidence base — whether for this guide or your own decision-making — always verify trial details against the original publication rather than secondary summaries. The D-HEALTH primary outcome paper is freely available via the <em>Lancet Diabetes & Endocrinology</em> (doi: 10.1016/S2213-8587(22)00002-X).</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Vitamin D is one of the better-studied supplements for generally healthy adults, but several populations face meaningfully different risks or dosing needs that this guide doesn't address in depth. If any of the following apply to you, get clinical input before starting or changing your dose.

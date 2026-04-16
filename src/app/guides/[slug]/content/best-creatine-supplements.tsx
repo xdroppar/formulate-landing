@@ -463,6 +463,86 @@ export function BestCreatine() {
         Retail prices above reflect mid-2024 averages from major U.S. retailers (Amazon, iHerb, brand direct). We update this table quarterly. Subscribe-and-save discounts can drop costs 10–15%.
       </Callout>
 
+      <h2>Does Caffeine Interfere With Creatine? What the Evidence Actually Shows</h2>
+
+      <p>Does caffeine interfere with creatine? This question traces back almost entirely to a single study — Vandenberghe et al. (1996) — and it's been misrepresented so aggressively across the internet that it deserves a careful look.</p>
+
+      <h3>What Vandenberghe Actually Found</h3>
+
+      <p>The study gave nine subjects a creatine loading protocol (0.5g/kg/day for six days), then measured knee extension torque. One group took creatine alone; another took creatine plus caffeine (5mg/kg/day). Both groups achieved identical increases in muscle phosphocreatine stores. But here's the twist: the caffeine group showed <strong>no improvement in dynamic torque production</strong> despite having fully loaded muscles. <EvidenceBadge level="moderate" /></p>
+
+      <p>That's a genuinely interesting finding — but it's not "caffeine blocks creatine absorption," which is how it gets parroted everywhere. Muscle creatine levels were the same. The interference, if real, was at the <em>performance output</em> level, possibly related to caffeine's effect on muscle relaxation time conflicting with creatine's mechanism for rapid ATP regeneration.</p>
+
+      <h3>Why One Study Isn't a Consensus</h3>
+
+      <p>This was nine subjects, one protocol, one measure. A 2017 meta-analysis by Trexler and Smith-Ryan in the <em>Journal of Strength and Conditioning Research</em> found that co-ingestion of caffeine and creatine did <strong>not</strong> negate creatine's ergogenic effects across the broader literature. A later review by Kreider et al. (2017) in the ISSN position stand made no recommendation to separate the two. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="info" title="Practical takeaway">
+      There is no strong evidence that your morning coffee or <a href="/guides/best-creatine-supplements">pre-workout caffeine</a> cancels out creatine supplementation. Muscle creatine uptake appears unaffected. The Vandenberghe finding on performance output has not been reliably replicated in subsequent research.
+      </Callout>
+
+      <h3>What to Actually Do</h3>
+
+      <p>Keep taking your 3–5g of creatine daily. Keep drinking coffee or using caffeinated pre-workout if that's your routine. If you're unusually cautious, separate them by an hour — but the evidence doesn't demand it. Consistency of creatine dosing matters far more than whether caffeine interferes with creatine on any given day. Don't overthink this one.</p>
+
+      <h2>Creatine for Endurance Athletes: Worth It or Dead Weight?</h2>
+
+      <p><strong>Creatine for endurance athletes</strong> is one of the most polarizing topics in sports nutrition — and the honest answer lands somewhere between "probably not transformative" and "not the liability you think it is." If you're a runner, cyclist, or triathlete, here's what the evidence actually says.</p>
+
+      <h3>The Water-Weight Concern Is Real but Overstated</h3>
+
+      <p>Creatine pulls water into muscle cells. On a standard 3–5g/day protocol, expect 1–2 lbs of intracellular water gain after saturation (~28 days). For a 150-lb runner, that's roughly a 1% bodyweight increase. Is that meaningful? In a sport where athletes obsess over gram-shaving on shoes, it's fair to ask. But a 2003 analysis by Hespel et al. in <em>Journal of Sports Sciences</em> found no measurable impairment in running economy or VO₂max from creatine-associated weight gain. <EvidenceBadge level="moderate" /> The weight is inside your working muscles, not sloshing around your midsection.</p>
+
+      <h3>What the Aerobic Performance Data Actually Shows</h3>
+
+      <p>Creatine's primary mechanism — replenishing phosphocreatine for short, high-intensity efforts — doesn't map neatly onto steady-state endurance work. A 2012 meta-analysis by Branch (in the <em>International Journal of Sport Nutrition and Exercise Metabolism</em>) found no significant benefit for continuous aerobic efforts lasting longer than ~150 seconds. <EvidenceBadge level="moderate" /></p>
+
+      <p>Where it <em>does</em> get interesting is repeated high-intensity intervals. Evidence suggests creatine can improve performance in interval training, hill repeats, and finishing kicks — the anaerobic bursts within an endurance context. A study by Graef et al. (2009) found improved critical power and time to exhaustion during intermittent cycling in creatine-supplemented subjects. <EvidenceBadge level="emerging" /> If your training includes structured intervals or you race with surges, there's a plausible mechanism.</p>
+
+      <h3>The Honest Verdict: A Dose/Weight Tradeoff Framework</h3>
+
+      <p>Creatine for endurance athletes isn't your highest-leverage supplement — that's likely <a href="/guides/best-creatine-supplements">adequate fueling, iron status, and possibly caffeine</a>. But it's not dead weight either. If your events involve any anaerobic component (crits, XC mountain biking, middle-distance running), the interval-performance benefits may outweigh the modest weight gain. If you're a pure steady-state ultrarunner, the performance case is weak — though <a href="/guides/best-creatine-supplements">cognitive benefits</a> during sleep-deprived events remain relevant.</p>
+
+      <Callout variant="info" title="Practical framework">
+      Accept the tradeoff if your racing includes surges, sprints, or intervals. Skip it — or deprioritize it — if your events are purely aerobic and every gram of bodyweight matters on race day. Either way, 3–5g/day of monohydrate won't harm your aerobic capacity.
+      </Callout>
+
+      <h2>Creatine and Caffeine: Can I Stack Them?</h2>
+
+      <p><strong>Creatine and caffeine</strong> is the most common stacking question we get — usually phrased as "can I mix creatine into my pre-workout?" The short answer: yes, you can take them together, and the supposed antagonism between the two is far less clear-cut than internet forums suggest.</p>
+
+      <h3>The Antagonism Debate</h3>
+
+      <p>The idea that caffeine "cancels out" creatine traces back to a single 1996 study by Vandenberghe et al. that found caffeine negated creatine's benefits on intermittent muscle relaxation time. But the protocol was unusual — subjects loaded creatine for six days, <em>then</em> added caffeine. Subsequent research has largely failed to confirm the effect. A 2017 meta-analysis by Trexler and Smith-Ryan found no consistent evidence that caffeine impairs creatine's ergogenic benefits on strength or power output when co-ingested. <EvidenceBadge level="moderate" /> The conflict appears overstated.</p>
+
+      <h3>Practical Stacking Guidance</h3>
+
+      <p>Most pre-workouts contain 150–300mg of caffeine alongside 3–5g of creatine monohydrate. If your pre-workout includes a full clinical dose of creatine (check the label — many underdose it inside proprietary blends), that's a perfectly fine delivery vehicle. If it contains less than 3g, supplement the difference separately.</p>
+
+      <p>Mixing creatine with coffee works too. Creatine is heat-stable and won't degrade in a hot beverage. Protein powder plus creatine is similarly straightforward — no interaction concerns whatsoever.</p>
+
+      <Callout variant="info" title="Timing Doesn't Need to Be Complicated">Creatine works through daily saturation, not acute timing. Whether you take it with your morning coffee, your pre-workout, or your post-workout protein shake, the result is the same after 28 days of consistent dosing. Pick whatever ritual helps you not forget it.</Callout>
+
+      <p>The one practical consideration: both caffeine and creatine loading doses can cause GI distress independently. If you're in a loading phase (20g/day) and drinking strong pre-workout, your stomach may object. At maintenance doses of 3–5g, most people tolerate the combination without issue. For more on how to layer supplements without overcomplicating things, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+
+      <h2>How to Tell If Creatine Is Working: A 6-Week Self-Assessment</h2>
+
+      <p><strong>How to tell if creatine is working</strong> comes down to tracking three concrete variables over six weeks — not guessing based on how your muscles feel in the mirror. Most people skip this step entirely, then either waste months on a supplement that isn't doing anything for them or abandon one that is.</p>
+
+      <h3>What to Track and When</h3>
+
+      <p><strong>Bodyweight:</strong> Weigh yourself under identical conditions (morning, fasted, post-bathroom) on days 1, 14, and 42. Creatine increases intracellular water in muscle tissue. Expect a <strong>1–2 lb increase</strong> within the first two to four weeks as stores saturate. If you loaded (20g/day for 5–7 days), this may appear within the first week. No weight change after four weeks of consistent 5g/day dosing is your first yellow flag.</p>
+
+      <p><strong>Strength:</strong> Log 1–3 rep maxes on two to three compound lifts — bench press, squat, or deadlift work well — at weeks 0, 2, 4, and 6. A 2003 meta-analysis by Branch (<em>Journal of Strength and Conditioning Research</em>) found creatine users gained roughly <strong>8% more strength</strong> and <strong>14% more reps to failure</strong> compared to placebo over similar timeframes. <EvidenceBadge level="strong" /> You don't need to hit those exact numbers, but you should see measurable progress beyond what your training alone would explain.</p>
+
+      <p><strong>Workout capacity:</strong> Note whether you're completing an extra rep or two on working sets, or recovering faster between sets. This is the most common early signal — it's subtle, but trackable if you log your sessions.</p>
+
+      <h3>When to Conclude You're a Non-Responder</h3>
+
+      <p>If after six weeks of verified 5g/day dosing you see <strong>zero bodyweight increase, no measurable strength gains beyond your training baseline, and no change in rep capacity</strong>, you're likely among the ~20–30% of people whose muscle creatine stores are already near the physiological ceiling (Greenhaff et al., 1994). <EvidenceBadge level="moderate" /> This doesn't mean creatine is useless — <a href="/guides/best-creatine-supplements">cognitive and bone-density benefits</a> may still apply — but the performance payoff probably isn't there for you.</p>
+
+      <Callout variant="info" title="Non-Responder ≠ Non-Compliant">Before labeling yourself a non-responder, confirm you've actually been taking 5g daily without gaps. Sporadic dosing is the most common reason creatine "doesn't work." Capsule users: double-check your per-serving dose — many products deliver under 3g.</Callout>
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Is creatine HCl better than monohydrate?</h3>

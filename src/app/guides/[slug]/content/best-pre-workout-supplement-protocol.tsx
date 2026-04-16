@@ -415,6 +415,80 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
 <strong>Creatine → Caffeine → Citrulline → Beta-Alanine.</strong> Start with creatine alone for a month. You'll spend under $3 total, build the daily habit, and see real strength gains before adding complexity. Each subsequent ingredient is additive — none of them depend on the others to work.
 </Callout>
 
+      <h3>Kidney Disease, Creatine, and Renal Contraindications</h3>
+
+      <p><strong>Creatine and kidney disease</strong> is one of the most searched safety questions in sports nutrition — and for good reason. Creatine supplementation reliably raises serum creatinine levels by 20–30%, because creatinine is a direct metabolic byproduct of creatine breakdown in muscle. Serum creatinine is also the standard biomarker clinicians use to estimate kidney function (eGFR). This creates a diagnostic collision: your lab work may look like kidney impairment when your kidneys are actually fine.</p>
+
+      <Callout variant="warning" title="False Positives on Kidney Function Tests">If you're supplementing 5g creatine daily and get blood work, your eGFR may read artificially low. Tell your doctor you're taking creatine <em>before</em> they interpret the results. A cystatin C–based eGFR test can provide an alternative measure unaffected by creatine intake.</Callout>
+
+      <p>In healthy adults, long-term creatine use at standard doses does not appear to impair renal function. A 2018 systematic review by de Souza e Silva et al. in the <em>Journal of Renal Nutrition</em> found no adverse effects on kidney function across studies lasting up to five years in individuals with normal baseline renal health. <EvidenceBadge level="strong" /> That said, the evidence base is almost entirely drawn from people with two functioning kidneys and no pre-existing renal pathology.</p>
+
+      <p>If you have <strong>chronic kidney disease (any stage), a single kidney, or a history of kidney stones</strong>, the calculus changes entirely. Creatine increases the metabolic load your kidneys must clear. Evidence in these populations is too limited to confirm safety, and nephrologists generally advise against supplementation as a precaution. A 2019 position statement from the <em>National Kidney Foundation</em> explicitly flagged creatine as a supplement warranting clinical discussion for anyone with compromised renal function.</p>
+
+      <Callout variant="info" title="Who Needs Specialist Clearance">Anyone with diagnosed kidney disease, reduced eGFR unrelated to creatine use, polycystic kidney disease, a solitary kidney, or a history of recurrent kidney stones should consult a nephrologist before starting 5g daily creatine. This isn't boilerplate — it's a specific contraindication. Bring your supplement list to the appointment.</Callout>
+
+      <p>For everyone else: get baseline blood work before you start, mention creatine use at every lab draw, and don't panic if your creatinine ticks up modestly. That's pharmacokinetics, not pathology. For more on integrating creatine into your protocol safely, see our <a href="/guides/creatine-loading">creatine loading guide</a>.</p>
+
+      <h2>Total Daily Caffeine Intake: Adding It All Up</h2>
+
+      <p>Your total daily caffeine intake matters more than your pre-workout dose in isolation. The 3–6 mg/kg recommendation above (210–420 mg for a 70 kg person) assumes that dose is essentially your only meaningful caffeine source for the day. For many people, it won't be.</p>
+
+      <p>An 8 oz cup of brewed coffee contains roughly 80–100 mg of caffeine. A large coffee-shop pour can hit 200–300 mg on its own. Black tea runs 40–70 mg per cup. An afternoon energy drink adds another 80–200 mg. If you drink two cups of coffee in the morning and then take 300 mg of caffeine before an afternoon session, you're already at 500–600 mg — and that's a conservative scenario.</p>
+
+      <Callout variant="warning" title="The 400 mg/day General Safety Ceiling">
+      Both the <strong>EFSA (2015)</strong> and the <strong>FDA</strong> identify 400 mg/day as the level below which adverse effects are unlikely in healthy, non-pregnant adults. This is not a performance target — it's a risk threshold. Exceeding it doesn't guarantee problems, but the incidence of anxiety, insomnia, tachycardia, and GI distress rises meaningfully above this line. <EvidenceBadge level="strong" />
+      </Callout>
+
+      <p>To stay within that ceiling while still using caffeine as an ergogenic aid, you have two practical options. First, <strong>audit your background intake</strong> — track every caffeinated beverage for a few days and get an honest baseline number. Most people underestimate by 30–50%. Second, <strong>subtract that baseline from 400 mg</strong> to find your available pre-workout budget. If you drink 200 mg worth of coffee before noon, your pre-workout caffeine should cap at roughly 200 mg — not the 5–6 mg/kg dose suggested for high-tolerance users.</p>
+
+      <p>If the math leaves you with less than 2 mg/kg for training, the ergogenic benefit becomes marginal. At that point, you're better off either cycling off daily coffee for a resensitization period (see the caffeine tolerance section above) or dropping the pre-workout caffeine entirely. The remaining three ingredients in this protocol — creatine, citrulline, and beta-alanine — don't depend on caffeine to work. For more on managing caffeine around sleep, see our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a>.</p>
+
+      <Callout variant="info" title="Quick Math">
+      Morning coffee (2 cups): ~180 mg. Afternoon tea: ~50 mg. Pre-workout caffeine tablet: 200 mg. <strong>Total: 430 mg</strong> — already over the general safety ceiling. Know your number before you dose.
+      </Callout>
+
+      <h3>Creatine and Water Retention: What to Expect in the First Two Weeks</h3>
+
+      <p>Creatine and water retention go hand in hand — and it's the number one reason people quit the most effective supplement in this protocol before it has a chance to work. Here's what's actually happening so you don't panic when the scale moves.</p>
+
+      <p>Creatine is an osmolyte. When your muscles accumulate it, water follows via osmotic gradient into the intracellular space. This isn't bloating and it isn't fat gain — it's your muscle cells becoming more hydrated. A 2003 study by Powers et al. in the <em>Journal of Athletic Training</em> measured a mean body mass increase of roughly 1.0–2.0 kg within the first 5–7 days of supplementation at 20g/day (loading) and similar gains over 2 weeks at the standard 5g/day dose. <EvidenceBadge level="strong" /></p>
+
+      <p>This intracellular hydration is the <strong>intended mechanism</strong>, not a side effect. Cell swelling triggers anabolic signaling pathways — evidence suggests it upregulates protein synthesis and inhibits proteolysis (Häussinger et al., 1993). In practical terms, fuller muscle cells are stronger muscle cells. The "water weight" is doing something useful.</p>
+
+      <Callout variant="info" title="What the Scale Will Show">
+      Expect a 1–2 kg increase in body weight within the first 7–14 days. This stabilizes once muscle creatine stores reach saturation (~160 mmol/kg dry muscle). After that initial bump, further weight changes reflect actual tissue gain or loss, not ongoing water accumulation.
+      </Callout>
+
+      <p>If you're tracking body composition, use waist measurements or skinfold calipers alongside the scale during weeks one and two. The scale alone will mislead you. And if you're cutting, don't reduce calories to "compensate" — the water is intramuscular and temporary in its rate of change, not a signal that your diet is off.</p>
+
+      <Callout variant="warning" title="Don't Quit Over Scale Weight">
+      Discontinuing creatine because of a 1.5 kg bump in week one means abandoning the supplement with the largest effect size in sports nutrition — roughly 8% strength and 14% power improvements (Branch, 2003) — over a cosmetically irrelevant and physiologically beneficial water shift.
+      </Callout>
+
+      <p>For more on the loading phase and how quickly saturation occurs, see our <a href="/guides/creatine-loading">creatine loading guide</a>.</p>
+
+      <h2>What to Buy: Quality Standards and Trusted Vendors</h2>
+
+      <p><strong>Quality standards for pre-workout supplements</strong> matter more than most people realize. A 2018 study by Labdoor found that 52% of supplement products tested had measurable discrepancies between label claims and actual contents. Some contained contaminants — heavy metals, undeclared stimulants, or banned substances — that never appeared on the label. If you're a drug-tested athlete, a single contaminated batch can end your career. If you're not, you still deserve to know what you're swallowing.</p>
+
+      <h3>Third-Party Certifications Worth Trusting</h3>
+
+      <p><strong>NSF Certified for Sport</strong> is the gold standard. Products bearing this mark are tested for over 270 banned substances, verified for label accuracy, and subject to unannounced facility audits. The NFL, MLB, and NCAA all recognize it. <strong>Informed Sport</strong> runs a similar program with batch-specific testing — every production run gets screened before release. Either certification dramatically reduces your contamination risk. <EvidenceBadge level="strong" /></p>
+
+      <p>For creatine specifically, look for <strong>Creapure®</strong> — a pharmaceutical-grade creatine monohydrate manufactured by AlzChem in Germany. It's produced via chemical synthesis rather than extracted from animal byproducts, which means fewer impurities (specifically lower levels of creatinine, dicyandiamide, and dihydrotriazine). Most reputable bulk creatine brands source from Creapure and say so on the label.</p>
+
+      <h3>Where to Actually Buy</h3>
+
+      <p>For bulk individual ingredients at clinical doses, <strong>Nutricost</strong>, <strong>BulkSupplements</strong>, and <strong>NOW Sports</strong> consistently offer transparent labeling, third-party testing documentation, and reasonable pricing. Nutricost's creatine monohydrate is Creapure-sourced. NOW Sports carries NSF Certified for Sport options across several lines. All three are available on Amazon and direct.</p>
+
+      <Callout variant="info" title="Use the Formulate Catalog">
+      Rather than Googling individual brands and cross-referencing certifications yourself, use the <a href="/guides/supplement-label-reading">Formulate catalog</a> to compare products by actual ingredient doses, certification status, and cost per serving. It's built to answer exactly this question.
+      </Callout>
+
+      <Callout variant="warning" title="Drug-Tested Athletes">
+      If you compete in any tested sport, <em>only</em> use products carrying NSF Certified for Sport or Informed Sport marks. "Third-party tested" without specifying the certifying body is marketing language, not a quality guarantee.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The four core ingredients in this protocol are well-studied in healthy adults, but several populations face specific risks that the general dosing guidance above doesn't cover. If any of the following apply to you, get clinical input before starting.

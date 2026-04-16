@@ -1,0 +1,179 @@
+[
+  {
+    "slug": "probiotic-strains-for-ibs",
+    "title": "Probiotic Strains for IBS: Which Actually Have Evidence",
+    "cost_usd": 0.079842,
+    "rebuttals": [
+      {
+        "claim": "only three specific strains have rigorous clinical trial evidence supporting their use",
+        "critique": "This is too narrow and will be immediately challenged by readers who encounter evidence for other strains. Lactobacillus rhamnosus GG has multiple RCTs in IBS populations. VSL#3 (now Visbiome) has RCT data specifically for IBS-D and IBS-C. Bifidobacterium lactis BB-12 is mentioned briefly for IBS-C but then dismissed. Excluding these without explanation weakens credibility — readers will Google them and find contradictory information, causing pogo-sticking.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "A meta-analysis by McFarland et al. (2010) found S. boulardii reduced diarrheal symptoms across multiple GI conditions",
+        "critique": "Citing a 2010 meta-analysis covering 'multiple GI conditions' as the primary evidence for S. boulardii in IBS is weak. This conflates evidence from non-IBS diarrhea contexts with IBS-D specifically. The guide should cite IBS-specific RCTs for S. boulardii (e.g., Choi et al. 2011, or Guslandi et al. 2000) rather than a broad diarrhea meta-analysis. A skeptical reader will notice that 'multiple GI conditions' could mean traveler's diarrhea or antibiotic-associated diarrhea — not IBS.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "The landmark trial by Whorwell et al. (2006) enrolled 362 women with IBS",
+        "critique": "The guide never addresses the critical generalizability problem: this trial enrolled only women. The guide later claims 'subtype-agnostic evidence' and recommends B. infantis 35624 broadly, including to presumably male readers, without acknowledging this limitation. This is a material omission that a gastroenterologist would immediately flag, and male IBS sufferers (roughly 30-40% of IBS cases) deserve to know the primary RCT excluded them.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "Staudacher et al. (2017) found that a low-FODMAP diet combined with a multi-strain probiotic improved symptom adequacy",
+        "critique": "The probiotic used in Staudacher et al. (2017) was not one of the three 'evidence-backed' strains featured in this guide. Using this study to endorse combining low-FODMAP with the guide's recommended strains is an evidence mismatch — the data cannot be extrapolated to B. infantis 35624, L. plantarum 299v, or S. boulardii specifically. The guide presents this as supporting evidence when it actually undermines the 'only these three strains' framing.",
+        "severity": "important"
+      },
+      {
+        "claim": "An estimated 30–85% of IBS patients may have SIBO, depending on the diagnostic criteria used",
+        "critique": "The 30–85% range is so wide as to be meaningless and reflects a controversial, contested literature — much of this range comes from breath testing with poor specificity. Citing this range without noting the methodological controversy (lactulose breath tests have notoriously high false-positive rates) may unnecessarily alarm readers and send them chasing an expensive, often inconclusive diagnostic workup. The current ACG guidelines are skeptical of routine SIBO testing in IBS.",
+        "severity": "important"
+      },
+      {
+        "claim": "Shelf-stable formulations using microencapsulation or blister packaging often outperform refrigerated products in real-world viability",
+        "critique": "This claim lacks a citation and functions as implicit product advertising for Align (which is then name-dropped in the same paragraph). The evidence that microencapsulation universally outperforms refrigeration is not settled — viability depends on specific strain, excipient chemistry, and storage conditions. The segue into Align's blister packaging reads as sponsored content whether or not it is.",
+        "severity": "important"
+      },
+      {
+        "claim": "Don't stack multiple probiotic products simultaneously — you won't know which one is helping",
+        "critique": "While pragmatically sound for self-experimentation, this contradicts the guide's own citation of Staudacher et al. (2017) using a multi-strain product, and ignores that some patients with refractory IBS are directed by gastroenterologists to use combination approaches. The guidance is presented as absolute when it's really a self-tracking heuristic.",
+        "severity": "nice_to_have"
+      }
+    ],
+    "follow_up_questions": [
+      {
+        "question": "Is Align probiotic worth the price vs generic B. infantis 35624?",
+        "why_missing": "The guide names Align as the branded source of B. infantis 35624 but never addresses cost (~$40-50/month) vs. whether cheaper generic options contain the genuine 35624 strain. Readers will immediately search for cheaper alternatives and have no framework to evaluate whether off-brand claims of B. infantis 35624 are legitimate."
+      },
+      {
+        "question": "What probiotic strains are safe during pregnancy for IBS?",
+        "why_missing": "The guide only says 'consult your OB/GYN' in a one-sentence disclaimer. Pregnant women with IBS are a large segment who will not find this answer sufficient and will immediately leave the page."
+      },
+      {
+        "question": "Can I take probiotics while on SSRIs or antidepressants for IBS?",
+        "why_missing": "A significant proportion of IBS patients are prescribed low-dose tricyclics, SSRIs, or SNRIs for gut-brain axis modulation. Drug-probiotic interactions are not addressed at all despite the guide mentioning the gut-brain axis."
+      },
+      {
+        "question": "How long should I take a probiotic for IBS — is it forever?",
+        "why_missing": "The guide covers trial duration (4-8 weeks) but never addresses maintenance dosing, whether to stop once symptoms improve, or whether benefits persist after discontinuation. This is among the most common patient questions and its absence will drive readers to other sources."
+      },
+      {
+        "question": "Lactobacillus rhamnosus GG for IBS — does it work?",
+        "why_missing": "LGG is the most recognized probiotic strain globally and appears in dozens of products. A reader who just bought a LGG product will search this immediately after reading the guide's 'only three strains' claim and find the guide has not addressed it."
+      },
+      {
+        "question": "What probiotic for IBS-C specifically — B. infantis didn't work for me?",
+        "why_missing": "The guide acknowledges weak evidence for IBS-C but offers no actionable fallback beyond B. lactis BB-12 with a dismissive 'limited evidence' note. Constipation-predominant IBS patients represent roughly 30% of cases and are left without a meaningful recommendation."
+      },
+      {
+        "question": "Can children take these IBS probiotics?",
+        "why_missing": "Pediatric IBS is common and trials in adult populations cannot be automatically extrapolated to children. The guide contains no age-related guidance."
+      }
+    ],
+    "audience_gaps": [
+      {
+        "audience": "Male IBS patients",
+        "missing_need": "The primary RCT for B. infantis 35624 (Whorwell 2006) enrolled only women. Male readers deserve explicit acknowledgment of this limitation and any available data on whether the strain performs similarly in men."
+      },
+      {
+        "audience": "Immunocompromised patients (transplant, autoimmune, HIV)",
+        "missing_need": "The guide warns them to 'talk to a doctor first' but provides no clinical context about which strains are higher vs. lower risk, or what that physician conversation should include. These patients are often the most motivated to self-research and get the least usable information."
+      },
+      {
+        "audience": "Patients already taking PPIs or acid-reducing medications",
+        "missing_need": "PPIs alter gastric pH, which significantly affects bacterial probiotic survival and transit to the colon. PPI use is highly prevalent in IBS patients and the interaction is never addressed."
+      },
+      {
+        "audience": "Patients post-antibiotic course (antibiotic-associated IBS flare)",
+        "missing_need": "Many people develop or worsen IBS symptoms after antibiotics. This is a distinct clinical context — the guide doesn't differentiate between ongoing IBS maintenance and post-antibiotic gut dysbiosis, where S. boulardii evidence is actually strongest."
+      },
+      {
+        "audience": "Vegans and vegetarians",
+        "missing_need": "Align (B. infantis 35624) capsules contain gelatin. Vegan readers need to know this and whether vegan-encapsulated formulations containing the verified 35624 strain exist."
+      },
+      {
+        "audience": "Budget-constrained readers",
+        "missing_need": "Align costs ~$40-50/month. No budget alternatives or tiered cost guidance are provided. Readers on fixed incomes or without insurance coverage for supplements will not find this guide actionable."
+      },
+      {
+        "audience": "IBS-C patients",
+        "missing_need": "The guide effectively tells constipation-predominant IBS patients 'the data is thin' without providing any alternative pathway — dietary, behavioral, or supplement — to address their specific subtype. This segment leaves empty-handed."
+      },
+      {
+        "audience": "Patients with concurrent IBD (Crohn's/UC) and IBS-like symptoms",
+        "missing_need": "IBD-IBS overlap is clinically common and some probiotics behave differently in the context of intestinal inflammation. No guidance is provided for this segment."
+      }
+    ],
+    "evidence_gaps": [
+      {
+        "claim": "S. boulardii reduced diarrheal symptoms across multiple GI conditions (McFarland 2010)",
+        "evidence_needed": "IBS-specific RCTs for S. boulardii CNCM I-745 need direct citation — e.g., Choi et al. (2011) 'Irritable bowel syndrome: a randomized controlled trial' or the Guslandi et al. trial. The current citation proves diarrhea benefit in general, not IBS-D specifically."
+      },
+      {
+        "claim": "L. plantarum 299v appears particularly effective for gas-dominant symptoms",
+        "evidence_needed": "The mechanistic basis for this symptom specificity is asserted without explanation. A brief explanation of proposed mechanisms (competitive exclusion, short-chain fatty acid production, mucus layer interaction) with supporting mechanistic citations would strengthen this claim."
+      },
+      {
+        "claim": "Shelf-stable formulations using microencapsulation or blister packaging often outperform refrigerated products in real-world viability",
+        "evidence_needed": "A peer-reviewed stability study or independent viability comparison (e.g., ConsumerLab or similar third-party testing data) is needed. Without citation this reads as marketing copy."
+      },
+      {
+        "claim": "B. infantis 35624 modulates the Th1/Th2 immune balance, which may explain its broad symptom relief across IBS subtypes",
+        "evidence_needed": "The mechanistic claim is plausible but the Th1/Th2 framing is an oversimplification that has been largely superseded by Th17/Treg axis research in IBS immunology. Citation of the specific O'Mahony et al. mechanistic work would help, along with acknowledgment of ongoing debate."
+      },
+      {
+        "claim": "combining probiotics with a low-FODMAP diet produces better IBS outcomes than either intervention alone",
+        "evidence_needed": "The Staudacher et al. (2017) trial used a specific multi-strain probiotic (B. lactis, L. acidophilus, L. casei, L. rhamnosus blend) — not any of the three guide-endorsed strains. A citation that uses one of the three endorsed strains in a low-FODMAP combination study is needed, or the claim should be explicitly qualified as strain-nonspecific."
+      },
+      {
+        "claim": "An estimated 30–85% of IBS patients may have SIBO",
+        "evidence_needed": "This range requires decomposition by diagnostic method. Studies using glucose breath testing vs. lactulose breath testing yield drastically different prevalence estimates. Citing Ghoshal et al. or the ACG Clinical Guideline position on SIBO breath testing sensitivity/specificity would contextualize this appropriately."
+      }
+    ],
+    "suggested_additions": [
+      {
+        "section_title": "B. infantis 35624 and Male IBS Patients: What the Trial Data Actually Covers",
+        "content_summary": "A focused paragraph disclosing that the Whorwell 2006 trial enrolled only women, presenting any available data on male populations (including smaller follow-up trials), and giving male readers an honest assessment of extrapolation uncertainty.",
+        "impact": "high",
+        "rationale": "This is a blocking credibility issue. Omitting it means the guide misleads roughly 30-40% of IBS sufferers. Addressing it demonstrates scientific honesty that builds trust and reduces bounce from skeptical readers who know the trial design."
+      },
+      {
+        "section_title": "Cost, Sourcing, and How to Verify You're Getting the Real Strain",
+        "content_summary": "Explains that brand names like Align are the verified source for 35624, addresses whether generic 'B. infantis 35624' products are legitimate, provides CoA (certificate of analysis) guidance, and offers monthly cost comparison across the three strains.",
+        "impact": "high",
+        "rationale": "The single most common follow-up action after reading this guide is Googling 'cheaper alternative to Align.' Without this section the guide fails to complete the purchase decision journey, causing pogo-sticking that directly damages rankings."
+      },
+      {
+        "section_title": "What About L. rhamnosus GG, VSL#3, and Other Widely-Marketed Strains?",
+        "content_summary": "Directly addresses the most Googled probiotic strains (LGG, VSL#3/Visbiome, L. reuteri DSM 17938) that the guide's 'only three strains' framing implicitly dismisses, explaining the evidence quality for each and why they don't meet the guide's threshold.",
+        "impact": "high",
+        "rationale": "Without this section, any reader who owns an LGG product or has seen VSL#3 discussed in medical contexts will distrust the guide's 'only three' claim. Proactively addressing competing strains builds authority and prevents search refinement to competitor pages."
+      },
+      {
+        "section_title": "Duration of Use and Stopping: Will Benefits Last?",
+        "content_summary": "Addresses whether probiotic benefits persist after discontinuation, whether indefinite use is warranted, and what trial data shows about symptom relapse rates post-cessation for each of the three strains.",
+        "impact": "high",
+        "rationale": "This is the most underserved question in the entire guide. Every reader who gets symptom relief will ask 'can I stop now?' The guide's complete silence on this sends them to Google immediately after reading."
+      },
+      {
+        "section_title": "Probiotics During and After Antibiotics: Timing and Selection",
+        "content_summary": "Covers S. boulardii's unique advantage during antibiotic courses, the 2-hour separation rule for bacterial probiotics, and whether post-antibiotic IBS flares warrant a different probiotic strategy than chronic IBS.",
+        "impact": "medium",
+        "rationale": "Antibiotic-associated IBS worsening is extremely common and a high-intent search context. This section would capture an adjacent high-volume query cluster while also completing genuinely incomplete guidance in the current S. boulardii section."
+      },
+      {
+        "section_title": "Vegan and Allergen Considerations for IBS Probiotic Products",
+        "content_summary": "Notes that Align contains gelatin, identifies whether any verified B. infantis 35624 formulations use vegan capsules, and flags common allergens (dairy, soy) in probiotic formulations relevant to IBS patients on elimination diets.",
+        "impact": "medium",
+        "rationale": "Vegan readers will abandon Align-based recommendations without this information. Dairy-containing probiotic products are also directly contraindicated for the subset of IBS patients with lactose intolerance, a significant overlap population."
+      },
+      {
+        "section_title": "IBS-C and the Evidence Gap: What Are Your Options?",
+        "content_summary": "Honestly acknowledges the thin probiotic evidence for constipation-predominant IBS, covers B. lactis BB-12 and any partial evidence for IBS-C, and contextualizes probiotics within the broader IBS-C treatment ladder (soluble fiber, PEG, linaclotide) so the reader leaves with actionable next steps.",
+        "impact": "medium",
+        "rationale": "IBS-C patients currently leave this guide with 'data is thin' and nothing actionable. They represent ~30% of IBS cases. Serving this segment reduces abandonment and positions the guide as comprehensive rather than partial."
+      }
+    ],
+    "overall_verdict": "The guide's core framework — strain specificity, evidence hierarchy, and subtype matching — is genuinely strong and the writing is clear. However, two issues require immediate attention before publication: first, the Whorwell trial's women-only enrollment is never disclosed despite the guide recommending B. infantis 35624 to all IBS subtypes and genders, which is a material scientific omission that will destroy credibility with any medically literate reader; second, the 'only three strains have evidence' framing will cause immediate pogo-sticking from readers who own LGG or VSL#3 products and Google those strains — a dedicated comparison section addressing these widely-marketed alternatives is essential to keep readers on page and establish topical authority. Fix the enrollment disclosure first (it's a trust-killer), then add the competitive strain comparison section (it's a rankings-killer)."
+  }
+]

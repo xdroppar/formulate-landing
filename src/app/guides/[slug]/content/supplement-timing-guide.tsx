@@ -647,6 +647,68 @@ Caffeine clearance roughly doubles in duration during pregnancy. Iron requiremen
 
 <p>The common thread across all of these: if the "standard" timing protocol isn't producing results — or is producing side effects — your biology may be the variable, not your discipline. Genetic testing for CYP1A2 and MTHFR is inexpensive and increasingly accessible, and a conversation with your pharmacist about age-related absorption changes takes ten minutes.</p>
 
+      <h2>Quick-Reference Table: With Food vs. Empty Stomach vs. Either</h2>
+
+      <p>Knowing whether to take supplements with food or on an empty stomach is the single most common timing question — and the answer varies by supplement. This table consolidates everything covered across the guide into one scannable reference. If a supplement appears in the "with food" column, it means absorption or tolerability meaningfully improves with a meal. "Empty stomach" means food actively interferes with uptake. "Either" means timing relative to meals doesn't materially change outcomes.</p>
+
+      <Callout variant="info" title="How to use this table">
+      Find your supplement, check the column, and match it to your daily routine. If you're on an <a href="/guides/supplement-timing-guide">intermittent fasting protocol</a>, pay extra attention to the "with food" column — those supplements must wait for your eating window.
+      </Callout>
+
+      <table>
+      <thead>
+      <tr><th>Supplement</th><th>With Food</th><th>Empty Stomach</th><th>Either</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+      <tr><td>Vitamin D3</td><td>✔</td><td></td><td></td><td>Requires dietary fat — absorption drops ~50% without it</td></tr>
+      <tr><td>Vitamin K2</td><td>✔</td><td></td><td></td><td>Fat-soluble; pair with D3 and a fat source</td></tr>
+      <tr><td>Vitamin A</td><td>✔</td><td></td><td></td><td>Fat-soluble</td></tr>
+      <tr><td>Vitamin E</td><td>✔</td><td></td><td></td><td>Fat-soluble</td></tr>
+      <tr><td>Omega-3 / Fish Oil</td><td>✔</td><td></td><td></td><td>Fat-soluble; food also reduces fishy burps</td></tr>
+      <tr><td>CoQ10 (Ubiquinol)</td><td>✔</td><td></td><td></td><td>Fat-soluble; mildly energizing — take with breakfast</td></tr>
+      <tr><td>Curcumin</td><td>✔</td><td></td><td></td><td>Lipid-formulated or taken with fat and piperine</td></tr>
+      <tr><td>Iron</td><td></td><td>✔</td><td></td><td>Food reduces absorption; pair with vitamin C, avoid coffee/dairy for 30+ min</td></tr>
+      <tr><td>L-Tyrosine</td><td></td><td>✔</td><td></td><td>Competes with other amino acids for uptake when taken with protein</td></tr>
+      <tr><td>B-Complex / B12</td><td></td><td></td><td>✔</td><td>Take in the morning — can disrupt sleep if taken late</td></tr>
+      <tr><td>Vitamin C</td><td></td><td></td><td>✔</td><td>Water-soluble; useful paired with iron on an empty stomach</td></tr>
+      <tr><td>Magnesium Glycinate</td><td></td><td></td><td>✔</td><td>Best taken in the evening for sleep support; food not required</td></tr>
+      <tr><td>Calcium</td><td></td><td></td><td>✔</td><td>Evening preferred to avoid competing with morning iron/zinc</td></tr>
+      <tr><td>Zinc</td><td>✔</td><td></td><td></td><td>Can cause nausea on an empty stomach; separate from iron and calcium</td></tr>
+      <tr><td>Creatine</td><td></td><td></td><td>✔</td><td>Saturation supplement — daily consistency matters, meal timing doesn't</td></tr>
+      <tr><td>Beta-Alanine</td><td>✔</td><td></td><td></td><td>Taking with meals reduces paresthesia (tingling)</td></tr>
+      <tr><td>L-Theanine</td><td></td><td></td><td>✔</td><td>Works well before bed, no food requirement</td></tr>
+      <tr><td>Glycine</td><td></td><td></td><td>✔</td><td>3g before bed; no food dependency</td></tr>
+      <tr><td>Caffeine</td><td></td><td></td><td>✔</td><td>Peaks in 30–60 min; avoid within 6–8 hours of sleep</td></tr>
+      <tr><td>Probiotics</td><td>✔</td><td></td><td></td><td>With or just before a meal to reduce stomach acid exposure</td></tr>
+      </tbody>
+      </table>
+
+      <Callout variant="warning" title="The table doesn't override your medication schedule">
+      If you take prescription medications, spacing rules from the <a href="/guides/supplement-timing-guide">medication interactions section</a> take priority over everything listed here. Build your supplement timing around your meds, not around this table.
+      </Callout>
+
+      <h2>Iron Supplementation: Every-Other-Day Dosing and GI Tolerability</h2>
+
+      <p><strong>Every-other-day iron dosing</strong> may sound like a compliance shortcut, but it's backed by solid physiology. When you take iron, your body produces hepcidin — a hormone that blocks further iron absorption for roughly 24 hours. A landmark study by Stoffel et al. (2017) in <em>The Lancet Haematology</em> showed that women absorbing iron from a morning dose had elevated hepcidin that significantly reduced absorption from a second dose taken later the same day or even the next morning. Fractional absorption from the alternate-day protocol was roughly 40% higher than from consecutive-day dosing. <EvidenceBadge level="moderate" /></p>
+
+      <p>This means taking iron every other day may actually deliver <em>more</em> usable iron to your bloodstream than daily dosing — while cutting GI side effects (nausea, constipation, cramping) in half simply because you're halving the number of doses. If daily iron makes you miserable enough to quit, every-other-day dosing isn't a compromise. It's the better protocol.</p>
+
+      <h3>When GI Tolerability Should Override Empty-Stomach Advice</h3>
+
+      <p>The standard recommendation — take iron fasted for peak absorption — is technically correct. But absorption drops only about 40–50% when iron is taken with a small amount of food, while nausea drops dramatically. If empty-stomach iron sends you reaching for the nearest trash can, taking it with a light snack (a few crackers, a banana) is vastly preferable to not taking it at all. Avoid dairy and coffee at that meal — <a href="/guides/supplement-timing-guide">calcium and tannins</a> are the real absorption killers, not food in general.</p>
+
+      <Callout variant="info" title="Form matters as much as timing">
+      Iron bisglycinate (Ferrochel) produces significantly fewer GI side effects than ferrous sulfate at comparable absorbed doses (Milman et al., 2014). If you're struggling with tolerability, switching forms before abandoning the supplement entirely is worth trying. Pair with vitamin C regardless of form — it keeps iron in its more absorbable ferrous state.
+      </Callout>
+
+      <h3>The Practical Decision Framework</h3>
+
+      <p><strong>If you're clinically deficient</strong> and your provider wants aggressive repletion, ferrous sulfate on an empty stomach daily may be necessary despite the GI cost. Tolerate it for the 8–12 weeks needed to rebuild stores. <strong>If you're maintaining levels or mildly low,</strong> every-other-day bisglycinate with a small amount of food is the protocol most likely to survive contact with your actual life. The dose you take consistently for three months beats the "optimal" dose you abandon after two weeks.</p>
+
+      <Callout variant="warning" title="Don't self-prescribe iron">
+      Iron is one of the few supplements where more is genuinely dangerous. Excess iron accumulates and causes oxidative damage. Get ferritin and transferrin saturation tested before supplementing, and consult your healthcare provider for dosing guidance — especially if you're pregnant, have hemochromatosis risk factors, or take medications affected by mineral interactions.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Most supplement timing advice in this guide assumes a healthy adult with no chronic conditions and no prescription medications. If any of the following apply to you, get clinical input before building or changing your stack.

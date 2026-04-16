@@ -1,0 +1,161 @@
+[
+  {
+    "slug": "nac-and-alcohol",
+    "title": "NAC and Alcohol: The Liver Protection Timing Question",
+    "cost_usd": 0.075243,
+    "rebuttals": [
+      {
+        "claim": "Chung et al. (2001) demonstrated in an animal model that NAC pre-treatment significantly attenuated alcohol-induced liver lipid peroxidation and maintained glutathione levels, while post-treatment showed no protective benefit.",
+        "critique": "The guide cites Chung et al. (2001) as the linchpin citation for the pre-vs-post timing claim, but provides no DOI, journal, or enough detail for a reader or fact-checker to verify it. 'Animal model' is doing a lot of work — species, dose, and ethanol equivalence matter enormously for translational validity. The guide elsewhere rightly caveat-labels animal data but doesn't apply that label consistently here, making the timing rule sound more settled than it is.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "Several animal studies suggest that NAC taken after alcohol exposure — when acetaldehyde is already circulating — may increase rather than decrease oxidative damage.",
+        "critique": "This is the guide's most consequential behavioral claim — 'don't take NAC the morning after' — yet it rests on unnamed 'several animal studies' with no citations. The pro-oxidant Fenton mechanism is real biochemistry, but the dose ranges in rodent studies rarely map cleanly to human OTC supplementation doses (600–1200 mg). Without citations or dose context, a skeptical reader will (correctly) Google this and find contradictory advice, causing pogo-stick behavior.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "If you need pain relief after drinking, ibuprofen or aspirin are generally preferred over acetaminophen, though they carry their own GI risks with alcohol.",
+        "critique": "This is dangerously incomplete. NSAIDs (ibuprofen, aspirin, naproxen) with alcohol meaningfully increase bleeding risk and risk of gastric ulceration/hemorrhage — not a 'minor GI risk' footnote. For readers with a history of GI bleeds, ulcers, or who are on blood thinners (a segment explicitly flagged elsewhere in the guide), this framing could cause serious harm. The guide should either specify safer alternatives (e.g., lower-dose acetaminophen with food if truly not drinking heavily) or direct readers to a pharmacist for individualized guidance.",
+        "severity": "blocking"
+      },
+      {
+        "claim": "NAC: 600–1200 mg, taken 30–60 minutes before the first drink",
+        "critique": "The protocol gives a 2x dose range (600 vs 1200 mg) without decision criteria. A first-time user has no basis for choosing. The guide notes '600 mg is most commonly studied' in the FAQ but doesn't reconcile that with recommending up to 1200 mg in the protocol. Clinical research on NAC for acetaminophen overdose uses IV dosing not comparable to oral OTC use. The reader needs: what determines whether they take 600 vs 1200 mg (body weight? number of drinks planned? prior GI sensitivity?)",
+        "severity": "important"
+      },
+      {
+        "claim": "Vitamin C: 200–400 mg alongside NAC (vitamin C recycles glutathione and may support the antioxidant network)",
+        "critique": "'May support' is vague and the evidence base for this specific co-administration in the context of alcohol is not cited. Vitamin C recycling of glutathione is a real mechanism, but the clinical relevance at 200–400 mg oral doses during acute alcohol exposure is unestablished. Including it in a 'protocol' without noting that this is speculative extrapolation misleads readers into thinking it's evidence-supported rather than mechanistically plausible.",
+        "severity": "important"
+      },
+      {
+        "claim": "A pilot study by Wilson et al. (2017) found that NAC, combined with behavioral therapy, reduced alcohol use in veterans with alcohol use disorder.",
+        "critique": "Citing a pilot study (presumably small N, unblinded or limited blinding) for a clinical outcome without mentioning sample size, effect size, or replication status overstates the evidence. 'Pilot study' by definition means underpowered to establish efficacy. This is especially important here because the guide is addressing alcohol use disorder — a condition where overpromising supplement benefits can delay evidence-based treatment (naltrexone, acamprosate).",
+        "severity": "important"
+      },
+      {
+        "claim": "NAC is generally well-tolerated at standard doses (600–1800 mg/day) with mild GI effects as the most common side effect.",
+        "critique": "The guide's protocol ceiling is 1200 mg but the safety statement references 1800 mg/day — these numbers should align or the discrepancy should be explained. More importantly, 'well-tolerated' language underplays the documented risk of bronchospasm in people with reactive airway disease, which is mentioned later but not flagged at the point of dosing.",
+        "severity": "nice_to_have"
+      }
+    ],
+    "follow_up_questions": [
+      {
+        "question": "What if I already took NAC after drinking — is it dangerous or just not helpful?",
+        "why_missing": "The guide says post-drink NAC 'may worsen oxidative liver stress' but gives no practical risk calibration. Readers who already took it will panic. The guide needs a harm-quantification statement — e.g., 'the risk is theoretical at OTC doses and not established in humans; this is not a medical emergency' — so they don't spiral into anxiety or ER visits."
+      },
+      {
+        "question": "Can I take NAC every day, or only on drinking days?",
+        "why_missing": "Daily NAC use is common for other reasons (lung health, mental health). The guide treats NAC purely as a situational pre-drink supplement but never addresses whether daily baseline NAC use changes the timing math or whether chronic users are already 'pre-loaded.'"
+      },
+      {
+        "question": "What's the best NAC supplement brand or form to buy?",
+        "why_missing": "The guide links to a product catalog but never addresses bioavailability differences (NAC vs. NAC amide vs. liposomal NAC), FDA supplement quality concerns, or third-party testing (USP, NSF). A reader who clicks 'browse catalog' needs buying criteria."
+      },
+      {
+        "question": "Does NAC interact with antidepressants or SSRIs?",
+        "why_missing": "NAC is actively researched as an adjunct in psychiatry (OCD, depression, addiction). Many social drinkers are on SSRIs, SNRIs, or bupropion. The drug interactions section omits this entirely, and alcohol + SSRIs + NAC is a common real-world combination."
+      },
+      {
+        "question": "How many drinks does the pre-drink NAC dose 'cover'?",
+        "why_missing": "The protocol doesn't address dose scaling relative to planned alcohol intake. A reader having 1 beer vs. 8 drinks will both read '600–1200 mg' and get no guidance on whether dose should adjust. This is a practical decision point the guide ignores."
+      },
+      {
+        "question": "Is NAC legal/available everywhere and does it require a prescription?",
+        "why_missing": "The FDA attempted to remove NAC from the OTC supplement market in 2020–2021. The regulatory status is unsettled in the US and varies internationally. Readers in different countries may face prescription requirements or unavailability."
+      }
+    ],
+    "audience_gaps": [
+      {
+        "audience": "People on SSRIs, SNRIs, or bupropion",
+        "missing_need": "Drug interaction data between NAC and common antidepressants/anxiolytics is absent. Bupropion (Wellbutrin) lowers seizure threshold; alcohol also lowers it; NAC's glutamatergic effects add a third variable. This combination is extremely common and the guide's 'drug combinations' section ignores psychiatric medications entirely."
+      },
+      {
+        "audience": "Older adults (65+)",
+        "missing_need": "Older adults have reduced baseline glutathione production, altered hepatic metabolism, higher medication burden, and higher sensitivity to both alcohol and supplements. The guide's protocol and dosing guidance treats all adults identically. No age-specific caution or dose-adjustment note is present."
+      },
+      {
+        "audience": "People with existing liver conditions (fatty liver, elevated ALT/AST, hepatitis)",
+        "missing_need": "The guide briefly addresses 'past liver damage' in FAQ but doesn't address people currently managing NAFLD, NASH, or hepatitis — populations who might actively seek 'liver protection' supplements. NAC's risk/benefit calculus changes substantially here and warrants explicit discussion or redirection to medical care."
+      },
+      {
+        "audience": "Women of childbearing age who drink occasionally",
+        "missing_need": "The guide mentions pregnancy only in the 'who should talk to a doctor' section (correctly). But it misses women who don't know they're pregnant, or who are trying to conceive. Given that a significant portion of casual drinkers are women in this demographic, a brief flag at the protocol section (not buried in a safety list) would serve them."
+      },
+      {
+        "audience": "Athletes and gym-goers using NAC for performance or recovery",
+        "missing_need": "NAC is widely used in athletic contexts, and this audience often drinks socially post-competition. Critically, there is evidence that antioxidant supplementation (including NAC) can blunt exercise adaptation if taken around training. An athlete reading this guide needs to know the timing conflict between training and drinking occasions."
+      },
+      {
+        "audience": "Vegans and people with dietary cysteine deficiencies",
+        "missing_need": "Vegans and people on low-protein diets may have lower baseline cysteine/glutathione levels, making them potentially more responsive to NAC — or they may have other deficiencies (B12, zinc) that affect glutathione recycling pathways. No mention of dietary context is made."
+      },
+      {
+        "audience": "Budget-conscious readers without access to supplements",
+        "missing_need": "NAC costs money. The guide recommends it alongside vitamin C and electrolytes but never acknowledges that a reader without supplement access might want to know which single intervention has the most practical value, or whether dietary cysteine sources (whey protein, chicken, eggs pre-drink) are meaningful alternatives."
+      }
+    ],
+    "evidence_gaps": [
+      {
+        "claim": "Several animal studies suggest that NAC taken after alcohol exposure may increase rather than decrease oxidative damage.",
+        "evidence_needed": "Specific citations with authors, years, and journals for each study supporting the post-drink pro-oxidant claim. The guide's entire behavioral recommendation ('don't take NAC after drinking') hangs on this, yet the studies are unnamed. Readers and clinicians cannot evaluate unnamed references."
+      },
+      {
+        "claim": "Studies in rats show that a single binge-equivalent dose can reduce liver glutathione by 40–50% within hours (Morelli et al., 1986).",
+        "evidence_needed": "Morelli 1986 is cited without journal or DOI. More importantly, this 37-year-old rat study needs to be contextualized against more recent human data on alcohol-induced glutathione depletion (e.g., Lieber CS work on hepatic GSH depletion in humans). Rat-to-human dose translation should be addressed."
+      },
+      {
+        "claim": "Vitamin C recycles glutathione and may support the antioxidant network [in the context of pre-drink NAC protocol].",
+        "evidence_needed": "A citation specifically studying vitamin C + NAC co-administration in the context of acute alcohol exposure, or an honest statement that this combination in the protocol is mechanistically extrapolated rather than empirically tested as a unit."
+      },
+      {
+        "claim": "NAC, combined with behavioral therapy, reduced alcohol use in veterans with alcohol use disorder (Wilson et al., 2017).",
+        "evidence_needed": "Sample size, blinding status, effect size, and whether this has been replicated. A single pilot study citation without these parameters is insufficient to support including AUD as an application area, especially given the harm of delaying evidence-based AUD treatment."
+      },
+      {
+        "claim": "NAC may potentiate the effects of nitroglycerin (causing dangerous blood pressure drops) and may have additive effects with anticoagulant medications.",
+        "evidence_needed": "Specific interaction citations. 'May have additive effects' with anticoagulants is a significant understatement if true — the mechanism and magnitude should be cited so readers on warfarin/DOACs understand actual risk level."
+      }
+    ],
+    "suggested_additions": [
+      {
+        "section_title": "How Many Drinks Does One Dose Cover? Scaling the Protocol",
+        "content_summary": "Address whether 600 mg vs. 1200 mg should be calibrated to planned drink count, body weight, or drinking history. Acknowledge the lack of dose-response human data and provide a conservative heuristic (e.g., use 600 mg for 1–3 drinks, 1200 mg for heavier sessions) with explicit uncertainty labeling.",
+        "impact": "high",
+        "rationale": "This is the single most practical unanswered question after reading the protocol. Every reader who drinks more than one drink will wonder this. Answering it reduces pogo-sticking to Reddit/forums and increases guide authority."
+      },
+      {
+        "section_title": "Medication Interactions: The Full List (Including Psychiatric Drugs)",
+        "content_summary": "Expand the drug interaction section to include SSRIs/SNRIs (serotonin/glutamate effects), bupropion (seizure threshold), metformin (hepatic pathway overlap), and any medication with narrow therapeutic index metabolized by CYP2E1. Distinguish between theoretical and documented interactions.",
+        "impact": "high",
+        "rationale": "The current interactions section covers cardiovascular and pregnancy but ignores the largest overlap population (people on antidepressants who drink socially). This is both a safety gap and an SEO gap — 'NAC and antidepressants' is a high-volume query that this guide is positioned to capture."
+      },
+      {
+        "section_title": "I Already Took NAC After Drinking — What Now?",
+        "content_summary": "A brief, calm risk-calibration paragraph: the pro-oxidant concern is theoretical and not confirmed in humans at OTC doses; it is not a medical emergency; what to monitor; when to seek care. Aimed at readers who found this guide after the fact.",
+        "impact": "high",
+        "rationale": "The guide's strong 'before only' framing creates anxiety for the large segment of readers who arrive post-drinking having already taken NAC based on widespread online advice. Without this, they leave the page to seek reassurance elsewhere — a bounce that could be prevented."
+      },
+      {
+        "section_title": "Buying NAC: What to Look for (Form, Dose, Third-Party Testing)",
+        "content_summary": "Cover NAC vs. NAC amide bioavailability differences, FDA regulatory ambiguity (the 2020–2021 NDI controversy), what third-party certifications mean (USP, NSF, Informed Sport), and how to avoid underdosed or contaminated products. Link to catalog with this framing.",
+        "impact": "high",
+        "rationale": "The guide ends with a catalog CTA but gives the reader no buying criteria. This is a conversion gap: a reader who doesn't know what to look for won't click 'buy,' they'll go to Google and possibly land on a competitor's buying guide."
+      },
+      {
+        "section_title": "Food-First Alternative: Can Diet Substitute for NAC Before Drinking?",
+        "content_summary": "Address whether high-cysteine foods eaten before drinking (eggs, chicken, whey protein) provide meaningful glutathione precursor loading, and compare this to supplemental NAC for readers who can't access or afford supplements. Honest about the pharmacokinetic differences.",
+        "impact": "medium",
+        "rationale": "Serves the budget and vegan audience gaps; differentiates the guide from competitors who only address the supplement angle; increases dwell time with a genuinely novel angle most NAC guides ignore."
+      },
+      {
+        "section_title": "Special Populations: Older Adults, Athletes, and People with Liver Disease",
+        "content_summary": "Three short sub-sections: (1) older adults — reduced baseline GSH production, polypharmacy risk, lower alcohol tolerance; (2) athletes — potential conflict between antioxidant supplementation and exercise adaptation; (3) existing liver conditions — when supplementation is insufficient and medical evaluation is non-negotiable.",
+        "impact": "medium",
+        "rationale": "These three segments represent high-search-intent users (older adults googling 'liver health,' athletes googling 'NAC performance') who currently get no tailored guidance and will bounce to more specific resources."
+      }
+    ],
+    "overall_verdict": "The guide's core biochemistry is sound and its timing argument is its genuine differentiator, but it is built on a foundation of uncited or undercitable evidence — particularly the pro-oxidant post-drink claim, which is the guide's most consequential behavioral recommendation and has no named citations supporting it. Fix this first: either find and cite the specific animal studies or honestly reframe the post-drink warning as 'theoretical concern based on known Fenton chemistry, not directly demonstrated.' The second most urgent issue is the NSAID pain relief suggestion, which as written could harm readers with GI vulnerabilities or anticoagulant use. Beyond those two blocking problems, the guide systematically ignores the very large population of readers on psychiatric medications who drink socially — a gap that is simultaneously a safety issue and a missed SEO opportunity."
+  }
+]

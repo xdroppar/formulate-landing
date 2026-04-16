@@ -468,6 +468,86 @@ export function BestOmega3() {
 
 <Callout variant="info" title="Budget Rule of Thumb">EE-form fish oil with IFOS certification, taken consistently with a fat-containing meal, delivers solid value. You're trading convenience and some absorption efficiency for significant savings — often 50–70% less per milligram than premium TG-form options.</Callout>
 
+      <h2>Comparison Table: All 8 Evaluated Products Side-by-Side</h2>
+      <p>A comparison table of omega-3 supplements is what you actually came here for. Below, we've distilled every product's key specs into a single scannable reference — no paragraph-hunting required. Scores reflect our six-pillar methodology: clinical evidence (25%), manufacturing quality (20%), dose accuracy (20%), bioavailability (15%), label transparency (10%), and safety (10%).</p>
+
+      <Callout variant="info" title="How to Read This Table">
+      Cost per 1,000mg EPA+DHA is the only honest price comparison — it normalizes across concentrations and serving sizes. TOTOX values below 26 meet GOED voluntary standards. "NP" means the brand does not publicly disclose that value, which we consider a transparency penalty.
+      </Callout>
+
+      <div className="overflow-x-auto">
+      <table className="min-w-full text-sm">
+      <thead>
+      <tr>
+      <th className="text-left p-2">Product</th>
+      <th className="p-2">EPA (mg)</th>
+      <th className="p-2">DHA (mg)</th>
+      <th className="p-2">Form</th>
+      <th className="p-2">Certification</th>
+      <th className="p-2">TOTOX</th>
+      <th className="p-2">Cost / 1,000mg</th>
+      <th className="p-2">Score</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr><td className="p-2"><strong>Thorne Super EPA Pro</strong></td><td className="p-2">650</td><td className="p-2">450</td><td className="p-2">rTG</td><td className="p-2">NSF Sport</td><td className="p-2">~5</td><td className="p-2">$0.18</td><td className="p-2"><strong>9.2</strong></td></tr>
+      <tr><td className="p-2"><strong>Nordic Naturals Ultimate Omega</strong></td><td className="p-2">650</td><td className="p-2">450</td><td className="p-2">TG</td><td className="p-2">IFOS 5-star</td><td className="p-2">~3–8</td><td className="p-2">$0.15</td><td className="p-2"><strong>9.1</strong></td></tr>
+      <tr><td className="p-2"><strong>Momentous Omega-3</strong></td><td className="p-2">600</td><td className="p-2">400</td><td className="p-2">rTG</td><td className="p-2">Informed Sport</td><td className="p-2">NP</td><td className="p-2">$0.22</td><td className="p-2"><strong>8.8</strong></td></tr>
+      <tr><td className="p-2"><strong>Thorne Omega-3 with CoQ10</strong></td><td className="p-2">425</td><td className="p-2">270</td><td className="p-2">rTG</td><td className="p-2">NSF</td><td className="p-2">~6</td><td className="p-2">$0.26</td><td className="p-2"><strong>8.6</strong></td></tr>
+      <tr><td className="p-2"><strong>Nordic Naturals Algae Omega</strong></td><td className="p-2">195</td><td className="p-2">390</td><td className="p-2">Phospholipid/TG</td><td className="p-2">IFOS 5-star</td><td className="p-2">~5</td><td className="p-2">$0.34</td><td className="p-2"><strong>8.4</strong></td></tr>
+      <tr><td className="p-2"><strong>Örlö DHA</strong></td><td className="p-2">100</td><td className="p-2">500</td><td className="p-2">Polar lipid</td><td className="p-2">None listed</td><td className="p-2">NP</td><td className="p-2">$0.42</td><td className="p-2"><strong>7.9</strong></td></tr>
+      <tr><td className="p-2"><strong>Kirkland Signature Fish Oil</strong></td><td className="p-2">360</td><td className="p-2">324</td><td className="p-2">EE</td><td className="p-2">IFOS 5-star</td><td className="p-2">NP</td><td className="p-2">$0.06</td><td className="p-2"><strong>7.8</strong></td></tr>
+      <tr><td className="p-2"><strong>Nature Made Fish Oil</strong></td><td className="p-2">360</td><td className="p-2">240</td><td className="p-2">EE</td><td className="p-2">USP</td><td className="p-2">NP</td><td className="p-2">$0.08</td><td className="p-2"><strong>7.4</strong></td></tr>
+      </tbody>
+      </table>
+      </div>
+
+      <p>Notice the gap between sticker price and cost per 1,000mg EPA+DHA. Kirkland dominates on raw cost-efficiency but uses ethyl ester form — meaning lower bioavailability unless you consistently take it with a fat-containing meal (Lawson and Hughes, 2010). <EvidenceBadge level="moderate" /> The TG-form products cost 2–4× more per milligram but deliver roughly 70% better absorption (Dyerberg et al., 2010). <EvidenceBadge level="strong" /></p>
+
+      <p>Scores above 8.5 reflect products that hit clinical dosing thresholds in a single serving, use triglyceride form, and carry robust third-party certification. The two budget EE-form options score lower on bioavailability and transparency but remain solid choices if cost is the binding constraint. For details on how EE absorption improves with dietary fat, see our section on <a href="/guides/best-omega-3-supplements">budget-friendly omega-3 options</a> above.</p>
+
+      <Callout variant="warning" title="Scores Are Not Permanent">
+      Formulations, certifications, and TOTOX values change between production runs. We re-verify specs annually. If a brand drops its third-party testing or changes molecular form, its score will move accordingly.
+      </Callout>
+
+      <h2>ALA vs. EPA/DHA: Why Flaxseed Oil Doesn't Count as Omega-3</h2>
+
+      <p>If you've been told that <strong>flaxseed oil is the same as fish oil</strong>, you've been misled. Flaxseed, chia, and hemp oils contain alpha-linolenic acid (ALA) — a plant-based omega-3 your body must convert into EPA and DHA before it can deliver the benefits discussed throughout this guide. That conversion is brutally inefficient.</p>
+
+      <p>A widely cited tracer study by Burdge and Calder (2005, <em>Reproduction Nutrition Development</em>) found that adult men convert roughly 5–8% of ALA to EPA and less than 0.5% to DHA. Women fare slightly better — likely due to estrogen's influence on desaturase enzymes — but still convert under 10% to EPA and under 5% to DHA (Burdge and Wootton, 2002, <em>British Journal of Nutrition</em>). In practical terms, a tablespoon of flaxseed oil (~7,000 mg ALA) might yield 350–560 mg EPA and virtually negligible DHA. You cannot reliably reach clinical dosing thresholds this way.</p>
+
+      <Callout variant="warning" title="ALA Is Not a Substitute for EPA + DHA">
+      None of the major omega-3 trials — REDUCE-IT, VITAL, STRENGTH — used ALA. The cardiovascular, mood, and anti-inflammatory evidence applies to preformed EPA and DHA specifically. Swapping flaxseed oil for fish oil and expecting equivalent outcomes isn't supported by the literature.
+      </Callout>
+
+      <h3>Plant-Based Readers: Algal Omega-3 Is Your Real Option</h3>
+
+      <p>If you avoid fish, <strong>plant-based omega-3 conversion</strong> rates make ALA supplements a poor strategy. Algal oil is the solution. Fish accumulate EPA and DHA from microalgae — algal supplements skip that step entirely. Newer products from brands like Örlö and Nordic Naturals Algae Omega now deliver 400–600 mg combined EPA + DHA per serving, grown in controlled environments free from heavy metals and PCBs. <EvidenceBadge level="strong" /></p>
+
+      <p>You'll pay more per milligram than fish oil — roughly 2–3x in most cases — but you're getting preformed EPA and DHA your body can actually use, not ALA it will mostly waste. If you're building a broader plant-based protocol, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> for how algal omega-3 fits alongside other foundational supplements.</p>
+
+      <h2>Omega-3 for Kids: Dosing, Forms, and What to Buy</h2>
+
+      <p><strong>Omega-3 for kids</strong> is one of the most searched supplement topics by parents — and one of the most confusing, because pediatric dosing guidance is fragmented across multiple organizations with different numbers. Here's what the evidence actually supports, broken down by age.</p>
+
+      <h3>Pediatric EPA + DHA Recommendations by Age</h3>
+
+      <p>ISSFAL (International Society for the Study of Fatty Acids and Lipids) recommends 100mg DHA daily for children aged 2–4, scaling to 250mg combined EPA + DHA by age 6–10. The American Academy of Pediatrics doesn't set a specific milligram target but strongly encourages regular fish consumption starting at age 2 — roughly 1–2 servings per week, which translates to approximately 150–300mg EPA + DHA daily depending on the fish. <EvidenceBadge level="moderate" /> For infants through 12 months, DHA intake is primarily driven by breast milk or DHA-fortified formula. Supplementing beyond that should involve your pediatrician.</p>
+
+      <h3>Choosing the Right Form by Developmental Stage</h3>
+
+      <p>Delivery form matters more with kids than adults — a toddler won't swallow a softgel. <strong>Liquid drops</strong> (flavored, calibrated by dropper) work best for infants and children under 2. <strong>Gummy or chewable</strong> formats suit ages 2–7, though watch for added sugars — some brands pack 3–4g per serving. <strong>Small softgels</strong> become viable around age 8+, depending on the child. In every case, prioritize DHA over EPA: DHA is the dominant structural fatty acid in developing brain and retinal tissue, making a DHA-heavy ratio (2:1 or higher DHA:EPA) more appropriate for pediatric neurological development than the EPA-dominant ratios recommended for adult mood or inflammation goals.</p>
+
+      <h3>Products Worth Considering</h3>
+
+      <p><strong>Nordic Naturals Children's DHA</strong> is IFOS five-star certified, delivers 530mg omega-3 (170mg EPA / 255mg DHA) per serving in triglyceride form, and comes in both liquid and chewable softgel formats. It's the most independently tested pediatric option available. <strong>Carlson Kid's The Very Finest Fish Oil</strong> liquid provides 800mg combined EPA + DHA per teaspoon (also IFOS certified, TG form) with natural flavoring that masks fishiness well — a solid choice for toddlers who reject chewables. <strong>Nordic Naturals Baby's DHA</strong> liquid drops deliver 485mg DHA per serving and are designed specifically for infants, with a calibrated dropper for precise dosing.</p>
+
+      <Callout variant="warning" title="Don't Guess on Pediatric Dosing">
+      Children aren't small adults. Appropriate EPA + DHA amounts depend on age, weight, dietary fish intake, and any existing conditions like ADHD where higher doses are sometimes studied. Consult your pediatrician before starting any omega-3 supplement, especially for children under 2 or those on medication.
+      </Callout>
+
+      <p>The same quality rules from our adult recommendations apply here: check for <a href="/guides/best-omega-3-supplements">IFOS certification</a>, triglyceride form, and published TOTOX values. Skip any children's fish oil that doesn't specify the actual DHA and EPA breakdown on the label — "contains omega-3" without numbers is meaningless. For guidance on reading those labels correctly, see our <a href="/guides/how-to-read-supplement-labels">label-reading guide</a>.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Omega-3 supplementation is well-studied in healthy adults at standard doses, but several populations face specific risks or evidence gaps that warrant clinical input before starting — or before changing a dose.

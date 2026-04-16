@@ -551,6 +551,58 @@ Tier 3 supplements tend to be the most expensive per month and the least likely 
       These modifications layer on top of the foundation stack — they don't replace it. Vitamin D, magnesium, omega-3, and creatine remain relevant across all four groups, with form and dose adjustments as noted above. Consult your healthcare provider for personalized dosing.
       </Callout>
 
+      <h2>How to Read a Supplement Label (Serving Size, Elemental Dose, and Form)</h2>
+
+      <p>Knowing <strong>how to read a supplement label</strong> is the difference between hitting your target dose and wasting money on a fraction of what you think you're getting. Three things trip people up most often: elemental dose vs. compound weight, EPA+DHA vs. total fish oil, and multi-capsule serving sizes. Here's how to catch all three.</p>
+
+      <h3>Worked Example: Magnesium Glycinate 500mg</h3>
+
+      <p>Pick up a bottle labeled "Magnesium Glycinate 500mg." That 500mg almost certainly refers to the <em>compound weight</em> — the magnesium atom bonded to two glycine molecules. Elemental magnesium makes up roughly 14% of magnesium glycinate's molecular weight. So 500mg of the compound delivers about <strong>70mg of actual magnesium</strong>. If your target is 300mg elemental (a common evening dose from Step 2), you'd need four or five capsules — not one. Check the Supplement Facts panel: the "Amount Per Serving" column should list elemental magnesium in milligrams. If it only says "Magnesium (as Magnesium Glycinate) — 100mg," that 100mg <em>is</em> elemental and you're fine. If it says 500mg, look for clarifying parentheses.</p>
+
+      <h3>Worked Example: Fish Oil EPA+DHA</h3>
+
+      <p>A "1,000mg Fish Oil" softgel typically contains only 300–500mg of combined EPA+DHA — the rest is other fats. Flip to the Supplement Facts panel and find the EPA and DHA lines separately. Add them. If EPA is 360mg and DHA is 240mg, your combined dose is 600mg per softgel. To reach the 1,000–2,000mg EPA+DHA target from Step 2, you need two to three capsules daily.</p>
+
+      <h3>The Serving Size Trap</h3>
+
+      <p>Always check the <strong>"Serving Size"</strong> line at the top of the panel before reading any numbers. A vitamin D product listing 2,000 IU may have a serving size of two capsules — meaning each capsule is only 1,000 IU. This is especially common with gummies, where serving sizes of 2–4 pieces are standard. Every dose listed on the panel applies to that full serving size, not per unit.</p>
+
+      <Callout variant="info" title="Quick Label-Reading Checklist">
+      Before you buy: (1) find the serving size, (2) confirm whether the dose listed is elemental or compound weight, and (3) multiply per-serving cost by the number of servings you actually need daily. A "cheap" bottle requiring four capsules per dose often costs more than a concentrated alternative. Our <a href="/guides/supplement-timing">supplement timing guide</a> covers how to schedule multi-capsule doses across the day.
+      </Callout>
+
+      <h2>Creatine FAQ: Hair Loss, Water Retention, Women, Timing, and Kidney Concerns</h2>
+
+      <p>Creatine concerns are the single biggest reason people hesitate to start the most evidence-backed supplement available. Let's address the five most common objections directly so you can make a decision based on data, not Reddit threads.</p>
+
+      <h3>Does Creatine Cause Hair Loss?</h3>
+
+      <p>This comes from one 2009 study (van der Merwe et al.) on 20 college rugby players that found increased DHT levels after a creatine loading phase. It has <strong>never been replicated</strong>. A 2021 systematic review (Antonio et al., <em>Journal of the International Society of Sports Nutrition</em>) examined 12 studies measuring androgenic hormones and found no consistent effect of creatine on testosterone or DHT. <EvidenceBadge level="emerging" /> One unreplicated finding in 20 athletes is not a reason to skip a supplement with 500+ supporting studies.</p>
+
+      <h3>What About Water Retention?</h3>
+
+      <p>Creatine does increase total body water — typically 1–2kg during the first week or two. But this water is drawn <em>into muscle cells</em> (intracellular), not under your skin. You won't look bloated; if anything, muscles appear fuller. Loading phases (20g/day for 5–7 days) accelerate saturation but aren't required. Taking 3–5g daily reaches the same saturation point within 3–4 weeks.</p>
+
+      <h3>Is Creatine Safe and Effective for Women?</h3>
+
+      <p>Women typically have 70–80% lower baseline creatine stores than men, partly due to lower dietary intake and muscle mass. Evidence suggests this means women may see <em>proportionally greater</em> cognitive and performance benefits from supplementation (Smith-Ryan et al., 2021). Same dose — 3–5g daily. No virilizing effects. No hormonal disruption. <EvidenceBadge level="strong" /></p>
+
+      <h3>Does Timing Matter?</h3>
+
+      <p>Not meaningfully. Creatine works through saturation, not acute dosing — it builds up in muscle tissue over days and weeks. Take it whenever you'll actually remember. With breakfast, in a post-workout shake, before bed — consistency matters far more than the clock. A 2013 study (Antonio &amp; Ciccone) found a slight advantage for post-exercise timing, but the difference was small and the study had only 19 participants.</p>
+
+      <h3>Will Creatine Damage My Kidneys?</h3>
+
+      <Callout variant="warning" title="Creatinine vs. Kidney Damage">Creatine supplementation raises serum creatinine — the metabolic byproduct doctors use to <em>estimate</em> kidney function. This is an artifact of higher creatine turnover, not evidence of kidney stress. If you supplement creatine and get bloodwork, tell your doctor so they interpret the GFR estimate correctly.</Callout>
+
+      <p>A 2019 meta-analysis (de Souza e Silva et al.) covering studies up to 5 years in duration found no adverse effects on kidney function in healthy adults. <EvidenceBadge level="strong" /> If you have <em>pre-existing</em> kidney disease, consult your healthcare provider before starting — the safety data applies specifically to people with healthy kidney function. For everyone else, this is a settled question.</p>
+
+      <h3>The REDUCE-IT Problem: What the Omega-3 Headlines Actually Showed</h3>
+      <p>The omega-3 cardiovascular outcome data you'll see cited everywhere — including earlier in this guide — deserves a critical clarification. The headline "8% reduction in cardiovascular events" comes from a 2019 meta-analysis that pooled several trials, but the blockbuster result driving enthusiasm was REDUCE-IT (Bhatt et al., 2019). That trial used <strong>icosapent ethyl (Vascepa) at 4g/day of pure EPA</strong> — a prescription drug, not an OTC fish oil capsule.</p>
+      <p>REDUCE-IT showed a striking 25% relative risk reduction in major cardiovascular events. But the VITAL trial (Manson et al., 2019), which tested a standard 1g/day fish oil capsule — the kind and dose most people actually buy — found <strong>no significant reduction in major cardiovascular events</strong> in the general population. <EvidenceBadge level="strong" /> The ASCEND trial (2018) in diabetic patients showed similarly neutral primary results at the same OTC-comparable dose.</p>
+      <Callout variant="warning" title="What this means for your stack">The cardiovascular "event reduction" stat applies to a prescription-grade, high-dose pure EPA product in patients with elevated triglycerides — not to the 1,000–2,000mg EPA+DHA fish oil recommended in Step 2. Conflating the two is the most common error in supplement marketing.</Callout>
+      <p>This doesn't make OTC omega-3 worthless. Evidence still supports EPA+DHA at 1–2g/day for <strong>triglyceride reduction</strong>, inflammatory marker improvement, and cognitive health. <EvidenceBadge level="moderate" /> But if cardiovascular risk reduction is your primary motivation, understand that OTC fish oil at standard doses hasn't demonstrated that outcome in large trials. Honesty about this distinction is what separates evidence-based stacking from headline repetition.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The foundation stack outlined above is well-studied in generally healthy adults. But several populations have specific risks, interactions, or absorption differences that change the calculus. If any of the following apply to you, get clinical input before starting.
