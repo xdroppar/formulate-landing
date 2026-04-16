@@ -1,0 +1,1101 @@
+[
+  {
+    "slug": "5-htp",
+    "canonical": "5-htp",
+    "display": "5-htp",
+    "aliases": [
+      "5-hydroxytryptophan",
+      "5htp",
+      "griffonia"
+    ]
+  },
+  {
+    "slug": "ace-inhibitors",
+    "canonical": "ace inhibitors",
+    "display": "ace inhibitors",
+    "aliases": [
+      "accupril",
+      "aceon",
+      "altace",
+      "benazepril",
+      "capoten",
+      "captopril",
+      "enalapril",
+      "fosinopril",
+      "lisinopril",
+      "lotensin",
+      "monopril",
+      "perindopril",
+      "prinivil",
+      "quinapril",
+      "ramipril",
+      "vasotec",
+      "zestril"
+    ]
+  },
+  {
+    "slug": "acetaminophen",
+    "canonical": "acetaminophen",
+    "display": "acetaminophen",
+    "aliases": [
+      "acetaminophen",
+      "paracetamol",
+      "tylenol"
+    ]
+  },
+  {
+    "slug": "alpha-lipoic-acid",
+    "canonical": "alpha lipoic acid",
+    "display": "alpha lipoic acid",
+    "aliases": [
+      "ala",
+      "alpha lipoic acid",
+      "r-ala",
+      "r-lipoic acid"
+    ]
+  },
+  {
+    "slug": "antacids",
+    "canonical": "antacids",
+    "display": "antacids",
+    "aliases": [
+      "calcium antacid",
+      "esomeprazole",
+      "famotidine",
+      "lansoprazole",
+      "maalox",
+      "nexium",
+      "omeprazole",
+      "pantoprazole",
+      "pepcid",
+      "prevacid",
+      "prilosec",
+      "protonix",
+      "ranitidine",
+      "tums",
+      "zantac"
+    ]
+  },
+  {
+    "slug": "antihistamines",
+    "canonical": "antihistamines",
+    "display": "antihistamines",
+    "aliases": [
+      "allegra",
+      "cetirizine",
+      "claritin",
+      "fexofenadine",
+      "loratadine",
+      "zyrtec"
+    ]
+  },
+  {
+    "slug": "arbs",
+    "canonical": "arbs",
+    "display": "arbs",
+    "aliases": [
+      "atacand",
+      "avapro",
+      "azilsartan",
+      "benicar",
+      "candesartan",
+      "cozaar",
+      "diovan",
+      "edarbi",
+      "irbesartan",
+      "losartan",
+      "micardis",
+      "olmesartan",
+      "telmisartan",
+      "valsartan"
+    ]
+  },
+  {
+    "slug": "ashwagandha",
+    "canonical": "ashwagandha",
+    "display": "ashwagandha",
+    "aliases": [
+      "ashwagandha",
+      "indian ginseng",
+      "ksm-66",
+      "sensoril",
+      "withania somnifera"
+    ]
+  },
+  {
+    "slug": "aspirin",
+    "canonical": "aspirin",
+    "display": "aspirin",
+    "aliases": [
+      "acetylsalicylic acid",
+      "asa",
+      "aspirin",
+      "bayer",
+      "bufferin",
+      "ecotrin"
+    ]
+  },
+  {
+    "slug": "astragalus",
+    "canonical": "astragalus",
+    "display": "astragalus",
+    "aliases": [
+      "astragalus",
+      "astragalus membranaceus",
+      "huang qi"
+    ]
+  },
+  {
+    "slug": "bcaa",
+    "canonical": "bcaa",
+    "display": "bcaa",
+    "aliases": [
+      "bcaa",
+      "branched chain amino acids",
+      "leucine"
+    ]
+  },
+  {
+    "slug": "benzodiazepines",
+    "canonical": "benzodiazepines",
+    "display": "benzodiazepines",
+    "aliases": [
+      "alprazolam",
+      "ativan",
+      "clonazepam",
+      "diazepam",
+      "klonopin",
+      "lorazepam",
+      "restoril",
+      "temazepam",
+      "valium",
+      "xanax"
+    ]
+  },
+  {
+    "slug": "berberine",
+    "canonical": "berberine",
+    "display": "berberine",
+    "aliases": [
+      "berberine",
+      "goldenseal",
+      "oregon grape"
+    ]
+  },
+  {
+    "slug": "beta-blockers",
+    "canonical": "beta blockers",
+    "display": "beta blockers",
+    "aliases": [
+      "atenolol",
+      "bisoprolol",
+      "carvedilol",
+      "coreg",
+      "inderal",
+      "lopressor",
+      "metoprolol",
+      "propranolol",
+      "tenormin",
+      "toprol",
+      "zebeta"
+    ]
+  },
+  {
+    "slug": "birth-control",
+    "canonical": "birth control",
+    "display": "birth control",
+    "aliases": []
+  },
+  {
+    "slug": "bitter-melon",
+    "canonical": "bitter melon",
+    "display": "bitter melon",
+    "aliases": [
+      "bitter melon",
+      "momordica charantia"
+    ]
+  },
+  {
+    "slug": "black-pepper",
+    "canonical": "black pepper",
+    "display": "black pepper",
+    "aliases": [
+      "bioperine",
+      "black pepper extract",
+      "piperine"
+    ]
+  },
+  {
+    "slug": "blood-pressure-medications",
+    "canonical": "blood pressure medications",
+    "display": "blood pressure medications",
+    "aliases": []
+  },
+  {
+    "slug": "blood-thinners",
+    "canonical": "blood thinners",
+    "display": "blood thinners",
+    "aliases": [
+      "apixaban",
+      "brilinta",
+      "clopidogrel",
+      "dabigatran",
+      "edoxaban",
+      "effient",
+      "eliquis",
+      "enoxaparin",
+      "heparin",
+      "lovenox",
+      "plavix",
+      "pradaxa",
+      "prasugrel",
+      "rivaroxaban",
+      "savaysa",
+      "ticagrelor",
+      "xarelto"
+    ]
+  },
+  {
+    "slug": "boron",
+    "canonical": "boron",
+    "display": "boron",
+    "aliases": [
+      "boron",
+      "boron citrate",
+      "boron glycinate"
+    ]
+  },
+  {
+    "slug": "caffeine",
+    "canonical": "caffeine",
+    "display": "caffeine",
+    "aliases": []
+  },
+  {
+    "slug": "calcium",
+    "canonical": "calcium",
+    "display": "calcium",
+    "aliases": [
+      "calcium carbonate",
+      "calcium citrate",
+      "calcium hydroxyapatite",
+      "calcium phosphate",
+      "coral calcium"
+    ]
+  },
+  {
+    "slug": "calcium-channel-blockers",
+    "canonical": "calcium channel blockers",
+    "display": "calcium channel blockers",
+    "aliases": [
+      "adalat",
+      "amlodipine",
+      "calan",
+      "cardizem",
+      "diltiazem",
+      "felodipine",
+      "isoptin",
+      "nifedipine",
+      "norvasc",
+      "plendil",
+      "procardia",
+      "tiazac",
+      "verapamil"
+    ]
+  },
+  {
+    "slug": "chromium",
+    "canonical": "chromium",
+    "display": "chromium",
+    "aliases": [
+      "chromium",
+      "chromium picolinate",
+      "chromium polynicotinate",
+      "gtf chromium"
+    ]
+  },
+  {
+    "slug": "copper",
+    "canonical": "copper",
+    "display": "copper",
+    "aliases": [
+      "copper",
+      "copper bisglycinate",
+      "copper gluconate"
+    ]
+  },
+  {
+    "slug": "coq10",
+    "canonical": "coq10",
+    "display": "coq10",
+    "aliases": [
+      "coenzyme q10",
+      "coq10",
+      "ubiquinol",
+      "ubiquinone"
+    ]
+  },
+  {
+    "slug": "curcumin",
+    "canonical": "curcumin",
+    "display": "curcumin",
+    "aliases": [
+      "curcuma",
+      "curcuma longa",
+      "curcumin",
+      "longvida",
+      "meriva",
+      "theracurmin",
+      "turmeric"
+    ]
+  },
+  {
+    "slug": "cyclosporine",
+    "canonical": "cyclosporine",
+    "display": "cyclosporine",
+    "aliases": [
+      "cyclosporine",
+      "gengraf",
+      "neoral",
+      "sandimmune"
+    ]
+  },
+  {
+    "slug": "dan-shen",
+    "canonical": "dan shen",
+    "display": "dan shen",
+    "aliases": [
+      "dan shen",
+      "red sage",
+      "salvia miltiorrhiza"
+    ]
+  },
+  {
+    "slug": "diabetes-medications",
+    "canonical": "diabetes medications",
+    "display": "diabetes medications",
+    "aliases": [
+      "actos",
+      "amaryl",
+      "dapagliflozin",
+      "diabeta",
+      "empagliflozin",
+      "farxiga",
+      "glimepiride",
+      "glipizide",
+      "glucotrol",
+      "glyburide",
+      "januvia",
+      "jardiance",
+      "liraglutide",
+      "ozempic",
+      "pioglitazone",
+      "semaglutide",
+      "sitagliptin",
+      "victoza",
+      "wegovy"
+    ]
+  },
+  {
+    "slug": "diphenhydramine",
+    "canonical": "diphenhydramine",
+    "display": "diphenhydramine",
+    "aliases": [
+      "benadryl",
+      "diphenhydramine"
+    ]
+  },
+  {
+    "slug": "diuretics",
+    "canonical": "diuretics",
+    "display": "diuretics",
+    "aliases": [
+      "aldactone",
+      "chlorthalidone",
+      "furosemide",
+      "hctz",
+      "hydrochlorothiazide",
+      "lasix",
+      "microzide",
+      "spironolactone",
+      "thalitone"
+    ]
+  },
+  {
+    "slug": "dong-quai",
+    "canonical": "dong quai",
+    "display": "dong quai",
+    "aliases": [
+      "angelica sinensis",
+      "dong quai",
+      "female ginseng"
+    ]
+  },
+  {
+    "slug": "echinacea",
+    "canonical": "echinacea",
+    "display": "echinacea",
+    "aliases": [
+      "echinacea",
+      "echinacea angustifolia",
+      "echinacea purpurea",
+      "purple coneflower"
+    ]
+  },
+  {
+    "slug": "fenugreek",
+    "canonical": "fenugreek",
+    "display": "fenugreek",
+    "aliases": [
+      "fenugreek",
+      "trigonella foenum-graecum"
+    ]
+  },
+  {
+    "slug": "fiber",
+    "canonical": "fiber",
+    "display": "fiber",
+    "aliases": [
+      "fiber",
+      "inulin",
+      "metamucil",
+      "prebiotic fiber",
+      "psyllium",
+      "psyllium husk"
+    ]
+  },
+  {
+    "slug": "gaba",
+    "canonical": "gaba",
+    "display": "gaba",
+    "aliases": [
+      "gaba",
+      "gamma-aminobutyric acid"
+    ]
+  },
+  {
+    "slug": "garlic",
+    "canonical": "garlic",
+    "display": "garlic",
+    "aliases": [
+      "aged garlic",
+      "allium sativum",
+      "garlic",
+      "garlic extract",
+      "kyolic"
+    ]
+  },
+  {
+    "slug": "ginger",
+    "canonical": "ginger",
+    "display": "ginger",
+    "aliases": [
+      "ginger",
+      "ginger root",
+      "zingiber officinale"
+    ]
+  },
+  {
+    "slug": "ginkgo-biloba",
+    "canonical": "ginkgo biloba",
+    "display": "ginkgo biloba",
+    "aliases": [
+      "ginkgo",
+      "ginkgo biloba",
+      "maidenhair tree"
+    ]
+  },
+  {
+    "slug": "ginseng",
+    "canonical": "ginseng",
+    "display": "ginseng",
+    "aliases": [
+      "american ginseng",
+      "asian ginseng",
+      "ginseng",
+      "korean ginseng",
+      "panax ginseng",
+      "panax quinquefolius"
+    ]
+  },
+  {
+    "slug": "glutamine",
+    "canonical": "glutamine",
+    "display": "glutamine",
+    "aliases": [
+      "glutamine",
+      "l-glutamine"
+    ]
+  },
+  {
+    "slug": "glycine",
+    "canonical": "glycine",
+    "display": "glycine",
+    "aliases": [
+      "glycine",
+      "l-glycine"
+    ]
+  },
+  {
+    "slug": "grapefruit",
+    "canonical": "grapefruit",
+    "display": "grapefruit",
+    "aliases": [
+      "grapefruit",
+      "grapefruit juice",
+      "pomelo"
+    ]
+  },
+  {
+    "slug": "gymnema",
+    "canonical": "gymnema",
+    "display": "gymnema",
+    "aliases": [
+      "gurmar",
+      "gymnema",
+      "gymnema sylvestre"
+    ]
+  },
+  {
+    "slug": "hawthorn",
+    "canonical": "hawthorn",
+    "display": "hawthorn",
+    "aliases": [
+      "crataegus",
+      "hawthorn",
+      "hawthorn berry"
+    ]
+  },
+  {
+    "slug": "immunosuppressants",
+    "canonical": "immunosuppressants",
+    "display": "immunosuppressants",
+    "aliases": [
+      "azathioprine",
+      "cellcept",
+      "imuran",
+      "mycophenolate",
+      "prograf",
+      "tacrolimus"
+    ]
+  },
+  {
+    "slug": "insulin",
+    "canonical": "insulin",
+    "display": "insulin",
+    "aliases": [
+      "humalog",
+      "insulin",
+      "lantus",
+      "levemir",
+      "novolog",
+      "tresiba"
+    ]
+  },
+  {
+    "slug": "iodine",
+    "canonical": "iodine",
+    "display": "iodine",
+    "aliases": [
+      "iodine",
+      "kelp",
+      "potassium iodide",
+      "seaweed"
+    ]
+  },
+  {
+    "slug": "iron",
+    "canonical": "iron",
+    "display": "iron",
+    "aliases": [
+      "carbonyl iron",
+      "ferritin",
+      "ferrous fumarate",
+      "ferrous gluconate",
+      "ferrous sulfate",
+      "heme iron",
+      "iron bisglycinate",
+      "iron glycinate"
+    ]
+  },
+  {
+    "slug": "kava",
+    "canonical": "kava",
+    "display": "kava",
+    "aliases": [
+      "kava",
+      "kava kava",
+      "piper methysticum"
+    ]
+  },
+  {
+    "slug": "l-theanine",
+    "canonical": "l-theanine",
+    "display": "l-theanine",
+    "aliases": [
+      "l-theanine",
+      "suntheanine",
+      "theanine"
+    ]
+  },
+  {
+    "slug": "licorice",
+    "canonical": "licorice",
+    "display": "licorice",
+    "aliases": [
+      "dgl",
+      "glycyrrhiza",
+      "glycyrrhiza glabra",
+      "licorice",
+      "licorice root"
+    ]
+  },
+  {
+    "slug": "magnesium",
+    "canonical": "magnesium",
+    "display": "magnesium",
+    "aliases": [
+      "mag",
+      "magnesium chloride",
+      "magnesium citrate",
+      "magnesium glycinate",
+      "magnesium l-threonate",
+      "magnesium malate",
+      "magnesium oxide",
+      "magnesium taurate",
+      "magnesium threonate",
+      "magtein"
+    ]
+  },
+  {
+    "slug": "maoi",
+    "canonical": "maoi",
+    "display": "maoi",
+    "aliases": [
+      "emsam",
+      "isocarboxazid",
+      "marplan",
+      "nardil",
+      "parnate",
+      "phenelzine",
+      "selegiline",
+      "tranylcypromine"
+    ]
+  },
+  {
+    "slug": "medications",
+    "canonical": "medications",
+    "display": "medications",
+    "aliases": []
+  },
+  {
+    "slug": "melatonin",
+    "canonical": "melatonin",
+    "display": "melatonin",
+    "aliases": [
+      "melatonin",
+      "n-acetyl-5-methoxytryptamine"
+    ]
+  },
+  {
+    "slug": "metformin",
+    "canonical": "metformin",
+    "display": "metformin",
+    "aliases": [
+      "fortamet",
+      "glucophage",
+      "glumetza",
+      "metformin",
+      "riomet"
+    ]
+  },
+  {
+    "slug": "milk-thistle",
+    "canonical": "milk thistle",
+    "display": "milk thistle",
+    "aliases": [
+      "milk thistle",
+      "silybum marianum",
+      "silymarin"
+    ]
+  },
+  {
+    "slug": "minerals",
+    "canonical": "minerals",
+    "display": "minerals",
+    "aliases": []
+  },
+  {
+    "slug": "nac",
+    "canonical": "nac",
+    "display": "nac",
+    "aliases": [
+      "n-acetyl cysteine",
+      "n-acetylcysteine",
+      "nac"
+    ]
+  },
+  {
+    "slug": "nattokinase",
+    "canonical": "nattokinase",
+    "display": "nattokinase",
+    "aliases": [
+      "natto",
+      "nattokinase"
+    ]
+  },
+  {
+    "slug": "nsaids",
+    "canonical": "nsaids",
+    "display": "nsaids",
+    "aliases": [
+      "advil",
+      "aleve",
+      "celebrex",
+      "celecoxib",
+      "diclofenac",
+      "ibuprofen",
+      "meloxicam",
+      "mobic",
+      "motrin",
+      "naprosyn",
+      "naproxen",
+      "voltaren"
+    ]
+  },
+  {
+    "slug": "omega-3",
+    "canonical": "omega-3",
+    "display": "omega-3",
+    "aliases": [
+      "algal oil",
+      "cod liver oil",
+      "dha",
+      "epa",
+      "fish oil",
+      "krill oil",
+      "omega 3",
+      "omega-3 fatty acids"
+    ]
+  },
+  {
+    "slug": "potassium",
+    "canonical": "potassium",
+    "display": "potassium",
+    "aliases": [
+      "potassium chloride",
+      "potassium citrate",
+      "potassium gluconate"
+    ]
+  },
+  {
+    "slug": "quercetin",
+    "canonical": "quercetin",
+    "display": "quercetin",
+    "aliases": [
+      "quercetin",
+      "quercetin dihydrate"
+    ]
+  },
+  {
+    "slug": "resveratrol",
+    "canonical": "resveratrol",
+    "display": "resveratrol",
+    "aliases": [
+      "japanese knotweed",
+      "resveratrol",
+      "trans-resveratrol"
+    ]
+  },
+  {
+    "slug": "rhodiola",
+    "canonical": "rhodiola",
+    "display": "rhodiola",
+    "aliases": [
+      "arctic root",
+      "golden root",
+      "rhodiola",
+      "rhodiola rosea"
+    ]
+  },
+  {
+    "slug": "sam-e",
+    "canonical": "sam-e",
+    "display": "sam-e",
+    "aliases": [
+      "s-adenosyl methionine",
+      "s-adenosylmethionine",
+      "sam-e",
+      "same"
+    ]
+  },
+  {
+    "slug": "sedatives",
+    "canonical": "sedatives",
+    "display": "sedatives",
+    "aliases": [
+      "ambien",
+      "eszopiclone",
+      "lunesta",
+      "sonata",
+      "zaleplon",
+      "zolpidem"
+    ]
+  },
+  {
+    "slug": "selenium",
+    "canonical": "selenium",
+    "display": "selenium",
+    "aliases": [
+      "selenium",
+      "selenium yeast",
+      "selenomethionine",
+      "sodium selenite"
+    ]
+  },
+  {
+    "slug": "soy",
+    "canonical": "soy",
+    "display": "soy",
+    "aliases": [
+      "daidzein",
+      "genistein",
+      "soy",
+      "soy isoflavones"
+    ]
+  },
+  {
+    "slug": "ssri",
+    "canonical": "ssri",
+    "display": "ssri",
+    "aliases": [
+      "celexa",
+      "citalopram",
+      "cymbalta",
+      "desvenlafaxine",
+      "duloxetine",
+      "effexor",
+      "escitalopram",
+      "fluoxetine",
+      "fluvoxamine",
+      "lexapro",
+      "luvox",
+      "paroxetine",
+      "paxil",
+      "pristiq",
+      "prozac",
+      "sarafem",
+      "sertraline",
+      "venlafaxine",
+      "zoloft"
+    ]
+  },
+  {
+    "slug": "st-johns-wort",
+    "canonical": "st johns wort",
+    "display": "st johns wort",
+    "aliases": [
+      "hypericum",
+      "hypericum perforatum",
+      "saint john's wort",
+      "st john's wort",
+      "st. john's wort"
+    ]
+  },
+  {
+    "slug": "statins",
+    "canonical": "statins",
+    "display": "statins",
+    "aliases": [
+      "atorvastatin",
+      "crestor",
+      "fluvastatin",
+      "lescol",
+      "lipitor",
+      "livalo",
+      "lovastatin",
+      "mevacor",
+      "pitavastatin",
+      "pravachol",
+      "pravastatin",
+      "rosuvastatin",
+      "simvastatin",
+      "zocor"
+    ]
+  },
+  {
+    "slug": "taurine",
+    "canonical": "taurine",
+    "display": "taurine",
+    "aliases": [
+      "l-taurine",
+      "taurine"
+    ]
+  },
+  {
+    "slug": "thyroid-medication",
+    "canonical": "thyroid medication",
+    "display": "thyroid medication",
+    "aliases": [
+      "armour thyroid",
+      "cytomel",
+      "euthyrox",
+      "levothyroxine",
+      "levoxyl",
+      "liothyronine",
+      "nature-throid",
+      "np thyroid",
+      "synthroid",
+      "tirosint",
+      "unithroid"
+    ]
+  },
+  {
+    "slug": "tryptophan",
+    "canonical": "tryptophan",
+    "display": "tryptophan",
+    "aliases": [
+      "l-tryptophan"
+    ]
+  },
+  {
+    "slug": "tyrosine",
+    "canonical": "tyrosine",
+    "display": "tyrosine",
+    "aliases": [
+      "l-tyrosine",
+      "n-acetyl l-tyrosine",
+      "n-acetyl tyrosine",
+      "nalt"
+    ]
+  },
+  {
+    "slug": "valerian",
+    "canonical": "valerian",
+    "display": "valerian",
+    "aliases": [
+      "valerian",
+      "valerian root",
+      "valeriana officinalis"
+    ]
+  },
+  {
+    "slug": "vitamin-a",
+    "canonical": "vitamin a",
+    "display": "vitamin a",
+    "aliases": [
+      "beta-carotene",
+      "retinol",
+      "retinyl palmitate",
+      "vitamin a"
+    ]
+  },
+  {
+    "slug": "vitamin-b12",
+    "canonical": "vitamin b12",
+    "display": "vitamin b12",
+    "aliases": [
+      "adenosylcobalamin",
+      "cobalamin",
+      "cyanocobalamin",
+      "hydroxocobalamin",
+      "methylcobalamin",
+      "vitamin b12"
+    ]
+  },
+  {
+    "slug": "vitamin-b6",
+    "canonical": "vitamin b6",
+    "display": "vitamin b6",
+    "aliases": [
+      "p5p",
+      "pyridoxal-5-phosphate",
+      "pyridoxine",
+      "vitamin b6"
+    ]
+  },
+  {
+    "slug": "vitamin-c",
+    "canonical": "vitamin c",
+    "display": "vitamin c",
+    "aliases": [
+      "ascorbate",
+      "ascorbic acid",
+      "ester-c",
+      "liposomal vitamin c",
+      "vitamin c"
+    ]
+  },
+  {
+    "slug": "vitamin-d",
+    "canonical": "vitamin d",
+    "display": "vitamin d",
+    "aliases": [
+      "cholecalciferol",
+      "d3",
+      "ergocalciferol",
+      "vitamin d2",
+      "vitamin d3"
+    ]
+  },
+  {
+    "slug": "vitamin-e",
+    "canonical": "vitamin e",
+    "display": "vitamin e",
+    "aliases": [
+      "alpha-tocopherol",
+      "mixed tocopherols",
+      "tocopherol",
+      "tocotrienol",
+      "vitamin e"
+    ]
+  },
+  {
+    "slug": "vitamin-k",
+    "canonical": "vitamin k",
+    "display": "vitamin k",
+    "aliases": [
+      "phylloquinone",
+      "phytonadione",
+      "vitamin k",
+      "vitamin k1"
+    ]
+  },
+  {
+    "slug": "vitamin-k2",
+    "canonical": "vitamin k2",
+    "display": "vitamin k2",
+    "aliases": [
+      "menaquinone",
+      "menaquinone-4",
+      "menaquinone-7",
+      "mk-4",
+      "mk-7",
+      "vitamin k2"
+    ]
+  },
+  {
+    "slug": "warfarin",
+    "canonical": "warfarin",
+    "display": "warfarin",
+    "aliases": [
+      "coumadin",
+      "jantoven",
+      "warfarin"
+    ]
+  },
+  {
+    "slug": "zinc",
+    "canonical": "zinc",
+    "display": "zinc",
+    "aliases": [
+      "optizinc",
+      "zinc bisglycinate",
+      "zinc carnosine",
+      "zinc citrate",
+      "zinc gluconate",
+      "zinc methionine",
+      "zinc picolinate"
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
+import { interactions, substances } from "@/lib/interactions";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -21,11 +22,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const pairEntries: MetadataRoute.Sitemap = [];
+  const seen = new Set<string>();
+  for (const i of interactions) {
+    const sa = substances.find(
+      (s) => s.canonical.toLowerCase() === i.substance_a.toLowerCase(),
+    );
+    const sb = substances.find(
+      (s) => s.canonical.toLowerCase() === i.substance_b.toLowerCase(),
+    );
+    if (!sa || !sb) continue;
+    const [first, second] = [sa.slug, sb.slug].sort();
+    const key = `${first}-and-${second}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    pairEntries.push({
+      url: `${baseUrl}/interactions/${key}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
+  }
+
   return [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/download`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    ...pairEntries,
     ...guideEntries,
     { url: `${baseUrl}/disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },

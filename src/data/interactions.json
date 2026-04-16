@@ -1,0 +1,1319 @@
+[
+  {
+    "substance_a": "zinc",
+    "substance_b": "copper",
+    "severity": "warning",
+    "interaction_type": "competition",
+    "summary": "Zinc depletes copper over time",
+    "details": "Long-term zinc supplementation (>40mg/day) can induce copper deficiency by competing for absorption. This can lead to anemia and neurological issues.",
+    "recommendation": "If taking zinc long-term, supplement with copper (ratio of ~15:1 zinc:copper) or take copper separately.",
+    "timing_advice": "Take zinc and copper at different times of day (4+ hours apart)",
+    "sources": [
+      "NIH Office of Dietary Supplements",
+      "Journal of Trace Elements"
+    ],
+    "pair_key": "copper--zinc"
+  },
+  {
+    "substance_a": "zinc",
+    "substance_b": "iron",
+    "severity": "caution",
+    "interaction_type": "competition",
+    "summary": "Zinc and iron compete for absorption",
+    "details": "High doses of zinc can interfere with iron absorption, and vice versa. Both use the same transport mechanisms.",
+    "recommendation": "Take zinc and iron supplements at different times.",
+    "timing_advice": "Separate by at least 2 hours",
+    "sources": [
+      "American Journal of Clinical Nutrition"
+    ],
+    "pair_key": "iron--zinc"
+  },
+  {
+    "substance_a": "calcium",
+    "substance_b": "iron",
+    "severity": "warning",
+    "interaction_type": "competition",
+    "summary": "Calcium significantly reduces iron absorption",
+    "details": "Calcium can reduce iron absorption by up to 50%. This is one of the most significant mineral interactions.",
+    "recommendation": "Take iron supplements away from calcium-rich foods or supplements.",
+    "timing_advice": "Separate by at least 2-4 hours",
+    "sources": [
+      "Journal of Nutrition",
+      "NIH"
+    ],
+    "pair_key": "calcium--iron"
+  },
+  {
+    "substance_a": "calcium",
+    "substance_b": "magnesium",
+    "severity": "caution",
+    "interaction_type": "competition",
+    "summary": "High calcium can impair magnesium absorption",
+    "details": "Very high calcium intake can reduce magnesium absorption. Ideal ratio is approximately 2:1 calcium to magnesium.",
+    "recommendation": "Maintain balanced calcium:magnesium ratio. Consider splitting doses.",
+    "timing_advice": "Can take together in moderate doses, or separate by 2 hours for high doses",
+    "sources": [
+      "Journal of the American College of Nutrition"
+    ],
+    "pair_key": "calcium--magnesium"
+  },
+  {
+    "substance_a": "calcium",
+    "substance_b": "zinc",
+    "severity": "caution",
+    "interaction_type": "competition",
+    "summary": "Calcium may reduce zinc absorption",
+    "details": "High-dose calcium supplements can interfere with zinc absorption.",
+    "recommendation": "If taking both, separate timing or ensure adequate zinc intake.",
+    "timing_advice": "Separate by 2 hours if taking high doses",
+    "sources": [
+      "Journal of Nutrition"
+    ],
+    "pair_key": "calcium--zinc"
+  },
+  {
+    "substance_a": "magnesium",
+    "substance_b": "zinc",
+    "severity": "info",
+    "interaction_type": "competition",
+    "summary": "High-dose magnesium may slightly reduce zinc absorption",
+    "details": "Very high magnesium doses (>142mg) may modestly reduce zinc absorption. Normal supplemental doses are fine together.",
+    "recommendation": "Generally fine to take together at normal doses.",
+    "timing_advice": "Can take together; separate only if taking very high doses",
+    "sources": [
+      "Journal of the American College of Nutrition"
+    ],
+    "pair_key": "magnesium--zinc"
+  },
+  {
+    "substance_a": "vitamin d",
+    "substance_b": "vitamin k2",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin D and K2 work synergistically",
+    "details": "Vitamin D increases calcium absorption, while K2 directs calcium to bones and away from arteries. Together they optimize bone health and reduce cardiovascular calcification risk.",
+    "recommendation": "Take D3 with K2, especially at higher vitamin D doses (>2000 IU).",
+    "timing_advice": "Take together, ideally with a fat-containing meal",
+    "sources": [
+      "International Journal of Endocrinology",
+      "Nutrients"
+    ],
+    "pair_key": "vitamin-d--vitamin-k2"
+  },
+  {
+    "substance_a": "vitamin d",
+    "substance_b": "calcium",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin D enhances calcium absorption",
+    "details": "Vitamin D is essential for proper calcium absorption in the gut. Without adequate D, only 10-15% of dietary calcium is absorbed.",
+    "recommendation": "Ensure adequate vitamin D status when supplementing calcium.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "NIH",
+      "Journal of Clinical Endocrinology"
+    ],
+    "pair_key": "calcium--vitamin-d"
+  },
+  {
+    "substance_a": "vitamin c",
+    "substance_b": "iron",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin C dramatically enhances iron absorption",
+    "details": "Vitamin C can increase non-heme iron absorption by 2-3x by converting iron to a more absorbable form and counteracting absorption inhibitors.",
+    "recommendation": "Take iron with vitamin C for maximum absorption.",
+    "timing_advice": "Take together",
+    "sources": [
+      "American Journal of Clinical Nutrition"
+    ],
+    "pair_key": "iron--vitamin-c"
+  },
+  {
+    "substance_a": "vitamin c",
+    "substance_b": "vitamin b12",
+    "severity": "caution",
+    "interaction_type": "antagonism",
+    "summary": "High-dose vitamin C may reduce B12 absorption",
+    "details": "Very high doses of vitamin C (>1000mg) taken simultaneously may reduce B12 absorption.",
+    "recommendation": "Separate high-dose vitamin C from B12 supplements.",
+    "timing_advice": "Separate by 2+ hours if taking high-dose vitamin C",
+    "sources": [
+      "Journal of the American Dietetic Association"
+    ],
+    "pair_key": "vitamin-b12--vitamin-c"
+  },
+  {
+    "substance_a": "vitamin e",
+    "substance_b": "vitamin k",
+    "severity": "caution",
+    "interaction_type": "antagonism",
+    "summary": "High-dose vitamin E may interfere with vitamin K",
+    "details": "Very high doses of vitamin E (>800 IU) can interfere with vitamin K's blood clotting function.",
+    "recommendation": "Avoid very high vitamin E doses, especially if on blood thinners.",
+    "timing_advice": "Moderate doses are fine together",
+    "sources": [
+      "American Journal of Clinical Nutrition"
+    ],
+    "pair_key": "vitamin-e--vitamin-k"
+  },
+  {
+    "substance_a": "tyrosine",
+    "substance_b": "5-htp",
+    "severity": "warning",
+    "interaction_type": "competition",
+    "summary": "Tyrosine and 5-HTP compete for brain uptake",
+    "details": "Both amino acids use the same transporter to cross the blood-brain barrier. Taking together may reduce effectiveness of both.",
+    "recommendation": "Take at different times of day for best effect.",
+    "timing_advice": "Separate by 4+ hours; tyrosine in morning, 5-HTP in evening",
+    "sources": [
+      "Journal of Neural Transmission"
+    ],
+    "pair_key": "5-htp--tyrosine"
+  },
+  {
+    "substance_a": "tryptophan",
+    "substance_b": "5-htp",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Both increase serotonin - risk of excess",
+    "details": "Tryptophan and 5-HTP both increase serotonin levels. Taking together significantly increases risk of serotonin syndrome.",
+    "recommendation": "Do not combine - choose one or the other.",
+    "timing_advice": "Do not take together",
+    "sources": [
+      "Psychopharmacology"
+    ],
+    "pair_key": "5-htp--tryptophan"
+  },
+  {
+    "substance_a": "bcaa",
+    "substance_b": "tyrosine",
+    "severity": "info",
+    "interaction_type": "competition",
+    "summary": "BCAAs may reduce tyrosine brain uptake",
+    "details": "BCAAs compete with tyrosine and tryptophan for brain uptake. High BCAA doses may reduce catecholamine synthesis.",
+    "recommendation": "If using tyrosine for cognitive effects, separate from BCAAs.",
+    "timing_advice": "Separate by 1-2 hours",
+    "sources": [
+      "Journal of Nutrition"
+    ],
+    "pair_key": "bcaa--tyrosine"
+  },
+  {
+    "substance_a": "ashwagandha",
+    "substance_b": "thyroid medication",
+    "severity": "danger",
+    "interaction_type": "medication",
+    "summary": "Ashwagandha may increase thyroid hormone levels",
+    "details": "Ashwagandha can stimulate thyroid function. For those on thyroid medication, this could cause hyperthyroidism.",
+    "recommendation": "Consult doctor before combining. May need medication adjustment.",
+    "timing_advice": "Monitor thyroid levels if combining",
+    "sources": [
+      "Journal of Alternative and Complementary Medicine"
+    ],
+    "pair_key": "ashwagandha--thyroid-medication"
+  },
+  {
+    "substance_a": "ashwagandha",
+    "substance_b": "sedatives",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "May enhance sedative effects",
+    "details": "Ashwagandha has GABAergic activity and may enhance the effects of sedatives, benzodiazepines, or sleep medications.",
+    "recommendation": "Use caution, start with lower doses of both.",
+    "timing_advice": "Be aware of enhanced sedation",
+    "sources": [
+      "Phytomedicine"
+    ],
+    "pair_key": "ashwagandha--sedatives"
+  },
+  {
+    "substance_a": "st johns wort",
+    "substance_b": "ssri",
+    "severity": "danger",
+    "interaction_type": "medication",
+    "summary": "Risk of serotonin syndrome",
+    "details": "St. John's Wort increases serotonin levels. Combined with SSRIs, this can cause dangerous serotonin syndrome.",
+    "recommendation": "Do NOT combine with antidepressants without medical supervision.",
+    "timing_advice": "Do not combine",
+    "sources": [
+      "FDA",
+      "BMJ"
+    ],
+    "pair_key": "ssri--st-johns-wort"
+  },
+  {
+    "substance_a": "st johns wort",
+    "substance_b": "birth control",
+    "severity": "danger",
+    "interaction_type": "metabolism",
+    "summary": "Reduces effectiveness of birth control",
+    "details": "St. John's Wort induces liver enzymes that break down hormonal contraceptives faster, reducing their effectiveness.",
+    "recommendation": "Do not use St. John's Wort if relying on hormonal birth control.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Contraception",
+      "FDA"
+    ],
+    "pair_key": "birth-control--st-johns-wort"
+  },
+  {
+    "substance_a": "ginkgo biloba",
+    "substance_b": "blood thinners",
+    "severity": "danger",
+    "interaction_type": "medication",
+    "summary": "Increases bleeding risk",
+    "details": "Ginkgo has blood-thinning properties. Combined with anticoagulants (warfarin, aspirin), it significantly increases bleeding risk.",
+    "recommendation": "Avoid ginkgo if on blood thinners, or consult doctor.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Archives of Internal Medicine"
+    ],
+    "pair_key": "blood-thinners--ginkgo-biloba"
+  },
+  {
+    "substance_a": "curcumin",
+    "substance_b": "black pepper",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Piperine increases curcumin absorption by 2000%",
+    "details": "Curcumin has very poor bioavailability. Piperine (black pepper extract) inhibits its metabolism, dramatically increasing absorption.",
+    "recommendation": "Always take curcumin with piperine/black pepper or choose a bioavailable form.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Planta Medica",
+      "Journal of Clinical Pharmacology"
+    ],
+    "pair_key": "black-pepper--curcumin"
+  },
+  {
+    "substance_a": "curcumin",
+    "substance_b": "omega-3",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Fat improves curcumin absorption",
+    "details": "Curcumin is fat-soluble. Taking with omega-3 or other fats significantly improves absorption.",
+    "recommendation": "Take curcumin with fats like omega-3 or with meals.",
+    "timing_advice": "Take together with food",
+    "sources": [
+      "Nutrition Journal"
+    ],
+    "pair_key": "curcumin--omega-3"
+  },
+  {
+    "substance_a": "coq10",
+    "substance_b": "statins",
+    "severity": "synergy",
+    "interaction_type": "medication",
+    "summary": "Statins deplete CoQ10 - supplementation recommended",
+    "details": "Statin medications block the same pathway that produces CoQ10, leading to depletion. This may contribute to muscle pain side effects.",
+    "recommendation": "Consider CoQ10 supplementation if taking statins.",
+    "timing_advice": "Can take together; CoQ10 with fatty meal for absorption",
+    "sources": [
+      "Journal of the American College of Cardiology"
+    ],
+    "pair_key": "coq10--statins"
+  },
+  {
+    "substance_a": "magnesium",
+    "substance_b": "vitamin d",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Magnesium needed for vitamin D activation",
+    "details": "Magnesium is required for vitamin D metabolism. Low magnesium can impair vitamin D effectiveness.",
+    "recommendation": "Ensure adequate magnesium when supplementing vitamin D.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "Journal of the American Osteopathic Association"
+    ],
+    "pair_key": "magnesium--vitamin-d"
+  },
+  {
+    "substance_a": "quercetin",
+    "substance_b": "vitamin c",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin C regenerates quercetin",
+    "details": "Vitamin C helps regenerate quercetin after it acts as an antioxidant, extending its effectiveness.",
+    "recommendation": "Take quercetin with vitamin C for enhanced antioxidant effect.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Free Radical Biology and Medicine"
+    ],
+    "pair_key": "quercetin--vitamin-c"
+  },
+  {
+    "substance_a": "resveratrol",
+    "substance_b": "quercetin",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Quercetin enhances resveratrol bioavailability",
+    "details": "Quercetin inhibits enzymes that metabolize resveratrol, potentially increasing its levels and effects.",
+    "recommendation": "Consider combining for enhanced longevity benefits.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Xenobiotica",
+      "British Journal of Nutrition"
+    ],
+    "pair_key": "quercetin--resveratrol"
+  },
+  {
+    "substance_a": "melatonin",
+    "substance_b": "magnesium",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Complementary sleep support",
+    "details": "Magnesium supports GABA activity and muscle relaxation, while melatonin regulates sleep timing. Together they address different aspects of sleep.",
+    "recommendation": "Safe and effective combination for sleep support.",
+    "timing_advice": "Take both 30-60 minutes before bed",
+    "sources": [
+      "Journal of Research in Medical Sciences"
+    ],
+    "pair_key": "magnesium--melatonin"
+  },
+  {
+    "substance_a": "melatonin",
+    "substance_b": "blood thinners",
+    "severity": "caution",
+    "interaction_type": "medication",
+    "summary": "Melatonin may affect blood clotting",
+    "details": "Melatonin may have mild anticoagulant effects. Use caution if on blood thinners.",
+    "recommendation": "Inform doctor if taking both; monitor for bleeding.",
+    "timing_advice": "Monitor for increased bleeding",
+    "sources": [
+      "Journal of Pineal Research"
+    ],
+    "pair_key": "blood-thinners--melatonin"
+  },
+  {
+    "substance_a": "glycine",
+    "substance_b": "magnesium",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Both support sleep through different mechanisms",
+    "details": "Glycine lowers core body temperature and supports inhibitory neurotransmission. Magnesium supports GABA and muscle relaxation.",
+    "recommendation": "Excellent combination for sleep quality.",
+    "timing_advice": "Take both before bed",
+    "sources": [
+      "Neuropsychopharmacology",
+      "Sleep and Biological Rhythms"
+    ],
+    "pair_key": "glycine--magnesium"
+  },
+  {
+    "substance_a": "l-theanine",
+    "substance_b": "caffeine",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "L-theanine smooths caffeine's effects",
+    "details": "L-theanine promotes calm focus and reduces caffeine's jittery side effects while preserving alertness benefits.",
+    "recommendation": "Classic nootropic stack - take together for focused energy.",
+    "timing_advice": "Take together; typical ratio is 2:1 theanine:caffeine",
+    "sources": [
+      "Nutritional Neuroscience",
+      "Psychopharmacology"
+    ],
+    "pair_key": "caffeine--l-theanine"
+  },
+  {
+    "substance_a": "fiber",
+    "substance_b": "medications",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Fiber can reduce medication absorption",
+    "details": "Fiber supplements can bind to medications and reduce their absorption. Affects many medications.",
+    "recommendation": "Take medications 1-2 hours before or after fiber supplements.",
+    "timing_advice": "Separate by 1-2 hours",
+    "sources": [
+      "American Journal of Health-System Pharmacy"
+    ],
+    "pair_key": "fiber--medications"
+  },
+  {
+    "substance_a": "fiber",
+    "substance_b": "minerals",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Fiber can reduce mineral absorption",
+    "details": "High fiber intake, especially from supplements, can reduce absorption of zinc, iron, calcium, and magnesium.",
+    "recommendation": "Take mineral supplements separately from fiber.",
+    "timing_advice": "Separate by 2 hours",
+    "sources": [
+      "Journal of Nutrition"
+    ],
+    "pair_key": "fiber--minerals"
+  },
+  {
+    "substance_a": "vitamin k",
+    "substance_b": "warfarin",
+    "severity": "danger",
+    "interaction_type": "antagonism",
+    "summary": "Vitamin K reverses warfarin's blood-thinning effect",
+    "details": "Warfarin works by inhibiting vitamin K-dependent clotting factors. Supplementing vitamin K directly counteracts this mechanism, potentially causing dangerous blood clots. Even dietary vitamin K changes can destabilize INR (International Normalized Ratio).",
+    "recommendation": "Do NOT supplement vitamin K while on warfarin without medical supervision. Maintain consistent vitamin K intake from food. Inform your doctor of any diet changes.",
+    "timing_advice": "Avoid combination entirely",
+    "sources": [
+      "FDA Warfarin Label",
+      "American Heart Association",
+      "PMID: 18179505"
+    ],
+    "pair_key": "vitamin-k--warfarin"
+  },
+  {
+    "substance_a": "vitamin k2",
+    "substance_b": "warfarin",
+    "severity": "danger",
+    "interaction_type": "antagonism",
+    "summary": "K2 also reverses warfarin's effect",
+    "details": "MK-4 and MK-7 forms of vitamin K2 can interfere with warfarin. MK-7 has a longer half-life (~3 days) and may cause more sustained INR changes than K1. Even low doses can affect clotting.",
+    "recommendation": "Avoid vitamin K2 supplements on warfarin. If prescribed, requires frequent INR monitoring.",
+    "timing_advice": "Avoid combination entirely",
+    "sources": [
+      "Thrombosis and Haemostasis",
+      "PMID: 17138823"
+    ],
+    "pair_key": "vitamin-k2--warfarin"
+  },
+  {
+    "substance_a": "omega-3",
+    "substance_b": "warfarin",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Fish oil may increase bleeding risk with warfarin",
+    "details": "High-dose omega-3 fatty acids (>3g/day EPA+DHA) have antiplatelet effects and may potentiate warfarin's anticoagulation, increasing bleeding risk. Mechanism involves reduced thromboxane A2 synthesis and altered platelet membrane fluidity.",
+    "recommendation": "Inform doctor if taking fish oil with warfarin. May need INR monitoring. Doses under 1g/day generally safe.",
+    "timing_advice": "Monitor for bleeding signs; bruising, bloody nose, dark stools",
+    "sources": [
+      "American Journal of Cardiology",
+      "PMID: 15072218",
+      "PMID: 17056120"
+    ],
+    "pair_key": "omega-3--warfarin"
+  },
+  {
+    "substance_a": "vitamin e",
+    "substance_b": "warfarin",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "High-dose vitamin E increases warfarin bleeding risk",
+    "details": "Vitamin E (>400 IU/day) inhibits vitamin K-dependent clotting and enhances warfarin's effect. Can increase INR and bleeding risk. Mixed tocopherols may have stronger effect than alpha alone.",
+    "recommendation": "Avoid high-dose vitamin E on warfarin. If needed, use under 200 IU/day with monitoring.",
+    "timing_advice": "Monitor INR closely if combining",
+    "sources": [
+      "Annals of Internal Medicine",
+      "PMID: 14757613"
+    ],
+    "pair_key": "vitamin-e--warfarin"
+  },
+  {
+    "substance_a": "garlic",
+    "substance_b": "warfarin",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Garlic supplements increase bleeding risk",
+    "details": "Garlic inhibits platelet aggregation through multiple mechanisms including inhibition of thromboxane synthesis. Combined with warfarin, significantly increases bleeding risk. Dietary garlic in normal amounts is generally safe.",
+    "recommendation": "Avoid garlic supplements on warfarin. Inform doctor. Culinary use is acceptable.",
+    "timing_advice": "Discontinue garlic supplements 7-10 days before surgery",
+    "sources": [
+      "Archives of Internal Medicine",
+      "PMID: 10871633",
+      "PMID: 16441473"
+    ],
+    "pair_key": "garlic--warfarin"
+  },
+  {
+    "substance_a": "ginger",
+    "substance_b": "warfarin",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Ginger may enhance anticoagulant effect",
+    "details": "Ginger inhibits thromboxane synthetase and may potentiate warfarin. Clinical significance is moderate - less concerning than garlic or vitamin E, but still warrants monitoring.",
+    "recommendation": "Use ginger cautiously with warfarin. Small culinary amounts are fine.",
+    "timing_advice": "Monitor for increased bleeding tendency",
+    "sources": [
+      "Thrombosis Research",
+      "PMID: 16426725"
+    ],
+    "pair_key": "ginger--warfarin"
+  },
+  {
+    "substance_a": "ginkgo biloba",
+    "substance_b": "aspirin",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Ginkgo + Aspirin: High bleeding risk",
+    "details": "Both ginkgo and aspirin inhibit platelet aggregation through different mechanisms. Ginkgo inhibits platelet-activating factor (PAF), while aspirin inhibits COX-1. Combined effect significantly increases bleeding risk, including intracranial bleeding.",
+    "recommendation": "Avoid ginkgo if taking aspirin regularly. If combining, inform all doctors.",
+    "timing_advice": "Stop ginkgo 2 weeks before any surgery",
+    "sources": [
+      "Neurology",
+      "PMID: 8602755",
+      "Lancet 1999;352:36"
+    ],
+    "pair_key": "aspirin--ginkgo-biloba"
+  },
+  {
+    "substance_a": "omega-3",
+    "substance_b": "aspirin",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Fish oil adds to aspirin's antiplatelet effect",
+    "details": "Both reduce platelet aggregation. Fish oil's effect on bleeding is additive with aspirin. Generally safe in cardiac patients under medical supervision, but increases minor bleeding.",
+    "recommendation": "Combination often prescribed for heart health but monitor for excessive bruising.",
+    "timing_advice": "Watch for nosebleeds, easy bruising, prolonged cuts",
+    "sources": [
+      "Journal of the American College of Cardiology",
+      "PMID: 12860904"
+    ],
+    "pair_key": "aspirin--omega-3"
+  },
+  {
+    "substance_a": "vitamin e",
+    "substance_b": "aspirin",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Vitamin E enhances aspirin's antiplatelet effect",
+    "details": "High-dose vitamin E (>400 IU) adds to aspirin's bleeding risk through inhibition of vitamin K-dependent clotting. Combination increases GI bleeding risk.",
+    "recommendation": "Use lower vitamin E doses if on daily aspirin. Inform doctor.",
+    "timing_advice": "Monitor for GI discomfort, dark stools",
+    "sources": [
+      "American Journal of Clinical Nutrition",
+      "PMID: 11747323"
+    ],
+    "pair_key": "aspirin--vitamin-e"
+  },
+  {
+    "substance_a": "nattokinase",
+    "substance_b": "blood thinners",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Nattokinase has potent blood-thinning properties",
+    "details": "Nattokinase is a fibrinolytic enzyme that directly breaks down fibrin and inhibits platelet aggregation. Combined with any anticoagulant (warfarin, aspirin, DOACs), dramatically increases bleeding risk.",
+    "recommendation": "Do NOT take nattokinase with any blood thinner. Consult doctor before use.",
+    "timing_advice": "Avoid combination entirely; stop 2 weeks before surgery",
+    "sources": [
+      "Nutrition Research",
+      "PMID: 19818632",
+      "PMID: 15046501"
+    ],
+    "pair_key": "blood-thinners--nattokinase"
+  },
+  {
+    "substance_a": "dong quai",
+    "substance_b": "warfarin",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Dong quai significantly increases warfarin effect",
+    "details": "Dong quai contains coumarins that have direct anticoagulant activity. Combined with warfarin, INR can increase dramatically (case reports of INR >10). Very dangerous interaction.",
+    "recommendation": "Absolutely avoid dong quai while on warfarin.",
+    "timing_advice": "Do not combine",
+    "sources": [
+      "Annals of Pharmacotherapy",
+      "PMID: 10028195"
+    ],
+    "pair_key": "dong-quai--warfarin"
+  },
+  {
+    "substance_a": "dan shen",
+    "substance_b": "warfarin",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Salvia miltiorrhiza potentiates warfarin",
+    "details": "Dan Shen (Salvia miltiorrhiza) inhibits CYP450 enzymes that metabolize warfarin and has intrinsic anticoagulant properties. Can dramatically increase INR and bleeding.",
+    "recommendation": "Do not combine with warfarin. Common in Traditional Chinese Medicine formulas.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Journal of Clinical Pharmacology",
+      "PMID: 16505357"
+    ],
+    "pair_key": "dan-shen--warfarin"
+  },
+  {
+    "substance_a": "potassium",
+    "substance_b": "ace inhibitors",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Risk of dangerous hyperkalemia",
+    "details": "ACE inhibitors (lisinopril, enalapril, ramipril) reduce potassium excretion. Adding potassium supplements can cause life-threatening hyperkalemia (high potassium), leading to fatal cardiac arrhythmias. Symptoms include muscle weakness, paralysis, heart palpitations.",
+    "recommendation": "Do NOT supplement potassium while on ACE inhibitors without doctor approval and monitoring.",
+    "timing_advice": "Monitor potassium levels regularly if combining",
+    "sources": [
+      "New England Journal of Medicine",
+      "FDA ACE Inhibitor Labels",
+      "PMID: 16007097"
+    ],
+    "pair_key": "ace-inhibitors--potassium"
+  },
+  {
+    "substance_a": "potassium",
+    "substance_b": "arbs",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "ARBs + Potassium: Hyperkalemia risk",
+    "details": "ARBs (losartan, valsartan, olmesartan) also reduce potassium excretion like ACE inhibitors. Same dangerous hyperkalemia risk with potassium supplements.",
+    "recommendation": "Avoid potassium supplements on ARBs without medical supervision.",
+    "timing_advice": "Regular potassium blood tests if supplementing",
+    "sources": [
+      "Journal of the American Society of Nephrology",
+      "PMID: 10073315"
+    ],
+    "pair_key": "arbs--potassium"
+  },
+  {
+    "substance_a": "licorice",
+    "substance_b": "blood pressure medications",
+    "severity": "warning",
+    "interaction_type": "antagonism",
+    "summary": "Licorice raises blood pressure, opposing medication",
+    "details": "Glycyrrhizin in licorice causes sodium retention and potassium loss (pseudoaldosteronism), raising blood pressure. Can counteract all BP medications. As little as 50g/day of licorice candy (if containing real licorice root) can cause hypertension.",
+    "recommendation": "Avoid licorice supplements and excessive licorice candy on BP medications.",
+    "timing_advice": "Effect persists 2 weeks after stopping licorice",
+    "sources": [
+      "American Journal of Hypertension",
+      "PMID: 11693621",
+      "BMJ Case Reports"
+    ],
+    "pair_key": "blood-pressure-medications--licorice"
+  },
+  {
+    "substance_a": "magnesium",
+    "substance_b": "calcium channel blockers",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Magnesium may enhance BP lowering effect",
+    "details": "Magnesium acts as a natural calcium channel blocker. High-dose supplementation with medications like amlodipine, diltiazem may cause excessive blood pressure lowering, dizziness, or fatigue.",
+    "recommendation": "Start magnesium at lower doses and monitor BP if on CCBs.",
+    "timing_advice": "Monitor blood pressure when starting magnesium",
+    "sources": [
+      "Magnesium Research",
+      "PMID: 22961193"
+    ],
+    "pair_key": "calcium-channel-blockers--magnesium"
+  },
+  {
+    "substance_a": "coq10",
+    "substance_b": "blood pressure medications",
+    "severity": "info",
+    "interaction_type": "potentiation",
+    "summary": "CoQ10 may enhance BP medication effects",
+    "details": "CoQ10 has modest blood pressure-lowering effects (average 11/7 mmHg reduction). This can add to BP medication effects, potentially allowing lower medication doses.",
+    "recommendation": "Monitor BP. May be beneficial - discuss with doctor about medication adjustment.",
+    "timing_advice": "Generally safe; monitor BP when starting",
+    "sources": [
+      "Journal of Human Hypertension",
+      "PMID: 17287847"
+    ],
+    "pair_key": "blood-pressure-medications--coq10"
+  },
+  {
+    "substance_a": "hawthorn",
+    "substance_b": "blood pressure medications",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Hawthorn adds to BP lowering effect",
+    "details": "Hawthorn (Crataegus) has cardiovascular effects including vasodilation and mild ACE inhibition. Can enhance effects of BP medications, causing hypotension.",
+    "recommendation": "Use cautiously with BP meds. Start low and monitor blood pressure.",
+    "timing_advice": "Watch for dizziness, lightheadedness",
+    "sources": [
+      "Cochrane Database of Systematic Reviews",
+      "PMID: 18254076"
+    ],
+    "pair_key": "blood-pressure-medications--hawthorn"
+  },
+  {
+    "substance_a": "grapefruit",
+    "substance_b": "calcium channel blockers",
+    "severity": "warning",
+    "interaction_type": "metabolism",
+    "summary": "Grapefruit dramatically increases drug levels",
+    "details": "Grapefruit inhibits CYP3A4 enzyme in gut, preventing first-pass metabolism. Can increase blood levels of felodipine by 300%, amlodipine by 50%. Risk of severe hypotension, edema, and arrhythmias. Effect lasts 24+ hours.",
+    "recommendation": "Avoid grapefruit and grapefruit juice with CCBs. One glass can cause interaction.",
+    "timing_advice": "Avoid entirely - timing separation doesn't help",
+    "sources": [
+      "Clinical Pharmacokinetics",
+      "PMID: 10628896",
+      "FDA Drug Interaction Database"
+    ],
+    "pair_key": "calcium-channel-blockers--grapefruit"
+  },
+  {
+    "substance_a": "chromium",
+    "substance_b": "insulin",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Chromium may enhance insulin sensitivity",
+    "details": "Chromium picolinate enhances insulin action by improving insulin receptor sensitivity. Combined with insulin, may cause hypoglycemia (low blood sugar). Particularly risky with high-dose chromium (>1000 mcg).",
+    "recommendation": "Monitor blood sugar closely. May need insulin dose reduction.",
+    "timing_advice": "Check blood sugar more frequently when starting chromium",
+    "sources": [
+      "Diabetes Care",
+      "PMID: 16505527",
+      "PMID: 15208835"
+    ],
+    "pair_key": "chromium--insulin"
+  },
+  {
+    "substance_a": "chromium",
+    "substance_b": "metformin",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Chromium adds to metformin's glucose-lowering effect",
+    "details": "Both chromium and metformin improve insulin sensitivity. Combination may cause hypoglycemia, especially if reducing carbohydrate intake simultaneously.",
+    "recommendation": "Monitor blood sugar. Generally safe but watch for hypoglycemia symptoms.",
+    "timing_advice": "Monitor glucose levels, especially before meals",
+    "sources": [
+      "Diabetes Technology & Therapeutics",
+      "PMID: 17073582"
+    ],
+    "pair_key": "chromium--metformin"
+  },
+  {
+    "substance_a": "alpha lipoic acid",
+    "substance_b": "diabetes medications",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "ALA lowers blood sugar - may enhance diabetes meds",
+    "details": "Alpha-lipoic acid improves glucose uptake and insulin sensitivity. Studies show 600-1800mg/day can lower fasting glucose by 10-30%. Adds to diabetes medication effects.",
+    "recommendation": "Monitor blood sugar closely. May need medication dose adjustment.",
+    "timing_advice": "Check glucose levels frequently when starting ALA",
+    "sources": [
+      "Diabetes Care",
+      "PMID: 16936143",
+      "PMID: 11349851"
+    ],
+    "pair_key": "alpha-lipoic-acid--diabetes-medications"
+  },
+  {
+    "substance_a": "berberine",
+    "substance_b": "metformin",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Berberine has metformin-like glucose lowering",
+    "details": "Berberine activates AMPK (same pathway as metformin) and lowers blood glucose as effectively as metformin in some studies. Combining may cause hypoglycemia and potentially increases lactic acidosis risk.",
+    "recommendation": "Do not combine without medical supervision. One or the other, not both.",
+    "timing_advice": "Monitor glucose and watch for GI side effects",
+    "sources": [
+      "Metabolism",
+      "PMID: 18510760",
+      "PMID: 21470472"
+    ],
+    "pair_key": "berberine--metformin"
+  },
+  {
+    "substance_a": "bitter melon",
+    "substance_b": "diabetes medications",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Bitter melon has glucose-lowering effects",
+    "details": "Bitter melon (Momordica charantia) contains compounds that mimic insulin and stimulate glucose uptake. Can add to diabetes medication effects.",
+    "recommendation": "Monitor blood sugar if using bitter melon with diabetes medications.",
+    "timing_advice": "Check glucose levels before meals",
+    "sources": [
+      "Journal of Ethnopharmacology",
+      "PMID: 21211558"
+    ],
+    "pair_key": "bitter-melon--diabetes-medications"
+  },
+  {
+    "substance_a": "fenugreek",
+    "substance_b": "diabetes medications",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Fenugreek fiber slows glucose absorption",
+    "details": "Fenugreek seeds contain galactomannan fiber that slows carbohydrate absorption. Can lower post-meal glucose spikes and may enhance diabetes medication effects.",
+    "recommendation": "Start with low doses. Monitor blood sugar.",
+    "timing_advice": "Take 30 minutes before meals with water",
+    "sources": [
+      "Phytotherapy Research",
+      "PMID: 19170117"
+    ],
+    "pair_key": "diabetes-medications--fenugreek"
+  },
+  {
+    "substance_a": "gymnema",
+    "substance_b": "diabetes medications",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Gymnema reduces sugar absorption and cravings",
+    "details": "Gymnema sylvestre blocks sugar receptors on taste buds and intestinal wall, reducing sugar absorption. May enhance diabetes medication glucose-lowering.",
+    "recommendation": "Monitor blood sugar. May help reduce medication needs over time.",
+    "timing_advice": "Take before meals to reduce sugar absorption",
+    "sources": [
+      "Journal of Clinical Biochemistry and Nutrition",
+      "PMID: 17347651"
+    ],
+    "pair_key": "diabetes-medications--gymnema"
+  },
+  {
+    "substance_a": "calcium",
+    "substance_b": "antacids",
+    "severity": "info",
+    "interaction_type": "absorption",
+    "summary": "Antacids reduce calcium absorption",
+    "details": "Proton pump inhibitors (omeprazole, pantoprazole) and H2 blockers reduce stomach acid needed for calcium absorption. Long-term PPI use linked to increased fracture risk. Calcium citrate absorbs better than carbonate in low-acid environment.",
+    "recommendation": "Take calcium separately from antacids. Use calcium citrate if on long-term PPIs.",
+    "timing_advice": "Take calcium 2 hours before or after antacids",
+    "sources": [
+      "JAMA",
+      "PMID: 17190895",
+      "Osteoporosis International"
+    ],
+    "pair_key": "antacids--calcium"
+  },
+  {
+    "substance_a": "iron",
+    "substance_b": "antacids",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Antacids significantly reduce iron absorption",
+    "details": "Iron requires stomach acid for conversion to absorbable Fe2+ form. PPIs and H2 blockers can reduce iron absorption by 65-75%, potentially causing iron deficiency.",
+    "recommendation": "Take iron supplements separately from antacids. Consider heme iron sources.",
+    "timing_advice": "Take iron 2+ hours before antacids, ideally with vitamin C",
+    "sources": [
+      "Gastroenterology",
+      "PMID: 17412297"
+    ],
+    "pair_key": "antacids--iron"
+  },
+  {
+    "substance_a": "vitamin b12",
+    "substance_b": "antacids",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "Long-term antacid use depletes B12",
+    "details": "Stomach acid is required to release B12 from food proteins. Long-term PPI use (>2 years) increases B12 deficiency risk by 65%. Can cause anemia, neuropathy, cognitive decline. Sublingual B12 bypasses this issue.",
+    "recommendation": "Monitor B12 levels if on long-term PPIs. Consider sublingual or injection B12.",
+    "timing_advice": "Use sublingual B12 which doesn't require stomach acid",
+    "sources": [
+      "JAMA",
+      "PMID: 24327038",
+      "PMID: 19996585"
+    ],
+    "pair_key": "antacids--vitamin-b12"
+  },
+  {
+    "substance_a": "magnesium",
+    "substance_b": "antacids",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "PPIs impair magnesium absorption",
+    "details": "Long-term PPI use associated with hypomagnesemia (low magnesium). FDA issued warning in 2011. Can cause muscle cramps, arrhythmias, seizures. Risk increases with duration.",
+    "recommendation": "Monitor magnesium levels on long-term PPIs. Supplement if low.",
+    "timing_advice": "Take magnesium supplements at different time than PPI",
+    "sources": [
+      "FDA Drug Safety Communication 2011",
+      "PMID: 21388145"
+    ],
+    "pair_key": "antacids--magnesium"
+  },
+  {
+    "substance_a": "nsaids",
+    "substance_b": "magnesium",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "NSAIDs may reduce magnesium levels",
+    "details": "Non-steroidal anti-inflammatory drugs (ibuprofen, naproxen) can increase renal magnesium excretion and reduce intestinal absorption with long-term use.",
+    "recommendation": "Consider magnesium supplementation if using NSAIDs regularly.",
+    "timing_advice": "Take magnesium separately from NSAIDs",
+    "sources": [
+      "Magnesium Research",
+      "PMID: 18385835"
+    ],
+    "pair_key": "magnesium--nsaids"
+  },
+  {
+    "substance_a": "diphenhydramine",
+    "substance_b": "melatonin",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Both cause sedation - enhanced drowsiness",
+    "details": "Benadryl (diphenhydramine) is an anticholinergic sedative. Combined with melatonin, may cause excessive drowsiness, next-day grogginess, cognitive impairment.",
+    "recommendation": "Choose one or the other. If combining, use minimal doses.",
+    "timing_advice": "Be aware of enhanced sedation; don't drive",
+    "sources": [
+      "Sleep Medicine Reviews",
+      "PMID: 20493772"
+    ],
+    "pair_key": "diphenhydramine--melatonin"
+  },
+  {
+    "substance_a": "acetaminophen",
+    "substance_b": "nac",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "NAC protects against acetaminophen liver damage",
+    "details": "N-acetylcysteine (NAC) is the antidote for acetaminophen overdose. It replenishes glutathione, which protects the liver from NAPQI (toxic acetaminophen metabolite). Prophylactic NAC may offer protection with regular acetaminophen use.",
+    "recommendation": "NAC may be protective for regular acetaminophen users. Excellent safety profile.",
+    "timing_advice": "Can take together; NAC is hepatoprotective",
+    "sources": [
+      "Cochrane Database",
+      "PMID: 16444754",
+      "Lancet"
+    ],
+    "pair_key": "acetaminophen--nac"
+  },
+  {
+    "substance_a": "5-htp",
+    "substance_b": "ssri",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Risk of serotonin syndrome",
+    "details": "5-HTP is a direct serotonin precursor. Combined with SSRIs (which prevent serotonin reuptake), can cause dangerous serotonin excess. Serotonin syndrome symptoms: agitation, hyperthermia, tremor, rigid muscles, potentially fatal.",
+    "recommendation": "Do NOT combine 5-HTP with any SSRI, SNRI, or MAOI. Life-threatening interaction.",
+    "timing_advice": "Never combine - no safe timing",
+    "sources": [
+      "FDA",
+      "Journal of Clinical Psychiatry",
+      "PMID: 11775047"
+    ],
+    "pair_key": "5-htp--ssri"
+  },
+  {
+    "substance_a": "sam-e",
+    "substance_b": "ssri",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "SAM-e with SSRIs: Serotonin syndrome risk",
+    "details": "SAM-e increases serotonin synthesis and activity. Combined with SSRIs, increases serotonin syndrome risk. Some psychiatrists do combine carefully under supervision, but not without monitoring.",
+    "recommendation": "Do not combine without psychiatric supervision. Risk of serotonin syndrome.",
+    "timing_advice": "Requires medical supervision if combined",
+    "sources": [
+      "American Journal of Psychiatry",
+      "PMID: 14636358"
+    ],
+    "pair_key": "sam-e--ssri"
+  },
+  {
+    "substance_a": "melatonin",
+    "substance_b": "ssri",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Melatonin may enhance SSRI side effects",
+    "details": "Some SSRIs (especially fluvoxamine) inhibit CYP1A2, which metabolizes melatonin. This can increase melatonin blood levels, causing excessive sedation.",
+    "recommendation": "Use lower melatonin doses (0.3-0.5mg) with SSRIs. Monitor for oversedation.",
+    "timing_advice": "Start with lower melatonin doses",
+    "sources": [
+      "Clinical Pharmacology & Therapeutics",
+      "PMID: 11502890"
+    ],
+    "pair_key": "melatonin--ssri"
+  },
+  {
+    "substance_a": "ginseng",
+    "substance_b": "maoi",
+    "severity": "danger",
+    "interaction_type": "medication",
+    "summary": "Ginseng may cause hypertensive crisis with MAOIs",
+    "details": "Ginseng may have MAO-inhibiting properties. Combined with MAOI antidepressants, can cause dangerous blood pressure elevation, hypertensive crisis, and potentially serotonin syndrome.",
+    "recommendation": "Avoid ginseng entirely while on MAOIs.",
+    "timing_advice": "Do not combine",
+    "sources": [
+      "Journal of Clinical Psychopharmacology",
+      "PMID: 3722151"
+    ],
+    "pair_key": "ginseng--maoi"
+  },
+  {
+    "substance_a": "kava",
+    "substance_b": "benzodiazepines",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Kava + Benzos: Excessive sedation risk",
+    "details": "Both kava and benzodiazepines enhance GABA activity. Combined, can cause profound sedation, respiratory depression, coma. One case report of patient becoming comatose.",
+    "recommendation": "Do NOT combine kava with benzodiazepines or other sedatives.",
+    "timing_advice": "Avoid combination entirely",
+    "sources": [
+      "Annals of Internal Medicine",
+      "PMID: 9382666"
+    ],
+    "pair_key": "benzodiazepines--kava"
+  },
+  {
+    "substance_a": "valerian",
+    "substance_b": "sedatives",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Valerian adds to sedative medication effects",
+    "details": "Valerian has GABAergic activity similar to benzodiazepines. Can potentiate effects of sedatives, sleep medications, and antihistamines.",
+    "recommendation": "Use caution combining valerian with any sedative. Lower doses of both.",
+    "timing_advice": "Be aware of enhanced sedation",
+    "sources": [
+      "Journal of Clinical Pharmacology",
+      "PMID: 11397570"
+    ],
+    "pair_key": "sedatives--valerian"
+  },
+  {
+    "substance_a": "tyrosine",
+    "substance_b": "maoi",
+    "severity": "danger",
+    "interaction_type": "potentiation",
+    "summary": "Tyrosine can cause hypertensive crisis with MAOIs",
+    "details": "Tyrosine is a precursor to dopamine, norepinephrine, and epinephrine. MAOIs prevent breakdown of these neurotransmitters. Combining can cause dangerous catecholamine surge with severe hypertension, potentially stroke.",
+    "recommendation": "Do NOT take tyrosine with MAOIs.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Pharmacopsychiatry",
+      "PMID: 2399766"
+    ],
+    "pair_key": "maoi--tyrosine"
+  },
+  {
+    "substance_a": "rhodiola",
+    "substance_b": "ssri",
+    "severity": "caution",
+    "interaction_type": "potentiation",
+    "summary": "Rhodiola may have mild MAOI effects",
+    "details": "Rhodiola rosea may have mild MAO-inhibiting properties. Combined with SSRIs, theoretical risk of serotonin syndrome, though clinical reports are limited.",
+    "recommendation": "Use cautiously with SSRIs. Start with low doses and monitor mood.",
+    "timing_advice": "Start with low doses; watch for agitation, anxiety",
+    "sources": [
+      "Phytomedicine",
+      "PMID: 22643881"
+    ],
+    "pair_key": "rhodiola--ssri"
+  },
+  {
+    "substance_a": "calcium",
+    "substance_b": "thyroid medication",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "Calcium blocks thyroid medication absorption",
+    "details": "Calcium binds to levothyroxine (Synthroid) in the gut, reducing absorption by up to 60%. This can lead to subtherapeutic thyroid levels and hypothyroid symptoms.",
+    "recommendation": "Take thyroid medication at least 4 hours before or after calcium supplements.",
+    "timing_advice": "Separate by 4+ hours; thyroid med first thing in morning",
+    "sources": [
+      "Thyroid",
+      "PMID: 7704434",
+      "PMID: 15574620"
+    ],
+    "pair_key": "calcium--thyroid-medication"
+  },
+  {
+    "substance_a": "iron",
+    "substance_b": "thyroid medication",
+    "severity": "warning",
+    "interaction_type": "absorption",
+    "summary": "Iron reduces levothyroxine absorption",
+    "details": "Iron forms insoluble complexes with levothyroxine, reducing absorption significantly. Can cause treatment failure and persistent hypothyroid symptoms.",
+    "recommendation": "Take thyroid medication 4+ hours before iron supplements.",
+    "timing_advice": "Thyroid med in morning, iron in evening",
+    "sources": [
+      "Annals of Internal Medicine",
+      "PMID: 1982151"
+    ],
+    "pair_key": "iron--thyroid-medication"
+  },
+  {
+    "substance_a": "magnesium",
+    "substance_b": "thyroid medication",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Magnesium may reduce thyroid med absorption",
+    "details": "Magnesium can form complexes with levothyroxine, though effect is less pronounced than calcium or iron. Still recommended to separate doses.",
+    "recommendation": "Take thyroid medication at least 4 hours before magnesium.",
+    "timing_advice": "Separate by 4 hours minimum",
+    "sources": [
+      "Thyroid",
+      "PMID: 18279009"
+    ],
+    "pair_key": "magnesium--thyroid-medication"
+  },
+  {
+    "substance_a": "soy",
+    "substance_b": "thyroid medication",
+    "severity": "caution",
+    "interaction_type": "absorption",
+    "summary": "Soy may interfere with thyroid medication",
+    "details": "Soy isoflavones may interfere with levothyroxine absorption and possibly thyroid function itself. Effect varies between individuals.",
+    "recommendation": "Maintain consistent soy intake. Don't take soy supplements same time as thyroid med.",
+    "timing_advice": "Separate soy supplements from thyroid medication by 4+ hours",
+    "sources": [
+      "Thyroid",
+      "PMID: 16571087"
+    ],
+    "pair_key": "soy--thyroid-medication"
+  },
+  {
+    "substance_a": "iodine",
+    "substance_b": "thyroid medication",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Iodine supplementation can destabilize thyroid",
+    "details": "Both excess and deficient iodine affect thyroid function. High-dose iodine supplements can cause thyroid dysfunction in susceptible individuals, including those on thyroid medication. Kelp supplements often contain unpredictable iodine amounts.",
+    "recommendation": "Avoid high-dose iodine or kelp supplements on thyroid medication. Discuss iodine status with your doctor.",
+    "timing_advice": "Avoid iodine supplements unless medically supervised",
+    "sources": [
+      "New England Journal of Medicine",
+      "PMID: 9588628",
+      "PMID: 24576895"
+    ],
+    "pair_key": "iodine--thyroid-medication"
+  },
+  {
+    "substance_a": "selenium",
+    "substance_b": "thyroid medication",
+    "severity": "info",
+    "interaction_type": "synergy",
+    "summary": "Selenium supports thyroid hormone conversion",
+    "details": "Selenium is essential for deiodinase enzymes that convert T4 to active T3. Adequate selenium may improve thyroid medication effectiveness, especially in autoimmune thyroiditis (Hashimoto's).",
+    "recommendation": "200 mcg selenium may support thyroid function. Don't exceed this dose.",
+    "timing_advice": "Can take separately from thyroid medication",
+    "sources": [
+      "Journal of Clinical Endocrinology & Metabolism",
+      "PMID: 12213876"
+    ],
+    "pair_key": "selenium--thyroid-medication"
+  },
+  {
+    "substance_a": "st johns wort",
+    "substance_b": "cyclosporine",
+    "severity": "danger",
+    "interaction_type": "metabolism",
+    "summary": "St. John's Wort can cause organ rejection",
+    "details": "St. John's Wort strongly induces CYP3A4 and P-glycoprotein, dramatically reducing cyclosporine blood levels (up to 50% reduction). Has caused documented cases of acute heart transplant rejection. Life-threatening interaction.",
+    "recommendation": "ABSOLUTELY AVOID St. John's Wort if on cyclosporine or any immunosuppressant.",
+    "timing_advice": "Do not take at any time while on immunosuppressants",
+    "sources": [
+      "Lancet",
+      "PMID: 10696252",
+      "Transplantation"
+    ],
+    "pair_key": "cyclosporine--st-johns-wort"
+  },
+  {
+    "substance_a": "echinacea",
+    "substance_b": "immunosuppressants",
+    "severity": "warning",
+    "interaction_type": "antagonism",
+    "summary": "Echinacea may counteract immunosuppressants",
+    "details": "Echinacea stimulates immune function, potentially counteracting immunosuppressant medications. Risk of organ rejection or autoimmune flares.",
+    "recommendation": "Avoid echinacea if on immunosuppressants for transplant or autoimmune disease.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Alternative Medicine Review",
+      "PMID: 15989380"
+    ],
+    "pair_key": "echinacea--immunosuppressants"
+  },
+  {
+    "substance_a": "astragalus",
+    "substance_b": "immunosuppressants",
+    "severity": "warning",
+    "interaction_type": "antagonism",
+    "summary": "Astragalus is immunostimulating",
+    "details": "Astragalus (Huang Qi) enhances immune function and may counteract immunosuppressive therapy. May increase risk of rejection or autoimmune flares.",
+    "recommendation": "Avoid astragalus on immunosuppressants.",
+    "timing_advice": "Avoid combination",
+    "sources": [
+      "Phytotherapy Research",
+      "PMID: 22139880"
+    ],
+    "pair_key": "astragalus--immunosuppressants"
+  },
+  {
+    "substance_a": "zinc",
+    "substance_b": "quercetin",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Quercetin acts as zinc ionophore",
+    "details": "Quercetin increases cellular uptake of zinc by acting as a zinc ionophore, potentially enhancing zinc's antiviral and immune-supporting effects.",
+    "recommendation": "Effective combination for immune support.",
+    "timing_advice": "Take together",
+    "sources": [
+      "PLOS ONE",
+      "PMID: 25048201"
+    ],
+    "pair_key": "quercetin--zinc"
+  },
+  {
+    "substance_a": "iron",
+    "substance_b": "vitamin a",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Vitamin A enhances iron absorption",
+    "details": "Vitamin A improves iron absorption and mobilization from stores. Deficiency of either impairs the function of the other. Particularly important in developing countries.",
+    "recommendation": "Combining may improve iron status, especially in deficiency.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "American Journal of Clinical Nutrition",
+      "PMID: 9356038"
+    ],
+    "pair_key": "iron--vitamin-a"
+  },
+  {
+    "substance_a": "vitamin d",
+    "substance_b": "omega-3",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Fat improves vitamin D absorption",
+    "details": "Vitamin D is fat-soluble and absorbs better with dietary fat. Taking with omega-3 fish oil provides the fat needed for optimal vitamin D uptake.",
+    "recommendation": "Take vitamin D with omega-3 or fatty meal.",
+    "timing_advice": "Take together with food",
+    "sources": [
+      "Journal of the Academy of Nutrition and Dietetics",
+      "PMID: 25619618"
+    ],
+    "pair_key": "omega-3--vitamin-d"
+  },
+  {
+    "substance_a": "ashwagandha",
+    "substance_b": "black pepper",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Piperine may enhance ashwagandha absorption",
+    "details": "Piperine from black pepper inhibits glucuronidation and enhances bioavailability of many supplements including ashwagandha. May increase effectiveness.",
+    "recommendation": "Can take ashwagandha with piperine for enhanced absorption.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Planta Medica",
+      "PMID: 18461352"
+    ],
+    "pair_key": "ashwagandha--black-pepper"
+  },
+  {
+    "substance_a": "vitamin b6",
+    "substance_b": "magnesium",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "B6 enhances magnesium cellular uptake",
+    "details": "Vitamin B6 (pyridoxine) facilitates magnesium transport into cells. Combined they may be more effective than magnesium alone, especially for PMS and stress.",
+    "recommendation": "Consider combination for enhanced magnesium benefits.",
+    "timing_advice": "Take together",
+    "sources": [
+      "Magnesium Research",
+      "PMID: 22781440"
+    ],
+    "pair_key": "magnesium--vitamin-b6"
+  },
+  {
+    "substance_a": "zinc",
+    "substance_b": "vitamin a",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Zinc needed for vitamin A metabolism",
+    "details": "Zinc is required for retinol-binding protein synthesis and vitamin A metabolism. Zinc deficiency impairs vitamin A function even with adequate vitamin A intake.",
+    "recommendation": "Ensure adequate zinc when supplementing vitamin A.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "American Journal of Clinical Nutrition",
+      "PMID: 3927946"
+    ],
+    "pair_key": "vitamin-a--zinc"
+  },
+  {
+    "substance_a": "boron",
+    "substance_b": "vitamin d",
+    "severity": "synergy",
+    "interaction_type": "synergy",
+    "summary": "Boron extends vitamin D half-life",
+    "details": "Boron may reduce urinary excretion of vitamin D and extend its half-life. Also supports bone health independently through calcium and magnesium metabolism.",
+    "recommendation": "3mg boron may support vitamin D status and bone health.",
+    "timing_advice": "Can take together",
+    "sources": [
+      "Integrative Medicine",
+      "PMID: 17846391"
+    ],
+    "pair_key": "boron--vitamin-d"
+  }
+]
