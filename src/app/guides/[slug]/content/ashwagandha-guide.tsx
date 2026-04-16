@@ -256,6 +256,96 @@ export function AshwagandhaGuide() {
         </a>.
       </p>
 
+      <h2>Ashwagandha and Liver Safety: What the Recent Case Reports Show</h2>
+
+      <p><strong>Ashwagandha and liver safety</strong> became a serious discussion topic after a wave of hepatotoxicity case reports emerged between 2021 and 2023. This isn't fearmongering from anti-supplement blogs — these are documented cases in peer-reviewed journals and federal databases, and you should know what they actually say.</p>
+
+      <p>Björnsson et al. (2020) published a case series in <em>Journal of Hepatology</em> identifying ashwagandha as a cause of herb-induced liver injury, with several cases showing cholestatic or mixed-pattern hepatotoxicity. The U.S. Drug-Induced Liver Injury Network (DILIN) subsequently flagged additional cases through 2023, some requiring hospitalization. Iceland went as far as issuing a regulatory warning. <EvidenceBadge level="emerging" /></p>
+
+      <p>Here's the critical nuance most coverage misses: the products implicated tend to be high-dose formulations containing <strong>leaf extracts rich in withaferin A</strong> — a cytotoxic withanolide concentrated in leaves, not roots. Withaferin A has documented hepatotoxic potential in preclinical models. Root-only extracts like <strong>KSM-66</strong> contain substantially less withaferin A, and none of the major KSM-66 clinical trials have reported liver injury at standard doses of 600mg/day over 8–12 weeks.</p>
+
+      <Callout variant="warning" title="Stop and seek medical attention if you experience:">
+Jaundice (yellowing of skin or eyes), dark urine, pale stools, or persistent right upper quadrant abdominal pain while taking any ashwagandha product. These are signs of potential liver injury. Discontinue immediately and get liver enzymes checked.
+      </Callout>
+
+      <p>The overall incidence appears low — we're talking about dozens of case reports against millions of users — but "low risk" isn't "no risk." If you have pre-existing liver conditions, drink heavily, or take other hepatotoxic medications (acetaminophen, statins, certain antibiotics), your threshold for concern should be lower. Consult your healthcare provider before starting.</p>
+
+      <p>To minimize risk: stick with <strong>root-only extracts</strong> from brands that provide third-party testing (NSF, USP, or Informed Sport certification), avoid products listing "leaf" or "whole plant" on the Supplement Facts panel, and don't exceed studied doses. Our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> can help you identify what's actually in the bottle. If you're stacking ashwagandha with other supplements, check our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> for safe layering strategies.</p>
+
+
+      <h2>Ashwagandha for Women: Hormones, Cycle Effects, and What the Research Actually Shows</h2>
+
+      <p><strong>Ashwagandha for women</strong> is one of the most searched supplement topics online, yet most clinical trials — and most guides, including this one until now — have been functionally male-default. The testosterone and fertility studies that get cited everywhere? Almost exclusively male cohorts. That doesn't mean ashwagandha is ineffective for women. It means the evidence base has gaps you should know about before drawing conclusions.</p>
+
+      <h3>What We Know About Hormonal Effects in Women</h3>
+
+      <p>Ashwagandha appears to modestly increase DHEA-S in both sexes. A 2019 RCT by Lopresti et al. found significant DHEA-S increases alongside cortisol reduction — but the downstream hormonal implications differ for women. DHEA-S is a precursor to both testosterone and estrogen, so the net effect on your hormonal profile depends on your baseline levels and individual metabolism. <EvidenceBadge level="moderate" /> There's no strong evidence that ashwagandha meaningfully raises estrogen or testosterone in women at standard doses, but the research simply hasn't been designed to answer this question rigorously.</p>
+
+      <h3>PCOS and Cycle Effects</h3>
+
+      <p>A small 2023 pilot study by Gopal et al. in <em>Cureus</em> suggested ashwagandha may improve markers of hormonal balance in women with PCOS, including reductions in testosterone and improvements in cycle regularity. <EvidenceBadge level="emerging" /> However, this was a single small trial. If you have PCOS, this is a "worth watching" result, not a treatment protocol. Consult your healthcare provider before using ashwagandha alongside metformin, spironolactone, or other PCOS-related medications.</p>
+
+      <h3>Safety with Hormonal Contraception</h3>
+
+      <p>There are no published studies examining interactions between ashwagandha and hormonal contraceptives. Its thyroid-stimulating and cortisol-lowering effects are theoretically relevant to hormonal balance, but no adverse interactions have been documented. That said, absence of evidence is not evidence of absence. If you're on combined oral contraceptives or progestin-only methods, there's no established reason to avoid ashwagandha — but flag it with your prescriber.</p>
+
+      <Callout variant="info" title="Where Women Have Strong Evidence">
+The cortisol, stress, sleep, and anxiety data applies equally to women — these trials generally enrolled mixed-gender cohorts. If your goal is <a href="/guides/ashwagandha-guide">stress reduction or better sleep</a>, the evidence doesn't have a meaningful gender gap. The gap is specifically in hormonal optimization and reproductive health outcomes.
+      </Callout>
+
+      <h3>A Framework for Deciding</h3>
+
+      <p>Ask yourself what you're actually after. <strong>Stress and sleep?</strong> The evidence is strong regardless of sex — pick your extract (KSM-66 or Sensoril) based on your primary goal and follow the dosing above. <strong>Hormonal optimization, cycle regulation, or fertility?</strong> The data for women is emerging at best. You're essentially an early adopter, and you should treat it that way: track your cycle, monitor how you feel, and don't assume the male-derived hormonal data applies to you. For building a broader stress-management stack, our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> covers how ashwagandha fits alongside foundational supplements.</p>
+
+
+      <h2>How to Verify Quality: Third-Party Testing and What to Look For on the Label</h2>
+
+      <p>Knowing <strong>how to choose an ashwagandha supplement</strong> comes down to reading labels critically — not trusting front-of-package marketing. Even if a product claims to contain KSM-66 or Sensoril, you have no guarantee of purity, potency, or heavy metal testing unless an independent lab has verified it. That's where third-party certifications earn their value.</p>
+
+      <h3>Certifications That Actually Matter</h3>
+
+      <p><strong>USP Verified</strong> is the gold standard for general consumers. The U.S. Pharmacopeia tests for identity, potency, contaminants, and manufacturing practices. <strong>NSF Certified for Sport</strong> and <strong>Informed Sport</strong> go further by screening for banned substances — critical if you're a tested athlete, but also a strong quality signal for anyone. If a product carries any of these three marks, it's passed a level of scrutiny most supplements never face. <EvidenceBadge level="strong" /></p>
+
+      <h3>What to Find on the Supplement Facts Panel</h3>
+
+      <p>Flip the bottle and look for three things: the <strong>extract name</strong> (KSM-66, Sensoril, or Shoden — not just "ashwagandha root"), the <strong>withanolide percentage</strong> (≥5% for KSM-66, ≥10% for Sensoril, ≥35% for Shoden), and the <strong>extract ratio</strong> if listed. Reputable brands also make a <strong>certificate of analysis (COA)</strong> available on their website or by request, showing batch-specific test results for potency and contaminants like lead, arsenic, and cadmium.</p>
+
+      <h3>Red Flags to Walk Away From</h3>
+
+      <p>Avoid any product using a <strong>proprietary blend</strong> that lumps ashwagandha with other ingredients under a single combined weight — this obscures the actual dose. The phrase <strong>"ashwagandha complex"</strong> is another warning sign, often indicating a mix of generic root powder with trace amounts of standardized extract. If the label doesn't state a specific withanolide percentage, assume you're getting the 1–2% found in raw root powder. As covered in our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a>, vague language almost always means an underpowered product.</p>
+
+      <Callout variant="info" title="Quick Label Checklist">
+Named extract (KSM-66, Sensoril, or Shoden) — not "root powder" or "complex." Withanolide percentage explicitly stated. No proprietary blends hiding the ashwagandha dose. Third-party certification logo (USP, NSF, or Informed Sport). COA accessible online or on request.
+      </Callout>
+
+
+      <h2>Drug Interactions: A Practical Reference Table</h2>
+
+      <p><strong>Ashwagandha drug interactions</strong> are poorly documented in formal pharmacovigilance databases, but the herb's known pharmacological activity — GABAergic, serotonergic, thyroid-stimulating, hypoglycemic, and immunomodulatory — creates several plausible interaction pathways. The table below consolidates what's currently known so you can have a specific conversation with your prescriber rather than a vague one.</p>
+
+      <Callout variant="warning" title="This is not a complete list">
+Ashwagandha's metabolic pathways haven't been fully characterized. If you take <em>any</em> prescription medication, consult your healthcare provider before adding ashwagandha. The interactions below reflect known pharmacological mechanisms, not exhaustive clinical data.
+      </Callout>
+
+      <table>
+      <thead>
+      <tr><th>Drug Class</th><th>Examples</th><th>Interaction Type</th><th>Risk Level</th><th>Recommendation</th></tr>
+      </thead>
+      <tbody>
+      <tr><td><strong>SSRIs / SNRIs</strong></td><td>Sertraline, fluoxetine, venlafaxine</td><td>Additive serotonergic activity — theoretical risk of serotonin syndrome</td><td>Moderate</td><td>Do not combine without physician approval</td></tr>
+      <tr><td><strong>Benzodiazepines</strong></td><td>Alprazolam, lorazepam, diazepam</td><td>Additive CNS depression via GABAergic potentiation (Mehta et al., 2012)</td><td>Moderate–High</td><td>Avoid, or use only under medical supervision</td></tr>
+      <tr><td><strong>Thyroid medications</strong></td><td>Levothyroxine, liothyronine</td><td>Ashwagandha increases T3 and T4 (Sharma et al., 2018), potentially destabilizing managed hypothyroidism</td><td>High</td><td>Avoid — requires thyroid panel monitoring at minimum</td></tr>
+      <tr><td><strong>Diabetes medications</strong></td><td>Metformin, insulin, sulfonylureas</td><td>Additive blood glucose lowering — risk of hypoglycemia (Andallu & Radhika, 2000)</td><td>Moderate</td><td>Monitor blood glucose closely; consult your prescriber</td></tr>
+      <tr><td><strong>Immunosuppressants</strong></td><td>Cyclosporine, tacrolimus, mycophenolate</td><td>Ashwagandha stimulates Th1 immune activity, directly counteracting immunosuppressive therapy</td><td>High</td><td>Do not combine — may trigger rejection or flare</td></tr>
+      <tr><td><strong>Sedatives / Anesthetics</strong></td><td>Propofol, barbiturates, general anesthesia</td><td>Additive CNS depression; may prolong sedation</td><td>High</td><td>Discontinue at least 2 weeks before scheduled surgery</td></tr>
+      </tbody>
+      </table>
+
+      <p>Notice the pattern: most risks stem from ashwagandha <em>amplifying</em> what your medication already does. It pushes thyroid hormones higher, blood sugar lower, and sedation deeper. That's not inherently dangerous in isolation, but stacking it on top of a drug designed to do the same thing narrows your safety margin considerably. <EvidenceBadge level="emerging" /></p>
+
+      <p>If you're unmedicated and healthy, <strong>ashwagandha drug interactions</strong> aren't a practical concern. If you take anything from the table above, this supplement moves from "try it and see" to "get your doctor's sign-off first." For more on how ashwagandha fits into a broader protocol, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+
+
       <h2>Who Should Not Take Ashwagandha</h2>
 
       <Callout variant="warning" title="Hard contraindications">

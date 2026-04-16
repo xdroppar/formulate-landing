@@ -309,6 +309,125 @@ export function LionsManeGuide() {
         mild antiplatelet activity based on in vitro data.
       </p>
 
+      <h2>Limitations of the Evidence: What the Research Can't Tell Us Yet</h2>
+
+      <p>The limitations of lion's mane research are significant enough that you should understand them before spending money. The science is genuinely interesting — but it's also genuinely thin. Here's what honest scrutiny reveals.</p>
+
+      <h3>Tiny Sample Sizes, Narrow Populations</h3>
+
+      <p>Every major human trial on lion's mane cognitive benefits has enrolled 30 or fewer participants. <EvidenceBadge level="emerging" /> The Mori et al. (2009) study — the strongest evidence we have — included just 30 people, all aged 50–80, all diagnosed with <em>mild cognitive impairment</em>. That's a very specific population. If you're a healthy 28-year-old looking for a focus edge, this study doesn't directly apply to you. It might generalize. It might not. We genuinely don't know.</p>
+
+      <p>The Nagano et al. (2010) mood study also enrolled only 30 participants. At these sample sizes, a single outlier can skew group averages. Results like these are hypothesis-generating, not conclusive.</p>
+
+      <h3>No Long-Term Safety or Efficacy Data</h3>
+
+      <p>The longest controlled human trial lasted 16 weeks. No published study has tracked lion's mane supplementation for six months, a year, or longer. <EvidenceBadge level="emerging" /> For a supplement often framed as a <a href="/guides/longevity-supplements">longevity investment</a>, this is a conspicuous gap. We're extrapolating long-term use from short-term data — something the research itself can't validate.</p>
+
+      <h3>No Dose-Ranging Trials</h3>
+
+      <p>You'll see doses of 500–3,000mg recommended across the internet. But no published human trial has systematically compared different doses head-to-head to determine an optimal range. <EvidenceBadge level="emerging" /> The 1,000mg/day used in Mori (2009) is a single data point, not a proven sweet spot. Whether 500mg works nearly as well or 2,000mg works meaningfully better remains unanswered.</p>
+
+      <Callout variant="info" title="What's known vs. what's inferred">
+      <strong>Known:</strong> Lion's mane stimulates NGF in vitro. One small RCT showed cognitive improvement in older adults with MCI over 16 weeks. Safety appears favorable in short-term use.<br /><br />
+      <strong>Inferred (not proven):</strong> That benefits extend to healthy younger adults. That long-term use is safe. That commonly recommended doses are optimal. That the NGF mechanism observed in cell studies is what's driving human outcomes.
+      </Callout>
+
+      <p>None of this means lion's mane doesn't work. It means the confidence level is lower than enthusiastic marketing suggests. Treat it as a promising but early-stage supplement — and weigh your expectations accordingly.</p>
+
+
+      <h2>How to Read a Lion's Mane COA (Certificate of Analysis)</h2>
+
+      <p>Knowing how to read a lion's mane COA is the difference between trusting a brand's marketing and actually verifying what's in the bottle. A Certificate of Analysis is a lab report — ideally from an independent third-party lab, not the manufacturer's in-house facility — that quantifies what a product contains and what contaminants it doesn't. Here's what to look for, section by section.</p>
+
+      <h3>Active Compound Testing</h3>
+
+      <p>The first thing you should check is <strong>beta-glucan content</strong>. A credible COA will report this as a percentage by weight, measured via enzymatic assay (the Megazyme method is the current gold standard). You want ≥25%, and quality products often hit 30–40%. If the COA only lists "polysaccharides" without specifying beta-glucans, that's a problem — starch is also a polysaccharide, so a high polysaccharide number can mask grain filler.</p>
+
+      <p>Closely related: look for <strong>starch content</strong>, ideally reported on the same COA. Anything above 5% suggests significant grain substrate contamination from mycelium-on-grain production. Some manufacturers omit this test entirely, which should make you suspicious.</p>
+
+      <h3>Heavy Metals Panel</h3>
+
+      <p>Since over 85% of medicinal mushrooms are grown in China, heavy metal testing is non-negotiable. A trustworthy COA tests for at minimum four metals: <strong>lead</strong> (&lt;1.0 ppm), <strong>arsenic</strong> (&lt;2.0 ppm), <strong>mercury</strong> (&lt;0.5 ppm), and <strong>cadmium</strong> (&lt;1.0 ppm). These thresholds align with USP &lt;2232&gt; limits for botanical dietary supplements. Results should list both the detection limit and the actual measured value — a report that just says "pass" without numbers is incomplete.</p>
+
+      <h3>Microbial Testing</h3>
+
+      <p>Look for total aerobic plate count, yeast and mold counts, and confirmation of absence of <em>E. coli</em>, <em>Salmonella</em>, and coliforms. These should follow USP &lt;2021&gt; or equivalent methodology. Missing microbial panels are a red flag, especially for products sourced from regions with less stringent agricultural oversight.</p>
+
+      <h3>Which Labs Are Credible</h3>
+
+      <p>The lab should be <strong>ISO 17025 accredited</strong> — this is the international standard for testing and calibration laboratories. Reputable names in the supplement space include Eurofins, Alkemist Labs, and NSF International. <EvidenceBadge level="moderate" /> If the COA references an unaccredited or unidentifiable lab, or if the brand refuses to share the COA at all when asked, move on.</p>
+
+      <Callout variant="warning" title="COA Red Flags">
+Watch for COAs that only report polysaccharides (not beta-glucans specifically), omit starch testing, show no lab accreditation number, or are dated more than 12 months before the product's manufacturing date. A legitimate COA should be batch-specific — meaning it corresponds to the actual lot number on your bottle, not a generic "representative" test from years ago.
+      </Callout>
+
+      <p>If you're still building your label-reading skills, our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> covers the fundamentals beyond COAs. And for help comparing products that meet these standards, check the <a href="/guides/lions-mane-guide">lion's mane buying criteria</a> earlier in this guide.</p>
+
+
+      <h2>Drug Interactions and Medical Considerations</h2>
+
+      <p>Drug interactions with lion's mane deserve more attention than they typically get, especially since the supplement's target audience — older adults concerned about cognitive decline — disproportionately overlaps with people on blood-thinning medications. Here's what you need to know before adding it to your regimen.</p>
+
+      <h3>Anticoagulant and Antiplatelet Medications</h3>
+
+      <p>Lion's mane has demonstrated antiplatelet and anticoagulant activity in preclinical studies. Specifically, Mori et al. (2010) identified hericenone B as an inhibitor of collagen-induced platelet aggregation. While this hasn't been quantified in human pharmacokinetic studies, the mechanism is biologically plausible — not speculative. <EvidenceBadge level="emerging" /></p>
+
+      <p>If you're taking <strong>warfarin</strong>, <strong>clopidogrel (Plavil)</strong>, <strong>aspirin</strong> (even low-dose), <strong>heparin</strong>, or regular <strong>NSAIDs</strong> like ibuprofen or naproxen, talk to your prescriber before supplementing. The risk is additive bleeding — a compounding of antiplatelet effects that could increase bruising, nosebleeds, or more serious hemorrhagic events.</p>
+
+      <Callout variant="warning" title="Bleeding Risk">
+No human trials have formally assessed lion's mane co-administered with anticoagulants. The absence of reported interactions is not evidence of safety — it's an evidence gap. Treat this as a real concern, not a theoretical footnote.
+      </Callout>
+
+      <h3>Immunosuppressant Medications</h3>
+
+      <p>Lion's mane is rich in beta-glucans — polysaccharides that modulate immune activity by stimulating macrophages and natural killer cells. If you're taking immunosuppressants such as <strong>cyclosporine</strong>, <strong>tacrolimus</strong>, <strong>mycophenolate</strong>, or <strong>corticosteroids</strong> for transplant rejection, autoimmune conditions, or inflammatory disease, this immune-stimulating activity could theoretically work against your medication. No direct interaction studies exist, but the pharmacological logic is straightforward enough to warrant caution. <EvidenceBadge level="emerging" /></p>
+
+      <h3>Pregnancy and Lactation</h3>
+
+      <p>There is <strong>no safety data</strong> for lion's mane during pregnancy or breastfeeding. No human studies, no animal reproductive toxicity studies of sufficient quality to draw conclusions. This isn't a case where evidence suggests it's probably fine — it's a genuine blank. Consult your OB-GYN or midwife before use.</p>
+
+      <Callout variant="info" title="General Rule">
+Bring your full supplement list — including anything you're considering adding — to your next provider visit. Pharmacists are often the most accessible resource for checking interaction databases, and they're underutilized. If you're managing a <a href="/guides/supplement-timing">complex supplement stack</a>, professional oversight isn't optional for these populations.
+      </Callout>
+
+
+      <h2>Does Lion's Mane Work for Healthy Adults? (Extrapolating the Evidence)</h2>
+
+      <p>Whether lion's mane works for healthy adults is the question most readers actually have — and the honest answer is that <strong>no published RCT has directly tested this population for cognitive outcomes</strong>. The Mori 2009 trial enrolled older adults with diagnosed mild cognitive impairment. The Nagano 2010 mood study used healthy women but measured anxiety and depression markers, not cognition. If you're a 30-something with brain fog but no clinical diagnosis, you're extrapolating. <EvidenceBadge level="emerging" /></p>
+
+      <h3>The Neurobiological Case for Broader Benefit</h3>
+
+      <p>That said, the rationale isn't baseless. NGF and BDNF aren't exclusive to impaired brains — they drive synaptic plasticity, myelination, and hippocampal neurogenesis in healthy tissue too. Age-related NGF decline begins well before clinical impairment appears (Counts &amp; Mufson, 2005), so the argument is that supporting NGF earlier could maintain cognitive infrastructure rather than repair it after decline. Plausible, but unproven in humans.</p>
+
+      <h3>What Preliminary Data Exists</h3>
+
+      <p>Docherty et al. (2023), published in <em>Nutrients</em>, is the closest thing to an answer. This acute-dose crossover trial gave healthy adults 1.8g of lion's mane and found faster performance on a cognitive stress task 60 minutes later. That's intriguing but very preliminary — single-dose, small sample, and the effect size was modest. It doesn't tell you what happens after weeks of supplementation. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="info" title="Set Realistic Expectations">The existing evidence suggests lion's mane <em>might</em> support cognitive function in healthy adults through NGF-mediated mechanisms, but "might" is doing heavy lifting in that sentence. If you're expecting the clear, dose-dependent improvement seen in the Mori MCI trial, you may be disappointed. The biological plausibility is real; the human proof for your specific situation is not yet here.</Callout>
+
+      <p>If you decide to try it anyway — and the <a href="/guides/lions-mane-guide">safety profile</a> makes that a reasonable gamble — treat it as a personal experiment. Use the dosing and quality benchmarks outlined above, give it a full month, and assess honestly. Just know you're running ahead of the science, not behind it. For context on building a broader cognitive stack while evidence catches up, see our <a href="/guides/supplement-stack-guide">supplement stacking guide</a>.</p>
+
+
+      <h2>Top Lion's Mane Supplements That Meet These Standards</h2>
+
+      <p>Finding a <strong>top lion's mane supplement</strong> that actually checks every box — fruiting body, dual extract, ≥25% beta-glucans, ≤5% starch, third-party tested — narrows the field dramatically. Most products fail on at least one criterion. Here are the ones that don't, based on verified Certificates of Analysis (COAs) and publicly available lab data.</p>
+
+      <h3>Real Mushrooms Lion's Mane Extract</h3>
+      <p>Fruiting body only, hot water extracted, with verified beta-glucan content exceeding 30% and starch under 3%. Third-party tested for heavy metals, with COAs available on request. Grown in China with ISO-certified facilities. Approximately <strong>$0.04–$0.05 per gram of extract</strong> (60g container). One of the most transparent brands in the space.</p>
+
+      <h3>Nootropics Depot Lion's Mane 8:1 Dual Extract</h3>
+      <p>Fruiting body dual extract (hot water + ethanol) standardized to ≥25% beta-glucans. Starch content verified below 5% via independent testing. They publish detailed analytical reports and use in-house identity testing alongside third-party labs. Approximately <strong>$0.06–$0.08 per gram of extract</strong> depending on format (capsule vs. powder). Also offers a mycelium-based erinacine-focused product if you want to experiment with both compound classes.</p>
+
+      <h3>Oriveda Lion's Mane Dual Extract</h3>
+      <p>A premium European option offering separate fruiting body and mycelium extracts — the mycelium product claims verified erinacine content, which is rare. Fruiting body extract hits >30% beta-glucans with full COAs published on their site. Approximately <strong>$0.10–$0.12 per gram of extract</strong>, making it the most expensive option here, but the transparency and dual-compound approach justify the premium for some users.</p>
+
+      <Callout variant="info" title="Why Only Three?">
+Many popular brands — including several you'll see recommended on Reddit — fail on starch content, don't use dual extraction, or refuse to share COAs. We'd rather list three products that genuinely meet every criterion from this guide than pad the list with compromises. If a brand doesn't disclose beta-glucan and starch percentages, treat that as your answer.
+      </Callout>
+
+      <p>All three of these top lion's mane supplements use fruiting body extract as the base, provide third-party or published COA data, and meet the ≥25% beta-glucan and ≤5% starch thresholds outlined earlier. Price differences mostly reflect extraction ratios, sourcing logistics, and whether the company offers erinacine-verified mycelium alongside the fruiting body product. For most people starting out, the $0.04–$0.06/gram range delivers excellent value without sacrificing quality. You can compare these and other options in the <a href="/guides/supplement-labels">supplement label reading guide</a> to verify claims yourself.</p>
+
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Lion's mane is generally well-tolerated in the limited human trials conducted so far. But "limited" is the key word — the primary RCT involved just 30 participants, all older adults with mild cognitive impairment. If you fall outside that narrow profile, or take medications that could interact, get clinical input before starting.

@@ -364,6 +364,119 @@ export function CollagenGuide() {
         least 8 weeks before judging.
       </p>
 
+      <h2>Industry Funding and Study Quality: How to Read the Collagen Research</h2>
+
+      <p>Most positive collagen RCTs are funded by supplement manufacturers — and you should know exactly which ones. <EvidenceBadge level="moderate" /> Gelita (maker of Verisol® and Fortigel® peptides) funded the Proksch skin elasticity studies cited above, the König bone density trial, and numerous others. Rousselot, InterHealth/Lonza (maker of UC-II), and Nitta Gelatin have sponsored much of the remaining clinical work. A 2021 analysis by Martínez-Puig et al. reviewed 26 clinical trials on collagen peptides for skin health — the vast majority disclosed industry funding or authorship ties to manufacturers.</p>
+
+      <Callout variant="info" title="This doesn't mean the research is fraudulent">
+Industry-funded trials aren't automatically invalid. They use real randomization, real placebos, and get published in peer-reviewed journals. But they are systematically more likely to produce favorable results — a well-documented phenomenon across all of nutrition science (Lundh et al., 2017). The concern isn't fabrication. It's selective publication, favorable dose selection, and outcome reporting bias.
+      </Callout>
+
+      <p>So where does <strong>independent evidence</strong> actually exist? The Penn State joint pain study (Clark et al., 2008) was funded by Gelita, but the research team operated independently and the trial design was rigorous. Some skin hydration findings have been partially replicated by academic groups in South Korea and Brazil without direct manufacturer funding, though sample sizes remain small. The de Miranda et al. (2019) systematic review aggregated these results and still found a positive signal — but acknowledged the funding landscape as a limitation.</p>
+
+      <p>Where independent evidence is <em>thinnest</em>: bone density. The König et al. (2018) trial is essentially the only major RCT, and it was Gelita-funded. Until an independent group replicates those bone mineral density findings, treat them as promising but unconfirmed.</p>
+
+      <Callout variant="warning" title="How to weight what you read">
+Give the most confidence to outcomes replicated across multiple research groups with at least some non-industry funding (skin elasticity qualifies). Give less confidence to outcomes resting on a single industry-funded trial (bone density). And be skeptical of any branded-ingredient study where the funder also holds the patent — the incentive structure demands scrutiny, not dismissal.
+      </Callout>
+
+      <p>This is why we use <EvidenceBadge level="strong" />, <EvidenceBadge level="moderate" />, and <EvidenceBadge level="emerging" /> throughout this guide — to signal where evidence is robust versus where you're placing a bet on limited data. For more on evaluating supplement research quality, see our <a href="/guides/how-to-read-supplement-research">guide to reading supplement studies</a>.</p>
+
+
+      <h2>Collagen for Specific Populations: Pregnancy, Older Adults, and Autoimmune Conditions</h2>
+
+      <p><strong>Collagen for specific populations</strong> requires a different risk calculus than it does for generally healthy adults. Most clinical trials recruit women aged 35–55 or active adults with joint complaints. If you're pregnant, postmenopausal and managing bone loss, or living with an autoimmune condition, the evidence base either doesn't include you or raises flags worth discussing with your doctor.</p>
+
+      <h3>Pregnancy and Breastfeeding</h3>
+
+      <Callout variant="warning" title="No clinical safety data exists">
+No randomized controlled trials have evaluated collagen supplementation in pregnant or breastfeeding women. Despite aggressive marketing toward this group — often emphasizing skin elasticity and stretch mark prevention — the safety profile is simply unstudied. Consult your OB-GYN before supplementing.
+      </Callout>
+
+      <p>The absence of evidence isn't evidence of harm, but it isn't a green light either. Collagen peptides are bioactive signaling molecules, not inert protein, and their effects on fetal development have not been assessed. Your prenatal vitamin and dietary protein are the evidence-based foundation here.</p>
+
+      <h3>Postmenopausal Bone Health</h3>
+
+      <p>The König et al. (2018) bone density study referenced earlier in this guide specifically recruited postmenopausal women — so the data is at least relevant to you. But context matters: those participants were not on bisphosphonates, and the study did not test collagen <em>against</em> or <em>alongside</em> calcium and vitamin D. <EvidenceBadge level="emerging" /></p>
+
+      <p>Collagen peptides should be considered <strong>complementary to</strong> — never a replacement for — your existing calcium and <a href="/guides/vitamin-d-guide">vitamin D</a> regimen. If you're on osteoporosis medication like alendronate, bring your full supplement list to your prescribing physician. Whether collagen is additive or redundant in that context is genuinely unknown.</p>
+
+      <h3>Autoimmune Conditions and Immunosuppressants</h3>
+
+      <p>This is where the distinction between hydrolyzed collagen and <strong>UC-II</strong> becomes clinically important. Standard hydrolyzed peptides (types I/III) work as structural building blocks and signaling molecules. UC-II works through <em>immune modulation</em> — specifically oral tolerance via gut-associated lymphoid tissue, dampening the T-cell–mediated attack on cartilage.</p>
+
+      <Callout variant="warning" title="UC-II and immunosuppressive medications">
+If you're taking immunosuppressants (methotrexate, biologics like adalimumab, or corticosteroids) for rheumatoid arthritis, lupus, or other autoimmune conditions, UC-II's immune-modulating mechanism could interact unpredictably with your treatment. Discuss this with your rheumatologist or prescribing physician before adding any form of collagen — but especially UC-II.
+      </Callout>
+
+      <p>Even standard hydrolyzed collagen deserves a conversation if your autoimmune condition involves connective tissue (scleroderma, lupus). The theoretical concern — stimulating fibroblast activity in someone whose connective tissue biology is already dysregulated — hasn't been studied, which is exactly the problem.</p>
+
+
+      <h2>How to Evaluate Collagen Product Quality (Label Reading Checklist)</h2>
+
+      <p>Knowing how to evaluate collagen product quality separates a worthwhile purchase from an expensive placebo. The supplement aisle is crowded with collagen products making identical claims, but the labels tell very different stories if you know what to look for.</p>
+
+      <h3>Molecular Weight: The Number That Actually Matters</h3>
+
+      <p>Look for molecular weight listed in Daltons (Da). Peptides under 5,000 Da indicate adequate hydrolysis — meaning the collagen has been broken down enough for efficient intestinal absorption. Some premium products go further, targeting 2,000–3,000 Da. If the label says "hydrolyzed collagen peptides," the protein has been enzymatically broken into these small chains. If it says "gelatin," you're getting partially hydrolyzed collagen with a much higher molecular weight — it'll gel in cold water and absorb less efficiently. Both are collagen-derived, but they're not interchangeable for supplementation purposes.</p>
+
+      <h3>Third-Party Testing Certifications</h3>
+
+      <p>Three certifications carry real weight: <strong>NSF International</strong>, <strong>USP Verified</strong>, and <strong>Informed Sport</strong> (relevant if you're a tested athlete). These verify that what's on the label is actually in the product and that contaminant levels fall within safe thresholds. A brand's own "purity tested" claim without a named third-party lab means very little. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="Heavy Metals in Marine Collagen">
+Marine collagen carries a specific contamination risk. Fish accumulate heavy metals — particularly mercury, lead, and cadmium — from ocean environments. A 2020 analysis by Eckert et al. in <em>Environmental Science and Pollution Research</em> found detectable heavy metals in several commercial marine collagen products. If you're choosing marine-sourced collagen, third-party heavy metal testing isn't optional — it's essential, especially at higher daily doses or with long-term use.
+      </Callout>
+
+      <h3>Calculating Cost Per Gram of Peptides</h3>
+
+      <p>Marketing loves to obscure this. Here's the formula: divide the product price by the total grams of collagen peptides in the container (not total weight — exclude fillers, flavoring, and added vitamins). A $35 tub with 28 servings of 10g each contains 280g of peptides, giving you roughly $0.13 per gram. Compare across products using this number, not per-serving cost, since serving sizes vary wildly. A "cheaper" product with 5g servings may actually cost more per effective gram than a pricier one dosed at 10g.</p>
+
+      <Callout variant="info" title="Quick Label Scan">
+Before purchasing, confirm four things: molecular weight under 5,000 Da (or "hydrolyzed peptides" at minimum), a recognized third-party certification logo, heavy metal testing documentation for marine sources, and a clear per-serving peptide gram count you can use to calculate true cost. If any of these are missing or vague, move on — there are too many transparent brands to settle for ambiguity.
+      </Callout>
+
+      <p>For guidance on how collagen fits alongside your other supplements, see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>. If you're weighing marine versus bovine sources specifically, the sourcing section earlier in this guide covers the bioavailability differences worth factoring into your decision.</p>
+
+
+      <h3>Collagen and Exercise Timing: The Pre-Workout Window</h3>
+
+      <p>Collagen and exercise timing turns out to matter more than the general "take it whenever" advice suggests — at least if your goal is tendon and ligament health rather than skin. A 2017 study by Shaw et al. in the <em>American Journal of Clinical Nutrition</em> found that taking 15g of vitamin C–enriched gelatin (a collagen derivative) 60 minutes before a structured exercise bout significantly increased markers of collagen synthesis compared to placebo. <EvidenceBadge level="moderate" /> Specifically, blood serum from the collagen group, when applied to engineered ligaments in the lab, boosted collagen production and improved the mechanical properties of the tissue.</p>
+
+      <p>The one-hour window isn't arbitrary. It aligns with the peak blood concentration of collagen-derived peptides like Pro-Hyp, which <a href="/guides/collagen-guide">act as signaling molecules for fibroblast activity</a>. The idea is simple: flood your bloodstream with these peptides right when mechanical loading from exercise stimulates connective tissue remodeling. Vitamin C was included at 48mg — well within normal dietary range — because of its essential role in collagen hydroxylation, as discussed in <a href="/guides/collagen-guide">the vitamin C section above</a>.</p>
+
+      <Callout variant="info" title="What This Means Practically">
+If you're an athlete dealing with tendon pain or returning from a ligament injury, taking 15g of collagen peptides with a vitamin C source roughly one hour before targeted rehab exercises is the protocol best supported by current evidence. The exercise component matters — brief, joint-specific loading (6 minutes of rope skipping in the Shaw study) appears sufficient to trigger the mechanical stimulus.
+      </Callout>
+
+      <p>Important caveats: this is a single, small study (8 men, crossover design), and the collagen synthesis was measured indirectly via a biomarker (PINP) and an <em>ex vivo</em> engineered ligament model — not by imaging actual tendons in the participants. Subsequent work by Baar and colleagues has reinforced the mechanistic plausibility, but large clinical trials confirming faster tendon healing in humans are still lacking. <EvidenceBadge level="emerging" /> Evidence suggests this protocol is promising, not proven.</p>
+
+      <Callout variant="warning" title="Don't Overinterpret">
+This research targets connective tissue — tendons, ligaments, cartilage. It does not mean pre-workout collagen builds more muscle. Muscle protein synthesis is driven by leucine-rich proteins, which collagen is not. If muscle growth is your goal, your standard protein strategy still applies.
+      </Callout>
+
+
+      <h2>Drug Interactions and Contraindications</h2>
+
+      <p>Drug interactions with collagen supplements are understudied, but there are specific scenarios where caution is warranted. If you're on any prescription medication, the safest move is to bring your collagen product — label and all — to your next provider visit.</p>
+
+      <h3>UC-II and Immunosuppressants</h3>
+
+      <p>UC-II works by modulating immune activity in gut-associated lymphoid tissue — essentially teaching your immune system to tolerate type II collagen rather than attack cartilage. That immune modulation mechanism raises a theoretical concern for anyone taking immunosuppressants like methotrexate, cyclosporine, or biologics (e.g., adalimumab). The interaction hasn't been studied directly, but layering an immune-modulating supplement on top of immunosuppressive therapy introduces unpredictability. <EvidenceBadge level="emerging" /> Consult your prescribing physician before combining UC-II with any immunosuppressant or if you have an autoimmune condition.</p>
+
+      <Callout variant="warning" title="Immunosuppressant Users">
+UC-II's mechanism of action — oral tolerization via immune modulation — could theoretically interfere with drugs designed to suppress or alter immune function. No clinical trials have evaluated this combination. Talk to your prescriber before starting UC-II.
+      </Callout>
+
+      <h3>Protein-Restricted Diets and Kidney Disease</h3>
+
+      <p>At 10–15g daily, hydrolyzed collagen contributes meaningful protein to your total intake. For most people, that's irrelevant. But if you're on a protein-restricted diet — common in certain stages of chronic kidney disease — those extra grams need to be counted. Your renal dietitian should factor collagen into your daily protein budget, not treat it as a freebie.</p>
+
+      <h3>Collagen Is Not a Complete Protein</h3>
+
+      <p>Collagen lacks <strong>tryptophan</strong>, an essential amino acid, making it nutritionally incomplete. Using collagen as your primary protein source — something occasionally suggested in wellness circles — could lead to amino acid insufficiency over time. Think of collagen as a targeted supplement, not a protein replacement. Your <a href="/guides/protein-guide">core protein needs</a> should come from complete sources first.</p>
+
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Most collagen research has been conducted in generally healthy adults over relatively short timeframes. If you fall into any of the groups below, get clinical input before starting — the evidence either doesn't cover you or raises specific concerns.

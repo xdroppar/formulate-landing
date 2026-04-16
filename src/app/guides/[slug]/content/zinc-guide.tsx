@@ -473,6 +473,40 @@ export function ZincGuide() {
 
       <p>Think of it this way: <strong>40mg/day is your daily speed limit; 75–92mg/day is the sprint you're allowed for less than a week when you're actually sick.</strong> Conflating the two — either by fearing the cold protocol or by treating the cold dose as a daily maintenance level — leads to bad decisions in both directions. <EvidenceBadge level="moderate" /></p>
 
+      <h2>Zinc During Pregnancy and Breastfeeding</h2>
+
+      <p><strong>Zinc supplement pregnancy safe</strong> is one of the most common searches we see — and the answer is nuanced. Zinc requirements genuinely increase during pregnancy and lactation because the mineral is essential for fetal cell division, DNA synthesis, and immune development. The RDA rises from 8mg to 11mg during pregnancy and 12mg during breastfeeding. But "more is needed" doesn't mean "more is better."</p>
+
+      <p>Deficiency during pregnancy is linked to serious outcomes. A meta-analysis by Ota et al. (2015, <em>Cochrane Database of Systematic Reviews</em>) examining 25 randomized trials found that zinc supplementation reduced preterm birth by approximately 14%. <EvidenceBadge level="moderate" /> Observational data consistently associates low maternal zinc status with fetal growth restriction, low birth weight, and prolonged labor — though intervention trials have shown mixed results on these specific endpoints.</p>
+
+      <Callout variant="warning" title="Don't self-dose during pregnancy">
+The Tolerable Upper Intake Level for pregnant adults is 40mg/day — the same as for non-pregnant adults — but the copper-pairing calculus and interaction with prenatal iron become more complex. Most prenatal vitamins already contain 11–15mg of zinc. Adding a standalone supplement on top of that without guidance from your OB or midwife risks exceeding safe thresholds and disrupting copper and iron absorption at a time when both minerals are critical.
+      </Callout>
+
+      <p>Iron and zinc compete for the same intestinal transporters, and prenatal vitamins typically deliver 27mg of iron. Taking additional zinc alongside that dose can reduce absorption of both minerals. If your provider determines you need extra zinc — common in vegetarian pregnancies or those with hyperemesis — they'll likely recommend specific timing to separate it from your prenatal.</p>
+
+      <p>During breastfeeding, zinc is secreted in breast milk at roughly 1–2mg/day during the first six months. Your body prioritizes the infant, which means your own stores can deplete faster than you'd expect, especially if your dietary intake is marginal. Shellfish, red meat, and <a href="/guides/zinc-guide">zinc-rich foods</a> remain the safest first-line strategy; supplementation beyond your prenatal should be guided by serum zinc testing and your provider's recommendation.</p>
+
+      <p>Bottom line: zinc is essential during pregnancy and lactation, and deficiency carries real risks. But this is not the time for self-experimentation with doses. Consult your healthcare provider before supplementing beyond what your prenatal vitamin already provides.</p>
+
+
+      <h2>Lozenge Formulation Matters: What to Look for on the Label</h2>
+
+      <p>Not all zinc lozenges are therapeutically equivalent, even at the same dose. The <strong>lozenge formulation</strong> — specifically the inactive ingredients used for flavoring and texture — can neutralize the very ionic zinc that makes lozenges work against colds in the first place. If you're buying lozenges based on the cold-shortening evidence above, this is where most people unknowingly waste their money.</p>
+
+      <p>The problem is chelation. Ingredients like <strong>citric acid, mannitol, and sorbitol</strong> — common in flavored lozenges — bind free zinc ions in your saliva before they can contact the nasal and pharyngeal mucosa where rhinovirus replicates. Hemilä's 2017 subgroup analysis in <em>JRSM Open</em> found that lozenges containing these chelating agents showed significantly smaller cold-duration reductions than lozenges without them. <EvidenceBadge level="moderate" /> The zinc is technically present, but biochemically unavailable.</p>
+
+      <h3>Zinc Acetate vs. Zinc Gluconate in Lozenges</h3>
+
+      <p>Hemilä's analysis also found that <strong>zinc acetate lozenges</strong> shortened colds by 40%, compared to 28% for zinc gluconate — likely because acetate releases 100% of its zinc as ionic zinc at physiological pH, while gluconate releases roughly 72% (Eby, 2004). <EvidenceBadge level="moderate" /> If you can find zinc acetate lozenges with clean excipients, that's the ideal formulation.</p>
+
+      <Callout variant="info" title="Label Checklist for Zinc Lozenges">
+Flip the package and scan the inactive ingredients. <strong>Avoid:</strong> citric acid, tartaric acid, mannitol, sorbitol, and sodium bicarbonate — all documented zinc chelators. <strong>Acceptable:</strong> glycine (actually enhances zinc ion release), sucrose, and simple flavoring oils. Choose zinc acetate when available; zinc gluconate is second-best. Aim for lozenges delivering <strong>18–24mg of elemental zinc each</strong>, dissolved slowly every 2–3 hours to reach the 75–92mg/day therapeutic window.
+      </Callout>
+
+      <p>This is one of those cases where a more expensive, worse-tasting lozenge is actually the better product. The pleasant-tasting options typically achieve that flavor by loading up on the exact acids that inactivate ionic zinc. When it comes to zinc lozenges for colds, bland is better. For more on decoding what's actually in your supplements, see our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a>.</p>
+
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         At the 15–30mg/day maintenance range, zinc is well-studied and well-tolerated in healthy adults. But several populations face meaningful interactions or altered risk-benefit profiles that warrant a conversation with a clinician before starting — or before following the higher-dose cold protocol described above.

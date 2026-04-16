@@ -332,6 +332,96 @@ export function NACGuide() {
         training, for example.
       </p>
 
+      <h2>NAC vs. GlyNAC: Should You Take Both?</h2>
+
+      <p><strong>NAC vs. GlyNAC</strong> is a distinction that matters more the older you get. Earlier in this guide, we noted that cysteine is the rate-limiting amino acid for glutathione production. That's true — in younger adults. But a landmark 2021 trial by Kumar et al. in <em>Nature Metabolism</em> revealed that in older adults, <strong>glycine becomes co-rate-limiting</strong>, meaning supplementing cysteine alone leaves the glutathione assembly line bottlenecked at a second point.</p>
+
+      <h3>What Kumar et al. Actually Found</h3>
+
+      <p>The trial gave older adults (aged 61–80) either GlyNAC — a combination of glycine (100 mg/kg/day) and NAC (100 mg/kg/day) — or a placebo for 16 weeks. The GlyNAC group saw glutathione levels increase by roughly 200%, alongside significant corrections in oxidative stress, mitochondrial dysfunction, inflammation, insulin resistance, and endothelial function. Notably, many of these improvements <em>reversed</em> within 12 weeks of stopping supplementation. <EvidenceBadge level="moderate" /> A prior pilot by the same group (Sekhar et al., 2011, <em>The American Journal of Clinical Nutrition</em>) had shown that neither glycine nor NAC alone matched the combination's effect on glutathione repletion in older adults.</p>
+
+      <Callout variant="info" title="Why not NAC alone after 50?">
+Younger bodies maintain large glycine pools, so NAC alone covers the gap. With aging, glycine synthesis declines and dietary intake often falls short. GlyNAC addresses both bottlenecks simultaneously — cysteine <em>and</em> glycine — which is why the combination outperformed NAC alone in correcting glutathione deficiency in older cohorts.
+      </Callout>
+
+      <h3>Practical Protocol for Readers Over 50</h3>
+
+      <p>If you're over 50 and already taking NAC, consider adding glycine rather than switching products. A common approach mirrors the Kumar dosing: roughly 1.2 g of NAC plus 1.2 g of glycine twice daily (the trial used weight-based dosing near these amounts for an average-sized adult). Glycine powder is inexpensive, mildly sweet, and mixes easily into water — a far more pleasant experience than NAC powder.</p>
+
+      <p>Take both on an empty stomach, consistent with the <a href="/guides/supplement-timing">supplement timing guidance</a> elsewhere in this guide. Glycine can also support sleep quality at these doses, which is a useful secondary benefit. If you're on medications or managing a chronic condition, consult your healthcare provider before adding GlyNAC to your regimen.</p>
+
+      <Callout variant="warning" title="Evidence context">
+The Kumar trial was relatively small (n=24) and conducted by a single research group. The results are compelling but await independent replication in larger cohorts. Treat GlyNAC as a well-reasoned, evidence-informed strategy — not yet a settled standard of care. <EvidenceBadge level="emerging" />
+      </Callout>
+
+
+      <h2>Drug Interactions and Contraindications</h2>
+
+      <p><strong>Drug interactions with NAC</strong> are clinically relevant and underreported in the supplement space. If you take any prescription medication, read this section carefully before adding NAC to your regimen.</p>
+
+      <h3>Nitroglycerin and Nitrates</h3>
+
+      <p>NAC potentiates the vasodilatory effects of nitroglycerin and other nitrate medications (isosorbide mononitrate, isosorbide dinitrate). This combination can cause severe hypotension — dangerously low blood pressure — including headaches, dizziness, and syncope. Boesgaard et al. (1992) demonstrated in <em>Circulation</em> that NAC enhanced the hemodynamic effects of nitroglycerin in heart failure patients. If you take any nitrate-based heart medication, NAC is contraindicated without explicit cardiologist approval.</p>
+
+      <h3>Immunosuppressants</h3>
+
+      <p>NAC modulates immune function through glutathione-dependent pathways. For anyone on immunosuppressants — cyclosporine, tacrolimus, mycophenolate, or similar — this creates unpredictable interactions. NAC could theoretically alter drug efficacy in either direction. Consult your transplant team or prescribing physician before use.</p>
+
+      <h3>Chemotherapy and the Antioxidant Debate</h3>
+
+      <p>This remains genuinely controversial. Some oncologists worry that antioxidants like NAC could protect tumor cells from oxidative damage that chemotherapy and radiation deliberately inflict. Sayin et al. (2014) published findings in <em>Science Translational Medicine</em> showing NAC accelerated lung tumor progression in mice. Others argue NAC may reduce treatment side effects without compromising efficacy. The evidence is unsettled. <EvidenceBadge level="emerging" /> Do not take NAC during cancer treatment without your oncologist's explicit sign-off — this isn't a gray area for self-experimentation.</p>
+
+      <h3>Activated Charcoal</h3>
+
+      <p>If you take activated charcoal (sometimes used for detox protocols or GI issues), know that it adsorbs NAC and significantly reduces its bioavailability. Separate dosing by at least two hours, or you're wasting both supplements.</p>
+
+      <h3>Psychiatric Medications</h3>
+
+      <p>The guide above discusses NAC's glutamate-modulating effects as a feature for <a href="/guides/nac-guide">mental health applications</a>. But that same mechanism means NAC can interact with psychiatric medications — SSRIs, lithium, antipsychotics, and anticonvulsants all touch glutamate or monoamine pathways that NAC influences. Don't add NAC to a psychiatric regimen without telling your prescriber.</p>
+
+      <Callout variant="warning" title="Inhaled NAC and Asthma">
+Inhaled (nebulized) NAC — sometimes used as a mucolytic — can trigger bronchospasm in people with active asthma. This is well-documented and is why hospital protocols often pre-treat with a bronchodilator before nebulized NAC. Oral NAC at standard supplement doses doesn't carry the same risk profile, but if you have reactive airway disease, discuss any form of NAC with your pulmonologist first.
+      </Callout>
+
+      <p>The bottom line: NAC is safe for most healthy adults, but its pharmacological activity is real — which is exactly why it works. That same activity means it interacts with real drugs in real ways. Bring your full medication and supplement list to your provider before starting.</p>
+
+
+      <h3>NAC for PCOS and Fertility: What the Research Shows</h3>
+
+      <p><strong>NAC for PCOS</strong> is one of the more compelling use cases emerging from reproductive endocrinology research. Polycystic ovary syndrome involves insulin resistance, chronic inflammation, and oxidative stress — all pathways where NAC's glutathione-replenishing mechanism is directly relevant. The clinical data here isn't just mechanistic hand-waving; there are actual RCTs.</p>
+
+      <p>Thakker et al. (2015) published a systematic review in <em>Obstetrics &amp; Gynecology International</em> evaluating NAC's effects in women with PCOS. Across multiple RCTs using 1,200–1,800 mg/day, NAC improved ovulation rates and menstrual cycle regularity compared to placebo. <EvidenceBadge level="moderate" /> Some trials found NAC comparable to metformin for ovulation induction when combined with clomiphene citrate — a notable finding given metformin's established role in PCOS management.</p>
+
+      <p>Rizk et al. (2005) demonstrated that NAC at 1,200 mg/day alongside clomiphene significantly increased both ovulation rate and pregnancy rate versus clomiphene plus placebo. Separately, Salehpour et al. (2012) reported improvements in insulin sensitivity and testosterone levels in PCOS patients taking 1,800 mg/day for six weeks. These hormonal shifts align with what you'd expect from reduced oxidative stress and improved insulin signaling.</p>
+
+      <p>There's also early-stage investigation into NAC for pregnancy complications like preeclampsia, based on the role oxidative stress plays in placental dysfunction. This research is genuinely preliminary — not ready for clinical application. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="warning" title="Work With Your OB/GYN">
+NAC's safety profile during pregnancy and lactation is not well-established. If you have PCOS and are trying to conceive, do not self-prescribe NAC as a fertility intervention. Bring this evidence to your reproductive endocrinologist or OB/GYN and let them integrate it into your treatment plan — particularly if you're already on metformin or clomiphene.
+      </Callout>
+
+      <p>The bottom line: NAC is not a standalone fertility treatment, but the RCT evidence for <strong>NAC in PCOS</strong> — particularly for ovulation support at 1,200–1,800 mg/day — is more substantive than what most supplements can claim in this space. It deserves a conversation with your doctor, not a solo experiment.</p>
+
+
+      <h2>How Long Until NAC Works? Setting Realistic Expectations</h2>
+
+      <p><strong>How long until NAC works</strong> depends entirely on what you're taking it for. The glutathione-replenishing mechanism kicks in quickly — within hours to days, your liver's cysteine pools begin refilling. But the downstream effects you actually <em>notice</em> operate on very different timescales depending on the target system.</p>
+
+      <h3>A Realistic Timeline</h3>
+
+      <p><strong>Weeks 1–2: GI adjustment.</strong> This is when most people experience the mild nausea, bloating, or loose stools that come with sulfur-containing compounds. Starting at 600mg once daily and titrating up minimizes this. Your body is adapting, not benefiting yet in any perceptible way. Don't judge NAC by this phase.</p>
+
+      <p><strong>Weeks 4–6: Antioxidant and recovery effects.</strong> By this point, glutathione stores are meaningfully replenished. People taking NAC for liver support, exercise recovery, or general antioxidant defense often report feeling "cleaner" — less post-alcohol malaise, slightly faster workout recovery, easier breathing. These effects align with the hepatic and mucolytic timelines seen in clinical use. <EvidenceBadge level="moderate" /></p>
+
+      <p><strong>Weeks 8–12: Psychiatric symptom assessment.</strong> This is the critical window most people underestimate. The RCTs on OCD, compulsive behaviors, and addiction — including Grant et al. (2009) on gambling urges and Berk et al. (2013) across multiple psychiatric conditions — ran for 8 to 12 weeks before measuring outcomes. NAC's glutamate-modulating effects require sustained exposure to shift compulsive patterns. Quitting at week 4 means you never actually ran the experiment.</p>
+
+      <Callout variant="warning" title="Don't quit at week 4 if you're targeting psychiatric symptoms">
+The most common mistake is evaluating NAC for OCD, trichotillomania, or addictive behaviors on the same timeline as liver support. Clinical trials consistently use 8–12 week durations for these outcomes. If you stop at 4 weeks and conclude "NAC doesn't work," you've abandoned the trial before the intervention period ended. Discuss your timeline with your healthcare provider.
+      </Callout>
+
+      <p>For context on how NAC fits into a broader supplement schedule — and how to time it around meals and other compounds — see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         NAC is well-studied and generally well-tolerated in healthy adults at the doses discussed above. But several populations face specific risks or evidence gaps that warrant a conversation with a clinician before starting.
