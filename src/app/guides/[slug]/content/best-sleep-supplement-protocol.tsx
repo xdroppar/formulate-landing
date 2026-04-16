@@ -463,6 +463,27 @@ export function BestSleepProtocol() {
         adjust accordingly.
       </p>
 
+      <h3>Is magnesium glycinate safe during pregnancy?</h3>
+      <p>The guide doesn't cover this directly. Magnesium is an essential nutrient and magnesium glycinate is commonly used, but pregnancy changes both nutrient needs and supplement safety thresholds in ways this guide doesn't address. Pregnant women should consult an OB or midwife before adding any supplement to their routine, including magnesium &mdash; dosing and form recommendations may differ from general adult guidance.</p>
+
+      <h3>Can I take this sleep stack with SSRIs or antidepressants?</h3>
+      <p>The guide doesn't address this directly. L-theanine has mild serotonergic activity, and combining it with SSRIs or other antidepressants warrants medical review before use. The guide notes the Formulate app flags potential interactions, but that's not a substitute for speaking with your prescribing physician or pharmacist before starting this stack. Do not rely on supplement guidance alone when managing psychiatric medication.</p>
+
+      <h3>Does magnesium glycinate interact with thyroid medication or blood pressure drugs?</h3>
+      <p>The guide doesn't cover drug interactions for magnesium. This is a real safety gap: magnesium is known to reduce absorption of levothyroxine and may potentiate antihypertensive medications &mdash; neither interaction is addressed. The guide recommends 200&ndash;400mg elemental magnesium with no caveats for medicated individuals. If you take thyroid or blood pressure medication, consult your pharmacist or physician before adding magnesium glycinate to your routine.</p>
+
+      <h3>What brand of magnesium glycinate should I actually buy?</h3>
+      <p>The guide doesn't recommend specific brands inline. It points to the Formulate app for brand comparisons by evidence score. As a general principle &mdash; not covered by this guide &mdash; look for products verified by independent third-party testers like USP, NSF International, or Informed Sport. These certifications confirm label accuracy and screen for contaminants, which matters more than brand name or price.</p>
+
+      <h3>Is glycine safe for people with kidney disease?</h3>
+      <p>The guide doesn't address kidney disease. It describes glycine as broadly safe at 3g, but glycine is metabolized renally, and higher amino acid loads can be problematic for people with impaired kidney function. The guide's 'universally safe' framing does not account for this population. If you have chronic kidney disease or compromised renal function, consult a nephrologist before supplementing with glycine.</p>
+
+      <h3>Will L-theanine interfere with my sleep if I take it in the morning too?</h3>
+      <p>The guide doesn't address daytime L-theanine use or stacked dosing across morning and evening. It covers only the evening 200mg dose as the clinical sweet spot for sleep. Whether morning use &mdash; common for focus or caffeine pairing &mdash; compounds or conflicts with the evening protocol isn't discussed. The guide notes that 'going higher doesn't add much benefit,' but total daily dose considerations aren't covered. Use the Formulate app to flag redundancies in your full stack.</p>
+
+      <h3>How do I know if my poor sleep is actually insomnia disorder vs. lifestyle-driven?</h3>
+      <p>The guide doesn't provide a diagnostic threshold, but it does flag the limit: 'No supplement will fix truly pathological insomnia.' A rough clinical signal &mdash; not from the guide &mdash; is sleep difficulty occurring three or more nights per week for three or more months despite adequate sleep opportunity. If that describes you, the guide explicitly recommends CBT-I and a physician over continued self-supplementation. Supplements address suboptimal sleep; insomnia disorder requires professional evaluation.</p>
+
       <h2>Build This Protocol in Formulate</h2>
       <p>
         Add each of these supplements to your personal stack in Formulate

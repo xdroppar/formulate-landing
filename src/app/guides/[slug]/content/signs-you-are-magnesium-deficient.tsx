@@ -612,6 +612,33 @@ If your RBC magnesium comes back between 4.2–5.0 mg/dL and you're experiencing
         it a foundational daily supplement alongside <a href="/guides/best-vitamin-d-supplements">vitamin D</a> and <a href="/guides/best-omega-3-supplements">omega-3</a>.
       </p>
 
+      <h3>Can a blood test confirm magnesium deficiency?</h3>
+      <p>Only indirectly. Serum magnesium reflects only 1% of total body magnesium and stays in the normal range even when tissue levels are low. An RBC magnesium test is more sensitive but still imperfect. Clinical picture (symptoms + dietary intake) plus a trial of supplementation is often how deficiency is actually diagnosed.</p>
+
+      <h3>How long does it take to correct a magnesium deficiency?</h3>
+      <p>4&ndash;6 weeks of consistent supplementation at 300&ndash;400 mg/day is typical for symptom improvement. Full tissue repletion can take 6+ months in chronic deficiency. Glycinate and citrate are the best-absorbed common forms. Don't expect overnight changes &mdash; magnesium works slowly.</p>
+
+      <h3>Can I be deficient if I eat a healthy diet?</h3>
+      <p>Yes, and it's common. Modern soil depletion, food processing, and common medications (PPIs, diuretics, metformin) all reduce magnesium status. Roughly half of US adults consume below the RDA. Symptoms like muscle cramps, poor sleep, and anxiety often appear before any lab test flags it.</p>
+
+      <h3>Can I get an RBC magnesium test without a doctor's order?</h3>
+      <p>The guide recommends requesting an RBC magnesium test from your doctor but doesn't address direct-to-consumer options. In the US, services like Ulta Lab Tests and Any Lab Test Now allow you to order an RBC magnesium test without a physician's order, typically for $30&ndash;50. If your doctor won't order it, this is a practical workaround. Interpreting results still benefits from clinical context &mdash; the guide notes optimal RBC magnesium is generally 5.0&ndash;6.5 mg/dL, though lab reference ranges vary.</p>
+
+      <h3>Is magnesium safe during pregnancy?</h3>
+      <p>The guide doesn't cover pregnancy safety or dosing. This is an important gap: pregnant individuals should consult their OB or midwife before supplementing, as magnesium has distinct roles and risks in pregnancy &mdash; including interactions with preeclampsia management at clinical doses. Don't rely on general supplementation guidance here. A qualified provider can recommend an appropriate form and dose for pregnancy-related symptoms like leg cramps or sleep disruption.</p>
+
+      <h3>Can magnesium supplements affect blood sugar or diabetes medications?</h3>
+      <p>The guide flags type 2 diabetes as a risk factor for deficiency but doesn't explain why or address interactions with diabetes medications. The guide does note that metformin users appear in its risk checklist, which suggests relevance. However, specifics on magnesium's effect on glucose control or interactions with metformin and other diabetes drugs aren't covered here. If you manage blood sugar with medication, consult your prescribing physician before adding magnesium supplementation.</p>
+
+      <h3>Can low magnesium cause high blood pressure?</h3>
+      <p>The guide covers magnesium's role in heart palpitations and electrical stability but doesn't mention blood pressure. Magnesium's role in blood pressure regulation isn't addressed in this guide. Given the well-documented relationship between magnesium and cardiovascular function &mdash; the guide even recommends magnesium taurate for heart health focus &mdash; this is a notable gap. If hypertension is your primary concern, discuss magnesium's potential role with your doctor rather than relying on this guide.</p>
+
+      <h3>Does magnesium help with PMS or period cramps?</h3>
+      <p>The guide doesn't address PMS or menstrual cramps specifically. This use case isn't covered here, despite magnesium's established connections to the muscle-relaxation and anxiety symptoms the guide does discuss. If you're interested in magnesium for cycle-related symptoms, speak with a healthcare provider &mdash; they can advise on whether the evidence supports supplementation for your specific situation and recommend appropriate dosing.</p>
+
+      <h3>Should I take magnesium with food or on an empty stomach?</h3>
+      <p>The guide recommends taking magnesium in the evening but doesn't specify whether to take it with food. Generally, magnesium citrate and glycinate &mdash; the forms the guide recommends most &mdash; are better tolerated with food, especially if you have a sensitive stomach. Taking magnesium on an empty stomach increases the risk of GI discomfort, particularly with citrate, which already has a mild laxative effect at higher doses. For full supplement timing guidance, the guide references a separate supplement timing guide.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Magnesium deficiency is one of those problems that&rsquo;s incredibly

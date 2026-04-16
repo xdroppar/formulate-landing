@@ -616,6 +616,27 @@ export function VitaminB12Guide() {
         medications.
       </p>
 
+      <h3>What is pernicious anemia and do I need injections if I have it?</h3>
+      <p>The guide doesn't cover pernicious anemia directly. Pernicious anemia is an autoimmune condition where the body destroys the parietal cells that produce intrinsic factor, eliminating the primary absorption pathway for dietary B12. Because standard oral absorption is largely blocked, most patients require either intramuscular injections or very high-dose sublingual B12 to rely on passive diffusion. Diagnosis typically involves testing for anti-intrinsic factor and anti-parietal cell antibodies. If you've been diagnosed with pernicious anemia, consult a physician &mdash; self-supplementing with standard oral doses is unlikely to be sufficient.</p>
+
+      <h3>Can B12 deficiency cause permanent nerve damage &mdash; and how do I know if mine is reversible?</h3>
+      <p>Yes, prolonged B12 deficiency can cause permanent neurological damage. The guide cites a 2003 NEJM case series documenting irreversible nerve damage from undiagnosed deficiency, and explicitly warns that neurological symptoms can precede anemia by months or years. However, the guide does not provide a practical framework for assessing reversibility &mdash; such as duration thresholds, symptom severity markers, or when to seek urgent care vs. supplement independently. If you have active neurological symptoms (numbness, balance problems, gait instability), see a physician promptly rather than self-supplementing and waiting.</p>
+
+      <h3>How long does it take for B12 supplements to work &mdash; when will I feel better?</h3>
+      <p>The guide doesn't address recovery timelines directly. It recommends 1,000&ndash;2,000mcg/day for 4&ndash;8 weeks to correct active deficiency, but doesn't specify when symptoms resolve. Generally, energy and mood often improve within weeks of correction; neurological symptoms (tingling, numbness) take longer &mdash; sometimes months &mdash; and some residual damage may be permanent if deficiency was prolonged. If you're supplementing appropriately and symptoms aren't improving after several weeks, that warrants follow-up testing and medical evaluation rather than assuming more time is needed.</p>
+
+      <h3>Does B12 deficiency cause hair loss?</h3>
+      <p>The guide doesn't list hair loss among B12 deficiency symptoms. Its documented symptom list includes fatigue, brain fog, mood changes, peripheral neuropathy, glossitis, macrocytic anemia, and balance problems. While hair loss is widely searched in relation to B12, the guide doesn't address this association. If hair loss is your primary concern, consult a healthcare provider &mdash; other causes (thyroid dysfunction, iron deficiency, androgenic alopecia) are more commonly established drivers and should be evaluated alongside B12 status.</p>
+
+      <h3>Does B12 deficiency present differently in women than in men?</h3>
+      <p>The guide doesn't address sex-specific differences in B12 deficiency symptoms or risk. It does note that folate and B12 interact &mdash; high folate can mask B12 deficiency anemia while neurological damage progresses &mdash; which has particular relevance for women of childbearing age taking prenatal supplements. Women on metformin for PCOS are also flagged as a high-risk group via the metformin section. For pregnancy-specific B12 guidance, consult a healthcare provider; the guide does not cover prenatal protocols or hormonal influences on B12 metabolism.</p>
+
+      <h3>Are supplement label doses for B12 actually accurate &mdash; how are supplements regulated?</h3>
+      <p>The guide recommends specific doses (250&ndash;500mcg for maintenance, 1,000&ndash;2,000mcg for correction) but doesn't address label accuracy or regulatory oversight. U.S. supplements are not FDA-approved before sale, meaning label claims aren't independently verified by default. Third-party certifications &mdash; USP, NSF International, or Informed Sport &mdash; indicate that a product has been independently tested for potency and purity. The guide references its own supplement label guide for further detail. When choosing a B12 supplement, prioritizing third-party verified products is the most direct way to validate that label doses reflect actual content.</p>
+
+      <h3>What's the difference between serum B12, active B12 (holotranscobalamin), and MMA &mdash; which test should I get?</h3>
+      <p>The guide covers serum B12 and MMA but doesn't mention holotranscobalamin (holo-TC). Serum B12 measures total circulating B12, including inactive analogues &mdash; it can appear normal while functional deficiency exists. MMA is the guide's recommended confirmatory test: elevated MMA above 0.4 µmol/L alongside low-normal serum B12 indicates functional deficiency. Holo-TC (active B12) measures only the fraction bound to transcobalamin and available to tissues, and is considered more sensitive than serum B12 &mdash; but the guide doesn't address it. Ask your provider or private lab about holo-TC availability if you want the most sensitive early marker.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         B12 deficiency is common, underdiagnosed, and entirely preventable.

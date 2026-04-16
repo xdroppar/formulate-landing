@@ -468,6 +468,36 @@ export function SupplementTimingGuide() {
         time of day.
       </p>
 
+      <h3>Does it really matter when I take my supplements?</h3>
+      <p>For some, yes. Fat-soluble vitamins (D, E, K, A) require dietary fat for absorption. Iron is best on an empty stomach away from calcium. Magnesium glycinate is better tolerated at night. For most water-soluble vitamins and creatine, timing barely matters &mdash; consistency does.</p>
+
+      <h3>Should I take creatine before or after training?</h3>
+      <p>Neither specifically. Creatine works by saturating muscle stores over weeks; a single day's timing barely moves the needle. Take 3&ndash;5g daily at any consistent time. Some research suggests a modest post-workout edge when combined with carbs, but the effect is small compared to just taking it every day.</p>
+
+      <h3>Is there a supplement I should never take at night?</h3>
+      <p>Anything with caffeine, high-dose B vitamins (especially B12), and green tea extract can disrupt sleep if taken after early afternoon. Saffron, ashwagandha, and magnesium are all safer evening choices. If you take a multivitamin with B-complex, move it to morning.</p>
+
+      <h3>Can I take vitamin D and magnesium together?</h3>
+      <p>Yes &mdash; taking vitamin D and magnesium together is actively beneficial. Magnesium is a required cofactor for the enzymes that convert vitamin D into its active form; without adequate magnesium, supplemental vitamin D may be less effective. The guide already recommends vitamin D with breakfast (with fat) and magnesium in the evening, but if you prefer to take both at the same meal, there's no conflict. Just keep the fat requirement for vitamin D in mind.</p>
+
+      <h3>What supplements should I avoid while pregnant?</h3>
+      <p>The guide doesn't cover this directly &mdash; it mentions pregnancy only briefly in the context of caffeine metabolism. Supplement safety during pregnancy is a clinical question, not a timing question: high-dose vitamin A, for example, carries known teratogenic risk, and folate form (L-methylfolate vs. folic acid) matters in ways the guide doesn't address. Consult your OB or midwife before adding or continuing any supplement during pregnancy.</p>
+
+      <h3>When should I take ashwagandha &mdash; morning or night?</h3>
+      <p>The guide doesn't cover ashwagandha or adaptogens. As a general principle from the guide's framework: supplements with calming or cortisol-modulating effects would logically fit the evening stack alongside magnesium and L-theanine, while those taken for energy or focus fit the morning stack. That said, the guide explicitly cautions against applying generic timing logic to supplements it hasn't reviewed. Consult product research or a healthcare provider for ashwagandha-specific timing.</p>
+
+      <h3>Does long-term zinc supplementation deplete copper &mdash; should I take copper alongside it?</h3>
+      <p>The guide notes zinc-copper competition in passing but doesn't detail the clinical risk. This gap matters: long-term zinc supplementation can induce copper deficiency, potentially causing anemia and neurological symptoms, because zinc upregulates a protein that traps copper in gut cells. If you take zinc regularly, this is worth discussing with a healthcare provider, who can assess whether copper co-supplementation or periodic monitoring is appropriate for your dose and duration.</p>
+
+      <h3>When should I take probiotics?</h3>
+      <p>The guide mentions probiotics only briefly &mdash; noting heat-sensitive strains shouldn't be mixed into hot liquids. It doesn't address meal timing or antibiotic spacing. General evidence suggests taking probiotics with or just before a meal reduces exposure to stomach acid, improving survival. If you're taking antibiotics, spacing probiotics several hours from each dose is commonly recommended. For specific protocols, check the probiotic product's strain-level research or consult a pharmacist.</p>
+
+      <h3>What supplements interact with blood pressure medications?</h3>
+      <p>The guide flags medication interactions as genuinely important &mdash; more so than general timing optimization &mdash; but doesn't list specifics for antihypertensives. It explicitly recommends a conversation with your pharmacist over any online timing guide when you're on chronic medications. That advice applies here: supplements like magnesium, fish oil, CoQ10, and potassium all have potential interactions with blood pressure drugs that require individualized review, not generic guidance.</p>
+
+      <h3>How much fat do I need to absorb fat-soluble vitamins effectively?</h3>
+      <p>The guide says to take fat-soluble vitamins (A, D, E, K) and CoQ10 with a fat-containing meal but doesn't specify a minimum amount. It cites a 2015 study showing vitamin D absorption increased up to 50% with a fat-containing meal versus fasted, and gives practical examples &mdash; eggs, avocado, nuts, butter. The guide doesn't state a gram threshold. If you eat a very low-fat breakfast, prioritize any of those fat sources; the guide's core point is that zero fat meaningfully reduces absorption.</p>
+
       <h2>Supplement Timing for Intermittent Fasting (IF) Protocols</h2>
 
 <p>Knowing <strong>when to take supplements while intermittent fasting</strong> matters more than it does on a standard eating schedule. A 16:8 protocol (eating noon–8pm) eliminates the morning meal that most timing advice is built around. That means your fat-soluble vitamins, mineral pairings, and calming evening stack all need to be reshuffled into a compressed window — or carefully selected for fasted-state use.</p>

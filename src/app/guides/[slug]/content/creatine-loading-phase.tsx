@@ -477,6 +477,27 @@ export function CreatineLoadingPhase() {
         </a>.)
       </p>
 
+      <h3>What happens if I miss a day of creatine?</h3>
+      <p>Missing one or two days has negligible impact on muscle creatine saturation. The guide notes that once saturated, stores return to baseline over 4&ndash;6 weeks &mdash; meaning a single skipped dose barely moves the needle. Don't double up; just resume your normal 3&ndash;5g the following day. Daily consistency matters over weeks and months, not whether every single dose lands perfectly.</p>
+
+      <h3>Can I take creatine with coffee or caffeine?</h3>
+      <p>The guide doesn't address this directly. The widely circulated claim that caffeine blunts creatine uptake originates from a single 1996 study and has not been consistently replicated in more recent research. Current evidence does not strongly support avoiding caffeine with creatine. Since the guide's timing section concludes that consistency matters more than precise conditions, this interaction is unlikely to meaningfully affect your results &mdash; but consult a healthcare provider if you have specific concerns.</p>
+
+      <h3>Does creatine affect women differently?</h3>
+      <p>The guide doesn't cover sex-based differences in creatine response. The underlying research is heavily male-dominated, and women's baseline creatine stores and hormonal factors may influence uptake. The guide's general protocol &mdash; 3&ndash;5g daily of creatine monohydrate &mdash; applies as written, but women seeking guidance specific to their physiology or hormonal context should consult a healthcare provider or sports medicine specialist.</p>
+
+      <h3>Can I take creatine while cutting or in a caloric deficit?</h3>
+      <p>The guide doesn't directly address creatine use during a caloric deficit. It does flag that loading causes a 2&ndash;4 lb intracellular water gain that can alarm people tracking scale weight &mdash; and that this is water inside muscle cells, not fat. Skipping the loading phase (3&ndash;5g daily from day one) minimizes that initial jump. The guide makes no recommendation against creatine during a cut, and nothing in the guide's evidence base suggests a deficit changes creatine's mechanism.</p>
+
+      <h3>What form of creatine is best &mdash; monohydrate vs. HCl vs. buffered?</h3>
+      <p>Creatine monohydrate is the only form with 30+ years of research behind it. The guide's entire protocol &mdash; the Harris 1992 and Hultman studies, the ISSN position stand, all saturation data &mdash; is based on monohydrate. Alternatives like creatine HCl, Kre-Alkalyn, and ethyl ester are marketed as superior but lack equivalent evidence. The guide recommends monohydrate explicitly and notes that even brand differences within monohydrate are minor. Don't pay a premium for less-studied forms.</p>
+
+      <h3>Should I take creatine with food or on an empty stomach?</h3>
+      <p>The guide's practical answer is to take creatine whenever you'll consistently remember &mdash; morning water, a protein shake, or with dinner. It doesn't specifically address food co-ingestion. Some evidence suggests carbohydrate-driven insulin release may enhance creatine uptake, but the guide's timing section concludes that daily consistency is the only variable that meaningfully matters. Taking it with a meal is a reasonable default and may reduce any GI sensitivity.</p>
+
+      <h3>Is creatine safe with pre-existing kidney conditions?</h3>
+      <p>The guide states that long-term creatine use is safe in healthy individuals per the ISSN, but it does not address people with pre-existing kidney conditions. This is an important gap: creatine supplementation raises serum creatinine &mdash; a standard kidney filtration marker &mdash; which can produce false-positive signals of kidney impairment on bloodwork. If you have reduced kidney function, a single kidney, or any kidney history, consult a physician before starting creatine. Do not rely on this guide's safety statement in that context.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Skip the loading phase unless you&rsquo;re in a hurry. Take

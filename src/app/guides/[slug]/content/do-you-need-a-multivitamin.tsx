@@ -523,6 +523,36 @@ export function DoYouNeedMultivitamin() {
         even better at the same or lower cost.
       </p>
 
+      <h3>Is a multivitamin actually worth taking?</h3>
+      <p>For most people, a quality multivitamin is a cheap insurance policy &mdash; not a game-changer. It fills small gaps but can't correct significant deficiencies. If your diet is varied and you're not on restrictive eating, targeted supplementation (D3, magnesium, omega-3) typically outperforms a generic multi.</p>
+
+      <h3>What's wrong with cheap drugstore multivitamins?</h3>
+      <p>Most use the lowest-cost forms: cyanocobalamin instead of methylcobalamin for B12, folic acid instead of L-methylfolate, magnesium oxide instead of glycinate. Some nutrients (iron, calcium) are dosed at levels that compete with each other for absorption. Quality multis cost more because the forms actually work.</p>
+
+      <h3>Should men and women take different multivitamins?</h3>
+      <p>Yes, usually. Menstruating women need more iron than men do; postmenopausal women need less. Men generally benefit from zinc; women often need more magnesium and calcium. Gender-specific multis address this, though the simpler answer is to skip the multi and supplement the 2&ndash;3 nutrients you actually need.</p>
+
+      <h3>which multivitamin brands are actually third-party tested and use methylated forms</h3>
+      <p>The guide doesn't name specific brands, but it gives clear criteria: look for USP, NSF, or Informed Sport certification (third-party testing), methylcobalamin and methylfolate (not cyanocobalamin or folic acid), D3 not D2, and a 2&ndash;4 capsule serving size. One-pill-a-day formulas are almost certainly underdosed by physics alone. For vetted product comparisons, check the Formulate supplement catalog linked at the bottom of this guide.</p>
+
+      <h3>how much vitamin D should I actually take daily</h3>
+      <p>The guide identifies vitamin D as the most common fixable micronutrient gap in the US and cites an optimal serum range of 40&ndash;60 ng/mL, but it does not recommend a specific supplemental dose. Appropriate dosing depends on your baseline blood level, which varies widely. The guide recommends getting a 25-hydroxyvitamin D test first. For a dose recommendation based on your result, consult a healthcare provider.</p>
+
+      <h3>can I take magnesium glycinate and vitamin D at the same time</h3>
+      <p>The guide recommends vitamin D3 + K2, magnesium glycinate, and omega-3 as its core targeted stack, but doesn't provide a specific daily schedule. It does warn that calcium and magnesium compete at high doses and recommends timing separation for competing minerals. Magnesium glycinate and vitamin D3 are not flagged as competing &mdash; both are fat-soluble or mineral-based and are commonly taken together. For a full timing protocol, see the guide's linked timing resource.</p>
+
+      <h3>do multivitamins interact with my medication</h3>
+      <p>The guide doesn't cover drug-nutrient interactions in meaningful depth &mdash; it briefly notes metformin can deplete B12, but doesn't address warfarin, thyroid medications, SSRIs, or other common combinations. If you take prescription medications, this is a significant gap the guide acknowledges it cannot fill. Consult a pharmacist or physician before starting any supplement regimen, as interactions vary widely by drug class and individual health status.</p>
+
+      <h3>what prenatal vitamin should I take and does it need extra choline</h3>
+      <p>The guide confirms choline is 'often underdosed even in prenatals' and lists it as a non-negotiable nutrient during pregnancy alongside folate, iron, and DHA &mdash; but doesn't specify adequate choline amounts, name any prenatal products, or advise whether a separate choline supplement is needed. This is a gap the guide doesn't resolve. Given the stakes, consult your OB or midwife for prenatal-specific dosing guidance.</p>
+
+      <h3>is it worth taking a multivitamin if I already eat pretty healthy</h3>
+      <p>Probably not as your primary strategy. The guide's position is that most people with a reasonably varied diet have gaps in only 2&ndash;4 nutrients &mdash; typically vitamin D, magnesium, and omega-3 &mdash; not all 25 in a multivitamin. You'd be paying to cover deficiencies you likely don't have. The smarter move: track food for one week, get targeted bloodwork, and supplement only confirmed gaps at clinical doses. It costs roughly the same and works better.</p>
+
+      <h3>can I get a vitamin D test through my doctor or do I need to order it myself</h3>
+      <p>The guide recommends getting a 25-hydroxyvitamin D test but doesn't address how to obtain one, insurance coverage, or direct-to-consumer options. In practice, you can request it from your primary care physician &mdash; it's a standard blood draw. Coverage varies by insurer and whether deficiency risk factors are documented. Direct-to-consumer lab services (e.g., LabCorp, Quest walk-in) also offer it without a physician order, typically for $30&ndash;60 out of pocket.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Multivitamins aren&rsquo;t bad. They&rsquo;re just not what most

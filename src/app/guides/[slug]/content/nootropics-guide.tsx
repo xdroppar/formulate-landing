@@ -599,6 +599,36 @@ export function NootropicsGuide() {
         a reliable cognitive enhancer.
       </p>
 
+      <h3>Do nootropics actually work?</h3>
+      <p>Some do; most don't. Caffeine + L-theanine has solid evidence for focus and reduced jitter. Creatine modestly improves cognitive performance under sleep deprivation. Lion's mane has some early evidence for nerve growth factor. Most branded 'nootropic stacks' overpromise and underdeliver &mdash; the ingredients that work are all cheap and available individually.</p>
+
+      <h3>Are nootropics safe to take daily?</h3>
+      <p>The evidence-supported ones (caffeine, L-theanine, creatine, lion's mane) are well-tolerated long-term at standard doses. Racetams, modafinil, and other prescription-grade options have more caveats and aren't recommended without clinical supervision. Avoid proprietary blends where you can't see individual doses.</p>
+
+      <h3>What's the best nootropic for focus?</h3>
+      <p>Caffeine (100&ndash;200 mg) plus L-theanine (200 mg) is the most replicated stack for focus and reaction time with minimal downside. It takes effect in 30&ndash;60 minutes and lasts 4&ndash;6 hours. For sustained focus across multiple hours, pair it with adequate sleep, consistent meal timing, and a low-distraction environment &mdash; no supplement fixes those.</p>
+
+      <h3>Can I take nootropics if I'm on antidepressants / SSRIs?</h3>
+      <p>The guide doesn't cover drug interactions directly. This is a legitimate concern: bacopa monnieri, covered in Tier 2, is noted in the guide as modulating serotonin pathways &mdash; combining it with SSRIs or SNRIs could theoretically affect serotonin signaling. Caffeine and L-theanine interactions with antidepressants also vary by medication. Do not add any nootropic to a psychiatric medication regimen without first consulting your prescribing physician or a pharmacist.</p>
+
+      <h3>Are nootropics safe during pregnancy or breastfeeding?</h3>
+      <p>The guide doesn't address pregnancy or breastfeeding at all. This is a significant gap: several compounds covered here &mdash; including high-dose caffeine and bacopa &mdash; have either known contraindications or insufficient safety data for pregnant and breastfeeding women. Do not use nootropics during pregnancy or while breastfeeding without explicit guidance from your OB or midwife. This applies even to Tier 1 compounds.</p>
+
+      <h3>What is the best nootropic for ADHD (without medication)?</h3>
+      <p>The guide doesn't distinguish ADHD-related focus deficits from general fatigue-driven brain fog, and that distinction matters. The compounds covered here &mdash; caffeine, creatine, bacopa &mdash; are studied in neurotypical populations; their effects in ADHD brains can differ meaningfully. Caffeine in particular behaves differently in people with ADHD. Nothing in this guide should be treated as a substitute for an evidence-based ADHD treatment plan. Consult a physician before using nootropics alongside or instead of prescribed ADHD management.</p>
+
+      <h3>Which nootropic supplements are safe for teenagers?</h3>
+      <p>The guide provides no age-based guidance, and the absence of that caveat is worth flagging directly. Developing brains respond differently to compounds that affect cholinergic signaling, stimulant activity, and neuroplasticity. The doses and populations referenced in the guide's cited studies are adults. Parents should not apply this guide's recommendations to teenagers without consulting a pediatrician or adolescent medicine specialist.</p>
+
+      <h3>How do I know if my lion's mane supplement is actually potent or not fake?</h3>
+      <p>The guide flags the fruiting body vs. mycelium-on-grain distinction &mdash; fruiting body extracts are higher potency &mdash; and recommends products standardized for beta-glucans and hericenones. Beyond that, the guide doesn't cover verification methods. For a reliable product, look for third-party testing certifications (NSF, USP, or Informed Sport), a disclosed beta-glucan percentage on the label, and the specific fruiting body designation. The guide's complete lion's mane article covers product selection in more depth.</p>
+
+      <h3>Do nootropics work for anxiety-driven brain fog specifically?</h3>
+      <p>Possibly &mdash; but not the standard starting stack. The guide explicitly notes that if your cognitive fog is stress- and anxiety-driven, adaptogens like ashwagandha may do more than traditional nootropics by removing the cortisol-related cognitive ceiling. Critically, the guide's default starting point &mdash; caffeine + L-theanine &mdash; may worsen anxiety in some people despite L-theanine's smoothing effect. If anxiety is your primary driver, the guide suggests addressing that first through adaptogens before adding stimulants.</p>
+
+      <h3>Can I cycle nootropics or do I need to take them every day?</h3>
+      <p>The guide doesn't address cycling protocols directly. What it does clarify is mechanism: lion's mane benefits disappeared four weeks after stopping supplementation in the cited trial, indicating an ongoing mechanism that requires continued use. Bacopa requires 8&ndash;12 weeks of daily use to produce cognitive improvements. For caffeine, tolerance is a known issue not covered in the guide &mdash; cycling is a reasonable practical consideration. The guide recommends evaluating each compound over 2&ndash;4 weeks of consistent daily use before drawing conclusions about effectiveness.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         The &ldquo;limitless pill&rdquo; doesn&rsquo;t exist. What does

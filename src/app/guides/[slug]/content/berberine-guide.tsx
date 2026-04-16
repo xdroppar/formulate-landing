@@ -571,6 +571,27 @@ export function BerberineGuide() {
         microbiome remodeling. <EvidenceBadge level="moderate" />
       </p>
 
+      <h3>Can I take berberine with statins?</h3>
+      <p>Use caution &mdash; there are two distinct interactions worth understanding. First, berberine inhibits CYP3A4, the enzyme that metabolizes many statins (including atorvastatin and simvastatin). Inhibiting this pathway can raise statin plasma levels, potentially increasing the risk of myopathy or rhabdomyolysis. Second, berberine lowers LDL through a different mechanism than statins (upregulating LDL receptors rather than inhibiting HMG-CoA reductase), so effects may be additive on lipids &mdash; which the guide frames as a potential benefit. Both sides of this interaction are real. If you're on a statin, discuss berberine with your prescribing physician before starting.</p>
+
+      <h3>Does berberine interfere with birth control pills?</h3>
+      <p>The guide doesn't cover this directly. However, it does note that berberine inhibits CYP3A4 &mdash; the same enzyme pathway that metabolizes most oral contraceptives. In principle, CYP3A4 inhibition could alter hormone levels in ways that are unpredictable. Because this interaction is not addressed in the guide and the stakes are significant, consult a physician or pharmacist before combining berberine with hormonal contraceptives.</p>
+
+      <h3>How long should I take berberine &mdash; is it a forever supplement?</h3>
+      <p>The guide doesn't address duration or cycling &mdash; an important gap. Most positive clinical trials ran 12&ndash;13 weeks, meaning robust human safety data beyond that window is sparse. Berberine is not validated for indefinite unsupervised use the way vitamin D might be. If you're using it for prediabetes or metabolic syndrome, periodic reassessment with a physician &mdash; including blood glucose and lipid monitoring &mdash; is a reasonable standard. Do not assume long-term use is safe simply because short-term trials show tolerability.</p>
+
+      <h3>Will berberine hurt my muscle gains or interfere with my workouts?</h3>
+      <p>The guide doesn't cover this directly. It describes berberine as an "exercise mimetic" via AMPK activation, but does not address whether chronic AMPK activation could suppress mTORC1 signaling and blunt muscle protein synthesis &mdash; a concern raised in some animal research. This is a legitimate question for serious trainees that the guide leaves unanswered. If optimizing hypertrophy is a primary goal, discuss the potential tradeoff with a sports medicine physician or registered dietitian before adding berberine.</p>
+
+      <h3>What should I look for on a berberine supplement label?</h3>
+      <p>The guide doesn't specify label criteria, but names the standard clinical dose (500mg berberine, two to three times daily) and mentions dihydroberberine (DHB) as a higher-bioavailability alternative. General principles for any supplement purchase apply: look for products specifying berberine HCl (the form used in research), third-party testing verification (USP, NSF International, or Informed Sport), and a clear dose per capsule that matches the 500mg clinical protocol. The guide's supplement label resource covers evaluating dosing, forms, and safety disclosures in more detail.</p>
+
+      <h3>Is berberine safe for people with kidney or liver conditions?</h3>
+      <p>The guide doesn't address hepatic or renal safety &mdash; a meaningful gap given that berberine is hepatically metabolized and metabolic syndrome often co-occurs with NAFLD or mild liver impairment. The guide does flag that berberine inhibits CYP enzymes, which affects hepatic drug processing. If you have any liver or kidney condition, do not start berberine without physician oversight. This is not a population the existing evidence base adequately covers.</p>
+
+      <h3>Can I take berberine while fasting or eating a ketogenic diet?</h3>
+      <p>The guide doesn't address this directly. Its dosing protocol assumes berberine is taken with meals to maximize glucose-blunting effects and minimize GI side effects &mdash; an instruction that presupposes regular meal timing. If you practice intermittent fasting (16:8, OMAD) or follow a ketogenic diet, combining berberine's blood-sugar-lowering effect with already-reduced glucose intake could meaningfully increase hypoglycemia risk. Until the guide addresses this population specifically, consult a physician about dose timing and monitoring if you combine berberine with fasting or keto protocols.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Berberine is one of the most pharmacologically potent supplements

@@ -588,6 +588,36 @@ export function TaurineGuide() {
         a bonus, not the primary endpoint.
       </p>
 
+      <h3>Is taurine the same as caffeine?</h3>
+      <p>No. Taurine is a sulfur-containing amino acid with no stimulant effect on its own &mdash; it often appears alongside caffeine in energy drinks but acts very differently. Taurine itself is mildly calming and is studied for cardiovascular and metabolic effects, not stimulation.</p>
+
+      <h3>Does the lifespan research on taurine apply to humans?</h3>
+      <p>The 2023 mouse study showing 10&ndash;12% lifespan extension with taurine got major press, but human data is much thinner. The paper's human cohort data was correlational, not causal. Taurine is safe at 1&ndash;3g/day and has modest evidence for cardiovascular markers, but claims of human longevity extension are speculative.</p>
+
+      <h3>How much taurine should I take?</h3>
+      <p>1&ndash;3g per day is the range most research uses. Higher doses (up to 6g) have been tested for specific conditions without clear harm. Taurine has an excellent safety profile even at high doses. Take with or without food &mdash; absorption is not strongly food-dependent.</p>
+
+      <h3>does taurine affect kidney function or is it safe with kidney disease</h3>
+      <p>The guide doesn't cover this directly. Taurine is renally excreted, which is relevant for anyone with chronic kidney disease (CKD) or impaired kidney function &mdash; conditions that alter amino acid metabolism and excretion. The guide's 'essentially zero downside risk' characterization applies to healthy adults in the reviewed clinical trials, not to populations with renal impairment. If you have CKD or any kidney condition, consult a nephrologist before supplementing.</p>
+
+      <h3>can I take taurine while pregnant or breastfeeding</h3>
+      <p>The guide doesn't address pregnancy or breastfeeding. This is a meaningful gap &mdash; taurine is naturally present in breast milk and added to infant formula, suggesting physiological relevance during these periods, but the guide provides no guidance on supplemental doses for pregnant or nursing individuals. Given the YMYL stakes, consult your OB or midwife before adding taurine supplementation during pregnancy or lactation.</p>
+
+      <h3>taurine and diabetes &mdash; does it affect blood sugar</h3>
+      <p>The guide notes that taurine supplementation improved glucose tolerance in mice and monkeys in the Singh et al. (2023) study &mdash; a potential benefit for metabolic health. However, the guide doesn't address implications for people with type 2 diabetes on medication. If you take metformin, insulin, or other glucose-lowering drugs, an additive blood-sugar-lowering effect is plausible. Discuss with your physician before supplementing, as medication adjustments may be warranted.</p>
+
+      <h3>what should I look for when buying a taurine supplement</h3>
+      <p>The guide recommends standalone taurine powder or capsules but names no brands. When evaluating products, prioritize third-party testing certifications &mdash; NSF Certified for Sport, Informed Sport, or USP verification &mdash; which confirm label accuracy and screen for contaminants. Taurine powder is unflavored, inexpensive (roughly $0.05&ndash;$0.10 per gram), and widely available as a single-ingredient product, making it straightforward to source without proprietary blends that obscure actual dosing.</p>
+
+      <h3>can children take taurine supplements</h3>
+      <p>The guide doesn't address supplementation in children or teenagers. It does note that taurine levels are highest in childhood and decline with age &mdash; suggesting children are not deficient under normal circumstances. The guide's dosing and safety data apply to adults. Separately, taurine is present in energy drinks heavily marketed near teens; those products carry caffeine and sugar risks the guide explicitly flags. Consult a pediatrician before giving taurine supplements to anyone under 18.</p>
+
+      <h3>taurine vs. glycine for longevity &mdash; which is better</h3>
+      <p>The guide doesn't compare taurine to glycine. Both amino acids have attracted longevity interest from recent research, and the comparison is common in longevity communities, but the guide focuses exclusively on taurine. It would be speculative to rank them based on this content alone. If you're building a longevity stack, consult primary literature on glycine separately &mdash; the guide's longevity case for taurine rests specifically on the Singh et al. (2023) Science study.</p>
+
+      <h3>how much taurine is in food &mdash; can I get enough from diet alone</h3>
+      <p>The guide confirms that meat, fish, and shellfish are the primary dietary sources and that vegans and vegetarians have measurably lower plasma taurine levels, but it doesn't quantify food amounts. Without those figures, it's difficult to assess whether diet alone is sufficient. What the guide does establish: taurine levels decline roughly 80% between childhood and old age regardless of diet, and the supplemental doses with documented benefits (1&ndash;6g/day) likely exceed what most omnivores consume through food.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Taurine went from overlooked energy drink ingredient to serious

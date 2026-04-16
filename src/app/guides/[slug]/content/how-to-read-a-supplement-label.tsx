@@ -615,6 +615,33 @@ Pharmacists can screen for supplement-drug interactions in minutes and don't req
         documentation, the absence of a seal is less concerning.
       </p>
 
+      <h3>What does '% Daily Value' actually mean?</h3>
+      <p>It's the percentage of the reference daily intake (RDI) that one serving provides. The RDI was set in 1968 to prevent deficiency, not to support optimal function. Many supplements are usefully dosed at 200&ndash;1000% DV. High %DV isn't inherently bad &mdash; what matters is whether the total daily dose is evidence-based.</p>
+
+      <h3>Why do some supplements list 'Proprietary Blend'?</h3>
+      <p>A proprietary blend discloses total weight but hides individual ingredient doses. This is almost always a red flag &mdash; it means the brand can use pixie-dust amounts of the expensive actives while leaning on cheap fillers. Choose products that disclose every ingredient dose individually.</p>
+
+      <h3>What third-party testing certifications actually matter?</h3>
+      <p>NSF Certified for Sport, Informed Sport, USP Verified, and ConsumerLab are the four that carry real weight. They test for label accuracy, contamination, and banned substances. 'GMP certified' alone is manufacturing hygiene &mdash; useful but a much lower bar. If a brand claims 'third-party tested' without naming the lab, assume it's marketing.</p>
+
+      <h3>What is a clinical dose for ashwagandha &mdash; does it matter which extract type (KSM-66 vs. Sensoril vs. generic)?</h3>
+      <p>Yes, extract type matters significantly. The guide cites 600mg/day for KSM-66, a root-only extract standardized to ≥5% withanolides. Sensoril uses root-and-leaf extract with higher withanolide concentration, so its clinical dose is lower &mdash; typically 125&ndash;250mg/day in published research. Generic ashwagandha powder often has no standardization at all, making dose comparisons unreliable. Always check which extract is listed and match the dose to that specific extract's studied range, not a generic ashwagandha number.</p>
+
+      <h3>How do I check if a supplement actually passed third-party testing &mdash; where do I find the certificate of analysis?</h3>
+      <p>The guide explains what certifications mean but not how to verify them. For USP, check the USP Verified Products Database at usp.org. For NSF, search NSF's certified products list at nsf.org. For Informed Sport, use their public registry at informed.sport. For brands without a certification seal, contact them directly and request a current Certificate of Analysis (COA) from their third-party lab &mdash; reputable brands provide this without hesitation. A COA that's missing potency or contaminant test results is a red flag.</p>
+
+      <h3>Are supplement label rules the same in Canada, the UK, and the EU?</h3>
+      <p>The guide is US-specific. In the US, DSHEA (1994) is unusually permissive &mdash; products reach shelves without pre-market approval. Canada (Health Canada's Natural Health Products Regulations) and the EU (Food Supplements Directive, EFSA oversight) require pre-market authorization, stricter manufacturing evidence, and more limited health claims. UK rules post-Brexit largely mirror EU standards. If you're outside the US, this guide's FDA-centric framework doesn't fully apply &mdash; check your local regulatory authority for applicable rules.</p>
+
+      <h3>Can I take too much of a fat-soluble vitamin by combining a multivitamin with individual supplements?</h3>
+      <p>Yes &mdash; this is a real stacking risk the guide doesn't address directly. Fat-soluble vitamins (A, D, E, K) accumulate in body fat rather than being excreted like water-soluble vitamins. If you follow the guide's suggestion to add individual D3 to a multivitamin, check the D3 amount in your multi first and add both doses together. Chronic vitamin A excess in particular carries toxicity risk. For personalized upper limits and stacking guidance, consult a physician or registered dietitian &mdash; this isn't a calculation to estimate casually.</p>
+
+      <h3>What does 'elemental' magnesium mean and how do I calculate it from compound weight?</h3>
+      <p>Elemental magnesium is the actual mineral content &mdash; the portion your body absorbs. Supplement labels often list the compound weight (e.g., magnesium glycinate 1,000mg), not the elemental amount. To calculate: multiply compound weight by the elemental fraction. Magnesium glycinate is roughly 14% elemental magnesium, so 1,000mg glycinate ≈ 140mg elemental. Magnesium citrate is ~16%; oxide is ~60% (though poorly absorbed). When a label says '200mg elemental magnesium' like the guide's Example 3, that's the honest, directly usable number &mdash; no calculation needed.</p>
+
+      <h3>Is it safe to take supplements while on prescription medications?</h3>
+      <p>The guide doesn't cover this, and it's a genuine safety gap. Drug-nutrient interactions are common and clinically significant &mdash; fish oil can potentiate blood thinners, magnesium can impair absorption of certain antibiotics, and St. John's Wort interacts with dozens of medications including antidepressants and birth control. Before adding any supplement to a prescription regimen, consult your prescribing physician or a pharmacist. This isn't a label-reading problem &mdash; it requires individualized medical review.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Reading a supplement label is a skill that takes 60 seconds to

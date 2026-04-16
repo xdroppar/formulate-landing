@@ -558,6 +558,33 @@ UC-II's mechanism of action — oral tolerization via immune modulation — coul
         to 15g daily.
       </p>
 
+      <h3>Does bone broth give you the same benefits?</h3>
+      <p>Bone broth contains collagen, but amounts vary widely. A 2019 analysis found commercial bone broth collagen ranged from 2.4 to 21.2 mg/mL &mdash; a 9-fold difference. A cup might give you 2&ndash;5g, on the low end of clinical doses. Supplements offer more consistent dosing.</p>
+
+      <h3>Can collagen supplements cause side effects?</h3>
+      <p>Side effects are rare and mild. Some people report aftertaste (especially marine collagen), bloating, or fullness. People with fish or shellfish allergies should avoid marine collagen. No serious adverse events reported in clinical trials at standard doses up to 15g daily.</p>
+
+      <h3>Is collagen safe during pregnancy?</h3>
+      <p>The guide doesn't cover collagen safety during pregnancy. Clinical trials on collagen supplements have not included pregnant populations, so there's no evidence base to draw from. Collagen is derived from animal sources and is generally considered low-risk, but 'generally safe' data from healthy adults doesn't automatically extend to pregnancy. Consult your OB or midwife before starting any collagen supplement while pregnant or breastfeeding.</p>
+
+      <h3>Can I take collagen if I'm on blood thinners, metformin, or immunosuppressants?</h3>
+      <p>The guide doesn't address drug interactions. This is a meaningful gap &mdash; particularly for immunosuppressants, since undenatured type II collagen (UC-II) works through immune modulation, which could theoretically interact with drugs that suppress immune activity. Hydrolyzed peptides are less likely to pose interaction risks, but no interaction data exists in the guide or, to our knowledge, in published literature. If you're on any prescription medication, consult your prescribing physician before adding collagen.</p>
+
+      <h3>What should I look for when evaluating collagen powder quality?</h3>
+      <p>The guide doesn't cover label evaluation or brand selection criteria. General quality markers worth researching independently include: third-party testing certifications (NSF Certified for Sport, Informed Sport), whether the product specifies hydrolyzed collagen peptides (not just 'collagen protein'), molecular weight of peptides, and whether vitamin C is included &mdash; the guide confirms it's a required cofactor for collagen synthesis. Our label-reading guide, linked in the guide above, may provide additional help.</p>
+
+      <h3>Does collagen break a fast, and is it compatible with intermittent fasting?</h3>
+      <p>The guide doesn't address intermittent fasting specifically. From a biology standpoint, collagen is a protein &mdash; it contains calories (~35&ndash;40 kcal per 10g) and triggers an insulin response, which technically breaks a strict fast. The guide notes that some users prefer taking collagen on an empty stomach for absorption, and that UC-II specifically requires an empty stomach. Whether a small collagen dose disrupts your fasting goals depends on your fasting protocol. This is worth discussing with a registered dietitian familiar with your approach.</p>
+
+      <h3>How does collagen compare to creatine for joint health?</h3>
+      <p>The guide doesn't compare collagen to creatine or omega-3s for joint outcomes. It does benchmark UC-II (40mg) against glucosamine plus chondroitin, where UC-II outperformed the combination over 180 days in one RCT. Creatine's evidence base is primarily for muscle performance and power output, not cartilage-specific joint health &mdash; though some research suggests secondary connective tissue benefits. If you're deciding between interventions for joint health, a sports medicine physician or sports dietitian can help weigh the options against your specific situation.</p>
+
+      <h3>Does collagen help with gut health or leaky gut?</h3>
+      <p>The guide doesn't address gut health claims. Collagen is rich in glycine and proline, and glycine in particular has shown anti-inflammatory properties in preclinical research &mdash; which is likely the basis for gut-health marketing claims. However, no clinical evidence for collagen improving intestinal permeability ('leaky gut') is cited or implied in the guide. Given how frequently this claim appears on product labels, the absence of data is worth noting. For gut health concerns, consult a gastroenterologist.</p>
+
+      <h3>Is there an upper limit to how much collagen you can take &mdash; can you take too much?</h3>
+      <p>The guide establishes a clinical range of 2.5&ndash;15g daily for hydrolyzed peptides and notes no serious adverse events at standard doses up to 15g. It doesn't specify whether exceeding 15g is harmful, wasteful, or simply unstudied. For UC-II, the guide is explicit: 40mg is the studied dose and more is not better. Beyond 15g of hydrolyzed collagen, you're outside the studied range &mdash; not necessarily in danger, but without evidence of added benefit and with increased cost. The guide recommends 5&ndash;10g for general use.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Collagen supplements are not snake oil, but they&rsquo;re not magic

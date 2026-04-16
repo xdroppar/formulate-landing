@@ -542,6 +542,27 @@ export function BestVitaminD() {
         A multivitamin is a starting point, not necessarily the whole solution.
       </p>
 
+      <h3>Can you take too much vitamin D3 long-term even under 10,000 IU?</h3>
+      <p>Yes, though the guide doesn't detail cumulative toxicity risk. Vitamin D is fat-soluble and stored in tissue, so excess builds up gradually over months &mdash; not days. The guide flags above 100 ng/mL as a toxicity threshold and calls self-dosing at 10,000 IU without blood work 'reckless.' Early hypercalcemia symptoms (nausea, fatigue, frequent urination, confusion) aren't covered here. If you're taking 5,000&ndash;8,000 IU long-term without periodic 25(OH)D testing, consult a healthcare provider to monitor your serum levels.</p>
+
+      <h3>What medications interact with vitamin D supplements?</h3>
+      <p>The guide doesn't address drug interactions &mdash; a meaningful gap. Several common medications affect vitamin D metabolism or risk: thiazide diuretics may increase hypercalcemia risk when combined with high-dose D; corticosteroids can impair D metabolism; orlistat, cholestyramine, and some anticonvulsants reduce absorption. If you take any of these or other chronic medications, consult a physician or pharmacist before starting or adjusting a vitamin D supplement regimen.</p>
+
+      <h3>Is vitamin D safe during pregnancy?</h3>
+      <p>The guide doesn't cover pregnancy-specific dosing or safety. Pregnant women are a high-risk group for deficiency, and organizations like ACOG and RCOG have specific guidance on testing and supplementation during pregnancy that differs from general adult recommendations. Do not rely on this guide for prenatal vitamin D decisions. Consult your OB-GYN or midwife, who can order appropriate testing and recommend a dose that's safe for both you and the fetus.</p>
+
+      <h3>What does my vitamin D blood test number actually mean and where do I get it tested?</h3>
+      <p>Order a 25(OH)D test &mdash; not a 1,25(OH)2D test, which measures the active hormone and isn't useful for assessing deficiency. The guide covers what your result means: below 20 ng/mL is deficient, 20&ndash;30 insufficient, 30&ndash;50 sufficient, and above 100 carries toxicity risk. For ordering, the guide mentions a $30&ndash;60 cost but doesn't name sources. Direct-to-consumer options like LabCorp OnDemand, Ulta Lab Tests, or your primary care provider can order it without a prior appointment in most states.</p>
+
+      <h3>Does vitamin D help with depression, immunity, or autoimmune conditions?</h3>
+      <p>The guide frames vitamin D primarily around bone health and correcting deficiency &mdash; it doesn't evaluate evidence for depression, immune function, or autoimmune conditions specifically. The honest summary from the broader literature: associations exist and are biologically plausible, but RCT evidence for these outcomes is mixed and often weak. Correcting a confirmed deficiency is reasonable regardless of the reason you're supplementing. For condition-specific claims, the evidence doesn't yet support supplementing beyond sufficiency as a treatment.</p>
+
+      <h3>Which vitamin K2 supplement should I buy separately if my D3 doesn't include it?</h3>
+      <p>The guide recommends pairing K2 (MK-7 form, at least 90&ndash;120mcg/day) with D3 doses of 2,000 IU or higher, and notes that products like Momentous D3, Nordic Naturals D3, and Thorne D3 5,000 IU don't include K2. However, the guide names zero standalone K2 products or brands. For standalone K2 selection, look for MK-7 (not MK-4), at least 90&ndash;100mcg per serving, third-party tested, and ideally in an oil-based capsule for absorption &mdash; the same criteria applied to D3 products in this guide.</p>
+
+      <h3>Does vitamin D supplementation actually reduce all-cause mortality or major disease outcomes?</h3>
+      <p>The evidence is more limited than supplement marketing suggests, and the guide doesn't address this directly. The VITAL trial (n=25,871, NEJM 2019) &mdash; the largest RCT on vitamin D supplementation &mdash; found no significant reduction in cardiovascular events or cancer incidence in a generally replete population. Some secondary analyses suggested reduced cancer mortality, but results were mixed. Correcting confirmed deficiency has clear benefits for bone and muscle health; claims about preventing major disease in already-sufficient populations are not well-supported by current RCT evidence.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Choose D3, not D2. Take it with a fat-containing meal. Pair with K2 (MK-7)

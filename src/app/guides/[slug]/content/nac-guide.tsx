@@ -518,6 +518,27 @@ The most common mistake is evaluating NAC for OCD, trichotillomania, or addictiv
         quickly.
       </p>
 
+      <h3>NAC vs GlyNAC &mdash; which is better?</h3>
+      <p>The guide doesn't cover GlyNAC (glycine + NAC combined). It does note that glycine is a rate-limiting amino acid in glutathione production &mdash; especially in older adults &mdash; and suggests pairing NAC with glycine as a synergistic stack. Whether a combined GlyNAC supplement outperforms separate supplementation is not addressed. Emerging research on GlyNAC exists, but this guide doesn't evaluate it. Check sources covering aging-specific protocols or consult a healthcare provider.</p>
+
+      <h3>Can I take NAC while pregnant or breastfeeding?</h3>
+      <p>The guide doesn't cover NAC use during pregnancy or breastfeeding. No dosing guidance, safety data, or risk assessment for these populations is provided. NAC has clinical uses in obstetric settings, but self-supplementation without supervision is a different context. If you are pregnant or breastfeeding, consult your OB-GYN or midwife before taking NAC or any supplement.</p>
+
+      <h3>Does NAC interact with my medications?</h3>
+      <p>The guide doesn't address drug interactions. This is a meaningful gap &mdash; particularly for readers using NAC for mental health support alongside psychiatric medications. Clinically relevant interactions exist with certain drugs. If you take any prescription medication, discuss NAC with your prescribing physician or pharmacist before starting. Do not assume supplement status means interaction-free.</p>
+
+      <h3>How long does it take for NAC to work?</h3>
+      <p>The guide suggests giving NAC 2&ndash;4 weeks, but that timeline is most applicable to oxidative stress benefits like liver support and hangover reduction. For mental health applications &mdash; OCD, compulsive behaviors, depression &mdash; the clinical trials cited ran 8&ndash;12 weeks before measuring outcomes. If you're taking NAC for psychiatric reasons, expect a longer runway before judging effectiveness, and don't discontinue prematurely.</p>
+
+      <h3>Is NAC safe with cancer treatment?</h3>
+      <p>The guide doesn't address this. There is genuine scientific debate about whether antioxidant supplementation can interfere with chemotherapy or radiation, which often work partly through oxidative mechanisms. This guide provides no guidance for oncology patients. If you are undergoing cancer treatment, do not start NAC without explicit clearance from your oncologist.</p>
+
+      <h3>What's the difference between NAC and S-acetyl glutathione?</h3>
+      <p>The guide doesn't cover S-acetyl glutathione. It does explain why standard oral glutathione has poor bioavailability &mdash; it breaks down in digestion before reaching cells &mdash; and positions NAC as the more practical alternative. Whether S-acetyl glutathione or liposomal glutathione forms meaningfully outperform NAC as a precursor strategy is not evaluated here. The guide recommends NAC on the basis of established absorption and clinical evidence.</p>
+
+      <h3>Can I take NAC if I have kidney disease?</h3>
+      <p>The guide doesn't address kidney disease. It notes NAC supports the kidneys as a high-detoxification-burden organ, but provides no guidance for people with impaired kidney function. If you have chronic kidney disease or compromised renal function, consult a nephrologist before supplementing with NAC. High cysteine loading has theoretical implications in this population that this guide does not evaluate.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         NAC is one of the most versatile and evidence-backed supplements

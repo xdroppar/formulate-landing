@@ -502,6 +502,27 @@ export function BestCreatine() {
         saturated. Be patient, and don&rsquo;t quit after a week.
       </p>
 
+      <h3>Can I take creatine while pregnant or breastfeeding?</h3>
+      <p>The guide doesn't cover this directly. Creatine research in pregnancy is emerging but not yet sufficient to establish safety guidelines for supplementation. Because pregnancy and breastfeeding involve distinct physiological and fetal considerations, this is a decision that requires physician supervision &mdash; not a supplement guide. Consult your OB-GYN or midwife before adding creatine during pregnancy or lactation.</p>
+
+      <h3>Can I take creatine with my medications? Does it interact with metformin, SSRIs, diuretics?</h3>
+      <p>The guide doesn't address drug interactions. This matters: creatine affects kidney filtration markers, and combining it with nephrotoxic drugs (certain NSAIDs or antibiotics) or diuretics &mdash; which alter hydration status relevant to creatine's mechanism &mdash; introduces variables the guide doesn't account for. If you take any prescription medication, particularly those affecting kidney function or fluid balance, consult your prescribing physician before starting creatine.</p>
+
+      <h3>Does creatine need to be cycled or will it stop working over time?</h3>
+      <p>No cycling needed. The guide states clearly there is no evidence your body builds tolerance to creatine. Unlike stimulants or some hormonal compounds, creatine doesn't trigger receptor downregulation &mdash; it works by saturating intracellular phosphocreatine stores, a structural state that simply needs to be maintained. Taking 3&ndash;5g daily, indefinitely, keeps those stores topped off. Cycling off means letting saturation drop and restarting the 28-day buildup.</p>
+
+      <h3>Should I take creatine on rest days?</h3>
+      <p>Yes. Creatine works through accumulation, not acute dosing. The 3&ndash;5g daily recommendation applies every day &mdash; training days and rest days alike &mdash; because maintaining muscle saturation is the goal. Skipping rest days erodes the intracellular creatine stores built over roughly 28 days of consistent dosing. Inconsistent intake is one of the most common reasons people conclude creatine "isn't working" for them.</p>
+
+      <h3>Does creatine break a fast or is it okay during intermittent fasting?</h3>
+      <p>The guide doesn't address intermittent fasting specifically. Creatine monohydrate is calorie-free, so it doesn't break a fast in the caloric sense. The guide emphasizes that timing matters little &mdash; consistency beats timing. Whether fasted-state insulin dynamics meaningfully affect creatine uptake is a mechanistic question the guide doesn't resolve. For most users, taking creatine at any point during your eating window is a practical solution.</p>
+
+      <h3>What happens if I have one kidney or existing kidney disease?</h3>
+      <p>The guide's kidney safety assurances apply explicitly to "healthy individuals" and "otherwise-healthy older adults" &mdash; it does not address chronic kidney disease, solitary kidney, or transplant. Creatine raises serum creatinine, a standard kidney function marker, which complicates monitoring in people with compromised renal function. If you have any kidney condition, this is a physician conversation before starting supplementation, not a decision to make based on healthy-population research.</p>
+
+      <h3>Which creatine is best for kids or teenagers?</h3>
+      <p>The guide doesn't provide age-specific guidance for minors. Its "almost everyone" recommendation is grounded in adult clinical data. Major sports medicine organizations generally advise that youth athletes prioritize training, nutrition, and sleep before any supplementation, and that creatine use in adolescents should involve a physician and parental oversight. Do not extrapolate adult dosing protocols to children or teenagers without professional guidance.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Creatine is the rare supplement where the science is genuinely settled. Buy

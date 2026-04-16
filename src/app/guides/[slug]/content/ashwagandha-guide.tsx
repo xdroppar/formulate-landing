@@ -501,6 +501,27 @@ Ashwagandha's metabolic pathways haven't been fully characterized. If you take <
         working for you.
       </p>
 
+      <h3>ashwagandha liver damage risk &mdash; is it real?</h3>
+      <p>Yes, the risk is real and worth knowing. The guide's 2020 safety review found ashwagandha well-tolerated at standard doses, but peer-reviewed case reports published after 2021 &mdash; including Björnsson et al. (2022) and Drug-Induced Liver Injury Network data &mdash; document rare but serious cases of drug-induced liver injury linked to ashwagandha. These cases are uncommon, not clearly dose-dependent, and may involve product quality issues. If you develop jaundice, dark urine, or unusual fatigue while taking ashwagandha, stop immediately and see a doctor.</p>
+
+      <h3>can I take ashwagandha every day or should I cycle it?</h3>
+      <p>Daily use for a defined period is the practical approach. The guide recommends 8&ndash;12 weeks on, then 2&ndash;4 weeks off as a reasonable default &mdash; not because continuous use has demonstrated harm, but as a precaution against habituation and chronic cortisol suppression. The guide is explicit that whether cycling is strictly necessary is debated. A concrete signal to stop early: if you feel unusually fatigued, emotionally flat, or experience GI distress, that's reason to pause regardless of where you are in a cycle.</p>
+
+      <h3>does ashwagandha affect women's hormones?</h3>
+      <p>The guide doesn't cover this directly. Its hormone data focuses entirely on testosterone in men, and it doesn't address estrogen, DHEA, PCOS, or interactions with hormonal contraceptives. Ashwagandha does affect the HPA axis and may influence DHEA-S, which matters for women &mdash; but the guide provides no basis for specific claims here. Women with hormonal conditions or those on hormonal birth control should consult a physician before use, particularly given the guide's existing contraindications around thyroid and autoimmune conditions.</p>
+
+      <h3>ashwagandha and thyroid &mdash; Hashimoto's specifically</h3>
+      <p>The guide lists both autoimmune conditions and thyroid disorders as contraindications separately, and Hashimoto's is both. The guide's position is clear: ashwagandha stimulates immune activity (problematic when your immune system is attacking thyroid tissue) and raises T3 and T4 (potentially destabilizing for anyone on levothyroxine). Whether that applies equally to all Hashimoto's patients versus only those on medication isn't addressed. Given that Hashimoto's sits at the intersection of both contraindication categories, the conservative read is: don't take it without explicit physician sign-off.</p>
+
+      <h3>which ashwagandha brands are actually third-party tested?</h3>
+      <p>The guide doesn't name specific brands or third-party certifications. For quality verification, look for products carrying NSF Certified for Sport, USP Verified, or Informed Sport seals &mdash; these programs test for label accuracy, contaminants, and banned substances. Athletes concerned about contamination should prioritize NSF Certified for Sport or Informed Sport specifically. Beyond certification, confirm the Supplement Facts panel shows a standardized extract (KSM-66 or Sensoril) with disclosed withanolide percentage &mdash; the guide is explicit that unlabeled generics are unreliable.</p>
+
+      <h3>ashwagandha and alcohol interaction</h3>
+      <p>The guide doesn't address alcohol directly. Both ashwagandha and alcohol have CNS depressant properties &mdash; ashwagandha via GABAergic activity, alcohol via multiple mechanisms. The guide already flags that ashwagandha may potentiate benzodiazepines and sedatives; alcohol operates through overlapping pathways. Combining them may increase sedation, particularly with Sensoril taken in the evening. This is a gap in the guide's coverage. If you drink regularly or heavily, mention ashwagandha use to your doctor.</p>
+
+      <h3>is KSM-66 worth the higher price over generic ashwagandha?</h3>
+      <p>The guide makes a clear case that form determines efficacy. Generic root powder runs 1&ndash;2% withanolides; KSM-66 is standardized to 5%. To match one 600mg KSM-66 capsule, you'd need several grams of unextracted powder. The guide doesn't address specific price points, but the cost difference becomes less meaningful if you're taking four times the dose. The narrow exception: a generic that clearly discloses its withanolide percentage (e.g., 2.5&ndash;5%) at an appropriate dose. If that disclosure isn't on the label, assume it's underpowered.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Ashwagandha is one of the better-studied herbal supplements available.

@@ -531,6 +531,27 @@ export function BestMagnesium() {
         at least 2 hours.
       </p>
 
+      <h3>Can I take magnesium glycinate and L-threonate together?</h3>
+      <p>Yes, but track your total elemental magnesium carefully. The guide notes some people take both &mdash; glycinate at night for sleep, threonate in the morning for cognition &mdash; but each form contributes to your daily elemental total, which should stay within the 350mg supplemental upper limit for most adults. Check both labels for elemental magnesium per serving, not compound weight, and add those numbers together before stacking. If you're unsure how to read those labels, the guide recommends its supplement label reading resource.</p>
+
+      <h3>What is an RBC magnesium test and where do I get one?</h3>
+      <p>The guide recommends an RBC (red blood cell) magnesium test as more useful than guessing at deficiency, but doesn't cover the specifics &mdash; what it costs, how it differs from a standard serum magnesium test, whether insurance typically covers it, or how to interpret results. For those details, ask your primary care provider or request it through a direct-to-consumer lab service. A physician can also help you interpret your results in the context of your symptoms and health history.</p>
+
+      <h3>Is magnesium safe during pregnancy?</h3>
+      <p>The guide doesn't cover pregnancy directly. This is a significant gap &mdash; magnesium is commonly used during pregnancy for leg cramps, and clinical contexts like preeclampsia involve medical-grade magnesium protocols. The RDA and safety thresholds may differ from the general adult figures cited in this guide. Do not rely on this guide for gestational dosing. Consult your OB-GYN or midwife before starting or continuing magnesium supplementation during pregnancy.</p>
+
+      <h3>How long does magnesium take to work for sleep?</h3>
+      <p>The guide covers when to take magnesium for sleep (30&ndash;60 minutes before bed) but not how long consistent use takes to produce results. Based on the cited Abbasi et al. 2012 trial, which measured outcomes over eight weeks, sleep benefits are unlikely to appear after a single dose. Most users should expect 2&ndash;4 weeks of nightly use before judging effectiveness. If you abandon supplementation after a few nights of no change, you're likely quitting before the timeline the clinical evidence reflects.</p>
+
+      <h3>Which magnesium form is best for muscle cramps or restless legs?</h3>
+      <p>The guide doesn't address muscle cramps or restless leg syndrome directly &mdash; its form-matching section covers sleep, cognition, budget, and cardiovascular goals but omits musculoskeletal use cases. Glycinate's high bioavailability and GI tolerability make it the guide's default recommendation for general magnesium repletion, which may be relevant if cramps are driven by deficiency. For restless legs specifically, consult a healthcare provider, as the condition has multiple causes beyond magnesium status.</p>
+
+      <h3>Does magnesium glycinate make you tired during the day?</h3>
+      <p>It can, if timed incorrectly. The guide recommends taking glycinate 30&ndash;60 minutes before bed for sleep &mdash; that timing recommendation exists precisely because the glycine component has calming, inhibitory effects on the nervous system. Taking it in the morning or midday may cause unwanted drowsiness in some people. If you're using glycinate for general health rather than sleep, take it with an evening meal or shift to a morning dose of citrate, which lacks glycine's sedating effect.</p>
+
+      <h3>Is magnesium threonate worth the extra cost compared to glycinate?</h3>
+      <p>For most people, probably not. The guide confirms threonate is genuinely more expensive to produce and delivers less elemental magnesium per capsule &mdash; making it a poor choice for fixing a general deficiency. The human evidence for cognitive benefits (Liu et al., 2016) is limited to older adults with cognitive concerns. If that's your specific goal, the premium has some justification. For sleep, anxiety, or general magnesium repletion, glycinate delivers better value with stronger practical evidence.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Stop choosing magnesium by brand and start choosing by form. Glycinate for

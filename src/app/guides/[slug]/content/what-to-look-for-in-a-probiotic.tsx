@@ -728,6 +728,36 @@ export function WhatToLookForInProbiotic() {
         expiration. When in doubt, refrigerate.
       </p>
 
+      <h3>Are probiotic CFU counts meaningful?</h3>
+      <p>Partially. CFU (colony-forming units) tells you how many live bacteria are in the capsule, but not how many reach your gut alive. A 50 billion CFU product without enteric coating may deliver fewer live bacteria than a 10 billion CFU product that survives stomach acid. Strain survivability and delivery method matter more than raw CFU.</p>
+
+      <h3>What probiotic strains have the best evidence?</h3>
+      <p>Lactobacillus rhamnosus GG and Saccharomyces boulardii have the strongest RCT evidence, primarily for antibiotic-associated diarrhea and IBS symptoms. Bifidobacterium longum 35624 has evidence for IBS. Outside these well-studied strains, most probiotics have only weak or inconsistent trial support.</p>
+
+      <h3>Do probiotics need to be refrigerated?</h3>
+      <p>Depends on the strain and formulation. Many modern probiotics use lyophilized (freeze-dried) strains in blister packs and are shelf-stable. Refrigeration matters most for cheap bulk-bottle products exposed to humidity and heat. Check the label &mdash; a quality product will say 'no refrigeration required' or give a shelf-life guarantee.</p>
+
+      <h3>What probiotic brands actually contain LGG or LP299V?</h3>
+      <p>The guide doesn't name specific brands &mdash; it focuses on how to evaluate any product by strain designation, dose, and CFU guarantee. To find products containing a specific strain, search the strain name (e.g., "L. rhamnosus GG" or "L. plantarum 299v") directly on a retailer or the manufacturer's site, then verify the product meets the guide's criteria: strain code listed, CFU guaranteed through expiration, and individual per-strain counts disclosed.</p>
+
+      <h3>Can I take probiotics while pregnant?</h3>
+      <p>The guide doesn't cover probiotic use during pregnancy. This is a meaningful gap &mdash; pregnancy involves specific considerations around strain safety, immune modulation, and conditions like Group B Strep or gestational constipation that require clinical guidance. Consult your OB-GYN or midwife before starting any probiotic during pregnancy. Do not rely on general supplement guidance for this decision.</p>
+
+      <h3>What probiotic should I take for vaginal health or BV?</h3>
+      <p>The guide doesn't address vaginal health or bacterial vaginosis &mdash; its condition coverage is entirely GI-focused. Vaginal microbiome support (including BV) involves specific strains such as L. crispatus and the L. reuteri RC-14 + L. rhamnosus GR-1 combination that the guide does not evaluate. For evidence-based guidance on this use case, consult a gynecologist or a clinician familiar with the vaginal microbiome literature.</p>
+
+      <h3>How long should I stay on a probiotic before stopping?</h3>
+      <p>It depends on your goal. The guide's 4-week protocol gives a structured evaluation window: if you see clear improvement, continue and reassess at 8 and 12 weeks. For event-based use &mdash; like antibiotic support &mdash; the guide recommends stopping 1&ndash;2 weeks after the course ends. For ongoing conditions like IBS, daily supplementation is typically needed since most strains don't permanently colonize. If symptoms resolve, reassess whether continued use is still warranted.</p>
+
+      <h3>Are probiotics safe for kids and what dose?</h3>
+      <p>The guide doesn't provide pediatric dosing guidance or age-specific product recommendations. It does reference positive Cochrane-level evidence for LGG in pediatric gastroenteritis and notes L. reuteri DSM 17938 has positive RCT data for infant colic in breastfed babies. For weight-based dosing, appropriate age ranges, or product form (chewable vs. capsule), consult a pediatrician &mdash; do not extrapolate adult doses to children.</p>
+
+      <h3>What is the difference between spore-based probiotics (Bacillus) and regular probiotics?</h3>
+      <p>Spore-based probiotics use Bacillus strains that form protective endospores, surviving stomach acid, heat, and room-temperature storage without refrigeration. The guide notes this as a delivery advantage over conventional Lactobacillus and Bifidobacterium strains. The tradeoff: the guide explicitly states spore-based products have a "different and smaller evidence base" than well-studied strains like LGG or LP299V, without evaluating specific Bacillus strains or products. Apply the same standard &mdash; demand named strain designations and published RCT evidence, not just survival claims.</p>
+
+      <h3>Does taking a probiotic interact with my medication?</h3>
+      <p>The guide covers one drug interaction: separate bacterial probiotic doses from antibiotics by at least 2 hours (S. boulardii is the exception, as a yeast it's unaffected). Beyond this, the guide is silent on interactions with immunosuppressants, proton pump inhibitors, chemotherapy, or other medications. These are safety-critical gaps. If you are immunocompromised or on any prescription medication, consult a pharmacist or physician before starting a probiotic.</p>
+
       <h2>Supporting the Gut Beyond the Capsule</h2>
       <p>
         A probiotic is one lever, not the whole system. The gut-barrier and

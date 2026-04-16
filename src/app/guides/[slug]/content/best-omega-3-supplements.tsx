@@ -532,6 +532,27 @@ export function BestOmega3() {
         and economical.
       </p>
 
+      <h3>Can I take fish oil while pregnant?</h3>
+      <p>The guide doesn't cover prenatal dosing, trimester timing, algal-vs-fish choices during pregnancy, or overlap with prenatal vitamins &mdash; all high-stakes specifics. What it does confirm: DHA is critical for fetal brain development. Because prenatal supplementation involves both your health and a developing baby's, consult your OB or midwife for dose and form guidance before starting or adjusting omega-3 supplementation during pregnancy.</p>
+
+      <h3>Does fish oil interact with statins?</h3>
+      <p>The guide recommends Thorne Omega-3 with CoQ10 for people on statins but doesn't explain the interaction profile. It doesn't address whether the combination is additive, synergistic, or risky at high doses. Because statins are a prescribed medication with their own metabolic effects, your prescribing physician is the right person to evaluate whether and at what dose omega-3 supplementation fits your specific regimen.</p>
+
+      <h3>Is fish oil safe at high doses &mdash; what are the risks of too much omega-3?</h3>
+      <p>The guide notes that doses above 2,000&ndash;4,000mg EPA + DHA daily should involve a healthcare provider, but doesn't explain why. It doesn't address risks such as immune suppression, potential glycemic effects in diabetics, or regulatory ceilings. The guide's position: high-dose omega-3 use isn't a DIY decision. If you're targeting therapeutic doses, work with a physician who can monitor relevant biomarkers and adjust accordingly.</p>
+
+      <h3>What's the best fish oil for kids?</h3>
+      <p>The guide doesn't cover pediatric dosing, age-appropriate forms (liquid, gummy, softgel), or child-specific products. This is a genuine gap. For children's omega-3 supplementation, consult a pediatrician for weight-appropriate dosing. The guide's general quality criteria still apply when evaluating any product: look for confirmed EPA + DHA amounts, triglyceride form where possible, and IFOS certification or published TOTOX values.</p>
+
+      <h3>Does fish oil expire, and can I take expired fish oil?</h3>
+      <p>The guide explains that oxidized fish oil may be actively harmful and recommends a smell test &mdash; if it smells strongly fishy or off, the oil is likely rancid. That principle applies directly to expired product: expiration dates exist precisely because oxidation accelerates over time. The guide recommends cool, dark storage and refrigeration to slow this process, but doesn't specify how long an open bottle remains good. When in doubt, use your nose &mdash; and replace it.</p>
+
+      <h3>What's a good budget fish oil that still passes quality tests?</h3>
+      <p>The guide doesn't recommend specific budget brands. It does give you the criteria to evaluate any product: confirmed EPA + DHA per serving, triglyceride form for better absorption, and IFOS certification or published TOTOX values under 26. If you're buying a cheaper ethyl ester product, the guide notes absorption is roughly 70% lower than TG form &mdash; partially offset by taking it with a fat-containing meal. IFOS-certified EE-form oil taken with food outperforms an unverified TG-form product.</p>
+
+      <h3>What does the Omega-3 Index test actually tell me and should I get one before buying?</h3>
+      <p>Your Omega-3 Index measures EPA + DHA as a percentage of red blood cell membranes &mdash; a 3-to-4-month average of status, not a snapshot of yesterday's meal. Below 4% is high-risk; above 8% is the research-backed target. The guide lists OmegaQuant as a source for $50&ndash;80 finger-stick tests, with a retest window of 3&ndash;4 months after changing your dose. Testing before you start gives you a baseline; testing after tells you whether your current dose is actually moving the needle.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Stop looking at the &ldquo;fish oil&rdquo; number on the front of the

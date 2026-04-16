@@ -590,6 +590,24 @@ Flip the package and scan the inactive ingredients. <strong>Avoid:</strong> citr
         whose dietary intake is genuinely low.
       </p>
 
+      <h3>Is it safe to take 80mg zinc lozenges when the daily limit is 40mg?</h3>
+      <p>Yes, in this specific context &mdash; but the two numbers refer to different situations. The 40mg NIH Tolerable Upper Intake Level applies to chronic daily supplementation. The 75&ndash;92mg/day lozenge protocol is a short-term therapeutic dose used only for the duration of a cold (typically 5&ndash;7 days). At acute lozenge doses, GI side effects &mdash; nausea, stomach upset &mdash; are common and worth expecting. Do not use 80&ndash;92mg/day as a maintenance dose. Once the cold resolves, return to 15&ndash;30mg/day or stop entirely.</p>
+
+      <h3>What does zinc deficiency look like on a blood test?</h3>
+      <p>A standard serum zinc panel is what your doctor orders &mdash; it's a routine blood draw. The guide cites an optimal range of 80&ndash;120 mcg/dL. A result below 80 mcg/dL suggests deficiency; results in the 60&ndash;79 mcg/dL range are typically considered borderline low. One caveat: serum zinc drops during active infection or inflammation, so test when you're healthy for an accurate baseline. For interpreting your specific result or determining whether treatment is warranted, consult your physician.</p>
+
+      <h3>Can I take zinc with my prescription medication?</h3>
+      <p>The guide doesn't cover drug-supplement interactions directly, and this is a genuine patient-safety gap. What is well-established outside this guide: zinc significantly reduces absorption of quinolone and tetracycline antibiotics (it chelates them), and may interact with penicillamine and immunosuppressants. If you take any prescription medication, consult your prescribing physician or pharmacist before adding zinc supplementation. This is especially important if zinc is being taken at therapeutic doses.</p>
+
+      <h3>What should I look for &mdash; and avoid &mdash; on a zinc lozenge ingredient label?</h3>
+      <p>The guide recommends zinc acetate or zinc gluconate for cold lozenges, since both release ionic zinc effectively in the throat. What the guide doesn't address: formulation additives. Research outside this guide suggests citric acid and sorbitol may reduce ionic zinc availability, potentially blunting efficacy. When evaluating lozenges, prioritize zinc acetate as the active form, check for minimal sweeteners, and confirm the elemental zinc dose per lozenge so you can track your daily total against the 75&ndash;92mg therapeutic target.</p>
+
+      <h3>Can children take zinc supplements?</h3>
+      <p>The guide doesn't cover pediatric use. Zinc Upper Intake Levels and safe doses differ substantially by age &mdash; for example, the NIH UL for children aged 4&ndash;8 is just 12mg/day, far below the adult 40mg ceiling. Parents should not extrapolate adult dosing to children. Consult a pediatrician before giving any child zinc supplements, particularly for cold treatment, where the lozenge protocols described in this guide are based on adult studies.</p>
+
+      <h3>Does zinc interact with copper supplements &mdash; can I take them together?</h3>
+      <p>The guide recommends pairing zinc with 1&ndash;2mg of copper daily but doesn't address timing. The depletion mechanism &mdash; zinc inducing intestinal metallothionein, which binds copper and blocks its absorption &mdash; means the two compete at the intestinal level. To minimize this competition, spacing zinc and copper at least 2 hours apart is a reasonable precaution, consistent with the guide's advice to space competing minerals. At minimum, do not skip the copper: the guide is explicit that chronic zinc at 40mg/day or above without copper co-supplementation carries documented deficiency risk.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Zinc is one of those minerals that does a lot of quiet, essential work

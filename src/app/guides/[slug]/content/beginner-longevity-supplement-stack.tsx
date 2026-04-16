@@ -599,6 +599,39 @@ export function BeginnerLongevityStack() {
         annually as new evidence emerges &mdash; the science is moving fast.
       </p>
 
+      <h3>What's the minimum effective stack for a healthy beginner?</h3>
+      <p>Vitamin D3 (2000&ndash;4000 IU/day), magnesium glycinate (300&ndash;400 mg/day), omega-3 (1&ndash;2g combined EPA+DHA), and creatine monohydrate (5g/day). These four cover the highest-evidence deficiencies and longevity adaptations most adults deal with, at a total cost of roughly $30&ndash;40/month.</p>
+
+      <h3>Do I need bloodwork before starting a supplement stack?</h3>
+      <p>No, not for the foundation stack &mdash; the risk of harm at standard doses is very low. But bloodwork transforms supplementation from guessing to precision. A basic panel (vitamin D, ferritin, B12, magnesium RBC) costs ~$100 and tells you exactly what to prioritize.</p>
+
+      <h3>How long until I feel anything from a beginner stack?</h3>
+      <p>Most stack benefits are slow and cumulative. Creatine: 2&ndash;4 weeks for strength effects. Vitamin D: 6&ndash;12 weeks to raise serum levels. Magnesium: 4&ndash;6 weeks for sleep/anxiety effects. Omega-3: 3+ months for cardiovascular markers. If you expected a noticeable day-one change, you're confusing supplements with stimulants.</p>
+
+      <h3>Can I take these supplements if I'm on blood thinners / warfarin?</h3>
+      <p>The guide doesn't cover drug interactions. This is a real safety concern: omega-3 at higher doses has antiplatelet effects, curcumin inhibits platelet aggregation, and vitamin K2 directly affects warfarin's mechanism of action. These aren't theoretical risks &mdash; they can alter your INR and bleeding profile. If you're on warfarin or any anticoagulant, consult your prescribing physician before starting any supplement in this stack.</p>
+
+      <h3>What supplements in this stack should I avoid or adjust during pregnancy?</h3>
+      <p>The guide doesn't address pregnancy. This is a meaningful gap: some supplements discussed here (high-dose fish oil, fat-soluble vitamins, and especially Tier 3 compounds like NMN and spermidine) have either known cautions or completely unknown safety profiles in pregnancy. Do not self-prescribe from this guide if you are pregnant or planning to conceive. Work with your OB or midwife on a pregnancy-appropriate supplement protocol.</p>
+
+      <h3>Which of these supplements are vegan, or do any contain animal products?</h3>
+      <p>The guide doesn't flag animal-derived ingredients, but the sourcing varies. Standard omega-3 (EPA+DHA) is fish-derived; algal omega-3 is the vegan alternative with equivalent EPA+DHA. D3 is typically derived from lanolin (sheep's wool); lichen-derived D3 is the vegan option. K2 MK-7 is usually fermentation-derived and generally vegan, but verify by brand. Creatine monohydrate is synthetically produced and vegan. Check individual product labels to confirm.</p>
+
+      <h3>Does NMN vs. NR actually matter &mdash; which one should I buy?</h3>
+      <p>The guide groups them as 'NAD+ precursors' without distinguishing them. Both raise blood NAD+ levels &mdash; confirmed in human trials &mdash; but the metabolic pathways differ, and NMN costs significantly more than NR. The guide's honest verdict applies to both equally: compelling mechanism, unproven human benefit, and expensive relative to Tier 1 options. If you're choosing between them specifically, the guide doesn't go there &mdash; and the science hasn't clearly settled it either. Prioritize Tiers 1 and 2 first.</p>
+
+      <h3>Can I get too much vitamin D &mdash; what's the toxicity threshold?</h3>
+      <p>Yes. Vitamin D toxicity (hypercalcemia) is real, though rare at standard doses. The guide recommends 2,000&ndash;5,000 IU daily but explicitly states dose should depend on blood levels &mdash; get tested first. The higher end of that range without baseline testing is where risk creeps in, particularly for people who are hypersensitive or already replete. Pairing D3 with K2 (as the guide recommends) helps direct calcium appropriately, but it doesn't eliminate the case for testing before dosing aggressively.</p>
+
+      <h3>Which supplements in this stack interact with each other?</h3>
+      <p>The guide identifies one positive interaction: D3 paired with K2 to direct calcium safely into bone rather than arteries. It doesn't address negative interactions. Notable gaps the guide doesn't cover: piperine (used in curcumin formulations to boost absorption) can alter the absorption of other supplements taken simultaneously; CoQ10 may have additive blood-pressure-lowering effects. If you're on medications, review potential interactions with a pharmacist before combining these.</p>
+
+      <h3>Where can I actually get the omega-3 index test done?</h3>
+      <p>The guide recommends testing your Omega-3 Index but notes 'if your lab offers it' &mdash; most standard clinical labs don't. OmegaQuant is the primary direct-to-consumer option; you order a kit, do a finger-prick blood spot at home, and mail it in. Some functional medicine providers also offer it. The guide correctly treats this as a meaningful longevity biomarker, so it's worth seeking out rather than skipping.</p>
+
+      <h3>Should adults over 65 dose these supplements differently than younger adults?</h3>
+      <p>The guide doesn't address age-specific dosing. This is a genuine gap: vitamin D metabolism, magnesium excretion, and renal function all change meaningfully with age, and creatine's evidence for sarcopenia is most relevant to adults over 60 &mdash; the exact population most likely reading a longevity guide. Adults 65+ should consult a physician before adopting this stack, particularly if kidney function is a concern or if multiple medications are involved.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         The best longevity stack isn&rsquo;t the most expensive one. It&rsquo;s

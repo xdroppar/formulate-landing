@@ -737,6 +737,27 @@ export function IronGuide() {
         tolerate any non-heme form.
       </p>
 
+      <h3>How do I get a ferritin test if my doctor won't order one?</h3>
+      <p>Direct-to-consumer lab services let you order a ferritin test without a physician's order. Services like Ulta Lab Tests and Any Lab Test Now typically charge $30&ndash;50 cash pay for a standalone ferritin panel. Alternatively, when seeing your GP, request ferritin by name &mdash; not just a CBC or hemoglobin &mdash; and explain your symptoms. Many doctors default to hemoglobin alone, which the guide notes is insufficient for catching iron deficiency without anemia.</p>
+
+      <h3>How much elemental iron is in my specific iron supplement?</h3>
+      <p>Elemental iron content varies significantly by form. Ferrous fumarate is approximately 33% elemental iron; ferrous sulfate, 20%; iron bisglycinate, roughly 20%; and ferrous gluconate, about 12%. Practically: a 325mg ferrous sulfate tablet delivers ~65mg elemental iron, while a 100mg bisglycinate capsule delivers ~20mg. Always check the Supplement Facts panel for the elemental iron figure &mdash; the compound weight on the front label is not what your body absorbs.</p>
+
+      <h3>Can I take iron while pregnant without a doctor's prescription?</h3>
+      <p>The guide doesn't address whether self-initiating OTC iron during pregnancy is appropriate, and this is a case where consulting your OB or midwife matters. While the guide notes ACOG supports 27mg daily during pregnancy, gestational iron needs vary, GI side effects can be more severe in pregnancy, and monitoring for overload requires clinical context. OTC iron at standard prenatal doses is widely used, but dosing and form decisions during pregnancy should be confirmed with your healthcare provider.</p>
+
+      <h3>Iron bisglycinate vs. ferrous sulfate &mdash; which is cheaper and by how much?</h3>
+      <p>The guide doesn't provide specific pricing, but iron bisglycinate typically costs 2&ndash;4x more per dose than ferrous sulfate. However, bisglycinate achieves equivalent repletion at roughly half the dose (per the 2014 Name et al. study cited in the guide), which narrows the real cost gap considerably. If tolerability isn't an issue, ferrous sulfate is a defensible budget choice. If GI side effects cause you to stop taking it &mdash; which happens in 30&ndash;40% of users &mdash; bisglycinate's higher sticker price may be the cheaper option in practice.</p>
+
+      <h3>What do I do if my ferritin is above 150 but I have no symptoms?</h3>
+      <p>The guide doesn't cover next steps for mildly elevated ferritin beyond flagging it as worth investigating. Ferritin above 150 ng/mL without a clear cause &mdash; such as recent illness or inflammation &mdash; warrants follow-up with your physician. The guide mentions HFE gene testing for hereditary hemochromatosis and notes that ferritin also rises as an acute-phase reactant. For specific guidance on which tests to request or whether to discontinue iron-containing supplements, consult a physician, as next steps depend on your full clinical picture.</p>
+
+      <h3>Is liquid iron better than pills for people with GI issues?</h3>
+      <p>The guide doesn't address liquid iron formulations directly. Generally, the same principles apply: the iron form matters more than the delivery format. Liquid bisglycinate or liquid ferrous gluconate may be easier to tolerate for people with swallowing difficulties or severe nausea. The guide does establish that chelated forms like bisglycinate cause fewer GI side effects than ferrous sulfate regardless of format. For specific use during pregnancy or in elderly patients, consult a healthcare provider about appropriate formulations and doses.</p>
+
+      <h3>Can children take adult iron supplements and what's the dose?</h3>
+      <p>The guide doesn't cover pediatric iron dosing, and this is a gap where it's important not to improvise. The guide explicitly flags iron toxicity risk in children in the context of carbonyl iron. Pediatric iron dosing is weight-based and age-dependent, and accidental overdose is a leading cause of poisoning deaths in young children. Do not use adult iron supplements for a child without guidance from a pediatrician. If your child has suspected iron deficiency, request ferritin testing and dosing recommendations from their doctor.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Iron is the supplement that demands the most respect. Unlike

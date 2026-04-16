@@ -637,6 +637,27 @@ Tier 3 supplements tend to be the most expensive per month and the least likely 
         </a>.
       </p>
 
+      <h3>Can I take creatine if I have kidney disease or high creatinine?</h3>
+      <p>The guide doesn't cover this directly. Creatine supplementation raises serum creatinine as a byproduct of normal creatine metabolism &mdash; this can falsely suggest reduced kidney function on standard labs, and the distinction matters if you already have kidney disease or elevated creatinine. If you have any diagnosed kidney condition or abnormal kidney markers, consult a nephrologist or physician before starting creatine. This is a case where the guide's general recommendation doesn't apply without medical clearance.</p>
+
+      <h3>What supplements should I avoid while pregnant or breastfeeding?</h3>
+      <p>The guide doesn't cover pregnancy or breastfeeding at all. This is a meaningful gap: high-dose vitamin A (common in multivitamins) is teratogenic above certain thresholds, some herbal compounds have unknown safety profiles in pregnancy, and even fish oil dosing has pregnancy-specific guidance. Do not use this guide to build a supplement stack during pregnancy or while breastfeeding. Consult your OB-GYN or midwife &mdash; prenatal-specific supplementation guidance exists and is meaningfully different.</p>
+
+      <h3>Do any of these supplements interact with my medication (antidepressants, blood thinners, statins)?</h3>
+      <p>The guide flags interactions as a concern but doesn't detail specific risks. Several are clinically significant: K2 (MK-7) can interfere with warfarin's anticoagulant effect; high-dose omega-3 may increase bleeding risk on blood thinners; CoQ10 has documented interactions with statins; St. John's Wort (not in this guide but common in stacks) severely reduces SSRI efficacy. If you take any prescription medication, review your full supplement list with a pharmacist or physician before starting &mdash; this is a non-negotiable step the guide doesn't substitute for.</p>
+
+      <h3>How long before I see results from vitamin D or magnesium supplementation?</h3>
+      <p>The guide recommends running the starter stack for 4&ndash;6 weeks before evaluating results, which is reasonable for both. Vitamin D levels typically rise measurably within 4&ndash;8 weeks of consistent supplementation, but symptoms of deficiency (fatigue, mood, immune function) may improve before bloodwork reflects full correction. Magnesium changes can appear faster &mdash; some people notice improved sleep and reduced muscle tension within 1&ndash;2 weeks. Bloodwork at 6&ndash;8 weeks is the most reliable way to confirm progress rather than relying on subjective feel alone.</p>
+
+      <h3>Is creatine safe for teenagers?</h3>
+      <p>The guide doesn't address age-specific safety for creatine. Most major sports medicine and pediatric organizations have historically recommended against creatine supplementation for under-18s, citing insufficient long-term safety data in adolescents rather than known harm. The guide's recommendation applies to adults. If you're considering creatine for a teenager, consult a sports medicine physician or pediatrician &mdash; this guide doesn't provide a basis for that decision.</p>
+
+      <h3>What's the best vegan omega-3 supplement?</h3>
+      <p>The guide only mentions fish oil and marine omega-3 without addressing vegan sources. Algae-based DHA/EPA is the only evidence-supported vegan alternative &mdash; it's also the original source fish accumulate omega-3 from, so bioavailability is comparable. Look for algae oil products that list EPA and DHA amounts separately, targeting the same 1,000&ndash;2,000mg combined EPA+DHA the guide recommends. Apply the same quality criteria: third-party testing, disclosed oxidation values, and transparent labeling.</p>
+
+      <h3>Can I take magnesium and zinc together?</h3>
+      <p>The guide doesn't address this combination directly. At supplemental doses, high zinc (above ~40mg/day) competes with copper absorption and can deplete it over time &mdash; this is a more established concern than zinc-magnesium competition. Zinc and magnesium at typical stack doses (200&ndash;400mg magnesium glycinate, 15&ndash;30mg zinc) are generally taken together without issue, but if you're using high-dose zinc for immune or testosterone goals, pair it with a small amount of copper (1&ndash;2mg) and avoid taking it simultaneously with iron.</p>
+
       <h2>Track Your Stack With Formulate</h2>
       <p>
         The Formulate app lets you build your stack, compare products by

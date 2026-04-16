@@ -489,6 +489,36 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
         stay consistent.
       </p>
 
+      <h3>Do I need a pre-workout supplement?</h3>
+      <p>No. For most trainees, creatine, caffeine, and adequate carbs cover 90% of the performance benefit a pre-workout delivers. Dedicated pre-workouts add convenience and extras like beta-alanine and citrulline &mdash; useful but not essential. If you're new to lifting, a simple cup of coffee 30&ndash;60 minutes before training is a reasonable starting protocol.</p>
+
+      <h3>How much caffeine is effective before training?</h3>
+      <p>3&ndash;6 mg per kg of bodyweight, taken 30&ndash;60 minutes before training. That's roughly 200&ndash;400 mg for most adults. Above 6 mg/kg, side effects (jitters, GI distress, elevated heart rate) rise without additional performance benefit. Regular caffeine consumers may need the higher end of this range due to tolerance.</p>
+
+      <h3>What does citrulline actually do?</h3>
+      <p>L-citrulline raises plasma arginine, which supports nitric oxide production and vasodilation. Effective doses are 6&ndash;8g of L-citrulline or 8g of citrulline malate. Meta-analyses show small but measurable increases in reps-to-failure and reductions in perceived exertion. Most commercial pre-workouts underdose it &mdash; check for at least 6g per serving.</p>
+
+      <h3>is pre-workout safe during pregnancy</h3>
+      <p>The guide doesn't cover pregnancy or prenatal contraindications. This is a meaningful gap: the caffeine doses recommended here (3&ndash;6mg/kg, or 210&ndash;420mg for a 70kg person) far exceed the 200mg/day ceiling widely cited for pregnancy. Do not follow this protocol while pregnant without explicit medical clearance. Consult your OB or midwife before using any pre-workout supplement, including individual ingredients like caffeine and creatine.</p>
+
+      <h3>does creatine cause hair loss</h3>
+      <p>The guide doesn't address this concern. The hypothesis comes from a single 2009 study showing creatine supplementation raised DHT (a hormone linked to androgenic hair loss) in rugby players &mdash; but no study has directly measured creatine's effect on hair loss. Current evidence is insufficient to confirm a causal link. If you have a personal or family history of androgenic alopecia and are concerned, discuss creatine use with a dermatologist or physician before starting.</p>
+
+      <h3>pre-workout supplement interactions with SSRIs / antidepressants</h3>
+      <p>The guide doesn't cover drug interactions. This is a real concern: caffeine interacts with MAOIs (a class of antidepressants) and can potentiate cardiovascular side effects. High-dose citrulline may amplify the blood-pressure-lowering effects of certain medications, including PDE5 inhibitors. If you take any prescription medication &mdash; including antidepressants &mdash; consult your prescribing physician or pharmacist before adding high-dose caffeine or citrulline to your routine.</p>
+
+      <h3>best pre-workout for women</h3>
+      <p>The guide's dosing examples use a 70kg reference, but the principles apply to any bodyweight &mdash; caffeine is dosed per kilogram, so a 60kg woman would use 180&ndash;360mg rather than 210&ndash;420mg. The guide doesn't address sex-specific differences in caffeine sensitivity or creatine response rates. Women tend to have smaller absolute muscle mass, which can affect creatine saturation timelines. The core stack (creatine, citrulline, beta-alanine, optional caffeine) has evidence across sexes; adjust all weight-based doses to your actual bodyweight.</p>
+
+      <h3>how to mix creatine and citrulline together &mdash; do they interact</h3>
+      <p>The guide doesn't address mixing compatibility directly. There is no known chemical interaction between creatine monohydrate, L-citrulline, and beta-alanine that would reduce their efficacy when combined in one shaker. Practically, creatine monohydrate dissolves best in warm water and may clump in cold liquid; citrulline and beta-alanine dissolve readily. Mixing all four ingredients in a single serving is standard practice and the guide explicitly recommends it for convenience &mdash; no special sequencing or separation is required.</p>
+
+      <h3>citrulline malate vs L-citrulline which to buy</h3>
+      <p>Buy whichever form delivers 6&ndash;8g of actual citrulline at the lowest cost per dose. The guide explains the math clearly: citrulline malate (2:1) is roughly 67% citrulline by weight, so you need ~9&ndash;12g of the bonded form to match 6&ndash;8g of pure L-citrulline. Pure L-citrulline typically requires less powder per effective dose and is often cheaper per gram of active ingredient. Check the label math on any product before buying &mdash; the form matters less than hitting the clinical dose.</p>
+
+      <h3>pre-workout without caffeine &mdash; does it actually work</h3>
+      <p>Yes, with realistic expectations. The guide notes caffeine is optional, and the remaining three ingredients carry independent, well-documented benefits: creatine increases strength and power output, beta-alanine improves capacity in the 60&ndash;240 second effort range, and citrulline increased reps to failure by 52.9% in a key bench press study. You won't get the acute alertness or perceived-fatigue reduction that caffeine provides, but the structural performance benefits from a stimulant-free stack are real &mdash; they just require 3&ndash;4 weeks of consistent loading to fully emerge.</p>
+
       <h2>Build This Stack in Formulate</h2>
       <p>
         Add each ingredient to your stack in the Formulate app to track

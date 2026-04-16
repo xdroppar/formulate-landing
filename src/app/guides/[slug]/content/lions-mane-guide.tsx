@@ -518,6 +518,27 @@ Many popular brands — including several you'll see recommended on Reddit — f
         less common and more expensive.
       </p>
 
+      <h3>What is the best lion's mane supplement brand?</h3>
+      <p>The guide doesn't evaluate or rank specific brands. Instead, it identifies quality markers you can apply yourself: fruiting body extract (not myceliated grain), dual extraction (hot water + alcohol), beta-glucan content ≥25%, starch content ≤5%, and third-party heavy metal testing. Any product meeting all five criteria is a sound choice. Use these as a checklist when comparing options rather than relying on brand reputation alone.</p>
+
+      <h3>Can I take lion's mane while pregnant or breastfeeding?</h3>
+      <p>The guide doesn't address pregnancy or lactation &mdash; and neither does the published clinical literature in any meaningful way. This is a genuine gap. Given that safety data for any supplement during pregnancy is limited by ethical constraints on research, consult your OB-GYN or midwife before using lion's mane while pregnant or breastfeeding. Don't rely on general supplement safety profiles here; the populations are too different.</p>
+
+      <h3>Lion's mane side effects long-term</h3>
+      <p>The guide is candid about a limitation worth flagging: the longest human trial on record (Mori 2009) ran only 16 weeks. There are no published long-term human safety studies beyond that window. Short-term, lion's mane is well-tolerated &mdash; mild digestive discomfort at higher doses is the most common complaint and usually resolves quickly. For use beyond several months, the honest answer is that the data doesn't exist yet. If you're supplementing long-term, periodic check-ins with a healthcare provider are reasonable.</p>
+
+      <h3>Does lion's mane work for ADHD?</h3>
+      <p>The guide doesn't address ADHD specifically, and no published human trials have tested lion's mane in ADHD populations. The mechanism &mdash; NGF stimulation supporting neuronal growth and myelination &mdash; is plausible for general cognitive support, but "general focus" and attention-deficit disorder are clinically distinct. Critically, the guide does not cover interactions with stimulant medications (amphetamines, methylphenidate). If you're managing ADHD, discuss lion's mane with a prescribing physician before adding it to your regimen.</p>
+
+      <h3>Lion's mane certificate of analysis &mdash; how to read it</h3>
+      <p>The guide advises seeking third-party testing and checking beta-glucan content (≥25%) and starch content (≤5%), but doesn't explain how to evaluate a COA itself. Generally, a credible COA will identify the testing laboratory by name, list the specific analytes tested (beta-glucans, heavy metals, microbial contamination), show results against pass/fail specifications, and include a test date. Recognized labs include Eurofins, NSF, and USP-accredited facilities. Request COAs directly from manufacturers &mdash; reputable brands post them publicly or provide them on request.</p>
+
+      <h3>Lion's mane vs. other mushroom supplements (reishi, cordyceps, chaga)</h3>
+      <p>The guide focuses exclusively on lion's mane and doesn't compare it to other medicinal mushrooms. What it does establish is lion's mane's specific mechanism: NGF and BDNF stimulation for cognitive and neurological support. Reishi, cordyceps, and chaga have different proposed mechanisms and evidence bases &mdash; none of which the guide covers. If you're choosing between mushroom supplements for cognitive goals specifically, lion's mane has the strongest targeted human trial data for that outcome. For other goals, consult category-specific resources.</p>
+
+      <h3>Can I take lion's mane every day or should I cycle it?</h3>
+      <p>The guide supports daily use &mdash; the Mori 2009 trial ran daily dosing for 16 weeks, and cognitive scores declined within 4 weeks of stopping, suggesting sustained supplementation is required to maintain benefits. The guide does not discuss cycling protocols, and there's no published human evidence showing that cycling improves outcomes or prevents tolerance. Until evidence suggests otherwise, daily use at 500&ndash;1,000mg is the approach supported by available research.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Lion&rsquo;s mane is one of the few nootropic supplements with a

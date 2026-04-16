@@ -606,6 +606,36 @@ export function ElectrolytesGuide() {
         healthy individuals are very unlikely to experience any of these.
       </p>
 
+      <h3>Do I really need electrolyte supplements?</h3>
+      <p>Only under specific conditions: high sweat loss (over 60 min of exercise, hot climates), low-carb diets (which increase sodium excretion), illness with vomiting/diarrhea, or high water intake without food. Most sedentary adults eating normally don't need them. The 'everyone needs electrolytes' marketing push is overstated.</p>
+
+      <h3>What's a good sodium-to-potassium ratio?</h3>
+      <p>For exercise and hydration, roughly 3:1 sodium to potassium (e.g., 600 mg sodium + 200 mg potassium per serving) matches typical sweat losses. Products with equal or higher potassium are formulated for medical rehydration, not athletic use. LMNT, Liquid IV, and DripDrop all use variations on this ratio.</p>
+
+      <h3>Is table salt enough, or do I need a supplement?</h3>
+      <p>For most people with normal activity levels, salting food to taste covers sodium needs. Electrolyte supplements become worth it when you're sweating heavily, on a low-carb diet, or need precise dosing during endurance events. For everyday hydration, plain water + a normal diet handles it.</p>
+
+      <h3>Is it safe to take NoSalt or NuSalt if I'm on blood pressure medication?</h3>
+      <p>Do not use NoSalt or NuSalt without consulting your prescribing physician if you take blood pressure medication. The guide notes that ACE inhibitors, ARBs, and potassium-sparing diuretics all affect potassium balance &mdash; and adding supplemental potassium chloride on top of these medications can cause dangerous hyperkalemia (elevated blood potassium), which can trigger cardiac arrhythmia. This interaction is not covered in detail in the guide. Your doctor can review your specific medication and kidney function before you add any potassium source.</p>
+
+      <h3>How much potassium is too much per day from supplements?</h3>
+      <p>The guide targets up to 3,500mg/day of potassium for keto dieters, but doesn't state the tolerable upper intake or explain why OTC potassium pills are capped at 99mg per tablet by the FDA. That cap exists specifically because high-dose potassium can cause hyperkalemia &mdash; dangerously elevated blood potassium &mdash; particularly in people with impaired kidney function or on certain medications. The gap between a 99mg pill and a 3,500mg daily target is typically made up through food and potassium chloride salt substitutes, not by taking dozens of pills.</p>
+
+      <h3>Electrolytes during pregnancy &mdash; what's safe?</h3>
+      <p>The guide doesn't cover pregnancy. Pregnancy significantly alters fluid and electrolyte needs, and conditions like pre-eclampsia can make standard sodium advice inappropriate. Do not apply the doses or protocols in this guide during pregnancy without guidance from your OB or midwife. This is a case where individual medical supervision is essential, not optional.</p>
+
+      <h3>What kind of magnesium powder should I buy for the DIY recipe?</h3>
+      <p>Buy a pure magnesium citrate powder sold as a dietary supplement &mdash; not a laxative preparation like Milk of Magnesia or liquid magnesium citrate bowel-prep products, which are entirely different formulations. Look for bulk magnesium citrate powder from a supplement supplier; the label should list elemental magnesium per gram. The guide's magnesium supplement roundup covers form selection in more detail if you want to compare alternatives like magnesium glycinate or malate.</p>
+
+      <h3>Do electrolytes break a fast?</h3>
+      <p>The guide recommends spreading electrolyte intake throughout fasting windows but doesn't address whether flavored electrolyte products break a fast. Plain sodium, potassium, and magnesium dissolved in water contain no calories and are generally considered fasting-compatible. However, products containing citric acid, natural flavors, stevia, or trace carbohydrates may affect insulin response depending on your fasting goal. For strict fasting protocols, use unflavored electrolytes or add only plain lemon juice, as the DIY recipe does.</p>
+
+      <h3>Electrolytes for children &mdash; are adult doses safe?</h3>
+      <p>The guide doesn't address pediatric dosing. Adult electrolyte targets &mdash; up to 5,000mg sodium and 3,500mg potassium daily &mdash; are not appropriate for children, and medical keto protocols for epilepsy in particular require individualized clinical management. Do not use adult supplement doses for children. Consult a pediatrician or registered dietitian, especially if your child is on a therapeutic ketogenic diet.</p>
+
+      <h3>Can I get enough potassium from food without supplements?</h3>
+      <p>Yes, for many people &mdash; the guide's banana-and-avocado example illustrates difficulty hitting 4,700mg/day, but other high-potassium foods are more practical. A large baked potato with skin (~900mg), a cup of cooked lentils (~730mg), cooked spinach (~840mg per cup), and a salmon fillet (~600mg) all deliver meaningful potassium. Stacking several of these daily can get you close to the AI without supplements. Supplementation becomes more relevant if you eat low-carb, fast, or restrict potassium-rich foods.</p>
+
       <h2>The Bottom Line</h2>
       <p>
         Electrolyte balance is one of the highest-impact, lowest-cost
