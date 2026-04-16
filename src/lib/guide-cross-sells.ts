@@ -216,6 +216,37 @@ export const guideCrossSells: Record<string, CrossSellLink[]> = {
     { slug: "protein-intake-muscle-after-40", label: "Protein Intake After 40", blurb: "Anabolic resistance means older adults need more per meal, not less." },
     { slug: "best-vitamin-d-supplements", label: "Best Vitamin D Supplements", blurb: "Low D directly worsens sarcopenia; correction improves strength." },
   ],
+  // ------------------------------- New spoke guides
+  "creatine-for-women": [
+    { slug: "best-creatine-supplements", label: "Best Creatine Supplements", blurb: "Which creatine to buy once you've decided to supplement — same picks apply to women." },
+    { slug: "creatine-and-hair-loss", label: "Creatine and Hair Loss", blurb: "Why the hair-loss concern doesn't apply to women — and barely applies to men." },
+    { slug: "creatine-loading-phase", label: "Creatine Loading: Yes or No?", blurb: "Saturation math and who actually benefits from loading vs steady-state dosing." },
+  ],
+  "best-time-to-take-magnesium": [
+    { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Which form to pick before you decide when to take it — form drives timing." },
+    { slug: "signs-you-are-magnesium-deficient", label: "Signs You're Magnesium Deficient", blurb: "Whether timing even matters depends on whether you're deficient in the first place." },
+    { slug: "supplement-timing-guide", label: "Supplement Timing Guide", blurb: "How magnesium fits alongside the rest of your daily supplement schedule." },
+  ],
+  "alpha-gpc-vs-citicoline": [
+    { slug: "nootropics-guide", label: "Nootropics Guide", blurb: "Where choline sources fit in the broader cognitive-support landscape." },
+    { slug: "lions-mane-guide", label: "Lion's Mane Guide", blurb: "Complementary nootropic often stacked with choline for nerve growth factor support." },
+    { slug: "best-pre-workout-supplement-protocol", label: "Best Pre-Workout Protocol", blurb: "Alpha-GPC is one of the few cognitive ingredients with real pre-workout performance data." },
+  ],
+  "best-adaptogens-for-stress": [
+    { slug: "ashwagandha-guide", label: "Ashwagandha Guide", blurb: "Deep-dive on the strongest-evidence adaptogen for chronic stress." },
+    { slug: "best-sleep-supplement-protocol", label: "Best Sleep Supplement Protocol", blurb: "Stress and sleep are tightly coupled — adaptogens fit into the evening stack." },
+    { slug: "nootropics-guide", label: "Nootropics Guide", blurb: "Rhodiola and other adaptogens overlap with the nootropic space for cognitive performance under pressure." },
+  ],
+  "creatine-and-hair-loss": [
+    { slug: "best-creatine-supplements", label: "Best Creatine Supplements", blurb: "Which creatine to buy once the hair-loss concern is off the table." },
+    { slug: "creatine-for-women", label: "Creatine for Women", blurb: "Why female pattern hair loss operates through different mechanisms than the 2009 rugby-player study." },
+    { slug: "creatine-loading-phase", label: "Creatine Loading: Yes or No?", blurb: "Skip the loading phase if you want to avoid even the theoretical DHT bump." },
+  ],
+  "vitamin-d3-vs-d2": [
+    { slug: "best-vitamin-d-supplements", label: "Best Vitamin D Supplements", blurb: "Which D3 product to buy now that you've ruled out D2." },
+    { slug: "best-magnesium-supplements", label: "Best Magnesium Supplements", blurb: "Magnesium is a required cofactor for both hepatic and renal vitamin D activation." },
+    { slug: "how-to-read-a-supplement-label", label: "How to Read a Supplement Label", blurb: "How to spot 'cholecalciferol' vs 'ergocalciferol' on the ingredients panel." },
+  ],
 };
 
 export function getCrossSellsForGuide(slug: string): CrossSellLink[] | undefined {

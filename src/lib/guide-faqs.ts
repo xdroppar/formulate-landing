@@ -1803,6 +1803,188 @@ export const guideFaqs: Record<string, FaqItem[]> = {
         "Exercise is the primary driver; protein is the enabler. Resistance training triggers muscle protein synthesis; protein provides the substrate. Neither works well alone in older adults — protein without training produces no meaningful muscle gain, and training without sufficient protein leaves gains on the table. Both are non-negotiable.",
     },
   ],
+  "creatine-for-women": [
+    {
+      question: "Is creatine safe during pregnancy or breastfeeding?",
+      answer:
+        "There is no robust human safety data for creatine supplementation during pregnancy or lactation. Animal studies (Dickinson et al., 2014) suggest creatine may offer fetal neuroprotective benefits, but this research is preclinical and not clinically actionable. The prudent approach is to stop supplementation when trying to conceive and consult your OB-GYN before resuming at any point during pregnancy or breastfeeding.",
+    },
+    {
+      question: "Does creatine affect PCOS or hormonal balance?",
+      answer:
+        "No published research links creatine supplementation to worsening of PCOS symptoms or clinically meaningful changes in female sex hormones at standard doses (3–5 g/day). That said, PCOS involves complex androgen dynamics, and if you're concerned, discuss it with your endocrinologist. Creatine does not contain hormones and does not directly stimulate androgen production.",
+    },
+    {
+      question: "Can I take creatine while trying to lose weight?",
+      answer:
+        "Yes. Creatine itself has zero calories and does not promote fat gain. The 1–2 lb scale increase from intracellular water can be psychologically frustrating during a cut, but your actual fat-loss trajectory is unaffected. In fact, creatine may help preserve lean mass during a calorie deficit by maintaining training intensity — which is exactly what you want during weight loss.",
+    },
+    {
+      question: "Should I cycle creatine or take breaks?",
+      answer:
+        "No cycling is necessary. The ISSN position stand supports continuous daily use. Your body doesn't build a tolerance to creatine the way it might with caffeine. When you stop supplementing, muscle creatine levels return to baseline over about 4–6 weeks. There's no rebound or withdrawal effect.",
+    },
+    {
+      question: "Does creatine need to be timed with my menstrual cycle?",
+      answer:
+        "No. There is currently no evidence that creatine efficacy varies across menstrual cycle phases. Some researchers have hypothesized that the luteal phase (higher progesterone) might affect creatine kinetics, but this has not been demonstrated in controlled trials. Take 3–5 g daily regardless of cycle phase.",
+    },
+    {
+      question: "Can creatine help with perimenopause brain fog?",
+      answer:
+        "Possibly. Creatine supports brain ATP availability, and the Avgerinos et al. (2018) meta-analysis found cognitive benefits particularly under conditions of stress or sleep deprivation. Many perimenopausal women report both. However, no trial has specifically tested creatine for perimenopause-related cognitive complaints. It's a reasonable hypothesis, not a proven treatment.",
+    },
+  ],
+  "best-time-to-take-magnesium": [
+    {
+      question: "Can I take magnesium and calcium at the same time?",
+      answer:
+        "It's better not to. Calcium and magnesium compete for the same intestinal absorption pathways. Taking them together reduces how much of each you absorb. A simple fix: calcium in the morning, magnesium in the evening (or at least 2 hours apart). If your multivitamin contains both, the doses are usually low enough that competition is minimal.",
+    },
+    {
+      question: "Does magnesium make you sleepy? Should I avoid it in the morning?",
+      answer:
+        "Only certain forms have notable calming effects. Magnesium glycinate and taurate may promote relaxation, making them better suited for evening use. Magnesium citrate and threonate (morning dose) are unlikely to cause daytime drowsiness. If you notice fatigue after a morning dose, switch that serving to the evening and observe the difference.",
+    },
+    {
+      question: "How long after coffee should I wait to take magnesium?",
+      answer:
+        "At least one hour. Coffee's tannins and polyphenols can bind divalent minerals like magnesium in the gut and reduce absorption. This applies to tea as well. The simplest approach is to take your morning magnesium with breakfast after you've finished your coffee, rather than alongside it.",
+    },
+    {
+      question: "Can I take magnesium on an empty stomach?",
+      answer:
+        "You can, and absorption is technically better on an empty stomach. However, many people experience nausea, cramping, or loose stools — especially with citrate. Glycinate and threonate are usually tolerated well without food. If you notice any GI discomfort, switch to taking it with a meal. The absorption difference is modest; the compliance difference is huge.",
+    },
+    {
+      question: "What happens if I take magnesium at the \"wrong\" time?",
+      answer:
+        "Nothing dangerous. Magnesium doesn't become harmful based on timing. You just miss out on form-specific benefits — glycine's calming effect wasted during the day, citrate's laxative effect disrupting your sleep. If you can only remember to take it at one specific time daily, take it then. Consistency matters more than perfect timing.",
+    },
+    {
+      question: "I take magnesium for leg cramps at night. When should I dose it?",
+      answer:
+        "Try taking magnesium glycinate 1–2 hours before bed. This gives the mineral time to reach meaningful serum levels before the overnight hours when nocturnal cramps typically strike. If cramps happen during exercise instead, take your dose 1–2 hours before your workout. Consistent daily supplementation matters more than single-dose timing for cramp prevention.",
+    },
+  ],
+  "alpha-gpc-vs-citicoline": [
+    {
+      question: "Is Alpha-GPC or citicoline better for studying?",
+      answer:
+        "For acute study sessions where you need focus now, Alpha-GPC has the edge due to faster onset and higher choline yield. For sustained academic performance over a semester — memory consolidation, consistent attention — citicoline's neuroprotective and membrane-building properties may serve you better. Many students cycle between both depending on the phase of their schedule.",
+    },
+    {
+      question: "Can I take choline bitartrate instead?",
+      answer:
+        "You can, but you probably shouldn't if cognition is your goal. Choline bitartrate is the cheapest form but crosses the blood–brain barrier poorly. It may support liver function and meet basic choline needs, but for nootropic purposes, both Alpha-GPC and citicoline significantly outperform it. The price difference is justified by the bioavailability gap.",
+    },
+    {
+      question: "What does a choline headache mean?",
+      answer:
+        "A headache from choline supplementation usually signals excess acetylcholine activity. It's more common with Alpha-GPC because of its rapid BBB crossing. The fix is simple: lower the dose. If 600 mg causes headaches, try 300 mg. If it persists, switch to citicoline, which is less likely to cause this side effect.",
+    },
+    {
+      question: "Do I need choline supplements if I eat eggs daily?",
+      answer:
+        "One large egg contains about 147 mg of choline. The adequate intake for adult men is 550 mg/day. So three eggs gets you close to dietary adequacy. However, dietary choline and supplemental phospholipid-bound choline (Alpha-GPC, citicoline) behave differently in terms of brain delivery. You can be meeting dietary needs while still benefiting from supplemental forms for cognitive purposes.",
+    },
+    {
+      question: "Are there any interactions with medications?",
+      answer:
+        "Both Alpha-GPC and citicoline can theoretically amplify the effects of acetylcholinesterase inhibitors (donepezil, rivastigmine) used for Alzheimer's disease. If you're on anticholinergic medications, supplemental choline may partially counteract their effects. Scopolamine, certain antihistamines, and some antidepressants fall in this category. Consult your prescriber before combining.",
+    },
+  ],
+  "best-adaptogens-for-stress": [
+    {
+      question: "Are adaptogens safe during pregnancy or breastfeeding?",
+      answer:
+        "There is insufficient safety data for ashwagandha, rhodiola, or reishi during pregnancy or breastfeeding. Ashwagandha has traditional use in Ayurveda during pregnancy, but modern safety studies in pregnant women are lacking. Rhodiola and reishi have even less data in this population. The safest approach is to avoid all three unless your OB/midwife specifically approves them. Don't rely on \"natural = safe\" reasoning.",
+    },
+    {
+      question: "Will adaptogens interact with my SSRI or anxiety medication?",
+      answer:
+        "Ashwagandha may potentiate GABAergic and serotonergic medications, theoretically amplifying sedation or increasing serotonin levels. Rhodiola modulates monoamine neurotransmitters and could interact with SSRIs, MAOIs, or stimulant medications. Reishi is the least concerning on this front but may interact with immunosuppressants or anticoagulants. If you're on any prescription psychiatric medication, talk to your prescriber before starting an adaptogen.",
+    },
+    {
+      question: "How long should I take an adaptogen before deciding it doesn't work?",
+      answer:
+        "Give ashwagandha a full 8-week trial at the proper dose — the cortisol-reduction data peaks around 60 days. Rhodiola can be assessed more quickly: if you don't notice fatigue improvements within 2–4 weeks of daily use, it may not be the right fit. Reishi is the hardest to evaluate because its effects are subtle; 4–6 weeks is a reasonable minimum.",
+    },
+    {
+      question: "Can I develop tolerance to adaptogens?",
+      answer:
+        "Rhodiola is the most likely of the three to develop tolerance with continuous use, which is why cycling (4 weeks on, 1–2 off) is commonly recommended. Ashwagandha does not appear to lose efficacy over months of daily use in published trials up to 12 weeks. Reishi tolerance has not been systematically studied, but long-term traditional use suggests it remains effective.",
+    },
+    {
+      question: "Can I take adaptogens with caffeine?",
+      answer:
+        "Yes. Rhodiola pairs particularly well with caffeine for focused work — the anti-fatigue and cognitive effects are complementary. Ashwagandha is slightly calming, so it can blunt caffeine jitters without negating alertness in most people. Reishi is neutral to mildly calming and won't significantly interact with caffeine. None of the three have documented negative interactions with moderate caffeine intake.",
+    },
+    {
+      question: "Are there adaptogens better than these three?",
+      answer:
+        "Holy basil (tulsi), eleuthero (Siberian ginseng), and schisandra are sometimes cited as adaptogens. Holy basil has moderate anxiolytic evidence; eleuthero has older Soviet-era studies that are harder to verify by modern standards; schisandra has some anti-fatigue data. None match the depth of evidence behind ashwagandha and rhodiola for stress. They're worth exploring if the big three don't work for you, but start with stronger evidence first.",
+    },
+  ],
+  "creatine-and-hair-loss": [
+    {
+      question: "Does creatine directly cause hair loss?",
+      answer:
+        "No direct evidence exists that creatine causes hair loss. The 2009 study that started the concern measured a DHT increase in blood, not hair loss on the scalp. No study has ever tracked actual hair loss in creatine users. After 15+ years and thousands of creatine studies, the absence of replication is itself meaningful.",
+    },
+    {
+      question: "Should I get genetic testing before taking creatine?",
+      answer:
+        "Genetic testing for androgenic alopecia risk exists (23andMe and similar services report some hair-loss-related SNPs), but it's not necessary before taking creatine. The creatine-to-DHT-to-hair-loss chain is speculative at every link. If you're curious about your hair loss risk in general, genetic testing might satisfy that curiosity, but it shouldn't be a creatine-specific decision.",
+    },
+    {
+      question: "If I stop creatine, will my hair grow back?",
+      answer:
+        "If you're experiencing hair loss, it's almost certainly androgenic alopecia driven by your genetics, not creatine. Stopping creatine is unlikely to reverse or halt the process. True hair regrowth requires pharmacological intervention (finasteride, minoxidil, or both) and/or procedural treatments. Don't give up a well-supported supplement hoping it will fix a genetic condition.",
+    },
+    {
+      question: "Are there other supplements that affect DHT?",
+      answer:
+        "Yes. Saw palmetto has some evidence for mild 5-alpha reductase inhibition, though it's far weaker than finasteride. Vitamin D deficiency has been loosely associated with hair loss, though the mechanism is different from androgenic alopecia. Zinc and biotin deficiencies can cause hair shedding, but again, that's nutritional hair loss, not DHT-mediated pattern baldness.",
+    },
+    {
+      question: "Does creatine affect women's hair differently?",
+      answer:
+        "The 2009 study only included men. Female pattern hair loss involves androgens but also has distinct hormonal and genetic components. There is no evidence — even speculative — linking creatine to hair loss in women. Creatine for women is supported by the same strong safety and efficacy data as for men.",
+    },
+    {
+      question: "Is there a \"safe\" dose of creatine for people worried about hair?",
+      answer:
+        "The standard 3–5 g/day maintenance dose is the only dose with long-term safety data. The 2009 study used a loading protocol (25 g/day for 7 days), and the largest DHT spike occurred during that loading phase. If you want to be conservative, you can skip the loading phase entirely — you'll reach saturation in about 3–4 weeks instead of one.",
+    },
+  ],
+  "vitamin-d3-vs-d2": [
+    {
+      question: "Is 50,000 IU vitamin D2 the same as 50,000 IU vitamin D3?",
+      answer:
+        "No. While the IU number is identical, D3 at 50,000 IU would raise your blood levels roughly 87% more than D2 at the same dose. The IU measurement reflects biological activity based on an older assay, not the actual effect on serum 25(OH)D. In practice, 50,000 IU D3 is a much larger effective dose — and should only be used under medical supervision.",
+    },
+    {
+      question: "Does my multivitamin have D2 or D3?",
+      answer:
+        "Most modern multivitamins use D3, but not all. Check the ingredient list for \"cholecalciferol\" (D3) or \"ergocalciferol\" (D2). Budget multivitamins are more likely to use D2 because it's cheaper. If the label just says \"vitamin D\" without specifying the form, contact the manufacturer or choose a different product.",
+    },
+    {
+      question: "Can I get enough vitamin D from sunlight instead?",
+      answer:
+        "Your skin produces D3 (not D2) from UVB exposure. Theoretically, 10–20 minutes of midday sun on bare arms and legs can produce 10,000–20,000 IU. However, this varies enormously by latitude, season, skin tone, age, and sunscreen use. Above the 37th parallel (roughly San Francisco to Richmond, VA), UVB intensity is insufficient for D3 synthesis from roughly November through February.",
+    },
+    {
+      question: "Is D2 dangerous?",
+      answer:
+        "D2 is not dangerous at standard doses. It simply raises blood levels less efficiently than D3. Some older studies raised concerns about large bolus doses of D2 causing more erratic blood level fluctuations, but at typical supplemental doses (1,000–5,000 IU daily or 50,000 IU weekly), D2 has an established safety profile.",
+    },
+    {
+      question: "How long does it take D3 to raise my blood levels?",
+      answer:
+        "Most people see a meaningful change in serum 25(OH)D within 4–6 weeks of consistent daily D3 supplementation. Full steady-state levels typically take 8–12 weeks. If you're severely deficient (below 20 ng/mL), your provider may start with a higher loading dose before transitioning to a maintenance regimen.",
+    },
+  ],
 };
 
 export function getFaqsForGuide(slug: string): FaqItem[] | undefined {

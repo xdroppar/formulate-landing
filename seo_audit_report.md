@@ -33,14 +33,14 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 | 25 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.4** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.4 | 5 | 5 | 3800 |
 | 26 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **36.2** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 3.6 | 4.9 | 2381 |
 | 27 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
-| 28 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
-| 29 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **29.4** | 4.5 | 1.8 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 4.1 | 2195 |
-| 30 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **28.8** | 2.5 | 2.6 | 4.0 | 3.5 | 3.9 | 3.5 | 4.7 | 4.1 | 1923 |
-| 31 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **28.4** | 4.5 | 1.8 | 3.5 | 2.9 | 4.5 | 2.1 | 5 | 4.1 | 2086 |
-| 32 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **28.2** | 2.5 | 1.8 | 3.5 | 3.5 | 5 | 2.8 | 5 | 4.1 | 1997 |
-| 33 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
-| 34 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **27.4** | 2.5 | 1.8 | 3.5 | 4.0 | 3.9 | 2.6 | 5 | 4.1 | 2308 |
-| 35 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **27.1** | 2.5 | 1.8 | 4.0 | 2.9 | 3.9 | 3.4 | 4.5 | 4.1 | 2102 |
+| 28 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **32.3** | 2.5 | 4.1 | 4.0 | 3.5 | 5 | 3.5 | 4.7 | 5 | 1923 |
+| 29 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **31.8** | 4.5 | 3.3 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 5 | 2195 |
+| 30 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **31.3** | 4.5 | 3.3 | 3.5 | 2.9 | 5 | 2.1 | 5 | 5 | 2086 |
+| 31 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **30.9** | 2.5 | 3.3 | 3.5 | 4.0 | 5 | 2.6 | 5 | 5 | 2308 |
+| 32 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **30.6** | 2.5 | 3.3 | 3.5 | 3.5 | 5 | 2.8 | 5 | 5 | 1997 |
+| 33 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **30.6** | 2.5 | 3.3 | 4.0 | 2.9 | 5 | 3.4 | 4.5 | 5 | 2102 |
+| 34 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
+| 35 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
 | 36 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
 | 37 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
 | 38 | [grip-strength-longevity](src/app/guides/[slug]/content/grip-strength-longevity.tsx) | **26.2** | 4.5 | 2.9 | 4.5 | 2.7 | 3.6 | 1.8 | 1.5 | 4.7 | 1790 |
@@ -109,10 +109,10 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 ## Axis averages
 
 - **intent_fit**: 4.00
-- **monetization**: 3.96
+- **monetization**: 4.15
 - **structure**: 4.35
 - **unique_value**: 3.79
-- **internal_linking**: 4.51
+- **internal_linking**: 4.60
 - **actionability**: 3.67
 - **trust**: 3.96
-- **engagement**: 4.82
+- **engagement**: 4.94

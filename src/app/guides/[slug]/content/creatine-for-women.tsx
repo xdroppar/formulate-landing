@@ -300,7 +300,7 @@ export function CreatineForWomen() {
         Possibly. Creatine supports brain ATP availability, and the
         Avgerinos et al. (2018) meta-analysis found cognitive benefits
         particularly under conditions of stress or sleep deprivation.{" "}
-        <EvidenceBadge level="emerging" /> Many perimenopausal women report
+        <EvidenceBadge level="emerging" studiesId="creatine-avgerinos-cognitive-2018" /> Many perimenopausal women report
         both. However, no trial has specifically tested creatine for
         perimenopause-related cognitive complaints. It&rsquo;s a reasonable
         hypothesis, not a proven treatment.
