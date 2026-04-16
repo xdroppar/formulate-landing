@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function VitaminB12MethylcobalaminVsCyanocobalamin() {
@@ -192,6 +195,16 @@ export function VitaminB12MethylcobalaminVsCyanocobalamin() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-vitamin-b12"]} />
+
+      <ProductRow
+        title="Top-scored B12 products"
+        products={[
+          PRODUCTS["thorne-vitamin-b12"],
+          PRODUCTS["thorne-b-complex-12"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
       <p>

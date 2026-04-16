@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function MagnesiumForAnxiety() {
@@ -224,6 +227,17 @@ export function MagnesiumForAnxiety() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
+
+      <ProductRow
+        title="Top-scored anxiety-support stack"
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-l-theanine"],
+          PRODUCTS["thorne-ashwagandha"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

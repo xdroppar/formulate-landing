@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function CreatineForEnduranceAthletes() {
@@ -214,6 +217,16 @@ export function CreatineForEnduranceAthletes() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
+      <ProductRow
+        title="Top-scored creatine products"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

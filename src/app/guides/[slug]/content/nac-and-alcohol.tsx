@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function NacAndAlcohol() {
@@ -341,6 +344,15 @@ export function NacAndAlcohol() {
         None of the above is medical advice. Bring your full supplement list to
         your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-nac"]} />
+
+      <ProductRow
+        title="Top-scored NAC products"
+        products={[
+          PRODUCTS["thorne-nac"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

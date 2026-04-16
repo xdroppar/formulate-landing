@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function BestCollagenForJoints() {
@@ -239,6 +242,16 @@ export function BestCollagenForJoints() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-collagen-plus"]} />
+
+      <ProductRow
+        title="Top-scored collagen + joint products"
+        products={[
+          PRODUCTS["thorne-collagen-plus"],
+          PRODUCTS["thorne-curcumin-phytosome"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

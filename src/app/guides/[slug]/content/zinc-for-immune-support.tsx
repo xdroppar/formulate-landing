@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function ZincForImmuneSupport() {
@@ -211,6 +214,16 @@ export function ZincForImmuneSupport() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-zinc-bisglycinate"]} />
+
+      <ProductRow
+        title="Top-scored immune-support products"
+        products={[
+          PRODUCTS["thorne-zinc-bisglycinate"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

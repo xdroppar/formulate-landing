@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function BestMultivitaminOver50() {
@@ -256,6 +259,17 @@ export function BestMultivitaminOver50() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-advanced-nutrients"]} />
+
+      <ProductRow
+        title="Top-scored supplements for adults over 50"
+        products={[
+          PRODUCTS["thorne-advanced-nutrients"],
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

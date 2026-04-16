@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function ProbioticStrainsForIbs() {
@@ -217,6 +220,16 @@ export function ProbioticStrainsForIbs() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-floramend"]} />
+
+      <ProductRow
+        title="Top-scored gut-support products"
+        products={[
+          PRODUCTS["thorne-floramend"],
+          PRODUCTS["thorne-omega-3-coq10"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 
