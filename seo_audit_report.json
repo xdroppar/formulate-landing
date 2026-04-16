@@ -474,6 +474,82 @@
     "total": 29.5
   },
   {
+    "slug": "creatine-and-hair-loss",
+    "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
+    "category": "review",
+    "word_count": 2195,
+    "intent_fit": 4.5,
+    "monetization": 1.8,
+    "structure": 4.5,
+    "unique_value": 3.2,
+    "internal_linking": 5,
+    "actionability": 1.9,
+    "trust": 4.4,
+    "engagement": 4.1,
+    "notes": [
+      "few study references",
+      "no FAQ entries"
+    ],
+    "total": 29.4
+  },
+  {
+    "slug": "vitamin-d3-vs-d2",
+    "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
+    "category": "review",
+    "word_count": 1923,
+    "intent_fit": 2.5,
+    "monetization": 2.6,
+    "structure": 4.0,
+    "unique_value": 3.5,
+    "internal_linking": 3.9,
+    "actionability": 3.5,
+    "trust": 4.7,
+    "engagement": 4.1,
+    "notes": [
+      "transactional title but few product mentions",
+      "no FAQ entries"
+    ],
+    "total": 28.8
+  },
+  {
+    "slug": "creatine-for-women",
+    "title": "Creatine for Women: The Complete Evidence-Based Guide (2026)",
+    "category": "guide",
+    "word_count": 2086,
+    "intent_fit": 4.5,
+    "monetization": 1.8,
+    "structure": 3.5,
+    "unique_value": 2.9,
+    "internal_linking": 4.5,
+    "actionability": 2.1,
+    "trust": 5,
+    "engagement": 4.1,
+    "notes": [
+      "no FAQ entries"
+    ],
+    "total": 28.4
+  },
+  {
+    "slug": "alpha-gpc-vs-citicoline",
+    "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
+    "category": "review",
+    "word_count": 1997,
+    "intent_fit": 2.5,
+    "monetization": 1.8,
+    "structure": 3.5,
+    "unique_value": 3.5,
+    "internal_linking": 5,
+    "actionability": 2.8,
+    "trust": 5,
+    "engagement": 4.1,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 38)",
+      "no FAQ entries"
+    ],
+    "total": 28.2
+  },
+  {
     "slug": "how-to-train-after-50",
     "title": "How to Train After 50: The Evidence-Based Playbook",
     "category": "guide",
@@ -491,6 +567,46 @@
       "weak citation density"
     ],
     "total": 28.1
+  },
+  {
+    "slug": "best-adaptogens-for-stress",
+    "title": "Best Adaptogens for Stress: Ashwagandha vs Rhodiola vs Reishi",
+    "category": "roundup",
+    "word_count": 2308,
+    "intent_fit": 2.5,
+    "monetization": 1.8,
+    "structure": 3.5,
+    "unique_value": 4.0,
+    "internal_linking": 3.9,
+    "actionability": 2.6,
+    "trust": 5,
+    "engagement": 4.1,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 39)",
+      "no FAQ entries"
+    ],
+    "total": 27.4
+  },
+  {
+    "slug": "best-time-to-take-magnesium",
+    "title": "Best Time to Take Magnesium: The Timing Science (2026)",
+    "category": "guide",
+    "word_count": 2102,
+    "intent_fit": 2.5,
+    "monetization": 1.8,
+    "structure": 4.0,
+    "unique_value": 2.9,
+    "internal_linking": 3.9,
+    "actionability": 3.4,
+    "trust": 4.5,
+    "engagement": 4.1,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references",
+      "no FAQ entries"
+    ],
+    "total": 27.1
   },
   {
     "slug": "vo2-max-longevity",

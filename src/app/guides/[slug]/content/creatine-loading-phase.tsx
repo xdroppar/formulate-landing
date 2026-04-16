@@ -346,7 +346,7 @@ export function CreatineLoadingPhase() {
 
       <h2>Creatine for Women: What's Different</h2>
 
-      <p><strong>Creatine for women</strong> works through the same biochemistry as it does for men — same phosphocreatine system, same ATP recycling, same 3–5g daily dose to reach full muscle saturation. The mechanism doesn't change based on sex. What does change is the context: how much water weight you'll actually gain, how hormonal fluctuations interact with creatine uptake, and why the emerging research on bone and muscle health makes creatine particularly interesting for women approaching midlife.</p>
+      <p><strong><a href="/guides/creatine-for-women">Creatine for women</a></strong> works through the same biochemistry as it does for men — same phosphocreatine system, same ATP recycling, same 3–5g daily dose to reach full muscle saturation. The mechanism doesn't change based on sex. What does change is the context: how much water weight you'll actually gain, how hormonal fluctuations interact with creatine uptake, and why the emerging research on bone and muscle health makes creatine particularly interesting for women approaching midlife.</p>
 
       <h3>Water Retention: Smaller Than You Think</h3>
 

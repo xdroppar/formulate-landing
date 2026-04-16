@@ -239,7 +239,7 @@ export function NootropicsGuide() {
 
       <h3>Alpha-GPC</h3>
       <p>
-        Alpha-GPC (alpha-glycerophosphocholine) is a choline source that
+        <a href="/guides/alpha-gpc-vs-citicoline">Alpha-GPC</a> (alpha-glycerophosphocholine) is a choline source that
         crosses the blood-brain barrier efficiently and serves as a
         precursor to acetylcholine &mdash; the neurotransmitter most
         directly associated with learning, memory, and attention. It&rsquo;s

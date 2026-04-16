@@ -252,7 +252,7 @@ export function SupplementTimingGuide() {
         <li>
           <strong>L-theanine</strong> &mdash; promotes alpha brain wave activity.
           200mg before bed helps you wind down without making you drowsy.
-          Works well stacked with magnesium.
+          Works well stacked with <a href="/guides/best-time-to-take-magnesium">magnesium</a>.
         </li>
         <li>
           <strong>Glycine</strong> &mdash; 3g before bed improves subjective

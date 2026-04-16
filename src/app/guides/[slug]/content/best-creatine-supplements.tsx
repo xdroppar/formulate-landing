@@ -277,7 +277,7 @@ export function BestCreatine() {
 
       <h3>Women</h3>
       <p>
-        Women respond to creatine the same way men do in terms of strength,
+        <a href="/guides/creatine-for-women">Women respond to creatine</a> the same way men do in terms of strength,
         lean mass, and cognitive effects — at the same 3&ndash;5g/day dose.
         The &ldquo;creatine will make me bulky&rdquo; concern comes from
         misunderstanding the initial 1&ndash;2 lb water-weight shift, which
@@ -321,7 +321,7 @@ export function BestCreatine() {
       <Callout variant="info" title="&ldquo;Creatine causes hair loss&rdquo;">
         Based on a single 2009 study on rugby players that measured DHT. The study
         has never been replicated, and no subsequent research has found a direct link
-        between creatine and hair loss. <EvidenceBadge level="emerging" />
+        between <a href="/guides/creatine-and-hair-loss">creatine and hair loss</a>. <EvidenceBadge level="emerging" />
       </Callout>
 
       <Callout variant="info" title="&ldquo;You need to cycle creatine&rdquo;">

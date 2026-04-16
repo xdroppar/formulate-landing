@@ -1,6 +1,6 @@
 # SEO Guide Audit
 
-Scored 40 guides on 8 axes (0–5 each, 40 total).
+Scored 46 guides on 8 axes (0–5 each, 40 total).
 
 ## Rankings
 
@@ -34,18 +34,24 @@ Scored 40 guides on 8 axes (0–5 each, 40 total).
 | 26 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **36.2** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 3.6 | 4.9 | 2381 |
 | 27 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
 | 28 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
-| 29 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
-| 30 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
-| 31 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
-| 32 | [grip-strength-longevity](src/app/guides/[slug]/content/grip-strength-longevity.tsx) | **26.2** | 4.5 | 2.9 | 4.5 | 2.7 | 3.6 | 1.8 | 1.5 | 4.7 | 1790 |
-| 33 | [sets-per-muscle-per-week](src/app/guides/[slug]/content/sets-per-muscle-per-week.tsx) | **26.1** | 4.5 | 2.4 | 4.2 | 2.8 | 3.1 | 3.2 | 1.2 | 4.7 | 1950 |
-| 34 | [minimum-effective-dose-strength-training](src/app/guides/[slug]/content/minimum-effective-dose-strength-training.tsx) | **25.4** | 3.0 | 2.4 | 4.5 | 3.2 | 3.1 | 2.8 | 1.5 | 4.9 | 1736 |
-| 35 | [walking-vs-running-longevity](src/app/guides/[slug]/content/walking-vs-running-longevity.tsx) | **25.3** | 2.5 | 2.9 | 3.5 | 3.4 | 3.6 | 2.4 | 2.1 | 4.9 | 1856 |
-| 36 | [zone-2-vs-hiit](src/app/guides/[slug]/content/zone-2-vs-hiit.tsx) | **25.3** | 2.5 | 2.9 | 4.5 | 2.5 | 4.8 | 2.2 | 1.2 | 4.7 | 1972 |
-| 37 | [weekly-longevity-training-plan](src/app/guides/[slug]/content/weekly-longevity-training-plan.tsx) | **25.1** | 3.0 | 2.9 | 4.2 | 2.2 | 3.6 | 3.3 | 1.2 | 4.7 | 1616 |
-| 38 | [zone-2-cardio-longevity](src/app/guides/[slug]/content/zone-2-cardio-longevity.tsx) | **25.1** | 4.5 | 2.4 | 4.8 | 2.5 | 3.1 | 1.1 | 1.8 | 4.9 | 1905 |
-| 39 | [best-exercises-for-legs](src/app/guides/[slug]/content/best-exercises-for-legs.tsx) | **23.5** | 2.5 | 2.9 | 4.0 | 1.9 | 3.6 | 2.1 | 1.8 | 4.7 | 2058 |
-| 40 | [best-exercises-for-back](src/app/guides/[slug]/content/best-exercises-for-back.tsx) | **21.1** | 2.5 | 2.4 | 4.0 | 0.8 | 3.7 | 2.0 | 1.2 | 4.5 | 2000 |
+| 29 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **29.4** | 4.5 | 1.8 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 4.1 | 2195 |
+| 30 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **28.8** | 2.5 | 2.6 | 4.0 | 3.5 | 3.9 | 3.5 | 4.7 | 4.1 | 1923 |
+| 31 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **28.4** | 4.5 | 1.8 | 3.5 | 2.9 | 4.5 | 2.1 | 5 | 4.1 | 2086 |
+| 32 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **28.2** | 2.5 | 1.8 | 3.5 | 3.5 | 5 | 2.8 | 5 | 4.1 | 1997 |
+| 33 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
+| 34 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **27.4** | 2.5 | 1.8 | 3.5 | 4.0 | 3.9 | 2.6 | 5 | 4.1 | 2308 |
+| 35 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **27.1** | 2.5 | 1.8 | 4.0 | 2.9 | 3.9 | 3.4 | 4.5 | 4.1 | 2102 |
+| 36 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
+| 37 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
+| 38 | [grip-strength-longevity](src/app/guides/[slug]/content/grip-strength-longevity.tsx) | **26.2** | 4.5 | 2.9 | 4.5 | 2.7 | 3.6 | 1.8 | 1.5 | 4.7 | 1790 |
+| 39 | [sets-per-muscle-per-week](src/app/guides/[slug]/content/sets-per-muscle-per-week.tsx) | **26.1** | 4.5 | 2.4 | 4.2 | 2.8 | 3.1 | 3.2 | 1.2 | 4.7 | 1950 |
+| 40 | [minimum-effective-dose-strength-training](src/app/guides/[slug]/content/minimum-effective-dose-strength-training.tsx) | **25.4** | 3.0 | 2.4 | 4.5 | 3.2 | 3.1 | 2.8 | 1.5 | 4.9 | 1736 |
+| 41 | [walking-vs-running-longevity](src/app/guides/[slug]/content/walking-vs-running-longevity.tsx) | **25.3** | 2.5 | 2.9 | 3.5 | 3.4 | 3.6 | 2.4 | 2.1 | 4.9 | 1856 |
+| 42 | [zone-2-vs-hiit](src/app/guides/[slug]/content/zone-2-vs-hiit.tsx) | **25.3** | 2.5 | 2.9 | 4.5 | 2.5 | 4.8 | 2.2 | 1.2 | 4.7 | 1972 |
+| 43 | [weekly-longevity-training-plan](src/app/guides/[slug]/content/weekly-longevity-training-plan.tsx) | **25.1** | 3.0 | 2.9 | 4.2 | 2.2 | 3.6 | 3.3 | 1.2 | 4.7 | 1616 |
+| 44 | [zone-2-cardio-longevity](src/app/guides/[slug]/content/zone-2-cardio-longevity.tsx) | **25.1** | 4.5 | 2.4 | 4.8 | 2.5 | 3.1 | 1.1 | 1.8 | 4.9 | 1905 |
+| 45 | [best-exercises-for-legs](src/app/guides/[slug]/content/best-exercises-for-legs.tsx) | **23.5** | 2.5 | 2.9 | 4.0 | 1.9 | 3.6 | 2.1 | 1.8 | 4.7 | 2058 |
+| 46 | [best-exercises-for-back](src/app/guides/[slug]/content/best-exercises-for-back.tsx) | **21.1** | 2.5 | 2.4 | 4.0 | 0.8 | 3.7 | 2.0 | 1.2 | 4.5 | 2000 |
 
 ## Bottom 10 — fix these first
 
@@ -102,11 +108,11 @@ Scored 40 guides on 8 axes (0–5 each, 40 total).
 
 ## Axis averages
 
-- **intent_fit**: 4.12
-- **monetization**: 4.26
-- **structure**: 4.43
-- **unique_value**: 3.86
-- **internal_linking**: 4.54
-- **actionability**: 3.81
-- **trust**: 3.83
-- **engagement**: 4.93
+- **intent_fit**: 4.00
+- **monetization**: 3.96
+- **structure**: 4.35
+- **unique_value**: 3.79
+- **internal_linking**: 4.51
+- **actionability**: 3.67
+- **trust**: 3.96
+- **engagement**: 4.82

@@ -137,7 +137,7 @@ export function DoYouNeedMultivitamin() {
         To keep the per-bottle price competitive, many multivitamins use the
         cheapest forms of each nutrient: magnesium oxide (4% absorption),
         cyanocobalamin (synthetic B12), folic acid (can&rsquo;t be converted
-        by 40% of people), vitamin D2 (less effective than D3).
+        by 40% of people), <a href="/guides/vitamin-d3-vs-d2">vitamin D2</a> (less effective than D3).
       </p>
       <p>
         You&rsquo;re paying for the ingredient on the label, but your body

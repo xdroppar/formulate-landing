@@ -56,7 +56,7 @@ export function BestVitaminD() {
       </Callout>
 
       <p>
-        D2 is cheaper to produce and is the form historically used in prescription
+        <a href="/guides/vitamin-d3-vs-d2">D2</a> is cheaper to produce and is the form historically used in prescription
         vitamin D supplements. But it clears from your bloodstream faster and is
         less efficient at converting to the active hormone (1,25-dihydroxyvitamin D).
         Unless you have a specific reason to take D2, always choose D3. Vegans take

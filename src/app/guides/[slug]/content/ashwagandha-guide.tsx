@@ -403,7 +403,7 @@ Ashwagandha's metabolic pathways haven't been fully characterized. If you take <
         for 8&ndash;12 weeks, then take 2&ndash;4 weeks off. This isn&rsquo;t
         because there&rsquo;s evidence of harm from continuous use &mdash;
         it&rsquo;s a precautionary approach based on the principle that
-        chronically suppressing cortisol may not be ideal, and adaptogens
+        chronically suppressing cortisol may not be ideal, and <a href="/guides/best-adaptogens-for-stress">adaptogens</a>
         may lose efficacy over time. Whether cycling is truly necessary is
         debated, but it&rsquo;s a reasonable default.
       </p>

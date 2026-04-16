@@ -348,7 +348,7 @@ export function BestMagnesium() {
       <ul>
         <li>
           <strong>For sleep:</strong> Take glycinate or threonate 30&ndash;60 minutes
-          before bed. This is one supplement where timing genuinely matters.
+          before bed. This is one supplement where <a href="/guides/best-time-to-take-magnesium">timing genuinely matters</a>.
         </li>
         <li>
           <strong>For general health:</strong> Take with food to improve absorption
