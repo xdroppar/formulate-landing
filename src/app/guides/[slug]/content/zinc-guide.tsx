@@ -441,6 +441,38 @@ export function ZincGuide() {
         ]}
       />
 
+      <h2>Zinc and Antibiotic Interactions: Space Them or Lose the Drug</h2>
+
+      <p><strong>Zinc and antibiotic interactions</strong> represent the highest-stakes drug-nutrient conflict for this mineral — and the one most likely to affect you, since people fighting bacterial infections are exactly the people reaching for zinc lozenges. The problem is simple chemistry: zinc ions chelate (bind to) certain antibiotics in your GI tract, forming insoluble complexes that your body can't absorb. The antibiotic passes through you without ever reaching therapeutic blood levels.</p>
+
+      <p>The two antibiotic classes most affected are <strong>fluoroquinolones</strong> (ciprofloxacin, levofloxacin, moxifloxacin) and <strong>tetracyclines</strong> (doxycycline, minocycline, tetracycline). A pharmacokinetic study by Polk et al. (1989) in <em>Antimicrobial Agents and Chemotherapy</em> demonstrated that co-administration of zinc with ciprofloxacin reduced the antibiotic's bioavailability by approximately 50%. Similar reductions — in the 30–50% range — have been documented for doxycycline when taken alongside divalent cations including zinc (Neuvonen, 1976). <EvidenceBadge level="strong" /> That's not a subtle efficiency loss. That's a potentially failed course of antibiotics, which means a longer infection and increased risk of antibiotic resistance.</p>
+
+      <Callout variant="warning" title="Minimum 2-Hour Separation">
+      If you're taking a fluoroquinolone or tetracycline antibiotic, separate your zinc dose — including lozenges — by <strong>at least 2 hours before or 4–6 hours after</strong> the antibiotic. Some prescribing guidelines recommend even wider windows. When in doubt, ask your pharmacist for the specific spacing your antibiotic requires.
+      </Callout>
+
+      <p>This applies to <em>all</em> zinc sources: capsules, lozenges, ZMA formulas, and even fortified foods or multivitamins containing zinc. The chelation effect doesn't care about the form — it cares about the zinc ions being present in your gut at the same time as the drug. If you're running the 75–92mg/day lozenge protocol for a cold and simultaneously prescribed an antibiotic, managing this spacing becomes genuinely difficult. Talk to your prescriber about a dosing schedule that protects both the antibiotic's efficacy and your zinc regimen.</p>
+
+      <p>For a broader look at how to time supplements around medications, see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+
+      <h2>Resolving the Dosing Contradiction: Cold Protocol vs. Daily Limit</h2>
+
+      <p>If you've been reading carefully, you've noticed an apparent contradiction in the cold protocol vs. daily limit recommendations: this guide tells you to take 75–92mg/day of zinc lozenges for a cold, then tells you the Tolerable Upper Intake Level is 40mg/day. Those two numbers don't sit comfortably together — and they shouldn't, because they describe fundamentally different scenarios.</p>
+
+      <h3>What the 40mg UL Actually Means</h3>
+
+      <p>The NIH set the 40mg/day UL for <strong>chronic, ongoing intake</strong> — the amount you can take day after day, indefinitely, without meaningful risk of adverse effects like copper depletion or immune suppression. It's a guardrail for long-term behavior, not a single-dose toxicity threshold. The key studies underpinning it, including Yadrick et al. (1989), measured copper status changes over <em>10 weeks</em> of sustained high-dose zinc intake.</p>
+
+      <h3>Why the Cold Protocol Gets a Pass — With Caveats</h3>
+
+      <p>The 75–92mg/day lozenge regimen from Hemilä's 2017 meta-analysis runs for 5–7 days, then stops. At that duration, the risk of clinically significant copper depletion is negligible. Your body can tolerate short bursts that would be harmful if sustained. This is the same logic behind short-course antibiotics or high-dose vitamin D loading protocols — duration changes the risk calculus entirely.</p>
+
+      <Callout variant="warning" title="Short-term doesn't mean side-effect-free">
+      Even during a 5-day course, high-dose zinc lozenges commonly cause nausea, metallic taste disturbance, and mouth irritation. Some people experience vomiting. These effects are transient but unpleasant — and they're a feature of the dose, not a sign the lozenges are "working." Stop the high-dose protocol as soon as your cold resolves. Do not continue it as a preventive measure.
+      </Callout>
+
+      <p>Think of it this way: <strong>40mg/day is your daily speed limit; 75–92mg/day is the sprint you're allowed for less than a week when you're actually sick.</strong> Conflating the two — either by fearing the cold protocol or by treating the cold dose as a daily maintenance level — leads to bad decisions in both directions. <EvidenceBadge level="moderate" /></p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         At the 15–30mg/day maintenance range, zinc is well-studied and well-tolerated in healthy adults. But several populations face meaningful interactions or altered risk-benefit profiles that warrant a conversation with a clinician before starting — or before following the higher-dose cold protocol described above.

@@ -324,6 +324,88 @@ export function CreatineLoadingPhase() {
         ]}
       />
 
+      <h2>Creatine Forms Explained: Why Monohydrate Wins</h2>
+
+      <p><strong>Creatine forms</strong> like HCl, Kre-Alkalyn, and ethyl ester are marketed as superior alternatives to plain monohydrate. They cost 3–10x more per serving. None of them have outperformed monohydrate in a single head-to-head trial. <EvidenceBadge level="strong" /></p>
+
+      <h3>The Contenders</h3>
+
+      <p><strong>Creatine HCl</strong> is bonded to hydrochloric acid, which does increase solubility in water — roughly 38x more soluble than monohydrate. Supplement companies extrapolate from this that you need a smaller dose and get better absorption. The problem: solubility in a glass of water has nothing to do with bioavailability in your gut. No published study has demonstrated that HCl produces greater muscle creatine saturation than monohydrate at equivalent doses.</p>
+
+      <p><strong>Kre-Alkalyn</strong> is buffered creatine, supposedly pH-stable so it doesn't convert to creatinine in your stomach. Jagim et al. (2012) in the <em>Journal of the International Society of Sports Nutrition</em> tested this directly: 28 days of Kre-Alkalyn vs. monohydrate. Result — no difference in muscle creatine content, body composition, or strength. The "stomach conversion" problem it claims to solve doesn't meaningfully exist. <EvidenceBadge level="strong" /></p>
+
+      <p><strong>Creatine ethyl ester</strong> fared even worse. Spillane et al. (2009) found it actually resulted in <em>lower</em> muscle creatine levels than monohydrate and higher serum creatinine — meaning more of it degraded before reaching muscle tissue. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Why This Matters for Loading and Daily Dosing</h3>
+
+      <p>Every protocol in this guide — loading, steady-state, maintenance — is based on monohydrate. That's what the 500+ papers used. If you're taking an alternative creatine form, the dosing math may not apply, and you have far less evidence backing your results. Monohydrate costs roughly $0.03–0.05 per 5g serving. There is no evidence-based reason to pay more.</p>
+
+      <Callout variant="info" title="Already bought a different form?">
+      It probably won't hurt you, but it may not saturate muscles as reliably. If you're not seeing results after 4–6 weeks of consistent use, switch to monohydrate before concluding you're a <a href="/guides/creatine-loading-phase">non-responder</a>. Check our <a href="/guides/supplement-label-reading">label reading guide</a> for tips on evaluating what's actually in your product.
+      </Callout>
+
+      <h2>Creatine for Women: What's Different</h2>
+
+      <p><strong>Creatine for women</strong> works through the same biochemistry as it does for men — same phosphocreatine system, same ATP recycling, same 3–5g daily dose to reach full muscle saturation. The mechanism doesn't change based on sex. What does change is the context: how much water weight you'll actually gain, how hormonal fluctuations interact with creatine uptake, and why the emerging research on bone and muscle health makes creatine particularly interesting for women approaching midlife.</p>
+
+      <h3>Water Retention: Smaller Than You Think</h3>
+
+      <p>The scale-weight anxiety is real, and dismissing it doesn't help. So here are actual numbers: women using 3–5g/day without a loading phase typically see 1–2 lbs of water retention, compared to 2–4 lbs in men. The difference tracks with total muscle mass — women carry less skeletal muscle on average, so there's less tissue pulling in intracellular water. This is water <em>inside</em> muscle cells, not subcutaneous bloating. If you skip the loading phase (which this guide already recommends), the gain is gradual enough that most women don't notice it at all. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Hormonal Cycles and Uptake</h3>
+
+      <p>Estrogen and progesterone fluctuations across the menstrual cycle influence fluid balance, but current evidence hasn't demonstrated clinically meaningful differences in creatine uptake between cycle phases. A 2021 narrative review by Smith-Ryan et al. in <em>Nutrients</em> highlighted how understudied women remain in creatine research — most landmark trials used exclusively male participants. The honest answer: we don't yet know whether cycle phase matters for saturation timing. Take your 3–5g daily regardless. <EvidenceBadge level="emerging" /></p>
+
+      <h3>Perimenopause, Bone Density, and Muscle Preservation</h3>
+
+      <p>This is where creatine for women gets genuinely compelling. Declining estrogen during perimenopause accelerates muscle and bone loss. A 2023 review by Forbes et al. in <em>Nutrients</em> found that creatine combined with resistance training improved lean mass and upper-body strength in postmenopausal women more than training alone. Separate work by Chilibeck et al. (2015) showed that creatine plus resistance training over 12 months reduced the rate of bone mineral density loss at the femoral neck in postmenopausal women. <EvidenceBadge level="moderate" /> These aren't massive effect sizes, but for a supplement with creatine's safety profile and cost, the risk-reward ratio is hard to beat. If you're exploring creatine as part of a broader longevity strategy, our <a href="/guides/longevity-stack">longevity stack guide</a> covers how it fits alongside other interventions.</p>
+
+      <Callout variant="info" title="Same dose, different framing">
+      The recommendation doesn't change: 3–5g of creatine monohydrate daily, no loading phase needed. If scale weight increases by 1–2 lbs in the first few weeks, that's intracellular water doing exactly what it should. Track body measurements or progress photos alongside the scale if the number bothers you — they'll tell a more accurate story.
+      </Callout>
+
+      <h3>Creatine and Kidney Health: Who Needs to Be Careful</h3>
+
+      <p><strong>Creatine and kidney health</strong> is the single biggest concern that stops people — especially older adults and non-athletes — from trying this supplement. Most of that fear traces back to a blood test number that doesn't mean what you think it means.</p>
+
+      <h3>The Creatinine Artifact on Blood Work</h3>
+
+      <p>Your body breaks creatine down into <em>creatinine</em>, which is then filtered by the kidneys and measured on standard blood panels as a proxy for kidney function. More creatine in → more creatinine out. When you supplement, serum creatinine rises — not because your kidneys are failing, but because you've increased the substrate. It's a measurement artifact, not organ damage.</p>
+
+      <p>This distinction matters. Poortmans and Francaux (2000) examined renal function in creatine users over five years and found no evidence of impaired glomerular filtration rate (GFR) in healthy individuals, despite elevated serum creatinine readings. If your doctor flags a high creatinine number, tell them you're supplementing. A cystatin C test or a direct GFR measurement can give a more accurate picture of actual kidney function.</p>
+
+      <Callout variant="info" title="Bring it up at your next blood draw">
+      If you're taking creatine and getting routine bloodwork, mention it to your provider <em>before</em> the lab order. Serum creatinine will read artificially high, which can trigger unnecessary follow-up testing or alarm.
+      </Callout>
+
+      <h3>The ISSN Safety Data Has Limits</h3>
+
+      <p>The ISSN position stand (Kreider et al., 2017) concluding that long-term creatine use is safe applies specifically to <strong>healthy kidneys</strong>. That's an important qualifier. The studies reviewed excluded participants with pre-existing renal disease. <EvidenceBadge level="strong" /> for healthy populations — but the evidence simply doesn't extend to compromised kidneys.</p>
+
+      <Callout variant="warning" title="Consult your physician first if any of these apply">
+      You have <strong>chronic kidney disease (CKD)</strong> at any stage. You have a <strong>single kidney</strong> (congenital, surgical, or donor). You take <strong>nephrotoxic medications</strong> — NSAIDs, certain ACE inhibitors, aminoglycoside antibiotics, lithium, or high-dose methotrexate. You have <strong>diabetes with renal involvement</strong> or consistently elevated creatinine unrelated to supplementation. In these cases, the risk-benefit calculation changes, and your nephrologist or prescriber needs to weigh in before you start creatine.
+      </Callout>
+
+      <p>For everyone else — healthy adults with normal kidney function — the data across hundreds of studies and durations up to five years is reassuring. <EvidenceBadge level="strong" /> Creatine and kidney health coexist just fine when the kidneys are working as designed. The key is knowing which category you fall into before you start.</p>
+
+      <h3>What to Do If You're Having GI Issues on Creatine</h3>
+
+      <p>GI issues on creatine are the single most common reason people quit — and almost always fixable. The mechanism is straightforward: creatine is osmotically active. When a large dose sits in your gut, it pulls water into the intestinal lumen by osmosis. The result is bloating, cramping, and diarrhea. This isn't your body rejecting creatine. It's your gut objecting to the <em>concentration</em> of creatine in one place at one time.</p>
+
+      <p>Here's your troubleshooting protocol, in order of escalation:</p>
+
+      <p><strong>Drop to 3g per day.</strong> If you're loading at 20g/day and feeling terrible, stop loading. As this guide explains above, 3–5g daily reaches the same saturation endpoint — it just takes 28 days. A single 3g dose is far less osmotically disruptive than four 5g doses.</p>
+
+      <p><strong>Never exceed 5g in a single dose.</strong> Even on a standard protocol, taking your full daily amount at once concentrates creatine in the small intestine. Split it if needed — 1.5g twice daily works fine. Ostojic and Ahmetovic (2008) found that divided dosing significantly reduced GI complaints compared to bolus dosing. <EvidenceBadge level="moderate" /></p>
+
+      <p><strong>Take it with food.</strong> A meal — especially one containing carbohydrates and protein — slows gastric emptying, which means creatine enters the small intestine more gradually and at lower local concentrations. This reduces the osmotic water pull that causes distress.</p>
+
+      <p><strong>Switch to micronized creatine monohydrate.</strong> Micronized versions have a smaller particle size (roughly 10–20x finer), which improves solubility and dispersion in liquid. Less undissolved creatine sitting in your gut means less localized osmotic effect. It's the same molecule — just physically processed for better dissolution.</p>
+
+      <Callout variant="warning" title="When to seek help">
+      If GI symptoms persist after implementing all four steps at 3g/day for a week, stop supplementation and consult your healthcare provider. Persistent symptoms may indicate an underlying GI condition unrelated to creatine — especially if you have a history of IBS or inflammatory bowel disease. See our notes on <a href="/guides/creatine-loading-phase">who should talk to a doctor first</a> above.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Creatine monohydrate has a strong safety profile in healthy adults — the ISSN position stand covers studies lasting up to five years. But "healthy adults" is doing a lot of work in that sentence, and several populations need clinical input before starting.

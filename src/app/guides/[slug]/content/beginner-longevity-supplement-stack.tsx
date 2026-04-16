@@ -445,6 +445,92 @@ export function BeginnerLongevityStack() {
         first.
       </p>
 
+      <h2>Drug Interactions and Medical Conditions: What to Check Before Starting</h2>
+
+      <p>Drug interactions with longevity supplements are common enough — and serious enough — that you need to audit your medication list before starting this stack. Several compounds in Tiers 1 and 2 alter how your body metabolizes prescription drugs, and the effects aren't always obvious until something goes wrong.</p>
+
+      <h3>Omega-3s + Anticoagulants</h3>
+      <p>EPA and DHA have antiplatelet effects that compound with blood thinners like warfarin, apixaban, and clopidogrel. A 2018 review by Begtrup et al. found that high-dose omega-3 (above 2g EPA+DHA) measurably increased bleeding time. If you're on any anticoagulant or antiplatelet therapy, your prescriber needs to know your exact omega-3 dose — not just that you "take fish oil."</p>
+
+      <h3>Curcumin + Piperine and CYP3A4 Drugs</h3>
+      <p>This is the interaction most people miss. Piperine inhibits CYP3A4 and P-glycoprotein — enzymes responsible for metabolizing roughly <strong>50% of all prescription drugs</strong>. That includes statins (atorvastatin, simvastatin), immunosuppressants (cyclosporine, tacrolimus), SSRIs, calcium channel blockers, and many others. Inhibiting these enzymes effectively raises drug blood levels, sometimes dangerously. If you take <em>any</em> prescription medication, check whether it's CYP3A4-metabolized before adding curcumin with piperine.</p>
+
+      <Callout variant="warning" title="Vitamin K2 + Warfarin">
+      K2 (MK-7) directly opposes warfarin's mechanism of action by activating vitamin K-dependent clotting factors. Even 100mcg of MK-7 can destabilize your INR. If you take warfarin, do not add K2 without your anticoagulation clinic's involvement. Other anticoagulants (DOACs like rivareloxaban) are less affected but still warrant a conversation.
+      </Callout>
+
+      <h3>CoQ10 + Blood Pressure Medications</h3>
+      <p>Evidence suggests CoQ10 can lower systolic blood pressure by 11–17 mmHg in hypertensive patients (Rosenfeldt et al., 2007 meta-analysis). If you're already on antihypertensives, adding 100–200mg CoQ10 could push you into hypotensive territory — dizziness, fatigue, fainting. Monitor your blood pressure at home after starting.</p>
+
+      <h3>Statins + CoQ10: A Separate Conversation</h3>
+      <p>Statins inhibit the mevalonate pathway, which produces both cholesterol <em>and</em> CoQ10. Evidence suggests this contributes to statin-associated muscle symptoms in some patients (Banach et al., 2015). If you're on a statin, <a href="/guides/coq10-benefits">CoQ10 supplementation</a> is worth discussing with your doctor — not as a replacement for your statin, but as a potential adjunct.</p>
+
+      <Callout variant="info" title="Bring Your Full List">
+      Print your complete supplement stack — names, doses, and forms — and bring it to your next prescriber visit. Pharmacists are often better than physicians at catching interaction risks. Ask yours.
+      </Callout>
+
+      <h2>Vegan and Vegetarian Substitutions for Every Tier</h2>
+
+      <p><strong>Vegan substitutions for every tier</strong> of this stack exist, but they require more label scrutiny than most brands make obvious. Standard omega-3 capsules come from fish, D3 from lanolin, and K2 from animal-derived fermentation. Here's how to swap each one without compromising efficacy.</p>
+
+      <h3>Tier 1 Swaps</h3>
+
+      <p><strong>Omega-3:</strong> Switch to <strong>algal-derived EPA+DHA</strong> — the same source fish get theirs from, just cutting out the middlefish. Aim for the same 1,000–2,000mg combined EPA+DHA. Don't rely on flaxseed or chia (ALA) as your omega-3 source: human conversion of ALA to EPA is roughly 5–10%, and to DHA under 1% (Burdge, 2006). <EvidenceBadge level="strong" /> ALA supplements are not a functional replacement.</p>
+
+      <Callout variant="warning" title="ALA Is Not Enough">
+      Plant-based ALA from flax or chia converts so poorly to EPA and DHA that relying on it alone leaves most vegans with critically low omega-3 index scores. Algal oil is non-negotiable here.
+      </Callout>
+
+      <p><strong>Vitamin D3:</strong> Look for <strong>lichen-derived D3</strong> (cholecalciferol). Mushroom-derived supplements typically contain D2 (ergocalciferol), which is less effective at raising and maintaining serum 25(OH)D levels (Tripkovic et al., 2012). Same dosing applies: 2,000–5,000 IU based on your bloodwork.</p>
+
+      <p><strong>K2 (MK-7):</strong> Most MK-7 is produced via <em>Bacillus subtilis</em> natto fermentation, which is inherently vegan — but some brands add gelatin capsules or animal-derived flow agents. <strong>Verify "vegan" or "plant-based" on the label</strong>, not just the ingredient list. Fermentation-derived MK-7 is bioidentical to animal-sourced forms. <EvidenceBadge level="strong" /></p>
+
+      <p><strong>Magnesium:</strong> Already vegan in virtually all forms. No swap needed.</p>
+
+      <h3>Tier 2 and Beyond</h3>
+
+      <p><strong>Creatine</strong> deserves special attention for this group. Vegans and vegetarians have lower baseline muscle and brain creatine stores because dietary creatine comes almost exclusively from meat. Evidence suggests the <strong>cognitive benefits of creatine supplementation may be proportionally larger</strong> for plant-based eaters — a meta-analysis by Avgerinos et al. (2018) found memory improvements with supplementation, and Benton & Donohoe (2011) specifically showed enhanced cognitive performance in vegetarians. <EvidenceBadge level="moderate" /> Standard creatine monohydrate is synthesized, not animal-derived — it's already vegan.</p>
+
+      <p>CoQ10 (ubiquinol), curcumin, and Tier 3 compounds are typically vegan-compatible, but again — check capsule materials. If you're following this stack as a vegan, also consider screening <a href="/guides/vitamin-b12-deficiency">B12</a> and zinc levels, since deficiencies in both are common in plant-based diets and interact with pathways this guide covers.</p>
+
+      <h2>How to Read a Supplement Label: Elemental Dose vs. Compound Dose</h2>
+
+      <p>Knowing how to read a supplement label is the difference between hitting a clinical dose and wasting your money. The most common mistake: confusing the <strong>compound dose</strong> (the total weight of the ingredient) with the <strong>elemental dose</strong> (the amount of the active mineral or nutrient your body actually uses). Every dosing recommendation in this guide refers to elemental doses — and most labels are designed to make that confusing.</p>
+
+      <h3>The Magnesium Example</h3>
+
+      <p>A capsule labeled "Magnesium Glycinate 400mg" often contains 400mg of the <em>magnesium glycinate compound</em> — not 400mg of elemental magnesium. Magnesium glycinate is roughly 14% magnesium by weight, so that 400mg capsule delivers only about <strong>56mg of actual magnesium</strong>. To hit the 300–400mg elemental target from our <a href="/guides/magnesium-deficiency">magnesium guide</a>, you'd need six or seven of those capsules. Some brands list elemental magnesium separately on the Supplement Facts panel; others bury the compound weight in the "Other Ingredients" or don't clarify at all.</p>
+
+      <h3>The Omega-3 Example</h3>
+
+      <p>Same principle, different math. A "1,000mg Fish Oil" softgel typically contains only 300–500mg of combined EPA+DHA — the fatty acids that actually drive the cardiovascular benefits from the VITAL and REDUCE-IT trials. The rest is other fats. To reach 1,000–2,000mg of EPA+DHA daily, you likely need two to four softgels depending on concentration. Always flip to the Supplement Facts panel and find the EPA and DHA lines specifically.</p>
+
+      <Callout variant="warning" title="Always Check the Supplement Facts Panel">
+      Look for the <strong>elemental</strong> amount per serving — not the compound weight on the front label. If only a compound weight is listed with no elemental breakdown, choose a different brand. Reputable manufacturers make this easy to find.
+      </Callout>
+
+      <h2>Budget Tier: If You Can Only Spend $20/Month</h2>
+
+      <p>A budget longevity supplement stack doesn't mean a worse one — it means a ruthlessly prioritized one. At $20/month, you can cover the three Tier 1 supplements that carry the strongest human evidence. You just need to buy smart.</p>
+
+      <h3>Force-Ranking by Impact Per Dollar</h3>
+
+      <p><strong>Vitamin D3 + K2 comes first</strong> — not because it outranks omega-3 in evidence, but because it's absurdly cheap. A year's supply of generic D3 (5,000 IU) runs $8–12. Add a standalone MK-7 bottle and you're looking at roughly <strong>$3–4/month</strong> total. That's your biggest bang-for-dollar supplement, period.</p>
+
+      <p><strong>Magnesium glycinate is next.</strong> Store-brand magnesium glycinate at 400mg elemental runs about <strong>$5–7/month</strong>. Given that roughly half of Americans fall short of the RDA (Rosanoff et al., 2012), this fills a near-universal gap for pocket change.</p>
+
+      <p><strong>Omega-3 rounds out the budget.</strong> A generic triglyceride-form fish oil delivering 1,000mg combined EPA+DHA costs roughly <strong>$8–12/month</strong>. Costco's Kirkland brand, for example, carries IFOS certification — the same purity standard as bottles costing three times more.</p>
+
+      <Callout variant="info" title="Generic is bioequivalent">
+      Vitamin D3 is vitamin D3 — cholecalciferol doesn't change because the label is fancier. The same applies to magnesium glycinate and creatine monohydrate. USP-verified or third-party-tested store brands deliver identical compounds at a fraction of the price. You're paying for the molecule, not the branding.
+      </Callout>
+
+      <h3>Where Creatine Fits</h3>
+
+      <p>If you can stretch to $25/month, add <strong>creatine monohydrate</strong>. At roughly 3–5 cents per gram, it's among the cheapest supplements on the market — a full month at 5g/day costs under $4. Given its evidence for <a href="/guides/creatine-loading">preserving lean mass and strength</a> as you age, it's arguably the best $4 you'll spend. <EvidenceBadge level="strong" /></p>
+
+      <p>The $20 budget longevity supplement stack: D3+K2, magnesium glycinate, omega-3. No Tier 3 experiments, no fancy formulations. Just the compounds with the strongest evidence at doses that actually work.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The supplements in this guide are well-studied in generally healthy adults, but several carry meaningful interactions or unknowns for specific populations. If any of the following apply to you, get clinical input before starting — or changing — this stack.

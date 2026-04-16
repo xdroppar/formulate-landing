@@ -553,6 +553,110 @@ export function WhatToLookForInProbiotic() {
         <li>Third-party testing for purity and potency</li>
       </ul>
 
+      <h2>Probiotic Safety: Who Should Not Self-Supplement</h2>
+
+      <p>Probiotic safety is rarely discussed on supplement labels, but for certain populations, live microbial products carry real — not theoretical — risk. Most healthy adults tolerate well-studied strains without issue. The people below are not in that category.</p>
+
+      <h3>Immunocompromised Patients</h3>
+
+      <p>If your immune system is significantly suppressed — chemotherapy, organ transplant anti-rejection drugs, advanced HIV/AIDS, or high-dose corticosteroids — live probiotics can cause <strong>bacteremia or fungemia</strong> (organisms entering the bloodstream). Case series documented by Oggioni et al. (1998) and Enache-Angoulvant & Hennequin (2005) report <em>Lactobacillus</em> bacteremia and <em>Saccharomyces boulardii</em> fungemia in immunocompromised hosts. <EvidenceBadge level="moderate" /> These aren't common events in the general population, but the consequences are severe enough that the risk calculation changes entirely.</p>
+
+      <Callout variant="warning" title="S. boulardii and critically ill patients">S. boulardii fungemia has been documented in ICU and severely ill patients, including cases linked to central venous catheters in the same room where the probiotic was being administered (Lherm et al., 2002). If you are hospitalized or critically ill, do not take S. boulardii — or any live probiotic — without explicit approval from your treating physician.</Callout>
+
+      <h3>Patients on Immunosuppressants</h3>
+
+      <p>This includes biologics (infliximab, adalimumab), calcineurin inhibitors (tacrolimus, cyclosporine), and other agents that blunt immune surveillance. Even if you feel fine, your ability to contain a translocating organism is compromised. Consult your prescribing specialist before adding any live microbial supplement to your regimen.</p>
+
+      <h3>Active IBD Flares</h3>
+
+      <p>During an active Crohn's or ulcerative colitis flare, gut barrier integrity is already compromised — meaning organisms have an easier path from the intestinal lumen into systemic circulation. Some strains (like <em>E. coli</em> Nissle 1917) have evidence in <em>maintaining</em> UC remission, but that's a different clinical scenario from active inflammation. <EvidenceBadge level="moderate" /> Self-supplementing during a flare without GI supervision is not a gray area — it's a clear "don't." Work with your <a href="/guides/ibs-vs-ibd-differences">gastroenterologist</a> on strain selection and timing.</p>
+
+      <p>If you fall into any of these groups, the issue isn't whether probiotics <em>might</em> help — it's that the downside risk outweighs any plausible benefit without medical oversight.</p>
+
+      <h2>Vaginal Microbiome and Women's Health Probiotics</h2>
+
+      <p>Women searching for the <strong>best probiotic for vaginal health</strong> face a market flooded with vague "feminine balance" claims. The reality is more specific — and more honest. Only a handful of strains have been studied for vaginal microbiome restoration, and the evidence, while promising, is thinner than what exists for the GI strains covered above.</p>
+
+      <h3>The Strains That Actually Have Data</h3>
+
+      <p><strong>L. crispatus CTV-05 (LACTIN-V)</strong> is the standout. A 2020 RCT by Cohen et al. published in the <em>New England Journal of Medicine</em> found that vaginally applied L. crispatus after standard metronidazole treatment reduced BV recurrence to 30% versus 45% in the placebo group at 12 weeks. <EvidenceBadge level="moderate" /> That's meaningful, but it was a single trial (n=228) and the product is administered vaginally — not orally.</p>
+
+      <p>The <strong>L. rhamnosus GR-1 + L. reuteri RC-14</strong> combination (marketed as Fem-Dophilus) has a longer publication history. Oral supplementation was studied across several small RCTs by Reid et al. (2003, 2006), showing improvements in vaginal flora composition and modest reductions in BV recurrence. Effect sizes varied, and sample sizes were generally under 100. <EvidenceBadge level="emerging" /></p>
+
+      <h3>An Honest Look at Evidence Quality</h3>
+
+      <p>There is no Cochrane-level systematic review specifically for probiotics and BV prevention as of this writing. Most trials are small, short-duration, and conducted by researchers affiliated with the product developers. A 2019 Cochrane review on probiotics for treating BV (Mastromarino et al.) found <em>low-certainty evidence</em> that probiotics may increase cure rates when used alongside antibiotics, but called for larger, better-designed trials.</p>
+
+      <Callout variant="warning" title="Route of administration matters">
+      Most positive vaginal microbiome data comes from <strong>vaginally applied</strong> probiotics, not oral capsules. The assumption that swallowing a Lactobacillus capsule reliably colonizes the vaginal tract is plausible but not firmly established. If BV recurrence is your concern, discuss both oral and vaginal options with your healthcare provider.
+      </Callout>
+
+      <p>If you're considering a probiotic specifically for vaginal health, look for products naming <strong>L. crispatus</strong>, <strong>L. rhamnosus GR-1</strong>, or <strong>L. reuteri RC-14</strong> on the label — with strain designations, not just species. Anything labeled generically as a "women's probiotic" without these specifics is riding marketing, not evidence. And as with every probiotic decision, <a href="/guides/what-to-look-for-in-a-probiotic">strain identity</a> is what separates a studied product from a guess.</p>
+
+      <h2>How to Read a Probiotic Label in 60 Seconds</h2>
+
+      <p>Knowing <strong>how to read a probiotic label</strong> is the single most practical skill this guide can give you. Everything discussed above — strain designations, CFU guarantees, delivery mechanisms — lives or dies on what's actually printed on the back of the bottle. Here's what to scan for, in order, the next time you're standing in a pharmacy aisle.</p>
+
+      <h3>The Good Label: What You Want to See</h3>
+
+      <p>Start at the <strong>Supplement Facts panel</strong>. A quality product lists each organism by genus, species, <em>and</em> strain designation — e.g., <em>Lactobacillus rhamnosus</em> GG, not just <em>L. rhamnosus</em>. That alphanumeric code after the species name is your only link to clinical evidence. No code, no way to verify anything.</p>
+
+      <p>Next, check whether <strong>CFU counts are broken out per strain</strong>, not just a blend total. You need to know each strain hits its studied dose individually. A line reading "<em>L. rhamnosus</em> GG — 10 billion CFU" tells you something useful. "Proprietary Probiotic Blend — 50 billion CFU" tells you almost nothing.</p>
+
+      <p>Now find the CFU guarantee language, usually in small print below the panel. It should say <strong>"at expiration"</strong> or "through best-by date." If it says "at time of manufacture" — or says nothing at all — assume significant die-off by the time you open the bottle.</p>
+
+      <p>Finally, look for a <strong>third-party testing seal</strong> (USP, NSF International, or ConsumerLab) typically placed on the front label or near the barcode. This confirms an independent lab verified potency and purity. Fewer than 10% of probiotic products carry one.</p>
+
+      <h3>The Red-Flag Label: What to Walk Away From</h3>
+
+      <p>A red-flag label lists 15–30 strains by genus and species only — no strain codes anywhere. CFU is presented as a single blend total ("60 billion CFU†") with a footnote reading "at time of manufacture." Per-strain amounts are hidden behind a <strong>"proprietary blend"</strong> disclosure, making dose verification impossible. No third-party seal appears anywhere on the packaging. The front panel promises support for digestion, immunity, mood, weight, <em>and</em> skin. That's marketing breadth substituting for clinical depth.</p>
+
+      <Callout variant="info" title="60-Second Scan Order">
+      <strong>1.</strong> Strain designations present? → <strong>2.</strong> Per-strain CFU listed? → <strong>3.</strong> CFU guaranteed at expiration? → <strong>4.</strong> Third-party seal? If a product fails any of the first three checks, put it back. For a deeper breakdown of proprietary blend tactics, see our <a href="/guides/how-to-read-a-supplement-label">label reading guide</a>.
+      </Callout>
+
+      <h2>Recommended Products by Condition (With Strain Verification)</h2>
+
+      <p>Knowing which strains to look for is only useful if you can find <strong>recommended probiotic products by condition</strong> that actually contain those strains at studied doses. We verified each product below by cross-referencing its current label against the licensed strain and the dose used in clinical trials. If a product changed its formulation or dropped its strain designation, it didn't make this list.</p>
+
+      <h3>Antibiotic-Associated Diarrhea Prevention</h3>
+      <p><strong>Culturelle Digestive Daily</strong> — contains <em>L. rhamnosus</em> GG at 10 billion CFU, with a CFU-through-expiration guarantee. This matches the dose and strain from the 2013 Cochrane review (Allen et al., 2010) and subsequent AAD trials. <EvidenceBadge level="strong" /> <strong>Florastor</strong> — contains <em>S. boulardii</em> CNCM I-745 at 5 billion CFU per capsule (10 billion at the two-capsule daily dose). As a yeast, it survives concurrent antibiotic use — no timing gymnastics required. Matches the strain from the 2017 Goldenberg et al. JAMA meta-analysis. <EvidenceBadge level="strong" /></p>
+
+      <h3>IBS (Bloating and Abdominal Pain)</h3>
+      <p><strong>Jarrow Formulas Ideal Bowel Support 299v</strong> — delivers <em>L. plantarum</em> 299v at 10 billion CFU. Multiple RCTs (Ducrotté et al., 2012; Niedzielin et al., 2001) used this strain at this dose for IBS bloating and pain. <EvidenceBadge level="moderate" /> <strong>Alflorex (Precision Biotics)</strong> — the only product using <em>B. longum</em> 35624 at the exact 1 billion CFU dose from the Whorwell et al. (2006) <em>Gastroenterology</em> trial. Single-strain, low-dose, condition-specific — the opposite of a kitchen-sink blend. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Infant Colic (Breastfed Infants)</h3>
+      <p><strong>BioGaia Protectis Baby Drops</strong> — delivers <em>L. reuteri</em> DSM 17938 at 100 million CFU per five drops. This matches the Savino et al. (2007) and Szajewska et al. (2013) trial protocols. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="Always Verify the Current Label">Manufacturers reformulate without announcement. Before purchasing any product on this list, confirm the strain designation and CFU-through-expiration guarantee on the actual label or the brand's current website. A product that contained the right strain last year may not today.</Callout>
+
+      <h3>General Regularity and Immune Support</h3>
+      <p><strong>Chr. Hansen's BB-12 products (e.g., Culturelle Baby Calm + Comfort, or region-specific licensed brands)</strong> — <em>B. animalis</em> subsp. <em>lactis</em> BB-12 at 1–10 billion CFU. Evidence is stronger in infants and elderly populations than in healthy adults (Eskesen et al., 2015). <EvidenceBadge level="moderate" /> If your target condition isn't listed here, revisit the <a href="/guides/what-to-look-for-in-a-probiotic">strain-condition cheat sheet above</a> and look for a product that names the exact strain designation on its label. No strain code, no buy.</p>
+
+      <h2>Probiotics During Pregnancy and for Infants</h2>
+
+      <p><strong>Probiotics during pregnancy</strong> occupy an unusual space: high anxiety, heavy marketing, and a safety profile that's actually more reassuring than most people expect — for the right strains. The key word is "right." Strain identity matters even more here than it does for general adult use, because the evidence base is narrower and the stakes feel higher.</p>
+
+      <h3>Safety in Pregnancy: LGG and BB-12</h3>
+
+      <p>Both <em>L. rhamnosus</em> GG (LGG) and <em>B. animalis</em> subsp. <em>lactis</em> BB-12 carry EFSA Qualified Presumption of Safety status and FDA Generally Recognized as Safe (GRAS) designations. Multiple RCTs — including Luoto et al. (2010) and Rautava et al. (2012) — have administered these strains throughout pregnancy and into the postnatal period without increased adverse events for mother or infant. <EvidenceBadge level="moderate" /> A 2018 systematic review by Jarde et al. in <em>CMAJ</em> covering over 6,000 pregnant participants found no association between probiotic use and miscarriage, malformation, or preterm birth.</p>
+
+      <Callout variant="info" title="Strain specificity matters here, too">
+      These safety data apply to LGG and BB-12 specifically, at studied doses (typically 1–10 billion CFU). They do not extend to every product labeled "probiotic." Consult your OB or midwife before starting any supplement during pregnancy — especially high-CFU multi-strain blends without strain designations.
+      </Callout>
+
+      <h3>L. reuteri DSM 17938 for Infant Colic</h3>
+
+      <p>This is the most-studied probiotic strain for infant colic, and the evidence splits cleanly along feeding type. In exclusively breastfed infants, multiple RCTs — notably Savino et al. (2010) and Szajewska et al.'s 2014 meta-analysis — show <em>L. reuteri</em> DSM 17938 at 10⁸ CFU/day reduced crying time by roughly 50 minutes per day versus placebo. <EvidenceBadge level="moderate" /> In formula-fed infants, results are inconsistent. Sung et al. (2014) — a large, well-designed Australian trial that included both breastfed and formula-fed babies — found no significant benefit in the formula-fed subgroup. The honest summary: if you're breastfeeding, the signal is real. If you're formula-feeding, don't expect the same results.</p>
+
+      <h3>GBS Prevention: The Evidence Isn't There Yet</h3>
+
+      <p>Group B Streptococcus (GBS) colonization affects roughly 25% of pregnant women, and the idea of a probiotic alternative to intrapartum antibiotics is understandably appealing. But the current evidence is weak. <EvidenceBadge level="emerging" /> A handful of small, mostly observational studies have explored oral or vaginal <em>Lactobacillus</em> strains for reducing GBS colonization. None have demonstrated reliable decolonization in adequately powered RCTs. Do not substitute probiotics for standard GBS screening and antibiotic prophylaxis based on current data.</p>
+
+      <Callout variant="warning" title="GBS is not a DIY situation">
+      Intrapartum antibiotic prophylaxis remains the standard of care for GBS-positive mothers. If you encounter products marketed for GBS prevention, recognize that no strain has sufficient clinical evidence to replace established protocols. Discuss any interest in adjunctive probiotics with your obstetric provider.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The strains discussed in this guide are generally well-studied in healthy adults, but probiotics are live organisms — and that matters more for some people than others. If any of the following apply to you, get clinical input before starting.

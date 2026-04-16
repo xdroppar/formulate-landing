@@ -348,6 +348,106 @@ export function DoYouNeedMultivitamin() {
 
       <ProductCallout product={PRODUCTS["thorne-advanced-nutrients"]} />
 
+      <h2>Drug-Nutrient Interactions: When Your Multivitamin Conflicts With Your Medication</h2>
+
+      <p>Drug-nutrient interactions are one of the most overlooked safety issues in supplement use, and they affect a huge portion of multivitamin buyers. Nearly 66% of US adults over 40 take at least one prescription medication (CDC/NCHS, 2024). If that's you, your multivitamin may be quietly interfering with your treatment — or your medication may be creating nutrient depletions that a generic multi doesn't adequately address.</p>
+
+      <h3>Common Medications and the Nutrients They Deplete or Disrupt</h3>
+
+      <p><strong>Metformin and B12:</strong> Long-term metformin use depletes vitamin B12 in roughly 10–30% of users (Aroda et al., 2016). The mechanism involves reduced intrinsic factor–mediated absorption in the ileum. Most multivitamins contain B12, but often as cyanocobalamin at doses too low to offset this depletion. If you're on metformin, ask your provider to monitor serum B12 and methylmalonic acid annually.</p>
+
+      <p><strong>PPIs (omeprazole, pantoprazole) and B12 + magnesium:</strong> Proton pump inhibitors suppress stomach acid, which you need to absorb both B12 and magnesium. Evidence suggests prolonged PPI use (12+ months) significantly increases risk of hypomagnesemia (Cheungpasitporn et al., 2015) and B12 deficiency (Lam et al., 2013). <EvidenceBadge level="moderate" /> A standard multivitamin won't compensate — the absorption pathway itself is impaired.</p>
+
+      <p><strong>Warfarin and vitamin K:</strong> This is the most dangerous interaction on this list. Vitamin K directly opposes warfarin's anticoagulant mechanism. Even small, inconsistent doses of vitamin K — including the amounts found in many multivitamins — can destabilize your INR and increase clotting or bleeding risk. <EvidenceBadge level="strong" /> If you're on warfarin, check whether your multivitamin contains vitamin K and discuss any changes with your prescriber before starting or stopping.</p>
+
+      <p><strong>Statins and CoQ10:</strong> Statins inhibit HMG-CoA reductase, which sits upstream of CoQ10 synthesis. Muscle pain — the most common statin side effect — may be partly related to CoQ10 depletion, though trial results are mixed (Banach et al., 2015). Most multivitamins include only token CoQ10 doses (10–25mg), well below the 100–200mg used in clinical studies. <EvidenceBadge level="emerging" /></p>
+
+      <p><strong>Oral contraceptives and folate + B6:</strong> OCPs are associated with reduced serum levels of folate, B6, B12, and zinc (Palmery et al., 2013). This is especially relevant for women who discontinue OCPs and become pregnant shortly after — folate status at conception is critical for neural tube development. A multivitamin may partially help here, but methylfolate at adequate doses is more reliable than the folic acid found in most formulas.</p>
+
+      <Callout variant="warning" title="Before You Add or Change Anything">
+      Bring your complete medication list <em>and</em> your supplement list — including your multivitamin — to your next provider visit. Drug-nutrient interactions aren't always intuitive, and timing, dose, and nutrient form all matter. This is especially critical for warfarin users, where even small vitamin K fluctuations can have serious consequences. Never adjust supplements around blood thinners without clinical guidance.
+      </Callout>
+
+      <p>The broader point: medications can both create nutrient needs and make certain supplements dangerous. A generic multivitamin doesn't account for either scenario well. If you're on any of these medications, a targeted approach — guided by bloodwork and your prescriber — is safer and more effective than hoping your one-a-day covers it. See our <a href="/guides/supplement-timing">timing guide</a> for how to separate competing nutrients and medications.</p>
+
+      <h3>The Targeted Supplement Stack: A Practical Daily Schedule</h3>
+
+      <p>Building a <strong>targeted supplement stack</strong> is straightforward once you know the timing logic. Fat-soluble vitamins need dietary fat for absorption (Dawson-Hughes et al., 2015 showed 50% greater vitamin D absorption with a fat-containing meal). Magnesium has mild sedative properties. Omega-3s can cause reflux if taken on an empty stomach. Work with these realities, not against them.</p>
+
+      <h3>Morning (With Breakfast Containing Fat)</h3>
+
+      <p><strong>Vitamin D3 + K2:</strong> Take 2,000–5,000 IU of D3 paired with 100–200 mcg of K2 (MK-7 form) alongside eggs, avocado, or anything with a few grams of fat. K2 directs calcium into bones and away from arteries — it's the missing partner most people skip. A 90-day supply runs <strong>$12–$20</strong> for a combined D3/K2 softgel.</p>
+
+      <h3>Dinner (With Your Fattiest Meal)</h3>
+
+      <p><strong>Omega-3 (EPA/DHA):</strong> Aim for a combined 1,000–2,000 mg of EPA and DHA — not total fish oil, but the active fatty acids listed on the back label. Taking it with dinner fat maximizes absorption and minimizes fishy burps. Expect to pay <strong>$15–$30/month</strong> for a quality triglyceride-form product.</p>
+
+      <h3>Before Bed</h3>
+
+      <p><strong>Magnesium glycinate:</strong> 300–400 mg elemental magnesium. Glycinate is preferred over oxide for its superior bioavailability and calming effect on the nervous system — Abbasi et al. (2012) found magnesium supplementation significantly improved subjective sleep quality in elderly subjects. Cost: <strong>$10–$18/month</strong>. See our <a href="/guides/magnesium-forms-compared">magnesium forms guide</a> for a full comparison.</p>
+
+      <Callout variant="info" title="Total Monthly Cost">
+      This three-supplement stack runs roughly <strong>$35–$65/month</strong> — comparable to a quality multivitamin, but with clinical doses of the nutrients most Americans actually lack. Add B12 (methylcobalamin, ~$8/month) only if bloodwork warrants it.
+      </Callout>
+
+      <p>For third-party tested options, look for <strong>USP, NSF International, or IFOS</strong> (specifically for fish oil) certification on the label. ConsumerLab and the <a href="/guides/supplement-label-guide">supplement label guide</a> can help you verify what's actually in the bottle versus what's claimed.</p>
+
+      <Callout variant="warning" title="Don't Copy-Paste Blindly">
+      This schedule assumes a generally healthy adult with no medications or absorption issues. If you take blood thinners, PPIs, or metformin — or if you're pregnant — consult your healthcare provider before starting any new supplement. Vitamin K2 in particular interacts with warfarin.
+      </Callout>
+
+      <h2>Recommended Multivitamins (If You Choose That Route)</h2>
+
+      <p>If you've decided a recommended multivitamin fits your situation — restricted diet, compliance reasons, or a nutritional floor while you sort out bloodwork — here are options that actually meet the criteria outlined above: methylated B vitamins, D3, chelated minerals, no iron, third-party testing, and a multi-capsule serving size that allows meaningful doses.</p>
+
+      <Callout variant="info" title="Why only 4 picks?">
+      Most multivitamins fail at least two of the criteria above. These passed all of them. We excluded products with proprietary blends, iron included by default, or oxide-form minerals. See the <a href="/guides/multivitamin-comparison">full multivitamin comparison</a> for the complete scoring breakdown.
+      </Callout>
+
+      <h3>Thorne Basic Nutrients 2/Day</h3>
+      <p>Two-capsule serving. Methylfolate, methylcobalamin, P5P, D3 at 2,000 IU, chelated zinc and copper. NSF Certified for Sport. No iron. The doses aren't heroic — magnesium is only 80mg — but nothing is in a junk form. A solid default for most people. Roughly <strong>$25–30/month</strong>, making this the budget pick on the list.</p>
+
+      <h3>Pure Encapsulations ONE Multivitamin</h3>
+      <p>Despite the "one" name, this uses a large capsule with methylated Bs, D3 at 2,000 IU, and chelated minerals. No iron. Third-party tested (Emerson Ecologics). Magnesium is token (45mg citrate), so you'd still want a standalone <a href="/guides/magnesium-glycinate">magnesium supplement</a>. Around <strong>$30–35/month</strong>.</p>
+
+      <h3>Seeking Health Optimal Multivitamin Minus One</h3>
+      <p>The "Minus One" means no iron — exactly what most people want. Four-capsule serving allows more generous dosing: 400mcg methylfolate, active B6, MTHF-friendly forms throughout. Includes 200mg chelated magnesium, which is better than most. No major third-party seal, but the company publishes COAs on request. About <strong>$35–40/month</strong>.</p>
+
+      <h3>Naturelo One Daily Multivitamin (Men's or Women's)</h3>
+      <p>Plant-based capsule with methylcobalamin, methylfolate, D3 from lichen, and chelated minerals. The men's formula is iron-free; the women's includes iron, so <strong>choose the men's version</strong> unless bloodwork shows you need iron. Third-party tested. Four-capsule serving. Roughly <strong>$30/month</strong>. Slightly lower B-vitamin doses than Seeking Health but more accessible at mainstream retailers.</p>
+
+      <Callout variant="warning" title="A multi still isn't enough on its own">
+      Even the best multivitamin on this list underdoses magnesium and contains zero omega-3. You'll likely still want standalone <a href="/guides/vitamin-d3-k2">vitamin D3 + K2</a> (to reach 4,000–5,000 IU if your levels are low), magnesium, and fish oil. The multi covers the long tail of B vitamins, zinc, selenium, and other trace nutrients — not the big-ticket gaps.
+      </Callout>
+
+      <h2>Special Populations: Vegan and Vegetarian Nutrient Gaps Explained</h2>
+
+      <p>If you follow a plant-based diet, <strong>vegan and vegetarian nutrient gaps</strong> aren't hypothetical — they're mechanistically guaranteed by what plant foods can and can't provide. The general advice above about targeting 3–4 gaps applies doubly here, because your gap list is longer and more predictable than the average omnivore's.</p>
+
+      <h3>B12: The Non-Negotiable</h3>
+
+      <p>Vitamin B12 is synthesized exclusively by bacteria and archaea. No plant food produces it. Fermented foods and algae like spirulina contain B12 analogues that can actually <em>block</em> true B12 absorption (Watanabe et al., 2014). Without supplementation or fortified foods, deficiency is a matter of when, not if. Roughly 52% of vegans and 7% of vegetarians have serum B12 below adequate levels (Pawlak et al., 2013). <EvidenceBadge level="strong" /> Methylcobalamin or hydroxocobalamin at 1,000 mcg daily, or 2,500 mcg twice weekly, is the standard recommendation for vegans. Sublingual forms bypass any intrinsic factor limitations.</p>
+
+      <h3>Iron: Absorption Math Works Against You</h3>
+
+      <p>Plants contain only non-heme iron, which has an absorption rate of 2–13% compared to heme iron's 15–35% (Hunt, 2003). Phytates in legumes, grains, and nuts bind non-heme iron further, reducing what little you absorb. You can partly offset this by pairing iron-rich foods with vitamin C — ascorbic acid can increase non-heme absorption up to sixfold. But if your ferritin drops below 30 ng/mL on bloodwork, supplementation with iron bisglycinate (gentler on the gut) is worth discussing with your provider.</p>
+
+      <h3>Omega-3s: The ALA Conversion Problem</h3>
+
+      <p>Flaxseed and walnuts give you ALA, but your body converts only about 5–10% of ALA to EPA and less than 1% to DHA (Burdge & Calder, 2005). <EvidenceBadge level="strong" /> That's not a rounding error — it's a near-total bottleneck. Algae-based DHA/EPA supplements bypass the conversion entirely and are the only direct vegan source. Aim for at least 250–500 mg combined DHA/EPA daily, which mirrors the dosing in our <a href="/guides/omega-3">omega-3 guide</a>.</p>
+
+      <h3>Zinc and Iodine: The Quiet Gaps</h3>
+
+      <p>Phytates strike again with zinc — they can reduce zinc absorption by up to 50% (Foster et al., 2012). Vegans may need up to 50% more zinc than the RDA to compensate. If you've also dropped dairy and seafood, iodine becomes a real concern. Iodized salt is inconsistently used, and plant foods are unreliable sources. A modest 150 mcg iodine supplement (from kelp or potassium iodide) covers the gap without overdoing it.</p>
+
+      <h3>A Targeted Vegan Stack</h3>
+
+      <p>Rather than relying on a generic <strong>vegan multivitamin</strong> that underdoses everything, evidence suggests this targeted approach covers the mechanistic gaps specific to plant-based eating: <strong>B12</strong> (1,000 mcg methylcobalamin daily), <strong>algae-based omega-3</strong> (250–500 mg DHA/EPA), <strong>vitamin D3</strong> from lichen (2,000 IU — see our <a href="/guides/vitamin-d">vitamin D guide</a>), <strong>zinc</strong> (15–30 mg as zinc picolinate or citrate, taken away from iron), and <strong>iodine</strong> (150 mcg if you don't use iodized salt). Add iron only if bloodwork confirms low ferritin.</p>
+
+      <Callout variant="warning" title="Consult before stacking iron and zinc">
+      Iron and zinc compete for the same absorption pathways. If you need both, take them at different times of day. Pregnant or breastfeeding? Your requirements for B12, iron, DHA, and iodine all increase — work with your healthcare provider to adjust doses.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Whether you stick with a multivitamin or move to a targeted stack, certain populations face drug interactions, absorption issues, or shifting nutrient needs that generic advice can't safely address. If any of the following apply to you, get clinical input before changing your supplement routine.

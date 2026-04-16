@@ -530,6 +530,27 @@ Tier 3 supplements tend to be the most expensive per month and the least likely 
 
 <p>Throughout this guide, every recommendation carries an implicit tier. When the <a href="/guides/beginner-longevity-stack">longevity stack guide</a> discusses quercetin alongside CoQ10, those are not equivalent bets. When the cognitive section lists creatine next to lion's mane, the gap in evidence is enormous. Use the tiers to decide where you spend first — and where you experiment only after the basics are locked in.</p>
 
+      <h2>Special Populations: Pregnancy, Vegans, Older Adults, and Athletes</h2>
+      <p>Special populations need more than a generic supplement stack — they need targeted modifications based on distinct physiological demands, absorption differences, and regulatory risks. The foundation stack from Step 2 is a solid starting point, but applying it unchanged to a pregnant woman, a 70-year-old, or a tested athlete is a mistake. Here's what to adjust.</p>
+
+      <h3>Pregnant or Trying to Conceive</h3>
+      <p>Methylfolate (400–800mcg) replaces folic acid as the preferred form — roughly 30–40% of people carry MTHFR variants that impair folic acid conversion (Crider et al., 2012). Add <strong>choline</strong> (450mg/day, the AI set by the Institute of Medicine) since most prenatals underdose it, and <strong>iodine</strong> (150–220mcg) for fetal neurodevelopment. <EvidenceBadge level="strong" /></p>
+      <Callout variant="warning" title="Avoid high-dose vitamin A">
+      Preformed vitamin A (retinol) above 10,000 IU/day is teratogenic. Check your prenatal, multivitamin, and any standalone products — sum every source. Betacarotene is not the same risk. Consult your OB-GYN before modifying any supplement during pregnancy.
+      </Callout>
+
+      <h3>Vegans and Plant-Based Eaters</h3>
+      <p><strong>Sublingual B12</strong> (1,000mcg methylcobalamin, 2–3x/week) is non-negotiable — no plant food provides reliable B12, and deficiency rates among unsupplemented vegans reach 40–90% depending on the study (Pawlak et al., 2013). Swap fish oil for <strong>algae-derived omega-3</strong> providing at least 500mg combined EPA+DHA. Add <strong>iodine</strong> (150mcg) if you don't use iodized salt regularly — plant-based diets are consistently low. <EvidenceBadge level="strong" /></p>
+
+      <h3>Adults 60+</h3>
+      <p>B12 absorption declines with age due to atrophic gastritis, affecting an estimated 10–30% of adults over 60 (Allen, 2009). A <strong>sublingual or high-dose oral B12</strong> (1,000mcg) bypasses the gastric barrier more effectively. <strong>Vitamin D3</strong> needs often increase — the Endocrine Society suggests 1,500–2,000 IU minimum for older adults, with many clinicians targeting higher based on bloodwork. Pair with <strong>calcium</strong> (500–600mg if dietary intake is below 1,200mg/day) but avoid mega-doses — evidence suggests exceeding 1,000mg supplemental calcium may increase cardiovascular risk (Bolland et al., 2011). <EvidenceBadge level="moderate" /> Protein supplementation (20–40g whey or plant protein) also becomes more relevant as anabolic resistance increases with age.</p>
+
+      <h3>Tested Athletes</h3>
+      <p>Product quality isn't just a health concern — it's a career and legal one. Supplement contamination with banned substances like nandrolone precursors or stimulants has been documented in 12–25% of over-the-counter products (Martínez-Sanz et al., 2017). <strong>NSF Certified for Sport</strong> and <strong>Informed Sport</strong> certifications test for over 270 banned substances on the WADA list. This isn't optional quality assurance — it's your defense against a positive test and potential suspension. <EvidenceBadge level="strong" /> Every single product in your stack should carry one of these certifications, including basics like creatine and protein powder. Our <a href="/guides/how-to-build-a-supplement-stack">product quality section</a> covers what to look for on labels.</p>
+      <Callout variant="info" title="One stack doesn't fit all">
+      These modifications layer on top of the foundation stack — they don't replace it. Vitamin D, magnesium, omega-3, and creatine remain relevant across all four groups, with form and dose adjustments as noted above. Consult your healthcare provider for personalized dosing.
+      </Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The foundation stack outlined above is well-studied in generally healthy adults. But several populations have specific risks, interactions, or absorption differences that change the calculus. If any of the following apply to you, get clinical input before starting.
