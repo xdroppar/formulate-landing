@@ -176,7 +176,7 @@ export function MagnesiumDeficiency() {
         A 2012 double-blind RCT in the <em>Journal of Research in Medical
         Sciences</em> gave elderly insomniacs 500mg of magnesium daily for 8
         weeks. Results: significantly better sleep time, sleep efficiency,
-        and melatonin levels, with lower cortisol. <EvidenceBadge level="strong" />
+        and melatonin levels, with lower cortisol. <EvidenceBadge level="strong" studiesId="magnesium-abbasi-sleep-2012" />
       </Callout>
 
       <p>
@@ -281,7 +281,7 @@ export function MagnesiumDeficiency() {
         MIT, published in <em>Neuron</em> (2010), found that increasing
         brain magnesium levels (using magnesium L-threonate) enhanced
         synaptic density and improved both short-term and long-term memory
-        in animal models. <EvidenceBadge level="moderate" />
+        in animal models. <EvidenceBadge level="moderate" studiesId="magnesium-slutsky-threonate-2010" />
       </p>
       <p>
         Human data on magnesium and cognition is still developing, but if

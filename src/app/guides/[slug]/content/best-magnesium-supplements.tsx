@@ -51,7 +51,7 @@ export function BestMagnesium() {
         Magnesium is involved in over 300 enzymatic reactions in your body &mdash;
         sleep, muscle contraction, blood pressure regulation, nerve signaling, DNA
         synthesis. An estimated 50% of Americans don&rsquo;t meet the RDA
-        (Rosanoff et al., 2012, <em>Nutrition Reviews</em>). <EvidenceBadge level="strong" /> But &ldquo;take
+        (Rosanoff et al., 2012, <em>Nutrition Reviews</em>). <EvidenceBadge level="strong" studiesId="magnesium-rosanoff-2012" /> But &ldquo;take
         magnesium&rdquo; is incomplete advice because the form you choose
         determines where it goes and what it does.
       </p>
@@ -104,7 +104,7 @@ export function BestMagnesium() {
         both short- and long-term memory in animal models. <EvidenceBadge level="moderate" studiesId="magnesium-slutsky-threonate-2010" /> Subsequent human trials
         using the patented Magtein&reg; form (Liu et al., 2016,{" "}
         <em>Journal of Alzheimer&rsquo;s Disease</em>) showed improved cognitive
-        ability in older adults with cognitive concerns. <EvidenceBadge level="moderate" />
+        ability in older adults with cognitive concerns. <EvidenceBadge level="moderate" studiesId="magnesium-liu-magtein-2016" />
       </p>
       <p>
         <strong>Take this if:</strong> Brain fog, memory support, or neuroprotection
@@ -148,7 +148,7 @@ export function BestMagnesium() {
         <em>Magnesium Research</em>). It&rsquo;s the cheapest form on the shelf
         because most of it passes straight through you. If you see magnesium oxide
         as the primary form in a product, put it back. The only exception is if
-        you specifically want a laxative effect. <EvidenceBadge level="strong" />
+        you specifically want a laxative effect. <EvidenceBadge level="strong" studiesId="magnesium-firoz-graber-2001" />
       </Callout>
 
       <h2>The Elemental Magnesium Trap</h2>
@@ -451,7 +451,7 @@ export function BestMagnesium() {
 
       <h3>Sleep and Relaxation: 1–2 Weeks</h3>
 
-      <p>If you&rsquo;re taking <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> for sleep, many people report noticeable improvements in sleep onset and subjective sleep quality within the first one to two weeks. The Abbasi et al. (2012) study in elderly subjects showed significant improvements over an 8-week intervention, but participants reported changes well before the trial endpoint. <EvidenceBadge level="moderate" /> That said, individual responses vary considerably — your baseline deficiency status, sleep hygiene, and concurrent stressors all influence how quickly you feel a difference.</p>
+      <p>If you&rsquo;re taking <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> for sleep, many people report noticeable improvements in sleep onset and subjective sleep quality within the first one to two weeks. The Abbasi et al. (2012) study in elderly subjects showed significant improvements over an 8-week intervention, but participants reported changes well before the trial endpoint. <EvidenceBadge level="moderate" studiesId="magnesium-abbasi-sleep-2012" /> That said, individual responses vary considerably — your baseline deficiency status, sleep hygiene, and concurrent stressors all influence how quickly you feel a difference.</p>
 
       <h3>Serum and RBC Magnesium: 4–6 Weeks</h3>
 

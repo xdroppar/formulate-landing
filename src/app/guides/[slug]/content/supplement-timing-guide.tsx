@@ -545,7 +545,7 @@ Vitamins A, D, E, K, omega-3s, and CoQ10 all require dietary fat for absorption.
 <tr className="border-b border-gray-200">
 <td className="p-2 font-medium">Vitamin D</td>
 <td className="p-2">D3 (cholecalciferol)</td>
-<td className="p-2">Raises and sustains serum 25(OH)D more effectively than D2 — a meta-analysis by Tripkovic et al. (2012) confirmed D3's superiority <EvidenceBadge level="strong" /></td>
+<td className="p-2">Raises and sustains serum 25(OH)D more effectively than D2 — a meta-analysis by Tripkovic et al. (2012) confirmed D3's superiority <EvidenceBadge level="strong" studiesId="vitamin-d-tripkovic-d3vsd2-2012" /></td>
 <td className="p-2">D2 (ergocalciferol) works if you need a vegan source, but you may need higher or more frequent dosing to maintain equivalent levels</td>
 </tr>
 </tbody>

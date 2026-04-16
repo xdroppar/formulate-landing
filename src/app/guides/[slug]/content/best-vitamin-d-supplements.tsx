@@ -190,7 +190,7 @@ export function BestVitaminD() {
         The Endocrine Society&rsquo;s 2011 clinical practice guideline (Holick
         et al., <em>Journal of Clinical Endocrinology &amp; Metabolism</em>)
         recommends 1,500&ndash;2,000 IU/day for adults to maintain levels above
-        30 ng/mL. <EvidenceBadge level="strong" /> That&rsquo;s a reasonable starting point if you don&rsquo;t have
+        30 ng/mL. <EvidenceBadge level="strong" studiesId="vitamin-d-holick-endocrine-2011" /> That&rsquo;s a reasonable starting point if you don&rsquo;t have
         a blood test yet, but getting tested is always better than guessing.
       </p>
 
@@ -395,7 +395,7 @@ export function BestVitaminD() {
 
       <p>The <strong>VITAL trial</strong> (Manson et al., 2019, n=25,871) gave healthy adults 2,000 IU/day of D3 for a median of 5.3 years. It found <strong>no significant reduction</strong> in cardiovascular events (HR 0.97) or invasive cancer incidence (HR 0.96). <EvidenceBadge level="strong" studiesId="vitamin-d-vital-manson-2019" /> A secondary analysis did show a 25% reduction in cancer <em>mortality</em> after excluding the first two years, but this was an exploratory finding, not the primary endpoint.</p>
 
-      <p>The <strong>ViDA trial</strong> (Scragg et al., 2017, n=5,110) tested monthly high-dose boluses (100,000 IU) in New Zealand adults and found no reduction in cardiovascular disease. <EvidenceBadge level="strong" /> The <strong>D-HEALTH trial</strong> (Neale et al., 2022, n=21,315) tested 60,000 IU/month for five years in Australian adults aged 60–84 and found no significant reduction in cancer mortality or all-cause mortality. <EvidenceBadge level="strong" /></p>
+      <p>The <strong>ViDA trial</strong> (Scragg et al., 2017, n=5,110) tested monthly high-dose boluses (100,000 IU) in New Zealand adults and found no reduction in cardiovascular disease. <EvidenceBadge level="strong" studiesId="vitamin-d-scragg-vida-2017" /> The <strong>D-HEALTH trial</strong> (Neale et al., 2022, n=21,315) tested 60,000 IU/month for five years in Australian adults aged 60–84 and found no significant reduction in cancer mortality or all-cause mortality. <EvidenceBadge level="strong" studiesId="vitamin-d-neale-dhealth-2022" /></p>
 
       <Callout variant="info" title="The critical distinction">
         Correcting a true deficiency (below 20 ng/mL) has consistent evidence for improving bone health, reducing fracture risk, and resolving symptoms like fatigue and muscle weakness. What these mega-trials tested was different: whether pushing <em>already-sufficient</em> people higher would prevent cardiovascular disease or cancer. That hypothesis has not held up.

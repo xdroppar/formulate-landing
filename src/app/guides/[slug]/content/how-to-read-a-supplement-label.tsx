@@ -135,7 +135,7 @@ export function HowToReadSupplementLabel() {
           significantly more effective at raising and maintaining blood levels
           than D2 (ergocalciferol). A 2012 meta-analysis in the{" "}
           <em>American Journal of Clinical Nutrition</em> confirmed D3&rsquo;s
-          superiority. <EvidenceBadge level="strong" />
+          superiority. <EvidenceBadge level="strong" studiesId="vitamin-d-tripkovic-d3vsd2-2012" />
         </li>
         <li>
           <strong>Folic acid vs. methylfolate (5-MTHF):</strong> This one&rsquo;s

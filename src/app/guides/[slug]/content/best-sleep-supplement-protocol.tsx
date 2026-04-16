@@ -69,7 +69,7 @@ export function BestSleepProtocol() {
         <em>Journal of Research in Medical Sciences</em> gave elderly insomniacs
         500mg of magnesium or placebo for 8 weeks. The magnesium group saw
         significant improvements in sleep efficiency, sleep time, melatonin
-        levels, and serum cortisol. <EvidenceBadge level="strong" />
+        levels, and serum cortisol. <EvidenceBadge level="strong" studiesId="magnesium-abbasi-sleep-2012" />
       </Callout>
 
       <p>

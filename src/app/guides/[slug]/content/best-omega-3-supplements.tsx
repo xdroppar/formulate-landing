@@ -156,7 +156,7 @@ export function BestOmega3() {
           <strong>Higher DHA:</strong> Better evidence for brain structure,
           cognitive function, and neuroprotection. Critical during pregnancy for
           fetal brain development. The MFGD study (Makrides et al., 2010,{" "}
-          <em>JAMA</em>) used DHA-rich supplementation in pregnant women. <EvidenceBadge level="strong" />
+          <em>JAMA</em>) used DHA-rich supplementation in pregnant women. <EvidenceBadge level="strong" studiesId="omega3-mfgd-makrides-2010" />
         </li>
         <li>
           <strong>Balanced ratio:</strong> Fine for general health maintenance.
@@ -443,10 +443,10 @@ export function BestOmega3() {
       </Callout>
 
       <h3>STRENGTH (Nicholls et al., 2020, JAMA)</h3>
-      <p><strong>Dose and form:</strong> 4,000 mg/day of combined EPA + DHA (carboxylic acid form — the drug Epanova) versus a corn oil placebo. <strong>Finding:</strong> No significant reduction in cardiovascular events. <EvidenceBadge level="strong" /> Some argue this implicates DHA as counterproductive at high doses; others point to the neutral placebo as the real variable. The honest answer: we don&rsquo;t know which explanation is correct.</p>
+      <p><strong>Dose and form:</strong> 4,000 mg/day of combined EPA + DHA (carboxylic acid form — the drug Epanova) versus a corn oil placebo. <strong>Finding:</strong> No significant reduction in cardiovascular events. <EvidenceBadge level="strong" studiesId="omega3-strength-nicholls-2020" /> Some argue this implicates DHA as counterproductive at high doses; others point to the neutral placebo as the real variable. The honest answer: we don&rsquo;t know which explanation is correct.</p>
 
       <h3>VITAL (Manson et al., 2019, NEJM)</h3>
-      <p><strong>Dose and form:</strong> 840 mg/day combined EPA + DHA (standard fish oil, Omacor/Lovaza capsule). <strong>Finding:</strong> No significant reduction in major cardiovascular events or cancer incidence in the general population. <EvidenceBadge level="strong" /> However, subgroup analyses suggested benefit for heart attack specifically (28% reduction) and stronger effects in participants with low baseline fish intake. Subgroup findings are hypothesis-generating, not proof.</p>
+      <p><strong>Dose and form:</strong> 840 mg/day combined EPA + DHA (standard fish oil, Omacor/Lovaza capsule). <strong>Finding:</strong> No significant reduction in major cardiovascular events or cancer incidence in the general population. <EvidenceBadge level="strong" studiesId="omega3-vital-manson-2019" /> However, subgroup analyses suggested benefit for heart attack specifically (28% reduction) and stronger effects in participants with low baseline fish intake. Subgroup findings are hypothesis-generating, not proof.</p>
 
       <p>The bottom line for supplement buyers: no over-the-counter fish oil has been tested at REDUCE-IT doses in a pivotal trial. VITAL&rsquo;s modest dose — closer to what you&rsquo;d actually take from a supplement — showed no broad cardiovascular benefit. Claims that a fish oil supplement is &ldquo;clinically proven&rdquo; to prevent heart disease are, at best, an oversimplification. For context on how <a href="/guides/omega-3-dosing-guide">omega-3 dosing maps to specific outcomes</a>, the dose-response section above breaks this down further.</p>
 

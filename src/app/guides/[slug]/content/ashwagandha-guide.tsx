@@ -90,7 +90,7 @@ export function AshwagandhaGuide() {
         including the Hamilton Anxiety Rating Scale. The effect sizes ranged
         from moderate to large. This isn&rsquo;t &ldquo;maybe it helps a
         little&rdquo; territory &mdash; the signal is clear.{" "}
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge level="strong" studiesId="ashwagandha-pratte-2014" />
       </p>
       <p>
         That said, ashwagandha is not a replacement for clinical anxiety
@@ -106,7 +106,7 @@ export function AshwagandhaGuide() {
         adults and people with insomnia over 10 weeks. The{" "}
         <em>somnifera</em> in the Latin name literally means
         &ldquo;sleep-inducing,&rdquo; and the data backs it up.{" "}
-        <EvidenceBadge level="strong" />
+        <EvidenceBadge level="strong" studiesId="ashwagandha-langade-sleep-2019" />
       </p>
       <p>
         If you&rsquo;re building a sleep protocol, ashwagandha is worth
@@ -146,7 +146,7 @@ export function AshwagandhaGuide() {
         and muscle size compared to placebo over 8 weeks. Recovery markers
         also improved. The effect is real but modest &mdash; don&rsquo;t
         expect it to replace <a href="/guides/best-creatine-supplements">creatine</a> or good programming.{" "}
-        <EvidenceBadge level="moderate" />
+        <EvidenceBadge level="moderate" studiesId="ashwagandha-wankhede-2015" />
       </p>
 
       <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />

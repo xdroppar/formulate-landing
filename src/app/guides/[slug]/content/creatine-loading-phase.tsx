@@ -205,7 +205,7 @@ export function CreatineLoadingPhase() {
         long-term daily creatine supplementation (studied for up to 5 years)
         is safe, with no evidence of kidney damage in healthy individuals and
         no clinically meaningful suppression of endogenous creatine
-        synthesis. <EvidenceBadge level="strong" />
+        synthesis. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" />
       </Callout>
 
       <p>
@@ -284,7 +284,7 @@ export function CreatineLoadingPhase() {
         cognitive performance under conditions of stress, sleep deprivation,
         and demanding mental tasks. A 2018 systematic review in{" "}
         <em>Experimental Gerontology</em> found evidence for cognitive
-        benefits in older adults specifically. <EvidenceBadge level="moderate" />
+        benefits in older adults specifically. <EvidenceBadge level="moderate" studiesId="creatine-avgerinos-cognitive-2018" />
       </Callout>
 
       <p>
@@ -380,7 +380,7 @@ export function CreatineLoadingPhase() {
 
       <h3>The ISSN Safety Data Has Limits</h3>
 
-      <p>The ISSN position stand (Kreider et al., 2017) concluding that long-term creatine use is safe applies specifically to <strong>healthy kidneys</strong>. That's an important qualifier. The studies reviewed excluded participants with pre-existing renal disease. <EvidenceBadge level="strong" /> for healthy populations — but the evidence simply doesn't extend to compromised kidneys.</p>
+      <p>The ISSN position stand (Kreider et al., 2017) concluding that long-term creatine use is safe applies specifically to <strong>healthy kidneys</strong>. That's an important qualifier. The studies reviewed excluded participants with pre-existing renal disease. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" /> for healthy populations — but the evidence simply doesn't extend to compromised kidneys.</p>
 
       <Callout variant="warning" title="Consult your physician first if any of these apply">
       You have <strong>chronic kidney disease (CKD)</strong> at any stage. You have a <strong>single kidney</strong> (congenital, surgical, or donor). You take <strong>nephrotoxic medications</strong> — NSAIDs, certain ACE inhibitors, aminoglycoside antibiotics, lithium, or high-dose methotrexate. You have <strong>diabetes with renal involvement</strong> or consistently elevated creatinine unrelated to supplementation. In these cases, the risk-benefit calculation changes, and your nephrologist or prescriber needs to weigh in before you start creatine.

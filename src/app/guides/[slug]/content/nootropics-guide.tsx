@@ -125,7 +125,7 @@ export function NootropicsGuide() {
         Gerontology</em> analyzed six RCTs and found that creatine
         supplementation significantly improved short-term memory and
         reasoning, with the strongest effects under sleep deprivation and
-        mental fatigue. <EvidenceBadge level="strong" /> A 2003 study by Rae et al. showed
+        mental fatigue. <EvidenceBadge level="strong" studiesId="creatine-avgerinos-cognitive-2018" /> A 2003 study by Rae et al. showed
         creatine improved working memory and processing speed in
         vegetarians &mdash; who have lower baseline creatine stores.
         <EvidenceBadge level="moderate" />
@@ -441,7 +441,7 @@ export function NootropicsGuide() {
       <p>
         Ashwagandha in particular has solid human
         data for reducing perceived stress and anxiety (Chandrasekhar et
-        al., 2012, <em>Indian Journal of Psychological Medicine</em>). <EvidenceBadge level="strong" />{" "}
+        al., 2012, <em>Indian Journal of Psychological Medicine</em>). <EvidenceBadge level="strong" studiesId="ashwagandha-cortisol-2012" />{" "}
         It won&rsquo;t make you &ldquo;smarter,&rdquo; but it may remove
         the stress-induced cognitive ceiling that no amount of caffeine
         or lion&rsquo;s mane can fix.

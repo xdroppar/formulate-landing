@@ -177,7 +177,7 @@ export function BestCreatine() {
         beta-methylbutyrate) and <a href="/guides/best-vitamin-d-supplements">vitamin D</a>. HMB has modest evidence for reducing
         muscle protein breakdown (Wilson et al., 2013,{" "}
         <em>European Journal of Applied Physiology</em>), which makes this a
-        reasonable combo product for strength-focused users. <EvidenceBadge level="moderate" /> You will pay more for
+        reasonable combo product for strength-focused users. <EvidenceBadge level="moderate" studiesId="creatine-hmb-wilson-2013" /> You will pay more for
         the extras.
       </p>
       <p>
