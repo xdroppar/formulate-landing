@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function CreatineAndHairLoss() {
@@ -136,6 +139,8 @@ export function CreatineAndHairLoss() {
         If you do take creatine, 3&ndash;5 g of creatine monohydrate daily is the standard dose supported by decades of research. Check our guide to the <a href="/guides/best-creatine-supplements">best creatine supplements</a> for products that score well on purity and label accuracy. <a href="/guides/creatine-for-women">Women considering creatine</a> can also rest easy &mdash; female pattern hair loss operates through partially different mechanisms, and the 2009 study was conducted exclusively on men.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Does creatine directly cause hair loss?</h3>
@@ -193,6 +198,14 @@ export function CreatineAndHairLoss() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductRow
+        title="Top-scored creatine products"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

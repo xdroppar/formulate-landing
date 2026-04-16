@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function CreatineForWomen() {
@@ -210,6 +213,8 @@ export function CreatineForWomen() {
         efficacy. Take them together without concern.
       </Callout>
 
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
+
       <h2>Common Concerns: Bloating, Water Weight, and Hair Loss</h2>
 
       <h3>Bloating</h3>
@@ -344,6 +349,14 @@ export function CreatineForWomen() {
         None of the above is medical advice. Bring your full supplement list to
         your next provider visit.
       </p>
+
+      <ProductRow
+        title="Top-scored creatine products"
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 

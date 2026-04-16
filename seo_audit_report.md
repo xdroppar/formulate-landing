@@ -6,39 +6,39 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 
 | # | Guide | Total | Intent | Mon | Struct | Unique | Links | Action | Trust | Engage | Words |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | [best-omega-3-supplements](src/app/guides/[slug]/content/best-omega-3-supplements.tsx) | **39.3** | 5.0 | 5 | 4.5 | 5 | 5 | 4.8 | 5 | 5 | 3722 |
-| 2 | [ashwagandha-guide](src/app/guides/[slug]/content/ashwagandha-guide.tsx) | **39.2** | 5.0 | 5 | 4.5 | 5 | 5 | 4.7 | 5 | 5 | 3458 |
-| 3 | [signs-you-are-magnesium-deficient](src/app/guides/[slug]/content/signs-you-are-magnesium-deficient.tsx) | **39.0** | 4.5 | 5 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4181 |
-| 4 | [zinc-guide](src/app/guides/[slug]/content/zinc-guide.tsx) | **39.0** | 4.5 | 5 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4245 |
-| 5 | [taurine-guide](src/app/guides/[slug]/content/taurine-guide.tsx) | **38.7** | 4.5 | 5 | 4.5 | 4.7 | 5 | 5 | 5 | 5 | 3867 |
-| 6 | [nac-guide](src/app/guides/[slug]/content/nac-guide.tsx) | **38.6** | 4.5 | 5 | 4.5 | 5 | 5 | 4.6 | 5 | 5 | 3665 |
-| 7 | [how-to-build-a-supplement-stack](src/app/guides/[slug]/content/how-to-build-a-supplement-stack.tsx) | **38.5** | 4.5 | 5 | 4.5 | 4.5 | 5 | 5 | 5 | 5 | 4032 |
-| 8 | [best-vitamin-d-supplements](src/app/guides/[slug]/content/best-vitamin-d-supplements.tsx) | **38.4** | 5.0 | 5 | 4.5 | 3.9 | 5 | 5 | 5 | 5 | 3674 |
-| 9 | [nootropics-guide](src/app/guides/[slug]/content/nootropics-guide.tsx) | **38.3** | 4.5 | 5 | 4.5 | 5 | 5 | 4.3 | 5 | 5 | 3964 |
-| 10 | [vitamin-b12-guide](src/app/guides/[slug]/content/vitamin-b12-guide.tsx) | **38.3** | 4.5 | 5 | 4.5 | 4.5 | 5 | 4.8 | 5 | 5 | 4440 |
-| 11 | [best-magnesium-supplements](src/app/guides/[slug]/content/best-magnesium-supplements.tsx) | **38.1** | 5.0 | 5 | 4.5 | 3.7 | 5 | 4.9 | 5 | 5 | 3539 |
-| 12 | [do-you-need-a-multivitamin](src/app/guides/[slug]/content/do-you-need-a-multivitamin.tsx) | **38.1** | 4.5 | 5 | 4.5 | 4.1 | 5 | 5 | 5 | 5 | 4024 |
-| 13 | [how-to-read-a-supplement-label](src/app/guides/[slug]/content/how-to-read-a-supplement-label.tsx) | **37.8** | 4.5 | 5 | 5 | 3.9 | 5 | 5 | 4.4 | 5 | 4323 |
-| 14 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **37.7** | 4.5 | 5 | 5 | 3.4 | 5 | 4.8 | 5 | 5 | 3590 |
-| 15 | [iron-guide](src/app/guides/[slug]/content/iron-guide.tsx) | **37.7** | 4.5 | 5 | 4.5 | 3.7 | 5 | 5 | 5 | 5 | 4904 |
-| 16 | [lions-mane-guide](src/app/guides/[slug]/content/lions-mane-guide.tsx) | **37.7** | 4.5 | 4.9 | 4.5 | 5 | 5 | 3.8 | 5 | 5 | 4138 |
-| 17 | [berberine-guide](src/app/guides/[slug]/content/berberine-guide.tsx) | **37.4** | 3.0 | 4.9 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4068 |
-| 18 | [best-pre-workout-supplement-protocol](src/app/guides/[slug]/content/best-pre-workout-supplement-protocol.tsx) | **37.4** | 5.0 | 5 | 4.5 | 4.3 | 5 | 4.2 | 4.4 | 5 | 3009 |
-| 19 | [what-to-look-for-in-a-probiotic](src/app/guides/[slug]/content/what-to-look-for-in-a-probiotic.tsx) | **37.4** | 4.5 | 5 | 4.5 | 5 | 5 | 3.4 | 5 | 5 | 5014 |
-| 20 | [best-sleep-supplement-protocol](src/app/guides/[slug]/content/best-sleep-supplement-protocol.tsx) | **37.3** | 5.0 | 5 | 3.5 | 4.9 | 5 | 3.9 | 5 | 5 | 3443 |
-| 21 | [electrolytes-guide](src/app/guides/[slug]/content/electrolytes-guide.tsx) | **37.2** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.3 | 5 | 5 | 4089 |
-| 22 | [supplement-timing-guide](src/app/guides/[slug]/content/supplement-timing-guide.tsx) | **37.2** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.3 | 5 | 5 | 3865 |
-| 23 | [best-creatine-supplements](src/app/guides/[slug]/content/best-creatine-supplements.tsx) | **36.9** | 5.0 | 5 | 4.5 | 3.9 | 5 | 3.5 | 5 | 5 | 3232 |
-| 24 | [collagen-guide](src/app/guides/[slug]/content/collagen-guide.tsx) | **36.9** | 3.0 | 4.9 | 4.5 | 5 | 5 | 4.5 | 5 | 5 | 4298 |
-| 25 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.4** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.4 | 5 | 5 | 3800 |
-| 26 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **36.2** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 3.6 | 4.9 | 2381 |
-| 27 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
-| 28 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **32.3** | 2.5 | 4.1 | 4.0 | 3.5 | 5 | 3.5 | 4.7 | 5 | 1923 |
-| 29 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **31.8** | 4.5 | 3.3 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 5 | 2195 |
-| 30 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **31.3** | 4.5 | 3.3 | 3.5 | 2.9 | 5 | 2.1 | 5 | 5 | 2086 |
-| 31 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **30.9** | 2.5 | 3.3 | 3.5 | 4.0 | 5 | 2.6 | 5 | 5 | 2308 |
-| 32 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **30.6** | 2.5 | 3.3 | 3.5 | 3.5 | 5 | 2.8 | 5 | 5 | 1997 |
-| 33 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **30.6** | 2.5 | 3.3 | 4.0 | 2.9 | 5 | 3.4 | 4.5 | 5 | 2102 |
+| 1 | [best-omega-3-supplements](src/app/guides/[slug]/content/best-omega-3-supplements.tsx) | **39.3** | 5.0 | 5 | 4.5 | 5 | 5 | 4.8 | 5 | 5 | 4312 |
+| 2 | [ashwagandha-guide](src/app/guides/[slug]/content/ashwagandha-guide.tsx) | **39.2** | 5.0 | 5 | 4.5 | 5 | 5 | 4.7 | 5 | 5 | 4097 |
+| 3 | [best-vitamin-d-supplements](src/app/guides/[slug]/content/best-vitamin-d-supplements.tsx) | **39.0** | 5.0 | 5 | 4.5 | 4.5 | 5 | 5 | 5 | 5 | 4331 |
+| 4 | [signs-you-are-magnesium-deficient](src/app/guides/[slug]/content/signs-you-are-magnesium-deficient.tsx) | **39.0** | 4.5 | 5 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4848 |
+| 5 | [zinc-guide](src/app/guides/[slug]/content/zinc-guide.tsx) | **39.0** | 4.5 | 5 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4789 |
+| 6 | [taurine-guide](src/app/guides/[slug]/content/taurine-guide.tsx) | **38.7** | 4.5 | 5 | 4.5 | 4.7 | 5 | 5 | 5 | 5 | 4592 |
+| 7 | [nac-guide](src/app/guides/[slug]/content/nac-guide.tsx) | **38.6** | 4.5 | 5 | 4.5 | 5 | 5 | 4.6 | 5 | 5 | 4145 |
+| 8 | [how-to-build-a-supplement-stack](src/app/guides/[slug]/content/how-to-build-a-supplement-stack.tsx) | **38.5** | 4.5 | 5 | 4.5 | 4.5 | 5 | 5 | 5 | 5 | 4660 |
+| 9 | [nootropics-guide](src/app/guides/[slug]/content/nootropics-guide.tsx) | **38.5** | 4.5 | 5 | 4.5 | 5 | 5 | 4.5 | 5 | 5 | 4717 |
+| 10 | [vitamin-b12-guide](src/app/guides/[slug]/content/vitamin-b12-guide.tsx) | **38.4** | 4.5 | 5 | 4.5 | 4.5 | 5 | 4.9 | 5 | 5 | 5154 |
+| 11 | [best-magnesium-supplements](src/app/guides/[slug]/content/best-magnesium-supplements.tsx) | **38.1** | 5.0 | 5 | 4.5 | 3.7 | 5 | 4.9 | 5 | 5 | 4149 |
+| 12 | [do-you-need-a-multivitamin](src/app/guides/[slug]/content/do-you-need-a-multivitamin.tsx) | **38.1** | 4.5 | 5 | 4.5 | 4.1 | 5 | 5 | 5 | 5 | 4771 |
+| 13 | [lions-mane-guide](src/app/guides/[slug]/content/lions-mane-guide.tsx) | **38.0** | 4.5 | 4.9 | 4.5 | 5 | 5 | 4.1 | 5 | 5 | 4743 |
+| 14 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **37.9** | 4.5 | 5 | 5 | 3.6 | 5 | 4.8 | 5 | 5 | 4168 |
+| 15 | [iron-guide](src/app/guides/[slug]/content/iron-guide.tsx) | **37.7** | 4.5 | 5 | 4.5 | 3.7 | 5 | 5 | 5 | 5 | 5550 |
+| 16 | [how-to-read-a-supplement-label](src/app/guides/[slug]/content/how-to-read-a-supplement-label.tsx) | **37.6** | 4.5 | 5 | 4.5 | 3.9 | 5 | 5 | 4.7 | 5 | 5081 |
+| 17 | [berberine-guide](src/app/guides/[slug]/content/berberine-guide.tsx) | **37.4** | 3.0 | 4.9 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4691 |
+| 18 | [best-pre-workout-supplement-protocol](src/app/guides/[slug]/content/best-pre-workout-supplement-protocol.tsx) | **37.4** | 5.0 | 5 | 4.5 | 4.3 | 5 | 4.2 | 4.4 | 5 | 3786 |
+| 19 | [electrolytes-guide](src/app/guides/[slug]/content/electrolytes-guide.tsx) | **37.4** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.5 | 5 | 5 | 4835 |
+| 20 | [supplement-timing-guide](src/app/guides/[slug]/content/supplement-timing-guide.tsx) | **37.4** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.5 | 5 | 5 | 4610 |
+| 21 | [what-to-look-for-in-a-probiotic](src/app/guides/[slug]/content/what-to-look-for-in-a-probiotic.tsx) | **37.4** | 4.5 | 5 | 4.5 | 5 | 5 | 3.4 | 5 | 5 | 5725 |
+| 22 | [best-creatine-supplements](src/app/guides/[slug]/content/best-creatine-supplements.tsx) | **37.3** | 5.0 | 5 | 4.5 | 3.9 | 5 | 3.9 | 5 | 5 | 3756 |
+| 23 | [best-sleep-supplement-protocol](src/app/guides/[slug]/content/best-sleep-supplement-protocol.tsx) | **37.3** | 5.0 | 5 | 3.5 | 4.9 | 5 | 3.9 | 5 | 5 | 3986 |
+| 24 | [collagen-guide](src/app/guides/[slug]/content/collagen-guide.tsx) | **37.2** | 3.0 | 4.9 | 4.5 | 5 | 5 | 4.8 | 5 | 5 | 5028 |
+| 25 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.6** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.6 | 5 | 5 | 4643 |
+| 26 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **36.5** | 5.0 | 5 | 4.0 | 4.3 | 5 | 3.2 | 5 | 5 | 2413 |
+| 27 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **36.2** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 3.6 | 4.9 | 2381 |
+| 28 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **36.0** | 5.0 | 5 | 4.0 | 3.9 | 5 | 3.1 | 5 | 5 | 2074 |
+| 29 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **34.8** | 5.0 | 5 | 4.0 | 2.9 | 5 | 3.4 | 4.5 | 5 | 2102 |
+| 30 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **33.5** | 4.5 | 5 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 5 | 2195 |
+| 31 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **33.0** | 4.5 | 5 | 3.5 | 2.9 | 5 | 2.1 | 5 | 5 | 2086 |
+| 32 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
+| 33 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **32.5** | 2.5 | 4.1 | 4.0 | 3.5 | 5 | 3.7 | 4.7 | 5 | 1954 |
 | 34 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
 | 35 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
 | 36 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
@@ -108,11 +108,11 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 
 ## Axis averages
 
-- **intent_fit**: 4.00
-- **monetization**: 4.15
-- **structure**: 4.35
-- **unique_value**: 3.79
+- **intent_fit**: 4.16
+- **monetization**: 4.34
+- **structure**: 4.36
+- **unique_value**: 3.82
 - **internal_linking**: 4.60
-- **actionability**: 3.67
+- **actionability**: 3.73
 - **trust**: 3.96
 - **engagement**: 4.94

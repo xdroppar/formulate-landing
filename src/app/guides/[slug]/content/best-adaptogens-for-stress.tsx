@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function BestAdaptogensForStress() {
@@ -52,6 +55,8 @@ export function BestAdaptogensForStress() {
         <strong>Best for:</strong> Chronic stress with elevated cortisol, generalized anxiety, stress-related sleep disruption.<br />
         <strong>Dose:</strong> 600 mg/day of KSM-66 or Sensoril root extract, taken with food.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
 
       <h2>Rhodiola Rosea: The Acute Performance Enhancer</h2>
       <p>
@@ -209,6 +214,15 @@ export function BestAdaptogensForStress() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductRow
+        title="Top-scored adaptogen + stress-support products"
+        products={[
+          PRODUCTS["thorne-ashwagandha"],
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-l-theanine"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
       <p>

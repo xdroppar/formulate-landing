@@ -1,7 +1,10 @@
 import {
   TLDRBox,
   Callout,
+  ProductCallout,
+  ProductRow,
   EvidenceBadge,
+  PRODUCTS,
 } from "@/components/guide";
 
 export function AlphaGpcVsCiticoline() {
@@ -93,6 +96,8 @@ export function AlphaGpcVsCiticoline() {
           </tbody>
         </table>
       </div>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-cognizin"]} />
 
       <h2>Who Should Take Alpha-GPC</h2>
 
@@ -212,6 +217,14 @@ export function AlphaGpcVsCiticoline() {
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
+
+      <ProductRow
+        title="Top-scored cognitive support products"
+        products={[
+          PRODUCTS["nootropics-depot-cognizin"],
+          PRODUCTS["nootropics-depot-l-theanine"],
+        ]}
+      />
 
       <h2>The Bottom Line</h2>
 
