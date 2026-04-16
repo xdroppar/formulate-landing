@@ -1,0 +1,457 @@
+[
+  {
+    "slug": "creatine-for-women",
+    "pascal": "CreatineForWomen",
+    "word_count": 2480,
+    "internal_links": [
+      "best-creatine-supplements",
+      "creatine-loading-phase",
+      "best-magnesium-supplements",
+      "best-vitamin-d-supplements",
+      "beginner-longevity-supplement-stack"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=creatine",
+    "brief": {
+      "slug": "creatine-for-women",
+      "title": "Creatine for Women: The Complete Evidence-Based Guide (2026)",
+      "description": "Women's creatine research through menopause, training, body composition, and mood. No bloating myths, no men's-magazine claims — just the evidence.",
+      "category": "guide",
+      "primary_keyword": "creatine for women",
+      "target_queries": [
+        "creatine for women",
+        "is creatine safe for women",
+        "does creatine cause weight gain in women",
+        "creatine for women over 40",
+        "creatine and menopause"
+      ],
+      "key_points": [
+        "Women have ~70-80% lower baseline muscle creatine than men (Forsberg et al., 1991), so response to supplementation may be larger",
+        "Smith-Ryan et al. 2021 (Nutrients) — comprehensive review of creatine benefits across female lifespan: strength, body composition, bone health, mood, cognitive function",
+        "Chilibeck et al. 2017 (Medicine & Science in Sports & Exercise) — creatine + resistance training reduced bone mineral density loss in postmenopausal women",
+        "Gordon et al. 2018 — creatine may improve mood and reduce depression symptoms in women, particularly effective when combined with SSRIs",
+        "Dispel bloating myth — water retention is INTRA-cellular (inside muscle cells), not sub-cutaneous puffiness. Visible weight gain 1-2 lbs is muscle cell hydration",
+        "Dose is same as men (3-5g daily) — no adjustment for body weight needed at maintenance",
+        "Discuss pregnancy/breastfeeding: insufficient human data, consult OB-GYN (Dickinson et al. 2014 animal data on fetal neuroprotection is promising but not clinically actionable)",
+        "Hormonal contraceptives don't affect creatine absorption or efficacy",
+        "Creatine works particularly well paired with resistance training (not cardio alone)"
+      ],
+      "sections_to_cover": [
+        "Why Women Respond Differently to Creatine (mechanism, baseline levels)",
+        "What the Research Actually Shows (Smith-Ryan 2021, Chilibeck 2017, Gordon 2018)",
+        "Body Composition: Does Creatine Make Women 'Bulky'? (debunk)",
+        "Creatine for Menopause and Postmenopausal Bone Health",
+        "Creatine and Mood/Depression in Women",
+        "How to Take It: Dose, Timing, Forms (all same as men)",
+        "Common Concerns: Bloating, Water Weight, Hair Loss (spoiler: no, no, probably not)",
+        "Who Should Consult a Doctor First (pregnancy, breastfeeding, kidney issues)",
+        "FAQ (pregnancy, PCOS, fertility, weight loss, hair loss, timing with cycle)",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "best-creatine-supplements",
+          "anchor": "best creatine supplements"
+        },
+        {
+          "slug": "creatine-loading-phase",
+          "anchor": "creatine loading phase"
+        },
+        {
+          "slug": "best-magnesium-supplements",
+          "anchor": "magnesium"
+        },
+        {
+          "slug": "best-vitamin-d-supplements",
+          "anchor": "vitamin D"
+        },
+        {
+          "slug": "beginner-longevity-supplement-stack",
+          "anchor": "beginner longevity stack"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "creatine-smith-ryan-women-2021",
+        "creatine-kreider-issn-2017",
+        "creatine-avgerinos-cognitive-2018"
+      ],
+      "read_time": "10 min read",
+      "target_word_count": 2500
+    }
+  },
+  {
+    "slug": "best-time-to-take-magnesium",
+    "pascal": "BestTimeToTakeMagnesium",
+    "word_count": 2280,
+    "internal_links": [
+      "best-magnesium-supplements",
+      "signs-you-are-magnesium-deficient",
+      "supplement-timing-guide",
+      "best-sleep-supplement-protocol"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=magnesium",
+    "brief": {
+      "slug": "best-time-to-take-magnesium",
+      "title": "Best Time to Take Magnesium: The Timing Science (2026)",
+      "description": "Morning, evening, or with food — when you take magnesium matters more than you think. Form-specific timing rules backed by clinical research.",
+      "category": "guide",
+      "primary_keyword": "best time to take magnesium",
+      "target_queries": [
+        "best time to take magnesium",
+        "when to take magnesium glycinate",
+        "magnesium morning or night",
+        "take magnesium with food",
+        "magnesium timing for sleep"
+      ],
+      "key_points": [
+        "Glycinate and threonate: take 30-60 min before bed for sleep benefit (glycine has calming effect, threonate supports cognition with overnight consolidation)",
+        "Citrate: morning or early afternoon — mild laxative effect makes evening dosing impractical for most",
+        "Oxide: skip entirely (~4% absorption per Firoz & Graber 2001)",
+        "Take with food if sensitive stomach — slightly reduces absorption but reduces GI issues",
+        "Space from iron, calcium, and certain antibiotics by at least 2 hours",
+        "Split doses over 200mg into morning + evening to improve absorption",
+        "If taking for muscle cramps during exercise, take 1-2 hours before activity",
+        "Abbasi et al. 2012 sleep study used bedtime dosing — supports pre-bed timing for glycinate",
+        "Don't take with coffee (tannins may slightly impair absorption; wait 1 hour)",
+        "Magnesium threonate (Magtein) — evidence for cognitive benefits at split AM/PM dosing per Liu 2016"
+      ],
+      "sections_to_cover": [
+        "Why Magnesium Timing Actually Matters (absorption + form-specific effects)",
+        "Morning vs Evening: It Depends on the Form",
+        "Form-by-Form Timing Guide (glycinate, threonate, citrate, taurate, oxide)",
+        "With or Without Food?",
+        "Timing for Specific Goals (sleep, anxiety, cognition, cramps)",
+        "Drug and Supplement Interactions to Time Around",
+        "Should You Split Doses?",
+        "Who Should Talk to a Doctor First",
+        "FAQ (coffee, calcium, timing with other supplements)",
+        "The Bottom Line: Your Personal Timing Plan"
+      ],
+      "cross_links": [
+        {
+          "slug": "best-magnesium-supplements",
+          "anchor": "best magnesium supplements"
+        },
+        {
+          "slug": "signs-you-are-magnesium-deficient",
+          "anchor": "magnesium deficiency"
+        },
+        {
+          "slug": "supplement-timing-guide",
+          "anchor": "supplement timing guide"
+        },
+        {
+          "slug": "best-sleep-supplement-protocol",
+          "anchor": "sleep supplement protocol"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "magnesium-abbasi-sleep-2012",
+        "magnesium-slutsky-threonate-2010",
+        "magnesium-liu-magtein-2016",
+        "magnesium-firoz-graber-2001"
+      ],
+      "read_time": "9 min read",
+      "target_word_count": 2200
+    }
+  },
+  {
+    "slug": "alpha-gpc-vs-citicoline",
+    "pascal": "AlphaGpcVsCiticoline",
+    "word_count": 2320,
+    "internal_links": [
+      "how-to-read-a-supplement-label",
+      "nootropics-guide",
+      "best-pre-workout-supplement-protocol",
+      "lions-mane-guide"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=choline",
+    "brief": {
+      "slug": "alpha-gpc-vs-citicoline",
+      "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
+      "description": "Two of the most effective nootropics, both precursors to acetylcholine. We break down the evidence, dosing, bioavailability, and which one fits which goal.",
+      "category": "review",
+      "primary_keyword": "alpha-gpc vs citicoline",
+      "target_queries": [
+        "alpha-gpc vs citicoline",
+        "best choline supplement",
+        "nootropic choline source",
+        "which is better alpha gpc or citicoline",
+        "choline for focus"
+      ],
+      "key_points": [
+        "Both are phospholipid choline sources that cross the blood-brain barrier efficiently (unlike choline bitartrate or CDP-choline)",
+        "Alpha-GPC: ~40% elemental choline by weight. Crosses BBB fast, raises brain acetylcholine within 30-60 min",
+        "Citicoline (CDP-choline): ~18% elemental choline by weight, but provides cytidine which converts to uridine (phospholipid synthesis)",
+        "Alpha-GPC — better evidence for acute cognitive performance, power output in athletes (Bellar 2015)",
+        "Citicoline — better evidence for long-term memory, age-related cognitive decline, stroke recovery",
+        "Dose: Alpha-GPC 300-600mg, Citicoline 250-500mg",
+        "Side effects: Alpha-GPC more likely to cause headaches (fat-soluble, fast BBB crossing); Citicoline very well-tolerated",
+        "2021 observational concern about Alpha-GPC and increased stroke risk (Lee et al.) — small association, unclear causation, flag for cautious use if cardiovascular risk",
+        "Cost: Citicoline typically more expensive per mg, but dose is lower so per-serving cost is similar",
+        "Can be stacked together for broader coverage — common advanced nootropics stack"
+      ],
+      "sections_to_cover": [
+        "The Choline Problem: Why Form Matters",
+        "Alpha-GPC: Mechanism, Evidence, Best Use Cases",
+        "Citicoline (CDP-Choline): Mechanism, Evidence, Best Use Cases",
+        "Head-to-Head Comparison Table",
+        "Who Should Take Alpha-GPC",
+        "Who Should Take Citicoline",
+        "Can You Stack Both?",
+        "The Alpha-GPC Stroke Concern: What the Data Actually Says",
+        "Dosing and Timing",
+        "Who Should Talk to a Doctor First",
+        "FAQ",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "nootropics-guide",
+          "anchor": "nootropics"
+        },
+        {
+          "slug": "lions-mane-guide",
+          "anchor": "lion's mane"
+        },
+        {
+          "slug": "how-to-read-a-supplement-label",
+          "anchor": "supplement label"
+        },
+        {
+          "slug": "best-pre-workout-supplement-protocol",
+          "anchor": "pre-workout protocol"
+        }
+      ],
+      "evidence_registry_ids_to_use": [],
+      "include_comparison_table": true,
+      "read_time": "9 min read",
+      "target_word_count": 2300
+    }
+  },
+  {
+    "slug": "best-adaptogens-for-stress",
+    "pascal": "BestAdaptogensForStress",
+    "word_count": 2580,
+    "internal_links": [
+      "ashwagandha-guide",
+      "best-sleep-supplement-protocol",
+      "nootropics-guide",
+      "lions-mane-guide"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=adaptogens",
+    "brief": {
+      "slug": "best-adaptogens-for-stress",
+      "title": "Best Adaptogens for Stress: Ashwagandha vs Rhodiola vs Reishi",
+      "description": "Three of the most-studied adaptogens, compared head-to-head on clinical evidence, mechanism, and which one fits which stress profile.",
+      "category": "roundup",
+      "primary_keyword": "best adaptogens for stress",
+      "target_queries": [
+        "best adaptogens for stress",
+        "ashwagandha vs rhodiola",
+        "adaptogens for anxiety",
+        "reishi mushroom benefits",
+        "adaptogens for cortisol"
+      ],
+      "key_points": [
+        "Ashwagandha (KSM-66, 600mg/day): strongest evidence for cortisol reduction (~28% vs placebo, Chandrasekhar 2012), anxiety, sleep onset. Best for chronic stress + sleep issues",
+        "Rhodiola (3% rosavins, 200-600mg): best for acute stress, fatigue, cognitive performance under pressure. Kasper 2017 — significant burnout symptom reduction in 12 weeks",
+        "Reishi (Ganoderma lucidum, hot water extract 1-1.5g): weakest adaptogen evidence but good for immune modulation + sleep support. Wachtel-Galor 2011 safety data",
+        "Ashwagandha acts primarily via HPA axis (cortisol), Rhodiola via SAM/PEA/serotonin, Reishi via immune cytokine modulation",
+        "Onset: Rhodiola fastest (30-60 min acute effects), Ashwagandha requires 4-8 weeks, Reishi subtle over weeks",
+        "Cycling: Rhodiola may be best cycled (4 weeks on / 2 off) due to potential tolerance; Ashwagandha and Reishi can be daily long-term",
+        "Side effects: Ashwagandha GI/drowsiness (flag liver concerns), Rhodiola mild insomnia if taken late, Reishi generally very mild",
+        "Not true adaptogens but sometimes grouped: holy basil, eleuthero, schisandra — briefly note"
+      ],
+      "sections_to_cover": [
+        "What Actually Makes an Herb an 'Adaptogen'",
+        "Ashwagandha: The Chronic-Stress Workhorse",
+        "Rhodiola Rosea: The Acute Performance Enhancer",
+        "Reishi Mushroom: The Immune-Sleep Bridge",
+        "Head-to-Head Comparison (mechanism, dose, onset, evidence quality)",
+        "How to Choose: A Decision Tree",
+        "Can You Stack Them?",
+        "Quality and Form Matters (KSM-66, standardized rosavins, hot water extract)",
+        "Who Should Talk to a Doctor First",
+        "FAQ (pregnancy, meds, cycling, tolerance)",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "ashwagandha-guide",
+          "anchor": "ashwagandha guide"
+        },
+        {
+          "slug": "lions-mane-guide",
+          "anchor": "lion's mane"
+        },
+        {
+          "slug": "best-sleep-supplement-protocol",
+          "anchor": "sleep supplement protocol"
+        },
+        {
+          "slug": "nootropics-guide",
+          "anchor": "nootropics"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "ashwagandha-cortisol-2012",
+        "ashwagandha-lopresti-2019",
+        "ashwagandha-pratte-2014"
+      ],
+      "include_comparison_table": true,
+      "read_time": "11 min read",
+      "target_word_count": 2600
+    }
+  },
+  {
+    "slug": "creatine-and-hair-loss",
+    "pascal": "CreatineAndHairLoss",
+    "word_count": 2350,
+    "internal_links": [
+      "best-creatine-supplements",
+      "creatine-loading-phase",
+      "creatine-for-women",
+      "best-vitamin-d-supplements"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=creatine",
+    "brief": {
+      "slug": "creatine-and-hair-loss",
+      "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
+      "description": "The only study linking creatine to hair loss measured a DHT proxy, not actual hair loss — and has never been replicated. Here's what the evidence really shows.",
+      "category": "review",
+      "primary_keyword": "creatine hair loss",
+      "target_queries": [
+        "does creatine cause hair loss",
+        "creatine and dht",
+        "creatine hair loss study",
+        "creatine for men with male pattern baldness",
+        "is creatine safe for hair"
+      ],
+      "key_points": [
+        "The entire creatine-hair-loss concern traces to ONE study: van der Merwe, Brooks, Myburgh (2009, Clinical Journal of Sport Medicine)",
+        "That study measured DHT (dihydrotestosterone) ratios, not actual hair loss — 20 rugby players, 7 days loading + 14 days maintenance",
+        "DHT increased by ~56% (within normal clinical range throughout), DHT:T ratio increased by 36%",
+        "Has never been replicated — 15+ years, zero follow-up confirmation",
+        "DHT increase does NOT automatically equal hair loss — requires genetic predisposition to androgenic alopecia (AGA) plus scalp follicle sensitivity",
+        "Antonio et al. 2024 reviewed all creatine DHT studies — concluded evidence for hair loss is 'extremely limited and speculative'",
+        "If you have family history of MPB: creatine may theoretically accelerate existing pattern, but clinical evidence is absent",
+        "Topical finasteride or minoxidil works alongside creatine — no documented negative interactions",
+        "Not a reason to stop taking creatine for the 99% of users without genetic predisposition",
+        "Honest take: if you're already using finasteride/minoxidil, keep taking creatine; if you're concerned and have strong MPB family history, you can skip without losing much"
+      ],
+      "sections_to_cover": [
+        "The One Study Everyone References",
+        "What They Actually Measured (DHT vs actual hair)",
+        "Why DHT Increase Doesn't Equal Hair Loss",
+        "15 Years Later: Zero Replication",
+        "The Genetic Piece: Androgenic Alopecia Basics",
+        "What Recent Reviews Conclude (Antonio 2024)",
+        "Can You Take Creatine With Finasteride or Minoxidil?",
+        "Practical Guide: Should You Worry?",
+        "Who Should Talk to a Doctor First",
+        "FAQ (genetic testing, topical treatments, other DHT modulators)",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "best-creatine-supplements",
+          "anchor": "best creatine supplements"
+        },
+        {
+          "slug": "creatine-loading-phase",
+          "anchor": "creatine loading phase"
+        },
+        {
+          "slug": "creatine-for-women",
+          "anchor": "creatine for women"
+        },
+        {
+          "slug": "best-vitamin-d-supplements",
+          "anchor": "vitamin D"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "creatine-kreider-issn-2017"
+      ],
+      "read_time": "8 min read",
+      "target_word_count": 2000
+    }
+  },
+  {
+    "slug": "vitamin-d3-vs-d2",
+    "pascal": "VitaminD3VsD2",
+    "word_count": 2150,
+    "internal_links": [
+      "best-vitamin-d-supplements",
+      "supplement-timing-guide",
+      "best-magnesium-supplements",
+      "how-to-read-a-supplement-label"
+    ],
+    "catalog_link": "https://app.formulate-health.app/catalog?q=vitamin+d3",
+    "brief": {
+      "slug": "vitamin-d3-vs-d2",
+      "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
+      "description": "D3 raises blood levels 87% more effectively than D2 — and your prescription vitamin D might be the inferior form. Here's what to know.",
+      "category": "review",
+      "primary_keyword": "vitamin d3 vs d2",
+      "target_queries": [
+        "vitamin d3 vs d2",
+        "cholecalciferol vs ergocalciferol",
+        "which vitamin d is best",
+        "prescription vitamin d form",
+        "d2 vs d3 absorption"
+      ],
+      "key_points": [
+        "Tripkovic et al. 2012 meta-analysis (American Journal of Clinical Nutrition) — pooled RCT data showing D3 is ~87% more effective at raising serum 25(OH)D than D2",
+        "D3 (cholecalciferol) — what your skin makes from sunlight, what's in most animal-based foods, most OTC supplements",
+        "D2 (ergocalciferol) — derived from yeast/fungi, what prescription 50,000 IU weekly pills typically contain, cheaper to produce",
+        "D3 binds more efficiently to vitamin D binding protein in blood, has longer half-life (~24 hours vs 6-8 hours for D2)",
+        "D2 clears faster and is less efficiently converted to 25(OH)D in liver",
+        "Vegans: lichen-sourced D3 now widely available — no longer forced to take D2",
+        "If your doctor prescribed 50,000 IU weekly D2: ask about switching to daily D3 — many clinicians still prescribe D2 out of habit",
+        "Equivalent doses: roughly 1 unit D3 ≈ 1.87 units D2 in raising blood levels",
+        "Combine D3 with K2 (MK-7) at doses above 2,000 IU/day (Knapen 2017)",
+        "Take with fat-containing meal — absorption up to 50% better (Dawson-Hughes 2015)"
+      ],
+      "sections_to_cover": [
+        "What D3 and D2 Actually Are",
+        "The Tripkovic 2012 Meta-Analysis: 87% More Effective",
+        "Why D3 Outperforms D2 (mechanism)",
+        "Why Is D2 Still Prescribed?",
+        "Vegan D3: The Lichen Option",
+        "What to Do If Your Doctor Prescribed D2",
+        "Dose Equivalence: How to Convert",
+        "Take It Right: Fat, K2, Magnesium Cofactors",
+        "Who Should Talk to a Doctor First",
+        "FAQ (prescription D2, multivitamin D forms, UV B vs supplements)",
+        "The Bottom Line"
+      ],
+      "cross_links": [
+        {
+          "slug": "best-vitamin-d-supplements",
+          "anchor": "best vitamin D supplements"
+        },
+        {
+          "slug": "supplement-timing-guide",
+          "anchor": "supplement timing"
+        },
+        {
+          "slug": "best-magnesium-supplements",
+          "anchor": "magnesium"
+        },
+        {
+          "slug": "how-to-read-a-supplement-label",
+          "anchor": "supplement label"
+        }
+      ],
+      "evidence_registry_ids_to_use": [
+        "vitamin-d-tripkovic-d3vsd2-2012",
+        "vitamin-d-knapen-k2-2017",
+        "vitamin-d-absorption-fat-2015",
+        "vitamin-d-holick-endocrine-2011"
+      ],
+      "read_time": "8 min read",
+      "target_word_count": 2100
+    }
+  }
+]

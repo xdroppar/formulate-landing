@@ -44,6 +44,12 @@ import { Zone2VsHiit } from "./content/zone-2-vs-hiit";
 import { WalkingVsRunningLongevity } from "./content/walking-vs-running-longevity";
 import { ProteinIntakeMuscleAfter40 } from "./content/protein-intake-muscle-after-40";
 import { SarcopeniaReverseMuscleLoss } from "./content/sarcopenia-reverse-muscle-loss";
+import { CreatineForWomen } from "./content/creatine-for-women";
+import { BestTimeToTakeMagnesium } from "./content/best-time-to-take-magnesium";
+import { AlphaGpcVsCiticoline } from "./content/alpha-gpc-vs-citicoline";
+import { BestAdaptogensForStress } from "./content/best-adaptogens-for-stress";
+import { CreatineAndHairLoss } from "./content/creatine-and-hair-loss";
+import { VitaminD3VsD2 } from "./content/vitamin-d3-vs-d2";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -86,6 +92,12 @@ const contentMap: Record<string, React.ComponentType> = {
   "walking-vs-running-longevity": WalkingVsRunningLongevity,
   "protein-intake-muscle-after-40": ProteinIntakeMuscleAfter40,
   "sarcopenia-reverse-muscle-loss": SarcopeniaReverseMuscleLoss,
+  "creatine-for-women": CreatineForWomen,
+  "best-time-to-take-magnesium": BestTimeToTakeMagnesium,
+  "alpha-gpc-vs-citicoline": AlphaGpcVsCiticoline,
+  "best-adaptogens-for-stress": BestAdaptogensForStress,
+  "creatine-and-hair-loss": CreatineAndHairLoss,
+  "vitamin-d3-vs-d2": VitaminD3VsD2,
 };
 
 /* ---------- static params ---------- */
