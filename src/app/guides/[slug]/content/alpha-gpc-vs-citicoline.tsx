@@ -61,7 +61,7 @@ export function AlphaGpcVsCiticoline() {
       </p>
 
       <p>
-        The long-term cognition evidence is more robust for citicoline than for Alpha-GPC. A 12-week RCT by McGlade et al. (2012) found that 250 mg/day of Cognizin&reg; citicoline improved sustained attention and reduced impulsivity in healthy adolescents. <EvidenceBadge level="moderate" /> Alvarez-Sabin et al. (2013) demonstrated improved cognitive outcomes in post-stroke patients receiving citicoline over 12 months. <EvidenceBadge level="moderate" /> The Cochrane Review on citicoline for cognitive and behavioral disturbances (Fioravanti &amp; Yanagi, 2005) found positive effects in older adults with memory problems, though study quality was mixed. <EvidenceBadge level="moderate" />
+        The long-term cognition evidence is more robust for citicoline than for Alpha-GPC. A 12-week RCT by McGlade et al. (2012) found that 250 mg/day of Cognizin&reg; citicoline improved sustained attention and reduced impulsivity in healthy adolescents. <EvidenceBadge level="moderate" studiesId="citicoline-mcglade-2012" /> Alvarez-Sabin et al. (2013) demonstrated improved cognitive outcomes in post-stroke patients receiving citicoline over 12 months. <EvidenceBadge level="moderate" studiesId="citicoline-alvarez-sabin-2013" /> The Cochrane Review on citicoline for cognitive and behavioral disturbances (Fioravanti &amp; Yanagi, 2005) found positive effects in older adults with memory problems, though study quality was mixed. <EvidenceBadge level="moderate" studiesId="citicoline-alvarez-sabin-2013" />
       </p>
 
       <Callout variant="info" title="Best use cases for Citicoline">

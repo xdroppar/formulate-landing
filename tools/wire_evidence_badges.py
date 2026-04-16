@@ -86,6 +86,19 @@ MATCHERS: list[tuple[str, list[str], str, int]] = [
     # VITAL — ambiguous (omega-3 vs vitamin-D). Disambiguate by guide topic.
     (r"Manson.*?2019|VITAL", ["omega", "cardiovascular"], "omega3-vital-manson-2019", 2019),
     (r"Manson.*?2019|VITAL", ["vitamin d", "d3"], "vitamin-d-vital-manson-2019", 2019),
+
+    # Additional registry (Nov 2026 expansion)
+    (r"Jäger|Jager", ["creatine", "forms", "amino acids"], "creatine-jager-forms-2011", 2011),
+    (r"Hoffman", ["creatine", "beta-alanine", "strength", "power"], "creatine-hoffman-performance-2006", 2006),
+    (r"Graef", ["beta-alanine", "endurance", "cardiorespiratory"], "beta-alanine-graef-2009", 2009),
+    (r"McGlade", ["citicoline", "attention", "women"], "citicoline-mcglade-2012", 2012),
+    (r"Alvarez-Sabin", ["citicoline", "stroke"], "citicoline-alvarez-sabin-2013", 2013),
+    (r"Okuda", ["citicoline", "cdp", "choline"], "citicoline-okuda-1973", 1973),
+    (r"Waldron", ["taurine", "endurance"], "taurine-waldron-endurance-2018", 2018),
+    (r"Bolland", ["calcium", "fracture"], "calcium-bolland-meta-2015", 2015),
+    (r"Hallberg", ["iron", "absorption", "non-heme"], "iron-hallberg-absorption-1998", 2000),
+    (r"Pawlak", ["b12", "vegetarian", "vegan", "cobalamin"], "b12-pawlak-vegetarian-2014", 2014),
+    (r"Mori.*?(?:omega|hypertension)|(?:omega|hypertension).*?Mori", ["omega", "blood pressure", "hypertension"], "omega3-mori-hypertension-2014", 2014),
 ]
 
 BARE_BADGE = re.compile(r'<EvidenceBadge\s+level="([^"]+)"\s*/>')
@@ -111,18 +124,30 @@ def wire_file(path: Path) -> tuple[int, int]:
         ctx = src[ctx_start:m.start()].lower()
 
         chosen_id: str | None = None
-        # Score each matcher; pick the highest-scoring match
+        # Score each matcher; pick the highest-scoring match.
+        # Proximity bonus: author mentioned closer to the badge wins ties.
         best_score = 0
+        best_proximity = -1
         for pattern, keywords, study_id, year in MATCHERS:
-            if not re.search(pattern, src[ctx_start:m.start()], re.I):
+            author_match = None
+            for am in re.finditer(pattern, src[ctx_start:m.start()], re.I):
+                author_match = am  # keep the LAST (closest to badge) match
+            if not author_match:
                 continue
-            # Count keyword hits
+            # Distance from author mention to badge (smaller = closer)
+            author_end = ctx_start + author_match.end()
+            proximity = m.start() - author_end
+            # Only consider author mentions within 180 chars (one sentence-ish)
+            if proximity > 180:
+                continue
             kw_score = sum(1 for kw in keywords if kw.lower() in ctx)
-            # Year in context is a strong signal
             year_score = 2 if str(year) in ctx else 0
-            score = kw_score + year_score
-            if score > best_score:
+            # Proximity bonus: closer authors get up to 3 extra points
+            prox_score = max(0, 3 - proximity // 60)
+            score = kw_score + year_score + prox_score
+            if score > best_score or (score == best_score and proximity < best_proximity):
                 best_score = score
+                best_proximity = proximity
                 chosen_id = study_id
 
         if chosen_id and best_score >= 1:

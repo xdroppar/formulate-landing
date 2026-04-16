@@ -154,11 +154,11 @@ export function CreatineForEnduranceAthletes() {
       </p>
 
       <p>
-        <strong>Creatine + Beta-Alanine.</strong> Beta-alanine buffers hydrogen ions during high-intensity work; creatine recycles ATP. They target different bottlenecks in the same energy pathway. Hoffman et al. (2006) found the combination improved high-intensity endurance performance more than either supplement alone. <EvidenceBadge level="moderate" /> This pairing is especially relevant for athletes doing threshold and VO₂max work.
+        <strong>Creatine + Beta-Alanine.</strong> Beta-alanine buffers hydrogen ions during high-intensity work; creatine recycles ATP. They target different bottlenecks in the same energy pathway. Hoffman et al. (2006) found the combination improved high-intensity endurance performance more than either supplement alone. <EvidenceBadge level="moderate" studiesId="creatine-hoffman-performance-2006" /> This pairing is especially relevant for athletes doing threshold and VO₂max work.
       </p>
 
       <p>
-        <strong>Creatine + Carbohydrates.</strong> Taking creatine alongside carbohydrate increases creatine uptake into muscle (Green et al., 1996). <EvidenceBadge level="moderate" /> This is easy to implement: mix your creatine into a post-workout recovery shake or take it with a meal.
+        <strong>Creatine + Carbohydrates.</strong> Taking creatine alongside carbohydrate increases creatine uptake into muscle (Green et al., 1996). <EvidenceBadge level="moderate" studiesId="creatine-hoffman-performance-2006" /> This is easy to implement: mix your creatine into a post-workout recovery shake or take it with a meal.
       </p>
 
       <p>
@@ -236,7 +236,7 @@ export function CreatineForEnduranceAthletes() {
       <h3>Why Creatine Doesn't Budge VO₂max</h3>
 
       <p>
-      VO₂max is fundamentally an oxygen-delivery metric. It's governed by cardiac output, hemoglobin mass, capillary density, and mitochondrial oxidative capacity. Creatine operates in a completely different lane—it recycles ATP via the phosphocreatine shuttle, a system that peaks in the first 10–15 seconds of maximal effort. Graef et al. (2009) tested creatine supplementation against placebo over four weeks of aerobic training and found <strong>no significant difference in VO₂max</strong> between groups. <EvidenceBadge level="moderate" /> This isn't surprising. Creatine doesn't increase mitochondrial density, stimulate erythropoietin, or expand blood volume.
+      VO₂max is fundamentally an oxygen-delivery metric. It's governed by cardiac output, hemoglobin mass, capillary density, and mitochondrial oxidative capacity. Creatine operates in a completely different lane—it recycles ATP via the phosphocreatine shuttle, a system that peaks in the first 10–15 seconds of maximal effort. Graef et al. (2009) tested creatine supplementation against placebo over four weeks of aerobic training and found <strong>no significant difference in VO₂max</strong> between groups. <EvidenceBadge level="moderate" studiesId="beta-alanine-graef-2009" /> This isn't surprising. Creatine doesn't increase mitochondrial density, stimulate erythropoietin, or expand blood volume.
       </p>
 
       <h3>Why Lactate Threshold Doesn't Shift Either</h3>

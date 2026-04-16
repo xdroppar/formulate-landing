@@ -270,6 +270,22 @@
     "total": 38.2
   },
   {
+    "slug": "do-you-need-a-multivitamin",
+    "title": "Do You Need a Multivitamin? Clinical Evidence 2026",
+    "category": "guide",
+    "word_count": 4771,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.1,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 38.1
+  },
+  {
     "slug": "creatine-loading-phase",
     "title": "Creatine Loading Phase: Evidence-Based Guide 2026",
     "category": "guide",
@@ -285,22 +301,6 @@
     "notes": [
       "few study references"
     ],
-    "total": 37.9
-  },
-  {
-    "slug": "do-you-need-a-multivitamin",
-    "title": "Do You Need a Multivitamin? Clinical Evidence 2026",
-    "category": "guide",
-    "word_count": 4771,
-    "intent_fit": 4.5,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 4.1,
-    "internal_linking": 5,
-    "actionability": 5,
-    "trust": 4.8,
-    "engagement": 5,
-    "notes": [],
     "total": 37.9
   },
   {
@@ -476,6 +476,24 @@
     "total": 37.1
   },
   {
+    "slug": "berberine-vs-metformin",
+    "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
+    "category": "review",
+    "word_count": 4175,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 4.9,
+    "internal_linking": 5,
+    "actionability": 3.2,
+    "trust": 4.6,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 29)"
+    ],
+    "total": 36.7
+  },
+  {
     "slug": "beginner-longevity-supplement-stack",
     "title": "Longevity Supplement Stack for Beginners 2026",
     "category": "guide",
@@ -510,24 +528,6 @@
     "total": 36.5
   },
   {
-    "slug": "berberine-vs-metformin",
-    "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
-    "category": "review",
-    "word_count": 4175,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.0,
-    "unique_value": 4.9,
-    "internal_linking": 5,
-    "actionability": 3.2,
-    "trust": 4.2,
-    "engagement": 5,
-    "notes": [
-      "low readability (Flesch 29)"
-    ],
-    "total": 36.3
-  },
-  {
     "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
     "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
     "category": "review",
@@ -538,12 +538,30 @@
     "unique_value": 2.3,
     "internal_linking": 5,
     "actionability": 4.7,
-    "trust": 4.2,
+    "trust": 5.0,
     "engagement": 5,
     "notes": [
       "low readability (Flesch 27)"
     ],
-    "total": 35.7
+    "total": 36.5
+  },
+  {
+    "slug": "alpha-gpc-vs-citicoline",
+    "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
+    "category": "review",
+    "word_count": 2074,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 3.9,
+    "internal_linking": 5,
+    "actionability": 3.1,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 37)"
+    ],
+    "total": 36.0
   },
   {
     "slug": "sarcopenia-reverse-muscle-loss",
@@ -560,24 +578,6 @@
     "engagement": 4.9,
     "notes": [],
     "total": 35.5
-  },
-  {
-    "slug": "alpha-gpc-vs-citicoline",
-    "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
-    "category": "review",
-    "word_count": 2074,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.0,
-    "unique_value": 3.9,
-    "internal_linking": 5,
-    "actionability": 3.1,
-    "trust": 4.2,
-    "engagement": 5,
-    "notes": [
-      "low readability (Flesch 37)"
-    ],
-    "total": 35.2
   },
   {
     "slug": "best-time-to-take-magnesium",

@@ -101,7 +101,7 @@ export function BestMultivitaminOver50() {
       </p>
 
       <p>
-        A landmark meta-analysis by Bolland et al. (2010) found that calcium supplements (without co-administered vitamin D) were associated with a modest increase in cardiovascular events. <EvidenceBadge level="moderate" /> This sparked legitimate concern. The resolution, supported by subsequent research, is twofold: pair calcium with vitamin D3 <em>and</em> vitamin K2 (specifically MK-7).
+        A landmark meta-analysis by Bolland et al. (2010) found that calcium supplements (without co-administered vitamin D) were associated with a modest increase in cardiovascular events. <EvidenceBadge level="moderate" studiesId="calcium-bolland-meta-2015" /> This sparked legitimate concern. The resolution, supported by subsequent research, is twofold: pair calcium with vitamin D3 <em>and</em> vitamin K2 (specifically MK-7).
       </p>
 
       <p>
@@ -304,7 +304,7 @@ export function BestMultivitaminOver50() {
 
       <h3>Metformin and B12 Depletion</h3>
 
-      <p>Metformin — the most prescribed diabetes drug in the world — depletes vitamin B12. A landmark trial by de Jager et al. (2010) found that metformin use over 4.3 years reduced B12 levels by 19% and increased the risk of B12 deficiency by 7.2 percentage points versus placebo. <EvidenceBadge level="strong" /> This directly compounds the age-related B12 absorption decline we covered above. If you take metformin, a multivitamin with 500–1,000 mcg of methylcobalamin isn't optional — it's essential. Ask your doctor to monitor serum B12 or methylmalonic acid annually.</p>
+      <p>Metformin — the most prescribed diabetes drug in the world — depletes vitamin B12. A landmark trial by de Jager et al. (2010) found that metformin use over 4.3 years reduced B12 levels by 19% and increased the risk of B12 deficiency by 7.2 percentage points versus placebo. <EvidenceBadge level="strong" studiesId="creatine-jager-forms-2011" /> This directly compounds the age-related B12 absorption decline we covered above. If you take metformin, a multivitamin with 500–1,000 mcg of methylcobalamin isn't optional — it's essential. Ask your doctor to monitor serum B12 or methylmalonic acid annually.</p>
 
       <h3>Statins and CoQ10</h3>
 
@@ -332,7 +332,7 @@ export function BestMultivitaminOver50() {
 
       <p>Take your <strong>multivitamin</strong>, <strong>vitamin D3</strong>, <strong>K2 (MK-7)</strong>, and <strong>omega-3s</strong> together with a meal containing fat. D3, K2, and omega-3s are all fat-soluble — Dawson-Hughes et al. (2015) found that taking vitamin D with the largest meal of the day increased serum levels by roughly 50% compared to taking it on an empty stomach. If breakfast is your fattiest meal, this is your window. If dinner is, shift these there instead.</p>
 
-      <p>If you take <strong>calcium</strong>, morning is fine — but keep it at <strong>500 mg or less per dose</strong>, and take it at least 2 hours apart from any standalone <strong>iron</strong> supplement. Calcium and iron compete for the same divalent metal transporter (DMT-1), and co-administration can reduce iron absorption by 50–60% (Hallberg et al., 1991). <EvidenceBadge level="strong" /></p>
+      <p>If you take <strong>calcium</strong>, morning is fine — but keep it at <strong>500 mg or less per dose</strong>, and take it at least 2 hours apart from any standalone <strong>iron</strong> supplement. Calcium and iron compete for the same divalent metal transporter (DMT-1), and co-administration can reduce iron absorption by 50–60% (Hallberg et al., 1991). <EvidenceBadge level="strong" studiesId="iron-hallberg-absorption-1998" /></p>
 
       <Callout variant="warning" title="Thyroid Medication Alert">If you take levothyroxine, take it 30–60 minutes before breakfast on an empty stomach. Calcium, magnesium, and iron all impair its absorption. Your multivitamin should wait until you eat.</Callout>
 
@@ -374,7 +374,7 @@ export function BestMultivitaminOver50() {
 
       <h3>The Bolland Controversy</h3>
 
-      <p>In 2010, Bolland et al. published a meta-analysis of 15 trials involving over 12,000 participants, finding that calcium supplements (without vitamin D) were associated with a roughly 30% increased risk of myocardial infarction. A follow-up re-analysis of the Women's Health Initiative data (Bolland et al., 2011) extended similar concerns to calcium <em>with</em> vitamin D. These findings haven't been fully refuted — but they haven't been universally replicated either. <EvidenceBadge level="moderate" /> The cardiovascular signal is real enough to take seriously, but not so definitive that supplementation is clearly harmful.</p>
+      <p>In 2010, Bolland et al. published a meta-analysis of 15 trials involving over 12,000 participants, finding that calcium supplements (without vitamin D) were associated with a roughly 30% increased risk of myocardial infarction. A follow-up re-analysis of the Women's Health Initiative data (Bolland et al., 2011) extended similar concerns to calcium <em>with</em> vitamin D. These findings haven't been fully refuted — but they haven't been universally replicated either. <EvidenceBadge level="moderate" studiesId="calcium-bolland-meta-2015" /> The cardiovascular signal is real enough to take seriously, but not so definitive that supplementation is clearly harmful.</p>
 
       <h3>What the USPSTF Actually Says</h3>
 

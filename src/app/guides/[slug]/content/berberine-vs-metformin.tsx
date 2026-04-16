@@ -64,7 +64,7 @@ export function BerberineVsMetformin() {
         Metformin has a well-characterized safety profile developed over decades of pharmacovigilance. Its most serious rare risk &mdash; lactic acidosis &mdash; occurs almost exclusively in patients with severe kidney impairment, and modern prescribing guidelines account for this. Berberine, as a supplement, has not undergone the same depth of post-market surveillance.
       </p>
       <p>
-        Both compounds can deplete vitamin B12 with long-term use. For metformin, this is documented in large studies (de Jager et al. 2010, n=390) <EvidenceBadge level="strong" /> and routine B12 monitoring is now recommended by the ADA. For berberine, the B12 depletion signal comes from mechanistic plausibility and smaller datasets, not from large monitoring studies.
+        Both compounds can deplete vitamin B12 with long-term use. For metformin, this is documented in large studies (de Jager et al. 2010, n=390) <EvidenceBadge level="strong" studiesId="creatine-jager-forms-2011" /> and routine B12 monitoring is now recommended by the ADA. For berberine, the B12 depletion signal comes from mechanistic plausibility and smaller datasets, not from large monitoring studies.
       </p>
       <Callout variant="warning" title="Drug interactions matter">
         Berberine inhibits several cytochrome P450 enzymes (CYP3A4, CYP2D6) and can alter the metabolism of prescription drugs including statins, blood thinners, and immunosuppressants. If you take any prescription medication, this is not a supplement to start without checking with a pharmacist or physician. For more on what to look for, see our guide on <a href="/guides/how-to-read-a-supplement-label">supplement labels</a>.

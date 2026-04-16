@@ -22,8 +22,8 @@ Scored 56 guides on 8 axes (0–5 each, 40 total).
 | 14 | [nootropics-guide](src/app/guides/[slug]/content/nootropics-guide.tsx) | **38.5** | 4.5 | 5 | 4.5 | 5 | 5 | 4.5 | 5 | 5 | 4717 |
 | 15 | [vitamin-b12-guide](src/app/guides/[slug]/content/vitamin-b12-guide.tsx) | **38.4** | 4.5 | 5 | 4.5 | 4.5 | 5 | 4.9 | 5 | 5 | 5154 |
 | 16 | [best-pre-workout-supplement-protocol](src/app/guides/[slug]/content/best-pre-workout-supplement-protocol.tsx) | **38.2** | 5.0 | 5 | 4.5 | 4.5 | 5 | 4.2 | 5 | 5 | 5221 |
-| 17 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **37.9** | 4.5 | 5 | 5 | 3.6 | 5 | 4.8 | 5 | 5 | 4168 |
-| 18 | [do-you-need-a-multivitamin](src/app/guides/[slug]/content/do-you-need-a-multivitamin.tsx) | **37.9** | 4.5 | 5 | 4.5 | 4.1 | 5 | 5 | 4.8 | 5 | 4771 |
+| 17 | [do-you-need-a-multivitamin](src/app/guides/[slug]/content/do-you-need-a-multivitamin.tsx) | **38.1** | 4.5 | 5 | 4.5 | 4.1 | 5 | 5 | 5 | 5 | 4771 |
+| 18 | [creatine-loading-phase](src/app/guides/[slug]/content/creatine-loading-phase.tsx) | **37.9** | 4.5 | 5 | 5 | 3.6 | 5 | 4.8 | 5 | 5 | 4168 |
 | 19 | [iron-guide](src/app/guides/[slug]/content/iron-guide.tsx) | **37.7** | 4.5 | 5 | 4.5 | 3.7 | 5 | 5 | 5 | 5 | 5550 |
 | 20 | [berberine-guide](src/app/guides/[slug]/content/berberine-guide.tsx) | **37.4** | 3.0 | 4.9 | 4.5 | 5 | 5 | 5 | 5 | 5 | 4691 |
 | 21 | [best-sleep-supplement-protocol](src/app/guides/[slug]/content/best-sleep-supplement-protocol.tsx) | **37.4** | 5.0 | 5 | 3.5 | 5 | 5 | 3.9 | 5 | 5 | 5138 |
@@ -34,12 +34,12 @@ Scored 56 guides on 8 axes (0–5 each, 40 total).
 | 26 | [how-to-read-a-supplement-label](src/app/guides/[slug]/content/how-to-read-a-supplement-label.tsx) | **37.2** | 4.5 | 5 | 4.5 | 3.9 | 5 | 5 | 4.3 | 5 | 5081 |
 | 27 | [lions-mane-guide](src/app/guides/[slug]/content/lions-mane-guide.tsx) | **37.2** | 4.5 | 4.9 | 4.5 | 5 | 5 | 4.1 | 4.2 | 5 | 4743 |
 | 28 | [magnesium-for-anxiety](src/app/guides/[slug]/content/magnesium-for-anxiety.tsx) | **37.1** | 3.0 | 5 | 4.5 | 5 | 5 | 4.6 | 5 | 5 | 4245 |
-| 29 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.6** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.6 | 5 | 5 | 4643 |
-| 30 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **36.5** | 5.0 | 5 | 4.0 | 4.3 | 5 | 3.2 | 5 | 5 | 2413 |
-| 31 | [berberine-vs-metformin](src/app/guides/[slug]/content/berberine-vs-metformin.tsx) | **36.3** | 5.0 | 5 | 4.0 | 4.9 | 5 | 3.2 | 4.2 | 5 | 4175 |
-| 32 | [vitamin-b12-methylcobalamin-vs-cyanocobalamin](src/app/guides/[slug]/content/vitamin-b12-methylcobalamin-vs-cyanocobalamin.tsx) | **35.7** | 5.0 | 5 | 4.5 | 2.3 | 5 | 4.7 | 4.2 | 5 | 2921 |
-| 33 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **35.5** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 2.9 | 4.9 | 2381 |
-| 34 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **35.2** | 5.0 | 5 | 4.0 | 3.9 | 5 | 3.1 | 4.2 | 5 | 2074 |
+| 29 | [berberine-vs-metformin](src/app/guides/[slug]/content/berberine-vs-metformin.tsx) | **36.7** | 5.0 | 5 | 4.0 | 4.9 | 5 | 3.2 | 4.6 | 5 | 4175 |
+| 30 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.6** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.6 | 5 | 5 | 4643 |
+| 31 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **36.5** | 5.0 | 5 | 4.0 | 4.3 | 5 | 3.2 | 5 | 5 | 2413 |
+| 32 | [vitamin-b12-methylcobalamin-vs-cyanocobalamin](src/app/guides/[slug]/content/vitamin-b12-methylcobalamin-vs-cyanocobalamin.tsx) | **36.5** | 5.0 | 5 | 4.5 | 2.3 | 5 | 4.7 | 5.0 | 5 | 2921 |
+| 33 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **36.0** | 5.0 | 5 | 4.0 | 3.9 | 5 | 3.1 | 5 | 5 | 2074 |
+| 34 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **35.5** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 2.9 | 4.9 | 2381 |
 | 35 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **34.9** | 5.0 | 5 | 4.0 | 2.9 | 5 | 3.4 | 4.6 | 5 | 2102 |
 | 36 | [nac-and-alcohol](src/app/guides/[slug]/content/nac-and-alcohol.tsx) | **34.9** | 3.0 | 5 | 4.5 | 3.5 | 5 | 4.7 | 4.2 | 5 | 3745 |
 | 37 | [creatine-for-endurance-athletes](src/app/guides/[slug]/content/creatine-for-endurance-athletes.tsx) | **34.7** | 3.0 | 5 | 4.5 | 2.6 | 5 | 4.6 | 5 | 5 | 4320 |
@@ -124,5 +124,5 @@ Scored 56 guides on 8 axes (0–5 each, 40 total).
 - **unique_value**: 3.93
 - **internal_linking**: 4.65
 - **actionability**: 3.84
-- **trust**: 3.87
+- **trust**: 3.91
 - **engagement**: 4.95

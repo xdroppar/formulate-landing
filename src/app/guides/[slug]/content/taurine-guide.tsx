@@ -177,7 +177,7 @@ export function TaurineGuide() {
         supplementation significantly{" "}
         <strong>reduced systolic and diastolic blood pressure</strong>,
         with effects comparable to some first-line antihypertensive
-        medications at doses of 1&ndash;6g per day. <EvidenceBadge level="strong" />
+        medications at doses of 1&ndash;6g per day. <EvidenceBadge level="strong" studiesId="taurine-waldron-endurance-2018" />
       </p>
       <p>
         The mechanism appears to involve multiple pathways: taurine
@@ -204,7 +204,7 @@ export function TaurineGuide() {
         on endurance and time-to-exhaustion protocols. The findings: taurine
         supplementation at <strong>1&ndash;6g doses</strong>, taken
         1&ndash;3 hours before exercise, significantly{" "}
-        <strong>improved endurance performance</strong>. <EvidenceBadge level="strong" /> The proposed
+        <strong>improved endurance performance</strong>. <EvidenceBadge level="strong" studiesId="taurine-waldron-endurance-2018" /> The proposed
         mechanisms include enhanced fat oxidation during exercise, improved
         calcium handling in skeletal muscle (leading to stronger
         contractions), and reduced exercise-induced oxidative damage.
@@ -457,7 +457,7 @@ export function TaurineGuide() {
 
       <h3>Blood Pressure Medications</h3>
 
-      <p>The Waldron et al. (2018) meta-analysis confirmed that taurine at 1–6g/day meaningfully lowers both systolic and diastolic blood pressure. If you're already on ACE inhibitors, ARBs, calcium channel blockers, or diuretics, the effect is <em>additive</em> — not dangerous per se, but enough to cause symptomatic hypotension (dizziness, lightheadedness) if your medication dose isn't adjusted. <EvidenceBadge level="moderate" /> Inform your prescriber and monitor your blood pressure at home for the first few weeks.</p>
+      <p>The Waldron et al. (2018) meta-analysis confirmed that taurine at 1–6g/day meaningfully lowers both systolic and diastolic blood pressure. If you're already on ACE inhibitors, ARBs, calcium channel blockers, or diuretics, the effect is <em>additive</em> — not dangerous per se, but enough to cause symptomatic hypotension (dizziness, lightheadedness) if your medication dose isn't adjusted. <EvidenceBadge level="moderate" studiesId="taurine-waldron-endurance-2018" /> Inform your prescriber and monitor your blood pressure at home for the first few weeks.</p>
 
       <h3>Diabetes Medications</h3>
 

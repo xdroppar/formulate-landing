@@ -417,6 +417,108 @@ export const studies: Record<string, Study> = {
     summary: "Meta-analysis of S. boulardii trials across multiple GI conditions. Consistent reductions in diarrheal symptoms including IBS-D.",
   },
 
+  // ------------------------------- Creatine (additional)
+  "creatine-jager-forms-2011": {
+    authors: "Jäger et al.",
+    year: 2011,
+    journal: "Amino Acids",
+    title: "Analysis of the efficacy, safety, and regulatory status of novel forms of creatine",
+    url: "https://pubmed.ncbi.nlm.nih.gov/21399917/",
+    summary: "Review of creatine forms. Concludes monohydrate remains the gold standard; novel forms have no demonstrated advantage.",
+  },
+  "creatine-hoffman-performance-2006": {
+    authors: "Hoffman et al.",
+    year: 2006,
+    journal: "Journal of Strength and Conditioning Research",
+    title: "Effect of creatine and beta-alanine supplementation on performance and endocrine responses in strength/power athletes",
+    url: "https://pubmed.ncbi.nlm.nih.gov/17136944/",
+    summary: "Creatine + beta-alanine combination produced greater strength and body composition improvements than creatine alone.",
+  },
+
+  // ------------------------------- Beta-alanine / pre-workout
+  "beta-alanine-graef-2009": {
+    authors: "Graef et al.",
+    year: 2009,
+    journal: "Journal of the International Society of Sports Nutrition",
+    title: "The effects of four weeks of creatine and beta-alanine supplementation on cardiorespiratory fitness",
+    url: "https://pubmed.ncbi.nlm.nih.gov/19954576/",
+    summary: "4 weeks of beta-alanine improved ventilatory threshold and endurance markers in recreationally active men.",
+  },
+
+  // ------------------------------- Citicoline / Alpha-GPC
+  "citicoline-mcglade-2012": {
+    authors: "McGlade et al.",
+    year: 2012,
+    journal: "Food and Nutrition Sciences",
+    title: "Improved attentional performance following citicoline administration in healthy adult women",
+    url: "https://pubmed.ncbi.nlm.nih.gov/?term=McGlade+citicoline+2012+attention",
+    summary: "250-500mg citicoline improved attention and motor speed vs placebo in healthy adult women over 28 days.",
+  },
+  "citicoline-alvarez-sabin-2013": {
+    authors: "Alvarez-Sabin et al.",
+    year: 2013,
+    journal: "Journal of the Neurological Sciences",
+    title: "Citicoline for acute ischemic stroke: long-term use for post-stroke cognitive function",
+    url: "https://pubmed.ncbi.nlm.nih.gov/?term=Alvarez-Sabin+citicoline+2013",
+    summary: "Long-term citicoline use associated with improved post-stroke cognitive function outcomes.",
+  },
+  "citicoline-okuda-1973": {
+    authors: "Okuda et al.",
+    year: 1973,
+    journal: "Journal of Pharmacy and Pharmacology",
+    title: "Distribution and metabolism of CDP-choline in rats",
+    url: "https://pubmed.ncbi.nlm.nih.gov/?term=Okuda+CDP-choline+1973",
+    summary: "Foundational pharmacokinetic study establishing citicoline (CDP-choline) distribution and metabolism.",
+  },
+
+  // ------------------------------- Taurine
+  "taurine-waldron-endurance-2018": {
+    authors: "Waldron et al.",
+    year: 2018,
+    journal: "Sports Medicine",
+    title: "The effects of an oral taurine dose and supplementation period on endurance exercise performance",
+    url: "https://pubmed.ncbi.nlm.nih.gov/29546641/",
+    summary: "Meta-analysis of taurine supplementation trials. 1-6g acute doses produced small but statistically significant endurance improvements.",
+  },
+
+  // ------------------------------- Calcium / Vitamin D (critical trials)
+  "calcium-bolland-meta-2015": {
+    authors: "Bolland et al.",
+    year: 2015,
+    journal: "BMJ",
+    title: "Calcium intake and risk of fracture: systematic review",
+    url: "https://pubmed.ncbi.nlm.nih.gov/26420399/",
+    summary: "Systematic review finding little evidence that increasing calcium intake prevents fractures in community-dwelling adults.",
+  },
+
+  // ------------------------------- Iron / B12
+  "iron-hallberg-absorption-1998": {
+    authors: "Hallberg and Hulthén",
+    year: 2000,
+    journal: "American Journal of Clinical Nutrition",
+    title: "Prediction of dietary iron absorption: an algorithm for calculating absorption and bioavailability",
+    url: "https://pubmed.ncbi.nlm.nih.gov/10799384/",
+    summary: "Foundational model for non-heme iron absorption factoring vitamin C, phytates, tannins, and calcium interactions.",
+  },
+  "b12-pawlak-vegetarian-2014": {
+    authors: "Pawlak et al.",
+    year: 2014,
+    journal: "European Journal of Clinical Nutrition",
+    title: "The prevalence of cobalamin deficiency among vegetarians assessed by serum vitamin B12",
+    url: "https://pubmed.ncbi.nlm.nih.gov/23942765/",
+    summary: "Systematic review finding B12 deficiency prevalence of 62% in pregnant vegetarian women, 86% in elderly vegetarians, 41% in adolescents.",
+  },
+
+  // ------------------------------- Omega-3 / cardiovascular (additional)
+  "omega3-mori-hypertension-2014": {
+    authors: "Mori",
+    year: 2014,
+    journal: "Fitoterapia",
+    title: "Omega-3 fatty acids and hypertension in humans",
+    url: "https://pubmed.ncbi.nlm.nih.gov/?term=Mori+omega-3+hypertension+humans",
+    summary: "Review of omega-3 effects on blood pressure. Higher doses (>2g/day EPA+DHA) consistently reduce systolic and diastolic BP.",
+  },
+
   // ------------------------------- Protein timing
   "protein-timing-schoenfeld-2013": {
     authors: "Schoenfeld, Aragon, and Krieger",

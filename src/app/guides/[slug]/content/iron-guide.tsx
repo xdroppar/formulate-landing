@@ -341,7 +341,7 @@ export function IronGuide() {
           classic study by Hallberg et al. (1989, <em>American Journal of
           Clinical Nutrition</em>) showed that 100mg of vitamin C taken
           alongside non-heme iron increased absorption by{" "}
-          <strong>4.1x</strong>. <EvidenceBadge level="strong" /> A glass of orange juice or a 250mg vitamin
+          <strong>4.1x</strong>. <EvidenceBadge level="strong" studiesId="iron-hallberg-absorption-1998" /> A glass of orange juice or a 250mg vitamin
           C tablet with your iron dose is the simplest high-impact move you
           can make.
         </li>
@@ -361,7 +361,7 @@ export function IronGuide() {
           nutrient interactions that affects both forms. A 200mg calcium
           dose can reduce iron absorption by up to <strong>50&ndash;60%</strong>{" "}
           (Hallberg et al., 1991, <em>American Journal of Clinical
-          Nutrition</em>). <EvidenceBadge level="strong" />
+          Nutrition</em>). <EvidenceBadge level="strong" studiesId="iron-hallberg-absorption-1998" />
         </li>
         <li>
           <strong>Coffee and tea</strong> &mdash; Tannins and polyphenols

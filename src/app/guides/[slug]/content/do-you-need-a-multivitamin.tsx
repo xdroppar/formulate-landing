@@ -426,7 +426,7 @@ export function DoYouNeedMultivitamin() {
 
       <h3>B12: The Non-Negotiable</h3>
 
-      <p>Vitamin B12 is synthesized exclusively by bacteria and archaea. No plant food produces it. Fermented foods and algae like spirulina contain B12 analogues that can actually <em>block</em> true B12 absorption (Watanabe et al., 2014). Without supplementation or fortified foods, deficiency is a matter of when, not if. Roughly 52% of vegans and 7% of vegetarians have serum B12 below adequate levels (Pawlak et al., 2013). <EvidenceBadge level="strong" /> Methylcobalamin or hydroxocobalamin at 1,000 mcg daily, or 2,500 mcg twice weekly, is the standard recommendation for vegans. Sublingual forms bypass any intrinsic factor limitations.</p>
+      <p>Vitamin B12 is synthesized exclusively by bacteria and archaea. No plant food produces it. Fermented foods and algae like spirulina contain B12 analogues that can actually <em>block</em> true B12 absorption (Watanabe et al., 2014). Without supplementation or fortified foods, deficiency is a matter of when, not if. Roughly 52% of vegans and 7% of vegetarians have serum B12 below adequate levels (Pawlak et al., 2013). <EvidenceBadge level="strong" studiesId="b12-pawlak-vegetarian-2014" /> Methylcobalamin or hydroxocobalamin at 1,000 mcg daily, or 2,500 mcg twice weekly, is the standard recommendation for vegans. Sublingual forms bypass any intrinsic factor limitations.</p>
 
       <h3>Iron: Absorption Math Works Against You</h3>
 

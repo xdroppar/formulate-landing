@@ -497,7 +497,7 @@ export function BestCreatine() {
 
       <p>Creatine's primary mechanism — replenishing phosphocreatine for short, high-intensity efforts — doesn't map neatly onto steady-state endurance work. A 2012 meta-analysis by Branch (in the <em>International Journal of Sport Nutrition and Exercise Metabolism</em>) found no significant benefit for continuous aerobic efforts lasting longer than ~150 seconds. <EvidenceBadge level="moderate" /></p>
 
-      <p>Where it <em>does</em> get interesting is repeated high-intensity intervals. Evidence suggests creatine can improve performance in interval training, hill repeats, and finishing kicks — the anaerobic bursts within an endurance context. A study by Graef et al. (2009) found improved critical power and time to exhaustion during intermittent cycling in creatine-supplemented subjects. <EvidenceBadge level="emerging" /> If your training includes structured intervals or you race with surges, there's a plausible mechanism.</p>
+      <p>Where it <em>does</em> get interesting is repeated high-intensity intervals. Evidence suggests creatine can improve performance in interval training, hill repeats, and finishing kicks — the anaerobic bursts within an endurance context. A study by Graef et al. (2009) found improved critical power and time to exhaustion during intermittent cycling in creatine-supplemented subjects. <EvidenceBadge level="emerging" studiesId="beta-alanine-graef-2009" /> If your training includes structured intervals or you race with surges, there's a plausible mechanism.</p>
 
       <h3>The Honest Verdict: A Dose/Weight Tradeoff Framework</h3>
 

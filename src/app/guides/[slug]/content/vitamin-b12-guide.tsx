@@ -96,7 +96,7 @@ export function VitaminB12Guide() {
           <strong>up to 50% of long-term vegetarians</strong> had B12 deficiency
           or insufficiency when not supplementing. The numbers are stark because
           there are no reliable plant sources of bioavailable B12.{" "}
-          <EvidenceBadge level="strong" />
+          <EvidenceBadge level="strong" studiesId="b12-pawlak-vegetarian-2014" />
         </li>
         <li>
           <strong>Adults over 50.</strong> Between{" "}
@@ -112,7 +112,7 @@ export function VitaminB12Guide() {
           up to <strong>30%</strong>. A 2010 RCT published in the{" "}
           <em>British Medical Journal</em> (de Jager et al.) found that
           long-term metformin use was associated with a 19% increase in B12
-          deficiency risk. <EvidenceBadge level="strong" />
+          deficiency risk. <EvidenceBadge level="strong" studiesId="creatine-jager-forms-2011" />
         </li>
         <li>
           <strong>People on proton pump inhibitors (PPIs).</strong> A 2013 study
@@ -533,7 +533,7 @@ export function VitaminB12Guide() {
       A 2011 analysis by Obeid and Herrmann in <em>Clinical Chemistry and Laboratory Medicine</em> found that MMA concentrations rise significantly once eGFR drops below 60 mL/min/1.73m², even in patients with adequate B12 levels. Without accounting for kidney function, you could misinterpret a high MMA result and over-supplement — or worse, miss the actual underlying issue.
       </Callout>
       <p>The fix is straightforward: <strong>ask your provider to check creatinine and eGFR alongside MMA</strong>. If your eGFR is below 60, your MMA result needs to be interpreted with that context — a mildly elevated MMA in the setting of reduced kidney function may mean nothing about your B12 status. <EvidenceBadge level="strong" /></p>
-      <p>If kidney function is compromised and you still need to assess B12 status, <strong>holotranscobalamin (holoTC)</strong> is a more reliable alternative functional marker. HoloTC measures only the biologically active fraction of B12 bound to transcobalamin II — the portion actually available to your cells — and is not significantly affected by renal function. A 2012 review by Nexo and Hoffmann-Lücke in <em>Journal of Internal Medicine</em> supported holoTC as the earliest marker of B12 depletion, particularly useful when MMA is unreliable. <EvidenceBadge level="moderate" /> Not every lab offers it routinely, so you may need to specifically request it.</p>
+      <p>If kidney function is compromised and you still need to assess B12 status, <strong>holotranscobalamin (holoTC)</strong> is a more reliable alternative functional marker. HoloTC measures only the biologically active fraction of B12 bound to transcobalamin II — the portion actually available to your cells — and is not significantly affected by renal function. A 2012 review by Nexo and Hoffmann-Lücke in <em>Journal of Internal Medicine</em> supported holoTC as the earliest marker of B12 depletion, particularly useful when MMA is unreliable. <EvidenceBadge level="moderate" studiesId="creatine-hoffman-performance-2006" /> Not every lab offers it routinely, so you may need to specifically request it.</p>
       <p>Bottom line: MMA remains an excellent test for most people, but it's not infallible. If you're over 50, on metformin, or have any reason to suspect reduced kidney function, don't interpret MMA results in isolation. Pair them with a kidney function panel, or ask about <a href="/guides/vitamin-b12-guide">holotranscobalamin testing</a> as an alternative.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
