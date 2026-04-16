@@ -1,6 +1,6 @@
 # SEO Guide Audit
 
-Scored 46 guides on 8 axes (0–5 each, 40 total).
+Scored 56 guides on 8 axes (0–5 each, 40 total).
 
 ## Rankings
 
@@ -27,31 +27,41 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 | 19 | [electrolytes-guide](src/app/guides/[slug]/content/electrolytes-guide.tsx) | **37.4** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.5 | 5 | 5 | 4835 |
 | 20 | [supplement-timing-guide](src/app/guides/[slug]/content/supplement-timing-guide.tsx) | **37.4** | 4.5 | 5 | 4.5 | 3.9 | 5 | 4.5 | 5 | 5 | 4610 |
 | 21 | [what-to-look-for-in-a-probiotic](src/app/guides/[slug]/content/what-to-look-for-in-a-probiotic.tsx) | **37.4** | 4.5 | 5 | 4.5 | 5 | 5 | 3.4 | 5 | 5 | 5725 |
-| 22 | [best-creatine-supplements](src/app/guides/[slug]/content/best-creatine-supplements.tsx) | **37.3** | 5.0 | 5 | 4.5 | 3.9 | 5 | 3.9 | 5 | 5 | 3756 |
+| 22 | [best-creatine-supplements](src/app/guides/[slug]/content/best-creatine-supplements.tsx) | **37.3** | 5.0 | 5 | 4.5 | 3.9 | 5 | 3.9 | 5 | 5 | 3759 |
 | 23 | [best-sleep-supplement-protocol](src/app/guides/[slug]/content/best-sleep-supplement-protocol.tsx) | **37.3** | 5.0 | 5 | 3.5 | 4.9 | 5 | 3.9 | 5 | 5 | 3986 |
 | 24 | [collagen-guide](src/app/guides/[slug]/content/collagen-guide.tsx) | **37.2** | 3.0 | 4.9 | 4.5 | 5 | 5 | 4.8 | 5 | 5 | 5028 |
 | 25 | [beginner-longevity-supplement-stack](src/app/guides/[slug]/content/beginner-longevity-supplement-stack.tsx) | **36.6** | 3.0 | 5 | 4.5 | 4.5 | 5 | 4.6 | 5 | 5 | 4643 |
 | 26 | [best-adaptogens-for-stress](src/app/guides/[slug]/content/best-adaptogens-for-stress.tsx) | **36.5** | 5.0 | 5 | 4.0 | 4.3 | 5 | 3.2 | 5 | 5 | 2413 |
 | 27 | [sarcopenia-reverse-muscle-loss](src/app/guides/[slug]/content/sarcopenia-reverse-muscle-loss.tsx) | **36.2** | 4.5 | 5 | 4.5 | 4.8 | 5 | 3.9 | 3.6 | 4.9 | 2381 |
 | 28 | [alpha-gpc-vs-citicoline](src/app/guides/[slug]/content/alpha-gpc-vs-citicoline.tsx) | **36.0** | 5.0 | 5 | 4.0 | 3.9 | 5 | 3.1 | 5 | 5 | 2074 |
-| 29 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **34.8** | 5.0 | 5 | 4.0 | 2.9 | 5 | 3.4 | 4.5 | 5 | 2102 |
-| 30 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **33.5** | 4.5 | 5 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 5 | 2195 |
-| 31 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **33.0** | 4.5 | 5 | 3.5 | 2.9 | 5 | 2.1 | 5 | 5 | 2086 |
-| 32 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
-| 33 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **32.5** | 2.5 | 4.1 | 4.0 | 3.5 | 5 | 3.7 | 4.7 | 5 | 1954 |
-| 34 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
-| 35 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
-| 36 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
-| 37 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
-| 38 | [grip-strength-longevity](src/app/guides/[slug]/content/grip-strength-longevity.tsx) | **26.2** | 4.5 | 2.9 | 4.5 | 2.7 | 3.6 | 1.8 | 1.5 | 4.7 | 1790 |
-| 39 | [sets-per-muscle-per-week](src/app/guides/[slug]/content/sets-per-muscle-per-week.tsx) | **26.1** | 4.5 | 2.4 | 4.2 | 2.8 | 3.1 | 3.2 | 1.2 | 4.7 | 1950 |
-| 40 | [minimum-effective-dose-strength-training](src/app/guides/[slug]/content/minimum-effective-dose-strength-training.tsx) | **25.4** | 3.0 | 2.4 | 4.5 | 3.2 | 3.1 | 2.8 | 1.5 | 4.9 | 1736 |
-| 41 | [walking-vs-running-longevity](src/app/guides/[slug]/content/walking-vs-running-longevity.tsx) | **25.3** | 2.5 | 2.9 | 3.5 | 3.4 | 3.6 | 2.4 | 2.1 | 4.9 | 1856 |
-| 42 | [zone-2-vs-hiit](src/app/guides/[slug]/content/zone-2-vs-hiit.tsx) | **25.3** | 2.5 | 2.9 | 4.5 | 2.5 | 4.8 | 2.2 | 1.2 | 4.7 | 1972 |
-| 43 | [weekly-longevity-training-plan](src/app/guides/[slug]/content/weekly-longevity-training-plan.tsx) | **25.1** | 3.0 | 2.9 | 4.2 | 2.2 | 3.6 | 3.3 | 1.2 | 4.7 | 1616 |
-| 44 | [zone-2-cardio-longevity](src/app/guides/[slug]/content/zone-2-cardio-longevity.tsx) | **25.1** | 4.5 | 2.4 | 4.8 | 2.5 | 3.1 | 1.1 | 1.8 | 4.9 | 1905 |
-| 45 | [best-exercises-for-legs](src/app/guides/[slug]/content/best-exercises-for-legs.tsx) | **23.5** | 2.5 | 2.9 | 4.0 | 1.9 | 3.6 | 2.1 | 1.8 | 4.7 | 2058 |
-| 46 | [best-exercises-for-back](src/app/guides/[slug]/content/best-exercises-for-back.tsx) | **21.1** | 2.5 | 2.4 | 4.0 | 0.8 | 3.7 | 2.0 | 1.2 | 4.5 | 2000 |
+| 29 | [ashwagandha-for-testosterone](src/app/guides/[slug]/content/ashwagandha-for-testosterone.tsx) | **34.9** | 4.5 | 3.3 | 4.5 | 5 | 4.8 | 3.7 | 4.1 | 5 | 2054 |
+| 30 | [best-time-to-take-magnesium](src/app/guides/[slug]/content/best-time-to-take-magnesium.tsx) | **34.8** | 5.0 | 5 | 4.0 | 2.9 | 5 | 3.4 | 4.5 | 5 | 2102 |
+| 31 | [best-collagen-for-joints](src/app/guides/[slug]/content/best-collagen-for-joints.tsx) | **34.1** | 2.5 | 3.3 | 4.5 | 5 | 4.2 | 4.6 | 5 | 5 | 2574 |
+| 32 | [magnesium-for-anxiety](src/app/guides/[slug]/content/magnesium-for-anxiety.tsx) | **33.8** | 3.0 | 3.3 | 4.5 | 4.7 | 5 | 4.4 | 3.9 | 5 | 2434 |
+| 33 | [creatine-and-hair-loss](src/app/guides/[slug]/content/creatine-and-hair-loss.tsx) | **33.5** | 4.5 | 5 | 4.5 | 3.2 | 5 | 1.9 | 4.4 | 5 | 2195 |
+| 34 | [best-multivitamin-over-50](src/app/guides/[slug]/content/best-multivitamin-over-50.tsx) | **33.3** | 2.5 | 3.3 | 4.5 | 3.5 | 5 | 4.5 | 5 | 5 | 2449 |
+| 35 | [creatine-for-women](src/app/guides/[slug]/content/creatine-for-women.tsx) | **33.0** | 4.5 | 5 | 3.5 | 2.9 | 5 | 2.1 | 5 | 5 | 2086 |
+| 36 | [protein-intake-muscle-after-40](src/app/guides/[slug]/content/protein-intake-muscle-after-40.tsx) | **32.9** | 4.5 | 5 | 4.0 | 2.5 | 4.8 | 4.1 | 3.0 | 5 | 2050 |
+| 37 | [vitamin-d3-vs-d2](src/app/guides/[slug]/content/vitamin-d3-vs-d2.tsx) | **32.5** | 2.5 | 4.1 | 4.0 | 3.5 | 5 | 3.7 | 4.7 | 5 | 1954 |
+| 38 | [zinc-for-immune-support](src/app/guides/[slug]/content/zinc-for-immune-support.tsx) | **31.7** | 3.0 | 3.3 | 4.5 | 4.2 | 4.8 | 4.6 | 2.3 | 5 | 2198 |
+| 39 | [vitamin-b12-methylcobalamin-vs-cyanocobalamin](src/app/guides/[slug]/content/vitamin-b12-methylcobalamin-vs-cyanocobalamin.tsx) | **31.3** | 2.5 | 3.3 | 4.5 | 2.3 | 5 | 4.2 | 4.5 | 5 | 2272 |
+| 40 | [probiotic-strains-for-ibs](src/app/guides/[slug]/content/probiotic-strains-for-ibs.tsx) | **30.5** | 3.0 | 3.3 | 4.5 | 3.9 | 4.2 | 1.6 | 5 | 5 | 2257 |
+| 41 | [creatine-for-endurance-athletes](src/app/guides/[slug]/content/creatine-for-endurance-athletes.tsx) | **30.3** | 3.0 | 3.3 | 4.5 | 2.1 | 5 | 2.9 | 4.5 | 5 | 2088 |
+| 42 | [berberine-vs-metformin](src/app/guides/[slug]/content/berberine-vs-metformin.tsx) | **30.1** | 2.5 | 3.3 | 3.5 | 3.7 | 4.8 | 2.3 | 5 | 5 | 2176 |
+| 43 | [nac-and-alcohol](src/app/guides/[slug]/content/nac-and-alcohol.tsx) | **29.8** | 3.0 | 3.3 | 4.5 | 2.4 | 4.8 | 3.0 | 3.8 | 5 | 1726 |
+| 44 | [strength-training-frequency-longevity](src/app/guides/[slug]/content/strength-training-frequency-longevity.tsx) | **29.5** | 3.5 | 2.9 | 5 | 4.2 | 3.6 | 2.3 | 3.0 | 5 | 1652 |
+| 45 | [how-to-train-after-50](src/app/guides/[slug]/content/how-to-train-after-50.tsx) | **28.1** | 4.5 | 2.9 | 4.5 | 2.5 | 3.6 | 3.2 | 2.0 | 4.9 | 2234 |
+| 46 | [vo2-max-longevity](src/app/guides/[slug]/content/vo2-max-longevity.tsx) | **26.7** | 4.5 | 2.9 | 4.5 | 3.1 | 3.6 | 1.9 | 1.5 | 4.7 | 1944 |
+| 47 | [best-longevity-exercises](src/app/guides/[slug]/content/best-longevity-exercises.tsx) | **26.4** | 2.5 | 2.9 | 4.0 | 3.4 | 3.6 | 2.0 | 3.0 | 5 | 1856 |
+| 48 | [grip-strength-longevity](src/app/guides/[slug]/content/grip-strength-longevity.tsx) | **26.2** | 4.5 | 2.9 | 4.5 | 2.7 | 3.6 | 1.8 | 1.5 | 4.7 | 1790 |
+| 49 | [sets-per-muscle-per-week](src/app/guides/[slug]/content/sets-per-muscle-per-week.tsx) | **26.1** | 4.5 | 2.4 | 4.2 | 2.8 | 3.1 | 3.2 | 1.2 | 4.7 | 1950 |
+| 50 | [minimum-effective-dose-strength-training](src/app/guides/[slug]/content/minimum-effective-dose-strength-training.tsx) | **25.4** | 3.0 | 2.4 | 4.5 | 3.2 | 3.1 | 2.8 | 1.5 | 4.9 | 1736 |
+| 51 | [walking-vs-running-longevity](src/app/guides/[slug]/content/walking-vs-running-longevity.tsx) | **25.3** | 2.5 | 2.9 | 3.5 | 3.4 | 3.6 | 2.4 | 2.1 | 4.9 | 1856 |
+| 52 | [zone-2-vs-hiit](src/app/guides/[slug]/content/zone-2-vs-hiit.tsx) | **25.3** | 2.5 | 2.9 | 4.5 | 2.5 | 4.8 | 2.2 | 1.2 | 4.7 | 1972 |
+| 53 | [weekly-longevity-training-plan](src/app/guides/[slug]/content/weekly-longevity-training-plan.tsx) | **25.1** | 3.0 | 2.9 | 4.2 | 2.2 | 3.6 | 3.3 | 1.2 | 4.7 | 1616 |
+| 54 | [zone-2-cardio-longevity](src/app/guides/[slug]/content/zone-2-cardio-longevity.tsx) | **25.1** | 4.5 | 2.4 | 4.8 | 2.5 | 3.1 | 1.1 | 1.8 | 4.9 | 1905 |
+| 55 | [best-exercises-for-legs](src/app/guides/[slug]/content/best-exercises-for-legs.tsx) | **23.5** | 2.5 | 2.9 | 4.0 | 1.9 | 3.6 | 2.1 | 1.8 | 4.7 | 2058 |
+| 56 | [best-exercises-for-back](src/app/guides/[slug]/content/best-exercises-for-back.tsx) | **21.1** | 2.5 | 2.4 | 4.0 | 0.8 | 3.7 | 2.0 | 1.2 | 4.5 | 2000 |
 
 ## Bottom 10 — fix these first
 
@@ -108,11 +118,11 @@ Scored 46 guides on 8 axes (0–5 each, 40 total).
 
 ## Axis averages
 
-- **intent_fit**: 4.16
-- **monetization**: 4.34
-- **structure**: 4.36
-- **unique_value**: 3.82
-- **internal_linking**: 4.60
-- **actionability**: 3.73
-- **trust**: 3.96
-- **engagement**: 4.94
+- **intent_fit**: 3.95
+- **monetization**: 4.15
+- **structure**: 4.37
+- **unique_value**: 3.80
+- **internal_linking**: 4.62
+- **actionability**: 3.71
+- **trust**: 4.03
+- **engagement**: 4.95

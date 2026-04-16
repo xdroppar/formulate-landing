@@ -359,7 +359,7 @@
     "slug": "best-creatine-supplements",
     "title": "Best Creatine Supplements 2026, Ranked by Evidence",
     "category": "roundup",
-    "word_count": 3756,
+    "word_count": 3759,
     "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.5,
@@ -476,6 +476,24 @@
     "total": 36.0
   },
   {
+    "slug": "ashwagandha-for-testosterone",
+    "title": "Ashwagandha for Testosterone: What the Evidence Actually Shows",
+    "category": "review",
+    "word_count": 2054,
+    "intent_fit": 4.5,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 4.8,
+    "actionability": 3.7,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 32)"
+    ],
+    "total": 34.9
+  },
+  {
     "slug": "best-time-to-take-magnesium",
     "title": "Best Time to Take Magnesium: The Timing Science (2026)",
     "category": "guide",
@@ -494,6 +512,42 @@
     "total": 34.8
   },
   {
+    "slug": "best-collagen-for-joints",
+    "title": "Best Collagen for Joints: Type II vs Type I for Cartilage Support",
+    "category": "roundup",
+    "word_count": 2574,
+    "intent_fit": 2.5,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 4.2,
+    "actionability": 4.6,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions"
+    ],
+    "total": 34.1
+  },
+  {
+    "slug": "magnesium-for-anxiety",
+    "title": "Magnesium for Anxiety: The Glycinate-GABA Connection",
+    "category": "guide",
+    "word_count": 2434,
+    "intent_fit": 3.0,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 4.7,
+    "internal_linking": 5,
+    "actionability": 4.4,
+    "trust": 3.9,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 32)"
+    ],
+    "total": 33.8
+  },
+  {
     "slug": "creatine-and-hair-loss",
     "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
     "category": "review",
@@ -510,6 +564,25 @@
       "few study references"
     ],
     "total": 33.5
+  },
+  {
+    "slug": "best-multivitamin-over-50",
+    "title": "Best Multivitamin for Adults Over 50: What to Actually Look For",
+    "category": "roundup",
+    "word_count": 2449,
+    "intent_fit": 2.5,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 3.5,
+    "internal_linking": 5,
+    "actionability": 4.5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "few study references"
+    ],
+    "total": 33.3
   },
   {
     "slug": "creatine-for-women",
@@ -560,6 +633,116 @@
       "transactional title but few product mentions"
     ],
     "total": 32.5
+  },
+  {
+    "slug": "zinc-for-immune-support",
+    "title": "Zinc for Immune Support: Timing and Form Matter More Than Dose",
+    "category": "guide",
+    "word_count": 2198,
+    "intent_fit": 3.0,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 4.2,
+    "internal_linking": 4.8,
+    "actionability": 4.6,
+    "trust": 2.3,
+    "engagement": 5,
+    "notes": [
+      "weak citation density"
+    ],
+    "total": 31.7
+  },
+  {
+    "slug": "vitamin-b12-methylcobalamin-vs-cyanocobalamin",
+    "title": "Methylcobalamin vs Cyanocobalamin: Which B12 Form Actually Works",
+    "category": "review",
+    "word_count": 2272,
+    "intent_fit": 2.5,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 2.3,
+    "internal_linking": 5,
+    "actionability": 4.2,
+    "trust": 4.5,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 26)"
+    ],
+    "total": 31.3
+  },
+  {
+    "slug": "probiotic-strains-for-ibs",
+    "title": "Probiotic Strains for IBS: Which Actually Have Evidence",
+    "category": "review",
+    "word_count": 2257,
+    "intent_fit": 3.0,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 3.9,
+    "internal_linking": 4.2,
+    "actionability": 1.6,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 30.5
+  },
+  {
+    "slug": "creatine-for-endurance-athletes",
+    "title": "Creatine for Endurance Athletes: The Overlooked Performance Tool",
+    "category": "guide",
+    "word_count": 2088,
+    "intent_fit": 3.0,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 2.1,
+    "internal_linking": 5,
+    "actionability": 2.9,
+    "trust": 4.5,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 30.3
+  },
+  {
+    "slug": "berberine-vs-metformin",
+    "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
+    "category": "review",
+    "word_count": 2176,
+    "intent_fit": 2.5,
+    "monetization": 3.3,
+    "structure": 3.5,
+    "unique_value": 3.7,
+    "internal_linking": 4.8,
+    "actionability": 2.3,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 33)",
+      "few study references"
+    ],
+    "total": 30.1
+  },
+  {
+    "slug": "nac-and-alcohol",
+    "title": "NAC and Alcohol: The Liver Protection Timing Question",
+    "category": "review",
+    "word_count": 1726,
+    "intent_fit": 3.0,
+    "monetization": 3.3,
+    "structure": 4.5,
+    "unique_value": 2.4,
+    "internal_linking": 4.8,
+    "actionability": 3.0,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 34)",
+      "few study references"
+    ],
+    "total": 29.8
   },
   {
     "slug": "strength-training-frequency-longevity",
