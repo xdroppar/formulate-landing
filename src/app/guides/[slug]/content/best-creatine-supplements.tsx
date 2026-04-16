@@ -1,6 +1,7 @@
 import {
   TLDRBox,
   Callout,
+  ComparisonTable,
   ProductCallout,
   ProductRow,
   EvidenceBadge,
@@ -119,6 +120,25 @@ export function BestCreatine() {
         here are a few products that consistently check all the boxes above &mdash;
         clinical dose, monohydrate, third-party tested, clean label.
       </p>
+
+      <ComparisonTable
+        products={[
+          PRODUCTS["thorne-creatine"],
+          PRODUCTS["nootropics-depot-creatine"],
+          PRODUCTS["transparent-labs-creatine-hmb"],
+        ]}
+        columns={[
+          { label: "Form", key: "form" },
+          { label: "Dose", key: "dose" },
+          { label: "Certifications", key: "certs" },
+          { label: "Price/serving", key: "price" },
+        ]}
+        data={{
+          "thorne-creatine": { form: "Monohydrate (Creapure)", dose: "5g", certs: "NSF Sport", price: "~$0.60" },
+          "nootropics-depot-creatine": { form: "Monohydrate", dose: "5g", certs: "In-house", price: "~$0.30" },
+          "transparent-labs-creatine-hmb": { form: "Monohydrate + HMB", dose: "5g + 1.5g HMB", certs: "Informed Sport", price: "~$1.00" },
+        }}
+      />
       <p>
         <strong>Thorne Creatine</strong> uses Creapure monohydrate at a full 5g
         dose, carries NSF Certified for Sport, and has no unnecessary fillers.
@@ -298,6 +318,141 @@ export function BestCreatine() {
       <Callout variant="info" title="&ldquo;You need to cycle creatine&rdquo;">
         No. There is no evidence that your body builds tolerance or that cycling
         provides any benefit. Take it daily.
+      </Callout>
+
+      <h2>Creatine and Medications: What to Know Before You Start</h2>
+
+      <p>Creatine and medications can interact in ways that matter — not because creatine itself is dangerous, but because certain drug classes already stress the same organ system creatine relies on: your kidneys. For healthy individuals with no active renal pathology, creatine monohydrate at 3–5g/day has an excellent safety record across hundreds of studies and up to five years of continuous use (Kreider et al., 2017). But &ldquo;healthy&rdquo; is doing real work in that sentence.</p>
+
+      <p>The concern isn&rsquo;t that creatine is nephrotoxic — it isn&rsquo;t, in people with normal kidney function. The concern is <strong>additive renal load</strong>. Creatine increases serum creatinine levels as a normal byproduct of metabolism, which can both mask declining kidney function on blood tests and compound stress from drugs that are already taxing your kidneys.</p>
+
+      <h3>Drug Classes That Warrant a Physician Conversation</h3>
+
+      <p><strong>Diuretics</strong> (furosemide, hydrochlorothiazide): These alter fluid balance and electrolyte handling. Combining them with creatine&rsquo;s water-retention effects creates an unpredictable hydration picture. <strong>NSAIDs</strong> (ibuprofen, naproxen) used chronically — not the occasional headache pill — reduce renal blood flow and are a well-documented cause of acute kidney injury on their own. <strong>Nephrotoxic antibiotics</strong> (gentamicin, vancomycin) carry direct kidney toxicity risk that you don&rsquo;t want to complicate. <strong>Immunosuppressants post-transplant</strong> (cyclosporine, tacrolimus) are inherently nephrotoxic, and transplant recipients already have compromised renal reserve.</p>
+
+      <Callout variant="warning" title="If you take any of these drug classes">
+        Consult your healthcare provider before starting creatine. This isn&rsquo;t boilerplate caution — it&rsquo;s about ensuring your kidney function is monitored appropriately. A simple serum creatinine test won&rsquo;t be reliable once you&rsquo;re supplementing, so your doctor may need to use cystatin C or measured GFR instead.
+      </Callout>
+
+      <p>If you&rsquo;re over 40, on multiple medications, or have any history of kidney issues, get a baseline renal panel <em>before</em> you start. Creatine is one of the safest supplements available — but &ldquo;safe for healthy people&rdquo; is not the same as &ldquo;safe for everyone without checking.&rdquo; For more on building a supplement routine that accounts for your full health picture, see our <a href="/guides/beginners-longevity-stack">beginner longevity stack guide</a>.</p>
+
+      <h3>Creatine During Pregnancy and Breastfeeding</h3>
+
+      <p><strong>Creatine during pregnancy</strong> is one of the most commonly searched topics we haven&rsquo;t addressed yet — and the honest answer is that the science is promising but nowhere near actionable without medical supervision.</p>
+
+      <p>Animal research is genuinely interesting here. A series of studies from Dickinson et al. (2014) and Ellery et al. (2016) at Monash University demonstrated that maternal creatine supplementation in spiny mice reduced fetal brain injury during birth asphyxia and improved organ function in oxygen-deprived pups. The proposed mechanism is straightforward: creatine acts as an intracellular energy buffer, and a fetus with higher phosphocreatine reserves may better tolerate hypoxic stress during delivery. <EvidenceBadge level="emerging" /></p>
+
+      <p>But here&rsquo;s the critical gap: <strong>no randomized controlled trial has established safety or efficacy of creatine supplementation in pregnant humans.</strong> A Phase I clinical trial (the CRE-FEND study, Ellery et al., 2022) is underway in Australia to evaluate tolerability in the third trimester, but results are not yet published. Until human data exists, any dose recommendation would be irresponsible speculation.</p>
+
+      <Callout variant="warning" title="No established safety profile">
+        Current clinical guidelines do not support unsupervised creatine supplementation during pregnancy. The animal data on fetal neuroprotection, while compelling, has not been validated in humans. If you&rsquo;re pregnant or planning to become pregnant, discuss creatine with your OB-GYN or midwife before taking it.
+      </Callout>
+
+      <p><strong>Creatine breastfeeding</strong> data is even thinner. Creatine is naturally present in breast milk, and maternal diet influences its concentration — but no study has evaluated whether supplemental creatine at 3–5g/day alters breast milk composition or affects infant outcomes. The data simply doesn&rsquo;t exist yet. <EvidenceBadge level="emerging" /></p>
+
+      <p>This is a space worth watching. The biological rationale for creatine as a neuroprotective agent in fetal development is sound, and active clinical trials suggest the research community takes it seriously. But &ldquo;promising preclinical data&rdquo; and &ldquo;safe to take while pregnant&rdquo; are very different statements. Consult your healthcare provider — this is one area where that advice isn&rsquo;t a cliché.</p>
+
+      <h2>How to Verify Creatine Purity Without Buying a Named Brand</h2>
+
+      <p>You don&rsquo;t need to stick to a short list of recommended brands to verify <strong>creatine purity</strong>. Three public databases let you check virtually any product — and a basic workflow takes about five minutes. Here&rsquo;s how to actually do it.</p>
+
+      <h3>The Three Databases Worth Using</h3>
+
+      <p><strong>Labdoor</strong> (labdoor.com) ranks supplements by measuring label accuracy, purity, and contaminant levels against independent lab results. Search for your specific creatine product — if it&rsquo;s been tested, you&rsquo;ll see a letter grade plus exact measured creatine content versus the label claim. Products scoring below 80 typically have meaningful discrepancies.</p>
+
+      <p><strong>ConsumerLab</strong> (consumerlab.com) requires a paid subscription (~$50/year) but tests for heavy metals, solvent residues, and the specific impurities relevant to creatine: creatinine, dicyandiamide (DCD), and dihydrotriazine (DHT). Their reports flag products exceeding European Pharmacopoeia thresholds for these contaminants.</p>
+
+      <p><strong>NSF&rsquo;s Certified for Sport database</strong> (nsfsport.com) is free and searchable. If your product appears here, it&rsquo;s been tested for banned substances, label accuracy, and GMP compliance. This is the gold standard for competitive athletes.</p>
+
+      <h3>What Creapure Certification Actually Looks Like</h3>
+
+      <p>Genuine Creapure products display a specific logo — a blue-and-white oval with &ldquo;Creapure&reg;&rdquo; text — typically on the front label or near the supplement facts panel. Critically, legitimate Creapure products also carry a <strong>batch-traceable code</strong> printed on the container. You can verify this code directly with AlzChem&rsquo;s Creapure website. If a brand claims Creapure sourcing but lacks the registered logo or a verifiable batch code, treat the claim skeptically. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Your Five-Minute Verification Workflow</h3>
+
+      <p>First, search NSF&rsquo;s free database for your product. If it&rsquo;s listed, you&rsquo;re done — that&rsquo;s the strongest signal available. Second, check Labdoor for an independent purity score. Third, if you have ConsumerLab access, look for contaminant-specific data. Finally, if the label claims Creapure, confirm the logo and cross-reference the batch code on AlzChem&rsquo;s site. Any product that passes two of these checks is almost certainly delivering what it claims.</p>
+
+      <Callout variant="info" title="No database listing isn't a red flag by itself">
+        Testing is expensive, and many smaller brands simply haven&rsquo;t submitted products. An absence from these databases doesn&rsquo;t mean the creatine is impure — it means you have less external verification. In that case, Creapure sourcing with a valid batch code becomes your best proxy for <strong>creatine purity</strong>.
+      </Callout>
+
+      <p>If you&rsquo;re still building out your supplement routine and want to understand what other label details actually matter, our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> covers the broader framework.</p>
+
+      <h2>Price-Per-Gram Comparison Table: What You&rsquo;re Actually Paying</h2>
+
+      <p>A creatine price-per-gram comparison reveals an uncomfortable truth: several products we recommend above blow past the &ldquo;don&rsquo;t pay more than $0.50 per serving&rdquo; ceiling stated in our bottom line. That advice holds for commodity monohydrate — but the moment you add Creapure sourcing or NSF certification, you&rsquo;re paying for supply-chain transparency, not a better molecule.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Serving Size</th>
+            <th>Approx. Retail Price</th>
+            <th>Servings</th>
+            <th>Cost per 5g Serving</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nutricost Creatine Monohydrate (500g)</td>
+            <td>5g</td>
+            <td>~$15</td>
+            <td>100</td>
+            <td><strong>$0.15</strong></td>
+            <td>Third-party tested; no Creapure</td>
+          </tr>
+          <tr>
+            <td>NOW Sports Creatine Monohydrate (1kg)</td>
+            <td>5g</td>
+            <td>~$22</td>
+            <td>200</td>
+            <td><strong>$0.11</strong></td>
+            <td>Informed Sport certified</td>
+          </tr>
+          <tr>
+            <td>Nootropics Depot Creatine (500g)</td>
+            <td>5g</td>
+            <td>~$20</td>
+            <td>100</td>
+            <td><strong>$0.20</strong></td>
+            <td>In-house purity testing</td>
+          </tr>
+          <tr>
+            <td>Thorne Creatine (450g)</td>
+            <td>5g</td>
+            <td>~$36</td>
+            <td>90</td>
+            <td><strong>$0.40</strong></td>
+            <td>Creapure; NSF Certified for Sport</td>
+          </tr>
+          <tr>
+            <td>Momentous Creatine (450g)</td>
+            <td>5g</td>
+            <td>~$50</td>
+            <td>90</td>
+            <td><strong>$0.56</strong></td>
+            <td>Creapure; Informed Sport</td>
+          </tr>
+          <tr>
+            <td>Transparent Labs Creatine HMB (750g)</td>
+            <td>5g creatine + HMB + Vit D</td>
+            <td>~$50</td>
+            <td>60</td>
+            <td><strong>$0.83</strong></td>
+            <td>Combo product — not apples-to-apples</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <Callout variant="warning" title="The $0.50 ceiling is real — for pure monohydrate">
+        Momentous and Transparent Labs both exceed $0.50 per serving. You&rsquo;re paying for certifications, brand partnerships, and (in TL&rsquo;s case) additional active ingredients — not superior creatine. If budget matters more than pedigree, Nutricost and NOW deliver the identical molecule at one-third the cost.
+      </Callout>
+
+      <p>The premium brands aren&rsquo;t scams — Creapure sourcing and NSF/Informed Sport testing cost real money to maintain. But you should know exactly what that markup buys you: <strong>verified purity and banned-substance screening</strong>, not better creatine. If you&rsquo;re not a tested athlete, the budget options are functionally identical. Our guide on <a href="/guides/reading-supplement-labels">reading supplement labels</a> can help you verify what&rsquo;s actually inside.</p>
+
+      <Callout variant="info" title="Prices fluctuate">
+        Retail prices above reflect mid-2024 averages from major U.S. retailers (Amazon, iHerb, brand direct). We update this table quarterly. Subscribe-and-save discounts can drop costs 10–15%.
       </Callout>
 
       <h2>Frequently Asked Questions</h2>

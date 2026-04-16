@@ -1,6 +1,7 @@
 import {
   TLDRBox,
   Callout,
+  ComparisonTable,
   ProductCallout,
   ProductRow,
   InteractionCard,
@@ -178,6 +179,23 @@ export function BestOmega3() {
         the criteria above &mdash; high EPA + DHA per serving, triglyceride form,
         third-party tested, low oxidation.
       </p>
+
+      <ComparisonTable
+        products={[
+          PRODUCTS["thorne-super-epa-pro"],
+          PRODUCTS["thorne-omega-3-coq10"],
+        ]}
+        columns={[
+          { label: "Form", key: "form" },
+          { label: "EPA+DHA", key: "dose" },
+          { label: "Extra", key: "extra" },
+          { label: "Certifications", key: "certs" },
+        ]}
+        data={{
+          "thorne-super-epa-pro": { form: "Triglyceride", dose: "1,100mg", extra: "High-EPA concentrate", certs: "NSF Sport" },
+          "thorne-omega-3-coq10": { form: "Triglyceride", dose: "1,000mg", extra: "CoQ10 (statin users)", certs: "NSF Sport" },
+        }}
+      />
       <p>
         <strong>Thorne Super EPA Pro</strong> delivers concentrated EPA + DHA in
         triglyceride form with NSF Certified for Sport testing. Low oxidation
@@ -349,6 +367,79 @@ export function BestOmega3() {
           recommendation="Talk to your doctor before starting high-dose fish oil if you're on warfarin or aspirin."
         />
       </InteractionGroup>
+
+      <h2>Omega-3 Drug Interactions: What to Know Before You Start</h2>
+
+      <p><strong>Omega-3 drug interactions</strong> are more nuanced than the standard &ldquo;talk to your doctor about blood thinners&rdquo; disclaimer. Fish oil has real pharmacological effects — it modifies platelet aggregation, alters lipid metabolism, and may influence hepatic enzyme activity. If you take any of the medications below, you need specifics, not a one-liner.</p>
+
+      <h3>Anticoagulants and Antiplatelets</h3>
+
+      <p><strong>Warfarin, apixaban (Eliquis), rivaroxaban (Xarelto), clopidogrel, daily aspirin.</strong> Omega-3s inhibit thromboxane A2-mediated platelet aggregation — the same pathway these drugs target. A 2013 review by Jalili and Dehpour in <em>Pharmacological Research</em> found that doses above 3,000 mg EPA+DHA daily significantly prolonged bleeding time when combined with warfarin. Even at 2,000 mg, INR values may drift upward unpredictably. <EvidenceBadge level="moderate" /> Physician consultation is <strong>mandatory</strong> before combining, and INR monitoring frequency should increase after any dose change.</p>
+
+      <h3>Statins</h3>
+
+      <p><strong>Atorvastatin, rosuvastatin, simvastatin.</strong> This is actually one of the safer combinations. Omega-3s and statins lower triglycerides through complementary mechanisms (statins primarily target LDL-C via HMG-CoA reductase; omega-3s reduce hepatic VLDL secretion). The JELIS trial (Yokoyama et al., 2007) combined EPA with statins and showed additive cardiovascular benefit. No clinically significant pharmacokinetic interaction has been identified. <EvidenceBadge level="strong" /> Physician awareness is recommended but not urgent. If you&rsquo;re on a statin and considering omega-3, our <a href="/guides/best-omega-3-supplements">stacking notes on Thorne Omega-3 with CoQ10</a> above are relevant.</p>
+
+      <h3>NSAIDs</h3>
+
+      <p><strong>Ibuprofen, naproxen, aspirin (analgesic doses).</strong> Both NSAIDs and omega-3s reduce platelet aggregation, creating additive bleeding risk. A case-control analysis by Bays (2007) in <em>The American Journal of Cardiology</em> noted that GI bleeding incidence increased modestly when high-dose fish oil was combined with chronic NSAID use. At standard omega-3 doses (&le;2,000 mg EPA+DHA), risk appears low in healthy adults. <EvidenceBadge level="emerging" /> Consult your healthcare provider if you use NSAIDs daily or have a history of GI bleeds.</p>
+
+      <h3>Diabetes Medications</h3>
+
+      <p><strong>Metformin, insulin, sulfonylureas, SGLT2 inhibitors.</strong> High-dose omega-3 (&ge;4,000 mg EPA+DHA) has shown inconsistent effects on fasting glucose — a 2018 meta-analysis by O&rsquo;Mahoney et al. in <em>PLOS ONE</em> found a small but statistically significant increase in fasting glucose in type 2 diabetic patients taking high-dose fish oil. The effect was modest (~2–3 mg/dL) and didn&rsquo;t consistently impact HbA1c. <EvidenceBadge level="moderate" /> Doses below 2,000 mg appear unlikely to disrupt glycemic control, but your endocrinologist should know if you&rsquo;re supplementing at higher levels.</p>
+
+      <h3>Antidepressants (SSRIs and SNRIs)</h3>
+
+      <p><strong>Sertraline, fluoxetine, venlafaxine, duloxetine.</strong> SSRIs independently impair platelet function by depleting serotonin in platelets. Adding omega-3s creates a theoretical triple-pathway bleeding risk (SSRI + omega-3 + any antiplatelet). However, clinical evidence of harm from this specific combination is thin. Adjunctive EPA has actually shown benefit for depression outcomes in SSRI partial responders (Sarris et al., 2016 meta-analysis in <em>Journal of Clinical Psychiatry</em>). <EvidenceBadge level="emerging" /> Physician awareness is sensible, especially if you&rsquo;re also on an anticoagulant.</p>
+
+      <Callout variant="warning" title="The Dose Threshold Matters">
+        Most omega-3 drug interaction concerns escalate above 2,000–3,000 mg combined EPA+DHA daily. At standard supplemental doses (1,000–2,000 mg), serious interactions are uncommon in otherwise healthy adults. But &ldquo;uncommon&rdquo; isn&rsquo;t &ldquo;impossible&rdquo; — especially when you&rsquo;re stacking multiple medications that share bleeding-risk pathways. Bring your full supplement list to every prescriber visit.
+      </Callout>
+
+      <h2>Fish Oil During Pregnancy: Dosing, Safety, and What to Choose</h2>
+
+      <p><strong>Fish oil during pregnancy</strong> is one of the most consequential supplement decisions you&rsquo;ll make — and one of the most poorly served by standard prenatal vitamins. DHA is the primary structural fatty acid in fetal brain and retinal tissue, and demand spikes during the third trimester when neurological development accelerates. Getting the dose right matters. Getting the source right matters more than usual.</p>
+
+      <h3>How Much DHA Do You Actually Need?</h3>
+
+      <p>The WHO and the International Society for the Study of Fatty Acids and Lipids (ISSFAL) both recommend at least <strong>200mg DHA daily</strong> during pregnancy and lactation. ACOG doesn&rsquo;t set a specific number but endorses omega-3 intake through diet or supplementation. Many maternal-fetal medicine experts consider 200mg a floor, not a target — the MFGD trial (Makrides et al., 2010, <em>JAMA</em>) used 800mg DHA daily and found a reduction in early preterm birth. <EvidenceBadge level="moderate" /></p>
+
+      <p>Here&rsquo;s the problem: most prenatal vitamins contain 200–300mg DHA at best, and some contain none. If your prenatal lists &ldquo;omega-3&rdquo; without specifying DHA content separately, assume it&rsquo;s insufficient. You&rsquo;ll likely need a standalone DHA supplement to reach 400–800mg daily.</p>
+
+      <h3>EPA Limits and the Mercury Question</h3>
+
+      <p>Safe upper limits for EPA specifically during pregnancy aren&rsquo;t well established. High EPA intake has theoretical concerns around bleeding time and may compete with arachidonic acid, which plays its own role in fetal development. Most prenatal-focused products are intentionally <strong>DHA-dominant</strong> with modest EPA — a ratio of 1:3 or 1:4 EPA:DHA is typical and reasonable.</p>
+
+      <Callout variant="warning" title="Mercury and contaminants">
+        Reputable fish oil brands using molecular distillation test well below detectable mercury limits. Still, if contaminant anxiety is a factor — and during pregnancy, it&rsquo;s rational — <strong>algal DHA</strong> sidesteps the issue entirely. Algae-derived DHA is grown in controlled environments with zero heavy metal or PCB exposure. Products like Nordic Naturals Prenatal DHA (algae-based) deliver 400–500mg DHA per serving without the fish-derived supply chain.
+      </Callout>
+
+      <h3>What to Choose</h3>
+
+      <p>Look for a product that delivers <strong>400mg+ DHA per serving</strong> in triglyceride form, carries third-party testing (IFOS or NSF), and explicitly labels the DHA and EPA breakdown. Algal DHA is a strong option for fish oil during pregnancy if you want to eliminate contaminant risk entirely — the trade-off is higher cost per milligram. Either way, your prenatal vitamin almost certainly isn&rsquo;t covering this on its own.</p>
+
+      <Callout variant="info" title="Always consult your provider">
+        Dosing omega-3s during pregnancy involves balancing DHA needs against bleeding risk, gestational diabetes considerations, and your existing prenatal regimen. Bring your full supplement list to your OB or midwife before adding or changing anything.
+      </Callout>
+
+      <h2>REDUCE-IT, VITAL, and STRENGTH: What the Big Trials Actually Proved (and Didn&rsquo;t)</h2>
+
+      <p>Three landmark omega-3 trials dominate every &ldquo;clinical evidence&rdquo; claim in this market. Understanding what they actually tested — and where the controversies lie — matters before you spend money based on headline results.</p>
+
+      <h3>REDUCE-IT (Bhatt et al., 2019, NEJM)</h3>
+      <p><strong>Dose and form:</strong> 4,000 mg/day of icosapent ethyl (pure EPA in ethyl ester form — the prescription drug Vascepa), not a fish oil supplement. <strong>Finding:</strong> 25% relative risk reduction in major cardiovascular events versus placebo in statin-treated patients with elevated triglycerides. <EvidenceBadge level="strong" /> Impressive — but the placebo was mineral oil, which raised LDL-C, hsCRP, and other inflammatory markers in the control group (Olshansky et al., 2020, <em>European Heart Journal</em>). That means the control group may have gotten <em>worse</em>, inflating EPA&rsquo;s apparent benefit. An FDA advisory panel flagged this. The effect is likely real but probably smaller than the headline number suggests.</p>
+
+      <Callout variant="warning" title="The Mineral Oil Placebo Problem">
+        REDUCE-IT&rsquo;s mineral oil placebo measurably worsened biomarkers in the control arm. This doesn&rsquo;t invalidate the trial, but it means the 25% risk reduction likely overstates the true treatment effect. The STRENGTH trial, using an inert corn oil placebo, found no benefit — and this distinction matters.
+      </Callout>
+
+      <h3>STRENGTH (Nicholls et al., 2020, JAMA)</h3>
+      <p><strong>Dose and form:</strong> 4,000 mg/day of combined EPA + DHA (carboxylic acid form — the drug Epanova) versus a corn oil placebo. <strong>Finding:</strong> No significant reduction in cardiovascular events. <EvidenceBadge level="strong" /> Some argue this implicates DHA as counterproductive at high doses; others point to the neutral placebo as the real variable. The honest answer: we don&rsquo;t know which explanation is correct.</p>
+
+      <h3>VITAL (Manson et al., 2019, NEJM)</h3>
+      <p><strong>Dose and form:</strong> 840 mg/day combined EPA + DHA (standard fish oil, Omacor/Lovaza capsule). <strong>Finding:</strong> No significant reduction in major cardiovascular events or cancer incidence in the general population. <EvidenceBadge level="strong" /> However, subgroup analyses suggested benefit for heart attack specifically (28% reduction) and stronger effects in participants with low baseline fish intake. Subgroup findings are hypothesis-generating, not proof.</p>
+
+      <p>The bottom line for supplement buyers: no over-the-counter fish oil has been tested at REDUCE-IT doses in a pivotal trial. VITAL&rsquo;s modest dose — closer to what you&rsquo;d actually take from a supplement — showed no broad cardiovascular benefit. Claims that a fish oil supplement is &ldquo;clinically proven&rdquo; to prevent heart disease are, at best, an oversimplification. For context on how <a href="/guides/omega-3-dosing-guide">omega-3 dosing maps to specific outcomes</a>, the dose-response section above breaks this down further.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>

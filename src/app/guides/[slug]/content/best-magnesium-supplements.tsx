@@ -1,6 +1,7 @@
 import {
   TLDRBox,
   Callout,
+  ComparisonTable,
   ProductCallout,
   ProductRow,
   InteractionCard,
@@ -275,6 +276,25 @@ export function BestMagnesium() {
         the criteria above &mdash; appropriate forms, transparent elemental dosing,
         third-party testing.
       </p>
+
+      <ComparisonTable
+        products={[
+          PRODUCTS["thorne-magnesium-bisglycinate"],
+          PRODUCTS["nootropics-depot-magnesium-glycinate"],
+          PRODUCTS["nootropics-depot-micromag"],
+        ]}
+        columns={[
+          { label: "Form", key: "form" },
+          { label: "Elemental Mg", key: "dose" },
+          { label: "Best for", key: "use" },
+          { label: "Certifications", key: "certs" },
+        ]}
+        data={{
+          "thorne-magnesium-bisglycinate": { form: "Bisglycinate", dose: "200mg", use: "Sleep, general", certs: "NSF Sport" },
+          "nootropics-depot-magnesium-glycinate": { form: "Glycinate", dose: "200mg", use: "Sleep, anxiety", certs: "In-house" },
+          "nootropics-depot-micromag": { form: "Sucrosomial", dose: "200mg", use: "Absorption, GI-sensitive", certs: "In-house" },
+        }}
+      />
       <p>
         <strong>Thorne Magnesium Bisglycinate</strong> is the go-to glycinate
         option. NSF Certified for Sport, clean label, no fillers. If you want
@@ -340,6 +360,101 @@ export function BestMagnesium() {
         </a>{" "}
         covers how magnesium fits alongside other sleep-supporting nutrients.
       </p>
+
+      <h2>Magnesium for Muscle Cramps, Restless Legs, and Exercise Recovery</h2>
+
+      <p>Magnesium for muscle cramps is one of the most searched supplement topics — and the evidence is more nuanced than the marketing suggests. The honest summary: magnesium supplementation helps some cramp-prone populations meaningfully, performs modestly in others, and isn&rsquo;t the universal fix that fitness influencers claim.</p>
+
+      <h3>What the Evidence Actually Shows for Cramps</h3>
+
+      <p>A Cochrane review (Garrison et al., 2012) found no significant benefit of magnesium for idiopathic or age-related leg cramps in the general population. <EvidenceBadge level="moderate" /> However, evidence is stronger for <strong>exercise-associated muscle cramps</strong> in athletes who are genuinely depleted. A 2017 study (Zhang et al., <em>European Journal of Clinical Nutrition</em>) showed that magnesium status was significantly lower in cramping athletes versus non-cramping controls. The takeaway: if you&rsquo;re cramping <em>and</em> depleted, supplementation helps. If your levels are fine, extra magnesium probably won&rsquo;t stop cramps.</p>
+
+      <h3>Restless Leg Syndrome</h3>
+
+      <p>A small but frequently cited trial (Hornyak et al., 1998, <em>Sleep</em>) found magnesium supplementation improved periodic limb movements and RLS symptoms in a group of 10 patients with mild-to-moderate RLS. <EvidenceBadge level="emerging" /> The sample was tiny, and larger confirmatory trials are lacking. Evidence suggests benefit in cases where magnesium deficiency is contributing to symptoms, but RLS has multiple etiologies — iron status and dopaminergic function matter too. If you have persistent RLS, consult your healthcare provider rather than relying on magnesium alone.</p>
+
+      <h3>Athletic Dosing and Sweat Losses</h3>
+
+      <p>Athletes lose roughly 3–15mg of magnesium per liter of sweat (Lukaski, 2004, <em>Nutrition</em>). During prolonged training in heat, cumulative losses can be significant — potentially 50–100mg in a single session. This means physically active people, especially endurance athletes, often need intake at the higher end of the RDA or slightly above.</p>
+
+      <p><strong>Magnesium glycinate</strong> is the preferred form for athletes specifically because it avoids the GI distress that citrate and oxide cause during or around training. Loose stools mid-workout aren&rsquo;t a performance enhancer. If you&rsquo;re already using glycinate for <a href="/guides/best-magnesium-supplements">sleep</a>, adding a second dose post-training (100–150mg elemental) is a practical approach — just keep total supplemental intake within the 350mg UL unless directed otherwise by a sports dietitian.</p>
+
+      <Callout variant="info" title="Recovery context">
+        Magnesium alone won&rsquo;t meaningfully accelerate muscle recovery. Its role is permissive — adequate magnesium supports normal muscle relaxation and protein synthesis, but supplementing above sufficiency doesn&rsquo;t provide extra recovery benefits. Pair it with adequate protein and sleep for actual results. For more on building a complete recovery stack, see our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a>.
+      </Callout>
+
+      <h2>How to Read a Magnesium Label at Any Price Point</h2>
+
+      <p>Knowing how to read a magnesium label saves you from overpaying for underdosed products — whether you&rsquo;re in a Walgreens aisle or deep in Amazon&rsquo;s supplement jungle. These five criteria work at every price point, from $8 store brands to $45 premium capsules.</p>
+
+      <h3>1. Elemental Magnesium Listed Separately</h3>
+      <p>This is the single most important number on the label. Look for a line that says something like &ldquo;Elemental Magnesium — 120mg&rdquo; underneath the compound weight. If you only see &ldquo;Magnesium Glycinate — 1,000mg&rdquo; with no elemental breakdown, the brand is either sloppy or deliberately obscuring a low dose. Walk away. The elemental number is what the RDA refers to and what your body actually uses.</p>
+
+      <h3>2. Full Chemical Name of the Form</h3>
+      <p>The label should say &ldquo;magnesium bisglycinate&rdquo; or &ldquo;magnesium citrate&rdquo; — not just &ldquo;magnesium.&rdquo; Vague labeling often masks <strong>oxide blends</strong>, where the cheapest form is padded in to inflate the total milligrams. If the Supplement Facts panel lists multiple forms, the first one listed is typically present in the highest amount.</p>
+
+      <h3>3. Third-Party Testing Seal</h3>
+      <p>Look for NSF International, USP, Informed Sport, or ConsumerLab seals. These verify that what&rsquo;s on the label is actually in the bottle. A 2023 ConsumerLab analysis found that roughly 1 in 5 magnesium products failed testing — wrong dose, contamination, or mislabeled form. <EvidenceBadge level="moderate" /> No seal doesn&rsquo;t guarantee a bad product, but it means you&rsquo;re trusting the brand on faith alone.</p>
+
+      <h3>4. Scan the &ldquo;Other Ingredients&rdquo;</h3>
+      <p>The excipient list lives below the Supplement Facts panel. Fillers like magnesium stearate and silicon dioxide are standard and generally harmless. What you want to flag: titanium dioxide (increasingly avoided in the EU), artificial colors, and unnecessary added sugars in gummies. Shorter lists aren&rsquo;t inherently better — but ingredients you can&rsquo;t identify deserve a quick search.</p>
+
+      <h3>5. Do the Serving Size Math</h3>
+      <p>A product might advertise &ldquo;400mg magnesium&rdquo; on the front — but the serving size is <em>four capsules</em>. That&rsquo;s 100mg per capsule. Compare cost per serving, not cost per bottle. Divide the price by the number of servings to get your true daily cost. A $30 bottle with 60 servings at 150mg elemental beats a $20 bottle with 30 servings at 100mg every time.</p>
+
+      <Callout variant="info" title="Quick Label Checklist">
+        Elemental magnesium stated separately. Full chemical form name (not just &ldquo;magnesium&rdquo;). A recognized third-party testing seal. Clean excipient list with no red-flag additives. Serving size math that confirms the advertised dose per <strong>single</strong> serving.
+      </Callout>
+
+      <h2>Magnesium Safety for Special Populations (Pregnancy, Kidney Disease, Children)</h2>
+
+      <p><strong>Magnesium safety</strong> isn&rsquo;t one-size-fits-all. The doses and forms discussed elsewhere in this guide assume a healthy adult with functioning kidneys and no pregnancy. If you fall outside that profile, the risk calculus changes — sometimes dramatically. Here&rsquo;s what you need to know for three populations where the standard advice doesn&rsquo;t apply.</p>
+
+      <h3>Pregnancy and Lactation</h3>
+
+      <p>The RDA for magnesium increases during pregnancy to 350–360mg/day of elemental magnesium (up from 310–320mg for non-pregnant women), and to 310–320mg during lactation. Evidence suggests glycinate is generally well-tolerated during pregnancy due to its low GI side-effect profile, but robust comparative safety data across supplemental forms in pregnant populations is limited.</p>
+
+      <Callout variant="warning" title="Talk to your OB-GYN first">
+        Do not self-select a form or dose during pregnancy or breastfeeding. Magnesium sulfate is used clinically for preeclampsia at doses far above supplemental ranges — this context means your provider needs to know what you&rsquo;re taking. Bring the specific product label to your next prenatal visit.
+      </Callout>
+
+      <h3>Kidney Disease (CKD Stages 3–5)</h3>
+
+      <p>Healthy kidneys excrete excess magnesium efficiently. Impaired kidneys do not. Once GFR drops below approximately 30 mL/min (CKD stage 3b and beyond), the risk of <strong>hypermagnesemia</strong> — which can cause hypotension, respiratory depression, and cardiac arrest — rises sharply (Moe, 2008, <em>Clinical Journal of the American Society of Nephrology</em>). <EvidenceBadge level="strong" /> This isn&rsquo;t a &ldquo;use caution&rdquo; situation.</p>
+
+      <Callout variant="warning" title="Firm contraindication for CKD stages 3–5">
+        Do not supplement magnesium in any form without explicit clearance and ongoing monitoring from your nephrologist. This includes magnesium glycinate, citrate, threonate — every form in this guide. Even dietary magnesium intake may need to be managed. No exceptions.
+      </Callout>
+
+      <h3>Children and Adolescents</h3>
+
+      <p>Pediatric magnesium needs differ by age, weight, and developmental stage. The adult RDAs, upper limits, and form recommendations in this guide do not apply to children. We intentionally provide no pediatric dosing here — the variability is too high and the margin for error too consequential.</p>
+
+      <Callout variant="info" title="Physician guidance required">
+        If you&rsquo;re considering magnesium for a child for any reason — sleep, growing pains, ADHD-adjacent symptoms — consult their pediatrician first. They can assess dietary intake, rule out other causes, and recommend an age-appropriate form and dose if supplementation is warranted.
+      </Callout>
+
+      <p>For general adult <strong>magnesium safety</strong> guidance, including drug interactions and signs of excess, see the <a href="/guides/best-magnesium-supplements">interactions and upper-limit sections</a> earlier in this guide. If you&rsquo;re unsure whether you&rsquo;re deficient, our <a href="/guides/signs-of-magnesium-deficiency">magnesium deficiency guide</a> covers how to assess your status before supplementing.</p>
+
+      <h2>How Long Before You Notice Results? Setting Realistic Expectations</h2>
+
+      <p>How long magnesium takes to work depends on what you&rsquo;re measuring — subjective symptoms like sleep quality respond faster than lab markers. Understanding these timelines keeps you from abandoning a supplement that&rsquo;s actually working, or sticking with one that isn&rsquo;t.</p>
+
+      <h3>Sleep and Relaxation: 1–2 Weeks</h3>
+
+      <p>If you&rsquo;re taking <a href="/guides/best-magnesium-supplements">magnesium glycinate</a> for sleep, many people report noticeable improvements in sleep onset and subjective sleep quality within the first one to two weeks. The Abbasi et al. (2012) study in elderly subjects showed significant improvements over an 8-week intervention, but participants reported changes well before the trial endpoint. <EvidenceBadge level="moderate" /> That said, individual responses vary considerably — your baseline deficiency status, sleep hygiene, and concurrent stressors all influence how quickly you feel a difference.</p>
+
+      <h3>Serum and RBC Magnesium: 4–6 Weeks</h3>
+
+      <p>Replenishing intracellular magnesium stores takes longer than feeling subjective relief. RBC magnesium — the more reliable marker of true magnesium status — typically normalizes within four to six weeks of consistent supplementation at adequate doses (Costello et al., 2016, <em>Nutrients</em>). <EvidenceBadge level="moderate" /> If you&rsquo;re testing levels, don&rsquo;t recheck before the six-week mark or you&rsquo;ll get misleadingly low numbers.</p>
+
+      <h3>The 8-Week Reassessment Rule</h3>
+
+      <p>If you&rsquo;ve supplemented consistently for eight weeks at an appropriate dose and noticed zero improvement in your target symptom, don&rsquo;t just increase the dose blindly. Reassess three things: whether your form matches your goal, whether your elemental magnesium intake is actually sufficient (check the label math in our section above), and whether something else — like a <a href="/guides/signs-of-magnesium-deficiency">deeper deficiency</a> or competing medication — is undermining absorption.</p>
+
+      <Callout variant="info" title="Consistency matters more than timing">
+        Missing doses resets the clock on tissue saturation. Daily, uninterrupted supplementation is what moves lab values — not occasional megadoses. If you struggle with consistency, pair your magnesium with an existing habit like brushing your teeth.
+      </Callout>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>

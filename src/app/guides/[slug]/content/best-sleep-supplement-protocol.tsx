@@ -323,6 +323,76 @@ export function BestSleepProtocol() {
         </a>.
       </p>
 
+      <h2>Drug Interactions and Who Should Check With a Doctor First</h2>
+
+      <p><strong>Drug interactions with sleep supplements</strong> are the most important safety consideration in this protocol — more important than dose or timing. The three core compounds each have specific, well-documented interactions with common medications. If you take any prescription drug daily, read this section before ordering anything.</p>
+
+      <h3>Magnesium Interactions</h3>
+
+      <p>Magnesium binds to several medications in the gut and reduces their absorption. <strong>Levothyroxine</strong> (Synthroid) is the most clinically significant — separate dosing by at least 4 hours (Zamfirescu &amp; Bhargava, 2022). The same spacing applies to <strong>bisphosphonates</strong> like alendronate, <strong>tetracycline and fluoroquinolone antibiotics</strong> (ciprofloxacin, doxycycline), and <strong>mycophenolate</strong>. Magnesium can also amplify the blood-pressure-lowering effect of <strong>antihypertensives</strong>, particularly calcium channel blockers, which may cause dizziness or hypotension. <EvidenceBadge level="strong" /></p>
+
+      <h3>L-Theanine Interactions</h3>
+
+      <p>L-theanine modulates GABA and serotonin activity, so combining it with <strong>CNS depressants</strong> — benzodiazepines, barbiturates, alcohol — may produce additive sedation. Evidence suggests it can also blunt the stimulatory effects of <strong>caffeine and amphetamine-based medications</strong>. If you&rsquo;re on <strong>SSRIs or SNRIs</strong>, the overlapping serotonergic activity warrants a conversation with your prescriber, even though clinical reports of adverse interactions are scarce. <EvidenceBadge level="moderate" /></p>
+
+      <h3>Glycine Interactions</h3>
+
+      <p>This is the one most people miss. Glycine is a co-agonist at <strong>NMDA receptors</strong>, and at 3g doses it can meaningfully affect glutamatergic signaling. For anyone taking <strong>clozapine</strong> or other antipsychotics, this is not trivial — glycine has been studied as an adjunct in schizophrenia treatment (Heresco-Levy et al., 1999), and supplementing it without psychiatric oversight could alter antipsychotic efficacy in either direction. <EvidenceBadge level="moderate" /></p>
+
+      <Callout variant="warning" title="Pregnant or nursing">
+        None of the three core supplements have robust human safety data in pregnancy. L-theanine has essentially zero pregnancy-specific research. Do not start this stack if you are pregnant, planning to become pregnant, or breastfeeding without explicit approval from your OB or midwife.
+      </Callout>
+
+      <p>If you&rsquo;re on <em>any</em> daily prescription, bring your full medication list — plus the specific supplements and doses from this protocol — to your provider before starting. For more context on how supplements interact with common medications, see our <a href="/guides/supplement-drug-interactions">supplement drug interactions guide</a>.</p>
+
+      <h3>Dose Reconciliation: Why We Recommend Lower Than the Studies</h3>
+      <p>Sharp-eyed readers will notice a gap: the Abbasi et al. (2012) magnesium study used <strong>500mg elemental magnesium</strong> in elderly insomniacs, yet this protocol recommends 200–400mg. And we cite the tolerable upper intake level (UL) for supplemental magnesium at 350mg. So why recommend up to 400mg, and why not match the study dose? These are fair questions that deserve a transparent answer.</p>
+      <p>First, the study population matters enormously. Abbasi&rsquo;s subjects were elderly, institutionalized, and likely significantly magnesium-depleted — a group with higher baseline deficiency and higher physiological need for repletion. Extrapolating a 500mg dose from depleted 60–80-year-olds to a general adult population isn&rsquo;t good practice. It&rsquo;s the equivalent of using an IV rehydration study in hospitalized patients to set daily water intake for healthy office workers.</p>
+      <p>Second, the UL of 350mg set by the Institute of Medicine refers specifically to <em>supplemental</em> magnesium — not total dietary intake — and is calibrated to the dose at which gastrointestinal side effects (primarily diarrhea) become common across the general population. It&rsquo;s a population-level safety threshold, not a hard toxicity ceiling. Exceeding it modestly and temporarily is not dangerous for most healthy adults, which is why our range extends to 400mg rather than capping at 350mg. But we flag the UL so you can make an informed choice. <EvidenceBadge level="moderate" /></p>
+      <Callout variant="info" title="Practical recommendation">
+        Start at 200mg elemental magnesium glycinate. If you tolerate it well after a week and don&rsquo;t notice sufficient improvement, increase to 300–400mg. Most healthy adults will find their sweet spot in this range without GI issues. If you suspect significant deficiency, see our <a href="/guides/magnesium-deficiency">magnesium deficiency guide</a> — and consider asking your provider about higher repletion doses under supervision.
+      </Callout>
+      <p>The honest takeaway: the 500mg study dose produced real results in a specific clinical population, but conservative dose reconciliation for a general-population protocol means starting lower, titrating based on tolerance, and being upfront about why the numbers don&rsquo;t match 1:1. That&rsquo;s not weakness in the protocol — it&rsquo;s how evidence-based dosing actually works when you&rsquo;re not treating a defined deficiency.</p>
+
+      <h3>How to Take This Stack With Common Medications</h3>
+
+      <p>Sleep supplement medication interactions are a real concern for the large percentage of adults already on a prescription. The good news: the core stack has a relatively mild interaction profile. The bad news: &ldquo;relatively mild&rdquo; still means you need to pay attention to timing and combinations.</p>
+
+      <Callout variant="warning" title="This Is Spacing Guidance, Not Medical Clearance">
+        The information below covers known pharmacokinetic interactions and prudent timing. It does not replace a conversation with your prescriber. Bring your full supplement list — including doses — to your next appointment.
+      </Callout>
+
+      <h3>Thyroid Medications (Levothyroxine, Synthroid)</h3>
+      <p>Magnesium binds to levothyroxine in the gut, reducing its absorption. Evidence suggests this can lower thyroid hormone levels meaningfully (Cs&aacute;ko et al., 2001). <EvidenceBadge level="strong" /> Take your thyroid medication first thing in the morning on an empty stomach, and take magnesium glycinate at bedtime — this creates a natural 12+ hour buffer. No spacing issues with L-theanine or glycine.</p>
+
+      <h3>Blood Pressure Medications</h3>
+      <p>Magnesium has a mild hypotensive effect — roughly 2–5 mmHg systolic in meta-analyses (Zhang et al., 2016). If you&rsquo;re on ACE inhibitors, ARBs, or calcium channel blockers, this could compound the blood-pressure-lowering effect. <EvidenceBadge level="moderate" /> Not dangerous for most people, but worth monitoring. Track your readings for two weeks after starting.</p>
+
+      <h3>SSRIs and SNRIs</h3>
+      <p>L-theanine modulates serotonin and GABA activity. While no serious interactions have been documented in clinical literature, the theoretical overlap with serotonergic medications warrants caution. <EvidenceBadge level="emerging" /> Avoid adding L-theanine to your protocol without discussing it with your prescriber — especially if you&rsquo;re on higher-dose SSRIs or combining multiple serotonergic drugs.</p>
+
+      <h3>Prescription Anxiolytics and Sedatives</h3>
+      <p>Benzodiazepines (lorazepam, clonazepam), Z-drugs (zolpidem), and gabapentinoids all act on GABA pathways. Magnesium modulates GABA receptors. L-theanine promotes GABA activity. Stacking these on top of prescription GABAergic drugs risks excessive CNS depression. <strong>Do not combine without explicit physician guidance.</strong> This is the highest-risk interaction in the entire stack.</p>
+
+      <h3>Antibiotics (Fluoroquinolones, Tetracyclines)</h3>
+      <p>Magnesium chelates these antibiotics the same way it chelates levothyroxine — by binding them in the GI tract. Space magnesium at least 2 hours before or 4–6 hours after your antibiotic dose. Since most people take this stack at bedtime, a morning antibiotic schedule typically solves this automatically. For more on <a href="/guides/magnesium-supplement-guide">magnesium absorption and timing</a>, see our full guide.</p>
+
+      <p>Glycine at 3g has the cleanest interaction profile of the three — no major drug interactions documented at supplemental doses. It&rsquo;s generally the lowest-concern component for medicated users.</p>
+
+      <h2>When Supplements Aren&rsquo;t the Answer: Recognizing Clinical Insomnia</h2>
+
+      <p>If you&rsquo;re wondering whether your sleep problems qualify as <strong>clinical insomnia</strong> rather than &ldquo;okay but not great&rdquo; sleep, there&rsquo;s a straightforward diagnostic heuristic used by sleep medicine physicians. It comes down to three criteria: frequency, duration, and daytime consequences.</p>
+
+      <p>The American Academy of Sleep Medicine (AASM) defines chronic insomnia disorder as difficulty falling asleep, staying asleep, or waking too early on <strong>at least 3 nights per week for 3 months or longer</strong> — despite adequate opportunity to sleep. The critical qualifier most people miss: it must cause <strong>daytime functional impairment</strong>. That means fatigue, mood disturbance, difficulty concentrating, or impaired social/occupational performance. <EvidenceBadge level="strong" /></p>
+
+      <p>If that sounds like you, optimizing your supplement stack is the wrong next step. <strong>Cognitive behavioral therapy for insomnia (CBT-I)</strong> is the first-line treatment recommended by both the AASM and the American College of Physicians, outperforming medication in long-term outcomes (Mitchell et al., 2012; Trauer et al., 2015 meta-analysis showed effect sizes of 0.4–0.7 for sleep efficiency and latency). <EvidenceBadge level="strong" /> Unlike supplements or sedatives, CBT-I addresses the behavioral and cognitive patterns perpetuating the insomnia itself.</p>
+
+      <Callout variant="warning" title="Self-Check: Do You Need a Provider, Not a Supplement?">
+        If sleep difficulties occur 3+ nights per week, have persisted for 3+ months, and you&rsquo;re experiencing daytime fatigue, cognitive fog, or mood changes — this guide isn&rsquo;t enough. Ask your physician about CBT-I or visit the <a href="https://aasm.org/resources/clinicalguidelines/040215.pdf">AASM&rsquo;s patient resources</a> at <strong>sleepeducation.org</strong> for accredited sleep center directories and validated self-assessment tools.
+      </Callout>
+
+      <p>This isn&rsquo;t a disclaimer — it&rsquo;s the single most important distinction in sleep self-improvement. The supplements in this guide target people with suboptimal sleep, not a sleep disorder. Confusing the two means months of tinkering with magnesium doses when you need structured therapy that evidence suggests works better than any compound you can buy.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The core stack in this guide is well-studied in healthy adults, but several populations need clinical input before starting — particularly where evidence is thin, drug interactions are plausible, or the guide's dosing assumptions may not apply.

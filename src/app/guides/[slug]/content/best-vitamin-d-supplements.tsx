@@ -1,6 +1,7 @@
 import {
   TLDRBox,
   Callout,
+  ComparisonTable,
   ProductCallout,
   ProductRow,
   InteractionCard,
@@ -221,6 +222,25 @@ export function BestVitaminD() {
         Here are products that consistently meet the criteria above &mdash; D3
         form, appropriate cofactors, quality delivery format, third-party tested.
       </p>
+
+      <ComparisonTable
+        products={[
+          PRODUCTS["thorne-vitamin-d-k2"],
+          PRODUCTS["thorne-vitamin-d-5000"],
+          PRODUCTS["thorne-vitamin-k"],
+        ]}
+        columns={[
+          { label: "Form", key: "form" },
+          { label: "Dose", key: "dose" },
+          { label: "K2 Included", key: "k2" },
+          { label: "Format", key: "format" },
+        ]}
+        data={{
+          "thorne-vitamin-d-k2": { form: "D3 + MK-7", dose: "1,000 IU + 200mcg K2", k2: "Yes (MK-7)", format: "Liquid drops" },
+          "thorne-vitamin-d-5000": { form: "D3", dose: "5,000 IU", k2: "No (pair separately)", format: "Capsule" },
+          "thorne-vitamin-k": { form: "K2 (MK-4)", dose: "1mg MK-4", k2: "Standalone K", format: "Capsule" },
+        }}
+      />
       <p>
         <strong>Thorne Vitamin D/K2 Liquid</strong> combines D3 with K2 (MK-7) in
         an MCT oil base. Each drop delivers a precise, adjustable dose. NSF
@@ -358,6 +378,88 @@ export function BestVitaminD() {
       <Callout variant="warning" title="Ignoring K2 at higher doses">
         D3 without K2 means more calcium absorbed but less control over where it
         goes. Add K2 (MK-7) at doses above 2,000 IU/day.
+      </Callout>
+
+      <h2>What the Landmark Vitamin D RCTs Actually Show (And What They Don&rsquo;t)</h2>
+
+      <p>The vitamin D RCT evidence is something you should understand before buying any product on this page. Three major trials — each enrolling thousands of participants — tested whether supplementing vitamin D <em>beyond correcting deficiency</em> prevents serious disease. The results were sobering for anyone expecting a miracle pill.</p>
+
+      <p>The <strong>VITAL trial</strong> (Manson et al., 2019, n=25,871) gave healthy adults 2,000 IU/day of D3 for a median of 5.3 years. It found <strong>no significant reduction</strong> in cardiovascular events (HR 0.97) or invasive cancer incidence (HR 0.96). <EvidenceBadge level="strong" /> A secondary analysis did show a 25% reduction in cancer <em>mortality</em> after excluding the first two years, but this was an exploratory finding, not the primary endpoint.</p>
+
+      <p>The <strong>ViDA trial</strong> (Scragg et al., 2017, n=5,110) tested monthly high-dose boluses (100,000 IU) in New Zealand adults and found no reduction in cardiovascular disease. <EvidenceBadge level="strong" /> The <strong>D-HEALTH trial</strong> (Neale et al., 2022, n=21,315) tested 60,000 IU/month for five years in Australian adults aged 60–84 and found no significant reduction in cancer mortality or all-cause mortality. <EvidenceBadge level="strong" /></p>
+
+      <Callout variant="info" title="The critical distinction">
+        Correcting a true deficiency (below 20 ng/mL) has consistent evidence for improving bone health, reducing fracture risk, and resolving symptoms like fatigue and muscle weakness. What these mega-trials tested was different: whether pushing <em>already-sufficient</em> people higher would prevent cardiovascular disease or cancer. That hypothesis has not held up.
+      </Callout>
+
+      <p>This matters for how you read this guide. If you&rsquo;re one of the 42% of American adults who are genuinely deficient, supplementation has clear, well-supported benefits — that&rsquo;s not in question. But if you&rsquo;re already at 30–40 ng/mL and hoping that megadosing to 60+ ng/mL will slash your cancer or heart disease risk, the strongest available evidence doesn&rsquo;t support that expectation. <EvidenceBadge level="strong" /> Dose to sufficiency, retest, and save your money for interventions with better evidence behind them — like the ones covered in our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+
+      <h2>Vitamin D Drug Interactions: Who Should Talk to Their Doctor First</h2>
+
+      <p>Vitamin D drug interactions are underappreciated precisely because vitamin D feels benign. It&rsquo;s an over-the-counter supplement, not a prescription — so most people never think to cross-check it against their medication list. But vitamin D is a fat-soluble hormone precursor that affects calcium metabolism, enzyme activity, and drug absorption. If you take any of the following medication categories, talk to your prescriber before starting or adjusting your dose.</p>
+
+      <h3>Thiazide Diuretics</h3>
+      <p>Thiazides (hydrochlorothiazide, chlorthalidone) reduce calcium excretion through the kidneys. Add supplemental vitamin D — which increases calcium absorption in the gut — and you&rsquo;re pushing calcium levels up from both directions. The result can be <strong>hypercalcemia</strong>, with symptoms ranging from nausea and confusion to kidney stones and cardiac arrhythmias. <EvidenceBadge level="moderate" /> If you&rsquo;re on a thiazide, your provider should monitor serum calcium before and after starting vitamin D.</p>
+
+      <h3>Corticosteroids</h3>
+      <p>Long-term corticosteroid use (prednisone, dexamethasone) depletes vitamin D and accelerates bone loss — meaning you likely <em>need</em> more vitamin D, but corticosteroids also reduce intestinal calcium absorption and alter vitamin D metabolism. The dose that works for someone not on steroids may be inadequate or inappropriate for you. Ask your provider about adjusted dosing and calcium co-monitoring.</p>
+
+      <h3>Orlistat and Cholestyramine</h3>
+      <p>Both orlistat (Alli, Xenical) and bile acid sequestrants like cholestyramine directly interfere with fat absorption — and vitamin D is fat-soluble. Evidence suggests these medications can reduce vitamin D absorption by 30% or more (McDuffie et al., 2002). <EvidenceBadge level="moderate" /> Separate your vitamin D dose from these medications by at least two hours, and discuss whether you need a higher baseline dose with your prescriber.</p>
+
+      <h3>Antiepileptic Drugs</h3>
+      <p>Phenytoin, carbamazepine, and phenobarbital induce hepatic CYP450 enzymes that accelerate the breakdown of 25(OH)D, effectively lowering your circulating vitamin D regardless of intake (Pack &amp; Morrell, 2004). <EvidenceBadge level="moderate" /> If you&rsquo;re on antiepileptics, standard supplementation doses are often insufficient. Your neurologist should be monitoring your 25(OH)D levels and adjusting accordingly.</p>
+
+      <Callout variant="warning" title="Bring your full medication list">
+        Adults over 50 — the demographic most likely to be vitamin D deficient — are also the most likely to be on one or more of these medications. Don&rsquo;t rely on a supplement guide to navigate interactions. Print your supplement list (including doses) and review it with your prescriber or pharmacist.
+      </Callout>
+
+      <h2>Vitamin D During Pregnancy and Breastfeeding</h2>
+
+      <p><strong>Vitamin D during pregnancy</strong> is one of the most under-dosed nutrients in standard prenatal care. Most prenatal vitamins contain just 400–600 IU of D3 — a dose based on decades-old recommendations designed to prevent rickets, not optimize maternal or fetal health. That&rsquo;s a problem, because pregnant women are among the most commonly deficient populations.</p>
+
+      <h3>What the Guidelines Actually Say</h3>
+
+      <p>ACOG (American College of Obstetricians and Gynecologists) considers 1,000–2,000 IU/day safe during pregnancy and sufficient for most women. The Endocrine Society&rsquo;s 2011 guideline (Holick et al.) recommends at least 1,500–2,000 IU/day for pregnant and lactating women to maintain 25(OH)D above 30 ng/mL. <EvidenceBadge level="moderate" /> Some researchers argue these numbers are still too conservative — a large RCT by Hollis et al. (2011, <em>Journal of Bone and Mineral Research</em>) found that 4,000 IU/day was safe throughout pregnancy and more effective at achieving sufficiency than 400 or 2,000 IU, with no adverse events.</p>
+
+      <h3>Why It Matters for Your Baby</h3>
+
+      <p>Vitamin D is critical for fetal skeletal development. Maternal deficiency is associated with reduced neonatal bone mineral content and higher risk of neonatal hypocalcemia. Evidence also suggests links between low maternal D status and increased preeclampsia and gestational diabetes risk, though these associations are still being refined (Aghajafari et al., 2013, <em>BMJ</em>). <EvidenceBadge level="moderate" /></p>
+
+      <p>Breast milk is notoriously low in vitamin D — typically 20–80 IU per liter — regardless of maternal diet. This is why the AAP recommends 400 IU/day supplementation directly to exclusively breastfed infants. However, Hollis et al. (2015, <em>Pediatrics</em>) demonstrated that maternal supplementation of 6,400 IU/day could raise breast milk D content enough to meet infant needs without separate infant drops. <EvidenceBadge level="emerging" /></p>
+
+      <Callout variant="warning" title="Don't Self-Prescribe Here">
+        Dosing above 2,000 IU/day during pregnancy should be guided by your OB, midwife, or healthcare provider based on your 25(OH)D levels. This includes <a href="/guides/best-vitamin-d-supplements">D3/K2 combination products</a> — vitamin K2 safety data in pregnancy is limited. Get your blood levels tested and let your provider set the target.
+      </Callout>
+
+      <p>The takeaway: your prenatal vitamin almost certainly isn&rsquo;t giving you enough vitamin D. A 25(OH)D test in your first trimester — and a conversation with your provider about supplementing 1,000–2,000 IU on top of your prenatal — is one of the simplest interventions available. For general dosing guidance outside of pregnancy, see the dosing ladder above.</p>
+
+      <h2>How to Get a Vitamin D Blood Test (And What to Order)</h2>
+
+      <p>Getting a <strong>vitamin D blood test</strong> is the single most useful thing you can do before choosing a dose — yet most people don&rsquo;t know which test to request or where to get one without a doctor&rsquo;s visit. Here&rsquo;s exactly how to do it.</p>
+
+      <h3>Order the Right Test: 25(OH)D, Not 1,25(OH)&#8322;D</h3>
+
+      <p>The test you want is <strong>25-hydroxyvitamin D</strong>, written as <strong>25(OH)D</strong>. This measures your circulating vitamin D stores and is the standard marker used by the Endocrine Society and virtually every clinical guideline. It reflects what your body has available over the past two to three weeks.</p>
+
+      <p>The test you <em>don&rsquo;t</em> want is <strong>1,25-dihydroxyvitamin D</strong> (1,25(OH)&#8322;D). This is the active hormonal form, tightly regulated by your kidneys, and it can read normal even when you&rsquo;re severely deficient. Ordering the wrong test is surprisingly common — if your provider orders &ldquo;vitamin D&rdquo; without specifying, confirm it&rsquo;s the 25(OH)D version.</p>
+
+      <Callout variant="warning" title="Common ordering mistake">
+        Some labs list 1,25(OH)&#8322;D as &ldquo;Vitamin D, Active&rdquo; or &ldquo;Calcitriol.&rdquo; This test has clinical uses (kidney disease evaluation, for example), but it does not tell you your vitamin D status. Always verify the order says 25(OH)D or 25-hydroxyvitamin D.
+      </Callout>
+
+      <h3>Where to Order Without a Doctor&rsquo;s Visit</h3>
+
+      <p><strong>Ulta Lab Tests</strong> and <strong>Walk-In Lab</strong> let you order a 25(OH)D test directly for roughly $30–$50. You pay online, visit a local LabCorp or Quest draw site, and get results in one to three business days — no prescription needed in most states.</p>
+
+      <p><strong>At-home finger-prick kits</strong> from companies like Everlywell (~$50–$60) skip the blood draw entirely. You collect a small sample at home and mail it in. Accuracy is reasonable for screening purposes, though a venous blood draw remains the gold standard. If your finger-prick result is borderline, consider confirming with a lab draw.</p>
+
+      <h3>How to Read Your Results</h3>
+
+      <p>Your report will show a number in <strong>ng/mL</strong> (U.S. labs) or <strong>nmol/L</strong> (international labs; divide by 2.5 to convert to ng/mL). Reference ranges vary by lab, but the clinical consensus from our <a href="/guides/best-vitamin-d-supplements">dosing section above</a> applies: below 20 ng/mL is deficient, 20–30 is insufficient, and 30–50 is where most guidelines want you. Test in <strong>late winter</strong> (February or March) to catch your lowest point rather than your summer peak.</p>
+
+      <Callout variant="info" title="Testing cadence">
+        Retest 10–12 weeks after starting or changing your dose. Once you&rsquo;re stable in the 30–50 ng/mL range, an annual late-winter check is usually enough to confirm your maintenance dose is working.
       </Callout>
 
       <h2>Who Should Talk to a Doctor First</h2>
