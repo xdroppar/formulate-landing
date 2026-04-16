@@ -86,15 +86,63 @@ export default async function PairPage({ params }: { params: Params }) {
     headline: found
       ? `${aName} and ${bName}: ${found.summary}`
       : `${aName} and ${bName} Interaction`,
-    author: { "@type": "Organization", name: "Formulate" },
+    author: { "@type": "Organization", name: "Formulate Team", url: BASE },
     publisher: {
       "@type": "Organization",
       name: "Formulate",
       url: BASE,
+      logo: { "@type": "ImageObject", url: `${BASE}/logo.png`, width: 512, height: 512 },
     },
     url,
     mainEntityOfPage: url,
   };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: "Interactions", item: `${BASE}/interactions` },
+      { "@type": "ListItem", position: 3, name: `${aName} and ${bName}`, item: url },
+    ],
+  };
+
+  const faqLd = found
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `Can I take ${aName.toLowerCase()} and ${bName.toLowerCase()} together?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${found.summary}. ${found.recommendation}`,
+            },
+          },
+          ...(found.timing_advice
+            ? [
+                {
+                  "@type": "Question",
+                  name: `How should I time ${aName.toLowerCase()} and ${bName.toLowerCase()}?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: found.timing_advice,
+                  },
+                },
+              ]
+            : []),
+          {
+            "@type": "Question",
+            name: `Is the ${aName.toLowerCase()} and ${bName.toLowerCase()} interaction dangerous?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `This interaction is rated "${SEVERITY_META[found.severity].label}" by Formulate. ${found.details}`,
+            },
+          },
+        ],
+      }
+    : null;
 
   return (
     <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
@@ -102,6 +150,16 @@ export default async function PairPage({ params }: { params: Params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <nav className="text-sm text-muted mb-6" aria-label="Breadcrumb">
         <Link href="/interactions" className="hover:text-text transition-colors">
@@ -134,6 +192,42 @@ export default async function PairPage({ params }: { params: Params }) {
         <div className="mb-10">
           <InteractionCard interaction={found} defaultOpen />
         </div>
+      )}
+
+      {found && (
+        <section className="mb-10">
+          <h2 className="text-lg font-bold text-text mb-4">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-sm font-semibold text-text mb-1">
+                Can I take {aName.toLowerCase()} and {bName.toLowerCase()} together?
+              </h3>
+              <p className="text-sm text-muted leading-relaxed">
+                {found.summary}. {found.recommendation}
+              </p>
+            </div>
+            {found.timing_advice && (
+              <div>
+                <h3 className="text-sm font-semibold text-text mb-1">
+                  How should I time {aName.toLowerCase()} and {bName.toLowerCase()}?
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  {found.timing_advice}
+                </p>
+              </div>
+            )}
+            <div>
+              <h3 className="text-sm font-semibold text-text mb-1">
+                Is this interaction dangerous?
+              </h3>
+              <p className="text-sm text-muted leading-relaxed">
+                This interaction is rated &ldquo;{SEVERITY_META[found.severity].label}&rdquo; by Formulate. {found.details}
+              </p>
+            </div>
+          </div>
+        </section>
       )}
 
       <section className="rounded-2xl border border-border bg-card/30 p-6">

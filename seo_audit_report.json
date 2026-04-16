@@ -169,7 +169,7 @@
     "slug": "best-creatine-supplements",
     "title": "Best Creatine Supplements 2026, Ranked by Evidence",
     "category": "roundup",
-    "word_count": 5220,
+    "word_count": 5241,
     "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.5,
@@ -185,7 +185,7 @@
     "slug": "nac-guide",
     "title": "NAC Supplement Guide 2026 | Evidence-Based Overview",
     "category": "guide",
-    "word_count": 4145,
+    "word_count": 4191,
     "intent_fit": 4.5,
     "monetization": 5,
     "structure": 4.5,
@@ -221,7 +221,7 @@
     "slug": "nootropics-guide",
     "title": "Nootropics Guide 2026: Ranked by Clinical Evidence",
     "category": "guide",
-    "word_count": 4717,
+    "word_count": 4754,
     "intent_fit": 4.5,
     "monetization": 5,
     "structure": 4.5,
@@ -325,7 +325,7 @@
     "slug": "berberine-guide",
     "title": "Berberine 2026: Blood Sugar Benefits, Clinical Evidence",
     "category": "guide",
-    "word_count": 4691,
+    "word_count": 4713,
     "intent_fit": 3.0,
     "monetization": 4.9,
     "structure": 4.5,
@@ -445,7 +445,7 @@
     "slug": "lions-mane-guide",
     "title": "Lion\\u2019s Mane Mushroom: Evidence-Based Guide 2026",
     "category": "guide",
-    "word_count": 4743,
+    "word_count": 4779,
     "intent_fit": 4.5,
     "monetization": 4.9,
     "structure": 4.5,
@@ -479,7 +479,7 @@
     "slug": "berberine-vs-metformin",
     "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
     "category": "review",
-    "word_count": 4175,
+    "word_count": 4198,
     "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.0,
@@ -620,7 +620,7 @@
     "slug": "creatine-for-endurance-athletes",
     "title": "Creatine for Endurance Athletes: The Overlooked Performance Tool",
     "category": "guide",
-    "word_count": 4320,
+    "word_count": 4342,
     "intent_fit": 3.0,
     "monetization": 5,
     "structure": 4.5,
@@ -631,6 +631,43 @@
     "engagement": 5,
     "notes": [],
     "total": 34.7
+  },
+  {
+    "slug": "best-supplements-for-runners",
+    "title": "Best Supplements for Runners: What Actually Helps Endurance",
+    "category": "roundup",
+    "word_count": 2931,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 4.5,
+    "unique_value": 4.0,
+    "internal_linking": 5,
+    "actionability": 4.5,
+    "trust": 4.6,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions"
+    ],
+    "total": 34.2
+  },
+  {
+    "slug": "best-supplements-for-perimenopause",
+    "title": "Best Supplements for Perimenopause: The Pre-Menopause Protocol",
+    "category": "roundup",
+    "word_count": 2569,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 4.5,
+    "unique_value": 4.7,
+    "internal_linking": 5,
+    "actionability": 4.0,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 34)"
+    ],
+    "total": 33.9
   },
   {
     "slug": "zinc-for-immune-support",
@@ -647,6 +684,25 @@
     "engagement": 5,
     "notes": [],
     "total": 33.9
+  },
+  {
+    "slug": "best-supplements-for-pcos",
+    "title": "Best Supplements for PCOS: Evidence-Based Stack (2026)",
+    "category": "roundup",
+    "word_count": 2433,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 4.5,
+    "unique_value": 4.2,
+    "internal_linking": 5,
+    "actionability": 4.5,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 32)"
+    ],
+    "total": 33.6
   },
   {
     "slug": "creatine-and-hair-loss",
@@ -683,6 +739,44 @@
     "total": 33.0
   },
   {
+    "slug": "best-supplements-for-menopause",
+    "title": "Best Supplements for Menopause: What Actually Works",
+    "category": "roundup",
+    "word_count": 2733,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 4.0,
+    "unique_value": 4.9,
+    "internal_linking": 5,
+    "actionability": 3.3,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 35)"
+    ],
+    "total": 32.9
+  },
+  {
+    "slug": "best-supplements-for-adhd-focus",
+    "title": "Best Supplements for ADHD and Focus: Evidence-Based Stack",
+    "category": "roundup",
+    "word_count": 2515,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 3.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 3.4,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 36)"
+    ],
+    "total": 32.6
+  },
+  {
     "slug": "vitamin-d3-vs-d2",
     "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
     "category": "review",
@@ -715,6 +809,25 @@
     "engagement": 5,
     "notes": [],
     "total": 32.4
+  },
+  {
+    "slug": "best-supplements-for-fatty-liver",
+    "title": "Best Supplements for Fatty Liver (NAFLD): What the Evidence Shows",
+    "category": "roundup",
+    "word_count": 2619,
+    "intent_fit": 2.5,
+    "monetization": 4.1,
+    "structure": 3.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 3.2,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [
+      "transactional title but few product mentions",
+      "low readability (Flesch 35)"
+    ],
+    "total": 32.1
   },
   {
     "slug": "protein-intake-muscle-after-40",
