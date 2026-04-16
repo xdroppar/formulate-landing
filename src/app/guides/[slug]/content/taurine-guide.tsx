@@ -131,7 +131,7 @@ export function TaurineGuide() {
         </li>
         <li>
           In monkeys, taurine supplementation improved body weight, bone
-          density, fasting glucose, and markers of liver and immune
+          density, <a href="/guides/berberine-guide">fasting glucose</a>, and markers of liver and immune
           function.
         </li>
         <li>
@@ -280,7 +280,7 @@ export function TaurineGuide() {
       <ul>
         <li>
           <strong>General health dose:</strong> 1&ndash;3g per day. This
-          range covers cardiovascular benefits, antioxidant support, and
+          range covers cardiovascular benefits, <a href="/guides/nac-guide">antioxidant support</a>, and
           basic replenishment of declining levels.
         </li>
         <li>

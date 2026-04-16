@@ -463,6 +463,88 @@ export function HowToReadSupplementLabel() {
         ]}
       />
 
+      <h2>Drug-Supplement Interactions: The Step Nobody Mentions</h2>
+
+<p>Checking for <strong>drug-supplement interactions</strong> should happen before you buy anything — not after you've been taking it for three months. This is the most consequential step in reading a supplement label, and almost no one does it. The label itself won't warn you. The cashier won't warn you. You have to check proactively.</p>
+
+<p>Here are the interactions that send people to the ER or silently undermine their medications:</p>
+
+<p><strong>Fish oil + anticoagulants (warfarin, apixaban, aspirin):</strong> Omega-3s at supplemental doses (above ~2,000 mg EPA+DHA) can potentiate antiplatelet effects, increasing bleeding risk. A 2018 review by Begtrup et al. in the <em>Danish Medical Journal</em> confirmed clinically relevant prolongation of bleeding time at higher doses. <EvidenceBadge level="moderate" /></p>
+
+<p><strong>Vitamin K + warfarin:</strong> Vitamin K directly opposes warfarin's mechanism. Even modest fluctuations in K1 intake — from a new multivitamin or switching greens powders — can destabilize your INR. This isn't subtle; it's pharmacological antagonism.</p>
+
+<p><strong>Magnesium + antibiotics/bisphosphonates:</strong> Magnesium chelates tetracyclines, fluoroquinolones, and bisphosphonates like alendronate, dramatically reducing their absorption. If you take these, separate dosing by at least 2–4 hours. Your <a href="/guides/magnesium-deficiency">magnesium form</a> won't fix this — the mineral itself is the problem.</p>
+
+<p><strong>St. John's Wort + SSRIs, statins, and birth control:</strong> St. John's Wort induces CYP3A4 and P-glycoprotein, accelerating the metabolism of dozens of drugs. Combined with SSRIs, it risks serotonin syndrome. It can reduce oral contraceptive efficacy enough to cause unintended pregnancy and cut statin blood levels by up to 50% (Markowitz et al., 2003). <EvidenceBadge level="strong" /></p>
+
+<Callout variant="warning" title="Non-negotiable rule">
+If you take any daily prescription medication, bring your full supplement list to your pharmacist before adding anything new. Pharmacists have drug-interaction databases that go far beyond what any label or Google search can tell you. This is free, takes five minutes, and could prevent a hospitalization.
+</Callout>
+
+      <h2>How to Find a Product's Certificate of Analysis (COA)</h2>
+
+<p>A <strong>certificate of analysis</strong> is the actual lab report behind any quality claim a supplement brand makes. It's the document that shows whether the product was tested for potency, contaminants, and microbial safety — and what the results were. Without verifying the COA, you're taking the brand's word for everything. Here's how to actually find and read one.</p>
+
+<h3>Step 1: Check the Brand's Website</h3>
+
+<p>Most transparent brands host COAs on their product pages — look for links labeled "Lab Results," "Testing," "Transparency," or "COA." Some use QR codes on the physical bottle that link to batch-specific reports. If you can't find one after 60 seconds of looking, email their support team and ask directly. A company that won't produce a COA on request is a company you should skip.</p>
+
+<h3>Step 2: Know What You're Reading</h3>
+
+<p>A legitimate COA includes three critical panels. <strong>Potency verification</strong> confirms the product contains the amount of each active ingredient claimed on the label — look for results within 90–110% of the stated dose. The <strong>heavy metals panel</strong> tests for lead, arsenic, mercury, and cadmium, with results reported in parts per million (ppm). California's Prop 65 thresholds (e.g., 0.5 mcg/day lead) are a useful reference point. <strong>Microbial testing</strong> checks for yeast, mold, E. coli, and salmonella — results should read "not detected" or fall below USP limits.</p>
+
+<Callout variant="info" title="Red flags on a COA">Watch for COAs missing the name of the independent lab, a batch or lot number, or a testing date. A COA without these is essentially a self-reported claim in a fancier format. The testing lab should be ISO 17025 accredited.</Callout>
+
+<h3>Step 3: Verify Certifications Are Real</h3>
+
+<p>A <a href="/guides/third-party-testing-supplements">third-party certification</a> logo on a bottle means nothing until you confirm it in the certifier's own database. Brands have been caught printing USP and NSF logos without authorization. Verify directly:</p>
+
+<p><strong>USP:</strong> Search the <a href="/guides/usp-verified-supplements">USP Verified database</a> at verify.usp.org — enter the brand or product name. If it's not listed, the seal is fraudulent. <strong>NSF Certified for Sport:</strong> Use nsfsport.com and search by product or brand. Every certified product and specific SKU is listed. <strong>Informed Sport:</strong> Search at informed-sport.com by product name or batch number.</p>
+
+<Callout variant="warning" title="Logos aren't proof">A 2018 analysis by the Clean Label Project found significant discrepancies between marketing claims and actual contaminant levels in products that lacked verifiable third-party certification. Always cross-reference the logo against the certifier's live database — not the brand's own claims page.</Callout>
+
+<p>This takes about two minutes per product. Do it once when you first buy a supplement, and you'll know whether you're dealing with a brand that backs up its label — or one that's hoping you never check. <EvidenceBadge level="moderate" /></p>
+
+      <h2>Calculating Elemental Mineral Content from a Label</h2>
+
+<p>Knowing how to calculate <strong>elemental mineral content</strong> from a supplement label is what separates informed buyers from everyone else. When a label says "magnesium glycinate 500mg," that 500mg is the weight of the entire compound — the magnesium atom bonded to glycine molecules. The actual magnesium you absorb is a fraction of that number.</p>
+
+<p>Every mineral compound has a fixed elemental percentage based on its molecular weight. Here are the most common forms you'll encounter:</p>
+
+<p><strong>Magnesium:</strong> Glycinate ~14.1% elemental, citrate ~16.2%, oxide ~60.3%, taurate ~8.9%, threonate ~7.2%, malate ~15.5%. <strong>Zinc:</strong> Gluconate ~14.3%, picolinate ~21%, citrate ~34%, oxide ~80%. <strong>Calcium:</strong> Carbonate ~40%, citrate ~21%, gluconate ~9.3%. <strong>Iron:</strong> Bisglycinate ~20%, sulfate ~20%, fumarate ~33%.</p>
+
+<Callout variant="info" title="Worked Example: Magnesium Glycinate">
+A label lists "Magnesium (as Magnesium Bisglycinate) 500mg" under the compound weight with no separate elemental line. Multiply: 500mg x 0.141 = <strong>70.5mg elemental magnesium</strong>. To hit a 300mg daily target, you'd need roughly 4–5 capsules — not the one or two you assumed.
+</Callout>
+
+<p>Notice something counterintuitive: magnesium oxide has the <em>highest</em> elemental percentage (~60%), which is why cheap products love it. But as covered in <a href="/guides/magnesium-deficiency">our magnesium guide</a>, oxide absorbs at roughly 4% in the gut (Firoz &amp; Graber, 2001), so the high elemental number is misleading. You want to weigh elemental content <em>and</em> bioavailability together.</p>
+
+<Callout variant="warning" title="Check Whether the Label Already Did the Math">
+Some brands list elemental mineral content directly — you'll see "Magnesium (as Magnesium Glycinate) 200mg" where the 200mg <em>is</em> the elemental amount. Look for the word "elemental" or check if the number matches the Daily Value percentage. If 200mg shows 48% DV for magnesium (DV = 420mg), that's elemental. If it showed 500mg at 48% DV, that would be the compound weight mislabeled — a red flag.
+</Callout>
+
+<p>The formula is simple: <strong>compound weight x elemental percentage = elemental dose</strong>. Bookmark the percentages above and you'll never overpay for a mineral supplement that looks generous on the label but delivers a fraction of what you need.</p>
+
+      <h2>Special Considerations: Pregnancy, Medications, and Age</h2>
+
+<p>Reading supplement labels requires extra scrutiny if you're pregnant, taking prescription medications, or over 65. The general dose ranges and forms discussed throughout this guide assume a healthy adult baseline — and that baseline shifts meaningfully for these three groups.</p>
+
+<h3>Pregnant or Trying to Conceive</h3>
+
+<p>Preformed vitamin A (retinol) is teratogenic above roughly 10,000 IU/day, and some standalone vitamin A supplements hit that in a single capsule. When scanning a <strong>supplement label during pregnancy</strong>, verify the vitamin A source — beta-carotene is safer than retinyl palmitate. Iron, folate (as <a href="/guides/methylfolate-vs-folic-acid">methylfolate, not folic acid</a>), iodine, and choline all have pregnancy-specific targets that differ from standard DVs. Consult your OB or midwife before relying on any doses listed in general guides like this one.</p>
+
+<h3>Anyone on Daily Prescriptions</h3>
+
+<p>Supplement-drug interactions are more common than most people realize. <EvidenceBadge level="moderate" /> Fish oil and vitamin E potentiate blood thinners. Calcium and iron interfere with levothyroxine absorption when taken within four hours. St. John's Wort reduces the efficacy of oral contraceptives, SSRIs, and immunosuppressants. No supplement label is required to list these interactions. Bring your full supplement list — including anything you're considering — to your prescriber before adding a new product.</p>
+
+<Callout variant="warning" title="Your pharmacist is underused">
+Pharmacists can screen for supplement-drug interactions in minutes and don't require an appointment. This is one of the fastest, free safety checks available to you.
+</Callout>
+
+<h3>Adults 65 and Older</h3>
+
+<p>Age-related declines in stomach acid (hypochlorhydria affects an estimated 10–30% of older adults) reduce absorption of <a href="/guides/vitamin-b12-supplement">vitamin B12</a> and calcium from food. The crystalline B12 in supplements bypasses this issue, but dose targets shift — many clinicians recommend 500–1,000 mcg/day of methylcobalamin rather than the standard 2.4 mcg RDA designed for younger adults with normal absorption. Vitamin D requirements also trend higher; the Endocrine Society has suggested 1,500–2,000 IU/day for adults over 65, above the general 600 IU RDA. Meanwhile, higher medication burden in this age group multiplies interaction risk. Every new supplement deserves a conversation with your provider.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         This guide is written for generally healthy adults evaluating supplement labels. Several populations face specific risks — from drug interactions to altered absorption to dosing thresholds that differ from the general ranges listed above — and should get clinical input before acting on any of this.

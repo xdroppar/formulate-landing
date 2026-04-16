@@ -318,6 +318,26 @@ export function HowToBuildStack() {
 
       <h3>Ignoring Interactions and Redundancy</h3>
 
+<p>Supplement interactions can quietly undermine your stack. Two well-researched compounds that each work in isolation may compete for absorption or accumulate to risky levels when combined carelessly. Redundancy — paying twice for the same nutrient without realizing it — is equally common and equally wasteful.</p>
+
+<h3>Absorption Competition</h3>
+
+<p><strong>Zinc and copper</strong> compete for the same intestinal transporter (DMT1). Supplementing zinc above 40mg/day without copper can induce copper deficiency over time — a finding documented by Prasad (2013) and reflected in the tolerable upper intake set by the Institute of Medicine. If your stack includes standalone zinc, look for a product that includes 1–2mg copper, or separate dosing by several hours. <EvidenceBadge level="moderate" /></p>
+
+<p><strong>Calcium and iron</strong> inhibit each other's absorption when taken together. Hallberg (1991) showed that 300mg calcium reduced iron absorption by up to 50–60% in a single meal. If you need both — common for women — take them at least two hours apart. Our <a href="/guides/supplement-timing">supplement timing guide</a> covers the practical scheduling.</p>
+
+<h3>Fat-Soluble Vitamin Accumulation</h3>
+
+<p>Vitamins A, D, E, and K are stored in body fat and liver tissue, not excreted in urine like B vitamins. Stacking multiple products that each contain fat-soluble vitamins — a multivitamin, a standalone D3 capsule, a greens powder with added vitamin A — can push your total intake well past safe levels without you noticing. Chronic vitamin A intake above 10,000 IU/day is associated with liver toxicity and increased fracture risk (Penniston &amp; Tanumihardjo, 2006). <EvidenceBadge level="strong" /></p>
+
+<Callout variant="warning" title="The Multivitamin Overlap Trap">If you take a multivitamin <em>and</em> standalone vitamin D3, magnesium, or B-complex, you are almost certainly double-dosing. A typical multi already contains 1,000–2,000 IU of D3 and 50–100mg of magnesium. Add your standalone D3 (another 5,000 IU) and you may be at 7,000 IU daily — fine for someone with tested deficiency, potentially excessive for someone who isn't tracking totals. Pull out every bottle, sum up overlapping ingredients, and compare against your targets. Our <a href="/guides/multivitamin">multivitamin guide</a> helps you decide whether a multi even belongs in your stack.</Callout>
+
+<h3>Run This Quick Audit Against Your Stack</h3>
+
+<p><strong>1. List every product you take and write out every ingredient with its dose</strong> — including what's buried in blends, greens powders, and protein powders. <strong>2. Sum the totals for each overlapping nutrient</strong> (vitamin D, magnesium, zinc, B12, and vitamin A are the most common culprits). <strong>3. Flag any pair with known absorption competition</strong> — zinc/copper, calcium/iron, calcium/zinc — and separate them by at least two hours. <strong>4. Check your total fat-soluble vitamin intake</strong> (A, D, E, K) against established upper limits. <strong>5. Eliminate pure redundancy</strong> — if your multi already delivers 100% DV of B12, the standalone B12 is wasted money unless bloodwork says otherwise.</p>
+
+<p>This five-minute audit catches the most expensive and most common stacking errors. If you want it automated, the Formulate app flags ingredient overlap and interaction issues across your entire stack in seconds.</p>
+
       <InteractionGroup title="Common stacking mistakes">
         <InteractionCard
           type="conflict"
@@ -467,6 +487,48 @@ export function HowToBuildStack() {
           PRODUCTS["thorne-creatine"],
         ]}
       />
+
+      <h2>Drug–Supplement Interactions: What to Check Before You Start</h2>
+
+<p><strong>Drug–supplement interactions</strong> are the most under-checked risk in stack building. If you take any prescription medication, certain supplements in this guide require timing adjustments, dose changes, or outright avoidance. The table below covers the six most common prescription classes paired with specific supplements recommended above.</p>
+
+<h3>High-Risk Interactions You Need to Know</h3>
+
+<p><strong>Warfarin and other blood thinners + Vitamin K2:</strong> K2 directly opposes warfarin's mechanism of action by activating clotting factors. Even the 100–200mcg MK-7 dose recommended in Step 2 can destabilize your INR. <strong>Action: avoid K2 unless your prescriber explicitly monitors and adjusts your warfarin dose around it.</strong> The same caution applies to high-dose omega-3 — a 2019 review (Begtrup et al.) found EPA/DHA above 2,000mg/day measurably increased bleeding time. At the 1,000–2,000mg range in this guide the risk is lower, but consult your prescriber before starting. <EvidenceBadge level="strong" /></p>
+
+<p><strong>Statins + CoQ10:</strong> Statins inhibit the mevalonate pathway, which your body also uses to produce CoQ10. Evidence suggests supplemental CoQ10 (100–200mg) may reduce statin-associated muscle symptoms — a 2018 meta-analysis (Qu et al., <em>Atherosclerosis</em>) found modest but significant reductions in myalgia scores. <strong>Action: CoQ10 is safe to add alongside statins, but inform your prescriber.</strong> <EvidenceBadge level="moderate" /></p>
+
+<p><strong>Levothyroxine (thyroid meds) + Magnesium, Calcium, Iron:</strong> All three minerals bind levothyroxine in the gut, reducing absorption by up to 40–50% (Zamfirescu &amp; Carlson, 2011). <strong>Action: take levothyroxine on an empty stomach at least 4 hours before any mineral supplement.</strong> This is non-negotiable — it's one of the most clinically significant timing interactions in supplementation. <EvidenceBadge level="strong" /></p>
+
+<p><strong>SSRIs/SNRIs + Omega-3 and L-Theanine:</strong> High-dose omega-3 has mild serotonergic activity and could theoretically compound SSRI effects, though clinically significant serotonin syndrome from fish oil alone is not well-documented. L-theanine modulates GABA and glutamate but has no reported dangerous SSRI interactions at 200mg. <strong>Action: generally safe at guide doses, but mention both to your prescriber.</strong> <EvidenceBadge level="emerging" /></p>
+
+<p><strong>Metformin + B12:</strong> Long-term metformin use reduces B12 absorption in 10–30% of users (Aroda et al., 2016, <em>Journal of Clinical Endocrinology &amp; Metabolism</em>). <strong>Action: if you're on metformin, get B12 and MMA tested annually and supplement if levels drop.</strong> Magnesium is also worth monitoring since metformin may increase urinary magnesium loss. <EvidenceBadge level="moderate" /></p>
+
+<p><strong>Oral contraceptives + Magnesium and B vitamins:</strong> OCs can deplete magnesium, B6, B12, and folate over time (Palmery et al., 2013). The foundation stack's magnesium already partially addresses this. <strong>Action: no conflicts — supplementation is actually more important if you're on OCs.</strong> <EvidenceBadge level="moderate" /></p>
+
+<Callout variant="warning" title="Bring Your Full List">
+Print or screenshot your complete supplement list — including doses and forms — and bring it to your prescriber or pharmacist before starting. Interactions depend on specific doses, and your provider can't catch what they don't know about. This applies even to supplements marked "generally safe" above.
+</Callout>
+
+<p>For detailed timing strategies that help you separate competing supplements, see our <a href="/guides/supplement-timing">supplement timing guide</a>. If you're on a statin and considering the longevity tier, our <a href="/guides/beginner-longevity-stack">longevity stack guide</a> addresses CoQ10 dosing in more detail.</p>
+
+      <h2>Evidence Tier Labels: How to Read Supplement Claims Critically</h2>
+
+<p>Learning how to read supplement claims critically is the single most important skill for building a stack that actually works. Not all evidence is created equal, and this guide deliberately recommends compounds with vastly different levels of research support. The tier system below lets you calibrate your confidence — and your willingness to spend money — accordingly.</p>
+
+<h3>The Three Tiers</h3>
+
+<p><strong>Tier 1 — Strong evidence.</strong> <EvidenceBadge level="strong" /> Multiple large RCTs (10+), systematic reviews, or meta-analyses in humans. Effects are reproducible and clinically meaningful. Examples in this guide: <strong>creatine monohydrate</strong> (500+ studies), <strong>vitamin D3</strong>, <strong>omega-3 EPA/DHA</strong>, <strong>magnesium</strong>. When you see Tier 1, the question isn't <em>whether</em> it works — it's whether <em>you</em> specifically need it.</p>
+
+<p><strong>Tier 2 — Moderate evidence.</strong> <EvidenceBadge level="moderate" /> Several small-to-mid-sized RCTs with generally positive but not fully consistent results. Mechanisms are well-understood, but optimal dosing or long-term outcomes may still be unsettled. Examples: <strong>ashwagandha</strong> (Chandrasekhar 2012; Salve 2019), <strong>L-citrulline</strong>, <strong>L-theanine</strong>. Reasonable to try if your foundation is covered, but set realistic expectations.</p>
+
+<p><strong>Tier 3 — Emerging evidence.</strong> <EvidenceBadge level="emerging" /> Primarily observational data, animal models, in vitro studies, or a handful of small human trials. The biological rationale may be compelling, but human-grade proof is thin. Examples: <strong>lion's mane</strong> (Mori 2009 — one 30-person RCT is the most cited), <strong>NMN/NR</strong>, <strong>quercetin as a senolytic</strong>. These are speculative bets, not proven interventions.</p>
+
+<Callout variant="warning" title="Why this matters for your wallet">
+Tier 3 supplements tend to be the most expensive per month and the least likely to produce noticeable results. Before spending $40–$60/month on NMN, make sure you've already covered your $15/month vitamin D deficiency. Evidence tiers map directly to ROI — the strongest evidence almost always comes from the cheapest compounds.
+</Callout>
+
+<p>Throughout this guide, every recommendation carries an implicit tier. When the <a href="/guides/beginner-longevity-stack">longevity stack guide</a> discusses quercetin alongside CoQ10, those are not equivalent bets. When the cognitive section lists creatine next to lion's mane, the gap in evidence is enormous. Use the tiers to decide where you spend first — and where you experiment only after the basics are locked in.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>

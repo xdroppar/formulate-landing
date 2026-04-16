@@ -450,6 +450,24 @@ export function BestOmega3() {
 
       <p>The bottom line for supplement buyers: no over-the-counter fish oil has been tested at REDUCE-IT doses in a pivotal trial. VITAL&rsquo;s modest dose — closer to what you&rsquo;d actually take from a supplement — showed no broad cardiovascular benefit. Claims that a fish oil supplement is &ldquo;clinically proven&rdquo; to prevent heart disease are, at best, an oversimplification. For context on how <a href="/guides/omega-3-dosing-guide">omega-3 dosing maps to specific outcomes</a>, the dose-response section above breaks this down further.</p>
 
+      <h2>Budget-Friendly Options: Getting Quality Omega-3 Without the Premium Price</h2>
+
+<p><strong>Budget-friendly omega-3 supplements</strong> don't have to mean sacrificing quality — but you do need to understand one trade-off. The products above all use triglyceride (TG) form, which Dyerberg et al. (2010) showed absorbs roughly 70% better than ethyl ester (EE). Most budget fish oils use EE form. That's a real disadvantage — unless you take them with a high-fat meal.</p>
+
+<p>A 2010 study by Lawson and Hughes in <em>Journal of Clinical Lipidology</em> found that EE-form omega-3 absorption increased dramatically — up to 3x — when consumed with a fat-rich meal, narrowing the gap with TG form considerably. If you're disciplined about always pairing your fish oil with eggs, avocado, or another fat source, EE-form supplements become a legitimate option.</p>
+
+<h3>Two Budget Options Worth Considering</h3>
+
+<p><strong>Kirkland Signature Fish Oil</strong> (Costco) carries IFOS five-star certification, which means it's independently verified for potency, oxidation, and contaminant levels — the same standard premium brands tout. It's EE form, delivering roughly 684mg combined EPA + DHA per two-softgel serving at a fraction of the cost of TG-form concentrates.</p>
+
+<p><strong>Nature Made Fish Oil</strong> is USP-verified and widely available, though its per-serving EPA + DHA concentration is lower, so you'll need more capsules to hit clinical thresholds.</p>
+
+<h3>The Cost-Per-Milligram Framework</h3>
+
+<p>Stop comparing price per bottle. Instead, calculate <strong>cost per 1,000mg of combined EPA + DHA</strong>: divide the bottle price by total servings, then divide again by the combined EPA + DHA per serving in grams. This normalizes across concentrations and serving sizes. A cheap bottle with 300mg EPA + DHA per capsule often costs <em>more</em> per effective milligram than a concentrated product at twice the sticker price.</p>
+
+<Callout variant="info" title="Budget Rule of Thumb">EE-form fish oil with IFOS certification, taken consistently with a fat-containing meal, delivers solid value. You're trading convenience and some absorption efficiency for significant savings — often 50–70% less per milligram than premium TG-form options.</Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Omega-3 supplementation is well-studied in healthy adults at standard doses, but several populations face specific risks or evidence gaps that warrant clinical input before starting — or before changing a dose.

@@ -325,6 +325,96 @@ export function BestPreWorkoutProtocol() {
         ]}
       />
 
+      <h2>The Protocol: Full Stack at a Glance (Timing Table)</h2>
+
+<p>Here's your complete <strong>pre-workout supplement protocol</strong> in one reference table. Screenshot it, print it, save it to your phone — this is the "just tell me what to do" version of everything covered above.</p>
+
+<div className="overflow-x-auto">
+<table className="w-full text-left border-collapse">
+<thead>
+<tr>
+<th className="border-b-2 border-gray-300 p-2">Ingredient</th>
+<th className="border-b-2 border-gray-300 p-2">Dose</th>
+<th className="border-b-2 border-gray-300 p-2">When to Take</th>
+<th className="border-b-2 border-gray-300 p-2">Rest Days?</th>
+<th className="border-b-2 border-gray-300 p-2">~Cost/Dose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td className="border-b border-gray-200 p-2"><strong>Creatine Monohydrate</strong></td>
+<td className="border-b border-gray-200 p-2">5 g</td>
+<td className="border-b border-gray-200 p-2">Any time (chronic loading)</td>
+<td className="border-b border-gray-200 p-2">Yes — daily</td>
+<td className="border-b border-gray-200 p-2">$0.05–$0.10</td>
+</tr>
+<tr>
+<td className="border-b border-gray-200 p-2"><strong>L-Citrulline</strong></td>
+<td className="border-b border-gray-200 p-2">6–8 g</td>
+<td className="border-b border-gray-200 p-2">30–60 min pre-training</td>
+<td className="border-b border-gray-200 p-2">No</td>
+<td className="border-b border-gray-200 p-2">$0.15–$0.25</td>
+</tr>
+<tr>
+<td className="border-b border-gray-200 p-2"><strong>Beta-Alanine</strong></td>
+<td className="border-b border-gray-200 p-2">3.2–6.4 g</td>
+<td className="border-b border-gray-200 p-2">Any time (chronic loading)</td>
+<td className="border-b border-gray-200 p-2">Yes — daily</td>
+<td className="border-b border-gray-200 p-2">$0.08–$0.15</td>
+</tr>
+<tr>
+<td className="border-b border-gray-200 p-2"><strong>Caffeine</strong></td>
+<td className="border-b border-gray-200 p-2">3–6 mg/kg BW</td>
+<td className="border-b border-gray-200 p-2">30 min pre-training</td>
+<td className="border-b border-gray-200 p-2">No (or at baseline intake)</td>
+<td className="border-b border-gray-200 p-2">$0.02–$0.08</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>Total cost per training day: roughly $0.30–$0.58.</strong> On rest days you're only taking creatine and beta-alanine, so about $0.13–$0.25. Compare that to $1.50–$2.50 per scoop for a branded pre-workout that likely underdoses at least two of these ingredients.</p>
+
+<Callout variant="info" title="Timing shortcut">
+Mix citrulline and caffeine together in water 30–60 minutes before you train. Toss creatine and beta-alanine into the same glass or take them separately at any point during the day — their benefits come from daily saturation, not acute timing. See our <a href="/guides/supplement-timing-guide">supplement timing guide</a> for more detail.
+</Callout>
+
+<p>If you train in the evening and need to protect sleep, drop the caffeine entirely. The remaining three ingredients carry independent, well-documented benefits — you're not gutting the protocol, you're just removing the stimulant. Our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a> covers how to manage that tradeoff.</p>
+
+      <h2>Who Should NOT Use This Stack (Contraindications)</h2>
+
+<p>Pre-workout supplement contraindications exist for good reason — several ingredients in this protocol interact with medical conditions and medications in ways that go beyond "check with your doctor" boilerplate. If you fall into any of these categories, you need to modify or skip specific components entirely.</p>
+
+<h3>Pregnant or Nursing Women</h3>
+<p>The American College of Obstetricians and Gynecologists recommends capping caffeine at 200mg/day during pregnancy. The performance doses in this protocol (210–420mg) exceed that ceiling outright. Beyond caffeine, safety data for supplemental L-citrulline, beta-alanine, and beetroot extract during pregnancy and lactation is essentially nonexistent — not "probably fine," but unstudied. <strong>Consult your OB-GYN before using any component of this stack.</strong></p>
+
+<h3>People on Antihypertensives or Nitrates</h3>
+<p>Both citrulline and beetroot powder lower blood pressure through nitric oxide–mediated vasodilation. If you're taking ACE inhibitors, ARBs, calcium channel blockers, or especially nitrate medications (nitroglycerin, isosorbide), stacking additional NO precursors risks symptomatic hypotension — dizziness, fainting, or worse. <strong>Talk to your prescribing physician before adding either ingredient.</strong> This is not theoretical; the vasodilatory mechanisms are well-established. <EvidenceBadge level="strong" /></p>
+
+<Callout variant="warning" title="Cardiac Arrhythmia History">Caffeine at 3–6mg/kg increases catecholamine release and can provoke atrial fibrillation, SVT, or ectopic beats in susceptible individuals. If you have a history of arrhythmia or are on antiarrhythmic medication, caffeine at performance doses is a specific risk — not a vague one. Discuss any stimulant use with your cardiologist.</Callout>
+
+<h3>Adolescents Under 18</h3>
+<p>None of the performance dosing in this protocol has been validated in minors. Caffeine at 3–6mg/kg poses cardiovascular and neurodevelopmental concerns in adolescents, and the long-term effects of chronic beta-alanine and citrulline supplementation in developing bodies are simply unknown. The <a href="/guides/best-pre-workout-supplement-protocol">full protocol</a> is designed for healthy adults.</p>
+
+<h3>Anxiety Disorders</h3>
+<p>Caffeine is a well-documented anxiogenic at the doses discussed here. A 2022 review by Temple et al. in <em>Frontiers in Psychiatry</em> confirmed dose-dependent increases in anxiety symptoms, particularly in individuals with generalized anxiety or panic disorder. If you're on SSRIs, SNRIs, or benzodiazepines, adding 200–400mg of caffeine complicates the picture considerably. You can still use citrulline, creatine, and beta-alanine — just drop the caffeine or work with your provider on a tolerable dose.</p>
+
+<Callout variant="info" title="Bring Your Full List">Print or screenshot every supplement you're taking — and considering — and bring it to your next provider visit. Interactions between supplements and medications are underreported precisely because patients don't disclose them. Your doctor can't flag a problem they don't know about.</Callout>
+
+      <h2>If You Can Only Start With One Ingredient</h2>
+
+<p>If you can only start with one ingredient, make it creatine monohydrate. It has the largest effect size of any sports supplement ever studied, costs roughly $0.05–$0.10 per day at the full 5g dose, and requires zero timing precision — take it whenever you remember. <EvidenceBadge level="strong" /> A 2003 meta-analysis by Branch found creatine increased strength performance by roughly 8% and power output by 14% across 96 studies. No other legal supplement comes close to that magnitude.</p>
+
+<p>Once creatine is locked in, add <strong>caffeine</strong> — but only if you tolerate it well. It's the strongest acute performance enhancer in this stack, and you already know if your body handles it (you drink coffee or you don't). A 200mg caffeine tablet costs less than a cent. If you're caffeine-sensitive or train at night, skip it entirely and move to step three.</p>
+
+<p>Third priority: <strong>L-citrulline</strong>. The blood flow and endurance-to-failure benefits are meaningful, especially for higher-rep training. But at 6–8g per session, the powder goes faster and costs more than creatine. It's worth adding once your budget stabilizes.</p>
+
+<p>Last: <strong>beta-alanine</strong>. The Hobson et al. (2012) meta-analysis showed a real but modest ~2.85% improvement in exercise capacity for efforts lasting 60–240 seconds. That's statistically significant but the smallest effect size of the four. It also takes 3–4 weeks of daily loading before you see anything. If you're on a tight budget, this is the one that can wait.</p>
+
+<Callout variant="info" title="The priority order">
+<strong>Creatine → Caffeine → Citrulline → Beta-Alanine.</strong> Start with creatine alone for a month. You'll spend under $3 total, build the daily habit, and see real strength gains before adding complexity. Each subsequent ingredient is additive — none of them depend on the others to work.
+</Callout>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         The four core ingredients in this protocol are well-studied in healthy adults, but several populations face specific risks that the general dosing guidance above doesn't cover. If any of the following apply to you, get clinical input before starting.

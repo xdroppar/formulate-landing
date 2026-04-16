@@ -37,7 +37,7 @@ export function VitaminB12Guide() {
         role in two critical processes: <strong>DNA synthesis</strong> and{" "}
         <strong>nervous system maintenance</strong>. Every cell in your body
         needs it for proper division, which is why deficiency hits fast-dividing
-        cells first &mdash; blood cells, gut lining, and nerve sheaths.
+        cells first &mdash; blood cells, <a href="/guides/what-to-look-for-in-a-probiotic">gut lining</a>, and nerve sheaths.
       </p>
       <p>
         Specifically, B12 serves as a cofactor for two enzymes:

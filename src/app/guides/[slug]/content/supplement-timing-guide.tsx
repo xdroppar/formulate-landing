@@ -468,6 +468,155 @@ export function SupplementTimingGuide() {
         time of day.
       </p>
 
+      <h2>Supplement Timing for Intermittent Fasting (IF) Protocols</h2>
+
+<p>Knowing <strong>when to take supplements while intermittent fasting</strong> matters more than it does on a standard eating schedule. A 16:8 protocol (eating noon–8pm) eliminates the morning meal that most timing advice is built around. That means your fat-soluble vitamins, mineral pairings, and calming evening stack all need to be reshuffled into a compressed window — or carefully selected for fasted-state use.</p>
+
+<h3>What You Can Take Fasted (During the Morning Fast)</h3>
+
+<p>Water-soluble supplements that don't require fat or food for absorption are generally fine on an empty stomach. This includes <strong>B-complex vitamins</strong> (which you'd want in the morning anyway for their mild stimulating effect), <strong>vitamin C</strong>, <strong>L-tyrosine</strong>, and <strong>caffeine</strong>. Creatine dissolves in water and doesn't need food — take it whenever you'll remember.</p>
+
+<p><strong>Iron</strong> actually benefits from a fasted state, since food reduces its absorption. If you're supplementing iron (with documented deficiency), the fasting window is ideal. Pair it with vitamin C and wait 30 minutes before coffee.</p>
+
+<Callout variant="warning" title="The Fat-Soluble Vitamin Problem">
+Vitamins A, D, E, K, omega-3s, and CoQ10 all require dietary fat for absorption. Taking them during your fasted morning window means you're wasting roughly half the dose — the same 50% absorption penalty described in <a href="/guides/supplement-timing-guide">the fat-soluble vitamins rule above</a>. These <em>must</em> wait for your eating window. No exceptions, no matter how inconvenient.
+</Callout>
+
+<h3>Restructuring Your Stack for 16:8</h3>
+
+<p>Move your entire fat-soluble stack to your <strong>first meal</strong> (noon, or whenever you break fast). That's your D3+K2, fish oil, CoQ10, and any fat-soluble nootropics. Eat something with actual fat — not just a protein shake.</p>
+
+<p>Your <strong>evening stack</strong> stays largely unchanged. <a href="/guides/supplement-timing-guide">Magnesium glycinate</a>, L-theanine, and glycine don't require food and work well taken 30–60 minutes before bed, even outside the eating window. Calcium, if you take it, fits best with your last meal.</p>
+
+<p>The real risk with intermittent fasting isn't poor timing — it's cramming everything into one meal. Mineral competition (calcium vs. iron, zinc vs. calcium) still applies. <EvidenceBadge level="moderate" /> Separate competing minerals by at least two hours within your eating window, or assign them to different meals.</p>
+
+<Callout variant="info" title="Practical IF Timing Template">
+<strong>Fasted morning:</strong> Iron + vitamin C, B-complex, creatine, caffeine.<br />
+<strong>First meal (noon):</strong> D3+K2, omega-3, CoQ10 — all with fat-containing food. Zinc if you take it.<br />
+<strong>Last meal (~7–8pm):</strong> Calcium (separated from iron/zinc by hours).<br />
+<strong>Before bed:</strong> Magnesium glycinate, L-theanine, glycine.
+</Callout>
+
+      <h2>The Recommended Forms Reference Table</h2>
+
+<p>The bioavailability section above raises a critical question it doesn't fully answer: which <strong>recommended forms of supplements</strong> should you actually buy? Below is a scannable reference covering the six supplements most affected by form choice. This isn't exhaustive — it's the short list where form meaningfully changes what you absorb.</p>
+
+<div className="overflow-x-auto">
+<table className="w-full text-sm border-collapse">
+<thead>
+<tr className="border-b-2 border-gray-300">
+<th className="text-left p-2">Supplement</th>
+<th className="text-left p-2">Preferred Form</th>
+<th className="text-left p-2">Why</th>
+<th className="text-left p-2">When the Cheaper Form Is Fine</th>
+</tr>
+</thead>
+<tbody>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Magnesium</td>
+<td className="p-2">Glycinate (bisglycinate)</td>
+<td className="p-2">Superior absorption, minimal GI distress, glycine itself supports sleep</td>
+<td className="p-2">Magnesium oxide is acceptable if you need a laxative effect or can't afford glycinate — you'll just absorb roughly 4% vs ~24% (Firoz &amp; Graber, 2001)</td>
+</tr>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Vitamin B12</td>
+<td className="p-2">Methylcobalamin</td>
+<td className="p-2">Already in its active coenzyme form — no conversion step required</td>
+<td className="p-2">Cyanocobalamin is fine for most people. It's more shelf-stable, cheaper, and converts readily unless you have MTHFR polymorphisms or impaired methylation</td>
+</tr>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Folate</td>
+<td className="p-2">L-methylfolate (5-MTHF)</td>
+<td className="p-2">Bypasses MTHFR enzyme entirely — roughly 40–60% of people carry variants reducing folic acid conversion (Wilcken et al., 2003)</td>
+<td className="p-2">Folic acid is acceptable if you've confirmed normal MTHFR status or are taking standard prenatal doses under provider guidance</td>
+</tr>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Iron</td>
+<td className="p-2">Iron bisglycinate (Ferrochel)</td>
+<td className="p-2">Comparable absorption to ferrous sulfate at lower doses, with significantly fewer GI side effects (Milman et al., 2014)</td>
+<td className="p-2">Ferrous sulfate remains the clinical standard when cost is a barrier or deficiency is severe — pair with vitamin C and tolerate the gut complaints</td>
+</tr>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Curcumin</td>
+<td className="p-2">Lipid-formulated (Meriva, Longvida, or Theracurmin)</td>
+<td className="p-2">Plasma bioavailability 29–185x higher than standard curcumin depending on formulation (Jamwal, 2018)</td>
+<td className="p-2">Standard curcumin + piperine (BioPerine) is the budget option — piperine boosts bioavailability ~2,000% (Shoba et al., 1998), though that's still far less than lipid systems</td>
+</tr>
+<tr className="border-b border-gray-200">
+<td className="p-2 font-medium">Vitamin D</td>
+<td className="p-2">D3 (cholecalciferol)</td>
+<td className="p-2">Raises and sustains serum 25(OH)D more effectively than D2 — a meta-analysis by Tripkovic et al. (2012) confirmed D3's superiority <EvidenceBadge level="strong" /></td>
+<td className="p-2">D2 (ergocalciferol) works if you need a vegan source, but you may need higher or more frequent dosing to maintain equivalent levels</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<Callout variant="info" title="Form doesn't override timing">
+The best-absorbed recommended forms of supplements still follow the same rules from this guide. Magnesium glycinate still belongs in the evening. Vitamin D3 still needs dietary fat. Iron bisglycinate still competes with calcium. Form improves <em>how much</em> you absorb — <a href="/guides/supplement-timing-guide">timing determines <em>whether</em> you absorb it</a>.
+</Callout>
+
+<Callout variant="warning" title="MTHFR and form selection">
+If you suspect methylation issues (family history, elevated homocysteine), choosing methylcobalamin and L-methylfolate over their cheaper counterparts is more than optimization — it may be clinically relevant. Consult your healthcare provider for testing before assuming you need the premium forms.
+</Callout>
+
+      <h2>Supplement Timing When You're On Medications: The Non-Negotiable Interactions</h2>
+
+<p>Supplement timing when you're on medications isn't about optimization — it's about whether your drug works or whether you end up in the ER. The interactions below are well-documented and clinically significant. If you're on any of these medications, these spacing rules are non-negotiable.</p>
+
+<Callout variant="warning" title="This Is Not Optional">
+The timing windows below are based on pharmacokinetic data, not guesswork. But they don't replace your prescriber. Bring your full supplement list — including doses and forms — to your next appointment. Some of these interactions are dose-dependent, and your situation may require tighter restrictions than a general guide can provide.
+</Callout>
+
+<h3>Levothyroxine + Calcium, Iron, or Magnesium</h3>
+<p>Calcium, iron, and magnesium all form insoluble complexes with levothyroxine in your gut, dramatically reducing absorption. A study by Singh et al. (2000) in <em>The American Journal of Medicine</em> showed calcium carbonate reduced levothyroxine absorption enough to cause clinical hypothyroidism in previously stable patients. <strong>Spacing rule: take levothyroxine on an empty stomach, then wait at least 4 hours before calcium, iron, or magnesium.</strong> Many endocrinologists recommend taking levothyroxine immediately upon waking, then delaying all supplements until lunch or later. <EvidenceBadge level="strong" /></p>
+
+<h3>Warfarin + Vitamin K</h3>
+<p>This isn't a timing issue — it's a consistency issue. Vitamin K directly opposes warfarin's mechanism (inhibiting vitamin K-dependent clotting factors). Sudden increases in vitamin K intake — from supplements or from dramatically increasing leafy green consumption — can destabilize your INR and raise clotting risk. <strong>Rule: don't start, stop, or change the dose of any vitamin K supplement without telling your prescriber.</strong> If you already take a stable daily dose of K2 for bone health, your warfarin dose was likely calibrated around it. Changing either without medical oversight is dangerous. <EvidenceBadge level="strong" /></p>
+
+<h3>SSRIs/SNRIs + 5-HTP or St. John's Wort</h3>
+<p>5-HTP is a direct serotonin precursor. Combining it with SSRIs, SNRIs, or MAOIs risks serotonin syndrome — a potentially fatal condition involving agitation, hyperthermia, and neuromuscular instability (Boyer &amp; Shannon, 2005). <strong>Rule: no timing window makes this safe. Do not combine 5-HTP or St. John's Wort with serotonergic medications without explicit approval from your prescriber.</strong> St. John's Wort also induces CYP3A4 enzymes, reducing the effectiveness of dozens of drugs including oral contraceptives and immunosuppressants. <EvidenceBadge level="strong" /></p>
+
+<h3>Statins + CoQ10</h3>
+<p>Statins inhibit HMG-CoA reductase, which sits upstream of both cholesterol and CoQ10 synthesis. Evidence suggests statins can reduce plasma CoQ10 levels by 16–54% (Littarru &amp; Langsjoen, 2007). Many statin users supplement CoQ10 to address muscle-related side effects, though trial results on myalgia are mixed. <strong>Timing rule: take CoQ10 (ubiquinol form preferred) with a fat-containing meal. No specific separation from the statin is needed</strong> — they don't compete for absorption. <EvidenceBadge level="moderate" /></p>
+
+<h3>Metformin + Vitamin B12</h3>
+<p>Long-term metformin use impairs B12 absorption by interfering with the calcium-dependent B12-intrinsic factor complex in the ileum. A landmark trial by de Jager et al. (2010) in the <em>BMJ</em> found that metformin users had a 19% reduction in B12 levels over 4.3 years. <strong>Rule: if you've been on metformin for more than a year, get your B12 levels tested.</strong> Supplementing with methylcobalamin is reasonable, and taking it at a separate meal from metformin — ideally 2+ hours apart — may modestly improve uptake, though the evidence on spacing specifically is limited. <EvidenceBadge level="moderate" /></p>
+
+<h3>Blood Pressure Medications + Potassium or Magnesium</h3>
+<p>ACE inhibitors and potassium-sparing diuretics (like spironolactone) already raise serum potassium. Adding supplemental potassium on top risks hyperkalemia — a cardiac emergency. <strong>Rule: do not supplement potassium if you're on ACE inhibitors, ARBs, or potassium-sparing diuretics without lab monitoring.</strong> Magnesium supplements can also potentiate the blood pressure-lowering effect of antihypertensives, so start low and monitor. <EvidenceBadge level="strong" /></p>
+
+<h3>Antibiotics (Tetracyclines/Fluoroquinolones) + Minerals</h3>
+<p>Calcium, magnesium, iron, and zinc all chelate tetracycline-class and fluoroquinolone antibiotics, rendering them ineffective. This is one of the most clinically consequential supplement-drug interactions and one of the most commonly ignored. <strong>Rule: separate these minerals from ciprofloxacin, doxycycline, or similar antibiotics by at least 2 hours before or 6 hours after the antibiotic dose.</strong> When in doubt, skip the mineral supplement entirely for the duration of the course. <EvidenceBadge level="strong" /></p>
+
+<Callout variant="info" title="The Practical Takeaway">
+Build your supplement schedule around your medication times, not the other way around. Write down your medication timing first, then slot supplements into the gaps. If spacing gets impossible — say you're on levothyroxine in the morning and an antibiotic twice daily — your pharmacist can help you map a realistic schedule. That conversation takes 10 minutes and it's free.
+</Callout>
+
+      <h2>Individual Variation: Why Your Timing May Differ (Genetics, Age, Health Status)</h2>
+
+<p>Individual variation in supplement timing isn't a minor footnote — it's the reason universal schedules fail for a significant chunk of people. Your genetics, age, medication use, and health status can shift the "right" time to take something by hours, or change whether a standard form even works for you at all.</p>
+
+<h3>Caffeine Metabolism: CYP1A2 and Your Cutoff Time</h3>
+
+<p>The CYP1A2 gene determines how quickly you clear caffeine. About 50% of people carry the "slow metabolizer" variant (Sachse et al., 1999), meaning caffeine's half-life can stretch to 9+ hours instead of the typical 5–6. <EvidenceBadge level="strong" /> If you follow this guide's advice to cut caffeine 6–8 hours before bed and still sleep poorly, slow CYP1A2 metabolism is the likely culprit. Oral contraceptives and pregnancy further slow clearance — sometimes doubling the half-life. Adjust your pre-workout timing accordingly, or switch to a non-stimulant stack.</p>
+
+<h3>MTHFR and Folate Form</h3>
+
+<p>Roughly 10–15% of certain populations are homozygous for the MTHFR C677T variant, substantially reducing their ability to convert folic acid to its active form, L-methylfolate (Weisberg et al., 1998). <EvidenceBadge level="moderate" /> For these individuals, timing folic acid perfectly is beside the point — the <em>form</em> matters more. If you've been supplementing folic acid without results, an <a href="/guides/b-vitamins-guide">active folate (5-MTHF)</a> may be worth discussing with your provider.</p>
+
+<h3>Older Adults: Gastric Acid and B12</h3>
+
+<p>By age 60, an estimated 10–30% of adults have significantly reduced stomach acid production (atrophic gastritis), which impairs liberation of protein-bound B12 from food and standard supplements (Allen, 2009). <EvidenceBadge level="strong" /> Sublingual methylcobalamin or high-dose oral cyanocobalamin (1,000 mcg+) can bypass this bottleneck. Timing B12 with meals won't help much if your stomach acid isn't doing its job in the first place.</p>
+
+<h3>Pregnancy: When Standard Rules Don't Apply</h3>
+
+<Callout variant="warning" title="Pregnancy changes everything">
+Caffeine clearance roughly doubles in duration during pregnancy. Iron requirements increase substantially, but so does nausea — making empty-stomach iron dosing impractical for many. Folate form and dose become clinically critical. Do not adapt this guide's general timing recommendations for prenatal use without direct input from your healthcare provider.
+</Callout>
+
+<p>The common thread across all of these: if the "standard" timing protocol isn't producing results — or is producing side effects — your biology may be the variable, not your discipline. Genetic testing for CYP1A2 and MTHFR is inexpensive and increasingly accessible, and a conversation with your pharmacist about age-related absorption changes takes ten minutes.</p>
+
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
         Most supplement timing advice in this guide assumes a healthy adult with no chronic conditions and no prescription medications. If any of the following apply to you, get clinical input before building or changing your stack.

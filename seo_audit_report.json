@@ -1,5 +1,21 @@
 [
   {
+    "slug": "best-omega-3-supplements",
+    "title": "Best Omega-3 Supplements 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 3339,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 4.8,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 39.3
+  },
+  {
     "slug": "ashwagandha-guide",
     "title": "Ashwagandha Guide 2026: Clinical Evidence Reviewed",
     "category": "guide",
@@ -14,6 +30,24 @@
     "engagement": 5,
     "notes": [],
     "total": 38.7
+  },
+  {
+    "slug": "best-magnesium-supplements",
+    "title": "Best Magnesium Supplements 2026, Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 3489,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.7,
+    "internal_linking": 5,
+    "actionability": 4.9,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "few study references"
+    ],
+    "total": 38.1
   },
   {
     "slug": "vitamin-b12-guide",
@@ -52,6 +86,22 @@
     "total": 37.9
   },
   {
+    "slug": "best-vitamin-d-supplements",
+    "title": "Best Vitamin D Supplements 2026: Ranked by Clinical Evidence",
+    "category": "roundup",
+    "word_count": 3626,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 3.3,
+    "internal_linking": 5,
+    "actionability": 5,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 37.8
+  },
+  {
     "slug": "iron-guide",
     "title": "Iron Supplements Guide 2026: Evidence-Based & Ranked",
     "category": "guide",
@@ -86,6 +136,24 @@
       "low readability (Flesch 31)"
     ],
     "total": 37.4
+  },
+  {
+    "slug": "best-sleep-supplement-protocol",
+    "title": "Best Sleep Supplement Protocol 2026: Clinical Evidence Stack",
+    "category": "protocol",
+    "word_count": 3443,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 3.5,
+    "unique_value": 4.9,
+    "internal_linking": 5,
+    "actionability": 3.9,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 38)"
+    ],
+    "total": 37.3
   },
   {
     "slug": "zinc-guide",
@@ -140,22 +208,20 @@
     "total": 36.9
   },
   {
-    "slug": "best-omega-3-supplements",
-    "title": "Best Omega-3 Supplements 2026, Ranked by Clinical Evidence",
+    "slug": "best-creatine-supplements",
+    "title": "Best Creatine Supplements 2026, Ranked by Evidence",
     "category": "roundup",
-    "word_count": 1942,
+    "word_count": 3185,
     "intent_fit": 5.0,
     "monetization": 5,
     "structure": 4.5,
-    "unique_value": 3.7,
-    "internal_linking": 4.8,
-    "actionability": 4.3,
-    "trust": 3.9,
+    "unique_value": 3.3,
+    "internal_linking": 5,
+    "actionability": 3.5,
+    "trust": 5,
     "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 36.2
+    "notes": [],
+    "total": 36.3
   },
   {
     "slug": "sarcopenia-reverse-muscle-loss",
@@ -172,58 +238,6 @@
     "engagement": 4.9,
     "notes": [],
     "total": 36.2
-  },
-  {
-    "slug": "best-sleep-supplement-protocol",
-    "title": "Best Sleep Supplement Protocol 2026: Clinical Evidence Stack",
-    "category": "protocol",
-    "word_count": 2041,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 3.5,
-    "unique_value": 4.6,
-    "internal_linking": 5,
-    "actionability": 3.3,
-    "trust": 4.7,
-    "engagement": 5,
-    "notes": [],
-    "total": 36.1
-  },
-  {
-    "slug": "best-magnesium-supplements",
-    "title": "Best Magnesium Supplements 2026, Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 1951,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.7,
-    "internal_linking": 5,
-    "actionability": 4.1,
-    "trust": 3.6,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 35.9
-  },
-  {
-    "slug": "best-vitamin-d-supplements",
-    "title": "Best Vitamin D Supplements 2026: Ranked by Clinical Evidence",
-    "category": "roundup",
-    "word_count": 2052,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 5,
-    "unique_value": 2.5,
-    "internal_linking": 4.8,
-    "actionability": 5,
-    "trust": 3.6,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 35.9
   },
   {
     "slug": "signs-you-are-magnesium-deficient",
@@ -344,22 +358,6 @@
     "engagement": 5,
     "notes": [],
     "total": 34.9
-  },
-  {
-    "slug": "best-creatine-supplements",
-    "title": "Best Creatine Supplements 2026, Ranked by Evidence",
-    "category": "roundup",
-    "word_count": 1796,
-    "intent_fit": 5.0,
-    "monetization": 5,
-    "structure": 4.0,
-    "unique_value": 2.9,
-    "internal_linking": 5,
-    "actionability": 3.4,
-    "trust": 4.5,
-    "engagement": 5,
-    "notes": [],
-    "total": 34.8
   },
   {
     "slug": "how-to-read-a-supplement-label",

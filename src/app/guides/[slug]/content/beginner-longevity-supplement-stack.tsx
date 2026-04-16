@@ -47,7 +47,7 @@ export function BeginnerLongevityStack() {
       <p>
         Longevity is fundamentally hard to study. You can&rsquo;t run a
         30-year RCT and wait to see who dies later. So the field relies on
-        proxy biomarkers: cardiovascular risk factors, insulin sensitivity,
+        proxy biomarkers: cardiovascular risk factors, <a href="/guides/berberine-guide">insulin sensitivity</a>,
         inflammatory markers, and more recently, biological aging clocks.
       </p>
       <p>
@@ -244,7 +244,7 @@ export function BeginnerLongevityStack() {
       <p>
         CoQ10 is essential for mitochondrial electron transport &mdash;
         literally the process that generates cellular energy. It&rsquo;s also
-        one of the body&rsquo;s most important lipid-soluble antioxidants.
+        one of the body&rsquo;s most important lipid-soluble <a href="/guides/nac-guide">antioxidants</a>.
         Natural levels decline with age, and statins (taken by 25% of
         adults over 40) further deplete them.
       </p>

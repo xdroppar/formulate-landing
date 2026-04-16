@@ -258,7 +258,7 @@ export function BestSleepProtocol() {
         and neuroprotective effects &mdash; a completely separate use case
         from sleep onset. A 2023 review in <em>Antioxidants</em> highlighted
         melatonin&rsquo;s ability to neutralize free radicals, reduce
-        oxidative stress, and support mitochondrial function at
+        <a href="/guides/nac-guide">oxidative stress</a>, and support mitochondrial function at
         pharmacological doses. <EvidenceBadge level="emerging" /> Some longevity-focused practitioners
         deliberately megadose melatonin for these properties.
       </p>

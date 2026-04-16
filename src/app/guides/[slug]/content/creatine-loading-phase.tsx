@@ -303,7 +303,7 @@ export function CreatineLoadingPhase() {
       </p>
       <p>
         You don&rsquo;t need to force-drink gallons. Just ensure you&rsquo;re
-        hitting reasonable hydration &mdash; roughly 0.5&ndash;1 oz per pound
+        hitting reasonable <a href="/guides/electrolytes-guide">hydration</a> &mdash; roughly 0.5&ndash;1 oz per pound
         of body weight daily. If your urine is pale yellow, you&rsquo;re
         fine.
       </p>

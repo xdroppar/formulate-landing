@@ -211,8 +211,8 @@ export function BerberineGuide() {
         <li>
           <strong>Starting dose:</strong> 500mg once daily with your largest
           meal for the first 1&ndash;2 weeks. GI side effects are common
-          when starting at full dose &mdash; ramping up gives your gut
-          microbiome time to adapt.
+          when starting at full dose &mdash; ramping up gives your <a href="/guides/what-to-look-for-in-a-probiotic">gut
+          microbiome</a> time to adapt.
         </li>
         <li>
           <strong>Why with meals:</strong> berberine works partly by slowing
