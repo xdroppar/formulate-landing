@@ -50,7 +50,7 @@ export function BestSupplementsForPcos() {
       </p>
 
       <p>
-        A meta-analysis by Unfer et al. (2017) pooling data from multiple RCTs found that myo-inositol significantly improved insulin sensitivity, restored ovulation, and regularized menstrual cycles in PCOS patients. <EvidenceBadge level="strong" /> The effect size on insulin resistance was comparable to metformin in several head-to-head trials, with fewer gastrointestinal side effects.
+        A meta-analysis by Unfer et al. (2017) pooling data from multiple RCTs found that myo-inositol significantly improved insulin sensitivity, restored ovulation, and regularized menstrual cycles in PCOS patients. <EvidenceBadge level="moderate" /> (Disclosure: Unfer is a co-inventor on inositol patents and co-founder of Lo.Li Pharma, a major inositol manufacturer. His findings are broadly corroborated by independent reviews &mdash; e.g., Pundir et al., 2018 in the Cochrane Database &mdash; but readers should weigh the primary author&rsquo;s commercial interest.) Several small head-to-head trials (Raffone et al. 2010, n=120; Fruzzetti et al. 2012, n=50) suggest insulin-sensitizing effects in a similar range to metformin, though these studies were not powered to confirm equivalence. The GI side effect profile is consistently better than metformin across trials.
       </p>
 
       <Callout variant="evidence" title="Dosing: Inositol">
@@ -85,6 +85,8 @@ export function BestSupplementsForPcos() {
         NAC is particularly worth considering if you have elevated CRP (a marker of inflammation) alongside your PCOS diagnosis, or if oxidative stress markers are high. It&rsquo;s also one of the better-tolerated insulin-sensitizing options.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-nac"]} />
+
       <h2>Vitamin D: The Frequently-Missed Deficiency</h2>
 
       <p>
@@ -103,6 +105,8 @@ export function BestSupplementsForPcos() {
         Take vitamin D with a fat-containing meal for absorption. D3 (cholecalciferol) is preferred over D2 (ergocalciferol) for raising and maintaining serum levels.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-5000"]} />
+
       <h2>Magnesium for Insulin Sensitivity + Mood</h2>
 
       <p>
@@ -119,6 +123,8 @@ export function BestSupplementsForPcos() {
         <strong>Timing:</strong> Evening dosing may support sleep<br />
         <strong>Caution:</strong> Citrate forms can cause loose stools at higher doses
       </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h2>Omega-3 for Androgen and Lipid Control</h2>
 
@@ -140,7 +146,7 @@ export function BestSupplementsForPcos() {
       <h2>Berberine: Metformin Alternative (With Caveats)</h2>
 
       <p>
-        Berberine activates AMPK, the same metabolic pathway targeted by metformin. In PCOS, it reduces fasting blood glucose, lowers insulin levels, and improves lipid profiles. Wei et al. (2012) found berberine comparable to metformin for reducing waist circumference and improving insulin resistance in PCOS patients over 3 months. <EvidenceBadge level="moderate" /> For a detailed comparison, see our <a href="/guides/berberine-vs-metformin">berberine vs metformin</a> deep dive.
+        Berberine activates AMPK, the same metabolic pathway targeted by metformin. In PCOS, it reduces fasting blood glucose, lowers insulin levels, and improves lipid profiles. Wei et al. (2012), a single small RCT (n=89) in a Chinese cohort, found berberine showed similar improvements to metformin for waist circumference and insulin resistance over 3 months. <EvidenceBadge level="emerging" /> The result is promising but needs replication in larger, more diverse populations before drawing strong equivalence claims. For a detailed comparison, see our <a href="/guides/berberine-vs-metformin">berberine vs metformin</a> deep dive.
       </p>
 
       <Callout variant="warning" title="Do Not Combine With Metformin Without Medical Supervision">
@@ -150,6 +156,8 @@ export function BestSupplementsForPcos() {
       <p>
         Berberine is best suited for insulin-resistant PCOS patients who can&rsquo;t tolerate metformin&rsquo;s GI side effects, or who prefer a non-pharmaceutical approach and aren&rsquo;t currently on blood-sugar-lowering medication. Our <a href="/guides/berberine-guide">berberine guide</a> covers forms, timing, and drug interactions in detail.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-berberine"]} />
 
       <Callout variant="evidence" title="Dosing: Berberine">
         <strong>Dose:</strong> 500 mg three times daily (1,500 mg total), with meals<br />

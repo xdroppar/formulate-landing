@@ -71,6 +71,8 @@ export function BestSupplementsForRunners() {
       <p>
         Female runners, vegetarian/vegan runners, and those training at altitude are at the highest risk. If you&rsquo;ve noticed declining performance despite consistent training, iron should be one of the first things you check.
       </p>
+      <p>If your labs confirm low ferritin, Thorne&rsquo;s Iron Bisglycinate is a well-absorbed chelated form that&rsquo;s easier on the stomach than ferrous sulfate:</p>
+      <ProductCallout product={PRODUCTS["thorne-iron-bisglycinate"]} />
 
       <h2>Electrolytes: Beyond the Sports Drink Aisle</h2>
 
@@ -85,6 +87,8 @@ export function BestSupplementsForRunners() {
       <p>
         For a deeper look at choosing the right electrolyte product, check our <a href="/guides/electrolytes-guide">electrolytes guide</a>. The key takeaway: match your electrolyte intake to your sweat rate and conditions, not to a marketing label.
       </p>
+      <p>Thorne&rsquo;s Daily Electrolytes provide a sodium-forward formula with no added sugar, designed for real training conditions:</p>
+      <ProductCallout product={PRODUCTS["thorne-daily-electrolytes"]} />
 
       <h2>Creatine Is for Runners Too</h2>
 
@@ -103,6 +107,8 @@ export function BestSupplementsForRunners() {
       <p>
         For product comparisons and dosing details, see our guides on <a href="/guides/best-creatine-supplements">best creatine supplements</a> and <a href="/guides/creatine-for-endurance-athletes">creatine for endurance athletes</a>.
       </p>
+      <p>Thorne&rsquo;s Creatine is NSF Certified for Sport and delivers pure creatine monohydrate with no fillers:</p>
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
 
       <h2>Beta-Alanine for Pace Work</h2>
 
@@ -163,6 +169,7 @@ export function BestSupplementsForRunners() {
       <p>
         <strong>Omega-3 fatty acids</strong> (EPA/DHA, 1&ndash;2 g combined per day) reduce systemic inflammation, support cardiovascular health, and may decrease delayed-onset muscle soreness. Philpott et al. (2019) found reduced markers of exercise-induced muscle damage with regular EPA/DHA supplementation. <EvidenceBadge level="moderate" /> For product recommendations, see our <a href="/guides/best-omega-3-supplements">best omega-3 supplements</a> guide.
       </p>
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <p>
         <strong>Vitamin D</strong> directly affects bone mineral density and stress fracture risk &mdash; a career-threatening injury for serious runners. Ruohola et al. (2006) found that military recruits with serum 25(OH)D below 30 nmol/L had significantly higher stress fracture rates. <EvidenceBadge level="moderate" /> Get your levels checked. If below 30 ng/mL (75 nmol/L), supplementation with 1,000&ndash;4,000 IU/day is typical, but dosing should be guided by bloodwork.
@@ -201,7 +208,7 @@ export function BestSupplementsForRunners() {
         <li><strong>Creatine monohydrate:</strong> 3&ndash;5 g with any meal</li>
         <li><strong>Omega-3 (EPA+DHA):</strong> 1&ndash;2 g combined, with food</li>
         <li><strong>Vitamin D:</strong> 1,000&ndash;4,000 IU (dose based on bloodwork)</li>
-        <li><strong>Iron:</strong> Only if ferritin &lt;30 ng/mL &mdash; take every other day on empty stomach with vitamin C</li>
+        <li><strong>Iron:</strong> Only if ferritin &lt;30 ng/mL &mdash; 30&ndash;100 mg elemental iron every other day on empty stomach with vitamin C (physician-guided; retest ferritin in 8&ndash;12 weeks)</li>
         <li><strong>Protein:</strong> 1.4&ndash;1.8 g/kg total daily, supplementing with whey/casein as needed to hit target</li>
       </ul>
 

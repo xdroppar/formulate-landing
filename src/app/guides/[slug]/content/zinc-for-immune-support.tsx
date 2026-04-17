@@ -37,7 +37,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        Hemilä (2017) conducted a meta-analysis of randomized controlled trials and found that zinc lozenges providing 80&ndash;92 mg/day of elemental zinc shortened cold duration by approximately 33% when started within 24 hours of symptom onset. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> That&rsquo;s roughly 2&ndash;3 fewer days of symptoms in a typical cold. Few over-the-counter remedies come close to that effect size.
+        Hemilä et al. (2017) conducted a meta-analysis of randomized controlled trials, published in the Journal of the Royal Society of Medicine, and found that zinc lozenges providing 80&ndash;92 mg/day of elemental zinc shortened cold duration by approximately 33% when started within 24 hours of symptom onset. <EvidenceBadge level="moderate" studiesId="zinc-hemila-cold-2017" /> That&rsquo;s roughly 2&ndash;3 fewer days of symptoms in a typical cold. (Singh et al. (2013) in the Cochrane Database of Systematic Reviews are more conservative, noting high heterogeneity across trials and the near-impossibility of blinding participants to zinc&rsquo;s strong metallic taste &mdash; but the direction of effect is consistent. <EvidenceBadge level="moderate" studiesId="zinc-singh-cochrane-2013" />) Few over-the-counter remedies come close to that effect size.
       </p>
 
       <h2>Form Matters: Acetate and Gluconate Only</h2>
@@ -52,17 +52,17 @@ export function ZincForImmuneSupport() {
       </Callout>
 
       <p>
-        Hemilä&rsquo;s analysis specifically noted that trials using zinc acetate lozenges showed the most consistent results. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> Zinc gluconate lozenges also worked, provided they didn&rsquo;t contain additives like citric acid, tartaric acid, or mannitol that bind the free zinc ions. Many commercial lozenges add these for taste &mdash; and in doing so, neutralize the active mechanism.
+        Hemilä et al.&rsquo;s analysis specifically noted that trials using zinc acetate lozenges showed the most consistent results. <EvidenceBadge level="strong" studiesId="zinc-hemila-acetate-2017" /> Zinc gluconate lozenges also worked, provided they didn&rsquo;t contain additives like citric acid, tartaric acid, or mannitol that bind the free zinc ions. Many commercial lozenges add these for taste &mdash; and in doing so, neutralize the active mechanism.
       </p>
 
       <p>
-        If you&rsquo;re shopping for zinc lozenges specifically for cold use, check the ingredient list carefully. The lozenge should contain zinc acetate or zinc gluconate and should <em>not</em> list citric acid, tartaric acid, sorbitol, or mannitol as additives. For a broader overview of zinc forms and their uses beyond colds, see our full <a href="/guides/zinc-guide">zinc guide</a>.
+        If you&rsquo;re shopping for zinc lozenges specifically for cold use, check the ingredient list carefully. The lozenge should contain zinc acetate or zinc gluconate and should <em>not</em> list citric acid, tartaric acid, sorbitol, or mannitol as additives. You can <a href="https://app.formulate-health.app/catalog?q=zinc">browse zinc products in the Formulate catalog</a> to compare forms and additive profiles. For a broader overview of zinc forms and their uses beyond colds, see our full <a href="/guides/zinc-guide">zinc guide</a>.
       </p>
 
       <h2>Timing: The 24-Hour Window</h2>
 
       <p>
-        Evidence consistently shows that zinc lozenges must be started within 24 hours of the first symptom &mdash; that initial throat tickle, the first sneeze, the slight scratchiness. Waiting even 48 hours dramatically reduces the effect.
+        Evidence consistently shows that zinc lozenges must be started within 24 hours of the first symptom &mdash; that initial throat tickle, the first sneeze, the slight scratchiness. Waiting even 48 hours dramatically reduces the effect. Eby et al. (1984), in a landmark trial published in the Journal of Antimicrobial Agents and Chemotherapy, first demonstrated this time-dependent effect. <EvidenceBadge level="moderate" studiesId="zinc-eby-timing-1984" />
       </p>
 
       <p>
@@ -80,7 +80,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        Trials using oral zinc supplements (swallowed, not dissolved) show no meaningful reduction in cold duration. <EvidenceBadge level="strong" studiesId="zinc-hemila-cold-2017" /> The mechanism is topical, not systemic. Think of it less like &ldquo;taking a supplement&rdquo; and more like applying an antiviral directly to the infection site.
+        Trials using oral zinc supplements (swallowed, not dissolved) show no meaningful reduction in cold duration. <EvidenceBadge level="strong" studiesId="zinc-hemila-oral-vs-lozenge-2017" /> The mechanism is topical, not systemic. Think of it less like &ldquo;taking a supplement&rdquo; and more like applying an antiviral directly to the infection site.
       </p>
 
       <p>
@@ -127,16 +127,20 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        <strong>For chronic immune support and deficiency prevention:</strong> 15&ndash;30 mg/day of elemental zinc (any well-absorbed form &mdash; picolinate, bisglycinate, gluconate, acetate) is the standard range. If you supplement zinc daily at doses above 15 mg for more than a few weeks, pair it with 1&ndash;2 mg of copper, because chronic zinc intake can deplete copper over time. <EvidenceBadge level="moderate" studiesId="zinc-science-zn-copper-2016" />
+        <strong>For chronic immune support and deficiency prevention:</strong> 15&ndash;30 mg/day of elemental zinc (any well-absorbed form &mdash; picolinate, bisglycinate, gluconate, acetate) is the standard range. Prasad et al. (2007), published in the Journal of Molecular Medicine, demonstrated that mild zinc deficiency impairs T-cell function and cytokine production in healthy adults. <EvidenceBadge level="moderate" studiesId="zinc-prasad-immunity-2007" /> If you supplement zinc daily at doses above 15 mg for more than a few weeks, pair it with 1&ndash;2 mg of copper, because chronic zinc intake can deplete copper over time. <EvidenceBadge level="moderate" studiesId="zinc-science-zn-copper-2016" />
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-zinc-bisglycinate"]} />
 
       <p>
         <strong>For acute colds:</strong> The lozenge protocol described above. Higher dose, specific form, specific delivery, short duration.
       </p>
 
       <p>
-        As for prevention &mdash; taking zinc regularly to avoid getting colds in the first place &mdash; the evidence is limited. Some studies in zinc-deficient populations show reduced infection rates, but in people with adequate zinc status, prophylactic supplementation shows modest effects at best. <EvidenceBadge level="emerging" /> You&rsquo;re better off pairing adequate zinc intake with <a href="/guides/best-vitamin-d-supplements">vitamin D</a> optimization and a quality <a href="/guides/what-to-look-for-in-a-probiotic">probiotic</a> for year-round immune resilience.
+        As for prevention &mdash; taking zinc regularly to avoid getting colds in the first place &mdash; the evidence is limited. Some studies in zinc-deficient populations show reduced infection rates, but in people with adequate zinc status, prophylactic supplementation shows modest effects at best. <EvidenceBadge level="emerging" studiesId="zinc-prophylactic-prevention-2020" /> You&rsquo;re better off pairing adequate zinc intake with <a href="/guides/best-vitamin-d-supplements">vitamin D</a> optimization and a quality <a href="/guides/what-to-look-for-in-a-probiotic">probiotic</a> for year-round immune resilience.
       </p>
+
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
 
       <h2>What About Zinc Nasal Sprays?</h2>
 
@@ -242,7 +246,7 @@ export function ZincForImmuneSupport() {
       </Callout>
 
       <p>
-        None of the above is medical advice. Bring your full supplement list to your next provider visit.
+        None of the above is medical advice &mdash; consult your healthcare provider before starting any new supplement protocol. Bring your full supplement list to your next provider visit.
       </p>
 
       <ProductCallout product={PRODUCTS["thorne-zinc-bisglycinate"]} />

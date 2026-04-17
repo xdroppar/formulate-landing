@@ -25,6 +25,9 @@ export function BestSupplementsForMenopause() {
       <p>
         The best supplements for menopause target the specific systems that estrogen withdrawal disrupts: bone density, cardiovascular health, thermoregulation, sleep, and mood. No single pill replaces estrogen&rsquo;s body-wide effects, but a targeted stack built on vitamin D3, K2, magnesium, creatine, and omega-3s addresses the highest-risk domains with real clinical evidence behind each.
       </p>
+      <Callout variant="info" title="Supplements complement HRT — they don't replace it">
+        Hormone replacement therapy remains the most effective treatment for vasomotor symptoms and bone density preservation. The 2024 Menopause Society position statement reaffirms that for most women under 60 or within 10 years of menopause onset, the benefits of HRT outweigh the risks. The supplement stack below fills nutritional gaps that HRT doesn&rsquo;t address and provides options for women who can&rsquo;t or choose not to use hormones &mdash; but start that conversation with your provider first. We cover HRT vs. supplements in detail <a href="#hrt-vs-supplements-not-an-eitheror">further below</a>.
+      </Callout>
 
       <h2>The Menopause Symptom Stack: A Framework</h2>
       <p>
@@ -51,11 +54,16 @@ export function BestSupplementsForMenopause() {
       <p>
         K2 activates osteocalcin (which deposits calcium into bone) and matrix GLA protein (which keeps calcium out of arteries). This is the critical piece most bone-health protocols miss. Supplementing calcium without K2 may actually increase arterial calcification risk &mdash; a finding that generated the &ldquo;calcium paradox&rdquo; concern in the research literature (Bolland et al., 2010). <EvidenceBadge level="moderate" /> The MK-7 form has a longer half-life than MK-4, making once-daily dosing effective.
       </p>
+      <p>Thorne&rsquo;s D3/K2 liquid delivers both nutrients in a single dropper, making it easy to dial in your dose:</p>
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
 
       <h3>Magnesium Glycinate (300&ndash;400 mg)</h3>
       <p>
         Magnesium is a required cofactor for vitamin D activation and bone mineral crystal formation. It also directly addresses two of the most common menopause complaints: sleep disruption and anxiety. Subclinical magnesium deficiency is widespread in postmenopausal populations &mdash; one estimate puts inadequate intake at over 60% of U.S. adults (Rosanoff et al., 2012). <EvidenceBadge level="strong" /> The glycinate form is preferred for its superior absorption and lower GI side effect profile. Our <a href="/guides/best-magnesium-supplements">best magnesium supplements</a> guide covers form differences in detail.
       </p>
+
+      <p>For a well-absorbed glycinate form at the right dose range, Thorne&rsquo;s Magnesium Bisglycinate is a solid choice:</p>
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h3>Calcium (500&ndash;1,000 mg, diet-adjusted)</h3>
       <p>
@@ -70,7 +78,7 @@ export function BestSupplementsForMenopause() {
         Creatine is one of the most underutilized supplements for menopausal women. Most people still associate it exclusively with young male athletes, but the postmenopausal evidence is compelling and growing.
       </p>
       <p>
-        Chilibeck et al. (2017) conducted a 2-year randomized controlled trial in postmenopausal women combining creatine (5 g/day) with resistance training. The creatine group had significantly less bone density loss at the femoral neck compared to placebo, along with greater improvements in lean mass and strength. <EvidenceBadge level="moderate" studiesId="creatine-smith-ryan-women-2021" /> Smith-Ryan et al. (2021) further reviewed creatine&rsquo;s benefits for women across the lifespan, confirming favorable effects on body composition and functional capacity in aging women.
+        Chilibeck et al. (2017) conducted a 2-year randomized controlled trial in postmenopausal women combining creatine (5 g/day) with resistance training. The creatine group showed a favorable trend for bone density preservation at the femoral neck, though the primary statistically significant finding was for upper-extremity lean mass and strength gains. <EvidenceBadge level="moderate" studiesId="creatine-smith-ryan-women-2021" /> Smith-Ryan et al. (2021) further reviewed creatine&rsquo;s benefits for women across the lifespan, confirming favorable effects on body composition and functional capacity in aging women.
       </p>
       <p>
         At 3&ndash;5 g daily, creatine is well-tolerated with decades of safety data. It supports the ATP-phosphocreatine system in both muscle and brain tissue &mdash; relevant because many women report cognitive fog during the menopausal transition. Our <a href="/guides/creatine-for-women">creatine for women</a> guide addresses the common myths, and you can compare products in our <a href="/guides/best-creatine-supplements">best creatine supplements</a> ranking.
@@ -78,13 +86,15 @@ export function BestSupplementsForMenopause() {
       <Callout variant="tip" title="Creatine doesn't cause bloating in women">
         The &ldquo;water weight&rdquo; concern comes from loading protocols (20 g/day) used in young men. At 3&ndash;5 g/day with no loading phase, most women see no meaningful weight fluctuation. Any initial water retention is intracellular (inside muscle), not subcutaneous.
       </Callout>
+      <p>Thorne&rsquo;s Creatine uses pure creatine monohydrate with NSF Certified for Sport testing:</p>
+      <ProductCallout product={PRODUCTS["thorne-creatine"]} />
 
       <h2>Ashwagandha for Mood and Vasomotor Symptoms</h2>
       <p>
         The perimenopausal and early postmenopausal years are marked by heightened cortisol reactivity, sleep disruption, and mood instability. Ashwagandha (Withania somnifera), specifically the KSM-66 extract at 600 mg/day, has moderate evidence for reducing cortisol levels and improving subjective stress and sleep quality.
       </p>
       <p>
-        Lopresti et al. (2019) demonstrated significant improvements in sleep onset latency and sleep quality with KSM-66 in adults with insomnia. <EvidenceBadge level="moderate" /> Chandrasekhar et al. (2012) showed a 27.9% reduction in serum cortisol with 600 mg/day over 60 days. <EvidenceBadge level="moderate" /> While these trials weren&rsquo;t menopause-specific, the symptom overlap is substantial enough to make this a reasonable addition to a menopause-targeted stack. Our full <a href="/guides/ashwagandha-guide">ashwagandha guide</a> covers extract types and dosing protocols.
+        Lopresti et al. (2019) demonstrated significant improvements in sleep onset latency and sleep quality with KSM-66 in adults with insomnia. <EvidenceBadge level="moderate" /> Chandrasekhar et al. (2012) reported a roughly 28% reduction in serum cortisol with 600 mg/day over 60 days in a small trial (n=64). <EvidenceBadge level="moderate" /> While these trials weren&rsquo;t menopause-specific, the symptom overlap is substantial enough to make this a reasonable addition to a menopause-targeted stack. Our full <a href="/guides/ashwagandha-guide">ashwagandha guide</a> covers extract types and dosing protocols.
       </p>
       <Callout variant="evidence" title="Hot flash link is indirect">
         Ashwagandha doesn&rsquo;t directly suppress vasomotor symptoms the way black cohosh or HRT do. Its mechanism is stress-axis modulation &mdash; reducing the cortisol surges that can trigger or worsen hot flashes. Think of it as lowering the &ldquo;reactivity floor&rdquo; rather than blocking the flush itself.
@@ -95,11 +105,13 @@ export function BestSupplementsForMenopause() {
         Premenopausal estrogen provides significant cardiovascular protection via favorable effects on lipid profiles, endothelial function, and inflammation. When estrogen declines, women&rsquo;s cardiovascular risk accelerates rapidly &mdash; eventually matching or exceeding men&rsquo;s risk by age 65.
       </p>
       <p>
-        Omega-3 fatty acids (1&ndash;2 g combined EPA + DHA daily) address multiple cardiovascular risk markers. The VITAL trial (Manson et al., 2019) found that omega-3 supplementation reduced major cardiovascular events by 28% in participants with low baseline fish intake. <EvidenceBadge level="strong" /> For mood support &mdash; relevant given the elevated depression risk during the menopausal transition &mdash; EPA-dominant formulations (at least 60% EPA) show the strongest signal in meta-analyses (Sublette et al., 2011). <EvidenceBadge level="moderate" />
+        Omega-3 fatty acids (1&ndash;2 g combined EPA + DHA daily) address multiple cardiovascular risk markers. The VITAL trial (Manson et al., 2019) did not find a statistically significant reduction in cardiovascular events overall, but a pre-specified subgroup analysis showed a 28% reduction in participants with low baseline fish intake &mdash; a group that includes many postmenopausal women with typical Western diets. <EvidenceBadge level="moderate" /> For mood support &mdash; relevant given the elevated depression risk during the menopausal transition &mdash; EPA-dominant formulations (at least 60% EPA) show the strongest signal in meta-analyses (Sublette et al., 2011). <EvidenceBadge level="moderate" />
       </p>
       <p>
         Choose a product that delivers at least 1,000 mg combined EPA + DHA per serving, not just 1,000 mg of &ldquo;fish oil.&rdquo; Our <a href="/guides/best-omega-3-supplements">best omega-3 supplements</a> ranking breaks down exactly what you&rsquo;re getting per capsule.
       </p>
+      <p>Thorne&rsquo;s Super EPA Pro delivers a high-potency EPA-dominant formula in a concentrated softgel:</p>
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h2>Hot Flash-Specific: Black Cohosh and Soy Isoflavones</h2>
       <p>
@@ -196,7 +208,7 @@ export function BestSupplementsForMenopause() {
 
       <h3>Can I take all of these supplements together?</h3>
       <p>
-        Yes, with one timing note: take calcium and magnesium at separate times if possible (they compete for absorption at high doses). A practical approach is D3/K2 and calcium with a meal, omega-3 with a fat-containing meal, creatine at any consistent time, magnesium in the evening (it supports sleep), and ashwagandha in the evening. No known dangerous interactions exist among these supplements at recommended doses.
+        Yes, with one timing note: take calcium and magnesium at separate times if possible (they compete for absorption at high doses). A practical approach is D3/K2 and calcium with a meal, omega-3 with a fat-containing meal, creatine at any consistent time, magnesium in the evening (it supports sleep), and ashwagandha in the evening. These supplements don&rsquo;t interact dangerously with each other at recommended doses. However, several interact with common medications &mdash; see the &ldquo;Who Should Talk to a Doctor First&rdquo; section below for specifics on blood thinners, thyroid meds, and antidepressants.
       </p>
 
       <h3>Do menopause supplements help with weight gain?</h3>

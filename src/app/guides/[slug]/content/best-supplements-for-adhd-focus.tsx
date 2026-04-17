@@ -51,6 +51,8 @@ export function BestSupplementsForAdhdFocus() {
         Standard fish oil capsules with a 1:1 EPA:DHA ratio aren&rsquo;t ideal here. You want an EPA-dominant product. Check our guide to the <a href="/guides/best-omega-3-supplements">best omega-3 supplements</a> for specific product scores.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
+
       <h2>L-Theanine for Hyperactivity and Anxiety</h2>
       <p>
         L-theanine, the amino acid responsible for green tea&rsquo;s calming properties, has a specific mechanism that makes it interesting for ADHD: it boosts alpha brain-wave activity, which is associated with relaxed focus. Lyon et al. (2011) conducted an RCT in 98 boys with ADHD and found that 400mg/day of L-theanine improved sleep quality and reduced hyperactivity scores compared to placebo. <EvidenceBadge level="moderate" />
@@ -61,6 +63,8 @@ export function BestSupplementsForAdhdFocus() {
       <Callout variant="tip" title="Dosing">
         200&ndash;400mg daily, typically split into morning and afternoon doses. Safe in both children and adults. Can be combined with caffeine (100mg caffeine + 200mg L-theanine) for adults who want alertness without jitteriness, though this pairing should be avoided in children.
       </Callout>
+
+      <ProductCallout product={PRODUCTS["nootropics-depot-l-theanine"]} />
 
       <h2>Magnesium: Correcting the Common Deficiency</h2>
       <p>
@@ -75,6 +79,8 @@ export function BestSupplementsForAdhdFocus() {
       <Callout variant="info" title="ADHD dose range">
         200&ndash;400mg elemental magnesium daily. Start at 200mg and increase if tolerated. GI discomfort (loose stools) is the main side effect and is dose-dependent.
       </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h2>Zinc and Iron: Test Before Supplementing</h2>
       <p>
@@ -112,6 +118,8 @@ export function BestSupplementsForAdhdFocus() {
         5g creatine monohydrate daily. No loading phase needed. Dissolves in water or any beverage. One of the most studied and safest supplements in existence. Learn more in our <a href="/guides/nootropics-guide">nootropics guide</a>.
       </Callout>
 
+      <ProductCallout product={PRODUCTS["nootropics-depot-cognizin"]} />
+
       <h2>L-Tyrosine and Dopamine Precursors</h2>
       <p>
         L-tyrosine is the amino acid precursor to dopamine, and dopamine deficiency is central to ADHD neurobiology. The logic is straightforward: more raw material, more dopamine. The reality is more complicated.
@@ -128,7 +136,7 @@ export function BestSupplementsForAdhdFocus() {
         Most of the supplements above are safe alongside stimulant ADHD medications (methylphenidate, amphetamine salts, lisdexamfetamine). But there are a few interactions worth knowing.
       </p>
       <Callout variant="warning" title="Magnesium + amphetamines">
-        Magnesium can increase urinary pH, which slows amphetamine excretion and may intensify effects. This isn&rsquo;t dangerous at standard doses, but take magnesium in the evening (separate from your morning stimulant) for more predictable medication levels.
+        Magnesium can increase urinary pH, which slows amphetamine excretion and may meaningfully raise plasma levels &mdash; even at standard supplement doses, this can intensify both therapeutic and side effects (cardiovascular, appetite suppression, insomnia) in someone on a fixed stimulant dose. Take magnesium in the evening, well-separated from your morning stimulant, and let your prescriber know so they can monitor.
       </Callout>
       <p>
         <strong>Omega-3s:</strong> No known interactions with stimulants. Safe to combine.<br />

@@ -35,10 +35,9 @@ export function CreatineForWomen() {
 
       <p>
         Your body makes creatine in the liver and kidneys, and you get more
-        from dietary meat and fish. But women typically carry about 70&ndash;80%
-        lower intramuscular creatine concentrations than men (Forsberg et al.,
-        1991). <EvidenceBadge level="moderate" /> Several factors explain the
-        gap: lower average muscle mass, lower dietary meat intake, and
+        from dietary meat and fish. But women tend to have substantially
+        lower intramuscular creatine concentrations than men. Early biopsy data
+        (Forsberg et al., 1991) suggested a 70&ndash;80% gap, though this was a small study and more recent work indicates the difference varies widely by muscle group, training status, and diet. <EvidenceBadge level="emerging" /> Several factors contribute: lower average muscle mass, lower dietary meat intake, and
         endogenous synthesis differences related to hormonal milieu.
       </p>
 
@@ -103,10 +102,14 @@ export function CreatineForWomen() {
         the kind of water retention that creates visible puffiness.
       </p>
 
+      <h3>What the lean mass data shows</h3>
       <p>
         If anything, the research shows creatine paired with resistance
-        training tends to improve body composition: more lean mass, stable or
-        reduced fat mass. Women have roughly 1/15th the circulating
+        training tends to improve body composition: a 2023 systematic review
+        (Forbes et al.) of 22 randomized controlled trials found women gained
+        an average 1.1 kg more lean mass over 4&ndash;12 weeks versus placebo.{" "}
+        <EvidenceBadge level="strong" studiesId="creatine-forbes-lean-mass-2023" />{" "}
+        Women have roughly 1/15th the circulating
         testosterone of men. You are not going to &ldquo;accidentally&rdquo; get
         bulky from a supplement that helps you squeeze out two more reps on a
         squat set.
@@ -137,7 +140,7 @@ export function CreatineForWomen() {
         postmenopausal women who combined creatine supplementation with
         resistance training over 12 months had significantly less BMD loss at
         the femoral neck compared to placebo + training.{" "}
-        <EvidenceBadge level="moderate" /> This is notable because the femoral
+        <EvidenceBadge level="moderate" studiesId="creatine-chilibeck-bone-2017" /> This is notable because the femoral
         neck is a primary fracture site in osteoporotic women.
       </p>
 
@@ -180,23 +183,35 @@ export function CreatineForWomen() {
 
       <h2>How to Take It: Dose, Timing, and Forms</h2>
 
+      <h3>Dosing by Body Weight</h3>
       <p>
-        The effective maintenance dose is <strong>3&ndash;5 g of creatine
-        monohydrate per day</strong>, every day, regardless of sex or body
-        weight. A loading phase (20 g/day for 5&ndash;7 days) speeds
-        saturation but isn&rsquo;t necessary &mdash; daily dosing at 3&ndash;5 g
-        reaches the same saturation point within about 3&ndash;4 weeks. For a
-        detailed look at loading protocols, see our{" "}
+        The standard protocol is <strong>3&ndash;5 g daily</strong> for most
+        women. A more precise approach uses <strong>0.07&ndash;0.1 g/kg of body
+        weight</strong>: a 60 kg (132 lb) woman would take 4.2&ndash;6 g per
+        day, while a 50 kg (110 lb) woman sits comfortably at 3.5&ndash;5 g.
+        In practice, 3 g daily is sufficient for women under 60 kg, and 5 g
+        daily covers virtually everyone up to 80 kg.{" "}
+        <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" />
+      </p>
+
+      <p>
+        A loading phase (20 g/day split into 4 &times; 5 g doses for 5&ndash;7
+        days) speeds saturation but isn&rsquo;t necessary &mdash; daily dosing
+        at 3&ndash;5 g reaches the same saturation point within about 3&ndash;4
+        weeks. For a detailed look at loading protocols, see our{" "}
         <a href="/guides/creatine-loading-phase">creatine loading phase</a>{" "}
         guide.
       </p>
 
+      <h3>Timing and Form</h3>
       <p>
-        <strong>Timing</strong> doesn&rsquo;t matter much. Pre-workout,
-        post-workout, with breakfast &mdash; pick whatever helps you take it
-        consistently. Some data mildly favors post-exercise intake with a
-        carb/protein meal, but the magnitude of the timing effect is small
-        compared to the effect of simply taking it daily.
+        <strong>Timing</strong> doesn&rsquo;t matter much. Take it morning or
+        evening &mdash; with breakfast, post-workout, or at bedtime &mdash;
+        whatever helps you dose daily without missing days. A 2013 study
+        (Antonio &amp; Ciccone) found a slight advantage for post-exercise
+        intake with a carb/protein meal, but the effect size was small compared
+        to daily consistency.{" "}
+        <EvidenceBadge level="emerging" studiesId="creatine-antonio-timing-2013" />
       </p>
 
       <p>
@@ -213,6 +228,43 @@ export function CreatineForWomen() {
         birth control methods affect creatine absorption, metabolism, or
         efficacy. Take them together without concern.
       </Callout>
+
+      <h2>Week-by-Week Protocol for Women Starting Creatine</h2>
+
+      <p>
+        Here is a practical timeline for what to expect when you begin
+        supplementing with creatine monohydrate at a daily maintenance dose:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Week 1&ndash;2 (adaptation):</strong> Take 3&ndash;5 g daily
+          with food, morning or evening. Expect 1&ndash;2 lbs of intracellular
+          water gain. GI sensitivity is most common in this window &mdash; if it
+          occurs, split into two 1.5&ndash;2.5 g doses.
+        </li>
+        <li>
+          <strong>Week 3&ndash;4 (approaching saturation):</strong> Muscle
+          phosphocreatine stores reach approximately 95% saturation by day 28 at
+          3&ndash;5 g/day (Hultman et al., 1996). Training capacity should
+          begin improving &mdash; most women report 1&ndash;2 extra reps on
+          compound lifts.{" "}
+          <EvidenceBadge level="strong" studiesId="creatine-hultman-saturation-1996" />
+        </li>
+        <li>
+          <strong>Month 2&ndash;3 (measurable changes):</strong> A 2003
+          meta-analysis (Branch, 2003) found an average 8% increase in
+          upper-body strength and 14% increase in lower-body strength after
+          8&ndash;12 weeks of creatine + resistance training. Reassess your
+          protocol at the 3-month mark: confirm dose, check body composition
+          trends, and decide whether to continue.
+        </li>
+        <li>
+          <strong>Ongoing (daily, no cycling needed):</strong> Continue 3&ndash;5
+          g daily indefinitely. The ISSN confirms no benefit to cycling on and
+          off. If you stop, stores return to baseline over 4&ndash;6 weeks.
+        </li>
+      </ul>
 
       <ProductCallout product={PRODUCTS["thorne-creatine"]} />
 

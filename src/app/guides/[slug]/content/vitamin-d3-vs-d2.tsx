@@ -78,11 +78,12 @@ export function VitaminD3VsD2() {
         as much as the dose on the bottle.
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-5000"]} />
+
       <Callout variant="evidence" title="What &ldquo;87% more effective&rdquo; actually means">
         In pooled analysis, participants taking D3 achieved 25(OH)D
         concentrations roughly 1.87 times higher than those taking D2 at the
-        same IU dose. The effect was consistent across daily and bolus dosing
-        protocols.
+        same IU dose. This effect was strongest in daily dosing studies; the bolus dosing data was more equivocal, and some later analyses (e.g., Bjelakovic et al., 2014) have questioned whether the clinical significance matches the biomarker difference. The 87% figure is the best available estimate, but it&rsquo;s not as settled as a single number implies.
       </Callout>
 
       <h2>Why D3 Outperforms D2: The Mechanism</h2>
@@ -99,10 +100,10 @@ export function VitaminD3VsD2() {
       </p>
 
       <p>
-        <strong>2. Half-life.</strong> D3 has a circulating half-life of
-        approximately 24 hours. D2&rsquo;s half-life is closer to 6&ndash;8
+        <strong>2. Half-life of the parent compound.</strong> Unhydroxylated D3 has a circulating half-life of
+        approximately 24 hours, while D2&rsquo;s is closer to 6&ndash;8
         hours. That shorter window reduces the total amount converted to the
-        storage form, 25(OH)D, in your liver.
+        storage form, 25(OH)D, in your liver. (Note: the clinically measured storage form 25(OH)D has a much longer half-life of 2&ndash;3 weeks regardless of whether it came from D2 or D3 &mdash; it&rsquo;s the initial conversion step where D3&rsquo;s longer half-life gives it the advantage.)
       </p>
 
       <p>
@@ -258,6 +259,8 @@ export function VitaminD3VsD2() {
         <EvidenceBadge level="moderate" studiesId="vitamin-d-knapen-k2-2017" />
       </p>
 
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
+
       <p>
         <strong>Don&rsquo;t forget{" "}
         <a href="/guides/best-magnesium-supplements">magnesium</a>.</strong>{" "}
@@ -272,6 +275,8 @@ export function VitaminD3VsD2() {
         magnesium (glycinate or citrate, 200&ndash;400 mg). Take in the morning
         or with your largest meal.
       </Callout>
+
+      <ProductCallout product={PRODUCTS["thorne-vitamin-k"]} />
 
       <h2>Frequently Asked Questions</h2>
 

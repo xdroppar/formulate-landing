@@ -53,10 +53,12 @@ export function BestSupplementsForPerimenopause() {
       <p>
         For a full breakdown of forms and doses, see our <a href="/guides/best-magnesium-supplements">best magnesium supplements</a> guide.
       </p>
+      <p>Thorne&rsquo;s Magnesium Bisglycinate is well-absorbed and gentle on the stomach at bedtime doses:</p>
+      <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <h2>Bone Building Starts Now: D3 + K2</h2>
       <p>
-        You lose up to 20% of your bone density in the 5&ndash;7 years surrounding menopause (Finkelstein et al., 2008). <EvidenceBadge level="strong" /> That process starts during perimenopause, not after. By the time you&rsquo;re officially post-menopausal, the window for easy intervention has narrowed. Correcting a vitamin D deficiency takes 2&ndash;3 months. Building meaningful bone density takes longer.
+        You can lose up to 20% of your bone density in the 5&ndash;7 years surrounding menopause, per longitudinal data from the Study of Women&rsquo;s Health Across the Nation (SWAN). <EvidenceBadge level="strong" /> That process starts during perimenopause, not after. By the time you&rsquo;re officially post-menopausal, the window for easy intervention has narrowed. Correcting a vitamin D deficiency takes 2&ndash;3 months. Building meaningful bone density takes longer.
       </p>
       <p>
         Vitamin D3 at 2,000&ndash;4,000 IU daily (adjusted by blood levels) supports calcium absorption. Vitamin K2 (MK-7, 100&ndash;200 mcg) directs that calcium into bone rather than arteries. The combination is more effective than either alone for bone mineral density (van Ballegooijen et al., 2017). <EvidenceBadge level="moderate" />
@@ -67,17 +69,21 @@ export function BestSupplementsForPerimenopause() {
       <p>
         We break down the top-scoring options in our <a href="/guides/best-vitamin-d-supplements">best vitamin D supplements</a> review.
       </p>
+      <p>Thorne&rsquo;s D3/K2 liquid combines both nutrients in a single dropper for easy dose adjustment:</p>
+      <ProductCallout product={PRODUCTS["thorne-vitamin-d-k2"]} />
 
       <h2>Omega-3 for Mood and Inflammation</h2>
       <p>
         Hormonal fluctuations in perimenopause increase systemic inflammation markers like CRP and IL-6. That inflammation contributes to joint pain, brain fog, and mood instability. Omega-3 fatty acids &mdash; specifically EPA &mdash; are one of the most well-supported anti-inflammatory interventions available.
       </p>
       <p>
-        A 2011 randomized trial in perimenopausal and menopausal women found that EPA supplementation (1 g/day) significantly reduced hot flash frequency compared to placebo (Lucas et al., 2009). <EvidenceBadge level="moderate" /> For mood, a meta-analysis by Liao et al. (2019) showed that formulations with &ge;60% EPA had significant antidepressant effects. <EvidenceBadge level="strong" />
+        Some trials have examined EPA for hot flash reduction, with mixed results. Lucas et al. (2009) found modest benefit in a small trial, while the larger Freeman et al. (2011) OMEGA trial found EPA did not significantly reduce hot flashes vs. placebo. The evidence for omega-3 and vasomotor symptoms specifically is inconclusive. <EvidenceBadge level="emerging" /> For mood, a meta-analysis by Liao et al. (2019) showed that formulations with &ge;60% EPA had significant antidepressant effects. <EvidenceBadge level="strong" />
       </p>
       <p>
         Aim for 1&ndash;2 g of combined EPA + DHA daily, with an EPA-dominant ratio. Take with a meal containing fat for absorption. See our <a href="/guides/best-omega-3-supplements">best omega-3 supplements</a> roundup for tested options.
       </p>
+      <p>Thorne&rsquo;s Super EPA Pro provides a concentrated EPA-dominant formula ideal for mood and inflammation support:</p>
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h2>B-Complex for Energy Fluctuations</h2>
       <p>
@@ -92,6 +98,8 @@ export function BestSupplementsForPerimenopause() {
       <p>
         For a deeper dive on B12 specifically, check our <a href="/guides/vitamin-b12-guide">vitamin B12 guide</a>.
       </p>
+      <p>Thorne&rsquo;s B-Complex #12 provides methylated B12 and folate alongside the full B-vitamin spectrum:</p>
+      <ProductCallout product={PRODUCTS["thorne-b-complex-12"]} />
 
       <h2>Ashwagandha for Mood Swings</h2>
       <p>

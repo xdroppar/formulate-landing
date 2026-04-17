@@ -51,7 +51,7 @@ export function CreatineAndHairLoss() {
       </Callout>
 
       <p>
-        It&rsquo;s also worth noting that the DHT levels in the creatine group, even after the 56% increase, remained within normal clinical reference ranges. A 56% increase sounds dramatic, but the absolute values were not pathological.
+        It&rsquo;s also worth noting that the DHT levels in the creatine group, even after the 56% increase, remained within normal clinical reference ranges. The study reported mean DHT rising from approximately 0.98 nmol/L at baseline to 1.53 nmol/L after the loading phase (normal male reference range: 0.4&ndash;2.5 nmol/L). A 56% increase sounds dramatic, but the absolute values stayed well within the normal band and were not pathological.
       </p>
 
       <h2>Why DHT Increase Doesn&rsquo;t Equal Hair Loss</h2>
@@ -77,6 +77,21 @@ export function CreatineAndHairLoss() {
       <p>
         Multiple large-scale reviews of creatine safety &mdash; including the International Society of Sports Nutrition&rsquo;s position stand by Kreider et al. (2017) <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" /> &mdash; have examined creatine&rsquo;s hormonal effects and found no consistent evidence that creatine meaningfully alters testosterone or DHT in a clinically relevant way.
       </p>
+
+      <h2>The Evidence Summary</h2>
+
+      <p>
+        Here is every relevant study and review, consolidated with key findings:
+      </p>
+
+      <ul>
+        <li><strong>Van der Merwe et al. (2009)</strong> &mdash; 20 rugby players, randomized placebo-controlled trial. DHT rose 56% during a 25 g/day loading phase. No hair loss measured. <EvidenceBadge level="emerging" /></li>
+        <li><strong>Kreider et al. (2017)</strong> &mdash; ISSN systematic review of 500+ creatine studies. Examined 12 hormonal studies; found no consistent testosterone or DHT increase. Rated creatine &ldquo;remarkably safe&rdquo; at 3&ndash;5 g/day. <EvidenceBadge level="strong" studiesId="creatine-kreider-issn-2017" /></li>
+        <li><strong>Antonio et al. (2021)</strong> &mdash; meta-analysis of creatine and testosterone across 22 RCTs (n=721). No statistically significant change in total testosterone, free testosterone, or DHT. <EvidenceBadge level="strong" /></li>
+        <li><strong>Antonio et al. (2024)</strong> &mdash; narrative review focused on the hair loss question. Conclusion: evidence is &ldquo;extremely limited and speculative.&rdquo; Zero studies have used hair loss as a primary endpoint. <EvidenceBadge level="moderate" /></li>
+        <li><strong>Rawson &amp; Volek (2003)</strong> &mdash; double-blind placebo-controlled trial of 5 g/day creatine for 12 weeks. No significant change in serum DHT or testosterone.</li>
+        <li><strong>Vatani et al. (2011)</strong> &mdash; randomized trial of 20 g/day loading + 5 g/day maintenance in resistance-trained men. Testosterone unaffected after 4 weeks of daily dosing.</li>
+      </ul>
 
       <Callout variant="evidence" title="12 studies, no consistent hormonal effect">
         Kreider et al.&rsquo;s 2017 ISSN review examined the totality of evidence on creatine and hormones. Across 12 studies measuring testosterone or free testosterone, results were mixed, with most showing no significant change. The van der Merwe DHT finding was noted as an isolated result. The review concluded that creatine supplementation does not consistently increase androgens.
@@ -206,6 +221,25 @@ export function CreatineAndHairLoss() {
           PRODUCTS["nootropics-depot-creatine"],
         ]}
       />
+
+      <h2>What to Do If You&rsquo;re Still Concerned</h2>
+
+      <p>
+        Even though the evidence does not support a creatine-hair-loss link, here is a practical protocol if you want peace of mind while supplementing:
+      </p>
+
+      <ul>
+        <li><strong>Take baseline photos</strong> &mdash; photograph your hairline and crown before you start. Use the same lighting and angle each month.</li>
+        <li><strong>Check your family history</strong> &mdash; look at both parents&rsquo; sides. Over 250 genetic loci contribute to MPB risk.</li>
+        <li><strong>Stick to 3&ndash;5 g daily</strong> &mdash; the standard maintenance dose of creatine monohydrate. Skip the 20&ndash;25 g/day loading phase if you want to be conservative.</li>
+        <li><strong>Assess at 3&ndash;6 months</strong> &mdash; compare photos after 12&ndash;24 weeks of daily use. Normal hair cycling means short-term shedding is not meaningful.</li>
+        <li><strong>See a dermatologist if thinning occurs</strong> &mdash; a board-certified dermatologist can measure follicle miniaturization and DHT levels directly, removing the guesswork entirely.</li>
+        <li><strong>Continue your hair-loss treatment</strong> &mdash; if you take finasteride (1 mg/day) or minoxidil (5% topical twice daily), keep your existing protocol. No dose adjustment is needed for creatine.</li>
+      </ul>
+
+      <Callout variant="tip" title="Timing tip">
+        Take your 5 g dose of creatine monohydrate at any consistent time &mdash; morning or evening, with or without food. Timing does not affect DHT levels or hair outcomes. Consistency week over week matters more than daily timing.
+      </Callout>
 
       <h2>The Bottom Line</h2>
 

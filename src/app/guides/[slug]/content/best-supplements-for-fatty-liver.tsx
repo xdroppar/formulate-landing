@@ -54,6 +54,10 @@ export function BestSupplementsForFattyLiver() {
         A meta-analysis by Miller et al. (2005) suggested that vitamin E doses above 400 IU/day might increase all-cause mortality, particularly from cardiovascular events. Later analyses have challenged this finding, but it hasn&rsquo;t been fully resolved. The 800 IU dose used in PIVENS is specifically for biopsy-confirmed NASH &mdash; not simple steatosis, and not for indefinite use without monitoring. Discuss with your hepatologist or gastroenterologist.
       </Callout>
 
+      <Callout variant="warning" title="PIVENS excluded diabetic patients">
+        The PIVENS trial enrolled only non-diabetic NASH patients. If you have type 2 diabetes alongside NAFLD &mdash; which 20&ndash;30% of NAFLD patients do &mdash; the vitamin E evidence doesn&rsquo;t directly apply to you. Pioglitazone (a prescription medication, not a supplement) showed benefit in the diabetic subgroup in separate trials and is included in AASLD guidelines for that population. Talk to your provider about the right approach for metabolic NAFLD with diabetes rather than extrapolating from PIVENS.
+      </Callout>
+
       <p>
         The mechanism is straightforward: NASH is driven partly by oxidative stress in hepatocytes. Vitamin E is a potent fat-soluble antioxidant that accumulates in liver tissue, quenching the lipid peroxidation that damages cell membranes and triggers inflammation. It&rsquo;s effective, but it&rsquo;s not a casual supplement &mdash; use it under medical supervision at the PIVENS dose.
       </p>
@@ -75,6 +79,8 @@ export function BestSupplementsForFattyLiver() {
       <Callout variant="tip" title="Practical NAC dosing for NAFLD">
         Most trials use 600 mg twice daily (1,200 mg total) with meals. GI side effects (nausea, loose stools) are the main complaint. Start at 600 mg/day for a week, then increase. The effervescent form tends to be better tolerated than capsules on an empty stomach.
       </Callout>
+      <p>Thorne&rsquo;s NAC delivers 500 mg per capsule with no unnecessary fillers:</p>
+      <ProductCallout product={PRODUCTS["thorne-nac"]} />
 
       <h2>Omega-3 for Liver Fat Content</h2>
 
@@ -89,6 +95,8 @@ export function BestSupplementsForFattyLiver() {
       <p>
         One important caveat: while omega-3s reliably reduce steatosis (fat accumulation), they have not been shown to improve fibrosis or histological inflammation in NASH. The WELCOME trial (Scorletti et al., 2014) using purified DHA+EPA found reduced liver fat percentage by MRI but no significant improvement in fibrosis scores. <EvidenceBadge level="moderate" /> Think of omega-3s as a de-fatting intervention, not an anti-fibrotic one.
       </p>
+      <p>For a concentrated EPA+DHA formula that hits the 2+ g threshold used in liver fat trials, Thorne&rsquo;s Super EPA Pro is a strong option:</p>
+      <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <h2>Milk Thistle (Silymarin): Mixed but Meaningful</h2>
 
@@ -118,8 +126,11 @@ export function BestSupplementsForFattyLiver() {
         The standard dosing protocol is 500 mg three times daily with meals. GI side effects (cramping, diarrhea) are common at initiation. Our full <a href="/guides/berberine-guide">berberine guide</a> covers cycling protocols, drug interactions (especially with CYP3A4 substrates), and comparison to newer dihydroberberine forms.
       </p>
 
-      <Callout variant="warning" title="Berberine drug interactions">
-        Berberine inhibits CYP3A4, CYP2D6, and P-glycoprotein. If you take statins, cyclosporine, metformin at high doses, or certain blood thinners, berberine can alter their metabolism significantly. It can also cause hypoglycemia when combined with insulin or sulfonylureas. Always cross-check with your prescriber.
+      <p>Thorne&rsquo;s Berberine delivers 500 mg per capsule for straightforward three-times-daily dosing:</p>
+      <ProductCallout product={PRODUCTS["thorne-berberine"]} />
+
+      <Callout variant="warning" title="Berberine drug interactions — especially statins">
+        Berberine inhibits CYP3A4, CYP2D6, and P-glycoprotein. This is critically relevant for NAFLD patients because many take statins for dyslipidemia: atorvastatin and simvastatin are both CYP3A4 substrates, and berberine can significantly increase their blood levels, raising the risk of myopathy and rhabdomyolysis. If you take a statin, either choose a non-CYP3A4 statin (rosuvastatin, pravastatin) or coordinate dosing with your prescriber. Berberine can also cause hypoglycemia when combined with insulin, sulfonylureas, or high-dose metformin.
       </Callout>
 
       <h2>Vitamin D: Common Deficiency, Common Fix</h2>
