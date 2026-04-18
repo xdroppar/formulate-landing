@@ -65,12 +65,6 @@ export function Nav() {
             <Link href="/download" className={linkClass("/download")}>
               Download
             </Link>
-            <a
-              href="mailto:support@formulate-health.app?subject=Formulate%20Feedback"
-              className="text-sm font-medium text-muted hover:text-text transition-colors"
-            >
-              Feedback
-            </a>
           </div>
 
           <div className="flex items-center gap-3">
@@ -115,14 +109,6 @@ export function Nav() {
             <Link href="/download" onClick={() => setOpen(false)} className={`${linkClass("/download")} py-1`} role="menuitem">
               Download
             </Link>
-            <a
-              href="mailto:support@formulate-health.app?subject=Formulate%20Feedback"
-              onClick={() => setOpen(false)}
-              className="text-sm font-medium text-muted hover:text-text transition-colors py-1"
-              role="menuitem"
-            >
-              Feedback
-            </a>
           </div>
         )}
       </nav>
