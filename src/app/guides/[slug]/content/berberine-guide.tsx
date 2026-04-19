@@ -5,6 +5,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,7 @@ export function BerberineGuide() {
       />
 
       <p>
-        Berberine is a plant-derived alkaloid with two decades of controlled
+        <IngredientLink id="berberine" source="berberine-guide">Berberine</IngredientLink> is a plant-derived alkaloid with two decades of controlled
         trial data showing it lowers blood sugar through the same AMPK pathway
         activated by <a href="/guides/berberine-vs-metformin">metformin</a> and exercise. Researchers first noticed the
         effect in 2004 when patients taking berberine for diarrhea saw

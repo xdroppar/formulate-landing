@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -29,7 +30,11 @@ export function NootropicsGuide() {
         the category has been stretched to cover everything from caffeine to
         prescription stimulants to unregulated research chemicals, making it
         nearly impossible to navigate without tiering substances by the
-        strength of their human evidence.
+        strength of their human evidence. The most evidence-backed nootropics
+        in this guide are <IngredientLink id="l-theanine" source="nootropics-guide">L-theanine</IngredientLink>,{" "}
+        <IngredientLink id="creatine" source="nootropics-guide">creatine</IngredientLink>,{" "}
+        <IngredientLink id="lions-mane" source="nootropics-guide">lion&rsquo;s mane</IngredientLink>, and{" "}
+        <IngredientLink id="bacopa-monnieri" source="nootropics-guide">bacopa</IngredientLink>.
       </p>
 
       <h2>The Foundation You Can&rsquo;t Supplement Around</h2>

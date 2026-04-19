@@ -7,6 +7,7 @@ import {
   InteractionGroup,
   ScheduleTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -25,8 +26,9 @@ export function SupplementTimingGuide() {
 
       <p>
         Supplement timing matters only in a few specific cases: fat-soluble
-        vitamins (D, E, K, A) need dietary fat for absorption, iron and{" "}
-        <a href="/guides/zinc-guide">zinc</a> compete for the same uptake
+        vitamins (<IngredientLink id="vitamin-d" source="supplement-timing-guide">D</IngredientLink>, E, K, A) need dietary fat for absorption,{" "}
+        <IngredientLink id="iron" source="supplement-timing-guide">iron</IngredientLink> and{" "}
+        <IngredientLink id="zinc" source="supplement-timing-guide">zinc</IngredientLink> compete for the same uptake
         pathways and should be separated, and stimulating supplements like
         B-complex can disrupt sleep if taken late. Beyond these interactions,
         consistency matters far more than clock precision.

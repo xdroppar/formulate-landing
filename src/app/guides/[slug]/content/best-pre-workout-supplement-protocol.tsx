@@ -7,6 +7,7 @@ import {
   InteractionGroup,
   ScheduleTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -25,7 +26,10 @@ export function BestPreWorkoutProtocol() {
 
       <p>
         The best pre-workout supplement protocol uses four well-studied
-        ingredients purchased individually rather than as a proprietary blend.
+        ingredients purchased individually rather than as a proprietary blend:{" "}
+        <IngredientLink id="creatine" source="best-pre-workout-supplement-protocol">creatine</IngredientLink>,
+        citrulline, beta-alanine, and caffeine paired with{" "}
+        <IngredientLink id="l-theanine" source="best-pre-workout-supplement-protocol">L-theanine</IngredientLink>.
         This approach costs roughly a third of branded pre-workout tubs and
         ensures each ingredient hits its effective dose &mdash; something most
         proprietary blends obscure by hiding individual amounts behind a

@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -24,10 +25,13 @@ export function BeginnerLongevityStack() {
 
       <p>
         A beginner longevity supplement stack supported by human evidence
-        starts with three tiers: foundational supplements backed by robust
-        clinical data (Tier 1), promising compounds with emerging human
-        trials (Tier 2), and speculative additions still relying mostly on
-        animal research (Tier 3). Most &ldquo;longevity supplements&rdquo;
+        starts with Tier 1 foundations:{" "}
+        <IngredientLink id="omega-3" source="beginner-longevity-supplement-stack">omega-3</IngredientLink>,{" "}
+        <IngredientLink id="vitamin-d" source="beginner-longevity-supplement-stack">vitamin D</IngredientLink>, and{" "}
+        <IngredientLink id="magnesium" source="beginner-longevity-supplement-stack">magnesium</IngredientLink>.
+        Tier 2 adds <IngredientLink id="creatine" source="beginner-longevity-supplement-stack">creatine</IngredientLink>,{" "}
+        <IngredientLink id="coq10" source="beginner-longevity-supplement-stack">CoQ10</IngredientLink>, and{" "}
+        <IngredientLink id="curcumin" source="beginner-longevity-supplement-stack">curcumin</IngredientLink>. Most &ldquo;longevity supplements&rdquo;
         run far ahead of the human evidence &mdash; many are expensive bets
         on mouse data. Start with Tier 1, get bloodwork, and add tiers only
         after months of consistency.

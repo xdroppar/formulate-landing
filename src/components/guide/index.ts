@@ -5,5 +5,6 @@ export { ComparisonTable } from "./comparison-table";
 export { InteractionCard, InteractionGroup } from "./interaction-card";
 export { ScheduleTable } from "./schedule-table";
 export { EvidenceBadge } from "./evidence-badge";
+export { IngredientLink } from "./ingredient-link";
 export { PRODUCTS, catalogUrl } from "./products";
 export type { GuideProduct } from "./products";

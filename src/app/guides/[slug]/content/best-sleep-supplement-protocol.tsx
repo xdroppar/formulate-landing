@@ -7,6 +7,7 @@ import {
   InteractionGroup,
   ScheduleTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -26,10 +27,13 @@ export function BestSleepProtocol() {
       <p>
         The best sleep supplement protocol combines evidence-backed compounds
         at correct doses into a cheap, non&ndash;habit&ndash;forming stack
-        that targets deep sleep. Most people get this wrong &mdash; taking
+        that targets deep sleep. The core ingredients are{" "}
+        <IngredientLink id="magnesium-glycinate" source="best-sleep-supplement-protocol">magnesium glycinate</IngredientLink>,{" "}
+        <IngredientLink id="l-theanine" source="best-sleep-supplement-protocol">L-theanine</IngredientLink>,{" "}
+        <IngredientLink id="glycine" source="best-sleep-supplement-protocol">glycine</IngredientLink>, and a low dose of{" "}
+        <IngredientLink id="melatonin" source="best-sleep-supplement-protocol">melatonin</IngredientLink>. Most people get this wrong &mdash; taking
         the wrong compounds at inflated doses while ignoring the ones with
-        the strongest research support. The protocol that emerges from the
-        actual evidence is straightforward to build.
+        the strongest research support.
       </p>
 
       <h2>Yes, Sleep Hygiene Matters &mdash; But You Already Know That</h2>

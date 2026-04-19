@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function ZincForImmuneSupport() {
       />
 
       <p>
-        Zinc for immune support is one of the few supplement claims with genuinely strong clinical evidence behind it &mdash; but the details matter enormously. Zinc lozenges, dissolved slowly in the mouth within 24 hours of your first cold symptoms, can cut the duration of a cold by roughly a third. Take the wrong form, swallow a pill instead, or start too late, and the effect largely disappears.
+        <IngredientLink id="zinc" source="zinc-for-immune-support">Zinc</IngredientLink> for immune support is one of the few supplement claims with genuinely strong clinical evidence behind it &mdash; but the details matter enormously. Zinc lozenges, dissolved slowly in the mouth within 24 hours of your first cold symptoms, can cut the duration of a cold by roughly a third. Take the wrong form, swallow a pill instead, or start too late, and the effect largely disappears.
       </p>
 
       <h2>What Zinc Lozenges Actually Do</h2>

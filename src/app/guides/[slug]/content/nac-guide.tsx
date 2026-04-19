@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function NACGuide() {
       />
 
       <p>
-        NAC (N-Acetyl Cysteine) is a modified form of the amino acid
+        <IngredientLink id="nac" source="nac-guide">NAC</IngredientLink> (N-Acetyl Cysteine) is a modified form of the amino acid
         cysteine and the most efficient oral precursor to{" "}
         <strong>glutathione</strong>, your body&rsquo;s master antioxidant.
         Glutathione drives virtually every detoxification pathway in the

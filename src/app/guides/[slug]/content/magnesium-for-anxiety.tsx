@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function MagnesiumForAnxiety() {
       />
 
       <p>
-        Magnesium for anxiety works through two well-characterized brain mechanisms: it blocks overactive NMDA glutamate receptors and enhances GABA receptor function, producing a measurable calming effect. Subclinical magnesium deficiency is common in Western diets, and correcting it can meaningfully reduce anxiety symptoms&mdash;particularly when using the glycinate form, which adds its own inhibitory neurotransmitter to the equation.
+        <IngredientLink id="magnesium" source="magnesium-for-anxiety">Magnesium</IngredientLink> for anxiety works through two well-characterized brain mechanisms: it blocks overactive NMDA glutamate receptors and enhances GABA receptor function, producing a measurable calming effect. Subclinical magnesium deficiency is common in Western diets, and correcting it can meaningfully reduce anxiety symptoms&mdash;particularly when using the <IngredientLink id="magnesium-glycinate" source="magnesium-for-anxiety">glycinate form</IngredientLink>, which adds its own inhibitory neurotransmitter to the equation.
       </p>
 
       <h2>How Magnesium Affects the Anxiety Circuit</h2>

@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function TaurineGuide() {
       />
 
       <p>
-        Taurine is an inhibitory neuromodulator &mdash; functionally closer
+        <IngredientLink id="taurine" source="taurine-guide">Taurine</IngredientLink> is an inhibitory neuromodulator &mdash; functionally closer
         to GABA than to caffeine &mdash; that emerged as a serious longevity
         compound after a 2023 study showed taurine supplementation extended
         mouse lifespan by 10&ndash;12%. Despite its reputation as an energy

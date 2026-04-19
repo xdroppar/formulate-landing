@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function BestTimeToTakeMagnesium() {
       />
 
       <p>
-        The best time to take magnesium depends almost entirely on the form you&rsquo;re using and why you&rsquo;re taking it. Magnesium glycinate before bed leverages glycine&rsquo;s calming properties for sleep, while citrate belongs in your morning routine to avoid middle-of-the-night bathroom trips. Getting the timing wrong won&rsquo;t make magnesium dangerous&mdash;but it can make it far less useful.
+        The best time to take <IngredientLink id="magnesium" source="best-time-to-take-magnesium">magnesium</IngredientLink> depends almost entirely on the form you&rsquo;re using and why you&rsquo;re taking it. <IngredientLink id="magnesium-glycinate" source="best-time-to-take-magnesium">Magnesium glycinate</IngredientLink> before bed leverages glycine&rsquo;s calming properties for sleep, while <IngredientLink id="magnesium-citrate" source="best-time-to-take-magnesium">citrate</IngredientLink> belongs in your morning routine to avoid middle-of-the-night bathroom trips. Getting the timing wrong won&rsquo;t make magnesium dangerous&mdash;but it can make it far less useful.
       </p>
 
       <h2>Why Magnesium Timing Actually Matters</h2>

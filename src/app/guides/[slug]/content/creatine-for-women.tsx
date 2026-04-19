@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function CreatineForWomen() {
       />
 
       <p>
-        Creatine for women is supported by a growing body of research showing
+        <IngredientLink id="creatine" source="creatine-for-women">Creatine</IngredientLink> for women is supported by a growing body of research showing
         benefits for strength, bone health, body composition, and even mood
         &mdash; yet most creatine content is still written for men. Women
         actually start with lower baseline creatine stores, which means

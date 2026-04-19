@@ -6,6 +6,7 @@ import {
   EvidenceBadge,
   InteractionCard,
   InteractionGroup,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function WhatToLookForInProbiotic() {
       />
 
       <p>
-        The most important thing to look for in a probiotic is the specific
+        The most important thing to look for in a <IngredientLink id="multi-strain-probiotic" source="what-to-look-for-in-a-probiotic">probiotic</IngredientLink> is the specific
         strain listed on the label &mdash; not the CFU count, not the number
         of strains, and not broad health claims. Strain identity is what
         links a product to actual clinical evidence, yet most probiotic

@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function ZincGuide() {
       />
 
       <p>
-        Zinc is an essential mineral involved in over{" "}
+        <IngredientLink id="zinc" source="zinc-guide">Zinc</IngredientLink> is an essential mineral involved in over{" "}
         <strong>300 enzymatic reactions</strong> that directly supports{" "}
         <a href="/guides/zinc-for-immune-support">immune</a> function, testosterone production, and wound healing. According to the
         WHO, roughly <strong>2 billion people worldwide</strong> are zinc

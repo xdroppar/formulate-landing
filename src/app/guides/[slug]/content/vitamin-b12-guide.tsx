@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function VitaminB12Guide() {
       />
 
       <p>
-        Vitamin B12 deficiency is one of the most common yet underdiagnosed
+        <IngredientLink id="vitamin-b12" source="vitamin-b12-guide">Vitamin B12</IngredientLink> deficiency is one of the most common yet underdiagnosed
         nutrient shortfalls in the developed world, largely because its
         symptoms &mdash; fatigue, brain fog, mood changes, numbness in the
         hands and feet &mdash; overlap with depression, anxiety, and early

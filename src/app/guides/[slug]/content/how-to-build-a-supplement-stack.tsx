@@ -7,6 +7,7 @@ import {
   InteractionGroup,
   ScheduleTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -25,8 +26,11 @@ export function HowToBuildStack() {
 
       <p>
         Building a supplement stack is a systematic process: identify your
-        actual needs, start with the highest-evidence basics like creatine
-        and vitamin D, layer in goal-specific compounds, and cut everything
+        actual needs, start with the highest-evidence basics like{" "}
+        <IngredientLink id="creatine" source="how-to-build-a-supplement-stack">creatine</IngredientLink> and{" "}
+        <IngredientLink id="vitamin-d" source="how-to-build-a-supplement-stack">vitamin D</IngredientLink>, layer in goal-specific compounds like{" "}
+        <IngredientLink id="omega-3" source="how-to-build-a-supplement-stack">omega-3</IngredientLink> and{" "}
+        <IngredientLink id="magnesium" source="how-to-build-a-supplement-stack">magnesium</IngredientLink>, and cut everything
         that wastes money. The key is prioritizing supplements with strong
         research support over influencer-endorsed megadoses &mdash; then
         adding only what targets your specific goals and deficiencies.

@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function AlphaGpcVsCiticoline() {
       />
 
       <p>
-        Alpha-GPC vs citicoline is the single most common comparison in the choline-supplement space, and for good reason: both are phospholipid-derived forms that actually cross the blood&ndash;brain barrier efficiently, unlike cheaper options like choline bitartrate. The short answer is that Alpha-GPC is the faster-acting choice for acute cognitive performance, while citicoline offers broader neuroprotective benefits over time.
+        <IngredientLink id="alpha-gpc" source="alpha-gpc-vs-citicoline">Alpha-GPC</IngredientLink> vs <IngredientLink id="cdp-choline" source="alpha-gpc-vs-citicoline">citicoline</IngredientLink> is the single most common comparison in the choline-supplement space, and for good reason: both are phospholipid-derived forms that actually cross the blood&ndash;brain barrier efficiently, unlike cheaper options like choline bitartrate. The short answer is that Alpha-GPC is the faster-acting choice for acute cognitive performance, while citicoline offers broader neuroprotective benefits over time.
       </p>
 
       <h2>The Choline Problem: Why Form Matters</h2>

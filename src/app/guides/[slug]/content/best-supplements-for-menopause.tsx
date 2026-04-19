@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,11 @@ export function BestSupplementsForMenopause() {
       />
 
       <p>
-        The best supplements for menopause target the specific systems that estrogen withdrawal disrupts: bone density, cardiovascular health, thermoregulation, sleep, and mood. No single pill replaces estrogen&rsquo;s body-wide effects, but a targeted stack built on vitamin D3, K2, magnesium, creatine, and omega-3s addresses the highest-risk domains with real clinical evidence behind each.
+        The best supplements for menopause target the specific systems that estrogen withdrawal disrupts: bone density, cardiovascular health, thermoregulation, sleep, and mood. No single pill replaces estrogen&rsquo;s body-wide effects, but a targeted stack built on{" "}
+        <IngredientLink id="vitamin-d" source="best-supplements-for-menopause">vitamin D3</IngredientLink>, K2,{" "}
+        <IngredientLink id="magnesium" source="best-supplements-for-menopause">magnesium</IngredientLink>,{" "}
+        <IngredientLink id="creatine" source="best-supplements-for-menopause">creatine</IngredientLink>, and{" "}
+        <IngredientLink id="omega-3" source="best-supplements-for-menopause">omega-3s</IngredientLink> addresses the highest-risk domains with real clinical evidence behind each.
       </p>
       <Callout variant="info" title="Supplements complement HRT — they don't replace it">
         Hormone replacement therapy remains the most effective treatment for vasomotor symptoms and bone density preservation. The 2024 Menopause Society position statement reaffirms that for most women under 60 or within 10 years of menopause onset, the benefits of HRT outweigh the risks. The supplement stack below fills nutritional gaps that HRT doesn&rsquo;t address and provides options for women who can&rsquo;t or choose not to use hormones &mdash; but start that conversation with your provider first. We cover HRT vs. supplements in detail <a href="#hrt-vs-supplements-not-an-eitheror">further below</a>.

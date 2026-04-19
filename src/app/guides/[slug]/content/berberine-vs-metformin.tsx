@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function BerberineVsMetformin() {
       />
 
       <p>
-        Berberine vs metformin is one of the most common supplement-vs-drug comparisons on the internet, and for good reason: they share a core mechanism, and one small trial showed similar blood-sugar-lowering effects. But &ldquo;similar mechanism&rdquo; and &ldquo;interchangeable&rdquo; are very different claims. Here&rsquo;s what the evidence actually supports.
+        <IngredientLink id="berberine" source="berberine-vs-metformin">Berberine</IngredientLink> vs metformin is one of the most common supplement-vs-drug comparisons on the internet, and for good reason: they share a core mechanism, and one small trial showed similar blood-sugar-lowering effects. But &ldquo;similar mechanism&rdquo; and &ldquo;interchangeable&rdquo; are very different claims. Here&rsquo;s what the evidence actually supports.
       </p>
 
       <h2>Why the Comparison Gets Made</h2>

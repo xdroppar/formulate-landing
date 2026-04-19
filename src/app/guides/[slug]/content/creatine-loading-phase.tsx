@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -21,7 +22,7 @@ export function CreatineLoadingPhase() {
       />
 
       <p>
-        A creatine loading phase is not necessary &mdash; taking 3&ndash;5
+        A <IngredientLink id="creatine" source="creatine-loading-phase">creatine</IngredientLink> loading phase is not necessary &mdash; taking 3&ndash;5
         grams daily saturates muscle creatine stores within 3&ndash;4 weeks,
         reaching the same endpoint as a 20g/day loading protocol. Loading
         simply gets you there faster. With over 500 peer-reviewed papers on

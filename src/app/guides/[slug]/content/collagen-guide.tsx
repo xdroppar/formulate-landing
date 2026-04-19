@@ -5,6 +5,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,7 @@ export function CollagenGuide() {
       />
 
       <p>
-        Collagen supplements have evidence supporting modest improvements in
+        <IngredientLink id="hydrolyzed-collagen" source="collagen-guide">Collagen</IngredientLink> supplements have evidence supporting modest improvements in
         skin elasticity and <a href="/guides/best-collagen-for-joints">joint pain</a>, though the research is stronger than
         skeptics suggest and weaker than marketing implies. The $7 billion
         industry rests on a counterintuitive digestive mechanism &mdash;

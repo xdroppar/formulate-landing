@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function CreatineAndHairLoss() {
       />
 
       <p>
-        Creatine hair loss is one of the most persistent myths in sports nutrition, and it all traces back to a single study from 2009 that never actually measured hair loss. The study found a temporary increase in a hormone called DHT &mdash; but that&rsquo;s a very different thing from going bald. Here&rsquo;s what the evidence actually shows, and what you should do about it.
+        <IngredientLink id="creatine" source="creatine-and-hair-loss">Creatine</IngredientLink> hair loss is one of the most persistent myths in sports nutrition, and it all traces back to a single study from 2009 that never actually measured hair loss. The study found a temporary increase in a hormone called DHT &mdash; but that&rsquo;s a very different thing from going bald. Here&rsquo;s what the evidence actually shows, and what you should do about it.
       </p>
 
       <h2>The One Study Everyone References</h2>

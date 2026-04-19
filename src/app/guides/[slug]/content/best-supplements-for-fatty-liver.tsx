@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,10 @@ export function BestSupplementsForFattyLiver() {
       />
 
       <p>
-        The best supplements for fatty liver backed by clinical evidence include vitamin E, NAC, omega-3 fatty acids, milk thistle, and berberine &mdash; each targeting different aspects of NAFLD pathology from oxidative stress to hepatic fat accumulation. But supplements sit firmly in second place behind lifestyle change, and not every option marketed for &ldquo;liver support&rdquo; actually has trial data behind it.
+        The best supplements for fatty liver backed by clinical evidence include vitamin E,{" "}
+        <IngredientLink id="nac" source="best-supplements-for-fatty-liver">NAC</IngredientLink>,{" "}
+        <IngredientLink id="omega-3" source="best-supplements-for-fatty-liver">omega-3 fatty acids</IngredientLink>, milk thistle, and{" "}
+        <IngredientLink id="berberine" source="best-supplements-for-fatty-liver">berberine</IngredientLink> &mdash; each targeting different aspects of NAFLD pathology from oxidative stress to hepatic fat accumulation. But supplements sit firmly in second place behind lifestyle change, and not every option marketed for &ldquo;liver support&rdquo; actually has trial data behind it.
       </p>
 
       <h2>Why Supplements Matter for NAFLD (Lifestyle First)</h2>

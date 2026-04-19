@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,11 @@ export function BestSupplementsForRunners() {
       />
 
       <p>
-        The best supplements for runners target the specific physiological demands of endurance training: oxygen transport, muscle buffering, glycogen resynthesis, and connective tissue repair. Most runners don&rsquo;t need a cabinet full of pills. They need a short list of evidence-backed compounds &mdash; and the discipline to skip the rest.
+        The best supplements for runners target the specific physiological demands of endurance training: oxygen transport, muscle buffering, glycogen resynthesis, and connective tissue repair. The short list with real evidence is{" "}
+        <IngredientLink id="iron" source="best-supplements-for-runners">iron</IngredientLink> (only if deficient),{" "}
+        <IngredientLink id="creatine" source="best-supplements-for-runners">creatine</IngredientLink>,{" "}
+        <IngredientLink id="electrolytes" source="best-supplements-for-runners">electrolytes</IngredientLink>, and{" "}
+        <IngredientLink id="omega-3" source="best-supplements-for-runners">omega-3s</IngredientLink> &mdash; everything else is mostly noise.
       </p>
 
       <h2>Why Runner Supplement Needs Are Different</h2>

@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function BestAdaptogensForStress() {
       />
 
       <p>
-        The best adaptogens for stress depend on the <em>type</em> of stress you&rsquo;re dealing with. Ashwagandha is the most clinically supported option for chronic, cortisol-driven stress and sleep disruption. Rhodiola rosea outperforms it for acute mental fatigue and burnout. Reishi rounds out the trio with gentler immune and sleep-quality benefits, though its adaptogenic evidence is thinner. Below, we compare all three head-to-head on mechanism, dosing, onset, and evidence quality.
+        The best adaptogens for stress depend on the <em>type</em> of stress you&rsquo;re dealing with. <IngredientLink id="ashwagandha" source="best-adaptogens-for-stress">Ashwagandha</IngredientLink> is the most clinically supported option for chronic, cortisol-driven stress and sleep disruption. <IngredientLink id="rhodiola" source="best-adaptogens-for-stress">Rhodiola rosea</IngredientLink> outperforms it for acute mental fatigue and burnout. Reishi rounds out the trio with gentler immune and sleep-quality benefits, though its adaptogenic evidence is thinner. Below, we compare all three head-to-head on mechanism, dosing, onset, and evidence quality.
       </p>
 
       <h2>What Actually Makes an Herb an &ldquo;Adaptogen&rdquo;</h2>

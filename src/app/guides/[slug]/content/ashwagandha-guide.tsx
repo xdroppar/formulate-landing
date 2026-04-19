@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function AshwagandhaGuide() {
       />
 
       <p>
-        Ashwagandha is one of the few herbal supplements where the clinical
+        <IngredientLink id="ashwagandha" source="ashwagandha-guide">Ashwagandha</IngredientLink> is one of the few herbal supplements where the clinical
         evidence is genuinely interesting &mdash; multiple trials show
         measurable effects on cortisol, sleep quality, and stress perception.
         However, the form you take matters enormously: most products on

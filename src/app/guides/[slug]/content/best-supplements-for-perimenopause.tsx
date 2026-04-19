@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,10 @@ export function BestSupplementsForPerimenopause() {
       />
 
       <p>
-        The best supplements for perimenopause target fluctuating &mdash; not depleted &mdash; hormones. That distinction matters because perimenopause starts 4 to 10 years before your final period, and most &ldquo;menopause supplement&rdquo; guides assume your estrogen is already low. During perimenopause, estrogen can spike unpredictably one month and crash the next, while progesterone trends steadily downward. The right stack addresses this volatility.
+        The best supplements for perimenopause &mdash;{" "}
+        <IngredientLink id="magnesium" source="best-supplements-for-perimenopause">magnesium</IngredientLink>,{" "}
+        <IngredientLink id="vitamin-d" source="best-supplements-for-perimenopause">vitamin D</IngredientLink>, and{" "}
+        <IngredientLink id="creatine" source="best-supplements-for-perimenopause">creatine</IngredientLink> &mdash; target fluctuating, not depleted, hormones. That distinction matters because perimenopause starts 4 to 10 years before your final period, and most &ldquo;menopause supplement&rdquo; guides assume your estrogen is already low. During perimenopause, estrogen can spike unpredictably one month and crash the next, while progesterone trends steadily downward. The right stack addresses this volatility.
       </p>
 
       <h2>Perimenopause vs. Menopause: Different Needs</h2>

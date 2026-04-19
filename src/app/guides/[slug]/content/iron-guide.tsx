@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function IronGuide() {
       />
 
       <p>
-        Iron supplements should never be taken without bloodwork confirming a
+        <IngredientLink id="iron" source="iron-guide">Iron</IngredientLink> supplements should never be taken without bloodwork confirming a
         deficiency &mdash; your body has no regulated mechanism to excrete
         excess iron, so what comes in stays in unless you bleed. Unchecked
         iron overload damages the liver, heart, and pancreas, and hereditary

@@ -1,3 +1,5 @@
+const APP_URL = "https://app.formulate-health.app";
+
 /**
  * Append UTM params to a webapp URL so conversions from the landing site
  * can be attributed back to the specific source (guide slug, page, etc).
@@ -18,4 +20,20 @@ export function withUtm(
   } catch {
     return rawUrl;
   }
+}
+
+/**
+ * Build a URL to an ingredient encyclopedia page on the webapp, with UTM
+ * attribution back to the referring guide. Use the canonical lc-supplements id
+ * (e.g. "magnesium", "vitamin-d3", "ashwagandha"). Mismatched ids will 404.
+ */
+export function ingredientLearnUrl(
+  ingredientId: string,
+  source: string = "guide"
+): string {
+  return withUtm(`${APP_URL}/learning/supplements/${ingredientId}`, {
+    source,
+    medium: "guide-link",
+    content: ingredientId,
+  });
 }

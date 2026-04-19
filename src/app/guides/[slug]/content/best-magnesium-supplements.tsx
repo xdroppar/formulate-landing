@@ -7,6 +7,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -24,10 +25,10 @@ export function BestMagnesium() {
       />
 
       <p>
-        The best magnesium supplements depend entirely on the form of magnesium
+        The best <IngredientLink id="magnesium" source="best-magnesium-supplements">magnesium</IngredientLink> supplements depend entirely on the form of magnesium
         they use &mdash; there are over a dozen, and each has different absorption
-        rates, tissue targets, and clinical applications. Magnesium glycinate and
-        threonate outperform oxide and citrate for sleep and cognition,
+        rates, tissue targets, and clinical applications. <IngredientLink id="magnesium-glycinate" source="best-magnesium-supplements">Magnesium glycinate</IngredientLink> and{" "}
+        <IngredientLink id="magnesium-l-threonate" source="best-magnesium-supplements">threonate</IngredientLink> outperform <IngredientLink id="magnesium-oxide" source="best-magnesium-supplements">oxide</IngredientLink> and <IngredientLink id="magnesium-citrate" source="best-magnesium-supplements">citrate</IngredientLink> for sleep and cognition,
         respectively, because they cross biological barriers that cheaper forms
         cannot.
       </p>
@@ -130,7 +131,7 @@ export function BestMagnesium() {
 
       <h3>Magnesium Taurate &mdash; Best for Cardiovascular Support</h3>
       <p>
-        Combines magnesium with <a href="/guides/taurine-guide">taurine</a>, which has independent cardiovascular
+        <IngredientLink id="magnesium-taurate" source="best-magnesium-supplements">Magnesium taurate</IngredientLink> combines magnesium with <IngredientLink id="taurine" source="best-magnesium-supplements">taurine</IngredientLink> (see also our <a href="/guides/taurine-guide">taurine guide</a>), which has independent cardiovascular
         benefits. A 2018 meta-analysis by Zhang et al. in{" "}
         <em>Hypertension Research</em> found magnesium supplementation reduced
         systolic blood pressure by 2&ndash;3 mmHg. <EvidenceBadge level="moderate" studiesId="magnesium-zhang-bp-2017" /> Taurate is the form with the

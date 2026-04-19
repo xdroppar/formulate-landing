@@ -3,6 +3,7 @@ import {
   Callout,
   ProductCallout,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -21,7 +22,7 @@ export function VitaminD3VsD2() {
       />
 
       <p>
-        Vitamin D3 vs D2 isn&rsquo;t a close contest. A landmark meta-analysis found D3
+        <IngredientLink id="vitamin-d" source="vitamin-d3-vs-d2">Vitamin D3 vs D2</IngredientLink> isn&rsquo;t a close contest. A landmark meta-analysis found D3
         raises serum 25(OH)D levels roughly 87% more effectively than D2 at
         equivalent doses. Yet millions of people still take prescription D2
         without knowing a superior form sits on every pharmacy shelf for a

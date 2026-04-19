@@ -7,6 +7,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -24,7 +25,7 @@ export function BestOmega3() {
       />
 
       <p>
-        The best omega-3 supplements deliver high combined EPA and DHA per
+        The best <IngredientLink id="omega-3" source="best-omega-3-supplements">omega-3</IngredientLink> supplements deliver high combined <IngredientLink id="epa" source="best-omega-3-supplements">EPA</IngredientLink> and <IngredientLink id="dha" source="best-omega-3-supplements">DHA</IngredientLink> per
         capsule, not just total fish oil &mdash; a critical distinction because
         a standard &ldquo;1,000mg fish oil&rdquo; softgel often contains only
         300mg of actual EPA + DHA. Our 2026 rankings prioritize independently

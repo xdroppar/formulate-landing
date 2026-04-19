@@ -5,6 +5,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,7 @@ export function LionsManeGuide() {
       />
 
       <p>
-        Lion&rsquo;s mane mushroom supports cognitive function by stimulating{" "}
+        <IngredientLink id="lions-mane" source="lions-mane-guide">Lion&rsquo;s mane mushroom</IngredientLink> supports cognitive function by stimulating{" "}
         <strong>nerve growth factor (NGF)</strong>, a protein the brain uses
         to grow and maintain neurons. This mechanism is backed by
         peer-reviewed neuroscience, not marketing claims &mdash; making

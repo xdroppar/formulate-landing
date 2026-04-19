@@ -5,6 +5,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,8 +23,8 @@ export function ElectrolytesGuide() {
       />
 
       <p>
-        The three electrolytes that actually matter are sodium, potassium, and
-        magnesium &mdash; and most people&rsquo;s intake of all three is
+        The three <IngredientLink id="electrolytes" source="electrolytes-guide">electrolytes</IngredientLink> that actually matter are sodium, potassium, and
+        <IngredientLink id="magnesium" source="electrolytes-guide">{" "}magnesium</IngredientLink> &mdash; and most people&rsquo;s intake of all three is
         quietly terrible. Low-carb diets make this worse by causing your
         kidneys to dump sodium at an accelerated rate, which is why
         &ldquo;keto flu&rdquo; is really just electrolyte deficiency. Fixing

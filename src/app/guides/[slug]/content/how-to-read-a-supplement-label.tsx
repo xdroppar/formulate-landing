@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -26,7 +27,12 @@ export function HowToReadSupplementLabel() {
         Facts panel on the back, which is the actual data. The panel lists
         each ingredient&rsquo;s form, dose per serving, and percent Daily
         Value, giving you everything you need to spot underdosed or poorly
-        formulated products in about 60 seconds.
+        formulated products in about 60 seconds. Common ingredients to learn
+        before label-reading:{" "}
+        <IngredientLink id="magnesium" source="how-to-read-a-supplement-label">magnesium</IngredientLink>,{" "}
+        <IngredientLink id="vitamin-d" source="how-to-read-a-supplement-label">vitamin D</IngredientLink>,{" "}
+        <IngredientLink id="coq10" source="how-to-read-a-supplement-label">CoQ10</IngredientLink>, and{" "}
+        <IngredientLink id="omega-3" source="how-to-read-a-supplement-label">omega-3</IngredientLink>.
       </p>
 
       <Callout variant="tip" title="The 60-second skill">

@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,9 @@ export function BestSupplementsForAdhdFocus() {
       />
 
       <p>
-        The best supplements for ADHD are omega-3 fatty acids (high EPA), L-theanine, and magnesium &mdash; each backed by clinical trials showing modest improvements in attention, hyperactivity, or both. They work best as adjuncts, not replacements, to conventional ADHD treatment. Here&rsquo;s what the evidence actually supports, what it doesn&rsquo;t, and how to stack these safely.
+        The best supplements for ADHD are <IngredientLink id="omega-3" source="best-supplements-for-adhd-focus">omega-3 fatty acids</IngredientLink> (high <IngredientLink id="epa" source="best-supplements-for-adhd-focus">EPA</IngredientLink>),{" "}
+        <IngredientLink id="l-theanine" source="best-supplements-for-adhd-focus">L-theanine</IngredientLink>, and{" "}
+        <IngredientLink id="magnesium" source="best-supplements-for-adhd-focus">magnesium</IngredientLink> &mdash; each backed by clinical trials showing modest improvements in attention, hyperactivity, or both. They work best as adjuncts, not replacements, to conventional ADHD treatment. Here&rsquo;s what the evidence actually supports, what it doesn&rsquo;t, and how to stack these safely.
       </p>
 
       <h2>Supplements Don&rsquo;t Replace Treatment &mdash; They Support It</h2>

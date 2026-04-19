@@ -5,6 +5,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,7 @@ export function BestCreatine() {
       />
 
       <p>
-        The best creatine supplement is plain creatine monohydrate &mdash; the
+        The best <IngredientLink id="creatine" source="best-creatine-supplements">creatine</IngredientLink> supplement is plain creatine monohydrate &mdash; the
         most-studied sports supplement in human history, effective at roughly
         three cents per serving. Fancy variations like HCl, buffered alkalyn,
         and &ldquo;rapid uptake&rdquo; micronized formulas offer no clinical

@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function NacAndAlcohol() {
       />
 
       <p>
-        NAC and alcohol interact through a single critical pathway: glutathione.
+        <IngredientLink id="nac" source="nac-and-alcohol">NAC</IngredientLink> and alcohol interact through a single critical pathway: glutathione.
         N-acetylcysteine is the most efficient oral precursor to glutathione, the
         antioxidant your liver burns through when metabolizing alcohol&rsquo;s
         toxic byproduct, acetaldehyde. The evidence suggests NAC can meaningfully

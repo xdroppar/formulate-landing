@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -28,7 +29,10 @@ export function DoYouNeedMultivitamin() {
         mixed, in part because cramming 25+ nutrients into one or two small
         pills guarantees most are underdosed. One in three American adults
         takes one daily, but a targeted approach &mdash; supplementing
-        specific documented gaps &mdash; is more effective for most people.
+        specific documented gaps like{" "}
+        <IngredientLink id="vitamin-d" source="do-you-need-a-multivitamin">vitamin D</IngredientLink>,{" "}
+        <IngredientLink id="magnesium" source="do-you-need-a-multivitamin">magnesium</IngredientLink>, and{" "}
+        <IngredientLink id="omega-3" source="do-you-need-a-multivitamin">omega-3</IngredientLink> &mdash; is more effective for most people.
       </p>
 
       <h2>What the Largest Studies Actually Found</h2>

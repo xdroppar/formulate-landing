@@ -6,6 +6,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function MagnesiumDeficiency() {
       />
 
       <p>
-        Common signs of magnesium deficiency include muscle cramps, eyelid
+        Common signs of <IngredientLink id="magnesium" source="signs-you-are-magnesium-deficient">magnesium</IngredientLink> deficiency include muscle cramps, eyelid
         twitching, chronic fatigue despite adequate sleep, and unexplained
         irritability. Roughly{" "}
         <strong>50% of Americans fail to meet the recommended daily

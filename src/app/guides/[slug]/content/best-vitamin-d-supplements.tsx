@@ -7,6 +7,7 @@ import {
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -24,7 +25,7 @@ export function BestVitaminD() {
       />
 
       <p>
-        The best vitamin D supplements use vitamin D3 (cholecalciferol), pair it
+        The best <IngredientLink id="vitamin-d" source="best-vitamin-d-supplements">vitamin D</IngredientLink> supplements use vitamin D3 (cholecalciferol), pair it
         with vitamin K2 as a cofactor, and are backed by third-party testing
         &mdash; because form and formulation details matter more than brand. With
         42% of American adults deficient and nearly every major health

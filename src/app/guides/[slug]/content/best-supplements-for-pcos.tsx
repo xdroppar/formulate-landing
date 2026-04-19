@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ComparisonTable,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,12 @@ export function BestSupplementsForPcos() {
       />
 
       <p>
-        The best supplements for PCOS target the condition&rsquo;s root drivers&mdash;insulin resistance, androgen excess, and chronic inflammation&mdash;rather than masking symptoms. Inositol, NAC, vitamin D, magnesium, omega-3s, and berberine each have meaningful clinical evidence in PCOS populations. Below, we break down exactly which ones move the needle, at what doses, and who should be cautious.
+        The best supplements for PCOS target the condition&rsquo;s root drivers&mdash;insulin resistance, androgen excess, and chronic inflammation&mdash;rather than masking symptoms. Inositol,{" "}
+        <IngredientLink id="nac" source="best-supplements-for-pcos">NAC</IngredientLink>,{" "}
+        <IngredientLink id="vitamin-d" source="best-supplements-for-pcos">vitamin D</IngredientLink>,{" "}
+        <IngredientLink id="magnesium" source="best-supplements-for-pcos">magnesium</IngredientLink>,{" "}
+        <IngredientLink id="omega-3" source="best-supplements-for-pcos">omega-3s</IngredientLink>, and{" "}
+        <IngredientLink id="berberine" source="best-supplements-for-pcos">berberine</IngredientLink> each have meaningful clinical evidence in PCOS populations. Below, we break down exactly which ones move the needle, at what doses, and who should be cautious.
       </p>
 
       <h2>Why PCOS Needs a Multi-Target Approach</h2>

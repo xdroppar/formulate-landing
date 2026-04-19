@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function BestMultivitaminOver50() {
       />
 
       <p>
-        The best multivitamin for adults over 50 isn&rsquo;t just a standard formula with &ldquo;Silver&rdquo; slapped on the label. After 50, your body absorbs key nutrients differently, needs more of some (B12, D3, calcium), and less of others (iron, for most men). Most senior multivitamins get this balance wrong. Here&rsquo;s what actually matters and what to look for.
+        The best multivitamin for adults over 50 isn&rsquo;t just a standard formula with &ldquo;Silver&rdquo; slapped on the label. After 50, your body absorbs key nutrients differently, needs more of some (<IngredientLink id="vitamin-b12" source="best-multivitamin-over-50">B12</IngredientLink>, <IngredientLink id="vitamin-d" source="best-multivitamin-over-50">D3</IngredientLink>, calcium), and less of others (<IngredientLink id="iron" source="best-multivitamin-over-50">iron</IngredientLink>, for most men). Most senior multivitamins get this balance wrong. Here&rsquo;s what actually matters and what to look for.
       </p>
 
       <h2>Why Nutrient Needs Change After 50</h2>

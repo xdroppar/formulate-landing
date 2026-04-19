@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function ProbioticStrainsForIbs() {
       />
 
       <p>
-        Probiotic strains for IBS are not interchangeable &mdash; only three specific strains have rigorous clinical trial evidence supporting their use, and most products on the market don&rsquo;t contain any of them. The majority of &ldquo;IBS probiotic&rdquo; labels list species without strain identifiers, which is like recommending &ldquo;a dog&rdquo; for a specific job without specifying the breed.
+        <IngredientLink id="multi-strain-probiotic" source="probiotic-strains-for-ibs">Probiotic</IngredientLink> strains for IBS are not interchangeable &mdash; only three specific strains have rigorous clinical trial evidence supporting their use, and most products on the market don&rsquo;t contain any of them. The majority of &ldquo;IBS probiotic&rdquo; labels list species without strain identifiers, which is like recommending &ldquo;a dog&rdquo; for a specific job without specifying the breed.
       </p>
 
       <h2>Why Strain Specificity Changes Everything</h2>

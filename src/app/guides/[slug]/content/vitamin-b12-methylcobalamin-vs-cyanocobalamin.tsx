@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -22,7 +23,7 @@ export function VitaminB12MethylcobalaminVsCyanocobalamin() {
       />
 
       <p>
-        Methylcobalamin vs cyanocobalamin is the most common B12 supplement decision you&rsquo;ll face. Cyanocobalamin is synthetic, stable, and cheap. Methylcobalamin is the bioactive form your cells actually use. For most healthy people the difference is marginal &mdash; but for certain populations, choosing the wrong form means your B12 supplement may not be doing much at all.
+        Methylcobalamin vs cyanocobalamin is the most common <IngredientLink id="vitamin-b12" source="vitamin-b12-methylcobalamin-vs-cyanocobalamin">B12</IngredientLink> supplement decision you&rsquo;ll face. Cyanocobalamin is synthetic, stable, and cheap. Methylcobalamin is the bioactive form your cells actually use. For most healthy people the difference is marginal &mdash; but for certain populations, choosing the wrong form means your B12 supplement may not be doing much at all.
       </p>
 
       <h2>The Four Forms of B12 Explained</h2>

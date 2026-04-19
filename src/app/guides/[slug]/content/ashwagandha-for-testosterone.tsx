@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function AshwagandhaForTestosterone() {
       />
 
       <p>
-        Ashwagandha testosterone effects are real but modest. Multiple placebo-controlled trials show the herb can raise total testosterone by 10&ndash;20% in men whose levels are suppressed by stress, age, or inactivity. It works by lowering cortisol rather than directly stimulating androgen production &mdash; which means the men who benefit most are the ones whose hormonal environment is already compromised.
+        <IngredientLink id="ashwagandha" source="ashwagandha-for-testosterone">Ashwagandha</IngredientLink> testosterone effects are real but modest. Multiple placebo-controlled trials show the herb can raise total testosterone by 10&ndash;20% in men whose levels are suppressed by stress, age, or inactivity. It works by lowering cortisol rather than directly stimulating androgen production &mdash; which means the men who benefit most are the ones whose hormonal environment is already compromised.
       </p>
 
       <h2>What the Research Actually Shows</h2>

@@ -4,6 +4,7 @@ import {
   ProductCallout,
   ProductRow,
   EvidenceBadge,
+  IngredientLink,
   PRODUCTS,
 } from "@/components/guide";
 
@@ -23,7 +24,7 @@ export function BestCollagenForJoints() {
       />
 
       <p>
-        The best collagen for joints is undenatured Type II collagen (UC-II) at 40&nbsp;mg per day, based on head-to-head clinical trials showing it outperforms both placebo and glucosamine&ndash;chondroitin for knee osteoarthritis symptoms. But the collagen market is flooded with hydrolyzed Type I products marketed for joints &mdash; and those work through an entirely different mechanism with weaker joint-specific evidence.
+        The best collagen for joints is <IngredientLink id="collagen-type-ii" source="best-collagen-for-joints">undenatured Type II collagen (UC-II)</IngredientLink> at 40&nbsp;mg per day, based on head-to-head clinical trials showing it outperforms both placebo and glucosamine&ndash;chondroitin for knee osteoarthritis symptoms. But the collagen market is flooded with <IngredientLink id="hydrolyzed-collagen" source="best-collagen-for-joints">hydrolyzed Type I</IngredientLink> products marketed for joints &mdash; and those work through an entirely different mechanism with weaker joint-specific evidence.
       </p>
 
       <p>
