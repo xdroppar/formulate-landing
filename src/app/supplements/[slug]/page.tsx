@@ -228,23 +228,27 @@ export default async function SupplementPage({ params }: { params: Params }) {
     url,
   };
   if (product.score !== null) {
-    productLd.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: product.score,
-      bestRating: 100,
-      worstRating: 0,
-      ratingCount: 1,
-      reviewCount: 1,
-    };
+    // No AggregateRating: a single editorial score with ratingCount:1 gets
+    // rejected by Google as "too few ratings" and suppresses rich results.
+    // A richer Review is star-eligible in Google's review-snippet track.
     productLd.review = {
       "@type": "Review",
+      name: `Formulate Review: ${product.brand} ${product.name}`,
+      author: {
+        "@type": "Organization",
+        name: "Formulate",
+        url: BASE,
+      },
+      datePublished: "2026-04-21",
       reviewRating: {
         "@type": "Rating",
         ratingValue: product.score,
         bestRating: 100,
+        worstRating: 0,
       },
-      author: { "@type": "Organization", name: "Formulate" },
-      reviewBody: stripHtml(product.explanation ?? product.overview ?? "").slice(0, 500) || `Scored ${product.score}/100 by Formulate.`,
+      reviewBody:
+        stripHtml(product.explanation ?? product.overview ?? "").slice(0, 500) ||
+        `${product.brand} ${product.name} scored ${product.score}/100 (Grade ${grade.letter}) on Formulate's ingredient-level rubric covering dose, form, bioavailability, transparency, safety, and manufacturing.`,
     };
   }
   if (product.price_usd && product.url) {
