@@ -203,7 +203,6 @@ export default function Home() {
               { name: "Nordic Naturals", src: "/images/brands/nordic-naturals.png" },
               { name: "Ritual", src: "/images/brands/ritual.png" },
               { name: "Garden of Life", src: "/images/brands/garden-of-life.png" },
-              { name: "Jarrow Formulas", src: "/images/brands/jarrow-formulas.png" },
               { name: "Solgar", src: "/images/brands/solgar.png" },
             ].map((brand) => (
               <div key={brand.name} className="group flex flex-col items-center gap-3 rounded-xl bg-surface border border-border hover:border-accent/30 transition-all py-4 px-3">
