@@ -66,6 +66,7 @@ import { BestSupplementsForFattyLiver } from "./content/best-supplements-for-fat
 import { BestSupplementsForAdhdFocus } from "./content/best-supplements-for-adhd-focus";
 import { BestSupplementsForRunners } from "./content/best-supplements-for-runners";
 import { BestThorneSupplements } from "./content/best-thorne-supplements";
+import { MagnesiumGlycinateVsCitrateVsOxide } from "./content/magnesium-glycinate-vs-citrate-vs-oxide";
 import { BestSupplementsForPerimenopause } from "./content/best-supplements-for-perimenopause";
 
 const contentMap: Record<string, React.ComponentType> = {
@@ -131,6 +132,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-supplements-for-adhd-focus": BestSupplementsForAdhdFocus,
   "best-supplements-for-runners": BestSupplementsForRunners,
   "best-thorne-supplements": BestThorneSupplements,
+  "magnesium-glycinate-vs-citrate-vs-oxide": MagnesiumGlycinateVsCitrateVsOxide,
   "best-supplements-for-perimenopause": BestSupplementsForPerimenopause,
 };
 

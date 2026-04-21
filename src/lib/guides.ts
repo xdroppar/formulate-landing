@@ -32,6 +32,20 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "magnesium-glycinate-vs-citrate-vs-oxide",
+    title: "Magnesium Glycinate vs Citrate vs Oxide: Which Form Actually Absorbs?",
+    description:
+      "Glycinate (80% absorbed) vs citrate (50%) vs oxide (4%) — with elemental-dose math, side effects, and picks for sleep, constipation, and cognition.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "9 min read",
+    tags: ["Magnesium", "Minerals", "Bioavailability", "Sleep"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=magnesium",
+    isNew: true,
+  },
+  {
     slug: "best-thorne-supplements",
     title: "Best Thorne Supplements 2026: The Top 12, Ranked by Score",
     description:
