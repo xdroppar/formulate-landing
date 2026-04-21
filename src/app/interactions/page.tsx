@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { InteractionChecker } from "@/components/interaction-checker";
+import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { interactions, substances } from "@/lib/interactions";
 
 const BASE = "https://formulate-health.app";
@@ -153,9 +154,9 @@ export default function InteractionsPage() {
         <p className="text-xs text-muted mt-4 leading-relaxed">
           Formulate surfaces the same interaction intelligence inside the desktop app so
           you can see warnings on every stack change.{" "}
-          <Link href="/download" className="text-accent hover:underline">
+          <TrackedDownloadLink href="/download" source="interactions_hub" className="text-accent hover:underline">
             Get the desktop app →
-          </Link>
+          </TrackedDownloadLink>
         </p>
       </section>
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { withUtm } from "@/lib/app-url";
@@ -22,6 +23,15 @@ const categoryBorders: Record<string, string> = {
   protocol: "border-accent2/20",
   review: "border-warning/20",
   guide: "border-accent/20",
+};
+
+// Tailwind-safe category gradient fallbacks (used when `thumbnail` is absent).
+// Kept in sync with `categoryColors` above.
+const categoryFallbackGradient: Record<string, string> = {
+  roundup: "bg-gradient-to-br from-accent/20 via-accent/5 to-transparent",
+  protocol: "bg-gradient-to-br from-accent2/20 via-accent2/5 to-transparent",
+  review: "bg-gradient-to-br from-warning/20 via-warning/5 to-transparent",
+  guide: "bg-gradient-to-br from-accent/20 via-accent/5 to-transparent",
 };
 
 export default function GuidesPage() {
@@ -86,40 +96,68 @@ export default function GuidesPage() {
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}
-              className={`group block p-6 rounded-2xl bg-surface border border-border hover:border-accent/30 transition-all`}
+              className={`group block rounded-2xl bg-surface border border-border hover:border-accent/30 transition-all overflow-hidden`}
             >
-              <div className="flex items-center gap-3 mb-3">
-                <span
-                  className={`text-[10px] font-bold tracking-[1.5px] uppercase ${
-                    categoryColors[guide.category] || "text-accent"
-                  }`}
-                >
-                  {guide.categoryLabel}
-                </span>
-                <span className="text-[10px] text-muted">{guide.readTime}</span>
-                {guide.isNew && (
-                  <span className="px-1.5 py-0.5 rounded-md text-[9px] font-bold tracking-wide uppercase bg-accent/15 text-accent border border-accent/25">
-                    New
-                  </span>
+              <div
+                className={`relative w-full aspect-[16/9] overflow-hidden ${
+                  guide.thumbnail ? "bg-bg" : categoryFallbackGradient[guide.category] || categoryFallbackGradient.guide
+                }`}
+              >
+                {guide.thumbnail ? (
+                  <Image
+                    src={guide.thumbnail}
+                    alt=""
+                    fill
+                    sizes="(min-width: 640px) 460px, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span
+                      className={`text-[56px] font-extrabold tracking-tight opacity-[0.12] ${
+                        categoryColors[guide.category] || "text-accent"
+                      }`}
+                      aria-hidden="true"
+                    >
+                      {guide.title.charAt(0).toUpperCase()}
+                    </span>
+                  </div>
                 )}
               </div>
-              <h2 className="text-base font-bold leading-snug mb-2 group-hover:text-accent transition-colors">
-                {guide.title}
-              </h2>
-              <p className="text-sm text-muted leading-relaxed line-clamp-2">
-                {guide.description}
-              </p>
-              <div className="flex flex-wrap gap-1.5 mt-4">
-                {guide.tags.slice(0, 3).map((tag) => (
+              <div className="p-6">
+                <div className="flex items-center gap-3 mb-3">
                   <span
-                    key={tag}
-                    className={`px-2 py-0.5 rounded-full text-[10px] text-muted bg-bg border ${
-                      categoryBorders[guide.category] || "border-border"
+                    className={`text-[10px] font-bold tracking-[1.5px] uppercase ${
+                      categoryColors[guide.category] || "text-accent"
                     }`}
                   >
-                    {tag}
+                    {guide.categoryLabel}
                   </span>
-                ))}
+                  <span className="text-[10px] text-muted">{guide.readTime}</span>
+                  {guide.isNew && (
+                    <span className="px-1.5 py-0.5 rounded-md text-[9px] font-bold tracking-wide uppercase bg-accent/15 text-accent border border-accent/25">
+                      New
+                    </span>
+                  )}
+                </div>
+                <h2 className="text-base font-bold leading-snug mb-2 group-hover:text-accent transition-colors">
+                  {guide.title}
+                </h2>
+                <p className="text-sm text-muted leading-relaxed line-clamp-2">
+                  {guide.description}
+                </p>
+                <div className="flex flex-wrap gap-1.5 mt-4">
+                  {guide.tags.slice(0, 3).map((tag) => (
+                    <span
+                      key={tag}
+                      className={`px-2 py-0.5 rounded-full text-[10px] text-muted bg-bg border ${
+                        categoryBorders[guide.category] || "border-border"
+                      }`}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </Link>
           ))}

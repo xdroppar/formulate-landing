@@ -9,6 +9,7 @@ import { RelatedGuides } from "@/components/related-guides";
 import { RelatedInteractions } from "@/components/related-interactions";
 import { TableOfContents } from "@/components/table-of-contents";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { TrackedDownloadLink } from "@/components/tracked-download-link";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -239,12 +240,13 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
             >
               Browse Supplement Scores
             </a>
-            <Link
+            <TrackedDownloadLink
               href="/download"
+              source={`guide_cta:${guide.slug}`}
               className="px-6 py-3 rounded-xl text-sm font-semibold text-muted hover:text-text transition-all"
             >
               Or download the desktop app →
-            </Link>
+            </TrackedDownloadLink>
           </div>
         </div>
 

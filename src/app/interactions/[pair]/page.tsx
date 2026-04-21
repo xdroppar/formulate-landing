@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { InteractionCard } from "@/components/interaction-card";
+import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import {
   SEVERITY_META,
   checkPair,
@@ -246,12 +247,13 @@ export default async function PairPage({ params }: { params: Params }) {
           >
             Open the checker
           </Link>
-          <Link
+          <TrackedDownloadLink
             href="/download"
+            source={`interaction_pair:${pair}`}
             className="px-4 py-2 rounded-lg border border-border text-text font-semibold text-sm hover:border-accent transition-colors"
           >
             Get the desktop app
-          </Link>
+          </TrackedDownloadLink>
         </div>
       </section>
 

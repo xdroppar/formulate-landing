@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import { usePathname } from "next/navigation";
 import { withUtm } from "@/lib/app-url";
+import { trackEvent } from "@/lib/analytics";
 
 export function Nav() {
   const pathname = usePathname();
@@ -62,7 +63,11 @@ export function Nav() {
             <Link href="/about" className={linkClass("/about")}>
               About
             </Link>
-            <Link href="/download" className={linkClass("/download")}>
+            <Link
+              href="/download"
+              className={linkClass("/download")}
+              onClick={() => trackEvent("download_click", { source: "nav_desktop" })}
+            >
               Download
             </Link>
           </div>
@@ -106,7 +111,12 @@ export function Nav() {
             <Link href="/about" onClick={() => setOpen(false)} className={`${linkClass("/about")} py-1`} role="menuitem">
               About
             </Link>
-            <Link href="/download" onClick={() => setOpen(false)} className={`${linkClass("/download")} py-1`} role="menuitem">
+            <Link
+              href="/download"
+              onClick={() => { setOpen(false); trackEvent("download_click", { source: "nav_mobile" }); }}
+              className={`${linkClass("/download")} py-1`}
+              role="menuitem"
+            >
               Download
             </Link>
           </div>
