@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Formulate — Every Supplement Scored Against Clinical Research",
+    default: "Formulate Health — Every Supplement Scored Against Clinical Research",
     template: "%s | Formulate",
   },
   description:
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://formulate-health.app"),
   alternates: { canonical: "https://formulate-health.app" },
   openGraph: {
-    title: "Formulate — Every Supplement Scored Against Clinical Research",
+    title: "Formulate Health — Every Supplement Scored Against Clinical Research",
     description:
       "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
     url: "https://formulate-health.app",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Formulate — Every Supplement Scored Against Clinical Research",
+    title: "Formulate Health — Every Supplement Scored Against Clinical Research",
     description:
       "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
   },
