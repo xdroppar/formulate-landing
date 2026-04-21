@@ -2,7 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    unoptimized: false,
+    // Vercel's image optimizer is metered (1k source images/mo on Hobby).
+    // The desktop image pipeline already emits pre-optimized WebP + thumbs,
+    // so routing through /_next/image just burns quota and returns 402s
+    // once exhausted. Serve the files directly instead.
+    unoptimized: true,
   },
 
   /**
