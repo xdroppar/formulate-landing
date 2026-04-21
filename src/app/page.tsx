@@ -48,7 +48,7 @@ export default function Home() {
               source="landing_hero"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
-              Download Desktop App
+              Install Formulate · Free
             </TrackedDownloadLink>
           </div>
           <span className="text-[13px] text-muted/60">Free forever. No account required to browse.</span>
@@ -195,7 +195,7 @@ export default function Home() {
       <Reveal>
         <div className="max-w-[1000px] mx-auto px-6 pb-24">
           <p className="text-center text-xs font-bold tracking-[2px] uppercase text-muted/60 mb-8">Brands we score</p>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { name: "Momentous", src: "/images/brands/momentous.png" },
               { name: "Transparent Labs", src: "/images/brands/transparent-labs.png" },
@@ -205,10 +205,6 @@ export default function Home() {
               { name: "Garden of Life", src: "/images/brands/garden-of-life.png" },
               { name: "Jarrow Formulas", src: "/images/brands/jarrow-formulas.png" },
               { name: "Solgar", src: "/images/brands/solgar.png" },
-              { name: "Nature Made", src: "/images/brands/nature-made.png" },
-              { name: "Doctor's Best", src: "/images/brands/doctors-best.png" },
-              { name: "Sports Research", src: "/images/brands/sports-research.png" },
-              { name: "Cymbiotika", src: "/images/brands/cymbiotika.png" },
             ].map((brand) => (
               <div key={brand.name} className="group flex flex-col items-center gap-3 rounded-xl bg-surface border border-border hover:border-accent/30 transition-all py-4 px-3">
                 <div className="h-10 flex items-center justify-center">
