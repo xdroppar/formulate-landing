@@ -4,18 +4,39 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { trackEvent } from "@/lib/analytics";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// Prod fallback, not localhost — if NEXT_PUBLIC_API_URL is ever missing in a
+// Vercel build the download page would otherwise spin forever for real users.
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL || "https://formulate-api.onrender.com";
+const WEB_APP_URL = "https://app.formulate-health.app";
 
 interface DownloadInfo {
   download_url: string;
   version?: string;
 }
 
+type Platform = "windows" | "mac" | "linux" | "ios" | "android" | "unknown";
+
+function detectPlatform(): Platform {
+  if (typeof navigator === "undefined") return "unknown";
+  const ua = navigator.userAgent || "";
+  if (/iPhone|iPad|iPod/i.test(ua)) return "ios";
+  if (/Android/i.test(ua)) return "android";
+  if (/Mac/i.test(ua)) return "mac";
+  if (/Linux|CrOS/i.test(ua)) return "linux";
+  if (/Win/i.test(ua)) return "windows";
+  return "unknown";
+}
+
 export function DownloadClient() {
   const [downloadInfo, setDownloadInfo] = useState<DownloadInfo | null>(null);
   const [loading, setLoading] = useState(true);
+  const [platform, setPlatform] = useState<Platform>("unknown");
 
   useEffect(() => {
+    const p = detectPlatform();
+    setPlatform(p);
+    trackEvent("download_page_os_detected", { platform: p });
     fetchLatestRelease();
   }, []);
 
@@ -48,6 +69,16 @@ export function DownloadClient() {
     );
   }
 
+  const isNonWindows = platform !== "windows" && platform !== "unknown";
+  const platformLabel =
+    platform === "mac" ? "macOS"
+    : platform === "linux" ? "Linux"
+    : platform === "ios" ? "iPhone/iPad"
+    : platform === "android" ? "Android"
+    : "";
+
+  const webAppHref = `${WEB_APP_URL}?utm_source=download_page&utm_medium=landing&utm_campaign=non_windows_fallback&utm_content=${platform}`;
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-16">
       <div className="w-full max-w-lg text-center flex flex-col items-center gap-8">
@@ -62,6 +93,42 @@ export function DownloadClient() {
             The full desktop experience — deeper analysis, personal stack tracking, and your complete supplement dashboard.
           </p>
         </div>
+
+        {/* Non-Windows alternative panel */}
+        {isNonWindows && (
+          <div className="w-full rounded-2xl border border-accent/40 bg-accent/5 p-6 text-left">
+            <p className="text-xs font-semibold uppercase tracking-wider text-accent mb-2">
+              You&apos;re on {platformLabel}
+            </p>
+            <h2 className="text-lg font-bold text-text mb-2">
+              Use Formulate in your browser — no install needed
+            </h2>
+            <p className="text-sm text-muted mb-4 leading-relaxed">
+              The desktop app is Windows-only for now. The web app has the same
+              supplement scores, stack builder, and encyclopedia — runs anywhere,
+              free, no account required to browse.
+            </p>
+            <a
+              href={webAppHref}
+              onClick={() =>
+                trackEvent("web_app_cta_click", {
+                  source: "download_non_windows",
+                  platform,
+                })
+              }
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-bold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+            >
+              Open the web app
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <p className="text-[11px] text-muted/70 mt-3">
+              A native {platformLabel} build may come later — for now, the web
+              app is the full experience.
+            </p>
+          </div>
+        )}
 
         {downloadInfo && (
           <a
@@ -127,7 +194,13 @@ export function DownloadClient() {
         <p className="text-sm text-muted">
           Don&apos;t want to install?{" "}
           <a
-            href="https://app.formulate-health.app?utm_source=download_page&utm_medium=landing&utm_campaign=download_fallback"
+            href={`${WEB_APP_URL}?utm_source=download_page&utm_medium=landing&utm_campaign=download_fallback&utm_content=${platform}`}
+            onClick={() =>
+              trackEvent("web_app_cta_click", {
+                source: "download_bottom",
+                platform,
+              })
+            }
             className="text-accent hover:underline font-medium"
           >
             Use the web app
