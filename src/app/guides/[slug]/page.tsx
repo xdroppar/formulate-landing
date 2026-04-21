@@ -65,6 +65,7 @@ import { BestSupplementsForMenopause } from "./content/best-supplements-for-meno
 import { BestSupplementsForFattyLiver } from "./content/best-supplements-for-fatty-liver";
 import { BestSupplementsForAdhdFocus } from "./content/best-supplements-for-adhd-focus";
 import { BestSupplementsForRunners } from "./content/best-supplements-for-runners";
+import { BestThorneSupplements } from "./content/best-thorne-supplements";
 import { BestSupplementsForPerimenopause } from "./content/best-supplements-for-perimenopause";
 
 const contentMap: Record<string, React.ComponentType> = {
@@ -129,6 +130,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-supplements-for-fatty-liver": BestSupplementsForFattyLiver,
   "best-supplements-for-adhd-focus": BestSupplementsForAdhdFocus,
   "best-supplements-for-runners": BestSupplementsForRunners,
+  "best-thorne-supplements": BestThorneSupplements,
   "best-supplements-for-perimenopause": BestSupplementsForPerimenopause,
 };
 

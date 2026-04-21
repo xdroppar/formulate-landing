@@ -32,6 +32,20 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "best-thorne-supplements",
+    title: "Best Thorne Supplements 2026: The Top 12, Ranked by Score",
+    description:
+      "12 Thorne supplements scored A or B on Formulate's ingredient-level rubric. Creatine, Vitamin D-5,000, Magnesium Bisglycinate, and Super EPA Pro lead — plus where Thorne doesn't win.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "12 min read",
+    tags: ["Thorne", "Brand Review", "Roundup", "Quality"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=thorne",
+    isNew: true,
+  },
+  {
     slug: "best-creatine-supplements",
     title: "Best Creatine Supplements 2026, Ranked by Evidence",
     description:
