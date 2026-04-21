@@ -8,6 +8,7 @@ import {
   productBySlug,
   relatedProducts,
   scoreGrade,
+  thumbUrl,
   formatIngredientAmount,
   type Product,
 } from "@/lib/products";
@@ -499,7 +500,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
                     {r.image_url && (
                       <div className="relative w-12 h-12 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
                         <Image
-                          src={r.image_url}
+                          src={thumbUrl(r) ?? r.image_url}
                           alt=""
                           fill
                           sizes="48px"

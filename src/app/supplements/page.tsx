@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { products, scoreGrade, type Product } from "@/lib/products";
+import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
 
 const BASE = "https://formulate-health.app";
 
@@ -95,7 +95,7 @@ export default function SupplementsHub() {
                   {p.image_url ? (
                     <div className="relative w-14 h-14 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
                       <Image
-                        src={p.image_url}
+                        src={thumbUrl(p) ?? p.image_url}
                         alt=""
                         fill
                         sizes="56px"

@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import catalogData from "@/data/catalog.json";
 
 export type ScoreComponent = {
@@ -75,6 +77,32 @@ const bySlug = new Map(products.map((p) => [p.slug, p]));
 
 export function productBySlug(slug: string): Product | undefined {
   return bySlug.get(slug);
+}
+
+// Precomputed at module load (server-side, SSG). Maps image_url → thumb variant
+// when a thumb.webp sits on disk next to the primary. `unoptimized: true` in
+// next.config.ts disables Next/Vercel's image resizer, so card-sized surfaces
+// must reference the pre-generated ~256px thumb to avoid shipping full-size
+// product photography (often 4000×4000) for a 140px card.
+const thumbBySrc: Map<string, string> = (() => {
+  const map = new Map<string, string>();
+  const publicDir = join(process.cwd(), "public");
+  for (const p of products) {
+    if (!p.image_url) continue;
+    const candidate = p.image_url.replace(/\/primary\.webp$/, "/thumb.webp");
+    if (candidate === p.image_url) continue;
+    try {
+      if (existsSync(join(publicDir, candidate))) map.set(p.image_url, candidate);
+    } catch {
+      // fs unavailable (e.g. accidental client bundle) — fall back to primary
+    }
+  }
+  return map;
+})();
+
+export function thumbUrl(p: Product): string | null {
+  if (!p.image_url) return null;
+  return thumbBySrc.get(p.image_url) ?? p.image_url;
 }
 
 export function productsByCategory(category: string): Product[] {

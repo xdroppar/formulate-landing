@@ -81,8 +81,8 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
               {[
-                { score: 94, name: "Creatine Monohydrate", brand: "Thorne", hex: "#10B981", img: "/images/products/thorne/thorne-creatine/primary.webp", slug: "thorne-creatine" },
-                { score: 88, name: "Magnesium Bisglycinate", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-magnesium-bisglycinate/primary.webp", slug: "thorne-magnesium-bisglycinate" },
+                { score: 94, name: "Creatine Monohydrate", brand: "Thorne", hex: "#10B981", img: "/images/products/thorne/thorne-creatine/thumb.webp", slug: "thorne-creatine" },
+                { score: 88, name: "Magnesium Bisglycinate", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-magnesium-bisglycinate/thumb.webp", slug: "thorne-magnesium-bisglycinate" },
                 { score: 82, name: "Vitamin D 5,000 IU", brand: "Thorne", hex: "#3B82F6", img: "/images/products/thorne/thorne-vitamin-d-5000/primary.webp", slug: "thorne-vitamin-d-5000" },
                 { score: 73, name: "Tongkat Ali 10%", brand: "Nootropics Depot", hex: "#F59E0B", img: "/images/products/nootropics-depot/tongkat-ali/primary.jpg", slug: "nootropics-depot-tongkat-ali" },
                 { score: 85, name: "L-Theanine", brand: "Nootropics Depot", hex: "#3B82F6", img: "/images/products/nootropics-depot/l-theanine/primary.jpg", slug: "nootropics-depot-l-theanine" },
@@ -277,7 +277,7 @@ export default function Home() {
             {/* Product header */}
             <div className="flex flex-col sm:flex-row items-center gap-6 p-6 md:p-8 border-b border-border">
               <div className="w-20 h-20 rounded-xl bg-surface2 flex items-center justify-center flex-shrink-0">
-                <Image src="/images/products/thorne/thorne-creatine/primary.webp" alt="Creatine Monohydrate" width={64} height={64} className="object-contain" />
+                <Image src="/images/products/thorne/thorne-creatine/thumb.webp" alt="Creatine Monohydrate" width={64} height={64} className="object-contain" />
               </div>
               <div className="flex-1 text-center sm:text-left">
                 <div className="text-lg font-bold">Creatine Monohydrate</div>
