@@ -69,6 +69,63 @@ export default function PrivacyPage() {
           </ul>
         </section>
 
+        <section id="consumer-health-data">
+          <h2 className="text-lg font-bold text-text mb-3">Consumer Health Data</h2>
+          <p className="mb-3">
+            The health profile you fill out in Formulate — goals, conditions,
+            medications, dietary preferences, genetic variants, and related
+            fields — is <span className="text-text font-medium">consumer health data</span> under
+            Washington&apos;s My Health My Data Act and similar state laws.
+          </p>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              We use this data <span className="text-text font-medium">only</span> to personalize
+              supplement scores, flag potential interactions, and tailor
+              recommendations within your account.
+            </li>
+            <li>
+              We do not sell consumer health data. We do not share it with
+              advertisers, supplement brands, or data brokers.
+            </li>
+            <li>
+              Consumer health data is encrypted at rest and in transit. Only
+              you — and our minimal set of engineering staff, strictly for
+              support requests you initiate — can access it.
+            </li>
+            <li>
+              You can view, export, or delete your consumer health data at any
+              time from Settings → Delete My Account, or by emailing{" "}
+              <span className="text-accent">privacy@formulate-health.app</span>.
+            </li>
+          </ul>
+        </section>
+
+        <section id="your-privacy-choices">
+          <h2 className="text-lg font-bold text-text mb-3">Your Privacy Choices</h2>
+          <p className="mb-3">You can control how Formulate handles your data at any time:</p>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <span className="text-text font-medium">Opt out of anonymous analytics</span> —
+              Settings → Privacy & Data.
+            </li>
+            <li>
+              <span className="text-text font-medium">Turn off marketing emails and push notifications</span> —
+              Account → Notifications.
+            </li>
+            <li>
+              <span className="text-text font-medium">Export or delete your data</span> —
+              Settings → Danger Zone, or email us.
+            </li>
+            <li>
+              <span className="text-text font-medium">Do Not Sell / Share</span> — we do not
+              sell or share personal information for cross-context behavioral
+              advertising. No opt-out is needed, but you can confirm this
+              preference by emailing{" "}
+              <span className="text-accent">privacy@formulate-health.app</span>.
+            </li>
+          </ul>
+        </section>
+
         <section>
           <h2 className="text-lg font-bold text-text mb-3">Data Deletion</h2>
           <p>
