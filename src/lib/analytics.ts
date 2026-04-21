@@ -141,6 +141,47 @@ function withAttribution(props: EventProps | undefined): EventProps {
   return out;
 }
 
+type BuyDestination = "amazon" | "iherb" | "official" | "other";
+
+export function classifyBuyDestination(url: string | null | undefined): BuyDestination {
+  if (!url) return "other";
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    if (host.includes("amazon") || host.endsWith("amzn.to")) return "amazon";
+    if (host.includes("iherb")) return "iherb";
+    return "official";
+  } catch {
+    return "other";
+  }
+}
+
+/**
+ * Fire a buy_click event for an outbound affiliate click. Call at every
+ * "Buy on X" / "Shop" site so we can measure intent toward the Amazon
+ * Associates 3-sale requirement.
+ */
+export function trackBuyClick(params: {
+  url: string | null | undefined;
+  source: string;
+  product_slug?: string | null;
+  product_id?: string | null;
+}): void {
+  const destination = classifyBuyDestination(params.url);
+  let host: string | null = null;
+  try {
+    if (params.url) host = new URL(params.url).hostname.toLowerCase();
+  } catch {
+    host = null;
+  }
+  trackEvent("buy_click", {
+    source: params.source,
+    destination,
+    host,
+    product_slug: params.product_slug ?? null,
+    product_id: params.product_id ?? null,
+  });
+}
+
 export function trackEvent(name: string, properties?: EventProps): void {
   if (typeof window === "undefined") return;
 
