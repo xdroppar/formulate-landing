@@ -1,0 +1,167 @@
+{
+  "pair": {
+    "a": "ashwagandha",
+    "b": "thyroid medication"
+  },
+  "searches_performed": [
+    {
+      "database": "pubmed",
+      "query": "ashwagandha levothyroxine thyroid interaction case report thyrotoxicosis",
+      "date_run": "2026-04-21",
+      "results_count": 10,
+      "notes": "Surfaced 2 primary case reports (2005, 2022), 1 RCT in bipolar (2014), 1 RCT in subclinical hypothyroid (2018), plus painless thyroiditis case (2024)."
+    },
+    {
+      "database": "pubmed",
+      "query": "Withania somnifera thyroid hormone T3 T4 randomized controlled trial hyperthyroid",
+      "date_run": "2026-04-21",
+      "results_count": 10,
+      "notes": "Sharma 2018 RCT (N=50 subclinical hypothyroid) and Gannon 2014 RCT (N=60 bipolar) are the only human RCTs with thyroid endpoints."
+    },
+    {
+      "database": "msk",
+      "query": "ashwagandha monograph",
+      "date_run": "2026-04-21",
+      "results_count": 1,
+      "notes": "Memorial Sloan Kettering integrative-medicine monograph. Notes thyrotoxicosis case reports and CYP3A4 induction."
+    }
+  ],
+  "searches_with_no_results": [
+    {
+      "database": "pubmed",
+      "query": "ashwagandha levothyroxine AND randomized controlled trial[Publication Type]",
+      "date_run": "2026-04-21",
+      "notes": "No RCT has directly co-administered ashwagandha + levothyroxine. All interaction evidence is either (a) ashwagandha-alone RCTs showing thyroid-stimulating effect, or (b) case reports of thyrotoxicosis on ashwagandha."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "case-report",
+      "pmid": "",
+      "doi": "10.7759/cureus.23325",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035336/",
+      "title": "Ashwagandha as a Unique Cause of Thyrotoxicosis Presenting with Supraventricular Tachycardia",
+      "year": 2022,
+      "n_humans": 1,
+      "population": "73-year-old female; prior primary hypothyroidism, off levothyroxine for 2 years before presentation; self-administered ashwagandha for 2 years",
+      "design_notes": "Single-patient case report. TSH <0.01 at presentation, normalized to 3.49 at 2 weeks and 4.31 at 5 weeks post-discontinuation. Free T4 trended down from 0.87 to 0.7; Free T3 from missing to 2.20.",
+      "key_findings": "Patient presented with supraventricular tachycardia and biochemical thyrotoxicosis after two years of self-administered ashwagandha. Full symptomatic and biochemical resolution after cessation, with no other intervention.",
+      "limitations": "Single case. Dose not specified. Confounders: prior thyroid disease history, possible contamination of supplement with exogenous T3/T4 (authors explicitly note this alternative mechanism).",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "low"
+    },
+    {
+      "id": "S2",
+      "type": "rct",
+      "pmid": "25624699",
+      "doi": "10.4103/0975-9476.146554",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4296437/",
+      "title": "Subtle changes in thyroid indices during a placebo-controlled study of an extract of Withania somnifera in persons with bipolar disorder",
+      "year": 2014,
+      "n_humans": 60,
+      "population": "Adults with bipolar disorder (I, II, NOS) on stable mood-stabilizing medications; 10 of 60 had measurable thyroid changes (3 ashwagandha, 7 placebo)",
+      "design_notes": "Randomized, double-blind, placebo-controlled. 500 mg/day standardized extract (Sensoril) for 8 weeks. Thyroid function was a secondary safety endpoint, not primary.",
+      "key_findings": "All 3 ashwagandha patients with thyroid changes had Free T4 increases of 7%, 12.1%, and 23.7% from baseline. 6 of 7 placebo patients had T4 decreases (3.9-23.3%). Between-group difference was not statistically significant, but direction of effect was consistent.",
+      "limitations": "Underpowered for thyroid endpoint (N=3 active arm with measurable changes). Not conducted in patients on levothyroxine. Not a primary outcome.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "rct",
+      "pmid": "28829155",
+      "doi": "10.1089/acm.2017.0183",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28829155/",
+      "title": "Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients: A Double-Blind, Randomized Placebo-Controlled Trial",
+      "year": 2018,
+      "n_humans": 50,
+      "population": "Adults 18-50 with subclinical hypothyroidism (TSH 4.5-10 microIU/L); 46 completed, 4 withdrew",
+      "design_notes": "Double-blind, randomized, placebo-controlled pilot. 600 mg/day ashwagandha root extract vs starch placebo for 8 weeks. TSH, T3, T4 were primary endpoints.",
+      "key_findings": "TSH decreased significantly (p<0.001); T3 increased significantly (p=0.0031); T4 increased significantly (p=0.0096). Direction of effect consistent with thyroid-stimulating action of ashwagandha.",
+      "limitations": "Single-site pilot, N=50. Population was subclinical hypothyroid patients NOT taking levothyroxine, so extrapolation to co-administration with thyroid medication is inference, not direct evidence.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S4",
+      "type": "monograph",
+      "pmid": "",
+      "doi": "",
+      "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha",
+      "title": "Memorial Sloan Kettering Integrative Medicine Monograph: Ashwagandha",
+      "year": 2026,
+      "n_humans": null,
+      "population": "Monograph synthesis",
+      "design_notes": "Physician-authored integrative-medicine review. Cites multiple thyrotoxicosis case reports.",
+      "key_findings": "Documents thyrotoxicosis case reports associated with ashwagandha use. States ashwagandha may increase thyroxine levels. Also notes CYP3A4 induction (moderate) and sedative-additive effects. Does not give a hard avoid-with-levothyroxine warning but flags thyroid monitoring.",
+      "limitations": "Not primary research. Reflects expert synthesis.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "Ashwagandha has a thyroid-stimulating effect in humans, measurable as increased T3/T4 and decreased TSH.",
+      "supporting_source_ids": ["S2", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["adults with subclinical hypothyroidism (S3)", "adults with bipolar disorder (S2)"],
+      "population_exclusions": ["pregnancy: not studied", "pediatrics: not studied", "patients on levothyroxine: not studied"],
+      "dose_threshold": {
+        "a": "Effect seen at 500 mg/day (Sensoril, S2) and 600 mg/day (root extract, S3) over 8 weeks. Lower-dose effects not established.",
+        "b": "Not applicable (B is a class of medications, not a single drug with threshold)",
+        "notes": "A consistent effect below 500 mg/day has not been demonstrated in RCTs."
+      }
+    },
+    {
+      "claim_id": "C2",
+      "statement": "Combining ashwagandha with thyroid hormone replacement (e.g. levothyroxine) can produce clinical thyrotoxicosis.",
+      "supporting_source_ids": ["S1", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "weak",
+      "population_scope": ["patients with prior thyroid disease on or formerly on replacement (case reports only)"],
+      "population_exclusions": ["healthy adults: no direct co-administration RCT"],
+      "dose_threshold": {
+        "a": "In S1, dose was not specified but was chronic daily use over 2 years.",
+        "b": "Any levothyroxine dose — the concern is additive effect on circulating T4/T3.",
+        "notes": "No RCT has tested co-administration directly. Case-report-level evidence only for the direct combination."
+      }
+    },
+    {
+      "claim_id": "C3",
+      "statement": "Patients on levothyroxine or antithyroid medication who add ashwagandha should have thyroid function retested within 4-8 weeks of starting the supplement.",
+      "supporting_source_ids": ["S3", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["adults on thyroid medication"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Any dose sold at 500 mg/day or higher warrants monitoring; lower-dose effects uncertain.",
+        "b": "Applies to any thyroid medication.",
+        "notes": "8 weeks is the duration over which S2 and S3 demonstrated measurable biochemical change."
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Statistical significance in bipolar population",
+      "source_ids": ["S2"],
+      "resolution": "Gannon 2014 (S2) explicitly states the between-group thyroid changes were NOT statistically significant. We softened the claim language to reflect direction of effect rather than demonstrated effect in that population. The significant effect is restricted to the subclinical-hypothyroid population in S3."
+    },
+    {
+      "topic": "Healthy-adult safety study showed no thyroid effect",
+      "source_ids": [],
+      "resolution": "A separate safety study (Langade, 80 healthy volunteers, 300 mg BID x 8 weeks) found no significant thyroid changes. This supports the interpretation that effect magnitude depends on baseline thyroid state — largest in subclinical hypothyroid, smaller in healthy. Not fetched as a formal source because it doesn't change the interaction conclusion, but noted here for completeness."
+    }
+  ],
+  "final_severity_proposed": "warning",
+  "final_interaction_type_proposed": "potentiation",
+  "reviewer_notes": "Original INTERACTIONS entry was severity=DANGER with 14 words and 0 specific sources. After adversarial review, severity downgraded to WARNING: (1) no RCT directly tests co-administration; (2) thyrotoxicosis is reversible on discontinuation in all known cases; (3) the demonstrated mechanism is gradual thyroid stimulation, not acute toxicity. DANGER should be reserved for combinations with documented non-reversible harm or emergency presentations. WARNING correctly conveys meaningful clinical impact, mitigatable with timing/dose/monitoring per the workflow severity definitions.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

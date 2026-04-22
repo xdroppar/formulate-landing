@@ -1,0 +1,100 @@
+{
+  "pair": {"a": "dong quai", "b": "warfarin"},
+  "searches_performed": [
+    {"database": "pubmed", "query": "dong quai warfarin INR bleeding case report coumarin Angelica sinensis interaction", "date_run": "2026-04-21", "results_count": 10, "notes": "Primary evidence: Page 1999 case report. Additional: Chinese-herbal-warfarin reviews + warfarin-herb interaction syntheses."}
+  ],
+  "searches_with_no_results": [
+    {"database": "pubmed", "query": "dong quai warfarin randomized controlled trial", "date_run": "2026-04-21", "notes": "No RCT exists. Evidence is a single case report + animal PK/PD data + mechanism (coumarin content)."}
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "case-report",
+      "pmid": "10417036",
+      "doi": "10.1592/phco.19.10.870.31558",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10417036/",
+      "title": "Potentiation of warfarin by dong quai",
+      "year": 1999,
+      "n_humans": 1,
+      "population": "46-year-old African-American woman with atrial fibrillation, stable on warfarin",
+      "design_notes": "Single case report. Dong quai 565 mg 1-2 times daily for 4 weeks alongside warfarin.",
+      "key_findings": "INR rose from therapeutic range to 4.05, then 4.90 (both greater than 2x baseline). No bleeding events. INR returned to acceptable levels 1 month after discontinuing dong quai. No other changes in diet, medication, or health status were identified.",
+      "limitations": "Single case. Dose not fully standardized (OTC product). Temporal association does not prove causation, though the washout-rechallenge pattern strengthens attribution.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "low"
+    },
+    {
+      "id": "S2",
+      "type": "systematic-review",
+      "pmid": "",
+      "doi": "10.1177/1934578X1400900835",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/1934578X1400900835",
+      "title": "Warfarin Interactions with Medicinal Herbs",
+      "year": 2014,
+      "n_humans": null,
+      "population": "Review of herb-warfarin case reports and PK studies",
+      "design_notes": "Narrative review cataloguing reported interactions.",
+      "key_findings": "Dong quai contains natural coumarin derivatives (ferulic acid, osthole) with documented antithrombotic and platelet-inhibitory effects. Animal steady-state studies show dong quai significantly increased prothrombin time WITHOUT affecting warfarin concentration - suggesting pharmacodynamic (not pharmacokinetic) interaction. Recommends informing patients of the potential hazard.",
+      "limitations": "Narrative synthesis. Limited human data.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "systematic-review",
+      "pmid": "25707010",
+      "doi": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4325561/",
+      "title": "Interaction between warfarin and Chinese herbal medicines",
+      "year": 2015,
+      "n_humans": null,
+      "population": "Review",
+      "design_notes": "Reviews pharmacokinetic and pharmacodynamic interactions of Chinese herbal medicines with warfarin.",
+      "key_findings": "Dong quai listed among Chinese herbal medicines with documented warfarin potentiation via PD mechanism. Recommends caution when combining.",
+      "limitations": "Narrative.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "Dong quai can potentiate warfarin, raising INR and increasing bleeding risk.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "weak",
+      "population_scope": ["warfarin patients"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Case report used 565 mg 1-2x/day. Lower doses not studied.", "b": "Any therapeutic warfarin dose.", "notes": "Single case report + animal data only. No RCT."}
+    },
+    {
+      "claim_id": "C2",
+      "statement": "The proposed mechanism is pharmacodynamic (dong quai coumarin derivatives add to warfarin's anticoagulant effect) rather than pharmacokinetic (warfarin concentration unchanged in animal studies).",
+      "supporting_source_ids": ["S2", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all users"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Mechanism operates at any dose that provides measurable coumarin content.", "b": "Any warfarin dose.", "notes": "Animal PK studies show warfarin concentration unchanged, so PK-based workarounds do not apply."}
+    },
+    {
+      "claim_id": "C3",
+      "statement": "Patients on warfarin should not start dong quai without prescriber approval and INR monitoring.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all warfarin patients"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Any dose.", "b": "Any warfarin dose.", "notes": "INR check within 1-2 weeks of starting."}
+    }
+  ],
+  "contradictions": [],
+  "final_severity_proposed": "warning",
+  "final_interaction_type_proposed": "potentiation",
+  "reviewer_notes": "Original entry was DANGER, 24 words, 1/2 specific. Evidence base is thin (1 case report + animal data + mechanism), so WARNING more honestly reflects certainty level. The interaction is plausible and worth avoiding; not DANGER-tier because only a single reversible case is documented.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

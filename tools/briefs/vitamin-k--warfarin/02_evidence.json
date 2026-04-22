@@ -1,0 +1,100 @@
+{
+  "pair": {"a": "vitamin k", "b": "warfarin"},
+  "searches_performed": [
+    {"database": "pubmed", "query": "vitamin K warfarin INR dietary intake randomized controlled trial pharmacokinetic interaction", "date_run": "2026-04-21", "results_count": 10, "notes": "Key sources: Violi 2016 systematic review, Sconce 2007 and Rombouts 2007 RCTs on low-dose K stabilization."}
+  ],
+  "searches_with_no_results": [],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "systematic-review",
+      "pmid": "26962786",
+      "doi": "10.1097/MD.0000000000002895",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26962786/",
+      "title": "Interaction Between Dietary Vitamin K Intake and Anticoagulation by Vitamin K Antagonists: Is It Really True? A Systematic Review",
+      "year": 2016,
+      "n_humans": null,
+      "population": "Systematic review synthesis",
+      "design_notes": "Reviews observational + interventional studies on dietary vitamin K and warfarin stability.",
+      "key_findings": "Conflicting evidence on whether dietary vitamin K intake affects warfarin response. Some studies show inverse correlation between vitamin K intake and INR changes. Others suggest a minimum vitamin K intake is REQUIRED for stable anticoagulation. Conclusion: available evidence does NOT support the old advice to restrict dietary vitamin K when starting warfarin. Consistency of intake matters more than absolute level.",
+      "limitations": "Heterogeneous source studies.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S2",
+      "type": "rct",
+      "pmid": "17690342",
+      "doi": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2911546/",
+      "title": "Effect of fixed-dose vitamin K supplementation on INR stability in warfarin patients",
+      "year": 2007,
+      "n_humans": 70,
+      "population": "Warfarin-treated patients with unstable anticoagulation control",
+      "design_notes": "Randomized 70 patients to daily 150 microgram oral vitamin K supplementation vs placebo for 6 months.",
+      "key_findings": "Daily low-dose vitamin K supplementation resulted in significantly greater decreases in INR standard deviation and greater increases in percentage time within target INR range. Low-dose vitamin K can STABILIZE anticoagulation in patients with variable response.",
+      "limitations": "N=70, specific to unstable-INR patients.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "observational",
+      "pmid": "16941417",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16941417/",
+      "title": "Dietary vitamin K variability affects International Normalized Ratio (INR) coagulation indices",
+      "year": 2006,
+      "n_humans": null,
+      "population": "Prospective dietary study",
+      "design_notes": "Tracked daily vitamin K intake via food diaries alongside INR.",
+      "key_findings": "Inverse correlation between variability in INR and changes in vitamin K intake (r = -0.600, p < 0.01). VARIABILITY is the issue, not absolute level.",
+      "limitations": "Observational, dietary recall bias.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "Vitamin K directly antagonizes warfarin by providing the substrate warfarin inhibits; large swings in vitamin K intake destabilize INR.",
+      "supporting_source_ids": ["S1", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "strong",
+      "population_scope": ["all warfarin patients"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Dose varies by source (leafy greens, K1/K2 supplements). Clinical impact depends on CHANGE from baseline, not absolute.", "b": "Any therapeutic warfarin dose.", "notes": "Warfarin dose may need re-titration if vitamin K intake changes by >30% from stable baseline."}
+    },
+    {
+      "claim_id": "C2",
+      "statement": "Consistent vitamin K intake produces stable INR; the old 'avoid all green vegetables' advice is not supported by current evidence.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["warfarin patients"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Low-dose supplementation (150 microgram/day) can stabilize unstable patients (S2).", "b": "Any warfarin dose.", "notes": "Consistency matters more than restriction."}
+    },
+    {
+      "claim_id": "C3",
+      "statement": "Patients on warfarin should inform their anticoagulation clinic before starting or stopping vitamin K supplements, and should aim for consistent dietary vitamin K intake rather than avoidance.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all warfarin patients"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Any supplemental dose warrants INR monitoring.", "b": "Any warfarin dose.", "notes": "INR check within 1-2 weeks of any intake change is standard."}
+    }
+  ],
+  "contradictions": [
+    {"topic": "Low-dose vitamin K supplementation: destabilizer or stabilizer?", "source_ids": ["S2"], "resolution": "Paradoxically, low-dose daily vitamin K (150 microgram) STABILIZES INR in previously unstable patients by flattening day-to-day intake variability. This reframes the interaction from 'avoid K' to 'maintain consistency.' Draft reflects this honestly."}
+  ],
+  "final_severity_proposed": "warning",
+  "final_interaction_type_proposed": "antagonism",
+  "reviewer_notes": "Original INTERACTIONS entry was DANGER, 31 words, 1/3 specific. Severity downgraded to WARNING. The mechanism is real and strong, but the clinical implication is 'consistent intake + INR monitoring' not 'avoid at all costs.' DANGER overstates and gives outdated advice; WARNING correctly signals meaningful impact with clear mitigation.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

@@ -1,0 +1,10002 @@
+[
+  {
+    "a": "iron",
+    "b": "magnesium",
+    "tier_a": 88,
+    "tier_b": 100,
+    "freq_a": 9,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 215
+  },
+  {
+    "a": "magnesium",
+    "b": "omega-3",
+    "tier_a": 100,
+    "tier_b": 95,
+    "freq_a": 12,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 210
+  },
+  {
+    "a": "vitamin d",
+    "b": "zinc",
+    "tier_a": 100,
+    "tier_b": 90,
+    "freq_a": 5,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 205
+  },
+  {
+    "a": "iron",
+    "b": "vitamin d",
+    "tier_a": 88,
+    "tier_b": 100,
+    "freq_a": 9,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 203
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin c",
+    "tier_a": 100,
+    "tier_b": 90,
+    "freq_a": 12,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 202
+  },
+  {
+    "a": "vitamin c",
+    "b": "vitamin d",
+    "tier_a": 90,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 202
+  },
+  {
+    "a": "omega-3",
+    "b": "zinc",
+    "tier_a": 95,
+    "tier_b": 90,
+    "freq_a": 5,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 200
+  },
+  {
+    "a": "iron",
+    "b": "omega-3",
+    "tier_a": 88,
+    "tier_b": 95,
+    "freq_a": 9,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 198
+  },
+  {
+    "a": "ashwagandha",
+    "b": "magnesium",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin d",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin b12",
+    "tier_a": 100,
+    "tier_b": 85,
+    "freq_a": 12,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin d",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin c",
+    "tier_a": 95,
+    "tier_b": 90,
+    "freq_a": 5,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "vitamin b12",
+    "b": "vitamin d",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 197
+  },
+  {
+    "a": "caffeine",
+    "b": "magnesium",
+    "tier_a": 90,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 196
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin d",
+    "tier_a": 90,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 196
+  },
+  {
+    "a": "calcium",
+    "b": "omega-3",
+    "tier_a": 85,
+    "tier_b": 95,
+    "freq_a": 7,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 195
+  },
+  {
+    "a": "creatine",
+    "b": "magnesium",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 194
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin d",
+    "tier_a": 85,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 194
+  },
+  {
+    "a": "ashwagandha",
+    "b": "omega-3",
+    "tier_a": 85,
+    "tier_b": 95,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 192
+  },
+  {
+    "a": "melatonin",
+    "b": "omega-3",
+    "tier_a": 85,
+    "tier_b": 95,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 192
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin b12",
+    "tier_a": 95,
+    "tier_b": 85,
+    "freq_a": 5,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 192
+  },
+  {
+    "a": "vitamin c",
+    "b": "zinc",
+    "tier_a": 90,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 192
+  },
+  {
+    "a": "caffeine",
+    "b": "omega-3",
+    "tier_a": 90,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 191
+  },
+  {
+    "a": "creatine",
+    "b": "omega-3",
+    "tier_a": 85,
+    "tier_b": 95,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 189
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin c",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "ashwagandha",
+    "b": "zinc",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin c",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin c",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "melatonin",
+    "b": "zinc",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "vitamin b12",
+    "b": "zinc",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 187
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin c",
+    "tier_a": 90,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 186
+  },
+  {
+    "a": "caffeine",
+    "b": "zinc",
+    "tier_a": 90,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 186
+  },
+  {
+    "a": "curcumin",
+    "b": "magnesium",
+    "tier_a": 80,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 186
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin d",
+    "tier_a": 80,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 186
+  },
+  {
+    "a": "ashwagandha",
+    "b": "iron",
+    "tier_a": 85,
+    "tier_b": 88,
+    "freq_a": 4,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 185
+  },
+  {
+    "a": "iron",
+    "b": "melatonin",
+    "tier_a": 88,
+    "tier_b": 85,
+    "freq_a": 9,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 185
+  },
+  {
+    "a": "iron",
+    "b": "vitamin b12",
+    "tier_a": 88,
+    "tier_b": 85,
+    "freq_a": 9,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 185
+  },
+  {
+    "a": "caffeine",
+    "b": "iron",
+    "tier_a": 90,
+    "tier_b": 88,
+    "freq_a": 2,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 184
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin c",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 184
+  },
+  {
+    "a": "creatine",
+    "b": "zinc",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 184
+  },
+  {
+    "a": "collagen",
+    "b": "magnesium",
+    "tier_a": 80,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 183
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin d",
+    "tier_a": 80,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 183
+  },
+  {
+    "a": "magnesium",
+    "b": "probiotics",
+    "tier_a": 100,
+    "tier_b": 80,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 183
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin d",
+    "tier_a": 80,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 183
+  },
+  {
+    "a": "ashwagandha",
+    "b": "calcium",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 7,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "ashwagandha",
+    "b": "melatonin",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin b12",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "calcium",
+    "b": "melatonin",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin b12",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "creatine",
+    "b": "iron",
+    "tier_a": 85,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin b12",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 182
+  },
+  {
+    "a": "ashwagandha",
+    "b": "caffeine",
+    "tier_a": 85,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 181
+  },
+  {
+    "a": "caffeine",
+    "b": "calcium",
+    "tier_a": 90,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 7,
+    "is_medication_pair": false,
+    "score": 181
+  },
+  {
+    "a": "caffeine",
+    "b": "melatonin",
+    "tier_a": 90,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 181
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin b12",
+    "tier_a": 90,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 181
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin d",
+    "tier_a": 75,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 181
+  },
+  {
+    "a": "ashwagandha",
+    "b": "creatine",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "calcium",
+    "b": "creatine",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 7,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "coq10",
+    "b": "magnesium",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin d",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "creatine",
+    "b": "melatonin",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin b12",
+    "tier_a": 85,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "magnesium",
+    "b": "st johns wort",
+    "tier_a": 100,
+    "tier_b": 70,
+    "freq_a": 12,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "magnesium",
+    "b": "warfarin",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 179
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin d",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 179
+  },
+  {
+    "a": "berberine",
+    "b": "magnesium",
+    "tier_a": 75,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin d",
+    "tier_a": 75,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "collagen",
+    "b": "omega-3",
+    "tier_a": 80,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "l-theanine",
+    "b": "magnesium",
+    "tier_a": 75,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin d",
+    "tier_a": 75,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "omega-3",
+    "b": "probiotics",
+    "tier_a": 95,
+    "tier_b": 80,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 178
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin e",
+    "tier_a": 100,
+    "tier_b": 65,
+    "freq_a": 12,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 177
+  },
+  {
+    "a": "vitamin d",
+    "b": "vitamin e",
+    "tier_a": 100,
+    "tier_b": 65,
+    "freq_a": 5,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 177
+  },
+  {
+    "a": "caffeine",
+    "b": "curcumin",
+    "tier_a": 90,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "omega-3",
+    "tier_a": 75,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin c",
+    "tier_a": 80,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "curcumin",
+    "b": "zinc",
+    "tier_a": 80,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "magnesium",
+    "b": "nac",
+    "tier_a": 100,
+    "tier_b": 70,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin k2",
+    "tier_a": 100,
+    "tier_b": 70,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "nac",
+    "b": "vitamin d",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 176
+  },
+  {
+    "a": "5-htp",
+    "b": "magnesium",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 174
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 174
+  },
+  {
+    "a": "coq10",
+    "b": "omega-3",
+    "tier_a": 70,
+    "tier_b": 95,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 174
+  },
+  {
+    "a": "curcumin",
+    "b": "iron",
+    "tier_a": 80,
+    "tier_b": 88,
+    "freq_a": 2,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 174
+  },
+  {
+    "a": "omega-3",
+    "b": "st johns wort",
+    "tier_a": 95,
+    "tier_b": 70,
+    "freq_a": 5,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 174
+  },
+  {
+    "a": "berberine",
+    "b": "omega-3",
+    "tier_a": 75,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "caffeine",
+    "b": "collagen",
+    "tier_a": 90,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "caffeine",
+    "b": "probiotics",
+    "tier_a": 90,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "collagen",
+    "b": "zinc",
+    "tier_a": 80,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "folate",
+    "b": "magnesium",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "folate",
+    "b": "vitamin d",
+    "tier_a": 70,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "l-theanine",
+    "b": "omega-3",
+    "tier_a": 75,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "magnesium",
+    "b": "ssri",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 173
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin c",
+    "tier_a": 80,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "probiotics",
+    "b": "zinc",
+    "tier_a": 80,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 173
+  },
+  {
+    "a": "ashwagandha",
+    "b": "curcumin",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "caffeine",
+    "b": "calcium channel blockers",
+    "tier_a": 90,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "calcium",
+    "b": "curcumin",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin c",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "zinc",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "collagen",
+    "b": "iron",
+    "tier_a": 80,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "creatine",
+    "b": "curcumin",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "curcumin",
+    "b": "melatonin",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin b12",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "iron",
+    "b": "probiotics",
+    "tier_a": 88,
+    "tier_b": 80,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "magnesium",
+    "b": "potassium",
+    "tier_a": 100,
+    "tier_b": 65,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "nac",
+    "b": "omega-3",
+    "tier_a": 70,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin k2",
+    "tier_a": 95,
+    "tier_b": 70,
+    "freq_a": 5,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "potassium",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 171
+  },
+  {
+    "a": "ssri",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 6,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 170
+  },
+  {
+    "a": "thyroid medication",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 7,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 170
+  },
+  {
+    "a": "vitamin d",
+    "b": "warfarin",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 5,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 170
+  },
+  {
+    "a": "5-htp",
+    "b": "omega-3",
+    "tier_a": 65,
+    "tier_b": 95,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "iron",
+    "tier_a": 75,
+    "tier_b": 88,
+    "freq_a": 2,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin c",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "coq10",
+    "b": "zinc",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin c",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "st johns wort",
+    "b": "zinc",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 169
+  },
+  {
+    "a": "ashwagandha",
+    "b": "collagen",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "ashwagandha",
+    "b": "probiotics",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "berberine",
+    "b": "caffeine",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin c",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "berberine",
+    "b": "zinc",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "calcium",
+    "b": "collagen",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "calcium",
+    "b": "probiotics",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "collagen",
+    "b": "creatine",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "collagen",
+    "b": "melatonin",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin b12",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "creatine",
+    "b": "probiotics",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "folate",
+    "b": "omega-3",
+    "tier_a": 70,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "ginger",
+    "b": "magnesium",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "ginger",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "glutathione",
+    "b": "magnesium",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "glutathione",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin c",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "l-theanine",
+    "b": "zinc",
+    "tier_a": 75,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "magnesium",
+    "b": "resveratrol",
+    "tier_a": 100,
+    "tier_b": 65,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "magnesium",
+    "b": "rhodiola",
+    "tier_a": 100,
+    "tier_b": 65,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "melatonin",
+    "b": "probiotics",
+    "tier_a": 85,
+    "tier_b": 80,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin b12",
+    "tier_a": 80,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "resveratrol",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "rhodiola",
+    "b": "vitamin d",
+    "tier_a": 65,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 168
+  },
+  {
+    "a": "coq10",
+    "b": "iron",
+    "tier_a": 70,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 167
+  },
+  {
+    "a": "diabetes medications",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 167
+  },
+  {
+    "a": "diabetes medications",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 167
+  },
+  {
+    "a": "iron",
+    "b": "st johns wort",
+    "tier_a": 88,
+    "tier_b": 70,
+    "freq_a": 9,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 167
+  },
+  {
+    "a": "iron",
+    "b": "warfarin",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 167
+  },
+  {
+    "a": "vitamin c",
+    "b": "vitamin e",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 167
+  },
+  {
+    "a": "vitamin e",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 167
+  },
+  {
+    "a": "ashwagandha",
+    "b": "calcium channel blockers",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "berberine",
+    "b": "iron",
+    "tier_a": 75,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "caffeine",
+    "b": "coq10",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "caffeine",
+    "b": "nac",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "caffeine",
+    "b": "st johns wort",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin k2",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "calcium",
+    "b": "calcium channel blockers",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "creatine",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "melatonin",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin b12",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "iron",
+    "b": "l-theanine",
+    "tier_a": 88,
+    "tier_b": 75,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin a",
+    "tier_a": 100,
+    "tier_b": 60,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "nac",
+    "b": "vitamin c",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "nac",
+    "b": "zinc",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "omega-3",
+    "b": "potassium",
+    "tier_a": 95,
+    "tier_b": 65,
+    "freq_a": 5,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "vitamin a",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "vitamin c",
+    "b": "vitamin k2",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "vitamin k2",
+    "b": "zinc",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 166
+  },
+  {
+    "a": "iron",
+    "b": "vitamin e",
+    "tier_a": 88,
+    "tier_b": 65,
+    "freq_a": 9,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 165
+  },
+  {
+    "a": "omega-3",
+    "b": "ssri",
+    "tier_a": 95,
+    "tier_b": 15,
+    "freq_a": 5,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 165
+  },
+  {
+    "a": "omega-3",
+    "b": "thyroid medication",
+    "tier_a": 95,
+    "tier_b": 15,
+    "freq_a": 5,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 165
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "5-htp",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "ashwagandha",
+    "b": "coq10",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "ashwagandha",
+    "b": "st johns wort",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "aspirin",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "aspirin",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "blood thinners",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "blood thinners",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 164
+  },
+  {
+    "a": "calcium",
+    "b": "coq10",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 7,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "calcium",
+    "b": "st johns wort",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 7,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "coq10",
+    "b": "creatine",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "coq10",
+    "b": "melatonin",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin b12",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "creatine",
+    "b": "st johns wort",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "iron",
+    "b": "nac",
+    "tier_a": 88,
+    "tier_b": 70,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "iron",
+    "b": "vitamin k2",
+    "tier_a": 88,
+    "tier_b": 70,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "magnesium",
+    "b": "quercetin",
+    "tier_a": 100,
+    "tier_b": 55,
+    "freq_a": 12,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "melatonin",
+    "b": "st johns wort",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "quercetin",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin b12",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 164
+  },
+  {
+    "a": "ashwagandha",
+    "b": "berberine",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "ashwagandha",
+    "b": "l-theanine",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "berberine",
+    "b": "calcium",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "berberine",
+    "b": "creatine",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "berberine",
+    "b": "melatonin",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin b12",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "caffeine",
+    "b": "folate",
+    "tier_a": 90,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "calcium",
+    "b": "l-theanine",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "collagen",
+    "b": "curcumin",
+    "tier_a": 80,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "collagen",
+    "b": "probiotics",
+    "tier_a": 80,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "creatine",
+    "b": "l-theanine",
+    "tier_a": 85,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "curcumin",
+    "b": "probiotics",
+    "tier_a": 80,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "echinacea",
+    "b": "magnesium",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "echinacea",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "folate",
+    "b": "vitamin c",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "folate",
+    "b": "zinc",
+    "tier_a": 70,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "garlic",
+    "b": "magnesium",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "garlic",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "ginger",
+    "b": "omega-3",
+    "tier_a": 65,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "glutathione",
+    "b": "omega-3",
+    "tier_a": 65,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "l-theanine",
+    "b": "melatonin",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin b12",
+    "tier_a": 75,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "magnesium",
+    "b": "selenium",
+    "tier_a": 100,
+    "tier_b": 60,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "omega-3",
+    "b": "resveratrol",
+    "tier_a": 95,
+    "tier_b": 65,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "omega-3",
+    "b": "rhodiola",
+    "tier_a": 95,
+    "tier_b": 65,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "selenium",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "ssri",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 6,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 163
+  },
+  {
+    "a": "thyroid medication",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 7,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 163
+  },
+  {
+    "a": "vitamin b6",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 163
+  },
+  {
+    "a": "warfarin",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 8,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 163
+  },
+  {
+    "a": "5-htp",
+    "b": "iron",
+    "tier_a": 65,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 162
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin e",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 162
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin e",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 162
+  },
+  {
+    "a": "diabetes medications",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 4,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 162
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin e",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 162
+  },
+  {
+    "a": "vitamin b12",
+    "b": "vitamin e",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 162
+  },
+  {
+    "a": "5-htp",
+    "b": "caffeine",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "antibiotics",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "antibiotics",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "ashwagandha",
+    "b": "nac",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin k2",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "caffeine",
+    "b": "potassium",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin e",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "calcium",
+    "b": "nac",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin k2",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "calcium",
+    "b": "warfarin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "curcumin",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "chromium",
+    "b": "magnesium",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "chromium",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "creatine",
+    "b": "nac",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin k2",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "folate",
+    "b": "iron",
+    "tier_a": 70,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "iron",
+    "b": "ssri",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "magnesium",
+    "b": "maoi",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "magnesium",
+    "b": "metformin",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "magnesium",
+    "b": "vitamin k",
+    "tier_a": 100,
+    "tier_b": 55,
+    "freq_a": 12,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "maoi",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "melatonin",
+    "b": "nac",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin k2",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "metformin",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 161
+  },
+  {
+    "a": "nac",
+    "b": "vitamin b12",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin a",
+    "tier_a": 95,
+    "tier_b": 60,
+    "freq_a": 5,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "potassium",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "potassium",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "vitamin b12",
+    "b": "vitamin k2",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "vitamin d",
+    "b": "vitamin k",
+    "tier_a": 100,
+    "tier_b": 55,
+    "freq_a": 5,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 161
+  },
+  {
+    "a": "gaba",
+    "b": "magnesium",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 0,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 160
+  },
+  {
+    "a": "gaba",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 0,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 160
+  },
+  {
+    "a": "magnesium",
+    "b": "milk thistle",
+    "tier_a": 100,
+    "tier_b": 60,
+    "freq_a": 12,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 160
+  },
+  {
+    "a": "milk thistle",
+    "b": "vitamin d",
+    "tier_a": 60,
+    "tier_b": 100,
+    "freq_a": 0,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 160
+  },
+  {
+    "a": "5-htp",
+    "b": "ashwagandha",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "5-htp",
+    "b": "calcium",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "5-htp",
+    "b": "creatine",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "5-htp",
+    "b": "melatonin",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 159
+  },
+  {
+    "a": "blood thinners",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 3,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 159
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin e",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "iron",
+    "b": "potassium",
+    "tier_a": 88,
+    "tier_b": 65,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "omega-3",
+    "b": "quercetin",
+    "tier_a": 95,
+    "tier_b": 55,
+    "freq_a": 5,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 159
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "magnesium",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "ashwagandha",
+    "b": "folate",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "magnesium",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "berberine",
+    "b": "collagen",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "berberine",
+    "b": "curcumin",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "berberine",
+    "b": "probiotics",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "caffeine",
+    "b": "ginger",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "caffeine",
+    "b": "glutathione",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "caffeine",
+    "b": "resveratrol",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "caffeine",
+    "b": "rhodiola",
+    "tier_a": 90,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "calcium",
+    "b": "folate",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "calcium",
+    "b": "ssri",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "collagen",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "probiotics",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "collagen",
+    "b": "l-theanine",
+    "tier_a": 80,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "creatine",
+    "b": "folate",
+    "tier_a": 85,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "curcumin",
+    "b": "l-theanine",
+    "tier_a": 80,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "echinacea",
+    "b": "omega-3",
+    "tier_a": 60,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "folate",
+    "b": "melatonin",
+    "tier_a": 70,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "garlic",
+    "b": "omega-3",
+    "tier_a": 60,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "ginger",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "ginger",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "glutathione",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "glutathione",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "glycine",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "iodine",
+    "b": "magnesium",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "iodine",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "l-theanine",
+    "b": "probiotics",
+    "tier_a": 75,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "magnesium",
+    "b": "medications",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "magnesium",
+    "b": "sam-e",
+    "tier_a": 100,
+    "tier_b": 55,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "magnesium",
+    "b": "statins",
+    "tier_a": 100,
+    "tier_b": 15,
+    "freq_a": 12,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "medications",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "omega-3",
+    "b": "selenium",
+    "tier_a": 95,
+    "tier_b": 60,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin b6",
+    "tier_a": 95,
+    "tier_b": 60,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "resveratrol",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "resveratrol",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "rhodiola",
+    "b": "vitamin c",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "rhodiola",
+    "b": "zinc",
+    "tier_a": 65,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "sam-e",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "statins",
+    "b": "vitamin d",
+    "tier_a": 15,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 158
+  },
+  {
+    "a": "taurine",
+    "b": "vitamin d",
+    "tier_a": 55,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 158
+  },
+  {
+    "a": "diabetes medications",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 157
+  },
+  {
+    "a": "diabetes medications",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 4,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 157
+  },
+  {
+    "a": "ssri",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 6,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 157
+  },
+  {
+    "a": "thyroid medication",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 157
+  },
+  {
+    "a": "vitamin c",
+    "b": "warfarin",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 157
+  },
+  {
+    "a": "antibiotics",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 156
+  },
+  {
+    "a": "ashwagandha",
+    "b": "potassium",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin a",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "calcium",
+    "b": "potassium",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "chromium",
+    "b": "omega-3",
+    "tier_a": 55,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "coq10",
+    "b": "curcumin",
+    "tier_a": 70,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "creatine",
+    "b": "potassium",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "curcumin",
+    "b": "nac",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "curcumin",
+    "b": "st johns wort",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin k2",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "ginger",
+    "b": "iron",
+    "tier_a": 65,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "magnesium",
+    "tier_a": 50,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "vitamin d",
+    "tier_a": 50,
+    "tier_b": 100,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "glutathione",
+    "b": "iron",
+    "tier_a": 65,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "iron",
+    "b": "resveratrol",
+    "tier_a": 88,
+    "tier_b": 65,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "iron",
+    "b": "rhodiola",
+    "tier_a": 88,
+    "tier_b": 65,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "maoi",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 156
+  },
+  {
+    "a": "melatonin",
+    "b": "potassium",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "metformin",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 156
+  },
+  {
+    "a": "omega-3",
+    "b": "vitamin k",
+    "tier_a": 95,
+    "tier_b": 55,
+    "freq_a": 5,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "potassium",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "vitamin a",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 156
+  },
+  {
+    "a": "diabetes medications",
+    "b": "iron",
+    "tier_a": 15,
+    "tier_b": 88,
+    "freq_a": 4,
+    "freq_b": 9,
+    "is_medication_pair": true,
+    "score": 155
+  },
+  {
+    "a": "gaba",
+    "b": "omega-3",
+    "tier_a": 60,
+    "tier_b": 95,
+    "freq_a": 0,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 155
+  },
+  {
+    "a": "milk thistle",
+    "b": "omega-3",
+    "tier_a": 60,
+    "tier_b": 95,
+    "freq_a": 0,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 155
+  },
+  {
+    "a": "aspirin",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "aspirin",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "blood thinners",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "blood thinners",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 154
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "omega-3",
+    "tier_a": 55,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ashwagandha",
+    "b": "ginger",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ashwagandha",
+    "b": "glutathione",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ashwagandha",
+    "b": "resveratrol",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ashwagandha",
+    "b": "rhodiola",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 153
+  },
+  {
+    "a": "berberine",
+    "b": "calcium channel blockers",
+    "tier_a": 75,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "berberine",
+    "b": "l-theanine",
+    "tier_a": 75,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "caffeine",
+    "b": "echinacea",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "caffeine",
+    "b": "garlic",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "caffeine",
+    "b": "selenium",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin b6",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "calcium",
+    "b": "ginger",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "calcium",
+    "b": "glutathione",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "calcium",
+    "b": "resveratrol",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "calcium",
+    "b": "rhodiola",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "l-theanine",
+    "tier_a": 75,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "collagen",
+    "b": "coq10",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "collagen",
+    "b": "folate",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "collagen",
+    "b": "nac",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "collagen",
+    "b": "st johns wort",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin k2",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "copper",
+    "b": "magnesium",
+    "tier_a": 50,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "copper",
+    "b": "vitamin d",
+    "tier_a": 50,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "coq10",
+    "b": "probiotics",
+    "tier_a": 70,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "creatine",
+    "b": "ginger",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "creatine",
+    "b": "glutathione",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "creatine",
+    "b": "resveratrol",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "creatine",
+    "b": "rhodiola",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "curcumin",
+    "b": "folate",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "echinacea",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "echinacea",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "folate",
+    "b": "probiotics",
+    "tier_a": 70,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "garlic",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "garlic",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ginger",
+    "b": "melatonin",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ginger",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "glutathione",
+    "b": "melatonin",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "glutathione",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "glycine",
+    "b": "omega-3",
+    "tier_a": 55,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "iodine",
+    "b": "omega-3",
+    "tier_a": 55,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "medications",
+    "b": "omega-3",
+    "tier_a": 15,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": true,
+    "score": 153
+  },
+  {
+    "a": "melatonin",
+    "b": "resveratrol",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "melatonin",
+    "b": "rhodiola",
+    "tier_a": 85,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "nac",
+    "b": "probiotics",
+    "tier_a": 70,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "omega-3",
+    "b": "sam-e",
+    "tier_a": 95,
+    "tier_b": 55,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "omega-3",
+    "b": "statins",
+    "tier_a": 95,
+    "tier_b": 15,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 153
+  },
+  {
+    "a": "omega-3",
+    "b": "taurine",
+    "tier_a": 95,
+    "tier_b": 55,
+    "freq_a": 5,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "probiotics",
+    "b": "st johns wort",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin k2",
+    "tier_a": 80,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "resveratrol",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "rhodiola",
+    "b": "vitamin b12",
+    "tier_a": 65,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "selenium",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "selenium",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "vitamin b6",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "vitamin b6",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 153
+  },
+  {
+    "a": "ashwagandha",
+    "b": "diabetes medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "ashwagandha",
+    "b": "warfarin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "aspirin",
+    "b": "iron",
+    "tier_a": 15,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "iron",
+    "tier_a": 15,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "blood thinners",
+    "b": "iron",
+    "tier_a": 15,
+    "tier_b": 88,
+    "freq_a": 3,
+    "freq_b": 9,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "calcium",
+    "b": "diabetes medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "diabetes medications",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "diabetes medications",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "iron",
+    "b": "quercetin",
+    "tier_a": 88,
+    "tier_b": 55,
+    "freq_a": 9,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 152
+  },
+  {
+    "a": "melatonin",
+    "b": "thyroid medication",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "melatonin",
+    "b": "warfarin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "ssri",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 6,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "thyroid medication",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "vitamin b12",
+    "b": "warfarin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 152
+  },
+  {
+    "a": "5-htp",
+    "b": "curcumin",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "antibiotics",
+    "b": "caffeine",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "antibiotics",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "antibiotics",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin a",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "aspirin",
+    "b": "caffeine",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "caffeine",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "blood thinners",
+    "b": "caffeine",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "chromium",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "diabetes medications",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "maoi",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "metformin",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "quercetin",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "ssri",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "thyroid medication",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "vitamin k",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "warfarin",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin a",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "coq10",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "nac",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "st johns wort",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin k2",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "chromium",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "chromium",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin a",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "curcumin",
+    "b": "potassium",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin e",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "echinacea",
+    "b": "iron",
+    "tier_a": 60,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "garlic",
+    "b": "iron",
+    "tier_a": 60,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "omega-3",
+    "tier_a": 50,
+    "tier_b": 95,
+    "freq_a": 2,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "iron",
+    "b": "selenium",
+    "tier_a": 88,
+    "tier_b": 60,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "iron",
+    "b": "vitamin b6",
+    "tier_a": 88,
+    "tier_b": 60,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "maoi",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "maoi",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin a",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "metformin",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "metformin",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 151
+  },
+  {
+    "a": "vitamin a",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "vitamin c",
+    "b": "vitamin k",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "vitamin k",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 151
+  },
+  {
+    "a": "caffeine",
+    "b": "gaba",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "caffeine",
+    "b": "milk thistle",
+    "tier_a": 90,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "gaba",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 0,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "gaba",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 0,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "milk thistle",
+    "b": "vitamin c",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 0,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "milk thistle",
+    "b": "zinc",
+    "tier_a": 60,
+    "tier_b": 90,
+    "freq_a": 0,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 150
+  },
+  {
+    "a": "ashwagandha",
+    "b": "aspirin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "ashwagandha",
+    "b": "blood pressure medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "ashwagandha",
+    "b": "blood thinners",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "ashwagandha",
+    "b": "quercetin",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "aspirin",
+    "b": "calcium",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "aspirin",
+    "b": "creatine",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "aspirin",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "aspirin",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "calcium",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "creatine",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood thinners",
+    "b": "calcium",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood thinners",
+    "b": "creatine",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "blood thinners",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "calcium",
+    "b": "quercetin",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "chromium",
+    "b": "iron",
+    "tier_a": 55,
+    "tier_b": 88,
+    "freq_a": 2,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "coq10",
+    "b": "st johns wort",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "creatine",
+    "b": "diabetes medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "creatine",
+    "b": "quercetin",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "creatine",
+    "b": "ssri",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "creatine",
+    "b": "thyroid medication",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "creatine",
+    "b": "warfarin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "iron",
+    "b": "maoi",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "iron",
+    "b": "metformin",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 149
+  },
+  {
+    "a": "iron",
+    "b": "vitamin k",
+    "tier_a": 88,
+    "tier_b": 55,
+    "freq_a": 9,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "melatonin",
+    "b": "quercetin",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "quercetin",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 149
+  },
+  {
+    "a": "5-htp",
+    "b": "collagen",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "5-htp",
+    "b": "probiotics",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "caffeine",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "ashwagandha",
+    "b": "echinacea",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "ashwagandha",
+    "b": "garlic",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "ashwagandha",
+    "b": "selenium",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin b6",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "caffeine",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "berberine",
+    "b": "coq10",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "berberine",
+    "b": "folate",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "berberine",
+    "b": "nac",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "berberine",
+    "b": "st johns wort",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin k2",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "glycine",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "iodine",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "medications",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "sam-e",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "statins",
+    "tier_a": 90,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "caffeine",
+    "b": "taurine",
+    "tier_a": 90,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "calcium",
+    "b": "echinacea",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "calcium",
+    "b": "garlic",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "calcium",
+    "b": "selenium",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin b6",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "folate",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "ginger",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "glutathione",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "potassium",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "resveratrol",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "rhodiola",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin e",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "copper",
+    "b": "omega-3",
+    "tier_a": 50,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "coq10",
+    "b": "l-theanine",
+    "tier_a": 70,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "creatine",
+    "b": "echinacea",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "creatine",
+    "b": "garlic",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "creatine",
+    "b": "selenium",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin b6",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "curcumin",
+    "b": "ginger",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "curcumin",
+    "b": "glutathione",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "curcumin",
+    "b": "resveratrol",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "curcumin",
+    "b": "rhodiola",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "echinacea",
+    "b": "melatonin",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "echinacea",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "folate",
+    "b": "l-theanine",
+    "tier_a": 70,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "gaba",
+    "b": "iron",
+    "tier_a": 60,
+    "tier_b": 88,
+    "freq_a": 0,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "garlic",
+    "b": "melatonin",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "garlic",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "ginger",
+    "b": "probiotics",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "glutathione",
+    "b": "probiotics",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "glycine",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "glycine",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "iodine",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "iodine",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "iron",
+    "b": "milk thistle",
+    "tier_a": 88,
+    "tier_b": 60,
+    "freq_a": 9,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "l-theanine",
+    "b": "nac",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "l-theanine",
+    "b": "st johns wort",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin k2",
+    "tier_a": 75,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "medications",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "medications",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "melatonin",
+    "b": "selenium",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin b6",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "potassium",
+    "b": "probiotics",
+    "tier_a": 65,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "probiotics",
+    "b": "resveratrol",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "probiotics",
+    "b": "rhodiola",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin e",
+    "tier_a": 80,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "sam-e",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "sam-e",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "selenium",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "statins",
+    "b": "vitamin c",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "statins",
+    "b": "zinc",
+    "tier_a": 15,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 148
+  },
+  {
+    "a": "taurine",
+    "b": "vitamin c",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "taurine",
+    "b": "zinc",
+    "tier_a": 55,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "vitamin b12",
+    "b": "vitamin b6",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 148
+  },
+  {
+    "a": "5-htp",
+    "b": "calcium channel blockers",
+    "tier_a": 65,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "iron",
+    "tier_a": 55,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "antibiotics",
+    "b": "ashwagandha",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "antibiotics",
+    "b": "calcium",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "antibiotics",
+    "b": "creatine",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "antibiotics",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "antibiotics",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "ashwagandha",
+    "b": "chromium",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "ashwagandha",
+    "b": "maoi",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "ashwagandha",
+    "b": "metformin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "ashwagandha",
+    "b": "vitamin k",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "iron",
+    "tier_a": 15,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "caffeine",
+    "b": "ginkgo biloba",
+    "tier_a": 90,
+    "tier_b": 50,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "calcium",
+    "b": "chromium",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "calcium",
+    "b": "maoi",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "calcium",
+    "b": "metformin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "calcium",
+    "b": "vitamin k",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "potassium",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin e",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "chromium",
+    "b": "creatine",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "chromium",
+    "b": "melatonin",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "chromium",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "coq10",
+    "b": "nac",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin k2",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "creatine",
+    "b": "maoi",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "creatine",
+    "b": "metformin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "creatine",
+    "b": "vitamin k",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin a",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "vitamin c",
+    "tier_a": 50,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "zinc",
+    "tier_a": 50,
+    "tier_b": 90,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "glycine",
+    "b": "iron",
+    "tier_a": 55,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "iodine",
+    "b": "iron",
+    "tier_a": 55,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "iron",
+    "b": "medications",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "iron",
+    "b": "sam-e",
+    "tier_a": 88,
+    "tier_b": 55,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "iron",
+    "b": "statins",
+    "tier_a": 88,
+    "tier_b": 15,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "iron",
+    "b": "taurine",
+    "tier_a": 88,
+    "tier_b": 55,
+    "freq_a": 9,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "maoi",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "maoi",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "melatonin",
+    "b": "metformin",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "melatonin",
+    "b": "vitamin k",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "metformin",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 146
+  },
+  {
+    "a": "nac",
+    "b": "st johns wort",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "nac",
+    "b": "vitamin k2",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin k2",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "vitamin b12",
+    "b": "vitamin k",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 146
+  },
+  {
+    "a": "ashwagandha",
+    "b": "gaba",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "ashwagandha",
+    "b": "milk thistle",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "calcium",
+    "b": "gaba",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "calcium",
+    "b": "milk thistle",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 7,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "creatine",
+    "b": "gaba",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "creatine",
+    "b": "milk thistle",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "gaba",
+    "b": "melatonin",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 0,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "gaba",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 0,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "melatonin",
+    "b": "milk thistle",
+    "tier_a": 85,
+    "tier_b": 60,
+    "freq_a": 4,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "milk thistle",
+    "b": "vitamin b12",
+    "tier_a": 60,
+    "tier_b": 85,
+    "freq_a": 0,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 145
+  },
+  {
+    "a": "5-htp",
+    "b": "coq10",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 144
+  },
+  {
+    "a": "5-htp",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 144
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin e",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 144
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "iron",
+    "tier_a": 50,
+    "tier_b": 88,
+    "freq_a": 2,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 144
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin e",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 144
+  },
+  {
+    "a": "5-htp",
+    "b": "berberine",
+    "tier_a": 65,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "5-htp",
+    "b": "l-theanine",
+    "tier_a": 65,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "ashwagandha",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "calcium",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "creatine",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "melatonin",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "benzodiazepines",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "glycine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "iodine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "sam-e",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "statins",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "ashwagandha",
+    "b": "taurine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "calcium",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "creatine",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "ginger",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "glutathione",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "potassium",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "resveratrol",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "rhodiola",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin e",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "beta-alanine",
+    "b": "magnesium",
+    "tier_a": 40,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "beta-alanine",
+    "b": "vitamin d",
+    "tier_a": 40,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "boron",
+    "b": "magnesium",
+    "tier_a": 40,
+    "tier_b": 100,
+    "freq_a": 1,
+    "freq_b": 12,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "caffeine",
+    "b": "copper",
+    "tier_a": 90,
+    "tier_b": 50,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "glycine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "iodine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "sam-e",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "statins",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "calcium",
+    "b": "taurine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "ginger",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "glutathione",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "resveratrol",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "rhodiola",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "collagen",
+    "b": "echinacea",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "collagen",
+    "b": "garlic",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "collagen",
+    "b": "selenium",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin a",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin b6",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "copper",
+    "b": "vitamin c",
+    "tier_a": 50,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "coq10",
+    "b": "folate",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "glycine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "iodine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "medications",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "sam-e",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "statins",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "creatine",
+    "b": "taurine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "curcumin",
+    "b": "echinacea",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "curcumin",
+    "b": "garlic",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "curcumin",
+    "b": "selenium",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin b6",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "echinacea",
+    "b": "probiotics",
+    "tier_a": 60,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "folate",
+    "b": "nac",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "folate",
+    "b": "st johns wort",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "folate",
+    "b": "vitamin k2",
+    "tier_a": 70,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "garlic",
+    "b": "probiotics",
+    "tier_a": 60,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "ginger",
+    "b": "l-theanine",
+    "tier_a": 65,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "glutathione",
+    "b": "l-theanine",
+    "tier_a": 65,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "glycine",
+    "b": "melatonin",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "glycine",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "iodine",
+    "b": "melatonin",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "iodine",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "l-theanine",
+    "b": "potassium",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "l-theanine",
+    "b": "resveratrol",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "l-theanine",
+    "b": "rhodiola",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin e",
+    "tier_a": 75,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "medications",
+    "b": "melatonin",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "medications",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "melatonin",
+    "b": "sam-e",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "melatonin",
+    "b": "statins",
+    "tier_a": 85,
+    "tier_b": 15,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "melatonin",
+    "b": "taurine",
+    "tier_a": 85,
+    "tier_b": 55,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "probiotics",
+    "b": "selenium",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin a",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin b6",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "sam-e",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "statins",
+    "b": "vitamin b12",
+    "tier_a": 15,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 143
+  },
+  {
+    "a": "taurine",
+    "b": "vitamin b12",
+    "tier_a": 55,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 143
+  },
+  {
+    "a": "5-htp",
+    "b": "nac",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "antibiotics",
+    "b": "curcumin",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "ashwagandha",
+    "b": "ginkgo biloba",
+    "tier_a": 85,
+    "tier_b": 50,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "aspirin",
+    "b": "curcumin",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "curcumin",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "blood thinners",
+    "b": "curcumin",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "calcium",
+    "b": "ginkgo biloba",
+    "tier_a": 85,
+    "tier_b": 50,
+    "freq_a": 7,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin a",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "chromium",
+    "b": "curcumin",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "copper",
+    "b": "iron",
+    "tier_a": 50,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "coq10",
+    "b": "potassium",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "creatine",
+    "b": "ginkgo biloba",
+    "tier_a": 85,
+    "tier_b": 50,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "diabetes medications",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "maoi",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "metformin",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "quercetin",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "ssri",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "thyroid medication",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "vitamin k",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "curcumin",
+    "b": "warfarin",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 141
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "melatonin",
+    "tier_a": 50,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "vitamin b12",
+    "tier_a": 50,
+    "tier_b": 85,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "nac",
+    "b": "potassium",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "nac",
+    "b": "vitamin e",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "potassium",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "potassium",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "vitamin e",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 141
+  },
+  {
+    "a": "collagen",
+    "b": "gaba",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "collagen",
+    "b": "milk thistle",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "curcumin",
+    "b": "gaba",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "curcumin",
+    "b": "milk thistle",
+    "tier_a": 80,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "gaba",
+    "b": "probiotics",
+    "tier_a": 60,
+    "tier_b": 80,
+    "freq_a": 0,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "milk thistle",
+    "b": "probiotics",
+    "tier_a": 60,
+    "tier_b": 80,
+    "freq_a": 0,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 140
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 139
+  },
+  {
+    "a": "5-htp",
+    "b": "folate",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "collagen",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "curcumin",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "probiotics",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "antibiotics",
+    "b": "collagen",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "ashwagandha",
+    "b": "copper",
+    "tier_a": 85,
+    "tier_b": 50,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "aspirin",
+    "b": "collagen",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "aspirin",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "collagen",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "curcumin",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "berberine",
+    "b": "echinacea",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "berberine",
+    "b": "garlic",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "berberine",
+    "b": "selenium",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin a",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin b6",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "beta-alanine",
+    "b": "omega-3",
+    "tier_a": 40,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "collagen",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "blood thinners",
+    "b": "collagen",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "blood thinners",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "boron",
+    "b": "omega-3",
+    "tier_a": 40,
+    "tier_b": 95,
+    "freq_a": 1,
+    "freq_b": 5,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "calcium",
+    "b": "copper",
+    "tier_a": 85,
+    "tier_b": 50,
+    "freq_a": 7,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "echinacea",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "garlic",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "selenium",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin b6",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "chromium",
+    "b": "collagen",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "chromium",
+    "b": "probiotics",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "diabetes medications",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "glycine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "iodine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "maoi",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "medications",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "metformin",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "quercetin",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "sam-e",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "ssri",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "statins",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "taurine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "thyroid medication",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "vitamin k",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "collagen",
+    "b": "warfarin",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "copper",
+    "b": "creatine",
+    "tier_a": 50,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "copper",
+    "b": "melatonin",
+    "tier_a": 50,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "copper",
+    "b": "vitamin b12",
+    "tier_a": 50,
+    "tier_b": 85,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "coq10",
+    "b": "ginger",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "coq10",
+    "b": "glutathione",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "coq10",
+    "b": "resveratrol",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "coq10",
+    "b": "rhodiola",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "glycine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "iodine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "medications",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "sam-e",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "statins",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "curcumin",
+    "b": "taurine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "diabetes medications",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "echinacea",
+    "b": "l-theanine",
+    "tier_a": 60,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "ginger",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "glutathione",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "potassium",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "resveratrol",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "rhodiola",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "folate",
+    "b": "vitamin e",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "garlic",
+    "b": "l-theanine",
+    "tier_a": 60,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "ginger",
+    "b": "nac",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "ginger",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "ginger",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "glutathione",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "glutathione",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "glycine",
+    "b": "probiotics",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "iodine",
+    "b": "probiotics",
+    "tier_a": 55,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "l-theanine",
+    "b": "selenium",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin a",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin b6",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "maoi",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "medications",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "metformin",
+    "b": "probiotics",
+    "tier_a": 15,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "nac",
+    "b": "resveratrol",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "nac",
+    "b": "rhodiola",
+    "tier_a": 70,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "quercetin",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "sam-e",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "ssri",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "statins",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "taurine",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "thyroid medication",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "vitamin k",
+    "tier_a": 80,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "probiotics",
+    "b": "warfarin",
+    "tier_a": 80,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 138
+  },
+  {
+    "a": "resveratrol",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "resveratrol",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "rhodiola",
+    "b": "st johns wort",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "rhodiola",
+    "b": "vitamin k2",
+    "tier_a": 65,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 138
+  },
+  {
+    "a": "5-htp",
+    "b": "potassium",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "antibiotics",
+    "b": "calcium channel blockers",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "aspirin",
+    "b": "calcium channel blockers",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "calcium channel blockers",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "blood thinners",
+    "b": "calcium channel blockers",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "chromium",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "diabetes medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "maoi",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "metformin",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "quercetin",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "ssri",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "thyroid medication",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "vitamin k",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "warfarin",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 136
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin a",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "curcumin",
+    "b": "ginkgo biloba",
+    "tier_a": 80,
+    "tier_b": 50,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "nac",
+    "b": "vitamin a",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "potassium",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin a",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "vitamin a",
+    "b": "vitamin k2",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 136
+  },
+  {
+    "a": "berberine",
+    "b": "gaba",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "berberine",
+    "b": "milk thistle",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "gaba",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "milk thistle",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "gaba",
+    "b": "l-theanine",
+    "tier_a": 60,
+    "tier_b": 75,
+    "freq_a": 0,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "l-theanine",
+    "b": "milk thistle",
+    "tier_a": 75,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 0,
+    "is_medication_pair": false,
+    "score": 135
+  },
+  {
+    "a": "aspirin",
+    "b": "coq10",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "aspirin",
+    "b": "st johns wort",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "st johns wort",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "blood thinners",
+    "b": "coq10",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "blood thinners",
+    "b": "st johns wort",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "coq10",
+    "b": "diabetes medications",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "coq10",
+    "b": "quercetin",
+    "tier_a": 70,
+    "tier_b": 55,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 134
+  },
+  {
+    "a": "coq10",
+    "b": "ssri",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "coq10",
+    "b": "thyroid medication",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "coq10",
+    "b": "warfarin",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "diabetes medications",
+    "b": "st johns wort",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 4,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "quercetin",
+    "b": "st johns wort",
+    "tier_a": 55,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 134
+  },
+  {
+    "a": "st johns wort",
+    "b": "thyroid medication",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "st johns wort",
+    "b": "warfarin",
+    "tier_a": 70,
+    "tier_b": 15,
+    "freq_a": 3,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 134
+  },
+  {
+    "a": "5-htp",
+    "b": "ginger",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "5-htp",
+    "b": "glutathione",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "5-htp",
+    "b": "resveratrol",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "5-htp",
+    "b": "rhodiola",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "berberine",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "calcium channel blockers",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "alpha lipoic acid",
+    "b": "l-theanine",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "antibiotics",
+    "b": "berberine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "antibiotics",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "aspirin",
+    "b": "berberine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "aspirin",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "berberine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "calcium channel blockers",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "benzodiazepines",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "blood pressure medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "blood thinners",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "chromium",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "diabetes medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "glycine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "iodine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "maoi",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "quercetin",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "sam-e",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "ssri",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "statins",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "taurine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "thyroid medication",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "vitamin k",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "berberine",
+    "b": "warfarin",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "beta-alanine",
+    "b": "caffeine",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "beta-alanine",
+    "b": "vitamin c",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "beta-alanine",
+    "b": "zinc",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "blood thinners",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "boron",
+    "b": "caffeine",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "boron",
+    "b": "vitamin c",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "boron",
+    "b": "zinc",
+    "tier_a": 40,
+    "tier_b": 90,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "glycine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "iodine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "sam-e",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "statins",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "taurine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "chromium",
+    "b": "l-theanine",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "collagen",
+    "b": "copper",
+    "tier_a": 80,
+    "tier_b": 50,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "collagen",
+    "b": "ginkgo biloba",
+    "tier_a": 80,
+    "tier_b": 50,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "copper",
+    "b": "curcumin",
+    "tier_a": 50,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "copper",
+    "b": "probiotics",
+    "tier_a": 50,
+    "tier_b": 80,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "coq10",
+    "b": "echinacea",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "coq10",
+    "b": "garlic",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "coq10",
+    "b": "selenium",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "coq10",
+    "b": "vitamin b6",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "diabetes medications",
+    "b": "l-theanine",
+    "tier_a": 15,
+    "tier_b": 75,
+    "freq_a": 4,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "echinacea",
+    "b": "folate",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "echinacea",
+    "b": "nac",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "echinacea",
+    "b": "st johns wort",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "echinacea",
+    "b": "vitamin k2",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "folate",
+    "b": "garlic",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "folate",
+    "b": "selenium",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "folate",
+    "b": "vitamin a",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "folate",
+    "b": "vitamin b6",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "garlic",
+    "b": "nac",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "garlic",
+    "b": "st johns wort",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "garlic",
+    "b": "vitamin k2",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginger",
+    "b": "glutathione",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginger",
+    "b": "potassium",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginger",
+    "b": "resveratrol",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginger",
+    "b": "rhodiola",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginger",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "ginkgo biloba",
+    "b": "probiotics",
+    "tier_a": 50,
+    "tier_b": 80,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "glutathione",
+    "b": "potassium",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "glutathione",
+    "b": "resveratrol",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "glutathione",
+    "b": "rhodiola",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "glutathione",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "glycine",
+    "b": "l-theanine",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "iodine",
+    "b": "l-theanine",
+    "tier_a": 55,
+    "tier_b": 75,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "maoi",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "medications",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "metformin",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "quercetin",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "sam-e",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "ssri",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 6,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "statins",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "taurine",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "thyroid medication",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 7,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "vitamin k",
+    "tier_a": 75,
+    "tier_b": 55,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "l-theanine",
+    "b": "warfarin",
+    "tier_a": 75,
+    "tier_b": 15,
+    "freq_a": 1,
+    "freq_b": 8,
+    "is_medication_pair": true,
+    "score": 133
+  },
+  {
+    "a": "nac",
+    "b": "selenium",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "nac",
+    "b": "vitamin b6",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "potassium",
+    "b": "resveratrol",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "potassium",
+    "b": "rhodiola",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 2,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "resveratrol",
+    "b": "rhodiola",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "resveratrol",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "rhodiola",
+    "b": "vitamin e",
+    "tier_a": 65,
+    "tier_b": 65,
+    "freq_a": 1,
+    "freq_b": 4,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "selenium",
+    "b": "st johns wort",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "selenium",
+    "b": "vitamin k2",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "st johns wort",
+    "b": "vitamin b6",
+    "tier_a": 70,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 1,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "vitamin b6",
+    "b": "vitamin k2",
+    "tier_a": 60,
+    "tier_b": 70,
+    "freq_a": 1,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 133
+  },
+  {
+    "a": "diabetes medications",
+    "b": "vitamin e",
+    "tier_a": 15,
+    "tier_b": 65,
+    "freq_a": 4,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 132
+  },
+  {
+    "a": "ssri",
+    "b": "vitamin e",
+    "tier_a": 15,
+    "tier_b": 65,
+    "freq_a": 6,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 132
+  },
+  {
+    "a": "thyroid medication",
+    "b": "vitamin e",
+    "tier_a": 15,
+    "tier_b": 65,
+    "freq_a": 7,
+    "freq_b": 4,
+    "is_medication_pair": true,
+    "score": 132
+  },
+  {
+    "a": "5-htp",
+    "b": "vitamin a",
+    "tier_a": 65,
+    "tier_b": 60,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "antibiotics",
+    "b": "coq10",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "antibiotics",
+    "b": "nac",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "antibiotics",
+    "b": "st johns wort",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "antibiotics",
+    "b": "vitamin k2",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "aspirin",
+    "b": "nac",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "aspirin",
+    "b": "vitamin k2",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "beta-alanine",
+    "b": "iron",
+    "tier_a": 40,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "nac",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "blood pressure medications",
+    "b": "vitamin k2",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "blood thinners",
+    "b": "nac",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "blood thinners",
+    "b": "vitamin k2",
+    "tier_a": 15,
+    "tier_b": 70,
+    "freq_a": 3,
+    "freq_b": 2,
+    "is_medication_pair": true,
+    "score": 131
+  },
+  {
+    "a": "boron",
+    "b": "iron",
+    "tier_a": 40,
+    "tier_b": 88,
+    "freq_a": 1,
+    "freq_b": 9,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "calcium channel blockers",
+    "b": "ginkgo biloba",
+    "tier_a": 75,
+    "tier_b": 50,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "chromium",
+    "b": "coq10",
+    "tier_a": 55,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "chromium",
+    "b": "nac",
+    "tier_a": 55,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "chromium",
+    "b": "st johns wort",
+    "tier_a": 55,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 3,
+    "is_medication_pair": false,
+    "score": 131
+  },
+  {
+    "a": "chromium",
+    "b": "vitamin k2",
+    "tier_a": 55,
+    "tier_b": 70,
+    "freq_a": 2,
+    "freq_b": 2,
+    "is_medication_pair": false,
+    "score": 131
+  }
+]

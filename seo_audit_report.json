@@ -148,6 +148,22 @@
     "total": 38.8
   },
   {
+    "slug": "creatine-and-hair-loss",
+    "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
+    "category": "review",
+    "word_count": 2621,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.8,
+    "internal_linking": 5,
+    "actionability": 4.9,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 38.7
+  },
+  {
     "slug": "taurine-guide",
     "title": "Taurine for Longevity: Clinical Evidence & Guide 2026",
     "category": "guide",
@@ -304,6 +320,22 @@
     "total": 37.9
   },
   {
+    "slug": "best-supplements-for-runners",
+    "title": "Best Supplements for Runners: What Actually Helps Endurance",
+    "category": "roundup",
+    "word_count": 3002,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.1,
+    "internal_linking": 5,
+    "actionability": 4.5,
+    "trust": 4.6,
+    "engagement": 5,
+    "notes": [],
+    "total": 37.7
+  },
+  {
     "slug": "iron-guide",
     "title": "Iron Supplements Guide 2026: Evidence-Based & Ranked",
     "category": "guide",
@@ -408,6 +440,42 @@
     "total": 37.4
   },
   {
+    "slug": "best-supplements-for-pcos",
+    "title": "Best Supplements for PCOS: Evidence-Based Stack (2026)",
+    "category": "roundup",
+    "word_count": 2533,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.5,
+    "internal_linking": 5,
+    "actionability": 4.5,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 33)"
+    ],
+    "total": 37.3
+  },
+  {
+    "slug": "best-supplements-for-perimenopause",
+    "title": "Best Supplements for Perimenopause: The Pre-Menopause Protocol",
+    "category": "roundup",
+    "word_count": 2669,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.5,
+    "internal_linking": 5,
+    "actionability": 4.1,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 35)"
+    ],
+    "total": 37.2
+  },
+  {
     "slug": "collagen-guide",
     "title": "Collagen Supplements 2026 \u2014 Backed by Clinical Evidence",
     "category": "guide",
@@ -476,6 +544,22 @@
     "total": 37.1
   },
   {
+    "slug": "creatine-for-women",
+    "title": "Creatine for Women: The Complete Evidence-Based Guide (2026)",
+    "category": "guide",
+    "word_count": 2409,
+    "intent_fit": 4.5,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 4.3,
+    "internal_linking": 5,
+    "actionability": 4.2,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 37.0
+  },
+  {
     "slug": "berberine-vs-metformin",
     "title": "Berberine vs Metformin: The Evidence Behind 'Nature's Metformin'",
     "category": "review",
@@ -504,6 +588,22 @@
     "unique_value": 4.5,
     "internal_linking": 5,
     "actionability": 4.6,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 36.6
+  },
+  {
+    "slug": "zinc-for-immune-support",
+    "title": "Zinc for Immune Support: Timing and Form Matter More Than Dose",
+    "category": "guide",
+    "word_count": 2822,
+    "intent_fit": 3.0,
+    "monetization": 5,
+    "structure": 4.5,
+    "unique_value": 4.6,
+    "internal_linking": 4.8,
+    "actionability": 4.7,
     "trust": 5,
     "engagement": 5,
     "notes": [],
@@ -546,6 +646,40 @@
     "total": 36.5
   },
   {
+    "slug": "vitamin-d3-vs-d2",
+    "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
+    "category": "review",
+    "word_count": 2046,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 3.6,
+    "internal_linking": 5,
+    "actionability": 3.7,
+    "trust": 5,
+    "engagement": 5,
+    "notes": [],
+    "total": 36.3
+  },
+  {
+    "slug": "best-supplements-for-menopause",
+    "title": "Best Supplements for Menopause: What Actually Works",
+    "category": "roundup",
+    "word_count": 2945,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 4.0,
+    "unique_value": 4.7,
+    "internal_linking": 5,
+    "actionability": 3.4,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 35)"
+    ],
+    "total": 36.2
+  },
+  {
     "slug": "alpha-gpc-vs-citicoline",
     "title": "Alpha-GPC vs Citicoline: Which Choline Source Actually Works?",
     "category": "review",
@@ -562,6 +696,42 @@
       "low readability (Flesch 37)"
     ],
     "total": 36.0
+  },
+  {
+    "slug": "best-supplements-for-adhd-focus",
+    "title": "Best Supplements for ADHD and Focus: Evidence-Based Stack",
+    "category": "roundup",
+    "word_count": 2538,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 3.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 3.4,
+    "trust": 4.1,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 36)"
+    ],
+    "total": 36.0
+  },
+  {
+    "slug": "best-supplements-for-fatty-liver",
+    "title": "Best Supplements for Fatty Liver (NAFLD): What the Evidence Shows",
+    "category": "roundup",
+    "word_count": 2780,
+    "intent_fit": 5.0,
+    "monetization": 5,
+    "structure": 3.5,
+    "unique_value": 5,
+    "internal_linking": 5,
+    "actionability": 3.4,
+    "trust": 3.8,
+    "engagement": 5,
+    "notes": [
+      "low readability (Flesch 34)"
+    ],
+    "total": 35.7
   },
   {
     "slug": "sarcopenia-reverse-muscle-loss",
@@ -633,168 +803,6 @@
     "total": 34.7
   },
   {
-    "slug": "best-supplements-for-runners",
-    "title": "Best Supplements for Runners: What Actually Helps Endurance",
-    "category": "roundup",
-    "word_count": 2931,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 4.5,
-    "unique_value": 4.0,
-    "internal_linking": 5,
-    "actionability": 4.5,
-    "trust": 4.6,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions"
-    ],
-    "total": 34.2
-  },
-  {
-    "slug": "best-supplements-for-perimenopause",
-    "title": "Best Supplements for Perimenopause: The Pre-Menopause Protocol",
-    "category": "roundup",
-    "word_count": 2569,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 4.5,
-    "unique_value": 4.7,
-    "internal_linking": 5,
-    "actionability": 4.0,
-    "trust": 4.1,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions",
-      "low readability (Flesch 34)"
-    ],
-    "total": 33.9
-  },
-  {
-    "slug": "zinc-for-immune-support",
-    "title": "Zinc for Immune Support: Timing and Form Matter More Than Dose",
-    "category": "guide",
-    "word_count": 2695,
-    "intent_fit": 3.0,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 4.4,
-    "internal_linking": 4.8,
-    "actionability": 4.7,
-    "trust": 2.5,
-    "engagement": 5,
-    "notes": [],
-    "total": 33.9
-  },
-  {
-    "slug": "best-supplements-for-pcos",
-    "title": "Best Supplements for PCOS: Evidence-Based Stack (2026)",
-    "category": "roundup",
-    "word_count": 2433,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 4.5,
-    "unique_value": 4.2,
-    "internal_linking": 5,
-    "actionability": 4.5,
-    "trust": 3.8,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions",
-      "low readability (Flesch 32)"
-    ],
-    "total": 33.6
-  },
-  {
-    "slug": "creatine-and-hair-loss",
-    "title": "Creatine and Hair Loss: What the 2009 Study Actually Says",
-    "category": "review",
-    "word_count": 2195,
-    "intent_fit": 4.5,
-    "monetization": 5,
-    "structure": 4.5,
-    "unique_value": 3.2,
-    "internal_linking": 5,
-    "actionability": 1.9,
-    "trust": 4.0,
-    "engagement": 5,
-    "notes": [
-      "few study references"
-    ],
-    "total": 33.1
-  },
-  {
-    "slug": "creatine-for-women",
-    "title": "Creatine for Women: The Complete Evidence-Based Guide (2026)",
-    "category": "guide",
-    "word_count": 2086,
-    "intent_fit": 4.5,
-    "monetization": 5,
-    "structure": 3.5,
-    "unique_value": 2.9,
-    "internal_linking": 5,
-    "actionability": 2.1,
-    "trust": 5,
-    "engagement": 5,
-    "notes": [],
-    "total": 33.0
-  },
-  {
-    "slug": "best-supplements-for-menopause",
-    "title": "Best Supplements for Menopause: What Actually Works",
-    "category": "roundup",
-    "word_count": 2733,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 4.0,
-    "unique_value": 4.9,
-    "internal_linking": 5,
-    "actionability": 3.3,
-    "trust": 4.1,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions",
-      "low readability (Flesch 35)"
-    ],
-    "total": 32.9
-  },
-  {
-    "slug": "best-supplements-for-adhd-focus",
-    "title": "Best Supplements for ADHD and Focus: Evidence-Based Stack",
-    "category": "roundup",
-    "word_count": 2515,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 3.5,
-    "unique_value": 5,
-    "internal_linking": 5,
-    "actionability": 3.4,
-    "trust": 4.1,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions",
-      "low readability (Flesch 36)"
-    ],
-    "total": 32.6
-  },
-  {
-    "slug": "vitamin-d3-vs-d2",
-    "title": "Vitamin D3 vs D2: The Science Behind the 87% Gap",
-    "category": "review",
-    "word_count": 1954,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 4.0,
-    "unique_value": 3.5,
-    "internal_linking": 5,
-    "actionability": 3.7,
-    "trust": 4.8,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions"
-    ],
-    "total": 32.6
-  },
-  {
     "slug": "probiotic-strains-for-ibs",
     "title": "Probiotic Strains for IBS: Which Actually Have Evidence",
     "category": "review",
@@ -809,25 +817,6 @@
     "engagement": 5,
     "notes": [],
     "total": 32.4
-  },
-  {
-    "slug": "best-supplements-for-fatty-liver",
-    "title": "Best Supplements for Fatty Liver (NAFLD): What the Evidence Shows",
-    "category": "roundup",
-    "word_count": 2619,
-    "intent_fit": 2.5,
-    "monetization": 4.1,
-    "structure": 3.5,
-    "unique_value": 5,
-    "internal_linking": 5,
-    "actionability": 3.2,
-    "trust": 3.8,
-    "engagement": 5,
-    "notes": [
-      "transactional title but few product mentions",
-      "low readability (Flesch 35)"
-    ],
-    "total": 32.1
   },
   {
     "slug": "protein-intake-muscle-after-40",

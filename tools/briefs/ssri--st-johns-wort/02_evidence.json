@@ -1,0 +1,137 @@
+{
+  "pair": {
+    "a": "ssri",
+    "b": "st johns wort"
+  },
+  "searches_performed": [
+    {
+      "database": "pubmed",
+      "query": "St John's wort SSRI serotonin syndrome interaction PubMed CYP3A4 clinical case",
+      "date_run": "2026-04-21",
+      "results_count": 10,
+      "notes": "Top sources: Nicolussi 2020 BJP clinical relevance review, Borrelli 2007 drug interactions review, StatPearls 2024 chapter."
+    }
+  ],
+  "searches_with_no_results": [
+    {
+      "database": "pubmed",
+      "query": "st johns wort SSRI randomized controlled trial serotonin syndrome",
+      "date_run": "2026-04-21",
+      "notes": "No RCT has deliberately co-administered SJW + SSRI in humans to assess serotonin syndrome risk. All evidence is from spontaneous adverse-event reporting + mechanistic studies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "systematic-review",
+      "pmid": "17486092",
+      "doi": "10.1017/S146114570600700X",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1874438/",
+      "title": "St John's wort (Hypericum perforatum): drug interactions and clinical outcomes",
+      "year": 2007,
+      "n_humans": null,
+      "population": "Systematic review of human case reports and interaction studies",
+      "design_notes": "Narrative review synthesizing published case reports + PK studies. Catalogs multiple SJW-SSRI adverse events consistent with serotonin excess.",
+      "key_findings": "States: 'SJW and SSRIs result in symptoms characteristic of central serotonin excess' including confusion, agitation, hyperreflexia, diaphoresis, tremor. Explicit recommendation: 'SJW should not be used with psychoactive or psychotropic drugs.' Mechanism framed as 'common pharmacological mechanisms of action on serotonin' — i.e. additive serotonergic activity, not just CYP induction.",
+      "limitations": "Not a meta-analysis, no pooled effect size. Case-report-driven. As of 2001 ADR data: 7 UK unintended pregnancies, 2 Sweden — but these are OC-related not SSRI.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S2",
+      "type": "systematic-review",
+      "pmid": "31943241",
+      "doi": "10.1111/bph.14936",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7056460/",
+      "title": "Clinical relevance of St. John's wort drug interactions revisited",
+      "year": 2020,
+      "n_humans": null,
+      "population": "Review of published interaction literature",
+      "design_notes": "Expert review emphasizing hyperforin content as the key determinant of interaction severity. Distinguishes low-hyperforin (<=1 mg/day) from high-hyperforin (>1 mg/day) SJW products.",
+      "key_findings": "Low-hyperforin SJW products show no clinically relevant PK interactions. High-hyperforin products induce CYP3A4, CYP2C19, CYP2C9, and P-gp via PXR. For SSRIs specifically, the interaction is pharmacodynamic (shared serotonergic activity), not purely PK, so hyperforin content does NOT eliminate risk. Authors' recommendation: prefer low-hyperforin extracts in co-medication contexts.",
+      "limitations": "Narrative synthesis. Does not provide effect sizes for serotonin syndrome risk specifically.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "monograph",
+      "pmid": "",
+      "doi": "",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557465/",
+      "title": "St. John's Wort — StatPearls",
+      "year": 2024,
+      "n_humans": null,
+      "population": "Clinical reference chapter",
+      "design_notes": "Peer-reviewed drug-reference monograph. Lists SSRIs as a contraindicated co-medication.",
+      "key_findings": "Identifies SSRIs (sertraline, paroxetine, fluoxetine, citalopram) as high-concern co-administration targets due to serotonin syndrome risk. Typical SJW doses implicated: 600-900 mg/day standardized extract. Typical SSRI doses in case reports: 20-75 mg/day.",
+      "limitations": "Tertiary source synthesizing primary literature.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "Co-administration of St John's wort with SSRIs can cause serotonin syndrome — a potentially life-threatening hyperserotonergic state.",
+      "supporting_source_ids": ["S1", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["adults taking any SSRI"],
+      "population_exclusions": ["pregnancy: not studied (avoid regardless)", "pediatrics: not studied"],
+      "dose_threshold": {
+        "a": "Serotonin syndrome has been reported at standard SSRI doses (sertraline 50-100 mg, paroxetine 20-40 mg, fluoxetine 20 mg). No safe co-dose established.",
+        "b": "SJW doses in case reports: 600-900 mg/day standardized extract. Lower doses not definitively safe.",
+        "notes": "Because the mechanism is pharmacodynamic synergy (both agents increase synaptic serotonin), there is no dose-separation workaround."
+      }
+    },
+    {
+      "claim_id": "C2",
+      "statement": "The mechanism is additive serotonergic activity (SJW has monoamine-reuptake-inhibitor activity independent of SSRIs), not solely CYP3A4 induction — so low-hyperforin products do not eliminate the risk.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all SSRI users"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Pharmacodynamic interaction is not fully eliminated even at low-hyperforin formulations.",
+        "b": "Applies to all SSRI doses.",
+        "notes": "S2 explicitly notes that hyperforin content reduces PK interactions but does not eliminate shared serotonergic effect."
+      }
+    },
+    {
+      "claim_id": "C3",
+      "statement": "The combination should not be used. If SJW is stopped to start an SSRI, allow a washout period before escalating the SSRI dose.",
+      "supporting_source_ids": ["S1", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all adults"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Any SSRI",
+        "b": "Any SJW dose",
+        "notes": "S1 gives explicit 'SJW should not be used with psychoactive or psychotropic drugs' language."
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "No RCT has directly co-administered SJW + SSRI",
+      "source_ids": [],
+      "resolution": "Direct co-administration RCT would be unethical given known serotonin syndrome risk. Evidence base is mechanism + spontaneous case reports. This is a known limitation, not a flaw."
+    },
+    {
+      "topic": "Low-hyperforin products — some authors suggest lower risk",
+      "source_ids": ["S2"],
+      "resolution": "Nicolussi 2020 notes reduced PK interactions with low-hyperforin SJW, but explicitly says the pharmacodynamic serotonergic effect persists. Draft does NOT endorse low-hyperforin as a safe workaround for SSRI co-use."
+    }
+  ],
+  "final_severity_proposed": "danger",
+  "final_interaction_type_proposed": "potentiation",
+  "reviewer_notes": "Original INTERACTIONS entry was DANGER with 15 words and 0/2 specific sources. After research, severity stays DANGER: (1) serotonin syndrome is genuinely life-threatening (has caused deaths in literature); (2) mechanism is clearly pharmacodynamic additive; (3) no dose separation or timing can mitigate; (4) major references (StatPearls, Borrelli review, Nicolussi 2020) all endorse 'do not combine.' This is one of the cleanest DANGER cases in the supplement-interaction literature.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

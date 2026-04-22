@@ -1,0 +1,156 @@
+{
+  "pair": {
+    "a": "birth control",
+    "b": "st johns wort"
+  },
+  "searches_performed": [
+    {
+      "database": "pubmed",
+      "query": "St John's wort oral contraceptive hypericum breakthrough bleeding pregnancy CYP3A4 induction",
+      "date_run": "2026-04-21",
+      "results_count": 10,
+      "notes": "Top: Pfrunder 2003 RCT (N=17, directly tested combination), Hall 2003 PK study, Murphy 2005, Nicolussi 2020 review."
+    }
+  ],
+  "searches_with_no_results": [],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "rct",
+      "pmid": "12911359",
+      "doi": "10.1046/j.1365-2125.2003.01810.x",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1884294/",
+      "title": "Interaction of St John's wort with low-dose oral contraceptive therapy: a randomized controlled trial",
+      "year": 2003,
+      "n_humans": 18,
+      "population": "18 healthy women of childbearing age (17 completed analysis)",
+      "design_notes": "Crossover RCT. Low-dose OC (0.02 mg ethinylestradiol + 0.150 mg desogestrel) during: (control) OC alone, (cycle A) OC + SJW 300 mg twice daily, (cycle B) OC + SJW 300 mg three times daily. One menstrual cycle per condition.",
+      "key_findings": "Breakthrough bleeding incidence: control 6/17 (35%), cycle A (SJW BID) 13/17 (77%, p<0.015), cycle B (SJW TID) 15/17 (88%, p<0.001). Dose-response evident. No ovulation detected during SJW combination (progesterone remained suppressed), but follicle-like structures observed sporadically. Authors conclude SJW should be used with caution in women on OCs due to bleeding and reduced progestin levels potentially elevating pregnancy risk.",
+      "limitations": "Small N, single cycle per condition, healthy volunteers not real-world use. Brand of SJW: LI160 (standardized extract, 0.3% hypericin).",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S2",
+      "type": "systematic-review",
+      "pmid": "17486092",
+      "doi": "10.1017/S146114570600700X",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1874438/",
+      "title": "St John's wort (Hypericum perforatum): drug interactions and clinical outcomes",
+      "year": 2007,
+      "n_humans": null,
+      "population": "Review of pharmacovigilance and interaction literature",
+      "design_notes": "Catalogues adverse-event reports.",
+      "key_findings": "As of December 2001: 7 UK unintended pregnancies and 2 Sweden unintended pregnancies attributed to SJW + OC co-use. All nine documented pregnancy cases involved women using OCs without problems for >= 7 months before starting SJW — strengthening temporal attribution. Multiple cases of breakthrough bleeding also reported to UK and Swedish agencies.",
+      "limitations": "Spontaneous reports under-report true incidence; attribution is pharmacovigilance-level, not causal proof.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "systematic-review",
+      "pmid": "31943241",
+      "doi": "10.1111/bph.14936",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7056460/",
+      "title": "Clinical relevance of St John's wort drug interactions revisited",
+      "year": 2020,
+      "n_humans": null,
+      "population": "Review",
+      "design_notes": "Product-level analysis.",
+      "key_findings": "High-hyperforin SJW induces CYP3A4 + P-gp via PXR, increasing clearance of ethinylestradiol and progestins. Low-hyperforin products (<= 1 mg hyperforin/day) showed no PK interaction in Will-Shahab et al. 2009 — suggesting product selection matters for this specific interaction. Still recommends avoiding high-hyperforin SJW with OCs.",
+      "limitations": "Narrative synthesis. Low-hyperforin exception rests largely on one study.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S4",
+      "type": "systematic-review",
+      "pmid": "",
+      "doi": "10.1186/s13643-024-02580-7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11283811/",
+      "title": "Co-administration of St. John's wort and hormonal contraceptives: a systematic review",
+      "year": 2024,
+      "n_humans": null,
+      "population": "Systematic review synthesis",
+      "design_notes": "Recent systematic review of all available SJW-hormonal-contraceptive interaction studies.",
+      "key_findings": "Confirms CYP3A4/P-gp induction mechanism, confirms increased breakthrough bleeding risk, confirms pregnancy reports. Recommends alternative or backup contraception during SJW use.",
+      "limitations": "Synthesis only.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "St John's wort significantly increases breakthrough bleeding incidence in women on combined oral contraceptives, in a dose-dependent manner.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "strong",
+      "population_scope": ["healthy women on low-dose combined oral contraceptives"],
+      "population_exclusions": ["progestin-only contraceptives: not directly tested", "implants/IUDs: not directly tested"],
+      "dose_threshold": {
+        "a": "Effect seen at SJW 300 mg BID (600 mg/day) and escalated at 300 mg TID (900 mg/day).",
+        "b": "Tested with 0.02 mg ethinylestradiol + 0.150 mg desogestrel. Mechanism (CYP3A4 induction) implies all combined OC regimens are affected.",
+        "notes": "Low-hyperforin SJW products (<=1 mg hyperforin/day) may not carry same PK effect (S3)."
+      }
+    },
+    {
+      "claim_id": "C2",
+      "statement": "Case reports describe unintended pregnancy in women concurrently taking St John's wort and oral contraceptives, consistent with reduced contraceptive efficacy.",
+      "supporting_source_ids": ["S2", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["women on combined oral contraceptives"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Standard retail SJW doses (600-900 mg/day) implicated.",
+        "b": "All standard OC doses.",
+        "notes": "S2: 9 documented unintended pregnancies attributed to combination as of 2001. Under-reporting likely."
+      }
+    },
+    {
+      "claim_id": "C3",
+      "statement": "Mechanism is induction of CYP3A4 and P-glycoprotein by hyperforin, accelerating clearance of ethinylestradiol and progestins.",
+      "supporting_source_ids": ["S3", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "strong",
+      "population_scope": ["all users of CYP3A4-metabolized contraceptives"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Hyperforin content matters — >1 mg/day considered high-risk; <=1 mg/day may be clinically inert (S3).",
+        "b": "Applies to all hormonal contraceptives metabolized by CYP3A4 (most combined OCs, some progestin-only).",
+        "notes": "P-gp induction additionally reduces intestinal absorption of many drugs."
+      }
+    },
+    {
+      "claim_id": "C4",
+      "statement": "Women taking St John's wort alongside an oral contraceptive should use a backup contraception method and watch for breakthrough bleeding.",
+      "supporting_source_ids": ["S1", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["sexually active women on oral contraception"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Any SJW dose with measurable hyperforin.",
+        "b": "Any combined OC.",
+        "notes": "Backup method should continue for at least 2 weeks after stopping SJW due to CYP3A4 induction persistence."
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Low-hyperforin SJW may not trigger PK interaction",
+      "source_ids": ["S3"],
+      "resolution": "Will-Shahab 2009 (cited in S3) reported no PK interaction with low-hyperforin SJW. This does NOT contradict the main interaction claim — it refines it. Most retail SJW products are high-hyperforin, and consumers cannot reliably verify hyperforin content on labels. Draft recommends default-avoid unless the product is clearly labeled as low-hyperforin AND the prescriber confirms."
+    }
+  ],
+  "final_severity_proposed": "danger",
+  "final_interaction_type_proposed": "metabolism",
+  "reviewer_notes": "Original INTERACTIONS entry was DANGER with 15 words and 0/2 specific sources. Severity remains DANGER: (1) unintended pregnancy is non-reversible, (2) RCT-grade evidence (S1 Pfrunder 2003) directly demonstrates the interaction, (3) pharmacovigilance documents real-world pregnancy outcomes, (4) the mechanism is well-characterized. This is stronger evidence than most DANGER pairs in the INTERACTIONS list.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

@@ -1,0 +1,168 @@
+{
+  "pair": {
+    "a": "blood thinners",
+    "b": "ginkgo biloba"
+  },
+  "searches_performed": [
+    {
+      "database": "pubmed",
+      "query": "ginkgo biloba warfarin aspirin bleeding risk case reports platelet interaction",
+      "date_run": "2026-04-21",
+      "results_count": 10,
+      "notes": "Mixed evidence: large-population observational (Stoddard 2015 VA, HR 1.38 for bleeding with ginkgo+warfarin), recent observational Mai 2025 (ginkgo+aspirin/clopidogrel associated with bleeding, but NOT warfarin), Gardner 2007 RCT on ginkgo+aspirin found no platelet effect, Bone 2008 review flags low case-report quality."
+    }
+  ],
+  "searches_with_no_results": [
+    {
+      "database": "pubmed",
+      "query": "ginkgo biloba warfarin randomized controlled trial INR",
+      "date_run": "2026-04-21",
+      "notes": "No adequately-powered RCT of ginkgo + warfarin with clinical bleeding endpoint. Most controlled studies are short-duration PK/platelet-function studies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "observational",
+      "pmid": "26958227",
+      "doi": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4765589/",
+      "title": "Ginkgo and Warfarin Interaction in a Large Veterans Administration Population",
+      "year": 2015,
+      "n_humans": 807399,
+      "population": "VA warfarin patients 2008-2014; 11,003 on concurrent ginkgo, 796,396 on warfarin alone; 1-year follow-up after 30-day washout",
+      "design_notes": "Retrospective EMR observational, Cox proportional hazards, adjustment for age/sex/comorbidities.",
+      "key_findings": "Hazard ratio for bleeding adverse event with concurrent ginkgo + warfarin: 1.38 (95% CI 1.20-1.58, p<0.001).",
+      "limitations": "Observational, residual confounding possible. Ginkgo exposure captured via pharmacy records — may miss OTC use in warfarin-alone arm, which would bias toward null. Not randomized.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S2",
+      "type": "observational",
+      "pmid": "",
+      "doi": "10.1371/journal.pone.0321804",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991284/",
+      "title": "Impact of Ginkgo biloba drug interactions on bleeding risk and coagulation profiles",
+      "year": 2025,
+      "n_humans": 2647,
+      "population": "2,647 prescriptions (747 with complete coagulation data) at Hai Phong International Hospital 2022-2023",
+      "design_notes": "Retrospective cross-sectional. Logistic regression.",
+      "key_findings": "Ginkgo + aspirin: bleeding risk OR 1.12 (95% CI 1.07-1.18, p<0.001); abnormal coagulation OR 1.48 (95% CI 1.32-1.66, p<0.001). Ginkgo + clopidogrel: bleeding risk OR 1.10 (95% CI 1.05-1.15, p<0.001); abnormal coagulation OR 1.58 (95% CI 1.40-1.77, p<0.001). Ginkgo + warfarin: NO statistically significant correlation with bleeding or coagulation.",
+      "limitations": "Single center, Southeast Asian population, short follow-up. Warfarin-null finding directly contradicts S1's VA-population HR 1.38 — this is a real evidence heterogeneity.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "rct",
+      "pmid": "17982321",
+      "doi": "10.1097/MBC.0b013e3282f1c104",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17982321/",
+      "title": "Effect of Ginkgo biloba (EGb 761) and aspirin on platelet aggregation and platelet function analysis among older adults at risk of cardiovascular disease",
+      "year": 2007,
+      "n_humans": 55,
+      "population": "Adults mean age 69 with peripheral artery disease or cardiovascular risk factors",
+      "design_notes": "Randomized, double-blind, placebo-controlled, 4 weeks. 26 placebo, 29 ginkgo (PFA-100 analysis); 21 placebo, 23 ginkgo (platelet aggregation). All on 325 mg aspirin/day.",
+      "key_findings": "EGb 761 300 mg/day + aspirin 325 mg/day vs placebo + aspirin: no clinically or statistically significant differences on any platelet aggregation or PFA-100 endpoint. No adverse bleeding events.",
+      "limitations": "Small N (underpowered for rare bleeding events), short duration (4 weeks), surrogate endpoint (platelet function, not clinical bleeding).",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S4",
+      "type": "systematic-review",
+      "pmid": "18214851",
+      "doi": "10.1002/mnfr.200700098",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18214851/",
+      "title": "Potential interaction of Ginkgo biloba leaf with antiplatelet or anticoagulant drugs: what is the evidence?",
+      "year": 2008,
+      "n_humans": null,
+      "population": "Systematic review of published interaction literature",
+      "design_notes": "Narrative systematic review.",
+      "key_findings": "Reviews multiple controlled studies showing ginkgo does NOT significantly impact hemostasis or aspirin/warfarin safety. Notes EGb 761 (standardized extract) is not generally implicated in case reports. Quality of published case reports is low. Mechanism (ginkgolide B as PAF antagonist) is real but clinically modest.",
+      "limitations": "Narrative, not meta-analytic.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "Ginkgo biloba is associated with a modest increase in bleeding risk when combined with warfarin in large observational cohorts, though controlled evidence is mixed.",
+      "supporting_source_ids": ["S1"],
+      "contradicting_source_ids": ["S2", "S3", "S4"],
+      "corroboration_count": 1,
+      "strength": "weak",
+      "population_scope": ["adults on warfarin, mostly older VA patients (S1)"],
+      "population_exclusions": ["children: not studied", "pregnancy: not studied"],
+      "dose_threshold": {
+        "a": "Ginkgo exposure in S1 based on prescription records, dose not broken out.",
+        "b": "Applies to standard warfarin-managed anticoagulation regimens.",
+        "notes": "S2 did NOT replicate the warfarin signal in a smaller cohort. S3 (N=55 RCT) and S4 (systematic review) do not support a clinical bleeding effect. The S1 signal is real but not reliably reproduced."
+      }
+    },
+    {
+      "claim_id": "C2",
+      "statement": "Ginkgo biloba combined with aspirin or clopidogrel is associated with increased bleeding risk and abnormal coagulation in observational data.",
+      "supporting_source_ids": ["S2"],
+      "contradicting_source_ids": ["S3", "S4"],
+      "corroboration_count": 1,
+      "strength": "weak",
+      "population_scope": ["adults on antiplatelet therapy (aspirin or clopidogrel)"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Dose not broken out in S2.",
+        "b": "Standard antiplatelet doses.",
+        "notes": "S3 RCT directly tested ginkgo 300 mg/day + aspirin 325 mg/day for 4 weeks and found no detectable platelet-function effect. The S2 observational signal is modest (OR 1.10-1.12) and has confounding-by-indication concerns."
+      }
+    },
+    {
+      "claim_id": "C3",
+      "statement": "The proposed mechanism is ginkgolide-B-mediated platelet activating factor (PAF) antagonism, a real but clinically modest effect.",
+      "supporting_source_ids": ["S4", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all users"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Hyperforin content NOT relevant here (that's SJW). Ginkgolide B content varies between products; EGb 761 is the most studied standardized extract.",
+        "b": "N/A",
+        "notes": "Mechanism is real. The question is whether it translates to clinically meaningful bleeding in humans."
+      }
+    },
+    {
+      "claim_id": "C4",
+      "statement": "Patients on warfarin, aspirin, clopidogrel, or other anticoagulants/antiplatelets should consult their prescriber before adding ginkgo and should not self-start it while on these medications.",
+      "supporting_source_ids": ["S1", "S2"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "moderate",
+      "population_scope": ["all users of blood thinners"],
+      "population_exclusions": [],
+      "dose_threshold": {
+        "a": "Any ginkgo dose.",
+        "b": "Any anticoagulant or antiplatelet.",
+        "notes": "The precautionary recommendation survives the mixed evidence. The worst case (S1's HR 1.38) is clinically meaningful enough to justify 'do not self-start' even if controlled RCT evidence is mostly null."
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Warfarin-specific bleeding signal",
+      "source_ids": ["S1", "S2"],
+      "resolution": "S1 (N=807k, VA) found HR 1.38 for bleeding; S2 (N=2647, Vietnam) found no significant warfarin signal. Possible explanations: (a) population differences in warfarin management intensity, (b) ginkgo product differences, (c) S2 may be underpowered for warfarin. Draft handles by tagging C1 as [weak] and noting heterogeneity."
+    },
+    {
+      "topic": "RCT vs observational divergence",
+      "source_ids": ["S3", "S4"],
+      "resolution": "Controlled studies consistently find no clinical platelet or bleeding effect. Observational studies sometimes find signals. This pattern often reflects confounding-by-indication — patients on ginkgo may differ from matched non-users in ways that correlate with bleeding. Draft is honest about this."
+    }
+  ],
+  "final_severity_proposed": "warning",
+  "final_interaction_type_proposed": "potentiation",
+  "reviewer_notes": "Original INTERACTIONS entries: 'ginkgo biloba + blood thinners' DANGER, 14 words. 'ginkgo biloba + aspirin' DANGER, 28 words. Downgrade to WARNING is justified by the actual evidence: observational signal is real but modest (OR/HR 1.10-1.38), RCT evidence is consistently null, systematic review (Bone 2008) notes low case-report quality and EGb 761 is not generally implicated. DANGER overstates. WARNING = meaningful clinical impact, mitigatable with prescriber oversight — fits the data. Not CAUTION because the observational bleeding signal is real in population data and bleeding in anticoagulated patients carries significant morbidity.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}

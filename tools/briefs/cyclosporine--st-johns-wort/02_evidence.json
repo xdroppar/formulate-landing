@@ -1,0 +1,114 @@
+{
+  "pair": {"a": "cyclosporine", "b": "st johns wort"},
+  "searches_performed": [
+    {"database": "pubmed", "query": "St John's wort cyclosporine transplant rejection CYP3A4 hypericum case report", "date_run": "2026-04-21", "results_count": 10, "notes": "Multiple documented transplant rejections (heart, kidney, pancreas) from SJW + cyclosporine. Mechanism same as OC interaction (CYP3A4/P-gp induction)."}
+  ],
+  "searches_with_no_results": [],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "case-report",
+      "pmid": "10683008",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10683008/",
+      "title": "Acute heart transplant rejection due to Saint John's wort",
+      "year": 2000,
+      "n_humans": 2,
+      "population": "Two heart transplant recipients on cyclosporine-based immunosuppression",
+      "design_notes": "Case reports: cyclosporine levels dropped by 49% and significantly in both patients after self-starting SJW. Acute graft rejection developed in both.",
+      "key_findings": "Documented acute heart transplant rejection attributed to cyclosporine underexposure caused by SJW induction. Rejection resolved with SJW discontinuation + standard rejection treatment; cyclosporine levels returned to therapeutic range.",
+      "limitations": "N=2.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "low"
+    },
+    {
+      "id": "S2",
+      "type": "case-report",
+      "pmid": "11684566",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11684566/",
+      "title": "Interaction between cyclosporine and Hypericum perforatum (St John's wort) after organ transplantation",
+      "year": 2001,
+      "n_humans": 4,
+      "population": "Transplant recipients: heart (n=2), kidney (n=1), pancreas (n=1)",
+      "design_notes": "Case series. Published in American Journal of Kidney Diseases.",
+      "key_findings": "Cyclosporine levels decreased 25-62% within 3-4 weeks of SJW initiation. Graft rejection observed in all 4 cases. Discontinuation of SJW returned cyclosporine levels to therapeutic range.",
+      "limitations": "N=4 case series.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S3",
+      "type": "systematic-review",
+      "pmid": "17486092",
+      "doi": "10.1017/S146114570600700X",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1874438/",
+      "title": "St John's wort (Hypericum perforatum): drug interactions and clinical outcomes",
+      "year": 2007,
+      "n_humans": null,
+      "population": "Review synthesis",
+      "design_notes": "Narrative review of SJW pharmacovigilance and interaction literature.",
+      "key_findings": "Catalogues multiple transplant-rejection reports attributed to SJW + cyclosporine. Cites this as one of the most dangerous documented SJW interactions. Explicitly names cyclosporine, tacrolimus, sirolimus as immunosuppressants at risk.",
+      "limitations": "Narrative.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    },
+    {
+      "id": "S4",
+      "type": "systematic-review",
+      "pmid": "31943241",
+      "doi": "10.1111/bph.14936",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7056460/",
+      "title": "Clinical relevance of St John's wort drug interactions revisited",
+      "year": 2020,
+      "n_humans": null,
+      "population": "Review",
+      "design_notes": "Reviews CYP3A4 + P-gp induction mechanisms for hyperforin.",
+      "key_findings": "Hyperforin is a potent PXR agonist inducing CYP3A4 and P-glycoprotein; cyclosporine is a narrow-therapeutic-index CYP3A4 substrate, making the interaction predictable and clinically severe. Low-hyperforin SJW products may not trigger the interaction, but cannot be relied on for transplant patients.",
+      "limitations": "Narrative synthesis.",
+      "retracted_check": {"checked": true, "retracted": false, "date_checked": "2026-04-21"},
+      "quality_grade": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "statement": "St John's wort substantially reduces cyclosporine blood levels (25-62%) and has caused acute transplant rejection in heart, kidney, and pancreas recipients.",
+      "supporting_source_ids": ["S1", "S2", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 3,
+      "strength": "moderate",
+      "population_scope": ["organ transplant recipients on cyclosporine"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Standard retail SJW doses (600-900 mg/day high-hyperforin) have caused the interaction.", "b": "Any therapeutic cyclosporine dose.", "notes": "Multiple case reports across organ types confirm the interaction is not incidental."}
+    },
+    {
+      "claim_id": "C2",
+      "statement": "The mechanism is hyperforin-mediated induction of CYP3A4 and P-glycoprotein, accelerating cyclosporine metabolism and efflux.",
+      "supporting_source_ids": ["S3", "S4"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 2,
+      "strength": "strong",
+      "population_scope": ["all users"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Hyperforin content >1 mg/day considered high-risk; low-hyperforin products may not trigger but are not reliable for transplant patients.", "b": "Applies to all CYP3A4-metabolized immunosuppressants (tacrolimus, sirolimus also at risk).", "notes": "Same mechanism as SJW + OC interaction, with worse consequences given narrow therapeutic window."}
+    },
+    {
+      "claim_id": "C3",
+      "statement": "St John's wort is contraindicated in all transplant recipients on cyclosporine, tacrolimus, or sirolimus.",
+      "supporting_source_ids": ["S1", "S2", "S3"],
+      "contradicting_source_ids": [],
+      "corroboration_count": 3,
+      "strength": "strong",
+      "population_scope": ["transplant recipients on calcineurin/mTOR inhibitors"],
+      "population_exclusions": [],
+      "dose_threshold": {"a": "Any dose.", "b": "Any therapeutic immunosuppressant dose.", "notes": "Non-reversible harm (transplant rejection) justifies absolute contraindication."}
+    }
+  ],
+  "contradictions": [],
+  "final_severity_proposed": "danger",
+  "final_interaction_type_proposed": "metabolism",
+  "reviewer_notes": "Original entry was DANGER, 28 words, 1/3 specific. Severity holds at DANGER: multiple case reports of graft rejection (non-reversible harm), strong mechanism, broad transplant-population consensus (all major transplant centers contraindicate SJW). This is one of the cleanest DANGER pairs in the list.",
+  "last_reviewed": "2026-04-21",
+  "re_review_due": "2027-04-21"
+}
