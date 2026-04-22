@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
+import { brands, products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
 
 const BASE = "https://formulate-health.app";
 
@@ -76,6 +76,41 @@ export default function SupplementsHub() {
           and manufacturing practices. {products.length} supplements indexed.
         </p>
       </header>
+
+      <section className="mb-14">
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-sm font-semibold uppercase tracking-wider text-muted">
+            Browse by brand
+          </h2>
+          <Link
+            href="/brands"
+            className="text-xs text-muted hover:text-accent transition-colors"
+          >
+            All brands →
+          </Link>
+        </div>
+        <ul className="flex flex-wrap gap-2">
+          {brands.map((b) => {
+            const g = scoreGrade(b.score ?? b.avg_score ?? null);
+            return (
+              <li key={b.slug}>
+                <Link
+                  href={`/brands/${b.slug}`}
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-white/[0.02] pl-3 pr-2 py-1.5 hover:border-accent/40 transition-colors"
+                >
+                  <span className="text-sm font-semibold text-text">{b.name}</span>
+                  <span
+                    className="text-[10px] font-bold px-1.5 py-0.5 rounded"
+                    style={{ backgroundColor: `${g.color}1a`, color: g.color }}
+                  >
+                    {b.grade ?? g.letter}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
 
       {categories.map((cat) => (
         <section key={cat} className="mb-14">
