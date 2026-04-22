@@ -14,6 +14,7 @@ import {
   type Substance,
 } from "@/lib/interactions";
 import { getGuidesForSubstances } from "@/lib/guides";
+import { findIngredientByName } from "@/lib/encyclopedia";
 
 const BASE = "https://formulate-health.app";
 
@@ -334,6 +335,36 @@ export default async function PairPage({ params }: { params: Params }) {
           </div>
         </section>
       )}
+
+      {found && (() => {
+        const ingA = findIngredientByName(a.canonical);
+        const ingB = findIngredientByName(b.canonical);
+        const entries: { side: string; slug: string; name: string; category: string }[] = [];
+        if (ingA) entries.push({ side: aName, slug: ingA.slug, name: ingA.name, category: ingA.category });
+        if (ingB) entries.push({ side: bName, slug: ingB.slug, name: ingB.name, category: ingB.category });
+        if (entries.length === 0) return null;
+        return (
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-text mb-3">Learn more about each substance</h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {entries.map((e) => (
+                <li key={e.slug}>
+                  <Link
+                    href={`/ingredients/${e.slug}`}
+                    className="block rounded-lg border border-border bg-card/20 px-4 py-3 hover:border-accent transition-colors"
+                  >
+                    <p className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-1">
+                      {e.category}
+                    </p>
+                    <p className="text-sm font-semibold text-text">{e.name}</p>
+                    <p className="text-xs text-muted mt-0.5">Dose, mechanism, evidence, safety →</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
 
       {found && (() => {
         const relatedGuides = getGuidesForSubstances([a.canonical, b.canonical], 4);

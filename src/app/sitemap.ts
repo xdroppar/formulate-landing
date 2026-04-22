@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
 import { products, brands } from "@/lib/products";
+import { ingredients } from "@/lib/encyclopedia";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -75,6 +76,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const ingredientEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/ingredients`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...ingredients.map((i) => ({
+      url: `${baseUrl}/ingredients/${i.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: i.evidence_grade === "A" || i.evidence_grade === "B" ? 0.7 : 0.5,
+    })),
+  ];
+
   return [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -83,6 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...productEntries,
     ...brandEntries,
+    ...ingredientEntries,
     ...pairEntries,
     ...guideEntries,
     { url: `${baseUrl}/disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
