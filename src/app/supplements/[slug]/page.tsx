@@ -14,6 +14,7 @@ import {
 } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
+import { findIngredientByName } from "@/lib/encyclopedia";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -122,13 +123,24 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
             </tr>
           </thead>
           <tbody>
-            {ingredients.map((ing, i) => (
+            {ingredients.map((ing, i) => {
+              const enc = findIngredientByName(ing.name);
+              return (
               <tr
                 key={`${ing.name}-${i}`}
                 className={i < ingredients.length - 1 ? "border-b border-border" : ""}
               >
                 <td className="px-4 py-3 text-text">
-                  {ing.name}
+                  {enc ? (
+                    <Link
+                      href={`/ingredients/${enc.slug}`}
+                      className="hover:text-accent transition-colors underline-offset-4 hover:underline"
+                    >
+                      {ing.name}
+                    </Link>
+                  ) : (
+                    ing.name
+                  )}
                   {ing.form_details && (
                     <span className="block text-xs text-muted mt-0.5">{ing.form_details}</span>
                   )}
@@ -140,7 +152,8 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
                   {ing.daily_value_pct !== null ? `${ing.daily_value_pct}%` : "—"}
                 </td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
