@@ -366,6 +366,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "third-party-testing-supplements",
+    title: "Third-Party Tested Supplements: USP vs NSF vs Informed Sport",
+    description:
+      "Only ~1% of supplements carry USP Verified. This guide explains what each third-party certification tests, how to verify a mark is legitimate, and what to do when a product isn't certified.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "9 min read",
+    tags: ["Third-Party Testing", "USP", "NSF", "Quality", "Safety"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:
