@@ -60,13 +60,18 @@ REDIRECTS: dict[str, str] = {
     # Omega-3
     "omega-3": "best-omega-3-supplements",
     "omega-3-dosing-guide": "best-omega-3-supplements",
+    # Third-party testing (backlog cleared by shipping the combined guide)
+    "usp-verified-supplements": "third-party-testing-supplements",
 }
 
 # Targets with no existing canonical guide — log as future content backlog.
 # These are genuinely missing pages that should become new guides.
 BACKLOG_TARGETS = [
-    "supplement-drug-interactions",
-    "supplement-safety",
+    # Shipped this session; kept here commented for history:
+    #   "supplement-drug-interactions",      # shipped 2026-04-21
+    #   "supplement-safety",                 # shipped 2026-04-21
+    #   "third-party-testing-supplements",   # shipped 2026-04-21
+    #   "usp-verified-supplements",          # redirects → third-party-testing-supplements
     "coq10-benefits",
     "beta-alanine",
     "beta-alanine-supplements",
@@ -76,8 +81,6 @@ BACKLOG_TARGETS = [
     "best-vitamin-c-supplements",
     "best-supplements-for-joint-pain",
     "protein-guide",
-    "third-party-testing-supplements",
-    "usp-verified-supplements",
     "vitamin-b12-supplement",
     "how-to-read-supplement-research",
     "collagen-for-joints",

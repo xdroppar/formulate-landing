@@ -505,7 +505,7 @@ If you take any daily prescription medication, bring your full supplement list t
 
 <p>A <a href="/guides/third-party-testing-supplements">third-party certification</a> logo on a bottle means nothing until you confirm it in the certifier's own database. Brands have been caught printing USP and NSF logos without authorization. Verify directly:</p>
 
-<p><strong>USP:</strong> Search the <a href="/guides/usp-verified-supplements">USP Verified database</a> at verify.usp.org — enter the brand or product name. If it's not listed, the seal is fraudulent. <strong>NSF Certified for Sport:</strong> Use nsfsport.com and search by product or brand. Every certified product and specific SKU is listed. <strong>Informed Sport:</strong> Search at informed-sport.com by product name or batch number.</p>
+<p><strong>USP:</strong> Search the <a href="/guides/third-party-testing-supplements">USP Verified database</a> at verify.usp.org — enter the brand or product name. If it's not listed, the seal is fraudulent. <strong>NSF Certified for Sport:</strong> Use nsfsport.com and search by product or brand. Every certified product and specific SKU is listed. <strong>Informed Sport:</strong> Search at informed-sport.com by product name or batch number.</p>
 
 <Callout variant="warning" title="Logos aren't proof">A 2018 analysis by the Clean Label Project found significant discrepancies between marketing claims and actual contaminant levels in products that lacked verifiable third-party certification. Always cross-reference the logo against the certifier's live database — not the brand's own claims page.</Callout>
 
