@@ -13,6 +13,8 @@ export type InteractionType =
   | "timing"
   | "medication";
 
+export type EvidenceQuality = "high" | "moderate" | "low" | "very-low";
+
 export type Interaction = {
   substance_a: string;
   substance_b: string;
@@ -24,7 +26,19 @@ export type Interaction = {
   timing_advice: string | null;
   sources: string[];
   pair_key: string;
+  // Optional structured fields (populated by the research workflow pipeline).
+  // Renderer falls back to the unstructured `details` block when absent.
+  mechanism?: string | null;
+  evidence_quality?: EvidenceQuality | null;
+  populations?: string[] | null;
+  what_we_dont_know?: string | null;
+  severity_rationale?: string | null;
+  monitoring?: string[] | null;
+  last_reviewed?: string | null;
 };
+
+// Fallback when a pair has no per-record last_reviewed. Bump when a bulk review ships.
+export const INTERACTIONS_LAST_REVIEWED = "2026-04-21";
 
 export type Substance = {
   slug: string;

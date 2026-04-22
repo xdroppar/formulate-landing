@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { InteractionCard } from "@/components/interaction-card";
+import { RelatedInteractions } from "@/components/related-interactions";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import {
+  INTERACTIONS_LAST_REVIEWED,
   SEVERITY_META,
   checkPair,
   interactions,
@@ -11,6 +13,7 @@ import {
   substanceFromSlug,
   type Substance,
 } from "@/lib/interactions";
+import { getGuidesForSubstances } from "@/lib/guides";
 
 const BASE = "https://formulate-health.app";
 
@@ -81,12 +84,28 @@ export default async function PairPage({ params }: { params: Params }) {
   const bName = b.display;
   const url = `${BASE}/interactions/${pair}`;
 
+  const lastReviewed = found?.last_reviewed || INTERACTIONS_LAST_REVIEWED;
+  const pageHeadline = found
+    ? `${aName} and ${bName}: ${found.summary}`
+    : `${aName} and ${bName} Interaction`;
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: found
-      ? `${aName} and ${bName}: ${found.summary}`
-      : `${aName} and ${bName} Interaction`,
+    "@type": "MedicalWebPage",
+    name: pageHeadline,
+    headline: pageHeadline,
+    description: found
+      ? `${found.summary}. ${found.recommendation}`.slice(0, 300)
+      : `Interaction information for ${aName} and ${bName}.`,
+    url,
+    mainEntityOfPage: url,
+    medicalAudience: {
+      "@type": "MedicalAudience",
+      audienceType: "Patient",
+    },
+    lastReviewed,
+    dateModified: lastReviewed,
+    inLanguage: "en-US",
     author: { "@type": "Organization", name: "Formulate Team", url: BASE },
     publisher: {
       "@type": "Organization",
@@ -94,8 +113,6 @@ export default async function PairPage({ params }: { params: Params }) {
       url: BASE,
       logo: { "@type": "ImageObject", url: `${BASE}/logo.png`, width: 512, height: 512 },
     },
-    url,
-    mainEntityOfPage: url,
   };
 
   const breadcrumbLd = {
@@ -121,14 +138,44 @@ export default async function PairPage({ params }: { params: Params }) {
               text: `${found.summary}. ${found.recommendation}`,
             },
           },
+          ...(found.mechanism
+            ? [
+                {
+                  "@type": "Question",
+                  name: `How does ${aName.toLowerCase()} interact with ${bName.toLowerCase()}?`,
+                  acceptedAnswer: { "@type": "Answer", text: found.mechanism },
+                },
+              ]
+            : []),
           ...(found.timing_advice
             ? [
                 {
                   "@type": "Question",
                   name: `How should I time ${aName.toLowerCase()} and ${bName.toLowerCase()}?`,
+                  acceptedAnswer: { "@type": "Answer", text: found.timing_advice },
+                },
+              ]
+            : []),
+          ...(found.populations && found.populations.length > 0
+            ? [
+                {
+                  "@type": "Question",
+                  name: `Who should be careful about combining ${aName.toLowerCase()} and ${bName.toLowerCase()}?`,
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: found.timing_advice,
+                    text: found.populations.join(" "),
+                  },
+                },
+              ]
+            : []),
+          ...(found.monitoring && found.monitoring.length > 0
+            ? [
+                {
+                  "@type": "Question",
+                  name: `What should I watch for if I take ${aName.toLowerCase()} and ${bName.toLowerCase()} together?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: found.monitoring.join(" "),
                   },
                 },
               ]
@@ -195,6 +242,63 @@ export default async function PairPage({ params }: { params: Params }) {
         </div>
       )}
 
+      {found?.mechanism && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">How it works</h2>
+          <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
+            {found.mechanism}
+          </p>
+        </section>
+      )}
+
+      {found?.populations && found.populations.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">Who should be careful</h2>
+          <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
+            {found.populations.map((p, idx) => (
+              <li key={idx}>{p}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {found?.monitoring && found.monitoring.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">Warning signs to watch for</h2>
+          <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
+            {found.monitoring.map((m, idx) => (
+              <li key={idx}>{m}</li>
+            ))}
+          </ul>
+          <p className="text-xs text-muted mt-3">
+            Stop the combination and contact your healthcare provider if any of these occur.
+          </p>
+        </section>
+      )}
+
+      {found?.what_we_dont_know && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">What we don&apos;t know</h2>
+          <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
+            {found.what_we_dont_know}
+          </p>
+        </section>
+      )}
+
+      {found?.severity_rationale && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">Why this severity</h2>
+          <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
+            {found.severity_rationale}
+          </p>
+          {found.evidence_quality && (
+            <p className="text-xs text-muted mt-3 uppercase tracking-wider">
+              Evidence quality (GRADE): {found.evidence_quality.replace("-", " ")}
+            </p>
+          )}
+        </section>
+      )}
+
       {found && (
         <section className="mb-10">
           <h2 className="text-lg font-bold text-text mb-4">
@@ -231,7 +335,42 @@ export default async function PairPage({ params }: { params: Params }) {
         </section>
       )}
 
-      <section className="rounded-2xl border border-border bg-card/30 p-6">
+      {found && (() => {
+        const relatedGuides = getGuidesForSubstances([a.canonical, b.canonical], 4);
+        if (relatedGuides.length === 0) return null;
+        return (
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-text mb-3">Related reading</h2>
+            <ul className="space-y-3">
+              {relatedGuides.map((g) => (
+                <li key={g.slug}>
+                  <Link
+                    href={`/guides/${g.slug}`}
+                    className="block rounded-lg border border-border bg-card/20 px-4 py-3 hover:border-accent transition-colors"
+                  >
+                    <p className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-1">
+                      {g.categoryLabel}
+                    </p>
+                    <p className="text-sm font-semibold text-text mb-1">{g.title}</p>
+                    <p className="text-xs text-muted line-clamp-2">{g.description}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
+
+      {found && (
+        <RelatedInteractions
+          tags={[a.canonical, b.canonical]}
+          excludePairKey={found.pair_key}
+          kicker="Other interactions to know"
+          heading={`More interactions involving ${aName} or ${bName}`}
+        />
+      )}
+
+      <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
           Want to check your whole stack?
         </h2>
@@ -261,6 +400,16 @@ export default async function PairPage({ params }: { params: Params }) {
         <strong className="text-text">Medical disclaimer.</strong> This page is for
         educational purposes only and does not replace advice from a qualified healthcare
         provider.
+      </p>
+      <p className="text-xs text-muted mt-2 leading-relaxed">
+        Last medically reviewed:{" "}
+        <time dateTime={lastReviewed}>
+          {new Date(lastReviewed).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </time>
       </p>
     </main>
   );

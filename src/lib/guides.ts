@@ -971,3 +971,30 @@ export function getGuidesByTagSlug(tagSlug: string): { tag: string; guides: Guid
   const canonical = matched[0].tags.find((t) => slugifyTag(t) === tagSlug) ?? tagSlug;
   return { tag: canonical, guides: matched };
 }
+
+/**
+ * Find guides relevant to one or more substance names (e.g. ["magnesium", "zinc"]).
+ * Matches against tags (case-insensitive) and title substring. Used to wire
+ * interaction pair pages into the content graph.
+ */
+export function getGuidesForSubstances(names: string[], limit = 6): Guide[] {
+  const needles = names
+    .map((n) => n.trim().toLowerCase())
+    .filter((n) => n.length > 0);
+  if (needles.length === 0) return [];
+
+  const scored: { guide: Guide; score: number }[] = [];
+  for (const g of visibleGuides) {
+    let score = 0;
+    const tagsLower = g.tags.map((t) => t.toLowerCase());
+    const titleLower = g.title.toLowerCase();
+    for (const n of needles) {
+      if (tagsLower.some((t) => t === n)) score += 3;
+      else if (tagsLower.some((t) => t.includes(n) || n.includes(t))) score += 2;
+      if (titleLower.includes(n)) score += 1;
+    }
+    if (score > 0) scored.push({ guide: g, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((s) => s.guide);
+}

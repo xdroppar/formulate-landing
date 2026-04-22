@@ -27,7 +27,17 @@ function tagToCanonical(tag: string): string | null {
 
 const SEVERITY_RANK: Severity[] = ["danger", "warning", "caution", "synergy", "info"];
 
-export function RelatedInteractions({ tags }: { tags: string[] }) {
+export function RelatedInteractions({
+  tags,
+  excludePairKey,
+  heading,
+  kicker,
+}: {
+  tags: string[];
+  excludePairKey?: string;
+  heading?: string;
+  kicker?: string;
+}) {
   const focusCanonicals = new Set(
     tags.map(tagToCanonical).filter((v): v is string => v !== null),
   );
@@ -39,6 +49,7 @@ export function RelatedInteractions({ tags }: { tags: string[] }) {
     const a = i.substance_a.toLowerCase();
     const b = i.substance_b.toLowerCase();
     if (!focusCanonicals.has(a) && !focusCanonicals.has(b)) continue;
+    if (excludePairKey && i.pair_key === excludePairKey) continue;
     if (seen.has(i.pair_key)) continue;
     seen.add(i.pair_key);
     matches.push(i);
@@ -58,10 +69,10 @@ export function RelatedInteractions({ tags }: { tags: string[] }) {
       <header className="mb-5 flex items-start justify-between gap-4 flex-wrap">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-2">
-            Interactions to know
+            {kicker ?? "Interactions to know"}
           </p>
           <h2 className="text-xl md:text-2xl font-bold text-text">
-            How these pair with other supplements and medications
+            {heading ?? "How these pair with other supplements and medications"}
           </h2>
         </div>
         <Link
