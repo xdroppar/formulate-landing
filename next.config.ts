@@ -10,13 +10,16 @@ const nextConfig: NextConfig = {
   },
 
   /**
-   * Redirect any legacy / Google-indexed catalog and brand URLs to the app
-   * subdomain. The catalog lives on app.formulate-health.app — not the
-   * landing site — but historical canonical tags on the product pages
-   * accidentally pointed Google at formulate-health.app/catalog/*, so real
-   * visitors from search results were hitting our 404 page. These 301s
-   * fix every inbound link instantly; Google will update its index once
-   * it re-crawls the corrected canonical on the destination pages.
+   * Redirect any legacy / Google-indexed catalog URLs to the app subdomain.
+   * The per-product catalog lives on app.formulate-health.app — not landing —
+   * but historical canonical tags accidentally pointed Google at
+   * formulate-health.app/catalog/*, so real visitors from search results were
+   * hitting our 404 page. These 301s fix inbound links instantly; Google will
+   * update its index once it re-crawls the corrected canonical on destination.
+   *
+   * NOTE: /brands and /brands/:slug* are NOT redirected — the SEO-facing brand
+   * hub pages live here on the landing site (see src/app/brands/). The webapp
+   * has its own /brands view for logged-in users; different surface, same data.
    */
   async redirects() {
     return [
@@ -28,16 +31,6 @@ const nextConfig: NextConfig = {
       {
         source: "/catalog/:slug*",
         destination: "https://app.formulate-health.app/catalog/:slug*",
-        permanent: true,
-      },
-      {
-        source: "/brands",
-        destination: "https://app.formulate-health.app/brands",
-        permanent: true,
-      },
-      {
-        source: "/brands/:slug*",
-        destination: "https://app.formulate-health.app/brands/:slug*",
         permanent: true,
       },
       {
