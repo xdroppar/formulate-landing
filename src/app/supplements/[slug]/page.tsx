@@ -356,7 +356,14 @@ export default async function SupplementPage({ params }: { params: Params }) {
           )}
         </div>
         <div>
-          <div className="text-sm font-medium text-muted mb-2">{product.brand}</div>
+          <div className="text-sm font-medium text-muted mb-2">
+            <Link
+              href={`/brands/${product.brand_slug}`}
+              className="hover:text-accent transition-colors"
+            >
+              {product.brand}
+            </Link>
+          </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-4 leading-tight">
             {product.name}
           </h1>

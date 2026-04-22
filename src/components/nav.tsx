@@ -54,6 +54,9 @@ export function Nav() {
             <Link href="/guides" className={linkClass("/guides")}>
               Guides
             </Link>
+            <Link href="/brands" className={linkClass("/brands")}>
+              Brands
+            </Link>
             <Link href="/interactions" className={linkClass("/interactions")}>
               Interactions
             </Link>
@@ -101,6 +104,9 @@ export function Nav() {
             </Link>
             <Link href="/guides" onClick={() => setOpen(false)} className={`${linkClass("/guides")} py-1`} role="menuitem">
               Guides
+            </Link>
+            <Link href="/brands" onClick={() => setOpen(false)} className={`${linkClass("/brands")} py-1`} role="menuitem">
+              Brands
             </Link>
             <Link href="/interactions" onClick={() => setOpen(false)} className={`${linkClass("/interactions")} py-1`} role="menuitem">
               Interactions
