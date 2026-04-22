@@ -368,7 +368,7 @@ export function LionsManeGuide() {
 Watch for COAs that only report polysaccharides (not beta-glucans specifically), omit starch testing, show no lab accreditation number, or are dated more than 12 months before the product's manufacturing date. A legitimate COA should be batch-specific — meaning it corresponds to the actual lot number on your bottle, not a generic "representative" test from years ago.
       </Callout>
 
-      <p>If you're still building your label-reading skills, our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> covers the fundamentals beyond COAs. And for help comparing products that meet these standards, check the <a href="/guides/lions-mane-guide">lion's mane buying criteria</a> earlier in this guide.</p>
+      <p>If you're still building your label-reading skills, our <a href="/guides/how-to-read-a-supplement-label">guide to reading supplement labels</a> covers the fundamentals beyond COAs. And for help comparing products that meet these standards, check the <a href="/guides/lions-mane-guide">lion's mane buying criteria</a> earlier in this guide.</p>
 
 
       <h2>Drug Interactions and Medical Considerations</h2>
@@ -394,7 +394,7 @@ No human trials have formally assessed lion's mane co-administered with anticoag
       <p>There is <strong>no safety data</strong> for lion's mane during pregnancy or breastfeeding. No human studies, no animal reproductive toxicity studies of sufficient quality to draw conclusions. This isn't a case where evidence suggests it's probably fine — it's a genuine blank. Consult your OB-GYN or midwife before use.</p>
 
       <Callout variant="info" title="General Rule">
-Bring your full supplement list — including anything you're considering adding — to your next provider visit. Pharmacists are often the most accessible resource for checking interaction databases, and they're underutilized. If you're managing a <a href="/guides/supplement-timing">complex supplement stack</a>, professional oversight isn't optional for these populations.
+Bring your full supplement list — including anything you're considering adding — to your next provider visit. Pharmacists are often the most accessible resource for checking interaction databases, and they're underutilized. If you're managing a <a href="/guides/supplement-timing-guide">complex supplement stack</a>, professional oversight isn't optional for these populations.
       </Callout>
 
 
@@ -432,7 +432,7 @@ Bring your full supplement list — including anything you're considering adding
 Many popular brands — including several you'll see recommended on Reddit — fail on starch content, don't use dual extraction, or refuse to share COAs. We'd rather list three products that genuinely meet every criterion from this guide than pad the list with compromises. If a brand doesn't disclose beta-glucan and starch percentages, treat that as your answer.
       </Callout>
 
-      <p>All three of these top lion's mane supplements use fruiting body extract as the base, provide third-party or published COA data, and meet the ≥25% beta-glucan and ≤5% starch thresholds outlined earlier. Price differences mostly reflect extraction ratios, sourcing logistics, and whether the company offers erinacine-verified mycelium alongside the fruiting body product. For most people starting out, the $0.04–$0.06/gram range delivers excellent value without sacrificing quality. You can compare these and other options in the <a href="/guides/supplement-labels">supplement label reading guide</a> to verify claims yourself.</p>
+      <p>All three of these top lion's mane supplements use fruiting body extract as the base, provide third-party or published COA data, and meet the ≥25% beta-glucan and ≤5% starch thresholds outlined earlier. Price differences mostly reflect extraction ratios, sourcing logistics, and whether the company offers erinacine-verified mycelium alongside the fruiting body product. For most people starting out, the $0.04–$0.06/gram range delivers excellent value without sacrificing quality. You can compare these and other options in the <a href="/guides/how-to-read-a-supplement-label">supplement label reading guide</a> to verify claims yourself.</p>
 
 
       <h2>Who Should Talk to a Doctor First</h2>

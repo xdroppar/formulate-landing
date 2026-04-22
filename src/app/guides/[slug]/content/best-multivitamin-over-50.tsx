@@ -293,7 +293,7 @@ export function BestMultivitaminOver50() {
       Budget multi ($4–$10/mo) + D3/K2 combo ($2–$3/mo) = under $13/month. You'll still want to add <a href="/guides/best-magnesium-supplements">magnesium</a> (glycinate or citrate, 200–400 mg) separately — that's another $5–$8/month. Total: roughly $15/month for coverage that rivals premium options costing 3× more.
       </Callout>
 
-      <p>The cyanocobalamin B12 in these budget formulas isn't ideal, but it's not useless. Healthy adults without MTHFR polymorphisms or severe atrophic gastritis generally convert it adequately (Paul & Brady, 2017). If you have documented B12 deficiency or absorption issues, a standalone <a href="/guides/vitamin-b12">methylcobalamin supplement</a> (1,000 mcg, ~$5/month) is a worthwhile third add-on. For everyone else, the cyanocobalamin in your budget multi is acceptable — imperfect, but functional.</p>
+      <p>The cyanocobalamin B12 in these budget formulas isn't ideal, but it's not useless. Healthy adults without MTHFR polymorphisms or severe atrophic gastritis generally convert it adequately (Paul & Brady, 2017). If you have documented B12 deficiency or absorption issues, a standalone <a href="/guides/vitamin-b12-guide">methylcobalamin supplement</a> (1,000 mcg, ~$5/month) is a worthwhile third add-on. For everyone else, the cyanocobalamin in your budget multi is acceptable — imperfect, but functional.</p>
 
       <Callout variant="warning" title="Don't Overspend to Compensate">
       Resist the urge to buy five separate supplements to "fix" a cheap multi. Two targeted add-ons (D3/K2 and magnesium) close 80% of the gaps. Annual bloodwork tells you whether you need anything else.

@@ -390,7 +390,7 @@ export function BestMagnesium() {
       <p><strong>Magnesium glycinate</strong> is the preferred form for athletes specifically because it avoids the GI distress that citrate and oxide cause during or around training. Loose stools mid-workout aren&rsquo;t a performance enhancer. If you&rsquo;re already using glycinate for <a href="/guides/best-magnesium-supplements">sleep</a>, adding a second dose post-training (100–150mg elemental) is a practical approach — just keep total supplemental intake within the 350mg UL unless directed otherwise by a sports dietitian.</p>
 
       <Callout variant="info" title="Recovery context">
-        Magnesium alone won&rsquo;t meaningfully accelerate muscle recovery. Its role is permissive — adequate magnesium supports normal muscle relaxation and protein synthesis, but supplementing above sufficiency doesn&rsquo;t provide extra recovery benefits. Pair it with adequate protein and sleep for actual results. For more on building a complete recovery stack, see our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a>.
+        Magnesium alone won&rsquo;t meaningfully accelerate muscle recovery. Its role is permissive — adequate magnesium supports normal muscle relaxation and protein synthesis, but supplementing above sufficiency doesn&rsquo;t provide extra recovery benefits. Pair it with adequate protein and sleep for actual results. For more on building a complete recovery stack, see our <a href="/guides/best-sleep-supplement-protocol">sleep supplement guide</a>.
       </Callout>
 
       <h2>How to Read a Magnesium Label at Any Price Point</h2>
@@ -444,7 +444,7 @@ export function BestMagnesium() {
         If you&rsquo;re considering magnesium for a child for any reason — sleep, growing pains, ADHD-adjacent symptoms — consult their pediatrician first. They can assess dietary intake, rule out other causes, and recommend an age-appropriate form and dose if supplementation is warranted.
       </Callout>
 
-      <p>For general adult <strong>magnesium safety</strong> guidance, including drug interactions and signs of excess, see the <a href="/guides/best-magnesium-supplements">interactions and upper-limit sections</a> earlier in this guide. If you&rsquo;re unsure whether you&rsquo;re deficient, our <a href="/guides/signs-of-magnesium-deficiency">magnesium deficiency guide</a> covers how to assess your status before supplementing.</p>
+      <p>For general adult <strong>magnesium safety</strong> guidance, including drug interactions and signs of excess, see the <a href="/guides/best-magnesium-supplements">interactions and upper-limit sections</a> earlier in this guide. If you&rsquo;re unsure whether you&rsquo;re deficient, our <a href="/guides/signs-you-are-magnesium-deficient">magnesium deficiency guide</a> covers how to assess your status before supplementing.</p>
 
       <h2>How Long Before You Notice Results? Setting Realistic Expectations</h2>
 
@@ -460,7 +460,7 @@ export function BestMagnesium() {
 
       <h3>The 8-Week Reassessment Rule</h3>
 
-      <p>If you&rsquo;ve supplemented consistently for eight weeks at an appropriate dose and noticed zero improvement in your target symptom, don&rsquo;t just increase the dose blindly. Reassess three things: whether your form matches your goal, whether your elemental magnesium intake is actually sufficient (check the label math in our section above), and whether something else — like a <a href="/guides/signs-of-magnesium-deficiency">deeper deficiency</a> or competing medication — is undermining absorption.</p>
+      <p>If you&rsquo;ve supplemented consistently for eight weeks at an appropriate dose and noticed zero improvement in your target symptom, don&rsquo;t just increase the dose blindly. Reassess three things: whether your form matches your goal, whether your elemental magnesium intake is actually sufficient (check the label math in our section above), and whether something else — like a <a href="/guides/signs-you-are-magnesium-deficient">deeper deficiency</a> or competing medication — is undermining absorption.</p>
 
       <Callout variant="info" title="Consistency matters more than timing">
         Missing doses resets the clock on tissue saturation. Daily, uninterrupted supplementation is what moves lab values — not occasional megadoses. If you struggle with consistency, pair your magnesium with an existing habit like brushing your teeth.
@@ -521,10 +521,10 @@ export function BestMagnesium() {
       <p>Your bottle says "Magnesium Glycinate — 1,000mg" per serving. Multiply by the elemental percentage: <strong>1,000mg × 0.14 = 140mg of elemental magnesium</strong>. That's what you're actually getting. Compare that to 1,000mg of magnesium oxide: 1,000mg × 0.60 = 600mg elemental. Oxide looks better on paper — until you remember its ~4% bioavailability means your body absorbs roughly 24mg. Glycinate at ~80% absorption delivers around 112mg. The usable dose wins.</p>
 
       <Callout variant="info" title="Always check for the elemental number">
-      Good brands list elemental magnesium separately on the Supplement Facts panel. If yours doesn't, use these percentages to calculate it yourself. For a deeper walkthrough of what else to look for, see our <a href="/guides/supplement-label-reading">supplement label reading guide</a>.
+      Good brands list elemental magnesium separately on the Supplement Facts panel. If yours doesn't, use these percentages to calculate it yourself. For a deeper walkthrough of what else to look for, see our <a href="/guides/how-to-read-a-supplement-label">supplement label reading guide</a>.
       </Callout>
 
-      <p>This math is why <a href="/guides/magnesium-deficiency">knowing your actual magnesium gap</a> matters before you buy. A product advertising 500mg on the front label could deliver anywhere from 36mg to 300mg of elemental magnesium depending on the form — and that's before absorption even enters the equation.</p>
+      <p>This math is why <a href="/guides/signs-you-are-magnesium-deficient">knowing your actual magnesium gap</a> matters before you buy. A product advertising 500mg on the front label could deliver anywhere from 36mg to 300mg of elemental magnesium depending on the form — and that's before absorption even enters the equation.</p>
 
       <h3>Magnesium for Migraines: What the Evidence Shows</h3>
 

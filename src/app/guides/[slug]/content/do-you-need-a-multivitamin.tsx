@@ -372,7 +372,7 @@ export function DoYouNeedMultivitamin() {
       Bring your complete medication list <em>and</em> your supplement list — including your multivitamin — to your next provider visit. Drug-nutrient interactions aren't always intuitive, and timing, dose, and nutrient form all matter. This is especially critical for warfarin users, where even small vitamin K fluctuations can have serious consequences. Never adjust supplements around blood thinners without clinical guidance.
       </Callout>
 
-      <p>The broader point: medications can both create nutrient needs and make certain supplements dangerous. A generic multivitamin doesn't account for either scenario well. If you're on any of these medications, a targeted approach — guided by bloodwork and your prescriber — is safer and more effective than hoping your one-a-day covers it. See our <a href="/guides/supplement-timing">timing guide</a> for how to separate competing nutrients and medications.</p>
+      <p>The broader point: medications can both create nutrient needs and make certain supplements dangerous. A generic multivitamin doesn't account for either scenario well. If you're on any of these medications, a targeted approach — guided by bloodwork and your prescriber — is safer and more effective than hoping your one-a-day covers it. See our <a href="/guides/supplement-timing-guide">timing guide</a> for how to separate competing nutrients and medications.</p>
 
       <h3>The Targeted Supplement Stack: A Practical Daily Schedule</h3>
 
@@ -388,13 +388,13 @@ export function DoYouNeedMultivitamin() {
 
       <h3>Before Bed</h3>
 
-      <p><strong>Magnesium glycinate:</strong> 300–400 mg elemental magnesium. Glycinate is preferred over oxide for its superior bioavailability and calming effect on the nervous system — Abbasi et al. (2012) found magnesium supplementation significantly improved subjective sleep quality in elderly subjects. Cost: <strong>$10–$18/month</strong>. See our <a href="/guides/magnesium-forms-compared">magnesium forms guide</a> for a full comparison.</p>
+      <p><strong>Magnesium glycinate:</strong> 300–400 mg elemental magnesium. Glycinate is preferred over oxide for its superior bioavailability and calming effect on the nervous system — Abbasi et al. (2012) found magnesium supplementation significantly improved subjective sleep quality in elderly subjects. Cost: <strong>$10–$18/month</strong>. See our <a href="/guides/magnesium-glycinate-vs-citrate-vs-oxide">magnesium forms guide</a> for a full comparison.</p>
 
       <Callout variant="info" title="Total Monthly Cost">
       This three-supplement stack runs roughly <strong>$35–$65/month</strong> — comparable to a quality multivitamin, but with clinical doses of the nutrients most Americans actually lack. Add B12 (methylcobalamin, ~$8/month) only if bloodwork warrants it.
       </Callout>
 
-      <p>For third-party tested options, look for <strong>USP, NSF International, or IFOS</strong> (specifically for fish oil) certification on the label. ConsumerLab and the <a href="/guides/supplement-label-guide">supplement label guide</a> can help you verify what's actually in the bottle versus what's claimed.</p>
+      <p>For third-party tested options, look for <strong>USP, NSF International, or IFOS</strong> (specifically for fish oil) certification on the label. ConsumerLab and the <a href="/guides/how-to-read-a-supplement-label">supplement label guide</a> can help you verify what's actually in the bottle versus what's claimed.</p>
 
       <Callout variant="warning" title="Don't Copy-Paste Blindly">
       This schedule assumes a generally healthy adult with no medications or absorption issues. If you take blood thinners, PPIs, or metformin — or if you're pregnant — consult your healthcare provider before starting any new supplement. Vitamin K2 in particular interacts with warfarin.
@@ -412,7 +412,7 @@ export function DoYouNeedMultivitamin() {
       <p>Two-capsule serving. Methylfolate, methylcobalamin, P5P, D3 at 2,000 IU, chelated zinc and copper. NSF Certified for Sport. No iron. The doses aren't heroic — magnesium is only 80mg — but nothing is in a junk form. A solid default for most people. Roughly <strong>$25–30/month</strong>, making this the budget pick on the list.</p>
 
       <h3>Pure Encapsulations ONE Multivitamin</h3>
-      <p>Despite the "one" name, this uses a large capsule with methylated Bs, D3 at 2,000 IU, and chelated minerals. No iron. Third-party tested (Emerson Ecologics). Magnesium is token (45mg citrate), so you'd still want a standalone <a href="/guides/magnesium-glycinate">magnesium supplement</a>. Around <strong>$30–35/month</strong>.</p>
+      <p>Despite the "one" name, this uses a large capsule with methylated Bs, D3 at 2,000 IU, and chelated minerals. No iron. Third-party tested (Emerson Ecologics). Magnesium is token (45mg citrate), so you'd still want a standalone <a href="/guides/magnesium-glycinate-vs-citrate-vs-oxide">magnesium supplement</a>. Around <strong>$30–35/month</strong>.</p>
 
       <h3>Seeking Health Optimal Multivitamin Minus One</h3>
       <p>The "Minus One" means no iron — exactly what most people want. Four-capsule serving allows more generous dosing: 400mcg methylfolate, active B6, MTHF-friendly forms throughout. Includes 200mg chelated magnesium, which is better than most. No major third-party seal, but the company publishes COAs on request. About <strong>$35–40/month</strong>.</p>
@@ -421,7 +421,7 @@ export function DoYouNeedMultivitamin() {
       <p>Plant-based capsule with methylcobalamin, methylfolate, D3 from lichen, and chelated minerals. The men's formula is iron-free; the women's includes iron, so <strong>choose the men's version</strong> unless bloodwork shows you need iron. Third-party tested. Four-capsule serving. Roughly <strong>$30/month</strong>. Slightly lower B-vitamin doses than Seeking Health but more accessible at mainstream retailers.</p>
 
       <Callout variant="warning" title="A multi still isn't enough on its own">
-      Even the best multivitamin on this list underdoses magnesium and contains zero omega-3. You'll likely still want standalone <a href="/guides/vitamin-d3-k2">vitamin D3 + K2</a> (to reach 4,000–5,000 IU if your levels are low), magnesium, and fish oil. The multi covers the long tail of B vitamins, zinc, selenium, and other trace nutrients — not the big-ticket gaps.
+      Even the best multivitamin on this list underdoses magnesium and contains zero omega-3. You'll likely still want standalone <a href="/guides/best-vitamin-d-supplements">vitamin D3 + K2</a> (to reach 4,000–5,000 IU if your levels are low), magnesium, and fish oil. The multi covers the long tail of B vitamins, zinc, selenium, and other trace nutrients — not the big-ticket gaps.
       </Callout>
 
       <h2>Special Populations: Vegan and Vegetarian Nutrient Gaps Explained</h2>
@@ -438,7 +438,7 @@ export function DoYouNeedMultivitamin() {
 
       <h3>Omega-3s: The ALA Conversion Problem</h3>
 
-      <p>Flaxseed and walnuts give you ALA, but your body converts only about 5–10% of ALA to EPA and less than 1% to DHA (Burdge & Calder, 2005). <EvidenceBadge level="strong" /> That's not a rounding error — it's a near-total bottleneck. Algae-based DHA/EPA supplements bypass the conversion entirely and are the only direct vegan source. Aim for at least 250–500 mg combined DHA/EPA daily, which mirrors the dosing in our <a href="/guides/omega-3">omega-3 guide</a>.</p>
+      <p>Flaxseed and walnuts give you ALA, but your body converts only about 5–10% of ALA to EPA and less than 1% to DHA (Burdge & Calder, 2005). <EvidenceBadge level="strong" /> That's not a rounding error — it's a near-total bottleneck. Algae-based DHA/EPA supplements bypass the conversion entirely and are the only direct vegan source. Aim for at least 250–500 mg combined DHA/EPA daily, which mirrors the dosing in our <a href="/guides/best-omega-3-supplements">omega-3 guide</a>.</p>
 
       <h3>Zinc and Iodine: The Quiet Gaps</h3>
 
@@ -446,7 +446,7 @@ export function DoYouNeedMultivitamin() {
 
       <h3>A Targeted Vegan Stack</h3>
 
-      <p>Rather than relying on a generic <strong>vegan multivitamin</strong> that underdoses everything, evidence suggests this targeted approach covers the mechanistic gaps specific to plant-based eating: <strong>B12</strong> (1,000 mcg methylcobalamin daily), <strong>algae-based omega-3</strong> (250–500 mg DHA/EPA), <strong>vitamin D3</strong> from lichen (2,000 IU — see our <a href="/guides/vitamin-d">vitamin D guide</a>), <strong>zinc</strong> (15–30 mg as zinc picolinate or citrate, taken away from iron), and <strong>iodine</strong> (150 mcg if you don't use iodized salt). Add iron only if bloodwork confirms low ferritin.</p>
+      <p>Rather than relying on a generic <strong>vegan multivitamin</strong> that underdoses everything, evidence suggests this targeted approach covers the mechanistic gaps specific to plant-based eating: <strong>B12</strong> (1,000 mcg methylcobalamin daily), <strong>algae-based omega-3</strong> (250–500 mg DHA/EPA), <strong>vitamin D3</strong> from lichen (2,000 IU — see our <a href="/guides/best-vitamin-d-supplements">vitamin D guide</a>), <strong>zinc</strong> (15–30 mg as zinc picolinate or citrate, taken away from iron), and <strong>iodine</strong> (150 mcg if you don't use iodized salt). Add iron only if bloodwork confirms low ferritin.</p>
 
       <Callout variant="warning" title="Consult before stacking iron and zinc">
       Iron and zinc compete for the same absorption pathways. If you need both, take them at different times of day. Pregnant or breastfeeding? Your requirements for B12, iron, DHA, and iodine all increase — work with your healthcare provider to adjust doses.

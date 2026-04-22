@@ -488,7 +488,7 @@ export function NootropicsGuide() {
 
       <h3>Why Proprietary Blends Fail Here</h3>
 
-      <p>Even a third-party tested product is useless if you can't verify individual ingredient doses. Proprietary blends — the "Cognitive Enhancement Matrix" formulas called out in our <a href="/guides/how-to-read-supplement-labels">label reading guide</a> — make it impossible to confirm whether any single ingredient reaches a clinically relevant amount. A certified proprietary blend is still a black box. Certification plus full label transparency is the combination you need.</p>
+      <p>Even a third-party tested product is useless if you can't verify individual ingredient doses. Proprietary blends — the "Cognitive Enhancement Matrix" formulas called out in our <a href="/guides/how-to-read-a-supplement-label">label reading guide</a> — make it impossible to confirm whether any single ingredient reaches a clinically relevant amount. A certified proprietary blend is still a black box. Certification plus full label transparency is the combination you need.</p>
 
       <h3>Your 3-Step Verification Checklist</h3>
 

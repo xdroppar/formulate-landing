@@ -522,7 +522,7 @@ export function ElectrolytesGuide() {
 
       <p>That said, consistently hitting 4,700mg from diet alone does require intentional planning. Evidence suggests most people will still fall short by 500–1,000mg on an average day (Cogswell et al., 2012). <EvidenceBadge level="moderate" /> This is where a small potassium chloride supplement — like the NoSalt in the <a href="/guides/electrolytes-guide">DIY recipe above</a> — makes sense as a gap-filler, not a replacement for eating actual food.</p>
 
-      <p>If you're also working on your <a href="/guides/magnesium-deficiency">magnesium intake</a>, the good news is that many high-potassium foods — spinach, lentils, edamame — are solid magnesium sources too. Two deficiencies, one plate.</p>
+      <p>If you're also working on your <a href="/guides/signs-you-are-magnesium-deficient">magnesium intake</a>, the good news is that many high-potassium foods — spinach, lentils, edamame — are solid magnesium sources too. Two deficiencies, one plate.</p>
 
       <h2>Electrolytes for Older Adults (65+)</h2>
 

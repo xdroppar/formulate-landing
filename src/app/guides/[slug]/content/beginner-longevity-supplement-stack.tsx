@@ -495,7 +495,7 @@ export function BeginnerLongevityStack() {
 
       <p><strong>Creatine</strong> deserves special attention for this group. Vegans and vegetarians have lower baseline muscle and brain creatine stores because dietary creatine comes almost exclusively from meat. Evidence suggests the <strong>cognitive benefits of creatine supplementation may be proportionally larger</strong> for plant-based eaters — a meta-analysis by Avgerinos et al. (2018) found memory improvements with supplementation, and Benton & Donohoe (2011) specifically showed enhanced cognitive performance in vegetarians. <EvidenceBadge level="moderate" studiesId="creatine-avgerinos-cognitive-2018" /> Standard creatine monohydrate is synthesized, not animal-derived — it's already vegan.</p>
 
-      <p>CoQ10 (ubiquinol), curcumin, and Tier 3 compounds are typically vegan-compatible, but again — check capsule materials. If you're following this stack as a vegan, also consider screening <a href="/guides/vitamin-b12-deficiency">B12</a> and zinc levels, since deficiencies in both are common in plant-based diets and interact with pathways this guide covers.</p>
+      <p>CoQ10 (ubiquinol), curcumin, and Tier 3 compounds are typically vegan-compatible, but again — check capsule materials. If you're following this stack as a vegan, also consider screening <a href="/guides/vitamin-b12-guide">B12</a> and zinc levels, since deficiencies in both are common in plant-based diets and interact with pathways this guide covers.</p>
 
       <h2>How to Read a Supplement Label: Elemental Dose vs. Compound Dose</h2>
 
@@ -503,7 +503,7 @@ export function BeginnerLongevityStack() {
 
       <h3>The Magnesium Example</h3>
 
-      <p>A capsule labeled "Magnesium Glycinate 400mg" often contains 400mg of the <em>magnesium glycinate compound</em> — not 400mg of elemental magnesium. Magnesium glycinate is roughly 14% magnesium by weight, so that 400mg capsule delivers only about <strong>56mg of actual magnesium</strong>. To hit the 300–400mg elemental target from our <a href="/guides/magnesium-deficiency">magnesium guide</a>, you'd need six or seven of those capsules. Some brands list elemental magnesium separately on the Supplement Facts panel; others bury the compound weight in the "Other Ingredients" or don't clarify at all.</p>
+      <p>A capsule labeled "Magnesium Glycinate 400mg" often contains 400mg of the <em>magnesium glycinate compound</em> — not 400mg of elemental magnesium. Magnesium glycinate is roughly 14% magnesium by weight, so that 400mg capsule delivers only about <strong>56mg of actual magnesium</strong>. To hit the 300–400mg elemental target from our <a href="/guides/signs-you-are-magnesium-deficient">magnesium guide</a>, you'd need six or seven of those capsules. Some brands list elemental magnesium separately on the Supplement Facts panel; others bury the compound weight in the "Other Ingredients" or don't clarify at all.</p>
 
       <h3>The Omega-3 Example</h3>
 
@@ -531,7 +531,7 @@ export function BeginnerLongevityStack() {
 
       <h3>Where Creatine Fits</h3>
 
-      <p>If you can stretch to $25/month, add <strong>creatine monohydrate</strong>. At roughly 3–5 cents per gram, it's among the cheapest supplements on the market — a full month at 5g/day costs under $4. Given its evidence for <a href="/guides/creatine-loading">preserving lean mass and strength</a> as you age, it's arguably the best $4 you'll spend. <EvidenceBadge level="strong" /></p>
+      <p>If you can stretch to $25/month, add <strong>creatine monohydrate</strong>. At roughly 3–5 cents per gram, it's among the cheapest supplements on the market — a full month at 5g/day costs under $4. Given its evidence for <a href="/guides/creatine-loading-phase">preserving lean mass and strength</a> as you age, it's arguably the best $4 you'll spend. <EvidenceBadge level="strong" /></p>
 
       <p>The $20 budget longevity supplement stack: D3+K2, magnesium glycinate, omega-3. No Tier 3 experiments, no fancy formulations. Just the compounds with the strongest evidence at doses that actually work.</p>
 

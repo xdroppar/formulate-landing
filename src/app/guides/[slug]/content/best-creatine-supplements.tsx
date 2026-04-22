@@ -343,7 +343,7 @@ export function BestCreatine() {
         Consult your healthcare provider before starting creatine. This isn&rsquo;t boilerplate caution — it&rsquo;s about ensuring your kidney function is monitored appropriately. A simple serum creatinine test won&rsquo;t be reliable once you&rsquo;re supplementing, so your doctor may need to use cystatin C or measured GFR instead.
       </Callout>
 
-      <p>If you&rsquo;re over 40, on multiple medications, or have any history of kidney issues, get a baseline renal panel <em>before</em> you start. Creatine is one of the safest supplements available — but &ldquo;safe for healthy people&rdquo; is not the same as &ldquo;safe for everyone without checking.&rdquo; For more on building a supplement routine that accounts for your full health picture, see our <a href="/guides/beginners-longevity-stack">beginner longevity stack guide</a>.</p>
+      <p>If you&rsquo;re over 40, on multiple medications, or have any history of kidney issues, get a baseline renal panel <em>before</em> you start. Creatine is one of the safest supplements available — but &ldquo;safe for healthy people&rdquo; is not the same as &ldquo;safe for everyone without checking.&rdquo; For more on building a supplement routine that accounts for your full health picture, see our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a>.</p>
 
       <h3>Creatine During Pregnancy and Breastfeeding</h3>
 
@@ -385,7 +385,7 @@ export function BestCreatine() {
         Testing is expensive, and many smaller brands simply haven&rsquo;t submitted products. An absence from these databases doesn&rsquo;t mean the creatine is impure — it means you have less external verification. In that case, Creapure sourcing with a valid batch code becomes your best proxy for <strong>creatine purity</strong>.
       </Callout>
 
-      <p>If you&rsquo;re still building out your supplement routine and want to understand what other label details actually matter, our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> covers the broader framework.</p>
+      <p>If you&rsquo;re still building out your supplement routine and want to understand what other label details actually matter, our <a href="/guides/how-to-read-a-supplement-label">guide to reading supplement labels</a> covers the broader framework.</p>
 
       <h2>Price-Per-Gram Comparison Table: What You&rsquo;re Actually Paying</h2>
 
@@ -458,7 +458,7 @@ export function BestCreatine() {
         Momentous and Transparent Labs both exceed $0.50 per serving. You&rsquo;re paying for certifications, brand partnerships, and (in TL&rsquo;s case) additional active ingredients — not superior creatine. If budget matters more than pedigree, Nutricost and NOW deliver the identical molecule at one-third the cost.
       </Callout>
 
-      <p>The premium brands aren&rsquo;t scams — Creapure sourcing and NSF/Informed Sport testing cost real money to maintain. But you should know exactly what that markup buys you: <strong>verified purity and banned-substance screening</strong>, not better creatine. If you&rsquo;re not a tested athlete, the budget options are functionally identical. Our guide on <a href="/guides/reading-supplement-labels">reading supplement labels</a> can help you verify what&rsquo;s actually inside.</p>
+      <p>The premium brands aren&rsquo;t scams — Creapure sourcing and NSF/Informed Sport testing cost real money to maintain. But you should know exactly what that markup buys you: <strong>verified purity and banned-substance screening</strong>, not better creatine. If you&rsquo;re not a tested athlete, the budget options are functionally identical. Our guide on <a href="/guides/how-to-read-a-supplement-label">reading supplement labels</a> can help you verify what&rsquo;s actually inside.</p>
 
       <Callout variant="info" title="Prices fluctuate">
         Retail prices above reflect mid-2024 averages from major U.S. retailers (Amazon, iHerb, brand direct). We update this table quarterly. Subscribe-and-save discounts can drop costs 10–15%.
@@ -524,7 +524,7 @@ export function BestCreatine() {
 
       <Callout variant="info" title="Timing Doesn't Need to Be Complicated">Creatine works through daily saturation, not acute timing. Whether you take it with your morning coffee, your pre-workout, or your post-workout protein shake, the result is the same after 28 days of consistent dosing. Pick whatever ritual helps you not forget it.</Callout>
 
-      <p>The one practical consideration: both caffeine and creatine loading doses can cause GI distress independently. If you're in a loading phase (20g/day) and drinking strong pre-workout, your stomach may object. At maintenance doses of 3–5g, most people tolerate the combination without issue. For more on how to layer supplements without overcomplicating things, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+      <p>The one practical consideration: both caffeine and creatine loading doses can cause GI distress independently. If you're in a loading phase (20g/day) and drinking strong pre-workout, your stomach may object. At maintenance doses of 3–5g, most people tolerate the combination without issue. For more on how to layer supplements without overcomplicating things, see our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a>.</p>
 
       <h2>How to Tell If Creatine Is Working: A 6-Week Self-Assessment</h2>
 

@@ -272,7 +272,7 @@ Jaundice (yellowing of skin or eyes), dark urine, pale stools, or persistent rig
 
       <p>The overall incidence appears low — we're talking about dozens of case reports against millions of users — but "low risk" isn't "no risk." If you have pre-existing liver conditions, drink heavily, or take other hepatotoxic medications (acetaminophen, statins, certain antibiotics), your threshold for concern should be lower. Consult your healthcare provider before starting.</p>
 
-      <p>To minimize risk: stick with <strong>root-only extracts</strong> from brands that provide third-party testing (NSF, USP, or Informed Sport certification), avoid products listing "leaf" or "whole plant" on the Supplement Facts panel, and don't exceed studied doses. Our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a> can help you identify what's actually in the bottle. If you're stacking ashwagandha with other supplements, check our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> for safe layering strategies.</p>
+      <p>To minimize risk: stick with <strong>root-only extracts</strong> from brands that provide third-party testing (NSF, USP, or Informed Sport certification), avoid products listing "leaf" or "whole plant" on the Supplement Facts panel, and don't exceed studied doses. Our <a href="/guides/how-to-read-a-supplement-label">guide to reading supplement labels</a> can help you identify what's actually in the bottle. If you're stacking ashwagandha with other supplements, check our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a> for safe layering strategies.</p>
 
 
       <h2>Ashwagandha for Women: Hormones, Cycle Effects, and What the Research Actually Shows</h2>
@@ -297,7 +297,7 @@ The cortisol, stress, sleep, and anxiety data applies equally to women — these
 
       <h3>A Framework for Deciding</h3>
 
-      <p>Ask yourself what you're actually after. <strong>Stress and sleep?</strong> The evidence is strong regardless of sex — pick your extract (KSM-66 or Sensoril) based on your primary goal and follow the dosing above. <strong>Hormonal optimization, cycle regulation, or fertility?</strong> The data for women is emerging at best. You're essentially an early adopter, and you should treat it that way: track your cycle, monitor how you feel, and don't assume the male-derived hormonal data applies to you. For building a broader stress-management stack, our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> covers how ashwagandha fits alongside foundational supplements.</p>
+      <p>Ask yourself what you're actually after. <strong>Stress and sleep?</strong> The evidence is strong regardless of sex — pick your extract (KSM-66 or Sensoril) based on your primary goal and follow the dosing above. <strong>Hormonal optimization, cycle regulation, or fertility?</strong> The data for women is emerging at best. You're essentially an early adopter, and you should treat it that way: track your cycle, monitor how you feel, and don't assume the male-derived hormonal data applies to you. For building a broader stress-management stack, our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a> covers how ashwagandha fits alongside foundational supplements.</p>
 
 
       <h2>How to Verify Quality: Third-Party Testing and What to Look For on the Label</h2>
@@ -314,7 +314,7 @@ The cortisol, stress, sleep, and anxiety data applies equally to women — these
 
       <h3>Red Flags to Walk Away From</h3>
 
-      <p>Avoid any product using a <strong>proprietary blend</strong> that lumps ashwagandha with other ingredients under a single combined weight — this obscures the actual dose. The phrase <strong>"ashwagandha complex"</strong> is another warning sign, often indicating a mix of generic root powder with trace amounts of standardized extract. If the label doesn't state a specific withanolide percentage, assume you're getting the 1–2% found in raw root powder. As covered in our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a>, vague language almost always means an underpowered product.</p>
+      <p>Avoid any product using a <strong>proprietary blend</strong> that lumps ashwagandha with other ingredients under a single combined weight — this obscures the actual dose. The phrase <strong>"ashwagandha complex"</strong> is another warning sign, often indicating a mix of generic root powder with trace amounts of standardized extract. If the label doesn't state a specific withanolide percentage, assume you're getting the 1–2% found in raw root powder. As covered in our <a href="/guides/how-to-read-a-supplement-label">guide to reading supplement labels</a>, vague language almost always means an underpowered product.</p>
 
       <Callout variant="info" title="Quick Label Checklist">
 Named extract (KSM-66, Sensoril, or Shoden) — not "root powder" or "complex." Withanolide percentage explicitly stated. No proprietary blends hiding the ashwagandha dose. Third-party certification logo (USP, NSF, or Informed Sport). COA accessible online or on request.
@@ -345,7 +345,7 @@ Ashwagandha's metabolic pathways haven't been fully characterized. If you take <
 
       <p>Notice the pattern: most risks stem from ashwagandha <em>amplifying</em> what your medication already does. It pushes thyroid hormones higher, blood sugar lower, and sedation deeper. That's not inherently dangerous in isolation, but stacking it on top of a drug designed to do the same thing narrows your safety margin considerably. <EvidenceBadge level="emerging" /></p>
 
-      <p>If you're unmedicated and healthy, <strong>ashwagandha drug interactions</strong> aren't a practical concern. If you take anything from the table above, this supplement moves from "try it and see" to "get your doctor's sign-off first." For more on how ashwagandha fits into a broader protocol, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+      <p>If you're unmedicated and healthy, <strong>ashwagandha drug interactions</strong> aren't a practical concern. If you take anything from the table above, this supplement moves from "try it and see" to "get your doctor's sign-off first." For more on how ashwagandha fits into a broader protocol, see our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a>.</p>
 
 
       <h2>Who Should Not Take Ashwagandha</h2>

@@ -346,7 +346,7 @@ export function NacAndAlcohol() {
 
       <p>Body weight likely matters — a 60 kg person and a 100 kg person have meaningfully different liver capacities and glutathione pools — but no study has established weight-based NAC dosing for alcohol specifically. If you're on the heavier side and planning a heavier session, 1200 mg is the more logical choice, but that's reasoning by analogy, not data.</p>
 
-      <p>One thing is clear: no dose of NAC transforms a heavy drinking session into a safe one. If you're regularly needing to think about whether 600 mg or 1200 mg is "enough," the more effective intervention is fewer drinks. For broader context on NAC dosing across different use cases, see our full <a href="/guides/nac">NAC guide</a>.</p>
+      <p>One thing is clear: no dose of NAC transforms a heavy drinking session into a safe one. If you're regularly needing to think about whether 600 mg or 1200 mg is "enough," the more effective intervention is fewer drinks. For broader context on NAC dosing across different use cases, see our full <a href="/guides/nac-guide">NAC guide</a>.</p>
 
       <h2>Medication Interactions: The Full List (Including Psychiatric Drugs)</h2>
 
@@ -412,7 +412,7 @@ export function NacAndAlcohol() {
 
       <p>Look for capsules or tablets standardized at 600 mg per unit — this matches the dose used in the vast majority of clinical research. Avoid proprietary blends that bury NAC inside an undisclosed formula. You need to know exactly how many milligrams you're getting, especially given the <a href="/guides/nac-and-alcohol">timing-sensitive nature of NAC and alcohol</a> use described above.</p>
 
-      <p>Ready to find a product that meets these criteria? <a href="/guides/nac">Browse verified NAC options in the catalog</a>.</p>
+      <p>Ready to find a product that meets these criteria? <a href="/guides/nac-guide">Browse verified NAC options in the catalog</a>.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
 

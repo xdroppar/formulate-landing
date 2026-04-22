@@ -402,7 +402,7 @@ export function BestVitaminD() {
         Correcting a true deficiency (below 20 ng/mL) has consistent evidence for improving bone health, reducing fracture risk, and resolving symptoms like fatigue and muscle weakness. What these mega-trials tested was different: whether pushing <em>already-sufficient</em> people higher would prevent cardiovascular disease or cancer. That hypothesis has not held up.
       </Callout>
 
-      <p>This matters for how you read this guide. If you&rsquo;re one of the 42% of American adults who are genuinely deficient, supplementation has clear, well-supported benefits — that&rsquo;s not in question. But if you&rsquo;re already at 30–40 ng/mL and hoping that megadosing to 60+ ng/mL will slash your cancer or heart disease risk, the strongest available evidence doesn&rsquo;t support that expectation. <EvidenceBadge level="strong" /> Dose to sufficiency, retest, and save your money for interventions with better evidence behind them — like the ones covered in our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a>.</p>
+      <p>This matters for how you read this guide. If you&rsquo;re one of the 42% of American adults who are genuinely deficient, supplementation has clear, well-supported benefits — that&rsquo;s not in question. But if you&rsquo;re already at 30–40 ng/mL and hoping that megadosing to 60+ ng/mL will slash your cancer or heart disease risk, the strongest available evidence doesn&rsquo;t support that expectation. <EvidenceBadge level="strong" /> Dose to sufficiency, retest, and save your money for interventions with better evidence behind them — like the ones covered in our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a>.</p>
 
       <h2>Vitamin D Drug Interactions: Who Should Talk to Their Doctor First</h2>
 
@@ -491,7 +491,7 @@ export function BestVitaminD() {
       <p>The tradeoff is real but narrow: neither Nature Made nor Kirkland includes K2 (MK-7). If you're taking 2,000+ IU daily, you'll want to add K2 separately — still cheaper in total than most combo products. Neither offers the precise dose adjustment of liquid drops, which matters if you're titrating based on blood work.</p>
 
       <Callout variant="info" title="Bottom line">
-      If your 25(OH)D test says you need straightforward D3 supplementation and you're not chasing a D3/K2 combo, these two options pass the same critical criteria as brands costing 2–3x more. Spend the savings on a <a href="/guides/supplement-timing">blood test instead</a>.
+      If your 25(OH)D test says you need straightforward D3 supplementation and you're not chasing a D3/K2 combo, these two options pass the same critical criteria as brands costing 2–3x more. Spend the savings on a <a href="/guides/supplement-timing-guide">blood test instead</a>.
       </Callout>
 
       <h2>Best Standalone Vitamin K2 Supplements to Pair with Your D3</h2>
@@ -511,7 +511,7 @@ export function BestVitaminD() {
       If you take warfarin or other vitamin K-sensitive anticoagulants, do not add K2 without consulting your healthcare provider. MK-7 has a longer half-life than K1 and can meaningfully affect INR levels even at low doses.
       </Callout>
 
-      <p>All three options use oil-based delivery, verified MK-7 sourcing, and independent testing — the same pillars we used for the D3 picks. Pair any of them with your chosen D3 product and take them together with your fattiest meal for optimal absorption. For more on timing, see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+      <p>All three options use oil-based delivery, verified MK-7 sourcing, and independent testing — the same pillars we used for the D3 picks. Pair any of them with your chosen D3 product and take them together with your fattiest meal for optimal absorption. For more on timing, see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>.</p>
 
       <h2>Vitamin D for Specific Goals: Depression, Immunity, and Athletic Performance — What the Evidence Actually Says</h2>
 
@@ -529,7 +529,7 @@ export function BestVitaminD() {
       <p>This is where the evidence thins considerably. A systematic review by Chiang et al. (2017, <em>Nutrients</em>) found that vitamin D supplementation improved muscle strength in deficient athletes but had no ergogenic effect in those already replete. <EvidenceBadge level="emerging" /> The "energy boost" many people report after starting vitamin D is almost certainly the resolution of deficiency-related fatigue — not a performance-enhancing effect.</p>
 
       <Callout variant="info" title="The Pattern Across All Three Goals">
-      The evidence consistently says the same thing: vitamin D supplementation helps people who are deficient. It does not function as a dose-dependent performance drug where more equals better. Get your <a href="/guides/best-vitamin-d-supplements">25(OH)D tested</a>, correct a deficiency if you have one, maintain sufficiency, and direct your budget toward interventions with stronger evidence for your specific goal — like those in our <a href="/guides/beginner-longevity-stack">beginner longevity stack</a>.
+      The evidence consistently says the same thing: vitamin D supplementation helps people who are deficient. It does not function as a dose-dependent performance drug where more equals better. Get your <a href="/guides/best-vitamin-d-supplements">25(OH)D tested</a>, correct a deficiency if you have one, maintain sufficiency, and direct your budget toward interventions with stronger evidence for your specific goal — like those in our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack</a>.
       </Callout>
 
       <h2>Vitamin D Hypercalcemia: Early Warning Signs You Should Know</h2>

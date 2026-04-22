@@ -190,7 +190,7 @@ export function BerberineVsMetformin() {
 
       <h3>What the RCTs Show</h3>
 
-      <p>The landmark trial is Zhao et al. (2013), which randomized 150 infertile women with PCOS to berberine, metformin, or placebo for three months before IVF. Berberine and metformin produced comparable reductions in fasting insulin and testosterone levels. Berberine also lowered triglycerides more effectively — consistent with its <a href="/guides/berberine">lipid-lowering profile</a>.</p>
+      <p>The landmark trial is Zhao et al. (2013), which randomized 150 infertile women with PCOS to berberine, metformin, or placebo for three months before IVF. Berberine and metformin produced comparable reductions in fasting insulin and testosterone levels. Berberine also lowered triglycerides more effectively — consistent with its <a href="/guides/berberine-guide">lipid-lowering profile</a>.</p>
 
       <p>An et al. (2014) compared berberine (1,500 mg/day) to metformin (1,500 mg/day) in 150 PCOS patients over three months and found similar improvements in insulin sensitivity, total testosterone, and sex hormone–binding globulin (SHBG). Wei et al. (2017) largely replicated these findings, reporting comparable menstrual regularity improvements in both groups. Li et al. (2015) added a combination arm and noted that berberine plus cyproterone acetate improved metabolic markers modestly more than either alone. <EvidenceBadge level="moderate" /></p>
 
@@ -218,7 +218,7 @@ export function BerberineVsMetformin() {
 
       <p>DHB is converted back into berberine in the gut wall and liver, which is how it exerts its effects. Proponents argue this means you can take a lower dose (often 100–200 mg vs. 500 mg of berberine HCl) and get equivalent systemic exposure. That's pharmacologically plausible — but plausible isn't proven. Without dose-finding studies and outcome trials in humans, you're extrapolating from animal kinetics and paying a premium for the privilege.</p>
 
-      <p>If you're comparing <a href="/guides/berberine-supplements">berberine supplements</a> and considering DHB, default to standard berberine HCl at the doses used in actual clinical research (500 mg two to three times daily). That's the form with a real — if limited — evidence base. Should human RCTs for dihydroberberine emerge with hard outcome data, this recommendation would change. Until then, the marketing has outpaced the science.</p>
+      <p>If you're comparing <a href="/guides/berberine-guide">berberine supplements</a> and considering DHB, default to standard berberine HCl at the doses used in actual clinical research (500 mg two to three times daily). That's the form with a real — if limited — evidence base. Should human RCTs for dihydroberberine emerge with hard outcome data, this recommendation would change. Until then, the marketing has outpaced the science.</p>
 
       <h2>How Berberine Fits in the Modern Metabolic Drug Landscape (Metformin, GLP-1s, and Beyond)</h2>
       <p>
@@ -231,7 +231,7 @@ export function BerberineVsMetformin() {
       Think of the metabolic toolkit as a continuum: lifestyle optimization first, then potentially berberine as an adjunct for prediabetes or mild insulin resistance, then metformin when a clinical threshold is crossed, then GLP-1s or combination therapy for more advanced disease or significant obesity. Berberine's niche is the early, lower-stakes end of that spectrum — not a substitute for drugs that have demonstrated hard-outcome benefits in large populations.
       </p>
       <Callout variant="info" title="Self-triage check">
-      If your fasting glucose is consistently above 126 mg/dL or your HbA1c exceeds 6.5%, you likely need prescription therapy — not supplements. If you're considering berberine <em>instead of</em> a GLP-1 agonist your doctor has recommended, that's a conversation to have with your provider, not a substitution to make on your own. For those in the prediabetic range exploring early options, see our full <a href="/guides/berberine">berberine guide</a>.
+      If your fasting glucose is consistently above 126 mg/dL or your HbA1c exceeds 6.5%, you likely need prescription therapy — not supplements. If you're considering berberine <em>instead of</em> a GLP-1 agonist your doctor has recommended, that's a conversation to have with your provider, not a substitution to make on your own. For those in the prediabetic range exploring early options, see our full <a href="/guides/berberine-guide">berberine guide</a>.
       </Callout>
 
       <h3>Drug Interaction Table: Berberine + Common Medications</h3>
@@ -251,7 +251,7 @@ export function BerberineVsMetformin() {
       </tbody>
       </table>
       <Callout variant="warning" title="This table is not exhaustive">
-      Berberine's broad CYP and P-gp inhibition means it can theoretically interact with <em>any</em> drug metabolized through these pathways — which includes roughly 50% of all pharmaceuticals. If you take <strong>any</strong> prescription medication, bring your full supplement list to your pharmacist or physician before starting berberine. For guidance on reading supplement labels and identifying active compounds, see our <a href="/guides/supplement-labels">supplement labels guide</a>.
+      Berberine's broad CYP and P-gp inhibition means it can theoretically interact with <em>any</em> drug metabolized through these pathways — which includes roughly 50% of all pharmaceuticals. If you take <strong>any</strong> prescription medication, bring your full supplement list to your pharmacist or physician before starting berberine. For guidance on reading supplement labels and identifying active compounds, see our <a href="/guides/how-to-read-a-supplement-label">supplement labels guide</a>.
       </Callout>
       <p>Most of the pharmacokinetic data underpinning these interactions comes from in vitro and animal studies (Guo et al., 2012; Qiu et al., 2009), with limited human pharmacokinetic confirmation. The absence of formal human interaction trials doesn't mean these interactions aren't real — it means they haven't been precisely quantified. Given berberine's demonstrated enzyme inhibition potency, the cautious approach is to treat these as clinically meaningful until proven otherwise. <EvidenceBadge level="moderate" /></p>
 

@@ -328,7 +328,7 @@ export function HowToBuildStack() {
 
 <p><strong>Zinc and copper</strong> compete for the same intestinal transporter (DMT1). Supplementing zinc above 40mg/day without copper can induce copper deficiency over time — a finding documented by Prasad (2013) and reflected in the tolerable upper intake set by the Institute of Medicine. If your stack includes standalone zinc, look for a product that includes 1–2mg copper, or separate dosing by several hours. <EvidenceBadge level="moderate" /></p>
 
-<p><strong>Calcium and iron</strong> inhibit each other's absorption when taken together. Hallberg (1991) showed that 300mg calcium reduced iron absorption by up to 50–60% in a single meal. If you need both — common for women — take them at least two hours apart. Our <a href="/guides/supplement-timing">supplement timing guide</a> covers the practical scheduling.</p>
+<p><strong>Calcium and iron</strong> inhibit each other's absorption when taken together. Hallberg (1991) showed that 300mg calcium reduced iron absorption by up to 50–60% in a single meal. If you need both — common for women — take them at least two hours apart. Our <a href="/guides/supplement-timing-guide">supplement timing guide</a> covers the practical scheduling.</p>
 
 <h3>Fat-Soluble Vitamin Accumulation</h3>
 
@@ -514,7 +514,7 @@ export function HowToBuildStack() {
 Print or screenshot your complete supplement list — including doses and forms — and bring it to your prescriber or pharmacist before starting. Interactions depend on specific doses, and your provider can't catch what they don't know about. This applies even to supplements marked "generally safe" above.
 </Callout>
 
-<p>For detailed timing strategies that help you separate competing supplements, see our <a href="/guides/supplement-timing">supplement timing guide</a>. If you're on a statin and considering the longevity tier, our <a href="/guides/beginner-longevity-stack">longevity stack guide</a> addresses CoQ10 dosing in more detail.</p>
+<p>For detailed timing strategies that help you separate competing supplements, see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>. If you're on a statin and considering the longevity tier, our <a href="/guides/beginner-longevity-supplement-stack">longevity stack guide</a> addresses CoQ10 dosing in more detail.</p>
 
       <h2>Evidence Tier Labels: How to Read Supplement Claims Critically</h2>
 
@@ -532,7 +532,7 @@ Print or screenshot your complete supplement list — including doses and forms 
 Tier 3 supplements tend to be the most expensive per month and the least likely to produce noticeable results. Before spending $40–$60/month on NMN, make sure you've already covered your $15/month vitamin D deficiency. Evidence tiers map directly to ROI — the strongest evidence almost always comes from the cheapest compounds.
 </Callout>
 
-<p>Throughout this guide, every recommendation carries an implicit tier. When the <a href="/guides/beginner-longevity-stack">longevity stack guide</a> discusses quercetin alongside CoQ10, those are not equivalent bets. When the cognitive section lists creatine next to lion's mane, the gap in evidence is enormous. Use the tiers to decide where you spend first — and where you experiment only after the basics are locked in.</p>
+<p>Throughout this guide, every recommendation carries an implicit tier. When the <a href="/guides/beginner-longevity-supplement-stack">longevity stack guide</a> discusses quercetin alongside CoQ10, those are not equivalent bets. When the cognitive section lists creatine next to lion's mane, the gap in evidence is enormous. Use the tiers to decide where you spend first — and where you experiment only after the basics are locked in.</p>
 
       <h2>Special Populations: Pregnancy, Vegans, Older Adults, and Athletes</h2>
       <p>Special populations need more than a generic supplement stack — they need targeted modifications based on distinct physiological demands, absorption differences, and regulatory risks. The foundation stack from Step 2 is a solid starting point, but applying it unchanged to a pregnant woman, a 70-year-old, or a tested athlete is a mistake. Here's what to adjust.</p>
@@ -572,7 +572,7 @@ Tier 3 supplements tend to be the most expensive per month and the least likely 
       <p>Always check the <strong>"Serving Size"</strong> line at the top of the panel before reading any numbers. A vitamin D product listing 2,000 IU may have a serving size of two capsules — meaning each capsule is only 1,000 IU. This is especially common with gummies, where serving sizes of 2–4 pieces are standard. Every dose listed on the panel applies to that full serving size, not per unit.</p>
 
       <Callout variant="info" title="Quick Label-Reading Checklist">
-      Before you buy: (1) find the serving size, (2) confirm whether the dose listed is elemental or compound weight, and (3) multiply per-serving cost by the number of servings you actually need daily. A "cheap" bottle requiring four capsules per dose often costs more than a concentrated alternative. Our <a href="/guides/supplement-timing">supplement timing guide</a> covers how to schedule multi-capsule doses across the day.
+      Before you buy: (1) find the serving size, (2) confirm whether the dose listed is elemental or compound weight, and (3) multiply per-serving cost by the number of servings you actually need daily. A "cheap" bottle requiring four capsules per dose often costs more than a concentrated alternative. Our <a href="/guides/supplement-timing-guide">supplement timing guide</a> covers how to schedule multi-capsule doses across the day.
       </Callout>
 
       <h2>Creatine FAQ: Hair Loss, Water Retention, Women, Timing, and Kidney Concerns</h2>

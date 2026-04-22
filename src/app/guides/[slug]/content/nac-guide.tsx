@@ -355,7 +355,7 @@ Younger bodies maintain large glycine pools, so NAC alone covers the gap. With a
 
       <p>If you're over 50 and already taking NAC, consider adding glycine rather than switching products. A common approach mirrors the Kumar dosing: roughly 1.2 g of NAC plus 1.2 g of glycine twice daily (the trial used weight-based dosing near these amounts for an average-sized adult). Glycine powder is inexpensive, mildly sweet, and mixes easily into water — a far more pleasant experience than NAC powder.</p>
 
-      <p>Take both on an empty stomach, consistent with the <a href="/guides/supplement-timing">supplement timing guidance</a> elsewhere in this guide. Glycine can also support sleep quality at these doses, which is a useful secondary benefit. If you're on medications or managing a chronic condition, consult your healthcare provider before adding GlyNAC to your regimen.</p>
+      <p>Take both on an empty stomach, consistent with the <a href="/guides/supplement-timing-guide">supplement timing guidance</a> elsewhere in this guide. Glycine can also support sleep quality at these doses, which is a useful secondary benefit. If you're on medications or managing a chronic condition, consult your healthcare provider before adding GlyNAC to your regimen.</p>
 
       <Callout variant="warning" title="Evidence context">
 The Kumar trial was relatively small (n=24) and conducted by a single research group. The results are compelling but await independent replication in larger cohorts. Treat GlyNAC as a well-reasoned, evidence-informed strategy — not yet a settled standard of care. <EvidenceBadge level="emerging" />
@@ -426,7 +426,7 @@ NAC's safety profile during pregnancy and lactation is not well-established. If 
 The most common mistake is evaluating NAC for OCD, trichotillomania, or addictive behaviors on the same timeline as liver support. Clinical trials consistently use 8–12 week durations for these outcomes. If you stop at 4 weeks and conclude "NAC doesn't work," you've abandoned the trial before the intervention period ended. Discuss your timeline with your healthcare provider.
       </Callout>
 
-      <p>For context on how NAC fits into a broader supplement schedule — and how to time it around meals and other compounds — see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+      <p>For context on how NAC fits into a broader supplement schedule — and how to time it around meals and other compounds — see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>.</p>
 
 
       <h2>Who Should Talk to a Doctor First</h2>

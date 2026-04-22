@@ -449,7 +449,7 @@ export function BestOmega3() {
       <h3>VITAL (Manson et al., 2019, NEJM)</h3>
       <p><strong>Dose and form:</strong> 840 mg/day combined EPA + DHA (standard fish oil, Omacor/Lovaza capsule). <strong>Finding:</strong> No significant reduction in major cardiovascular events or cancer incidence in the general population. <EvidenceBadge level="strong" studiesId="omega3-vital-manson-2019" /> However, subgroup analyses suggested benefit for heart attack specifically (28% reduction) and stronger effects in participants with low baseline fish intake. Subgroup findings are hypothesis-generating, not proof.</p>
 
-      <p>The bottom line for supplement buyers: no over-the-counter fish oil has been tested at REDUCE-IT doses in a pivotal trial. VITAL&rsquo;s modest dose — closer to what you&rsquo;d actually take from a supplement — showed no broad cardiovascular benefit. Claims that a fish oil supplement is &ldquo;clinically proven&rdquo; to prevent heart disease are, at best, an oversimplification. For context on how <a href="/guides/omega-3-dosing-guide">omega-3 dosing maps to specific outcomes</a>, the dose-response section above breaks this down further.</p>
+      <p>The bottom line for supplement buyers: no over-the-counter fish oil has been tested at REDUCE-IT doses in a pivotal trial. VITAL&rsquo;s modest dose — closer to what you&rsquo;d actually take from a supplement — showed no broad cardiovascular benefit. Claims that a fish oil supplement is &ldquo;clinically proven&rdquo; to prevent heart disease are, at best, an oversimplification. For context on how <a href="/guides/best-omega-3-supplements">omega-3 dosing maps to specific outcomes</a>, the dose-response section above breaks this down further.</p>
 
       <h2>Budget-Friendly Options: Getting Quality Omega-3 Without the Premium Price</h2>
 
@@ -525,7 +525,7 @@ export function BestOmega3() {
 
       <p>If you avoid fish, <strong>plant-based omega-3 conversion</strong> rates make ALA supplements a poor strategy. Algal oil is the solution. Fish accumulate EPA and DHA from microalgae — algal supplements skip that step entirely. Newer products from brands like Örlö and Nordic Naturals Algae Omega now deliver 400–600 mg combined EPA + DHA per serving, grown in controlled environments free from heavy metals and PCBs. <EvidenceBadge level="strong" /></p>
 
-      <p>You'll pay more per milligram than fish oil — roughly 2–3x in most cases — but you're getting preformed EPA and DHA your body can actually use, not ALA it will mostly waste. If you're building a broader plant-based protocol, see our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> for how algal omega-3 fits alongside other foundational supplements.</p>
+      <p>You'll pay more per milligram than fish oil — roughly 2–3x in most cases — but you're getting preformed EPA and DHA your body can actually use, not ALA it will mostly waste. If you're building a broader plant-based protocol, see our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a> for how algal omega-3 fits alongside other foundational supplements.</p>
 
       <h2>Omega-3 for Kids: Dosing, Forms, and What to Buy</h2>
 
@@ -547,7 +547,7 @@ export function BestOmega3() {
       Children aren't small adults. Appropriate EPA + DHA amounts depend on age, weight, dietary fish intake, and any existing conditions like ADHD where higher doses are sometimes studied. Consult your pediatrician before starting any omega-3 supplement, especially for children under 2 or those on medication.
       </Callout>
 
-      <p>The same quality rules from our adult recommendations apply here: check for <a href="/guides/best-omega-3-supplements">IFOS certification</a>, triglyceride form, and published TOTOX values. Skip any children's fish oil that doesn't specify the actual DHA and EPA breakdown on the label — "contains omega-3" without numbers is meaningless. For guidance on reading those labels correctly, see our <a href="/guides/how-to-read-supplement-labels">label-reading guide</a>.</p>
+      <p>The same quality rules from our adult recommendations apply here: check for <a href="/guides/best-omega-3-supplements">IFOS certification</a>, triglyceride form, and published TOTOX values. Skip any children's fish oil that doesn't specify the actual DHA and EPA breakdown on the label — "contains omega-3" without numbers is meaningless. For guidance on reading those labels correctly, see our <a href="/guides/how-to-read-a-supplement-label">label-reading guide</a>.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>

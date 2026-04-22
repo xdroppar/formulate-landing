@@ -400,7 +400,7 @@ No randomized controlled trials have evaluated collagen supplementation in pregn
 
       <p>The König et al. (2018) bone density study referenced earlier in this guide specifically recruited postmenopausal women — so the data is at least relevant to you. But context matters: those participants were not on bisphosphonates, and the study did not test collagen <em>against</em> or <em>alongside</em> calcium and vitamin D. <EvidenceBadge level="emerging" /></p>
 
-      <p>Collagen peptides should be considered <strong>complementary to</strong> — never a replacement for — your existing calcium and <a href="/guides/vitamin-d-guide">vitamin D</a> regimen. If you're on osteoporosis medication like alendronate, bring your full supplement list to your prescribing physician. Whether collagen is additive or redundant in that context is genuinely unknown.</p>
+      <p>Collagen peptides should be considered <strong>complementary to</strong> — never a replacement for — your existing calcium and <a href="/guides/best-vitamin-d-supplements">vitamin D</a> regimen. If you're on osteoporosis medication like alendronate, bring your full supplement list to your prescribing physician. Whether collagen is additive or redundant in that context is genuinely unknown.</p>
 
       <h3>Autoimmune Conditions and Immunosuppressants</h3>
 

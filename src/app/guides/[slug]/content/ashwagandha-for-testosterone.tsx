@@ -321,7 +321,7 @@ export function AshwagandhaForTestosterone() {
 
       <p>The most cited trial in women is Dongre et al. (2015), which gave 50 healthy women 300 mg of KSM-66 twice daily for 8 weeks. The study focused on sexual function, not testosterone per se. The ashwagandha group reported significant improvements in arousal, lubrication, orgasm, and satisfaction versus placebo. <EvidenceBadge level="moderate" /> The mechanism likely involves cortisol reduction and improved DHEA-S — not a direct androgenic effect.</p>
 
-      <p>Cortisol lowering appears consistent across sexes. Chandrasekhar et al. (2012) included both men and women, and the stress-buffering effects weren't sex-dependent. For women dealing with chronic fatigue, poor sleep, or stress-driven libido issues, the HPA-axis pathway described in our <a href="/guides/ashwagandha">full ashwagandha guide</a> applies here too.</p>
+      <p>Cortisol lowering appears consistent across sexes. Chandrasekhar et al. (2012) included both men and women, and the stress-buffering effects weren't sex-dependent. For women dealing with chronic fatigue, poor sleep, or stress-driven libido issues, the HPA-axis pathway described in our <a href="/guides/ashwagandha-guide">full ashwagandha guide</a> applies here too.</p>
 
       <h3>PCOS and Androgen Excess: A Critical Distinction</h3>
 
@@ -382,7 +382,7 @@ export function AshwagandhaForTestosterone() {
       Do not start or stop ashwagandha without discussing it with your prescriber. Bring your full supplement list — including doses and brands — to your next appointment. Ashwagandha interaction data is limited, which is itself a reason for caution, not reassurance.
       </Callout>
 
-      <p>Two groups deserve special emphasis because they're often missed: <strong>diabetics on metformin or sulfonylureas</strong> should monitor blood glucose more frequently if adding ashwagandha, and <strong>SSRI users</strong> should watch for unusual mood shifts or agitation, even though confirmed interactions haven't been documented. The absence of case reports doesn't equal safety — it may reflect underreporting. For more on ashwagandha's broader safety profile, see our full <a href="/guides/ashwagandha">ashwagandha guide</a>.</p>
+      <p>Two groups deserve special emphasis because they're often missed: <strong>diabetics on metformin or sulfonylureas</strong> should monitor blood glucose more frequently if adding ashwagandha, and <strong>SSRI users</strong> should watch for unusual mood shifts or agitation, even though confirmed interactions haven't been documented. The absence of case reports doesn't equal safety — it may reflect underreporting. For more on ashwagandha's broader safety profile, see our full <a href="/guides/ashwagandha-guide">ashwagandha guide</a>.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
 

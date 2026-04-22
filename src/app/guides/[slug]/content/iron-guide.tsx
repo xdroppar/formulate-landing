@@ -507,7 +507,7 @@ export function IronGuide() {
       Lab reference ranges often list ferritin as "normal" starting at 10–12 ng/mL, which many hematologists consider clearly deficient. If your result falls in the 15–30 ng/mL range, consult your healthcare provider before supplementing — context matters, especially if you have inflammation or chronic illness that can artificially inflate ferritin.
       </Callout>
 
-      <p>Once you have your number, revisit the ferritin ranges earlier in this guide to understand what it means. Then — and only then — decide whether supplementation makes sense. For guidance on reading the labels of whatever you end up buying, see our <a href="/guides/reading-supplement-labels">supplement label guide</a>.</p>
+      <p>Once you have your number, revisit the ferritin ranges earlier in this guide to understand what it means. Then — and only then — decide whether supplementation makes sense. For guidance on reading the labels of whatever you end up buying, see our <a href="/guides/how-to-read-a-supplement-label">supplement label guide</a>.</p>
 
       <h2>Elemental Iron Quick-Reference Table</h2>
 
@@ -584,7 +584,7 @@ export function IronGuide() {
 
       <p>Notice that carbonyl iron is nearly 98% elemental, but its slow dissolution in stomach acid means <em>effective</em> absorption is lower than that percentage suggests. And bisglycinate's real advantage isn't the elemental percentage — it's the dramatically better absorption per milligram due to chelation, as demonstrated by Name et al. (2014). <EvidenceBadge level="moderate" /> You often need less elemental iron from bisglycinate to achieve the same repletion as higher doses of ferrous sulfate.</p>
 
-      <p>For a deeper walkthrough of how to decode what's actually in any supplement bottle, see our <a href="/guides/reading-supplement-labels">label reading guide</a>.</p>
+      <p>For a deeper walkthrough of how to decode what's actually in any supplement bottle, see our <a href="/guides/how-to-read-a-supplement-label">label reading guide</a>.</p>
 
       <h2>Iron for People With GI Conditions or On Acid-Suppressing Drugs</h2>
 
@@ -630,7 +630,7 @@ export function IronGuide() {
 
       <h3>What You Can Safely Do Over the Counter</h3>
 
-      <p>Most prenatal vitamins already contain 27–28mg of elemental iron, which covers the full pregnancy RDA. If your prenatal includes this amount and your ferritin is within a normal range, <strong>you likely don't need additional iron supplements during pregnancy</strong>. Stacking a separate iron tablet on top of a complete prenatal is a common mistake that pushes you well past the 45mg tolerable upper limit without clinical justification. Check your prenatal label — our <a href="/guides/reading-supplement-labels">label reading guide</a> can help you find the elemental iron content.</p>
+      <p>Most prenatal vitamins already contain 27–28mg of elemental iron, which covers the full pregnancy RDA. If your prenatal includes this amount and your ferritin is within a normal range, <strong>you likely don't need additional iron supplements during pregnancy</strong>. Stacking a separate iron tablet on top of a complete prenatal is a common mistake that pushes you well past the 45mg tolerable upper limit without clinical justification. Check your prenatal label — our <a href="/guides/how-to-read-a-supplement-label">label reading guide</a> can help you find the elemental iron content.</p>
 
       <p>If your prenatal contains less than 27mg, a small top-up to reach that threshold is generally considered safe OTC. Beyond that — particularly therapeutic doses of 60–120mg used to correct confirmed deficiency — you need provider oversight with repeat ferritin and hemoglobin monitoring.</p>
 

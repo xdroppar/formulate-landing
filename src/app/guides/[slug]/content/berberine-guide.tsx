@@ -476,7 +476,7 @@ export function BerberineGuide() {
       If your medication requires regular blood level monitoring — warfarin (INR), cyclosporine (trough levels), tacrolimus, lithium — adding berberine without medical supervision is reckless, not bold. These drugs have tiny margins between therapeutic and toxic doses. Berberine can push you over that line.
       </Callout>
 
-      <p>The practical takeaway: print this list and bring it to your prescriber. A pharmacist can also run an interaction check in minutes. Understanding <a href="/guides/supplement-safety">supplement safety fundamentals</a> — including how CYP enzyme inhibition works — makes you a better advocate for yourself in those conversations. Our <a href="/guides/supplement-label-guide">supplement label guide</a> covers how to spot products that disclose (or fail to disclose) these risks upfront.</p>
+      <p>The practical takeaway: print this list and bring it to your prescriber. A pharmacist can also run an interaction check in minutes. Understanding <a href="/guides/supplement-safety">supplement safety fundamentals</a> — including how CYP enzyme inhibition works — makes you a better advocate for yourself in those conversations. Our <a href="/guides/how-to-read-a-supplement-label">supplement label guide</a> covers how to spot products that disclose (or fail to disclose) these risks upfront.</p>
 
       <h2>How Long to Take Berberine: Cycling vs. Continuous Use</h2>
 
@@ -510,7 +510,7 @@ export function BerberineGuide() {
       The strategy of separating berberine from your post-workout window by 2–3 hours is pharmacokinetically plausible given berberine's short half-life (3–4 hours), but it has not been validated in any controlled trial. If maximizing muscle growth is your primary goal, be aware you're navigating without a map.
       </Callout>
 
-      <p>If you're taking berberine primarily for metabolic health but also training hard, the conservative approach is to dose it with meals that are farthest from your training window. Morning and evening doses with a mid-afternoon workout, for example, creates the largest buffer. Athletes focused on hypertrophy should weigh whether berberine's metabolic benefits justify the theoretical cost — especially if blood sugar and lipids are already well-managed through training and <a href="/guides/supplement-timing">proper supplement timing</a>.</p>
+      <p>If you're taking berberine primarily for metabolic health but also training hard, the conservative approach is to dose it with meals that are farthest from your training window. Morning and evening doses with a mid-afternoon workout, for example, creates the largest buffer. Athletes focused on hypertrophy should weigh whether berberine's metabolic benefits justify the theoretical cost — especially if blood sugar and lipids are already well-managed through training and <a href="/guides/supplement-timing-guide">proper supplement timing</a>.</p>
 
       <h2>Frequently Asked Questions</h2>
 

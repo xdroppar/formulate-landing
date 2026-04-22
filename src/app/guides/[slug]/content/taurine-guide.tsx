@@ -494,7 +494,7 @@ export function TaurineGuide() {
 
       <p>The correlation between declining taurine levels and aging biomarkers is real and consistent across mice, monkeys, and humans. <EvidenceBadge level="moderate" /> That age-related decline — roughly 80% between childhood and old age — tracks with deterioration in mitochondrial function, immune competence, and cardiovascular health. Whether taurine deficiency <em>drives</em> aging or merely accompanies it remains unresolved, but the pattern is robust enough to take seriously.</p>
 
-      <p>The honest framing: taurine has stronger mechanistic and animal evidence than most longevity supplements, a validated age-related decline, and a near-zero risk profile. That's a reasonable basis for supplementation. It is <strong>not</strong> a basis for claiming it will extend your lifespan. If you're building a longevity-focused stack, our <a href="/guides/beginner-longevity-stack">beginner longevity stack guide</a> covers how to weigh this kind of evidence against alternatives.</p>
+      <p>The honest framing: taurine has stronger mechanistic and animal evidence than most longevity supplements, a validated age-related decline, and a near-zero risk profile. That's a reasonable basis for supplementation. It is <strong>not</strong> a basis for claiming it will extend your lifespan. If you're building a longevity-focused stack, our <a href="/guides/beginner-longevity-supplement-stack">beginner longevity stack guide</a> covers how to weigh this kind of evidence against alternatives.</p>
 
       <h2>Taurine for Pregnant and Breastfeeding Women</h2>
 

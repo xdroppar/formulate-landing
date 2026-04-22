@@ -479,7 +479,7 @@ export function HowToReadSupplementLabel() {
 
 <p><strong>Vitamin K + warfarin:</strong> Vitamin K directly opposes warfarin's mechanism. Even modest fluctuations in K1 intake — from a new multivitamin or switching greens powders — can destabilize your INR. This isn't subtle; it's pharmacological antagonism.</p>
 
-<p><strong>Magnesium + antibiotics/bisphosphonates:</strong> Magnesium chelates tetracyclines, fluoroquinolones, and bisphosphonates like alendronate, dramatically reducing their absorption. If you take these, separate dosing by at least 2–4 hours. Your <a href="/guides/magnesium-deficiency">magnesium form</a> won't fix this — the mineral itself is the problem.</p>
+<p><strong>Magnesium + antibiotics/bisphosphonates:</strong> Magnesium chelates tetracyclines, fluoroquinolones, and bisphosphonates like alendronate, dramatically reducing their absorption. If you take these, separate dosing by at least 2–4 hours. Your <a href="/guides/signs-you-are-magnesium-deficient">magnesium form</a> won't fix this — the mineral itself is the problem.</p>
 
 <p><strong>St. John's Wort + SSRIs, statins, and birth control:</strong> St. John's Wort induces CYP3A4 and P-glycoprotein, accelerating the metabolism of dozens of drugs. Combined with SSRIs, it risks serotonin syndrome. It can reduce oral contraceptive efficacy enough to cause unintended pregnancy and cut statin blood levels by up to 50% (Markowitz et al., 2003). <EvidenceBadge level="strong" /></p>
 
@@ -523,7 +523,7 @@ If you take any daily prescription medication, bring your full supplement list t
 A label lists "Magnesium (as Magnesium Bisglycinate) 500mg" under the compound weight with no separate elemental line. Multiply: 500mg x 0.141 = <strong>70.5mg elemental magnesium</strong>. To hit a 300mg daily target, you'd need roughly 4–5 capsules — not the one or two you assumed.
 </Callout>
 
-<p>Notice something counterintuitive: magnesium oxide has the <em>highest</em> elemental percentage (~60%), which is why cheap products love it. But as covered in <a href="/guides/magnesium-deficiency">our magnesium guide</a>, oxide absorbs at roughly 4% in the gut (Firoz &amp; Graber, 2001), so the high elemental number is misleading. You want to weigh elemental content <em>and</em> bioavailability together.</p>
+<p>Notice something counterintuitive: magnesium oxide has the <em>highest</em> elemental percentage (~60%), which is why cheap products love it. But as covered in <a href="/guides/signs-you-are-magnesium-deficient">our magnesium guide</a>, oxide absorbs at roughly 4% in the gut (Firoz &amp; Graber, 2001), so the high elemental number is misleading. You want to weigh elemental content <em>and</em> bioavailability together.</p>
 
 <Callout variant="warning" title="Check Whether the Label Already Did the Math">
 Some brands list elemental mineral content directly — you'll see "Magnesium (as Magnesium Glycinate) 200mg" where the 200mg <em>is</em> the elemental amount. Look for the word "elemental" or check if the number matches the Daily Value percentage. If 200mg shows 48% DV for magnesium (DV = 420mg), that's elemental. If it showed 500mg at 48% DV, that would be the compound weight mislabeled — a red flag.

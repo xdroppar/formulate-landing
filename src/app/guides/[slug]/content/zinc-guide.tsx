@@ -454,7 +454,7 @@ export function ZincGuide() {
 
       <p>This applies to <em>all</em> zinc sources: capsules, lozenges, ZMA formulas, and even fortified foods or multivitamins containing zinc. The chelation effect doesn't care about the form — it cares about the zinc ions being present in your gut at the same time as the drug. If you're running the 75–92mg/day lozenge protocol for a cold and simultaneously prescribed an antibiotic, managing this spacing becomes genuinely difficult. Talk to your prescriber about a dosing schedule that protects both the antibiotic's efficacy and your zinc regimen.</p>
 
-      <p>For a broader look at how to time supplements around medications, see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+      <p>For a broader look at how to time supplements around medications, see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>.</p>
 
       <h2>Resolving the Dosing Contradiction: Cold Protocol vs. Daily Limit</h2>
 
@@ -505,7 +505,7 @@ The Tolerable Upper Intake Level for pregnant adults is 40mg/day — the same as
 Flip the package and scan the inactive ingredients. <strong>Avoid:</strong> citric acid, tartaric acid, mannitol, sorbitol, and sodium bicarbonate — all documented zinc chelators. <strong>Acceptable:</strong> glycine (actually enhances zinc ion release), sucrose, and simple flavoring oils. Choose zinc acetate when available; zinc gluconate is second-best. Aim for lozenges delivering <strong>18–24mg of elemental zinc each</strong>, dissolved slowly every 2–3 hours to reach the 75–92mg/day therapeutic window.
       </Callout>
 
-      <p>This is one of those cases where a more expensive, worse-tasting lozenge is actually the better product. The pleasant-tasting options typically achieve that flavor by loading up on the exact acids that inactivate ionic zinc. When it comes to zinc lozenges for colds, bland is better. For more on decoding what's actually in your supplements, see our <a href="/guides/reading-supplement-labels">guide to reading supplement labels</a>.</p>
+      <p>This is one of those cases where a more expensive, worse-tasting lozenge is actually the better product. The pleasant-tasting options typically achieve that flavor by loading up on the exact acids that inactivate ionic zinc. When it comes to zinc lozenges for colds, bland is better. For more on decoding what's actually in your supplements, see our <a href="/guides/how-to-read-a-supplement-label">guide to reading supplement labels</a>.</p>
 
 
       <h2>Who Should Talk to a Doctor First</h2>

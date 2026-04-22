@@ -383,7 +383,7 @@ export function BestPreWorkoutProtocol() {
 Mix citrulline and caffeine together in water 30–60 minutes before you train. Toss creatine and beta-alanine into the same glass or take them separately at any point during the day — their benefits come from daily saturation, not acute timing. See our <a href="/guides/supplement-timing-guide">supplement timing guide</a> for more detail.
 </Callout>
 
-<p>If you train in the evening and need to protect sleep, drop the caffeine entirely. The remaining three ingredients carry independent, well-documented benefits — you're not gutting the protocol, you're just removing the stimulant. Our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a> covers how to manage that tradeoff.</p>
+<p>If you train in the evening and need to protect sleep, drop the caffeine entirely. The remaining three ingredients carry independent, well-documented benefits — you're not gutting the protocol, you're just removing the stimulant. Our <a href="/guides/best-sleep-supplement-protocol">sleep supplement guide</a> covers how to manage that tradeoff.</p>
 
       <h2>Who Should NOT Use This Stack (Contraindications)</h2>
 
@@ -431,7 +431,7 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
 
       <Callout variant="info" title="Who Needs Specialist Clearance">Anyone with diagnosed kidney disease, reduced eGFR unrelated to creatine use, polycystic kidney disease, a solitary kidney, or a history of recurrent kidney stones should consult a nephrologist before starting 5g daily creatine. This isn't boilerplate — it's a specific contraindication. Bring your supplement list to the appointment.</Callout>
 
-      <p>For everyone else: get baseline blood work before you start, mention creatine use at every lab draw, and don't panic if your creatinine ticks up modestly. That's pharmacokinetics, not pathology. For more on integrating creatine into your protocol safely, see our <a href="/guides/creatine-loading">creatine loading guide</a>.</p>
+      <p>For everyone else: get baseline blood work before you start, mention creatine use at every lab draw, and don't panic if your creatinine ticks up modestly. That's pharmacokinetics, not pathology. For more on integrating creatine into your protocol safely, see our <a href="/guides/creatine-loading-phase">creatine loading guide</a>.</p>
 
       <h2>Total Daily Caffeine Intake: Adding It All Up</h2>
 
@@ -445,7 +445,7 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
 
       <p>To stay within that ceiling while still using caffeine as an ergogenic aid, you have two practical options. First, <strong>audit your background intake</strong> — track every caffeinated beverage for a few days and get an honest baseline number. Most people underestimate by 30–50%. Second, <strong>subtract that baseline from 400 mg</strong> to find your available pre-workout budget. If you drink 200 mg worth of coffee before noon, your pre-workout caffeine should cap at roughly 200 mg — not the 5–6 mg/kg dose suggested for high-tolerance users.</p>
 
-      <p>If the math leaves you with less than 2 mg/kg for training, the ergogenic benefit becomes marginal. At that point, you're better off either cycling off daily coffee for a resensitization period (see the caffeine tolerance section above) or dropping the pre-workout caffeine entirely. The remaining three ingredients in this protocol — creatine, citrulline, and beta-alanine — don't depend on caffeine to work. For more on managing caffeine around sleep, see our <a href="/guides/sleep-supplement-guide">sleep supplement guide</a>.</p>
+      <p>If the math leaves you with less than 2 mg/kg for training, the ergogenic benefit becomes marginal. At that point, you're better off either cycling off daily coffee for a resensitization period (see the caffeine tolerance section above) or dropping the pre-workout caffeine entirely. The remaining three ingredients in this protocol — creatine, citrulline, and beta-alanine — don't depend on caffeine to work. For more on managing caffeine around sleep, see our <a href="/guides/best-sleep-supplement-protocol">sleep supplement guide</a>.</p>
 
       <Callout variant="info" title="Quick Math">
       Morning coffee (2 cups): ~180 mg. Afternoon tea: ~50 mg. Pre-workout caffeine tablet: 200 mg. <strong>Total: 430 mg</strong> — already over the general safety ceiling. Know your number before you dose.
@@ -469,7 +469,7 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
       Discontinuing creatine because of a 1.5 kg bump in week one means abandoning the supplement with the largest effect size in sports nutrition — roughly 8% strength and 14% power improvements (Branch, 2003) — over a cosmetically irrelevant and physiologically beneficial water shift.
       </Callout>
 
-      <p>For more on the loading phase and how quickly saturation occurs, see our <a href="/guides/creatine-loading">creatine loading guide</a>.</p>
+      <p>For more on the loading phase and how quickly saturation occurs, see our <a href="/guides/creatine-loading-phase">creatine loading guide</a>.</p>
 
       <h2>What to Buy: Quality Standards and Trusted Vendors</h2>
 
@@ -486,7 +486,7 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
       <p>For bulk individual ingredients at clinical doses, <strong>Nutricost</strong>, <strong>BulkSupplements</strong>, and <strong>NOW Sports</strong> consistently offer transparent labeling, third-party testing documentation, and reasonable pricing. Nutricost's creatine monohydrate is Creapure-sourced. NOW Sports carries NSF Certified for Sport options across several lines. All three are available on Amazon and direct.</p>
 
       <Callout variant="info" title="Use the Formulate Catalog">
-      Rather than Googling individual brands and cross-referencing certifications yourself, use the <a href="/guides/supplement-label-reading">Formulate catalog</a> to compare products by actual ingredient doses, certification status, and cost per serving. It's built to answer exactly this question.
+      Rather than Googling individual brands and cross-referencing certifications yourself, use the <a href="/guides/how-to-read-a-supplement-label">Formulate catalog</a> to compare products by actual ingredient doses, certification status, and cost per serving. It's built to answer exactly this question.
       </Callout>
 
       <Callout variant="warning" title="Drug-Tested Athletes">

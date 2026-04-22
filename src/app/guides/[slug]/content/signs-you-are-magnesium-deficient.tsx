@@ -466,7 +466,7 @@ export function MagnesiumDeficiency() {
 Magnesium may enhance the effect of calcium channel blockers and certain other antihypertensives. This is generally a good thing — but it means you should consult your healthcare provider before adding magnesium, especially if your BP is already well-controlled. Dosing adjustments to your medication may be warranted.
 </Callout>
 
-<p>A 2 mmHg reduction won't replace medication for someone with stage 2 hypertension. But if you're in the prehypertensive range (120–139 systolic) or managing borderline readings with lifestyle changes, correcting a magnesium deficit is one of the simplest levers available. Combined with the sleep, stress, and <a href="/guides/signs-you-are-magnesium-deficient">cramp-related benefits</a> already covered in this guide, it's another reason magnesium and blood pressure deserve a conversation with your doctor — particularly if you're over 45 and already watching your numbers. For guidance on choosing the right form, see our breakdown of <a href="/guides/reading-supplement-labels">supplement labels</a>.</p>
+<p>A 2 mmHg reduction won't replace medication for someone with stage 2 hypertension. But if you're in the prehypertensive range (120–139 systolic) or managing borderline readings with lifestyle changes, correcting a magnesium deficit is one of the simplest levers available. Combined with the sleep, stress, and <a href="/guides/signs-you-are-magnesium-deficient">cramp-related benefits</a> already covered in this guide, it's another reason magnesium and blood pressure deserve a conversation with your doctor — particularly if you're over 45 and already watching your numbers. For guidance on choosing the right form, see our breakdown of <a href="/guides/how-to-read-a-supplement-label">supplement labels</a>.</p>
 
       <h2>Magnesium for PMS and Menstrual Cramps</h2>
 
@@ -536,7 +536,7 @@ A handful of states (New York, New Jersey, Rhode Island, and a few others) restr
 If your RBC magnesium comes back between 4.2–5.0 mg/dL and you're experiencing three or more symptoms from this guide, a 90-day trial of 300–400mg elemental magnesium (glycinate or citrate) is a reasonable, low-risk next step. Retest afterward to track your response.
 </Callout>
 
-<p>For guidance on which form to start with and when to take it, see our <a href="/guides/supplement-timing">supplement timing guide</a>.</p>
+<p>For guidance on which form to start with and when to take it, see our <a href="/guides/supplement-timing-guide">supplement timing guide</a>.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
