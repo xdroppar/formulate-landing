@@ -32,6 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 GUIDES_TS = ROOT / "src" / "lib" / "guides.ts"
 INTERACTIONS_JSON = ROOT / "src" / "data" / "interactions.json"
 SUBSTANCES_JSON = ROOT / "src" / "data" / "substance-aliases.json"
+ENCYCLOPEDIA_JSON = ROOT / "src" / "data" / "encyclopedia.json"
 GUIDE_CONTENT_DIR = ROOT / "src" / "app" / "guides"
 PUBLIC_DIR = ROOT / "public"
 BASELINE = ROOT / "tools" / "validate_content_baseline.json"
@@ -69,9 +70,15 @@ class Code(str, Enum):
     INTERACTION_PAIR_KEY_FORMAT = "interaction_pair_key_format"
     INTERACTION_LAST_REVIEWED_FORMAT = "interaction_last_reviewed_format"
     INTERACTION_SUBSTANCE_UNKNOWN = "interaction_substance_unknown"
+    # Encyclopedia (ingredient pages)
+    INGREDIENT_FIELD_MISSING = "ingredient_field_missing"
+    INGREDIENT_SLUG_FORMAT = "ingredient_slug_format"
+    INGREDIENT_SUMMARY_EMPTY = "ingredient_summary_empty"
+    INGREDIENT_DUPLICATE_SLUG = "ingredient_duplicate_slug"
     # Link rot
     GUIDE_LINK_BROKEN = "guide_link_broken"
     INTERACTION_LINK_BROKEN = "interaction_link_broken"
+    INGREDIENT_LINK_BROKEN = "ingredient_link_broken"
 
 
 @dataclass
@@ -232,12 +239,55 @@ def validate_interactions(report: Report) -> tuple[set[str], set[str]]:
     return known_canonicals, known_pairs
 
 
+# ── Encyclopedia (ingredient pages) ─────────────────────────────────────────
+
+
+def validate_encyclopedia(report: Report) -> set[str]:
+    """Validate encyclopedia.json. Returns the set of known ingredient slugs
+    for link-rot detection."""
+    if not ENCYCLOPEDIA_JSON.exists():
+        # Encyclopedia is optional; absence doesn't fail the build.
+        return set()
+
+    data = json.loads(ENCYCLOPEDIA_JSON.read_text(encoding="utf-8"))
+    required = {"id", "slug", "name", "category", "summary"}
+    seen_slugs: dict[str, str] = {}
+    known: set[str] = set()
+
+    for row in data:
+        slug = row.get("slug") or row.get("id") or "<unknown>"
+        subj = f"ingredient:{slug}"
+        missing = required - row.keys()
+        if missing:
+            report.add(Issue(Code.INGREDIENT_FIELD_MISSING, Severity.ERROR, subj,
+                             f"missing required fields: {sorted(missing)}"))
+            continue
+
+        if not GUIDE_SLUG_RE.match(row["slug"]):
+            report.add(Issue(Code.INGREDIENT_SLUG_FORMAT, Severity.ERROR, subj,
+                             f"slug '{row['slug']}' is not kebab-case alphanumeric"))
+
+        if not (row.get("summary") or "").strip():
+            report.add(Issue(Code.INGREDIENT_SUMMARY_EMPTY, Severity.WARN, subj,
+                             "summary is empty — the page has no meta description"))
+
+        if row["slug"] in seen_slugs:
+            report.add(Issue(Code.INGREDIENT_DUPLICATE_SLUG, Severity.ERROR, subj,
+                             f"duplicate slug — also used by id={seen_slugs[row['slug']]!r}"))
+        else:
+            seen_slugs[row["slug"]] = row["id"]
+            known.add(row["slug"])
+
+    return known
+
+
 # ── Link rot ───────────────────────────────────────────────────────────────
 
 
 def validate_link_rot(
     known_guide_slugs: set[str],
     known_pair_keys: set[str],
+    known_ingredient_slugs: set[str],
     report: Report,
 ) -> None:
     """Grep .tsx files under src/app/guides/[slug]/content for internal links
@@ -247,6 +297,7 @@ def validate_link_rot(
     guide_link_re = re.compile(r'href="/guides/([a-z0-9\-/]+?)"')
     # /interactions/<a>-and-<b> — slugs are kebab-case, joined by -and-
     interaction_link_re = re.compile(r'href="/interactions/([a-z0-9\-]+-and-[a-z0-9\-]+)"')
+    ingredient_link_re = re.compile(r'href="/ingredients/([a-z0-9\-]+)"')
 
     # Derive known pair slugs (the route form uses "-and-" between sorted slugs).
     # The pair_key uses "--" so we don't directly compare; instead trust that
@@ -285,6 +336,13 @@ def validate_link_rot(
             if left not in known_pair_slug_halves or right not in known_pair_slug_halves:
                 report.add(Issue(Code.INTERACTION_LINK_BROKEN, Severity.WARN, subj,
                                  f"/interactions/{match} references unknown substance"))
+
+        if known_ingredient_slugs:
+            for match in ingredient_link_re.findall(text):
+                target = match.split("?")[0].split("#")[0].rstrip("/")
+                if target and target not in known_ingredient_slugs:
+                    report.add(Issue(Code.INGREDIENT_LINK_BROKEN, Severity.ERROR, subj,
+                                     f"internal link /ingredients/{target} has no matching ingredient"))
 
 
 # ── CLI ────────────────────────────────────────────────────────────────────
@@ -331,7 +389,8 @@ def main() -> int:
         validate_guide(g, report)
 
     _, known_pair_keys = validate_interactions(report)
-    validate_link_rot(guide_slugs, known_pair_keys, report)
+    known_ingredient_slugs = validate_encyclopedia(report)
+    validate_link_rot(guide_slugs, known_pair_keys, known_ingredient_slugs, report)
 
     if args.update_baseline:
         write_baseline(report)
