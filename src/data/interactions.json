@@ -12,6 +12,13 @@
       "NIH Office of Dietary Supplements",
       "Journal of Trace Elements"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "copper--zinc"
   },
   {
@@ -26,6 +33,13 @@
     "sources": [
       "American Journal of Clinical Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iron--zinc"
   },
   {
@@ -41,6 +55,13 @@
       "Journal of Nutrition",
       "NIH"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--iron"
   },
   {
@@ -55,6 +76,13 @@
     "sources": [
       "Journal of the American College of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--magnesium"
   },
   {
@@ -69,6 +97,13 @@
     "sources": [
       "Journal of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--zinc"
   },
   {
@@ -83,6 +118,13 @@
     "sources": [
       "Journal of the American College of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--zinc"
   },
   {
@@ -98,6 +140,13 @@
       "International Journal of Endocrinology",
       "Nutrients"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-d--vitamin-k2"
   },
   {
@@ -113,6 +162,13 @@
       "NIH",
       "Journal of Clinical Endocrinology"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--vitamin-d"
   },
   {
@@ -127,6 +183,13 @@
     "sources": [
       "American Journal of Clinical Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iron--vitamin-c"
   },
   {
@@ -141,6 +204,13 @@
     "sources": [
       "Journal of the American Dietetic Association"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-b12--vitamin-c"
   },
   {
@@ -155,6 +225,13 @@
     "sources": [
       "American Journal of Clinical Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-e--vitamin-k"
   },
   {
@@ -169,6 +246,13 @@
     "sources": [
       "Journal of Neural Transmission"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "5-htp--tyrosine"
   },
   {
@@ -183,6 +267,13 @@
     "sources": [
       "Psychopharmacology"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "5-htp--tryptophan"
   },
   {
@@ -197,20 +288,42 @@
     "sources": [
       "Journal of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "bcaa--tyrosine"
   },
   {
     "substance_a": "ashwagandha",
     "substance_b": "thyroid medication",
-    "severity": "danger",
-    "interaction_type": "medication",
-    "summary": "Ashwagandha may increase thyroid hormone levels",
-    "details": "Ashwagandha can stimulate thyroid function. For those on thyroid medication, this could cause hyperthyroidism.",
-    "recommendation": "Consult doctor before combining. May need medication adjustment.",
-    "timing_advice": "Monitor thyroid levels if combining",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Ashwagandha can raise thyroid hormone levels and stack additively with levothyroxine, risking thyrotoxicosis.",
+    "details": "Ashwagandha (Withania somnifera) stimulates thyroid output in humans at 500-600 mg/day over 8 weeks, raising T3 and T4 and lowering TSH. In a double-blind RCT of 50 subclinical hypothyroid patients (Sharma 2018), ashwagandha 600 mg/day significantly lowered TSH (p<0.001) and raised T3 (p=0.0031) and T4 (p=0.0096) versus placebo. In bipolar patients at 500 mg/day (Gannon 2014), free T4 rose by 7-24% in three treated patients, though the between-group difference was not statistically significant. The effect appears to depend on baseline thyroid state: a separate safety RCT in healthy adults at 300 mg twice daily found no significant thyroid change. No RCT has directly co-administered ashwagandha with levothyroxine. A 2022 case report (Cureus) documented thyrotoxicosis with supraventricular tachycardia in a 73-year-old woman after two years of daily ashwagandha; the authors flagged either glandular stimulation or possible exogenous T3/T4 contamination of the supplement. Memorial Sloan Kettering's monograph notes ashwagandha 'may increase thyroxine levels' and catalogs multiple thyrotoxicosis case reports. For a patient on stable levothyroxine, the plausible effect size (7-24% T4 rise) is large enough to move a well-titrated patient into a suppressed-TSH range. Timing-based workarounds do not help — the effect is endocrine over weeks, not absorption-based. Populations to watch: anyone on thyroid hormone replacement or antithyroid drugs, anyone with a history of thyroid disease even if off medication, and pregnancy/pediatrics (not studied, avoid).",
+    "recommendation": "If you take levothyroxine or any thyroid medication, consult your prescribing clinician before adding ashwagandha. If you proceed, retest TSH and free T4 within 4-8 weeks of starting, and again with any dose or brand change. Watch for palpitations, unintentional weight loss, heat intolerance, or anxiety; these suggest the combination has pushed you toward hyperthyroidism. Stop ashwagandha and retest if they appear.",
+    "timing_advice": "Spacing the doses does not mitigate this interaction — the effect is on thyroid output over weeks, not on absorption. Monitor thyroid labs instead.",
     "sources": [
-      "Journal of Alternative and Complementary Medicine"
+      "PMID:28829155 — Sharma AK, Basu I, Singh S. Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients. J Altern Complement Med 2018;24(3):243-248.",
+      "PMID:25624699 — Gannon JM, Forrest PE, Chengappa KNR. Subtle changes in thyroid indices during a placebo-controlled study of an extract of Withania somnifera. J Ayurveda Integr Med 2014.",
+      "DOI:10.7759/cureus.23325 — Kamal et al. Ashwagandha as a Unique Cause of Thyrotoxicosis Presenting with Supraventricular Tachycardia. Cureus 2022.",
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha — Memorial Sloan Kettering Integrative Medicine Monograph"
     ],
+    "mechanism": "Ashwagandha appears to stimulate thyroid output, raising circulating T3 and T4 and lowering TSH. The effect was clearly demonstrated in subclinical hypothyroid patients at 600 mg/day over 8 weeks (Sharma 2018, RCT): TSH fell (p<0.001), T3 rose (p=0.0031), T4 rose (p=0.0096). The biochemical mechanism is not fully established — authors of the 2022 case report flagged both direct glandular stimulation and possible exogenous T3/T4 contamination of the supplement itself.",
+    "evidence_quality": "moderate",
+    "populations": [
+      "Patients on levothyroxine or liothyronine — highest concern; direct additive effect on circulating thyroid hormone.",
+      "Patients on antithyroid medication (methimazole, propylthiouracil) — ashwagandha works against the medication.",
+      "Patients with prior thyroid disease, even off medication — the 2022 case was a patient off levothyroxine for 2 years.",
+      "Pregnancy and pediatrics — not studied; combined with other ashwagandha safety concerns, avoid."
+    ],
+    "what_we_dont_know": "No human RCT has tested direct co-administration of ashwagandha with levothyroxine. Dose-response below 500 mg/day is uncertain. Whether supplement contamination with exogenous T3/T4 contributes to case-report presentations is unresolved.",
+    "severity_rationale": "WARNING, not DANGER: the effect is RCT-demonstrated but gradual and monitorable, all documented thyrotoxicosis resolved on discontinuation, and no RCT directly tests co-administration. DANGER would require documented non-reversible harm.",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ashwagandha--thyroid-medication"
   },
   {
@@ -225,50 +338,99 @@
     "sources": [
       "Phytomedicine"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ashwagandha--sedatives"
   },
   {
-    "substance_a": "st johns wort",
-    "substance_b": "ssri",
+    "substance_a": "SSRI",
+    "substance_b": "st johns wort",
     "severity": "danger",
-    "interaction_type": "medication",
-    "summary": "Risk of serotonin syndrome",
-    "details": "St. John's Wort increases serotonin levels. Combined with SSRIs, this can cause dangerous serotonin syndrome.",
-    "recommendation": "Do NOT combine with antidepressants without medical supervision.",
-    "timing_advice": "Do not combine",
+    "interaction_type": "potentiation",
+    "summary": "Combining St John's wort with any SSRI risks serotonin syndrome — a potentially fatal hyperserotonergic state.",
+    "details": "St John's wort (Hypericum perforatum) has antidepressant activity in its own right, acting as a weak monoamine-reuptake inhibitor and modulating serotonin receptors. When taken alongside an SSRI, both agents raise synaptic serotonin, producing additive central serotonergic activity. This is pharmacodynamic synergy, not a metabolic interaction — so low-hyperforin SJW products do not eliminate the risk. No RCT has deliberately co-administered SJW with an SSRI, and it would be unethical to run one. The evidence is mechanism plus spontaneous adverse-event reports, which describe serotonin syndrome across sertraline, paroxetine, fluoxetine, citalopram at standard therapeutic doses (20-75 mg/day) with SJW at 600-900 mg/day standardized extract. Serotonin syndrome ranges from mild (shivering, tremor, diaphoresis) to life-threatening (hyperthermia >41 degrees C, seizures, rhabdomyolysis, DIC, death). Onset can be within hours of adding the second serotonergic agent. Three independent major references (Borrelli 2007, Nicolussi 2020, StatPearls 2024) converge on the same recommendation: do not combine. No safe co-dose has been established; reducing either agent's dose does not reliably prevent the syndrome. Other serotonergic drugs (tramadol, MAOIs, triptans, linezolid, trazodone) compound the risk and also must not be combined with SJW.",
+    "recommendation": "Do not take St John's wort while on any SSRI. If you are currently on both, stop St John's wort and contact your prescriber before your next SSRI dose. If you experience shivering, tremor, agitation, racing heart, or high fever, stop both agents and seek emergency medical evaluation.",
+    "timing_advice": "Spacing doses does not mitigate this interaction — both agents act on synaptic serotonin at steady state. There is no timing workaround.",
     "sources": [
-      "FDA",
-      "BMJ"
+      "PMID:17486092 — Borrelli F, Izzo AA. St John's wort (Hypericum perforatum): drug interactions and clinical outcomes. CNS Drugs 2007.",
+      "PMID:31943241 — Nicolussi S et al. Clinical relevance of St John's wort drug interactions revisited. Br J Pharmacol 2020.",
+      "https://www.ncbi.nlm.nih.gov/books/NBK557465/ — St. John's Wort. StatPearls 2024."
     ],
+    "mechanism": "St John's wort acts as a weak monoamine-reuptake inhibitor and modulates serotonin receptors independently of SSRIs. When combined with an SSRI, both agents converge on the same pathway — raising synaptic serotonin — producing additive central serotonergic activity. This is pharmacodynamic synergy, not just a pharmacokinetic interaction, so low-hyperforin SJW products do not eliminate the risk.",
+    "evidence_quality": "moderate",
+    "populations": [
+      "Any patient on any SSRI: sertraline, paroxetine, fluoxetine, citalopram, escitalopram, fluvoxamine.",
+      "Patients on other serotonergic agents (tramadol, MAOIs, triptans, linezolid, trazodone) — compound the risk.",
+      "Patients switching from SJW to an SSRI should have a washout before escalating the SSRI dose.",
+      "Pregnancy, pediatrics, elderly — not studied and not appropriate to test."
+    ],
+    "what_we_dont_know": "No RCT-grade effect sizes for serotonin syndrome risk. No validated dose-response curve. Whether specific SSRIs carry different relative risks with SJW — sertraline and paroxetine are over-represented in reports but this may reflect prescribing prevalence, not intrinsic risk.",
+    "severity_rationale": "DANGER. Serotonin syndrome carries documented fatalities in the broader serotonergic-combination literature, emergency presentations (hyperthermia, seizures, rhabdomyolysis), and no effective mitigation short of discontinuation. Three independent major references endorse 'do not combine.'",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ssri--st-johns-wort"
   },
   {
-    "substance_a": "st johns wort",
-    "substance_b": "birth control",
+    "substance_a": "birth control",
+    "substance_b": "st johns wort",
     "severity": "danger",
     "interaction_type": "metabolism",
-    "summary": "Reduces effectiveness of birth control",
-    "details": "St. John's Wort induces liver enzymes that break down hormonal contraceptives faster, reducing their effectiveness.",
-    "recommendation": "Do not use St. John's Wort if relying on hormonal birth control.",
-    "timing_advice": "Avoid combination",
+    "summary": "St John's wort reduces oral contraceptive effectiveness and has caused breakthrough bleeding and unintended pregnancies.",
+    "details": "Hyperforin, a primary constituent of St John's wort, activates the pregnane X receptor (PXR) and induces cytochrome P450 3A4 and P-glycoprotein. CYP3A4 metabolizes ethinylestradiol and most progestins; inducing it accelerates contraceptive clearance and lowers circulating hormone levels. A direct RCT (Pfrunder 2003, N=17 healthy women on a low-dose combined OC) found breakthrough bleeding rose from 6/17 (35%) on OC alone to 13/17 (77%, p<0.015) with SJW 300 mg twice daily and 15/17 (88%, p<0.001) with SJW 300 mg three times daily — a clean dose-response pattern. Ovulation was not detected but follicle-like structures appeared sporadically, meaning the contraceptive margin narrows. Pharmacovigilance confirms the clinical impact: by December 2001 the UK and Sweden together had received 9 reports of unintended pregnancies attributed to SJW + OC co-use, all in women who had used OCs without problems for at least seven months before adding SJW. Products with greater than 1 mg hyperforin/day are considered high-risk; a low-hyperforin extract study (Will-Shahab 2009) showed no measurable PK interaction, but most retail SJW products are high-hyperforin and hyperforin content is rarely disclosed on US labels. CYP3A4 induction persists for 1-2 weeks after stopping SJW. Progestin-only pills, patches, rings, implants, hormonal IUDs, and levonorgestrel emergency contraception are all metabolized by CYP3A4 and likely affected; direct trial data on non-combined methods are sparse.",
+    "recommendation": "If you rely on oral contraception, do not take St John's wort without discussing it with your prescriber. If you are taking both, use a reliable backup method (condom, non-hormonal IUD, abstinence) during SJW use and for at least two weeks after stopping. Breakthrough bleeding on a previously stable OC regimen is a warning sign. For levonorgestrel emergency contraception, SJW use in the prior 1-2 weeks reduces efficacy — a copper IUD is a more reliable alternative.",
+    "timing_advice": "Spacing doses does not help. CYP3A4 induction is a transcriptional effect developing over days and resolving over days — unrelated to hour-by-hour timing.",
     "sources": [
-      "Contraception",
-      "FDA"
+      "PMID:12911359 — Pfrunder A et al. Interaction of St John's wort with low-dose oral contraceptive therapy: a randomized controlled trial. Br J Clin Pharmacol 2003.",
+      "PMID:17486092 — Borrelli F, Izzo AA. St John's wort (Hypericum perforatum): drug interactions and clinical outcomes. CNS Drugs 2007.",
+      "PMID:31943241 — Nicolussi S et al. Clinical relevance of St John's wort drug interactions revisited. Br J Pharmacol 2020.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11283811/ — Co-administration of St John's wort and hormonal contraceptives: a systematic review. 2024."
     ],
+    "mechanism": "Hyperforin, a primary constituent of St John's wort, activates the pregnane X receptor (PXR) and induces cytochrome P450 3A4 and P-glycoprotein. CYP3A4 metabolizes ethinylestradiol and most progestins; inducing it accelerates contraceptive clearance and lowers circulating hormone levels. P-glycoprotein induction additionally reduces intestinal absorption. Net effect: less hormone in circulation, less ovulation suppression, more breakthrough bleeding and pregnancy risk.",
+    "evidence_quality": "high",
+    "populations": [
+      "Women on combined oral contraceptives — highest evidence base.",
+      "Women on progestin-only pills, patches, rings, implants, hormonal IUDs — same mechanism, sparser direct data.",
+      "Women on combination patches or rings — same caution as combined OCs.",
+      "Anyone needing levonorgestrel emergency contraception — SJW use in the prior 1-2 weeks reduces efficacy."
+    ],
+    "what_we_dont_know": "Post-stopping-SJW washout time is not precisely quantified (CYP3A4 induction typically persists 1-2 weeks). Direct RCTs on progestin-only pills, hormonal IUDs, or emergency contraception + SJW are lacking.",
+    "severity_rationale": "DANGER. Unintended pregnancy is definitionally non-reversible. The interaction is RCT-confirmed (Pfrunder 2003, dose-response p<0.001), mechanistically explained, and validated by pharmacovigilance (9 documented unintended pregnancies by 2001).",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "birth-control--st-johns-wort"
   },
   {
-    "substance_a": "ginkgo biloba",
-    "substance_b": "blood thinners",
-    "severity": "danger",
-    "interaction_type": "medication",
-    "summary": "Increases bleeding risk",
-    "details": "Ginkgo has blood-thinning properties. Combined with anticoagulants (warfarin, aspirin), it significantly increases bleeding risk.",
-    "recommendation": "Avoid ginkgo if on blood thinners, or consult doctor.",
-    "timing_advice": "Avoid combination",
+    "substance_a": "blood thinners",
+    "substance_b": "ginkgo biloba",
+    "severity": "warning",
+    "interaction_type": "potentiation",
+    "summary": "Ginkgo may modestly increase bleeding risk with warfarin, aspirin, or clopidogrel. Evidence is mixed but precaution is warranted.",
+    "details": "Ginkgo biloba extracts contain ginkgolide B, a platelet-activating factor (PAF) antagonist that can inhibit platelet aggregation in vitro. The biochemical effect is real; the clinical magnitude is contested. The largest observational study (Stoddard 2015, VA, N=807,399 warfarin patients) found a hazard ratio of 1.38 (95% CI 1.20-1.58, p<0.001) for bleeding adverse events with concurrent ginkgo + warfarin. A 2025 observational study (Mai et al, N=2,647 prescriptions) did NOT find a warfarin signal but did find modest bleeding associations with ginkgo + aspirin (OR 1.12) and ginkgo + clopidogrel (OR 1.10). A randomized controlled trial (Gardner 2007, N=55 older cardiovascular patients) testing EGb 761 300 mg/day plus aspirin 325 mg/day for 4 weeks found no effect on platelet function and no bleeding events. The most comprehensive systematic review (Bone 2008) concluded that controlled studies consistently show no significant hemostasis effect and that published case reports are low quality. The pattern — real population signal, negative RCTs — is consistent with confounding by indication, but the possibility of real modest harm cannot be excluded. Patients scheduled for surgery should stop ginkgo 5-7 days in advance per standard pre-anesthesia guidance. DOACs (apixaban, rivaroxaban, dabigatran, edoxaban) have not been directly studied; class-based caution applies.",
+    "recommendation": "Do not self-start ginkgo if you are on warfarin, aspirin, clopidogrel, or any anticoagulant/antiplatelet. Consult the clinician who manages your blood thinner first. If you are already taking both, do not stop abruptly — ask your prescriber about tapering and monitoring. Watch for unusual bruising, prolonged bleeding from minor cuts, gum bleeding, nosebleeds, or dark stools. Stop ginkgo 5-7 days before any scheduled surgery or neuraxial procedure.",
+    "timing_advice": "Timing-based separation does not mitigate this interaction. Monitoring (INR for warfarin patients, clinical symptoms for antiplatelet patients) is the relevant mitigation.",
     "sources": [
-      "Archives of Internal Medicine"
+      "PMID:26958227 — Stoddard GJ et al. Ginkgo and Warfarin Interaction in a Large Veterans Administration Population. AMIA Annu Symp Proc 2015.",
+      "DOI:10.1371/journal.pone.0321804 — Mai et al. Impact of Ginkgo biloba drug interactions on bleeding risk and coagulation profiles. PLoS ONE 2025.",
+      "PMID:17982321 — Gardner CD et al. Effect of Ginkgo biloba (EGb 761) and aspirin on platelet aggregation. Blood Coagul Fibrinolysis 2007.",
+      "PMID:18214851 — Bone KM. Potential interaction of Ginkgo biloba leaf with antiplatelet or anticoagulant drugs: what is the evidence? Mol Nutr Food Res 2008."
     ],
+    "mechanism": "Ginkgo biloba extracts contain ginkgolide B, a platelet-activating factor (PAF) antagonist that can inhibit platelet aggregation in vitro. The biochemical effect is real; the clinical magnitude is contested. The largest observational study (Stoddard 2015, N=807,399 VA warfarin patients) found HR 1.38 (95% CI 1.20-1.58, p<0.001) for bleeding. Controlled trials at testable doses have been largely null.",
+    "evidence_quality": "low",
+    "populations": [
+      "Patients on warfarin — largest observational signal (HR 1.38); highest concern given therapeutic INR management.",
+      "Patients on aspirin or clopidogrel — modest observational signal; RCT evidence reassuring at typical doses.",
+      "Patients on DOACs (apixaban, rivaroxaban, dabigatran, edoxaban) — not directly studied; class caution applies.",
+      "Patients scheduled for surgery or neuraxial anesthesia — stop ginkgo 5-7 days before the procedure."
+    ],
+    "what_we_dont_know": "No adequately powered RCT of ginkgo + warfarin with a clinical bleeding endpoint exists. Dose-response curve is not characterized. Whether standardized EGb 761 vs other extracts differ in risk is plausible but not proven. DOACs have not been directly studied.",
+    "severity_rationale": "WARNING, not DANGER: the mechanism is real but clinical magnitude is modest (HR/OR 1.10-1.38) and not reliably reproduced in controlled trials. The precautionary WARNING honestly reflects the evidence split.",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-thinners--ginkgo-biloba"
   },
   {
@@ -284,6 +446,13 @@
       "Planta Medica",
       "Journal of Clinical Pharmacology"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "black-pepper--curcumin"
   },
   {
@@ -298,6 +467,13 @@
     "sources": [
       "Nutrition Journal"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "curcumin--omega-3"
   },
   {
@@ -312,6 +488,13 @@
     "sources": [
       "Journal of the American College of Cardiology"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "coq10--statins"
   },
   {
@@ -326,6 +509,13 @@
     "sources": [
       "Journal of the American Osteopathic Association"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--vitamin-d"
   },
   {
@@ -340,6 +530,13 @@
     "sources": [
       "Free Radical Biology and Medicine"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "quercetin--vitamin-c"
   },
   {
@@ -355,6 +552,13 @@
       "Xenobiotica",
       "British Journal of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "quercetin--resveratrol"
   },
   {
@@ -369,6 +573,13 @@
     "sources": [
       "Journal of Research in Medical Sciences"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--melatonin"
   },
   {
@@ -383,6 +594,13 @@
     "sources": [
       "Journal of Pineal Research"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-thinners--melatonin"
   },
   {
@@ -398,6 +616,13 @@
       "Neuropsychopharmacology",
       "Sleep and Biological Rhythms"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "glycine--magnesium"
   },
   {
@@ -413,6 +638,13 @@
       "Nutritional Neuroscience",
       "Psychopharmacology"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "caffeine--l-theanine"
   },
   {
@@ -427,6 +659,13 @@
     "sources": [
       "American Journal of Health-System Pharmacy"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "fiber--medications"
   },
   {
@@ -441,22 +680,41 @@
     "sources": [
       "Journal of Nutrition"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "fiber--minerals"
   },
   {
     "substance_a": "vitamin k",
     "substance_b": "warfarin",
-    "severity": "danger",
+    "severity": "warning",
     "interaction_type": "antagonism",
-    "summary": "Vitamin K reverses warfarin's blood-thinning effect",
-    "details": "Warfarin works by inhibiting vitamin K-dependent clotting factors. Supplementing vitamin K directly counteracts this mechanism, potentially causing dangerous blood clots. Even dietary vitamin K changes can destabilize INR (International Normalized Ratio).",
-    "recommendation": "Do NOT supplement vitamin K while on warfarin without medical supervision. Maintain consistent vitamin K intake from food. Inform your doctor of any diet changes.",
-    "timing_advice": "Avoid combination entirely",
+    "summary": "Vitamin K directly antagonizes warfarin. Consistency of intake, not avoidance, is the right clinical approach.",
+    "details": "Warfarin works by blocking vitamin K epoxide reductase, preventing regeneration of reduced vitamin K needed to activate clotting factors II, VII, IX, and X. Adding exogenous vitamin K — dietary or supplemental — provides the substrate warfarin is trying to keep unavailable. This is a direct antagonism. However, the 2016 systematic review (Violi et al) concluded the clinical implication is often misstated. A key RCT (Sconce et al, N=70 warfarin patients with unstable INR control) showed that low-dose daily vitamin K supplementation (150 micrograms) actually STABILIZED INR in previously unstable patients. Prospective dietary tracking shows an inverse correlation between vitamin K intake variability and INR variability (r = -0.600, p<0.01). Consistency of intake matters more than absolute level. The old 'avoid leafy greens on warfarin' advice is outdated. One cup cooked spinach contains ~900 micrograms of K1 — enough to shift INR if added acutely to a low baseline. Patients with chronically unstable INR may benefit from consistent low-dose K supplementation rather than restriction. Vitamin K2 (MK-4, MK-7) supplements also interact. Patients on DOACs (apixaban, rivaroxaban, dabigatran, edoxaban) do NOT have this interaction — DOACs are not vitamin K antagonists.",
+    "recommendation": "Do not change your vitamin K intake — dietary or supplemental — without telling your anticoagulation clinic. Aim for consistent daily intake rather than restriction. Starting a K2 supplement? Ask for an INR check 1-2 weeks after. If your INR is chronically unstable, ask whether a small consistent K supplement might help. If you're on a DOAC, this interaction does not apply.",
+    "timing_advice": "Timing within the day does not materially help. The interaction is on the vitamin K cycle at the liver. Consistency day-to-day is what matters.",
     "sources": [
-      "FDA Warfarin Label",
-      "American Heart Association",
-      "PMID: 18179505"
+      "PMID:26962786 — Violi F et al. Interaction Between Dietary Vitamin K Intake and Anticoagulation by Vitamin K Antagonists: Is It Really True? A Systematic Review. Medicine (Baltimore) 2016.",
+      "PMID:17690342 — Sconce E et al. Effect of low-dose vitamin K supplementation on INR stability. 2007.",
+      "PMID:16941417 — Dietary vitamin K variability affects INR coagulation indices. 2006."
     ],
+    "mechanism": "Warfarin works by blocking vitamin K epoxide reductase, preventing regeneration of reduced vitamin K needed to activate clotting factors II, VII, IX, and X. Exogenous vitamin K — dietary or supplemental — provides the substrate warfarin is trying to keep unavailable. The antagonism is real; what's changed is the clinical implication. Contemporary evidence shows consistency of intake matters more than absolute level, and low-dose K supplementation (150 microgram/day) can stabilize unstable INR.",
+    "evidence_quality": "moderate",
+    "populations": [
+      "Newly-initiated warfarin patients — do not dramatically change diet at start; inform the anticoagulation clinic of typical intake.",
+      "Patients with chronically unstable INR — may benefit from consistent low-dose K supplementation rather than restriction.",
+      "Patients adding vitamin K2 (MK-7) for bone/cardiovascular reasons — this does interact; tell your prescriber.",
+      "Patients on DOACs (apixaban, rivaroxaban, dabigatran, edoxaban) — no vitamin K interaction. DOACs do not depend on vitamin K antagonism."
+    ],
+    "what_we_dont_know": "The quantitative relationship between dose change and INR shift is patient-specific; no universal formula applies. The specific comparability of K1 vs K2 (MK-4 vs MK-7) for warfarin interaction strength is not fully characterized.",
+    "severity_rationale": "WARNING, not DANGER: the mechanism is real, but INR monitoring + dose adjustment reliably mitigates. The old 'avoid all greens' advice is outdated. Consistent intake + communication with the anticoagulation clinic is the correct framing.",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-k--warfarin"
   },
   {
@@ -472,6 +730,13 @@
       "Thrombosis and Haemostasis",
       "PMID: 17138823"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-k2--warfarin"
   },
   {
@@ -488,6 +753,13 @@
       "PMID: 15072218",
       "PMID: 17056120"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "omega-3--warfarin"
   },
   {
@@ -503,6 +775,13 @@
       "Annals of Internal Medicine",
       "PMID: 14757613"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-e--warfarin"
   },
   {
@@ -519,6 +798,13 @@
       "PMID: 10871633",
       "PMID: 16441473"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "garlic--warfarin"
   },
   {
@@ -534,6 +820,13 @@
       "Thrombosis Research",
       "PMID: 16426725"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ginger--warfarin"
   },
   {
@@ -550,6 +843,13 @@
       "PMID: 8602755",
       "Lancet 1999;352:36"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "aspirin--ginkgo-biloba"
   },
   {
@@ -565,6 +865,13 @@
       "Journal of the American College of Cardiology",
       "PMID: 12860904"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "aspirin--omega-3"
   },
   {
@@ -580,6 +887,13 @@
       "American Journal of Clinical Nutrition",
       "PMID: 11747323"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "aspirin--vitamin-e"
   },
   {
@@ -596,21 +910,40 @@
       "PMID: 19818632",
       "PMID: 15046501"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-thinners--nattokinase"
   },
   {
     "substance_a": "dong quai",
     "substance_b": "warfarin",
-    "severity": "danger",
+    "severity": "warning",
     "interaction_type": "potentiation",
-    "summary": "Dong quai significantly increases warfarin effect",
-    "details": "Dong quai contains coumarins that have direct anticoagulant activity. Combined with warfarin, INR can increase dramatically (case reports of INR >10). Very dangerous interaction.",
-    "recommendation": "Absolutely avoid dong quai while on warfarin.",
-    "timing_advice": "Do not combine",
+    "summary": "Dong quai contains natural coumarins and has potentiated warfarin in a published case, raising bleeding risk.",
+    "details": "Dong quai (Angelica sinensis) root contains natural coumarin derivatives — ferulic acid, osthole, and related compounds — with documented antithrombotic and platelet-inhibitory activity in vitro. Because warfarin itself is structurally a coumarin, adding plant coumarins is mechanistically intuitive. Animal steady-state studies show dong quai significantly increases prothrombin time WITHOUT changing warfarin blood concentration — suggesting a pharmacodynamic rather than pharmacokinetic interaction. The primary human evidence is a single case report (Page & Lawrence 1999): a 46-year-old woman stable on warfarin self-initiated dong quai 565 mg 1-2 times daily. Over 4 weeks her INR rose to 4.05 then 4.90 — more than double baseline — without bleeding events. She stopped dong quai; INR returned to acceptable levels within a month. No other changes were identified. The washout pattern strengthens attribution, but a single case cannot establish population-level effect size. Two systematic reviews list dong quai among herbs with documented warfarin potentiation. Commercial dong quai preparations vary widely in coumarin content, so 'low dose' is hard to define reliably.",
+    "recommendation": "If you take warfarin, do not start dong quai without telling your prescriber. If you already take both, don't stop abruptly — ask for an INR check and a plan to discontinue. Watch for unusual bruising, gum bleeding, nosebleeds, or dark stools. For perimenopausal symptoms (the most common reason people take dong quai), discuss alternatives that do not interact with warfarin. Stop dong quai 1-2 weeks before elective surgery.",
+    "timing_advice": "Spacing doses does not help; the interaction is pharmacodynamic and operates on the anticoagulation endpoint, not absorption.",
     "sources": [
-      "Annals of Pharmacotherapy",
-      "PMID: 10028195"
+      "PMID:10417036 — Page RL, Lawrence JD. Potentiation of warfarin by dong quai. Pharmacotherapy 1999.",
+      "DOI:10.1177/1934578X1400900835 — Warfarin Interactions with Medicinal Herbs. Natural Product Communications 2014.",
+      "PMID:25707010 — Interaction between warfarin and Chinese herbal medicines. 2015."
     ],
+    "mechanism": "Dong quai (Angelica sinensis) root contains natural coumarin derivatives — ferulic acid, osthole — with documented antithrombotic and platelet-inhibitory activity. Because warfarin itself is structurally a coumarin, adding plant coumarins is mechanistically intuitive. Animal steady-state studies show dong quai increases prothrombin time WITHOUT changing warfarin blood concentration — a pharmacodynamic rather than pharmacokinetic interaction.",
+    "evidence_quality": "moderate",
+    "populations": [
+      "Warfarin patients, especially those using dong quai for perimenopausal symptoms (the main consumer-marketing use).",
+      "Any other anticoagulant or antiplatelet patient (aspirin, clopidogrel, DOACs) — same mechanism applies.",
+      "Pre-surgical patients — stop dong quai 1-2 weeks before elective surgery."
+    ],
+    "what_we_dont_know": "No RCT. Quantitative INR shift per dose of dong quai is unknown. Whether specific preparations (water extract vs ethanol tincture vs standardized capsule) differ in risk is unclear.",
+    "severity_rationale": "WARNING, not DANGER: evidence is a single case report + animal data + mechanism. Case had no bleeding and INR normalized on discontinuation. Not enough data for DANGER; not weak enough for CAUTION.",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "dong-quai--warfarin"
   },
   {
@@ -626,6 +959,13 @@
       "Journal of Clinical Pharmacology",
       "PMID: 16505357"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "dan-shen--warfarin"
   },
   {
@@ -642,6 +982,13 @@
       "FDA ACE Inhibitor Labels",
       "PMID: 16007097"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ace-inhibitors--potassium"
   },
   {
@@ -657,6 +1004,13 @@
       "Journal of the American Society of Nephrology",
       "PMID: 10073315"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "arbs--potassium"
   },
   {
@@ -673,6 +1027,13 @@
       "PMID: 11693621",
       "BMJ Case Reports"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-pressure-medications--licorice"
   },
   {
@@ -688,6 +1049,13 @@
       "Magnesium Research",
       "PMID: 22961193"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium-channel-blockers--magnesium"
   },
   {
@@ -703,6 +1071,13 @@
       "Journal of Human Hypertension",
       "PMID: 17287847"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-pressure-medications--coq10"
   },
   {
@@ -718,6 +1093,13 @@
       "Cochrane Database of Systematic Reviews",
       "PMID: 18254076"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "blood-pressure-medications--hawthorn"
   },
   {
@@ -734,6 +1116,13 @@
       "PMID: 10628896",
       "FDA Drug Interaction Database"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium-channel-blockers--grapefruit"
   },
   {
@@ -750,6 +1139,13 @@
       "PMID: 16505527",
       "PMID: 15208835"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "chromium--insulin"
   },
   {
@@ -765,6 +1161,13 @@
       "Diabetes Technology & Therapeutics",
       "PMID: 17073582"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "chromium--metformin"
   },
   {
@@ -781,6 +1184,13 @@
       "PMID: 16936143",
       "PMID: 11349851"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "alpha-lipoic-acid--diabetes-medications"
   },
   {
@@ -797,6 +1207,13 @@
       "PMID: 18510760",
       "PMID: 21470472"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "berberine--metformin"
   },
   {
@@ -812,6 +1229,13 @@
       "Journal of Ethnopharmacology",
       "PMID: 21211558"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "bitter-melon--diabetes-medications"
   },
   {
@@ -827,6 +1251,13 @@
       "Phytotherapy Research",
       "PMID: 19170117"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "diabetes-medications--fenugreek"
   },
   {
@@ -842,6 +1273,13 @@
       "Journal of Clinical Biochemistry and Nutrition",
       "PMID: 17347651"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "diabetes-medications--gymnema"
   },
   {
@@ -858,6 +1296,13 @@
       "PMID: 17190895",
       "Osteoporosis International"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antacids--calcium"
   },
   {
@@ -873,6 +1318,13 @@
       "Gastroenterology",
       "PMID: 17412297"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antacids--iron"
   },
   {
@@ -889,6 +1341,13 @@
       "PMID: 24327038",
       "PMID: 19996585"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antacids--vitamin-b12"
   },
   {
@@ -904,6 +1363,13 @@
       "FDA Drug Safety Communication 2011",
       "PMID: 21388145"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antacids--magnesium"
   },
   {
@@ -919,6 +1385,13 @@
       "Magnesium Research",
       "PMID: 18385835"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--nsaids"
   },
   {
@@ -934,6 +1407,13 @@
       "Sleep Medicine Reviews",
       "PMID: 20493772"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "diphenhydramine--melatonin"
   },
   {
@@ -950,6 +1430,13 @@
       "PMID: 16444754",
       "Lancet"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "acetaminophen--nac"
   },
   {
@@ -966,6 +1453,13 @@
       "Journal of Clinical Psychiatry",
       "PMID: 11775047"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "5-htp--ssri"
   },
   {
@@ -981,6 +1475,13 @@
       "American Journal of Psychiatry",
       "PMID: 14636358"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "sam-e--ssri"
   },
   {
@@ -996,6 +1497,13 @@
       "Clinical Pharmacology & Therapeutics",
       "PMID: 11502890"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "melatonin--ssri"
   },
   {
@@ -1011,6 +1519,13 @@
       "Journal of Clinical Psychopharmacology",
       "PMID: 3722151"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ginseng--maoi"
   },
   {
@@ -1026,6 +1541,13 @@
       "Annals of Internal Medicine",
       "PMID: 9382666"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "benzodiazepines--kava"
   },
   {
@@ -1041,6 +1563,13 @@
       "Journal of Clinical Pharmacology",
       "PMID: 11397570"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "sedatives--valerian"
   },
   {
@@ -1056,6 +1585,13 @@
       "Pharmacopsychiatry",
       "PMID: 2399766"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "maoi--tyrosine"
   },
   {
@@ -1071,6 +1607,13 @@
       "Phytomedicine",
       "PMID: 22643881"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "rhodiola--ssri"
   },
   {
@@ -1087,6 +1630,13 @@
       "PMID: 7704434",
       "PMID: 15574620"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--thyroid-medication"
   },
   {
@@ -1102,6 +1652,13 @@
       "Annals of Internal Medicine",
       "PMID: 1982151"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iron--thyroid-medication"
   },
   {
@@ -1117,6 +1674,13 @@
       "Thyroid",
       "PMID: 18279009"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--thyroid-medication"
   },
   {
@@ -1132,6 +1696,13 @@
       "Thyroid",
       "PMID: 16571087"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "soy--thyroid-medication"
   },
   {
@@ -1148,6 +1719,13 @@
       "PMID: 9588628",
       "PMID: 24576895"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iodine--thyroid-medication"
   },
   {
@@ -1163,22 +1741,41 @@
       "Journal of Clinical Endocrinology & Metabolism",
       "PMID: 12213876"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "selenium--thyroid-medication"
   },
   {
-    "substance_a": "st johns wort",
-    "substance_b": "cyclosporine",
+    "substance_a": "cyclosporine",
+    "substance_b": "st johns wort",
     "severity": "danger",
     "interaction_type": "metabolism",
-    "summary": "St. John's Wort can cause organ rejection",
-    "details": "St. John's Wort strongly induces CYP3A4 and P-glycoprotein, dramatically reducing cyclosporine blood levels (up to 50% reduction). Has caused documented cases of acute heart transplant rejection. Life-threatening interaction.",
-    "recommendation": "ABSOLUTELY AVOID St. John's Wort if on cyclosporine or any immunosuppressant.",
-    "timing_advice": "Do not take at any time while on immunosuppressants",
+    "summary": "St John's wort substantially lowers cyclosporine levels and has caused documented transplant rejection.",
+    "details": "Hyperforin, the primary CYP-active constituent of St John's wort, activates the pregnane X receptor (PXR) and strongly induces cytochrome P450 3A4 and P-glycoprotein. Cyclosporine is a narrow-therapeutic-index immunosuppressant metabolized by CYP3A4 and effluxed by P-gp. Inducing both pathways accelerates cyclosporine clearance and produces clinically meaningful under-exposure — which after a transplant means rejection. Published case reports span multiple organ types: two heart transplant recipients developed acute rejection after self-starting SJW (Ruschitzka 2000). A 4-patient case series (2001, Am J Kidney Dis) reported 2 heart, 1 kidney, and 1 pancreas transplant recipients whose cyclosporine levels fell 25-62% within 3-4 weeks of starting SJW, with graft rejection in all four. Cyclosporine levels returned to therapeutic range after SJW was stopped and rejection was treated — but graft function can be permanently reduced by a rejection episode, and not every rejection is successfully treated. Standard retail SJW products (600-900 mg/day high-hyperforin) have caused the interaction. Low-hyperforin products may trigger less PK induction but are not reliable for transplant patients given the non-reversible consequence. The same mechanism applies to tacrolimus and sirolimus.",
+    "recommendation": "If you have had an organ transplant and take cyclosporine, tacrolimus, or sirolimus, do not take St John's wort under any circumstance. This applies to every product form: capsules, teas, tinctures, combination mood supplements listing hypericum as an ingredient. If you are currently taking both, contact your transplant center today — not your next routine appointment — and stop the SJW. Your cyclosporine levels need to be rechecked quickly. For mood symptoms, your transplant team can discuss alternatives.",
+    "timing_advice": "Spacing doses does not help. CYP3A4 induction is transcriptional, taking days to develop and 1-2 weeks to resolve. No timing workaround.",
     "sources": [
-      "Lancet",
-      "PMID: 10696252",
-      "Transplantation"
+      "PMID:10683008 — Acute heart transplant rejection due to Saint John's wort. 2000.",
+      "PMID:11684566 — Interaction between cyclosporine and Hypericum perforatum after organ transplantation. Am J Kidney Dis 2001.",
+      "PMID:17486092 — Borrelli F, Izzo AA. St John's wort: drug interactions and clinical outcomes. CNS Drugs 2007.",
+      "PMID:31943241 — Nicolussi S et al. Clinical relevance of St John's wort drug interactions revisited. Br J Pharmacol 2020."
     ],
+    "mechanism": "Hyperforin activates the pregnane X receptor (PXR) and strongly induces CYP3A4 and P-glycoprotein. Cyclosporine is a narrow-therapeutic-index immunosuppressant metabolized by CYP3A4 and effluxed by P-gp. Inducing both pathways accelerates cyclosporine clearance and produces clinically meaningful under-exposure — which after a transplant means rejection. Documented cyclosporine level drops of 25-62% within 3-4 weeks of SJW initiation.",
+    "evidence_quality": "high",
+    "populations": [
+      "All organ transplant recipients on cyclosporine, tacrolimus, or sirolimus — contraindicated.",
+      "Patients on other narrow-therapeutic-index CYP3A4 substrates — class-general concern.",
+      "Patients tapering immunosuppression — even low-dose regimens are at risk; induction effect is disproportionate at low levels."
+    ],
+    "what_we_dont_know": "Onset time of clinically relevant induction varies (days to weeks). Genetic variation in PXR/CYP3A4 likely modulates individual susceptibility but is not used clinically to stratify risk. Whether any low-hyperforin formulation is truly safe in transplant recipients has not been tested and would be unethical to test given documented harm.",
+    "severity_rationale": "DANGER. Transplant rejection is non-reversible and potentially life-threatening. Multiple published cases across heart, kidney, and pancreas transplants. Unanimous transplant-medicine contraindication.",
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "cyclosporine--st-johns-wort"
   },
   {
@@ -1194,6 +1791,13 @@
       "Alternative Medicine Review",
       "PMID: 15989380"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "echinacea--immunosuppressants"
   },
   {
@@ -1209,6 +1813,13 @@
       "Phytotherapy Research",
       "PMID: 22139880"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "astragalus--immunosuppressants"
   },
   {
@@ -1224,6 +1835,13 @@
       "PLOS ONE",
       "PMID: 25048201"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "quercetin--zinc"
   },
   {
@@ -1239,6 +1857,13 @@
       "American Journal of Clinical Nutrition",
       "PMID: 9356038"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iron--vitamin-a"
   },
   {
@@ -1254,6 +1879,13 @@
       "Journal of the Academy of Nutrition and Dietetics",
       "PMID: 25619618"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "omega-3--vitamin-d"
   },
   {
@@ -1269,6 +1901,13 @@
       "Planta Medica",
       "PMID: 18461352"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ashwagandha--black-pepper"
   },
   {
@@ -1284,6 +1923,13 @@
       "Magnesium Research",
       "PMID: 22781440"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--vitamin-b6"
   },
   {
@@ -1299,6 +1945,13 @@
       "American Journal of Clinical Nutrition",
       "PMID: 3927946"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "vitamin-a--zinc"
   },
   {
@@ -1314,6 +1967,13 @@
       "Integrative Medicine",
       "PMID: 17846391"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "boron--vitamin-d"
   },
   {
@@ -1329,6 +1989,13 @@
       "JAMA 2013",
       "PMID: 24327038"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ppi--vitamin-b12"
   },
   {
@@ -1344,6 +2011,13 @@
       "FDA Drug Safety Communication 2011",
       "PMID: 22109896"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--ppi"
   },
   {
@@ -1359,6 +2033,13 @@
       "JAMA 2006",
       "PMID: 17190895"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "calcium--ppi"
   },
   {
@@ -1374,6 +2055,13 @@
       "American Journal of Medicine",
       "PMID: 28063295"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "iron--ppi"
   },
   {
@@ -1389,6 +2077,13 @@
       "Cochrane Review 2017",
       "PMID: 29257353"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antibiotics--probiotics"
   },
   {
@@ -1404,6 +2099,13 @@
       "Antimicrobial Agents and Chemotherapy",
       "PMID: 2285283"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "antibiotics--iron"
   },
   {
@@ -1419,6 +2121,13 @@
       "Journal of Applied Physiology 1996",
       "PMID: 8941544"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "caffeine--creatine"
   },
   {
@@ -1434,6 +2143,13 @@
       "Journal of the International Society of Sports Nutrition",
       "PMID: 17136939"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "beta-alanine--creatine"
   },
   {
@@ -1449,6 +2165,13 @@
       "Nutrition 2001",
       "PMID: 11477443"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "creatine--hmb"
   },
   {
@@ -1464,6 +2187,13 @@
       "NIH Office of Dietary Supplements",
       "PMID: 18174293"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "folate--vitamin-b12"
   },
   {
@@ -1479,6 +2209,13 @@
       "American Journal of Clinical Nutrition",
       "PMID: 8780333"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "fiber--iron"
   },
   {
@@ -1494,6 +2231,13 @@
       "Lipids 1992",
       "PMID: 1487956"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "omega-3--vitamin-e"
   },
   {
@@ -1509,6 +2253,13 @@
       "Phytotherapy Research 2014",
       "PMID: 24811260"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "ashwagandha--ssri"
   },
   {
@@ -1524,6 +2275,13 @@
       "Amino Acids 2006",
       "PMID: 16622713"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "collagen--vitamin-c"
   },
   {
@@ -1539,6 +2297,13 @@
       "Biochimica et Biophysica Acta",
       "PMID: 23747562"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "glutathione--nac"
   },
   {
@@ -1554,6 +2319,13 @@
       "Advances in Experimental Medicine",
       "PMID: 25833584"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "magnesium--taurine"
   },
   {
@@ -1569,6 +2341,13 @@
       "Biochemical and Biophysical Research Communications",
       "PMID: 4146484"
     ],
+    "mechanism": null,
+    "evidence_quality": null,
+    "populations": [],
+    "what_we_dont_know": null,
+    "severity_rationale": null,
+    "monitoring": [],
+    "last_reviewed": null,
     "pair_key": "beta-blocker--coq10"
   }
 ]
