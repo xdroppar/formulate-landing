@@ -145,3 +145,32 @@ export function formatIngredientAmount(ing: Ingredient): string {
     : ing.amount.toFixed(2).replace(/\.?0+$/, "");
   return `${amount}${ing.unit ? ` ${ing.unit}` : ""}`;
 }
+
+// ── Brand helpers ───────────────────────────────────────────────────────────
+
+export const brands: BrandSummary[] = [...catalog.brands]
+  .filter((b) => b.product_count > 0)
+  .sort((a, b) => b.product_count - a.product_count);
+
+const brandBySlugMap = new Map(brands.map((b) => [b.slug, b]));
+
+export function brandBySlug(slug: string): BrandSummary | undefined {
+  return brandBySlugMap.get(slug);
+}
+
+export function productsForBrand(brandSlug: string): Product[] {
+  return products
+    .filter((p) => p.brand_slug === brandSlug)
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+}
+
+export function brandCategoryBreakdown(brandSlug: string): { category: string; count: number }[] {
+  const counts: Record<string, number> = {};
+  for (const p of productsForBrand(brandSlug)) {
+    const key = p.category || "Other";
+    counts[key] = (counts[key] ?? 0) + 1;
+  }
+  return Object.entries(counts)
+    .map(([category, count]) => ({ category, count }))
+    .sort((a, b) => b.count - a.count);
+}
