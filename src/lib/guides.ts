@@ -353,6 +353,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "supplement-safety",
+    title: "Supplement Safety in 2026: What the FDA Doesn't Check",
+    description:
+      "The FDA doesn't verify supplements for safety before sale. Here's the regulatory gap, the 3 failure modes, and how third-party certifications and interaction checks close the risk.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "10 min read",
+    tags: ["Safety", "Regulation", "FDA", "Quality", "Third-Party Testing"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

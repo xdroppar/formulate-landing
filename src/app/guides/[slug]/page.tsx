@@ -26,6 +26,7 @@ import { CollagenGuide } from "./content/collagen-guide";
 import { VitaminB12Guide } from "./content/vitamin-b12-guide";
 import { BerberineGuide } from "./content/berberine-guide";
 import { SupplementDrugInteractions } from "./content/supplement-drug-interactions";
+import { SupplementSafety } from "./content/supplement-safety";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -93,6 +94,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "vitamin-b12-guide": VitaminB12Guide,
   "berberine-guide": BerberineGuide,
   "supplement-drug-interactions": SupplementDrugInteractions,
+  "supplement-safety": SupplementSafety,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,
