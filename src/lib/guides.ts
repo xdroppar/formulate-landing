@@ -340,6 +340,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "supplement-drug-interactions",
+    title: "Supplement-Drug Interactions: The Complete 2026 Guide",
+    description:
+      "The 4 mechanisms of supplement-drug interactions — absorption competition, CYP450 metabolism, potentiation, antagonism — plus the highest-risk supplement classes and how to check your stack safely.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "11 min read",
+    tags: ["Interactions", "Safety", "Medications", "Drug Interactions", "CYP450"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

@@ -25,6 +25,7 @@ import { AshwagandhaGuide } from "./content/ashwagandha-guide";
 import { CollagenGuide } from "./content/collagen-guide";
 import { VitaminB12Guide } from "./content/vitamin-b12-guide";
 import { BerberineGuide } from "./content/berberine-guide";
+import { SupplementDrugInteractions } from "./content/supplement-drug-interactions";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -91,6 +92,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "collagen-guide": CollagenGuide,
   "vitamin-b12-guide": VitaminB12Guide,
   "berberine-guide": BerberineGuide,
+  "supplement-drug-interactions": SupplementDrugInteractions,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,
