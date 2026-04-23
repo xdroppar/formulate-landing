@@ -405,6 +405,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "methylfolate-vs-folic-acid",
+    title: "Methylfolate vs Folic Acid: Which Form Should You Take?",
+    description:
+      "Methylfolate bypasses the MTHFR step that ~40% of people have a reduced-activity variant of. When to pick each form, MTHFR testing decisions, and the unmetabolized folic acid concern.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "9 min read",
+    tags: ["Folate", "MTHFR", "B Vitamins", "Methylation", "Pregnancy"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:
