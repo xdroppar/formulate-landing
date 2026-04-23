@@ -1,5 +1,13 @@
 import { ImageResponse } from "next/og";
-import { researchBySlug } from "@/lib/research";
+import { researchBySlug, type MethodologyGrade } from "@/lib/research";
+
+const GRADE_COLORS: Record<MethodologyGrade, string> = {
+  A: "#10b981",
+  B: "#3b82f6",
+  C: "#f59e0b",
+  D: "#f97316",
+  F: "#ef4444",
+};
 
 // nodejs runtime: research.ts imports node:fs at module scope for the
 // guide-reverse-index scan. Edge runtime would fail on the fs import
@@ -24,6 +32,8 @@ export default async function Image({
   const summary = study?.summary ?? "";
 
   const titleFont = title.length > 110 ? 42 : title.length > 80 ? 52 : 60;
+  const methodology = study?.methodology;
+  const gradeColor = methodology ? GRADE_COLORS[methodology.grade] : null;
 
   return new ImageResponse(
     (
@@ -84,32 +94,90 @@ export default async function Image({
           </div>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            alignSelf: "flex-start",
-            alignItems: "center",
-            gap: "14px",
-            padding: "12px 24px",
-            borderRadius: "999px",
-            background: "rgba(0, 229, 160, 0.12)",
-            border: "2px solid #00e5a0",
-            marginBottom: "28px",
-          }}
-        >
+        {methodology && gradeColor ? (
           <div
             style={{
               display: "flex",
-              fontSize: "20px",
-              fontWeight: 800,
-              color: "#00e5a0",
-              letterSpacing: "2px",
-              textTransform: "uppercase",
+              alignSelf: "flex-start",
+              alignItems: "center",
+              gap: "18px",
+              padding: "12px 20px 12px 12px",
+              borderRadius: "12px",
+              background: `${gradeColor}1F`,
+              border: `2px solid ${gradeColor}`,
+              marginBottom: "28px",
             }}
           >
-            Primary research · {year}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "56px",
+                height: "56px",
+                borderRadius: "8px",
+                background: gradeColor,
+                fontSize: "36px",
+                fontWeight: 900,
+                color: "#08080f",
+              }}
+            >
+              {methodology.grade}
+            </div>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div
+                style={{
+                  display: "flex",
+                  fontSize: "14px",
+                  fontWeight: 800,
+                  color: gradeColor,
+                  letterSpacing: "2px",
+                  textTransform: "uppercase",
+                }}
+              >
+                Methodology grade
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  fontSize: "20px",
+                  fontWeight: 700,
+                  color: "#f0f0f8",
+                  marginTop: "2px",
+                }}
+              >
+                {methodology.overall}/100 · Primary research · {year}
+              </div>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div
+            style={{
+              display: "flex",
+              alignSelf: "flex-start",
+              alignItems: "center",
+              gap: "14px",
+              padding: "12px 24px",
+              borderRadius: "999px",
+              background: "rgba(0, 229, 160, 0.12)",
+              border: "2px solid #00e5a0",
+              marginBottom: "28px",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                fontSize: "20px",
+                fontWeight: 800,
+                color: "#00e5a0",
+                letterSpacing: "2px",
+                textTransform: "uppercase",
+              }}
+            >
+              Primary research · {year}
+            </div>
+          </div>
+        )}
 
         <div
           style={{

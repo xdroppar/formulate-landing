@@ -16,6 +16,34 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { studies, type Study } from "@/lib/guide-evidence";
 import { visibleGuides, type Guide } from "@/lib/guides";
+import rawSupplementStudies from "@/data/supplement-studies.json";
+
+/** Formulate's methodology review — an 8-dimension rubric applied selectively
+ *  to landmark studies on the webapp (mirrored here so /research pages can
+ *  surface the analysis). Not every study has one. */
+export type MethodologyGrade = "A" | "B" | "C" | "D" | "F";
+export interface MethodologyReview {
+  overall: number;
+  grade: MethodologyGrade;
+  flags: string[];
+  critique: string;
+  ideal_design: string;
+  reviewed_at: string;
+}
+
+/** Webapp study entry shape — the authoritative source of methodology
+ *  reviews. Mirrored from formulate-web/src/lib/supplement-studies.ts. */
+interface WebappStudy {
+  title: string;
+  authors?: string;
+  year?: number | null;
+  journal?: string;
+  pmid?: string | null;
+  doi?: string | null;
+  study_type?: string;
+  finding_summary?: string;
+  methodology?: MethodologyReview;
+}
 
 /** Extract a kebab-case slug from a study key. Registry keys already are
  *  kebab-case (e.g. "ashwagandha-cortisol-2012"), just normalize. */
@@ -23,18 +51,104 @@ function toSlug(key: string): string {
   return key.toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-");
 }
 
+function pmidOf(url: string | undefined): string | null {
+  if (!url) return null;
+  const m = url.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/);
+  return m ? m[1] : null;
+}
+
 export type StudyWithSlug = Study & {
   id: string;
   slug: string;
+  /** Optional methodology review pulled from webapp's supplement-studies.json. */
+  methodology?: MethodologyReview;
+  /** Optional finding_summary from webapp — richer than guide-evidence's
+   *  summary; preferred when present. */
+  study_type?: string;
+  /** Source supplement id when entry came from the webapp studies file.
+   *  Used to link back to /ingredients/<slug> pages. */
+  supplementId?: string;
 };
 
-export const researchEntries: StudyWithSlug[] = Object.entries(studies).map(
-  ([id, study]) => ({
-    ...study,
-    id,
-    slug: toSlug(id),
-  }),
+// --- Build merged registry ---------------------------------------------------
+//
+// The landing has two study sources:
+//   1. `guide-evidence.ts` — 78 entries backing EvidenceBadge popovers on
+//      guides. Simple shape: authors, year, journal, title, url, summary.
+//   2. `supplement-studies.json` — 61 entries from the webapp, indexed by
+//      supplement id. Same shape plus optional methodology reviews.
+//
+// We union by PMID (preferred) then DOI, preferring the webapp entry when
+// methodology is present (it's editorially richer). Keys stay kebab-case so
+// URLs on /research/<slug> are stable.
+
+const guideEntries: StudyWithSlug[] = Object.entries(studies).map(
+  ([id, study]) => ({ ...study, id, slug: toSlug(id) }),
 );
+
+const webappRaw = rawSupplementStudies as Record<string, unknown>;
+const webappEntries: StudyWithSlug[] = [];
+for (const [supplementId, value] of Object.entries(webappRaw)) {
+  if (supplementId.startsWith("_") || !Array.isArray(value)) continue;
+  for (const s of value as WebappStudy[]) {
+    if (!s.year) continue;
+    // Build stable id preferring pmid, then doi, then slugified title
+    let id: string;
+    if (s.pmid) {
+      id = `pmid-${s.pmid}`;
+    } else if (s.doi) {
+      id = `doi-${s.doi.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+    } else {
+      const t = s.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
+      id = `t-${supplementId}-${t}`;
+    }
+    const url = s.pmid
+      ? `https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/`
+      : s.doi
+        ? `https://doi.org/${s.doi}`
+        : "";
+    webappEntries.push({
+      id,
+      slug: toSlug(id),
+      authors: s.authors || "Author not specified",
+      year: s.year,
+      journal: s.journal || "Journal not specified",
+      title: s.title,
+      url,
+      summary: s.finding_summary,
+      methodology: s.methodology,
+      study_type: s.study_type,
+      supplementId,
+    });
+  }
+}
+
+// Dedup: key by PMID (preferred), else DOI, else id. Webapp entries win ties
+// because they carry methodology reviews.
+const merged = new Map<string, StudyWithSlug>();
+const insert = (e: StudyWithSlug, preferNew: boolean) => {
+  const pmid = pmidOf(e.url);
+  const key = pmid
+    ? `pmid:${pmid}`
+    : e.url
+      ? `url:${e.url.toLowerCase()}`
+      : `id:${e.id}`;
+  const existing = merged.get(key);
+  if (!existing) {
+    merged.set(key, e);
+    return;
+  }
+  if (preferNew) {
+    // Keep webapp fields but retain guide-evidence's id if it's simpler
+    // (e.g. "ashwagandha-cortisol-2012" beats "pmid-23439798" for readability).
+    merged.set(key, { ...e, id: existing.id, slug: existing.slug });
+  }
+};
+// Insert guide entries first, then webapp (preferNew=true) so webapp methodology wins
+for (const e of guideEntries) insert(e, false);
+for (const e of webappEntries) insert(e, true);
+
+export const researchEntries: StudyWithSlug[] = [...merged.values()];
 
 // Sort by year descending so index leads with recent.
 researchEntries.sort((a, b) => b.year - a.year);

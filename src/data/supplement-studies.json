@@ -1,0 +1,689 @@
+{
+  "_comment": "Curated landmark studies per encyclopedia supplement. Add entries cautiously — every citation here is rendered to users as evidence-based content and emitted as ScholarlyArticle JSON-LD to Google. Verify PMID/DOI against PubMed before adding; entries without pmid/doi fall back to a PubMed title search. Schema mirrors the LCStudyReference type in lc-supplements.ts. Optional `methodology` blocks apply the Formulate scorecard from tools/STUDY_METHODOLOGY_RUBRIC.md — opinion framed against verifiable facts in the published paper.",
+  "creatine": [
+    {
+      "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "authors": "Kreider RB, Kalman DS, Antonio J, et al.",
+      "year": 2017,
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "pmid": "28615996",
+      "doi": "10.1186/s12970-017-0173-z",
+      "study_type": "Position stand",
+      "finding_summary": "Reviews 500+ studies and concludes creatine monohydrate is the most effective ergogenic nutritional supplement for high-intensity exercise and lean body mass, with an excellent safety profile across populations.",
+      "methodology": {
+        "overall": 85,
+        "grade": "A",
+        "flags": ["landmark-replicated", "large-n"],
+        "critique": "As a position stand synthesizing over 500 primary studies, its grade reflects the aggregate evidence it summarizes — and the creatine literature is unusually deep. Creatine monohydrate has been replicated across decades, populations, and research groups. The main caveat is that ISSN member authors often have industry relationships with sports nutrition companies, and conclusions about safety in vulnerable populations (adolescents, renal disease, pregnancy) rely on extrapolation rather than direct trials.",
+        "ideal_design": "A Cochrane systematic review conducted by independent methodologists would add a final confirmatory tier. For most purposes, though, the creatine evidence base is already among the most mature in any supplement category.",
+        "reviewed_at": "2026-04-21"
+      }
+    },
+    {
+      "title": "Effects of creatine supplementation and resistance training on muscle strength and weightlifting performance",
+      "authors": "Rawson ES, Volek JS",
+      "year": 2003,
+      "journal": "Journal of Strength and Conditioning Research",
+      "pmid": "12930169",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 22 trials showing creatine + resistance training increased 1RM bench press by ~6.85kg and squat by ~9.76kg vs placebo + training."
+    },
+    {
+      "title": "Creatine supplementation with specific view to exercise/sports performance: an update",
+      "authors": "Cooper R, Naclerio F, Allgrove J, Jimenez A",
+      "year": 2012,
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "study_type": "Review",
+      "finding_summary": "Updates evidence on creatine loading (20g/day × 5–7 days then 3–5g/day maintenance) vs low-dose slow-load protocols, confirming comparable saturation by ~28 days."
+    }
+  ],
+  "vitamin-d": [
+    {
+      "title": "Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis of individual participant data",
+      "authors": "Martineau AR, Jolliffe DA, Hooper RL, et al.",
+      "year": 2017,
+      "journal": "BMJ",
+      "pmid": "28202713",
+      "doi": "10.1136/bmj.i6583",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Individual-participant meta-analysis of 25 RCTs (n=10,933) found vitamin D supplementation reduced risk of acute respiratory tract infection, with greatest benefit in baseline-deficient participants and daily/weekly (not bolus) dosing.",
+      "methodology": {
+        "overall": 76,
+        "grade": "B",
+        "flags": ["large-n", "real-world-outcome", "independent-funded"],
+        "critique": "Individual-participant meta-analysis across 25 RCTs is a strong design — it re-analyses raw subject data rather than just pooling summary statistics, which handles heterogeneity better than conventional meta-analysis. The overall effect is modest (NNT ~33) and the pooled estimate hides substantial variation between trials in dose, population, seasonal timing, and baseline vitamin D status. A cleaner read of the data is that vitamin D meaningfully helps people who are deficient; evidence of benefit in already-replete individuals is weaker.",
+        "ideal_design": "A single large pre-registered RCT restricting enrollment to baseline 25(OH)D below 20 ng/mL, using daily (not bolus) dosing, would resolve the heterogeneity question and settle the 'does deficiency matter' framing that the current evidence only hints at.",
+        "reviewed_at": "2026-04-21"
+      }
+    },
+    {
+      "title": "Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis",
+      "authors": "Tripkovic L, Lambert H, Hart K, et al.",
+      "year": 2012,
+      "journal": "American Journal of Clinical Nutrition",
+      "pmid": "22552031",
+      "doi": "10.3945/ajcn.111.031070",
+      "study_type": "Meta-analysis",
+      "finding_summary": "D3 (cholecalciferol) raised serum 25(OH)D significantly more effectively than D2 (ergocalciferol) at equivalent doses, supporting D3 as the preferred form."
+    },
+    {
+      "title": "Vitamin D deficiency",
+      "authors": "Holick MF",
+      "year": 2007,
+      "journal": "New England Journal of Medicine",
+      "pmid": "17634462",
+      "doi": "10.1056/NEJMra070553",
+      "study_type": "Review",
+      "finding_summary": "Seminal clinical review defining vitamin D deficiency thresholds, recommended 25(OH)D targets for bone and extraskeletal health, and the role of sunlight vs dietary sources."
+    }
+  ],
+  "omega-3": [
+    {
+      "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (VITAL trial)",
+      "authors": "Manson JE, Cook NR, Lee IM, et al.",
+      "year": 2019,
+      "journal": "New England Journal of Medicine",
+      "pmid": "30415637",
+      "doi": "10.1056/NEJMoa1811403",
+      "study_type": "RCT",
+      "finding_summary": "Large primary-prevention RCT (n=25,871) found n-3 fatty acid supplementation did not reduce major cardiovascular events overall but did reduce myocardial infarction risk, with greatest benefit in low-fish-intake participants."
+    },
+    {
+      "title": "Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (REDUCE-IT)",
+      "authors": "Bhatt DL, Steg PG, Miller M, et al.",
+      "year": 2019,
+      "journal": "New England Journal of Medicine",
+      "pmid": "30415628",
+      "doi": "10.1056/NEJMoa1812792",
+      "study_type": "RCT",
+      "finding_summary": "Double-blind RCT (n=8,179) found high-dose EPA (4g/day) reduced ischemic events by 25% vs placebo in patients with elevated triglycerides on statins — the most convincing cardiovascular benefit data for omega-3s."
+    }
+  ],
+  "magnesium": [
+    {
+      "title": "The effect of magnesium supplementation on primary insomnia in elderly: a double-blind placebo-controlled clinical trial",
+      "authors": "Abbasi B, Kimiagar M, Sadeghniiat K, et al.",
+      "year": 2012,
+      "journal": "Journal of Research in Medical Sciences",
+      "pmid": "23853635",
+      "study_type": "RCT",
+      "finding_summary": "8-week RCT in elderly with insomnia: 500mg/day magnesium significantly improved subjective insomnia score, sleep efficiency, sleep onset latency, and serum melatonin concentration."
+    },
+    {
+      "title": "Effects of magnesium supplementation on blood pressure: a meta-analysis of randomized double-blind placebo-controlled trials",
+      "authors": "Zhang X, Li Y, Del Gobbo LC, et al.",
+      "year": 2016,
+      "journal": "Hypertension",
+      "pmid": "27402922",
+      "doi": "10.1161/HYPERTENSIONAHA.116.07664",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 34 trials (n=2,028) found magnesium supplementation at a median dose of 368mg/day for 3 months significantly reduced systolic BP by 2.00 mmHg and diastolic BP by 1.78 mmHg."
+    },
+    {
+      "title": "The role of magnesium in neurological disorders",
+      "authors": "Kirkland AE, Sarlo GL, Holton KF",
+      "year": 2018,
+      "journal": "Nutrients",
+      "pmid": "29882776",
+      "doi": "10.3390/nu10060730",
+      "study_type": "Review",
+      "finding_summary": "Reviews mechanisms and clinical evidence for magnesium's role in migraine prophylaxis, stress, anxiety, and depression — with strongest RCT support for migraine prevention at 400–600mg/day."
+    }
+  ],
+  "ashwagandha": [
+    {
+      "title": "A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults",
+      "authors": "Chandrasekhar K, Kapoor J, Anishetty S",
+      "year": 2012,
+      "journal": "Indian Journal of Psychological Medicine",
+      "pmid": "23439798",
+      "doi": "10.4103/0253-7176.106022",
+      "study_type": "RCT",
+      "finding_summary": "60-day double-blind RCT (n=64) using 300mg KSM-66 ashwagandha twice daily significantly reduced perceived stress (PSS) and serum cortisol vs placebo.",
+      "methodology": {
+        "overall": 58,
+        "grade": "C",
+        "flags": ["small-n", "short-duration", "surrogate-endpoint", "industry-adjacent", "single-center"],
+        "critique": "Often cited as proof ashwagandha reduces stress, but the methodology limits how much weight this single trial can carry. n=64 is modest for detecting the reported effect size. 60 days is a short window for chronic stress claims. Outcomes were a subjective scale (PSS-14) plus a single morning serum cortisol draw — morning cortisol is highly variable day-to-day and is not a robust biomarker of chronic stress compared to diurnal curves or hair cortisol. The KSM-66 extract is manufactured by Ixoreal Biomed, whose involvement appears across many subsequent ashwagandha trials, complicating independent replication. The direction of results has been echoed in later trials, but any one small trial of this design is weak evidence on its own.",
+        "ideal_design": "A 12-week pre-registered RCT with n≥200, independently funded, using diurnal or hair cortisol alongside PSS-14, with a pre-specified MCID on the PSS, would be materially more convincing.",
+        "reviewed_at": "2026-04-21"
+      }
+    },
+    {
+      "title": "An investigation into the stress-relieving and pharmacological actions of an ashwagandha (Withania somnifera) extract",
+      "authors": "Salve J, Pate S, Debnath K, Langade D",
+      "year": 2019,
+      "journal": "Cureus",
+      "pmid": "31728244",
+      "doi": "10.7759/cureus.6466",
+      "study_type": "RCT",
+      "finding_summary": "8-week RCT (n=60) showed ashwagandha 250mg and 600mg daily significantly reduced perceived stress, serum cortisol, and improved sleep quality vs placebo, with greater effect at the higher dose."
+    }
+  ],
+  "vitamin-b12": [
+    {
+      "title": "Vitamin B12 deficiency",
+      "authors": "Stabler SP",
+      "year": 2013,
+      "journal": "New England Journal of Medicine",
+      "pmid": "23301732",
+      "doi": "10.1056/NEJMcp1113996",
+      "study_type": "Review",
+      "finding_summary": "Comprehensive clinical review of B12 deficiency diagnosis and treatment, noting that serum B12 alone is unreliable and that methylmalonic acid (MMA) and homocysteine are more sensitive markers of functional deficiency."
+    },
+    {
+      "title": "Oral cyanocobalamin supplementation in older people with vitamin B12 deficiency: a dose-finding trial",
+      "authors": "Eussen SJ, de Groot LC, Clarke R, et al.",
+      "year": 2005,
+      "journal": "Archives of Internal Medicine",
+      "pmid": "15883237",
+      "study_type": "RCT",
+      "finding_summary": "Dose-finding RCT in older adults found 647–1,032 µg/day oral B12 was needed to normalize mild B12 deficiency markers — orders of magnitude above the RDA, supporting high-dose oral as an alternative to injections."
+    }
+  ],
+  "zinc": [
+    {
+      "title": "Zinc lozenges and the common cold: a meta-analysis comparing zinc acetate and zinc gluconate, and the role of zinc dosage",
+      "authors": "Hemilä H",
+      "year": 2017,
+      "journal": "JRSM Open",
+      "pmid": "28515951",
+      "doi": "10.1177/2054270417694291",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 7 RCTs (n=575) found zinc lozenges (≥75mg/day elemental zinc) shortened cold duration by ~33%, with no significant difference between acetate and gluconate forms."
+    },
+    {
+      "title": "Oral zinc for the common cold (Cochrane Review)",
+      "authors": "Singh M, Das RR",
+      "year": 2013,
+      "journal": "Cochrane Database of Systematic Reviews",
+      "pmid": "23775705",
+      "doi": "10.1002/14651858.CD001364.pub4",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Cochrane review of 18 RCTs found zinc reduced common cold duration and severity in healthy adults when taken within 24 hours of symptom onset, though adverse effects (taste disturbance, nausea) were common."
+    }
+  ],
+  "nac": [
+    {
+      "title": "N-acetylcysteine in psychiatry: current therapeutic evidence and potential mechanisms of action",
+      "authors": "Dean O, Giorlando F, Berk M",
+      "year": 2011,
+      "journal": "Journal of Psychiatry and Neuroscience",
+      "pmid": "21118657",
+      "doi": "10.1503/jpn.100057",
+      "study_type": "Review",
+      "finding_summary": "Reviews evidence for NAC as an adjunctive psychiatric treatment, with strongest data in trichotillomania, OCD, addictive behaviors, and as a glutathione precursor for oxidative stress reduction."
+    },
+    {
+      "title": "Effectiveness of N-acetylcysteine in the prevention of contrast-induced nephropathy: a systematic review and meta-analysis",
+      "authors": "Kelly AM, Dwamena B, Cronin P, et al.",
+      "year": 2008,
+      "journal": "Annals of Internal Medicine",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 41 trials found NAC associated with reduced risk of contrast-induced nephropathy, supporting clinical use of NAC for renal protection in high-risk patients undergoing contrast imaging."
+    }
+  ],
+  "l-theanine": [
+    {
+      "title": "L-theanine, a natural constituent in tea, and its effect on mental state",
+      "authors": "Nobre AC, Rao A, Owen GN",
+      "year": 2008,
+      "journal": "Asia Pacific Journal of Clinical Nutrition",
+      "pmid": "18296328",
+      "study_type": "Review",
+      "finding_summary": "Reviews EEG and cognitive evidence that L-theanine increases alpha wave activity (associated with calm alertness) and, when combined with caffeine, improves attention without sedation."
+    },
+    {
+      "title": "Effects of chronic l-theanine administration in patients with major depressive disorder: an open-label study",
+      "authors": "Hidese S, Ogawa S, Ota M, et al.",
+      "year": 2017,
+      "journal": "Acta Neuropsychiatrica",
+      "pmid": "27396868",
+      "study_type": "RCT",
+      "finding_summary": "8-week open-label study in major depressive disorder (n=20) found 250mg/day L-theanine improved depression, anxiety, sleep, and cognitive function scores — supporting adjunctive use alongside standard treatment."
+    }
+  ],
+  "lions-mane": [
+    {
+      "title": "Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial",
+      "authors": "Mori K, Inatomi S, Ouchi K, et al.",
+      "year": 2009,
+      "journal": "Phytotherapy Research",
+      "pmid": "18844328",
+      "doi": "10.1002/ptr.2634",
+      "study_type": "RCT",
+      "finding_summary": "16-week RCT in older adults with mild cognitive impairment (n=30) found 3g/day lion's mane significantly improved cognitive function score vs placebo, with effects diminishing 4 weeks post-cessation."
+    },
+    {
+      "title": "Reduction of depression and anxiety by 4 weeks Hericium erinaceus intake",
+      "authors": "Nagano M, Shimizu K, Kondo R, et al.",
+      "year": 2010,
+      "journal": "Biomedical Research",
+      "pmid": "20834180",
+      "study_type": "RCT",
+      "finding_summary": "4-week RCT in middle-aged women (n=30) with undefined complaints found lion's mane cookies reduced depression and anxiety indicators vs placebo cookies, supporting mood benefits beyond cognition."
+    }
+  ],
+  "berberine": [
+    {
+      "title": "Efficacy of berberine in patients with type 2 diabetes mellitus",
+      "authors": "Yin J, Xing H, Ye J",
+      "year": 2008,
+      "journal": "Metabolism",
+      "pmid": "18442638",
+      "doi": "10.1016/j.metabol.2008.01.013",
+      "study_type": "RCT",
+      "finding_summary": "3-month RCT in newly diagnosed T2DM (n=84) found berberine 500mg three times daily reduced HbA1c, fasting glucose, and postprandial glucose comparably to metformin."
+    },
+    {
+      "title": "Berberine for the treatment of hypertension: a systematic review",
+      "authors": "Suadoni MT, Atherton I",
+      "year": 2021,
+      "journal": "Complementary Therapies in Clinical Practice",
+      "study_type": "Review",
+      "finding_summary": "Systematic review of 5 RCTs found berberine reduced systolic and diastolic blood pressure, with effect size comparable to first-line monotherapy in mild hypertension."
+    }
+  ],
+  "curcumin": [
+    {
+      "title": "Efficacy and safety of curcumin for osteoarthritis of the knee: 4-week study compared to ibuprofen",
+      "authors": "Kuptniratsaikul V, Dajpratham P, Taechaarpornkul W, et al.",
+      "year": 2014,
+      "journal": "Clinical Interventions in Aging",
+      "pmid": "24672232",
+      "doi": "10.2147/CIA.S58535",
+      "study_type": "RCT",
+      "finding_summary": "4-week non-inferiority RCT (n=367) found C. longa extract 1500mg/day produced similar pain and function improvements to ibuprofen 1200mg/day, with fewer GI adverse events."
+    },
+    {
+      "title": "Curcuminoid treatment for knee osteoarthritis: a randomized double-blind placebo-controlled trial",
+      "authors": "Panahi Y, Rahimnia AR, Sharafi M, et al.",
+      "year": 2014,
+      "journal": "Phytotherapy Research",
+      "pmid": "24853120",
+      "doi": "10.1002/ptr.5174",
+      "study_type": "RCT",
+      "finding_summary": "6-week RCT (n=40) found 1500mg/day curcuminoids (equivalent to high-absorption phytosome) significantly reduced WOMAC pain, stiffness, and physical function scores vs placebo."
+    }
+  ],
+  "coq10": [
+    {
+      "title": "The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure (Q-SYMBIO trial)",
+      "authors": "Mortensen SA, Rosenfeldt F, Kumar A, et al.",
+      "year": 2014,
+      "journal": "JACC: Heart Failure",
+      "pmid": "25282031",
+      "doi": "10.1016/j.jchf.2014.06.008",
+      "study_type": "RCT",
+      "finding_summary": "2-year double-blind multi-center RCT (n=420) in chronic heart failure found 300mg/day CoQ10 (ubiquinone) reduced cardiovascular mortality by 43% and major adverse cardiac events by 50% vs placebo.",
+      "methodology": {
+        "overall": 87,
+        "grade": "A",
+        "flags": ["multi-center", "long-duration", "real-world-outcome"],
+        "critique": "Q-SYMBIO is among the stronger supplement trials in the literature. Multi-center, double-blind, placebo-controlled, 2-year duration, and a hard clinical endpoint (cardiovascular mortality). The 43% mortality reduction represents a clinically meaningful effect size, not just statistical significance. The key interpretive nuance is that enrolled patients were already receiving optimal guideline-directed heart failure therapy, so the benefit represents an additive effect on top of standard care — applicable to a specific clinical context rather than general prevention in healthy adults.",
+        "ideal_design": "Given the strength of this trial, what's missing is independent large-scale replication. A second 1,000+ patient multi-center RCT conducted in a different healthcare system would move CoQ10 in heart failure from 'likely beneficial' to 'guideline-recommended.' Smaller supporting trials exist but a definitive replication would close the case.",
+        "reviewed_at": "2026-04-21"
+      }
+    },
+    {
+      "title": "Coenzyme Q10 for heart failure (Cochrane Review)",
+      "authors": "Madmani ME, Yusuf Solaiman A, Tamr Agha K, et al.",
+      "year": 2014,
+      "journal": "Cochrane Database of Systematic Reviews",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Cochrane review of 7 RCTs noted evidence suggests CoQ10 may improve ejection fraction and reduce hospitalization in heart failure, but called for larger long-term trials — Q-SYMBIO partially answered this call."
+    }
+  ],
+  "glycine": [
+    {
+      "title": "The sleep-promoting and hypothermic effects of glycine are mediated by NMDA receptors in the suprachiasmatic nucleus",
+      "authors": "Kawai N, Sakai N, Okuro M, et al.",
+      "year": 2015,
+      "journal": "Neuropsychopharmacology",
+      "pmid": "25533534",
+      "doi": "10.1038/npp.2014.326",
+      "study_type": "Mechanism",
+      "finding_summary": "Mechanistic study identifying how glycine at bedtime lowers core body temperature via NMDA receptor activation in the SCN — the proposed mechanism for its observed sleep-onset latency benefits."
+    },
+    {
+      "title": "Glycine ingestion improves subjective sleep quality in human volunteers",
+      "authors": "Yamadera W, Inagawa K, Chiba S, et al.",
+      "year": 2007,
+      "journal": "Sleep and Biological Rhythms",
+      "study_type": "RCT",
+      "finding_summary": "Crossover RCT showed 3g glycine 30–60 minutes before bed improved subjective sleep quality, sleep-onset latency, and next-day fatigue vs placebo in self-reported mild insomnia subjects."
+    }
+  ],
+  "taurine": [
+    {
+      "title": "Risk assessment for the amino acids taurine, L-glutamine and L-arginine",
+      "authors": "Shao A, Hathcock JN",
+      "year": 2008,
+      "journal": "Regulatory Toxicology and Pharmacology",
+      "pmid": "18325648",
+      "doi": "10.1016/j.yrtph.2008.01.004",
+      "study_type": "Review",
+      "finding_summary": "Comprehensive safety review establishing an observed safe level of 3g/day for taurine, with no adverse events at doses up to 10g/day in clinical trials."
+    },
+    {
+      "title": "Effect of taurine on exercise performance: a systematic review and meta-analysis",
+      "authors": "Waldron M, Patterson SD, Tallent J, Jeffries O",
+      "year": 2018,
+      "journal": "Sports Medicine",
+      "pmid": "29546641",
+      "doi": "10.1007/s40279-018-0896-2",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 10 studies found single-dose taurine (1–6g, 1–3 hours pre-exercise) produced small but significant improvements in endurance performance."
+    }
+  ],
+  "rhodiola": [
+    {
+      "title": "The effectiveness and efficacy of Rhodiola rosea L.: a systematic review of randomized clinical trials",
+      "authors": "Hung SK, Perry R, Ernst E",
+      "year": 2011,
+      "journal": "Phytomedicine",
+      "pmid": "21036578",
+      "doi": "10.1016/j.phymed.2010.08.014",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Systematic review of 11 RCTs found modest but consistent evidence for rhodiola in physical and mental fatigue, with less consistent data for chronic depression and anxiety."
+    },
+    {
+      "title": "Rhodiola rosea versus sertraline for major depressive disorder: a randomized placebo-controlled trial",
+      "authors": "Mao JJ, Xie SX, Zee J, et al.",
+      "year": 2015,
+      "journal": "Phytomedicine",
+      "pmid": "25837277",
+      "doi": "10.1016/j.phymed.2015.01.010",
+      "study_type": "RCT",
+      "finding_summary": "12-week three-arm RCT (n=57) found rhodiola produced smaller antidepressant effect than sertraline but with significantly fewer adverse events, supporting it as an option for milder depression."
+    }
+  ],
+  "phosphatidylserine": [
+    {
+      "title": "Effect of phosphatidylserine in age-associated memory impairment",
+      "authors": "Crook TH, Tinklenberg J, Yesavage J, et al.",
+      "year": 1991,
+      "journal": "Neurology",
+      "pmid": "2041575",
+      "study_type": "RCT",
+      "finding_summary": "12-week double-blind RCT (n=149) in age-associated memory impairment found 300mg/day bovine-source phosphatidylserine improved learning and memory vs placebo — one of the landmark early cognition trials."
+    },
+    {
+      "title": "Phosphatidylserine and the human brain",
+      "authors": "Glade MJ, Smith K",
+      "year": 2015,
+      "journal": "Nutrition",
+      "pmid": "25933483",
+      "doi": "10.1016/j.nut.2014.10.014",
+      "study_type": "Review",
+      "finding_summary": "Reviews mechanisms (neuronal membrane integrity, acetylcholine release, HPA-axis modulation) and clinical evidence for PS in age-related cognitive decline and exercise-induced cortisol attenuation."
+    }
+  ],
+  "alpha-lipoic-acid": [
+    {
+      "title": "Treatment of symptomatic diabetic polyneuropathy with the antioxidant alpha-lipoic acid: a meta-analysis",
+      "authors": "Ziegler D, Nowak H, Kempler P, et al.",
+      "year": 2004,
+      "journal": "Diabetic Medicine",
+      "pmid": "14984445",
+      "doi": "10.1111/j.1464-5491.2004.01109.x",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 4 RCTs (n=1,258) found 3 weeks of IV ALA 600mg/day significantly improved neuropathic symptoms in diabetic patients — the strongest evidence tier supporting ALA for diabetic neuropathy."
+    },
+    {
+      "title": "Efficacy of orally administered alpha-lipoic acid for symptomatic diabetic polyneuropathy: the SYDNEY 2 trial",
+      "authors": "Ziegler D, Ametov A, Barinov A, et al.",
+      "year": 2006,
+      "journal": "Diabetes Care",
+      "pmid": "17065669",
+      "doi": "10.2337/dc06-1216",
+      "study_type": "RCT",
+      "finding_summary": "5-week RCT (n=181) found oral ALA 600mg/day improved neuropathic symptom scores, with higher doses providing no additional benefit — supporting 600mg as the effective oral dose."
+    }
+  ],
+  "melatonin": [
+    {
+      "title": "Meta-analysis: melatonin for the treatment of primary sleep disorders",
+      "authors": "Ferracioli-Oda E, Qawasmi A, Bloch MH",
+      "year": 2013,
+      "journal": "PLOS ONE",
+      "pmid": "23691095",
+      "doi": "10.1371/journal.pone.0063773",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 19 RCTs (n=1,683) found melatonin reduced sleep-onset latency by ~7 minutes, increased total sleep time by ~8 minutes, and improved overall sleep quality — small but consistent effect across populations."
+    },
+    {
+      "title": "Efficacy of prolonged release melatonin in insomnia patients aged 55–80 years: quality of sleep and next-day alertness outcomes",
+      "authors": "Wade AG, Ford I, Crawford G, et al.",
+      "year": 2007,
+      "journal": "Current Medical Research and Opinion",
+      "pmid": "17959198",
+      "doi": "10.1185/030079907X233098",
+      "study_type": "RCT",
+      "finding_summary": "3-week RCT in older insomnia patients (n=354) found prolonged-release melatonin 2mg improved sleep quality and morning alertness, supporting lower doses (1–3mg) over the often-oversold 5–10mg."
+    }
+  ],
+  "milk-thistle": [
+    {
+      "title": "Silymarin for the treatment of acute clinical hepatitis: a meta-analysis of randomized controlled trials",
+      "authors": "Rambaldi A, Jacobs BP, Gluud C",
+      "year": 2007,
+      "journal": "Cochrane Database of Systematic Reviews",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Cochrane meta-analysis of 18 RCTs (n=1,088) in alcoholic and/or viral liver disease found silymarin did not significantly reduce mortality or complications — tempering the popular perception of milk thistle as broadly hepatoprotective."
+    },
+    {
+      "title": "Silybin combined with phosphatidylcholine and vitamin E in patients with nonalcoholic fatty liver disease",
+      "authors": "Loguercio C, Andreone P, Brisc C, et al.",
+      "year": 2012,
+      "journal": "Free Radical Biology and Medicine",
+      "pmid": "22387213",
+      "doi": "10.1016/j.freeradbiomed.2011.12.006",
+      "study_type": "RCT",
+      "finding_summary": "12-month RCT (n=138) in NAFLD found a silybin-phosphatidylcholine-vitamin E complex reduced insulin resistance and liver enzymes vs placebo, supporting phytosome forms of silymarin for NAFLD."
+    }
+  ],
+  "collagen": [
+    {
+      "title": "Oral supplementation of specific collagen peptides has beneficial effects on human skin physiology: a double-blind, placebo-controlled study",
+      "authors": "Proksch E, Segger D, Degwert J, et al.",
+      "year": 2014,
+      "journal": "Skin Pharmacology and Physiology",
+      "pmid": "23949208",
+      "doi": "10.1159/000351376",
+      "study_type": "RCT",
+      "finding_summary": "8-week RCT (n=69) found 2.5–5g/day collagen hydrolysate significantly improved skin elasticity vs placebo, with effects measurable 4 weeks after treatment ended."
+    },
+    {
+      "title": "Effect of collagen supplementation on osteoarthritis symptoms: a meta-analysis of randomized placebo-controlled trials",
+      "authors": "García-Coronado JM, Martínez-Olvera L, Elizondo-Omaña RE, et al.",
+      "year": 2019,
+      "journal": "International Orthopaedics",
+      "pmid": "30368550",
+      "doi": "10.1007/s00264-018-4211-5",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 5 RCTs (n=519) found collagen hydrolysate reduced WOMAC stiffness and pain scores in osteoarthritis — small but significant effect supporting its use for joint support."
+    }
+  ],
+  "selenium": [
+    {
+      "title": "Effect of selenium and vitamin E on risk of prostate cancer and other cancers: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)",
+      "authors": "Lippman SM, Klein EA, Goodman PJ, et al.",
+      "year": 2009,
+      "journal": "JAMA",
+      "pmid": "19066370",
+      "doi": "10.1001/jama.2008.864",
+      "study_type": "RCT",
+      "finding_summary": "Large primary-prevention RCT (n=35,533) found selenium 200µg/day did not prevent prostate cancer — and later follow-up raised concerns about increased type 2 diabetes risk at supplemental doses in selenium-replete populations."
+    },
+    {
+      "title": "The importance of selenium to human health",
+      "authors": "Rayman MP",
+      "year": 2000,
+      "journal": "Lancet",
+      "pmid": "10963212",
+      "doi": "10.1016/S0140-6736(00)02490-9",
+      "study_type": "Review",
+      "finding_summary": "Landmark review of selenium's role in thyroid hormone metabolism, immune function, and antioxidant defense — with clinical relevance for deficient populations but not universally beneficial supplementation."
+    }
+  ],
+  "iron": [
+    {
+      "title": "Oral iron supplements increase hepcidin and decrease iron absorption from daily or twice-daily doses in iron-depleted young women",
+      "authors": "Stoffel NU, Cercamondi CI, Brittenham G, et al.",
+      "year": 2017,
+      "journal": "Blood",
+      "pmid": "29097381",
+      "doi": "10.1182/blood-2017-05-786590",
+      "study_type": "RCT",
+      "finding_summary": "Landmark absorption study showing iron supplements taken daily (or twice-daily) trigger hepcidin elevation that blocks subsequent absorption — supporting alternate-day dosing as more efficient for iron repletion."
+    },
+    {
+      "title": "Iron bioavailability and dietary reference values",
+      "authors": "Hurrell R, Egli I",
+      "year": 2010,
+      "journal": "American Journal of Clinical Nutrition",
+      "pmid": "20200263",
+      "doi": "10.3945/ajcn.2010.28674F",
+      "study_type": "Review",
+      "finding_summary": "Reviews enhancers (vitamin C, meat) and inhibitors (phytate, polyphenols, calcium) of non-heme iron absorption, providing the mechanistic basis for pairing iron with vitamin C and separating it from tea/coffee."
+    }
+  ],
+  "acetyl-l-carnitine": [
+    {
+      "title": "Acetyl-L-carnitine for the treatment of mild cognitive impairment and mild Alzheimer's disease: a meta-analysis of clinical trials",
+      "authors": "Montgomery SA, Thal LJ, Amrein R",
+      "year": 2003,
+      "journal": "International Clinical Psychopharmacology",
+      "pmid": "12598816",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 21 double-blind RCTs found ALCAR significantly improved cognition vs placebo in mild cognitive impairment and early Alzheimer's, with effect size growing over time."
+    },
+    {
+      "title": "Acetyl-L-carnitine for the treatment of diabetic peripheral neuropathy: a long-term, randomised, double-blind, placebo-controlled study",
+      "authors": "Sima AA, Calvani M, Mehra M, Amato A",
+      "year": 2005,
+      "journal": "Diabetes Care",
+      "pmid": "15616229",
+      "doi": "10.2337/diacare.28.1.89",
+      "study_type": "RCT",
+      "finding_summary": "52-week RCT (n=1,257) found ALCAR 1000mg three times daily improved vibration perception, sural nerve fiber regeneration, and pain scores in diabetic peripheral neuropathy."
+    }
+  ],
+  "green-tea-extract": [
+    {
+      "title": "Effects of green tea and EGCG on cardiovascular and metabolic health",
+      "authors": "Wolfram S",
+      "year": 2007,
+      "journal": "Journal of the American College of Nutrition",
+      "pmid": "17906191",
+      "doi": "10.1080/07315724.2007.10719626",
+      "study_type": "Review",
+      "finding_summary": "Reviews clinical evidence that green tea polyphenols (especially EGCG) modestly reduce body weight, improve lipid profile, and enhance cardiovascular risk factors across 20+ trials."
+    },
+    {
+      "title": "The effects of green tea on weight loss and weight maintenance: a meta-analysis",
+      "authors": "Hursel R, Viechtbauer W, Westerterp-Plantenga MS",
+      "year": 2009,
+      "journal": "International Journal of Obesity",
+      "pmid": "19597519",
+      "doi": "10.1038/ijo.2009.135",
+      "study_type": "Meta-analysis",
+      "finding_summary": "Meta-analysis of 11 trials found green tea catechins modestly reduced body weight (~1.3kg) over 12 weeks, with effects attenuated in high-caffeine consumers."
+    }
+  ],
+  "quercetin": [
+    {
+      "title": "Quercetin, inflammation and immunity",
+      "authors": "Li Y, Yao J, Han C, et al.",
+      "year": 2016,
+      "journal": "Nutrients",
+      "pmid": "26999194",
+      "doi": "10.3390/nu8030167",
+      "study_type": "Review",
+      "finding_summary": "Reviews mechanisms by which quercetin modulates inflammatory pathways (NF-κB, mast cell stabilization) and immune response — basis for its use in allergy, upper respiratory infections, and exercise-induced inflammation."
+    },
+    {
+      "title": "Quercetin reduces illness but not immune perturbations after intensive exercise",
+      "authors": "Nieman DC, Henson DA, Davis JM, et al.",
+      "year": 2007,
+      "journal": "Medicine and Science in Sports and Exercise",
+      "pmid": "17805089",
+      "doi": "10.1249/mss.0b013e31806010e5",
+      "study_type": "RCT",
+      "finding_summary": "Double-blind RCT (n=40) in cyclists found 3 weeks of 1g/day quercetin reduced upper respiratory tract infection incidence during an intensive training block without altering immune markers."
+    }
+  ],
+  "boswellia": [
+    {
+      "title": "Effects of Boswellia serrata gum resin in patients with osteoarthritis of knee",
+      "authors": "Kimmatkar N, Thawani V, Hingorani L, Khiyani R",
+      "year": 2003,
+      "journal": "Phytomedicine",
+      "pmid": "12622457",
+      "doi": "10.1078/094471103321648593",
+      "study_type": "RCT",
+      "finding_summary": "8-week crossover RCT (n=30) found Boswellia serrata extract significantly reduced knee pain, increased flexion, and improved walking distance in osteoarthritis vs placebo.",
+      "methodology": {
+        "overall": 48,
+        "grade": "D",
+        "flags": ["small-n", "short-duration", "single-center", "no-active-comparator", "unreplicated"],
+        "critique": "Widely cited as evidence that boswellia works for knee osteoarthritis, but the trial has substantial methodological limitations. n=30 in a crossover design means each condition was observed in effectively 15 patients at a time, which is underpowered for the reported effect magnitude. 8 weeks total is short for osteoarthritis symptom trajectories. Outcomes were subjective, there was no active comparator, and the study was single-center. Later boswellia trials have used different extract forms (5-LOXIN, Aflapin) at different doses, so there is no direct replication of the specific intervention tested here.",
+        "ideal_design": "An 800-patient multi-center RCT comparing a standardized boswellia serrata extract at a fixed dose against an active comparator (e.g., celecoxib or ibuprofen) with 12-week duration and WOMAC as the primary outcome would move boswellia from 'plausibly useful for OA' to 'evidence-supported.'",
+        "reviewed_at": "2026-04-21"
+      }
+    },
+    {
+      "title": "Comparative efficacy and tolerability of 5-LOXIN and AflapinAgainst osteoarthritis of the knee: a double blind, randomized, placebo controlled clinical study",
+      "authors": "Sengupta K, Krishnaraju AV, Vishal AA, et al.",
+      "year": 2010,
+      "journal": "International Journal of Medical Sciences",
+      "pmid": "20802593",
+      "doi": "10.7150/ijms.7.366",
+      "study_type": "RCT",
+      "finding_summary": "90-day RCT (n=60) found standardized Boswellia extracts (5-LOXIN 100mg, Aflapin 100mg) improved pain and physical function in knee OA as early as 7 days, with Aflapin showing faster onset."
+    }
+  ],
+  "glucosamine": [
+    {
+      "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis (GAIT trial)",
+      "authors": "Clegg DO, Reda DJ, Harris CL, et al.",
+      "year": 2006,
+      "journal": "New England Journal of Medicine",
+      "pmid": "16495392",
+      "doi": "10.1056/NEJMoa052771",
+      "study_type": "RCT",
+      "finding_summary": "24-week NIH-funded RCT (n=1,583) found glucosamine + chondroitin did not beat placebo for overall knee OA pain — but did benefit the moderate-to-severe pain subgroup, framing glucosamine as condition-specific rather than universally effective."
+    },
+    {
+      "title": "Long-term effects of glucosamine sulphate on osteoarthritis progression: a randomised, placebo-controlled clinical trial",
+      "authors": "Reginster JY, Deroisy R, Rovati LC, et al.",
+      "year": 2001,
+      "journal": "Lancet",
+      "pmid": "11214127",
+      "doi": "10.1016/S0140-6736(00)03610-2",
+      "study_type": "RCT",
+      "finding_summary": "3-year RCT (n=212) found glucosamine sulfate 1500mg/day slowed radiographic joint-space narrowing and reduced symptoms in knee OA — supporting structural, not just symptomatic, benefit."
+    }
+  ],
+  "resveratrol": [
+    {
+      "title": "Calorie restriction-like effects of 30 days of resveratrol supplementation on energy metabolism and metabolic profile in obese humans",
+      "authors": "Timmers S, Konings E, Bilet L, et al.",
+      "year": 2011,
+      "journal": "Cell Metabolism",
+      "pmid": "22055504",
+      "doi": "10.1016/j.cmet.2011.10.002",
+      "study_type": "RCT",
+      "finding_summary": "30-day crossover RCT in obese men (n=11) found 150mg/day resveratrol improved mitochondrial function, insulin sensitivity, and reduced blood pressure — mimicking several caloric-restriction effects."
+    },
+    {
+      "title": "Resveratrol supplementation gut microbiota and brain function: a systematic review",
+      "authors": "Koushki M, Dashatan NA, Meshkani R",
+      "year": 2018,
+      "journal": "Clinical Therapeutics",
+      "study_type": "Review",
+      "finding_summary": "Systematic review of resveratrol clinical evidence — modest metabolic benefits in obese/diabetic populations, uncertain anti-aging effects in healthy adults, generally well-tolerated up to 1g/day."
+    }
+  ]
+}

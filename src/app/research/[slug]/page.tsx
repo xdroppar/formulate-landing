@@ -5,7 +5,40 @@ import {
   researchEntries,
   researchBySlug,
   guidesCitingStudy,
+  type MethodologyGrade,
 } from "@/lib/research";
+import { ingredientBySlug } from "@/lib/encyclopedia";
+
+const GRADE_TONE: Record<MethodologyGrade, { bg: string; border: string; text: string }> = {
+  A: { bg: "rgba(16,185,129,0.12)", border: "#10b981", text: "#10b981" },
+  B: { bg: "rgba(59,130,246,0.12)", border: "#3b82f6", text: "#3b82f6" },
+  C: { bg: "rgba(245,158,11,0.12)", border: "#f59e0b", text: "#f59e0b" },
+  D: { bg: "rgba(249,115,22,0.12)", border: "#f97316", text: "#f97316" },
+  F: { bg: "rgba(239,68,68,0.12)", border: "#ef4444", text: "#ef4444" },
+};
+
+const FLAG_LABELS: Record<string, { label: string; tone: "strength" | "limit" }> = {
+  "small-n": { label: "Small n", tone: "limit" },
+  "short-duration": { label: "Short duration", tone: "limit" },
+  "surrogate-endpoint": { label: "Surrogate endpoint", tone: "limit" },
+  "industry-funded": { label: "Industry-funded", tone: "limit" },
+  "industry-adjacent": { label: "Industry-adjacent", tone: "limit" },
+  "unreplicated": { label: "Unreplicated", tone: "limit" },
+  "population-mismatch": { label: "Population mismatch", tone: "limit" },
+  "dose-mismatch": { label: "Dose mismatch", tone: "limit" },
+  "post-hoc-subgroup": { label: "Post-hoc subgroup", tone: "limit" },
+  "no-active-comparator": { label: "No active comparator", tone: "limit" },
+  "animal-study": { label: "Animal study", tone: "limit" },
+  "single-center": { label: "Single-center", tone: "limit" },
+  "large-n": { label: "Large n", tone: "strength" },
+  "multi-center": { label: "Multi-center", tone: "strength" },
+  "landmark-replicated": { label: "Landmark replicated", tone: "strength" },
+  "independent-funded": { label: "Independent-funded", tone: "strength" },
+  "pre-registered": { label: "Pre-registered", tone: "strength" },
+  "real-world-outcome": { label: "Real-world outcome", tone: "strength" },
+  "long-duration": { label: "Long duration", tone: "strength" },
+  "active-comparator": { label: "Active comparator", tone: "strength" },
+};
 
 const BASE = "https://formulate-health.app";
 
@@ -109,6 +142,100 @@ export default async function ResearchPage({ params }: { params: Params }) {
           <p className="text-base text-text leading-relaxed">{s.summary}</p>
         </section>
       )}
+
+      {s.methodology && (() => {
+        const tone = GRADE_TONE[s.methodology.grade];
+        const flags = s.methodology.flags.map((f) => ({
+          key: f,
+          ...FLAG_LABELS[f],
+        }));
+        return (
+          <section className="mb-10 rounded-xl border border-border bg-white/[0.02] p-5">
+            <div className="flex items-center gap-4 mb-4">
+              <div
+                className="flex-shrink-0 rounded-lg border px-5 py-3 text-center"
+                style={{ background: tone.bg, borderColor: tone.border }}
+              >
+                <p
+                  className="text-4xl font-black leading-none"
+                  style={{ color: tone.text }}
+                >
+                  {s.methodology.grade}
+                </p>
+                <p className="text-[10px] uppercase tracking-wider text-muted mt-1">
+                  {s.methodology.overall}/100
+                </p>
+              </div>
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-1">
+                  Methodology review
+                </p>
+                <p className="text-sm text-text font-semibold">
+                  Formulate&apos;s editorial read of the paper&apos;s design,
+                  scope, and limitations.
+                </p>
+              </div>
+            </div>
+            {flags.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {flags.map((f) =>
+                  f.label ? (
+                    <span
+                      key={f.key}
+                      className={`text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded ${
+                        f.tone === "strength"
+                          ? "bg-[rgba(16,185,129,0.10)] text-[#10b981] border border-[rgba(16,185,129,0.30)]"
+                          : "bg-[rgba(249,115,22,0.10)] text-[#f97316] border border-[rgba(249,115,22,0.30)]"
+                      }`}
+                    >
+                      {f.label}
+                    </span>
+                  ) : null,
+                )}
+              </div>
+            )}
+            <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
+              Critique
+            </p>
+            <p className="text-sm text-text leading-relaxed whitespace-pre-line mb-5">
+              {s.methodology.critique}
+            </p>
+            <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
+              What would be more convincing
+            </p>
+            <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
+              {s.methodology.ideal_design}
+            </p>
+            <p className="text-[10px] text-muted mt-4 pt-3 border-t border-border">
+              Reviewed {s.methodology.reviewed_at} · Opinion based on
+              verifiable facts in the published paper.
+            </p>
+          </section>
+        );
+      })()}
+
+      {s.supplementId && (() => {
+        const ing = ingredientBySlug(s.supplementId);
+        if (!ing) return null;
+        return (
+          <section className="mb-8">
+            <Link
+              href={`/ingredients/${ing.slug}`}
+              className="flex items-center justify-between rounded-lg border border-border bg-card/20 px-4 py-3 hover:border-accent transition-colors"
+            >
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-1">
+                  About the supplement
+                </p>
+                <p className="text-sm font-semibold text-text">{ing.name}</p>
+                <p className="text-xs text-muted mt-0.5">
+                  Dose · mechanism · evidence grade · safety →
+                </p>
+              </div>
+            </Link>
+          </section>
+        );
+      })()}
 
       <section className="mb-10">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">

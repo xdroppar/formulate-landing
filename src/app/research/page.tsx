@@ -1,8 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { researchEntries, studiesByTopic } from "@/lib/research";
+import {
+  researchEntries,
+  studiesByTopic,
+  type MethodologyGrade,
+} from "@/lib/research";
 
 const BASE = "https://formulate-health.app";
+
+const GRADE_TONE: Record<MethodologyGrade, string> = {
+  A: "text-[#10b981] border-[#10b981]/40 bg-[#10b981]/10",
+  B: "text-[#3b82f6] border-[#3b82f6]/40 bg-[#3b82f6]/10",
+  C: "text-[#f59e0b] border-[#f59e0b]/40 bg-[#f59e0b]/10",
+  D: "text-[#f97316] border-[#f97316]/40 bg-[#f97316]/10",
+  F: "text-[#ef4444] border-[#ef4444]/40 bg-[#ef4444]/10",
+};
 
 export const metadata: Metadata = {
   title: `Cited Studies: Supplement Research Index — Formulate`,
@@ -68,6 +80,16 @@ export default function ResearchIndex() {
                       {s.authors} ({s.year})
                     </span>
                     <span className="text-xs text-muted italic">{s.journal}</span>
+                    {s.methodology && (
+                      <span
+                        className={`text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded border ${
+                          GRADE_TONE[s.methodology.grade]
+                        }`}
+                        title={`Methodology review: grade ${s.methodology.grade} (${s.methodology.overall}/100)`}
+                      >
+                        Grade {s.methodology.grade}
+                      </span>
+                    )}
                   </div>
                   <p className="text-xs text-muted mt-0.5 line-clamp-2">{s.title}</p>
                 </Link>
