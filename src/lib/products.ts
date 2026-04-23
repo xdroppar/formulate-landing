@@ -48,6 +48,14 @@ export type Product = {
   is_draft: boolean;
 };
 
+export type BrandComponents = {
+  integrity: number;
+  product_quality: number;
+  innovation: number;
+  transparency: number;
+  verification: number;
+};
+
 export type BrandSummary = {
   slug: string;
   name: string;
@@ -55,6 +63,15 @@ export type BrandSummary = {
   avg_score: number | null;
   score: number | null;
   grade: string | null;
+  confidence?: "high" | "medium" | "low" | null;
+  components?: BrandComponents | null;
+  standout?: string | null;
+  top_category?: string | null;
+  logo_url?: string | null;
+  // tags are emitted by the exporter as rich objects ({text, color, icon})
+  // but the landing renderer doesn't use them — leave typed loose rather
+  // than couple this surface to the export shape.
+  tags?: unknown[];
 };
 
 type Catalog = {

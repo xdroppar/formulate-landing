@@ -103,6 +103,18 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       <header className="mb-10 flex items-start justify-between gap-6 flex-wrap">
         <div className="min-w-0">
+          <div className="flex items-center gap-2 flex-wrap mb-3">
+            {b.standout && (
+              <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent bg-accent/10 px-2 py-1 rounded">
+                {b.standout}
+              </span>
+            )}
+            {b.confidence && b.confidence !== "high" && (
+              <span className="text-[10px] font-semibold uppercase tracking-wider text-muted bg-white/[0.03] border border-border px-2 py-1 rounded">
+                {b.confidence} confidence
+              </span>
+            )}
+          </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-3">
             {b.name}
           </h1>
@@ -122,6 +134,50 @@ export default async function BrandHub({ params }: { params: Params }) {
           )}
         </div>
       </header>
+
+      {b.components && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-4">How {b.name} scored</h2>
+          <div className="space-y-3">
+            {([
+              ["Integrity", b.components.integrity, "Accurate labels, no proprietary blends hiding doses, consistent sourcing"],
+              ["Product Quality", b.components.product_quality, "Ingredient form, bioavailability, dose accuracy across the lineup"],
+              ["Transparency", b.components.transparency, "Published testing, ingredient origins, full disclosure"],
+              ["Verification", b.components.verification, "USP, NSF, Informed Sport, or comparable third-party testing coverage"],
+              ["Innovation", b.components.innovation, "New formulations, new forms, research-driven development"],
+            ] as const).map(([label, value, description]) => {
+              const pct = Math.max(0, Math.min(100, value));
+              const color =
+                pct >= 85 ? "#10B981" : pct >= 70 ? "#3B82F6" : pct >= 55 ? "#F59E0B" : "#EF4444";
+              return (
+                <div key={label}>
+                  <div className="flex items-baseline justify-between mb-1">
+                    <span className="text-sm font-semibold text-text">{label}</span>
+                    <span className="text-sm font-bold" style={{ color }}>
+                      {value}
+                    </span>
+                  </div>
+                  <div className="h-2 bg-white/[0.04] rounded-full overflow-hidden mb-1">
+                    <div
+                      className="h-full rounded-full transition-all"
+                      style={{ width: `${pct}%`, backgroundColor: color }}
+                    />
+                  </div>
+                  <p className="text-xs text-muted leading-relaxed">{description}</p>
+                </div>
+              );
+            })}
+          </div>
+          <p className="text-xs text-muted mt-4">
+            Component scores are derived from the product lineup, not from
+            marketing materials. See the{" "}
+            <Link href="/methodology" className="text-accent hover:underline">
+              methodology page
+            </Link>{" "}
+            for how each component is computed.
+          </p>
+        </section>
+      )}
 
       {breakdown.length > 0 && (
         <section className="mb-10">
