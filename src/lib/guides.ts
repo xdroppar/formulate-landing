@@ -458,6 +458,32 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "beta-alanine",
+    title: "Beta-Alanine: Who It Helps, Dose, and the Tingling Explained",
+    description:
+      "Beta-Alanine boosts performance in 1-4 minute efforts by raising muscle carnosine. Dose, split-strategy to avoid paresthesia, when it helps and when Creatine beats it.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "9 min read",
+    tags: ["Beta-Alanine", "Sports Performance", "Endurance", "Pre-Workout"],
+    isNew: true,
+  },
+  {
+    slug: "multivitamin-comparison",
+    title: "How to Compare Multivitamins: 4 Dimensions That Actually Matter",
+    description:
+      "Form, dose, what's left out, and third-party testing. How to compare multivitamins like an analyst instead of a shopper — plus why most mega-dose multis are wasted money.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "10 min read",
+    tags: ["Multivitamins", "Quality", "Comparison", "Forms"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

@@ -34,6 +34,8 @@ import { MethylfolateVsFolicAcid } from "./content/methylfolate-vs-folic-acid";
 import { BestVitaminCSupplements } from "./content/best-vitamin-c-supplements";
 import { ProteinGuide } from "./content/protein-guide";
 import { HowToReadSupplementResearch } from "./content/how-to-read-supplement-research";
+import { BetaAlanine } from "./content/beta-alanine";
+import { MultivitaminComparison } from "./content/multivitamin-comparison";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -109,6 +111,8 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-vitamin-c-supplements": BestVitaminCSupplements,
   "protein-guide": ProteinGuide,
   "how-to-read-supplement-research": HowToReadSupplementResearch,
+  "beta-alanine": BetaAlanine,
+  "multivitamin-comparison": MultivitaminComparison,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,

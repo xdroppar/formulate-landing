@@ -316,7 +316,7 @@ export function CreatineForEnduranceAthletes() {
 
       <p>If you do pause, restart 3–4 weeks before your next build phase begins. The math is simple: count backward from your first hard training block, not your race.</p>
 
-      <Callout variant="warning" title="Don't Overthink Periodization">Unlike <a href="/guides/beta-alanine-supplements">beta-alanine</a>, which also requires a saturation period, creatine has no performance downside to continuous use. Cycling off is a personal preference, not a physiological requirement. If managing one more variable during your season sounds like a hassle, just take it daily year-round.</Callout>
+      <Callout variant="warning" title="Don't Overthink Periodization">Unlike <a href="/guides/beta-alanine">beta-alanine</a>, which also requires a saturation period, creatine has no performance downside to continuous use. Cycling off is a personal preference, not a physiological requirement. If managing one more variable during your season sounds like a hassle, just take it daily year-round.</Callout>
 
       <h2>Who Should Talk to a Doctor First</h2>
 

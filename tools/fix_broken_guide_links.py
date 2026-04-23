@@ -65,28 +65,30 @@ REDIRECTS: dict[str, str] = {
     # Backlog consolidations — redirect to existing canonical guides
     "vitamin-b12-supplement": "vitamin-b12-guide",
     "multivitamin": "do-you-need-a-multivitamin",
+    "collagen-for-joints": "best-collagen-for-joints",
+    "beta-alanine-supplements": "beta-alanine",
 }
 
 # Targets with no existing canonical guide — log as future content backlog.
 # These are genuinely missing pages that should become new guides.
-BACKLOG_TARGETS = [
-    # Shipped this session; kept here commented for history:
-    #   "supplement-drug-interactions",      # shipped 2026-04-21
-    #   "supplement-safety",                 # shipped 2026-04-21
-    #   "third-party-testing-supplements",   # shipped 2026-04-21
-    #   "usp-verified-supplements",          # redirects → third-party-testing-supplements
-    #   "coq10-benefits",                    # shipped 2026-04-22
-    #   "best-supplements-for-joint-pain",   # shipped 2026-04-22
-    #   "methylfolate-vs-folic-acid",        # shipped 2026-04-22
-    #   "best-vitamin-c-supplements",        # shipped 2026-04-22
-    #   "protein-guide",                     # shipped 2026-04-22
-    #   "vitamin-b12-supplement",            # redirects → vitamin-b12-guide
-    #   "multivitamin",                      # redirects → do-you-need-a-multivitamin
-    "beta-alanine",
-    "beta-alanine-supplements",
-    "multivitamin-comparison",
-    "how-to-read-supplement-research",
-    "collagen-for-joints",
+BACKLOG_TARGETS: list[str] = [
+    # All 2026-04-21/2026-04-22 session backlog cleared. Entries kept here
+    # commented for history:
+    #   "supplement-drug-interactions"       # shipped 2026-04-21
+    #   "supplement-safety"                  # shipped 2026-04-21
+    #   "third-party-testing-supplements"    # shipped 2026-04-21
+    #   "usp-verified-supplements"           # redirect
+    #   "coq10-benefits"                     # shipped 2026-04-22
+    #   "best-supplements-for-joint-pain"    # shipped 2026-04-22
+    #   "methylfolate-vs-folic-acid"         # shipped 2026-04-22
+    #   "best-vitamin-c-supplements"         # shipped 2026-04-22
+    #   "protein-guide"                      # shipped 2026-04-22
+    #   "how-to-read-supplement-research"    # shipped 2026-04-22
+    #   "beta-alanine" / "beta-alanine-supplements"  # shipped 2026-04-22
+    #   "multivitamin-comparison"            # shipped 2026-04-22
+    #   "vitamin-b12-supplement"             # redirect
+    #   "multivitamin"                       # redirect
+    #   "collagen-for-joints"                # redirect
 ]
 
 
