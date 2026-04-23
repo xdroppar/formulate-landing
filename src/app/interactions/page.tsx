@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { InteractionChecker } from "@/components/interaction-checker";
+import { InteractionsBrowse } from "@/components/interactions-browse";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { interactions, substances } from "@/lib/interactions";
 
@@ -140,6 +141,8 @@ export default function InteractionsPage() {
           ))}
         </ul>
       </section>
+
+      <InteractionsBrowse />
 
       <section className="mt-10 pt-8 border-t border-border">
         <h2 className="text-lg font-bold text-text mb-4">What we track</h2>
