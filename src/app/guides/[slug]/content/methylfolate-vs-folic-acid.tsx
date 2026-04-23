@@ -118,7 +118,7 @@ export function MethylfolateVsFolicAcid() {
         reduced NK-cell activity and some epigenetic concerns, but causal
         evidence in humans is thin. At typical supplement doses
         (400–800 mcg) it&rsquo;s not an established problem. Methylfolate
-        doesn&rsquo;t produce UMFA by definition. <EvidenceBadge level="low" />
+        doesn&rsquo;t produce UMFA by definition. <EvidenceBadge level="mixed" />
       </p>
 
       <h2>When to Pick Each Form</h2>
