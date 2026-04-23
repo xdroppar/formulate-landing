@@ -416,6 +416,134 @@ export const comparisons: Comparison[] = [
       "The gold standard joint-supplement stack. Mechanisms don't overlap. Both have mild anticoagulant effects at high doses — check with clinician if on blood thinners.",
     tags: ["Joints", "Arthritis", "Anti-Inflammatory", "Gut Health"],
   },
+  {
+    a: "glycine",
+    b: "taurine",
+    topic: "Calming Amino Acids",
+    bottom_line:
+      "Glycine is the sleep-deepener; Taurine is the parasympathetic-toner — both are inhibitory aminos with different anchors.",
+    why_compare:
+      "Both are non-essential amino acids that act as inhibitory neurotransmitters and both show up in sleep/calm formulas. Glycine acts directly at glycine receptors in the brainstem and has strong RCT evidence for improved subjective sleep quality. Taurine modulates GABA-A receptors and is concentrated in heart and retinal tissue — it reduces sympathetic drive and has cardiovascular and metabolic effects Glycine doesn't.",
+    when_a:
+      "Pick Glycine for improved sleep quality, reduced next-day fatigue, or cooling-down (it triggers vasodilation). Dose: 3 g/day, 30–60 minutes before bed, as a powder in water. Effects are subtle but consistent in trials.",
+    when_b:
+      "Pick Taurine for cardiovascular support (blood pressure, heart failure adjunct), blood-sugar regulation, or exercise recovery. Dose: 1–3 g/day, any time. Also present in high doses in energy drinks — it offsets caffeine's sympathetic effects rather than stimulating on its own.",
+    combine:
+      "Safe to combine — commonly stacked in sleep or calm formulas. Both have independent cardiovascular benefits. No documented drug interactions at supplement doses.",
+    tags: ["Sleep", "Calm", "Amino Acids", "Cardiovascular"],
+  },
+  {
+    a: "bacopa-monnieri",
+    b: "lions-mane-mushroom-extract",
+    topic: "Nootropics",
+    bottom_line:
+      "Bacopa shines for memory and learning; Lion's Mane shines for nerve regeneration and mood — both take weeks to kick in.",
+    why_compare:
+      "Two of the most clinically-validated nootropic supplements, both with effects that emerge over 8–12 weeks of daily use. Bacopa monnieri (bacosides) modulates acetylcholine and GABA pathways, with the strongest evidence for verbal memory and learning speed. Lion's Mane stimulates NGF (nerve growth factor) production with evidence for mild cognitive impairment, mood, and post-injury nerve recovery.",
+    when_a:
+      "Pick Bacopa for studying, language learning, or age-related memory decline. Best evidence base in healthy adults of any nootropic. Dose: 300 mg/day of a 50% bacosides extract (Bacognize or KeenMind). Take with fat for absorption.",
+    when_b:
+      "Pick Lion's Mane for mild mood symptoms, nerve recovery (post-concussion, peripheral neuropathy), or age-related cognitive complaints. Dose: 500–1,000 mg/day of a dual-extracted powder (fruiting body). Stack with omega-3 for synergy.",
+    combine:
+      "Frequently stacked — distinct mechanisms, additive benefit. No interactions. Bacopa can cause GI upset in some users; start at half dose.",
+    tags: ["Nootropics", "Memory", "Cognition", "Mood"],
+  },
+  {
+    a: "bacopa-monnieri",
+    b: "ginkgo-biloba",
+    topic: "Cognition & Memory",
+    bottom_line:
+      "Bacopa improves memory encoding; Ginkgo improves cerebral blood flow — studying vs. aging cognition.",
+    why_compare:
+      "Both are traditional memory/cognition herbs, both with real human evidence, but serving different goals. Bacopa's effect is on learning and recall, most pronounced in healthy adults learning new material. Ginkgo biloba improves microcirculation and platelet aggregation — its benefits are concentrated in older adults with age-related cognitive decline, particularly if circulation is part of the problem.",
+    when_a:
+      "Pick Bacopa if you're a student, learner, or anyone with a demanding information-heavy role. Effects on verbal learning and working memory. Dose: 300 mg/day of a standardized bacosides extract.",
+    when_b:
+      "Pick Ginkgo for age-related memory issues, tinnitus, or Raynaud's-like symptoms. EGb 761 is the most-studied standardized extract (24% flavonoids, 6% terpene lactones). Dose: 120–240 mg/day.",
+    combine:
+      "Can stack, though the overlap is partial. Ginkgo has meaningful antiplatelet activity — avoid with aspirin, warfarin, or other blood thinners; see /interactions/blood-thinners-and-ginkgo-biloba.",
+    tags: ["Cognition", "Memory", "Circulation", "Aging"],
+  },
+  {
+    a: "ashwagandha",
+    b: "holy-basil",
+    topic: "Adaptogens for Stress",
+    bottom_line:
+      "Ashwagandha is the sedating adaptogen; Holy Basil (Tulsi) is the balancing one — often paired in Ayurvedic stress stacks.",
+    why_compare:
+      "Both are premier adaptogens in Ayurveda and both lower cortisol response to stress. Ashwagandha leans sedating and is best-suited for evening or anxious-mind stress profiles. Holy Basil (Ocimum sanctum) is more neutral — it's calming without being sedating, and has additional benefits on metabolic health and immune function that Ashwagandha doesn't hit.",
+    when_a:
+      "Pick Ashwagandha for anxiety, sleep issues, or high evening cortisol. Strongest evidence base of any adaptogen. Dose: 300–600 mg/day standardized extract. Watch for thyroid interactions.",
+    when_b:
+      "Pick Holy Basil if you want adaptogen support without the sedating edge, plus blood sugar and immune benefits. Dose: 300–600 mg/day of a standardized leaf extract. Good choice for daytime use or users sensitive to Ashwagandha's drowsy feel.",
+    combine:
+      "Classic Ayurvedic stress stack. Ashwagandha PM + Holy Basil AM is a defensible protocol. No documented interactions beyond the shared adaptogen class — watch Ashwagandha with thyroid medication.",
+    tags: ["Adaptogens", "Stress", "Anxiety", "Ayurveda"],
+  },
+  {
+    a: "dha",
+    b: "epa",
+    topic: "Omega-3 Components",
+    bottom_line:
+      "EPA is the anti-inflammatory workhorse; DHA is the brain structural fat — most fish oil has both.",
+    why_compare:
+      "The two 'omega-3 fatty acids' that actually matter are EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid). Generic fish oil has both in varying ratios — 18:12, 40:20, 55:25 (EPA:DHA) are common. For most daily use they work together, but if you're picking a high-EPA or high-DHA product for a specific goal, the split matters.",
+    when_a:
+      "Pick DHA-dominant formulas for brain, eye, and cognitive goals — DHA is the structural fat in neuron membranes and the retina. Particularly important in pregnancy/lactation. Dose: 200–1,000 mg/day DHA.",
+    when_b:
+      "Pick EPA-dominant formulas for anti-inflammatory goals, mood support (especially depression), or cardiovascular focus. EPA competes with arachidonic acid for COX/LOX enzymes, shifting the balance toward less-inflammatory signaling molecules. Dose: 1,000–2,000 mg/day EPA.",
+    combine:
+      "Almost always combined (natural fish oil has both). For a targeted EPA or DHA intake, pick a product with the ratio that matches your goal. Both have mild anticoagulant effects at high doses — watch with blood thinners.",
+    tags: ["Omega-3", "Brain Health", "Cardiovascular", "Anti-Inflammatory"],
+  },
+  {
+    a: "milk-thistle",
+    b: "nac",
+    topic: "Liver Support",
+    bottom_line:
+      "NAC rebuilds glutathione; Milk Thistle stabilizes liver cell membranes — different ways of protecting the same organ.",
+    why_compare:
+      "Both are the most-recommended liver supplements, with decades of clinical and traditional use. NAC (N-acetyl cysteine) is the precursor for glutathione, the liver's primary detox antioxidant; it's the FDA-approved antidote for acetaminophen overdose. Milk Thistle (silymarin) stabilizes hepatocyte membranes against toxin penetration and supports liver cell regeneration.",
+    when_a:
+      "Pick Milk Thistle for general liver protection, fatty liver, cirrhosis adjunct support, or as a preventive for drinkers. Use a standardized silymarin extract (70–80% silymarin). Dose: 200–400 mg/day silymarin.",
+    when_b:
+      "Pick NAC for acute antioxidant support, acetaminophen risk reduction, or broader applications (respiratory, fertility, psychiatric adjunct). Dose: 600–1,800 mg/day. See /ingredients/nac for non-liver uses.",
+    combine:
+      "Commonly stacked in liver-support protocols. The mechanisms don't overlap (NAC raises glutathione; Milk Thistle protects cell membranes) so combination is rational. No drug interactions at supplement doses, though NAC can thin mucus — useful for some, watch if combining with other mucus thinners.",
+    tags: ["Liver", "Detox", "Antioxidants"],
+  },
+  {
+    a: "eleuthero",
+    b: "panax-ginseng",
+    topic: "Ginseng-Family Adaptogens",
+    bottom_line:
+      "Panax Ginseng is the stimulating adaptogen; Eleuthero (Siberian Ginseng) is the gentler tonic — different plants, different feels.",
+    why_compare:
+      "Both are called 'ginseng' in retail settings but they're different plants entirely. True ginseng (Panax ginseng / P. quinquefolius) is from the Panax genus and contains ginsenosides — it's the stimulating, performance-enhancing one. Eleuthero (Eleutherococcus senticosus, 'Siberian ginseng') isn't Panax at all; it contains eleutherosides and is milder, more adaptogenic, with less of a kick.",
+    when_a:
+      "Pick Eleuthero for chronic stress, endurance, or daily adaptogen support without stimulation. Good for long-term use. Dose: 500–1,000 mg/day of a standardized 0.8% eleutheroside extract.",
+    when_b:
+      "Pick Panax Ginseng for acute mental performance, fatigue, or energy needs. Red (Korean) ginseng has stronger effects than white (American); the latter is more yin/cooling. Dose: 200–400 mg/day of a standardized 4–7% ginsenoside extract. Don't take evening — can disrupt sleep.",
+    combine:
+      "Rarely combined — pick one. Panax Ginseng has mild antiplatelet effects and can interact with MAOIs, warfarin, and diabetes drugs; see /interactions/ginseng-and-maoi.",
+    tags: ["Adaptogens", "Energy", "Cognition", "Endurance"],
+  },
+  {
+    a: "berberine",
+    b: "ceylon-cinnamon",
+    topic: "Blood Sugar Support",
+    bottom_line:
+      "Berberine is the serious glucose-lowering supplement; Ceylon Cinnamon is a mild daily helper — they're not in the same tier.",
+    why_compare:
+      "Both are sold for blood sugar support and both show activity on glucose and lipid markers, but the effect sizes are very different. Berberine activates AMPK (same pathway as metformin) and has head-to-head RCTs showing HbA1c reductions comparable to metformin in newly diagnosed type-2 diabetics. Ceylon Cinnamon (true cinnamon, not cassia) has modest fasting glucose effects in some trials — helpful but not in the same clinical league.",
+    when_a:
+      "Pick Berberine for prediabetes, metabolic syndrome, PCOS, or fatty liver — where a real glucose-lowering effect matters. Dose: 500 mg 2–3×/day with meals; short half-life requires split dosing. Caution with diabetes medications; see /interactions for stacking concerns.",
+    when_b:
+      "Pick Ceylon Cinnamon as a mild daily addition — supportive, not therapeutic. Use Ceylon, not cassia (cassia contains coumarin which is hepatotoxic at higher long-term intake). Dose: 1–3 g/day.",
+    combine:
+      "Can combine. Berberine is the active lever; Cinnamon is supportive. Watch Berberine with prescription glucose-lowering drugs — hypoglycemia risk from additive effects.",
+    tags: ["Blood Sugar", "Metabolic Health", "Diabetes", "AMPK"],
+  },
 ];
 
 function slugPair(a: string, b: string): string {
