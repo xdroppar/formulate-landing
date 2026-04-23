@@ -432,6 +432,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "protein-guide",
+    title: "Protein: How Much, Which Form, and When to Supplement",
+    description:
+      "1.6-2.2 g/kg for muscle, 25-40g per meal ceiling, complete vs incomplete myth. Evidence-based protein guide covering animal and plant sources, supplement forms, and the debunked anabolic window.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "11 min read",
+    tags: ["Protein", "Muscle", "Nutrition", "Whey", "Plant Protein"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:
