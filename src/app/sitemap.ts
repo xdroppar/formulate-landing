@@ -6,6 +6,7 @@ import { ingredients } from "@/lib/encyclopedia";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
 import { conditions } from "@/lib/conditions";
+import { brandComparisons, brandComparisonSlug } from "@/lib/brand-comparisons";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -139,6 +140,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const brandCompareEntries: MetadataRoute.Sitemap = brandComparisons.map((c) => ({
+    url: `${baseUrl}/brand-compare/${brandComparisonSlug(c)}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
   return [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -151,6 +159,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...compareEntries,
     ...stackEntries,
     ...conditionEntries,
+    ...brandCompareEntries,
     ...pairEntries,
     ...guideEntries,
     { url: `${baseUrl}/disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
