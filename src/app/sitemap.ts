@@ -3,6 +3,7 @@ import { visibleGuides, getAllTags } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
 import { products, brands } from "@/lib/products";
 import { ingredients } from "@/lib/encyclopedia";
+import { comparisons, comparisonSlug } from "@/lib/comparisons";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -91,6 +92,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const compareEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/compare`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...comparisons.map((c) => ({
+      url: `${baseUrl}/compare/${comparisonSlug(c)}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    })),
+  ];
+
   return [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -100,6 +116,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...productEntries,
     ...brandEntries,
     ...ingredientEntries,
+    ...compareEntries,
     ...pairEntries,
     ...guideEntries,
     { url: `${baseUrl}/disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
