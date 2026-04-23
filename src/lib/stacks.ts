@@ -235,6 +235,158 @@ export const stacks: Stack[] = [
     tags: ["Recovery", "Muscle", "Sports Performance", "Inflammation"],
   },
   {
+    slug: "gut-health",
+    name: "Gut Health Stack",
+    tagline: "Four evidence-backed supplements for microbiome support, regularity, and gut-barrier integrity — not another kombucha fad.",
+    summary:
+      "Gut-health marketing is cluttered with low-dose probiotic blends and proprietary gimmicks. What the research actually supports is a smaller, more targeted stack: a fermentable prebiotic fiber to feed beneficial bacteria, a bulking fiber for regularity and cholesterol, a targeted amino acid for mucosal repair, and a butyrate source (or precursor) to directly feed colonocytes. This stack covers the three pillars of gut health — microbiome composition, motility, and barrier function — without betting on any single probiotic strain that may or may not colonize your particular gut.",
+    ingredients: [
+      {
+        slug: "psyllium-husk",
+        role: "Bulking soluble fiber — improves regularity, binds bile acids (lowers cholesterol), and feeds bacteria slowly down the colon.",
+        dose: "5–10 g/day with water, split across meals. Ramp up over 2 weeks to avoid bloat.",
+        tier: "core",
+      },
+      {
+        slug: "inulin",
+        role: "Fermentable prebiotic — selectively feeds Bifidobacteria and Lactobacillus populations.",
+        dose: "2–5 g/day, ramp up slowly. Higher doses cause gas in sensitive guts.",
+        tier: "core",
+      },
+      {
+        slug: "l-glutamine",
+        role: "Primary fuel for enterocytes. Supports mucosal repair in leaky-gut profiles and post-antibiotic recovery.",
+        dose: "5–10 g/day on empty stomach, split. 4–8 week course typical.",
+        tier: "supporting",
+      },
+      {
+        slug: "butyrate",
+        role: "Short-chain fatty acid directly fuels colonocytes and has anti-inflammatory effects in the colon. Supplements supply it when fiber fermentation doesn't.",
+        dose: "150–600 mg/day of butyrate salt (sodium/calcium/magnesium butyrate).",
+        tier: "optional",
+      },
+    ],
+    protocol:
+      "Start with psyllium + inulin at low doses for 2–3 weeks to let your gut bacteria adapt (expect some gas; that's fermentation doing its job). Add L-glutamine if you have active gut issues (IBS, post-antibiotic, gastritis, recovering from illness). Butyrate is the niche add — skip unless you have a specific colon-health indication.",
+    cautions:
+      "Psyllium can reduce absorption of medications; separate by 2 hours. Inulin aggravates IBS-FODMAP sensitivity in some users — start very low. L-glutamine is contraindicated in advanced liver or kidney disease. Stop adding new supplements if symptoms worsen and reintroduce one at a time.",
+    tags: ["Gut Health", "Microbiome", "Digestion", "Fiber"],
+  },
+  {
+    slug: "testosterone",
+    name: "Men's Testosterone Stack",
+    tagline: "Evidence-based supplements for low-normal testosterone — micronutrient basics first, then the herbs with real RCT data.",
+    summary:
+      "Testosterone supplementation marketing is a minefield. The three things that meaningfully move testosterone at supplement doses: correcting micronutrient deficiencies (especially zinc and vitamin D), chronic stress reduction (ashwagandha), and the one herb with real RCT evidence (Tongkat Ali). Tribulus, maca, DHEA, and most 'natural T-boosters' consistently fail in trials. This stack covers the evidence base without the noise.",
+    ingredients: [
+      {
+        slug: "vitamin-d",
+        role: "Deficiency is strongly associated with low testosterone; correcting it modestly raises T in deficient men.",
+        dose: "2,000–5,000 IU/day based on blood level (target 40+ ng/mL).",
+        tier: "core",
+      },
+      {
+        slug: "zinc",
+        role: "Zinc is a direct cofactor in testosterone synthesis. Deficiency reliably lowers T; supplementation in deficient men raises it.",
+        dose: "15–30 mg/day (picolinate or bisglycinate form). Pair with 2 mg copper if using long-term.",
+        tier: "core",
+      },
+      {
+        slug: "ashwagandha",
+        role: "Lowers cortisol-driven T suppression. Multiple RCTs show small-to-moderate T increases in stressed men.",
+        dose: "300–600 mg/day of standardized extract (KSM-66 or Sensoril). 8-week minimum trial.",
+        tier: "supporting",
+      },
+      {
+        slug: "tongkat-ali",
+        role: "The one 'T-booster' herb with multiple placebo-controlled trials showing actual free-testosterone rise, especially in men with stress-related low T.",
+        dose: "200–400 mg/day of standardized extract (eurycomanone 1–2%). 4–8 week trial.",
+        tier: "supporting",
+      },
+    ],
+    protocol:
+      "Get labs first — total T, free T, SHBG, and vitamin D level. Correct vitamin D and zinc deficiencies before judging effect. Add Ashwagandha and/or Tongkat Ali for 8–12 weeks, then retest. Stack effect is modest (typically 10–20% total T rise in deficient men). Skip if already taking TRT.",
+    cautions:
+      "Low testosterone is often a symptom of deeper issues (sleep apnea, obesity, chronic stress, medications). Supplements address the margins; lifestyle addresses the root cause. Don't stack on top of TRT without prescriber sign-off. Ashwagandha can shift thyroid levels — monitor if on levothyroxine.",
+    tags: ["Men's Health", "Testosterone", "Hormonal", "Sexual Health"],
+  },
+  {
+    slug: "mood",
+    name: "Mood Support Stack",
+    tagline: "Supplements with RCT-level evidence for mild-to-moderate depressive symptoms — adjunct to, not replacement for, clinical care.",
+    summary:
+      "Depression supplement marketing ranges from 'hopeful but thin evidence' to outright dangerous interactions. This stack includes only compounds with RCT-level support for mood effects in mild-to-moderate symptom ranges. Critical caveat: supplements are adjunct, not replacement. For significant depression, evidence-based psychotherapy and/or prescribed antidepressants have dramatically larger effect sizes. This stack works best alongside clinical care or for users with sub-clinical mood symptoms.",
+    ingredients: [
+      {
+        slug: "omega-3",
+        role: "EPA-dominant omega-3 has meta-analyses showing modest but real antidepressant effect, strongest as SSRI adjunct.",
+        dose: "1,000–2,000 mg EPA/day (not DHA-dominant) with food.",
+        tier: "core",
+      },
+      {
+        slug: "vitamin-d",
+        role: "Deficiency is associated with depression; correcting it lifts mood in deficient users. Meta-analyses are mixed but favorable.",
+        dose: "2,000 IU/day baseline; higher if blood level <30 ng/mL.",
+        tier: "core",
+      },
+      {
+        slug: "saffron",
+        role: "Multiple RCTs show saffron equivalent to low-dose SSRIs for mild-to-moderate depression. Best-evidenced standalone mood herb.",
+        dose: "30 mg/day of standardized extract (Affron, Satiereal, or 2% safranal).",
+        tier: "supporting",
+      },
+      {
+        slug: "sam-e",
+        role: "Methyl-donor with SSRI-adjunct RCT evidence. Expensive but clinically meaningful effect sizes in head-to-head trials.",
+        dose: "400–800 mg/day (enteric-coated) on empty stomach. Start low to avoid GI upset.",
+        tier: "optional",
+      },
+    ],
+    protocol:
+      "Start with Omega-3 + Vitamin D as foundation (both have broader health benefits). Add Saffron for a 6–8 week trial if mood symptoms persist. SAM-e is the bigger lever but expensive; consider only if Saffron doesn't help. If on SSRIs or SNRIs — always coordinate with prescriber; serotonin syndrome is the acute risk.",
+    cautions:
+      "Multiple compounds here interact with antidepressants. SAM-e + SSRIs + St. John's Wort is a classic serotonin syndrome trigger (never combine without MD oversight). 5-HTP has similar concerns. This stack is for users NOT on serotonergic prescription drugs, or under clinician supervision if on them. See /conditions/anxiety for complementary anxiety-first approach.",
+    tags: ["Mood", "Depression", "Mental Health", "SSRI Adjunct"],
+  },
+  {
+    slug: "cardiovascular",
+    name: "Cardiovascular Stack",
+    tagline: "Four compounds with large-trial evidence on heart disease endpoints — not biomarker-only pixie dust.",
+    summary:
+      "Cardiovascular supplement marketing is rife with biomarker theater: compounds that move a lab number without affecting actual events (heart attacks, strokes, death). This stack includes only compounds with outcome-level evidence. Omega-3 at therapeutic doses has cardiovascular benefit in meta-analyses; CoQ10 has Q-SYMBIO-level evidence in heart failure; Vitamin K2 addresses arterial calcification; Magnesium has hard event evidence in large cohorts. Niacin, red yeast rice, and garlic are omitted — they move biomarkers but have mixed outcome data.",
+    ingredients: [
+      {
+        slug: "omega-3",
+        role: "High-dose EPA (REDUCE-IT trial, Vascepa) meaningfully reduces cardiovascular events. General fish-oil doses show smaller but real benefit.",
+        dose: "2,000–4,000 mg combined EPA+DHA/day with food. Higher if triglycerides are elevated.",
+        tier: "core",
+      },
+      {
+        slug: "coq10",
+        role: "Heart failure adjunct with Q-SYMBIO-level RCT evidence. Also addresses statin-induced muscle fatigue.",
+        dose: "100–300 mg/day (ubiquinol preferred over 50) with fat.",
+        tier: "core",
+      },
+      {
+        slug: "vitamin-k2",
+        role: "Redirects calcium from arterial walls to bones — reduces arterial stiffness in trials. Pairs with vitamin D.",
+        dose: "90–180 mcg MK-7/day with a fat-containing meal.",
+        tier: "supporting",
+      },
+      {
+        slug: "magnesium",
+        role: "Meta-analyses consistently show magnesium supplementation reduces blood pressure and atrial fibrillation risk.",
+        dose: "300–400 mg elemental/day (glycinate or citrate form).",
+        tier: "supporting",
+      },
+    ],
+    protocol:
+      "Omega-3 daily with fish meals or a quality IFOS-certified supplement. CoQ10 is particularly valuable if you're on a statin (mitigates muscle fatigue). K2 + vitamin D as a pair for long-term arterial health. Magnesium for BP support and general cardiovascular function. Monitor triglycerides and BP every 6 months to track effect.",
+    cautions:
+      "Vitamin K2 interacts meaningfully with warfarin — contraindicated if on it. High-dose omega-3 has mild anticoagulant effect; watch with blood thinners. CoQ10 modestly reduces warfarin's effect (structural similarity to vitamin K). Magnesium can accumulate in kidney disease — dose-adjust if GFR is impaired. Coordinate with your cardiologist if on multiple cardiovascular medications.",
+    tags: ["Cardiovascular", "Heart Health", "Blood Pressure", "Cholesterol"],
+  },
+  {
     slug: "metabolic",
     name: "Metabolic Stack",
     tagline: "Four supplements with RCT evidence on blood sugar, triglycerides, or insulin sensitivity — the real metabolic risk markers.",
