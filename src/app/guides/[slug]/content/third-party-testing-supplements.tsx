@@ -114,7 +114,7 @@ export function ThirdPartyTestingSupplements() {
         For non-athletes, NSF Certified for Sport still carries the
         identity, potency, and purity validation of USP Verified. Where it
         beats USP: it&rsquo;s actually common on sports-category products
-        (pre-workout, protein, creatine) where USP Verified is nearly
+        (pre-workout, protein, <a href="/guides/best-creatine-supplements">creatine</a>) where USP Verified is nearly
         non-existent. If you&rsquo;re buying in that category, it&rsquo;s
         the best mark to look for.
       </p>

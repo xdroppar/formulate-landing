@@ -176,7 +176,7 @@ export function CreatineAndHairLoss() {
 
       <h3>Are there other supplements that affect DHT?</h3>
       <p>
-        Yes. Saw palmetto has some evidence for mild 5-alpha reductase inhibition, though it&rsquo;s far weaker than finasteride. <a href="/guides/best-vitamin-d-supplements">Vitamin D</a> deficiency has been loosely associated with hair loss, though the mechanism is different from androgenic alopecia. Zinc and biotin deficiencies can cause hair shedding, but again, that&rsquo;s nutritional hair loss, not DHT-mediated pattern baldness.
+        Yes. Saw palmetto has some evidence for mild 5-alpha reductase inhibition, though it&rsquo;s far weaker than finasteride. <a href="/guides/best-vitamin-d-supplements">Vitamin D</a> deficiency has been loosely associated with hair loss, though the mechanism is different from androgenic alopecia. <a href="/guides/zinc-guide">Zinc</a> and biotin deficiencies can cause hair shedding, but again, that&rsquo;s nutritional hair loss, not DHT-mediated pattern baldness.
       </p>
 
       <h3>Does creatine affect women&rsquo;s hair differently?</h3>

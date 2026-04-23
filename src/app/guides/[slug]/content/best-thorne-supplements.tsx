@@ -62,8 +62,8 @@ export function BestThorneSupplements() {
 
       <p>
         <strong>Chelated mineral forms as the default.</strong> Where other
-        brands default to cheap magnesium oxide (4% absorbed, often causes GI
-        upset) or ferrous sulfate iron (constipating, poorly absorbed), Thorne
+        brands default to cheap <a href="/guides/best-magnesium-supplements">magnesium</a> oxide (4% absorbed, often causes GI
+        upset) or ferrous sulfate <a href="/guides/iron-guide">iron</a> (constipating, poorly absorbed), Thorne
         defaults to bisglycinate chelates — bound to glycine amino acid for
         ~4-6x better absorption. <EvidenceBadge level="strong" />
       </p>
@@ -92,7 +92,7 @@ export function BestThorneSupplements() {
       </p>
       <ProductCallout product={PRODUCTS["thorne-creatine"]} />
       <Callout variant="tip" title="Women and creatine">
-        Creatine is not a men&apos;s supplement. Emerging research shows
+        <a href="/guides/best-creatine-supplements">Creatine</a> is not a men&apos;s supplement. Emerging research shows
         disproportionate benefits for women&rsquo;s muscle retention, cognitive
         function, and postmenopausal bone density. See our{" "}
         <a href="/guides/creatine-for-women">creatine for women</a> guide.
@@ -164,7 +164,7 @@ export function BestThorneSupplements() {
         health. <EvidenceBadge level="moderate" />
       </p>
       <p>
-        Dose: 600-1,200 mg daily with food. Thorne&rsquo;s NAC is NSF
+        Dose: 600-1,200 mg daily with food. Thorne&rsquo;s <a href="/guides/nac-guide">NAC</a> is NSF
         certified and standardized at 500 mg per capsule.
       </p>
       <ProductCallout product={PRODUCTS["thorne-nac"]} />
@@ -180,7 +180,7 @@ export function BestThorneSupplements() {
       <p>
         <IngredientLink id="berberine" source="best-thorne-supplements">Berberine</IngredientLink>{" "}
         activates AMPK, the same metabolic pathway targeted by metformin.
-        Multiple head-to-head trials show berberine and metformin produce
+        Multiple head-to-head trials show <a href="/guides/berberine-guide">berberine</a> and metformin produce
         comparable drops in fasting glucose and HbA1c for type 2 diabetics.{" "}
         <EvidenceBadge level="moderate" />
       </p>
@@ -237,7 +237,7 @@ export function BestThorneSupplements() {
       <p>
         <IngredientLink id="zinc" source="best-thorne-supplements">Zinc</IngredientLink>{" "}
         is essential for immune function, wound healing, and testosterone
-        synthesis. The bisglycinate form is better absorbed than zinc
+        synthesis. The bisglycinate form is better absorbed than <a href="/guides/zinc-guide">zinc</a>
         oxide or gluconate, and much easier on an empty stomach.
       </p>
       <p>
@@ -248,7 +248,7 @@ export function BestThorneSupplements() {
 
       <h3>10. Thorne Ashwagandha — For Stress and Sleep Quality</h3>
       <p>
-        Thorne uses Sensoril ashwagandha extract, the root-and-leaf blend
+        Thorne uses Sensoril <a href="/guides/ashwagandha-guide">ashwagandha</a> extract, the root-and-leaf blend
         studied in multiple placebo-controlled trials for cortisol
         reduction, sleep quality, and resilience to chronic stress.{" "}
         <EvidenceBadge level="moderate" />
@@ -316,7 +316,7 @@ export function BestThorneSupplements() {
       </p>
 
       <p>
-        <strong>Collagen:</strong> Thorne Collagen Plus is Grade B. If
+        <strong><a href="/guides/collagen-guide">Collagen</a>:</strong> Thorne Collagen Plus is Grade B. If
         collagen is your priority, brands like Complement or specialized
         type-II formulations may be a better fit — see our{" "}
         <a href="/guides/best-collagen-for-joints">best collagen for joints</a>{" "}
@@ -344,7 +344,7 @@ export function BestThorneSupplements() {
 
       <p>
         <strong>Metabolic health:</strong> Berberine (3x daily with meals)
-        + Vitamin D-5,000 + Omega-3. Add chromium or alpha-lipoic acid for
+        + Vitamin D-5,000 + <a href="/guides/best-omega-3-supplements">Omega-3</a>. Add chromium or alpha-lipoic acid for
         deeper blood sugar support.
       </p>
 

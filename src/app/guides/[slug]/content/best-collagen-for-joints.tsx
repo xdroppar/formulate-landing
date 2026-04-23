@@ -278,7 +278,7 @@ export function BestCollagenForJoints() {
       <p>There is no vegan collagen supplement. Collagen is, by definition, an animal protein — it doesn't exist in plants, fungi, or algae. Every product labeled "vegan collagen" or "plant-based collagen" is marketing fiction. These are typically blends of vitamin C, silica, and amino acids repackaged at a premium. They do not contain collagen, and no clinical trial has shown they replicate collagen supplementation outcomes.</p>
 
       <Callout variant="warning" title="Vegan collagen boosters are not collagen">
-        No plant produces collagen. Recombinant collagen made via genetically modified yeast or bacteria exists in research settings but is not available as a consumer supplement. If a label says "vegan collagen," read the ingredients — you'll find vitamin C, zinc, or silica, not collagen.
+        No plant produces collagen. Recombinant collagen made via genetically modified yeast or bacteria exists in research settings but is not available as a consumer supplement. If a label says "vegan collagen," read the ingredients — you'll find vitamin C, <a href="/guides/zinc-guide">zinc</a>, or silica, not collagen.
       </Callout>
 
       <p>That said, your body <em>makes</em> its own collagen. The practical question for vegans is whether you can support that endogenous production effectively. Three evidence-based strategies stand out.</p>

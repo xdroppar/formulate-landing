@@ -46,44 +46,62 @@ LINK_MAP: list[tuple[str, str]] = [
 
 
 def is_protected_context(src: str, match_start: int, match_end: int) -> bool:
-    """Return True if the match is inside a context where we shouldn't add a link."""
-    # Look back 400 chars to find the enclosing tag context
-    before = src[max(0, match_start - 400):match_start]
-    after = src[match_end:match_end + 100]
+    """Return True if the match is inside a context where we shouldn't add a link.
 
-    # Already inside an anchor
-    last_a_open = before.rfind("<a ")
-    last_a_close = before.rfind("</a>")
-    if last_a_open > last_a_close:
-        return True
+    Uses a 400-char lookback for local tag-scope checks (anchor/heading/
+    comment) and a full-file backward scan for JSX expression/string state —
+    the 400-char window was too narrow for multi-entry `takeaways={[...]}`
+    arrays, which could put the enclosing `{` well beyond 400 chars back.
+    """
+    # 400-char window for nearby tag context (anchors, headings, comments).
+    nearby = src[max(0, match_start - 400):match_start]
 
-    # Inside a heading tag
-    for tag in ("<h1", "<h2", "<h3"):
-        last_open = before.rfind(tag)
-        if last_open == -1:
-            continue
-        # Find the matching close tag
-        # Simple check: is there a </hN> between last open and match?
-        close_tag = "</" + tag[1:3] + ">"
-        last_close = before.rfind(close_tag)
+    # Already inside an anchor — either a plain <a> or a custom <IngredientLink>
+    # (they both produce anchor tags; wrapping their content creates nested
+    # anchors which React rejects and browsers render unpredictably).
+    for open_tag, close_tag in (
+        ("<a ", "</a>"),
+        ("<IngredientLink", "</IngredientLink>"),
+    ):
+        last_open = nearby.rfind(open_tag)
+        last_close = nearby.rfind(close_tag)
         if last_open > last_close:
             return True
 
-    # Inside a JSX attribute value — check if we're between a `="` and a closing `"`
-    # Look backward for unclosed `="` pattern
-    last_gt = before.rfind(">")
-    attr_region = before[last_gt + 1:] if last_gt >= 0 else before
-    # Count quotes in attr_region — odd number means we're inside a quoted attribute
+    # Inside a heading tag
+    for tag in ("<h1", "<h2", "<h3"):
+        last_open = nearby.rfind(tag)
+        if last_open == -1:
+            continue
+        close_tag = "</" + tag[1:3] + ">"
+        last_close = nearby.rfind(close_tag)
+        if last_open > last_close:
+            return True
+
+    # Inside a JSX attribute value — check if we're between `="` and its close.
+    # Local scope is fine here because attributes don't span large distances.
+    last_gt = nearby.rfind(">")
+    attr_region = nearby[last_gt + 1:] if last_gt >= 0 else nearby
     if attr_region.count('"') % 2 == 1:
         return True
 
-    # Inside a JSX expression block {...} containing a string literal (array item,
-    # object value, etc. — we can't put raw JSX inside those strings).
-    # Walk back to the most recent unmatched `{` and check for an intervening `"`.
+    # Inside a JSX comment
+    last_comment_open = nearby.rfind("{/*")
+    last_comment_close = nearby.rfind("*/}")
+    if last_comment_open > last_comment_close:
+        return True
+
+    # JSX-expression-block string check — must use FULL file backward scan.
+    # The innermost unclosed `{` can be thousands of chars back for things like
+    # `takeaways={[...]}` arrays with multiple long entries. A 400-char window
+    # misses it and counts an even number of prior string-boundary quotes,
+    # giving a false-negative and wrapping text inside a string literal with
+    # literal `<a>` tags.
+    before_full = src[:match_start]
     depth = 0
     last_brace = -1
-    for i in range(len(before) - 1, -1, -1):
-        c = before[i]
+    for i in range(len(before_full) - 1, -1, -1):
+        c = before_full[i]
         if c == "}":
             depth += 1
         elif c == "{":
@@ -92,20 +110,11 @@ def is_protected_context(src: str, match_start: int, match_end: int) -> bool:
                 break
             depth -= 1
     if last_brace >= 0:
-        brace_region = before[last_brace:]
-        # If we're inside an open string inside a JSX expression, odd quote count
+        brace_region = before_full[last_brace:]
+        # Odd number of unescaped double quotes after the opening `{` means
+        # we're inside an open string literal within a JSX expression.
         if brace_region.count('"') % 2 == 1:
             return True
-
-    # Inside a string literal in a JSX expression (e.g., takeaways={[...]} or title="...")
-    # If there's a { before without a closing } between it and match, and we're in a string — skip.
-    # Already covered by quote count above for most cases.
-
-    # Inside a comment
-    last_comment_open = before.rfind("{/*")
-    last_comment_close = before.rfind("*/}")
-    if last_comment_open > last_comment_close:
-        return True
 
     return False
 

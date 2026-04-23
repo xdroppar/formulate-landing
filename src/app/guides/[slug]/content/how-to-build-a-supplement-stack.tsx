@@ -230,7 +230,7 @@ export function HowToBuildStack() {
       <ul>
         <li>L-Theanine: 200mg before bed</li>
         <li>Glycine: 3g before bed</li>
-        <li>Magnesium glycinate (already in your foundation)</li>
+        <li><a href="/guides/best-magnesium-supplements">Magnesium glycinate</a> (already in your foundation)</li>
       </ul>
 
       <ProductRow
@@ -326,7 +326,7 @@ export function HowToBuildStack() {
 
 <h3>Absorption Competition</h3>
 
-<p><strong>Zinc and copper</strong> compete for the same intestinal transporter (DMT1). Supplementing zinc above 40mg/day without copper can induce copper deficiency over time — a finding documented by Prasad (2013) and reflected in the tolerable upper intake set by the Institute of Medicine. If your stack includes standalone zinc, look for a product that includes 1–2mg copper, or separate dosing by several hours. <EvidenceBadge level="moderate" /></p>
+<p><strong><a href="/guides/zinc-guide">Zinc</a> and copper</strong> compete for the same intestinal transporter (DMT1). Supplementing zinc above 40mg/day without copper can induce copper deficiency over time — a finding documented by Prasad (2013) and reflected in the tolerable upper intake set by the Institute of Medicine. If your stack includes standalone zinc, look for a product that includes 1–2mg copper, or separate dosing by several hours. <EvidenceBadge level="moderate" /></p>
 
 <p><strong>Calcium and iron</strong> inhibit each other's absorption when taken together. Hallberg (1991) showed that 300mg calcium reduced iron absorption by up to 50–60% in a single meal. If you need both — common for women — take them at least two hours apart. Our <a href="/guides/supplement-timing-guide">supplement timing guide</a> covers the practical scheduling.</p>
 
@@ -526,7 +526,7 @@ Print or screenshot your complete supplement list — including doses and forms 
 
 <p><strong>Tier 2 — Moderate evidence.</strong> <EvidenceBadge level="moderate" /> Several small-to-mid-sized RCTs with generally positive but not fully consistent results. Mechanisms are well-understood, but optimal dosing or long-term outcomes may still be unsettled. Examples: <strong>ashwagandha</strong> (Chandrasekhar 2012; Salve 2019), <strong>L-citrulline</strong>, <strong>L-theanine</strong>. Reasonable to try if your foundation is covered, but set realistic expectations.</p>
 
-<p><strong>Tier 3 — Emerging evidence.</strong> <EvidenceBadge level="emerging" studiesId="ashwagandha-cortisol-2012" /> Primarily observational data, animal models, in vitro studies, or a handful of small human trials. The biological rationale may be compelling, but human-grade proof is thin. Examples: <strong>lion's mane</strong> (Mori 2009 — one 30-person RCT is the most cited), <strong>NMN/NR</strong>, <strong>quercetin as a senolytic</strong>. These are speculative bets, not proven interventions.</p>
+<p><strong>Tier 3 — Emerging evidence.</strong> <EvidenceBadge level="emerging" studiesId="ashwagandha-cortisol-2012" /> Primarily observational data, animal models, in vitro studies, or a handful of small human trials. The biological rationale may be compelling, but human-grade proof is thin. Examples: <strong><a href="/guides/lions-mane-guide">lion's mane</a></strong> (Mori 2009 — one 30-person RCT is the most cited), <strong>NMN/NR</strong>, <strong>quercetin as a senolytic</strong>. These are speculative bets, not proven interventions.</p>
 
 <Callout variant="warning" title="Why this matters for your wallet">
 Tier 3 supplements tend to be the most expensive per month and the least likely to produce noticeable results. Before spending $40–$60/month on NMN, make sure you've already covered your $15/month vitamin D deficiency. Evidence tiers map directly to ROI — the strongest evidence almost always comes from the cheapest compounds.

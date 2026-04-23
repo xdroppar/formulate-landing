@@ -78,7 +78,7 @@ export function SupplementSafety() {
         categories as mainstream as{" "}
         <IngredientLink id="vitamin-d" source="supplement-safety">vitamin D</IngredientLink>,{" "}
         <IngredientLink id="melatonin" source="supplement-safety">melatonin</IngredientLink>,
-        and fish oil. Melatonin has been particularly egregious &mdash; some
+        and <a href="/guides/best-omega-3-supplements">fish oil</a>. Melatonin has been particularly egregious &mdash; some
         over-the-counter products contain 3&ndash;4x the labeled dose.
       </p>
 
@@ -130,7 +130,7 @@ export function SupplementSafety() {
           <strong>NSF Certified for Sport</strong> &mdash; adds testing for
           200+ banned substances relevant to professional athletes.
           Particularly valuable for sports-category supplements like
-          pre-workout, protein, and creatine.
+          pre-workout, protein, and <a href="/guides/best-creatine-supplements">creatine</a>.
         </li>
         <li>
           <strong>Informed Sport / Informed Choice</strong> (LGC) &mdash;
@@ -178,7 +178,7 @@ export function SupplementSafety() {
           <strong>Children.</strong> Pediatric supplement safety data is
           sparse. Dose recommendations that are established for adults
           often aren&rsquo;t validated at all for children, and pediatric
-          poisoning cases involving iron, vitamin D, and melatonin are
+          poisoning cases involving <a href="/guides/iron-guide">iron</a>, <a href="/guides/best-vitamin-d-supplements">vitamin D</a>, and melatonin are
           regularly documented.
         </li>
       </ul>
@@ -277,7 +277,7 @@ export function SupplementSafety() {
         </li>
         <li>
           Palpitations, unintentional weight loss, heat intolerance &mdash;
-          possible thyroid disturbance, especially with ashwagandha and
+          possible thyroid disturbance, especially with <a href="/guides/ashwagandha-guide">ashwagandha</a> and
           thyroid medication combinations
         </li>
       </ul>

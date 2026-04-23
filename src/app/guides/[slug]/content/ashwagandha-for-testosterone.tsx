@@ -126,8 +126,8 @@ export function AshwagandhaForTestosterone() {
 
       <ul>
         <li><strong>Zinc (15&ndash;30&nbsp;mg/day)</strong> &mdash; essential for testosterone synthesis. Deficiency alone can tank T. Correcting a zinc deficit may amplify ashwagandha&rsquo;s effects.</li>
-        <li><strong>Magnesium (200&ndash;400&nbsp;mg/day)</strong> &mdash; supports sleep quality and may independently support free testosterone in men with low intake.</li>
-        <li><strong>Vitamin D (2,000&ndash;5,000&nbsp;IU/day)</strong> &mdash; another common deficiency linked to lower testosterone. Evidence is mixed but biological plausibility is strong.</li>
+        <li><strong><a href="/guides/best-magnesium-supplements">Magnesium</a> (200&ndash;400&nbsp;mg/day)</strong> &mdash; supports sleep quality and may independently support free testosterone in men with low intake.</li>
+        <li><strong><a href="/guides/best-vitamin-d-supplements">Vitamin D</a> (2,000&ndash;5,000&nbsp;IU/day)</strong> &mdash; another common deficiency linked to lower testosterone. Evidence is mixed but biological plausibility is strong.</li>
       </ul>
 
       <p>

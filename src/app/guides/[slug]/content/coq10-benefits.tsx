@@ -84,7 +84,7 @@ export function Coq10Benefits() {
       <p>
         RCTs show CoQ10 at 150–300 mg/day reduces migraine frequency by
         ~30% versus placebo, taking 2–3 months to reach full effect. Works
-        better for adults than adolescents. Often combined with Magnesium
+        better for adults than adolescents. Often combined with <a href="/guides/best-magnesium-supplements">Magnesium</a>
         and Riboflavin in migraine protocols. <EvidenceBadge level="moderate" />
       </p>
 
@@ -261,7 +261,7 @@ export function Coq10Benefits() {
       <h3>Can I take CoQ10 with other supplements?</h3>
       <p>
         Yes. Common and logical combinations include Magnesium (especially
-        for migraine), Alpha-Lipoic Acid (mitochondrial), Omega-3 Fish Oil
+        for migraine), Alpha-Lipoic Acid (mitochondrial), <a href="/guides/best-omega-3-supplements">Omega-3</a> Fish Oil
         (cardiovascular), and Acetyl-L-Carnitine (mitochondrial). For the
         CoQ10 vs ALA comparison, see{" "}
         <a href="/compare/alpha-lipoic-acid-vs-coq10">our direct comparison</a>.

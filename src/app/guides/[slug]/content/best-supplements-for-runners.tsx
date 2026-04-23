@@ -82,7 +82,7 @@ export function BestSupplementsForRunners() {
       <h2>Electrolytes: Beyond the Sports Drink Aisle</h2>
 
       <p>
-        For runs under 60 minutes, water is usually enough. Beyond that &mdash; especially in heat &mdash; sodium, potassium, and magnesium losses become meaningful. A liter of sweat contains roughly 900&ndash;1,400 mg sodium (McCubbin et al., 2019), and heavy sweaters can lose 2+ liters per hour. <EvidenceBadge level="moderate" />
+        For runs under 60 minutes, water is usually enough. Beyond that &mdash; especially in heat &mdash; sodium, potassium, and <a href="/guides/best-magnesium-supplements">magnesium</a> losses become meaningful. A liter of sweat contains roughly 900&ndash;1,400 mg sodium (McCubbin et al., 2019), and heavy sweaters can lose 2+ liters per hour. <EvidenceBadge level="moderate" />
       </p>
 
       <p>
@@ -177,7 +177,7 @@ export function BestSupplementsForRunners() {
       <ProductCallout product={PRODUCTS["thorne-super-epa-pro"]} />
 
       <p>
-        <strong>Vitamin D</strong> directly affects bone mineral density and stress fracture risk &mdash; a career-threatening injury for serious runners. Ruohola et al. (2006) found that military recruits with serum 25(OH)D below 30 nmol/L had significantly higher stress fracture rates. <EvidenceBadge level="moderate" /> Get your levels checked. If below 30 ng/mL (75 nmol/L), supplementation with 1,000&ndash;4,000 IU/day is typical, but dosing should be guided by bloodwork.
+        <strong><a href="/guides/best-vitamin-d-supplements">Vitamin D</a></strong> directly affects bone mineral density and stress fracture risk &mdash; a career-threatening injury for serious runners. Ruohola et al. (2006) found that military recruits with serum 25(OH)D below 30 nmol/L had significantly higher stress fracture rates. <EvidenceBadge level="moderate" /> Get your levels checked. If below 30 ng/mL (75 nmol/L), supplementation with 1,000&ndash;4,000 IU/day is typical, but dosing should be guided by bloodwork.
       </p>
 
       <h2>What to Skip: BCAAs, Glutamine, HMB</h2>
@@ -264,7 +264,7 @@ export function BestSupplementsForRunners() {
 
       <h3>Are there supplements that help prevent running injuries?</h3>
       <p>
-        Directly, the strongest evidence is for vitamin D and calcium supporting bone mineral density and reducing stress fracture risk. Omega-3s may reduce chronic inflammation that contributes to overuse injuries. Collagen peptides (15 g with vitamin C, 30&ndash;60 min before exercise) have emerging evidence for tendon and ligament health (Shaw et al., 2017), but this research is still early. <EvidenceBadge level="emerging" /> No supplement replaces proper training load management.
+        Directly, the strongest evidence is for vitamin D and calcium supporting bone mineral density and reducing stress fracture risk. Omega-3s may reduce chronic inflammation that contributes to overuse injuries. <a href="/guides/collagen-guide">Collagen</a> peptides (15 g with vitamin C, 30&ndash;60 min before exercise) have emerging evidence for tendon and ligament health (Shaw et al., 2017), but this research is still early. <EvidenceBadge level="emerging" /> No supplement replaces proper training load management.
       </p>
 
       <h2>Who Should Talk to a Doctor First</h2>

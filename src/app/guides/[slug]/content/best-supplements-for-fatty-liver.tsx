@@ -140,7 +140,7 @@ export function BestSupplementsForFattyLiver() {
       <h2>Vitamin D: Common Deficiency, Common Fix</h2>
 
       <p>
-        Vitamin D deficiency is strikingly common in NAFLD patients &mdash; some studies report prevalence above 50%. Eliades et al. (2013) found in a meta-analysis that low vitamin D levels were associated with increased severity of NAFLD, including higher fibrosis scores. <EvidenceBadge level="moderate" />
+        <a href="/guides/best-vitamin-d-supplements">Vitamin D</a> deficiency is strikingly common in NAFLD patients &mdash; some studies report prevalence above 50%. Eliades et al. (2013) found in a meta-analysis that low vitamin D levels were associated with increased severity of NAFLD, including higher fibrosis scores. <EvidenceBadge level="moderate" />
       </p>
 
       <p>
@@ -154,7 +154,7 @@ export function BestSupplementsForFattyLiver() {
       </p>
 
       <Callout variant="warning" title="High-dose iron">
-        The liver is exquisitely sensitive to iron overload. NAFLD patients already have elevated hepatic iron in up to 30% of cases (dysmetabolic iron overload syndrome). Supplementing iron without a confirmed deficiency on labs (serum iron, ferritin, TIBC) can accelerate oxidative liver damage and fibrosis progression. Never take iron &ldquo;just in case.&rdquo;
+        The liver is exquisitely sensitive to <a href="/guides/iron-guide">iron</a> overload. NAFLD patients already have elevated hepatic iron in up to 30% of cases (dysmetabolic iron overload syndrome). Supplementing iron without a confirmed deficiency on labs (serum iron, ferritin, TIBC) can accelerate oxidative liver damage and fibrosis progression. Never take iron &ldquo;just in case.&rdquo;
       </Callout>
 
       <Callout variant="warning" title="High-dose niacin (vitamin B3)">

@@ -381,7 +381,7 @@ export function BestMagnesium() {
 
       <h3>Restless Leg Syndrome</h3>
 
-      <p>A small but frequently cited trial (Hornyak et al., 1998, <em>Sleep</em>) found magnesium supplementation improved periodic limb movements and RLS symptoms in a group of 10 patients with mild-to-moderate RLS. <EvidenceBadge level="emerging" /> The sample was tiny, and larger confirmatory trials are lacking. Evidence suggests benefit in cases where magnesium deficiency is contributing to symptoms, but RLS has multiple etiologies — iron status and dopaminergic function matter too. If you have persistent RLS, consult your healthcare provider rather than relying on magnesium alone.</p>
+      <p>A small but frequently cited trial (Hornyak et al., 1998, <em>Sleep</em>) found magnesium supplementation improved periodic limb movements and RLS symptoms in a group of 10 patients with mild-to-moderate RLS. <EvidenceBadge level="emerging" /> The sample was tiny, and larger confirmatory trials are lacking. Evidence suggests benefit in cases where magnesium deficiency is contributing to symptoms, but RLS has multiple etiologies — <a href="/guides/iron-guide">iron</a> status and dopaminergic function matter too. If you have persistent RLS, consult your healthcare provider rather than relying on magnesium alone.</p>
 
       <h3>Athletic Dosing and Sweat Losses</h3>
 

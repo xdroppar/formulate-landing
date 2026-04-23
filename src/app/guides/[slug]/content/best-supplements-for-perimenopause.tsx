@@ -121,7 +121,7 @@ export function BestSupplementsForPerimenopause() {
 
       <h2>Creatine: Preserving Muscle and Bone</h2>
       <p>
-        The perimenopausal transition accelerates sarcopenia &mdash; the loss of muscle mass that begins around age 30. Estrogen is anabolic for muscle, and as it fluctuates and eventually declines, you lose muscle faster than you build it. Creatine monohydrate at 3&ndash;5 g/day can offset some of this.
+        The perimenopausal transition accelerates sarcopenia &mdash; the loss of muscle mass that begins around age 30. Estrogen is anabolic for muscle, and as it fluctuates and eventually declines, you lose muscle faster than you build it. <a href="/guides/best-creatine-supplements">Creatine monohydrate</a> at 3&ndash;5 g/day can offset some of this.
       </p>
       <p>
         Smith-Ryan et al. (2021) reviewed creatine&rsquo;s effects in women and found benefits for lean mass, strength, and potentially bone mineral density when combined with resistance training. <EvidenceBadge level="moderate" studiesId="creatine-smith-ryan-women-2021" /> Creatine also has emerging evidence for cognitive function &mdash; relevant given perimenopause brain fog.

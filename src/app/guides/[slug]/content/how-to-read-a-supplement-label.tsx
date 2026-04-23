@@ -517,7 +517,7 @@ If you take any daily prescription medication, bring your full supplement list t
 
 <p>Every mineral compound has a fixed elemental percentage based on its molecular weight. Here are the most common forms you'll encounter:</p>
 
-<p><strong>Magnesium:</strong> Glycinate ~14.1% elemental, citrate ~16.2%, oxide ~60.3%, taurate ~8.9%, threonate ~7.2%, malate ~15.5%. <strong>Zinc:</strong> Gluconate ~14.3%, picolinate ~21%, citrate ~34%, oxide ~80%. <strong>Calcium:</strong> Carbonate ~40%, citrate ~21%, gluconate ~9.3%. <strong>Iron:</strong> Bisglycinate ~20%, sulfate ~20%, fumarate ~33%.</p>
+<p><strong>Magnesium:</strong> Glycinate ~14.1% elemental, citrate ~16.2%, oxide ~60.3%, taurate ~8.9%, threonate ~7.2%, malate ~15.5%. <strong><a href="/guides/zinc-guide">Zinc</a>:</strong> Gluconate ~14.3%, picolinate ~21%, citrate ~34%, oxide ~80%. <strong>Calcium:</strong> Carbonate ~40%, citrate ~21%, gluconate ~9.3%. <strong><a href="/guides/iron-guide">Iron</a>:</strong> Bisglycinate ~20%, sulfate ~20%, fumarate ~33%.</p>
 
 <Callout variant="info" title="Worked Example: Magnesium Glycinate">
 A label lists "Magnesium (as Magnesium Bisglycinate) 500mg" under the compound weight with no separate elemental line. Multiply: 500mg x 0.141 = <strong>70.5mg elemental magnesium</strong>. To hit a 300mg daily target, you'd need roughly 4–5 capsules — not the one or two you assumed.

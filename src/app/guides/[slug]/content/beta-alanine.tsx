@@ -30,7 +30,7 @@ export function BetaAlanine() {
       <p>
         This guide covers how Beta-Alanine actually works, when it helps
         and when it doesn&rsquo;t, dose and split strategy, and how to
-        stack it with Creatine (the more common pairing question).
+        stack it with <a href="/guides/best-creatine-supplements">Creatine</a> (the more common pairing question).
       </p>
 
       <h2>How Beta-Alanine Works</h2>
@@ -242,7 +242,7 @@ export function BetaAlanine() {
       </p>
       <ul>
         <li>
-          <strong>Taurine levels:</strong> Beta-Alanine competes with
+          <strong><a href="/guides/taurine-guide">Taurine</a> levels:</strong> Beta-Alanine competes with
           taurine for the same transporter. Theoretical concern about
           long-term taurine depletion with chronic high-dose beta-alanine;
           not observed in human trials to date. Easily offset by co-

@@ -102,7 +102,7 @@ export function MagnesiumGlycinateVsCitrateVsOxide() {
       <h2>Magnesium Glycinate (Bisglycinate) — The Default Recommendation</h2>
 
       <p>
-        Magnesium glycinate and magnesium bisglycinate are functionally
+        <a href="/guides/best-magnesium-supplements">Magnesium glycinate</a> and magnesium bisglycinate are functionally
         the same compound — magnesium bound to two glycine amino acid
         molecules via chelation. The two names are often used
         interchangeably; Thorne, Pure Encapsulations, and most
@@ -292,7 +292,7 @@ export function MagnesiumGlycinateVsCitrateVsOxide() {
       </p>
 
       <p>
-        <strong>Magnesium Taurate:</strong> Magnesium bound to taurine.
+        <strong>Magnesium Taurate:</strong> Magnesium bound to <a href="/guides/taurine-guide">taurine</a>.
         Taurine itself has cardiovascular benefits, so this form is often
         marketed for heart health. Absorption is good but clinical data
         on the combined compound is thin — for heart health, the

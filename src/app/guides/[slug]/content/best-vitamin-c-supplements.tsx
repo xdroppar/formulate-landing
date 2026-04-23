@@ -24,7 +24,7 @@ export function BestVitaminCSupplements() {
         existence. It&rsquo;s also one of the most over-hyped. Most users
         don&rsquo;t need a dedicated supplement — a single kiwi or orange
         covers the daily requirement. But for specific goals (acute
-        illness, high oxidative stress, collagen support, supporting iron
+        illness, high oxidative stress, <a href="/guides/collagen-guide">collagen</a> support, supporting <a href="/guides/iron-guide">iron</a>
         absorption), a properly-dosed vitamin C supplement is useful and
         safe.
       </p>
@@ -90,7 +90,7 @@ export function BestVitaminCSupplements() {
 
       <h3>Buffered / Mineral Ascorbates</h3>
       <p>
-        Sodium ascorbate, calcium ascorbate, magnesium ascorbate. Same
+        Sodium ascorbate, calcium ascorbate, <a href="/guides/best-magnesium-supplements">magnesium</a> ascorbate. Same
         absorption as ascorbic acid, but pH-neutral (gentler on stomach).
         Worth it if plain ascorbic acid causes GI upset. The added mineral
         (sodium, calcium, magnesium) counts toward daily intake of that
@@ -154,7 +154,7 @@ export function BestVitaminCSupplements() {
         duration; little effect on severity. Some users combine with{" "}
         <IngredientLink id="zinc" source="best-vitamin-c-supplements">zinc</IngredientLink>{" "}
         (15&ndash;50 mg) and <IngredientLink id="quercetin" source="best-vitamin-c-supplements">quercetin</IngredientLink>{" "}
-        (500&ndash;1,000 mg) for the&ldquo;zinc ionophore stack.&rdquo;
+        (500&ndash;1,000 mg) for the&ldquo;<a href="/guides/zinc-guide">zinc</a> ionophore stack.&rdquo;
       </p>
 
       <h3>Immune Support (Athletes / High Physical Stress)</h3>

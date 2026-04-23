@@ -126,7 +126,7 @@ export function BestMultivitaminOver50() {
         <li><strong>No K2.</strong> Calcium without K2 is an incomplete strategy at best and potentially counterproductive.</li>
         <li><strong>Magnesium at token doses (25&ndash;50 mg).</strong> Adults over 50 typically need 200&ndash;400 mg/day. Magnesium oxide &mdash; the cheapest form &mdash; has roughly 4% bioavailability. Look for glycinate, citrate, or malate.</li>
         <li><strong>Proprietary blends.</strong> If you can&rsquo;t see individual doses, you can&rsquo;t evaluate the product. Period.</li>
-        <li><strong>Zinc without copper.</strong> Long-term zinc supplementation (15+ mg) depletes copper. Any good multi should include 1&ndash;2 mg of copper alongside zinc.</li>
+        <li><strong><a href="/guides/zinc-guide">Zinc</a> without copper.</strong> Long-term zinc supplementation (15+ mg) depletes copper. Any good multi should include 1&ndash;2 mg of copper alongside zinc.</li>
       </ul>
 
       <p>

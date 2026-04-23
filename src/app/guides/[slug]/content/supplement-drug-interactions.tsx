@@ -47,7 +47,7 @@ export function SupplementDrugInteractions() {
         Two substances compete for the same transporter in the gut, so taking
         them together reduces absorption of one or both. Classic examples:
         <IngredientLink id="calcium" source="supplement-drug-interactions">calcium</IngredientLink>
-        {" "}blocks absorption of thyroid hormone; magnesium, iron, zinc, and
+        {" "}blocks absorption of thyroid hormone; <a href="/guides/best-magnesium-supplements">magnesium</a>, <a href="/guides/iron-guide">iron</a>, <a href="/guides/zinc-guide">zinc</a>, and
         calcium all compete with each other; antacids raise stomach pH and
         reduce absorption of pH-sensitive medications.
       </p>
@@ -178,7 +178,7 @@ export function SupplementDrugInteractions() {
         </li>
         <li>
           <strong>Blood-thinning supplements</strong> &mdash; ginkgo, vitamin
-          E, fish oil, garlic, dong quai, dan shen, and turmeric at high
+          E, <a href="/guides/best-omega-3-supplements">fish oil</a>, garlic, dong quai, dan shen, and turmeric at high
           doses all raise bleeding risk alongside warfarin, aspirin, or DOACs.
         </li>
         <li>

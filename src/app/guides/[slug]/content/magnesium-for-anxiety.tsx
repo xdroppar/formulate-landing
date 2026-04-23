@@ -154,7 +154,7 @@ export function MagnesiumForAnxiety() {
       </ul>
 
       <p>
-        That said, magnesium can be a reasonable <em>adjunct</em> to therapy and/or medication in these cases, not a replacement. If you&rsquo;re exploring other natural approaches, our guide to the <a href="/guides/best-adaptogens-for-stress">best adaptogens for stress</a> covers options like ashwagandha that have a different evidence profile and may complement magnesium.
+        That said, magnesium can be a reasonable <em>adjunct</em> to therapy and/or medication in these cases, not a replacement. If you&rsquo;re exploring other natural approaches, our guide to the <a href="/guides/best-adaptogens-for-stress">best adaptogens for stress</a> covers options like <a href="/guides/ashwagandha-guide">ashwagandha</a> that have a different evidence profile and may complement magnesium.
       </p>
 
       <Callout variant="warning" title="Don&rsquo;t self-treat severe anxiety">
@@ -215,7 +215,7 @@ export function MagnesiumForAnxiety() {
 
       <h3>Magnesium glycinate vs. magnesium taurate for anxiety &mdash; which is better?</h3>
       <p>
-        Magnesium glycinate has stronger clinical support. The guide notes that taurine has GABAergic properties and cardiovascular calming effects, making taurate theoretically appealing for somatic anxiety symptoms like racing heart. However, no published RCT directly compares the two forms for anxiety outcomes &mdash; taurate&rsquo;s evidence is largely preclinical. If anxiety and sleep disruption are your primary targets, glycinate is the better-evidenced choice. Taurate is a reasonable alternative if your anxiety is predominantly physical, but you&rsquo;re relying on mechanistic plausibility more than clinical proof.
+        Magnesium glycinate has stronger clinical support. The guide notes that <a href="/guides/taurine-guide">taurine</a> has GABAergic properties and cardiovascular calming effects, making taurate theoretically appealing for somatic anxiety symptoms like racing heart. However, no published RCT directly compares the two forms for anxiety outcomes &mdash; taurate&rsquo;s evidence is largely preclinical. If anxiety and sleep disruption are your primary targets, glycinate is the better-evidenced choice. Taurate is a reasonable alternative if your anxiety is predominantly physical, but you&rsquo;re relying on mechanistic plausibility more than clinical proof.
       </p>
 
       <h3>Does magnesium glycinate help with anxiety directly, or only through better sleep?</h3>

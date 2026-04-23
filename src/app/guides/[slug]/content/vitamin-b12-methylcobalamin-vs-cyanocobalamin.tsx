@@ -169,7 +169,7 @@ export function VitaminB12MethylcobalaminVsCyanocobalamin() {
 
       <h3>Will switching to methylcobalamin fix my fatigue?</h3>
       <p>
-        It depends on why you&rsquo;re fatigued. If your fatigue stems from B12 deficiency <em>and</em> you have impaired conversion of cyanocobalamin (due to MTHFR variants, aging, or other factors), switching to methylcobalamin may help. But fatigue is multifactorial. If your serum B12 and MMA levels are already normal, the form of B12 likely isn&rsquo;t the bottleneck. Rule out iron deficiency, thyroid dysfunction, and sleep disorders first.
+        It depends on why you&rsquo;re fatigued. If your fatigue stems from B12 deficiency <em>and</em> you have impaired conversion of cyanocobalamin (due to MTHFR variants, aging, or other factors), switching to methylcobalamin may help. But fatigue is multifactorial. If your serum B12 and MMA levels are already normal, the form of B12 likely isn&rsquo;t the bottleneck. Rule out <a href="/guides/iron-guide">iron</a> deficiency, thyroid dysfunction, and sleep disorders first.
       </p>
 
       <h3>Do high-dose B12 supplements cause acne?</h3>

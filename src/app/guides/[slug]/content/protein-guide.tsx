@@ -113,7 +113,7 @@ export function ProteinGuide() {
         </li>
         <li>
           <strong>Red meat:</strong> 25–30 g per 100 g. Higher in
-          creatine, zinc, B12, heme iron.
+          <a href="/guides/best-creatine-supplements">creatine</a>, <a href="/guides/zinc-guide">zinc</a>, <a href="/guides/vitamin-b12-guide">B12</a>, heme <a href="/guides/iron-guide">iron</a>.
         </li>
         <li>
           <strong>Dairy (Greek yogurt, cottage cheese):</strong> 10–20 g
@@ -232,7 +232,7 @@ export function ProteinGuide() {
 
       <h3>Collagen Peptides (Not a Complete Protein)</h3>
       <p>
-        Hydrolyzed collagen is marketed as a protein supplement and is
+        Hydrolyzed <a href="/guides/collagen-guide">collagen</a> is marketed as a protein supplement and is
         genuinely useful for joint, skin, and connective tissue support.
         But it&rsquo;s missing tryptophan and low in several other
         essential amino acids — <strong>collagen doesn&rsquo;t count

@@ -118,7 +118,7 @@ export function BestSupplementsForAdhdFocus() {
         No RCT has directly tested creatine in diagnosed ADHD populations yet. The rationale is mechanistic: if ADHD involves prefrontal energy deficits, and creatine improves prefrontal energy availability, there&rsquo;s plausible benefit. It&rsquo;s emerging, not proven.
       </p>
       <Callout variant="info" title="Dosing">
-        5g creatine monohydrate daily. No loading phase needed. Dissolves in water or any beverage. One of the most studied and safest supplements in existence. Learn more in our <a href="/guides/nootropics-guide">nootropics guide</a>.
+        5g <a href="/guides/best-creatine-supplements">creatine monohydrate</a> daily. No loading phase needed. Dissolves in water or any beverage. One of the most studied and safest supplements in existence. Learn more in our <a href="/guides/nootropics-guide">nootropics guide</a>.
       </Callout>
 
       <ProductCallout product={PRODUCTS["nootropics-depot-cognizin"]} />
@@ -157,7 +157,7 @@ export function BestSupplementsForAdhdFocus() {
         <strong>&ldquo;Natural Adderall&rdquo; blends:</strong> Products containing yohimbine, high-dose caffeine (300mg+), or synephrine marketed as stimulant alternatives. These spike norepinephrine and can cause tachycardia, anxiety, and blood pressure spikes &mdash; exactly the wrong physiological profile for someone with ADHD-related emotional dysregulation.
       </p>
       <p>
-        <strong>Mega-dose B-vitamin complexes:</strong> Unless you have a confirmed deficiency, B-vitamins above RDA levels haven&rsquo;t shown ADHD benefit in any rigorous trial. Some products contain 5,000&ndash;10,000% of the daily value for B6 or B12 and charge a premium for it. Save your money.
+        <strong>Mega-dose B-vitamin complexes:</strong> Unless you have a confirmed deficiency, B-vitamins above RDA levels haven&rsquo;t shown ADHD benefit in any rigorous trial. Some products contain 5,000&ndash;10,000% of the daily value for B6 or <a href="/guides/vitamin-b12-guide">B12</a> and charge a premium for it. Save your money.
       </p>
       <p>
         <strong>Phosphatidylserine (PS) at low doses:</strong> A few studies tested 200mg PS in ADHD children with mixed results. Most consumer products contain 100mg. The evidence doesn&rsquo;t justify the cost for ADHD specifically.
@@ -174,7 +174,7 @@ export function BestSupplementsForAdhdFocus() {
         <strong>Tier 2 (moderate evidence):</strong><br />
         &bull; L-theanine: 200mg morning + 200mg afternoon<br />
         &bull; Zinc picolinate: 15&ndash;25mg daily with food<br />
-        &bull; Vitamin D3: 2,000&ndash;4,000 IU if deficient<br /><br />
+        &bull; <a href="/guides/best-vitamin-d-supplements">Vitamin D3</a>: 2,000&ndash;4,000 IU if deficient<br /><br />
         <strong>Tier 3 (emerging/situational):</strong><br />
         &bull; Creatine monohydrate: 5g daily<br />
         &bull; L-tyrosine: 500mg on high-demand days (not daily with stimulants)

@@ -388,7 +388,7 @@ export function CreatineForWomen() {
 
       <Callout variant="warning" title="If you take lithium or nephrotoxic medications">
         Both lithium and creatine affect renal handling of water and
-        electrolytes. Theoretical interaction risk exists. Coordinate with your
+        <a href="/guides/electrolytes-guide">electrolytes</a>. Theoretical interaction risk exists. Coordinate with your
         prescriber.
       </Callout>
 

@@ -451,7 +451,7 @@ export function BerberineGuide() {
       If you're undergoing fertility treatment or taking medications like clomiphene or letrozole, do not add berberine without your reproductive endocrinologist's involvement. The Li 2015 trial was conducted under close clinical supervision — self-prescribing alongside fertility drugs is not the same thing.
       </Callout>
 
-      <p>This is a genuinely distinct indication with its own data. If you have PCOS and are exploring berberine specifically for insulin resistance and androgen management — rather than general blood sugar control — the evidence supports it as a reasonable option to discuss with your healthcare provider. For how berberine stacks with inositol, NAC, vitamin D, and the other evidence-backed picks, see our <a href="/guides/best-supplements-for-pcos">best supplements for PCOS</a> roundup.</p>
+      <p>This is a genuinely distinct indication with its own data. If you have PCOS and are exploring berberine specifically for insulin resistance and androgen management — rather than general blood sugar control — the evidence supports it as a reasonable option to discuss with your healthcare provider. For how berberine stacks with inositol, <a href="/guides/nac-guide">NAC</a>, vitamin D, and the other evidence-backed picks, see our <a href="/guides/best-supplements-for-pcos">best supplements for PCOS</a> roundup.</p>
 
       <h2>Specific Drug Interactions: What to Check Before You Buy</h2>
 

@@ -333,7 +333,7 @@ export function SupplementTimingGuide() {
 
       <h3>Creatine</h3>
       <p>
-        The timing debate is mostly noise. Creatine works by saturating muscle
+        The timing debate is mostly noise. <a href="/guides/best-creatine-supplements">Creatine</a> works by saturating muscle
         stores over weeks; a single day&rsquo;s timing changes almost nothing.
         That said, a 2013 study by Antonio and Ciccone in the{" "}
         <em>Journal of the International Society of Sports Nutrition</em>{" "}
@@ -455,7 +455,7 @@ export function SupplementTimingGuide() {
       <h3>What if I forget my morning supplements?</h3>
       <p>
         Just take your normal dose whenever you remember. Don&rsquo;t
-        double up &mdash; especially on iron, zinc, or fat-soluble vitamins.
+        double up &mdash; especially on iron, <a href="/guides/zinc-guide">zinc</a>, or fat-soluble vitamins.
         Resume your normal schedule the next day. Creatine is the exception
         &mdash; it accumulates over time, so one missed dose is genuinely
         irrelevant.
@@ -477,7 +477,7 @@ export function SupplementTimingGuide() {
       <p>Neither specifically. Creatine works by saturating muscle stores over weeks; a single day's timing barely moves the needle. Take 3&ndash;5g daily at any consistent time. Some research suggests a modest post-workout edge when combined with carbs, but the effect is small compared to just taking it every day.</p>
 
       <h3>Is there a supplement I should never take at night?</h3>
-      <p>Anything with caffeine, high-dose B vitamins (especially B12), and green tea extract can disrupt sleep if taken after early afternoon. Saffron, ashwagandha, and magnesium are all safer evening choices. If you take a multivitamin with B-complex, move it to morning.</p>
+      <p>Anything with caffeine, high-dose B vitamins (especially B12), and green tea extract can disrupt sleep if taken after early afternoon. Saffron, <a href="/guides/ashwagandha-guide">ashwagandha</a>, and magnesium are all safer evening choices. If you take a multivitamin with B-complex, move it to morning.</p>
 
       <h3>Can I take vitamin D and magnesium together?</h3>
       <p>Yes &mdash; taking vitamin D and magnesium together is actively beneficial. Magnesium is a required cofactor for the enzymes that convert vitamin D into its active form; without adequate magnesium, supplemental vitamin D may be less effective. The guide already recommends vitamin D with breakfast (with fat) and magnesium in the evening, but if you prefer to take both at the same meal, there's no conflict. Just keep the fat requirement for vitamin D in mind.</p>
@@ -516,7 +516,7 @@ Vitamins A, D, E, K, omega-3s, and CoQ10 all require dietary fat for absorption.
 
 <h3>Restructuring Your Stack for 16:8</h3>
 
-<p>Move your entire fat-soluble stack to your <strong>first meal</strong> (noon, or whenever you break fast). That's your D3+K2, fish oil, CoQ10, and any fat-soluble nootropics. Eat something with actual fat — not just a protein shake.</p>
+<p>Move your entire fat-soluble stack to your <strong>first meal</strong> (noon, or whenever you break fast). That's your D3+K2, fish oil, CoQ10, and any fat-soluble <a href="/guides/nootropics-guide">nootropics</a>. Eat something with actual fat — not just a protein shake.</p>
 
 <p>Your <strong>evening stack</strong> stays largely unchanged. <a href="/guides/supplement-timing-guide">Magnesium glycinate</a>, L-theanine, and glycine don't require food and work well taken 30–60 minutes before bed, even outside the eating window. Calcium, if you take it, fits best with your last meal.</p>
 

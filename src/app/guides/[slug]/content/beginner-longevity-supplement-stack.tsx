@@ -495,7 +495,7 @@ export function BeginnerLongevityStack() {
 
       <p><strong>Creatine</strong> deserves special attention for this group. Vegans and vegetarians have lower baseline muscle and brain creatine stores because dietary creatine comes almost exclusively from meat. Evidence suggests the <strong>cognitive benefits of creatine supplementation may be proportionally larger</strong> for plant-based eaters — a meta-analysis by Avgerinos et al. (2018) found memory improvements with supplementation, and Benton & Donohoe (2011) specifically showed enhanced cognitive performance in vegetarians. <EvidenceBadge level="moderate" studiesId="creatine-avgerinos-cognitive-2018" /> Standard creatine monohydrate is synthesized, not animal-derived — it's already vegan.</p>
 
-      <p>CoQ10 (ubiquinol), curcumin, and Tier 3 compounds are typically vegan-compatible, but again — check capsule materials. If you're following this stack as a vegan, also consider screening <a href="/guides/vitamin-b12-guide">B12</a> and zinc levels, since deficiencies in both are common in plant-based diets and interact with pathways this guide covers.</p>
+      <p>CoQ10 (ubiquinol), curcumin, and Tier 3 compounds are typically vegan-compatible, but again — check capsule materials. If you're following this stack as a vegan, also consider screening <a href="/guides/vitamin-b12-guide">B12</a> and <a href="/guides/zinc-guide">zinc</a> levels, since deficiencies in both are common in plant-based diets and interact with pathways this guide covers.</p>
 
       <h2>How to Read a Supplement Label: Elemental Dose vs. Compound Dose</h2>
 

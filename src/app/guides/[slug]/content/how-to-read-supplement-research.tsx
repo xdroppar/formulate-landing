@@ -212,7 +212,7 @@ export function HowToReadSupplementResearch() {
       <h3>Extract Potency vs Label Potency</h3>
       <p>
         Studies often use specific standardized extracts at specific
-        doses (Ashwagandha KSM-66 at 600 mg, Turmeric Meriva at 1 g). The
+        doses (<a href="/guides/ashwagandha-guide">Ashwagandha</a> KSM-66 at 600 mg, Turmeric Meriva at 1 g). The
         product on the shelf may use a generic extract at half the dose
         in a form that doesn&rsquo;t match. &ldquo;Backed by research&rdquo;
         is technically true but the product you&rsquo;re buying wasn&rsquo;t.

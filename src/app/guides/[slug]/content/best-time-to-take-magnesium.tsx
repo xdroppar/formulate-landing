@@ -66,7 +66,7 @@ export function BestTimeToTakeMagnesium() {
       <h3>Magnesium Taurate</h3>
       <p>
         <strong>When:</strong> Evening, 30&ndash;60 minutes before bed, or split AM/PM.<br />
-        <strong>Why:</strong> Taurine has mild calming and cardiovascular-supporting properties. The evening dose aligns with those effects. Taurate is well-tolerated and unlikely to cause GI distress, giving you flexibility.
+        <strong>Why:</strong> <a href="/guides/taurine-guide">Taurine</a> has mild calming and cardiovascular-supporting properties. The evening dose aligns with those effects. Taurate is well-tolerated and unlikely to cause GI distress, giving you flexibility.
       </p>
 
       <h3>Magnesium Oxide</h3>
@@ -119,7 +119,7 @@ export function BestTimeToTakeMagnesium() {
         Magnesium is a divalent cation, which means it binds readily to other compounds in the gut. A few spacing rules matter clinically:
       </p>
       <ul>
-        <li><strong>Iron:</strong> Separate by at least 2 hours. Magnesium and iron compete directly for absorption and will blunt each other.</li>
+        <li><strong><a href="/guides/iron-guide">Iron</a>:</strong> Separate by at least 2 hours. Magnesium and iron compete directly for absorption and will blunt each other.</li>
         <li><strong>Calcium:</strong> Separate by at least 2 hours. Same transporter competition. If you take both, put calcium in the morning and magnesium at night (or vice versa).</li>
         <li><strong>Antibiotics (tetracyclines, fluoroquinolones):</strong> Separate by at least 2&ndash;4 hours. Magnesium chelates these drugs and can reduce their effectiveness&mdash;this isn&rsquo;t a theoretical concern, it&rsquo;s in the prescribing information.</li>
         <li><strong>Bisphosphonates (e.g., alendronate):</strong> Take bisphosphonates first on an empty stomach, then wait at least 30&ndash;60 minutes before magnesium or food.</li>
@@ -157,7 +157,7 @@ export function BestTimeToTakeMagnesium() {
         Magnesium needs increase during pregnancy, and some forms (especially citrate at high doses) can cause diarrhea that leads to dehydration. Your OB/GYN can recommend the right form and dose for your trimester.
       </Callout>
       <Callout variant="warning" title="If you take high-dose vitamin D">
-        Vitamin D increases intestinal magnesium absorption. If you recently started or increased vitamin D supplementation, your effective magnesium dose may have changed. Monitor for loose stools as a sign of excess.
+        <a href="/guides/best-vitamin-d-supplements">Vitamin D</a> increases intestinal magnesium absorption. If you recently started or increased vitamin D supplementation, your effective magnesium dose may have changed. Monitor for loose stools as a sign of excess.
       </Callout>
       <p>
         None of the above is medical advice. Bring your full supplement list to your next provider visit.

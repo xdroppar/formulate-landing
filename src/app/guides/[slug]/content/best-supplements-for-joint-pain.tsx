@@ -86,7 +86,7 @@ export function BestSupplementsForJointPain() {
 
       <h3><IngredientLink id="omega-3" source="best-supplements-for-joint-pain">Fish Oil (EPA/DHA)</IngredientLink></h3>
       <p>
-        Fish Oil reduces systemic inflammation by shifting the balance of
+        <a href="/guides/best-omega-3-supplements">Fish Oil</a> reduces systemic inflammation by shifting the balance of
         inflammatory signaling molecules (prostaglandins, leukotrienes).
         It&apos;s the foundational anti-inflammatory most people are low on
         — Western diets are typically deficient in EPA/DHA and replete in
@@ -151,7 +151,7 @@ export function BestSupplementsForJointPain() {
 
       <h3>Hydrolyzed Collagen Peptides</h3>
       <p>
-        Collagen peptides provide amino-acid building blocks for
+        <a href="/guides/collagen-guide">Collagen</a> peptides provide amino-acid building blocks for
         cartilage, tendon, and ligament repair. RCT evidence has grown
         steadily over the last decade — particularly for activity-related
         joint pain in athletes and tendon recovery. Don&apos;t confuse
@@ -195,7 +195,7 @@ export function BestSupplementsForJointPain() {
 
       <h3>Vitamin D</h3>
       <p>
-        Vitamin D deficiency (blood level &lt; 30 ng/mL) is associated
+        <a href="/guides/best-vitamin-d-supplements">Vitamin D</a> deficiency (blood level &lt; 30 ng/mL) is associated
         with joint pain in observational studies. Correcting deficiency
         may reduce pain, but supplementing in already-replete users
         doesn&apos;t. Worth testing your level; not a general joint

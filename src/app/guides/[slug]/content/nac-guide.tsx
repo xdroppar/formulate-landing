@@ -173,7 +173,7 @@ export function NACGuide() {
         environments, NAC provides meaningful support to a system that&rsquo;s
         under chronic load. <EvidenceBadge level="moderate" /> For the full
         NAFLD supplement picture &mdash; vitamin E, omega-3s, milk thistle, and
-        berberine alongside NAC &mdash; see our{" "}
+        <a href="/guides/berberine-guide">berberine</a> alongside NAC &mdash; see our{" "}
         <a href="/guides/best-supplements-for-fatty-liver">
           best supplements for fatty liver
         </a>{" "}

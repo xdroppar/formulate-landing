@@ -55,7 +55,7 @@ export function MultivitaminComparison() {
           Metafolin — NOT plain folic acid
         </li>
         <li>
-          <strong>B12:</strong> Methylcobalamin or adenosylcobalamin — NOT
+          <strong><a href="/guides/vitamin-b12-guide">B12</a>:</strong> Methylcobalamin or adenosylcobalamin — NOT
           cyanocobalamin (the cheap form that still works in most users,
           but poorly in smokers and anyone with cyanide-clearance issues)
         </li>
@@ -64,7 +64,7 @@ export function MultivitaminComparison() {
           form; plain pyridoxine works too but needs liver conversion
         </li>
         <li>
-          <strong>Vitamin D:</strong> D3 (cholecalciferol) — NOT D2
+          <strong><a href="/guides/best-vitamin-d-supplements">Vitamin D</a>:</strong> D3 (cholecalciferol) — NOT D2
           (ergocalciferol). See our{" "}
           <a href="/guides/vitamin-d3-vs-d2">D3 vs D2 comparison</a>.
         </li>
@@ -74,11 +74,11 @@ export function MultivitaminComparison() {
           useful
         </li>
         <li>
-          <strong>Magnesium:</strong> Glycinate, malate, citrate, or
+          <strong><a href="/guides/best-magnesium-supplements">Magnesium</a>:</strong> Glycinate, malate, citrate, or
           threonate — NOT oxide (poorly absorbed, laxative)
         </li>
         <li>
-          <strong>Zinc:</strong> Picolinate or bisglycinate — NOT oxide
+          <strong><a href="/guides/zinc-guide">Zinc</a>:</strong> Picolinate or bisglycinate — NOT oxide
           or sulfate
         </li>
       </ul>
@@ -119,7 +119,7 @@ export function MultivitaminComparison() {
       </p>
       <ul>
         <li>
-          <strong>Iron (for most adults):</strong> Men, post-menopausal
+          <strong><a href="/guides/iron-guide">Iron</a> (for most adults):</strong> Men, post-menopausal
           women, and healthy pre-menopausal women typically have adequate
           iron stores. Routine iron supplementation in these groups raises
           ferritin without clear benefit and accelerates iron accumulation
@@ -212,7 +212,7 @@ export function MultivitaminComparison() {
       <h3>Targeted Athletic / High-Output</h3>
       <p>
         Often higher doses of B-complex and magnesium. Sometimes include
-        recovery ingredients (taurine, beta-alanine) at sub-therapeutic
+        recovery ingredients (<a href="/guides/taurine-guide">taurine</a>, beta-alanine) at sub-therapeutic
         doses. Skip if the sub-doses are purely decorative; useful if
         genuinely dosed.
       </p>
