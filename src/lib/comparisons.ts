@@ -160,6 +160,134 @@ export const comparisons: Comparison[] = [
       "Commonly combined. Magnesium + low-dose Melatonin is the most evidence-based sleep stack. No interaction issues at recommended doses.",
     tags: ["Sleep", "Anxiety", "Circadian"],
   },
+  {
+    a: "nmn",
+    b: "nad-nicotinamide-adenine-dinucleotide",
+    topic: "Longevity & NAD+ Support",
+    bottom_line:
+      "NMN is a precursor; NAD+ itself is the coenzyme — you can only usefully supplement the precursor.",
+    why_compare:
+      "NAD+ declines with age and is involved in every sirtuin-mediated longevity pathway. The popular move is to raise NAD+ levels. The catch: NAD+ itself is poorly absorbed orally — the molecule is too large and unstable. NMN (nicotinamide mononucleotide) is one of two effective precursors (the other is NR, nicotinamide riboside) that actually raise intracellular NAD+.",
+    when_a:
+      "Pick NMN for NAD+ elevation — it's the supplementable form. Human trials show NMN at 250–500 mg/day raises NAD+ meaningfully. Sublingual forms may bypass some first-pass metabolism. Best-studied precursor alongside NR.",
+    when_b:
+      "Don't pick NAD+ directly — oral NAD+ is largely degraded before absorption. Intravenous NAD+ is sometimes used clinically but is expensive and unnecessary for healthy adults if the goal is preventive longevity support.",
+    combine:
+      "You wouldn't combine oral NAD+ with NMN — just take the precursor. NMN stacks rationally with resveratrol, pterostilbene, or other sirtuin activators. No documented drug interactions at supplemental doses.",
+    tags: ["Longevity", "NAD+", "Anti-aging", "Sirtuins"],
+  },
+  {
+    a: "lions-mane-mushroom-extract",
+    b: "cordyceps",
+    topic: "Functional Mushrooms",
+    bottom_line:
+      "Lion's Mane targets cognition and nerve growth; Cordyceps targets energy and endurance.",
+    why_compare:
+      "The two most popular non-psychoactive medicinal mushrooms, both widely marketed as 'nootropics' — but they hit different physiological systems. Lion's Mane contains hericenones and erinacines that cross the blood-brain barrier and stimulate NGF (nerve growth factor). Cordyceps contains cordycepin and adenosine analogs that improve oxygen utilization and mitochondrial output.",
+    when_a:
+      "Pick Lion's Mane for cognitive support, nerve regeneration, mild mood elevation, or post-concussion recovery. Dose: 500–1,000 mg/day of a dual-extracted powder (fruiting body, not pure mycelium). Effects take 4–8 weeks to emerge.",
+    when_b:
+      "Pick Cordyceps for exercise performance, endurance, oxygen uptake, and fatigue resistance. Trials show VO2 max improvements at 1–3 g/day of Cordyceps militaris extract over 4+ weeks. Morning dose works best.",
+    combine:
+      "Very commonly stacked — 'focus + energy' combos typically pair them. No documented interaction. Stack with caffeine/L-theanine for an acute cognitive boost layered on the chronic adaptation.",
+    tags: ["Nootropics", "Mushrooms", "Cognition", "Endurance"],
+  },
+  {
+    a: "zinc-bisglycinate",
+    b: "zinc-picolinate",
+    topic: "Zinc Forms & Bioavailability",
+    bottom_line:
+      "Both are well-absorbed; Bisglycinate is gentler on the stomach, Picolinate has slight absorption edge.",
+    why_compare:
+      "These are the two forms most supplement experts recommend over generic zinc oxide or zinc sulfate (which are poorly absorbed and GI-irritating). Both are chelated forms — zinc is bound to an organic ligand that escorts it across the gut lining. Bisglycinate uses two glycine molecules; Picolinate uses picolinic acid.",
+    when_a:
+      "Pick Bisglycinate if you've had stomach upset with zinc before, or if you're taking it on an empty stomach. The glycine chelate is non-irritating and well-tolerated even at higher doses. Common in sleep/immune formulas.",
+    when_b:
+      "Pick Picolinate for a slight absorption edge — some studies show marginally higher serum zinc rise with picolinate. Commonly found in immune and mood stacks. Can be taken with or without food.",
+    combine:
+      "No reason to combine — they're both zinc. Pick one form and stay consistent. Long-term zinc >40 mg/day (from any form) requires copper supplementation; see /interactions/copper-and-zinc.",
+    tags: ["Minerals", "Zinc", "Immune", "Bioavailability"],
+  },
+  {
+    a: "pterostilbene",
+    b: "resveratrol",
+    topic: "Polyphenols & Longevity",
+    bottom_line:
+      "Pterostilbene has 4× the bioavailability and a longer half-life — it's the better-absorbed cousin.",
+    why_compare:
+      "Both are stilbene polyphenols with overlapping benefits: sirtuin activation, antioxidant activity, anti-inflammatory effects. Resveratrol has more research volume but suffers from rapid glucuronidation — most of an oral dose is cleared before it acts. Pterostilbene has two methyl groups that slow clearance, yielding ~80% oral bioavailability vs resveratrol's ~20%.",
+    when_a:
+      "Pick Pterostilbene for practical NAD+ / sirtuin support at a lower dose. 50–150 mg/day matches what 250–500 mg resveratrol tries to do on paper. Less well-studied but pharmacokinetically superior.",
+    when_b:
+      "Pick Resveratrol if you want the larger clinical trial record and don't mind taking more of it. Effective dose is 150–500 mg with a fat source. Micronized or liposomal formulations narrow the bioavailability gap.",
+    combine:
+      "Often stacked in longevity formulas (alongside NMN). The two polyphenols overlap mechanistically but aren't redundant — they hit SIRT1 and SIRT3 with slightly different kinetics. No drug interactions at supplement doses.",
+    tags: ["Longevity", "Polyphenols", "Sirtuins", "Antioxidants"],
+  },
+  {
+    a: "acetyl-l-carnitine",
+    b: "l-carnitine",
+    topic: "Carnitine Forms",
+    bottom_line:
+      "L-Carnitine fuels muscles; Acetyl-L-Carnitine (ALCAR) fuels the brain — the acetyl group is what crosses the blood-brain barrier.",
+    why_compare:
+      "Both move fatty acids into mitochondria for beta-oxidation. The difference is where they end up: plain L-Carnitine acts mostly in skeletal and cardiac muscle. ALCAR (the acetylated form) crosses the blood-brain barrier and has distinct cognitive effects — improved mood in depression, reduced diabetic neuropathy, and some evidence for early Alzheimer's.",
+    when_a:
+      "Pick ALCAR for cognitive support, age-related mental fatigue, diabetic neuropathy, or mood elevation. Dose: 500–2,000 mg/day. Can stack with alpha-lipoic acid for mitochondrial support.",
+    when_b:
+      "Pick L-Carnitine (or L-Carnitine L-Tartrate) for exercise recovery, fat metabolism in muscle, or heart health. Dose: 1–3 g/day. Tartrate form has the most sports-nutrition evidence for recovery.",
+    combine:
+      "Not commonly combined — usually one or the other by goal. Stacking would add cost without clear benefit. No drug interaction issues at supplement doses.",
+    tags: ["Nootropics", "Mitochondrial", "Fatty Acid Oxidation", "Cognition"],
+  },
+  {
+    a: "chlorella",
+    b: "spirulina",
+    topic: "Green Superfoods",
+    bottom_line:
+      "Chlorella has a cell wall that binds heavy metals; Spirulina is more protein-dense — same family, different uses.",
+    why_compare:
+      "Both are popular 'greens' supplements: single-celled organisms (Chlorella is green algae, Spirulina is cyanobacteria) marketed for detox, protein, and micronutrients. They overlap on chlorophyll, vitamins, minerals, and protein — but their cell wall structures make them functionally different.",
+    when_a:
+      "Pick Chlorella for heavy metal binding (its cell wall chelates lead, mercury, cadmium) and fiber. Broken cell wall ('cracked') or micronized forms improve absorption. Dose: 2–5 g/day. Cleanest source matters — contamination is a real risk.",
+    when_b:
+      "Pick Spirulina for protein density (60% protein by dry weight), phycocyanin's anti-inflammatory effect, and mild blood pressure lowering. Dose: 1–5 g/day. Verify source — blue-green algae can harbor microcystin toxins if grown in open ponds.",
+    combine:
+      "Safe to combine — some users take both for broader micronutrient coverage. Third-party testing is crucial for both categories; contaminated products are documented. No drug interactions at supplement doses.",
+    tags: ["Superfoods", "Detox", "Protein", "Immune"],
+  },
+  {
+    a: "inulin",
+    b: "psyllium-husk",
+    topic: "Fiber Types",
+    bottom_line:
+      "Psyllium bulks stool; Inulin feeds gut bacteria — they solve different gut-health problems.",
+    why_compare:
+      "Both are called 'fiber' but they work differently. Psyllium Husk is a soluble-but-gel-forming fiber that binds water, bulks stool, and moderately lowers cholesterol. Inulin is a fermentable fructooligosaccharide that feeds beneficial gut bacteria (prebiotic) but doesn't bulk stool and can cause gas.",
+    when_a:
+      "Pick Inulin as a prebiotic to grow Bifidobacteria and Lactobacillus populations. Start low (2–3 g/day) and ramp — it commonly causes gas, bloating, or diarrhea at higher doses in sensitive guts. Good in smoothies; dissolves clear.",
+    when_b:
+      "Pick Psyllium for regularity, stool bulk, IBS-C, or cholesterol reduction. Dose: 5–10 g/day split with meals, with plenty of water. Works within days. Has the best clinical evidence of any fiber supplement for multiple endpoints.",
+    combine:
+      "Commonly combined — Psyllium for mechanical action, Inulin for microbiome benefit. Start with Psyllium alone if you have IBS to establish tolerance; add Inulin slowly afterward. No drug interactions except absorption-level (take medications 2 hours apart from either fiber).",
+    tags: ["Fiber", "Gut Health", "Prebiotic", "Digestion"],
+  },
+  {
+    a: "tongkat-ali",
+    b: "tribulus",
+    topic: "Testosterone & Male Vitality",
+    bottom_line:
+      "Tongkat Ali has real human evidence for modest testosterone rise; Tribulus does not.",
+    why_compare:
+      "Both are classic 'testosterone boosters' sold to men looking for strength, libido, or vitality support. The evidence base is not equivalent. Tongkat Ali (Eurycoma longifolia) has multiple placebo-controlled trials showing modest free testosterone increases in men with low baseline levels. Tribulus Terrestris, despite decades of marketing, consistently fails to raise testosterone in controlled trials — its libido effect appears to work independently of hormones.",
+    when_a:
+      "Pick Tongkat Ali if the goal is testosterone support, especially in older men or those with stress-related low T. Use a standardized extract (typically 200–400 mg/day of a 100:1 or physta extract). Effects emerge over 4–8 weeks.",
+    when_b:
+      "Consider Tribulus only for subjective libido effects — not for actual T levels. If libido is the goal and the testosterone-raising question isn't important, it's affordable and low-risk. Dose: 500–1,500 mg/day of a standardized 40–60% saponin extract.",
+    combine:
+      "Occasionally stacked in 'male vitality' formulas. Since their mechanisms differ (Tongkat Ali on HPG-axis, Tribulus via androgen-receptor sensitivity), combination is defensible. No documented drug interactions at supplement doses.",
+    tags: ["Testosterone", "Male Health", "Libido", "Adaptogens"],
+  },
 ];
 
 function slugPair(a: string, b: string): string {
