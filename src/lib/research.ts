@@ -148,3 +148,40 @@ export function topicSlug(topic: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
+
+/** Find studies that mention a given ingredient by name or alias. Matches
+ *  against study title + journal + summary via word-boundary regex, so
+ *  "zinc" matches "Zinc Picolinate" but not "ashwagandha" (previous sloppy
+ *  matcher would hit "dha" inside "ashwagandha" — we had that bug on the
+ *  ingredient-products match earlier this session and solved it the same
+ *  way; applying the pattern here.) */
+export function studiesForIngredient(
+  name: string,
+  aliases: string[] = [],
+  limit = 8,
+): StudyWithSlug[] {
+  const needles = Array.from(
+    new Set(
+      [name, ...aliases]
+        .map((n) => n.trim().toLowerCase())
+        .filter((n) => n.length >= 3),
+    ),
+  );
+  if (needles.length === 0) return [];
+
+  const regexes = needles.map((n) => {
+    const escaped = n.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+    return new RegExp(`\\b${escaped}\\b`, "i");
+  });
+
+  const matches: StudyWithSlug[] = [];
+  for (const s of researchEntries) {
+    const haystack = `${s.title} ${s.journal} ${s.authors} ${s.summary ?? ""}`;
+    if (regexes.some((re) => re.test(haystack))) {
+      matches.push(s);
+    }
+  }
+  // Year descending — recent first.
+  matches.sort((a, b) => b.year - a.year);
+  return matches.slice(0, limit);
+}

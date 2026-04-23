@@ -12,6 +12,7 @@ import {
 import { findSubstance, interactionsFor, SEVERITY_META } from "@/lib/interactions";
 import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
+import { studiesForIngredient } from "@/lib/research";
 
 const BASE = "https://formulate-health.app";
 
@@ -141,6 +142,9 @@ export default async function IngredientPage({ params }: { params: Params }) {
   const relatedComparisons = comparisons.filter(
     (c) => c.a === ing.slug || c.b === ing.slug,
   );
+
+  // Studies from the research registry that mention this ingredient.
+  const citedResearch = studiesForIngredient(ing.name, ing.aliases, 8);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -456,6 +460,39 @@ export default async function IngredientPage({ params }: { params: Params }) {
               {gradeMeta.description}
             </p>
           )}
+        </section>
+      )}
+
+      {citedResearch.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Cited research for {ing.name}
+          </h2>
+          <p className="text-xs text-muted mb-4">
+            Clinical studies referenced across Formulate guides that mention{" "}
+            {ing.name.toLowerCase()}. Each links to the full study page with
+            PubMed source + the guides that cite it.
+          </p>
+          <ul className="space-y-2">
+            {citedResearch.map((s) => (
+              <li key={s.slug}>
+                <Link
+                  href={`/research/${s.slug}`}
+                  className="block rounded-lg border border-border bg-white/[0.02] px-4 py-3 hover:border-accent transition-colors"
+                >
+                  <div className="flex items-baseline justify-between gap-3 flex-wrap">
+                    <span className="text-sm font-semibold text-text">
+                      {s.authors} ({s.year})
+                    </span>
+                    <span className="text-[10px] text-muted italic truncate">
+                      {s.journal}
+                    </span>
+                  </div>
+                  <p className="text-xs text-muted mt-1 line-clamp-2">{s.title}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
