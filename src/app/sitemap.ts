@@ -24,7 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getAllTags().map(({ slug }) => ({
       url: `${baseUrl}/guides/tag/${slug}`,
       lastModified: now,
-      changeFrequency: "weekly" as const,
+      // Tag pages change only when a new tagged guide ships — monthly is
+      // honest. Previously "weekly" was misleading.
+      changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
   ];
@@ -77,7 +79,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/brands/${b.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
-      priority: 0.7,
+      // Brand hub pages carry the 5-component score breakdown + standout
+      // badge + product grid. High-intent commercial content.
+      priority: 0.8,
     })),
   ];
 
@@ -92,7 +96,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/ingredients/${i.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
-      priority: i.evidence_grade === "A" || i.evidence_grade === "B" ? 0.7 : 0.5,
+      // A/B grade pages are anchor content with full mechanism + dose +
+      // products-containing-X. C/D grade pages are still indexable but
+      // are less authoritative anchors and get deprioritized.
+      priority:
+        i.evidence_grade === "A"
+          ? 0.8
+          : i.evidence_grade === "B"
+            ? 0.75
+            : i.evidence_grade === "C"
+              ? 0.6
+              : 0.5,
     })),
   ];
 
