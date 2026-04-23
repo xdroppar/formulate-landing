@@ -624,6 +624,118 @@ export const comparisons: Comparison[] = [
       "Safe to combine but rarely needed — they solve different problems. L-Arginine and L-Lysine compete for intestinal transporters; take them 2+ hours apart if you use both. Arginine can trigger HSV outbreaks in susceptible people — avoid if you have recurrent cold sores.",
     tags: ["Amino Acids", "Circulation", "Immune", "Collagen"],
   },
+  {
+    a: "magnesium-glycinate",
+    b: "magnesium-threonate",
+    topic: "Magnesium Forms: Sleep vs Brain",
+    bottom_line:
+      "Glycinate is the general calming-and-sleep form; Threonate is the expensive brain-penetrant form — different tissues, different use cases.",
+    why_compare:
+      "Both are premium magnesium forms that people reach for beyond the basic citrate/oxide tier. Glycinate chelates with glycine (itself calming) and accumulates broadly — it's the standard pick for anxiety, sleep quality, muscle relaxation, and cardiovascular benefit. Magnesium L-Threonate was designed specifically to cross the blood-brain barrier and raise brain-tissue magnesium; it's the only form with direct RCT evidence on cognitive function in aging adults. The question isn't which is 'better' — it's whether your goal is systemic or cognitive.",
+    when_a:
+      "Pick Glycinate for sleep, anxiety, muscle tension, restless legs, or foundational magnesium repletion. Well-absorbed, gentle on stomach, cheap. Dose: 300–400 mg elemental, split or evening.",
+    when_b:
+      "Pick L-Threonate specifically for cognitive benefit — the 2010 MagTein trial and follow-ups show memory and executive-function improvements at 2 g/day. Expensive per elemental mg. Effect is modest. Best-positioned for mild age-related cognitive complaints.",
+    combine:
+      "Can combine but rarely needed — pick one based on your primary goal. Combined, they can push total elemental magnesium above 500 mg which is the soft ceiling before loose stools. If stacking, split timing and watch GI.",
+    tags: ["Magnesium", "Sleep", "Cognition", "Anxiety"],
+  },
+  {
+    a: "whey-protein-isolate",
+    b: "whey-protein",
+    topic: "Whey Form Selection",
+    bottom_line:
+      "Isolate is ~90% protein, near-zero lactose; Concentrate is ~80% protein with more lactose. Same muscle effect per gram of protein.",
+    why_compare:
+      "Whey Concentrate is the baseline cost-effective whey. Whey Isolate is a further-purified version — more protein per gram, much less lactose, slightly more expensive. From a pure muscle-building standpoint, a 30 g serving of each delivers nearly identical leucine; MPS response is indistinguishable. The real choice is about lactose tolerance, fat content, and per-serving cost.",
+    when_a:
+      "Pick Whey Isolate if you're lactose intolerant or sensitive (under 1 g lactose per serving vs 2–5 g for concentrate), if you're tracking macros tightly (less fat and carbs per gram of protein), or if post-training GI is an issue with concentrate.",
+    when_b:
+      "Pick Whey Concentrate for best value per gram of protein — typically 25–40% cheaper than isolate. For users who tolerate it, the extra milk-fat fraction actually improves amino acid absorption slightly (studies on 'whole' vs isolated whey). Breakfast or anytime use.",
+    combine:
+      "No reason to combine forms. Pick one based on tolerance + budget. Some blends mix both to balance cost and lactose — fine but no pharmacological advantage.",
+    tags: ["Protein", "Muscle", "Sports Nutrition", "Whey"],
+  },
+  {
+    a: "ashwagandha",
+    b: "magnesium",
+    topic: "Stress & Anxiety",
+    bottom_line:
+      "Ashwagandha shifts cortisol at the HPA axis; Magnesium relaxes the nervous system downstream. Different mechanisms, often stacked.",
+    why_compare:
+      "Both show up in anxiety-support stacks but act on different levels. Ashwagandha is an adaptogen that normalizes HPA-axis cortisol response over weeks — it's a top-down effect on the stress system. Magnesium is a parasympathetic cofactor that calms the nervous system directly through NMDA receptor modulation and muscle relaxation — it's a bottom-up effect. Stacking them is mechanistically rational because they don't compete for the same pathway.",
+    when_a:
+      "Pick Ashwagandha for chronic stress, elevated cortisol, poor sleep from racing mind, or anxiety profiles where tension builds over time. Dose: 300–600 mg/day standardized extract. Takes 4–8 weeks for full effect.",
+    when_b:
+      "Pick Magnesium (glycinate form) for acute muscle tension, restless nights, tension headaches, or foundational anxiety support in a possibly-deficient user. Dose: 300–400 mg elemental, evening. Effect is faster than Ashwagandha.",
+    combine:
+      "Common and rational stack — Ashwagandha for chronic cortisol modulation, Magnesium for daily calming. No interaction concerns at typical doses. Watch Ashwagandha if you take levothyroxine — thyroid effects are documented.",
+    tags: ["Anxiety", "Stress", "Adaptogens", "Sleep"],
+  },
+  {
+    a: "acetyl-l-carnitine",
+    b: "alpha-gpc",
+    topic: "Cholinergic Nootropics",
+    bottom_line:
+      "Alpha-GPC raises acetylcholine; ALCAR supports mitochondrial choline utilization — they work on different sides of the cholinergic system.",
+    why_compare:
+      "Both are cholinergic supplements associated with cognitive support, often confused in nootropic stacks. Alpha-GPC is a choline donor — it crosses the blood-brain barrier and increases acetylcholine synthesis. ALCAR (acetyl-L-carnitine) is a mitochondrial amino acid that also happens to donate an acetyl group, supporting choline's conversion to acetylcholine. Together they reinforce the cholinergic system from two angles; alone they do related-but-different jobs.",
+    when_a:
+      "Pick Alpha-GPC for acute cognitive support (pre-study, pre-task), athletic performance (it improves power output in some trials), or age-related cognitive decline where choline availability is limiting. Dose: 300–600 mg/day.",
+    when_b:
+      "Pick ALCAR for mitochondrial support alongside cognition, diabetic neuropathy (the best-evidenced ALCAR use case), or long-term age-related mental energy complaints. Dose: 500–2,000 mg/day.",
+    combine:
+      "Rational stack for serious nootropic protocols. Alpha-GPC donates choline; ALCAR donates acetyl; acetylcholine synthesis increases in both limbs. Not necessary for most users — pick one unless you're running a structured stack.",
+    tags: ["Nootropics", "Cognition", "Mitochondrial", "Cholinergic"],
+  },
+  {
+    a: "coq10",
+    b: "pqq",
+    topic: "Mitochondrial Support",
+    bottom_line:
+      "CoQ10 fuels existing mitochondria; PQQ stimulates new mitochondria (biogenesis). Different time horizons, different mechanisms.",
+    why_compare:
+      "Both are marketed as 'mitochondrial support' and both do support mitochondrial function — but differently. CoQ10 is a direct electron-transport cofactor — it fuels ATP production in existing mitochondria, immediately. PQQ (pyrroloquinoline quinone) is a PGC-1α activator that stimulates mitochondrial biogenesis — it increases the NUMBER of mitochondria over weeks. They're complementary, not competitive.",
+    when_a:
+      "Pick CoQ10 for statin-associated muscle fatigue, heart failure adjunct, migraine prophylaxis, or age-related energy decline where immediate ATP support matters. Dose: 100–200 mg/day with fat.",
+    when_b:
+      "Pick PQQ for longer-term mitochondrial resilience, cognitive preservation, or as a complement to CoQ10 in age-related protocols. Evidence is thinner than CoQ10 but promising. Dose: 10–20 mg/day.",
+    combine:
+      "Common longevity-protocol pairing — CoQ10 for existing mitochondria, PQQ for new ones. Evidence for the combination specifically is sparse but the biology is clean. No interaction concerns.",
+    tags: ["Mitochondrial", "Longevity", "CoQ10", "PQQ", "Anti-Aging"],
+  },
+  {
+    a: "curcumin",
+    b: "ginger",
+    topic: "Natural Anti-Inflammatory",
+    bottom_line:
+      "Curcumin is the serious anti-inflammatory with osteoarthritis-level evidence; Ginger is the gentler daily adjunct with better GI upside.",
+    why_compare:
+      "Both have traditional use as anti-inflammatory compounds and both have modern RCT support, but at different magnitudes. Curcumin has osteoarthritis pain-reduction evidence comparable to NSAIDs in meta-analyses. Ginger's anti-inflammatory effect is real but modest; its strongest evidence is actually for nausea (motion sickness, chemotherapy-induced, pregnancy). Curcumin is for joint-level inflammation; ginger is for GI-level inflammation plus a nausea lever.",
+    when_a:
+      "Pick Curcumin for osteoarthritis, rheumatoid arthritis adjunct, exercise-induced muscle soreness, or any scenario where NSAIDs would be the conventional choice but GI side effects concern you. Use a bioavailable form (Meriva, Longvida, or piperine-paired). Dose: 500–1,000 mg/day.",
+    when_b:
+      "Pick Ginger for nausea (morning sickness, motion sickness, chemo adjunct), mild digestive inflammation, or as a daily low-dose anti-inflammatory for users who prefer food-based supplementation. Dose: 500–1,000 mg/day standardized extract, or fresh ginger equivalent.",
+    combine:
+      "Safe and rational. Both have mild anticoagulant effects at high doses; watch with blood thinners. Common in anti-inflammatory blends — the combined effect doesn't exceed Curcumin alone for joint pain, but adds ginger's nausea and GI benefits.",
+    tags: ["Anti-Inflammatory", "Joints", "Nausea", "Curcumin"],
+  },
+  {
+    a: "l-phenylalanine",
+    b: "l-tyrosine",
+    topic: "Catecholamine Precursors",
+    bottom_line:
+      "Phenylalanine is the upstream precursor; Tyrosine is one step closer to dopamine. Tyrosine is the more actionable supplement.",
+    why_compare:
+      "Both are essential or conditionally-essential amino acids that feed the catecholamine pathway (dopamine → norepinephrine → epinephrine). Phenylalanine converts to Tyrosine via phenylalanine hydroxylase, then Tyrosine converts to L-DOPA and downstream catecholamines. Supplementing Tyrosine skips the rate-limiting first step; supplementing Phenylalanine gives the body upstream substrate.",
+    when_a:
+      "Pick L-Phenylalanine for mood support, pain modulation (via endorphin conversion), or as a slower-onset alternative to Tyrosine. DL-Phenylalanine (the racemic mix) is the most-studied form. Dose: 500–1,500 mg/day. Avoid in phenylketonuria (PKU) — the defect prevents conversion.",
+    when_b:
+      "Pick L-Tyrosine for acute cognitive demand under stress (military / shift-work studies), ADHD adjunct, or catecholamine support during sleep deprivation. Dose: 500–2,000 mg, 30–60 min pre-task on empty stomach. Effects are short-duration.",
+    combine:
+      "Not usually combined — pick Tyrosine as the default unless there's a specific phenylalanine indication (endorphin-related pain protocols). Both can interact with MAOIs — critical avoidance.",
+    tags: ["Amino Acids", "Dopamine", "Mood", "Cognition"],
+  },
 ];
 
 function slugPair(a: string, b: string): string {
