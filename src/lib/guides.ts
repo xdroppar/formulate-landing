@@ -392,6 +392,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "best-supplements-for-joint-pain",
+    title: "Best Supplements for Joint Pain: Evidence-Based Stack for Osteoarthritis",
+    description:
+      "Only four supplement categories have strong RCT evidence for joint pain: Curcumin, Boswellia, Fish Oil, and Glucosamine+Chondroitin. The starter stack, doses, and what to skip.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "11 min read",
+    tags: ["Joint Pain", "Osteoarthritis", "Anti-Inflammatory", "Cartilage"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:
