@@ -644,7 +644,7 @@ export function IronGuide() {
       Doses above 45mg elemental iron daily require medical supervision during pregnancy. Iron overload carries risks for both mother and fetus, and pregnancy-related inflammation can artificially elevate ferritin, masking true iron status. If your provider has identified deficiency, they'll set a specific dose and recheck labs — don't adjust on your own.
       </Callout>
 
-      <p>The every-other-day dosing protocol (Stoffel et al., 2017) has not been extensively studied in pregnant populations specifically, so consult your healthcare provider before applying it. For broader context on how iron fits alongside other prenatal nutrients, see our <a href="/guides/supplement-stacking">stack-building guide</a>.</p>
+      <p>The every-other-day dosing protocol (Stoffel et al., 2017) has not been extensively studied in pregnant populations specifically, so consult your healthcare provider before applying it. For broader context on how iron fits alongside other prenatal nutrients, see our <a href="/guides/how-to-build-a-supplement-stack">stack-building guide</a>.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>

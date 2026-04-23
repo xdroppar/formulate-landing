@@ -505,7 +505,7 @@ export function TaurineGuide() {
       <p>Dietary taurine from food sources like meat, fish, and shellfish is generally considered safe during pregnancy and is part of a normal omnivorous diet. The question mark surrounds <em>supplemental</em> doses — particularly the 1–6g range discussed elsewhere in this guide — where no pregnancy-specific safety data exists.</p>
 
       <Callout variant="warning" title="Consult your OB or midwife before supplementing">
-      Despite taurine's role in fetal development and its presence in breast milk, supplemental taurine during pregnancy and lactation has not been studied for safety at doses above dietary intake. Do not start taurine supplementation without guidance from your prenatal care provider. This applies equally to <a href="/guides/magnesium-supplements">magnesium taurate</a>, which delivers taurine as part of the chelate.
+      Despite taurine's role in fetal development and its presence in breast milk, supplemental taurine during pregnancy and lactation has not been studied for safety at doses above dietary intake. Do not start taurine supplementation without guidance from your prenatal care provider. This applies equally to <a href="/guides/best-magnesium-supplements">magnesium taurate</a>, which delivers taurine as part of the chelate.
       </Callout>
 
       <h2>Who Should Talk to a Doctor First</h2>

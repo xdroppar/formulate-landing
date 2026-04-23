@@ -635,7 +635,7 @@ Build your supplement schedule around your medication times, not the other way a
 
 <h3>MTHFR and Folate Form</h3>
 
-<p>Roughly 10–15% of certain populations are homozygous for the MTHFR C677T variant, substantially reducing their ability to convert folic acid to its active form, L-methylfolate (Weisberg et al., 1998). <EvidenceBadge level="moderate" /> For these individuals, timing folic acid perfectly is beside the point — the <em>form</em> matters more. If you've been supplementing folic acid without results, an <a href="/guides/b-vitamins-guide">active folate (5-MTHF)</a> may be worth discussing with your provider.</p>
+<p>Roughly 10–15% of certain populations are homozygous for the MTHFR C677T variant, substantially reducing their ability to convert folic acid to its active form, L-methylfolate (Weisberg et al., 1998). <EvidenceBadge level="moderate" /> For these individuals, timing folic acid perfectly is beside the point — the <em>form</em> matters more. If you've been supplementing folic acid without results, an <a href="/guides/vitamin-b12-guide">active folate (5-MTHF)</a> may be worth discussing with your provider.</p>
 
 <h3>Older Adults: Gastric Acid and B12</h3>
 

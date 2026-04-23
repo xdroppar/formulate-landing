@@ -328,7 +328,7 @@ export function LionsManeGuide() {
 
       <h3>No Long-Term Safety or Efficacy Data</h3>
 
-      <p>The longest controlled human trial lasted 16 weeks. No published study has tracked lion's mane supplementation for six months, a year, or longer. <EvidenceBadge level="emerging" /> For a supplement often framed as a <a href="/guides/longevity-supplements">longevity investment</a>, this is a conspicuous gap. We're extrapolating long-term use from short-term data — something the research itself can't validate.</p>
+      <p>The longest controlled human trial lasted 16 weeks. No published study has tracked lion's mane supplementation for six months, a year, or longer. <EvidenceBadge level="emerging" /> For a supplement often framed as a <a href="/guides/beginner-longevity-supplement-stack">longevity investment</a>, this is a conspicuous gap. We're extrapolating long-term use from short-term data — something the research itself can't validate.</p>
 
       <h3>No Dose-Ranging Trials</h3>
 
@@ -412,7 +412,7 @@ Bring your full supplement list — including anything you're considering adding
 
       <Callout variant="info" title="Set Realistic Expectations">The existing evidence suggests lion's mane <em>might</em> support cognitive function in healthy adults through NGF-mediated mechanisms, but "might" is doing heavy lifting in that sentence. If you're expecting the clear, dose-dependent improvement seen in the Mori MCI trial, you may be disappointed. The biological plausibility is real; the human proof for your specific situation is not yet here.</Callout>
 
-      <p>If you decide to try it anyway — and the <a href="/guides/lions-mane-guide">safety profile</a> makes that a reasonable gamble — treat it as a personal experiment. Use the dosing and quality benchmarks outlined above, give it a full month, and assess honestly. Just know you're running ahead of the science, not behind it. For context on building a broader cognitive stack while evidence catches up, see our <a href="/guides/supplement-stack-guide">supplement stacking guide</a>.</p>
+      <p>If you decide to try it anyway — and the <a href="/guides/lions-mane-guide">safety profile</a> makes that a reasonable gamble — treat it as a personal experiment. Use the dosing and quality benchmarks outlined above, give it a full month, and assess honestly. Just know you're running ahead of the science, not behind it. For context on building a broader cognitive stack while evidence catches up, see our <a href="/guides/how-to-build-a-supplement-stack">supplement stacking guide</a>.</p>
 
 
       <h2>Top Lion's Mane Supplements That Meet These Standards</h2>

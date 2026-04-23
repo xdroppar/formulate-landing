@@ -252,7 +252,7 @@ export function MagnesiumForAnxiety() {
       Magnesium glycinate gives you a partial glycine dose (~1.2–2.4 g) that contributes to but doesn't replicate standalone glycine research. Its real advantage over other magnesium forms is sustained tolerability at therapeutic doses. If you want to reach the full 3 g glycine threshold, you'd need to supplement glycine separately—which is inexpensive and generally well-tolerated.
       </Callout>
 
-      <p>None of this undermines the case for glycinate as the best magnesium form for anxiety. It just means the primary driver of benefit is the magnesium itself—correcting deficiency, modulating NMDA receptors, enhancing GABA signaling—with glycine acting as a useful supporting player rather than an equal co-star. If you're building a broader <a href="/guides/best-sleep-supplements">sleep supplement protocol</a>, adding standalone glycine on top of your magnesium glycinate is a reasonable, low-risk strategy to capture both benefits fully.</p>
+      <p>None of this undermines the case for glycinate as the best magnesium form for anxiety. It just means the primary driver of benefit is the magnesium itself—correcting deficiency, modulating NMDA receptors, enhancing GABA signaling—with glycine acting as a useful supporting player rather than an equal co-star. If you're building a broader <a href="/guides/best-sleep-supplement-protocol">sleep supplement protocol</a>, adding standalone glycine on top of your magnesium glycinate is a reasonable, low-risk strategy to capture both benefits fully.</p>
 
       <h2>Magnesium Glycinate vs. Magnesium Taurate for Anxiety</h2>
 

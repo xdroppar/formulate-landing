@@ -67,6 +67,13 @@ REDIRECTS: dict[str, str] = {
     "multivitamin": "do-you-need-a-multivitamin",
     "collagen-for-joints": "best-collagen-for-joints",
     "beta-alanine-supplements": "beta-alanine",
+    # Residual baseline sweep (2026-04-22) — final broken-link cleanup
+    "supplement-stacking": "how-to-build-a-supplement-stack",
+    "supplement-stack-guide": "how-to-build-a-supplement-stack",
+    "longevity-supplements": "beginner-longevity-supplement-stack",
+    "best-sleep-supplements": "best-sleep-supplement-protocol",
+    "magnesium-supplements": "best-magnesium-supplements",
+    "b-vitamins-guide": "vitamin-b12-guide",
 }
 
 # Targets with no existing canonical guide — log as future content backlog.
@@ -89,6 +96,10 @@ BACKLOG_TARGETS: list[str] = [
     #   "vitamin-b12-supplement"             # redirect
     #   "multivitamin"                       # redirect
     #   "collagen-for-joints"                # redirect
+
+    # Residual genuinely-missing targets — would need new guides:
+    "magnesium-and-kidney-function",
+    "ibs-vs-ibd-differences",
 ]
 
 
