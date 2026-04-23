@@ -418,6 +418,20 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "best-vitamin-c-supplements",
+    title: "Best Vitamin C Supplements 2026: Form, Dose, and What Actually Works",
+    description:
+      "Ascorbic acid, buffered, liposomal, or whole-food? Dose by goal (daily health, acute illness, iron absorption, collagen). What the Linus Pauling megadose narrative got wrong.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "10 min read",
+    tags: ["Vitamin C", "Immune", "Antioxidants", "Ascorbic Acid"],
+    catalogLink: "https://app.formulate-health.app/catalog?q=vitamin+c",
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

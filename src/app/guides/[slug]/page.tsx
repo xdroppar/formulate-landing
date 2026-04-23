@@ -31,6 +31,7 @@ import { ThirdPartyTestingSupplements } from "./content/third-party-testing-supp
 import { Coq10Benefits } from "./content/coq10-benefits";
 import { BestSupplementsForJointPain } from "./content/best-supplements-for-joint-pain";
 import { MethylfolateVsFolicAcid } from "./content/methylfolate-vs-folic-acid";
+import { BestVitaminCSupplements } from "./content/best-vitamin-c-supplements";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -103,6 +104,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "coq10-benefits": Coq10Benefits,
   "best-supplements-for-joint-pain": BestSupplementsForJointPain,
   "methylfolate-vs-folic-acid": MethylfolateVsFolicAcid,
+  "best-vitamin-c-supplements": BestVitaminCSupplements,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,
