@@ -445,6 +445,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "how-to-read-supplement-research",
+    title: "How to Read Supplement Research: The 5-Step Claim Audit",
+    description:
+      "The evidence hierarchy, four red flags in any supplement study, how to skim an abstract in 60 seconds, and the three research sources actually worth trusting.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "10 min read",
+    tags: ["Evidence", "Research", "Methodology", "Meta"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

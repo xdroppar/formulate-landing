@@ -62,6 +62,9 @@ REDIRECTS: dict[str, str] = {
     "omega-3-dosing-guide": "best-omega-3-supplements",
     # Third-party testing (backlog cleared by shipping the combined guide)
     "usp-verified-supplements": "third-party-testing-supplements",
+    # Backlog consolidations — redirect to existing canonical guides
+    "vitamin-b12-supplement": "vitamin-b12-guide",
+    "multivitamin": "do-you-need-a-multivitamin",
 }
 
 # Targets with no existing canonical guide — log as future content backlog.
@@ -72,16 +75,16 @@ BACKLOG_TARGETS = [
     #   "supplement-safety",                 # shipped 2026-04-21
     #   "third-party-testing-supplements",   # shipped 2026-04-21
     #   "usp-verified-supplements",          # redirects → third-party-testing-supplements
-    "coq10-benefits",
+    #   "coq10-benefits",                    # shipped 2026-04-22
+    #   "best-supplements-for-joint-pain",   # shipped 2026-04-22
+    #   "methylfolate-vs-folic-acid",        # shipped 2026-04-22
+    #   "best-vitamin-c-supplements",        # shipped 2026-04-22
+    #   "protein-guide",                     # shipped 2026-04-22
+    #   "vitamin-b12-supplement",            # redirects → vitamin-b12-guide
+    #   "multivitamin",                      # redirects → do-you-need-a-multivitamin
     "beta-alanine",
     "beta-alanine-supplements",
-    "methylfolate-vs-folic-acid",
-    "multivitamin",
     "multivitamin-comparison",
-    "best-vitamin-c-supplements",
-    "best-supplements-for-joint-pain",
-    "protein-guide",
-    "vitamin-b12-supplement",
     "how-to-read-supplement-research",
     "collagen-for-joints",
 ]

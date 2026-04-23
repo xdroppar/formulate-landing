@@ -33,6 +33,7 @@ import { BestSupplementsForJointPain } from "./content/best-supplements-for-join
 import { MethylfolateVsFolicAcid } from "./content/methylfolate-vs-folic-acid";
 import { BestVitaminCSupplements } from "./content/best-vitamin-c-supplements";
 import { ProteinGuide } from "./content/protein-guide";
+import { HowToReadSupplementResearch } from "./content/how-to-read-supplement-research";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -107,6 +108,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "methylfolate-vs-folic-acid": MethylfolateVsFolicAcid,
   "best-vitamin-c-supplements": BestVitaminCSupplements,
   "protein-guide": ProteinGuide,
+  "how-to-read-supplement-research": HowToReadSupplementResearch,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,

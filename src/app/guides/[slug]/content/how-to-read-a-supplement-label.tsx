@@ -549,7 +549,7 @@ Pharmacists can screen for supplement-drug interactions in minutes and don't req
 
 <h3>Adults 65 and Older</h3>
 
-<p>Age-related declines in stomach acid (hypochlorhydria affects an estimated 10–30% of older adults) reduce absorption of <a href="/guides/vitamin-b12-supplement">vitamin B12</a> and calcium from food. The crystalline B12 in supplements bypasses this issue, but dose targets shift — many clinicians recommend 500–1,000 mcg/day of methylcobalamin rather than the standard 2.4 mcg RDA designed for younger adults with normal absorption. Vitamin D requirements also trend higher; the Endocrine Society has suggested 1,500–2,000 IU/day for adults over 65, above the general 600 IU RDA. Meanwhile, higher medication burden in this age group multiplies interaction risk. Every new supplement deserves a conversation with your provider.</p>
+<p>Age-related declines in stomach acid (hypochlorhydria affects an estimated 10–30% of older adults) reduce absorption of <a href="/guides/vitamin-b12-guide">vitamin B12</a> and calcium from food. The crystalline B12 in supplements bypasses this issue, but dose targets shift — many clinicians recommend 500–1,000 mcg/day of methylcobalamin rather than the standard 2.4 mcg RDA designed for younger adults with normal absorption. Vitamin D requirements also trend higher; the Endocrine Society has suggested 1,500–2,000 IU/day for adults over 65, above the general 600 IU RDA. Meanwhile, higher medication burden in this age group multiplies interaction risk. Every new supplement deserves a conversation with your provider.</p>
 
       <h2>Who Should Talk to a Doctor First</h2>
       <p>
