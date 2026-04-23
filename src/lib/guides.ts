@@ -379,6 +379,19 @@ export const guides: Guide[] = [
     isNew: true,
   },
   {
+    slug: "coq10-benefits",
+    title: "CoQ10 Benefits: What the Evidence Actually Supports",
+    description:
+      "CoQ10 helps clearly in statin myalgia, heart failure, and migraine. Weak evidence for Parkinson's, blood pressure, and anti-aging. Dose, form, and who benefits most.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    readTime: "8 min read",
+    tags: ["CoQ10", "Mitochondrial", "Heart Health", "Statins"],
+    isNew: true,
+  },
+  {
     slug: "electrolytes-guide",
     title: "Electrolytes Guide 2026: Evidence-Based Sodium, Potassium & Magnesium",
     description:

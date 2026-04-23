@@ -28,6 +28,7 @@ import { BerberineGuide } from "./content/berberine-guide";
 import { SupplementDrugInteractions } from "./content/supplement-drug-interactions";
 import { SupplementSafety } from "./content/supplement-safety";
 import { ThirdPartyTestingSupplements } from "./content/third-party-testing-supplements";
+import { Coq10Benefits } from "./content/coq10-benefits";
 import { ElectrolytesGuide } from "./content/electrolytes-guide";
 import { TaurineGuide } from "./content/taurine-guide";
 import { IronGuide } from "./content/iron-guide";
@@ -97,6 +98,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "supplement-drug-interactions": SupplementDrugInteractions,
   "supplement-safety": SupplementSafety,
   "third-party-testing-supplements": ThirdPartyTestingSupplements,
+  "coq10-benefits": Coq10Benefits,
   "electrolytes-guide": ElectrolytesGuide,
   "taurine-guide": TaurineGuide,
   "iron-guide": IronGuide,
