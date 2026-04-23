@@ -139,6 +139,62 @@ export function studiesByTopic(): { topic: string; items: StudyWithSlug[] }[] {
     .sort((a, b) => b.items.length - a.items.length);
 }
 
+export type InteractionStudyMatch = StudyWithSlug & {
+  /** 'both' = study text mentions both substances (highest-signal for a
+   *  real interaction page); 'a' / 'b' = only one side matched. */
+  side: "both" | "a" | "b";
+};
+
+/** Find studies relevant to an interaction pair. Returns studies that mention
+ *  EITHER substance, tagged by which side(s) matched. Results come out with
+ *  both-sides matches first (those are the most on-topic for a pair page),
+ *  then single-side matches, each block sorted by year descending.
+ *
+ *  Same word-boundary regex discipline as studiesForIngredient — avoids
+ *  "dha" inside "ashwagandha" type substring hits. */
+export function studiesForInteraction(
+  aName: string,
+  aAliases: string[] = [],
+  bName: string,
+  bAliases: string[] = [],
+  limit = 8,
+): InteractionStudyMatch[] {
+  const buildRegexes = (name: string, aliases: string[]): RegExp[] => {
+    const needles = Array.from(
+      new Set(
+        [name, ...aliases]
+          .map((n) => n.trim().toLowerCase())
+          .filter((n) => n.length >= 3 && !n.includes("(")),
+      ),
+    );
+    return needles.map((n) => {
+      const escaped = n.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+      return new RegExp(`\\b${escaped}\\b`, "i");
+    });
+  };
+  const aRegex = buildRegexes(aName, aAliases);
+  const bRegex = buildRegexes(bName, bAliases);
+  if (aRegex.length === 0 || bRegex.length === 0) return [];
+
+  const matches: InteractionStudyMatch[] = [];
+  for (const s of researchEntries) {
+    const haystack = `${s.title} ${s.journal} ${s.authors} ${s.summary ?? ""}`;
+    const hitA = aRegex.some((re) => re.test(haystack));
+    const hitB = bRegex.some((re) => re.test(haystack));
+    if (!hitA && !hitB) continue;
+    const side: "both" | "a" | "b" = hitA && hitB ? "both" : hitA ? "a" : "b";
+    matches.push({ ...s, side });
+  }
+  // Both-sides first, then year descending within each block.
+  const rank = (m: InteractionStudyMatch) => (m.side === "both" ? 0 : 1);
+  matches.sort((x, y) => {
+    const r = rank(x) - rank(y);
+    if (r !== 0) return r;
+    return y.year - x.year;
+  });
+  return matches.slice(0, limit);
+}
+
 /** Simple kebab-case slug for a topic label (used nowhere yet but kept
  *  available for future filtering). */
 export function topicSlug(topic: string): string {

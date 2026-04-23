@@ -15,6 +15,7 @@ import {
 } from "@/lib/interactions";
 import { getGuidesForSubstances } from "@/lib/guides";
 import { findIngredientByName } from "@/lib/encyclopedia";
+import { studiesForInteraction } from "@/lib/research";
 
 const BASE = "https://formulate-health.app";
 
@@ -361,6 +362,70 @@ export default async function PairPage({ params }: { params: Params }) {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </section>
+        );
+      })()}
+
+      {found && (() => {
+        const ingA = findIngredientByName(a.canonical);
+        const ingB = findIngredientByName(b.canonical);
+        const citedResearch = studiesForInteraction(
+          a.canonical,
+          [...(a.aliases ?? []), ...(ingA?.aliases ?? [])],
+          b.canonical,
+          [...(b.aliases ?? []), ...(ingB?.aliases ?? [])],
+          6,
+        );
+        if (citedResearch.length === 0) return null;
+        const bothCount = citedResearch.filter((s) => s.side === "both").length;
+        return (
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-text mb-3">
+              Cited research
+            </h2>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              Studies from our registry that mention{" "}
+              {bothCount > 0
+                ? `both ${aName.toLowerCase()} and ${bName.toLowerCase()}`
+                : `${aName.toLowerCase()} or ${bName.toLowerCase()}`}
+              . Each links to the primary source and the other Formulate pages
+              citing it.
+            </p>
+            <ul className="space-y-3">
+              {citedResearch.map((s) => {
+                const relevanceLabel =
+                  s.side === "both"
+                    ? `${aName} + ${bName}`
+                    : s.side === "a"
+                      ? aName
+                      : bName;
+                return (
+                  <li key={s.id}>
+                    <Link
+                      href={`/research/${s.slug}`}
+                      className="block rounded-lg border border-border bg-card/20 px-4 py-3 hover:border-accent transition-colors"
+                    >
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-1">
+                        {s.side === "both"
+                          ? `Both substances · ${s.year}`
+                          : `Mentions ${relevanceLabel} · ${s.year}`}
+                      </p>
+                      <p className="text-sm font-semibold text-text leading-snug">
+                        {s.title}
+                      </p>
+                      <p className="text-xs text-muted mt-1">
+                        {s.authors} · <em>{s.journal}</em>
+                      </p>
+                      {s.summary && (
+                        <p className="text-xs text-muted mt-1 line-clamp-2">
+                          {s.summary}
+                        </p>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </section>
         );
