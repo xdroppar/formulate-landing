@@ -11,6 +11,7 @@ import {
 } from "@/lib/encyclopedia";
 import { findSubstance, interactionsFor, SEVERITY_META } from "@/lib/interactions";
 import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
+import { comparisons, comparisonSlug } from "@/lib/comparisons";
 
 const BASE = "https://formulate-health.app";
 
@@ -135,6 +136,11 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
   // Products containing this ingredient — top-scored only.
   const matchingProducts = productsContaining(ing, 4);
+
+  // Compare pages that feature this ingredient as either side.
+  const relatedComparisons = comparisons.filter(
+    (c) => c.a === ing.slug || c.b === ing.slug,
+  );
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -450,6 +456,38 @@ export default async function IngredientPage({ params }: { params: Params }) {
               {gradeMeta.description}
             </p>
           )}
+        </section>
+      )}
+
+      {relatedComparisons.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            {ing.name} compared head-to-head
+          </h2>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {relatedComparisons.map((c) => {
+              const otherSlug = c.a === ing.slug ? c.b : c.a;
+              const other = ingredients.find((i) => i.slug === otherSlug);
+              const otherName = other?.name ?? otherSlug;
+              return (
+                <li key={comparisonSlug(c)}>
+                  <Link
+                    href={`/compare/${comparisonSlug(c)}`}
+                    className="block px-3 py-2 rounded-lg border border-border bg-white/[0.02] hover:border-accent/40 transition-colors"
+                  >
+                    <p className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-0.5">
+                      {c.topic}
+                    </p>
+                    <p className="text-sm text-text">
+                      {ing.name}{" "}
+                      <span className="text-muted font-normal">vs</span>{" "}
+                      {otherName}
+                    </p>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         </section>
       )}
 

@@ -33,6 +33,7 @@ GUIDES_TS = ROOT / "src" / "lib" / "guides.ts"
 INTERACTIONS_JSON = ROOT / "src" / "data" / "interactions.json"
 SUBSTANCES_JSON = ROOT / "src" / "data" / "substance-aliases.json"
 ENCYCLOPEDIA_JSON = ROOT / "src" / "data" / "encyclopedia.json"
+COMPARISONS_TS = ROOT / "src" / "lib" / "comparisons.ts"
 GUIDE_CONTENT_DIR = ROOT / "src" / "app" / "guides"
 PUBLIC_DIR = ROOT / "public"
 BASELINE = ROOT / "tools" / "validate_content_baseline.json"
@@ -75,6 +76,9 @@ class Code(str, Enum):
     INGREDIENT_SLUG_FORMAT = "ingredient_slug_format"
     INGREDIENT_SUMMARY_EMPTY = "ingredient_summary_empty"
     INGREDIENT_DUPLICATE_SLUG = "ingredient_duplicate_slug"
+    # Comparisons
+    COMPARISON_SLUG_UNKNOWN = "comparison_slug_unknown"
+    COMPARISON_SELF_PAIR = "comparison_self_pair"
     # Link rot
     GUIDE_LINK_BROKEN = "guide_link_broken"
     INTERACTION_LINK_BROKEN = "interaction_link_broken"
@@ -281,6 +285,33 @@ def validate_encyclopedia(report: Report) -> set[str]:
     return known
 
 
+# ── Comparisons ─────────────────────────────────────────────────────────────
+
+
+def validate_comparisons(known_ingredient_slugs: set[str], report: Report) -> None:
+    """Parse src/lib/comparisons.ts to catch typo'd encyclopedia slugs in
+    compare pairs before they ship as 404s. Regex parser matches the
+    established pattern from parse_guides() / seo_score_guides."""
+    if not COMPARISONS_TS.exists() or not known_ingredient_slugs:
+        return
+    text = COMPARISONS_TS.read_text(encoding="utf-8")
+    # Each comparison block: { a: "slug", b: "slug", ... }
+    blocks = re.findall(
+        r'\{\s*a:\s*"([^"]+)",\s*b:\s*"([^"]+)"',
+        text,
+    )
+    for a, b in blocks:
+        subj = f"compare:{'-vs-'.join(sorted([a, b]))}"
+        if a == b:
+            report.add(Issue(Code.COMPARISON_SELF_PAIR, Severity.ERROR, subj,
+                             f"comparison has identical a/b slug '{a}'"))
+            continue
+        for slug in (a, b):
+            if slug not in known_ingredient_slugs:
+                report.add(Issue(Code.COMPARISON_SLUG_UNKNOWN, Severity.ERROR, subj,
+                                 f"slug '{slug}' is not in encyclopedia — page will 404"))
+
+
 # ── Link rot ───────────────────────────────────────────────────────────────
 
 
@@ -390,6 +421,7 @@ def main() -> int:
 
     _, known_pair_keys = validate_interactions(report)
     known_ingredient_slugs = validate_encyclopedia(report)
+    validate_comparisons(known_ingredient_slugs, report)
     validate_link_rot(guide_slugs, known_pair_keys, known_ingredient_slugs, report)
 
     if args.update_baseline:
