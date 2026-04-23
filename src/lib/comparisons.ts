@@ -544,6 +544,86 @@ export const comparisons: Comparison[] = [
       "Can combine. Berberine is the active lever; Cinnamon is supportive. Watch Berberine with prescription glucose-lowering drugs — hypoglycemia risk from additive effects.",
     tags: ["Blood Sugar", "Metabolic Health", "Diabetes", "AMPK"],
   },
+  {
+    a: "bcaa",
+    b: "eaas",
+    topic: "Amino Acids for Muscle",
+    bottom_line:
+      "BCAAs are 3 of the 9 essentials; EAAs include all 9 — EAAs beat BCAAs for muscle protein synthesis at the same dose.",
+    why_compare:
+      "This is the amino acid supplement debate. BCAAs (branched-chain: leucine, isoleucine, valine) were the standard for decades; the logic was that leucine triggers muscle protein synthesis (MPS). But MPS requires all 9 essential amino acids to actually build muscle — leucine starts the process, the other 6 are needed to complete it. Taking BCAAs alone signals MPS but limits the build.",
+    when_a:
+      "Pick BCAAs if you already eat a high-protein diet — BCAAs during training can reduce subjective fatigue and intra-workout soreness. Dose: 5–10 g with water during training. Don't expect big muscle benefit on top of adequate protein.",
+    when_b:
+      "Pick EAAs if you're supplementing amino acids specifically to build muscle and your diet is light on complete protein — EAAs (all 9) reliably stimulate and support MPS. Dose: 10–15 g per serving. More expensive but the science favors them.",
+    combine:
+      "No reason to combine — EAAs already contain the BCAAs. Pick one. If calorie/cost-sensitive, BCAAs; if goal is lean mass gain, EAAs.",
+    tags: ["Amino Acids", "Muscle", "Protein", "Sports Nutrition"],
+  },
+  {
+    a: "caffeine",
+    b: "caffeine-theanine-stack",
+    topic: "Caffeine Stacks",
+    bottom_line:
+      "Plain Caffeine delivers energy with jitters; Caffeine + L-Theanine delivers energy without them — the classic focus stack.",
+    why_compare:
+      "Caffeine alone is a bimodal experience: the alertness is good, the heart-rate rise and jitters are not. Adding L-Theanine (typically 2:1 theanine-to-caffeine ratio) smooths the curve without reducing the alertness — theanine raises alpha-wave activity and blunts sympathetic output. Head-to-head cognitive tests show the combo beats caffeine alone on sustained-attention tasks.",
+    when_a:
+      "Pick plain Caffeine when you specifically want the stimulant punch — a pre-workout, a tough morning, pulling an all-nighter. Dose: 100–200 mg.",
+    when_b:
+      "Pick Caffeine + L-Theanine for sustained focus during work or study, or if you want caffeine benefits without anxiety. Best ratio: 100 mg caffeine + 200 mg L-Theanine. Effects are smoother and last as long.",
+    combine:
+      "Caffeine + L-Theanine IS the combination — it's not two separate products. Most 'focus' formulas use this pairing as the base. Safe at typical doses. Standard caffeine interactions apply (medications, pregnancy, etc.).",
+    tags: ["Nootropics", "Focus", "Caffeine", "Stacks"],
+  },
+  {
+    a: "flaxseed-oil-ala",
+    b: "fish-oil-epa-dha",
+    topic: "Omega-3 Sources",
+    bottom_line:
+      "Fish Oil delivers EPA/DHA directly; Flax gives you ALA that barely converts — Fish Oil wins for non-vegans.",
+    why_compare:
+      "Both are promoted as 'omega-3' but biochemically they're different. Fish Oil provides EPA and DHA — the long-chain omega-3s your body actually uses. Flax (and flaxseed oil) provides ALA (alpha-linolenic acid), a short-chain omega-3 your body converts to EPA (~5–10% efficiency) and DHA (~1–5% efficiency). Unless you're a strict vegan or have a specific ALA goal, Fish Oil is dramatically more efficient.",
+    when_a:
+      "Pick Fish Oil for cardiovascular, cognitive, and inflammatory benefits. Look for products with IFOS certification (low oxidation, low contaminants). Dose: 1–3 g/day combined EPA+DHA. Krill oil is an alternative with better absorption but higher cost.",
+    when_b:
+      "Pick Flax Oil if you're vegan/vegetarian and unwilling to use algae-based EPA/DHA (algae oil is the better vegan choice). Dose: 1–2 Tbsp/day, kept refrigerated — ALA oxidizes fast. Ground flaxseed gives fiber plus ALA.",
+    combine:
+      "Little reason to combine if you eat fish or take fish oil; the ALA conversion doesn't meaningfully add to what EPA/DHA supplementation already provides. Both mildly anticoagulant at high doses.",
+    tags: ["Omega-3", "Cardiovascular", "Vegan", "Anti-Inflammatory"],
+  },
+  {
+    a: "rhodiola",
+    b: "schisandra",
+    topic: "Performance Adaptogens",
+    bottom_line:
+      "Rhodiola fights mental fatigue; Schisandra protects the liver and endocrine system — both used in Russian cosmonaut and Olympic programs.",
+    why_compare:
+      "Both are prominent in the Russian/Chinese adaptogen traditions and both have trial-level evidence for fatigue and stress performance. Rhodiola rosea is the nervous-system-focused one — it improves mental endurance under time-pressure stress. Schisandra chinensis is more of a whole-body adaptogen with distinct liver-protective and HPA-axis balancing effects.",
+    when_a:
+      "Pick Rhodiola for mental fatigue, mild depression, or performance-under-pressure (exam weeks, deadline sprints). Dose: 200–600 mg of a 3% rosavins extract. Morning only — can disrupt sleep if taken late.",
+    when_b:
+      "Pick Schisandra for liver support alongside stress management, menopause-related fatigue, or endocrine balance. Has noticeable effect on focus and stamina without being stimulating. Dose: 500–1,500 mg/day of a standardized schisandrin extract.",
+    combine:
+      "Can be stacked — commonly together in Russian 'performance' protocols. Mechanisms are distinct (nervous vs. hepatic focus). No drug interactions at supplement doses.",
+    tags: ["Adaptogens", "Performance", "Liver", "Energy"],
+  },
+  {
+    a: "l-arginine",
+    b: "l-lysine",
+    topic: "Amino Acids: Different Jobs",
+    bottom_line:
+      "L-Arginine fuels nitric oxide (blood flow); L-Lysine fuels collagen synthesis and antiviral activity — totally different jobs.",
+    why_compare:
+      "These two get confused because they're both essential-adjacent amino acids sold as supplements, but they work on completely different systems. L-Arginine is the precursor to nitric oxide — it's the main actor in vascular relaxation and blood flow. L-Lysine is a structural amino acid critical for collagen synthesis; it's also the best-evidenced supplement for suppressing herpes simplex virus recurrences.",
+    when_a:
+      "Pick L-Arginine for blood flow support, erectile function, or pump during training. Dose: 3–6 g pre-workout for vascular effects. Absorption is low; L-Citrulline (the precursor that converts to arginine more efficiently) is often a better pick.",
+    when_b:
+      "Pick L-Lysine for cold sore / HSV prevention, collagen support, or as a general amino acid for users on low-protein diets. Dose: 1,000–3,000 mg/day for HSV prophylaxis; 500–1,000 mg/day for general use.",
+    combine:
+      "Safe to combine but rarely needed — they solve different problems. L-Arginine and L-Lysine compete for intestinal transporters; take them 2+ hours apart if you use both. Arginine can trigger HSV outbreaks in susceptible people — avoid if you have recurrent cold sores.",
+    tags: ["Amino Acids", "Circulation", "Immune", "Collagen"],
+  },
 ];
 
 function slugPair(a: string, b: string): string {
