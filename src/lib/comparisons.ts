@@ -288,6 +288,134 @@ export const comparisons: Comparison[] = [
       "Occasionally stacked in 'male vitality' formulas. Since their mechanisms differ (Tongkat Ali on HPG-axis, Tribulus via androgen-receptor sensitivity), combination is defensible. No documented drug interactions at supplement doses.",
     tags: ["Testosterone", "Male Health", "Libido", "Adaptogens"],
   },
+  {
+    a: "alpha-lipoic-acid",
+    b: "coq10",
+    topic: "Mitochondrial Support",
+    bottom_line:
+      "CoQ10 is the electron-transport fuel; Alpha-Lipoic Acid is the antioxidant that regenerates other antioxidants.",
+    why_compare:
+      "Both are pitched for mitochondrial function and both work there, but at different steps. CoQ10 (ubiquinone/ubiquinol) physically shuttles electrons in the electron transport chain — it's a direct fuel. Alpha-Lipoic Acid (ALA) acts as a broad-spectrum antioxidant that regenerates glutathione, vitamin C, and vitamin E, and separately improves glucose uptake in muscle.",
+    when_a:
+      "Pick ALA for diabetic neuropathy (strongest RCT evidence), general antioxidant support, or liver protection. Dose: 300–600 mg/day, split. Take on empty stomach for best absorption. R-ALA is the biologically active isomer if you want the upgraded form.",
+    when_b:
+      "Pick CoQ10 for statin-induced muscle fatigue, heart failure adjunct support, or age-related mitochondrial decline. Ubiquinol (the reduced form) is preferred over 50 years old. Dose: 100–200 mg/day with a fat source for absorption.",
+    combine:
+      "Commonly stacked — both live in the mitochondrion and hit complementary points. Often paired with Acetyl-L-Carnitine for a full 'mitochondrial protocol.' No drug interactions at supplement doses (watch CoQ10 with warfarin — may reduce INR).",
+    tags: ["Mitochondrial", "Antioxidants", "Diabetes", "Heart Health"],
+  },
+  {
+    a: "astragalus",
+    b: "reishi",
+    topic: "Immune Adaptogens",
+    bottom_line:
+      "Astragalus is the daily immune tonic; Reishi is the nervous-system-calming immune modulator.",
+    why_compare:
+      "Both have centuries of traditional Chinese medicine use for immune support and long life, but they do different things. Astragalus increases T-cell and NK-cell activity — it's more of an immune-revving tonic. Reishi (Ganoderma lucidum) is adaptogenic: it balances overactive immunity (useful in autoimmunity) while calming the parasympathetic system and supporting sleep.",
+    when_a:
+      "Pick Astragalus for daily immune support, frequent colds, or as a longevity tonic. Best evidence is in cancer patients on chemotherapy (adjunct, not replacement). Dose: 2–6 g/day of root, or 500–1,000 mg/day of a 15:1 extract.",
+    when_b:
+      "Pick Reishi if you want the immune benefit bundled with stress reduction, better sleep, or blood pressure lowering. Good choice for autoimmune conditions where Astragalus could over-stimulate. Dose: 1.5–3 g/day of dual-extracted powder.",
+    combine:
+      "Often stacked in TCM-inspired longevity formulas. Mechanisms overlap but aren't redundant. Watch Reishi with blood thinners — modest anticoagulant effect. Astragalus may stack with immunosuppressants in problematic ways; check with a clinician if on them.",
+    tags: ["Immune", "Adaptogens", "Mushrooms", "Longevity"],
+  },
+  {
+    a: "quercetin",
+    b: "vitamin-c",
+    topic: "Immune & Antiviral",
+    bottom_line:
+      "Vitamin C is the foundational antioxidant; Quercetin amplifies it — they work best as a pair.",
+    why_compare:
+      "Both show up in 'immune' protocols, especially for upper respiratory infections. Vitamin C is a broad water-soluble antioxidant with specific immune cell roles. Quercetin is a flavonoid with zinc-ionophore activity (it helps zinc enter cells) plus its own antioxidant and mast-cell-stabilizing effects. Human trials consistently show Quercetin + Vitamin C + Zinc as a trio is more effective than any single one for respiratory symptom duration.",
+    when_a:
+      "Pick Quercetin for allergy symptoms (mast-cell stabilizing), acute viral illness adjunct, or as a zinc-delivery helper. Dose: 500–1,000 mg/day. Absorption is poor — look for phytosome (Quercetin LipoMicel, QcLp) or with bromelain.",
+    when_b:
+      "Pick Vitamin C as a year-round foundational supplement. Modest effect on cold duration (~8% in average people, larger in athletes under physical stress). Dose: 500–1,000 mg/day, split — larger single doses aren't better absorbed.",
+    combine:
+      "The canonical stack. Quercetin + Vitamin C + Zinc is the evidence-based acute-respiratory-illness protocol. No drug interactions at supplement doses. High-dose Vitamin C (>2 g/day) can acidify urine and affect some kidney-cleared drugs.",
+    tags: ["Immune", "Antioxidants", "Antiviral", "Allergy"],
+  },
+  {
+    a: "ashwagandha",
+    b: "l-theanine",
+    topic: "Stress & Calm",
+    bottom_line:
+      "L-Theanine calms acutely (30 minutes); Ashwagandha calms chronically (4–8 weeks) — they solve different stress timelines.",
+    why_compare:
+      "Both are go-to supplements for anxiety and stress, but on different timescales. L-Theanine is an acute calming agent — it raises alpha brainwaves and reduces sympathetic arousal within 30 minutes. Ashwagandha is an adaptogen — its benefits (lower cortisol, better sleep, lower baseline anxiety) emerge over weeks of daily use.",
+    when_a:
+      "Pick Ashwagandha for chronic stress, elevated baseline cortisol, poor sleep, or high resting heart rate. Dose: 300–600 mg/day of a standardized root extract (KSM-66 or Sensoril). Watch for thyroid interactions.",
+    when_b:
+      "Pick L-Theanine for acute calm — before a meeting, during a stressful afternoon, or stacked with caffeine for focus-without-jitters. Dose: 100–200 mg. Kicks in fast, no drowsiness, safe to use daily or as-needed.",
+    combine:
+      "Very common stack — Ashwagandha daily for baseline + L-Theanine as-needed for acute events. No documented interaction. Be aware of ashwagandha's thyroid effects if you take levothyroxine.",
+    tags: ["Stress", "Anxiety", "Calm", "Adaptogens"],
+  },
+  {
+    a: "melatonin",
+    b: "valerian",
+    topic: "Sleep Support",
+    bottom_line:
+      "Melatonin targets circadian timing; Valerian targets GABA-mediated sedation — different mechanisms, different use cases.",
+    why_compare:
+      "Both are sold as 'natural sleep aids' but they're in separate categories. Melatonin is a hormone that signals darkness to the brain — it's most useful for jet lag, shift work, or delayed sleep phase. Valerian acts like a mild GABAergic sedative (similar mechanism to benzodiazepines, much weaker) — it induces physical relaxation and drowsiness.",
+    when_a:
+      "Pick Melatonin for timing-based sleep problems: jet lag, shift work, or can't-fall-asleep despite not being tired. Lowest effective dose is usually 0.3–1 mg; higher doses paradoxically disrupt sleep architecture.",
+    when_b:
+      "Pick Valerian for racing-mind anxiety-driven insomnia, or when you want a non-hormonal option. Effects are modest compared to prescription sleep aids. Dose: 400–900 mg root extract, 30–60 minutes before bed. Smells unpleasant.",
+    combine:
+      "Can be combined but rarely needed — both approaches. Valerian can potentiate benzodiazepines and alcohol; don't stack with prescription sleep meds. Melatonin is safer to combine with most things.",
+    tags: ["Sleep", "Insomnia", "Circadian", "GABA"],
+  },
+  {
+    a: "chondroitin-sulfate",
+    b: "glucosamine-sulfate",
+    topic: "Joint Support",
+    bottom_line:
+      "Glucosamine and Chondroitin are the classic joint stack — the evidence says they work better together than either alone.",
+    why_compare:
+      "Both are components of cartilage matrix and both are common in joint formulas. Glucosamine is a precursor to glycosaminoglycans (the shock-absorbing matrix in cartilage). Chondroitin is a glycosaminoglycan itself. The clinical trial picture is mixed — effects are modest and emerge over weeks — but the GAIT trial and subsequent meta-analyses suggest combined use outperforms either alone in moderate-to-severe knee osteoarthritis.",
+    when_a:
+      "Pick Chondroitin as a complement to Glucosamine, or on its own for users who can't tolerate Glucosamine (seafood allergy concerns with shellfish-derived Glucosamine). Dose: 800–1,200 mg/day.",
+    when_b:
+      "Pick Glucosamine Sulfate (not HCl — the sulfate form has better evidence) for daily cartilage support, particularly in osteoarthritis. Effects take 8–12 weeks. Dose: 1,500 mg/day. Some diabetics see small fasting glucose rises — monitor if you're on the edge.",
+    combine:
+      "Commonly combined — the typical 'joint supplement' is this duo. Often stacked with MSM, Curcumin, or Boswellia for broader anti-inflammatory coverage. Mild anticoagulant effect at high doses — watch with warfarin.",
+    tags: ["Joints", "Arthritis", "Cartilage", "Anti-Inflammatory"],
+  },
+  {
+    a: "5-htp",
+    b: "l-tryptophan",
+    topic: "Serotonin Precursors",
+    bottom_line:
+      "L-Tryptophan is one step further upstream; 5-HTP converts directly to serotonin — 5-HTP is faster, Tryptophan is safer.",
+    why_compare:
+      "Both supplement the body's serotonin production. L-Tryptophan is the amino acid you get from protein; the body converts it to 5-HTP (via tryptophan hydroxylase), then to serotonin. 5-HTP skips the rate-limiting step, so a 5-HTP dose raises serotonin faster and with less competition from other amino acids for transport into the brain.",
+    when_a:
+      "Pick 5-HTP for depression or mood adjuncts, appetite control, or acute sleep initiation. Dose: 100–300 mg/day. Effects emerge within hours to days. Don't combine with SSRIs, MAOIs, or other serotonergic drugs — serotonin syndrome risk.",
+    when_b:
+      "Pick L-Tryptophan when you want a gentler, more 'background' serotonin support. Dose: 500–2,000 mg/day. Safer at high doses than 5-HTP. Also serves as a niacin precursor at high intake.",
+    combine:
+      "Generally not combined — redundant. Never stack either with antidepressants or triptans without clinician oversight. See /interactions/5-htp-and-ssri for the serotonin syndrome risk profile.",
+    tags: ["Mood", "Depression", "Serotonin", "Sleep"],
+  },
+  {
+    a: "boswellia",
+    b: "curcumin",
+    topic: "Joint & Anti-Inflammatory",
+    bottom_line:
+      "Curcumin blocks NF-κB and COX-2; Boswellia blocks 5-LOX — they hit different inflammation pathways, so they combine well.",
+    why_compare:
+      "Both are plant-based anti-inflammatories with strong joint-pain evidence, particularly for osteoarthritis. Curcumin (from turmeric) primarily inhibits NF-κB and COX-2 enzymes. Boswellia (frankincense, specifically the AKBA compound) inhibits 5-lipoxygenase (5-LOX), a separate inflammatory pathway that Curcumin doesn't touch. That's why they're often paired — the mechanisms don't overlap.",
+    when_a:
+      "Pick Boswellia for osteoarthritis, ulcerative colitis, or asthma (5-LOX is involved in all three). Standardized extracts like AKBA-rich Boswellia serrata (5-Loxin) have the best RCT evidence. Dose: 250–500 mg/day.",
+    when_b:
+      "Pick Curcumin for general inflammation, joint pain, or mood support. Always use a bioavailable form (Meriva, Longvida, BCM-95, or with piperine) — plain Curcumin barely absorbs. Dose: 500–1,000 mg/day of a bioavailable extract.",
+    combine:
+      "The gold standard joint-supplement stack. Mechanisms don't overlap. Both have mild anticoagulant effects at high doses — check with clinician if on blood thinners.",
+    tags: ["Joints", "Arthritis", "Anti-Inflammatory", "Gut Health"],
+  },
 ];
 
 function slugPair(a: string, b: string): string {
