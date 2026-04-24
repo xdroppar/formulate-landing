@@ -12,6 +12,7 @@ Output:
     public/images/products/...
 """
 
+import hashlib
 import sqlite3
 import json
 import os
@@ -19,6 +20,28 @@ import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+
+def _file_version(path: Path) -> str:
+    """Short content hash used as ``?v=`` cache-buster on image URLs.
+
+    Vercel serves /public/ assets with ``cache-control: immutable``. Without a
+    version stamp, overwriting an image in place leaves every prior visitor
+    stuck on the old bytes for a year (see the 2026-04 creatine incident).
+    """
+    try:
+        h = hashlib.sha1()
+        with path.open("rb") as f:
+            for chunk in iter(lambda: f.read(65536), b""):
+                h.update(chunk)
+        return h.hexdigest()[:8]
+    except OSError:
+        return ""
+
+
+def _v(url: str, path: Path) -> str:
+    ver = _file_version(path)
+    return f"{url}?v={ver}" if ver else url
 
 # Paths
 LANDING_ROOT = Path(__file__).resolve().parents[1]
@@ -83,8 +106,9 @@ def copy_product_images(asset_dir: Path, brand_slug: str, product_slug: str) -> 
 
     # Copy primary (keep original extension)
     primary_name = f"primary{primary_src.suffix}"
-    shutil.copy2(primary_src, dest_dir / primary_name)
-    image_url = f"/images/products/{brand_slug}/{product_slug}/{primary_name}"
+    primary_dest = dest_dir / primary_name
+    shutil.copy2(primary_src, primary_dest)
+    image_url = _v(f"/images/products/{brand_slug}/{product_slug}/{primary_name}", primary_dest)
 
     # Copy thumb if present
     thumb_path = asset_dir / "thumb.webp"
@@ -96,14 +120,16 @@ def copy_product_images(asset_dir: Path, brand_slug: str, product_slug: str) -> 
     webp_gallery = sorted(asset_dir.glob("gallery_*.webp"))
     if webp_gallery:
         for gimg in webp_gallery:
-            shutil.copy2(gimg, dest_dir / gimg.name)
-            gallery.append(f"/images/products/{brand_slug}/{product_slug}/{gimg.name}")
+            gdest = dest_dir / gimg.name
+            shutil.copy2(gimg, gdest)
+            gallery.append(_v(f"/images/products/{brand_slug}/{product_slug}/{gimg.name}", gdest))
     else:
         # Fall back to raw gallery images (02_gallery_02.*, 03_gallery_03.*, etc.)
         for raw in sorted(asset_dir.glob("0[2-9]_gallery_*.*")):
             if raw.suffix.lower() in (".webp", ".jpg", ".jpeg", ".png"):
-                shutil.copy2(raw, dest_dir / raw.name)
-                gallery.append(f"/images/products/{brand_slug}/{product_slug}/{raw.name}")
+                rdest = dest_dir / raw.name
+                shutil.copy2(raw, rdest)
+                gallery.append(_v(f"/images/products/{brand_slug}/{product_slug}/{raw.name}", rdest))
 
     return image_url, gallery
 
