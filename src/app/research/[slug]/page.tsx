@@ -6,6 +6,7 @@ import {
   researchBySlug,
   guidesCitingStudy,
   type MethodologyGrade,
+  type StudyWithSlug,
 } from "@/lib/research";
 import { ingredientBySlug } from "@/lib/encyclopedia";
 import {
@@ -129,6 +130,8 @@ export default async function ResearchPage({ params }: { params: Params }) {
         </section>
       )}
 
+      {s.abstract && <PubmedAbstractSection study={s} />}
+
       {s.methodology && (() => {
         const m = s.methodology;
         const tone = GRADE_TONE[m.grade];
@@ -246,20 +249,45 @@ export default async function ResearchPage({ params }: { params: Params }) {
 
       <section className="mb-10">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
-          Read the paper
+          Read the full paper
         </h2>
-        <a
-          href={s.url}
-          target="_blank"
-          rel="noopener"
-          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border bg-white/[0.03] hover:border-accent transition-colors text-sm text-text"
-        >
-          {s.url.includes("pubmed") ? "Open on PubMed" : "Open source"}{" "}
-          <span aria-hidden>→</span>
-        </a>
-        <p className="text-xs text-muted mt-3 leading-relaxed break-all">
-          {s.url}
-        </p>
+        <div className="flex flex-wrap items-center gap-3">
+          <a
+            href={s.url}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border bg-white/[0.03] hover:border-accent transition-colors text-sm text-text"
+          >
+            {s.url.includes("pubmed") ? "Open on PubMed" : "Open source"}{" "}
+            <span aria-hidden>→</span>
+          </a>
+          {s.pmid && (
+            <span className="text-xs text-muted">
+              PMID{" "}
+              <a
+                href={`https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/`}
+                target="_blank"
+                rel="noopener"
+                className="text-text hover:text-accent transition-colors"
+              >
+                {s.pmid}
+              </a>
+            </span>
+          )}
+          {s.doi && (
+            <span className="text-xs text-muted">
+              DOI{" "}
+              <a
+                href={`https://doi.org/${s.doi}`}
+                target="_blank"
+                rel="noopener"
+                className="text-text hover:text-accent transition-colors break-all"
+              >
+                {s.doi}
+              </a>
+            </span>
+          )}
+        </div>
       </section>
 
       {citingGuides.length > 0 && (
@@ -332,6 +360,59 @@ export default async function ResearchPage({ params }: { params: Params }) {
         the primary source before drawing clinical conclusions.
       </p>
     </main>
+  );
+}
+
+/** Authors' own abstract, sourced from PubMed. We show this before our
+ *  methodology critique so readers see the paper's framing in its own words,
+ *  then our critique of that framing. Attribution is visible per NLM's data
+ *  distribution terms — abstracts are MEDLINE data. */
+function PubmedAbstractSection({ study }: { study: StudyWithSlug }) {
+  const ab = study.abstract;
+  if (!ab) return null;
+  const pubmedUrl = study.pmid
+    ? `https://pubmed.ncbi.nlm.nih.gov/${study.pmid}/`
+    : study.url;
+  return (
+    <section className="mb-8 rounded-xl border border-border bg-white/[0.02] p-5">
+      <div className="flex items-baseline justify-between gap-3 mb-3">
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-muted">
+          Abstract
+        </p>
+        {study.pmid && (
+          <a
+            href={pubmedUrl}
+            target="_blank"
+            rel="noopener"
+            className="text-[10px] uppercase tracking-wider text-muted hover:text-accent transition-colors"
+          >
+            PubMed · PMID {study.pmid} →
+          </a>
+        )}
+      </div>
+      <p className="text-sm text-text leading-relaxed whitespace-pre-line">
+        {ab.abstract}
+      </p>
+      <p className="text-[10px] text-muted mt-4 pt-3 border-t border-border leading-relaxed">
+        {ab.copyright ? (
+          <>
+            <span className="italic">{ab.copyright}</span>{" "}
+          </>
+        ) : null}
+        Abstract sourced from{" "}
+        <a
+          href={pubmedUrl}
+          target="_blank"
+          rel="noopener"
+          className="text-accent hover:underline"
+        >
+          PubMed
+        </a>
+        , a database of the U.S. National Library of Medicine. Displayed in the
+        authors&rsquo; own words for context; our critique is in the sections
+        below.
+      </p>
+    </section>
   );
 }
 
