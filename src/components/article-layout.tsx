@@ -10,6 +10,7 @@ import { RelatedInteractions } from "@/components/related-interactions";
 import { TableOfContents } from "@/components/table-of-contents";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { ReadingProgressBar } from "@/components/reading-progress-bar";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -111,6 +112,7 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
   const reviewer = getReviewer(guide.reviewer);
   return (
     <div className="pt-24 pb-20 px-6">
+      <ReadingProgressBar />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildArticleSchema(guide)) }}

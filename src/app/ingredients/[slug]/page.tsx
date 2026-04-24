@@ -13,6 +13,7 @@ import { findSubstance, interactionsFor, SEVERITY_META } from "@/lib/interaction
 import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
+import { ReadingProgressBar } from "@/components/reading-progress-bar";
 
 const BASE = "https://formulate-health.app";
 
@@ -182,6 +183,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
   return (
     <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
+      <ReadingProgressBar />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

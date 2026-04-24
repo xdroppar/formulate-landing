@@ -8,6 +8,14 @@ import {
   type MethodologyGrade,
 } from "@/lib/research";
 import { ingredientBySlug } from "@/lib/encyclopedia";
+import {
+  FLAG_EDUCATION,
+  READING_PRIMER,
+  CONFIDENCE_PALETTE,
+  gradeToConfidence,
+  type FlagEducation,
+} from "@/lib/research-education";
+import { ReadingProgressBar } from "@/components/reading-progress-bar";
 
 const GRADE_TONE: Record<MethodologyGrade, { bg: string; border: string; text: string }> = {
   A: { bg: "rgba(16,185,129,0.12)", border: "#10b981", text: "#10b981" },
@@ -15,29 +23,6 @@ const GRADE_TONE: Record<MethodologyGrade, { bg: string; border: string; text: s
   C: { bg: "rgba(245,158,11,0.12)", border: "#f59e0b", text: "#f59e0b" },
   D: { bg: "rgba(249,115,22,0.12)", border: "#f97316", text: "#f97316" },
   F: { bg: "rgba(239,68,68,0.12)", border: "#ef4444", text: "#ef4444" },
-};
-
-const FLAG_LABELS: Record<string, { label: string; tone: "strength" | "limit" }> = {
-  "small-n": { label: "Small n", tone: "limit" },
-  "short-duration": { label: "Short duration", tone: "limit" },
-  "surrogate-endpoint": { label: "Surrogate endpoint", tone: "limit" },
-  "industry-funded": { label: "Industry-funded", tone: "limit" },
-  "industry-adjacent": { label: "Industry-adjacent", tone: "limit" },
-  "unreplicated": { label: "Unreplicated", tone: "limit" },
-  "population-mismatch": { label: "Population mismatch", tone: "limit" },
-  "dose-mismatch": { label: "Dose mismatch", tone: "limit" },
-  "post-hoc-subgroup": { label: "Post-hoc subgroup", tone: "limit" },
-  "no-active-comparator": { label: "No active comparator", tone: "limit" },
-  "animal-study": { label: "Animal study", tone: "limit" },
-  "single-center": { label: "Single-center", tone: "limit" },
-  "large-n": { label: "Large n", tone: "strength" },
-  "multi-center": { label: "Multi-center", tone: "strength" },
-  "landmark-replicated": { label: "Landmark replicated", tone: "strength" },
-  "independent-funded": { label: "Independent-funded", tone: "strength" },
-  "pre-registered": { label: "Pre-registered", tone: "strength" },
-  "real-world-outcome": { label: "Real-world outcome", tone: "strength" },
-  "long-duration": { label: "Long duration", tone: "strength" },
-  "active-comparator": { label: "Active comparator", tone: "strength" },
 };
 
 const BASE = "https://formulate-health.app";
@@ -102,6 +87,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
 
   return (
     <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
+      <ReadingProgressBar />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -144,14 +130,20 @@ export default async function ResearchPage({ params }: { params: Params }) {
       )}
 
       {s.methodology && (() => {
-        const tone = GRADE_TONE[s.methodology.grade];
-        const flags = s.methodology.flags.map((f) => ({
-          key: f,
-          ...FLAG_LABELS[f],
-        }));
+        const m = s.methodology;
+        const tone = GRADE_TONE[m.grade];
+        const conf = gradeToConfidence(m.grade);
+        const pal = CONFIDENCE_PALETTE[conf.tone];
+        const positive = m.flags.filter((f) => FLAG_EDUCATION[f]?.kind === "pos");
+        const negative = m.flags.filter((f) => FLAG_EDUCATION[f]?.kind === "neg");
+
         return (
-          <section className="mb-10 rounded-xl border border-border bg-white/[0.02] p-5">
-            <div className="flex items-center gap-4 mb-4">
+          <>
+            {/* Confidence banner — plain-English translation of the grade */}
+            <section
+              className="mb-6 rounded-xl border p-5 flex items-center gap-4"
+              style={{ background: pal.bg, borderColor: pal.border }}
+            >
               <div
                 className="flex-shrink-0 rounded-lg border px-5 py-3 text-center"
                 style={{ background: tone.bg, borderColor: tone.border }}
@@ -160,57 +152,72 @@ export default async function ResearchPage({ params }: { params: Params }) {
                   className="text-4xl font-black leading-none"
                   style={{ color: tone.text }}
                 >
-                  {s.methodology.grade}
+                  {m.grade}
                 </p>
                 <p className="text-[10px] uppercase tracking-wider text-muted mt-1">
-                  {s.methodology.overall}/100
+                  {m.overall}/100
                 </p>
               </div>
               <div>
-                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-1">
-                  Methodology review
+                <p
+                  className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-1"
+                  style={{ color: pal.color }}
+                >
+                  {conf.label}
                 </p>
-                <p className="text-sm text-text font-semibold">
-                  Formulate&apos;s editorial read of the paper&apos;s design,
-                  scope, and limitations.
+                <p className="text-sm text-text leading-relaxed">
+                  {conf.description}
                 </p>
               </div>
-            </div>
-            {flags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mb-4">
-                {flags.map((f) =>
-                  f.label ? (
-                    <span
-                      key={f.key}
-                      className={`text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded ${
-                        f.tone === "strength"
-                          ? "bg-[rgba(16,185,129,0.10)] text-[#10b981] border border-[rgba(16,185,129,0.30)]"
-                          : "bg-[rgba(249,115,22,0.10)] text-[#f97316] border border-[rgba(249,115,22,0.30)]"
-                      }`}
-                    >
-                      {f.label}
-                    </span>
-                  ) : null,
-                )}
-              </div>
+            </section>
+
+            {/* Strengths + limitations summary */}
+            <section className="mb-6 grid md:grid-cols-2 gap-3">
+              <FlagColumn title="Strengths" kind="pos" flags={positive} />
+              <FlagColumn title="Limitations" kind="neg" flags={negative} />
+            </section>
+
+            {/* Critique + ideal design */}
+            <section className="mb-8 rounded-xl border border-border bg-white/[0.02] p-5">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
+                Critique
+              </p>
+              <p className="text-sm text-text leading-relaxed whitespace-pre-line mb-5">
+                {m.critique}
+              </p>
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
+                What would be more convincing
+              </p>
+              <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
+                {m.ideal_design}
+              </p>
+              <p className="text-[10px] text-muted mt-4 pt-3 border-t border-border">
+                Reviewed {m.reviewed_at} · Opinion based on verifiable facts
+                in the published paper.
+              </p>
+            </section>
+
+            {/* Per-flag deep dive — the "teach users to read studies" layer */}
+            {m.flags.length > 0 && (
+              <section className="mb-10">
+                <h2 className="text-xl font-bold text-text mb-1">
+                  What these flags mean for you
+                </h2>
+                <p className="text-sm text-muted mb-4 leading-relaxed">
+                  Each flag on this study comes with a plain-English breakdown
+                  of why it matters and how it should change the confidence
+                  you place in the result.
+                </p>
+                <div className="space-y-3">
+                  {m.flags.map((flag) => {
+                    const info = FLAG_EDUCATION[flag];
+                    if (!info) return null;
+                    return <FlagExplainer key={flag} info={info} />;
+                  })}
+                </div>
+              </section>
             )}
-            <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
-              Critique
-            </p>
-            <p className="text-sm text-text leading-relaxed whitespace-pre-line mb-5">
-              {s.methodology.critique}
-            </p>
-            <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-2">
-              What would be more convincing
-            </p>
-            <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
-              {s.methodology.ideal_design}
-            </p>
-            <p className="text-[10px] text-muted mt-4 pt-3 border-t border-border">
-              Reviewed {s.methodology.reviewed_at} · Opinion based on
-              verifiable facts in the published paper.
-            </p>
-          </section>
+          </>
         );
       })()}
 
@@ -279,6 +286,27 @@ export default async function ResearchPage({ params }: { params: Params }) {
         </section>
       )}
 
+      {/* Generic reading primer — shown on every study, even unreviewed ones.
+          This is the core educational payload: one visitor learning to
+          read research is worth more than a flashier methodology section. */}
+      <section className="mb-10 rounded-2xl border border-border bg-white/[0.02] p-6">
+        <h2 className="text-xl font-bold text-text mb-1">
+          {READING_PRIMER.title}
+        </h2>
+        <p className="text-sm text-muted mb-5 leading-relaxed">
+          The same questions worth asking about any research paper, not just
+          this one. Worth a minute even if you trust the grade.
+        </p>
+        <div className="space-y-4">
+          {READING_PRIMER.points.map((p) => (
+            <div key={p.heading}>
+              <p className="text-sm font-bold text-text mb-1">{p.heading}</p>
+              <p className="text-sm text-muted leading-relaxed">{p.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
           About this page
@@ -304,5 +332,104 @@ export default async function ResearchPage({ params }: { params: Params }) {
         the primary source before drawing clinical conclusions.
       </p>
     </main>
+  );
+}
+
+/** Two-column summary: positive flags (strengths) and negative flags
+ *  (limitations). Shown above the detailed critique. */
+function FlagColumn({
+  title,
+  kind,
+  flags,
+}: {
+  title: string;
+  kind: "pos" | "neg";
+  flags: string[];
+}) {
+  const color = kind === "pos" ? "#10b981" : "#f59e0b";
+  const bg = kind === "pos" ? "rgba(16,185,129,0.06)" : "rgba(245,158,11,0.06)";
+  const border =
+    kind === "pos" ? "rgba(16,185,129,0.30)" : "rgba(245,158,11,0.30)";
+  return (
+    <div
+      className="rounded-xl border p-4"
+      style={{ background: bg, borderColor: border }}
+    >
+      <p
+        className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-3"
+        style={{ color }}
+      >
+        {title}
+      </p>
+      {flags.length === 0 ? (
+        <p className="text-xs text-muted italic">
+          {kind === "pos"
+            ? "No notable design strengths identified."
+            : "No major methodological limitations flagged."}
+        </p>
+      ) : (
+        <ul className="space-y-1.5">
+          {flags.map((f) => {
+            const info = FLAG_EDUCATION[f];
+            if (!info) return null;
+            return (
+              <li key={f} className="text-sm text-text flex gap-2">
+                <span style={{ color }}>{kind === "pos" ? "✓" : "⚠"}</span>
+                {info.label}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+/** Per-flag deep-dive block. Teaches users what the flag means, why it
+ *  matters, and how to read around it — the educational core of the page. */
+function FlagExplainer({ info }: { info: FlagEducation }) {
+  const color = info.kind === "pos" ? "#10b981" : "#f59e0b";
+  return (
+    <div className="rounded-xl border border-border bg-white/[0.02] p-5">
+      <div className="flex items-center gap-2 mb-3">
+        <span
+          className="inline-flex items-center justify-center w-5 h-5 rounded-full text-[11px] font-bold"
+          style={{
+            color,
+            background: `${color}1A`,
+            border: `1px solid ${color}55`,
+          }}
+        >
+          {info.kind === "pos" ? "✓" : "⚠"}
+        </span>
+        <p className="text-sm font-extrabold text-text">{info.label}</p>
+      </div>
+      <div className="space-y-3">
+        <div>
+          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-1">
+            What it means
+          </p>
+          <p className="text-sm text-text leading-relaxed">
+            {info.plainLanguage}
+          </p>
+        </div>
+        <div>
+          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-1">
+            Why it matters
+          </p>
+          <p className="text-sm text-text leading-relaxed">
+            {info.whyItMatters}
+          </p>
+        </div>
+        <div>
+          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-1">
+            How to read around it
+          </p>
+          <p className="text-sm text-text leading-relaxed">
+            {info.howToInterpret}
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
