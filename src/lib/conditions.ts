@@ -389,3 +389,37 @@ const bySlug = new Map(conditions.map((c) => [c.slug, c]));
 export function conditionBySlug(slug: string): Condition | undefined {
   return bySlug.get(slug);
 }
+
+/**
+ * Conditions whose supplement list includes an entry matching this nutrient.
+ * Each match returns the condition + the specific ConditionIngredient row so
+ * the caller can render dose/evidence inline. Uses `nutrientForSupplementSlug`
+ * to handle form-named slugs ("magnesium-glycinate" → magnesium nutrient).
+ */
+export function conditionsForNutrient(
+  nutrient: { key: string; slug: string; synonyms: string[] },
+): { condition: Condition; supplement: ConditionIngredient }[] {
+  const out: { condition: Condition; supplement: ConditionIngredient }[] = [];
+  for (const c of conditions) {
+    for (const s of c.supplements) {
+      const norm = s.slug.trim().toLowerCase();
+      if (norm === nutrient.slug) {
+        out.push({ condition: c, supplement: s });
+        break;
+      }
+      if (norm.startsWith(`${nutrient.slug}-`)) {
+        out.push({ condition: c, supplement: s });
+        break;
+      }
+      if (
+        nutrient.synonyms.some(
+          (syn) => syn.toLowerCase().replace(/\s+/g, "-") === norm,
+        )
+      ) {
+        out.push({ condition: c, supplement: s });
+        break;
+      }
+    }
+  }
+  return out;
+}

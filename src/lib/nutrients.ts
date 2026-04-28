@@ -674,6 +674,39 @@ export interface NutrientProductHit {
   low_absorb: boolean;
 }
 
+/**
+ * True when a free-form supplement slug (e.g. "magnesium-glycinate",
+ * "vitamin-d", "iron-bisglycinate", "riboflavin") corresponds to this
+ * nutrient. Tries: exact slug match, slug starts with nutrient slug
+ * (handles form-named slugs), then synonym match.
+ *
+ * Used by both /nutrients/[slug] (to surface conditions where the
+ * nutrient has trial evidence) and /conditions/[slug] (to deep-link
+ * each supplement entry back to its nutrient page when applicable).
+ */
+export function nutrientForSupplementSlug(
+  supplementSlug: string,
+): CoreNutrient | undefined {
+  const norm = supplementSlug.trim().toLowerCase();
+  if (!norm) return undefined;
+
+  const direct = BY_SLUG.get(norm);
+  if (direct) return direct;
+
+  // Form-named slugs: "magnesium-glycinate" → magnesium; "iron-bisglycinate" → iron.
+  // Match longest nutrient slug first so multi-word nutrients (e.g. "vitamin-d")
+  // win over single-word collisions.
+  const byPrefix = [...CORE_NUTRIENTS]
+    .sort((a, b) => b.slug.length - a.slug.length)
+    .find((n) => norm === n.slug || norm.startsWith(`${n.slug}-`));
+  if (byPrefix) return byPrefix;
+
+  // Last resort: registry synonym list.
+  return CORE_NUTRIENTS.find((n) =>
+    n.synonyms.some((s) => s.toLowerCase().replace(/\s+/g, "-") === norm),
+  );
+}
+
 export function productsContainingNutrient(
   n: CoreNutrient,
   limit = 6,

@@ -8,6 +8,7 @@ import {
 } from "@/lib/conditions";
 import { ingredientBySlug, EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 import { stackBySlug } from "@/lib/stacks";
+import { nutrientForSupplementSlug } from "@/lib/nutrients";
 
 const BASE = "https://formulate-health.app";
 
@@ -174,14 +175,27 @@ export default async function ConditionPage({ params }: { params: Params }) {
                   </span>{" "}
                   {s.dose}
                 </p>
-                {ing && (
-                  <Link
-                    href={`/ingredients/${ing.slug}`}
-                    className="inline-block text-xs text-accent hover:underline mt-3"
-                  >
-                    Full {ing.name} profile →
-                  </Link>
-                )}
+                <div className="flex flex-wrap gap-x-4 gap-y-1 mt-3">
+                  {ing && (
+                    <Link
+                      href={`/ingredients/${ing.slug}`}
+                      className="text-xs text-accent hover:underline"
+                    >
+                      Full {ing.name} profile →
+                    </Link>
+                  )}
+                  {(() => {
+                    const matchedNutrient = nutrientForSupplementSlug(s.slug);
+                    return matchedNutrient ? (
+                      <Link
+                        href={`/nutrients/${matchedNutrient.slug}`}
+                        className="text-xs text-accent hover:underline"
+                      >
+                        {matchedNutrient.name} daily target & UL →
+                      </Link>
+                    ) : null;
+                  })()}
+                </div>
               </div>
             );
           })}

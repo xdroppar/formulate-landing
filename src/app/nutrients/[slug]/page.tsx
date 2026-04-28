@@ -15,6 +15,7 @@ import { nutrientContent } from "@/lib/nutrient_content";
 import { ingredients as encyclopediaIngredients } from "@/lib/encyclopedia";
 import { scoreGrade, thumbUrl } from "@/lib/products";
 import { studiesForIngredient } from "@/lib/research";
+import { conditionsForNutrient } from "@/lib/conditions";
 
 const BASE = "https://formulate-health.app";
 
@@ -77,6 +78,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
   const ingredientMatch = matchEncyclopediaIngredient(n.name, n.synonyms);
   const content = nutrientContent(n.key);
   const studies = studiesForIngredient(n.name, n.synonyms, 5);
+  const conditionMatches = conditionsForNutrient(n);
 
   /** Stable, deterministic FAQ derived from registry + content. Drives both
    *  the visible FAQ section and the FAQPage JSON-LD. */
@@ -510,6 +512,58 @@ export default async function NutrientPage({ params }: { params: Params }) {
           >
             {ingredientMatch.name} encyclopedia entry →
           </Link>
+        </section>
+      )}
+
+      {conditionMatches.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Conditions where {n.name} has evidence
+          </h2>
+          <p className="text-sm text-muted leading-relaxed mb-4">
+            {n.name} appears on the supplement list for the following
+            condition pages — each links to the full evidence summary, dose,
+            and lifestyle context.
+          </p>
+          <ul className="space-y-2">
+            {conditionMatches.map(({ condition, supplement }) => {
+              const tColor =
+                supplement.tier === "strong"
+                  ? "#10B981"
+                  : supplement.tier === "moderate"
+                    ? "#3B82F6"
+                    : "#F59E0B";
+              const tLabel =
+                supplement.tier === "strong"
+                  ? "Strong"
+                  : supplement.tier === "moderate"
+                    ? "Moderate"
+                    : "Preliminary";
+              return (
+                <li key={condition.slug}>
+                  <Link
+                    href={`/conditions/${condition.slug}`}
+                    className="block rounded-lg border border-border bg-white/[0.02] px-4 py-3 hover:border-accent/40 transition-colors"
+                  >
+                    <div className="flex items-center justify-between gap-3 mb-1 flex-wrap">
+                      <span className="text-sm font-semibold text-text">
+                        {condition.name}
+                      </span>
+                      <span
+                        className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded"
+                        style={{ backgroundColor: `${tColor}1a`, color: tColor }}
+                      >
+                        {tLabel} evidence
+                      </span>
+                    </div>
+                    <div className="text-xs text-muted">
+                      Dose: <span className="text-text">{supplement.dose}</span>
+                    </div>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         </section>
       )}
 
