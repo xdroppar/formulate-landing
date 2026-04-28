@@ -11,8 +11,10 @@ import {
   referenceTypeLabel,
   formatTarget,
 } from "@/lib/nutrients";
+import { nutrientContent } from "@/lib/nutrient_content";
 import { ingredients as encyclopediaIngredients } from "@/lib/encyclopedia";
 import { scoreGrade, thumbUrl } from "@/lib/products";
+import { studiesForIngredient } from "@/lib/research";
 
 const BASE = "https://formulate-health.app";
 
@@ -26,9 +28,16 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { slug } = await params;
   const n = nutrientBySlug(slug);
   if (!n) return { title: "Nutrient not found" };
+  const content = nutrientContent(n.key);
   const ulFragment =
     n.upper_limit != null ? `, upper limit ${n.upper_limit} ${n.unit}` : "";
-  const description = `${n.name} daily target ${n.daily_value} ${n.unit}${ulFragment}. Best forms, food sources, and supplements ranked by Formulate's ingredient scoring.`;
+  const topFoods = content?.food_sources
+    .slice(0, 3)
+    .map((f) => f.food.replace(/\s*\(.+?\)\s*/g, ""))
+    .join(", ");
+  const description = topFoods
+    ? `${n.name}: daily target ${n.daily_value} ${n.unit}${ulFragment}. Top food sources: ${topFoods}. Deficiency signs, best forms, and ranked supplements.`
+    : `${n.name} daily target ${n.daily_value} ${n.unit}${ulFragment}. Best forms, food sources, and supplements ranked by Formulate's ingredient scoring.`;
   const url = `${BASE}/nutrients/${slug}`;
   return {
     title: `${n.name}: Daily Target, Upper Limit, Best Form & Supplements — Formulate`,
@@ -66,6 +75,48 @@ export default async function NutrientPage({ params }: { params: Params }) {
   const lowAbsorbProducts = productHits.filter((h) => h.low_absorb);
   const related = relatedNutrients(n, 6);
   const ingredientMatch = matchEncyclopediaIngredient(n.name, n.synonyms);
+  const content = nutrientContent(n.key);
+  const studies = studiesForIngredient(n.name, n.synonyms, 5);
+
+  /** Stable, deterministic FAQ derived from registry + content. Drives both
+   *  the visible FAQ section and the FAQPage JSON-LD. */
+  const faqItems: { q: string; a: string }[] = [];
+  faqItems.push({
+    q: `What is the daily target for ${n.name}?`,
+    a: `The ${referenceTypeLabel(n.reference_type).toLowerCase()} for ${n.name} is ${n.daily_value} ${n.unit} per day for adults. ${
+      n.upper_limit != null
+        ? `The Tolerable Upper Intake Level is ${n.upper_limit} ${n.unit}/day from food and supplements combined.`
+        : "No Tolerable Upper Intake Level has been established."
+    }`,
+  });
+  if (content?.food_sources.length) {
+    const topFoods = content.food_sources
+      .slice(0, 3)
+      .map((f) => `${f.food} (${f.amount} per ${f.serving})`)
+      .join("; ");
+    faqItems.push({
+      q: `What foods are highest in ${n.name}?`,
+      a: `${topFoods}. See the food sources section below for the full list.`,
+    });
+  }
+  if (content?.best_form) {
+    faqItems.push({
+      q: `What is the best form of ${n.name} to supplement?`,
+      a: content.best_form,
+    });
+  }
+  if (content?.deficiency_signs.length) {
+    faqItems.push({
+      q: `What are the signs of ${n.name} deficiency?`,
+      a: content.deficiency_signs.slice(0, 3).join("; ") + ".",
+    });
+  }
+  if (content?.who_needs_more.length) {
+    faqItems.push({
+      q: `Who is most at risk for low ${n.name}?`,
+      a: content.who_needs_more.slice(0, 3).join("; ") + ".",
+    });
+  }
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -101,6 +152,18 @@ export default async function NutrientPage({ params }: { params: Params }) {
     ],
   };
 
+  const faqLd = faqItems.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqItems.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
   return (
     <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
       <script
@@ -111,6 +174,12 @@ export default async function NutrientPage({ params }: { params: Params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <nav className="text-sm text-muted mb-6" aria-label="Breadcrumb">
         <Link href="/nutrients" className="hover:text-text transition-colors">
@@ -180,6 +249,102 @@ export default async function NutrientPage({ params }: { params: Params }) {
             adverse effects. Multivitamins, fortified foods, and standalone
             supplements stack faster than people expect.
           </p>
+        </section>
+      )}
+
+      {content?.key_facts && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            What {n.name} does
+          </h2>
+          <p className="text-base text-text leading-relaxed">
+            {content.key_facts}
+          </p>
+        </section>
+      )}
+
+      {content?.food_sources && content.food_sources.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Food sources of {n.name}
+          </h2>
+          <p className="text-sm text-muted leading-relaxed mb-4">
+            Approximate {n.name} content per serving. Whole-food intake counts
+            toward your daily total alongside any supplemental dose.
+          </p>
+          <div className="overflow-hidden rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-white/[0.02] border-b border-border">
+                  <th className="text-left font-semibold text-muted uppercase text-xs tracking-wider px-4 py-2">
+                    Food
+                  </th>
+                  <th className="text-left font-semibold text-muted uppercase text-xs tracking-wider px-4 py-2">
+                    Serving
+                  </th>
+                  <th className="text-right font-semibold text-muted uppercase text-xs tracking-wider px-4 py-2">
+                    {n.name}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {content.food_sources.map((f, i) => (
+                  <tr
+                    key={`${f.food}-${i}`}
+                    className={i % 2 === 1 ? "bg-white/[0.01]" : ""}
+                  >
+                    <td className="px-4 py-2.5 text-text">{f.food}</td>
+                    <td className="px-4 py-2.5 text-muted">{f.serving}</td>
+                    <td className="px-4 py-2.5 text-right text-text font-semibold tabular-nums">
+                      {f.amount}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {content?.deficiency_signs && content.deficiency_signs.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Signs of {n.name} deficiency
+          </h2>
+          <ul className="space-y-2">
+            {content.deficiency_signs.map((s, i) => (
+              <li
+                key={i}
+                className="flex gap-3 text-sm text-text leading-relaxed"
+              >
+                <span className="text-warning flex-shrink-0 mt-1">●</span>
+                <span>{s}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {content?.who_needs_more && content.who_needs_more.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Who needs more {n.name}
+          </h2>
+          <p className="text-sm text-muted leading-relaxed mb-4">
+            Groups and situations where {n.name} requirements rise or status
+            commonly runs low:
+          </p>
+          <ul className="space-y-2">
+            {content.who_needs_more.map((s, i) => (
+              <li
+                key={i}
+                className="flex gap-3 text-sm text-text leading-relaxed"
+              >
+                <span className="text-accent flex-shrink-0 mt-1">●</span>
+                <span>{s}</span>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
@@ -345,6 +510,69 @@ export default async function NutrientPage({ params }: { params: Params }) {
           >
             {ingredientMatch.name} encyclopedia entry →
           </Link>
+        </section>
+      )}
+
+      {studies.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Research on {n.name}
+          </h2>
+          <p className="text-sm text-muted leading-relaxed mb-4">
+            Peer-reviewed studies in our research database that reference{" "}
+            {n.name}. Each entry links to a detailed methodology review.
+          </p>
+          <ul className="space-y-2">
+            {studies.map((s) => (
+              <li key={s.slug}>
+                <Link
+                  href={`/research/${s.slug}`}
+                  className="block rounded-lg border border-border bg-white/[0.02] px-4 py-3 hover:border-accent/40 transition-colors"
+                >
+                  <div className="text-xs text-muted mb-1 tabular-nums">
+                    {s.authors}
+                    {s.year ? `, ${s.year}` : ""}
+                    {s.journal ? ` · ${s.journal}` : ""}
+                    {s.methodology
+                      ? ` · Grade ${s.methodology.grade}`
+                      : ""}
+                  </div>
+                  <div className="text-sm font-semibold text-text leading-snug">
+                    {s.title}
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {faqItems.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-4">
+            Frequently asked questions
+          </h2>
+          <div className="space-y-3">
+            {faqItems.map((f, i) => (
+              <details
+                key={i}
+                className="group rounded-xl border border-border bg-white/[0.02] open:bg-white/[0.03]"
+              >
+                <summary className="cursor-pointer list-none px-4 py-3 flex items-center justify-between gap-3 text-sm font-semibold text-text hover:text-accent transition-colors">
+                  <span>{f.q}</span>
+                  <span
+                    className="text-muted text-xs transition-transform group-open:rotate-180"
+                    aria-hidden="true"
+                  >
+                    ▾
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-sm text-muted leading-relaxed">
+                  {f.a}
+                </div>
+              </details>
+            ))}
+          </div>
         </section>
       )}
 
