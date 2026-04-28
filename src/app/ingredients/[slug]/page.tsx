@@ -13,7 +13,18 @@ import { findSubstance, interactionsFor, SEVERITY_META } from "@/lib/interaction
 import { products, scoreGrade, thumbUrl, type Product } from "@/lib/products";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
+import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+
+/** Try to match this encyclopedia ingredient to a core-nutrient registry
+ *  entry by canonical name or alias. Drives the cross-link to /nutrients/X. */
+function matchNutrient(name: string, aliases: string[]): CoreNutrient | undefined {
+  const candidates = new Set([name.toLowerCase(), ...aliases.map((a) => a.toLowerCase())]);
+  return CORE_NUTRIENTS.find((n) => {
+    if (candidates.has(n.name.toLowerCase())) return true;
+    return n.synonyms.some((s) => candidates.has(s));
+  });
+}
 
 const BASE = "https://formulate-health.app";
 
@@ -147,6 +158,10 @@ export default async function IngredientPage({ params }: { params: Params }) {
   // Studies from the research registry that mention this ingredient.
   const citedResearch = studiesForIngredient(ing.name, ing.aliases, 8);
 
+  // Cross-link to the matching nutrient page when applicable (vitamins,
+  // minerals, amino acids that have a registry entry with daily target/UL).
+  const nutrientMatch = matchNutrient(ing.name, ing.aliases);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
@@ -232,6 +247,32 @@ export default async function IngredientPage({ params }: { params: Params }) {
         </div>
         <p className="text-base text-muted leading-relaxed mt-4">{ing.summary}</p>
       </header>
+
+      {nutrientMatch && (
+        <section className="mb-10 rounded-xl border border-accent/30 bg-accent/[0.04] p-4">
+          <div className="flex items-baseline justify-between gap-3 flex-wrap mb-2">
+            <h2 className="text-sm font-bold uppercase tracking-wider text-accent">
+              Daily target & upper limit
+            </h2>
+            <span className="text-xs text-muted tabular-nums">
+              {nutrientMatch.daily_value} {nutrientMatch.unit} / day
+              {nutrientMatch.upper_limit != null && (
+                <> · UL {nutrientMatch.upper_limit} {nutrientMatch.unit}</>
+              )}
+            </span>
+          </div>
+          <p className="text-sm text-text leading-relaxed mb-2">
+            {ing.name} has an established daily reference intake. See best forms,
+            label synonyms, upper-limit warnings, and top-scoring supplements:
+          </p>
+          <Link
+            href={`/nutrients/${nutrientMatch.slug}`}
+            className="text-sm font-semibold text-accent hover:underline"
+          >
+            {ing.name} dosage reference →
+          </Link>
+        </section>
+      )}
 
       {ing.primary_uses.length > 0 && (
         <section className="mb-10">

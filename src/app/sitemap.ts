@@ -9,6 +9,7 @@ import { conditions } from "@/lib/conditions";
 import { brandComparisons, brandComparisonSlug } from "@/lib/brand-comparisons";
 import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
+import { CORE_NUTRIENTS } from "@/lib/nutrients";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -178,6 +179,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const nutrientEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/nutrients`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    ...CORE_NUTRIENTS.map((n) => ({
+      url: `${baseUrl}/nutrients/${n.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
   const researchEntriesSitemap: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/research`,
@@ -207,6 +223,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...conditionEntries,
     ...brandCompareEntries,
     ...synergyEntries,
+    ...nutrientEntries,
     ...researchEntriesSitemap,
     {
       url: `${baseUrl}/tools/dose-calculator`,
