@@ -16,6 +16,7 @@ import { ingredients as encyclopediaIngredients } from "@/lib/encyclopedia";
 import { scoreGrade, thumbUrl } from "@/lib/products";
 import { studiesForIngredient } from "@/lib/research";
 import { conditionsForNutrient } from "@/lib/conditions";
+import { getGuidesForSubstances } from "@/lib/guides";
 
 const BASE = "https://formulate-health.app";
 
@@ -79,6 +80,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
   const content = nutrientContent(n.key);
   const studies = studiesForIngredient(n.name, n.synonyms, 5);
   const conditionMatches = conditionsForNutrient(n);
+  const relatedGuides = getGuidesForSubstances([n.name, ...n.synonyms], 5);
 
   /** Stable, deterministic FAQ derived from registry + content. Drives both
    *  the visible FAQ section and the FAQPage JSON-LD. */
@@ -593,6 +595,35 @@ export default async function NutrientPage({ params }: { params: Params }) {
                   </div>
                   <div className="text-sm font-semibold text-text leading-snug">
                     {s.title}
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {relatedGuides.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-3">
+            Guides covering {n.name}
+          </h2>
+          <p className="text-sm text-muted leading-relaxed mb-4">
+            Long-form articles in our guide library that go deeper on{" "}
+            {n.name} — comparisons, protocols, and reviews.
+          </p>
+          <ul className="space-y-2">
+            {relatedGuides.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/guides/${g.slug}`}
+                  className="block rounded-lg border border-border bg-white/[0.02] px-4 py-3 hover:border-accent/40 transition-colors"
+                >
+                  <div className="text-[10px] font-semibold uppercase tracking-wider text-accent mb-1">
+                    {g.categoryLabel} · {g.readTime}
+                  </div>
+                  <div className="text-sm font-semibold text-text leading-snug">
+                    {g.title}
                   </div>
                 </Link>
               </li>
