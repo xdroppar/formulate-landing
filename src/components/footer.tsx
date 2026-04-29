@@ -1,10 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { MobileAppBadges } from "@/components/mobile-app-badges";
 
 export function Footer() {
   return (
     <footer className="px-6 md:px-12 pt-10 pb-6 border-t border-border">
+      {/* Mobile-app badges — render only when ENABLED flag in
+          mobile-app-badges.tsx is flipped to true post-launch. */}
+      <div className="flex justify-center mb-6 empty:hidden">
+        <MobileAppBadges source="footer" />
+      </div>
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-2">
           <Image src="/logo.png" alt="Formulate" width={24} height={24} className="rounded-md" unoptimized />
@@ -36,9 +42,9 @@ export function Footer() {
           </Link>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a href="mailto:support@formulate-health.app" className="text-xs text-muted hover:text-text transition-colors py-2">
+          <Link href="/support" className="text-xs text-muted hover:text-text transition-colors py-2">
             Support
-          </a>
+          </Link>
           <span className="text-xs text-muted">&copy; 2026 Formulate. All rights reserved.</span>
         </div>
       </div>
