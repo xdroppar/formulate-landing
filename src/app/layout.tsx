@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { AttributionTracker } from "@/components/attribution-tracker";
+import { AppModeBoot } from "@/components/app-mode-boot";
 import "./globals.css";
 
 const inter = Inter({
@@ -98,6 +99,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen">
+        <AppModeBoot />
         <Nav />
         <main>{children}</main>
         <Footer />
