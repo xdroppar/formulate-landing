@@ -164,11 +164,28 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
 function stripHtml(text: string | null): string {
   if (!text) return "";
   return text
+    .replace(/<[^>]*>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function FAQ({ product }: { product: Product }) {
+// Format the catalog freshness timestamp as a stable, locale-independent
+// "Month Year" for the visible "Last reviewed" byline (SSG-deterministic).
+const REVIEW_MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+function formatReviewDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})/.exec(iso);
+  if (!m) return "";
+  const month = REVIEW_MONTHS[Number(m[2]) - 1];
+  return month ? `${month} ${m[1]}` : m[1];
+}
+
+// Single source of truth for FAQs — rendered on-page AND emitted as FAQPage
+// schema. Google flags FAQ schema that doesn't match visible content, so these
+// must stay unified (previously the on-page list and the JSON-LD diverged).
+function productFaqs(product: Product): { q: string; a: string }[] {
   const qs: { q: string; a: string }[] = [];
   const nameLower = product.name.toLowerCase();
 
@@ -177,6 +194,20 @@ function FAQ({ product }: { product: Product }) {
     qs.push({
       q: `What is ${product.brand} ${product.name}'s Formulate score?`,
       a: `${product.brand} ${product.name} scores ${product.score} out of 100 (grade ${grade.letter}) on Formulate's ingredient-level rubric, which weighs evidence quality, dose accuracy, bioavailability, transparency, safety, and manufacturing practices.`,
+    });
+
+    const s = product.score;
+    const verdict =
+      s >= 80
+        ? `That puts it in Formulate's top tier: its ingredient doses, forms, and label transparency hold up against the clinical evidence${product.certifications.length ? ", and it carries credible third-party testing" : ""}.`
+        : s >= 67
+          ? `That's an above-average result — most of its doses and ingredient forms are well-chosen, with only minor gaps in dosing, transparency, or testing.`
+          : s >= 53
+            ? `That's a middling result — it has real shortcomings in dose, ingredient form, or transparency that pull it below stronger options in the same category.`
+            : `That's a below-average result — meaningful gaps in dosing, ingredient forms, or testing make it hard to recommend over higher-scoring alternatives in its category.`;
+    qs.push({
+      q: `Is ${product.brand} ${product.name} worth it?`,
+      a: `${product.brand} ${product.name} scores ${product.score}/100 (grade ${grade.letter}). ${verdict} Formulate grades every product with the same automated rubric, so the score reflects the formula — not marketing or sponsorships.`,
     });
   }
 
@@ -198,6 +229,11 @@ function FAQ({ product }: { product: Product }) {
     });
   }
 
+  qs.push({
+    q: `Who makes ${product.name}?`,
+    a: `${product.name} is made by ${product.brand}. See Formulate's full grade and product lineup for ${product.brand} on its brand page.`,
+  });
+
   if (product.certifications.length) {
     qs.push({
       q: `Is ${product.brand} ${product.name} third-party tested?`,
@@ -205,13 +241,17 @@ function FAQ({ product }: { product: Product }) {
     });
   }
 
-  if (!qs.length) return null;
+  return qs;
+}
+
+function FAQ({ faqs }: { faqs: { q: string; a: string }[] }) {
+  if (!faqs.length) return null;
 
   return (
     <section className="mb-12">
       <h2 className="text-xl font-bold text-text mb-4">Frequently Asked Questions</h2>
       <div className="space-y-5">
-        {qs.map((item) => (
+        {faqs.map((item) => (
           <div key={item.q}>
             <h3 className="text-sm font-semibold text-text mb-1.5">{item.q}</h3>
             <p className="text-sm text-muted leading-relaxed">{item.a}</p>
@@ -231,6 +271,9 @@ export default async function SupplementPage({ params }: { params: Params }) {
   const url = `${BASE}/supplements/${slug}`;
   const related = relatedProducts(product, 3);
 
+  const reviewDateIso = catalogUpdatedAt.slice(0, 10);
+  const reviewDateLabel = formatReviewDate(catalogUpdatedAt);
+
   const productLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -240,6 +283,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
     description: stripHtml(product.overview ?? product.description ?? product.explanation).slice(0, 500) || undefined,
     image: product.image_url ? `${BASE}${product.image_url}` : undefined,
     url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
   if (product.score !== null) {
     // No AggregateRating: a single editorial score with ratingCount:1 gets
@@ -253,7 +297,8 @@ export default async function SupplementPage({ params }: { params: Params }) {
         name: "Formulate",
         url: BASE,
       },
-      datePublished: "2026-04-21",
+      datePublished: reviewDateIso,
+      dateModified: reviewDateIso,
       reviewRating: {
         "@type": "Rating",
         ratingValue: product.score,
@@ -285,24 +330,12 @@ export default async function SupplementPage({ params }: { params: Params }) {
     ],
   };
 
-  const faqPairs: { q: string; a: string }[] = [];
-  if (product.score !== null) {
-    faqPairs.push({
-      q: `What is ${product.brand} ${product.name}'s Formulate score?`,
-      a: `${product.brand} ${product.name} scores ${product.score} out of 100 (grade ${grade.letter}).`,
-    });
-  }
-  if (product.certifications.length) {
-    faqPairs.push({
-      q: `Is ${product.brand} ${product.name} third-party tested?`,
-      a: `Certifications listed: ${product.certifications.join(", ")}.`,
-    });
-  }
-  const faqLd = faqPairs.length
+  const faqs = productFaqs(product);
+  const faqLd = faqs.length
     ? {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        mainEntity: faqPairs.map((p) => ({
+        mainEntity: faqs.map((p) => ({
           "@type": "Question",
           name: p.q,
           acceptedAnswer: { "@type": "Answer", text: p.a },
@@ -424,6 +457,18 @@ export default async function SupplementPage({ params }: { params: Params }) {
             iherb_url={iherbUrl}
             app_url={appUrl}
           />
+          {reviewDateLabel && (
+            <p className="text-xs text-muted mt-4 leading-relaxed">
+              Scored by the{" "}
+              <Link
+                href="/methodology"
+                className="hover:text-accent transition-colors underline-offset-4 hover:underline"
+              >
+                Formulate Research Team
+              </Link>{" "}
+              · Last reviewed {reviewDateLabel}
+            </p>
+          )}
         </div>
       </header>
 
@@ -447,6 +492,18 @@ export default async function SupplementPage({ params }: { params: Params }) {
             ))}
         </div>
       )}
+
+      {product.overview &&
+        stripHtml(product.overview) !== stripHtml(product.explanation) && (
+          <section className="mb-12">
+            <h2 className="text-xl font-bold text-text mb-4">
+              Overview: {product.brand} {product.name}
+            </h2>
+            <p className="text-base text-muted leading-relaxed">
+              {stripHtml(product.overview)}
+            </p>
+          </section>
+        )}
 
       <ScoreBreakdown components={product.score_components} />
 
@@ -502,7 +559,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
         </section>
       )}
 
-      <FAQ product={product} />
+      <FAQ faqs={faqs} />
 
       {related.length > 0 && (
         <section className="mb-12">
@@ -560,14 +617,10 @@ export default async function SupplementPage({ params }: { params: Params }) {
         </p>
         <div className="flex flex-wrap gap-3">
           <a
-            href={withUtm("https://app.formulate-health.app/catalog", {
-              source: "supplement_page",
-              campaign: "supplement_cta",
-              content: slug,
-            })}
+            href={appUrl}
             className="px-4 py-2 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
           >
-            Build your free stack →
+            Add to your free stack →
           </a>
           <Link
             href="/supplements"
