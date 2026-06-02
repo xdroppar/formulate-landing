@@ -236,55 +236,68 @@ export function BackgroundTree() {
     segByRy.sort((a, b) => a.ry - b.ry);
     leafByRy.sort((a, b) => a.ry - b.ry);
 
-    const growSeg = (gi: number, delay: number) => {
+    const growSeg = (gi: number) => {
       const el = segRefs.current[gi];
-      if (!el) return;
-      el.style.transitionDelay = `${delay}s`;
-      el.style.strokeDashoffset = "0";
+      if (el) el.style.strokeDashoffset = "0";
     };
-    const growLeaf = (li: number, delay: number) => {
+    const growLeaf = (li: number) => {
       const el = leafRefs.current[li];
-      if (!el) return;
-      el.style.transitionDelay = `${delay + 0.12}s`; // leaf opens just after its branch
-      el.classList.add("grown");
+      if (el) el.classList.add("grown");
     };
 
     if (reduce.current) {
-      segByRy.forEach((s) => growSeg(s.i, 0));
-      leafByRy.forEach((l) => growLeaf(l.i, 0));
+      segByRy.forEach((s) => growSeg(s.i));
+      leafByRy.forEach((l) => growLeaf(l.i));
       return;
     }
 
+    // Activate only a bounded number of elements PER FRAME, then keep pumping on
+    // subsequent frames until caught up to the front. This is what makes the crown
+    // flourish smoothly — draining the whole crown's style writes + transition
+    // starts in one frame is what caused the load-time hitch.
     let raf = 0;
-    let pending = false;
-    let grown = 0; // high-water mark — only ever grows, never retracts
+    let pumping = false;
+    let target = 0; // high-water front — only grows
     let segPtr = 0;
     let leafPtr = 0;
+    const PER_FRAME = 14; // of each type
 
-    const render = () => {
-      pending = false;
-      const front = Math.min(dims.h, window.scrollY + window.innerHeight * 0.92);
-      if (front <= grown) return;
-      grown = front;
-      let burst = 0;
-      while (segPtr < segByRy.length && segByRy[segPtr].ry <= front) {
-        growSeg(segByRy[segPtr].i, Math.min(burst * 0.006, 1.4));
+    const pump = () => {
+      raf = 0;
+      let n = 0;
+      while (n < PER_FRAME && segPtr < segByRy.length && segByRy[segPtr].ry <= target) {
+        growSeg(segByRy[segPtr].i);
         segPtr++;
-        burst++;
+        n++;
       }
-      burst = 0;
-      while (leafPtr < leafByRy.length && leafByRy[leafPtr].ry <= front) {
-        growLeaf(leafByRy[leafPtr].i, Math.min(burst * 0.006, 1.4));
+      let m = 0;
+      while (m < PER_FRAME && leafPtr < leafByRy.length && leafByRy[leafPtr].ry <= target) {
+        growLeaf(leafByRy[leafPtr].i);
         leafPtr++;
-        burst++;
+        m++;
+      }
+      const more =
+        (segPtr < segByRy.length && segByRy[segPtr].ry <= target) ||
+        (leafPtr < leafByRy.length && leafByRy[leafPtr].ry <= target);
+      if (more) raf = requestAnimationFrame(pump);
+      else pumping = false;
+    };
+    const schedule = () => {
+      if (!pumping) {
+        pumping = true;
+        raf = requestAnimationFrame(pump);
       }
     };
     const onScroll = () => {
-      if (pending) return;
-      pending = true;
-      raf = requestAnimationFrame(render);
+      const front = Math.min(dims.h, window.scrollY + window.innerHeight * 0.92);
+      if (front > target) {
+        target = front;
+        schedule();
+      }
     };
-    render();
+
+    target = Math.min(dims.h, window.scrollY + window.innerHeight * 0.92);
+    schedule();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", onScroll);
