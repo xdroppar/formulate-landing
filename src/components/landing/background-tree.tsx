@@ -184,12 +184,15 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
     limb(p.x, p.y, base, len, 5, 3, 0.45);
   });
 
-  // Roots — each its own group, barely swaying, from the thick trunk base.
+  // Roots — STATIC (flex 0): they're grounded, so they must not sway. They pivot
+  // at the trunk base (their TOP), so even a tiny rotation would fling the buried
+  // tips in an arc — reads as "roots flowing in the wind". Same reason the trunk
+  // spine is flex 0.
   const trunkBase = trunkPts[trunkPts.length - 1];
   const rootN = 5 + Math.floor(rng() * 3);
   for (let k = 0; k < rootN; k++) {
     const a = (62 + (k / (rootN - 1)) * 56) * DEG; // 62°..118° downward fan
-    mkBranch(trunkBase.x, trunkBase.y, 0.5);
+    mkBranch(trunkBase.x, trunkBase.y, 0);
     // thick where they leave the buttressed base (≈ BASE_W) so the trunk flows
     // into the roots instead of stepping down abruptly.
     limb(trunkBase.x + (rng() - 0.5) * 22, trunkBase.y, a, rootRoom * 0.44 * (0.8 + rng() * 0.6), 13, 5, 0);
