@@ -16,7 +16,7 @@ import { useEffect, useRef, useState } from "react";
  */
 
 type Seg = { d: string; w: number };
-type Leaf = { x: number; y: number; s: number; r: number };
+type Leaf = { x: number; y: number; s: number; r: number; w: boolean; dur: number; delay: number };
 
 /** Deterministic PRNG so the tree shape is stable across resizes/regeneration. */
 function mulberry32(seed: number) {
@@ -49,6 +49,12 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   const leaves: Leaf[] = [];
   const cx = W * 0.5;
 
+  // Push a leaf; ~half get a gentle, randomly-phased wind sway so the tree feels alive.
+  const pushLeaf = (x: number, y: number, s: number, r: number) => {
+    const windy = rng() < 0.55;
+    leaves.push({ x, y, s, r, w: windy, dur: windy ? 3.2 + rng() * 3.6 : 0, delay: windy ? rng() * 5 : 0 });
+  };
+
   // Recursive limb that forks and tapers, dropping leaves at its tips.
   const limb = (
     x: number,
@@ -64,10 +70,10 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
     segs.push({ d: seg(x, y, ex, ey, (rng() - 0.5) * len * 0.3), w: Math.max(0.6, wid) });
 
     if (depth <= 0 || len < 16) {
-      if (leafy) leaves.push({ x: ex, y: ey, s: 0.55 + rng() * 0.55, r: ang / DEG + 90 + (rng() - 0.5) * 50 });
+      if (leafy) pushLeaf(ex, ey, 0.55 + rng() * 0.55, ang / DEG + 90 + (rng() - 0.5) * 50);
       return;
     }
-    if (leafy && rng() < 0.16) leaves.push({ x: ex, y: ey, s: 0.45 + rng() * 0.4, r: rng() * 360 });
+    if (leafy && rng() < 0.16) pushLeaf(ex, ey, 0.45 + rng() * 0.4, rng() * 360);
 
     const spread = (16 + rng() * 22) * DEG;
     limb(ex, ey, ang - spread * (0.6 + rng() * 0.6), len * (0.68 + rng() * 0.14), wid * 0.68, depth - 1, leafy);
@@ -80,11 +86,30 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   const trunkBottom = H - rootRoom;
   const trunkLen = Math.max(400, trunkBottom - top);
 
-  // Leafy crown behind the hero — a few limbs reaching up and out.
-  const crownN = 5;
-  for (let i = 0; i < crownN; i++) {
-    const a = (-150 + (i / (crownN - 1)) * 120) * DEG; // fan upward
-    limb(cx + (rng() - 0.5) * 40, top + 70, a, W * 0.06 * (0.8 + rng() * 0.5), 3, 5, true);
+  // Leafy crown behind the hero — a full canopy growing UP off the trunk top.
+  const cbx = cx;
+  const cby = top + 70; // shared with the trunk's first point, so crown + trunk connect
+  const mainN = 7;
+  for (let i = 0; i < mainN; i++) {
+    const f = i / (mainN - 1);
+    const a = (-168 + f * 156) * DEG; // wide upward fan, up-left → up-right
+    limb(cbx + (rng() - 0.5) * 26, cby + (rng() - 0.5) * 16, a, W * 0.085 * (0.85 + rng() * 0.5), 3.8, 5, true);
+  }
+  // shorter inner limbs to fill the centre of the canopy
+  for (let i = 0; i < 4; i++) {
+    const a = (-150 + rng() * 120) * DEG;
+    limb(cbx + (rng() - 0.5) * 64, cby - rng() * 28, a, W * 0.05 * (0.7 + rng() * 0.5), 2.4, 4, true);
+  }
+  // lush foliage: scatter leaves through the canopy ellipse so the top reads full
+  const canopyRx = W * 0.27;
+  const canopyRy = 175;
+  const scatterN = 78;
+  for (let i = 0; i < scatterN; i++) {
+    const ang = rng() * Math.PI * 2;
+    const rad = Math.sqrt(rng()); // roughly uniform fill of the ellipse
+    const lx = cbx + Math.cos(ang) * canopyRx * rad;
+    const ly = cby - 18 + Math.sin(ang) * canopyRy * rad;
+    pushLeaf(lx, ly, 0.55 + rng() * 0.6, rng() * 360);
   }
 
   // Trunk: points down the centre with a gentle organic sway.
@@ -176,11 +201,15 @@ export function BackgroundTree() {
 
     let raf = 0;
     let pending = false;
+    let grown = 0; // high-water mark — the tree only ever grows, never retracts
     const render = () => {
       pending = false;
-      // Reveal a little below the fold so the tree "grows to meet" the reader.
+      // Reveal a little below the fold so the tree "grows to meet" the reader, and
+      // keep whatever has already grown — scrolling back up never un-grows it.
       const front = Math.min(dims.h, window.scrollY + window.innerHeight * 0.95);
-      rect.setAttribute("height", front.toFixed(0));
+      if (front <= grown) return;
+      grown = front;
+      rect.setAttribute("height", grown.toFixed(0));
     };
     const onScroll = () => {
       if (pending) return;
@@ -221,6 +250,18 @@ export function BackgroundTree() {
             </clipPath>
           </defs>
 
+          <style>{`
+            .bt-leaf { transform-box: fill-box; transform-origin: 50% 100%; }
+            .bt-leaf.bt-sway { animation: bt-sway 5s ease-in-out infinite; }
+            @keyframes bt-sway {
+              0%, 100% { transform: rotate(-4deg); }
+              50% { transform: rotate(4.5deg); }
+            }
+            @media (prefers-reduced-motion: reduce) {
+              .bt-leaf.bt-sway { animation: none; }
+            }
+          `}</style>
+
           <g clipPath="url(#bt-grow)">
             {/* soft glow pooling around the crown for depth */}
             <ellipse cx={dims.w / 2} cy={130} rx={dims.w * 0.32} ry={220} fill="url(#bt-grad)" opacity={0.05} />
@@ -232,10 +273,16 @@ export function BackgroundTree() {
               ))}
             </g>
 
-            {/* leaves */}
-            <g fill="url(#bt-grad)" opacity={0.32}>
+            {/* leaves — some sway in the wind (sway pivots at the leaf stem) */}
+            <g fill="url(#bt-grad)" opacity={0.34}>
               {tree.leaves.map((l, i) => (
-                <path key={i} d={LEAF_PATH} transform={`translate(${l.x.toFixed(1)} ${l.y.toFixed(1)}) rotate(${l.r.toFixed(0)}) scale(${l.s.toFixed(2)})`} />
+                <g key={i} transform={`translate(${l.x.toFixed(1)} ${l.y.toFixed(1)}) rotate(${l.r.toFixed(0)}) scale(${l.s.toFixed(2)})`}>
+                  <path
+                    d={LEAF_PATH}
+                    className={l.w ? "bt-leaf bt-sway" : "bt-leaf"}
+                    style={l.w ? { animationDuration: `${l.dur.toFixed(2)}s`, animationDelay: `${l.delay.toFixed(2)}s` } : undefined}
+                  />
+                </g>
               ))}
             </g>
           </g>
