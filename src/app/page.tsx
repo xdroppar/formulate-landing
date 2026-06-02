@@ -199,7 +199,7 @@ export default function Home() {
             {[
               { node: <><AnimatedNumber value={230} />+</>, label: "Supplements scored" },
               { node: <><AnimatedNumber value={600} />+</>, label: "Whole foods & meals" },
-              { node: <><AnimatedNumber value={31} /></>, label: "Nutrients tracked daily" },
+              { node: <><AnimatedNumber value={26} />+</>, label: "Nutrients tracked daily" },
               { node: <>$<AnimatedNumber value={0} /></>, label: "Cost — always free" },
             ].map((s) => (
               <div key={s.label} className="bg-surface px-4 py-7 text-center">
@@ -273,7 +273,7 @@ export default function Home() {
           {[
             { icon: "🔬", title: "Supplement scoring", desc: "Every product scored 50–100 on dose accuracy, ingredient quality, bioavailability, testing & evidence." },
             { icon: "🍽️", title: "Food & meal tracking", desc: "Log whole foods, branded items and custom meals — each scored for nutritional quality, not just calories." },
-            { icon: "🎯", title: "Nutrient coverage", desc: "See exactly which of 31 key nutrients you hit each day — combining your supplements and your diet." },
+            { icon: "🎯", title: "Nutrient coverage", desc: "See exactly which of 26 key nutrients you hit each day — combining your supplements and your diet, with more you can add anytime." },
             { icon: "📊", title: "Your Stack Score", desc: "A single, personalized score for how complete and high-quality your supplement stack really is." },
             { icon: "💧", title: "Hydration & habits", desc: "Track water, build streaks, and log everything in seconds with per-time-slot scheduling." },
             { icon: "🧬", title: "Progress & journey", desc: "Level up across health pillars, earn achievements, and watch your trends improve over time." },
@@ -316,7 +316,7 @@ export default function Home() {
           title={<>Fill in the gaps your <span className="text-muted">diet leaves behind.</span></>}
           body="Formulate combines what you eat and what you supplement into one live picture of your daily nutrition — so you know exactly where you're covered and where you're short."
           bullets={[
-            "31 key nutrients tracked from supplements + meals together",
+            "26 core nutrients tracked from supplements + meals — add more anytime",
             "Targets personalized to your age, sex and goals",
             "Clear gaps surfaced with the foods or supplements that fill them",
             "No double-counting between your stack and your plate",
@@ -620,7 +620,7 @@ export default function Home() {
               },
               {
                 q: "Is this just for supplements?",
-                a: "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 31 key nutrients across your diet and supplements, log hydration, and watch your progress over time.",
+                a: "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 26 key nutrients by default (add more anytime) across your diet and supplements, log hydration, and watch your progress over time.",
               },
               {
                 q: "How do you score supplements and foods?",

@@ -271,7 +271,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
                 <span className="px-1.5 py-0.5 rounded bg-accent/15 text-accent text-[10px] font-bold">+6 ▲</span>
               </div>
               <AnimatedBar label="Quality" value={92} sub="avg 92" color="#10B981" delay={200} />
-              <AnimatedBar label="Coverage" value={78} sub="22/31" color="#3B82F6" delay={350} />
+              <AnimatedBar label="Coverage" value={78} sub="20/26" color="#3B82F6" delay={350} />
               <AnimatedBar label="Nutrition" value={84} sub="supps + diet" color="#7c6dfa" delay={500} />
             </div>
           </div>
@@ -319,7 +319,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
         <div className="rounded-xl border border-border bg-[#0b0b16]/95 backdrop-blur px-3 py-2 shadow-xl">
           <div className="text-[10px] text-muted">Today&apos;s coverage</div>
           <div className="text-lg font-black text-accent">
-            <AnimatedNumber value={22} suffix="/31" />
+            <AnimatedNumber value={20} suffix="/26" />
           </div>
         </div>
       </div>
@@ -387,8 +387,8 @@ export function NutrientCoveragePreview() {
         </div>
         <div className="text-right">
           <div className="text-2xl font-black text-accent leading-none">
-            <AnimatedNumber value={22} />
-            <span className="text-muted text-base">/31</span>
+            <AnimatedNumber value={20} />
+            <span className="text-muted text-base">/26</span>
           </div>
           <div className="text-[10px] text-muted">on target</div>
         </div>
