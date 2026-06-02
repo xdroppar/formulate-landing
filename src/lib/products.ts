@@ -86,6 +86,29 @@ type Catalog = {
 
 const catalog = catalogData as Catalog;
 
+// Freshness signal for "Last reviewed" bylines + schema dateModified. Prefer the
+// real scoring-engine update timestamp; fall back to the catalog export time.
+// Surfacing a current date is a top E-E-A-T signal for YMYL/health content.
+export const catalogUpdatedAt: string =
+  catalog.latest_score_update ?? catalog.exported_at;
+
+const REVIEW_MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+// Stable, locale-independent "Month Year" for the visible "Last reviewed"
+// byline (SSG-deterministic — no Date()/locale to keep prerender stable).
+export function formatReviewDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})/.exec(iso);
+  if (!m) return "";
+  const month = REVIEW_MONTHS[Number(m[2]) - 1];
+  return month ? `${month} ${m[1]}` : m[1];
+}
+
+// Shared label used across product, brand, and collection pages.
+export const catalogReviewLabel = formatReviewDate(catalogUpdatedAt);
+
 export const products: Product[] = catalog.products.filter(
   (p) => !p.is_draft && p.score !== null,
 );
@@ -125,6 +148,55 @@ export function thumbUrl(p: Product): string | null {
 export function productsByCategory(category: string): Product[] {
   const key = category.toLowerCase();
   return products.filter((p) => p.category.toLowerCase() === key);
+}
+
+// ── "Best [category]" roundup helpers ────────────────────────────────────
+// Powers the /supplements/best/[category] pSEO pages. Only categories with
+// enough products to make a genuine ranking get a page — a "best of" with one
+// product is thin content Google's helpful-content system penalizes.
+
+/** Min products for a category to earn a ranked "best of" page. */
+export const BEST_CATEGORY_MIN_PRODUCTS = 4;
+
+/** URL-safe slug for a category name ("Amino Acids" → "amino-acids"). */
+export function categorySlug(category: string): string {
+  return category
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** Categories (by product count desc) that qualify for a "best of" page. */
+export function bestCategories(): { category: string; slug: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const p of products) {
+    const c = p.category?.trim();
+    if (!c) continue;
+    counts.set(c, (counts.get(c) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .filter(([, n]) => n >= BEST_CATEGORY_MIN_PRODUCTS)
+    .map(([category, count]) => ({ category, slug: categorySlug(category), count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+/** Resolve a category slug back to its canonical category name. */
+export function categoryBySlug(slug: string): string | null {
+  const match = bestCategories().find((c) => c.slug === slug);
+  return match ? match.category : null;
+}
+
+/** Set of slugs that have a "best of" page — for cross-linking from the hub. */
+export function bestCategorySlugSet(): Set<string> {
+  return new Set(bestCategories().map((c) => c.slug));
+}
+
+/** Top-scoring products in a category, ranked, for the roundup page. */
+export function topProductsByCategory(category: string, limit = 10): Product[] {
+  return productsByCategory(category)
+    .filter((p) => p.score !== null)
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .slice(0, limit);
 }
 
 export function relatedProducts(product: Product, limit = 3): Product[] {

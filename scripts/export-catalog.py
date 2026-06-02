@@ -49,9 +49,94 @@ DB_PATH = os.environ.get(
     "FORMULATE_DB",
     str(LANDING_ROOT.parent / "Formulate" / "data" / "app.db"),
 )
+# Baseline scores DB. Freshly-scored products land in app.db's product_score;
+# older products' scores live only in the seed.db baseline. We resolve scores
+# from app.db first, then fall back to seed.db per-product (mirrors the web
+# export's intent) so the full published catalog gets scored.
+SEED_DB_PATH = os.environ.get(
+    "FORMULATE_SEED_DB",
+    str(LANDING_ROOT.parent / "Formulate" / "data" / "seed.db"),
+)
 ASSETS_ROOT = LANDING_ROOT.parent / "Formulate" / "assets" / "products"
 OUTPUT_PATH = LANDING_ROOT / "src" / "data" / "catalog.json"
 IMAGES_DEST = LANDING_ROOT / "public" / "images" / "products"
+
+
+def _get_encryption_key() -> str | None:
+    """Get the DB encryption key from OS keychain (mirrors DbService._get_encryption_key)."""
+    import hashlib
+    import uuid
+
+    service_name = "formulate-app"
+    key_name = "db-encryption-key"
+
+    # Machine-derived key (fallback)
+    try:
+        machine_id = str(uuid.getnode())
+        machine_key = hashlib.sha256(f"formulate-db-{machine_id}".encode()).hexdigest()[:32]
+    except Exception:
+        machine_key = None
+
+    try:
+        import keyring
+
+        key = keyring.get_password(service_name, key_name)
+        if key:
+            return key
+    except Exception:
+        pass
+    return machine_key
+
+
+def open_db(db_path: str) -> sqlite3.Connection:
+    """Open the database, handling SQLCipher encryption if needed.
+
+    The desktop runtime DB (data/app.db) is SQLCipher-encrypted, so a plain
+    sqlite3.connect can't read it — this mirrors the web export's open_db so
+    both catalogs are generated from the same live DB. Without this, the
+    landing catalog froze at a stale, mostly-unscored vintage.
+    """
+    # Try plain sqlite3 first (unencrypted DBs / seed baselines)
+    try:
+        conn = sqlite3.connect(db_path)
+        conn.row_factory = sqlite3.Row
+        conn.execute("SELECT count(*) FROM product_family")
+        return conn
+    except Exception:
+        try:
+            conn.close()
+        except Exception:
+            pass
+
+    # Encrypted — open with SQLCipher
+    try:
+        import sqlcipher3 as sqlcipher  # type: ignore
+    except ImportError:
+        try:
+            from pysqlcipher3 import dbapi2 as sqlcipher  # type: ignore
+        except ImportError:
+            print("ERROR: Database is encrypted but neither sqlcipher3 nor pysqlcipher3 is installed.")
+            print("Install with: pip install sqlcipher3")
+            sys.exit(1)
+
+    key = _get_encryption_key()
+    if not key:
+        print("ERROR: Could not retrieve encryption key from keychain.")
+        sys.exit(1)
+
+    conn = sqlcipher.connect(db_path)
+    try:
+        conn.set_key(key)
+    except AttributeError:
+        conn.execute(f"PRAGMA key = '{key}'")
+    conn.row_factory = sqlcipher.Row
+    try:
+        conn.execute("SELECT count(*) FROM product_family")
+    except Exception as e:
+        print(f"ERROR: Could not decrypt database: {e}")
+        sys.exit(1)
+    print("  Opened encrypted database with SQLCipher")
+    return conn
 
 
 def slugify(text: str) -> str:
@@ -184,8 +269,46 @@ def _get_latest_score(conn: sqlite3.Connection, score_key: str) -> sqlite3.Row |
     ).fetchone()
 
 
-def _validate_scores(conn: sqlite3.Connection, products: list[dict]) -> list[str]:
-    """Cross-check exported scores against the DB using the same query the app uses.
+def _norm_gid(s: str) -> str:
+    """Normalize a product GID for matching. product_score keys use the
+    canonical `product:<brand-slug>_<product-slug>` form (underscore between
+    brand and slug), but a family_id is all-hyphens — so an exact match
+    silently misses every multi-word-brand product (the documented GID drift).
+    Lower-casing + `_`→`-` collapses both forms to one key."""
+    return s.strip().lower().replace("_", "-")
+
+
+class ScoreResolver:
+    """Resolves a product's score row across app.db (fresh) + seed.db (baseline)
+    using normalized GID matching. app.db wins when both have a key."""
+
+    def __init__(self, app_conn: sqlite3.Connection, seed_conn: sqlite3.Connection | None):
+        self.app_conn = app_conn
+        self.seed_conn = seed_conn
+        self.app_idx = self._index(app_conn)
+        self.seed_idx = self._index(seed_conn) if seed_conn is not None else {}
+
+    @staticmethod
+    def _index(conn: sqlite3.Connection) -> dict[str, str]:
+        idx: dict[str, str] = {}
+        try:
+            for r in conn.execute("SELECT DISTINCT variant_id FROM product_score"):
+                idx[_norm_gid(r["variant_id"])] = r["variant_id"]
+        except Exception:
+            pass
+        return idx
+
+    def row(self, score_key: str):
+        nk = _norm_gid(score_key)
+        if nk in self.app_idx:
+            return _get_latest_score(self.app_conn, self.app_idx[nk])
+        if self.seed_conn is not None and nk in self.seed_idx:
+            return _get_latest_score(self.seed_conn, self.seed_idx[nk])
+        return None
+
+
+def _validate_scores(resolver: "ScoreResolver", products: list[dict]) -> list[str]:
+    """Cross-check exported scores against the DB using the same resolver.
 
     Returns a list of error messages (empty = all good).
     """
@@ -193,8 +316,7 @@ def _validate_scores(conn: sqlite3.Connection, products: list[dict]) -> list[str
     for p in products:
         if p["score"] is None:
             continue
-        score_key = p["id"]
-        row = _get_latest_score(conn, score_key)
+        row = resolver.row(p["id"])
         if row is None:
             errors.append(f"  {p['brand']} - {p['name']}: exported score={p['score']} but no DB row found")
         elif row["category_score_abs"] != p["score"]:
@@ -208,8 +330,26 @@ def _validate_scores(conn: sqlite3.Connection, products: list[dict]) -> list[str
 
 def export_catalog():
     print(f"Connecting to: {DB_PATH}")
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
+    conn = open_db(DB_PATH)
+
+    # Score resolver — app.db (fresh scores) + seed.db (baseline), matched by
+    # normalized GID so the underscore/hyphen brand-slug drift doesn't strand
+    # most products at score=null.
+    seed_conn = None
+    try:
+        seed_conn = open_db(SEED_DB_PATH)
+        print(f"Opened baseline scores DB: {SEED_DB_PATH}")
+    except SystemExit:
+        seed_conn = None
+        print("  (seed.db unavailable — using app.db scores only)")
+    except Exception as e:
+        seed_conn = None
+        print(f"  (seed.db open failed: {e} — using app.db scores only)")
+    resolver = ScoreResolver(conn, seed_conn)
+    print(
+        f"Score keys indexed — app.db: {len(resolver.app_idx)}, "
+        f"seed.db: {len(resolver.seed_idx)}"
+    )
 
     # --- Load all published product families ---
     families = conn.execute(
@@ -304,8 +444,7 @@ def export_catalog():
         other_ingredients = [row["name"] for row in other_rows]
 
         # --- Score (most recently updated — matches app's get_latest_score()) ---
-        score_key = f"product:{family_id}"
-        score_row = _get_latest_score(conn, score_key)
+        score_row = resolver.row(f"product:{family_id}")
 
         score = None
         grade = None
@@ -425,7 +564,7 @@ def export_catalog():
 
     # --- Self-validation: cross-check every score against the DB ---
     print("Validating scores...")
-    errors = _validate_scores(conn, products)
+    errors = _validate_scores(resolver, products)
     if errors:
         print(f"\nERROR: {len(errors)} score mismatches detected!")
         for e in errors:

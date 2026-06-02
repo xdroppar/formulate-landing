@@ -9,6 +9,9 @@ import {
   productsForBrand,
   scoreGrade,
   thumbUrl,
+  catalogReviewLabel,
+  type BrandSummary,
+  type Product,
 } from "@/lib/products";
 
 const BASE = "https://formulate-health.app";
@@ -42,6 +45,45 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
+function brandFaqs(b: BrandSummary, lineup: Product[]): { q: string; a: string }[] {
+  const qs: { q: string; a: string }[] = [];
+  const top = lineup[0];
+  const cats = brandCategoryBreakdown(b.slug);
+
+  qs.push({
+    q: `How does Formulate grade ${b.name}?`,
+    a: `Formulate grades ${b.name} by aggregating the ingredient-level scores of all ${lineup.length} ${b.name} product${lineup.length === 1 ? "" : "s"} it has analyzed — weighing dose accuracy, ingredient form, transparency, and third-party testing. ${b.name}'s overall brand grade is ${b.grade ?? "—"}${b.score !== null ? ` (${b.score}/100)` : ""}. It is not a paid or sponsored ranking.`,
+  });
+
+  if (b.components) {
+    const v = b.components.verification;
+    qs.push({
+      q: `Is ${b.name} third-party tested?`,
+      a:
+        v >= 70
+          ? `${b.name} scores ${v}/100 on third-party verification, indicating broad testing coverage (such as USP, NSF, or Informed Sport) across its lineup.`
+          : `${b.name} scores ${v}/100 on third-party verification — meaning third-party testing coverage is limited across its lineup. Check individual product pages for which specific products are certified.`,
+    });
+  }
+
+  if (top && top.score !== null) {
+    qs.push({
+      q: `What is ${b.name}'s best supplement?`,
+      a: `${top.name} is ${b.name}'s highest-scoring product on Formulate at ${top.score}/100 (grade ${scoreGrade(top.score).letter}).`,
+    });
+  }
+
+  if (cats.length) {
+    const catList = cats.slice(0, 4).map((c) => `${c.count} ${c.category}`).join(", ");
+    qs.push({
+      q: `What does ${b.name} make?`,
+      a: `Formulate has scored ${lineup.length} ${b.name} product${lineup.length === 1 ? "" : "s"}, including ${catList}${cats.length > 4 ? ", and more" : ""}.`,
+    });
+  }
+
+  return qs;
+}
+
 export default async function BrandHub({ params }: { params: Params }) {
   const { slug } = await params;
   const b = brandBySlug(slug);
@@ -52,6 +94,7 @@ export default async function BrandHub({ params }: { params: Params }) {
   const topPicks = lineup.slice(0, 6);
   const url = `${BASE}/brands/${slug}`;
   const bg = scoreGrade(b.score ?? b.avg_score ?? null);
+  const faqs = brandFaqs(b, lineup);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -82,6 +125,18 @@ export default async function BrandHub({ params }: { params: Params }) {
     ],
   };
 
+  const faqLd = faqs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
   return (
     <main id="main-content" className="max-w-5xl mx-auto px-6 md:px-8 pt-28 pb-20">
       <script
@@ -92,6 +147,12 @@ export default async function BrandHub({ params }: { params: Params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <nav className="text-sm text-muted mb-6" aria-label="Breadcrumb">
         <Link href="/brands" className="hover:text-text transition-colors">
@@ -123,6 +184,18 @@ export default async function BrandHub({ params }: { params: Params }) {
             Formulate&apos;s ingredient-level rubric. Brand grade reflects a weighted
             average across the full lineup.
           </p>
+          {catalogReviewLabel && (
+            <p className="text-xs text-muted mt-3">
+              Scored by the{" "}
+              <Link
+                href="/methodology"
+                className="hover:text-accent transition-colors underline-offset-4 hover:underline"
+              >
+                Formulate Research Team
+              </Link>{" "}
+              · Last reviewed {catalogReviewLabel}
+            </p>
+          )}
         </div>
         <div
           className="text-3xl font-bold px-5 py-3 rounded-xl flex-shrink-0"
@@ -267,6 +340,22 @@ export default async function BrandHub({ params }: { params: Params }) {
               );
             })}
           </ul>
+        </section>
+      )}
+
+      {faqs.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-text mb-4">
+            {b.name}: frequently asked questions
+          </h2>
+          <div className="space-y-5">
+            {faqs.map((f) => (
+              <div key={f.q}>
+                <h3 className="text-sm font-semibold text-text mb-1.5">{f.q}</h3>
+                <p className="text-sm text-muted leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </div>
         </section>
       )}
 

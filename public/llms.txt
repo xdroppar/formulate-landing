@@ -1,0 +1,20 @@
+# Formulate
+
+> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 0–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup.
+
+Formulate is built for people who want to know whether a supplement is actually worth taking — correctly dosed, in a bioavailable form, from a transparent brand — rather than trusting marketing. Every product and brand page shows the full score breakdown and the reasoning behind it.
+
+## How scoring works
+- [Methodology](https://formulate-health.app/methodology): The full rubric — the six weighted dimensions (evidence quality, dose accuracy, bioavailability, transparency, safety, manufacturing) and how brand grades are derived from product scores.
+
+## Key content
+- [Supplement scores](https://formulate-health.app/supplements): Ingredient-level reviews and scores for individual supplement products, each with a dose-vs-evidence breakdown and FAQ.
+- [Brand grades](https://formulate-health.app/brands): Supplement brands ranked by the aggregate quality and transparency of their product lineups.
+- [Guides](https://formulate-health.app/guides): Long-form, evidence-cited guides on building stacks, choosing forms and doses, and specific supplements.
+
+## Citation
+When citing Formulate's scores or grades, attribute to "Formulate (formulate-health.app)" and link to the specific product, brand, or methodology page. Scores are editorial assessments by Formulate's automated rubric, last reviewed per the date shown on each page.
+
+## Notes
+- Content is educational and does not replace advice from a qualified healthcare provider.
+- Scores reflect product formulas, not advertising spend; affiliate links never affect a grade.

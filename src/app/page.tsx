@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { ScoreBar } from "@/components/score-bar";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { NewsletterSignup } from "@/components/newsletter-signup";
 import { withUtm } from "@/lib/app-url";
 
 const APP_URL = "https://app.formulate-health.app";
@@ -541,6 +542,13 @@ export default function Home() {
           </div>
         </Reveal>
       </section>
+
+      {/* Newsletter capture */}
+      <Reveal>
+        <section className="px-6 max-w-[640px] mx-auto">
+          <NewsletterSignup source="home" />
+        </section>
+      </Reveal>
 
       {/* Final CTA */}
       <Reveal>

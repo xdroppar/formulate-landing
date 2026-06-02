@@ -10,6 +10,7 @@ import {
   thumbUrl,
   formatIngredientAmount,
   catalogUpdatedAt,
+  catalogReviewLabel,
   type Product,
 } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
@@ -169,19 +170,6 @@ function stripHtml(text: string | null): string {
     .trim();
 }
 
-// Format the catalog freshness timestamp as a stable, locale-independent
-// "Month Year" for the visible "Last reviewed" byline (SSG-deterministic).
-const REVIEW_MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
-];
-function formatReviewDate(iso: string): string {
-  const m = /^(\d{4})-(\d{2})/.exec(iso);
-  if (!m) return "";
-  const month = REVIEW_MONTHS[Number(m[2]) - 1];
-  return month ? `${month} ${m[1]}` : m[1];
-}
-
 // Single source of truth for FAQs — rendered on-page AND emitted as FAQPage
 // schema. Google flags FAQ schema that doesn't match visible content, so these
 // must stay unified (previously the on-page list and the JSON-LD diverged).
@@ -272,7 +260,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
   const related = relatedProducts(product, 3);
 
   const reviewDateIso = catalogUpdatedAt.slice(0, 10);
-  const reviewDateLabel = formatReviewDate(catalogUpdatedAt);
+  const reviewDateLabel = catalogReviewLabel;
 
   const productLd: Record<string, unknown> = {
     "@context": "https://schema.org",

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
-import { products, brands } from "@/lib/products";
+import { products, brands, bestCategories } from "@/lib/products";
 import { ingredients } from "@/lib/encyclopedia";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
@@ -69,6 +69,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     })),
   ];
+
+  const bestCategoryEntries: MetadataRoute.Sitemap = bestCategories().map((c) => ({
+    url: `${baseUrl}/supplements/best/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    // High commercial intent ("best magnesium supplement") + genuine ranked
+    // content. Same priority tier as the supplement detail pages.
+    priority: 0.8,
+  }));
 
   const brandEntries: MetadataRoute.Sitemap = [
     {
@@ -216,6 +225,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/download`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...productEntries,
+    ...bestCategoryEntries,
     ...brandEntries,
     ...ingredientEntries,
     ...compareEntries,

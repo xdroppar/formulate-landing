@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { brands, productsForBrand, scoreGrade } from "@/lib/products";
+import { brands, productsForBrand, scoreGrade, catalogReviewLabel } from "@/lib/products";
+import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const BASE = "https://formulate-health.app";
 
@@ -30,11 +31,50 @@ export default function BrandsIndex() {
     })),
   };
 
+  const ranked = [...brands].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  const topBrand = ranked.find((b) => b.score !== null);
+  const hubFaqs: { q: string; a: string }[] = [
+    {
+      q: "How are supplement brands graded?",
+      a: `Each brand's grade is the weighted average of Formulate's ingredient-level product scores across that brand's lineup, rebalanced for ingredient transparency and third-party testing coverage. ${brands.length} brands are covered. It is not a paid or sponsored ranking.`,
+    },
+  ];
+  if (topBrand && topBrand.score !== null) {
+    hubFaqs.push({
+      q: "Which supplement brand scores highest?",
+      a: `${topBrand.name} is currently the highest-graded brand at ${topBrand.score}/100 (grade ${topBrand.grade ?? scoreGrade(topBrand.score).letter}), based on the quality of its full product lineup.`,
+    });
+  }
+  hubFaqs.push({
+    q: "Does Formulate accept payment from supplement brands?",
+    a: "No. Brands cannot pay to be listed, scored higher, or ranked. Grades reflect only the formulas Formulate analyzes; affiliate links never affect a score.",
+  });
+  if (catalogReviewLabel) {
+    hubFaqs.push({
+      q: "When were these brand grades last updated?",
+      a: `Brand grades are recomputed whenever the underlying product scores change. They were last reviewed ${catalogReviewLabel}.`,
+    });
+  }
+
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: hubFaqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <main id="main-content" className="max-w-5xl mx-auto px-6 md:px-8 pt-28 pb-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
       <header className="mb-12 max-w-2xl">
@@ -82,6 +122,18 @@ export default function BrandsIndex() {
         })}
       </div>
 
+      <section className="mt-14">
+        <h2 className="text-2xl font-bold text-text mb-6">Frequently asked questions</h2>
+        <div className="space-y-5 max-w-3xl">
+          {hubFaqs.map((f) => (
+            <div key={f.q}>
+              <h3 className="text-base font-semibold text-text mb-1.5">{f.q}</h3>
+              <p className="text-sm text-muted leading-relaxed">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">How we grade brands.</strong> A brand&apos;s score is
         the weighted average of Formulate&apos;s product scores across that
@@ -92,6 +144,8 @@ export default function BrandsIndex() {
         </Link>
         .
       </p>
+
+      <NewsletterSignup source="brands-hub" />
     </main>
   );
 }
