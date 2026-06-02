@@ -21,6 +21,7 @@ const LEARN: MenuItem[] = [
   { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
 ];
 const TOOLS: MenuItem[] = [
+  { href: "/start", title: "Find Your Stack", desc: "Answer 2 questions, get a stack" },
   { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
   { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
   { href: "/tools/stack-builder", title: "Stack Builder", desc: "Build & score a stack" },
@@ -137,16 +138,16 @@ export function Nav() {
           </div>
 
           <div className="flex items-center gap-3">
-            {/* New users: guided value-first onboarding. Runs in the webapp
-                (same origin as the anon-stack localStorage + signup migration),
-                so the landing just deep-links into it with ?reset_onboarding=1
-                to force the flow open even for prior visitors. */}
-            <a
-              href={withUtm("https://app.formulate-health.app/?reset_onboarding=1", { source: "landing", campaign: "nav_get_started" })}
+            {/* New users: landing-side goal quiz (/start) that builds an
+                evidence-based starter stack, then hands off into the webapp's
+                guided value-first onboarding (?reset_onboarding=1). Keeping the
+                first step on the landing lets visitors get value before leaving. */}
+            <Link
+              href="/start"
               className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Get started free
-            </a>
+            </Link>
             {/* Returning users — secondary, desktop bar only (in the mobile menu otherwise). */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app" })}

@@ -200,18 +200,18 @@ export default function Home() {
 
             <div className="hero-animate-delay-3 flex flex-col items-center lg:items-start gap-4">
               <div className="flex gap-3.5 flex-wrap justify-center lg:justify-start">
-                <a
-                  href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero" })}
+                <Link
+                  href="/start"
                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
                 >
-                  Open the app — free
+                  Build my free stack
                   <ArrowIcon />
-                </a>
+                </Link>
                 <a
-                  href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_hero_catalog" })}
+                  href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
                 >
-                  Browse supplement scores
+                  Open the app
                 </a>
               </div>
               <span className="text-[13px] text-muted/60">Free forever · No account needed to browse · No brand sponsorships</span>
