@@ -15,8 +15,8 @@ import { useEffect, useRef, useState } from "react";
  * so body copy stays readable; fully prefers-reduced-motion safe.
  */
 
-type Seg = { d: string; w: number };
-type Leaf = { x: number; y: number; s: number; r: number; w: boolean; dur: number; delay: number };
+type Seg = { d: string; w: number; len: number; ry: number };
+type Leaf = { x: number; y: number; s: number; r: number; w: boolean; dur: number; delay: number; ry: number };
 
 /** Deterministic PRNG so the tree shape is stable across resizes/regeneration. */
 function mulberry32(seed: number) {
@@ -49,10 +49,21 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   const leaves: Leaf[] = [];
   const cx = W * 0.5;
 
+  // Push a branch segment, recording its draw length (for the stroke-on build)
+  // and reveal-y (the growth front activates it when it passes this y).
+  const addSeg = (x1: number, y1: number, x2: number, y2: number, curve: number, w: number) => {
+    segs.push({
+      d: seg(x1, y1, x2, y2, curve),
+      w: Math.max(0.6, w),
+      len: Math.hypot(x2 - x1, y2 - y1) * 1.2 + 4,
+      ry: Math.min(y1, y2),
+    });
+  };
+
   // Push a leaf; ~half get a gentle, randomly-phased wind sway so the tree feels alive.
   const pushLeaf = (x: number, y: number, s: number, r: number) => {
     const windy = rng() < 0.35; // share that animates — capped for performance
-    leaves.push({ x, y, s, r, w: windy, dur: windy ? 3.2 + rng() * 3.6 : 0, delay: windy ? rng() * 5 : 0 });
+    leaves.push({ x, y, s, r, w: windy, dur: windy ? 3.2 + rng() * 3.6 : 0, delay: windy ? rng() * 5 : 0, ry: y });
   };
 
   // Recursive limb that forks and tapers. `density` (0..1) controls how leafy it
@@ -69,7 +80,7 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   ) => {
     const ex = x + Math.cos(ang) * len;
     const ey = y + Math.sin(ang) * len;
-    segs.push({ d: seg(x, y, ex, ey, (rng() - 0.5) * len * 0.3), w: Math.max(0.6, wid) });
+    addSeg(x, y, ex, ey, (rng() - 0.5) * len * 0.3, wid);
 
     // A leaf sprinkled along the limb itself (≤1 per segment) so no span is bare.
     if (density > 0 && len > 14 && rng() < density * 0.7) {
@@ -100,7 +111,7 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   const cby = top + 96; // the hub: crown grows UP from here, trunk grows DOWN — one point.
 
   // A short thick neck so the hub reads as solid where canopy meets trunk.
-  segs.push({ d: seg(cbx, cby + 40, cbx, cby, 6), w: 16 });
+  addSeg(cbx, cby + 40, cbx, cby, 6, 16);
 
   // Leafy crown: every main limb radiates from the EXACT hub so the centre connects.
   const mainN = 9;
@@ -142,7 +153,7 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
     // Stay thick the whole way down (17 → 13) so the trunk never thins to a twig
     // before the roots — keeps a substantial base for the root fan to grow from.
     const w = 17 - (i / (trunkPts.length - 1)) * 4;
-    segs.push({ d: seg(a.x, a.y, b.x, b.y, (rng() - 0.5) * 10), w });
+    addSeg(a.x, a.y, b.x, b.y, (rng() - 0.5) * 10, w);
   }
 
   // A leafy branch at every other trunk node, alternating sides — ~one per section.
@@ -171,7 +182,8 @@ const LEAF_PATH = "M0 0 C -7 -7 -7 -18 0 -26 C 7 -18 7 -7 0 0 Z";
 
 export function BackgroundTree() {
   const rootRef = useRef<HTMLDivElement>(null);
-  const clipRef = useRef<SVGRectElement>(null);
+  const segRefs = useRef<Array<SVGPathElement | null>>([]);
+  const leafRefs = useRef<Array<SVGGElement | null>>([]);
   const [dims, setDims] = useState({ w: 0, h: 0 });
   const [tree, setTree] = useState<{ segs: Seg[]; leaves: Leaf[] } | null>(null);
   const reduce = useRef(false);
@@ -209,28 +221,60 @@ export function BackgroundTree() {
     if (dims.w && dims.h) setTree(buildTree(dims.w, dims.h, 1337));
   }, [dims.w, dims.h]);
 
-  // Reveal top-to-bottom by growing a single clip rect as you scroll.
+  // Visibly BUILD the tree as the growth front descends: each branch strokes
+  // itself on and each leaf sprouts the moment the front reaches it. Branches/
+  // leaves are visited in build order (trunk/hub → tips) via indices sorted by
+  // reveal-y, with a small per-batch stagger so it cascades rather than popping.
   useEffect(() => {
     if (!tree || !dims.h) return;
-    const rect = clipRef.current;
-    if (!rect) return;
 
+    const segOrder = tree.segs.map((_, i) => i).sort((a, b) => tree.segs[a].ry - tree.segs[b].ry);
+    const leafOrder = tree.leaves.map((_, i) => i).sort((a, b) => tree.leaves[a].ry - tree.leaves[b].ry);
+
+    const growSeg = (i: number, delay: number) => {
+      const el = segRefs.current[i];
+      if (!el) return;
+      el.style.transitionDelay = `${delay}s`;
+      el.style.strokeDashoffset = "0";
+    };
+    const growLeaf = (i: number, delay: number) => {
+      const el = leafRefs.current[i];
+      if (!el) return;
+      el.style.transitionDelay = `${delay + 0.12}s`; // leaf opens just after its branch
+      el.classList.add("grown");
+    };
+
+    // Reduced motion: reveal the whole tree at once (transitions are disabled in CSS).
     if (reduce.current) {
-      rect.setAttribute("height", String(dims.h));
+      segOrder.forEach((i) => growSeg(i, 0));
+      leafOrder.forEach((i) => growLeaf(i, 0));
       return;
     }
 
     let raf = 0;
     let pending = false;
-    let grown = 0; // high-water mark — the tree only ever grows, never retracts
+    let grown = 0; // high-water mark front — the tree only ever grows, never retracts
+    let segPtr = 0;
+    let leafPtr = 0;
+
     const render = () => {
       pending = false;
-      // Reveal a little below the fold so the tree "grows to meet" the reader, and
-      // keep whatever has already grown — scrolling back up never un-grows it.
-      const front = Math.min(dims.h, window.scrollY + window.innerHeight * 0.95);
+      const front = Math.min(dims.h, window.scrollY + window.innerHeight * 0.92);
       if (front <= grown) return;
       grown = front;
-      rect.setAttribute("height", grown.toFixed(0));
+      // Activate everything the front just passed, cascading within this batch.
+      let burst = 0;
+      while (segPtr < segOrder.length && tree.segs[segOrder[segPtr]].ry <= front) {
+        growSeg(segOrder[segPtr], Math.min(burst * 0.006, 1.4));
+        segPtr++;
+        burst++;
+      }
+      burst = 0;
+      while (leafPtr < leafOrder.length && tree.leaves[leafOrder[leafPtr]].ry <= front) {
+        growLeaf(leafOrder[leafPtr], Math.min(burst * 0.006, 1.4));
+        leafPtr++;
+        burst++;
+      }
     };
     const onScroll = () => {
       if (pending) return;
@@ -266,12 +310,16 @@ export function BackgroundTree() {
               <stop offset="45%" stopColor="#2fd8a8" />
               <stop offset="100%" stopColor="#7c6dfa" />
             </linearGradient>
-            <clipPath id="bt-grow">
-              <rect ref={clipRef} x="0" y="0" width={dims.w} height="0" />
-            </clipPath>
           </defs>
 
           <style>{`
+            .bt-seg { transition: stroke-dashoffset 0.7s ease; }
+            .bt-sprout {
+              transform-box: fill-box; transform-origin: 50% 100%;
+              transform: scale(0);
+              transition: transform 0.5s cubic-bezier(0.2, 1, 0.4, 1);
+            }
+            .bt-sprout.grown { transform: scale(1); }
             .bt-leaf { transform-box: fill-box; transform-origin: 50% 100%; }
             .bt-leaf.bt-sway { animation: bt-sway 5s ease-in-out infinite; }
             @keyframes bt-sway {
@@ -280,35 +328,43 @@ export function BackgroundTree() {
             }
             @media (prefers-reduced-motion: reduce) {
               .bt-leaf.bt-sway { animation: none; }
+              .bt-seg, .bt-sprout { transition: none; }
             }
             @media (max-width: 768px) {
               .bt-leaf.bt-sway { animation: none; } /* save battery on phones */
             }
           `}</style>
 
-          <g clipPath="url(#bt-grow)">
-            {/* soft glow pooling around the crown for depth */}
-            <ellipse cx={dims.w / 2} cy={130} rx={dims.w * 0.32} ry={220} fill="url(#bt-grad)" opacity={0.05} />
+          {/* soft glow pooling around the crown for depth */}
+          <ellipse cx={dims.w / 2} cy={130} rx={dims.w * 0.32} ry={220} fill="url(#bt-grad)" opacity={0.05} />
 
-            {/* branches + trunk + roots — kept subtle so body copy stays readable */}
-            <g stroke="url(#bt-grad)" fill="none" strokeLinecap="round" opacity={0.26}>
-              {tree.segs.map((s, i) => (
-                <path key={i} d={s.d} strokeWidth={s.w} />
-              ))}
-            </g>
+          {/* branches + trunk + roots — each strokes itself on when the front passes */}
+          <g stroke="url(#bt-grad)" fill="none" strokeLinecap="round" opacity={0.26}>
+            {tree.segs.map((s, i) => (
+              <path
+                key={i}
+                ref={(el) => { segRefs.current[i] = el; }}
+                className="bt-seg"
+                d={s.d}
+                strokeWidth={s.w}
+                style={{ strokeDasharray: String(s.len), strokeDashoffset: String(s.len) }}
+              />
+            ))}
+          </g>
 
-            {/* leaves — some sway in the wind (sway pivots at the leaf stem) */}
-            <g fill="url(#bt-grad)" opacity={0.34}>
-              {tree.leaves.map((l, i) => (
-                <g key={i} transform={`translate(${l.x.toFixed(1)} ${l.y.toFixed(1)}) rotate(${l.r.toFixed(0)}) scale(${l.s.toFixed(2)})`}>
+          {/* leaves — sprout on reveal (bt-sprout), then sway in the wind (bt-leaf) */}
+          <g fill="url(#bt-grad)" opacity={0.34}>
+            {tree.leaves.map((l, i) => (
+              <g key={i} transform={`translate(${l.x.toFixed(1)} ${l.y.toFixed(1)}) rotate(${l.r.toFixed(0)}) scale(${l.s.toFixed(2)})`}>
+                <g ref={(el) => { leafRefs.current[i] = el; }} className="bt-sprout">
                   <path
                     d={LEAF_PATH}
                     className={l.w ? "bt-leaf bt-sway" : "bt-leaf"}
                     style={l.w ? { animationDuration: `${l.dur.toFixed(2)}s`, animationDelay: `${l.delay.toFixed(2)}s` } : undefined}
                   />
                 </g>
-              ))}
-            </g>
+              </g>
+            ))}
           </g>
         </svg>
       )}
