@@ -13,6 +13,7 @@ import {
   JourneyPreview,
 } from "@/components/landing/landing-visuals";
 import { BackgroundTree } from "@/components/landing/background-tree";
+import { FallingLeaves } from "@/components/landing/falling-leaves";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { foods as allFoods, foodColor } from "@/lib/foods";
 import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
@@ -170,6 +171,7 @@ export default function Home() {
   return (
     <div className="relative overflow-hidden">
       <BackgroundTree />
+      <FallingLeaves />
       <div className="relative z-10">
 
       {/* ───────────────── Hero ───────────────── */}
