@@ -51,11 +51,13 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
 
   // Push a leaf; ~half get a gentle, randomly-phased wind sway so the tree feels alive.
   const pushLeaf = (x: number, y: number, s: number, r: number) => {
-    const windy = rng() < 0.55;
+    const windy = rng() < 0.35; // share that animates — capped for performance
     leaves.push({ x, y, s, r, w: windy, dur: windy ? 3.2 + rng() * 3.6 : 0, delay: windy ? rng() * 5 : 0 });
   };
 
-  // Recursive limb that forks and tapers, dropping leaves at its tips.
+  // Recursive limb that forks and tapers. `density` (0..1) controls how leafy it
+  // is — leaves are dropped ALONG the branch (not just at the tips) so no span
+  // looks bare; 0 = a bare root.
   const limb = (
     x: number,
     y: number,
@@ -63,22 +65,30 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
     len: number,
     wid: number,
     depth: number,
-    leafy: boolean
+    density: number
   ) => {
     const ex = x + Math.cos(ang) * len;
     const ey = y + Math.sin(ang) * len;
     segs.push({ d: seg(x, y, ex, ey, (rng() - 0.5) * len * 0.3), w: Math.max(0.6, wid) });
 
+    // A leaf sprinkled along the limb itself (≤1 per segment) so no span is bare.
+    if (density > 0 && len > 14 && rng() < density * 0.7) {
+      const t = 0.4 + rng() * 0.55;
+      pushLeaf(x + Math.cos(ang) * len * t, y + Math.sin(ang) * len * t, 0.5 + rng() * 0.55, rng() * 360);
+    }
+
     if (depth <= 0 || len < 16) {
-      if (leafy) pushLeaf(ex, ey, 0.55 + rng() * 0.55, ang / DEG + 90 + (rng() - 0.5) * 50);
+      if (density > 0) {
+        pushLeaf(ex, ey, 0.6 + rng() * 0.55, ang / DEG + 90 + (rng() - 0.5) * 50);
+        if (rng() < density) pushLeaf(ex, ey, 0.5 + rng() * 0.5, rng() * 360);
+      }
       return;
     }
-    if (leafy && rng() < 0.16) pushLeaf(ex, ey, 0.45 + rng() * 0.4, rng() * 360);
 
     const spread = (16 + rng() * 22) * DEG;
-    limb(ex, ey, ang - spread * (0.6 + rng() * 0.6), len * (0.68 + rng() * 0.14), wid * 0.68, depth - 1, leafy);
-    limb(ex, ey, ang + spread * (0.6 + rng() * 0.6), len * (0.68 + rng() * 0.14), wid * 0.68, depth - 1, leafy);
-    if (rng() < 0.3) limb(ex, ey, ang + (rng() - 0.5) * spread, len * 0.55, wid * 0.55, depth - 2, leafy);
+    limb(ex, ey, ang - spread * (0.6 + rng() * 0.6), len * (0.68 + rng() * 0.14), wid * 0.68, depth - 1, density);
+    limb(ex, ey, ang + spread * (0.6 + rng() * 0.6), len * (0.68 + rng() * 0.14), wid * 0.68, depth - 1, density);
+    if (rng() < 0.35) limb(ex, ey, ang + (rng() - 0.5) * spread, len * 0.55, wid * 0.55, depth - 2, density);
   };
 
   const top = 64;
@@ -86,61 +96,67 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   const trunkBottom = H - rootRoom;
   const trunkLen = Math.max(400, trunkBottom - top);
 
-  // Leafy crown behind the hero — a full canopy growing UP off the trunk top.
   const cbx = cx;
-  const cby = top + 70; // shared with the trunk's first point, so crown + trunk connect
-  const mainN = 7;
+  const cby = top + 96; // the hub: crown grows UP from here, trunk grows DOWN — one point.
+
+  // A short thick neck so the hub reads as solid where canopy meets trunk.
+  segs.push({ d: seg(cbx, cby + 40, cbx, cby, 6), w: 16 });
+
+  // Leafy crown: every main limb radiates from the EXACT hub so the centre connects.
+  const mainN = 9;
   for (let i = 0; i < mainN; i++) {
     const f = i / (mainN - 1);
-    const a = (-168 + f * 156) * DEG; // wide upward fan, up-left → up-right
-    limb(cbx + (rng() - 0.5) * 26, cby + (rng() - 0.5) * 16, a, W * 0.085 * (0.85 + rng() * 0.5), 3.8, 5, true);
+    const a = (-172 + f * 164) * DEG; // wide upward fan, up-left → up-right
+    limb(cbx, cby, a, W * 0.09 * (0.85 + rng() * 0.5), 6, 4, 0.6);
   }
-  // shorter inner limbs to fill the centre of the canopy
-  for (let i = 0; i < 4; i++) {
+  // shorter inner limbs from the hub to fill the centre of the canopy
+  for (let i = 0; i < 5; i++) {
     const a = (-150 + rng() * 120) * DEG;
-    limb(cbx + (rng() - 0.5) * 64, cby - rng() * 28, a, W * 0.05 * (0.7 + rng() * 0.5), 2.4, 4, true);
+    limb(cbx, cby, a, W * 0.055 * (0.7 + rng() * 0.5), 3.4, 4, 0.6);
   }
   // lush foliage: scatter leaves through the canopy ellipse so the top reads full
-  const canopyRx = W * 0.27;
-  const canopyRy = 175;
-  const scatterN = 78;
+  const canopyRx = W * 0.3;
+  const canopyRy = 200;
+  const scatterN = 120;
   for (let i = 0; i < scatterN; i++) {
     const ang = rng() * Math.PI * 2;
     const rad = Math.sqrt(rng()); // roughly uniform fill of the ellipse
     const lx = cbx + Math.cos(ang) * canopyRx * rad;
-    const ly = cby - 18 + Math.sin(ang) * canopyRy * rad;
-    pushLeaf(lx, ly, 0.55 + rng() * 0.6, rng() * 360);
+    const ly = cby - 36 + Math.sin(ang) * canopyRy * rad;
+    pushLeaf(lx, ly, 0.55 + rng() * 0.65, rng() * 360);
   }
 
-  // Trunk: points down the centre with a gentle organic sway.
+  // Trunk: a thick spine running down the centre with a gentle organic sway.
   const STEPS = Math.max(7, Math.floor(trunkLen / 240));
   const trunkPts: { x: number; y: number }[] = [];
+  const swayBase = Math.sin(0.5);
   for (let i = 0; i <= STEPS; i++) {
-    const y = top + 70 + (trunkLen - 70) * (i / STEPS);
-    const x = cx + Math.sin(i * 0.7 + 0.5) * (W * 0.045);
+    const y = cby + (trunkBottom - cby) * (i / STEPS);
+    // Relative sway so the trunk's FIRST point sits exactly on the hub (cx, cby).
+    const x = cx + (Math.sin(i * 0.7 + 0.5) - swayBase) * (W * 0.045);
     trunkPts.push({ x, y });
   }
   for (let i = 0; i < trunkPts.length - 1; i++) {
     const a = trunkPts[i];
     const b = trunkPts[i + 1];
-    const w = 8 - (i / (trunkPts.length - 1)) * 4.5; // taper 8 → 3.5
+    const w = 16 - (i / (trunkPts.length - 1)) * 10; // taper 16 → 6 (thick main trunk)
     segs.push({ d: seg(a.x, a.y, b.x, b.y, (rng() - 0.5) * 10), w });
   }
 
-  // One branch at each trunk node, alternating sides — roughly one per section.
+  // A leafy branch at every other trunk node, alternating sides — ~one per section.
   trunkPts.forEach((p, i) => {
-    if (i < 1 || i >= trunkPts.length - 1) return;
-    const side = i % 2 === 0 ? 1 : -1;
+    if (i < 1 || i >= trunkPts.length - 1 || i % 2 === 0) return;
+    const side = i % 4 === 1 ? 1 : -1;
     const base = (side > 0 ? 38 : 142) * DEG + (rng() - 0.5) * 22 * DEG;
     const len = W * 0.1 * (0.7 + rng() * 0.7);
-    limb(p.x, p.y, base, len, 3.4, 4, true);
+    limb(p.x, p.y, base, len, 3.8, 3, 0.45);
   });
 
-  // Roots: from the trunk's base, fanning downward and outward.
+  // Roots: from the trunk's base, fanning downward and outward (bare, no leaves).
   const rootN = 5 + Math.floor(rng() * 3);
   for (let k = 0; k < rootN; k++) {
     const a = (58 + (k / (rootN - 1)) * 64) * DEG; // 58°..122° (downward fan)
-    limb(cx + (rng() - 0.5) * 36, trunkBottom, a, rootRoom * 0.42 * (0.8 + rng() * 0.6), 4, 5, false);
+    limb(cx + (rng() - 0.5) * 36, trunkBottom, a, rootRoom * 0.42 * (0.8 + rng() * 0.6), 5, 5, 0);
   }
 
   return { segs, leaves };
@@ -259,6 +275,9 @@ export function BackgroundTree() {
             }
             @media (prefers-reduced-motion: reduce) {
               .bt-leaf.bt-sway { animation: none; }
+            }
+            @media (max-width: 768px) {
+              .bt-leaf.bt-sway { animation: none; } /* save battery on phones */
             }
           `}</style>
 
