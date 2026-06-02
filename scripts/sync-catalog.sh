@@ -14,11 +14,14 @@ echo "Desktop app: $FORMULATE_DIR"
 echo "Landing page: $LANDING_DIR"
 echo ""
 
-# 1. Run the existing export script (reads from desktop DB, writes catalog.json + images)
-echo "[1/3] Exporting catalog from desktop app..."
+# 1. Mirror the CANONICAL web-app catalog into the landing (single source of
+#    truth). Replaces the old DB-export fork, which read a thinner set and
+#    silently drifted/froze. The web catalog is kept fresh by the desktop
+#    publish pipeline; this just mirrors it + copies the referenced images.
+echo "[1/3] Mirroring catalog from the web app..."
 cd "$LANDING_DIR"
-python scripts/export-catalog.py
-echo "  ✓ catalog.json updated"
+node scripts/sync-from-web.mjs
+echo "  ✓ catalog.json mirrored from formulate-web"
 
 # 2. Copy NDJSON files to API data directory for seeding
 API_DIR="${API_DIR:-$(dirname "$LANDING_DIR")/formulate-api}"

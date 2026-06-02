@@ -1,10 +1,19 @@
 """
 Export supplement catalog from Formulate SQLite DB to static JSON for the website.
 
+⚠️  DEPRECATED as the landing's primary catalog source. This fork reads only
+    DB-published families (no items.ndjson merge) so it produces a THINNER set
+    than the canonical web export (formulate-web/scripts/export-catalog.py) and
+    will make the landing DRIFT below the web app. The landing now MIRRORS the
+    web catalog via `scripts/sync-from-web.mjs` (wired into `npm run sync`).
+    Do NOT run this as the routine sync — it would regress the landing catalog.
+    Kept only as an emergency standalone fallback (it can decrypt app.db +
+    seed.db and normalize GIDs); prefer sync-from-web.mjs.
+
 Also copies product images (primary.webp, thumb.webp, gallery_*.webp) into
 public/images/products/{brand}/{product}/ so Next.js can serve them.
 
-Usage:
+Usage (fallback only):
     python scripts/export-catalog.py
 
 Output:
