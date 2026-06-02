@@ -74,7 +74,7 @@ export function Nav() {
               className={linkClass("/download")}
               onClick={() => trackEvent("download_click", { source: "nav_desktop" })}
             >
-              Download
+              Desktop app
             </Link>
           </div>
 
@@ -129,7 +129,7 @@ export function Nav() {
               className={`${linkClass("/download")} py-1`}
               role="menuitem"
             >
-              Download
+              Desktop app
             </Link>
           </div>
         )}

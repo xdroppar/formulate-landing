@@ -5,22 +5,22 @@ import { DownloadClient } from "./download-client";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Download Formulate for Windows — Free Supplement Tracking App",
+  title: "Formulate — Free Supplement Tracking, in your browser",
   description:
-    "Score every product, build your personal supplement stack, and track daily intake. Free Windows desktop app — 80 MB, installs in minutes, no account required to browse.",
+    "Score every product, build your personal supplement stack, and track daily intake — free in the web app, no install. The Windows desktop app is in limited access; request a download link.",
   alternates: { canonical: "https://formulate-health.app/download" },
   openGraph: {
-    title: "Download Formulate — Free Supplement Tracking App",
+    title: "Formulate — Free Supplement Tracking",
     description:
-      "Score every product, build your personal supplement stack, and track daily intake. Free Windows desktop app.",
+      "Score every product, build your stack, and track daily intake — free in the web app. Desktop app available by request.",
     url: "https://formulate-health.app/download",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Download Formulate — Free Supplement Tracking App",
+    title: "Formulate — Free Supplement Tracking",
     description:
-      "Score every product, build your personal supplement stack, and track daily intake.",
+      "Score every product, build your stack, and track daily intake — free in the web app.",
   },
 };
 

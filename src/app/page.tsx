@@ -48,7 +48,7 @@ export default function Home() {
               source="landing_hero"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
-              Install Formulate · Free
+              Request desktop access
             </TrackedDownloadLink>
           </div>
           <span className="text-[13px] text-muted/60">Free forever. No account required to browse.</span>
@@ -566,7 +566,7 @@ export default function Home() {
               source="landing_page_bottom"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
             >
-              Download for Windows
+              Request desktop access
             </TrackedDownloadLink>
           </div>
         </section>
