@@ -22,7 +22,8 @@ import { useEffect, useRef, useState, type CSSProperties } from "react";
 
 type Seg = { gi: number; d: string; w: number; len: number; ry: number };
 type Leaf = { li: number; x: number; y: number; s: number; r: number; w: boolean; dur: number; delay: number; ry: number };
-type Branch = { bx: number; by: number; flex: number; dur: number; phase: number; segs: Seg[]; leaves: Leaf[] };
+type Flower = { fi: number; x: number; y: number; s: number; r: number; ry: number; dur: number; delay: number };
+type Branch = { bx: number; by: number; flex: number; dur: number; phase: number; segs: Seg[]; leaves: Leaf[]; flowers: Flower[] };
 
 /** Deterministic PRNG so the tree shape is stable across resizes/regeneration. */
 function mulberry32(seed: number) {
@@ -55,12 +56,13 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
   let cur!: Branch; // the branch currently being built into (set by mkBranch)
   let segGi = 0;
   let leafLi = 0;
+  let flowerFi = 0;
   const cx = W * 0.5;
 
   // Start a new branch group. `flex` (deg) is its wind-sway amplitude; it pivots
   // at (bx, by) — its attachment point — so it swings without detaching.
   const mkBranch = (bx: number, by: number, flex: number) => {
-    cur = { bx, by, flex, dur: 4.5 + rng() * 4, phase: rng() * 6, segs: [], leaves: [] };
+    cur = { bx, by, flex, dur: 4.5 + rng() * 4, phase: rng() * 6, segs: [], leaves: [], flowers: [] };
     branches.push(cur);
   };
   const addSeg = (x1: number, y1: number, x2: number, y2: number, curve: number, w: number) => {
@@ -75,6 +77,10 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
   const pushLeaf = (x: number, y: number, s: number, r: number) => {
     const windy = rng() < 0.35; // share that flutters individually — capped for perf
     cur.leaves.push({ li: leafLi++, x, y, s, r, w: windy, dur: windy ? 3.2 + rng() * 3.6 : 0, delay: windy ? rng() * 5 : 0, ry: y });
+  };
+  // A few blossoms on the outgoing limbs — sparse accents, not foliage.
+  const pushFlower = (x: number, y: number, s: number, r: number) => {
+    cur.flowers.push({ fi: flowerFi++, x, y, s, r, ry: y, dur: 4 + rng() * 3, delay: rng() * 4 });
   };
 
   // Recursive limb that forks and tapers. `density` (0..1) controls how leafy it
@@ -93,6 +99,7 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
       if (density > 0) {
         pushLeaf(ex, ey, 0.6 + rng() * 0.55, ang / DEG + 90 + (rng() - 0.5) * 50);
         if (rng() < density) pushLeaf(ex, ey, 0.5 + rng() * 0.5, rng() * 360);
+        if (rng() < 0.1) pushFlower(ex, ey, 0.7 + rng() * 0.5, rng() * 360); // an occasional bloom at a tip
       }
       return;
     }
@@ -184,6 +191,7 @@ export function BackgroundTree() {
   const rootRef = useRef<HTMLDivElement>(null);
   const segRefs = useRef<Array<SVGPathElement | null>>([]);
   const leafRefs = useRef<Array<SVGGElement | null>>([]);
+  const flowerRefs = useRef<Array<SVGGElement | null>>([]);
   const [dims, setDims] = useState({ w: 0, h: 0 });
   const [tree, setTree] = useState<{ branches: Branch[] } | null>(null);
   const reduce = useRef(false);
@@ -229,12 +237,15 @@ export function BackgroundTree() {
 
     const segByRy: { i: number; ry: number }[] = [];
     const leafByRy: { i: number; ry: number }[] = [];
+    const flowerByRy: { i: number; ry: number }[] = [];
     for (const b of tree.branches) {
       for (const s of b.segs) segByRy.push({ i: s.gi, ry: s.ry });
       for (const l of b.leaves) leafByRy.push({ i: l.li, ry: l.ry });
+      for (const f of b.flowers) flowerByRy.push({ i: f.fi, ry: f.ry });
     }
     segByRy.sort((a, b) => a.ry - b.ry);
     leafByRy.sort((a, b) => a.ry - b.ry);
+    flowerByRy.sort((a, b) => a.ry - b.ry);
 
     const growSeg = (gi: number) => {
       const el = segRefs.current[gi];
@@ -244,10 +255,15 @@ export function BackgroundTree() {
       const el = leafRefs.current[li];
       if (el) el.classList.add("grown");
     };
+    const growFlower = (fi: number) => {
+      const el = flowerRefs.current[fi];
+      if (el) el.classList.add("grown");
+    };
 
     if (reduce.current) {
       segByRy.forEach((s) => growSeg(s.i));
       leafByRy.forEach((l) => growLeaf(l.i));
+      flowerByRy.forEach((f) => growFlower(f.i));
       return;
     }
 
@@ -260,6 +276,7 @@ export function BackgroundTree() {
     let target = 0; // high-water front — only grows
     let segPtr = 0;
     let leafPtr = 0;
+    let flowerPtr = 0;
     const PER_FRAME = 14; // of each type
 
     const pump = () => {
@@ -276,9 +293,16 @@ export function BackgroundTree() {
         leafPtr++;
         m++;
       }
+      let k = 0;
+      while (k < PER_FRAME && flowerPtr < flowerByRy.length && flowerByRy[flowerPtr].ry <= target) {
+        growFlower(flowerByRy[flowerPtr].i);
+        flowerPtr++;
+        k++;
+      }
       const more =
         (segPtr < segByRy.length && segByRy[segPtr].ry <= target) ||
-        (leafPtr < leafByRy.length && leafByRy[leafPtr].ry <= target);
+        (leafPtr < leafByRy.length && leafByRy[leafPtr].ry <= target) ||
+        (flowerPtr < flowerByRy.length && flowerByRy[flowerPtr].ry <= target);
       if (more) raf = requestAnimationFrame(pump);
       else pumping = false;
     };
@@ -400,6 +424,26 @@ export function BackgroundTree() {
                             className={l.w ? "bt-leaf bt-sway" : "bt-leaf"}
                             style={l.w ? { animationDuration: `${l.dur.toFixed(2)}s`, animationDelay: `${l.delay.toFixed(2)}s` } : undefined}
                           />
+                        </g>
+                      </g>
+                    ))}
+                  </g>
+                )}
+                {/* flowers — a few warm blossoms on the outgoing limbs; sprout on reveal, sway softly */}
+                {b.flowers.length > 0 && (
+                  <g opacity={0.55}>
+                    {b.flowers.map((fl) => (
+                      <g key={fl.fi} transform={`translate(${fl.x.toFixed(1)} ${fl.y.toFixed(1)}) rotate(${fl.r.toFixed(0)}) scale(${fl.s.toFixed(2)})`}>
+                        <g ref={(el) => { flowerRefs.current[fl.fi] = el; }} className="bt-sprout">
+                          <g
+                            className="bt-leaf bt-sway"
+                            style={{ animationDuration: `${fl.dur.toFixed(2)}s`, animationDelay: `${fl.delay.toFixed(2)}s` }}
+                          >
+                            {[0, 1, 2, 3, 4].map((p) => (
+                              <ellipse key={p} cx={0} cy={-7} rx={3} ry={5.5} fill="#f7a8cf" transform={`rotate(${p * 72})`} />
+                            ))}
+                            <circle r={2.6} fill="#ffd36b" />
+                          </g>
                         </g>
                       </g>
                     ))}
