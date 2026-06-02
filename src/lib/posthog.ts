@@ -14,7 +14,12 @@
 
 import posthog from "posthog-js";
 
-const KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+// Write-only, public-by-design project token (safe to ship in the client
+// bundle). Env var overrides it — set NEXT_PUBLIC_POSTHOG_KEY on Vercel if you
+// rotate the token. US Cloud project, so the default host is correct.
+const KEY =
+  process.env.NEXT_PUBLIC_POSTHOG_KEY ||
+  "phc_qiNOmrs6f02PdNTH0IQ07ul3fZ86JuZYKcHYjve3eZL";
 const HOST =
   process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
 
