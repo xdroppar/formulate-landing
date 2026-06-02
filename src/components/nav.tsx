@@ -124,6 +124,9 @@ export function Nav() {
             <Link href="/supplements" className={topLinkClass("/supplements")}>
               Supplements
             </Link>
+            <Link href="/foods" className={topLinkClass("/foods")}>
+              Foods
+            </Link>
             <NavMenu label="Learn" items={LEARN} />
             <NavMenu label="Tools" items={TOOLS} />
             <Link href="/methodology" className={topLinkClass("/methodology")}>
@@ -157,6 +160,9 @@ export function Nav() {
           <div className="md:hidden border-t border-border bg-bg/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4 max-h-[80vh] overflow-y-auto" role="menu">
             <Link href="/supplements" onClick={() => setOpen(false)} className={`${topLinkClass("/supplements")} py-1`} role="menuitem">
               Supplements
+            </Link>
+            <Link href="/foods" onClick={() => setOpen(false)} className={`${topLinkClass("/foods")} py-1`} role="menuitem">
+              Foods
             </Link>
             {[
               { label: "Learn", items: LEARN },

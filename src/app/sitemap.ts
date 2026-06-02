@@ -10,6 +10,7 @@ import { brandComparisons, brandComparisonSlug } from "@/lib/brand-comparisons";
 import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
+import { foods } from "@/lib/foods";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -121,6 +122,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const foodEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/foods`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...foods.map((f) => ({
+      url: `${baseUrl}/foods/${f.base_id}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      // Whole-food detail pages carry nutrition + mechanism-level benefits +
+      // score breakdown — high-volume informational search ("X nutrition/benefits").
+      priority: 0.75,
+    })),
+  ];
+
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
@@ -226,6 +244,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...productEntries,
     ...bestCategoryEntries,
+    ...foodEntries,
     ...brandEntries,
     ...ingredientEntries,
     ...compareEntries,
