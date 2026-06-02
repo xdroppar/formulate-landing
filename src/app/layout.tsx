@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { AttributionTracker } from "@/components/attribution-tracker";
+import { PageTracker } from "@/components/page-tracker";
 import { AppModeBoot } from "@/components/app-mode-boot";
 import "./globals.css";
 
@@ -105,6 +106,7 @@ export default function RootLayout({
         <Footer />
         <Analytics />
         <AttributionTracker />
+        <PageTracker />
       </body>
     </html>
   );

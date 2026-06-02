@@ -13,6 +13,7 @@
  */
 
 import { track as vercelTrack } from "@vercel/analytics";
+import { phCapture } from "@/lib/posthog";
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL || "https://formulate-api.onrender.com";
@@ -34,7 +35,7 @@ interface FirstTouch {
   captured_at?: string;
 }
 
-function getAnonId(): string | undefined {
+export function getAnonId(): string | undefined {
   if (typeof window === "undefined") return undefined;
   try {
     let id = window.localStorage.getItem(ANON_ID_KEY);
@@ -182,6 +183,32 @@ export function trackBuyClick(params: {
   });
 }
 
+/**
+ * POST an event to our own /events stream (the owned, queryable pipeline).
+ * `properties` should already be attribution-merged. Fire-and-forget.
+ */
+function postOwnedStream(name: string, properties: EventProps): void {
+  try {
+    void fetch(`${API_URL}/api/v1/events`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({
+        name,
+        source: SOURCE,
+        properties,
+        anon_id: getAnonId() ?? null,
+        referrer:
+          typeof document !== "undefined" ? document.referrer || null : null,
+      }),
+    }).catch(() => {
+      /* ignore */
+    });
+  } catch {
+    /* ignore */
+  }
+}
+
 export function trackEvent(name: string, properties?: EventProps): void {
   if (typeof window === "undefined") return;
 
@@ -193,23 +220,30 @@ export function trackEvent(name: string, properties?: EventProps): void {
     // swallow
   }
 
-  try {
-    void fetch(`${API_URL}/api/v1/events`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      keepalive: true,
-      body: JSON.stringify({
-        name,
-        source: SOURCE,
-        properties: merged,
-        anon_id: getAnonId() ?? null,
-        referrer:
-          typeof document !== "undefined" ? document.referrer || null : null,
-      }),
-    }).catch(() => {
-      /* ignore */
-    });
-  } catch {
-    /* ignore */
-  }
+  postOwnedStream(name, merged);
+  phCapture(name, merged);
+}
+
+/**
+ * Record a page view into the owned /events stream. NOT sent to Vercel (it
+ * auto-tracks pageviews) or PostHog ($pageview is captured natively in the
+ * PageTracker) — this populates our own table so entry pages, paths, and
+ * per-path metrics are queryable from data we own.
+ */
+export function trackPageView(path: string, properties?: EventProps): void {
+  if (typeof window === "undefined") return;
+  postOwnedStream("page_view", withAttribution({ ...(properties ?? {}), path }));
+}
+
+/**
+ * Record leaving a page, with how long the visitor spent on it (ms). Powers
+ * time-on-page and exit-page analysis in the owned stream. Fired on route
+ * change and on tab close/hide (keepalive fetch survives unload).
+ */
+export function trackPageLeave(path: string, dwellMs: number): void {
+  if (typeof window === "undefined") return;
+  postOwnedStream(
+    "page_leave",
+    withAttribution({ path, dwell_ms: Math.max(0, Math.round(dwellMs)) })
+  );
 }
