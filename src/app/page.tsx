@@ -12,9 +12,68 @@ import {
   MealLogPreview,
   JourneyPreview,
 } from "@/components/landing/landing-visuals";
+import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 
 const APP_URL = "https://app.formulate-health.app";
+
+/** Prefer the pre-generated ~256px thumb when it exists on disk (the catalog
+ *  image_url often carries a `?v=` cache token that defeats the lib's thumb
+ *  swap), else fall back to the full image. Server-only (SSG). */
+function cardImage(p: Product): string {
+  const raw = p.image_url ?? "";
+  if (!raw) return "";
+  const [path] = raw.split("?");
+  const thumb = path.replace(/\/[^/]+\.(webp|jpg|jpeg|png)$/i, "/thumb.webp");
+  if (thumb !== path && existsSync(join(process.cwd(), "public", thumb))) return thumb;
+  return raw;
+}
+
+function scoreHex(s: number): string {
+  return s >= 90 ? "#10B981" : s >= 80 ? "#3B82F6" : s >= 70 ? "#F59E0B" : s >= 60 ? "#F97316" : "#EF4444";
+}
+
+// Brand-diverse, top-scored products that have a real image — powers the
+// "real products, real scores" proof strip. Selected at build time (SSG).
+const featuredProducts: Product[] = (() => {
+  const seen = new Set<string>();
+  const out: Product[] = [];
+  for (const p of [...catalogProducts].sort((a, b) => (b.score ?? 0) - (a.score ?? 0))) {
+    if (!p.image_url || p.score == null) continue;
+    if (seen.has(p.brand_slug)) continue;
+    seen.add(p.brand_slug);
+    out.push(p);
+    if (out.length >= 10) break;
+  }
+  return out;
+})();
+
+// Recognizable stack staples for the hero mockup rows (graceful fallback to
+// the featured set if a slug ever drops out of the catalog).
+const heroRows = (() => {
+  const staples = [
+    "nootropics-depot-creatine-monohydrate-powder",
+    "megafood-magnesium",
+    "bulksupplements-l-theanine-powder",
+  ]
+    .map(productBySlug)
+    .filter((p): p is Product => !!p);
+  const list = staples.length >= 3 ? staples : featuredProducts;
+  return list.slice(0, 3).map((p, i) => ({
+    name: p.name,
+    brand: p.brand,
+    score: p.score ?? 0,
+    image: cardImage(p),
+    logged: i < 2,
+  }));
+})();
+
+const creatineImage = (() => {
+  const p = productBySlug("thorne-creatine");
+  return p ? cardImage(p) : undefined;
+})();
 
 function ArrowIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -125,7 +184,7 @@ export default function Home() {
 
           {/* animated preview */}
           <div className="hero-animate-delay-4">
-            <HeroPreview />
+            <HeroPreview products={heroRows} />
           </div>
         </div>
       </section>
@@ -149,6 +208,50 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </Reveal>
+
+      {/* ───────────────── Real products proof strip ───────────────── */}
+      <Reveal>
+        <section className="max-w-[1100px] mx-auto px-6 pb-24">
+          <div className="text-center mb-10">
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Real products · real scores</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[640px] mx-auto">
+              Actual products from the catalog — <span className="text-muted">scored, not sponsored.</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
+            {featuredProducts.slice(0, 10).map((p, i) => (
+              <a
+                key={p.slug}
+                href={withUtm(`${APP_URL}/catalog/${p.slug}`, { source: "landing", campaign: "home_proof_strip" })}
+                className={`group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all ${i >= 6 ? "hidden lg:block" : ""} ${i >= 4 && i < 6 ? "hidden sm:block" : ""}`}
+              >
+                <div className="relative aspect-square bg-surface2 flex items-center justify-center p-4">
+                  <Image src={cardImage(p)} alt={`${p.brand} ${p.name}`} width={150} height={150} className="object-contain max-h-[120px] w-auto group-hover:scale-105 transition-transform" />
+                  <div
+                    className="absolute top-2.5 right-2.5 w-10 h-10 rounded-full flex items-center justify-center text-sm font-black border-2 bg-bg/80 backdrop-blur"
+                    style={{ color: scoreHex(p.score ?? 0), borderColor: scoreHex(p.score ?? 0) }}
+                  >
+                    {p.score}
+                  </div>
+                </div>
+                <div className="p-3.5">
+                  <div className="text-[13px] font-semibold text-text truncate" title={p.name}>{p.name}</div>
+                  <div className="text-[11px] text-muted truncate">{p.brand}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <a
+              href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
+            >
+              Browse all 230+ scored products
+              <ArrowIcon className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </section>
       </Reveal>
 
       {/* ───────────────── Platform pillars ───────────────── */}
@@ -199,7 +302,7 @@ export default function Home() {
           ]}
           href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
           cta="Browse 230+ scored products"
-          preview={<ScoreBreakdownPreview />}
+          preview={<ScoreBreakdownPreview image={creatineImage} />}
         />
       </div>
 

@@ -1,7 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState, type ReactNode } from "react";
 import { useInView } from "./use-in-view";
+
+export type HeroRow = { name: string; brand: string; score: number; image?: string; logged?: boolean };
 
 /* ──────────────────────────────────────────────────────────────
  * Shared primitives
@@ -230,7 +233,14 @@ export function AppWindow({
  * HERO preview — "My Stack" dashboard
  * ────────────────────────────────────────────────────────────── */
 
-export function HeroPreview() {
+const DEFAULT_HERO_ROWS: HeroRow[] = [
+  { name: "Creatine Monohydrate", brand: "Thorne", score: 98, logged: true },
+  { name: "Magnesium", brand: "MegaFood", score: 94, logged: true },
+  { name: "L-Theanine", brand: "BulkSupplements", score: 94, logged: false },
+];
+
+export function HeroPreview({ products }: { products?: HeroRow[] }) {
+  const rows = products && products.length ? products : DEFAULT_HERO_ROWS;
   return (
     <div className="relative">
       {/* glow behind */}
@@ -269,31 +279,36 @@ export function HeroPreview() {
 
         {/* logged supplement rows */}
         <div className="space-y-2">
-          {[
-            { name: "Creatine Monohydrate", brand: "Thorne", score: 94, logged: true },
-            { name: "Magnesium Bisglycinate", brand: "Thorne", score: 88, logged: true },
-            { name: "Omega-3 1600mg", brand: "Nordic Naturals", score: 82, logged: false },
-          ].map((p, i) => (
+          {rows.map((p, i) => (
             <div
               key={p.name}
-              className="flex items-center gap-3 rounded-lg border border-border bg-surface/50 px-3 py-2 animate-pop-in"
+              className="flex items-center gap-2.5 rounded-lg border border-border bg-surface/50 px-2.5 py-2 animate-pop-in"
               style={{ animationDelay: `${600 + i * 130}ms` }}
             >
-              <div
-                className="w-8 h-8 rounded-full flex items-center justify-center text-[11px] font-black border-2 shrink-0"
-                style={{ color: scoreColor(p.score), borderColor: `${scoreColor(p.score)}66`, background: `${scoreColor(p.score)}14` }}
-              >
-                {p.score}
-              </div>
+              {p.image ? (
+                <div className="w-9 h-9 rounded-lg bg-surface2 flex items-center justify-center p-1 shrink-0">
+                  <Image src={p.image} alt={p.name} width={30} height={30} className="object-contain max-h-[28px] w-auto" />
+                </div>
+              ) : (
+                <div
+                  className="w-9 h-9 rounded-lg flex items-center justify-center text-[11px] font-black border-2 shrink-0"
+                  style={{ color: scoreColor(p.score), borderColor: `${scoreColor(p.score)}66`, background: `${scoreColor(p.score)}14` }}
+                >
+                  {p.score}
+                </div>
+              )}
               <div className="flex-1 min-w-0">
                 <div className="text-[12px] font-semibold text-text truncate">{p.name}</div>
-                <div className="text-[10px] text-muted">{p.brand}</div>
+                <div className="text-[10px] text-muted truncate">{p.brand}</div>
               </div>
-              {p.logged ? (
-                <span className="text-[10px] font-bold text-accent flex items-center gap-1">✓ Logged</span>
-              ) : (
-                <span className="text-[10px] font-semibold text-muted border border-border rounded-full px-2 py-0.5">Log</span>
-              )}
+              <div className="text-right shrink-0">
+                <div className="text-[13px] font-black leading-none" style={{ color: scoreColor(p.score) }}>{p.score}</div>
+                {p.logged ? (
+                  <span className="text-[9px] font-bold text-accent">✓ Logged</span>
+                ) : (
+                  <span className="text-[9px] font-semibold text-muted">Tap to log</span>
+                )}
+              </div>
             </div>
           ))}
         </div>
@@ -316,26 +331,31 @@ export function HeroPreview() {
  * SPOTLIGHT previews
  * ────────────────────────────────────────────────────────────── */
 
-// 1 — Supplement score breakdown
-export function ScoreBreakdownPreview() {
+// 1 — Supplement score breakdown (real data: Thorne Creatine, 98/A+)
+export function ScoreBreakdownPreview({ image }: { image?: string }) {
   const bars = [
-    { label: "Ingredient Quality", value: 96, color: "#10B981" },
+    { label: "Clinical Evidence", value: 100, color: "#10B981" },
     { label: "Dose Accuracy", value: 95, color: "#10B981" },
-    { label: "Label Transparency", value: 98, color: "#7c6dfa" },
-    { label: "Third-Party Testing", value: 90, color: "#3B82F6" },
-    { label: "Bioavailability", value: 92, color: "#3B82F6" },
+    { label: "Bioavailability", value: 100, color: "#3B82F6" },
+    { label: "Label Transparency", value: 100, color: "#7c6dfa" },
+    { label: "Third-Party Testing", value: 92, color: "#3B82F6" },
   ];
   return (
     <AppWindow className="max-w-[460px]" title="Creatine Monohydrate — Thorne">
-      <div className="flex items-center gap-4 pb-4 mb-4 border-b border-border">
-        <AnimatedScoreRing score={94} size={84} strokeWidth={7} />
-        <div>
-          <div className="text-[15px] font-bold text-text">Creatine Monohydrate</div>
-          <div className="text-[12px] text-muted">Thorne · NSF Certified for Sport</div>
+      <div className="flex items-center gap-3 pb-4 mb-4 border-b border-border">
+        {image && (
+          <div className="w-16 h-16 rounded-xl bg-surface2 flex items-center justify-center p-1.5 shrink-0">
+            <Image src={image} alt="Thorne Creatine Monohydrate" width={56} height={56} className="object-contain max-h-[52px] w-auto" />
+          </div>
+        )}
+        <div className="flex-1 min-w-0">
+          <div className="text-[15px] font-bold text-text truncate">Creatine Monohydrate</div>
+          <div className="text-[12px] text-muted truncate">Thorne · NSF Certified for Sport</div>
           <div className="mt-1.5 inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/15 text-accent text-[10px] font-bold">
-            Grade A · Top value in category
+            Grade A+ · Top value in category
           </div>
         </div>
+        <AnimatedScoreRing score={98} size={72} strokeWidth={6} />
       </div>
       <div className="space-y-3">
         {bars.map((b, i) => (
