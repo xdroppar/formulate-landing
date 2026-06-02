@@ -14,6 +14,8 @@ import {
 } from "@/components/landing/landing-visuals";
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
+import { foods as allFoods, foodColor } from "@/lib/foods";
+import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
 import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
@@ -86,6 +88,24 @@ const heroRows = (() => {
 const creatineImage = (() => {
   const p = productBySlug("thorne-creatine");
   return p ? cardImage(p) : undefined;
+})();
+
+// Top-scored foods + recipes for the homepage "whole plate, scored too" strip
+// (surfaces the food/recipe SEO surface + internal-links the hubs & details).
+const topFoods = [...allFoods].sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 12);
+const topRecipes = (() => {
+  // a little category diversity so it isn't six breakfasts
+  const seen = new Set<string>();
+  const out: typeof allRecipes = [];
+  for (const r of [...allRecipes].sort((a, b) => (b.score ?? 0) - (a.score ?? 0))) {
+    if (!r.image_url) continue;
+    const cat = r.category ?? "";
+    if (seen.has(cat) && out.length < 6) continue;
+    seen.add(cat);
+    out.push(r);
+    if (out.length >= 6) break;
+  }
+  return out;
 })();
 
 function ArrowIcon({ className = "w-4 h-4" }: { className?: string }) {
@@ -354,6 +374,62 @@ export default function Home() {
         cta="Explore meals & recipes"
         preview={<MealLogPreview />}
       />
+
+      {/* ───────────────── Foods & recipes scored (proof + internal links) ───────────────── */}
+      <Reveal>
+        <section className="max-w-[1100px] mx-auto px-6 pb-24">
+          <div className="text-center mb-10">
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Foods & recipes · scored too</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[680px] mx-auto">
+              Not just supplements — <span className="text-muted">your whole plate, scored.</span>
+            </h2>
+          </div>
+
+          {/* recipes */}
+          <div className="flex items-baseline justify-between mb-4">
+            <h3 className="text-lg font-bold text-text">Top-scoring recipes</h3>
+            <a href="/recipes" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
+              Browse {allRecipes.length}+ recipes <ArrowIcon className="w-3.5 h-3.5" />
+            </a>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 mb-12">
+            {topRecipes.map((r) => {
+              const color = recipeColor(r);
+              return (
+                <a key={r.id} href={`/recipes/${r.id}`} className="group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all">
+                  <div className="relative aspect-square bg-surface2">
+                    {r.image_url && <Image src={r.image_url} alt={r.name} fill sizes="180px" className="object-cover group-hover:scale-105 transition-transform" />}
+                    <span className="absolute top-2 right-2 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black border-2 bg-bg/80 backdrop-blur" style={{ color, borderColor: color }}>{r.score}</span>
+                  </div>
+                  <div className="p-2.5 text-[12px] font-semibold text-text leading-snug line-clamp-2">{r.name}</div>
+                </a>
+              );
+            })}
+          </div>
+
+          {/* whole foods */}
+          <div className="flex items-baseline justify-between mb-4">
+            <h3 className="text-lg font-bold text-text">Highest-scoring whole foods</h3>
+            <a href="/foods" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
+              Browse {allFoods.length}+ foods <ArrowIcon className="w-3.5 h-3.5" />
+            </a>
+          </div>
+          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+            {topFoods.map((f) => {
+              const color = foodColor(f);
+              return (
+                <a key={f.base_id} href={`/foods/${f.base_id}`} className="group flex items-center gap-2.5 bg-surface border border-border rounded-xl p-2.5 hover:border-accent/30 transition-all">
+                  <div className="relative w-9 h-9 rounded-lg overflow-hidden bg-surface2 flex-shrink-0">
+                    {f.image_url && <Image src={f.image_url} alt={f.name} fill sizes="36px" className="object-cover" />}
+                  </div>
+                  <span className="text-[12px] font-semibold text-text leading-tight line-clamp-2 flex-1 min-w-0">{f.name}</span>
+                  <span className="text-[11px] font-black flex-shrink-0" style={{ color }}>{f.score}</span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      </Reveal>
 
       <div className="bg-surface border-t border-b border-border">
         <Spotlight

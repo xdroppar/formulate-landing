@@ -19,15 +19,24 @@ export function Footer() {
           </span>
         </div>
         <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
-          <TrackedDownloadLink href="/download" source="footer" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Desktop app
-          </TrackedDownloadLink>
+          <Link href="/supplements" className="text-xs text-muted hover:text-text transition-colors py-2">
+            Supplements
+          </Link>
+          <Link href="/foods" className="text-xs text-muted hover:text-text transition-colors py-2">
+            Foods
+          </Link>
+          <Link href="/recipes" className="text-xs text-muted hover:text-text transition-colors py-2">
+            Recipes
+          </Link>
           <Link href="/guides" className="text-xs text-muted hover:text-text transition-colors py-2">
             Guides
           </Link>
           <Link href="/methodology" className="text-xs text-muted hover:text-text transition-colors py-2">
             Methodology
           </Link>
+          <TrackedDownloadLink href="/download" source="footer" className="text-xs text-muted hover:text-text transition-colors py-2">
+            Desktop app
+          </TrackedDownloadLink>
           <Link href="/about" className="text-xs text-muted hover:text-text transition-colors py-2">
             About
           </Link>
