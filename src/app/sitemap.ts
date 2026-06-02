@@ -11,6 +11,7 @@ import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods } from "@/lib/foods";
+import { recipes } from "@/lib/recipes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -139,6 +140,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const recipeEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/recipes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...recipes.map((r) => ({
+      url: `${baseUrl}/recipes/${r.id}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      // Recipe detail pages carry full ingredients + method + nutrition + a
+      // schema.org/Recipe block (eligible for recipe rich results).
+      priority: 0.75,
+    })),
+  ];
+
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
@@ -245,6 +263,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...productEntries,
     ...bestCategoryEntries,
     ...foodEntries,
+    ...recipeEntries,
     ...brandEntries,
     ...ingredientEntries,
     ...compareEntries,

@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
    * traces is safe and does not affect the separately-uploaded static assets.
    */
   outputFileTracingExcludes: {
-    "*": ["public/images/**", "public/food-assets/**"],
+    "*": ["public/images/**", "public/food-assets/**", "public/recipe-assets/**"],
   },
 
   /**

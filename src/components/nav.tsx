@@ -11,6 +11,10 @@ type MenuItem = { href: string; title: string; desc: string };
 // Read-it pages (SEO / reference) live under "Learn"; do-it tools that pull
 // people toward the app live under "Tools". The flat reference pages still
 // exist and rank — they just don't all crowd the top nav.
+const FOODS: MenuItem[] = [
+  { href: "/foods", title: "Whole Foods", desc: "Nutrition & health scores for 480+ foods" },
+  { href: "/recipes", title: "Recipes", desc: "700+ recipes, scored on real nutrition" },
+];
 const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
   { href: "/ingredients", title: "Ingredients", desc: "Look up any ingredient" },
@@ -124,9 +128,7 @@ export function Nav() {
             <Link href="/supplements" className={topLinkClass("/supplements")}>
               Supplements
             </Link>
-            <Link href="/foods" className={topLinkClass("/foods")}>
-              Foods
-            </Link>
+            <NavMenu label="Foods" items={FOODS} />
             <NavMenu label="Learn" items={LEARN} />
             <NavMenu label="Tools" items={TOOLS} />
             <Link href="/methodology" className={topLinkClass("/methodology")}>
@@ -161,10 +163,8 @@ export function Nav() {
             <Link href="/supplements" onClick={() => setOpen(false)} className={`${topLinkClass("/supplements")} py-1`} role="menuitem">
               Supplements
             </Link>
-            <Link href="/foods" onClick={() => setOpen(false)} className={`${topLinkClass("/foods")} py-1`} role="menuitem">
-              Foods
-            </Link>
             {[
+              { label: "Foods", items: FOODS },
               { label: "Learn", items: LEARN },
               { label: "Tools", items: TOOLS },
             ].map((group) => (
