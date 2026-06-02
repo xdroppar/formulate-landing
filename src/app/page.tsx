@@ -12,7 +12,7 @@ import {
   MealLogPreview,
   JourneyPreview,
 } from "@/components/landing/landing-visuals";
-import { GrowingVine } from "@/components/landing/growing-vine";
+import { BackgroundTree } from "@/components/landing/background-tree";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
 import { existsSync } from "node:fs";
@@ -136,8 +136,9 @@ function Spotlight({
 
 export default function Home() {
   return (
-    <>
-      <GrowingVine />
+    <div className="relative overflow-hidden">
+      <BackgroundTree />
+      <div className="relative z-10">
 
       {/* ───────────────── Hero ───────────────── */}
       <section className="relative overflow-hidden px-6 pt-28 md:pt-32 pb-16">
@@ -795,6 +796,7 @@ export default function Home() {
           </div>
         </section>
       </Reveal>
-    </>
+      </div>
+    </div>
   );
 }
