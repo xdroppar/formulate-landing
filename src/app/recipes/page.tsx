@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { recipes, recipeCount, recipeCategories, recipesByCategory, recipeColor, totalMinutes } from "@/lib/recipes";
+import { recipes, recipeCount, recipeCategories, recipesByCategory, recipeColor, totalMinutes, recipeDietTags } from "@/lib/recipes";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const BASE = "https://formulate-health.app";
@@ -75,7 +75,7 @@ export default function RecipesHub() {
         </p>
       </header>
 
-      <ul className="flex flex-wrap gap-2 mb-12">
+      <ul className="flex flex-wrap gap-2 mb-6">
         {categories.map((c) => (
           <li key={c.slug}>
             <a href={`#${c.slug}`} className="inline-flex items-center gap-2 rounded-full border border-border bg-white/[0.02] pl-3 pr-2 py-1.5 hover:border-accent/40 transition-colors">
@@ -85,6 +85,21 @@ export default function RecipesHub() {
           </li>
         ))}
       </ul>
+
+      {/* diet collections (pSEO) */}
+      <div className="mb-12">
+        <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-3">Browse by diet</div>
+        <ul className="flex flex-wrap gap-2">
+          {recipeDietTags().map((d) => (
+            <li key={d.slug}>
+              <Link href={`/recipes/diet/${d.slug}`} className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/[0.05] pl-3 pr-2 py-1.5 hover:border-accent/50 transition-colors">
+                <span className="text-sm font-semibold text-accent">{d.tag}</span>
+                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-accent/10 text-accent">{d.count}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {categories.map(({ category, slug }) => (
         <section key={slug} id={slug} className="mb-14 scroll-mt-24">

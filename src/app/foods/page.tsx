@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { foods, foodCount, foodGroups, foodsByGroup, foodColor } from "@/lib/foods";
+import { foods, foodCount, foodGroups, foodsByGroup, foodColor, BEST_GROUP_MIN } from "@/lib/foods";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const BASE = "https://formulate-health.app";
@@ -113,7 +113,14 @@ export default function FoodsHub() {
         <section key={slug} id={slug} className="mb-14 scroll-mt-24">
           <div className="flex items-baseline justify-between mb-3 gap-3">
             <h2 className="text-xl font-bold text-text">{group}</h2>
-            <span className="text-xs text-muted flex-shrink-0">{foodsByGroup(group).length} foods</span>
+            <div className="flex items-baseline gap-3 flex-shrink-0">
+              {foodsByGroup(group).length >= BEST_GROUP_MIN && (
+                <Link href={`/foods/best/${slug}`} className="text-xs font-semibold text-accent hover:underline whitespace-nowrap">
+                  Healthiest {group} →
+                </Link>
+              )}
+              <span className="text-xs text-muted">{foodsByGroup(group).length} foods</span>
+            </div>
           </div>
           {GROUP_DESCRIPTIONS[group] && (
             <p className="text-sm text-muted leading-relaxed mb-5 max-w-3xl">{GROUP_DESCRIPTIONS[group]}</p>

@@ -105,6 +105,32 @@ export function recipeColor(r: Pick<Recipe, "score" | "grade_color">): string {
   return "#EF4444";
 }
 
+// ── Diet collections (pSEO: "high-protein recipes", "vegan recipes", …) ──
+export const DIET_MIN = 8;
+
+export function dietSlug(tag: string): string {
+  return tag.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+export function recipeDietTags(): { tag: string; slug: string; count: number }[] {
+  const counts: Record<string, number> = {};
+  for (const r of recipes) for (const t of r.diet_tags ?? []) counts[t] = (counts[t] ?? 0) + 1;
+  return Object.entries(counts)
+    .filter(([, c]) => c >= DIET_MIN)
+    .map(([tag, count]) => ({ tag, slug: dietSlug(tag), count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function dietByDietSlug(slug: string): string | null {
+  return recipeDietTags().find((d) => d.slug === slug)?.tag ?? null;
+}
+
+export function recipesByDiet(tag: string): Recipe[] {
+  return recipes
+    .filter((r) => (r.diet_tags ?? []).includes(tag))
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+}
+
 export const RECIPE_BREAKDOWN_ROWS: { key: keyof RecipeScoreBreakdown; label: string }[] = [
   { key: "nutrient_density", label: "Nutrient density" },
   { key: "protein_quality", label: "Protein quality" },

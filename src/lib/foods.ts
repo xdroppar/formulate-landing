@@ -110,6 +110,12 @@ export function foodsByGroup(group: string): Food[] {
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
 }
 
+// Group collections (pSEO: "healthiest vegetables", "best nuts & seeds", …).
+export const BEST_GROUP_MIN = 8;
+export function bestFoodGroups(): { group: string; slug: string; count: number }[] {
+  return foodGroups().filter((g) => g.count >= BEST_GROUP_MIN);
+}
+
 export function groupByGroupSlug(slug: string): string | null {
   return foodGroups().find((g) => g.slug === slug)?.group ?? null;
 }

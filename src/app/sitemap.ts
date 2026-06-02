@@ -10,8 +10,8 @@ import { brandComparisons, brandComparisonSlug } from "@/lib/brand-comparisons";
 import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
-import { foods } from "@/lib/foods";
-import { recipes } from "@/lib/recipes";
+import { foods, bestFoodGroups } from "@/lib/foods";
+import { recipes, recipeDietTags } from "@/lib/recipes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -138,6 +138,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // score breakdown — high-volume informational search ("X nutrition/benefits").
       priority: 0.75,
     })),
+    // "Healthiest <group>" ranked collections — high commercial/info intent.
+    ...bestFoodGroups().map((g) => ({
+      url: `${baseUrl}/foods/best/${g.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
   ];
 
   const recipeEntries: MetadataRoute.Sitemap = [
@@ -154,6 +161,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Recipe detail pages carry full ingredients + method + nutrition + a
       // schema.org/Recipe block (eligible for recipe rich results).
       priority: 0.75,
+    })),
+    // Diet collections ("high-protein recipes", "vegan recipes", …) — top-tier
+    // search volume + genuine ranked content.
+    ...recipeDietTags().map((d) => ({
+      url: `${baseUrl}/recipes/diet/${d.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
     })),
   ];
 
