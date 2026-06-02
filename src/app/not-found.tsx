@@ -23,12 +23,12 @@ export default function NotFound() {
         >
           Go Home
         </Link>
-        <Link
-          href="/download"
+        <a
+          href="https://app.formulate-health.app"
           className="px-6 py-2.5 rounded-xl text-sm font-medium text-muted border border-border hover:border-accent hover:text-accent transition-all"
         >
-          Download App
-        </Link>
+          Open the app
+        </a>
       </div>
     </div>
   );

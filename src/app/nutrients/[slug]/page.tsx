@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { withUtm } from "@/lib/app-url";
 import {
   CORE_NUTRIENTS,
   CATEGORY_META,
@@ -689,16 +690,16 @@ export default async function NutrientPage({ params }: { params: Params }) {
           Track your full intake
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">
-          Formulate&apos;s free desktop app aggregates {n.name} (and ~40 other
+          Formulate&apos;s free web app aggregates {n.name} (and ~40 other
           nutrients) across every supplement in your stack — flagging
           underdoses, overlaps, and upper-limit overshoots in one view.
         </p>
-        <Link
-          href="/download"
+        <a
+          href={withUtm("https://app.formulate-health.app", { source: "nutrient_page", campaign: "nutrient_cta", content: n.slug })}
           className="inline-block px-4 py-2 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
         >
-          Get the app
-        </Link>
+          Track your intake free →
+        </a>
       </section>
 
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">

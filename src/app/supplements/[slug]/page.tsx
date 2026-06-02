@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import {
   products,
   productBySlug,
@@ -10,6 +9,7 @@ import {
   scoreGrade,
   thumbUrl,
   formatIngredientAmount,
+  catalogUpdatedAt,
   type Product,
 } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
@@ -554,18 +554,21 @@ export default async function SupplementPage({ params }: { params: Params }) {
           Track {product.name.toLowerCase()} in your stack
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">
-          The Formulate desktop app lets you build a personalized supplement stack, flag
+          Build a personalized supplement stack free in your browser — no install. Flag
           dose overlaps and interactions, and keep every product scored against the
           latest evidence.
         </p>
         <div className="flex flex-wrap gap-3">
-          <TrackedDownloadLink
-            href="/download"
-            source={`supplement:${slug}`}
+          <a
+            href={withUtm("https://app.formulate-health.app/catalog", {
+              source: "supplement_page",
+              campaign: "supplement_cta",
+              content: slug,
+            })}
             className="px-4 py-2 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
           >
-            Get the desktop app
-          </TrackedDownloadLink>
+            Build your free stack →
+          </a>
           <Link
             href="/supplements"
             className="px-4 py-2 rounded-lg border border-border text-text font-semibold text-sm hover:border-accent transition-colors"

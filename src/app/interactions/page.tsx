@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { InteractionChecker } from "@/components/interaction-checker";
 import { InteractionsBrowse } from "@/components/interactions-browse";
-import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { withUtm } from "@/lib/app-url";
 import { interactions, substances } from "@/lib/interactions";
 
 const BASE = "https://formulate-health.app";
@@ -155,11 +155,14 @@ export default function InteractionsPage() {
           ))}
         </dl>
         <p className="text-xs text-muted mt-4 leading-relaxed">
-          Formulate surfaces the same interaction intelligence inside the desktop app so
+          Formulate surfaces the same interaction intelligence in the free web app so
           you can see warnings on every stack change.{" "}
-          <TrackedDownloadLink href="/download" source="interactions_hub" className="text-accent hover:underline">
-            Get the desktop app →
-          </TrackedDownloadLink>
+          <a
+            href={withUtm("https://app.formulate-health.app", { source: "interactions_hub", campaign: "interactions_cta" })}
+            className="text-accent hover:underline"
+          >
+            Open the web app →
+          </a>
         </p>
       </section>
 

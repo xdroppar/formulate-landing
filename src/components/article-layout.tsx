@@ -242,13 +242,16 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
             >
               Browse Supplement Scores
             </a>
-            <TrackedDownloadLink
-              href="/download"
-              source={`guide_cta:${guide.slug}`}
+            <a
+              href={withUtm("https://app.formulate-health.app", {
+                source: "guide",
+                campaign: "guide_cta_bottom_app",
+                content: guide.slug,
+              })}
               className="px-6 py-3 rounded-xl text-sm font-semibold text-muted hover:text-text transition-all"
             >
-              Or download the desktop app →
-            </TrackedDownloadLink>
+              Or build your free stack →
+            </a>
           </div>
         </div>
 

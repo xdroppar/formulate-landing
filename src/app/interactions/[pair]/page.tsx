@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { InteractionCard } from "@/components/interaction-card";
 import { RelatedInteractions } from "@/components/related-interactions";
-import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { withUtm } from "@/lib/app-url";
 import {
   INTERACTIONS_LAST_REVIEWED,
   SEVERITY_META,
@@ -472,7 +472,7 @@ export default async function PairPage({ params }: { params: Params }) {
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">
           The free checker lets you add any combination of supplements and medications at
-          once. Formulate&apos;s desktop app goes further — every stack change surfaces
+          once. The free web app goes further — every stack change surfaces
           interaction alerts automatically.
         </p>
         <div className="flex flex-wrap gap-3">
@@ -482,13 +482,12 @@ export default async function PairPage({ params }: { params: Params }) {
           >
             Open the checker
           </Link>
-          <TrackedDownloadLink
-            href="/download"
-            source={`interaction_pair:${pair}`}
+          <a
+            href={withUtm("https://app.formulate-health.app", { source: "interaction_pair", campaign: "interaction_pair_cta", content: pair })}
             className="px-4 py-2 rounded-lg border border-border text-text font-semibold text-sm hover:border-accent transition-colors"
           >
-            Get the desktop app
-          </TrackedDownloadLink>
+            Open the web app →
+          </a>
         </div>
       </section>
 

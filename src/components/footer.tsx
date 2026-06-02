@@ -20,7 +20,7 @@ export function Footer() {
         </div>
         <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
           <TrackedDownloadLink href="/download" source="footer" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Download
+            Desktop app
           </TrackedDownloadLink>
           <Link href="/guides" className="text-xs text-muted hover:text-text transition-colors py-2">
             Guides
