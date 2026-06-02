@@ -20,8 +20,11 @@ import posthog from "posthog-js";
 const KEY =
   process.env.NEXT_PUBLIC_POSTHOG_KEY ||
   "phc_qiNOmrs6f02PdNTH0IQ07ul3fZ86JuZYKcHYjve3eZL";
-const HOST =
-  process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
+// Default to the same-origin reverse proxy (/ingest -> us.i.posthog.com, see
+// next.config.ts rewrites) so ad blockers can't drop events. Set
+// NEXT_PUBLIC_POSTHOG_HOST to a direct host to bypass the proxy.
+const HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "/ingest";
+const UI_HOST = "https://us.posthog.com";
 
 let started = false;
 
@@ -34,6 +37,7 @@ export function initPostHog(anonId?: string): void {
   try {
     posthog.init(KEY, {
       api_host: HOST,
+      ui_host: UI_HOST,
       person_profiles: "always",
       capture_pageview: false, // fired manually per route change
       capture_pageleave: true, // time-on-page / exit pages

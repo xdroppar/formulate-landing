@@ -40,6 +40,27 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  /**
+   * PostHog reverse proxy. Ad blockers blocklist *.posthog.com, silently
+   * dropping 10-25% of analytics events. Routing ingestion through our own
+   * domain (/ingest/*) makes it first-party and dodges the blocklists.
+   * posthog.ts points api_host at "/ingest". US Cloud destinations.
+   */
+  async rewrites() {
+    return [
+      {
+        source: "/ingest/static/:path*",
+        destination: "https://us-assets.i.posthog.com/static/:path*",
+      },
+      {
+        source: "/ingest/:path*",
+        destination: "https://us.i.posthog.com/:path*",
+      },
+    ];
+  },
+  // PostHog sends trailing-slash-sensitive paths; don't let Next 308-redirect them.
+  skipTrailingSlashRedirect: true,
 };
 
 export default nextConfig;
