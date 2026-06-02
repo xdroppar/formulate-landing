@@ -15,7 +15,7 @@ import {
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
-import { existsSync } from "node:fs";
+import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const APP_URL = "https://app.formulate-health.app";
@@ -23,10 +23,22 @@ const APP_URL = "https://app.formulate-health.app";
 /** Prefer the pre-generated ~256px thumb when it exists on disk (the catalog
  *  image_url often carries a `?v=` cache token that defeats the lib's thumb
  *  swap), else fall back to the full image. Server-only (SSG). */
+function fileSize(publicPath: string): number {
+  try {
+    return statSync(join(process.cwd(), "public", publicPath)).size;
+  } catch {
+    return Infinity;
+  }
+}
+
 function cardImage(p: Product): string {
   const raw = p.image_url ?? "";
-  if (!raw) return "";
+  if (!raw) return p.gallery_images?.[0] ?? "";
   const [path] = raw.split("?");
+  // Some products only have a placeholder "template" primary (a tiny rendered
+  // card, not a real photo, e.g. Ritual Essential Prenatal). Detect it by size
+  // and fall back to the first real gallery photo.
+  if (fileSize(path) < 8000 && p.gallery_images?.[0]) return p.gallery_images[0];
   const thumb = path.replace(/\/[^/]+\.(webp|jpg|jpeg|png)$/i, "/thumb.webp");
   if (thumb !== path && existsSync(join(process.cwd(), "public", thumb))) return thumb;
   return raw;

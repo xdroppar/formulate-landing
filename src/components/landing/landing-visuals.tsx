@@ -405,9 +405,9 @@ export function NutrientCoveragePreview() {
 // 3 — Meal / food day log (MFP / Cronometer style)
 export function MealLogPreview() {
   const meals = [
-    { slot: "Breakfast", name: "Greek Yogurt Parfait", kcal: 320, grade: 91 },
-    { slot: "Lunch", name: "Salmon & Quinoa Bowl", kcal: 540, grade: 95 },
-    { slot: "Snack", name: "Almonds + Blueberries", kcal: 210, grade: 88 },
+    { slot: "Breakfast", name: "Greek Yogurt Parfait", kcal: 320, grade: 91, image: "/images/foods/greek-yogurt.webp" },
+    { slot: "Lunch", name: "Salmon & Quinoa Bowl", kcal: 540, grade: 95, image: "/images/foods/salmon.webp" },
+    { slot: "Snack", name: "Almonds + Blueberries", kcal: 210, grade: 88, image: "/images/foods/almonds.webp" },
   ];
   return (
     <AppWindow className="max-w-[460px]" title="My Meals — Today">
@@ -431,22 +431,18 @@ export function MealLogPreview() {
         {meals.map((m, i) => (
           <div
             key={m.name}
-            className="flex items-center gap-3 rounded-lg border border-border bg-surface/50 px-3 py-2 animate-pop-in"
+            className="flex items-center gap-3 rounded-lg border border-border bg-surface/50 px-2.5 py-2 animate-pop-in"
             style={{ animationDelay: `${i * 140}ms` }}
           >
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-surface2 to-bg flex items-center justify-center text-sm">
-              {["🥣", "🐟", "🫐"][i]}
+            <div className="w-10 h-10 rounded-lg overflow-hidden bg-surface2 shrink-0">
+              <Image src={m.image} alt={m.name} width={40} height={40} className="object-cover w-full h-full" />
             </div>
             <div className="flex-1 min-w-0">
               <div className="text-[10px] uppercase tracking-wide text-muted">{m.slot}</div>
               <div className="text-[12px] font-semibold text-text truncate">{m.name}</div>
+              <div className="text-[10px] text-muted">{m.kcal} kcal</div>
             </div>
-            <div className="text-right">
-              <div className="text-[11px] font-bold text-text">{m.kcal}</div>
-              <div className="text-[9px]" style={{ color: scoreColor(m.grade) }}>
-                {m.grade} score
-              </div>
-            </div>
+            <AnimatedScoreRing score={m.grade} size={40} strokeWidth={4} trackOpacity={0.08} />
           </div>
         ))}
       </div>
