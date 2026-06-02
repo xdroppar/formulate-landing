@@ -129,27 +129,37 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
   }
 
   // Trunk branch — STATIC (flex 0): a long spine pivoting would fling its base.
+  // Tapered like a real trunk: slim at the crown hub, thickening as it descends
+  // toward the ground where it splays into roots. The round-capped segments blend
+  // into a smooth taper. A trunk that GROUNDS reads far less like a "stick" than a
+  // uniform-width line — without resorting to a margin-to-margin slab.
+  const HUB_W = 13;
+  const BASE_W = 27;
   mkBranch(cbx, cby, 0);
-  addSeg(cbx, cby + 40, cbx, cby, 6, 16); // thick neck at the hub
+  addSeg(cbx, cby + 40, cbx, cby, 6, HUB_W - 1); // neck tapers up into the crown
   for (let i = 0; i < trunkPts.length - 1; i++) {
     const a = trunkPts[i];
     const b = trunkPts[i + 1];
-    const w = 17 - (i / (trunkPts.length - 1)) * 4; // stays thick (17 → 13)
+    // ease-in widening so the bulk sits low (a buttressed base), not linear.
+    const t = i / (trunkPts.length - 1);
+    const w = HUB_W + (BASE_W - HUB_W) * (t * t * (3 - 2 * t)); // smoothstep 13 → 27
     addSeg(a.x, a.y, b.x, b.y, (rng() - 0.5) * 10, w);
   }
 
   // Crown: each main limb is its own swaying branch radiating from the hub.
+  // Thicker at the base (to match the heavier trunk) and reaching a touch further
+  // so the canopy spreads toward the margins rather than huddling over center.
   const mainN = 9;
   for (let i = 0; i < mainN; i++) {
     const f = i / (mainN - 1);
     const a = (-172 + f * 164) * DEG; // wide upward fan, up-left → up-right
     mkBranch(cbx, cby, 1.8 + rng() * 1.0);
-    limb(cbx, cby, a, W * 0.09 * (0.85 + rng() * 0.5), 6, 4, 0.6);
+    limb(cbx, cby, a, W * 0.105 * (0.85 + rng() * 0.5), 8, 4, 0.6);
   }
   for (let i = 0; i < 5; i++) {
     const a = (-150 + rng() * 120) * DEG;
     mkBranch(cbx, cby, 2.0 + rng() * 0.8);
-    limb(cbx, cby, a, W * 0.055 * (0.7 + rng() * 0.5), 3.4, 4, 0.6);
+    limb(cbx, cby, a, W * 0.06 * (0.7 + rng() * 0.5), 4, 4, 0.6);
   }
 
   // Loose canopy foliage — its own gently-drifting group (no branches, leaves only).
@@ -168,9 +178,10 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
     if (i < 1 || i >= trunkPts.length - 1 || i % 2 === 0) return;
     const side = i % 4 === 1 ? 1 : -1;
     const base = (side > 0 ? 38 : 142) * DEG + (rng() - 0.5) * 22 * DEG;
-    const len = W * 0.1 * (0.7 + rng() * 0.7);
+    const len = W * 0.12 * (0.7 + rng() * 0.7); // reach further toward the margins
+    // thicker where it joins the (now heavier) trunk so it doesn't look pinned-on.
     mkBranch(p.x, p.y, 2.4 + rng() * 1.6); // the lower/mid branches the eye follows
-    limb(p.x, p.y, base, len, 3.8, 3, 0.45);
+    limb(p.x, p.y, base, len, 5, 3, 0.45);
   });
 
   // Roots — each its own group, barely swaying, from the thick trunk base.
@@ -179,7 +190,9 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
   for (let k = 0; k < rootN; k++) {
     const a = (62 + (k / (rootN - 1)) * 56) * DEG; // 62°..118° downward fan
     mkBranch(trunkBase.x, trunkBase.y, 0.5);
-    limb(trunkBase.x + (rng() - 0.5) * 22, trunkBase.y, a, rootRoom * 0.44 * (0.8 + rng() * 0.6), 9, 5, 0);
+    // thick where they leave the buttressed base (≈ BASE_W) so the trunk flows
+    // into the roots instead of stepping down abruptly.
+    limb(trunkBase.x + (rng() - 0.5) * 22, trunkBase.y, a, rootRoom * 0.44 * (0.8 + rng() * 0.6), 13, 5, 0);
   }
 
   return { branches };
