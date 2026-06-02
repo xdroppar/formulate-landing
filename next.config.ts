@@ -10,6 +10,20 @@ const nextConfig: NextConfig = {
   },
 
   /**
+   * Keep the 322 MB of product images OUT of every serverless function bundle.
+   * Next's file tracer was pulling all of `public/images` (~309 MB) into the 14
+   * dynamic routes (brands, supplements, ingredients, …), tripping Vercel's
+   * "Max serverless function size of 250 MB uncompressed exceeded" on every
+   * deploy. Those files are static assets served directly by the CDN — NO route
+   * reads them via `fs` (verified: the only fs reads are research/.tsx content,
+   * and OG routes are text-only `next/og`), so excluding them from the function
+   * traces is safe and does not affect the separately-uploaded static assets.
+   */
+  outputFileTracingExcludes: {
+    "*": ["public/images/**"],
+  },
+
+  /**
    * Redirect any legacy / Google-indexed catalog URLs to the app subdomain.
    * The per-product catalog lives on app.formulate-health.app — not landing —
    * but historical canonical tags accidentally pointed Google at
