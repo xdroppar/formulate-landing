@@ -137,9 +137,20 @@ export function Nav() {
           </div>
 
           <div className="flex items-center gap-3">
+            {/* New users: guided value-first onboarding. Runs in the webapp
+                (same origin as the anon-stack localStorage + signup migration),
+                so the landing just deep-links into it with ?reset_onboarding=1
+                to force the flow open even for prior visitors. */}
+            <a
+              href={withUtm("https://app.formulate-health.app/?reset_onboarding=1", { source: "landing", campaign: "nav_get_started" })}
+              className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+            >
+              Get started free
+            </a>
+            {/* Returning users — secondary, desktop bar only (in the mobile menu otherwise). */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app" })}
-              className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+              className="hidden md:inline-flex px-4 py-2.5 rounded-xl text-sm font-semibold border border-border text-text hover:border-accent hover:text-accent transition-all"
             >
               Open App
             </a>
@@ -186,6 +197,15 @@ export function Nav() {
             <Link href="/methodology" onClick={() => setOpen(false)} className={`${topLinkClass("/methodology")} py-1`} role="menuitem">
               Methodology
             </Link>
+            {/* "Get started free" is the always-visible bar CTA; surface "Open App" here for returning users. */}
+            <a
+              href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app_mobile" })}
+              onClick={() => setOpen(false)}
+              className="mt-1 inline-flex justify-center px-4 py-2.5 rounded-xl text-sm font-semibold border border-border text-text hover:border-accent hover:text-accent transition-all"
+              role="menuitem"
+            >
+              Open App
+            </a>
           </div>
         )}
       </nav>
