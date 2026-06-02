@@ -139,7 +139,9 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
   for (let i = 0; i < trunkPts.length - 1; i++) {
     const a = trunkPts[i];
     const b = trunkPts[i + 1];
-    const w = 16 - (i / (trunkPts.length - 1)) * 10; // taper 16 → 6 (thick main trunk)
+    // Stay thick the whole way down (17 → 13) so the trunk never thins to a twig
+    // before the roots — keeps a substantial base for the root fan to grow from.
+    const w = 17 - (i / (trunkPts.length - 1)) * 4;
     segs.push({ d: seg(a.x, a.y, b.x, b.y, (rng() - 0.5) * 10), w });
   }
 
@@ -152,11 +154,14 @@ function buildTree(W: number, H: number, seed: number): { segs: Seg[]; leaves: L
     limb(p.x, p.y, base, len, 3.8, 3, 0.45);
   });
 
-  // Roots: from the trunk's base, fanning downward and outward (bare, no leaves).
+  // Roots: grow from the thick trunk BASE, fanning downward + outward (bare).
+  // They start nearly as thick as the trunk so the wide→narrow flow is gradual,
+  // not an abrupt jump from a twig to a wide spray.
+  const trunkBase = trunkPts[trunkPts.length - 1];
   const rootN = 5 + Math.floor(rng() * 3);
   for (let k = 0; k < rootN; k++) {
-    const a = (58 + (k / (rootN - 1)) * 64) * DEG; // 58°..122° (downward fan)
-    limb(cx + (rng() - 0.5) * 36, trunkBottom, a, rootRoom * 0.42 * (0.8 + rng() * 0.6), 5, 5, 0);
+    const a = (62 + (k / (rootN - 1)) * 56) * DEG; // 62°..118° (downward fan)
+    limb(trunkBase.x + (rng() - 0.5) * 22, trunkBase.y, a, rootRoom * 0.44 * (0.8 + rng() * 0.6), 9, 5, 0);
   }
 
   return { segs, leaves };
