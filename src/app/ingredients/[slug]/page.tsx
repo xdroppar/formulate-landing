@@ -15,6 +15,7 @@ import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
 import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 /** Try to match this encyclopedia ingredient to a core-nutrient registry
  *  entry by canonical name or alias. Drives the cross-link to /nutrients/X. */
@@ -247,6 +248,14 @@ export default async function IngredientPage({ params }: { params: Params }) {
         </div>
         <p className="text-base text-muted leading-relaxed mt-4">{ing.summary}</p>
       </header>
+
+      <AppCtaCard
+        className="mb-10"
+        title={`Find the best ${ing.name} supplements — free`}
+        sub={`See ${ing.name} products scored on dose & form, then track your intake in the app.`}
+        campaign="ingredient_cta"
+        path="/catalog"
+      />
 
       {nutrientMatch && (
         <section className="mb-10 rounded-xl border border-accent/30 bg-accent/[0.04] p-4">

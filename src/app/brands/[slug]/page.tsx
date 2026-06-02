@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { AppCtaCard } from "@/components/app-cta-card";
 import {
   brands,
   brandBySlug,
@@ -207,6 +208,14 @@ export default async function BrandHub({ params }: { params: Params }) {
           )}
         </div>
       </header>
+
+      <AppCtaCard
+        className="mb-10"
+        title={`Browse all ${b.name} products scored — free`}
+        sub={`Compare ${b.name}'s lineup on dose, form & testing, then build your stack in the app.`}
+        campaign="brand_cta"
+        path="/catalog"
+      />
 
       {b.components && (
         <section className="mb-10">
