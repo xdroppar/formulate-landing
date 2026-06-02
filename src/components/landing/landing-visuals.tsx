@@ -20,6 +20,20 @@ function scoreColor(score: number): string {
 
 const easeOutCubic = (p: number) => 1 - Math.pow(1 - p, 3);
 
+// Progression tiers (4 levels each): the journey ring + pillar bars are coloured
+// by the tier the level falls into, so progress reads as Bronze → … → Diamond.
+const TIERS = [
+  { name: "Bronze", color: "#C8803C", min: 1 },
+  { name: "Silver", color: "#C3CCDA", min: 5 },
+  { name: "Gold", color: "#F4C04E", min: 9 },
+  { name: "Platinum", color: "#5FE3CC", min: 13 },
+  { name: "Diamond", color: "#9AB6FF", min: 17 },
+] as const;
+function tierFor(level: number) {
+  for (let i = TIERS.length - 1; i >= 0; i--) if (level >= TIERS[i].min) return TIERS[i];
+  return TIERS[0];
+}
+
 /** Counts from 0 → value when scrolled into view. */
 export function AnimatedNumber({
   value,
@@ -118,6 +132,66 @@ export function AnimatedScoreRing({
         <span className="font-black" style={{ color, fontSize: size * 0.3 }}>
           {Math.round(score * t)}
         </span>
+      </div>
+    </div>
+  );
+}
+
+/** Ring that fills to `pct` and reads "LVL n", tinted by the current tier. */
+function LevelRing({
+  level,
+  pct,
+  color,
+  size = 88,
+  strokeWidth = 7,
+  duration = 1500,
+}: {
+  level: number;
+  pct: number;
+  color: string;
+  size?: number;
+  strokeWidth?: number;
+  duration?: number;
+}) {
+  const { ref, inView } = useInView<HTMLDivElement>({ threshold: 0.4 });
+  const [t, setT] = useState(0);
+  const radius = (size - strokeWidth) / 2;
+  const circ = 2 * Math.PI * radius;
+  const fill = Math.max(0, Math.min(1, pct / 100));
+
+  useEffect(() => {
+    if (!inView) return;
+    let raf = 0;
+    const start = performance.now();
+    const tick = (now: number) => {
+      const p = Math.min(1, (now - start) / duration);
+      setT(easeOutCubic(p));
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [inView, duration]);
+
+  return (
+    <div ref={ref} className="relative inline-flex items-center justify-center" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="rgba(255,255,255,0.07)" strokeWidth={strokeWidth} />
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke={color}
+          strokeWidth={strokeWidth}
+          strokeDasharray={circ}
+          strokeDashoffset={circ - fill * circ * t}
+          strokeLinecap="round"
+          style={{ filter: `drop-shadow(0 0 6px ${color}55)` }}
+        />
+      </svg>
+      <div className="absolute flex flex-col items-center leading-none">
+        <span className="font-bold tracking-[1px]" style={{ color, fontSize: size * 0.13 }}>LVL</span>
+        <span className="font-black" style={{ color, fontSize: size * 0.34 }}>{level}</span>
       </div>
     </div>
   );
@@ -455,25 +529,63 @@ export function MealLogPreview() {
 
 // 4 — Journey / progress
 export function JourneyPreview() {
+  const level = 12;
+  const pct = 86; // progress to next level
+  const tier = tierFor(level);
+  const next = level + 1;
+  const nextTier = tierFor(next);
+  const pillars = [
+    { emoji: "💊", name: "Supplements", lvl: 11, value: 80 },
+    { emoji: "🍽️", name: "Diet", lvl: 8, value: 62 },
+    { emoji: "🥦", name: "Nutrition", lvl: 4, value: 46 },
+  ];
   return (
     <AppWindow className="max-w-[460px]" title="My Journey">
-      <div className="flex items-center gap-4 mb-4">
-        <div className="relative">
-          <AnimatedScoreRing score={86} size={88} strokeWidth={7} trackOpacity={0.08} />
-          <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full bg-accent text-bg text-[9px] font-black">LVL 12</span>
+      <div className="flex items-start gap-4 mb-4">
+        <div className="relative shrink-0">
+          <LevelRing level={level} pct={pct} color={tier.color} size={88} strokeWidth={7} />
+          <span
+            className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[9px] font-black"
+            style={{ background: tier.color, color: "#08080f" }}
+          >
+            {tier.name.toUpperCase()}
+          </span>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <div className="text-[13px] font-bold text-text">Health Pillars</div>
           <div className="text-[11px] text-muted mb-2">2,140 XP · 360 to next level</div>
           <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
-            <AnimatedBar label="" value={72} color="#7c6dfa" />
+            <AnimatedBar label="" value={pct} color={tier.color} />
           </div>
+        </div>
+        {/* next level + the tier it unlocks */}
+        <div className="flex flex-col items-center shrink-0">
+          <span className="text-[8px] uppercase tracking-wide text-muted mb-1">Next</span>
+          <div
+            className="w-11 h-11 rounded-full border-2 flex items-center justify-center text-[15px] font-black"
+            style={{ borderColor: nextTier.color, color: nextTier.color }}
+          >
+            {next}
+          </div>
+          <span className="text-[8px] font-bold mt-1" style={{ color: nextTier.color }}>
+            {nextTier.name}
+          </span>
         </div>
       </div>
       <div className="space-y-2.5">
-        <AnimatedBar label="Supplements" value={90} sub="Lvl 8" color="#10B981" delay={120} />
-        <AnimatedBar label="Diet" value={74} sub="Lvl 6" color="#3B82F6" delay={260} />
-        <AnimatedBar label="Nutrition" value={61} sub="Lvl 5" color="#F59E0B" delay={400} />
+        {pillars.map((p, i) => {
+          const pt = tierFor(p.lvl);
+          return (
+            <AnimatedBar
+              key={p.name}
+              label={`${p.emoji} ${p.name}`}
+              value={p.value}
+              sub={`${pt.name} · Lvl ${p.lvl}`}
+              color={pt.color}
+              delay={120 + i * 140}
+            />
+          );
+        })}
       </div>
       <div className="mt-4 flex gap-2">
         {["🏅 7-day streak", "🎯 First A-stack", "🔬 50 scores read"].map((b, i) => (
