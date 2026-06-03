@@ -24,6 +24,8 @@ type Seg = { gi: number; d: string; w: number; len: number; ry: number };
 type Leaf = { li: number; x: number; y: number; s: number; r: number; w: boolean; dur: number; delay: number; ry: number };
 type Flower = { fi: number; x: number; y: number; s: number; r: number; ry: number; dur: number; delay: number };
 type Branch = { bx: number; by: number; flex: number; dur: number; phase: number; segs: Seg[]; leaves: Leaf[]; flowers: Flower[] };
+/** A blossom that has detached from a branch and is drifting on the wind. */
+type Flying = { id: number; src: number; x: number; y: number; s: number; dx: number; dy: number; rot: number; dur: number; sway: number };
 
 /** Deterministic PRNG so the tree shape is stable across resizes/regeneration. */
 function mulberry32(seed: number) {
@@ -99,7 +101,7 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
       if (density > 0) {
         pushLeaf(ex, ey, 0.6 + rng() * 0.55, ang / DEG + 90 + (rng() - 0.5) * 50);
         if (rng() < density) pushLeaf(ex, ey, 0.5 + rng() * 0.5, rng() * 360);
-        if (rng() < 0.1) pushFlower(ex, ey, 0.7 + rng() * 0.5, rng() * 360); // an occasional bloom at a tip
+        if (rng() < 0.16) pushFlower(ex, ey, 0.7 + rng() * 0.5, rng() * 360); // an occasional bloom at a tip
       }
       return;
     }
@@ -203,6 +205,18 @@ function buildTree(W: number, H: number, seed: number): { branches: Branch[] } {
 
 const LEAF_PATH = "M0 0 C -7 -7 -7 -18 0 -26 C 7 -18 7 -7 0 0 Z";
 
+/** Five-petal blossom, shared by the on-branch flowers and the drifting ones. */
+function Blossom() {
+  return (
+    <>
+      {[0, 1, 2, 3, 4].map((p) => (
+        <ellipse key={p} cx={0} cy={-7} rx={3} ry={5.5} fill="#f7a8cf" transform={`rotate(${p * 72})`} />
+      ))}
+      <circle r={2.6} fill="#ffd36b" />
+    </>
+  );
+}
+
 export function BackgroundTree() {
   const rootRef = useRef<HTMLDivElement>(null);
   const segRefs = useRef<Array<SVGPathElement | null>>([]);
@@ -211,6 +225,11 @@ export function BackgroundTree() {
   const [dims, setDims] = useState({ w: 0, h: 0 });
   const [tree, setTree] = useState<{ branches: Branch[] } | null>(null);
   const reduce = useRef(false);
+  // Drifting-blossom state: which on-branch flowers have been revealed, which are
+  // currently "off" (detached + regrowing), and the blossoms in mid-flight.
+  const flowerGrownRef = useRef<Set<number>>(new Set());
+  const flowerHiddenRef = useRef<Set<number>>(new Set());
+  const [flying, setFlying] = useState<Flying[]>([]);
 
   // Measure the content height (our absolute parent) + viewport width.
   useEffect(() => {
@@ -274,6 +293,7 @@ export function BackgroundTree() {
     const growFlower = (fi: number) => {
       const el = flowerRefs.current[fi];
       if (el) el.classList.add("grown");
+      flowerGrownRef.current.add(fi); // now eligible to detach + drift on the wind
     };
 
     if (reduce.current) {
@@ -345,6 +365,63 @@ export function BackgroundTree() {
     };
   }, [tree, dims.h]);
 
+  // Occasionally a revealed blossom breaks off its branch, drifts out toward the
+  // nearest margin on the wind (fading as it goes), and the branch regrows the
+  // flower a few seconds later — so the crown slowly cycles its blooms. Driven by
+  // a self-scheduling timer with a small concurrency cap; CSS does the motion.
+  useEffect(() => {
+    if (!tree || !dims.w || reduce.current) return;
+    if (window.innerWidth <= 768) return; // no drift on phones (the CSS is off there too)
+
+    const pos = new Map<number, { x: number; y: number; s: number }>();
+    for (const b of tree.branches) for (const f of b.flowers) pos.set(f.fi, { x: f.x, y: f.y, s: f.s });
+    if (pos.size === 0) return;
+
+    let idc = 0;
+    let timer: ReturnType<typeof setTimeout>;
+    const regrowTimers = new Set<ReturnType<typeof setTimeout>>();
+
+    const tick = () => {
+      setFlying((cur) => {
+        if (cur.length >= 5) return cur; // cap concurrent blossoms in flight
+        const aloft = new Set(cur.map((g) => g.src));
+        const cands: number[] = [];
+        flowerGrownRef.current.forEach((fi) => {
+          if (!flowerHiddenRef.current.has(fi) && !aloft.has(fi)) cands.push(fi);
+        });
+        if (cands.length === 0) return cur;
+
+        const fi = cands[Math.floor(Math.random() * cands.length)];
+        const p = pos.get(fi)!;
+        const goLeft = p.x < dims.w / 2; // head for whichever margin is nearer
+        const dx = (goLeft ? -1 : 1) * (dims.w * 0.1 + Math.random() * dims.w * 0.14);
+        const dy = -40 + (Math.random() * 2 - 1) * 130;
+        const rot = (goLeft ? -1 : 1) * (100 + Math.random() * 260);
+        const dur = 7 + Math.random() * 5;
+        const sway = 2.4 + Math.random() * 2;
+
+        // Detach the source flower now; regrow it after the flight + a pause.
+        flowerHiddenRef.current.add(fi);
+        flowerRefs.current[fi]?.classList.remove("grown");
+        const rt = setTimeout(() => {
+          flowerHiddenRef.current.delete(fi);
+          flowerRefs.current[fi]?.classList.add("grown");
+          regrowTimers.delete(rt);
+        }, dur * 1000 + 2500 + Math.random() * 3500);
+        regrowTimers.add(rt);
+
+        return [...cur, { id: idc++, src: fi, x: p.x, y: p.y, s: p.s, dx, dy, rot, dur, sway }];
+      });
+      timer = setTimeout(tick, 2600 + Math.random() * 3200);
+    };
+
+    timer = setTimeout(tick, 1800 + Math.random() * 2000);
+    return () => {
+      clearTimeout(timer);
+      regrowTimers.forEach((t) => clearTimeout(t));
+    };
+  }, [tree, dims.w, dims.h]);
+
   return (
     <div
       ref={rootRef}
@@ -384,6 +461,22 @@ export function BackgroundTree() {
               animation-timing-function: ease-in-out;
               animation-iteration-count: infinite;
             }
+            .bt-fly {
+              transform-box: view-box;
+              animation-name: bt-fly;
+              animation-timing-function: cubic-bezier(0.25, 0.6, 0.4, 1);
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+            }
+            @keyframes bt-fly {
+              0%   { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+              12%  { opacity: var(--fly-op, 0.5); }
+              55%  {
+                transform: translate(calc(var(--fly-dx) * 0.55), calc(var(--fly-dy) * 0.4 - 22px)) rotate(calc(var(--fly-rot) * 0.5));
+                opacity: var(--fly-op, 0.5);
+              }
+              100% { transform: translate(var(--fly-dx), var(--fly-dy)) rotate(var(--fly-rot)); opacity: 0; }
+            }
             @keyframes bt-sway {
               0%, 100% { transform: rotate(-4deg); }
               50% { transform: rotate(4.5deg); }
@@ -393,11 +486,11 @@ export function BackgroundTree() {
               50% { transform: rotate(var(--amp, 2deg)); }
             }
             @media (prefers-reduced-motion: reduce) {
-              .bt-leaf.bt-sway, .bt-wind { animation: none; }
+              .bt-leaf.bt-sway, .bt-wind, .bt-fly { animation: none; }
               .bt-seg, .bt-sprout { transition: none; }
             }
             @media (max-width: 768px) {
-              .bt-leaf.bt-sway, .bt-wind { animation: none; } /* save battery on phones */
+              .bt-leaf.bt-sway, .bt-wind, .bt-fly { animation: none; } /* save battery on phones */
             }
           `}</style>
 
@@ -455,10 +548,7 @@ export function BackgroundTree() {
                             className="bt-leaf bt-sway"
                             style={{ animationDuration: `${fl.dur.toFixed(2)}s`, animationDelay: `${fl.delay.toFixed(2)}s` }}
                           >
-                            {[0, 1, 2, 3, 4].map((p) => (
-                              <ellipse key={p} cx={0} cy={-7} rx={3} ry={5.5} fill="#f7a8cf" transform={`rotate(${p * 72})`} />
-                            ))}
-                            <circle r={2.6} fill="#ffd36b" />
+                            <Blossom />
                           </g>
                         </g>
                       </g>
@@ -468,6 +558,29 @@ export function BackgroundTree() {
               </g>
             );
           })}
+
+          {/* blossoms that have broken loose and are drifting on the wind toward a margin */}
+          {flying.map((f) => (
+            <g key={f.id} transform={`translate(${f.x.toFixed(1)} ${f.y.toFixed(1)})`} opacity={0.55}>
+              <g
+                className="bt-fly"
+                style={{
+                  animationDuration: `${f.dur.toFixed(2)}s`,
+                  "--fly-dx": `${f.dx.toFixed(0)}px`,
+                  "--fly-dy": `${f.dy.toFixed(0)}px`,
+                  "--fly-rot": `${f.rot.toFixed(0)}deg`,
+                  "--fly-op": "0.5",
+                } as CSSProperties}
+                onAnimationEnd={() => setFlying((cur) => cur.filter((g) => g.id !== f.id))}
+              >
+                <g className="bt-leaf bt-sway" style={{ animationDuration: `${f.sway.toFixed(2)}s` }}>
+                  <g transform={`scale(${f.s.toFixed(2)})`}>
+                    <Blossom />
+                  </g>
+                </g>
+              </g>
+            </g>
+          ))}
         </svg>
       )}
     </div>
