@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { Reveal } from "@/components/reveal";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
+import { TrackedAppLink } from "@/components/tracked-app-link";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import {
   AnimatedNumber,
@@ -209,12 +210,13 @@ export default function Home() {
                   Build my free stack
                   <ArrowIcon />
                 </Link>
-                <a
+                <TrackedAppLink
                   href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
+                  source="home_hero"
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
                 >
                   Open the app
-                </a>
+                </TrackedAppLink>
               </div>
               <span className="text-[13px] text-muted/60">Free forever · No account needed to browse · No brand sponsorships</span>
             </div>
@@ -780,13 +782,14 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <a
+              <TrackedAppLink
                 href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_pricing" })}
+                source="home_pricing"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
               >
                 Get started — free
                 <ArrowIcon />
-              </a>
+              </TrackedAppLink>
             </div>
           </div>
         </Reveal>
@@ -869,13 +872,14 @@ export default function Home() {
             Score your supplements, track your food, cover your gaps. Free, forever.
           </p>
           <div className="flex gap-3.5 flex-wrap justify-center">
-            <a
+            <TrackedAppLink
               href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_footer_cta" })}
+              source="home_footer"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
             >
               Open the app — free
               <ArrowIcon />
-            </a>
+            </TrackedAppLink>
             <TrackedDownloadLink
               href="/download"
               source="landing_page_bottom"
