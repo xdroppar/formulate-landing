@@ -15,6 +15,7 @@ import {
 } from "@/components/landing/landing-visuals";
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { FallingLeaves } from "@/components/landing/falling-leaves";
+import { LiveScoreSearch, type ScoreItem } from "@/components/landing/live-score-search";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { foods as allFoods, foodColor } from "@/lib/foods";
 import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
@@ -91,6 +92,19 @@ const creatineImage = (() => {
   const p = productBySlug("thorne-creatine");
   return p ? cardImage(p) : undefined;
 })();
+
+// Trimmed, build-time search index for the interactive "score your supplement"
+// hero widget — name/brand/score only, so the full 2MB catalog never ships to
+// the client. Sorted so the highest-scoring match surfaces first.
+const scoreSearchIndex: ScoreItem[] = catalogProducts
+  .filter((p) => p.score != null)
+  .map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    brand: p.brand,
+    score: p.score as number,
+    color: scoreHex(p.score as number),
+  }));
 
 // Top-scored foods + recipes for the homepage "whole plate, scored too" strip
 // (surfaces the food/recipe SEO surface + internal-links the hubs & details).
@@ -228,6 +242,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ───────────────── Live score search (instant payoff) ───────────────── */}
+      <Reveal>
+        <section className="max-w-[760px] mx-auto px-6 pb-16 text-center">
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Try it — no signup needed</div>
+          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-6">
+            Type any supplement. See its real score, <span className="text-gradient">instantly.</span>
+          </h2>
+          <LiveScoreSearch index={scoreSearchIndex} appUrl={APP_URL} />
+        </section>
+      </Reveal>
 
       {/* ───────────────── Animated stat bar ───────────────── */}
       <Reveal>
@@ -666,6 +691,58 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* ───────────────── Pricing ───────────────── */}
+      <section id="pricing" className="max-w-[1100px] mx-auto px-6 py-24 scroll-mt-20">
+        <Reveal>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">Pricing</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[600px] mx-auto mb-4">
+            Everything, for free.
+          </h2>
+          <p className="text-muted text-[17px] max-w-[540px] mx-auto text-center leading-relaxed mb-12">
+            No tiers, no trials, no upsells. Formulate is funded by optional affiliate links — never by
+            charging you or by changing a score.
+          </p>
+        </Reveal>
+        <Reveal delay={120}>
+          <div className="max-w-[460px] mx-auto rounded-2xl border border-accent/25 bg-surface p-8 relative overflow-hidden">
+            <div className="absolute -top-[120px] -right-[120px] w-[280px] h-[280px] rounded-full bg-[radial-gradient(circle,rgba(0,229,160,0.10)_0%,transparent_70%)] pointer-events-none" />
+            <div className="relative">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[12px] font-bold mb-5">
+                Free forever
+              </div>
+              <div className="flex items-end gap-2 mb-6">
+                <span className="text-6xl font-black text-text leading-none">$0</span>
+                <span className="text-muted text-sm mb-1.5">/ forever</span>
+              </div>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "Browse 230+ scored supplements — no account needed",
+                  "Track food, meals & nutrient coverage",
+                  "Build your stack and get your Stack Score",
+                  "Hydration, streaks, and progress tracking",
+                  "Full scoring methodology, always transparent",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-sm text-text leading-relaxed">
+                    <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <TrackedAppLink
+                href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_pricing" })}
+                source="home_pricing"
+                className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+              >
+                Get started — free
+                <ArrowIcon />
+              </TrackedAppLink>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
       {/* ───────────────── Featured Guides ───────────────── */}
