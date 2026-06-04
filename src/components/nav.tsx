@@ -12,11 +12,16 @@ type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 // top-level section. Live pillars open a dropdown of their browse pages + "How
 // we score it" (methodology folded in); "coming soon" pillars show greyed with a
 // badge. Sections are keyed by pillar slug, so launching a pillar later = flip
-// its status in lib/pillars + add its entry here. Learn/Tools stay as
-// cross-cutting reference + do-it utilities.
+// its status in lib/pillars + add its entry here. Supplement-specific tools
+// (interactions, calculators, brands) live under Supplements; "Learn" keeps the
+// cross-cutting reference (guides, ingredients).
 const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
   supplements: [
     { href: "/supplements", title: "Browse Catalog", desc: "230+ supplements, scored" },
+    { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
+    { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
+    { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
+    { href: "/tools/stack-builder", title: "Stack Builder", desc: "Build & score a stack" },
     { href: "/methodology/supplements", title: "How we score it", desc: "Dose, form, evidence & testing" },
   ],
   foods: [
@@ -32,13 +37,6 @@ const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
 const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
   { href: "/ingredients", title: "Ingredients", desc: "Look up any ingredient" },
-  { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
-];
-const TOOLS: MenuItem[] = [
-  { href: "/start", title: "Find Your Stack", desc: "Answer 2 questions, get a stack" },
-  { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
-  { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
-  { href: "/tools/stack-builder", title: "Stack Builder", desc: "Build & score a stack" },
 ];
 
 function ChevronDown({ open }: { open: boolean }) {
@@ -50,7 +48,7 @@ function ChevronDown({ open }: { open: boolean }) {
 }
 
 /** Desktop dropdown menu (hover or click), accessible + closes on outside/Escape. */
-function NavMenu({ label, items }: { label: string; items: MenuItem[] }) {
+function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; icon?: string }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -77,8 +75,9 @@ function NavMenu({ label, items }: { label: string; items: MenuItem[] }) {
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-haspopup="true"
-        className="flex items-center gap-1 text-sm font-medium text-muted hover:text-text transition-colors"
+        className="flex items-center gap-1.5 text-sm font-medium text-muted hover:text-text transition-colors"
       >
+        {icon && <span aria-hidden="true">{icon}</span>}
         {label}
         <ChevronDown open={open} />
       </button>
@@ -153,21 +152,21 @@ export function Nav() {
           <div className="hidden lg:flex items-center gap-5">
             {PILLARS.map((p) =>
               p.status === "live" ? (
-                <NavMenu key={p.slug} label={p.title} items={PILLAR_SECTIONS[p.slug] ?? []} />
+                <NavMenu key={p.slug} label={p.title} items={PILLAR_SECTIONS[p.slug] ?? []} icon={p.icon} />
               ) : (
                 <span
                   key={p.slug}
-                  className="flex items-center gap-1 text-sm font-medium text-muted/40 cursor-default whitespace-nowrap"
+                  className="flex items-center gap-1.5 text-sm font-medium text-muted/40 cursor-default whitespace-nowrap"
                   title={`${p.title} — coming soon`}
                 >
+                  <span aria-hidden="true">{p.icon}</span>
                   {p.title}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">soon</span>
                 </span>
               )
             )}
             <span className="w-px h-4 bg-border" aria-hidden="true" />
-            <NavMenu label="Learn" items={LEARN} />
-            <NavMenu label="Tools" items={TOOLS} />
+            <NavMenu label="Learn" items={LEARN} icon="📚" />
           </div>
 
           <div className="flex items-center gap-3">
@@ -209,7 +208,9 @@ export function Nav() {
             {PILLARS.map((p) =>
               p.status === "live" ? (
                 <div key={p.slug} className="flex flex-col gap-2">
-                  <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{p.title}</span>
+                  <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">
+                    <span aria-hidden="true" className="mr-1.5">{p.icon}</span>{p.title}
+                  </span>
                   {(PILLAR_SECTIONS[p.slug] ?? []).map((it) => (
                     <Link
                       key={it.href}
@@ -224,6 +225,7 @@ export function Nav() {
                 </div>
               ) : (
                 <span key={p.slug} className="flex items-center gap-2 text-sm font-medium text-muted/40 py-1">
+                  <span aria-hidden="true">{p.icon}</span>
                   {p.title}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40 border border-border rounded-full px-1.5 py-0.5">
                     Soon
@@ -231,26 +233,23 @@ export function Nav() {
                 </span>
               )
             )}
-            {/* Cross-cutting */}
-            {[
-              { label: "Learn", items: LEARN },
-              { label: "Tools", items: TOOLS },
-            ].map((group) => (
-              <div key={group.label} className="flex flex-col gap-2">
-                <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{group.label}</span>
-                {group.items.map((it) => (
-                  <Link
-                    key={it.href}
-                    href={it.href}
-                    onClick={() => setOpen(false)}
-                    className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
-                    role="menuitem"
-                  >
-                    {it.title}
-                  </Link>
-                ))}
-              </div>
-            ))}
+            {/* Cross-cutting reference */}
+            <div className="flex flex-col gap-2">
+              <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">
+                <span aria-hidden="true" className="mr-1.5">📚</span>Learn
+              </span>
+              {LEARN.map((it) => (
+                <Link
+                  key={it.href}
+                  href={it.href}
+                  onClick={() => setOpen(false)}
+                  className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
+                  role="menuitem"
+                >
+                  {it.title}
+                </Link>
+              ))}
+            </div>
             {/* "Get started free" is the always-visible bar CTA; surface "Open App" here for returning users. */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app_mobile" })}
