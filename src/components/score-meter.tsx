@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { scoreGrade } from "@/lib/products";
 
 /**
@@ -58,6 +59,8 @@ export function ScoreMeter({
             strokeLinecap="round"
             strokeDasharray={circumference}
             strokeDashoffset={offset}
+            className="score-meter-arc"
+            style={{ "--score-c": circumference } as CSSProperties}
           />
         )}
       </svg>

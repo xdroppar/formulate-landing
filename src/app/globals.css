@@ -138,6 +138,15 @@ body {
 .animate-float-slow { animation: float-y-slow 8s ease-in-out infinite; }
 .animate-blob { animation: blob-drift 18s ease-in-out infinite; }
 .animate-pop-in { animation: pop-in 0.5s cubic-bezier(0.16,1,0.3,1) both; }
+
+/* Score gauge fill sweep — each ring arcs up from empty to its own value on
+   render. Only `from` is specified; the `to` is the element's own
+   stroke-dashoffset (set inline per score), so every meter animates to its own
+   number. Auto-disabled by the global prefers-reduced-motion rule below. */
+@keyframes score-fill {
+  from { stroke-dashoffset: var(--score-c); }
+}
+.score-meter-arc { animation: score-fill 0.9s cubic-bezier(0.22,1,0.36,1) both; }
 .animate-shimmer { position: relative; overflow: hidden; }
 .animate-shimmer::after {
   content: "";
