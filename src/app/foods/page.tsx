@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { foods, foodCount, foodGroups, foodsByGroup, foodColor, BEST_GROUP_MIN } from "@/lib/foods";
+import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const BASE = "https://formulate-health.app";
@@ -145,12 +146,7 @@ export default function FoodsHub() {
                     {f.subgroup && <div className="text-xs text-muted mb-0.5 truncate">{f.subgroup}</div>}
                     <div className="text-sm font-semibold text-text leading-snug line-clamp-2">{f.name}</div>
                   </div>
-                  <div
-                    className="text-sm font-bold px-2.5 py-1 rounded flex-shrink-0"
-                    style={{ backgroundColor: `${color}1a`, color }}
-                  >
-                    {f.score}
-                  </div>
+                  <ScoreMeter score={f.score} size={40} strokeWidth={4} color={color} />
                 </Link>
               );
             })}

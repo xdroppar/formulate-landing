@@ -6,35 +6,14 @@
 
 import Image from "next/image";
 import { type GuideProduct, catalogUrl } from "./products";
+import { ScoreMeter } from "@/components/score-meter";
 
 /* ── Score ring (SVG) ──────────────────────────────────────────── */
 
 function ScoreRing({ score }: { score: number }) {
-  const r = 17;
-  const circumference = 2 * Math.PI * r;
-  const progress = (score / 100) * circumference;
-  const color =
-    score >= 85 ? "#10B981" : score >= 70 ? "#3B82F6" : score >= 55 ? "#F59E0B" : "#EF4444";
-
-  return (
-    <svg width="48" height="48" viewBox="0 0 48 48" className="flex-shrink-0">
-      <circle cx="24" cy="24" r={r} fill="none" stroke="currentColor" strokeWidth="2.5" opacity="0.08" />
-      <circle
-        cx="24" cy="24" r={r}
-        fill="none" stroke={color} strokeWidth="2.5"
-        strokeDasharray={`${progress} ${circumference}`}
-        strokeLinecap="round"
-        transform="rotate(-90 24 24)"
-      />
-      <text
-        x="24" y="24"
-        textAnchor="middle" dominantBaseline="central"
-        fill={color} fontSize="14" fontWeight="800"
-      >
-        {score}
-      </text>
-    </svg>
-  );
+  // Delegates to the shared ScoreMeter so every score across the site renders
+  // with one visual language.
+  return <ScoreMeter score={score} size={48} strokeWidth={3} />;
 }
 
 /* ── Single product card ───────────────────────────────────────── */

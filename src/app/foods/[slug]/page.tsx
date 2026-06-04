@@ -274,7 +274,7 @@ export default async function FoodDetail({ params }: { params: Params }) {
                     {r.image_url && <Image src={r.image_url} alt="" fill sizes="40px" className="object-cover" />}
                   </div>
                   <div className="flex-1 min-w-0 text-sm font-semibold text-text truncate">{r.name}</div>
-                  <span className="text-xs font-bold px-1.5 py-0.5 rounded flex-shrink-0" style={{ backgroundColor: `${rc}1a`, color: rc }}>{r.score}</span>
+                  <ScoreMeter score={r.score} size={36} strokeWidth={3} color={rc} />
                 </Link>
               );
             })}

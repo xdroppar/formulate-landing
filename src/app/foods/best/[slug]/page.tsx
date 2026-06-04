@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { bestFoodGroups, groupByGroupSlug, foodsByGroup, foodColor } from "@/lib/foods";
+import { ScoreMeter } from "@/components/score-meter";
 import { withUtm } from "@/lib/app-url";
 
 const BASE = "https://formulate-health.app";
@@ -90,7 +91,7 @@ export default async function BestFoodGroup({ params }: { params: Params }) {
                   <div className="text-sm font-semibold text-text leading-snug truncate">{f.name}</div>
                   {f.subgroup && <div className="text-xs text-muted truncate">{f.subgroup}</div>}
                 </div>
-                <span className="text-sm font-bold px-2.5 py-1 rounded flex-shrink-0" style={{ backgroundColor: `${color}1a`, color }}>{f.score}</span>
+                <ScoreMeter score={f.score} size={38} strokeWidth={4} color={color} />
               </Link>
             </li>
           );

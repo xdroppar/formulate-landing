@@ -12,6 +12,7 @@ import {
   catalogReviewLabel,
   type Product,
 } from "@/lib/products";
+import { ScoreMeter } from "@/components/score-meter";
 
 const BASE = "https://formulate-health.app";
 const LIMIT = 10;
@@ -196,13 +197,7 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
                     <div className="text-sm font-bold text-text leading-snug mb-1">{p.name}</div>
                     <p className="text-xs text-muted leading-relaxed line-clamp-2">{whyLine(p)}</p>
                   </div>
-                  <div
-                    className="flex flex-col items-center justify-center rounded-lg px-2.5 py-1.5 flex-shrink-0"
-                    style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                  >
-                    <span className="text-base font-bold leading-none">{p.score}</span>
-                    <span className="text-[9px] uppercase tracking-wider mt-0.5">{g.letter}</span>
-                  </div>
+                  <ScoreMeter score={p.score} size={48} strokeWidth={4} showGrade />
                 </Link>
               </li>
             );

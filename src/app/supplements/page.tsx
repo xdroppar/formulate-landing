@@ -11,6 +11,7 @@ import {
   bestCategorySlugSet,
   type Product,
 } from "@/lib/products";
+import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 
 const BASE = "https://formulate-health.app";
@@ -228,15 +229,7 @@ export default function SupplementsHub() {
                       {p.name}
                     </div>
                   </div>
-                  <div
-                    className="text-sm font-bold px-2.5 py-1 rounded flex-shrink-0"
-                    style={{
-                      backgroundColor: `${g.color}1a`,
-                      color: g.color,
-                    }}
-                  >
-                    {p.score}
-                  </div>
+                  <ScoreMeter score={p.score} size={40} strokeWidth={4} />
                 </Link>
               );
             })}

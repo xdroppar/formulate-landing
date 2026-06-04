@@ -10,6 +10,7 @@ import {
   totalMinutes,
 } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
+import { ScoreMeter } from "@/components/score-meter";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -81,7 +82,7 @@ export default async function DietCollection({ params }: { params: Params }) {
             <Link key={r.id} href={`/recipes/${r.id}`} className="group rounded-xl border border-border bg-white/[0.02] overflow-hidden hover:border-accent/40 transition-colors">
               <div className="relative aspect-[16/10] bg-white/[0.02]">
                 {r.image_url && <Image src={r.image_url} alt="" fill sizes="(max-width:640px) 100vw, 360px" className="object-cover group-hover:scale-[1.03] transition-transform" />}
-                <span className="absolute top-2 right-2 text-sm font-bold px-2 py-1 rounded-lg bg-bg/80 backdrop-blur" style={{ color }}>{r.score}</span>
+                <ScoreMeter score={r.score} size={38} strokeWidth={3} color={color} className="absolute top-2 right-2 bg-bg/70 backdrop-blur rounded-full" />
               </div>
               <div className="p-3.5">
                 <div className="text-sm font-semibold text-text leading-snug line-clamp-1">{r.name}</div>

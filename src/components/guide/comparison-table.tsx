@@ -19,6 +19,7 @@
  */
 
 import { type GuideProduct, catalogUrl } from "./products";
+import { ScoreMeter } from "@/components/score-meter";
 
 interface Column {
   label: string;
@@ -84,12 +85,9 @@ export function ComparisonTable({ products, columns, data }: ComparisonTableProp
                     </a>
                   </td>
                   <td className="py-3 px-3 text-center">
-                    <span
-                      className="inline-block font-extrabold text-sm tabular-nums"
-                      style={{ color }}
-                    >
-                      {product.score}
-                    </span>
+                    <div className="inline-flex">
+                      <ScoreMeter score={product.score} size={40} strokeWidth={4} color={color} />
+                    </div>
                   </td>
                   {columns.map((col) => (
                     <td key={col.key} className="py-3 px-3 text-muted">

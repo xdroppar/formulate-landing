@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { ScoreMeter } from "@/components/score-meter";
 import {
   brands,
   brandBySlug,
@@ -198,14 +199,14 @@ export default async function BrandHub({ params }: { params: Params }) {
             </p>
           )}
         </div>
-        <div
-          className="text-3xl font-bold px-5 py-3 rounded-xl flex-shrink-0"
-          style={{ backgroundColor: `${bg.color}1a`, color: bg.color }}
-        >
-          {b.grade ?? bg.letter}
-          {b.score !== null && (
-            <div className="text-xs font-normal opacity-80 mt-1">{b.score}/100</div>
-          )}
+        <div className="flex items-center gap-3 flex-shrink-0">
+          <ScoreMeter score={b.score} size={68} strokeWidth={6} color={bg.color} />
+          <div
+            className="text-3xl font-bold px-4 py-2.5 rounded-xl"
+            style={{ backgroundColor: `${bg.color}1a`, color: bg.color }}
+          >
+            {b.grade ?? bg.letter}
+          </div>
         </div>
       </header>
 
@@ -307,12 +308,7 @@ export default async function BrandHub({ params }: { params: Params }) {
                       {p.name}
                     </div>
                   </div>
-                  <div
-                    className="text-sm font-bold px-2.5 py-1 rounded flex-shrink-0"
-                    style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                  >
-                    {p.score}
-                  </div>
+                  <ScoreMeter score={p.score} size={40} strokeWidth={4} />
                 </Link>
               );
             })}
@@ -338,12 +334,7 @@ export default async function BrandHub({ params }: { params: Params }) {
                       <span className="text-sm text-text line-clamp-1">{p.name}</span>
                       <span className="text-xs text-muted">{p.category}</span>
                     </div>
-                    <div
-                      className="text-xs font-bold px-2 py-0.5 rounded flex-shrink-0"
-                      style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                    >
-                      {p.score ?? "—"}
-                    </div>
+                    <ScoreMeter score={p.score} size={34} strokeWidth={3} />
                   </Link>
                 </li>
               );

@@ -12,6 +12,7 @@ import {
   type Recipe,
 } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
+import { ScoreMeter } from "@/components/score-meter";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -114,7 +115,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       <div className="relative aspect-[16/9] rounded-2xl overflow-hidden bg-white/[0.02] border border-border mb-6">
         {r.image_url && <Image src={r.image_url} alt={r.name} fill sizes="(max-width:896px) 100vw, 896px" className="object-cover" priority />}
         <span className="absolute top-3 right-3 flex items-center gap-2 px-3 py-1.5 rounded-xl bg-bg/80 backdrop-blur border" style={{ borderColor: `${color}44` }}>
-          <span className="text-2xl font-black" style={{ color }}>{r.score}</span>
+          <ScoreMeter score={r.score} size={46} strokeWidth={4} color={color} />
           <span className="text-[10px] text-muted leading-tight">Health<br />Score</span>
         </span>
       </div>
@@ -252,7 +253,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
                 <Link key={x.id} href={`/recipes/${x.id}`} className="group rounded-xl border border-border bg-white/[0.02] overflow-hidden hover:border-accent/40 transition-colors">
                   <div className="relative aspect-[16/10] bg-white/[0.02]">
                     {x.image_url && <Image src={x.image_url} alt="" fill sizes="240px" className="object-cover group-hover:scale-[1.03] transition-transform" />}
-                    <span className="absolute top-1.5 right-1.5 text-xs font-bold px-1.5 py-0.5 rounded bg-bg/80 backdrop-blur" style={{ color: rc }}>{x.score}</span>
+                    <ScoreMeter score={x.score} size={34} strokeWidth={3} color={rc} className="absolute top-1.5 right-1.5 bg-bg/70 backdrop-blur rounded-full" />
                   </div>
                   <div className="p-2.5 text-sm font-semibold text-text leading-snug line-clamp-1">{x.name}</div>
                 </Link>

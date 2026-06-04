@@ -13,6 +13,7 @@ import {
   formatTarget,
 } from "@/lib/nutrients";
 import { nutrientContent } from "@/lib/nutrient_content";
+import { ScoreMeter } from "@/components/score-meter";
 import { ingredients as encyclopediaIngredients } from "@/lib/encyclopedia";
 import { scoreGrade, thumbUrl } from "@/lib/products";
 import { studiesForIngredient } from "@/lib/research";
@@ -444,12 +445,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
                       {p.name}
                     </div>
                   </div>
-                  <div
-                    className="text-xs font-bold px-2 py-0.5 rounded flex-shrink-0"
-                    style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                  >
-                    {p.score ?? "—"}
-                  </div>
+                  <ScoreMeter score={p.score} size={36} strokeWidth={3} />
                 </Link>
               );
             })}
@@ -486,12 +482,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
                     <span className="text-[10px] font-bold uppercase tracking-wide bg-warning/10 text-warning px-1.5 py-0.5 rounded flex-shrink-0">
                       Low abs
                     </span>
-                    <div
-                      className="text-xs font-bold px-2 py-0.5 rounded flex-shrink-0"
-                      style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                    >
-                      {p.score ?? "—"}
-                    </div>
+                    <ScoreMeter score={p.score} size={36} strokeWidth={3} />
                   </Link>
                 </li>
               );
