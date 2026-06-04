@@ -5,8 +5,9 @@ import Image from "next/image";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { usePathname } from "next/navigation";
 import { withUtm } from "@/lib/app-url";
+import { PILLARS } from "@/lib/pillars";
 
-type MenuItem = { href: string; title: string; desc: string };
+type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
 // Read-it pages (SEO / reference) live under "Learn"; do-it tools that pull
 // people toward the app live under "Tools". The flat reference pages still
@@ -25,6 +26,18 @@ const TOOLS: MenuItem[] = [
   { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
   { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
   { href: "/tools/stack-builder", title: "Stack Builder", desc: "Build & score a stack" },
+];
+// One dropdown that shows the whole platform vision: live pillars link to their
+// methodology page, "coming soon" ones are visible but not yet clickable. Driven
+// by lib/pillars so launching a pillar is a one-line status flip.
+const METHODOLOGY: MenuItem[] = [
+  { href: "/methodology", title: "Overview", desc: "How we score every domain" },
+  ...PILLARS.map((p) => ({
+    href: p.status === "live" ? `/methodology/${p.slug}` : "/methodology",
+    title: p.title,
+    desc: p.tagline,
+    soon: p.status === "soon",
+  })),
 ];
 
 function ChevronDown({ open }: { open: boolean }) {
@@ -72,17 +85,32 @@ function NavMenu({ label, items }: { label: string; items: MenuItem[] }) {
         // pt-3 keeps the hover bridge so the menu doesn't close in the gap
         <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 z-50">
           <div className="w-[280px] rounded-xl border border-border bg-bg/95 backdrop-blur-md shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7)] p-2">
-            {items.map((it) => (
-              <Link
-                key={it.href}
-                href={it.href}
-                onClick={() => setOpen(false)}
-                className="block rounded-lg px-3 py-2.5 hover:bg-surface transition-colors"
-              >
-                <div className="text-sm font-semibold text-text">{it.title}</div>
-                <div className="text-xs text-muted mt-0.5">{it.desc}</div>
-              </Link>
-            ))}
+            {items.map((it) =>
+              it.soon ? (
+                <div
+                  key={it.title}
+                  className="flex items-start justify-between gap-2 rounded-lg px-3 py-2.5 opacity-55"
+                >
+                  <div>
+                    <div className="text-sm font-semibold text-text">{it.title}</div>
+                    <div className="text-xs text-muted mt-0.5">{it.desc}</div>
+                  </div>
+                  <span className="shrink-0 text-[9px] font-bold uppercase tracking-wider text-muted/60 border border-border rounded-full px-1.5 py-0.5 mt-0.5">
+                    Soon
+                  </span>
+                </div>
+              ) : (
+                <Link
+                  key={it.href}
+                  href={it.href}
+                  onClick={() => setOpen(false)}
+                  className="block rounded-lg px-3 py-2.5 hover:bg-surface transition-colors"
+                >
+                  <div className="text-sm font-semibold text-text">{it.title}</div>
+                  <div className="text-xs text-muted mt-0.5">{it.desc}</div>
+                </Link>
+              )
+            )}
           </div>
         </div>
       )}
@@ -132,9 +160,7 @@ export function Nav() {
             <NavMenu label="Foods" items={FOODS} />
             <NavMenu label="Learn" items={LEARN} />
             <NavMenu label="Tools" items={TOOLS} />
-            <Link href="/methodology" className={topLinkClass("/methodology")}>
-              Methodology
-            </Link>
+            <NavMenu label="Methodology" items={METHODOLOGY} />
           </div>
 
           <div className="flex items-center gap-3">
@@ -179,25 +205,35 @@ export function Nav() {
               { label: "Foods", items: FOODS },
               { label: "Learn", items: LEARN },
               { label: "Tools", items: TOOLS },
+              { label: "Methodology", items: METHODOLOGY },
             ].map((group) => (
               <div key={group.label} className="flex flex-col gap-2">
                 <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{group.label}</span>
-                {group.items.map((it) => (
-                  <Link
-                    key={it.href}
-                    href={it.href}
-                    onClick={() => setOpen(false)}
-                    className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
-                    role="menuitem"
-                  >
-                    {it.title}
-                  </Link>
-                ))}
+                {group.items.map((it) =>
+                  it.soon ? (
+                    <span
+                      key={it.title}
+                      className="flex items-center gap-2 text-sm font-medium text-muted/50 py-1 pl-1"
+                    >
+                      {it.title}
+                      <span className="text-[9px] font-bold uppercase tracking-wider text-muted/50 border border-border rounded-full px-1.5 py-0.5">
+                        Soon
+                      </span>
+                    </span>
+                  ) : (
+                    <Link
+                      key={it.href}
+                      href={it.href}
+                      onClick={() => setOpen(false)}
+                      className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
+                      role="menuitem"
+                    >
+                      {it.title}
+                    </Link>
+                  )
+                )}
               </div>
             ))}
-            <Link href="/methodology" onClick={() => setOpen(false)} className={`${topLinkClass("/methodology")} py-1`} role="menuitem">
-              Methodology
-            </Link>
             {/* "Get started free" is the always-visible bar CTA; surface "Open App" here for returning users. */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app_mobile" })}

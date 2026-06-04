@@ -1,91 +1,52 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
+import { PILLARS } from "@/lib/pillars";
 
 export const metadata: Metadata = {
-  title: "Methodology — How Formulate Scores Supplements",
+  title: "Methodology — How Formulate Scores Everything",
   description:
-    "Every Formulate score is built from six pillars: evidence, manufacturing, dose, bioavailability, transparency, and safety. No sponsorships, just data.",
+    "One transparent, evidence-based scoring engine for every domain of your health — supplements, foods, and nutrients today, with sleep, fitness and personal care coming. No sponsorships, just data.",
   alternates: { canonical: "https://formulate-health.app/methodology" },
   openGraph: {
-    title: "How Formulate Scores Supplements — Methodology",
+    title: "How Formulate Scores Everything — Methodology",
     description:
-      "Every supplement scored 50–100 across six pillars. Transparent, evidence-based, no sponsorships.",
+      "Transparent, evidence-based scoring across every domain of your health. No sponsorships, no editorial favoritism.",
     type: "article",
   },
 };
 
-const PILLARS = [
+const PRINCIPLES = [
   {
-    weight: "25%",
-    color: "text-green-400",
-    name: "Clinical Evidence",
-    desc: "Quality and quantity of peer-reviewed human research supporting the ingredient, its dose, and its claimed outcome. Meta-analyses and RCTs score higher than animal studies or anecdote.",
+    title: "Deterministic, not editorial",
+    desc: "The same algorithm runs on every item. Two people running it get the same number — scores come from data and published weights, not opinion.",
   },
   {
-    weight: "20%",
-    color: "text-blue-400",
-    name: "Manufacturing Quality",
-    desc: "Third-party certifications (NSF, USP, Informed Sport), facility audits, and batch-level testing. A product is only as good as its factory.",
+    title: "No sponsorships, ever",
+    desc: "No brand can pay to be listed, ranked, or featured. Affiliate links may earn a commission on purchases, but they never touch a score.",
   },
   {
-    weight: "20%",
-    color: "text-cyan-400",
-    name: "Dose Accuracy",
-    desc: "Does the serving actually match the evidence-based range for the claimed benefit? Underdosed and overdosed products both lose points.",
+    title: "Evidence-based & versioned",
+    desc: "Scores are built on peer-reviewed research and reference data. The evidence base is versioned and re-evaluated as new studies land.",
   },
   {
-    weight: "15%",
-    color: "text-amber-400",
-    name: "Bioavailability",
-    desc: "Form, chelation, and delivery method. Magnesium glycinate and magnesium oxide are not the same supplement — and we score them accordingly.",
+    title: "Fully transparent",
+    desc: "Every score breaks down into its components — you can always see exactly why something scored what it did.",
   },
-  {
-    weight: "10%",
-    color: "text-purple-400",
-    name: "Label Transparency",
-    desc: "Full ingredient disclosure, no proprietary blends hiding doses, verified COAs on request. If a brand won't tell you what's in it, we penalize it.",
-  },
-  {
-    weight: "10%",
-    color: "text-red-400",
-    name: "Safety Profile",
-    desc: "Known interactions, contraindications, heavy-metal testing, and exposure to fillers or allergens. A supplement that works but hurts still loses points.",
-  },
-];
-
-const SCORE_BANDS = [
-  { range: "90–100", label: "Exceptional", color: "text-green-400", desc: "Best-in-class on every pillar. Evidence-backed, rigorously manufactured, transparent." },
-  { range: "80–89", label: "Strong", color: "text-blue-400", desc: "Solid across the board with minor gaps. Safe default choices." },
-  { range: "70–79", label: "Decent", color: "text-cyan-400", desc: "Works, but has room to improve. Often a weaker form or less transparency." },
-  { range: "60–69", label: "Below Average", color: "text-amber-400", desc: "Real concerns — wrong form, low dose, or poor manufacturing track record." },
-  { range: "50–59", label: "Weak", color: "text-red-400", desc: "Meaningful problems with the product. Consider alternatives." },
 ];
 
 const FAQS = [
   {
-    q: "Why doesn't anything score below 50?",
-    a: "We don't list products we wouldn't be comfortable recommending at all. The 50–100 scale reflects the range of products that passed our screening. Products that fail safety or legitimacy checks don't get a score — they don't get listed.",
-  },
-  {
     q: "Do brands pay to be on Formulate?",
-    a: "No. We do not accept payment to list, rank, or feature any product. We may earn affiliate commissions from qualifying purchases through outbound links, but this does not affect scoring. The same algorithm runs on every product in the catalog.",
+    a: "No. We do not accept payment to list, rank, or feature any product in any domain. We may earn affiliate commissions from qualifying purchases through outbound links, but this never affects scoring — the same algorithm runs on every item.",
   },
   {
-    q: "How often are scores updated?",
-    a: "Ingredient evidence is re-evaluated quarterly based on new meta-analyses and clinical trials. Product-specific data (formulation changes, new certifications, recalls) triggers an immediate rescore when detected.",
+    q: "Why score different domains separately?",
+    a: "A supplement, a food, and your daily nutrient coverage are fundamentally different questions, so each has its own purpose-built methodology. What they share is the philosophy: transparent, evidence-based, and independent.",
   },
   {
-    q: "Why does one supplement score higher than another with identical ingredients?",
-    a: "Two products can have the same active ingredients but very different scores because of form (e.g., magnesium glycinate vs oxide), dose accuracy, third-party testing, and manufacturing transparency. Our methodology weighs these explicitly.",
-  },
-  {
-    q: "Can I see the raw scoring data?",
-    a: "Yes. Every product page shows the full score breakdown by pillar, the specific evidence tier for each claimed benefit, and the reasoning behind dose and form scores. Full transparency is non-negotiable.",
-  },
-  {
-    q: "Who builds and maintains the scoring engine?",
-    a: "The Formulate Team — a group of developers, researchers, and analysts who build the platform and curate the evidence base. Scores are generated by a deterministic algorithm, not editorial judgment, so two reviewers running it get the same number.",
+    q: "What's coming next?",
+    a: "Sleep, fitness, and personal care are in development — each will get the same transparent, evidence-based treatment. The framework is already here; we add a pillar when its scoring is rigorous enough to ship.",
   },
 ];
 
@@ -96,11 +57,10 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://formulate-health.app/methodology",
       url: "https://formulate-health.app/methodology",
-      name: "How Formulate Scores Supplements — Methodology",
+      name: "How Formulate Scores Everything — Methodology",
       description:
-        "Every Formulate score is built from six pillars: evidence, manufacturing, dose, bioavailability, transparency, and safety.",
+        "One transparent, evidence-based scoring engine across every domain of your health.",
       isPartOf: { "@id": "https://formulate-health.app/#website" },
-      about: { "@id": "https://formulate-health.app/#organization" },
     },
     {
       "@type": "FAQPage",
@@ -113,17 +73,17 @@ const jsonLd = {
   ],
 };
 
-export default function MethodologyPage() {
+export default function MethodologyHubPage() {
   return (
-    <div className="pt-24 pb-20 px-6">
+    <div id="main-content" className="pt-24 pb-20 px-6">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <div className="max-w-[820px] mx-auto">
+      <div className="max-w-[900px] mx-auto">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-muted mb-8">
+        <nav className="flex items-center gap-2 text-xs text-muted mb-8" aria-label="Breadcrumb">
           <Link href="/" className="hover:text-text transition-colors">
             Home
           </Link>
@@ -131,50 +91,74 @@ export default function MethodologyPage() {
           <span className="text-text/60">Methodology</span>
         </nav>
 
-        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">
-          How We Score
-        </div>
-        <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] leading-[1.15] mb-4">
-          Every supplement scored 50–100 across six pillars
+        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">How We Score</div>
+        <h1 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] leading-[1.12] mb-4 max-w-[720px]">
+          One transparent engine for everything you put in your body
         </h1>
-        <p className="text-base text-muted leading-relaxed mb-12 max-w-[640px]">
-          Formulate scores are deterministic and transparent. The same algorithm
-          runs on every product, the weights are public, and the evidence base is
-          versioned. No sponsorships, no editorial favoritism.
+        <p className="text-base text-muted leading-relaxed mb-12 max-w-[660px]">
+          Formulate scores every domain of your health with the same principles —
+          deterministic, evidence-based, and independent. Each domain has its own
+          purpose-built methodology. Three are live today; three more are on the way.
         </p>
 
         {/* Pillars */}
-        <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">The six pillars</h2>
-          <div className="space-y-3">
-            {PILLARS.map((p) => (
-              <div
-                key={p.name}
-                className="flex items-start gap-4 p-5 rounded-xl bg-surface border border-border"
-              >
-                <div className="shrink-0 w-16 text-center">
-                  <div className={`text-xl font-black ${p.color}`}>{p.weight}</div>
+        <section className="mb-16">
+          <h2 className="text-xl font-bold mb-6">The pillars we score</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {PILLARS.map((p) => {
+              const live = p.status === "live";
+              const inner = (
+                <>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="w-11 h-11 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-xl">
+                      {p.icon}
+                    </div>
+                    {live ? (
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-accent">Live</span>
+                    ) : (
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-muted/60 px-2 py-0.5 rounded-full border border-border">
+                        Coming soon
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-base font-bold text-text mb-1">{p.title}</div>
+                  <p className="text-sm text-muted leading-relaxed">{p.tagline}</p>
+                  {live && (
+                    <div className="mt-4 text-sm font-semibold text-accent inline-flex items-center gap-1.5">
+                      How we score it →
+                    </div>
+                  )}
+                </>
+              );
+              return live ? (
+                <Link
+                  key={p.slug}
+                  href={`/methodology/${p.slug}`}
+                  className="group bg-surface border border-border rounded-2xl p-6 hover:border-accent/30 hover:-translate-y-1 transition-all"
+                >
+                  {inner}
+                </Link>
+              ) : (
+                <div
+                  key={p.slug}
+                  className="bg-surface/50 border border-border rounded-2xl p-6 opacity-70"
+                  aria-disabled="true"
+                >
+                  {inner}
                 </div>
-                <div>
-                  <div className="text-sm font-bold text-text mb-1">{p.name}</div>
-                  <p className="text-sm text-muted leading-relaxed">{p.desc}</p>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 
-        {/* Score bands */}
-        <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">What the score means</h2>
-          <div className="rounded-xl bg-surface border border-border p-5 space-y-3">
-            {SCORE_BANDS.map((b) => (
-              <div key={b.range} className="flex items-start gap-4">
-                <div className="shrink-0 w-24">
-                  <div className={`font-mono font-bold text-sm ${b.color}`}>{b.range}</div>
-                  <div className={`text-xs font-semibold ${b.color}`}>{b.label}</div>
-                </div>
-                <p className="text-sm text-muted leading-relaxed flex-1">{b.desc}</p>
+        {/* Shared principles */}
+        <section className="mb-16">
+          <h2 className="text-xl font-bold mb-6">The principles behind every score</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {PRINCIPLES.map((pr) => (
+              <div key={pr.title} className="p-5 rounded-xl bg-surface border border-border">
+                <div className="text-sm font-bold text-text mb-2">{pr.title}</div>
+                <p className="text-sm text-muted leading-relaxed">{pr.desc}</p>
               </div>
             ))}
           </div>
@@ -197,16 +181,17 @@ export default function MethodologyPage() {
         <div className="p-8 rounded-2xl bg-surface border border-accent/20 text-center">
           <h3 className="text-lg font-bold mb-2">See it in action</h3>
           <p className="text-sm text-muted mb-5 max-w-[440px] mx-auto">
-            Every product page shows the full pillar breakdown, the evidence tier for each claim, and the exact reasoning behind the number.
+            Every product, food, and nutrient in the app shows its full score
+            breakdown — free, no account needed to browse.
           </p>
           <a
-            href={withUtm("https://app.formulate-health.app/methodology", {
+            href={withUtm("https://app.formulate-health.app", {
               source: "landing",
-              campaign: "methodology_deep_link",
+              campaign: "methodology_hub_cta",
             })}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
           >
-            Explore the full methodology →
+            Open the app →
           </a>
         </div>
       </div>
