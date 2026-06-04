@@ -3,14 +3,14 @@ import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
 
 export const metadata: Metadata = {
-  title: "About Formulate — Evidence-Based Supplement Scoring",
+  title: "About Formulate — Independent, Evidence-Based Scoring",
   description:
-    "Formulate is an independent supplement scoring platform. We score every supplement against clinical research — no sponsorships, no paid placements, no editorial favoritism.",
+    "Formulate is an independent platform that scores supplements against clinical research and foods on nutritional quality, then tracks the nutrients your diet and stack actually cover — no sponsorships, no paid placements, no editorial favoritism.",
   alternates: { canonical: "https://formulate-health.app/about" },
   openGraph: {
-    title: "About Formulate — Evidence-Based Supplement Scoring",
+    title: "About Formulate — Independent, Evidence-Based Scoring",
     description:
-      "Independent supplement scoring. Every product rated 50–100 against clinical research. No sponsorships.",
+      "Independent, evidence-based scoring for supplements and food — plus daily nutrient tracking. No sponsorships, ever.",
     type: "website",
   },
 };
@@ -40,7 +40,7 @@ const jsonLd = {
   url: "https://formulate-health.app/about",
   name: "About Formulate",
   description:
-    "Formulate is an independent supplement scoring platform that rates every supplement against clinical research.",
+    "Formulate is an independent platform that scores supplements against clinical research and foods on nutritional quality, and tracks your daily nutrient coverage.",
   mainEntity: {
     "@type": "Organization",
     "@id": "https://formulate-health.app/#organization",
@@ -53,7 +53,7 @@ const jsonLd = {
       height: 512,
     },
     description:
-      "Evidence-based supplement scoring platform. Every supplement rated 50–100 against clinical research. No sponsorships.",
+      "Evidence-based health platform: supplements scored 50–100 against clinical research, whole foods and meals scored on nutritional quality, and daily nutrient coverage tracked. No sponsorships.",
     sameAs: ["https://app.formulate-health.app"],
     foundingDate: "2025",
   },
@@ -81,13 +81,15 @@ export default function AboutPage() {
           About
         </div>
         <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] leading-[1.15] mb-4">
-          We score supplements so you don&apos;t have to guess
+          We score what you put in your body so you don&apos;t have to guess
         </h1>
         <p className="text-base text-muted leading-relaxed mb-10 max-w-[620px]">
-          The supplement industry runs on marketing, sponsorships, and vague
+          The wellness industry runs on marketing, sponsorships, and vague
           claims. Formulate runs on clinical evidence, third-party testing data,
-          and a scoring algorithm anyone can inspect. Every product gets a number
-          from 50 to 100. That number means something.
+          and a scoring algorithm anyone can inspect. We started by scoring
+          supplements from 50 to 100 — and now we score your food on nutritional
+          quality and track the nutrients your diet and stack actually cover.
+          Every number means something.
         </p>
 
         {/* Why we exist */}
@@ -117,6 +119,13 @@ export default function AboutPage() {
               </Link>{" "}
               for the full breakdown.
             </p>
+            <p>
+              What began as supplement scoring has grown into the whole picture
+              of what you put in your body — whole foods and meals scored on
+              nutritional quality, and a live view of the nutrients your diet
+              and supplements actually cover. Same principle, wider lens: make
+              the differences visible.
+            </p>
           </div>
         </section>
 
@@ -139,7 +148,7 @@ export default function AboutPage() {
           <p className="text-[15px] text-muted leading-relaxed mb-4">
             Formulate is built and maintained by the Formulate Team — a group of
             developers, researchers, and data analysts focused on making the
-            supplement industry legible. We&apos;re not doctors, and we
+            wellness industry legible. We&apos;re not doctors, and we
             don&apos;t give medical advice. We aggregate the best available
             evidence and turn it into a score you can actually use.
           </p>
@@ -178,7 +187,8 @@ export default function AboutPage() {
         <div className="p-8 rounded-2xl bg-surface border border-accent/20 text-center">
           <h3 className="text-lg font-bold mb-2">Ready to see scores?</h3>
           <p className="text-sm text-muted mb-5 max-w-[440px] mx-auto">
-            230+ supplements scored. Free, no account required.
+            230+ supplements scored, hundreds of foods, full nutrient tracking.
+            Free, no account required.
           </p>
           <a
             href={withUtm("https://app.formulate-health.app/catalog", {
