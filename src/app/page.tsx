@@ -453,6 +453,45 @@ export default function Home() {
         />
       </div>
 
+      {/* ───────────────── Problem stats (every claim sourced) ───────────────── */}
+      <Reveal>
+        <section className="max-w-[880px] mx-auto px-6 py-24 text-center">
+          <h2 className="text-[clamp(24px,4vw,40px)] font-extrabold tracking-[-1px] mb-4">
+            The supplement industry makes it <span className="text-danger">hard to know</span> what&apos;s actually good.
+          </h2>
+          <p className="text-muted text-[15px] max-w-[560px] mx-auto leading-relaxed mb-12">
+            Not scare stats — verifiable facts, each one sourced. The same standard we hold every product to.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {[
+              {
+                stat: "0",
+                desc: "Safety or effectiveness reviews a supplement must pass before it's legally sold to you.",
+                source: "U.S. law — DSHEA, 1994",
+              },
+              {
+                stat: "+478%",
+                desc: "Over the labeled dose some melatonin products tested at — others ran 83% under, and ~1 in 4 contained unlisted serotonin.",
+                source: "2017, J. Clinical Sleep Medicine",
+              },
+              {
+                stat: "0mg",
+                desc: "The per-ingredient amount a brand must disclose inside a \"proprietary blend.\"",
+                source: "FDA labeling rules",
+              },
+            ].map((item) => (
+              <Reveal key={item.stat} delay={100}>
+                <div className="bg-surface border border-border rounded-xl p-6 h-full flex flex-col">
+                  <div className="text-4xl font-black text-accent mb-3">{item.stat}</div>
+                  <div className="text-sm text-text leading-relaxed mb-4 flex-1">{item.desc}</div>
+                  <div className="text-[11px] text-muted/60 font-semibold tracking-wide uppercase">{item.source}</div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      </Reveal>
+
       {/* ───────────────── How it works ───────────────── */}
       <div id="how" className="bg-surface border-t border-b border-border py-24 px-6">
         <div className="max-w-[1100px] mx-auto">
