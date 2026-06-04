@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Formulate — Every Supplement Scored Against Clinical Research";
+export const alt = "Formulate — Score Your Supplements, Track Your Food, Cover Your Nutrients";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -62,7 +62,7 @@ export default async function Image() {
               marginBottom: "20px",
             }}
           >
-            Every supplement scored
+            Everything you put
           </div>
           <div
             style={{
@@ -74,7 +74,7 @@ export default async function Image() {
               marginBottom: "28px",
             }}
           >
-            against clinical research.
+            in your body — scored.
           </div>
           <div
             style={{
@@ -84,7 +84,7 @@ export default async function Image() {
               maxWidth: "700px",
             }}
           >
-            Score any supplement 50–100. Check dose safety. Compare brands. Build your stack.
+            Supplements scored against research. Food scored on quality. Daily nutrient gaps filled. One free app.
           </div>
         </div>
         <div

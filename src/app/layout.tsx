@@ -17,17 +17,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Formulate Health — Every Supplement Scored Against Clinical Research",
+    default: "Formulate Health — Score Your Supplements, Track Your Food, Cover Your Nutrients",
     template: "%s | Formulate",
   },
   description:
-    "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack. Free, transparent, no brand sponsorships.",
+    "Score your supplements against clinical research, track your food and meals, and fill your daily nutrient gaps — all in one free app. Transparent scoring, no brand sponsorships.",
   metadataBase: new URL("https://formulate-health.app"),
   alternates: { canonical: "https://formulate-health.app" },
   openGraph: {
-    title: "Formulate Health — Every Supplement Scored Against Clinical Research",
+    title: "Formulate Health — Score Your Supplements, Track Your Food, Cover Your Nutrients",
     description:
-      "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+      "Score your supplements against clinical research, track your food and meals, and watch your daily nutrient coverage fill in — one free app for everything you put in your body.",
     url: "https://formulate-health.app",
     siteName: "Formulate",
     type: "website",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Formulate Health — Every Supplement Scored Against Clinical Research",
+    title: "Formulate Health — Score Your Supplements, Track Your Food, Cover Your Nutrients",
     description:
-      "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+      "Score your supplements against clinical research, track your food and meals, and watch your daily nutrient coverage fill in — one free app for everything you put in your body.",
   },
   robots: {
     index: true,
@@ -65,7 +65,7 @@ const jsonLd = {
         height: 512,
       },
       description:
-        "Evidence-based supplement scoring platform. Every supplement rated 50–100 against clinical research.",
+        "Evidence-based health platform: supplements scored 50–100 against clinical research, whole foods and meals scored on nutritional quality, and daily nutrient coverage tracked across your diet and stack.",
       sameAs: ["https://app.formulate-health.app"],
     },
     {
@@ -79,7 +79,7 @@ const jsonLd = {
         priceCurrency: "USD",
       },
       description:
-        "Score any supplement 50–100 against clinical research. Check dose safety, compare brands, and build your optimal stack.",
+        "Score your supplements against clinical research, track your food and meals, and watch your daily nutrient coverage fill in — one free app for everything you put in your body.",
       url: "https://formulate-health.app",
       publisher: { "@id": "https://formulate-health.app/#organization" },
     },
