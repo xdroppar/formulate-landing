@@ -15,6 +15,7 @@ import {
 } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
+import { ScoreMeter } from "@/components/score-meter";
 import { findIngredientByName } from "@/lib/encyclopedia";
 
 const BASE = "https://formulate-health.app";
@@ -402,17 +403,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
             {product.name}
           </h1>
           <div className="flex items-center gap-4 mb-5">
-            <div
-              className="flex flex-col items-center justify-center rounded-xl px-5 py-3 font-bold"
-              style={{
-                backgroundColor: `${grade.color}1a`,
-                color: grade.color,
-                border: `1px solid ${grade.color}33`,
-              }}
-            >
-              <span className="text-2xl leading-none">{product.score}</span>
-              <span className="text-[10px] uppercase tracking-wider mt-1">Score</span>
-            </div>
+            <ScoreMeter score={product.score} size={78} strokeWidth={6} showGrade />
             <div className="text-sm text-muted leading-relaxed">
               Grade <span className="font-bold text-text">{grade.letter}</span>
               {product.form && (
@@ -554,7 +545,6 @@ export default async function SupplementPage({ params }: { params: Params }) {
           <h2 className="text-xl font-bold text-text mb-4">Related Supplements</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             {related.map((r) => {
-              const rg = scoreGrade(r.score);
               return (
                 <Link
                   key={r.slug}
@@ -573,15 +563,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
                         />
                       </div>
                     )}
-                    <div
-                      className="text-sm font-bold px-2 py-1 rounded"
-                      style={{
-                        backgroundColor: `${rg.color}1a`,
-                        color: rg.color,
-                      }}
-                    >
-                      {r.score}
-                    </div>
+                    <ScoreMeter score={r.score} size={40} strokeWidth={4} />
                   </div>
                   <div className="text-xs text-muted mb-0.5">{r.brand}</div>
                   <div className="text-sm font-semibold text-text leading-snug line-clamp-2">

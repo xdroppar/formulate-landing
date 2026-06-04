@@ -12,6 +12,7 @@ import {
   FOOD_BREAKDOWN_ROWS,
   type Food,
 } from "@/lib/foods";
+import { ScoreMeter } from "@/components/score-meter";
 import { withUtm } from "@/lib/app-url";
 
 const BASE = "https://formulate-health.app";
@@ -122,10 +123,8 @@ export default async function FoodDetail({ params }: { params: Params }) {
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">{f.name}</h1>
           <div className="flex items-center gap-3 mb-4">
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl border" style={{ borderColor: `${color}44`, backgroundColor: `${color}12` }}>
-              <span className="text-2xl font-black" style={{ color }}>{f.score}</span>
-              <span className="text-xs text-muted leading-tight">Health<br />Score</span>
-            </div>
+            <ScoreMeter score={f.score} size={72} strokeWidth={6} color={color} className="-ml-1" />
+            <span className="text-xs text-muted leading-tight">Health<br />Score</span>
             <span className="text-lg font-bold px-2.5 py-1 rounded-lg" style={{ backgroundColor: `${color}1a`, color }}>
               {f.grade}
             </span>

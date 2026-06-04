@@ -16,6 +16,7 @@ import { studiesForIngredient } from "@/lib/research";
 import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { ScoreMeter } from "@/components/score-meter";
 
 /** Try to match this encyclopedia ingredient to a core-nutrient registry
  *  entry by canonical name or alias. Drives the cross-link to /nutrients/X. */
@@ -412,7 +413,6 @@ export default async function IngredientPage({ params }: { params: Params }) {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {matchingProducts.map((p) => {
-              const g = scoreGrade(p.score);
               return (
                 <Link
                   key={p.slug}
@@ -438,12 +438,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
                       {p.name}
                     </div>
                   </div>
-                  <div
-                    className="text-xs font-bold px-2 py-0.5 rounded flex-shrink-0"
-                    style={{ backgroundColor: `${g.color}1a`, color: g.color }}
-                  >
-                    {p.score ?? "—"}
-                  </div>
+                  <ScoreMeter score={p.score} size={40} strokeWidth={4} />
                 </Link>
               );
             })}
