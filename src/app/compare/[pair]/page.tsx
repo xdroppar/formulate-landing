@@ -12,6 +12,7 @@ import {
   EVIDENCE_GRADE_META,
   type Ingredient,
 } from "@/lib/encyclopedia";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 
@@ -189,6 +190,14 @@ export default async function ComparePage({ params }: { params: Params }) {
           );
         })}
       </section>
+
+      <AppCtaCard
+        className="mb-10"
+        title={`Compare ${a.name} & ${b.name} products — scored, free`}
+        sub="See both scored on dose & form, then track whichever you choose in the app."
+        campaign="compare_cta"
+        path="/catalog"
+      />
 
       <section className="mb-10">
         <h2 className="text-xl font-bold text-text mb-3">

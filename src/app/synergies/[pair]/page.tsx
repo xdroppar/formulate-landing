@@ -12,6 +12,7 @@ import {
   EVIDENCE_GRADE_META,
   type Ingredient,
 } from "@/lib/encyclopedia";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 
@@ -191,6 +192,14 @@ export default async function SynergyPage({ params }: { params: Params }) {
           );
         })}
       </section>
+
+      <AppCtaCard
+        className="mb-10"
+        title={`Find ${a.name} + ${b.name} products — scored, free`}
+        sub="See both scored on dose & form and build the pairing into your stack."
+        campaign="synergy_cta"
+        path="/catalog"
+      />
 
       <section className="mb-10">
         <h2 className="text-xl font-bold text-text mb-3">Why they work together</h2>

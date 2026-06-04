@@ -9,6 +9,7 @@ import {
 import { ingredientBySlug, EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 import { stackBySlug } from "@/lib/stacks";
 import { nutrientForSupplementSlug } from "@/lib/nutrients";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 
@@ -201,6 +202,14 @@ export default async function ConditionPage({ params }: { params: Params }) {
           })}
         </div>
       </section>
+
+      <AppCtaCard
+        className="mb-10"
+        title={`Find the best supplements for ${c.name} — free`}
+        sub="See these picks scored on dose, form & evidence, then track your intake in the app."
+        campaign="condition_cta"
+        path="/catalog"
+      />
 
       <section className="mb-10">
         <h2 className="text-xl font-bold text-text mb-3">Lifestyle context</h2>
