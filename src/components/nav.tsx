@@ -3,19 +3,32 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useCallback, useRef } from "react";
-import { usePathname } from "next/navigation";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
 
 type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
-// Read-it pages (SEO / reference) live under "Learn"; do-it tools that pull
-// people toward the app live under "Tools". The flat reference pages still
-// exist and rank — they just don't all crowd the top nav.
-const FOODS: MenuItem[] = [
-  { href: "/foods", title: "Whole Foods", desc: "Nutrition & health scores for 480+ foods" },
-  { href: "/recipes", title: "Recipes", desc: "700+ recipes, scored on real nutrition" },
-];
+// Pillar-centric nav (end-state template): each platform pillar is its own
+// top-level section. Live pillars open a dropdown of their browse pages + "How
+// we score it" (methodology folded in); "coming soon" pillars show greyed with a
+// badge. Sections are keyed by pillar slug, so launching a pillar later = flip
+// its status in lib/pillars + add its entry here. Learn/Tools stay as
+// cross-cutting reference + do-it utilities.
+const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
+  supplements: [
+    { href: "/supplements", title: "Browse Catalog", desc: "230+ supplements, scored" },
+    { href: "/methodology/supplements", title: "How we score it", desc: "Dose, form, evidence & testing" },
+  ],
+  foods: [
+    { href: "/foods", title: "Whole Foods", desc: "480+ foods scored on nutrition" },
+    { href: "/recipes", title: "Recipes", desc: "700+ recipes, scored" },
+    { href: "/methodology/foods", title: "How we score it", desc: "Quality, not calories" },
+  ],
+  nutrients: [
+    { href: "/nutrients", title: "Browse Nutrients", desc: "Targets, sources & daily coverage" },
+    { href: "/methodology/nutrients", title: "How we score it", desc: "Coverage vs your targets" },
+  ],
+};
 const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
   { href: "/ingredients", title: "Ingredients", desc: "Look up any ingredient" },
@@ -26,18 +39,6 @@ const TOOLS: MenuItem[] = [
   { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
   { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
   { href: "/tools/stack-builder", title: "Stack Builder", desc: "Build & score a stack" },
-];
-// One dropdown that shows the whole platform vision: live pillars link to their
-// methodology page, "coming soon" ones are visible but not yet clickable. Driven
-// by lib/pillars so launching a pillar is a one-line status flip.
-const METHODOLOGY: MenuItem[] = [
-  { href: "/methodology", title: "Overview", desc: "How we score every domain" },
-  ...PILLARS.map((p) => ({
-    href: p.status === "live" ? `/methodology/${p.slug}` : "/methodology",
-    title: p.title,
-    desc: p.tagline,
-    soon: p.status === "soon",
-  })),
 ];
 
 function ChevronDown({ open }: { open: boolean }) {
@@ -119,11 +120,7 @@ function NavMenu({ label, items }: { label: string; items: MenuItem[] }) {
 }
 
 export function Nav() {
-  const pathname = usePathname();
   const [open, setOpen] = useState(false);
-
-  const topLinkClass = (href: string) =>
-    `text-sm font-medium transition-colors ${pathname === href ? "text-accent" : "text-muted hover:text-text"}`;
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === "Escape" && open) setOpen(false);
@@ -153,14 +150,24 @@ export function Nav() {
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-7">
-            <Link href="/supplements" className={topLinkClass("/supplements")}>
-              Supplements
-            </Link>
-            <NavMenu label="Foods" items={FOODS} />
+          <div className="hidden lg:flex items-center gap-5">
+            {PILLARS.map((p) =>
+              p.status === "live" ? (
+                <NavMenu key={p.slug} label={p.title} items={PILLAR_SECTIONS[p.slug] ?? []} />
+              ) : (
+                <span
+                  key={p.slug}
+                  className="flex items-center gap-1 text-sm font-medium text-muted/40 cursor-default whitespace-nowrap"
+                  title={`${p.title} — coming soon`}
+                >
+                  {p.title}
+                  <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">soon</span>
+                </span>
+              )
+            )}
+            <span className="w-px h-4 bg-border" aria-hidden="true" />
             <NavMenu label="Learn" items={LEARN} />
             <NavMenu label="Tools" items={TOOLS} />
-            <NavMenu label="Methodology" items={METHODOLOGY} />
           </div>
 
           <div className="flex items-center gap-3">
@@ -177,14 +184,14 @@ export function Nav() {
             {/* Returning users — secondary, desktop bar only (in the mobile menu otherwise). */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app" })}
-              className="hidden md:inline-flex px-4 py-2.5 rounded-xl text-sm font-semibold border border-border text-text hover:border-accent hover:text-accent transition-all"
+              className="hidden lg:inline-flex px-4 py-2.5 rounded-xl text-sm font-semibold border border-border text-text hover:border-accent hover:text-accent transition-all"
             >
               Open App
             </a>
             {/* Mobile hamburger */}
             <button
               onClick={() => setOpen(!open)}
-              className="md:hidden flex flex-col gap-1.5 p-2"
+              className="lg:hidden flex flex-col gap-1.5 p-2"
               aria-label="Toggle menu"
               aria-expanded={open}
             >
@@ -197,30 +204,13 @@ export function Nav() {
 
         {/* Mobile menu — grouped, no dropdowns */}
         {open && (
-          <div className="md:hidden border-t border-border bg-bg/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4 max-h-[80vh] overflow-y-auto" role="menu">
-            <Link href="/supplements" onClick={() => setOpen(false)} className={`${topLinkClass("/supplements")} py-1`} role="menuitem">
-              Supplements
-            </Link>
-            {[
-              { label: "Foods", items: FOODS },
-              { label: "Learn", items: LEARN },
-              { label: "Tools", items: TOOLS },
-              { label: "Methodology", items: METHODOLOGY },
-            ].map((group) => (
-              <div key={group.label} className="flex flex-col gap-2">
-                <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{group.label}</span>
-                {group.items.map((it) =>
-                  it.soon ? (
-                    <span
-                      key={it.title}
-                      className="flex items-center gap-2 text-sm font-medium text-muted/50 py-1 pl-1"
-                    >
-                      {it.title}
-                      <span className="text-[9px] font-bold uppercase tracking-wider text-muted/50 border border-border rounded-full px-1.5 py-0.5">
-                        Soon
-                      </span>
-                    </span>
-                  ) : (
+          <div className="lg:hidden border-t border-border bg-bg/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4 max-h-[80vh] overflow-y-auto" role="menu">
+            {/* Pillars */}
+            {PILLARS.map((p) =>
+              p.status === "live" ? (
+                <div key={p.slug} className="flex flex-col gap-2">
+                  <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{p.title}</span>
+                  {(PILLAR_SECTIONS[p.slug] ?? []).map((it) => (
                     <Link
                       key={it.href}
                       href={it.href}
@@ -230,8 +220,35 @@ export function Nav() {
                     >
                       {it.title}
                     </Link>
-                  )
-                )}
+                  ))}
+                </div>
+              ) : (
+                <span key={p.slug} className="flex items-center gap-2 text-sm font-medium text-muted/40 py-1">
+                  {p.title}
+                  <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40 border border-border rounded-full px-1.5 py-0.5">
+                    Soon
+                  </span>
+                </span>
+              )
+            )}
+            {/* Cross-cutting */}
+            {[
+              { label: "Learn", items: LEARN },
+              { label: "Tools", items: TOOLS },
+            ].map((group) => (
+              <div key={group.label} className="flex flex-col gap-2">
+                <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">{group.label}</span>
+                {group.items.map((it) => (
+                  <Link
+                    key={it.href}
+                    href={it.href}
+                    onClick={() => setOpen(false)}
+                    className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
+                    role="menuitem"
+                  >
+                    {it.title}
+                  </Link>
+                ))}
               </div>
             ))}
             {/* "Get started free" is the always-visible bar CTA; surface "Open App" here for returning users. */}
