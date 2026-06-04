@@ -21,13 +21,13 @@ const LEAF_PATH = "M0 0 C -7 -7 -7 -18 0 -26 C 7 -18 7 -7 0 0 Z";
 
 const CONFIG: Record<PillarKey, { motif: Motif; hues: string[]; glow: string }> = {
   // Capsules + teal — the science/supplement branch of the tree.
-  supplements: { motif: "capsule", hues: ["#00e5a0", "#2fd8a8", "#39c9b0", "#5bc8d8", "#7c6dfa"], glow: "rgba(0,229,160,0.08)" },
+  supplements: { motif: "capsule", hues: ["#00e5a0", "#2fd8a8", "#39c9b0", "#5bc8d8", "#7c6dfa"], glow: "rgba(0,229,160,0.16)" },
   // Leaves + green — the most literal "growing" branch.
-  foods: { motif: "leaf", hues: ["#00e5a0", "#2fd8a8", "#5bd08a", "#86d36b", "#39c9b0"], glow: "rgba(0,229,160,0.08)" },
+  foods: { motif: "leaf", hues: ["#00e5a0", "#2fd8a8", "#5bd08a", "#86d36b", "#39c9b0"], glow: "rgba(0,229,160,0.16)" },
   // Rising specks + amber/gold — nutrients drawn up like roots feeding the tree.
-  nutrients: { motif: "particle", hues: ["#f5c451", "#f0b54a", "#ffd36b", "#39c9b0", "#7c6dfa"], glow: "rgba(245,196,81,0.07)" },
+  nutrients: { motif: "particle", hues: ["#f5c451", "#f0b54a", "#ffd36b", "#39c9b0", "#7c6dfa"], glow: "rgba(245,196,81,0.14)" },
   // Faint violet leaves — the quiet reference branch.
-  learn: { motif: "leaf", hues: ["#7c6dfa", "#6bd0c0", "#39c9b0"], glow: "rgba(124,109,250,0.07)" },
+  learn: { motif: "leaf", hues: ["#7c6dfa", "#6bd0c0", "#39c9b0"], glow: "rgba(124,109,250,0.14)" },
 };
 
 /** Deterministic PRNG — stable layout across renders (mirrors FallingLeaves). */
@@ -58,20 +58,20 @@ type Drift = {
 function buildDrifts(seed: number, hues: string[]): Drift[] {
   const rng = mulberry32(seed);
   const out: Drift[] = [];
-  const N = 16;
+  const N = 24;
   for (let i = 0; i < N; i++) {
     out.push({
       side: i % 2 === 0 ? "l" : "r",
-      edge: 1 + rng() * 11,
-      size: 11 + rng() * 15,
-      fallDur: 16 + rng() * 16,
-      fallDelay: -rng() * 32,
+      edge: 1 + rng() * 13,
+      size: 15 + rng() * 19,
+      fallDur: 15 + rng() * 15,
+      fallDelay: -rng() * 30,
       swayDur: 3 + rng() * 3,
       swayDelay: -rng() * 5,
-      swayAmp: 9 + rng() * 15,
+      swayAmp: 10 + rng() * 16,
       tumble: 16 + rng() * 26,
       hue: hues[Math.floor(rng() * hues.length)],
-      opacity: 0.14 + rng() * 0.2,
+      opacity: 0.32 + rng() * 0.33,
     });
   }
   return out;
@@ -126,8 +126,8 @@ export function PillarAmbient({ pillar = "supplements", seed = 4242 }: { pillar?
       else raf = 0;
     };
     const onMove = (e: MouseEvent) => {
-      tx = (e.clientX / window.innerWidth - 0.5) * -18;
-      ty = (e.clientY / window.innerHeight - 0.5) * -11;
+      tx = (e.clientX / window.innerWidth - 0.5) * -26;
+      ty = (e.clientY / window.innerHeight - 0.5) * -16;
       if (!raf) raf = requestAnimationFrame(tick);
     };
 
