@@ -17,6 +17,7 @@ import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { ScoreMeter } from "@/components/score-meter";
+import { PillarAmbient } from "@/components/landing/pillar-ambient";
 
 /** Try to match this encyclopedia ingredient to a core-nutrient registry
  *  entry by canonical name or alias. Drives the cross-link to /nutrients/X. */
@@ -199,7 +200,9 @@ export default async function IngredientPage({ params }: { params: Params }) {
   };
 
   return (
-    <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
+    <>
+    <PillarAmbient pillar="supplements" />
+    <main id="main-content" className="relative z-10 max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
       <ReadingProgressBar />
       <script
         type="application/ld+json"
@@ -627,5 +630,6 @@ export default async function IngredientPage({ params }: { params: Params }) {
         educational and does not replace advice from a qualified healthcare provider.
       </p>
     </main>
+    </>
   );
 }
