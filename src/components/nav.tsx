@@ -36,7 +36,11 @@ const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
 };
 const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
-  { href: "/ingredients", title: "Ingredients", desc: "Look up any ingredient" },
+  { href: "/ingredients", title: "Encyclopedia", desc: "Every ingredient, explained" },
+  { href: "/research", title: "Research", desc: "The studies behind the scores" },
+  { href: "/conditions", title: "By Condition", desc: "Supplements for a goal or condition" },
+  { href: "/compare", title: "Compare", desc: "Ingredient head-to-heads" },
+  { href: "/synergies", title: "Synergies", desc: "Evidence-backed pairings" },
 ];
 
 function ChevronDown({ open }: { open: boolean }) {
