@@ -37,3 +37,27 @@ export function ingredientLearnUrl(
     content: ingredientId,
   });
 }
+
+/**
+ * Build a URL to a Longevity Academy course on the webapp, with UTM
+ * attribution back to the referring page. Use a known-active course id
+ * (see academy-cross-link.ts — only verified-active courses are linked).
+ */
+export function academyCourseUrl(
+  courseId: string,
+  source: string = "guide"
+): string {
+  return withUtm(`${APP_URL}/learning/academy/${courseId}`, {
+    source,
+    medium: "academy-link",
+    content: courseId,
+  });
+}
+
+/** URL to the Academy hub — the safe fallback when no course maps cleanly. */
+export function academyHubUrl(source: string = "guide"): string {
+  return withUtm(`${APP_URL}/learning/academy`, {
+    source,
+    medium: "academy-link",
+  });
+}

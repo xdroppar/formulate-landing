@@ -10,6 +10,7 @@ import { ingredientBySlug, EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 import { stackBySlug } from "@/lib/stacks";
 import { nutrientForSupplementSlug } from "@/lib/nutrients";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { AcademyCallout } from "@/components/academy-callout";
 
 const BASE = "https://formulate-health.app";
 
@@ -259,6 +260,9 @@ export default async function ConditionPage({ params }: { params: Params }) {
           </ul>
         </section>
       )}
+
+      {/* Go deeper — funnel into the relevant Academy course on the webapp */}
+      <AcademyCallout tags={c.tags} source={`condition:${c.slug}`} />
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">

@@ -7,6 +7,7 @@ import { withUtm } from "@/lib/app-url";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { RelatedGuides } from "@/components/related-guides";
 import { RelatedInteractions } from "@/components/related-interactions";
+import { AcademyCallout } from "@/components/academy-callout";
 import { TableOfContents } from "@/components/table-of-contents";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
@@ -260,6 +261,9 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
 
         {/* Related guides */}
         <RelatedGuides current={guide} />
+
+        {/* Go deeper — funnel into the relevant Academy course on the webapp */}
+        <AcademyCallout tags={guide.tags} source={`guide:${guide.slug}`} />
 
         {/* Newsletter signup */}
         <NewsletterSignup source={`guide:${guide.slug}`} />
