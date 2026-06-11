@@ -32,6 +32,20 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "best-supplement-tracker-apps",
+    title: "Best Supplement Tracker Apps 2026, Compared Honestly",
+    description:
+      "We compare Formulate, SuppCo, Examine, ConsumerLab, Labdoor, Cronometer & biomarker platforms by the job each one does best — scoring, logging, lab-testing, or blood panels. No sponsorships.",
+    category: "roundup",
+    categoryLabel: "Roundup",
+    publishedAt: "2026-06-10",
+    updatedAt: "2026-06-10",
+    readTime: "11 min read",
+    tags: ["Supplement Tracker", "App Comparison", "Roundup", "Longevity"],
+    catalogLink: "https://app.formulate-health.app/catalog",
+    isNew: true,
+  },
+  {
     slug: "magnesium-glycinate-vs-citrate-vs-oxide",
     title: "Magnesium Glycinate vs Citrate vs Oxide: Which Form Actually Absorbs?",
     description:

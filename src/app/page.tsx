@@ -25,6 +25,46 @@ import { join } from "node:path";
 
 const APP_URL = "https://app.formulate-health.app";
 
+// Single source of truth for the homepage FAQ — rendered on-page AND emitted as
+// FAQPage JSON-LD. Google rejects FAQ schema that doesn't match visible copy, so
+// these must stay unified.
+const HOME_FAQS: { q: string; a: string }[] = [
+  {
+    q: "Is Formulate really free?",
+    a: "Yes. The web app is completely free to use — score supplements, track food, and build your stack. We generate revenue through affiliate links when you choose to buy a product, but affiliate relationships never affect scores.",
+  },
+  {
+    q: "Is this just for supplements?",
+    a: "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 26 key nutrients by default (add more anytime) across your diet and supplements, log hydration, and watch your progress over time.",
+  },
+  {
+    q: "How do you score supplements and foods?",
+    a: "Supplements are evaluated across ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence (50–100 scale). Foods are scored on real nutritional quality — nutrient density, processing level, and beneficial compounds — not just calories.",
+  },
+  {
+    q: "Is this medical advice?",
+    a: "No. Formulate is an informational tool that aggregates clinical research to help you make more informed decisions. It is not a substitute for professional medical advice. Always consult your healthcare provider before starting any supplement.",
+  },
+  {
+    q: "Can brands pay to change their score?",
+    a: "No. We do not accept brand sponsorships, paid placements, or any form of compensation that would influence scores. Our methodology is fully transparent.",
+  },
+  {
+    q: "Do I need an account?",
+    a: "No. You can browse the full catalog and every product score without an account. An account is only needed to build and save your personal stack, track food, and follow your progress.",
+  },
+];
+
+const HOME_FAQ_LD = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: HOME_FAQS.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 /** Prefer the pre-generated ~256px thumb when it exists on disk (the catalog
  *  image_url often carries a `?v=` cache token that defeats the lib's thumb
  *  swap), else fall back to the full image. Server-only (SSG). */
@@ -648,6 +688,10 @@ export default function Home() {
 
       {/* ───────────────── FAQ ───────────────── */}
       <section className="bg-surface border-t border-b border-border py-24 px-6">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(HOME_FAQ_LD) }}
+        />
         <div className="max-w-[800px] mx-auto">
           <Reveal>
             <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">FAQ</div>
@@ -656,32 +700,7 @@ export default function Home() {
             </h2>
           </Reveal>
           <div className="space-y-8">
-            {[
-              {
-                q: "Is Formulate really free?",
-                a: "Yes. The web app is completely free to use — score supplements, track food, and build your stack. We generate revenue through affiliate links when you choose to buy a product, but affiliate relationships never affect scores.",
-              },
-              {
-                q: "Is this just for supplements?",
-                a: "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 26 key nutrients by default (add more anytime) across your diet and supplements, log hydration, and watch your progress over time.",
-              },
-              {
-                q: "How do you score supplements and foods?",
-                a: "Supplements are evaluated across ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence (50–100 scale). Foods are scored on real nutritional quality — nutrient density, processing level, and beneficial compounds — not just calories.",
-              },
-              {
-                q: "Is this medical advice?",
-                a: "No. Formulate is an informational tool that aggregates clinical research to help you make more informed decisions. It is not a substitute for professional medical advice. Always consult your healthcare provider before starting any supplement.",
-              },
-              {
-                q: "Can brands pay to change their score?",
-                a: "No. We do not accept brand sponsorships, paid placements, or any form of compensation that would influence scores. Our methodology is fully transparent.",
-              },
-              {
-                q: "Do I need an account?",
-                a: "No. You can browse the full catalog and every product score without an account. An account is only needed to build and save your personal stack, track food, and follow your progress.",
-              },
-            ].map((item, i) => (
+            {HOME_FAQS.map((item, i) => (
               <Reveal key={item.q} delay={i * 60}>
                 <div className="border-b border-border pb-8 last:border-b-0 last:pb-0">
                   <h3 className="text-base font-bold mb-3">{item.q}</h3>

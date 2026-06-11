@@ -79,6 +79,7 @@ import { BestSupplementsForRunners } from "./content/best-supplements-for-runner
 import { BestThorneSupplements } from "./content/best-thorne-supplements";
 import { MagnesiumGlycinateVsCitrateVsOxide } from "./content/magnesium-glycinate-vs-citrate-vs-oxide";
 import { BestSupplementsForPerimenopause } from "./content/best-supplements-for-perimenopause";
+import { BestSupplementTrackerApps } from "./content/best-supplement-tracker-apps";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -156,6 +157,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "best-thorne-supplements": BestThorneSupplements,
   "magnesium-glycinate-vs-citrate-vs-oxide": MagnesiumGlycinateVsCitrateVsOxide,
   "best-supplements-for-perimenopause": BestSupplementsForPerimenopause,
+  "best-supplement-tracker-apps": BestSupplementTrackerApps,
 };
 
 /* ---------- static params ---------- */

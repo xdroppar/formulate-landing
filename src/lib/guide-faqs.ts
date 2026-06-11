@@ -10,6 +10,33 @@ export interface FaqItem {
  * content file gets new/edited FAQ copy, update the entry here too.
  */
 export const guideFaqs: Record<string, FaqItem[]> = {
+  "best-supplement-tracker-apps": [
+    {
+      question: "What is the best free supplement tracker app?",
+      answer:
+        "Formulate is the only free app that scores supplements on a 50–100 ingredient-level scale, scores whole foods and meals, and tracks your daily coverage of 26 core nutrients in one place — with a fully published methodology and no brand sponsorships. SuppCo is also free and has a larger product catalog (160,000+) with barcode scanning, but it does not track food or whole-diet nutrient coverage.",
+    },
+    {
+      question: "What is the difference between Formulate and SuppCo?",
+      answer:
+        "Both score supplements, but they optimize for different jobs. SuppCo indexes 160,000+ products with barcode scanning and is best for cataloging a large shelf quickly. Formulate publishes its full six-pillar scoring rubric, scores foods and meals in addition to supplements, and rolls everything into a single daily nutrient-coverage view — so your stack and your diet are graded on the same scale. Formulate's product catalog is smaller; SuppCo's food and nutrient coverage is lighter.",
+    },
+    {
+      question: "Is Examine.com a supplement tracker?",
+      answer:
+        "No. Examine.com is an independent research encyclopedia that summarizes the human studies on supplements and nutrition. It does not track your intake or score specific branded products — it operates one layer above the product. It is the best tool for deep, neutral research on a single compound, and it complements a tracker rather than replacing one.",
+    },
+    {
+      question: "Do supplement tracker apps actually test the products in a lab?",
+      answer:
+        "Most do not. ConsumerLab and Labdoor physically buy products off the shelf and assay them for purity and label accuracy — that lab testing is their specialty. Scoring apps like Formulate and SuppCo evaluate the formula (dose, ingredient form, evidence, and whether the product carries third-party certification) but do not run the assay themselves. The two approaches are complementary: one checks whether the formula is well-designed, the other checks whether a specific bottle matches its label.",
+    },
+    {
+      question: "Should I use a supplement tracker or a biomarker testing service?",
+      answer:
+        "They answer different questions. A tracker (Formulate, SuppCo, Cronometer) tells you whether what you take and eat is well-chosen and consistent. A biomarker platform (Function Health, InsideTracker, Superpower) draws blood to tell you what is happening inside your body, and costs roughly $199–365 per year. A common setup is a biomarker panel once or twice a year plus a free daily tracker in between.",
+    },
+  ],
   "best-creatine-supplements": [
     {
       question: "Is creatine HCl better than monohydrate?",
