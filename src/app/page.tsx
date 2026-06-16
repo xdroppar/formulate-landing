@@ -448,7 +448,7 @@ export default function Home() {
         <Spotlight
           eyebrow="Supplement scores"
           title={<>Stop guessing. <span className="text-muted">See the real score.</span></>}
-          body="Every supplement is scored 50–100 across five factors that actually determine whether it works. No star ratings, no influencer hype — just clinical data."
+          body="Whether a dose is actually effective or a form is well-absorbed isn't on the label — it's in the clinical research. We've gone through it for every supplement and scored each 50–100 across the five factors that determine whether it works. No star ratings, no hype — you just read the number."
           bullets={[
             "Dose accuracy checked against effective clinical ranges",
             "Ingredient forms graded for bioavailability",
