@@ -13,6 +13,7 @@ import { BestPreWorkoutProtocol } from "./content/best-pre-workout-supplement-pr
 import { HowToBuildStack } from "./content/how-to-build-a-supplement-stack";
 import { SupplementTimingGuide } from "./content/supplement-timing-guide";
 import { HowToReadSupplementLabel } from "./content/how-to-read-a-supplement-label";
+import { HsaFsaEligibleSupplements } from "./content/hsa-fsa-eligible-supplements";
 import { MagnesiumDeficiency } from "./content/signs-you-are-magnesium-deficient";
 import { DoYouNeedMultivitamin } from "./content/do-you-need-a-multivitamin";
 import { WhatToLookForInProbiotic } from "./content/what-to-look-for-in-a-probiotic";
@@ -91,6 +92,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "how-to-build-a-supplement-stack": HowToBuildStack,
   "supplement-timing-guide": SupplementTimingGuide,
   "how-to-read-a-supplement-label": HowToReadSupplementLabel,
+  "hsa-fsa-eligible-supplements": HsaFsaEligibleSupplements,
   "signs-you-are-magnesium-deficient": MagnesiumDeficiency,
   "do-you-need-a-multivitamin": DoYouNeedMultivitamin,
   "what-to-look-for-in-a-probiotic": WhatToLookForInProbiotic,

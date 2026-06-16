@@ -191,6 +191,20 @@ export const guides: Guide[] = [
     catalogLink: "https://app.formulate-health.app/catalog",
   },
   {
+    slug: "hsa-fsa-eligible-supplements",
+    title: "Are Supplements HSA/FSA Eligible? The Honest 2026 Guide",
+    description:
+      "Most supplements aren't HSA/FSA-eligible by default — but a Letter of Medical Necessity makes the right ones qualify, for ~30% in pre-tax savings. The real rules, no hype.",
+    category: "guide",
+    categoryLabel: "Guide",
+    publishedAt: "2026-06-16",
+    updatedAt: "2026-06-16",
+    readTime: "8 min read",
+    tags: ["HSA/FSA", "Saving Money", "Beginner", "Insurance"],
+    catalogLink: "https://app.formulate-health.app/catalog",
+    isNew: true,
+  },
+  {
     slug: "signs-you-are-magnesium-deficient",
     title: "8 Signs of Magnesium Deficiency – 2026 Guide",
     description:
