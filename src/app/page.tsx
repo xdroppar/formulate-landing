@@ -240,13 +240,13 @@ export default function Home() {
           <div className="text-center lg:text-left">
             <div className="hero-animate inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[13px] font-semibold mb-7">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              Supplements · Food · Nutrients — all in one app
+              Supplements · Food · Nutrients — your whole routine, scored
             </div>
 
             <h1 className="hero-animate-delay-1 text-[clamp(40px,6vw,68px)] font-black leading-[1.04] tracking-[-2px] mb-6">
               Know exactly what&apos;s
               <br />
-              <span className="text-gradient">working in your body.</span>
+              <span className="text-gradient">working in your routine.</span>
             </h1>
 
             <p className="hero-animate-delay-2 text-[clamp(16px,2vw,20px)] text-muted max-w-[520px] mx-auto lg:mx-0 leading-relaxed mb-9">
@@ -355,6 +355,56 @@ export default function Home() {
               Browse all 230+ scored products
               <ArrowIcon className="w-3.5 h-3.5" />
             </a>
+          </div>
+        </section>
+      </Reveal>
+
+      {/* ───────────────── Why you can trust the score ───────────────── */}
+      <Reveal>
+        <section className="max-w-[1100px] mx-auto px-6 pb-24">
+          <div className="text-center mb-10">
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Why you can trust the score</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[700px] mx-auto mb-4">
+              Built on the standards a pharmacist would check — <span className="text-muted">not sponsorships.</span>
+            </h2>
+            <p className="text-muted text-[16px] max-w-[620px] mx-auto leading-relaxed">
+              Every product runs through the same six-factor algorithm, weighted by what actually
+              predicts quality. The weights are public and the evidence base is versioned.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
+            {[
+              { w: "25%", n: "Clinical evidence", c: "text-green-400" },
+              { w: "20%", n: "Manufacturing", c: "text-blue-400" },
+              { w: "20%", n: "Dose accuracy", c: "text-cyan-400" },
+              { w: "15%", n: "Bioavailability", c: "text-amber-400" },
+              { w: "10%", n: "Transparency", c: "text-purple-400" },
+              { w: "10%", n: "Safety", c: "text-red-400" },
+            ].map((f) => (
+              <div key={f.n} className="bg-surface border border-border rounded-2xl p-4 text-center">
+                <div className={`text-2xl font-black ${f.c}`}>{f.w}</div>
+                <div className="text-[12px] text-muted mt-1 leading-tight">{f.n}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="max-w-[760px] mx-auto rounded-2xl bg-surface border border-border p-6 text-center">
+            <p className="text-[15px] text-text leading-relaxed mb-2">
+              We read the credentials that actually mean something — <span className="font-semibold text-text">NSF</span>,{" "}
+              <span className="font-semibold text-text">USP Verified</span>, <span className="font-semibold text-text">Informed Sport</span>,
+              third-party COAs — alongside peer-reviewed human research for every ingredient.
+            </p>
+            <p className="text-[13px] text-muted">
+              No brand pays to be listed, ranked, or featured. The same algorithm scores every product in the catalog.
+            </p>
+            <Link
+              href="/methodology/supplements"
+              className="inline-flex items-center gap-1.5 mt-5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
+            >
+              See the full methodology
+              <ArrowIcon className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </section>
       </Reveal>

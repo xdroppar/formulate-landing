@@ -349,6 +349,12 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
               <AnimatedBar label="Nutrition" value={84} sub="supps + diet" color="#7c6dfa" delay={500} />
             </div>
           </div>
+          {/* plain-language legend so the three metrics self-explain */}
+          <div className="relative mt-3 pt-3 border-t border-border/60 text-[10px] leading-relaxed text-muted">
+            <span className="text-text font-semibold">Quality</span> of your products ·{" "}
+            <span className="text-text font-semibold">Coverage</span> of your body&apos;s needs ·{" "}
+            <span className="text-text font-semibold">Nutrition</span> from food + supps
+          </div>
         </div>
 
         {/* logged supplement rows */}
