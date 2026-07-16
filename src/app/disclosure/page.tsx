@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Affiliate Disclosure — Formulate",
   description: "Formulate affiliate disclosure — how we earn revenue and maintain independence.",
+  alternates: { canonical: "https://formulate-health.app/disclosure" },
 };
 
 export default function DisclosurePage() {

@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Support — Formulate",
   description: "Get help with the Formulate desktop, web, and mobile apps. Contact, FAQ, and troubleshooting.",
+  alternates: { canonical: "https://formulate-health.app/support" },
 };
 
 export default function SupportPage() {

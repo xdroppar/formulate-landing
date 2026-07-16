@@ -17,7 +17,7 @@ type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 // cross-cutting reference (guides, ingredients).
 const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
   supplements: [
-    { href: "/supplements", title: "Browse Catalog", desc: "230+ supplements, scored" },
+    { href: "/supplements", title: "Browse Catalog", desc: "260+ supplements, scored" },
     { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
     { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
     { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },

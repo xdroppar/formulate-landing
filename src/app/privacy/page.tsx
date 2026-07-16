@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Privacy Policy — Formulate",
   description: "Formulate privacy policy — how we collect, use, and protect your data.",
+  alternates: { canonical: "https://formulate-health.app/privacy" },
 };
 
 export default function PrivacyPage() {

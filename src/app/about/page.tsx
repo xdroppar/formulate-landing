@@ -187,7 +187,7 @@ export default function AboutPage() {
         <div className="p-8 rounded-2xl bg-surface border border-accent/20 text-center">
           <h3 className="text-lg font-bold mb-2">Ready to see scores?</h3>
           <p className="text-sm text-muted mb-5 max-w-[440px] mx-auto">
-            230+ supplements scored, hundreds of foods, full nutrient tracking.
+            260+ supplements scored, hundreds of foods, full nutrient tracking.
             Free, no account required.
           </p>
           <a

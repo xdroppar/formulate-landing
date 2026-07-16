@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Terms of Service — Formulate",
   description: "Formulate terms of service — rules and guidelines for using our platform.",
+  alternates: { canonical: "https://formulate-health.app/terms" },
 };
 
 export default function TermsPage() {

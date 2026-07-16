@@ -89,7 +89,7 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
             See full scores in Formulate
           </div>
           <div className="text-xs text-muted truncate">
-            Free · No account required · 230+ products scored
+            Free · No account required · 260+ products scored
           </div>
         </div>
         <a

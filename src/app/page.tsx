@@ -299,7 +299,7 @@ export default function Home() {
         <div className="max-w-[1000px] mx-auto px-6 pb-20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-border bg-border">
             {[
-              { node: <><AnimatedNumber value={230} />+</>, label: "Supplements scored" },
+              { node: <><AnimatedNumber value={260} />+</>, label: "Supplements scored" },
               { node: <><AnimatedNumber value={600} />+</>, label: "Whole foods & meals" },
               { node: <><AnimatedNumber value={26} />+</>, label: "Nutrients tracked daily" },
               { node: <>$<AnimatedNumber value={0} /></>, label: "Cost — always free" },
@@ -352,7 +352,7 @@ export default function Home() {
               href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
             >
-              Browse all 230+ scored products
+              Browse all 260+ scored products
               <ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
@@ -456,7 +456,7 @@ export default function Home() {
             "Brand scores derived from product data — never sponsorships",
           ]}
           href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
-          cta="Browse 230+ scored products"
+          cta="Browse 260+ scored products"
           preview={<ScoreBreakdownPreview image={creatineImage} />}
         />
       </div>
@@ -787,7 +787,7 @@ export default function Home() {
               </div>
               <ul className="space-y-3 mb-8">
                 {[
-                  "Browse 230+ scored supplements — no account needed",
+                  "Browse 260+ scored supplements — no account needed",
                   "Track food, meals & nutrient coverage",
                   "Build your stack and get your Stack Score",
                   "Hydration, streaks, and progress tracking",

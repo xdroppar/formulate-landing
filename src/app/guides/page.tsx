@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description:
     "Expert supplement guides backed by clinical research. Best-of roundups, stacking protocols, and product deep-dives — no sponsorships, just data.",
   alternates: { canonical: "https://formulate-health.app/guides" },
+  openGraph: {
+    title: "Supplement Guides — Evidence-Based Reviews & Protocols",
+    description:
+      "Expert supplement guides backed by clinical research. Best-of roundups, stacking protocols, and product deep-dives — no sponsorships, just data.",
+    type: "website",
+    url: "https://formulate-health.app/guides",
+  },
 };
 
 const categoryColors: Record<string, string> = {
@@ -398,7 +405,7 @@ export default function GuidesPage() {
               See how your supplements score
             </div>
             <div className="text-sm text-muted">
-              230+ products scored 50–100 against clinical research. Free, no account required.
+              260+ products scored 50–100 against clinical research. Free, no account required.
             </div>
           </div>
           <a
