@@ -1,36 +1,46 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
-import { withUtm } from "@/lib/app-url";
 
 interface Props {
   slug: string;
-  catalogLink?: string;
 }
 
-const APP_URL = "https://app.formulate-health.app";
-const DISMISS_KEY = "formulate.guide_cta_dismissed";
+// Timestamped rather than a permanent "1": the old key never expired, so a
+// single dismiss on any one guide hid the bar on every guide forever.
+const DISMISS_KEY = "formulate.guide_cta_dismissed_at";
+const DISMISS_TTL_MS = 7 * 24 * 60 * 60 * 1000;
 
 /**
  * Sticky bottom bar on guide articles. Guides are 400+ lines so the CTA at
  * the end of the article is invisible to anyone who doesn't read to the
  * bottom. This bar stays pinned while reading, fires analytics on tap,
- * and can be dismissed (persisted in localStorage so we don't nag return
- * visitors).
+ * and can be dismissed for a week.
+ *
+ * Points at /start (the landing-side goal quiz) rather than the app catalog.
+ * The quiz is the only route out of a guide that ends in an account, and it
+ * stays on this domain — so the click costs no cross-domain hop and the
+ * session stays stitched.
  *
  * Appears after a small scroll threshold so it doesn't cover the article
  * header on load.
  */
-export function GuideStickyCTA({ slug, catalogLink }: Props) {
+export function GuideStickyCTA({ slug }: Props) {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
-  // Check dismissed state on mount
+  // Check dismissed state on mount; clear it once it has aged out.
   useEffect(() => {
     try {
-      if (window.localStorage.getItem(DISMISS_KEY) === "1") {
+      const raw = window.localStorage.getItem(DISMISS_KEY);
+      if (!raw) return;
+      const at = Number(raw);
+      if (Number.isFinite(at) && Date.now() - at < DISMISS_TTL_MS) {
         setDismissed(true);
+      } else {
+        window.localStorage.removeItem(DISMISS_KEY);
       }
     } catch {
       // ignore
@@ -51,7 +61,7 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
   }, [dismissed]);
 
   const handleClick = () => {
-    trackEvent("catalog_click", {
+    trackEvent("start_click", {
       source: `guide_sticky:${slug}`,
     });
   };
@@ -59,7 +69,7 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
   const handleDismiss = () => {
     setDismissed(true);
     try {
-      window.localStorage.setItem(DISMISS_KEY, "1");
+      window.localStorage.setItem(DISMISS_KEY, String(Date.now()));
     } catch {
       // ignore
     }
@@ -68,16 +78,10 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
 
   if (dismissed || !visible) return null;
 
-  const href = withUtm(catalogLink || `${APP_URL}/catalog`, {
-    source: "guide",
-    campaign: "guide_cta_sticky",
-    content: slug,
-  });
-
   return (
     <div
       role="region"
-      aria-label="Browse Formulate catalog"
+      aria-label="Build your supplement stack"
       style={{
         animation: "sticky-cta-slide-up 280ms cubic-bezier(0.16, 1, 0.3, 1)",
       }}
@@ -86,18 +90,18 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
       <div className="max-w-[900px] mx-auto px-4 py-3 flex items-center gap-3">
         <div className="flex-1 min-w-0">
           <div className="text-sm font-semibold text-text truncate">
-            See full scores in Formulate
+            Turn this into your stack
           </div>
           <div className="text-xs text-muted truncate">
-            Free · No account required · 260+ products scored
+            2 questions · every ingredient graded on research · free
           </div>
         </div>
-        <a
-          href={href}
+        <Link
+          href={`/start?from=guide&guide=${slug}`}
           onClick={handleClick}
           className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
         >
-          Browse Scores
+          Build my stack
           <svg
             className="w-3.5 h-3.5"
             fill="none"
@@ -108,7 +112,7 @@ export function GuideStickyCTA({ slug, catalogLink }: Props) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
-        </a>
+        </Link>
         <button
           type="button"
           onClick={handleDismiss}

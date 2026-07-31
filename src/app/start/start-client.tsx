@@ -192,9 +192,17 @@ export function StartClient({
     <div className="fixed inset-0 z-[150] flex items-stretch justify-center">
       <OnboardingAurora />
 
-      {/* Close → back to the landing site */}
+      {/* Close → back to wherever they came from (usually the guide they were
+          reading), falling back to home on a cold direct arrival. Pushing "/"
+          unconditionally used to eject readers out of the article. */}
       <button
-        onClick={() => router.push("/")}
+        onClick={() => {
+          if (typeof window !== "undefined" && window.history.length > 1) {
+            router.back();
+          } else {
+            router.push("/");
+          }
+        }}
         className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-muted hover:text-text grid place-items-center transition-colors"
         aria-label="Close and return to home"
       >

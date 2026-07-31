@@ -223,37 +223,40 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
           </div>
         )}
 
-        {/* CTA */}
+        {/* CTA — /start (the landing-side goal quiz) leads, because it is the
+            only path out of a guide that ends in an account: it builds a stack
+            first, then hands off into the app's guided onboarding. Catalog
+            browse stays as the secondary for readers who just want scores. */}
         <div className="mt-16 p-8 rounded-2xl bg-surface border border-border text-center">
           <h3 className="text-lg font-bold mb-2">
-            See full scores in Formulate
+            Turn this into your stack
           </h3>
           <p className="text-sm text-muted mb-5 max-w-[440px] mx-auto">
-            Every product scored 50–100 against clinical research. Compare
-            brands, check dose safety, and build your stack — free, no account required.
+            Answer two questions and we&apos;ll build an evidence-graded starter
+            stack — every ingredient with its dose, timing, and interaction
+            checks.
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
+            <Link
+              href={`/start?from=guide&guide=${guide.slug}`}
+              className="px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+            >
+              Build my free stack →
+            </Link>
             <a
               href={withUtm(guide.catalogLink || `${APP_URL}/catalog`, {
                 source: "guide",
                 campaign: "guide_cta_bottom",
                 content: guide.slug,
               })}
-              className="px-6 py-3 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
-            >
-              Browse Supplement Scores
-            </a>
-            <a
-              href={withUtm("https://app.formulate-health.app", {
-                source: "guide",
-                campaign: "guide_cta_bottom_app",
-                content: guide.slug,
-              })}
               className="px-6 py-3 rounded-xl text-sm font-semibold text-muted hover:text-text transition-all"
             >
-              Or build your free stack →
+              Or browse supplement scores
             </a>
           </div>
+          <p className="text-xs text-muted/70 mt-4">
+            Free · no account needed to start
+          </p>
         </div>
 
         {/* Related interactions (auto-injected from guide tags) */}
@@ -283,7 +286,7 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
       </article>
 
       {/* Sticky bottom CTA — always visible while reading long guides */}
-      <GuideStickyCTA slug={guide.slug} catalogLink={guide.catalogLink} />
+      <GuideStickyCTA slug={guide.slug} />
     </div>
   );
 }
