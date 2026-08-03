@@ -446,7 +446,7 @@ export function ProteinIntakeMuscleAfter40() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=protein-intake-muscle-after-40">
           Track your daily protein intake and training in Formulate &rarr;
         </a>
       </p>

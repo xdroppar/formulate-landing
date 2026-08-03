@@ -312,7 +312,7 @@ export function StrengthTrainingFrequencyLongevity() {
         schedule is simple. The part that&rsquo;s hard is showing up.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=strength-training-frequency-longevity">
           Track your workouts, frequency, and weekly volume in Formulate &rarr;
         </a>
       </p>

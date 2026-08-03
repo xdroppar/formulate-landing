@@ -457,7 +457,7 @@ export function BestMultivitaminOver50() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=senior+multivitamin">
+        <a href="https://app.formulate-health.app/catalog?q=senior+multivitamin&utm_source=landing&utm_medium=guide_body&utm_campaign=best-multivitamin-over-50">
           Browse senior multivitamin supplements in the Formulate catalog &rarr;
         </a>
       </p>

@@ -339,7 +339,7 @@ export function GripStrengthLongevity() {
         longevity prognosis more.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=grip-strength-longevity">
           Track your grip work and farmer&rsquo;s carries in Formulate &rarr;
         </a>
       </p>

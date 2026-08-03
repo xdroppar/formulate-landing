@@ -658,7 +658,7 @@ export function ElectrolytesGuide() {
         aging, or &ldquo;keto flu&rdquo; may simply disappear.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=electrolytes">
+        <a href="https://app.formulate-health.app/catalog?q=electrolytes&utm_source=landing&utm_medium=guide_body&utm_campaign=electrolytes-guide">
           Compare electrolyte supplements in the Formulate catalog &rarr;
         </a>
       </p>

@@ -658,7 +658,7 @@ Pharmacists can screen for supplement-drug interactions in minutes and don't req
         do.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog">
+        <a href="https://app.formulate-health.app/catalog?utm_source=landing&utm_medium=guide_body&utm_campaign=how-to-read-a-supplement-label">
           Browse scored supplements in the Formulate catalog &rarr;
         </a>
       </p>

@@ -373,7 +373,7 @@ export function CreatineForEnduranceAthletes() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=creatine">
+        <a href="https://app.formulate-health.app/catalog?q=creatine&utm_source=landing&utm_medium=guide_body&utm_campaign=creatine-for-endurance-athletes">
           Browse creatine supplements in the Formulate catalog &rarr;
         </a>
       </p>

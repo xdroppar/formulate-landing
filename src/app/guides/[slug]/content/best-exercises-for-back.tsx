@@ -373,7 +373,7 @@ export function BestExercisesForBack() {
         within weeks.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=best-exercises-for-back">
           Track your pulling volume and press-to-pull ratio in Formulate &rarr;
         </a>
       </p>

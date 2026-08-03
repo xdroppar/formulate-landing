@@ -394,7 +394,7 @@ export function BestCollagenForJoints() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=collagen+joints">
+        <a href="https://app.formulate-health.app/catalog?q=collagen+joints&utm_source=landing&utm_medium=guide_body&utm_campaign=best-collagen-for-joints">
           Browse collagen supplements for joints in the Formulate catalog &rarr;
         </a>
       </p>

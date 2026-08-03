@@ -250,7 +250,7 @@ export function AlphaGpcVsCiticoline() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=choline">
+        <a href="https://app.formulate-health.app/catalog?q=choline&utm_source=landing&utm_medium=guide_body&utm_campaign=alpha-gpc-vs-citicoline">
           Browse choline supplements in the Formulate catalog &rarr;
         </a>
       </p>

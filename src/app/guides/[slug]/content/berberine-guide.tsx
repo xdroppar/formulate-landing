@@ -620,7 +620,7 @@ export function BerberineGuide() {
         metformin&rdquo; branding is solving a problem you don&rsquo;t have.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=berberine">
+        <a href="https://app.formulate-health.app/catalog?q=berberine&utm_source=landing&utm_medium=guide_body&utm_campaign=berberine-guide">
           Compare berberine supplements in the Formulate catalog &rarr;
         </a>
       </p>

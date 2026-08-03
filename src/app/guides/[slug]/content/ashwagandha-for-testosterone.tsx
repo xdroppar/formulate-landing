@@ -443,7 +443,7 @@ export function AshwagandhaForTestosterone() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=ashwagandha">
+        <a href="https://app.formulate-health.app/catalog?q=ashwagandha&utm_source=landing&utm_medium=guide_body&utm_campaign=ashwagandha-for-testosterone">
           Browse ashwagandha supplements in the Formulate catalog &rarr;
         </a>
       </p>

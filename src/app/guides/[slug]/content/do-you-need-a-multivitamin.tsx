@@ -577,7 +577,7 @@ export function DoYouNeedMultivitamin() {
         Just don&rsquo;t mistake it for comprehensive coverage.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog">
+        <a href="https://app.formulate-health.app/catalog?utm_source=landing&utm_medium=guide_body&utm_campaign=do-you-need-a-multivitamin">
           Explore individually scored supplements in the Formulate catalog &rarr;
         </a>
       </p>

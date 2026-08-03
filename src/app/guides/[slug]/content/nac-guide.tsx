@@ -563,7 +563,7 @@ The most common mistake is evaluating NAC for OCD, trichotillomania, or addictiv
         better recovery, fewer hangovers, easier breathing.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=nac">
+        <a href="https://app.formulate-health.app/catalog?q=nac&utm_source=landing&utm_medium=guide_body&utm_campaign=nac-guide">
           Compare NAC supplements in the Formulate catalog &rarr;
         </a>
       </p>

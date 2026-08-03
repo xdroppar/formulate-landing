@@ -286,7 +286,7 @@ export function ProbioticStrainsForIbs() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=probiotic+ibs">
+        <a href="https://app.formulate-health.app/catalog?q=probiotic+ibs&utm_source=landing&utm_medium=guide_body&utm_campaign=probiotic-strains-for-ibs">
           Browse probiotic IBS supplements in the Formulate catalog &rarr;
         </a>
       </p>

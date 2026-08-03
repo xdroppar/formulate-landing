@@ -346,7 +346,7 @@ export function BestLongevityExercises() {
         for healthspan. Everything else is optimization at the margins.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=best-longevity-exercises">
           Log these movements and track your longevity score in Formulate &rarr;
         </a>
       </p>

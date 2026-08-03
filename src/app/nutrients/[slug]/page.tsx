@@ -19,6 +19,7 @@ import { scoreGrade, thumbUrl } from "@/lib/products";
 import { studiesForIngredient } from "@/lib/research";
 import { conditionsForNutrient } from "@/lib/conditions";
 import { getGuidesForSubstances } from "@/lib/guides";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 
@@ -692,6 +693,8 @@ export default async function NutrientPage({ params }: { params: Params }) {
           Track your intake free →
         </a>
       </section>
+
+      <PageConversion kind="nutrient" slug={slug} subject={n.name} />
 
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Medical disclaimer.</strong> This page is

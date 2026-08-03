@@ -508,7 +508,7 @@ export function CreatineLoadingPhase() {
         protocol, backed by three decades of research and 500+ papers.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=creatine">
+        <a href="https://app.formulate-health.app/catalog?q=creatine&utm_source=landing&utm_medium=guide_body&utm_campaign=creatine-loading-phase">
           Compare creatine supplements in the Formulate catalog &rarr;
         </a>
       </p>

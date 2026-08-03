@@ -692,7 +692,7 @@ export function BestVitaminD() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=vitamin+d">
+        <a href="https://app.formulate-health.app/catalog?q=vitamin+d&utm_source=landing&utm_medium=guide_body&utm_campaign=best-vitamin-d-supplements">
           Browse vitamin D supplements in the Formulate catalog &rarr;
         </a>
       </p>

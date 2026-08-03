@@ -384,7 +384,7 @@ export function BestExercisesForLegs() {
         Strong legs are the foundation of healthy aging. Build them now.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=best-exercises-for-legs">
           Track your leg sessions and single-leg progress in Formulate &rarr;
         </a>
       </p>

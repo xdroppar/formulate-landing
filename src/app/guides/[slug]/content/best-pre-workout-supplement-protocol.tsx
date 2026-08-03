@@ -606,7 +606,7 @@ Mix citrulline and caffeine together in water 30–60 minutes before you train. 
         objectively rather than by marketing.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=pre-workout">
+        <a href="https://app.formulate-health.app/catalog?q=pre-workout&utm_source=landing&utm_medium=guide_body&utm_campaign=best-pre-workout-supplement-protocol">
           Browse pre-workout supplements in the catalog &rarr;
         </a>
       </p>

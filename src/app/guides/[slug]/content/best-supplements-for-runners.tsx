@@ -316,7 +316,7 @@ export function BestSupplementsForRunners() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=running+supplements">
+        <a href="https://app.formulate-health.app/catalog?q=running+supplements&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-runners">
           Browse running supplements in the Formulate catalog &rarr;
         </a>
       </p>

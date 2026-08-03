@@ -17,6 +17,7 @@ import { withUtm } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
 import { ScoreMeter } from "@/components/score-meter";
 import { findIngredientByName } from "@/lib/encyclopedia";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -600,6 +601,8 @@ export default async function SupplementPage({ params }: { params: Params }) {
           </Link>
         </div>
       </section>
+
+      <PageConversion kind="supplement" slug={slug} subject={product.name} />
 
       <p className="text-xs text-muted pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Disclosure.</strong> Formulate may earn a commission

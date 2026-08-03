@@ -630,7 +630,7 @@ Flip the package and scan the inactive ingredients. <strong>Avoid:</strong> citr
         &mdash; very safe for long-term use.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=zinc">
+        <a href="https://app.formulate-health.app/catalog?q=zinc&utm_source=landing&utm_medium=guide_body&utm_campaign=zinc-guide">
           Compare zinc supplements in the Formulate catalog &rarr;
         </a>
       </p>

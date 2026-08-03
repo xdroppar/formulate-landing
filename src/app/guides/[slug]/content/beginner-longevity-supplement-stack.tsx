@@ -652,7 +652,7 @@ export function BeginnerLongevityStack() {
         probably isn&rsquo;t either.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/stack">
+        <a href="https://app.formulate-health.app/stack?utm_source=landing&utm_medium=guide_body&utm_campaign=beginner-longevity-supplement-stack">
           Build your longevity stack with Formulate &rarr;
         </a>
       </p>

@@ -315,7 +315,7 @@ export function MinimumEffectiveDoseStrengthTraining() {
         top 1% of their age cohort for functional capacity. That is enough.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=minimum-effective-dose-strength-training">
           Build and track your minimum effective dose program in Formulate &rarr;
         </a>
       </p>

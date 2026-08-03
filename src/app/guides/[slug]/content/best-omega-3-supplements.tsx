@@ -653,7 +653,7 @@ export function BestOmega3() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=omega">
+        <a href="https://app.formulate-health.app/catalog?q=omega&utm_source=landing&utm_medium=guide_body&utm_campaign=best-omega-3-supplements">
           Browse omega-3 supplements in the Formulate catalog &rarr;
         </a>
       </p>

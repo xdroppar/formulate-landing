@@ -656,7 +656,7 @@ If your RBC magnesium comes back between 4.2–5.0 mg/dL and you're experiencing
         what shifts.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=magnesium">
+        <a href="https://app.formulate-health.app/catalog?q=magnesium&utm_source=landing&utm_medium=guide_body&utm_campaign=signs-you-are-magnesium-deficient">
           Compare magnesium supplements in the Formulate catalog &rarr;
         </a>
       </p>

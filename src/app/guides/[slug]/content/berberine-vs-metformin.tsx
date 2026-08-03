@@ -311,7 +311,7 @@ export function BerberineVsMetformin() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=berberine">
+        <a href="https://app.formulate-health.app/catalog?q=berberine&utm_source=landing&utm_medium=guide_body&utm_campaign=berberine-vs-metformin">
           Browse berberine supplements in the Formulate catalog &rarr;
         </a>
       </p>

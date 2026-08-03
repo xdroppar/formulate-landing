@@ -540,7 +540,7 @@ Ashwagandha's metabolic pathways haven't been fully characterized. If you take <
         the evidence-based approach &mdash; no hype required.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=ashwagandha">
+        <a href="https://app.formulate-health.app/catalog?q=ashwagandha&utm_source=landing&utm_medium=guide_body&utm_campaign=ashwagandha-guide">
           Browse ashwagandha supplements in the Formulate catalog &rarr;
         </a>
       </p>

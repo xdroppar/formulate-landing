@@ -57,7 +57,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        If you&rsquo;re shopping for zinc lozenges specifically for cold use, check the ingredient list carefully. The lozenge should contain zinc acetate or zinc gluconate and should <em>not</em> list citric acid, tartaric acid, sorbitol, or mannitol as additives. You can <a href="https://app.formulate-health.app/catalog?q=zinc">browse zinc products in the Formulate catalog</a> to compare forms and additive profiles. For a broader overview of zinc forms and their uses beyond colds, see our full <a href="/guides/zinc-guide">zinc guide</a>.
+        If you&rsquo;re shopping for zinc lozenges specifically for cold use, check the ingredient list carefully. The lozenge should contain zinc acetate or zinc gluconate and should <em>not</em> list citric acid, tartaric acid, sorbitol, or mannitol as additives. You can <a href="https://app.formulate-health.app/catalog?q=zinc&utm_source=landing&utm_medium=guide_body&utm_campaign=zinc-for-immune-support">browse zinc products in the Formulate catalog</a> to compare forms and additive profiles. For a broader overview of zinc forms and their uses beyond colds, see our full <a href="/guides/zinc-guide">zinc guide</a>.
       </p>
 
       <h2>Timing: The 24-Hour Window</h2>
@@ -283,7 +283,7 @@ export function ZincForImmuneSupport() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=zinc">
+        <a href="https://app.formulate-health.app/catalog?q=zinc&utm_source=landing&utm_medium=guide_body&utm_campaign=zinc-for-immune-support">
           Browse zinc supplements in the Formulate catalog &rarr;
         </a>
       </p>

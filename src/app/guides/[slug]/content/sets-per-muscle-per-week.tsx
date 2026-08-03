@@ -394,7 +394,7 @@ export function SetsPerMusclePerWeek() {
         real working sets beat fifteen half-efforts every time.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=sets-per-muscle-per-week">
           Track your weekly volume per muscle group in Formulate &rarr;
         </a>
       </p>

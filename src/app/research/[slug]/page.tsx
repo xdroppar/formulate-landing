@@ -17,6 +17,7 @@ import {
   type FlagEducation,
 } from "@/lib/research-education";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { PageConversion } from "@/components/page-conversion";
 
 const GRADE_TONE: Record<MethodologyGrade, { bg: string; border: string; text: string }> = {
   A: { bg: "rgba(16,185,129,0.12)", border: "#10b981", text: "#10b981" },
@@ -353,6 +354,8 @@ export default async function ResearchPage({ params }: { params: Params }) {
           </Link>
         </p>
       </section>
+
+      <PageConversion kind="research" slug={slug} />
 
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Note:</strong> Study summaries on this

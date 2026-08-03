@@ -268,7 +268,7 @@ export function BestSupplementsForFattyLiver() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=fatty+liver">
+        <a href="https://app.formulate-health.app/catalog?q=fatty+liver&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-fatty-liver">
           Browse fatty liver supplements in the Formulate catalog &rarr;
         </a>
       </p>

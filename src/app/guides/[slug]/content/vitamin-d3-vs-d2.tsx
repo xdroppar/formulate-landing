@@ -409,7 +409,7 @@ export function VitaminD3VsD2() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=vitamin+d3">
+        <a href="https://app.formulate-health.app/catalog?q=vitamin+d3&utm_source=landing&utm_medium=guide_body&utm_campaign=vitamin-d3-vs-d2">
           Browse vitamin D3 supplements in the Formulate catalog &rarr;
         </a>
       </p>

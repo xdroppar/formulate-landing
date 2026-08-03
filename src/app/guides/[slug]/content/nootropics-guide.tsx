@@ -666,7 +666,7 @@ export function NootropicsGuide() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog">
+        <a href="https://app.formulate-health.app/catalog?utm_source=landing&utm_medium=guide_body&utm_campaign=nootropics-guide">
           Explore cognitive supplements in the Formulate catalog &rarr;
         </a>
       </p>

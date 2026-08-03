@@ -350,7 +350,7 @@ export function MagnesiumForAnxiety() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=magnesium+glycinate">
+        <a href="https://app.formulate-health.app/catalog?q=magnesium+glycinate&utm_source=landing&utm_medium=guide_body&utm_campaign=magnesium-for-anxiety">
           Browse magnesium glycinate supplements in the Formulate catalog &rarr;
         </a>
       </p>

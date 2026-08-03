@@ -567,7 +567,7 @@ export function BestSleepProtocol() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=sleep">
+        <a href="https://app.formulate-health.app/catalog?q=sleep&utm_source=landing&utm_medium=guide_body&utm_campaign=best-sleep-supplement-protocol">
           Browse sleep supplements in the catalog &rarr;
         </a>
       </p>

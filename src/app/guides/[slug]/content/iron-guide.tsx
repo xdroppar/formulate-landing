@@ -783,7 +783,7 @@ export function IronGuide() {
         exactly how responsible supplementation should work.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=iron">
+        <a href="https://app.formulate-health.app/catalog?q=iron&utm_source=landing&utm_medium=guide_body&utm_campaign=iron-guide">
           Compare iron supplements in the Formulate catalog &rarr;
         </a>
       </p>

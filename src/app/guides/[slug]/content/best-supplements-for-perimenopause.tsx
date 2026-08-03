@@ -295,7 +295,7 @@ export function BestSupplementsForPerimenopause() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=perimenopause">
+        <a href="https://app.formulate-health.app/catalog?q=perimenopause&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-perimenopause">
           Browse perimenopause supplements in the Formulate catalog &rarr;
         </a>
       </p>

@@ -260,7 +260,7 @@ export function VitaminB12MethylcobalaminVsCyanocobalamin() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=vitamin+b12">
+        <a href="https://app.formulate-health.app/catalog?q=vitamin+b12&utm_source=landing&utm_medium=guide_body&utm_campaign=vitamin-b12-methylcobalamin-vs-cyanocobalamin">
           Browse vitamin B12 supplements in the Formulate catalog &rarr;
         </a>
       </p>

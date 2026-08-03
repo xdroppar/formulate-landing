@@ -316,7 +316,7 @@ export function BestSupplementsForPcos() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=pcos">
+        <a href="https://app.formulate-health.app/catalog?q=pcos&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-pcos">
           Browse PCOS supplements in the Formulate catalog &rarr;
         </a>
       </p>

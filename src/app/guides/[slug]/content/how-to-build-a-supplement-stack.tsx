@@ -724,7 +724,7 @@ Tier 3 supplements tend to be the most expensive per month and the least likely 
         make decisions based on data, not marketing.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/stack">
+        <a href="https://app.formulate-health.app/stack?utm_source=landing&utm_medium=guide_body&utm_campaign=how-to-build-a-supplement-stack">
           Start building your stack in Formulate &rarr;
         </a>
       </p>

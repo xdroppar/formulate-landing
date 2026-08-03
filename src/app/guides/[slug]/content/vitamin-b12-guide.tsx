@@ -662,7 +662,7 @@ export function VitaminB12Guide() {
         actually needs it.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=b12">
+        <a href="https://app.formulate-health.app/catalog?q=b12&utm_source=landing&utm_medium=guide_body&utm_campaign=vitamin-b12-guide">
           Compare B12 supplements in the Formulate catalog &rarr;
         </a>
       </p>

@@ -639,7 +639,7 @@ export function TaurineGuide() {
         zero. That&rsquo;s a rare combination.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=taurine">
+        <a href="https://app.formulate-health.app/catalog?q=taurine&utm_source=landing&utm_medium=guide_body&utm_campaign=taurine-guide">
           Compare taurine supplements in the Formulate catalog &rarr;
         </a>
       </p>

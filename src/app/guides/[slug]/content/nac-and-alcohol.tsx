@@ -504,7 +504,7 @@ export function NacAndAlcohol() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=nac">
+        <a href="https://app.formulate-health.app/catalog?q=nac&utm_source=landing&utm_medium=guide_body&utm_campaign=nac-and-alcohol">
           Browse NAC supplements in the Formulate catalog &rarr;
         </a>
       </p>

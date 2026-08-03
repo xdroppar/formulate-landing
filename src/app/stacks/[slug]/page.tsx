@@ -17,6 +17,7 @@ import {
   findSubstance,
   SEVERITY_META,
 } from "@/lib/interactions";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 
@@ -292,6 +293,8 @@ export default async function StackPage({ params }: { params: Params }) {
           </li>
         </ul>
       </section>
+
+      <PageConversion kind="stack" slug={slug} subject={s.name} />
 
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Educational only.</strong> Stack

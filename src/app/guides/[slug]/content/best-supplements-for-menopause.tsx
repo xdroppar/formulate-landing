@@ -265,7 +265,7 @@ export function BestSupplementsForMenopause() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=menopause">
+        <a href="https://app.formulate-health.app/catalog?q=menopause&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-menopause">
           Browse menopause supplements in the Formulate catalog &rarr;
         </a>
       </p>

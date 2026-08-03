@@ -605,7 +605,7 @@ UC-II's mechanism of action — oral tolerization via immune modulation — coul
         lifetime of sun damage, poor nutrition, or dehydration.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=collagen">
+        <a href="https://app.formulate-health.app/catalog?q=collagen&utm_source=landing&utm_medium=guide_body&utm_campaign=collagen-guide">
           Browse collagen supplements in the Formulate catalog &rarr;
         </a>
       </p>

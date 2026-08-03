@@ -623,7 +623,7 @@ export function BestCreatine() {
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=creatine">
+        <a href="https://app.formulate-health.app/catalog?q=creatine&utm_source=landing&utm_medium=guide_body&utm_campaign=best-creatine-supplements">
           Browse creatine supplements in the Formulate catalog &rarr;
         </a>
       </p>

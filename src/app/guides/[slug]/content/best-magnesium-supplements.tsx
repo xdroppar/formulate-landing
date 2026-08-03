@@ -659,7 +659,7 @@ export function BestMagnesium() {
         than guessing.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=magnesium">
+        <a href="https://app.formulate-health.app/catalog?q=magnesium&utm_source=landing&utm_medium=guide_body&utm_campaign=best-magnesium-supplements">
           Browse magnesium supplements in the Formulate catalog &rarr;
         </a>
       </p>

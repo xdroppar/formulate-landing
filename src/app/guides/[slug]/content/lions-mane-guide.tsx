@@ -573,7 +573,7 @@ Many popular brands — including several you'll see recommended on Reddit — f
       />
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=lion%27s+mane">
+        <a href="https://app.formulate-health.app/catalog?q=lion%27s+mane&utm_source=landing&utm_medium=guide_body&utm_campaign=lions-mane-guide">
           Compare lion&rsquo;s mane supplements in the Formulate catalog &rarr;
         </a>
       </p>

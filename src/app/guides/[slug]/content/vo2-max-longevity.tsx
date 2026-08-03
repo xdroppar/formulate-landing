@@ -351,7 +351,7 @@ export function VO2MaxLongevity() {
         by as much.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=vo2-max-longevity">
           Track your VO2 max and interval sessions in Formulate &rarr;
         </a>
       </p>

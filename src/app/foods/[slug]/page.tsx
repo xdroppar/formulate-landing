@@ -14,6 +14,7 @@ import {
 } from "@/lib/foods";
 import { ScoreMeter } from "@/components/score-meter";
 import { withUtm } from "@/lib/app-url";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -281,6 +282,8 @@ export default async function FoodDetail({ params }: { params: Params }) {
           </div>
         </section>
       )}
+
+      <PageConversion kind="food" slug={slug} subject={f.name} />
     </main>
   );
 }

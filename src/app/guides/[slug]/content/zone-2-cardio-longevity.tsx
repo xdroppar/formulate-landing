@@ -338,7 +338,7 @@ export function Zone2CardioLongevity() {
         it&rsquo;s working.
       </p>
       <p>
-        <a href="https://app.formulate-health.app">
+        <a href="https://app.formulate-health.app?utm_source=landing&utm_medium=guide_body&utm_campaign=zone-2-cardio-longevity">
           Track your Zone 2 minutes alongside your strength work in Formulate &rarr;
         </a>
       </p>

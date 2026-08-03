@@ -264,7 +264,7 @@ export function BestSupplementsForAdhdFocus() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=adhd+focus">
+        <a href="https://app.formulate-health.app/catalog?q=adhd+focus&utm_source=landing&utm_medium=guide_body&utm_campaign=best-supplements-for-adhd-focus">
           Browse ADHD and focus supplements in the Formulate catalog &rarr;
         </a>
       </p>

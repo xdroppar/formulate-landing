@@ -791,7 +791,7 @@ export function WhatToLookForInProbiotic() {
         but the ones that pass are the ones that actually work.
       </p>
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=probiotic">
+        <a href="https://app.formulate-health.app/catalog?q=probiotic&utm_source=landing&utm_medium=guide_body&utm_campaign=what-to-look-for-in-a-probiotic">
           Browse probiotic supplements in the Formulate catalog &rarr;
         </a>
       </p>

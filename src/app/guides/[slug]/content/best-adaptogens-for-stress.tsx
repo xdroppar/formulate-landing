@@ -246,7 +246,7 @@ export function BestAdaptogensForStress() {
       </p>
 
       <p>
-        <a href="https://app.formulate-health.app/catalog?q=adaptogens">
+        <a href="https://app.formulate-health.app/catalog?q=adaptogens&utm_source=landing&utm_medium=guide_body&utm_campaign=best-adaptogens-for-stress">
           Browse adaptogen supplements in the Formulate catalog &rarr;
         </a>
       </p>

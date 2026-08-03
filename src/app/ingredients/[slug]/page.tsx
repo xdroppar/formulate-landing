@@ -17,6 +17,7 @@ import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { ScoreMeter } from "@/components/score-meter";
+import { PageConversion } from "@/components/page-conversion";
 
 /** Try to match this encyclopedia ingredient to a core-nutrient registry
  *  entry by canonical name or alias. Drives the cross-link to /nutrients/X. */
@@ -29,6 +30,17 @@ function matchNutrient(name: string, aliases: string[]): CoreNutrient | undefine
 }
 
 const BASE = "https://formulate-health.app";
+
+/** Editorial last-reviewed date for the ingredient encyclopedia. Bump this
+ *  when the encyclopedia data / scoring methodology is regenerated — it drives
+ *  the visible "Last reviewed" line and the schema dateModified/lastReviewed,
+ *  a content-freshness signal Google weights heavily for YMYL health content. */
+const CONTENT_REVIEWED = "2026-06-01";
+const CONTENT_PUBLISHED = "2026-03-12";
+const CONTENT_REVIEWED_LABEL = new Date(CONTENT_REVIEWED).toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+});
 
 /** Normalize a product-label ingredient name down to the base substance.
  * Product labels contain amounts, forms, source, and percentages —
@@ -174,6 +186,9 @@ export default async function IngredientPage({ params }: { params: Params }) {
     mainEntityOfPage: url,
     medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
     inLanguage: "en-US",
+    datePublished: CONTENT_PUBLISHED,
+    dateModified: CONTENT_REVIEWED,
+    lastReviewed: CONTENT_REVIEWED,
     author: { "@type": "Organization", name: "Formulate Team", url: BASE },
     publisher: {
       "@type": "Organization",
@@ -248,6 +263,11 @@ export default async function IngredientPage({ params }: { params: Params }) {
           )}
         </div>
         <p className="text-base text-muted leading-relaxed mt-4">{ing.summary}</p>
+        <p className="text-[11px] text-muted/80 mt-3">
+          Last reviewed {CONTENT_REVIEWED_LABEL} · Evidence graded from
+          peer-reviewed research, not editorial opinion. Educational only — not
+          medical advice.
+        </p>
       </header>
 
       <AppCtaCard
@@ -622,9 +642,14 @@ export default async function IngredientPage({ params }: { params: Params }) {
         </Link>
       </section>
 
+      <PageConversion kind="ingredient" slug={slug} subject={ing.name} />
+
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Medical disclaimer.</strong> This page is
-        educational and does not replace advice from a qualified healthcare provider.
+        educational and does not replace advice from a qualified healthcare
+        provider. Individual needs and risks vary — consult a professional before
+        starting, stopping, or combining supplements, especially if you are
+        pregnant or nursing, taking medication, or managing a health condition.
       </p>
     </main>
   );

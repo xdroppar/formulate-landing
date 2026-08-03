@@ -16,6 +16,7 @@ import {
 import { getGuidesForSubstances } from "@/lib/guides";
 import { findIngredientByName } from "@/lib/encyclopedia";
 import { studiesForInteraction } from "@/lib/research";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 
@@ -490,6 +491,8 @@ export default async function PairPage({ params }: { params: Params }) {
           </a>
         </div>
       </section>
+
+      <PageConversion kind="interaction" slug={pair} />
 
       <p className="text-xs text-muted mt-10 pt-6 border-t border-border leading-relaxed">
         <strong className="text-text">Medical disclaimer.</strong> This page is for

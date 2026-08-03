@@ -13,6 +13,7 @@ import {
 } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
 import { ScoreMeter } from "@/components/score-meter";
+import { PageConversion } from "@/components/page-conversion";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -262,6 +263,8 @@ export default async function RecipeDetail({ params }: { params: Params }) {
           </div>
         </section>
       )}
+
+      <PageConversion kind="recipe" slug={slug} subject={r.name} />
     </main>
   );
 }
