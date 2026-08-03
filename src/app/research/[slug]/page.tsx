@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const description = (s.summary ?? `${s.authors} (${s.year}) — ${s.journal}. ${s.title}`).slice(0, 160);
   const url = `${BASE}/research/${slug}`;
   return {
-    title: `${title.slice(0, 70)} — Formulate`,
+    title: `${title.slice(0, 70)}`,
     description,
     alternates: { canonical: url },
     openGraph: {

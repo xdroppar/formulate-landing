@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     : `${n.name} daily target ${n.daily_value} ${n.unit}${ulFragment}. Best forms, food sources, and supplements ranked by Formulate's ingredient scoring.`;
   const url = `${BASE}/nutrients/${slug}`;
   return {
-    title: `${n.name}: Daily Target, Upper Limit, Best Form & Supplements — Formulate`,
+    title: `${n.name}: Daily Target, Upper Limit, Best Form & Supplements`,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: {

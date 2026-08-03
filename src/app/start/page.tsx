@@ -6,7 +6,7 @@ import { StartClient } from "./start-client";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Build Your Supplement Stack — Free Goal-Based Quiz | Formulate`,
+  title: `Build Your Supplement Stack — Free Goal-Based Quiz`,
   description: `Tell us your goal and we'll build you an evidence-based supplement stack in seconds — every ingredient dose, timing, and research grade included. Then carry it straight into the free app.`,
   alternates: { canonical: `${BASE}/start` },
   openGraph: {

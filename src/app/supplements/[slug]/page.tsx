@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const ogImage = p.image_url ? `${BASE}${p.image_url}` : undefined;
 
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description,
     alternates: { canonical: url },
     openGraph: {

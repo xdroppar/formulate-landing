@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     `${f.name} scores ${f.score}/100 for nutritional quality. See its benefits, nutrition, and health score.`;
   const title = `${f.name} — Nutrition, Benefits & Health Score (${f.score}/${f.grade})`;
   return {
-    title: `${title} | Formulate`,
+    title: title,
     description: desc,
     alternates: { canonical: `${BASE}/foods/${f.base_id}` },
     openGraph: {

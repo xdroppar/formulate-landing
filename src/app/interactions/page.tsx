@@ -9,7 +9,7 @@ const BASE = "https://formulate-health.app";
 const URL = `${BASE}/interactions`;
 
 export const metadata: Metadata = {
-  title: "Supplement Interaction Checker — Formulate",
+  title: "Supplement Interaction Checker",
   description:
     "Free tool: check whether your supplements and medications interact. Covers dangerous combinations, timing conflicts, and synergies — with cited sources.",
   alternates: { canonical: URL },

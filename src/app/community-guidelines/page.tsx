@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Community Guidelines — Formulate",
+  title: "Community Guidelines",
   description:
     "How Formulate expects members to treat each other, share research, and keep discussions about supplements useful and safe.",
   alternates: { canonical: "https://formulate-health.app/community-guidelines" },

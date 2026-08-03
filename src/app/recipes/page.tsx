@@ -23,7 +23,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Healthy Recipes, Scored — Nutrition & Health Ratings | Formulate",
+  title: "Healthy Recipes, Scored — Nutrition & Health Ratings",
   description: `${recipeCount}+ recipes graded on real nutritional quality — nutrient density, protein, fiber, and beneficial compounds, not just calories. Find recipes that actually score well.`,
   alternates: { canonical: `${BASE}/recipes` },
   openGraph: {

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const desc = (r.description || "").slice(0, 155) || `${r.name} — health score ${r.score}/${r.grade}, with full ingredients, nutrition, and method.`;
   const title = `${r.name} — Recipe, Nutrition & Health Score (${r.score}/${r.grade})`;
   return {
-    title: `${title} | Formulate`,
+    title: title,
     description: desc,
     alternates: { canonical: `${BASE}/recipes/${r.id}` },
     openGraph: {

@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const description = `${c.bottom_line} Side-by-side dose ranges, mechanism, evidence grade, and when to pick each.`;
   const url = `${BASE}/compare/${pair}`;
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: { title, description: description.slice(0, 200), type: "article", url },

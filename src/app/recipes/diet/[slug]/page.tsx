@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const title = `${tag} Recipes — ${count} Scored & Ranked`;
   const description = `${count} ${tag.toLowerCase()} recipes, each graded on real nutritional quality and ranked best-first. Find ${tag.toLowerCase()} meals that actually score well.`;
   return {
-    title: `${title} | Formulate`,
+    title: title,
     description,
     alternates: { canonical: `${BASE}/recipes/diet/${slug}` },
     openGraph: { title, description, type: "website", url: `${BASE}/recipes/diet/${slug}` },

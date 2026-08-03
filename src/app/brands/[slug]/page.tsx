@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     `dose accuracy, and third-party testing. Brand grade: ${b.grade ?? "—"} (${b.score ?? "—"}/100).`;
   const url = `${BASE}/brands/${slug}`;
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: {

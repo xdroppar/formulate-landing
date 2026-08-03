@@ -5,7 +5,7 @@ import { StackBuilderClient } from "./stack-builder-client";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Stack Builder — Formulate`,
+  title: `Supplement Stack Builder`,
   description: `Build a custom supplement stack from 969 evidence-graded ingredients. Auto-checks for interactions between everything in your stack, shows dose for each, and generates a shareable URL.`,
   alternates: { canonical: `${BASE}/tools/stack-builder` },
   openGraph: {

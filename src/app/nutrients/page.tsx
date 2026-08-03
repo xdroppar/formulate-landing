@@ -10,7 +10,7 @@ import {
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Nutrients Reference — ${CORE_NUTRIENTS.length} Vitamins, Minerals & Amino Acids — Formulate`,
+  title: `Nutrients Reference — ${CORE_NUTRIENTS.length} Vitamins, Minerals & Amino Acids`,
   description: `Daily targets, upper limits, best forms, and supplements for ${CORE_NUTRIENTS.length} commonly tracked nutrients — vitamins, minerals, amino acids.`,
   alternates: { canonical: `${BASE}/nutrients` },
   openGraph: {

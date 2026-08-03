@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const title = `The Healthiest ${gp}, Ranked (${count} Scored)`;
   const description = `The ${count} healthiest ${gp.toLowerCase()}, ranked by a nutrition score covering nutrient density, fiber, healthy fats, and beneficial plant compounds.`;
   return {
-    title: `${title} | Formulate`,
+    title: title,
     description,
     alternates: { canonical: `${BASE}/foods/best/${slug}` },
     openGraph: { title, description, type: "website", url: `${BASE}/foods/best/${slug}` },

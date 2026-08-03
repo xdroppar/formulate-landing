@@ -4,7 +4,7 @@ import Link from "next/link";
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://formulate-api.onrender.com";
 
 export const metadata: Metadata = {
-  title: "Unsubscribe — Formulate",
+  title: "Unsubscribe",
   robots: { index: false, follow: false },
 };
 

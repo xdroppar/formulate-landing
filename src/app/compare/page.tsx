@@ -6,7 +6,7 @@ import { ingredientBySlug, EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Comparisons — Formulate`,
+  title: `Supplement Comparisons`,
   description: `Side-by-side evidence-based comparisons of popular supplement pairs. When to pick each, when to combine, and what the research actually shows.`,
   alternates: { canonical: `${BASE}/compare` },
   openGraph: {

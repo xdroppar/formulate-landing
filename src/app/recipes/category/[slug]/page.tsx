@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const title = `${category} Recipes — All ${count}, Scored & Ranked`;
   const description = `Every ${category.toLowerCase()} recipe in the Formulate catalog — ${count} in total, each graded on real nutritional quality and ranked best-first.`;
   return {
-    title: `${title} | Formulate`,
+    title: title,
     description,
     alternates: { canonical: `${BASE}/recipes/category/${slug}` },
     openGraph: { title, description, type: "website", url: `${BASE}/recipes/category/${slug}` },

@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     (top[0] ? ` Top pick: ${top[0].brand} ${top[0].name} (${top[0].score}/100).` : "");
   const url = `${BASE}/supplements/best/${slug}`;
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: {

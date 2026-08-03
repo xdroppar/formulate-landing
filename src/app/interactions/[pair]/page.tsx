@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     : `Check interactions between ${aName} and ${bName}. See timing advice, severity, and cited sources.`;
   const url = `${BASE}/interactions/${pair}`;
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: {

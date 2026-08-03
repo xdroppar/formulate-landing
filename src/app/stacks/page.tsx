@@ -5,7 +5,7 @@ import { stacks } from "@/lib/stacks";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Stacks for Specific Goals — Formulate`,
+  title: `Supplement Stacks for Specific Goals`,
   description: `Curated goal-based supplement stacks: sleep, cognition, immunity, longevity, recovery, and metabolic health. Each with evidence-backed ingredients, doses, and interaction warnings.`,
   alternates: { canonical: `${BASE}/stacks` },
   openGraph: {

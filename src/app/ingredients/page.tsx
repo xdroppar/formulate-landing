@@ -5,7 +5,7 @@ import { ingredients, ingredientsByCategory, EVIDENCE_GRADE_META } from "@/lib/e
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Ingredients Encyclopedia — ${ingredients.length} Entries — Formulate`,
+  title: `Supplement Ingredients Encyclopedia — ${ingredients.length} Entries`,
   description: `Evidence-graded summaries for ${ingredients.length} supplement ingredients. Dose ranges, mechanism of action, timing, safety, and interactions — grouped by category.`,
   alternates: { canonical: `${BASE}/ingredients` },
   openGraph: {

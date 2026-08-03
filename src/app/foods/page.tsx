@@ -37,7 +37,7 @@ const GROUP_DESCRIPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Whole Food Scores — Nutrition & Health Ratings | Formulate",
+  title: "Whole Food Scores — Nutrition & Health Ratings",
   description: `Health scores for ${foodCount}+ whole foods, graded on nutrient density, protein, fiber, healthy fats, and beneficial plant compounds. See how your food actually stacks up.`,
   alternates: { canonical: `${BASE}/foods` },
   openGraph: {

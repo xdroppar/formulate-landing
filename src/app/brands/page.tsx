@@ -6,7 +6,7 @@ import { NewsletterSignup } from "@/components/newsletter-signup";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Brands Ranked by Quality — Formulate`,
+  title: `Supplement Brands Ranked by Quality`,
   description: `${brands.length} supplement brands graded on ingredient quality, dose accuracy, and third-party testing. See which brands consistently score well and which don't.`,
   alternates: { canonical: `${BASE}/brands` },
   openGraph: {

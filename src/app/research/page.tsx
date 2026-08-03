@@ -17,7 +17,7 @@ const GRADE_TONE: Record<MethodologyGrade, string> = {
 };
 
 export const metadata: Metadata = {
-  title: `Cited Studies: Supplement Research Index — Formulate`,
+  title: `Cited Studies: Supplement Research Index`,
   description: `${researchEntries.length} clinical studies cited across Formulate's guides and interaction pages — PubMed-linked, searchable by topic, reverse-indexed against the content that cites them.`,
   alternates: { canonical: `${BASE}/research` },
   openGraph: {

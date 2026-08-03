@@ -5,7 +5,7 @@ import { DoseCalculatorClient } from "./dose-calculator-client";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Dose Calculator — Formulate`,
+  title: `Supplement Dose Calculator`,
   description: `Look up evidence-based dose ranges for 969 supplement ingredients. Typical range, timing, with-food notes, forms, and bodyweight-adjusted dosing where it matters.`,
   alternates: { canonical: `${BASE}/tools/dose-calculator` },
   openGraph: {

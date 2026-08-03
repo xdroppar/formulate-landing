@@ -41,7 +41,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Supplement Reviews & Scores — Formulate",
+  title: "Supplement Reviews & Scores",
   description: `Ingredient-level scores for ${products.length}+ supplements. Every product graded on dose accuracy, form, transparency, and third-party testing.`,
   alternates: { canonical: `${BASE}/supplements` },
   openGraph: {

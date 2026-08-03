@@ -5,7 +5,7 @@ import { conditions } from "@/lib/conditions";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplements for Specific Conditions — Evidence-Based — Formulate`,
+  title: `Supplements for Specific Conditions — Evidence-Based`,
   description: `Supplement support for common conditions — anxiety, insomnia, joint pain, fatigue, focus, acid reflux, migraines, PCOS. Evidence-rated picks with doses and when to see a clinician.`,
   alternates: { canonical: `${BASE}/conditions` },
   openGraph: {

@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const description = s.tagline;
   const url = `${BASE}/stacks/${slug}`;
   return {
-    title: `${title} — Formulate`,
+    title: title,
     description: description.slice(0, 160),
     alternates: { canonical: url },
     openGraph: {

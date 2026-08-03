@@ -115,7 +115,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const ing = ingredientBySlug(slug);
   if (!ing) return { title: "Ingredient not found" };
   const uses = (ing.primary_uses ?? []).slice(0, 3).join(", ");
-  const title = `${ing.name}: Uses, Dose, Evidence, Interactions — Formulate`;
+  // No brand suffix here — the root layout's title template appends
+  // "| Formulate" already, and carrying it in the page title too produced
+  // "… — Formulate | Formulate" in the SERP on all 969 ingredient pages.
+  const title = `${ing.name}: Uses, Dose, Evidence, Interactions`;
   const description = (
     ing.summary ?? `${ing.name} — ${uses}. Evidence-graded supplement reference.`
   )

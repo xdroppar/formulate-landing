@@ -6,7 +6,7 @@ import { ingredientBySlug } from "@/lib/encyclopedia";
 const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
-  title: `Supplement Synergies: Evidence-Backed Pairings — Formulate`,
+  title: `Supplement Synergies: Evidence-Backed Pairings`,
   description: `Supplements that work better together — evidence-backed synergies with mechanism, dose, and watch-outs. Vitamin D + K2, iron + vitamin C, turmeric + piperine, and more.`,
   alternates: { canonical: `${BASE}/synergies` },
   openGraph: {
