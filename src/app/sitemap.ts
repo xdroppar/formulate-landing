@@ -11,7 +11,7 @@ import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
-import { recipes, recipeDietTags } from "@/lib/recipes";
+import { recipes, recipeDietTags, recipeCategories } from "@/lib/recipes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -170,6 +170,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.85,
     })),
+    // Category collections. These are the pages that make the recipe long tail
+    // reachable: /recipes caps each category at 24 cards, so without these 575
+    // of 719 recipes were in this sitemap and linked from nowhere on the site.
+    ...recipeCategories().map((c) => ({
+      url: `${baseUrl}/recipes/category/${c.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    })),
   ];
 
   const compareEntries: MetadataRoute.Sitemap = [
@@ -217,12 +226,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const brandCompareEntries: MetadataRoute.Sitemap = brandComparisons.map((c) => ({
-    url: `${baseUrl}/brand-compare/${brandComparisonSlug(c)}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
+  const brandCompareEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/brand-compare`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...brandComparisons.map((c) => ({
+      url: `${baseUrl}/brand-compare/${brandComparisonSlug(c)}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    })),
+  ];
 
   const synergyEntries: MetadataRoute.Sitemap = [
     {

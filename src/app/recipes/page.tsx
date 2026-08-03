@@ -138,7 +138,16 @@ export default function RecipesHub() {
             })}
           </div>
           {recipesByCategory(category).length > 24 && (
-            <p className="text-xs text-muted mt-4">Showing the top 24 of {recipesByCategory(category).length} {category.toLowerCase()} recipes by score.</p>
+            <p className="text-xs text-muted mt-4">
+              Showing the top 24 of {recipesByCategory(category).length}{" "}
+              {category.toLowerCase()} recipes by score.{" "}
+              <Link
+                href={`/recipes/category/${slug}`}
+                className="text-accent font-semibold hover:underline"
+              >
+                See all {recipesByCategory(category).length} →
+              </Link>
+            </p>
           )}
         </section>
       ))}
