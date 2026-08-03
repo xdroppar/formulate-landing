@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 import {
@@ -10,6 +10,7 @@ import {
   SEVERITY_META,
 } from "@/lib/interactions";
 import { withUtm } from "@/lib/app-url";
+import { trackEvent } from "@/lib/analytics";
 import { OnboardingAurora } from "@/components/landing/onboarding-aurora";
 import { OnboardingScoreRing } from "@/components/landing/onboarding-score-ring";
 import { OnboardingConfetti } from "@/components/landing/onboarding-confetti";
@@ -157,6 +158,32 @@ export function StartClient({
     ? `/tools/stack-builder?stack=${encodeURIComponent(stackParam)}`
     : "/tools/stack-builder";
 
+  // Funnel instrumentation.
+  //
+  // This wizard is the main conversion path off the SEO pages and fired NO
+  // events at all, so the only observable points were `start_click` (they
+  // clicked in) and `auth_complete` (they signed up, on the app side). With
+  // nothing in between, "100 in, 2 out" is unattributable: bounced on question
+  // one, finished the quiz and never clicked through, and clicked through then
+  // bailed in app onboarding are three different problems with three different
+  // fixes. Each step below is a step in that funnel:
+  //
+  //   start_view -> start_goal -> start_experience -> start_result -> start_handoff
+  //
+  // `once` guards the view/result events because both fire from effects that
+  // re-run (StrictMode double-invokes in dev, and `step` is in the deps).
+  const fired = useRef<Set<string>>(new Set());
+  const once = (name: string, props?: Record<string, string | number | boolean | null>) => {
+    if (fired.current.has(name)) return;
+    fired.current.add(name);
+    trackEvent(name, props);
+  };
+
+  useEffect(() => {
+    once("start_view");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // "Building your stack" beat → reveal + confetti.
   useEffect(() => {
     if (step !== "building") return;
@@ -171,15 +198,31 @@ export function StartClient({
     return () => clearTimeout(t);
   }, [step, reduce]);
 
+  // Reaching the result is the moment the quiz has "paid off" — the ratio of
+  // this to start_view is the completion rate, and the ratio of start_handoff
+  // to this is how well the payoff converts.
+  useEffect(() => {
+    if (step !== "result") return;
+    once("start_result", {
+      goal: goalSlug,
+      experience,
+      stack_size: recommended.length,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step]);
+
   function pickGoal(slug: string) {
+    trackEvent("start_goal", { goal: slug });
     setGoalSlug(slug);
     setStep("experience");
   }
   function pickExperience(id: Experience) {
+    trackEvent("start_experience", { goal: goalSlug, experience: id });
     setExperience(id);
     setStep("building");
   }
   function restart() {
+    trackEvent("start_restart", { goal: goalSlug });
     setGoalSlug(null);
     setExperience(null);
     setConfetti(false);
@@ -510,12 +553,28 @@ export function StartClient({
                 <div className="flex flex-wrap gap-3">
                   <a
                     href={appUrl}
+                    onClick={() =>
+                      trackEvent("start_handoff", {
+                        goal: goalSlug,
+                        experience,
+                        stack_size: recommended.length,
+                        destination: "app",
+                      })
+                    }
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
                   >
                     Continue in the app — free →
                   </a>
                   <Link
                     href={builderUrl}
+                    onClick={() =>
+                      trackEvent("start_handoff", {
+                        goal: goalSlug,
+                        experience,
+                        stack_size: recommended.length,
+                        destination: "builder",
+                      })
+                    }
                     className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-medium border border-white/15 text-text hover:border-accent hover:text-accent transition-all"
                   >
                     Refine in Stack Builder
