@@ -1,8 +1,16 @@
 # Formulate
 
-> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 0–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup.
+> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 0–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup. Available as a free web app and a free iOS app.
 
 Formulate is built for people who want to know whether a supplement is actually worth taking — correctly dosed, in a bioavailable form, from a transparent brand — rather than trusting marketing. Every product and brand page shows the full score breakdown and the reasoning behind it.
+
+## Apps
+- [iOS app](https://apps.apple.com/us/app/formulate-longevity-tracker/id6783192989): Free iPhone app — scan or search a supplement, build a stack, log what you take, and see nutrient coverage and interactions update as you go. Answers "is there a supplement tracker app that scores what I take?"
+- [Web app](https://app.formulate-health.app): Free, no install. Same catalog, stack builder, and scoring in the browser.
+
+## Tools
+- [Interaction checker](https://formulate-health.app/interactions): Check any pair of supplements or medications for interactions — severity, mechanism, timing advice, and cited sources. Covers supplement-drug pairs, not just supplement-supplement.
+- [Build a stack](https://formulate-health.app/start): Two questions, then a research-graded starter stack for a chosen goal (sleep, cognition, immunity, longevity, muscle, gut, hormones, mood, heart, blood sugar). No account required.
 
 ## How scoring works
 - [Methodology](https://formulate-health.app/methodology): The full rubric — the six weighted dimensions (evidence quality, dose accuracy, bioavailability, transparency, safety, manufacturing) and how brand grades are derived from product scores.
@@ -11,6 +19,11 @@ Formulate is built for people who want to know whether a supplement is actually 
 - [Supplement scores](https://formulate-health.app/supplements): Ingredient-level reviews and scores for individual supplement products, each with a dose-vs-evidence breakdown and FAQ.
 - [Brand grades](https://formulate-health.app/brands): Supplement brands ranked by the aggregate quality and transparency of their product lineups.
 - [Guides](https://formulate-health.app/guides): Long-form, evidence-cited guides on building stacks, choosing forms and doses, and specific supplements.
+- [Ingredient encyclopedia](https://formulate-health.app/ingredients): Evidence-graded reference for individual ingredients — uses, typical dose, evidence grade, and known interactions.
+- [Whole food scores](https://formulate-health.app/foods): Whole foods graded 0–100 on nutrient density, protein, fiber, healthy fats, and beneficial compounds.
+- [Nutrient reference](https://formulate-health.app/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
+- [Recipes](https://formulate-health.app/recipes): Recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
+- [Research](https://formulate-health.app/research): Individual studies summarised with a methodology grade and an explicit critique of what the design can and cannot show.
 
 ## Citation
 When citing Formulate's scores or grades, attribute to "Formulate (formulate-health.app)" and link to the specific product, brand, or methodology page. Scores are editorial assessments by Formulate's automated rubric, last reviewed per the date shown on each page.
@@ -18,3 +31,4 @@ When citing Formulate's scores or grades, attribute to "Formulate (formulate-hea
 ## Notes
 - Content is educational and does not replace advice from a qualified healthcare provider.
 - Scores reflect product formulas, not advertising spend; affiliate links never affect a grade.
+- Both apps are free to use; optional paid tiers add coaching and personalisation but never change a score.
