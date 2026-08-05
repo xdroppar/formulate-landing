@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { Reveal } from "@/components/reveal";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { TrackedAppLink } from "@/components/tracked-app-link";
+import { MobileAppBadges } from "@/components/mobile-app-badges";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import {
   AnimatedNumber,
@@ -272,6 +273,11 @@ export default function Home() {
                   Open the app
                 </TrackedAppLink>
               </div>
+              {/* The iPhone app ships and out-converts the web signup roughly
+                  2:1 on first run, but until now it appeared nowhere above the
+                  footer. Sits under the primary CTAs rather than replacing
+                  them: the hero has to work for desktop readers too. */}
+              <MobileAppBadges source="home_hero" size="sm" />
               <span className="text-[13px] text-muted/60">Free forever · No account needed to browse · No brand sponsorships</span>
             </div>
           </div>

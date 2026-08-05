@@ -1,8 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { MobileAppBadges } from "@/components/mobile-app-badges";
+import { IOS_LIVE } from "@/lib/app-store";
 
 /**
  * End-of-page conversion block for the pSEO long tail.
@@ -102,9 +105,65 @@ interface Props {
   subject?: string;
 }
 
+/**
+ * Is this an iPhone/iPad?
+ *
+ * Starts FALSE and only flips after mount. The server has no user agent, so
+ * deciding this during render would produce different HTML on the server and
+ * the client and React would throw a hydration mismatch on every one of these
+ * pages. The `/start` offer is therefore what search engines and the first
+ * paint see; iOS visitors get the store swapped in a tick later.
+ */
+function useIsIOS(): boolean {
+  const [isIOS, setIsIOS] = useState(false);
+  useEffect(() => {
+    const ua = navigator.userAgent || "";
+    // iPadOS 13+ reports itself as a Mac; the touch-point check separates a
+    // real iPad from a desktop Safari, which would otherwise be sent to a
+    // store it cannot install from.
+    const iPadOS = /Mac/.test(ua) && navigator.maxTouchPoints > 1;
+    setIsIOS(/iPhone|iPad|iPod/i.test(ua) || iPadOS);
+  }, []);
+  return isIOS;
+}
+
 export function PageConversion({ kind, slug, subject }: Props) {
   const copy = COPY[kind];
   const source = `${kind}:${slug}`;
+  const isIOS = useIsIOS();
+
+  // On an iPhone the App Store is the better destination and the measured one:
+  // `mobile_first_run` runs ~2:1 ahead of web `auth_complete`, and the reader
+  // is already holding the device the app runs on. `/start` stays on the page
+  // as the secondary path so nothing is taken away — someone who would rather
+  // not install can still do the two-question quiz.
+  const appFirst = IOS_LIVE && isIOS;
+
+  const startLink = (
+    <Link
+      href={`/start?from=${kind}&ref=${encodeURIComponent(slug)}`}
+      onClick={() => trackEvent("start_click", { source })}
+      className={
+        appFirst
+          ? "inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-accent transition-colors"
+          : "inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
+      }
+    >
+      {appFirst ? "or answer 2 questions on the web" : copy.cta}
+      {!appFirst && (
+        <svg
+          className="w-3.5 h-3.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2.5}
+          aria-hidden="true"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      )}
+    </Link>
+  );
 
   return (
     <>
@@ -112,26 +171,38 @@ export function PageConversion({ kind, slug, subject }: Props) {
         <div className="max-w-[560px]">
           <h2 className="text-lg font-bold text-text mb-2">{copy.title(subject)}</h2>
           <p className="text-sm text-muted leading-relaxed mb-5">{copy.body}</p>
-          <Link
-            href={`/start?from=${kind}&ref=${encodeURIComponent(slug)}`}
-            onClick={() => trackEvent("start_click", { source })}
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
-          >
-            {copy.cta}
-            <svg
-              className="w-3.5 h-3.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2.5}
-              aria-hidden="true"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </Link>
+
+          {appFirst ? (
+            <div className="flex flex-col gap-3 items-start">
+              <MobileAppBadges source={`page_conversion:${source}`} emphasis="primary" />
+              {startLink}
+            </div>
+          ) : (
+            startLink
+          )}
+
           <p className="text-[11px] text-muted mt-3">
-            2 questions · free · no account needed to start
+            {appFirst
+              ? "Free · scan any label · no account needed to start"
+              : "2 questions · free · no account needed to start"}
           </p>
+
+          {/* Desktop and Android readers can't act on a store link here, but
+              they should still learn the app exists — a lot of this traffic
+              reads on a laptop and installs later on their phone. Kept to one
+              quiet line rather than a badge that looks tappable and isn't. */}
+          {IOS_LIVE && !appFirst && (
+            <p className="text-[11px] text-muted/70 mt-1.5">
+              Also on iPhone —{" "}
+              <a
+                href="/app"
+                onClick={() => trackEvent("app_page_click", { source })}
+                className="underline underline-offset-2 hover:text-accent transition-colors"
+              >
+                get the free app
+              </a>
+            </p>
+          )}
         </div>
       </section>
 

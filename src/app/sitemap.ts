@@ -293,6 +293,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/methodology/foods`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/methodology/nutrients`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    // /app is the mobile download page, /download is the desktop waitlist —
+    // two different products, both indexed. /app carries the higher priority
+    // because it is the one with a shipping store listing behind it.
+    { url: `${baseUrl}/app`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/download`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...productEntries,

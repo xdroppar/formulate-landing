@@ -6,6 +6,7 @@ import { Footer } from "@/components/footer";
 import { AttributionTracker } from "@/components/attribution-tracker";
 import { PageTracker } from "@/components/page-tracker";
 import { AppModeBoot } from "@/components/app-mode-boot";
+import { APP_STORE_ID, IOS_LIVE } from "@/lib/app-store";
 import "./globals.css";
 
 const inter = Inter({
@@ -48,6 +49,21 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+  // Apple Smart App Banner, site-wide. iOS Safari renders a native "Formulate
+  // — FREE — View" strip at the top of the page, which is the single
+  // highest-converting install surface on iOS and costs no layout: Safari
+  // draws it above the page rather than inside it, and it is dismissible.
+  //
+  // Site-wide is deliberate. Most traffic here lands on a long-tail pSEO page
+  // from search, not the homepage, so putting this only on `/` would miss ~93%
+  // of sessions. Emitted from metadata rather than the old `AppleSmartBanner`
+  // client component, which rendered a <meta> inside <body> where Safari never
+  // looks for it — it was exported but never mounted anywhere, so it had never
+  // worked.
+  //
+  // Gated on IOS_LIVE: an unknown app-id renders a banner reading "App not
+  // available", which looks more broken than no banner at all.
+  ...(IOS_LIVE ? { itunes: { appId: APP_STORE_ID } } : {}),
 };
 
 const jsonLd = {
