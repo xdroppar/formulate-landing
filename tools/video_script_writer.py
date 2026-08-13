@@ -268,6 +268,8 @@ def main() -> int:
     ap.add_argument("--show-skipped", action="store_true")
     ap.add_argument("--selftest", action="store_true",
                     help="prove the refusal gate can actually fire")
+    ap.add_argument("--json", action="store_true",
+                    help="emit scripts as JSON for a renderer to consume")
     args = ap.parse_args()
 
     if args.selftest:
@@ -304,6 +306,23 @@ def main() -> int:
         score, blockers = assess(row)
         (skipped if blockers else scored).append((score, row, blockers))
     scored.sort(key=lambda t: t[0], reverse=True)
+
+    if args.json:
+        # The seam between the half that decides and the half that renders.
+        # `beats` carries its own timings and durations, so a renderer never has
+        # to re-derive them and the two halves cannot drift on the one thing
+        # they both depend on.
+        payload = {
+            "generated_from": str(DATA.relative_to(REPO)),
+            "total_records": len(rows),
+            "eligible": len(scored),
+            "refused": len(skipped),
+            "scripts": [
+                {"score": score, **script_for(row)} for score, row, _ in scored[: args.count]
+            ],
+        }
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+        return 0
 
     print(f"\n{len(rows)} interactions on file.")
     print(f"{len(scored)} carry enough to say something specific; {len(skipped)} refused.\n")
