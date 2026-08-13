@@ -17,6 +17,7 @@ import {
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { FallingLeaves } from "@/components/landing/falling-leaves";
 import { LiveScoreSearch, type ScoreItem } from "@/components/landing/live-score-search";
+import { HeroVideo } from "@/components/hero-video";
 import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
 import { foods as allFoods, foodColor } from "@/lib/foods";
 import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
@@ -286,6 +287,23 @@ export default function Home() {
           <div className="hero-animate-delay-4">
             <HeroPreview products={heroRows} />
           </div>
+        </div>
+      </section>
+
+      {/* ───────────────── What it actually is, in 53 seconds ─────────────────
+          Directly under the hero on purpose. This page is ~15 screens tall and
+          entry pages equal exit pages in the funnel — the CTAs at 13 and 14
+          screens are effectively unseen. Anything meant to be watched has to be
+          in the first screen or two. */}
+      <section className="max-w-[1100px] mx-auto px-6 pb-16">
+        <div className="flex flex-col items-center gap-5 text-center">
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent">
+            See it in 53 seconds
+          </div>
+          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] max-w-[620px]">
+            You build your whole stack <span className="text-gradient">before</span> you make an account.
+          </h2>
+          <HeroVideo />
         </div>
       </section>
 
