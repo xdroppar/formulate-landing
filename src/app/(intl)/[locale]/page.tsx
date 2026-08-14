@@ -1,4 +1,4 @@
-import Home from "../page";
+import Home from "../../(en)/page";
 import { routedLocales } from "@/lib/i18n/locales";
 
 /**

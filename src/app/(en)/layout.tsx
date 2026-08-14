@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
+import { SiteShell } from "@/components/site-shell";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
-import { Nav } from "@/components/nav";
-import { Footer } from "@/components/footer";
-import { I18nProvider } from "@/components/i18n-provider";
-import { HtmlLangSync } from "@/components/html-lang-sync";
-import { LanguagePrompt } from "@/components/language-prompt";
-import { AttributionTracker } from "@/components/attribution-tracker";
-import { PageTracker } from "@/components/page-tracker";
-import { AppModeBoot } from "@/components/app-mode-boot";
 import { APP_STORE_ID, IOS_LIVE } from "@/lib/app-store";
-import "./globals.css";
+import "@/app/globals.css";
 
-const inter = Inter({
+export const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
@@ -69,7 +61,7 @@ export const metadata: Metadata = {
   ...(IOS_LIVE ? { itunes: { appId: APP_STORE_ID } } : {}),
 };
 
-const jsonLd = {
+export const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -111,26 +103,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
-      <body className="min-h-screen">
-        <AppModeBoot />
-        <I18nProvider>
-          <HtmlLangSync />
-          <Nav />
-          <main>{children}</main>
-          <Footer />
-          <LanguagePrompt />
-        </I18nProvider>
-        <Analytics />
-        <AttributionTracker />
-        <PageTracker />
-      </body>
-    </html>
+    <SiteShell lang="en" fontVariable={inter.variable} jsonLd={jsonLd}>
+      {children}
+    </SiteShell>
   );
 }
