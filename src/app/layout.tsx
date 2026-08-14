@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { I18nProvider } from "@/components/i18n-provider";
+import { HtmlLangSync } from "@/components/html-lang-sync";
 import { AttributionTracker } from "@/components/attribution-tracker";
 import { PageTracker } from "@/components/page-tracker";
 import { AppModeBoot } from "@/components/app-mode-boot";
@@ -117,9 +119,12 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen">
         <AppModeBoot />
-        <Nav />
-        <main>{children}</main>
-        <Footer />
+        <I18nProvider>
+          <HtmlLangSync />
+          <Nav />
+          <main>{children}</main>
+          <Footer />
+        </I18nProvider>
         <Analytics />
         <AttributionTracker />
         <PageTracker />

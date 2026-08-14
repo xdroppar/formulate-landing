@@ -2,6 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useT } from "@/components/i18n-provider";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { navTitle, navDesc } from "@/lib/i18n/nav-keys";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
@@ -53,6 +56,7 @@ function ChevronDown({ open }: { open: boolean }) {
 
 /** Desktop dropdown menu (hover or click), accessible + closes on outside/Escape. */
 function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; icon?: string }) {
+  const t = useT();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -92,12 +96,12 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
             {items.map((it) =>
               it.soon ? (
                 <div
-                  key={it.title}
+                  key={navTitle(t, it.href, it.title)}
                   className="flex items-start justify-between gap-2 rounded-lg px-3 py-2.5 opacity-55"
                 >
                   <div>
-                    <div className="text-sm font-semibold text-text">{it.title}</div>
-                    <div className="text-xs text-muted mt-0.5">{it.desc}</div>
+                    <div className="text-sm font-semibold text-text">{navTitle(t, it.href, it.title)}</div>
+                    <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc)}</div>
                   </div>
                   <span className="shrink-0 text-[9px] font-bold uppercase tracking-wider text-muted/60 border border-border rounded-full px-1.5 py-0.5 mt-0.5">
                     Soon
@@ -110,8 +114,8 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
                   onClick={() => setOpen(false)}
                   className="block rounded-lg px-3 py-2.5 hover:bg-surface transition-colors"
                 >
-                  <div className="text-sm font-semibold text-text">{it.title}</div>
-                  <div className="text-xs text-muted mt-0.5">{it.desc}</div>
+                  <div className="text-sm font-semibold text-text">{navTitle(t, it.href, it.title)}</div>
+                  <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc)}</div>
                 </Link>
               )
             )}
@@ -123,6 +127,7 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
 }
 
 export function Nav() {
+  const t = useT();
   const [open, setOpen] = useState(false);
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
@@ -170,10 +175,11 @@ export function Nav() {
               )
             )}
             <span className="w-px h-4 bg-border" aria-hidden="true" />
-            <NavMenu label="Learn" items={LEARN} icon="📚" />
+            <NavMenu label={t("nav.learn")} items={LEARN} icon="📚" />
           </div>
 
           <div className="flex items-center gap-3">
+            <LanguageSwitcher />
             {/* New users: landing-side goal quiz (/start) that builds an
                 evidence-based starter stack, then hands off into the webapp's
                 guided value-first onboarding (?reset_onboarding=1). Keeping the
@@ -223,7 +229,7 @@ export function Nav() {
                       className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
                       role="menuitem"
                     >
-                      {it.title}
+                      {navTitle(t, it.href, it.title)}
                     </Link>
                   ))}
                 </div>
@@ -250,7 +256,7 @@ export function Nav() {
                   className="text-sm font-medium text-muted hover:text-text transition-colors py-1 pl-1"
                   role="menuitem"
                 >
-                  {it.title}
+                  {navTitle(t, it.href, it.title)}
                 </Link>
               ))}
             </div>

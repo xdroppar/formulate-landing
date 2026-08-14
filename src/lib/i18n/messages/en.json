@@ -1,0 +1,98 @@
+{
+  "language": {
+    "label": "Language",
+    "choose": "Choose your language",
+    "promptTitle": "View Formulate in English?",
+    "promptBody": "Your browser prefers English.",
+    "promptAccept": "Switch to English",
+    "promptDismiss": "No thanks",
+    "notTranslated": "Page copy is still in English."
+  },
+  "nav": {
+    "learn": "Learn",
+    "items": {
+      "supplements": {
+        "title": "Browse Catalog",
+        "desc": "260+ supplements, scored"
+      },
+      "brands": {
+        "title": "Brands",
+        "desc": "Brand trust scores — never sponsored"
+      },
+      "interactions": {
+        "title": "Interaction Checker",
+        "desc": "See if your supplements clash"
+      },
+      "doseCalculator": {
+        "title": "Dose Calculator",
+        "desc": "Find your effective dose"
+      },
+      "stackBuilder": {
+        "title": "Stack Builder",
+        "desc": "Build & score a stack"
+      },
+      "methodologySupplements": {
+        "title": "How we score it",
+        "desc": "Dose, form, evidence & testing"
+      },
+      "foods": {
+        "title": "Whole Foods",
+        "desc": "480+ foods scored on nutrition"
+      },
+      "recipes": {
+        "title": "Recipes",
+        "desc": "700+ recipes, scored"
+      },
+      "methodologyFoods": {
+        "title": "How we score it",
+        "desc": "Quality, not calories"
+      },
+      "nutrients": {
+        "title": "Browse Nutrients",
+        "desc": "Targets, sources & daily coverage"
+      },
+      "methodologyNutrients": {
+        "title": "How we score it",
+        "desc": "Coverage vs your targets"
+      },
+      "guides": {
+        "title": "Guides",
+        "desc": "Evidence-based deep-dives & protocols"
+      },
+      "ingredients": {
+        "title": "Encyclopedia",
+        "desc": "Every ingredient, explained"
+      },
+      "research": {
+        "title": "Research",
+        "desc": "The studies behind the scores"
+      },
+      "conditions": {
+        "title": "By Condition",
+        "desc": "Supplements for a goal or condition"
+      },
+      "compare": {
+        "title": "Compare",
+        "desc": "Ingredient head-to-heads"
+      },
+      "synergies": {
+        "title": "Synergies",
+        "desc": "Evidence-backed pairings"
+      }
+    }
+  },
+  "footer": {
+    "explore": "Explore",
+    "links": {
+      "brands": "Brands",
+      "compare": "Compare",
+      "conditions": "Conditions",
+      "ingredients": "Ingredients",
+      "interactions": "Interactions",
+      "nutrients": "Nutrients",
+      "research": "Research",
+      "stacks": "Stacks",
+      "synergies": "Synergies"
+    }
+  }
+}

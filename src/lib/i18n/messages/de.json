@@ -1,0 +1,98 @@
+{
+  "language": {
+    "label": "Sprache",
+    "choose": "Sprache wählen",
+    "promptTitle": "Formulate auf Deutsch ansehen?",
+    "promptBody": "Dein Browser bevorzugt Deutsch.",
+    "promptAccept": "Auf Deutsch wechseln",
+    "promptDismiss": "Nein, danke",
+    "notTranslated": "Der Seiteninhalt ist noch auf Englisch."
+  },
+  "nav": {
+    "learn": "Lernen",
+    "items": {
+      "supplements": {
+        "title": "Katalog ansehen",
+        "desc": "260+ bewertete Präparate"
+      },
+      "brands": {
+        "title": "Marken",
+        "desc": "Marken-Vertrauenswerte — nie gesponsert"
+      },
+      "interactions": {
+        "title": "Wechselwirkungs-Check",
+        "desc": "Prüfe, ob deine Präparate kollidieren"
+      },
+      "doseCalculator": {
+        "title": "Dosisrechner",
+        "desc": "Finde deine wirksame Dosis"
+      },
+      "stackBuilder": {
+        "title": "Stack-Baukasten",
+        "desc": "Stack erstellen und bewerten"
+      },
+      "methodologySupplements": {
+        "title": "So bewerten wir",
+        "desc": "Dosis, Form, Evidenz und Prüfung"
+      },
+      "foods": {
+        "title": "Vollwertkost",
+        "desc": "480+ Lebensmittel nach Nährwert bewertet"
+      },
+      "recipes": {
+        "title": "Rezepte",
+        "desc": "700+ bewertete Rezepte"
+      },
+      "methodologyFoods": {
+        "title": "So bewerten wir",
+        "desc": "Qualität, nicht Kalorien"
+      },
+      "nutrients": {
+        "title": "Nährstoffe ansehen",
+        "desc": "Ziele, Quellen und Tagesdeckung"
+      },
+      "methodologyNutrients": {
+        "title": "So bewerten wir",
+        "desc": "Deckung gegenüber deinen Zielen"
+      },
+      "guides": {
+        "title": "Ratgeber",
+        "desc": "Evidenzbasierte Analysen und Protokolle"
+      },
+      "ingredients": {
+        "title": "Lexikon",
+        "desc": "Jeder Inhaltsstoff, erklärt"
+      },
+      "research": {
+        "title": "Forschung",
+        "desc": "Die Studien hinter den Bewertungen"
+      },
+      "conditions": {
+        "title": "Nach Beschwerde",
+        "desc": "Präparate für ein Ziel oder Beschwerden"
+      },
+      "compare": {
+        "title": "Vergleichen",
+        "desc": "Inhaltsstoffe im Direktvergleich"
+      },
+      "synergies": {
+        "title": "Synergien",
+        "desc": "Evidenzbasierte Kombinationen"
+      }
+    }
+  },
+  "footer": {
+    "explore": "Entdecken",
+    "links": {
+      "brands": "Marken",
+      "compare": "Vergleichen",
+      "conditions": "Beschwerden",
+      "ingredients": "Inhaltsstoffe",
+      "interactions": "Wechselwirkungen",
+      "nutrients": "Nährstoffe",
+      "research": "Forschung",
+      "stacks": "Stacks",
+      "synergies": "Synergien"
+    }
+  }
+}

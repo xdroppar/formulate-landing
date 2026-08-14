@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { MobileAppBadges } from "@/components/mobile-app-badges";
+import { FooterExplore } from "@/components/footer-explore";
 
 export function Footer() {
   return (
@@ -13,30 +14,7 @@ export function Footer() {
       </div>
       {/* pSEO reference hubs — surfaced site-wide for navigation + crawl
           depth (previously reachable only via in-body links / the sitemap). */}
-      <nav
-        aria-label="Explore"
-        className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 mb-6 pb-6 border-b border-border"
-      >
-        {[
-          { href: "/ingredients", label: "Ingredients" },
-          { href: "/nutrients", label: "Nutrients" },
-          { href: "/conditions", label: "Conditions" },
-          { href: "/interactions", label: "Interactions" },
-          { href: "/synergies", label: "Synergies" },
-          { href: "/compare", label: "Compare" },
-          { href: "/brands", label: "Brands" },
-          { href: "/stacks", label: "Stacks" },
-          { href: "/research", label: "Research" },
-        ].map((l) => (
-          <Link
-            key={l.href}
-            href={l.href}
-            className="text-xs text-muted hover:text-text transition-colors py-1"
-          >
-            {l.label}
-          </Link>
-        ))}
-      </nav>
+      <FooterExplore />
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-2">
           <Image src="/logo.png" alt="Formulate" width={24} height={24} className="rounded-md" unoptimized />

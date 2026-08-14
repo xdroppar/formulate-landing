@@ -1,0 +1,98 @@
+{
+  "language": {
+    "label": "Idioma",
+    "choose": "Elige tu idioma",
+    "promptTitle": "¿Ver Formulate en español?",
+    "promptBody": "Tu navegador prefiere el español.",
+    "promptAccept": "Cambiar a español",
+    "promptDismiss": "No, gracias",
+    "notTranslated": "El contenido de la página sigue en inglés."
+  },
+  "nav": {
+    "learn": "Aprender",
+    "items": {
+      "supplements": {
+        "title": "Ver catálogo",
+        "desc": "260+ suplementos, puntuados"
+      },
+      "brands": {
+        "title": "Marcas",
+        "desc": "Puntuaciones de confianza — nunca patrocinadas"
+      },
+      "interactions": {
+        "title": "Comprobador de interacciones",
+        "desc": "Comprueba si tus suplementos chocan"
+      },
+      "doseCalculator": {
+        "title": "Calculadora de dosis",
+        "desc": "Encuentra tu dosis efectiva"
+      },
+      "stackBuilder": {
+        "title": "Creador de stacks",
+        "desc": "Crea y puntúa un stack"
+      },
+      "methodologySupplements": {
+        "title": "Cómo lo puntuamos",
+        "desc": "Dosis, forma, evidencia y análisis"
+      },
+      "foods": {
+        "title": "Alimentos integrales",
+        "desc": "480+ alimentos puntuados por nutrición"
+      },
+      "recipes": {
+        "title": "Recetas",
+        "desc": "700+ recetas, puntuadas"
+      },
+      "methodologyFoods": {
+        "title": "Cómo lo puntuamos",
+        "desc": "Calidad, no calorías"
+      },
+      "nutrients": {
+        "title": "Ver nutrientes",
+        "desc": "Objetivos, fuentes y cobertura diaria"
+      },
+      "methodologyNutrients": {
+        "title": "Cómo lo puntuamos",
+        "desc": "Cobertura frente a tus objetivos"
+      },
+      "guides": {
+        "title": "Guías",
+        "desc": "Análisis y protocolos basados en evidencia"
+      },
+      "ingredients": {
+        "title": "Enciclopedia",
+        "desc": "Cada ingrediente, explicado"
+      },
+      "research": {
+        "title": "Investigación",
+        "desc": "Los estudios detrás de las puntuaciones"
+      },
+      "conditions": {
+        "title": "Por afección",
+        "desc": "Suplementos para un objetivo o afección"
+      },
+      "compare": {
+        "title": "Comparar",
+        "desc": "Comparativas de ingredientes"
+      },
+      "synergies": {
+        "title": "Sinergias",
+        "desc": "Combinaciones respaldadas por evidencia"
+      }
+    }
+  },
+  "footer": {
+    "explore": "Explorar",
+    "links": {
+      "brands": "Marcas",
+      "compare": "Comparar",
+      "conditions": "Afecciones",
+      "ingredients": "Ingredientes",
+      "interactions": "Interacciones",
+      "nutrients": "Nutrientes",
+      "research": "Investigación",
+      "stacks": "Stacks",
+      "synergies": "Sinergias"
+    }
+  }
+}
