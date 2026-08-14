@@ -24,6 +24,7 @@ import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
 import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -376,7 +377,7 @@ export default function Home() {
               href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
             >
-              Browse all 260+ scored products
+              Browse all {SCORED_PRODUCTS_CLAIM} scored products
               <ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
@@ -480,7 +481,7 @@ export default function Home() {
             "Brand scores derived from product data — never sponsorships",
           ]}
           href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
-          cta="Browse 260+ scored products"
+          cta={`Browse ${SCORED_PRODUCTS_CLAIM} scored products`}
           preview={<ScoreBreakdownPreview image={creatineImage} />}
         />
       </div>
@@ -811,7 +812,7 @@ export default function Home() {
               </div>
               <ul className="space-y-3 mb-8">
                 {[
-                  "Browse 260+ scored supplements — no account needed",
+                  `Browse ${SCORED_PRODUCTS_CLAIM} scored supplements — no account needed`,
                   "Track food, meals & nutrient coverage",
                   "Build your stack and get your Stack Score",
                   "Hydration, streaks, and progress tracking",

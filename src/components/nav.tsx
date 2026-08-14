@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
+import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
 
 type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
@@ -17,7 +18,7 @@ type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 // cross-cutting reference (guides, ingredients).
 const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
   supplements: [
-    { href: "/supplements", title: "Browse Catalog", desc: "260+ supplements, scored" },
+    { href: "/supplements", title: "Browse Catalog", desc: `${SCORED_PRODUCTS_CLAIM} supplements, scored` },
     { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
     { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
     { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
