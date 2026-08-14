@@ -1,3 +1,4 @@
+import { indexableLocales, DEFAULT_LOCALE } from "@/lib/i18n/locales";
 import type { MetadataRoute } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
@@ -12,6 +13,28 @@ import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
 import { recipes, recipeDietTags, recipeCategories } from "@/lib/recipes";
+
+/**
+ * Localised homepages, included ONLY once a locale's copy is actually
+ * translated (`indexable: true` in lib/i18n/locales.ts).
+ *
+ * Today this contributes nothing: every non-English locale is still
+ * `indexable: false`, so the array is empty and the sitemap is byte-identical
+ * to before. It exists so that flipping a locale live cannot silently forget
+ * the sitemap -- submitting a page you have marked noindex, or omitting one
+ * you have marked indexable, are both ways to teach the crawler the wrong
+ * thing about the site.
+ */
+function localeEntries(baseUrl: string, now: Date): MetadataRoute.Sitemap {
+  return indexableLocales()
+    .filter((l) => l.code !== DEFAULT_LOCALE)
+    .map((l) => ({
+      url: `${baseUrl}/${l.code}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+    }));
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://formulate-health.app";
@@ -288,6 +311,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    ...localeEntries(baseUrl, now),
     { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/methodology/supplements`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/methodology/foods`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },

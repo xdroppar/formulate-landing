@@ -5,6 +5,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n-provider";
 import { HtmlLangSync } from "@/components/html-lang-sync";
+import { LanguagePrompt } from "@/components/language-prompt";
 import { AttributionTracker } from "@/components/attribution-tracker";
 import { PageTracker } from "@/components/page-tracker";
 import { AppModeBoot } from "@/components/app-mode-boot";
@@ -124,6 +125,7 @@ export default function RootLayout({
           <Nav />
           <main>{children}</main>
           <Footer />
+          <LanguagePrompt />
         </I18nProvider>
         <Analytics />
         <AttributionTracker />
