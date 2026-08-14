@@ -25,6 +25,7 @@ import { withUtm } from "@/lib/app-url";
 import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { TrackedStartLink } from "@/components/tracked-start-link";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -260,13 +261,13 @@ export default function Home() {
 
             <div className="hero-animate-delay-3 flex flex-col items-center lg:items-start gap-4">
               <div className="flex gap-3.5 flex-wrap justify-center lg:justify-start">
-                <Link
-                  href="/start"
+                <TrackedStartLink
+                  source="home_hero"
                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
                 >
                   Build my free stack
                   <ArrowIcon />
-                </Link>
+                </TrackedStartLink>
                 <TrackedAppLink
                   href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
                   source="home_hero"

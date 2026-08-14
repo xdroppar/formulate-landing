@@ -6,6 +6,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { trackEvent } from "@/lib/analytics";
 
 type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
@@ -181,6 +182,7 @@ export function Nav() {
                 first step on the landing lets visitors get value before leaving. */}
             <Link
               href="/start"
+              onClick={() => trackEvent("start_click", { source: "nav" })}
               className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Get started free
