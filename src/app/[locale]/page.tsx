@@ -27,6 +27,13 @@ export function generateStaticParams() {
   return routedLocales().map((l) => ({ locale: l.code }));
 }
 
-export default function LocalizedHome() {
-  return <Home />;
+export default async function LocalizedHome({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  // Locale flows down as a prop so the copy is rendered SERVER-side and
+  // lands in the HTML a crawler receives.
+  return <Home locale={locale} />;
 }

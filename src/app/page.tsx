@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { DEFAULT_LOCALE } from "@/lib/i18n/locales";
+import { getMessages, translate } from "@/lib/i18n/messages";
 import Image from "next/image";
 import type { ReactNode } from "react";
 import { Reveal } from "@/components/reveal";
@@ -30,42 +32,50 @@ const APP_URL = "https://app.formulate-health.app";
 // Single source of truth for the homepage FAQ — rendered on-page AND emitted as
 // FAQPage JSON-LD. Google rejects FAQ schema that doesn't match visible copy, so
 // these must stay unified.
-const HOME_FAQS: { q: string; a: string }[] = [
-  {
-    q: "Is Formulate really free?",
-    a: "Yes. The web app is completely free to use — score supplements, track food, and build your stack. We generate revenue through affiliate links when you choose to buy a product, but affiliate relationships never affect scores.",
-  },
-  {
-    q: "Is this just for supplements?",
-    a: "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 26 key nutrients by default (add more anytime) across your diet and supplements, log hydration, and watch your progress over time.",
-  },
-  {
-    q: "How do you score supplements and foods?",
-    a: "Supplements are evaluated across ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence (50–100 scale). Foods are scored on real nutritional quality — nutrient density, processing level, and beneficial compounds — not just calories.",
-  },
-  {
-    q: "Is this medical advice?",
-    a: "No. Formulate is an informational tool that aggregates clinical research to help you make more informed decisions. It is not a substitute for professional medical advice. Always consult your healthcare provider before starting any supplement.",
-  },
-  {
-    q: "Can brands pay to change their score?",
-    a: "No. We do not accept brand sponsorships, paid placements, or any form of compensation that would influence scores. Our methodology is fully transparent.",
-  },
-  {
-    q: "Do I need an account?",
-    a: "No. You can browse the full catalog and every product score without an account. An account is only needed to build and save your personal stack, track food, and follow your progress.",
-  },
-];
+type T = (key: string) => string;
 
-const HOME_FAQ_LD = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: HOME_FAQS.map((f) => ({
-    "@type": "Question",
-    name: f.q,
-    acceptedAnswer: { "@type": "Answer", text: f.a },
-  })),
-};
+function homeFaqs(t: T): { q: string; a: string }[] {
+  return [
+  {
+    q: t("home.isFormulateReallyFree"),
+    a: t("home.yesTheWebAppIs"),
+  },
+  {
+    q: t("home.isThisJustForSupplements"),
+    a: t("home.noFormulateStartedWithSupplement"),
+  },
+  {
+    q: t("home.howDoYouScoreSupplements"),
+    a: t("home.supplementsAreEvaluatedAcrossIngredient"),
+  },
+  {
+    q: t("home.isThisMedicalAdvice"),
+    a: t("home.noFormulateIsAnInformational"),
+  },
+  {
+    q: t("home.canBrandsPayToChange"),
+    a: t("home.noWeDoNotAccept"),
+  },
+  {
+    q: t("home.doINeedAnAccount"),
+    a: t("home.noYouCanBrowseThe"),
+  },
+  ];
+}
+
+/** FAQPage structured data, localised alongside the visible copy so the
+ *  rich-result text can never disagree with what the page actually says. */
+function homeFaqLd(t: T) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: homeFaqs(t).map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+}
 
 /** Prefer the pre-generated ~256px thumb when it exists on disk (the catalog
  *  image_url often carries a `?v=` cache token that defeats the lib's thumb
@@ -224,7 +234,17 @@ function Spotlight({
   );
 }
 
-export default function Home() {
+/**
+ * Locale arrives as a PROP, not from a context or a cookie.
+ *
+ * This is a server component, so the translated copy has to be in the HTML the
+ * server emits — a crawler never runs the client bundle, and Spanish injected
+ * after hydration is Spanish Google will not index. Props are also what keeps
+ * every page statically prerendered: no dynamic server API is touched.
+ */
+export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
+  const messages = getMessages(locale);
+  const t: T = (key) => translate(messages, key);
   return (
     <div className="relative overflow-hidden">
       <BackgroundTree />
@@ -241,14 +261,10 @@ export default function Home() {
           {/* copy */}
           <div className="text-center lg:text-left">
             <div className="hero-animate inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[13px] font-semibold mb-7">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              Supplements · Food · Nutrients — your whole routine, scored
-            </div>
+              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />{t("home.supplementsFoodNutrientsYourWhole")}</div>
 
-            <h1 className="hero-animate-delay-1 text-[clamp(40px,6vw,68px)] font-black leading-[1.04] tracking-[-2px] mb-6">
-              Know exactly what&apos;s
-              <br />
-              <span className="text-gradient">working in your routine.</span>
+            <h1 className="hero-animate-delay-1 text-[clamp(40px,6vw,68px)] font-black leading-[1.04] tracking-[-2px] mb-6">{t("home.knowExactlyWhatS")}<br />
+              <span className="text-gradient">{t("home.workingInYourRoutine")}</span>
             </h1>
 
             <p className="hero-animate-delay-2 text-[clamp(16px,2vw,20px)] text-muted max-w-[520px] mx-auto lg:mx-0 leading-relaxed mb-9">
@@ -262,24 +278,20 @@ export default function Home() {
                 <Link
                   href="/start"
                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
-                >
-                  Build my free stack
-                  <ArrowIcon />
+                >{t("home.buildMyFreeStack")}<ArrowIcon />
                 </Link>
                 <TrackedAppLink
                   href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
                   source="home_hero"
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
-                >
-                  Open the app
-                </TrackedAppLink>
+                >{t("home.openTheApp")}</TrackedAppLink>
               </div>
               {/* The iPhone app ships and out-converts the web signup roughly
                   2:1 on first run, but until now it appeared nowhere above the
                   footer. Sits under the primary CTAs rather than replacing
                   them: the hero has to work for desktop readers too. */}
               <MobileAppBadges source="home_hero" size="sm" />
-              <span className="text-[13px] text-muted/60">Free forever · No account needed to browse · No brand sponsorships</span>
+              <span className="text-[13px] text-muted/60">{t("home.freeForeverNoAccountNeeded")}</span>
             </div>
           </div>
 
@@ -297,12 +309,8 @@ export default function Home() {
           in the first screen or two. */}
       <section className="max-w-[1100px] mx-auto px-6 pb-16">
         <div className="flex flex-col items-center gap-5 text-center">
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent">
-            See it in 53 seconds
-          </div>
-          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] max-w-[620px]">
-            You build your whole stack <span className="text-gradient">before</span> you make an account.
-          </h2>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent">{t("home.seeItIn53Seconds")}</div>
+          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] max-w-[620px]">{t("home.youBuildYourWholeStack")} <span className="text-gradient">{t("home.before")}</span>{" "}{t("home.youMakeAnAccount")}</h2>
           <HeroVideo />
         </div>
       </section>
@@ -310,9 +318,8 @@ export default function Home() {
       {/* ───────────────── Live score search (instant payoff) ───────────────── */}
       <Reveal>
         <section className="max-w-[760px] mx-auto px-6 pb-16 text-center">
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Try it — no signup needed</div>
-          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-6">
-            Type any supplement. See its real score, <span className="text-gradient">instantly.</span>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.tryItNoSignupNeeded")}</div>
+          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-6">{t("home.typeAnySupplementSeeIts")} <span className="text-gradient">{t("home.instantly")}</span>
           </h2>
           <LiveScoreSearch index={scoreSearchIndex} appUrl={APP_URL} />
         </section>
@@ -343,9 +350,8 @@ export default function Home() {
       <Reveal>
         <section className="max-w-[1100px] mx-auto px-6 pb-24">
           <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Real products · real scores</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[640px] mx-auto">
-              Actual products from the catalog — <span className="text-muted">scored, not sponsored.</span>
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.realProductsRealScores")}</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[640px] mx-auto">{t("home.actualProductsFromTheCatalog")} <span className="text-muted">{t("home.scoredNotSponsored")}</span>
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
@@ -375,9 +381,7 @@ export default function Home() {
             <a
               href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
-            >
-              Browse all 260+ scored products
-              <ArrowIcon className="w-3.5 h-3.5" />
+            >{t("home.browseAll260ScoredProducts")}<ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
         </section>
@@ -387,9 +391,8 @@ export default function Home() {
       <Reveal>
         <section className="max-w-[1100px] mx-auto px-6 pb-24">
           <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Why you can trust the score</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[700px] mx-auto mb-4">
-              Built on the standards a pharmacist would check — <span className="text-muted">not sponsorships.</span>
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.whyYouCanTrustThe")}</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[700px] mx-auto mb-4">{t("home.builtOnTheStandardsA")} <span className="text-muted">{t("home.notSponsorships")}</span>
             </h2>
             <p className="text-muted text-[16px] max-w-[620px] mx-auto leading-relaxed">
               Every product runs through the same six-factor algorithm, weighted by what actually
@@ -414,20 +417,15 @@ export default function Home() {
           </div>
 
           <div className="max-w-[760px] mx-auto rounded-2xl bg-surface border border-border p-6 text-center">
-            <p className="text-[15px] text-text leading-relaxed mb-2">
-              We read the credentials that actually mean something — <span className="font-semibold text-text">NSF</span>,{" "}
-              <span className="font-semibold text-text">USP Verified</span>, <span className="font-semibold text-text">Informed Sport</span>,
+            <p className="text-[15px] text-text leading-relaxed mb-2">{t("home.weReadTheCredentialsThat")} <span className="font-semibold text-text">{t("home.nsf")}</span>,{" "}
+              <span className="font-semibold text-text">{t("home.uspVerified")}</span>, <span className="font-semibold text-text">{t("home.informedSport")}</span>,
               third-party COAs — alongside peer-reviewed human research for every ingredient.
             </p>
-            <p className="text-[13px] text-muted">
-              No brand pays to be listed, ranked, or featured. The same algorithm scores every product in the catalog.
-            </p>
+            <p className="text-[13px] text-muted">{t("home.noBrandPaysToBe")}</p>
             <Link
               href="/methodology/supplements"
               className="inline-flex items-center gap-1.5 mt-5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
-            >
-              See the full methodology
-              <ArrowIcon className="w-3.5 h-3.5" />
+            >{t("home.seeTheFullMethodology")}<ArrowIcon className="w-3.5 h-3.5" />
             </Link>
           </div>
         </section>
@@ -436,10 +434,8 @@ export default function Home() {
       {/* ───────────────── Platform pillars ───────────────── */}
       <section id="features" className="max-w-[1100px] mx-auto px-6 py-16 md:py-24">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">The platform</div>
-          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] text-center max-w-[760px] mx-auto mb-4">
-            One app for everything you put in your body.
-          </h2>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.thePlatform")}</div>
+          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] text-center max-w-[760px] mx-auto mb-4">{t("home.oneAppForEverythingYou")}</h2>
           <p className="text-muted text-[17px] max-w-[600px] mx-auto text-center leading-relaxed mb-14">
             Most apps track calories. Formulate scores quality — every supplement, every food, every
             nutrient — so you can build a routine that actually moves the needle.
@@ -471,13 +467,13 @@ export default function Home() {
       <div className="border-t border-border">
         <Spotlight
           eyebrow="Supplement scores"
-          title={<>Stop guessing. <span className="text-muted">See the real score.</span></>}
-          body="Whether a dose is actually effective or a form is well-absorbed isn't on the label — it's in the clinical research. We've gone through it for every supplement and scored each 50–100 across the five factors that determine whether it works. No star ratings, no hype — you just read the number."
+          title={<>{t("home.stopGuessing")} <span className="text-muted">{t("home.seeTheRealScore")}</span></>}
+          body={t("home.whetherADoseIsActually")}
           bullets={[
-            "Dose accuracy checked against effective clinical ranges",
-            "Ingredient forms graded for bioavailability",
-            "Underdosed blends and unsafe limits flagged automatically",
-            "Brand scores derived from product data — never sponsorships",
+            t("home.doseAccuracyCheckedAgainstEffective"),
+            t("home.ingredientFormsGradedForBioavailability"),
+            t("home.underdosedBlendsAndUnsafeLimits"),
+            t("home.brandScoresDerivedFromProduct"),
           ]}
           href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
           cta="Browse 260+ scored products"
@@ -489,13 +485,13 @@ export default function Home() {
         <Spotlight
           flip
           eyebrow="Nutrient coverage"
-          title={<>Fill in the gaps your <span className="text-muted">diet leaves behind.</span></>}
-          body="Formulate combines what you eat and what you supplement into one live picture of your daily nutrition — so you know exactly where you're covered and where you're short."
+          title={<>{t("home.fillInTheGapsYour")} <span className="text-muted">{t("home.dietLeavesBehind")}</span></>}
+          body={t("home.formulateCombinesWhatYouEat")}
           bullets={[
-            "26 core nutrients tracked from supplements + meals — add more anytime",
-            "Targets personalized to your age, sex and goals",
-            "Clear gaps surfaced with the foods or supplements that fill them",
-            "No double-counting between your stack and your plate",
+            t("home.26CoreNutrientsTrackedFrom"),
+            t("home.targetsPersonalizedToYourAge"),
+            t("home.clearGapsSurfacedWithThe"),
+            t("home.noDoubleCountingBetweenYour"),
           ]}
           href={withUtm(`${APP_URL}/stack/nutrients`, { source: "landing", campaign: "spotlight_nutrients" })}
           cta="See how coverage works"
@@ -505,13 +501,13 @@ export default function Home() {
 
       <Spotlight
         eyebrow="Food & meals"
-        title={<>Track food by <span className="text-muted">quality, not just calories.</span></>}
-        body="Log whole foods, branded products and your own custom meals. Each one is scored for real nutritional value, and your macros roll up automatically across the day."
+        title={<>{t("home.trackFoodBy")} <span className="text-muted">{t("home.qualityNotJustCalories")}</span></>}
+        body={t("home.logWholeFoodsBrandedProducts")}
         bullets={[
-          "Hundreds of whole foods and branded items, already scored",
-          "Build and save custom meals and recipes once, log them in a tap",
-          "Macros and micros roll into your daily targets",
-          "Portion-aware scoring — too much butter actually lowers the score",
+          t("home.hundredsOfWholeFoodsAnd"),
+          t("home.buildAndSaveCustomMeals"),
+          t("home.macrosAndMicrosRollInto"),
+          t("home.portionAwareScoringTooMuch"),
         ]}
         href={withUtm(`${APP_URL}/meals`, { source: "landing", campaign: "spotlight_meals" })}
         cta="Explore meals & recipes"
@@ -522,15 +518,14 @@ export default function Home() {
       <Reveal>
         <section className="max-w-[1100px] mx-auto px-6 pb-24">
           <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Foods & recipes · scored too</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[680px] mx-auto">
-              Not just supplements — <span className="text-muted">your whole plate, scored.</span>
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.foodsRecipesScoredToo")}</div>
+            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[680px] mx-auto">{t("home.notJustSupplements")} <span className="text-muted">{t("home.yourWholePlateScored")}</span>
             </h2>
           </div>
 
           {/* recipes */}
           <div className="flex items-baseline justify-between mb-4">
-            <h3 className="text-lg font-bold text-text">Top-scoring recipes</h3>
+            <h3 className="text-lg font-bold text-text">{t("home.topScoringRecipes")}</h3>
             <a href="/recipes" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
               Browse {allRecipes.length}+ recipes <ArrowIcon className="w-3.5 h-3.5" />
             </a>
@@ -552,7 +547,7 @@ export default function Home() {
 
           {/* whole foods */}
           <div className="flex items-baseline justify-between mb-4">
-            <h3 className="text-lg font-bold text-text">Highest-scoring whole foods</h3>
+            <h3 className="text-lg font-bold text-text">{t("home.highestScoringWholeFoods")}</h3>
             <a href="/foods" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
               Browse {allFoods.length}+ foods <ArrowIcon className="w-3.5 h-3.5" />
             </a>
@@ -578,13 +573,13 @@ export default function Home() {
         <Spotlight
           flip
           eyebrow="Progress & journey"
-          title={<>Build momentum that <span className="text-muted">actually sticks.</span></>}
-          body="Logging consistently is the hard part. Formulate turns it into progress you can see — streaks, levels across health pillars, achievements, and trends that prove it's working."
+          title={<>{t("home.buildMomentumThat")} <span className="text-muted">{t("home.actuallySticks")}</span></>}
+          body={t("home.loggingConsistentlyIsTheHard")}
           bullets={[
-            "Level up across Supplements, Diet and Nutrition pillars",
-            "Streaks and achievements keep you consistent",
-            "Weekly and monthly trend charts for every metric",
-            "Your Stack Score climbs as your routine improves",
+            t("home.levelUpAcrossSupplementsDiet"),
+            t("home.streaksAndAchievementsKeepYou"),
+            t("home.weeklyAndMonthlyTrendCharts"),
+            t("home.yourStackScoreClimbsAs"),
           ]}
           href={withUtm(`${APP_URL}`, { source: "landing", campaign: "spotlight_journey" })}
           cta="Start your journey"
@@ -595,12 +590,8 @@ export default function Home() {
       {/* ───────────────── Problem stats (every claim sourced) ───────────────── */}
       <Reveal>
         <section className="max-w-[880px] mx-auto px-6 py-24 text-center">
-          <h2 className="text-[clamp(24px,4vw,40px)] font-extrabold tracking-[-1px] mb-4">
-            The supplement industry makes it <span className="text-danger">hard to know</span> what&apos;s actually good.
-          </h2>
-          <p className="text-muted text-[15px] max-w-[560px] mx-auto leading-relaxed mb-12">
-            Not scare stats — verifiable facts, each one sourced. The same standard we hold every product to.
-          </p>
+          <h2 className="text-[clamp(24px,4vw,40px)] font-extrabold tracking-[-1px] mb-4">{t("home.theSupplementIndustryMakesIt")} <span className="text-danger">{t("home.hardToKnow")}</span>{" "}{t("home.whatSActuallyGood")}</h2>
+          <p className="text-muted text-[15px] max-w-[560px] mx-auto leading-relaxed mb-12">{t("home.notScareStatsVerifiableFacts")}</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
               {
@@ -635,10 +626,8 @@ export default function Home() {
       <div id="how" className="bg-surface border-t border-b border-border py-24 px-6">
         <div className="max-w-[1100px] mx-auto">
           <Reveal>
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">How it works</div>
-            <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[600px] mb-14">
-              From confusion to clarity in minutes.
-            </h2>
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.howItWorks")}</div>
+            <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[600px] mb-14">{t("home.fromConfusionToClarityIn")}</h2>
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {[
@@ -662,13 +651,9 @@ export default function Home() {
       {/* ───────────────── Methodology / Trust ───────────────── */}
       <section id="methodology" className="max-w-[1100px] mx-auto px-6 py-24">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Our methodology</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-6">
-            Transparent scoring. No brand deals.
-          </h2>
-          <p className="text-muted text-[17px] max-w-[600px] leading-relaxed mb-12">
-            Every score is derived from a multi-factor model built on publicly available clinical research. We don&apos;t accept brand sponsorships, and no company can pay to change their score.
-          </p>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.ourMethodology")}</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-6">{t("home.transparentScoringNoBrandDeals")}</h2>
+          <p className="text-muted text-[17px] max-w-[600px] leading-relaxed mb-12">{t("home.everyScoreIsDerivedFrom")}</p>
         </Reveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
@@ -687,9 +672,7 @@ export default function Home() {
         </div>
         <Reveal delay={200}>
           <div className="mt-8">
-            <a href={`${APP_URL}/methodology`} className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">
-              Read our full scoring methodology
-              <ArrowIcon className="w-3.5 h-3.5" />
+            <a href={`${APP_URL}/methodology`} className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">{t("home.readOurFullScoringMethodology")}<ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
         </Reveal>
@@ -698,10 +681,8 @@ export default function Home() {
       {/* ───────────────── Comparison ───────────────── */}
       <section id="compare" className="max-w-[960px] mx-auto px-6 py-24 scroll-mt-20">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">How Formulate compares</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[640px] mx-auto mb-4">
-            Built to tell you the truth.
-          </h2>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.howFormulateCompares")}</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[640px] mx-auto mb-4">{t("home.builtToTellYouThe")}</h2>
           <p className="text-muted text-[17px] max-w-[560px] mx-auto text-center leading-relaxed mb-12">
             Calorie trackers count what you eat. Influencer lists are paid placements. Formulate
             scores quality against research — and answers to no one but you.
@@ -715,11 +696,10 @@ export default function Home() {
                   <th className="text-left font-semibold text-muted px-5 py-4 w-[40%]">&nbsp;</th>
                   <th className="px-4 py-4 text-center">
                     <span className="inline-flex items-center gap-1.5 font-extrabold text-accent">
-                      <span className="w-2 h-2 rounded-full bg-accent" /> Formulate
-                    </span>
+                      <span className="w-2 h-2 rounded-full bg-accent" />{" "}{t("home.formulate")}</span>
                   </th>
-                  <th className="px-4 py-4 text-center font-semibold text-muted">Calorie trackers</th>
-                  <th className="px-4 py-4 text-center font-semibold text-muted">Influencer lists</th>
+                  <th className="px-4 py-4 text-center font-semibold text-muted">{t("home.calorieTrackers")}</th>
+                  <th className="px-4 py-4 text-center font-semibold text-muted">{t("home.influencerLists")}</th>
                 </tr>
               </thead>
               <tbody>
@@ -739,11 +719,11 @@ export default function Home() {
                       return (
                         <td key={col} className={`px-4 py-4 text-center border-t border-border ${highlight ? "bg-accent/[0.04]" : ""}`}>
                           {v === "yes" ? (
-                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-accent/15 text-accent" aria-label="Yes">
+                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-accent/15 text-accent" aria-label={t("home.yes")}>
                               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                             </span>
                           ) : v === "partial" ? (
-                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-warning/10 text-warning text-base font-black leading-none" aria-label="Partial">–</span>
+                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-warning/10 text-warning text-base font-black leading-none" aria-label={t("home.partial")}>–</span>
                           ) : (
                             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white/5 text-muted/50" aria-label="No">
                               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
@@ -764,17 +744,15 @@ export default function Home() {
       <section className="bg-surface border-t border-b border-border py-24 px-6">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(HOME_FAQ_LD) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqLd(t)) }}
         />
         <div className="max-w-[800px] mx-auto">
           <Reveal>
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">FAQ</div>
-            <h2 className="text-[clamp(28px,4vw,40px)] font-extrabold tracking-[-1px] mb-12">
-              Common questions
-            </h2>
+            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.faq")}</div>
+            <h2 className="text-[clamp(28px,4vw,40px)] font-extrabold tracking-[-1px] mb-12">{t("home.commonQuestions")}</h2>
           </Reveal>
           <div className="space-y-8">
-            {HOME_FAQS.map((item, i) => (
+            {homeFaqs(t).map((item, i) => (
               <Reveal key={item.q} delay={i * 60}>
                 <div className="border-b border-border pb-8 last:border-b-0 last:pb-0">
                   <h3 className="text-base font-bold mb-3">{item.q}</h3>
@@ -789,10 +767,8 @@ export default function Home() {
       {/* ───────────────── Pricing ───────────────── */}
       <section id="pricing" className="max-w-[1100px] mx-auto px-6 py-24 scroll-mt-20">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">Pricing</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[600px] mx-auto mb-4">
-            Everything, for free.
-          </h2>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.pricing")}</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[600px] mx-auto mb-4">{t("home.everythingForFree")}</h2>
           <p className="text-muted text-[17px] max-w-[540px] mx-auto text-center leading-relaxed mb-12">
             No tiers, no trials, no upsells. Formulate is funded by optional affiliate links — never by
             charging you or by changing a score.
@@ -802,9 +778,7 @@ export default function Home() {
           <div className="max-w-[460px] mx-auto rounded-2xl border border-accent/25 bg-surface p-8 relative overflow-hidden">
             <div className="absolute -top-[120px] -right-[120px] w-[280px] h-[280px] rounded-full bg-[radial-gradient(circle,rgba(0,229,160,0.10)_0%,transparent_70%)] pointer-events-none" />
             <div className="relative">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[12px] font-bold mb-5">
-                Free forever
-              </div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[12px] font-bold mb-5">{t("home.freeForever")}</div>
               <div className="flex items-end gap-2 mb-6">
                 <span className="text-6xl font-black text-text leading-none">$0</span>
                 <span className="text-muted text-sm mb-1.5">/ forever</span>
@@ -829,9 +803,7 @@ export default function Home() {
                 href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_pricing" })}
                 source="home_pricing"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
-              >
-                Get started — free
-                <ArrowIcon />
+              >{t("home.getStartedFree")}<ArrowIcon />
               </TrackedAppLink>
             </div>
           </div>
@@ -841,13 +813,9 @@ export default function Home() {
       {/* ───────────────── Featured Guides ───────────────── */}
       <section className="max-w-[1100px] mx-auto px-6 py-24">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">Learn</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-4">
-            Evidence-based health guides
-          </h2>
-          <p className="text-muted text-[17px] max-w-[560px] leading-relaxed mb-12">
-            Deep-dives, best-of roundups, nutrition explainers, and protocols — every recommendation backed by clinical research.
-          </p>
+          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.learn")}</div>
+          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-4">{t("home.evidenceBasedHealthGuides")}</h2>
+          <p className="text-muted text-[17px] max-w-[560px] leading-relaxed mb-12">{t("home.deepDivesBestOfRoundups")}</p>
         </Reveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
@@ -890,9 +858,7 @@ export default function Home() {
         </div>
         <Reveal delay={200}>
           <div className="mt-8">
-            <Link href="/guides" className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">
-              Browse all guides
-              <ArrowIcon className="w-3.5 h-3.5" />
+            <Link href="/guides" className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">{t("home.browseAllGuides")}<ArrowIcon className="w-3.5 h-3.5" />
             </Link>
           </div>
         </Reveal>
@@ -908,28 +874,20 @@ export default function Home() {
       {/* ───────────────── Final CTA ───────────────── */}
       <Reveal>
         <section className="py-24 px-6 text-center max-w-[680px] mx-auto flex flex-col items-center">
-          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] mb-4">
-            See what&apos;s <span className="text-accent">actually working</span> in your routine.
-          </h2>
-          <p className="text-muted text-[17px] leading-relaxed mb-10">
-            Score your supplements, track your food, cover your gaps. Free, forever.
-          </p>
+          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] mb-4">{t("home.seeWhatS")} <span className="text-accent">{t("home.actuallyWorking")}</span>{" "}{t("home.inYourRoutine")}</h2>
+          <p className="text-muted text-[17px] leading-relaxed mb-10">{t("home.scoreYourSupplementsTrackYour")}</p>
           <div className="flex gap-3.5 flex-wrap justify-center">
             <TrackedAppLink
               href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_footer_cta" })}
               source="home_footer"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
-            >
-              Open the app — free
-              <ArrowIcon />
+            >{t("home.openTheAppFree")}<ArrowIcon />
             </TrackedAppLink>
             <TrackedDownloadLink
               href="/download"
               source="landing_page_bottom"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
-            >
-              Request desktop access
-            </TrackedDownloadLink>
+            >{t("home.requestDesktopAccess")}</TrackedDownloadLink>
           </div>
         </section>
       </Reveal>
