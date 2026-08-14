@@ -26,13 +26,15 @@ import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
 import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { TrackedStartLink } from "@/components/tracked-start-link";
 
 const APP_URL = "https://app.formulate-health.app";
 
 // Single source of truth for the homepage FAQ — rendered on-page AND emitted as
 // FAQPage JSON-LD. Google rejects FAQ schema that doesn't match visible copy, so
 // these must stay unified.
-type T = (key: string) => string;
+type T = (key: string, vars?: Record<string, string | number>) => string;
 
 function homeFaqs(t: T): { q: string; a: string }[] {
   return [
@@ -244,7 +246,7 @@ function Spotlight({
  */
 export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
   const messages = getMessages(locale);
-  const t: T = (key) => translate(messages, key);
+  const t: T = (key, vars) => translate(messages, key, vars);
   return (
     <div className="relative overflow-hidden">
       <BackgroundTree />
@@ -275,11 +277,11 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
 
             <div className="hero-animate-delay-3 flex flex-col items-center lg:items-start gap-4">
               <div className="flex gap-3.5 flex-wrap justify-center lg:justify-start">
-                <Link
-                  href="/start"
+                <TrackedStartLink
+                  source="home_hero"
                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
                 >{t("home.buildMyFreeStack")}<ArrowIcon />
-                </Link>
+                </TrackedStartLink>
                 <TrackedAppLink
                   href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
                   source="home_hero"
@@ -381,7 +383,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             <a
               href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
-            >{t("home.browseAll260ScoredProducts")}<ArrowIcon className="w-3.5 h-3.5" />
+            >{t("home.browseAllScoredProducts", { count: SCORED_PRODUCTS_CLAIM })}<ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
         </section>
@@ -476,7 +478,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             t("home.brandScoresDerivedFromProduct"),
           ]}
           href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
-          cta="Browse 260+ scored products"
+          cta={`Browse ${SCORED_PRODUCTS_CLAIM} scored products`}
           preview={<ScoreBreakdownPreview image={creatineImage} />}
         />
       </div>
@@ -785,7 +787,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
               </div>
               <ul className="space-y-3 mb-8">
                 {[
-                  "Browse 260+ scored supplements — no account needed",
+                  `Browse ${SCORED_PRODUCTS_CLAIM} scored supplements — no account needed`,
                   "Track food, meals & nutrient coverage",
                   "Build your stack and get your Stack Score",
                   "Hydration, streaks, and progress tracking",

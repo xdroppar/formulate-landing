@@ -13,7 +13,7 @@
     "items": {
       "supplements": {
         "title": "Browse Catalog",
-        "desc": "260+ supplements, scored"
+        "desc": "{count} supplements, scored"
       },
       "brands": {
         "title": "Brands",
@@ -107,7 +107,6 @@
     "typeAnySupplementSeeIts": "Type any supplement. See its real score,",
     "realProductsRealScores": "Real products · real scores",
     "actualProductsFromTheCatalog": "Actual products from the catalog —",
-    "browseAll260ScoredProducts": "Browse all 260+ scored products",
     "whyYouCanTrustThe": "Why you can trust the score",
     "builtOnTheStandardsA": "Built on the standards a pharmacist would check —",
     "weReadTheCredentialsThat": "We read the credentials that actually mean something —",
@@ -201,6 +200,7 @@
     "whatSActuallyGood": "what's actually good.",
     "faq": "FAQ",
     "actuallyWorking": "actually working",
-    "inYourRoutine": "in your routine."
+    "inYourRoutine": "in your routine.",
+    "browseAllScoredProducts": "Browse all {count} scored products"
   }
 }

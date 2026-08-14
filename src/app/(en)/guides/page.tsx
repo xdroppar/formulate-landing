@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import type { Guide } from "@/lib/guides";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { withUtm } from "@/lib/app-url";
+import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
 
 export const metadata: Metadata = {
   title: "Supplement Guides — Evidence-Based Reviews & Protocols",
@@ -405,7 +406,7 @@ export default function GuidesPage() {
               See how your supplements score
             </div>
             <div className="text-sm text-muted">
-              260+ products scored 50–100 against clinical research. Free, no account required.
+              {SCORED_PRODUCTS_CLAIM} products scored 50–100 against clinical research. Free, no account required.
             </div>
           </div>
           <a

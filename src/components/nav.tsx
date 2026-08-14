@@ -8,6 +8,8 @@ import { navTitle, navDesc } from "@/lib/i18n/nav-keys";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
+import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { trackEvent } from "@/lib/analytics";
 
 type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
@@ -20,7 +22,7 @@ type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 // cross-cutting reference (guides, ingredients).
 const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
   supplements: [
-    { href: "/supplements", title: "Browse Catalog", desc: "260+ supplements, scored" },
+    { href: "/supplements", title: "Browse Catalog", desc: `${SCORED_PRODUCTS_CLAIM} supplements, scored` },
     { href: "/brands", title: "Brands", desc: "Brand trust scores — never sponsored" },
     { href: "/interactions", title: "Interaction Checker", desc: "See if your supplements clash" },
     { href: "/tools/dose-calculator", title: "Dose Calculator", desc: "Find your effective dose" },
@@ -101,7 +103,7 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
                 >
                   <div>
                     <div className="text-sm font-semibold text-text">{navTitle(t, it.href, it.title)}</div>
-                    <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc)}</div>
+                    <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc, { count: SCORED_PRODUCTS_CLAIM })}</div>
                   </div>
                   <span className="shrink-0 text-[9px] font-bold uppercase tracking-wider text-muted/60 border border-border rounded-full px-1.5 py-0.5 mt-0.5">
                     Soon
@@ -115,7 +117,7 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
                   className="block rounded-lg px-3 py-2.5 hover:bg-surface transition-colors"
                 >
                   <div className="text-sm font-semibold text-text">{navTitle(t, it.href, it.title)}</div>
-                  <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc)}</div>
+                  <div className="text-xs text-muted mt-0.5">{navDesc(t, it.href, it.desc, { count: SCORED_PRODUCTS_CLAIM })}</div>
                 </Link>
               )
             )}
@@ -186,6 +188,7 @@ export function Nav() {
                 first step on the landing lets visitors get value before leaving. */}
             <Link
               href="/start"
+              onClick={() => trackEvent("start_click", { source: "nav" })}
               className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
             >
               Get started free

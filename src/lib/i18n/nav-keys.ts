@@ -27,13 +27,19 @@ const NAV_KEYS: Record<string, string> = {
   "/synergies": "synergies",
 };
 
-type T = (key: string) => string;
+type T = (key: string, vars?: Record<string, string | number>) => string;
 
-function lookup(t: T, href: string, field: "title" | "desc", fallback: string) {
+function lookup(
+  t: T,
+  href: string,
+  field: "title" | "desc",
+  fallback: string,
+  vars?: Record<string, string | number>,
+) {
   const key = NAV_KEYS[href];
   if (!key) return fallback;
   const path = `nav.items.${key}.${field}`;
-  const out = t(path);
+  const out = t(path, vars);
   // translate() echoes the key path when a key is missing; never render that.
   return out === path ? fallback : out;
 }
@@ -42,6 +48,11 @@ export function navTitle(t: T, href: string, fallback: string) {
   return lookup(t, href, "title", fallback);
 }
 
-export function navDesc(t: T, href: string, fallback: string) {
-  return lookup(t, href, "desc", fallback);
+export function navDesc(
+  t: T,
+  href: string,
+  fallback: string,
+  vars?: Record<string, string | number>,
+) {
+  return lookup(t, href, "desc", fallback, vars);
 }

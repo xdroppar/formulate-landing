@@ -13,7 +13,7 @@
     "items": {
       "supplements": {
         "title": "Ver catálogo",
-        "desc": "260+ suplementos, puntuados"
+        "desc": "{count} suplementos, puntuados"
       },
       "brands": {
         "title": "Marcas",
@@ -107,7 +107,6 @@
     "typeAnySupplementSeeIts": "Escribe cualquier suplemento. Mira su puntuación real,",
     "realProductsRealScores": "Productos reales · puntuaciones reales",
     "actualProductsFromTheCatalog": "Productos reales del catálogo —",
-    "browseAll260ScoredProducts": "Ver los más de 260 productos puntuados",
     "whyYouCanTrustThe": "Por qué puedes fiarte de la puntuación",
     "builtOnTheStandardsA": "Basado en los estándares que comprobaría un farmacéutico —",
     "weReadTheCredentialsThat": "Leemos las certificaciones que de verdad significan algo —",
@@ -201,6 +200,7 @@
     "whatSActuallyGood": "qué es realmente bueno.",
     "faq": "FAQ",
     "actuallyWorking": "de verdad",
-    "inYourRoutine": "en tu rutina."
+    "inYourRoutine": "en tu rutina.",
+    "browseAllScoredProducts": "Ver los {count} productos puntuados"
   }
 }

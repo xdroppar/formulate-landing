@@ -13,7 +13,7 @@
     "items": {
       "supplements": {
         "title": "Katalog ansehen",
-        "desc": "260+ bewertete Präparate"
+        "desc": "{count} bewertete Präparate"
       },
       "brands": {
         "title": "Marken",
