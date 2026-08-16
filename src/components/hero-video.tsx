@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "@/components/i18n-provider";
+
 import { useCallback, useEffect, useRef, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
@@ -33,6 +35,7 @@ import { trackEvent } from "@/lib/analytics";
  * playsInline stops iOS hijacking playback while keeping its fullscreen button.
  */
 export function HeroVideo() {
+  const t = useT();
   const portraitRef = useRef<HTMLVideoElement>(null);
   const wideRef = useRef<HTMLVideoElement>(null);
   const seen = useRef<Set<number>>(new Set());
@@ -137,7 +140,7 @@ export function HeroVideo() {
         onClick={toggleSound}
         className="text-[13px] font-medium text-muted hover:text-accent transition-colors"
       >
-        {muted ? "🔇 Tap for sound · 53s walkthrough" : "🔊 Sound on"}
+        {muted ? t("chrome.tapForSound") : "🔊 Sound on"}
       </button>
     </div>
   );

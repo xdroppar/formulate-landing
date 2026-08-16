@@ -270,9 +270,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             </h1>
 
             <p className="hero-animate-delay-2 text-[clamp(16px,2vw,20px)] text-muted max-w-[520px] mx-auto lg:mx-0 leading-relaxed mb-9">
-              Score your supplements against clinical research, track your food and meals,
-              and watch your nutrient coverage fill in — all in one free app built for
-              longevity, not marketing.
+              {t("home.heroSub")}
             </p>
 
             <div className="hero-animate-delay-3 flex flex-col items-center lg:items-start gap-4">
@@ -333,9 +331,9 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-border bg-border">
             {[
               { node: <><AnimatedNumber value={260} />+</>, label: "Supplements scored" },
-              { node: <><AnimatedNumber value={600} />+</>, label: "Whole foods & meals" },
-              { node: <><AnimatedNumber value={26} />+</>, label: "Nutrients tracked daily" },
-              { node: <>$<AnimatedNumber value={0} /></>, label: "Cost — always free" },
+              { node: <><AnimatedNumber value={600} />+</>, label: t("home.wholeFoodsMeals") },
+              { node: <><AnimatedNumber value={26} />+</>, label: t("home.nutrientsTrackedDaily") },
+              { node: <>$<AnimatedNumber value={0} /></>, label: t("home.costAlwaysFree") },
             ].map((s) => (
               <div key={s.label} className="bg-surface px-4 py-7 text-center">
                 <div className="text-[clamp(26px,4vw,38px)] font-black text-text">
@@ -396,20 +394,17 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.whyYouCanTrustThe")}</div>
             <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[700px] mx-auto mb-4">{t("home.builtOnTheStandardsA")} <span className="text-muted">{t("home.notSponsorships")}</span>
             </h2>
-            <p className="text-muted text-[16px] max-w-[620px] mx-auto leading-relaxed">
-              Every product runs through the same six-factor algorithm, weighted by what actually
-              predicts quality. The weights are public and the evidence base is versioned.
-            </p>
+            <p className="text-muted text-[16px] max-w-[620px] mx-auto leading-relaxed">{t("home.everyProductRunsThroughThe")}</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
             {[
-              { w: "25%", n: "Clinical evidence", c: "text-green-400" },
-              { w: "20%", n: "Manufacturing", c: "text-blue-400" },
-              { w: "20%", n: "Dose accuracy", c: "text-cyan-400" },
-              { w: "15%", n: "Bioavailability", c: "text-amber-400" },
-              { w: "10%", n: "Transparency", c: "text-purple-400" },
-              { w: "10%", n: "Safety", c: "text-red-400" },
+              { w: "25%", n: t("home.clinicalEvidence"), c: "text-green-400" },
+              { w: "20%", n: t("home.manufacturing"), c: "text-blue-400" },
+              { w: "20%", n: t("home.doseAccuracy"), c: "text-cyan-400" },
+              { w: "15%", n: t("home.bioavailability"), c: "text-amber-400" },
+              { w: "10%", n: t("home.transparency"), c: "text-purple-400" },
+              { w: "10%", n: t("home.safety"), c: "text-red-400" },
             ].map((f) => (
               <div key={f.n} className="bg-surface border border-border rounded-2xl p-4 text-center">
                 <div className={`text-2xl font-black ${f.c}`}>{f.w}</div>
@@ -420,9 +415,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
 
           <div className="max-w-[760px] mx-auto rounded-2xl bg-surface border border-border p-6 text-center">
             <p className="text-[15px] text-text leading-relaxed mb-2">{t("home.weReadTheCredentialsThat")} <span className="font-semibold text-text">{t("home.nsf")}</span>,{" "}
-              <span className="font-semibold text-text">{t("home.uspVerified")}</span>, <span className="font-semibold text-text">{t("home.informedSport")}</span>,
-              third-party COAs — alongside peer-reviewed human research for every ingredient.
-            </p>
+              <span className="font-semibold text-text">{t("home.uspVerified")}</span>, <span className="font-semibold text-text">{t("home.informedSport")}</span>{t("home.thirdPartyCoasAlongsidePeer")}</p>
             <p className="text-[13px] text-muted">{t("home.noBrandPaysToBe")}</p>
             <Link
               href="/methodology/supplements"
@@ -438,19 +431,16 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         <Reveal>
           <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.thePlatform")}</div>
           <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] text-center max-w-[760px] mx-auto mb-4">{t("home.oneAppForEverythingYou")}</h2>
-          <p className="text-muted text-[17px] max-w-[600px] mx-auto text-center leading-relaxed mb-14">
-            Most apps track calories. Formulate scores quality — every supplement, every food, every
-            nutrient — so you can build a routine that actually moves the needle.
-          </p>
+          <p className="text-muted text-[17px] max-w-[600px] mx-auto text-center leading-relaxed mb-14">{t("home.mostAppsTrackCaloriesFormulate")}</p>
         </Reveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { icon: "🔬", title: "Supplement scoring", desc: "Every product scored 50–100 on dose accuracy, ingredient quality, bioavailability, testing & evidence." },
-            { icon: "🍽️", title: "Food & meal tracking", desc: "Log whole foods, branded items and custom meals — each scored for nutritional quality, not just calories." },
-            { icon: "🎯", title: "Nutrient coverage", desc: "See exactly which of 26 key nutrients you hit each day — combining your supplements and your diet, with more you can add anytime." },
-            { icon: "📊", title: "Your Stack Score", desc: "A single, personalized score for how complete and high-quality your supplement stack really is." },
-            { icon: "💧", title: "Hydration & habits", desc: "Track water, build streaks, and log everything in seconds with per-time-slot scheduling." },
-            { icon: "🧬", title: "Progress & journey", desc: "Level up across health pillars, earn achievements, and watch your trends improve over time." },
+            { icon: "🔬", title: t("home.supplementScoring"), desc: t("home.everyProductScored50100") },
+            { icon: "🍽️", title: t("home.foodMealTracking"), desc: t("home.logWholeFoodsBrandedItems") },
+            { icon: "🎯", title: t("home.nutrientCoverage"), desc: t("home.seeExactlyWhichOf26") },
+            { icon: "📊", title: t("home.yourStackScore"), desc: t("home.aSinglePersonalizedScoreFor") },
+            { icon: "💧", title: t("home.hydrationHabits"), desc: t("home.trackWaterBuildStreaksAnd") },
+            { icon: "🧬", title: t("home.progressJourney"), desc: t("home.levelUpAcrossHealthPillars") },
           ].map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 90}>
               <div className="group bg-surface border border-border rounded-2xl p-6 hover:border-accent/30 hover:-translate-y-1 transition-all h-full">
@@ -468,7 +458,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
       {/* ───────────────── Feature spotlights ───────────────── */}
       <div className="border-t border-border">
         <Spotlight
-          eyebrow="Supplement scores"
+          eyebrow={t("home.supplementScores")}
           title={<>{t("home.stopGuessing")} <span className="text-muted">{t("home.seeTheRealScore")}</span></>}
           body={t("home.whetherADoseIsActually")}
           bullets={[
@@ -486,7 +476,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
       <div className="bg-surface border-t border-b border-border">
         <Spotlight
           flip
-          eyebrow="Nutrient coverage"
+          eyebrow={t("home.nutrientCoverage")}
           title={<>{t("home.fillInTheGapsYour")} <span className="text-muted">{t("home.dietLeavesBehind")}</span></>}
           body={t("home.formulateCombinesWhatYouEat")}
           bullets={[
@@ -496,13 +486,13 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             t("home.noDoubleCountingBetweenYour"),
           ]}
           href={withUtm(`${APP_URL}/stack/nutrients`, { source: "landing", campaign: "spotlight_nutrients" })}
-          cta="See how coverage works"
+          cta={t("home.seeHowCoverageWorks")}
           preview={<NutrientCoveragePreview />}
         />
       </div>
 
       <Spotlight
-        eyebrow="Food & meals"
+        eyebrow={t("home.foodMeals")}
         title={<>{t("home.trackFoodBy")} <span className="text-muted">{t("home.qualityNotJustCalories")}</span></>}
         body={t("home.logWholeFoodsBrandedProducts")}
         bullets={[
@@ -512,7 +502,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           t("home.portionAwareScoringTooMuch"),
         ]}
         href={withUtm(`${APP_URL}/meals`, { source: "landing", campaign: "spotlight_meals" })}
-        cta="Explore meals & recipes"
+        cta={t("home.exploreMealsRecipes")}
         preview={<MealLogPreview />}
       />
 
@@ -529,7 +519,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           <div className="flex items-baseline justify-between mb-4">
             <h3 className="text-lg font-bold text-text">{t("home.topScoringRecipes")}</h3>
             <a href="/recipes" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
-              Browse {allRecipes.length}+ recipes <ArrowIcon className="w-3.5 h-3.5" />
+              {t("home.browseNRecipes", { n: allRecipes.length })} <ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 mb-12">
@@ -551,7 +541,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           <div className="flex items-baseline justify-between mb-4">
             <h3 className="text-lg font-bold text-text">{t("home.highestScoringWholeFoods")}</h3>
             <a href="/foods" className="text-sm font-semibold text-accent hover:gap-2.5 inline-flex items-center gap-1.5 transition-all">
-              Browse {allFoods.length}+ foods <ArrowIcon className="w-3.5 h-3.5" />
+              {t("home.browseNFoods", { n: allFoods.length })} <ArrowIcon className="w-3.5 h-3.5" />
             </a>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
@@ -574,7 +564,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
       <div className="bg-surface border-t border-b border-border">
         <Spotlight
           flip
-          eyebrow="Progress & journey"
+          eyebrow={t("home.progressJourney")}
           title={<>{t("home.buildMomentumThat")} <span className="text-muted">{t("home.actuallySticks")}</span></>}
           body={t("home.loggingConsistentlyIsTheHard")}
           bullets={[
@@ -584,7 +574,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             t("home.yourStackScoreClimbsAs"),
           ]}
           href={withUtm(`${APP_URL}`, { source: "landing", campaign: "spotlight_journey" })}
-          cta="Start your journey"
+          cta={t("home.startYourJourney")}
           preview={<JourneyPreview />}
         />
       </div>
@@ -598,12 +588,12 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             {[
               {
                 stat: "0",
-                desc: "Safety or effectiveness reviews a supplement must pass before it's legally sold to you.",
+                desc: t("home.safetyOrEffectivenessReviewsA"),
                 source: "U.S. law — DSHEA, 1994",
               },
               {
                 stat: "+478%",
-                desc: "Over the labeled dose some melatonin products tested at — others ran 83% under, and ~1 in 4 contained unlisted serotonin.",
+                desc: t("home.overTheLabeledDoseSome"),
                 source: "2017, J. Clinical Sleep Medicine",
               },
               {
@@ -633,10 +623,10 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {[
-              { num: "01", title: "Search & score", desc: "Look up any supplement or food. See exactly how it scores and why — dose, quality, evidence, and more." },
-              { num: "02", title: "Build your stack", desc: "Add the best products and foods. Get one personalized Stack Score for the whole routine." },
-              { num: "03", title: "Log & cover gaps", desc: "Log what you take and eat. Watch your nutrient coverage fill in and your gaps shrink." },
-              { num: "04", title: "Track progress", desc: "Level up, keep streaks, and see trends prove your routine is actually working." },
+              { num: "01", title: t("home.searchScore"), desc: t("home.lookUpAnySupplementOr") },
+              { num: "02", title: t("home.buildYourStack"), desc: t("home.addTheBestProductsAnd") },
+              { num: "03", title: t("home.logCoverGaps"), desc: t("home.logWhatYouTakeAnd") },
+              { num: "04", title: t("home.trackProgress"), desc: t("home.levelUpKeepStreaksAnd") },
             ].map((s, i) => (
               <Reveal key={s.num} delay={i * 80}>
                 <div>
@@ -659,10 +649,10 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </Reveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
-            { label: "Ingredient quality", desc: "Are the ingredient forms clinically studied and bioavailable?" },
-            { label: "Dose accuracy", desc: "Does each ingredient meet its clinically effective dose?" },
-            { label: "Label transparency", desc: "Full disclosure or proprietary blends hiding weak ingredients?" },
-            { label: "Third-party testing", desc: "Is the product independently tested for purity and potency?" },
+            { label: t("home.ingredientQuality"), desc: t("home.areTheIngredientFormsClinically") },
+            { label: t("home.doseAccuracy"), desc: t("home.doesEachIngredientMeetIts") },
+            { label: t("home.labelTransparency"), desc: t("home.fullDisclosureOrProprietaryBlends") },
+            { label: t("home.thirdPartyTesting"), desc: t("home.isTheProductIndependentlyTested") },
           ].map((item, i) => (
             <Reveal key={item.label} delay={i * 80}>
               <div className="bg-surface border border-border rounded-xl p-6 h-full">
@@ -685,10 +675,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         <Reveal>
           <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.howFormulateCompares")}</div>
           <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[640px] mx-auto mb-4">{t("home.builtToTellYouThe")}</h2>
-          <p className="text-muted text-[17px] max-w-[560px] mx-auto text-center leading-relaxed mb-12">
-            Calorie trackers count what you eat. Influencer lists are paid placements. Formulate
-            scores quality against research — and answers to no one but you.
-          </p>
+          <p className="text-muted text-[17px] max-w-[560px] mx-auto text-center leading-relaxed mb-12">{t("home.calorieTrackersCountWhatYou")}</p>
         </Reveal>
         <Reveal delay={120}>
           <div className="overflow-x-auto rounded-2xl border border-border bg-surface">
@@ -706,12 +693,12 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
               </thead>
               <tbody>
                 {[
-                  { feat: "Scores supplement quality (dose, form, evidence)", f: "yes", c: "no", i: "partial" },
-                  { feat: "Scores food on quality — not just calories", f: "yes", c: "partial", i: "no" },
-                  { feat: "Tracks vitamin & mineral coverage", f: "yes", c: "partial", i: "no" },
-                  { feat: "Independent of brand sponsorships", f: "yes", c: "partial", i: "no" },
-                  { feat: "Transparent, published methodology", f: "yes", c: "no", i: "no" },
-                  { feat: "Free to use, no paywall", f: "yes", c: "partial", i: "yes" },
+                  { feat: t("home.scoresSupplementQualityDoseForm"), f: "yes", c: "no", i: "partial" },
+                  { feat: t("home.scoresFoodOnQualityNot"), f: "yes", c: "partial", i: "no" },
+                  { feat: t("home.tracksVitaminMineralCoverage"), f: "yes", c: "partial", i: "no" },
+                  { feat: t("home.independentOfBrandSponsorships"), f: "yes", c: "partial", i: "no" },
+                  { feat: t("home.transparentPublishedMethodology"), f: "yes", c: "no", i: "no" },
+                  { feat: t("home.freeToUseNoPaywall"), f: "yes", c: "partial", i: "yes" },
                 ].map((row, idx) => (
                   <tr key={row.feat} className={idx % 2 ? "bg-bg/30" : ""}>
                     <td className="px-5 py-4 text-text font-medium border-t border-border">{row.feat}</td>
@@ -771,10 +758,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         <Reveal>
           <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.pricing")}</div>
           <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[600px] mx-auto mb-4">{t("home.everythingForFree")}</h2>
-          <p className="text-muted text-[17px] max-w-[540px] mx-auto text-center leading-relaxed mb-12">
-            No tiers, no trials, no upsells. Formulate is funded by optional affiliate links — never by
-            charging you or by changing a score.
-          </p>
+          <p className="text-muted text-[17px] max-w-[540px] mx-auto text-center leading-relaxed mb-12">{t("home.noTiersNoTrialsNo")}</p>
         </Reveal>
         <Reveal delay={120}>
           <div className="max-w-[460px] mx-auto rounded-2xl border border-accent/25 bg-surface p-8 relative overflow-hidden">
@@ -783,15 +767,15 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[12px] font-bold mb-5">{t("home.freeForever")}</div>
               <div className="flex items-end gap-2 mb-6">
                 <span className="text-6xl font-black text-text leading-none">$0</span>
-                <span className="text-muted text-sm mb-1.5">/ forever</span>
+                <span className="text-muted text-sm mb-1.5">{t("home.forever")}</span>
               </div>
               <ul className="space-y-3 mb-8">
                 {[
                   `Browse ${SCORED_PRODUCTS_CLAIM} scored supplements — no account needed`,
-                  "Track food, meals & nutrient coverage",
-                  "Build your stack and get your Stack Score",
-                  "Hydration, streaks, and progress tracking",
-                  "Full scoring methodology, always transparent",
+                  t("home.trackFoodMealsNutrientCoverage"),
+                  t("home.buildYourStackAndGet"),
+                  t("home.hydrationStreaksAndProgressTracking"),
+                  t("home.fullScoringMethodologyAlwaysTransparen"),
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-text leading-relaxed">
                     <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
@@ -824,23 +808,23 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             {
               slug: "how-to-build-a-supplement-stack",
               category: "Guide",
-              title: "How to Build a Supplement Stack",
-              desc: "Learn how to pick supplements that actually work, avoid redundancy, and build a stack tailored to your goals.",
-              readTime: "12 min read",
+              title: t("home.howToBuildASupplement"),
+              desc: t("home.learnHowToPickSupplements"),
+              readTime: t("home.12MinRead"),
             },
             {
               slug: "protein-guide",
-              category: "Nutrition",
-              title: "The Complete Guide to Protein",
-              desc: "How much protein you actually need, the best whole-food sources, and how to hit your daily target from food and supplements.",
-              readTime: "9 min read",
+              category: t("home.nutrition"),
+              title: t("home.theCompleteGuideToProtein"),
+              desc: t("home.howMuchProteinYouActually"),
+              readTime: t("home.9MinRead"),
             },
             {
               slug: "best-sleep-supplement-protocol",
-              category: "Protocol",
-              title: "The Best Sleep Supplement Protocol",
-              desc: "Magnesium, L-theanine, and glycine — how to combine sleep supplements backed by clinical trials.",
-              readTime: "10 min read",
+              category: t("home.protocol"),
+              title: t("home.theBestSleepSupplementProtocol"),
+              desc: t("home.magnesiumLTheanineAndGlycine"),
+              readTime: t("home.10MinRead"),
             },
           ].map((guide, i) => (
             <Reveal key={guide.slug} delay={i * 80}>

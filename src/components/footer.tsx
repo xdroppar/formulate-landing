@@ -1,10 +1,15 @@
+"use client";
+
+import { useT } from "@/components/i18n-provider";
 import Link from "next/link";
 import Image from "next/image";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { MobileAppBadges } from "@/components/mobile-app-badges";
 import { FooterExplore } from "@/components/footer-explore";
+import { FooterLegal } from "@/components/footer-legal";
 
 export function Footer() {
+  const t = useT();
   return (
     <footer className="px-6 md:px-12 pt-10 pb-6 border-t border-border">
       {/* Mobile-app badges — render only when ENABLED flag in
@@ -23,50 +28,23 @@ export function Footer() {
           </span>
         </div>
         <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
-          <Link href="/supplements" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Supplements
-          </Link>
-          <Link href="/foods" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Foods
-          </Link>
-          <Link href="/recipes" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Recipes
-          </Link>
-          <Link href="/guides" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Guides
-          </Link>
-          <Link href="/methodology" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Methodology
-          </Link>
-          <TrackedDownloadLink href="/download" source="footer" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Desktop app
-          </TrackedDownloadLink>
-          <Link href="/about" className="text-xs text-muted hover:text-text transition-colors py-2">
-            About
-          </Link>
-          <Link href="/disclosure" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Disclosure
-          </Link>
-          <Link href="/privacy" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Privacy
-          </Link>
-          <Link href="/terms" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Terms
-          </Link>
+          <Link href="/supplements" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.supplements")}</Link>
+          <Link href="/foods" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.foods")}</Link>
+          <Link href="/recipes" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.recipes")}</Link>
+          <Link href="/guides" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.guides")}</Link>
+          <Link href="/methodology" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.methodology")}</Link>
+          <TrackedDownloadLink href="/download" source="footer" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.desktopApp")}</TrackedDownloadLink>
+          <Link href="/about" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.about")}</Link>
+          <Link href="/disclosure" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.disclosure")}</Link>
+          <Link href="/privacy" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.privacy")}</Link>
+          <Link href="/terms" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.terms")}</Link>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Link href="/support" className="text-xs text-muted hover:text-text transition-colors py-2">
-            Support
-          </Link>
+          <Link href="/support" className="text-xs text-muted hover:text-text transition-colors py-2">{t("footerLinks.support")}</Link>
           <span className="text-xs text-muted">&copy; 2026 Formulate. All rights reserved.</span>
         </div>
       </div>
-      <div className="text-[11px] text-muted/70 text-center leading-relaxed max-w-[700px] mx-auto">
-        Formulate is an informational tool and does not provide medical advice, diagnosis, or treatment.
-        Supplement scores are based on publicly available clinical research and do not constitute a recommendation
-        to take or avoid any product. Always consult a qualified healthcare professional before making changes to
-        your supplement routine. Individual results may vary.
-      </div>
+      <FooterLegal />
     </footer>
   );
 }

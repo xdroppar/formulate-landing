@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "@/components/i18n-provider";
+
 import { trackEvent } from "@/lib/analytics";
 import {
   ANDROID_LIVE,
@@ -55,6 +57,7 @@ export function MobileAppBadges({
   size = "md",
   emphasis = "default",
 }: Props) {
+  const t = useT();
   if (!IOS_LIVE && !ANDROID_LIVE) return null;
 
   const handleClick = (destination: "ios" | "android") => {
@@ -81,7 +84,7 @@ export function MobileAppBadges({
         >
           <AppleMark className="w-6 h-6 shrink-0" />
           <span className="flex flex-col items-start leading-tight">
-            <span className="text-[10px] font-medium opacity-70">Download on the</span>
+            <span className="text-[10px] font-medium opacity-70">{t("chrome.downloadOnThe")}</span>
             <span className="text-sm font-semibold">App Store</span>
           </span>
         </a>

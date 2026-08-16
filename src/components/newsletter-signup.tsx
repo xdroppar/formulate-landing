@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "@/components/i18n-provider";
+
 import { useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
@@ -13,6 +15,7 @@ interface NewsletterSignupProps {
 type Status = "idle" | "submitting" | "success" | "error";
 
 export function NewsletterSignup({ source }: NewsletterSignupProps) {
+  const t = useT();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
@@ -60,12 +63,8 @@ export function NewsletterSignup({ source }: NewsletterSignupProps) {
   return (
     <div className="mt-14 rounded-2xl bg-surface border border-border px-6 py-8">
       <div className="max-w-[440px] mx-auto text-center">
-        <div className="text-[11px] font-bold tracking-[1.5px] uppercase text-accent mb-3">
-          📬 Get new guides in your inbox
-        </div>
-        <h3 className="text-lg font-bold text-text mb-2">
-          Evidence-based supplement guides, no spam
-        </h3>
+        <div className="text-[11px] font-bold tracking-[1.5px] uppercase text-accent mb-3">{t("chrome.getNewGuidesInYour")}</div>
+        <h3 className="text-lg font-bold text-text mb-2">{t("chrome.evidenceBasedSupplementGuidesNo")}</h3>
         <p className="text-sm text-muted mb-5 leading-relaxed">
           We send a short digest when new guides drop &mdash; nothing else.
           No affiliate pushes, no sponsored content, unsubscribe anytime.

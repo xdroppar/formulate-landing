@@ -128,6 +128,15 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
   );
 }
 
+
+/** Pillar names live in lib/pillars (a data file the nav only reads), so they
+ *  are translated here at render rather than duplicated into the catalog. */
+function pillarTitle(t: (k: string) => string, title: string) {
+  const key = `pillars.${title.replace(/[^A-Za-z]/g, "").toLowerCase()}`;
+  const out = t(key);
+  return out === key ? title : out;
+}
+
 export function Nav() {
   const t = useT();
   const [open, setOpen] = useState(false);
@@ -147,9 +156,7 @@ export function Nav() {
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[200] focus:px-4 focus:py-2 focus:rounded-lg focus:bg-accent focus:text-bg focus:text-sm focus:font-semibold"
-      >
-        Skip to main content
-      </a>
+      >{t("chrome.skipToMainContent")}</a>
 
       <nav className="fixed top-0 left-0 right-0 z-100 bg-bg/85 backdrop-blur-md border-b border-border">
         <div className="flex items-center justify-between px-6 md:px-12 py-3">
@@ -163,15 +170,15 @@ export function Nav() {
           <div className="hidden lg:flex items-center gap-5">
             {PILLARS.map((p) =>
               p.status === "live" ? (
-                <NavMenu key={p.slug} label={p.title} items={PILLAR_SECTIONS[p.slug] ?? []} icon={p.icon} />
+                <NavMenu key={p.slug} label={pillarTitle(t, p.title)} items={PILLAR_SECTIONS[p.slug] ?? []} icon={p.icon} />
               ) : (
                 <span
                   key={p.slug}
                   className="flex items-center gap-1.5 text-sm font-medium text-muted/40 cursor-default whitespace-nowrap"
-                  title={`${p.title} — coming soon`}
+                  title={`${pillarTitle(t, p.title)} — ${t("chrome.soon")}`}
                 >
                   <span aria-hidden="true">{p.icon}</span>
-                  {p.title}
+                  {pillarTitle(t, p.title)}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">soon</span>
                 </span>
               )
@@ -190,16 +197,12 @@ export function Nav() {
               href="/start"
               onClick={() => trackEvent("start_click", { source: "nav" })}
               className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
-            >
-              Get started free
-            </Link>
+            >{t("chrome.getStartedFree")}</Link>
             {/* Returning users — secondary, desktop bar only (in the mobile menu otherwise). */}
             <a
               href={withUtm("https://app.formulate-health.app", { source: "landing", campaign: "nav_open_app" })}
               className="hidden lg:inline-flex px-4 py-2.5 rounded-xl text-sm font-semibold border border-border text-text hover:border-accent hover:text-accent transition-all"
-            >
-              Open App
-            </a>
+            >{t("chrome.openApp")}</a>
             {/* Mobile hamburger */}
             <button
               onClick={() => setOpen(!open)}
@@ -222,7 +225,7 @@ export function Nav() {
               p.status === "live" ? (
                 <div key={p.slug} className="flex flex-col gap-2">
                   <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">
-                    <span aria-hidden="true" className="mr-1.5">{p.icon}</span>{p.title}
+                    <span aria-hidden="true" className="mr-1.5">{p.icon}</span>{pillarTitle(t, p.title)}
                   </span>
                   {(PILLAR_SECTIONS[p.slug] ?? []).map((it) => (
                     <Link
@@ -239,7 +242,7 @@ export function Nav() {
               ) : (
                 <span key={p.slug} className="flex items-center gap-2 text-sm font-medium text-muted/40 py-1">
                   <span aria-hidden="true">{p.icon}</span>
-                  {p.title}
+                  {pillarTitle(t, p.title)}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40 border border-border rounded-full px-1.5 py-0.5">
                     Soon
                   </span>

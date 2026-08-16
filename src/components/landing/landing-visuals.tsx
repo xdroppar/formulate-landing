@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "@/components/i18n-provider";
+
 import Image from "next/image";
 import { useEffect, useState, type ReactNode } from "react";
 import { useInView } from "./use-in-view";
@@ -314,6 +316,7 @@ const DEFAULT_HERO_ROWS: HeroRow[] = [
 ];
 
 export function HeroPreview({ products }: { products?: HeroRow[] }) {
+  const t = useT();
   const rows = products && products.length ? products : DEFAULT_HERO_ROWS;
   return (
     <div className="relative">
@@ -325,13 +328,11 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
           <div className="flex items-center gap-2.5">
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-[11px] font-black text-bg">JD</div>
             <div>
-              <div className="text-[13px] font-bold text-text leading-tight">My Stack</div>
-              <div className="text-[10px] text-muted">8 supplements · 12 foods</div>
+              <div className="text-[13px] font-bold text-text leading-tight">{t("chrome.myStack")}</div>
+              <div className="text-[10px] text-muted">{t("visuals.8Supplements12Foods")}</div>
             </div>
           </div>
-          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-warning/10 text-warning text-[10px] font-bold">
-            🔥 14-day streak
-          </div>
+          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-warning/10 text-warning text-[10px] font-bold">{t("visuals.14DayStreak")}</div>
         </div>
 
         {/* Stack score hero card */}
@@ -344,17 +345,16 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
                 <span className="text-[11px] font-bold tracking-wide uppercase text-muted">Stack Score</span>
                 <span className="px-1.5 py-0.5 rounded bg-accent/15 text-accent text-[10px] font-bold">+6 ▲</span>
               </div>
-              <AnimatedBar label="Quality" value={92} sub="avg 92" color="#10B981" delay={200} />
-              <AnimatedBar label="Coverage" value={78} sub="20/26" color="#3B82F6" delay={350} />
-              <AnimatedBar label="Nutrition" value={84} sub="supps + diet" color="#7c6dfa" delay={500} />
+              <AnimatedBar label={t("visuals.quality")} value={92} sub="avg 92" color="#10B981" delay={200} />
+              <AnimatedBar label={t("visuals.coverage")} value={78} sub="20/26" color="#3B82F6" delay={350} />
+              <AnimatedBar label={t("visuals.nutritionLabel")} value={84} sub={t("visuals.suppsDiet")} color="#7c6dfa" delay={500} />
             </div>
           </div>
           {/* plain-language legend so the three metrics self-explain */}
           <div className="relative mt-3 pt-3 border-t border-border/60 text-[10px] leading-relaxed text-muted">
             <span className="text-text font-semibold">Quality</span> of your products ·{" "}
             <span className="text-text font-semibold">Coverage</span> of your body&apos;s needs ·{" "}
-            <span className="text-text font-semibold">Nutrition</span> from food + supps
-          </div>
+            <span className="text-text font-semibold">Nutrition</span>{" "}{t("visuals.fromFoodSupps")}</div>
         </div>
 
         {/* logged supplement rows */}
@@ -384,9 +384,9 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
               <div className="text-right shrink-0">
                 <div className="text-[13px] font-black leading-none" style={{ color: scoreColor(p.score) }}>{p.score}</div>
                 {p.logged ? (
-                  <span className="text-[9px] font-bold text-accent">✓ Logged</span>
+                  <span className="text-[9px] font-bold text-accent">{t("visuals.logged")}</span>
                 ) : (
-                  <span className="text-[9px] font-semibold text-muted">Tap to log</span>
+                  <span className="text-[9px] font-semibold text-muted">{t("visuals.tapToLog")}</span>
                 )}
               </div>
             </div>
@@ -413,6 +413,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
 
 // 1 — Supplement score breakdown (real data: Thorne Creatine, 98/A+)
 export function ScoreBreakdownPreview({ image }: { image?: string }) {
+  const t = useT();
   const bars = [
     { label: "Clinical Evidence", value: 100, color: "#10B981" },
     { label: "Dose Accuracy", value: 95, color: "#10B981" },
@@ -431,9 +432,7 @@ export function ScoreBreakdownPreview({ image }: { image?: string }) {
         <div className="flex-1 min-w-0">
           <div className="text-[15px] font-bold text-text truncate">Creatine Monohydrate</div>
           <div className="text-[12px] text-muted truncate">Thorne · NSF Certified for Sport</div>
-          <div className="mt-1.5 inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/15 text-accent text-[10px] font-bold">
-            Grade A+ · Top value in category
-          </div>
+          <div className="mt-1.5 inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/15 text-accent text-[10px] font-bold">{t("visuals.gradeATopValueIn")}</div>
         </div>
         <AnimatedScoreRing score={98} size={72} strokeWidth={6} />
       </div>
@@ -448,6 +447,7 @@ export function ScoreBreakdownPreview({ image }: { image?: string }) {
 
 // 2 — Nutrient coverage rings
 export function NutrientCoveragePreview() {
+  const t = useT();
   const nutrients = [
     { name: "Vitamin D", pct: 100 },
     { name: "Omega-3", pct: 88 },
@@ -459,11 +459,11 @@ export function NutrientCoveragePreview() {
     { name: "Calcium", pct: 58 },
   ];
   return (
-    <AppWindow className="max-w-[460px]" title="Nutrients — coverage">
+    <AppWindow className="max-w-[460px]" title={t("visuals.nutrientsCoverage")}>
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-[13px] font-bold text-text">Daily nutrient coverage</div>
-          <div className="text-[11px] text-muted">Supplements + meals combined</div>
+          <div className="text-[11px] text-muted">{t("visuals.supplementsMealsCombined")}</div>
         </div>
         <div className="text-right">
           <div className="text-2xl font-black text-accent leading-none">
@@ -484,13 +484,14 @@ export function NutrientCoveragePreview() {
 
 // 3 — Meal / food day log (MFP / Cronometer style)
 export function MealLogPreview() {
+  const t = useT();
   const meals = [
-    { slot: "Breakfast", name: "Greek Yogurt Parfait", kcal: 320, grade: 91, image: "/images/foods/greek-yogurt.webp" },
-    { slot: "Lunch", name: "Salmon & Quinoa Bowl", kcal: 540, grade: 95, image: "/images/foods/salmon.webp" },
-    { slot: "Snack", name: "Almonds + Blueberries", kcal: 210, grade: 88, image: "/images/foods/almonds.webp" },
+    { slot: "Breakfast", name: t("visuals.greekYogurtParfait"), kcal: 320, grade: 91, image: "/images/foods/greek-yogurt.webp" },
+    { slot: "Lunch", name: t("visuals.salmonQuinoaBowl"), kcal: 540, grade: 95, image: "/images/foods/salmon.webp" },
+    { slot: "Snack", name: t("visuals.almondsBlueberries"), kcal: 210, grade: 88, image: "/images/foods/almonds.webp" },
   ];
   return (
-    <AppWindow className="max-w-[460px]" title="My Meals — Today">
+    <AppWindow className="max-w-[460px]" title={t("visuals.myMealsToday")}>
       {/* macro summary */}
       <div className="grid grid-cols-4 gap-2 mb-4">
         {[
@@ -535,6 +536,7 @@ export function MealLogPreview() {
 
 // 4 — Journey / progress
 export function JourneyPreview() {
+  const t = useT();
   const level = 12;
   const pct = 86; // progress to next level
   const tier = tierFor(level);
@@ -546,7 +548,7 @@ export function JourneyPreview() {
     { emoji: "🥦", name: "Nutrition", lvl: 4, value: 46 },
   ];
   return (
-    <AppWindow className="max-w-[460px]" title="My Journey">
+    <AppWindow className="max-w-[460px]" title={t("visuals.myJourney")}>
       <div className="flex items-start gap-4 mb-4">
         <div className="relative shrink-0">
           <LevelRing level={level} pct={pct} color={tier.color} size={88} strokeWidth={7} />
@@ -558,8 +560,8 @@ export function JourneyPreview() {
           </span>
         </div>
         <div className="flex-1 min-w-0">
-          <div className="text-[13px] font-bold text-text">Health Pillars</div>
-          <div className="text-[11px] text-muted mb-2">2,140 XP · 360 to next level</div>
+          <div className="text-[13px] font-bold text-text">{t("visuals.healthPillars")}</div>
+          <div className="text-[11px] text-muted mb-2">{t("visuals.2140Xp360To")}</div>
           <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
             <AnimatedBar label="" value={pct} color={tier.color} />
           </div>
@@ -594,7 +596,7 @@ export function JourneyPreview() {
         })}
       </div>
       <div className="mt-4 flex gap-2">
-        {["🏅 7-day streak", "🎯 First A-stack", "🔬 50 scores read"].map((b, i) => (
+        {[t("visuals.7DayStreak"), t("visuals.firstAStack"), t("visuals.50ScoresRead")].map((b, i) => (
           <div
             key={b}
             className="flex-1 text-center rounded-lg border border-border bg-surface/50 py-2 text-[9px] font-semibold text-muted animate-pop-in"
