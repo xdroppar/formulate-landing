@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "sync": "bash scripts/sync-catalog.sh",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "verify": "npm run --silent typecheck && node scripts/i18n-check.mjs && node scripts/translate-captions.mjs --check",
     "verify:i18n": "node scripts/i18n-check.mjs",
     "verify:captions": "node scripts/translate-captions.mjs --check",
-    "captions": "node scripts/translate-captions.mjs"
+    "captions": "node scripts/translate-captions.mjs",
+    "install-hooks": "git config core.hooksPath scripts/git-hooks",
+    "lint:gate": "node scripts/lint-gate.mjs",
+    "lint:baseline": "node scripts/lint-gate.mjs --write"
   },
   "repository": {
     "type": "git",
@@ -31,7 +34,8 @@
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^10.0.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.1.6",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"

@@ -1,0 +1,53 @@
+#!/bin/sh
+# formulate-landing self-verification gate.
+# Install in a fresh clone or worktree:  npm run install-hooks
+# Emergency bypass:                      git push --no-verify
+#
+# Before 2026-08-18 this repo had no gate of any kind: core.hooksPath was unset,
+# there was no typecheck script, and `npm run lint` ran `next lint`, which Next 16
+# removed -- it errored and nothing invoked it. Mirrors formulate-web's gate.
+#
+# The "[pre-push]" marker below is load-bearing. `git hook run pre-push | grep 'pre-push'`
+# matches git's OWN error text ("cannot find a hook named pre-push") and reports success
+# when no hook exists. Always grep for the bracketed form.
+
+# git sends "<local ref> <local sha> <remote ref> <remote sha>" per ref on stdin.
+PUSHING_TO_DEPLOY=0
+while read -r _local_ref local_sha remote_ref _remote_sha; do
+  case "$local_sha" in
+    "" | 0000000000000000000000000000000000000000) continue ;;
+  esac
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/master) PUSHING_TO_DEPLOY=1 ;;
+  esac
+done
+
+echo "[pre-push] typecheck: next typegen && tsc --noEmit"
+if ! npm run --silent typecheck; then
+  echo ""
+  echo "[pre-push] x typecheck failed - push blocked."
+  echo "           Fix the type errors, or bypass with: git push --no-verify"
+  exit 1
+fi
+echo "[pre-push] v typecheck passed"
+
+echo "[pre-push] lint ratchet: scripts/lint-gate.mjs"
+if ! npm run --silent lint:gate; then
+  echo ""
+  echo "[pre-push] x lint ratchet failed - push blocked."
+  exit 1
+fi
+
+# Build gate, deploy branch only. Vercel auto-deploys this site, and tsc/lint both pass
+# on the prerender-only failure classes. Scoped so wip pushes stay fast: a gate people
+# routinely bypass with --no-verify is worse than no gate.
+if [ "$PUSHING_TO_DEPLOY" = "1" ]; then
+  echo "[pre-push] deploy branch detected - npm run build (this is the slow one)"
+  if ! npm run --silent build; then
+    echo ""
+    echo "[pre-push] x build failed - push blocked."
+    exit 1
+  fi
+  echo "[pre-push] v build passed"
+fi
+exit 0
