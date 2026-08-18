@@ -1,6 +1,6 @@
 "use client";
 
-import { useT } from "@/components/i18n-provider";
+import { useI18n, useT } from "@/components/i18n-provider";
 
 import { useState } from "react";
 import { trackEvent } from "@/lib/analytics";
@@ -16,6 +16,7 @@ type Status = "idle" | "submitting" | "success" | "error";
 
 export function NewsletterSignup({ source }: NewsletterSignupProps) {
   const t = useT();
+  const { locale } = useI18n();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
@@ -31,7 +32,12 @@ export function NewsletterSignup({ source }: NewsletterSignupProps) {
       const res = await fetch(`${API_URL}/api/v1/newsletter/subscribe`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim(), source }),
+        // Send the language of the PAGE they subscribed from. It is the only
+        // moment this is knowable: a NewsletterSubscriber row has no user
+        // and no account, and the digest goes out from a cron days later
+        // with no request behind it. Someone subscribing from /zh is telling
+        // us which language they read.
+        body: JSON.stringify({ email: email.trim(), source, locale }),
       });
 
       if (!res.ok) {
