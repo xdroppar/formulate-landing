@@ -42,6 +42,19 @@ export const LOCALES: readonly LocaleDef[] = [
   { code: "en", nativeName: "English", englishName: "English", dir: "ltr", indexable: true },
   { code: "es", nativeName: "Español", englishName: "Spanish", dir: "ltr", indexable: false },
   { code: "de", nativeName: "Deutsch", englishName: "German", dir: "ltr", indexable: false },
+  /**
+   * Simplified Chinese. `getLocale` matches on the primary subtag, so zh-TW /
+   * zh-HK resolve here too — Simplified is readable to a Traditional reader
+   * but is not their script, which is why nativeName says 简体. A zh-Hant
+   * catalog is the real fix if that traffic ever shows up.
+   *
+   * indexable:false like every locale before it. The body copy is translated,
+   * but by me and not by a native speaker, and Google treats bulk machine
+   * translation on a ranking domain as a liability to the WHOLE domain. The
+   * route works for a human today; it enters the sitemap when someone who
+   * speaks Chinese has read it.
+   */
+  { code: "zh", nativeName: "简体中文", englishName: "Chinese (Simplified)", dir: "ltr", indexable: false },
 ] as const;
 
 export const DEFAULT_LOCALE = "en";

@@ -179,7 +179,7 @@ export function Nav() {
                 >
                   <span aria-hidden="true">{p.icon}</span>
                   {pillarTitle(t, p.title)}
-                  <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">soon</span>
+                  <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">{t("chrome.soon")}</span>
                 </span>
               )
             )}

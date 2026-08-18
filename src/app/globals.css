@@ -12,7 +12,18 @@
   --color-danger: #ff4f6a;
   --color-warning: #ffa94d;
 
-  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  /* Inter is loaded with subsets:["latin"] and has NO CJK glyphs, so every
+     Chinese character falls through to whatever the OS happens to pick —
+     in practice a tofu box. Naming the good system faces explicitly keeps
+     that fallback consistent across macOS / Windows / Linux instead of
+     leaving it to chance. A real CJK webfont is ~10MB across weights,
+     which is not worth shipping on a marketing page. Latin text still
+     resolves to Inter first; these only catch glyphs Inter lacks.
+     Mirrors the same fix in formulate-web/src/app/globals.css. */
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans SC", "Noto Sans JP", "Malgun Gothic",
+    sans-serif;
 }
 
 /* Base */

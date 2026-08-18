@@ -1,12 +1,13 @@
 import en from "./messages/en.json";
 import es from "./messages/es.json";
 import de from "./messages/de.json";
+import zh from "./messages/zh.json";
 
 import { DEFAULT_LOCALE, getLocale } from "./locales";
 
 export type Messages = typeof en;
 
-const CATALOGS: Record<string, unknown> = { en, es, de };
+const CATALOGS: Record<string, unknown> = { en, es, de, zh };
 
 /**
  * Deep-merge a catalog over English so an untranslated key renders the English
