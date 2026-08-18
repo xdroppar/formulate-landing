@@ -94,5 +94,14 @@
       "stacks": "Stacks",
       "synergies": "Synergien"
     }
+  },
+  "visuals": {
+    "stackScoreLabel": "Stack Score",
+    "todaysCoverage": "Heutige Abdeckung",
+    "dailyCoverage": "Tägliche Nährstoffabdeckung",
+    "next": "Weiter",
+    "lvl": "LVL",
+    "ofYourProducts": "deiner Produkte",
+    "ofYourNeeds": "des Bedarfs deines Körpers"
   }
 }

@@ -310,7 +310,14 @@
     "50ScoresRead": "🔬 读过 50 个评分",
     "quality": "质量",
     "coverage": "覆盖率",
-    "nutritionLabel": "营养"
+    "nutritionLabel": "营养",
+    "stackScoreLabel": "方案评分",
+    "todaysCoverage": "今日覆盖率",
+    "dailyCoverage": "每日营养素覆盖率",
+    "next": "下一个",
+    "lvl": "等级",
+    "ofYourProducts": "你的产品",
+    "ofYourNeeds": "你身体的需要"
   },
   "pillars": {
     "supplements": "补剂",

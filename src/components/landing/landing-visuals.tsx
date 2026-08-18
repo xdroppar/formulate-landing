@@ -342,7 +342,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
             <AnimatedScoreRing score={88} size={104} strokeWidth={8} />
             <div className="flex-1 space-y-2.5">
               <div className="flex items-center justify-between">
-                <span className="text-[11px] font-bold tracking-wide uppercase text-muted">Stack Score</span>
+                <span className="text-[11px] font-bold tracking-wide uppercase text-muted">{t("visuals.stackScoreLabel")}</span>
                 <span className="px-1.5 py-0.5 rounded bg-accent/15 text-accent text-[10px] font-bold">+6 ▲</span>
               </div>
               <AnimatedBar label={t("visuals.quality")} value={92} sub="avg 92" color="#10B981" delay={200} />
@@ -352,9 +352,9 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
           </div>
           {/* plain-language legend so the three metrics self-explain */}
           <div className="relative mt-3 pt-3 border-t border-border/60 text-[10px] leading-relaxed text-muted">
-            <span className="text-text font-semibold">Quality</span> of your products ·{" "}
-            <span className="text-text font-semibold">Coverage</span> of your body&apos;s needs ·{" "}
-            <span className="text-text font-semibold">Nutrition</span>{" "}{t("visuals.fromFoodSupps")}</div>
+            <span className="text-text font-semibold">{t("visuals.quality")}</span>{" "}{t("visuals.ofYourProducts")} ·{" "}
+            <span className="text-text font-semibold">{t("visuals.coverage")}</span>{" "}{t("visuals.ofYourNeeds")} ·{" "}
+            <span className="text-text font-semibold">{t("visuals.nutritionLabel")}</span>{" "}{t("visuals.fromFoodSupps")}</div>
         </div>
 
         {/* logged supplement rows */}
@@ -397,7 +397,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
       {/* floating accent chip */}
       <div className="absolute -left-4 sm:-left-10 top-1/3 animate-float-slow hidden sm:block">
         <div className="rounded-xl border border-border bg-[#0b0b16]/95 backdrop-blur px-3 py-2 shadow-xl">
-          <div className="text-[10px] text-muted">Today&apos;s coverage</div>
+          <div className="text-[10px] text-muted">{t("visuals.todaysCoverage")}</div>
           <div className="text-lg font-black text-accent">
             <AnimatedNumber value={20} suffix="/26" />
           </div>
@@ -462,7 +462,7 @@ export function NutrientCoveragePreview() {
     <AppWindow className="max-w-[460px]" title={t("visuals.nutrientsCoverage")}>
       <div className="flex items-center justify-between mb-4">
         <div>
-          <div className="text-[13px] font-bold text-text">Daily nutrient coverage</div>
+          <div className="text-[13px] font-bold text-text">{t("visuals.dailyCoverage")}</div>
           <div className="text-[11px] text-muted">{t("visuals.supplementsMealsCombined")}</div>
         </div>
         <div className="text-right">
@@ -568,7 +568,7 @@ export function JourneyPreview() {
         </div>
         {/* next level + the tier it unlocks */}
         <div className="flex flex-col items-center shrink-0">
-          <span className="text-[8px] uppercase tracking-wide text-muted mb-1">Next</span>
+          <span className="text-[8px] uppercase tracking-wide text-muted mb-1">{t("visuals.next")}</span>
           <div
             className="w-11 h-11 rounded-full border-2 flex items-center justify-center text-[15px] font-black"
             style={{ borderColor: nextTier.color, color: nextTier.color }}

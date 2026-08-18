@@ -310,7 +310,14 @@
     "50ScoresRead": "🔬 50 puntuaciones leídas",
     "quality": "Calidad",
     "coverage": "Cobertura",
-    "nutritionLabel": "Nutrición"
+    "nutritionLabel": "Nutrición",
+    "stackScoreLabel": "Stack Score",
+    "todaysCoverage": "Cobertura de hoy",
+    "dailyCoverage": "Cobertura diaria de nutrientes",
+    "next": "Siguiente",
+    "lvl": "NIV",
+    "ofYourProducts": "de tus productos",
+    "ofYourNeeds": "de las necesidades de tu cuerpo"
   },
   "pillars": {
     "supplements": "Suplementos",
