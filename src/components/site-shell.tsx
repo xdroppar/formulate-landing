@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/components/i18n-provider";
 import { LanguagePrompt } from "@/components/language-prompt";
 import { AttributionTracker } from "@/components/attribution-tracker";
+import { AppLinkTracker } from "@/components/app-link-tracker";
 import { PageTracker } from "@/components/page-tracker";
 import { AppModeBoot } from "@/components/app-mode-boot";
 
@@ -56,6 +57,7 @@ export function SiteShell({
         <Analytics />
         <AttributionTracker />
         <PageTracker />
+        <AppLinkTracker />
       </body>
     </html>
   );
