@@ -1,7 +1,6 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { trackEvent } from "@/lib/analytics";
 
 interface Props {
   href: string;
@@ -12,18 +11,21 @@ interface Props {
 }
 
 /**
- * Client-side wrapper around an external link into the web app that fires a
- * `web_app_cta_click` event on click. This is the exact event name the API's
- * `/events/journey` endpoint counts as a CTA click — without it, the funnel
- * reads 0 clicks even when people click through. `source` distinguishes
- * hero vs pricing vs footer in the dashboard.
+ * A link into the web app that carries an explicit CTA label.
+ *
+ * The click itself is recorded by AppLinkTracker, which is delegated at the
+ * shell and catches every app link on the site. This component no longer fires
+ * its own event — two listeners for one click would double-count the homepage
+ * against the 157 links that only the delegate sees. What it still does is
+ * name the CTA: `data-cta-source` is what separates hero from pricing from
+ * footer, where an unlabelled link falls back to its utm_medium.
  */
 export function TrackedAppLink({ href, source, className, children }: Props) {
   return (
     <a
       href={href}
       className={className}
-      onClick={() => trackEvent("web_app_cta_click", { source })}
+      data-cta-source={source}
     >
       {children}
     </a>
