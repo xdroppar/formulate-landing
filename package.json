@@ -9,8 +9,10 @@
     "lint": "next lint",
     "sync": "bash scripts/sync-catalog.sh",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run --silent typecheck && node scripts/i18n-check.mjs",
-    "verify:i18n": "node scripts/i18n-check.mjs"
+    "verify": "npm run --silent typecheck && node scripts/i18n-check.mjs && node scripts/translate-captions.mjs --check",
+    "verify:i18n": "node scripts/i18n-check.mjs",
+    "verify:captions": "node scripts/translate-captions.mjs --check",
+    "captions": "node scripts/translate-captions.mjs"
   },
   "repository": {
     "type": "git",

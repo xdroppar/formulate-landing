@@ -1,0 +1,123 @@
+{
+  "_comment": [
+    "Sentence-level translations for the hero walkthrough captions.",
+    "Edit HERE, then run `node scripts/translate-captions.mjs` to regenerate",
+    "public/video/*.{zh,es}.vtt. `--check` (part of npm run verify) fails if",
+    "the generated files drift from this table or from the English .vtt."
+  ],
+  "locales": [
+    "zh",
+    "es"
+  ],
+  "sources": [
+    "onboarding",
+    "onboarding-wide"
+  ],
+  "sentences": [
+    {
+      "en": "Hey — welcome to Formulate.",
+      "zh": "嘿 — 欢迎来到 Formulate。",
+      "es": "Hola — te damos la bienvenida a Formulate."
+    },
+    {
+      "en": "First, a few things we need to know about you.",
+      "zh": "首先，我们需要了解你的几件事。",
+      "es": "Primero, unas cuantas cosas que necesitamos saber sobre ti."
+    },
+    {
+      "en": "Start with your goals: longevity, fat loss, sleep, muscle and strength.",
+      "zh": "先从你的目标开始：长寿、减脂、睡眠、肌肉与力量。",
+      "es": "Empieza por tus objetivos: longevidad, pérdida de grasa, sueño, músculo y fuerza."
+    },
+    {
+      "en": "Up to five at a time.",
+      "zh": "一次最多选五个。",
+      "es": "Hasta cinco a la vez."
+    },
+    {
+      "en": "Then get specific.",
+      "zh": "然后再具体一些。",
+      "es": "Después, concreta más."
+    },
+    {
+      "en": "All-day energy?",
+      "zh": "想要一整天的精力？",
+      "es": "¿Energía todo el día?"
+    },
+    {
+      "en": "Better biomarkers?",
+      "zh": "想让生物标志物更好？",
+      "es": "¿Mejores biomarcadores?"
+    },
+    {
+      "en": "Fall asleep faster, or sleep deeper?",
+      "zh": "更快入睡，还是睡得更深？",
+      "es": "¿Dormirte antes, o dormir más profundo?"
+    },
+    {
+      "en": "Pick the exact outcomes you're after.",
+      "zh": "挑出你真正想要的结果。",
+      "es": "Elige exactamente los resultados que buscas."
+    },
+    {
+      "en": "Now the measurements.",
+      "zh": "接下来是身体数据。",
+      "es": "Ahora, las medidas."
+    },
+    {
+      "en": "Your age, your activity, your sleep and stress — real numbers from your real life.",
+      "zh": "你的年龄、活动量、睡眠和压力 — 来自你真实生活的真实数字。",
+      "es": "Tu edad, tu actividad, tu sueño y tu estrés — números reales de tu vida real."
+    },
+    {
+      "en": "That's what tells the algorithm what to highlight when it recommends products.",
+      "zh": "算法正是靠这些来决定推荐产品时该突出什么。",
+      "es": "Eso es lo que le dice al algoritmo qué destacar cuando recomienda productos."
+    },
+    {
+      "en": "Food comes first, because it's the bigger share.",
+      "zh": "食物排在第一位，因为它占的比重更大。",
+      "es": "La comida va primero, porque es la mayor parte."
+    },
+    {
+      "en": "Track whole foods, or your favorite store brand, by adding them to your stack.",
+      "zh": "把天然食材或你常买的品牌加入你的方案，就能开始追踪。",
+      "es": "Registra alimentos integrales, o tu marca favorita del súper, añadiéndolos a tu stack."
+    },
+    {
+      "en": "It lifts your potential score — and logging it day by day moves your daily, weekly and monthly numbers.",
+      "zh": "这会提升你的潜力评分 — 而每天记录，则会带动你的日、周、月数据。",
+      "es": "Eso sube tu puntuación potencial — y registrarlo día a día mueve tus números diarios, semanales y mensuales."
+    },
+    {
+      "en": "Supplements go on top of that.",
+      "zh": "补剂则叠加在这之上。",
+      "es": "Los suplementos van encima de eso."
+    },
+    {
+      "en": "They cover the deficiencies you naturally have, or the ones your diet leaves behind — the things you wouldn't get at a proper dose from food alone.",
+      "zh": "它们补上你本身就有的缺乏，或者你的饮食留下的缺口 — 那些光靠食物很难吃到有效剂量的东西。",
+      "es": "Cubren las carencias que ya tienes, o las que deja tu dieta — lo que no alcanzarías a dosis efectiva solo con comida."
+    },
+    {
+      "en": "Foods, supplements, nutrient coverage, and the learning behind all of it.",
+      "zh": "食物、补剂、营养素覆盖率，以及支撑这一切的学习内容。",
+      "es": "Alimentos, suplementos, cobertura de nutrientes y todo el aprendizaje detrás."
+    },
+    {
+      "en": "One system instead of five apps.",
+      "zh": "一个系统，而不是五个 App。",
+      "es": "Un solo sistema en vez de cinco apps."
+    },
+    {
+      "en": "Only seven steps and you've got the gist of it.",
+      "zh": "只要七步，你就大致明白了。",
+      "es": "Solo siete pasos y ya le has cogido el truco."
+    },
+    {
+      "en": "You build the whole thing first, then decide to save it into the Formulate app.",
+      "zh": "你先把整套方案搭好，再决定要不要保存到 Formulate 应用里。",
+      "es": "Primero lo construyes entero y después decides si guardarlo en la app de Formulate."
+    }
+  ]
+}
