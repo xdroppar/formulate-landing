@@ -1,6 +1,6 @@
 "use client";
 
-import { useT } from "@/components/i18n-provider";
+import { useI18n, useT } from "@/components/i18n-provider";
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
@@ -34,8 +34,29 @@ import { trackEvent } from "@/lib/analytics";
  * — a 9:16 video on a desktop viewport is unwatchable without it — and
  * playsInline stops iOS hijacking playback while keeping its fullscreen button.
  */
+/**
+ * Caption tracks offered on the walkthrough.
+ *
+ * zh and es only, matching the locales whose page copy is actually translated.
+ * A German visitor is better served by English captions than by a menu entry
+ * that does not exist — the chrome-only locales fall through to English
+ * everywhere else too.
+ */
+const CAPTIONS: { code: string; label: string }[] = [
+  { code: "en", label: "English" },
+  { code: "zh", label: "简体中文" },
+  { code: "es", label: "Español" },
+];
+
+/** Exactly one track may be `default`; more than one is undefined across
+ *  browsers. Falls back to English for any locale without a track. */
+function defaultCaption(locale: string): string {
+  return CAPTIONS.some((c) => c.code === locale) ? locale : "en";
+}
+
 export function HeroVideo() {
   const t = useT();
+  const { locale } = useI18n();
   const portraitRef = useRef<HTMLVideoElement>(null);
   const wideRef = useRef<HTMLVideoElement>(null);
   const seen = useRef<Set<number>>(new Set());
@@ -117,7 +138,16 @@ export function HeroVideo() {
           controls
         >
           <source src="/video/onboarding.mp4" type="video/mp4" />
-          <track kind="captions" src="/video/onboarding.vtt" srcLang="en" label="English" default />
+          {CAPTIONS.map((c) => (
+            <track
+              key={c.code}
+              kind="captions"
+              src={c.code === "en" ? "/video/onboarding.vtt" : `/video/onboarding.${c.code}.vtt`}
+              srcLang={c.code}
+              label={c.label}
+              default={c.code === defaultCaption(locale)}
+            />
+          ))}
         </video>
 
         {/* desktop shape — hidden below md */}
@@ -131,7 +161,16 @@ export function HeroVideo() {
           controls
         >
           <source src="/video/onboarding-wide.mp4" type="video/mp4" />
-          <track kind="captions" src="/video/onboarding-wide.vtt" srcLang="en" label="English" default />
+          {CAPTIONS.map((c) => (
+            <track
+              key={c.code}
+              kind="captions"
+              src={c.code === "en" ? "/video/onboarding-wide.vtt" : `/video/onboarding-wide.${c.code}.vtt`}
+              srcLang={c.code}
+              label={c.label}
+              default={c.code === defaultCaption(locale)}
+            />
+          ))}
         </video>
       </div>
 
