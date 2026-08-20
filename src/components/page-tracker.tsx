@@ -19,6 +19,12 @@ import { getAnonId, trackPageView, trackPageLeave } from "@/lib/analytics";
 export function PageTracker() {
   const pathname = usePathname();
   const startRef = useRef<number>(0);
+  // One page_leave per page view. Without this the same departure is
+  // reported twice: hiding a tab fires visibilitychange AND pagehide, and
+  // both handlers used to send. /events/integrity reported 12 paths with
+  // more leaves than views (worst: / at 2.5x), which inflates every
+  // dwell-time and bounce number derived from them.
+  const sentRef = useRef<boolean>(false);
   const pathRef = useRef<string>("");
 
   // Init PostHog once, sharing our anon_id as its distinct_id.
@@ -32,11 +38,12 @@ export function PageTracker() {
     const now =
       typeof performance !== "undefined" ? performance.now() : Date.now();
 
-    if (pathRef.current && pathRef.current !== pathname) {
+    if (pathRef.current && pathRef.current !== pathname && !sentRef.current) {
       trackPageLeave(pathRef.current, now - startRef.current);
     }
     pathRef.current = pathname;
     startRef.current = now;
+    sentRef.current = false;   // a new view owes a new leave
 
     trackPageView(pathname);
     phCapture("$pageview", { $current_url: window.location.href });
@@ -46,7 +53,8 @@ export function PageTracker() {
   // in trackPageLeave survives unload.
   useEffect(() => {
     const flush = () => {
-      if (!pathRef.current) return;
+      if (!pathRef.current || sentRef.current) return;
+      sentRef.current = true;
       const now =
         typeof performance !== "undefined" ? performance.now() : Date.now();
       trackPageLeave(pathRef.current, now - startRef.current);
