@@ -61,6 +61,12 @@ export function HeroVideo() {
   const wideRef = useRef<HTMLVideoElement>(null);
   const seen = useRef<Set<number>>(new Set());
   const [muted, setMuted] = useState(true);
+  // Set by a real interaction with the player, and consumed by the next
+  // play event. Autoplay and a deliberate press both raise `play`, so
+  // without this the two are indistinguishable -- which is how
+  // hero_video_play came to read as though 6 of 8 visitors chose to watch
+  // when none of them had touched anything.
+  const gesture = useRef(false);
 
   /** Whichever one CSS is currently showing. */
   const visible = useCallback((): HTMLVideoElement | null => {
@@ -81,10 +87,34 @@ export function HeroVideo() {
     // Milestones, so "did anyone watch it" is answerable rather than a matter
     // of opinion. web_app_cta_click sat at 0 for 30 days; this has to be
     // measurable the same way or there is no telling whether it helped.
+    // Two different facts, two different names, because every reader of this
+    // stream groups by event name rather than by properties.
+    //
+    //   hero_video_autostart  the video began on its own. Says nothing about
+    //                         intent -- it happens to everyone who loads the
+    //                         page and is a measure of page views.
+    //   hero_video_play       someone deliberately started or resumed it.
     const onPlay = () => {
+      if (gesture.current) {
+        gesture.current = false;
+        trackEvent("hero_video_play", { placement: "home_hero", shape });
+        return;
+      }
       if (seen.current.has(0)) return;
       seen.current.add(0);
-      trackEvent("hero_video_play", { placement: "home_hero", shape });
+      trackEvent("hero_video_autostart", { placement: "home_hero", shape });
+    };
+    // Scrubbing is unambiguous: nothing scrubs a video by accident.
+    const onSeek = () => {
+      if (!gesture.current) return;
+      gesture.current = false;
+      trackEvent("hero_video_seek", { placement: "home_hero", shape });
+    };
+    // Pausing is the clearest signal of all that a person is present.
+    const onPause = () => {
+      if (!gesture.current || v.ended) return;
+      gesture.current = false;
+      trackEvent("hero_video_pause", { placement: "home_hero", shape });
     };
     const onTime = () => {
       if (!v.duration) return;
@@ -99,10 +129,14 @@ export function HeroVideo() {
     const onEnd = () => trackEvent("hero_video_complete", { placement: "home_hero", shape });
 
     v.addEventListener("play", onPlay);
+    v.addEventListener("seeking", onSeek);
+    v.addEventListener("pause", onPause);
     v.addEventListener("timeupdate", onTime);
     v.addEventListener("ended", onEnd);
     return () => {
       v.removeEventListener("play", onPlay);
+      v.removeEventListener("seeking", onSeek);
+      v.removeEventListener("pause", onPause);
       v.removeEventListener("timeupdate", onTime);
       v.removeEventListener("ended", onEnd);
     };
@@ -111,6 +145,7 @@ export function HeroVideo() {
   const toggleSound = () => {
     const v = visible();
     if (!v) return;
+    gesture.current = true;
     v.muted = !v.muted;
     setMuted(v.muted);
     if (!v.muted) {
@@ -126,7 +161,16 @@ export function HeroVideo() {
 
   return (
     <div className="flex flex-col items-center gap-3 w-full">
-      <div className="relative rounded-[22px] overflow-hidden border border-border bg-black shadow-[0_20px_60px_-20px_rgba(0,0,0,0.7)] w-[clamp(230px,72vw,290px)] md:w-full md:max-w-[860px]">
+      {/* Any pointer or key on the player marks intent. The native controls
+          live inside the <video> shadow DOM, so their presses cannot be
+          listened to directly -- catching the interaction on the wrapper is
+          what separates "someone pressed play" from "the browser started it".
+          Capture phase, because the media element consumes the event. */}
+      <div
+        onPointerDownCapture={() => { gesture.current = true; }}
+        onKeyDownCapture={() => { gesture.current = true; }}
+        className="relative rounded-[22px] overflow-hidden border border-border bg-black shadow-[0_20px_60px_-20px_rgba(0,0,0,0.7)] w-[clamp(230px,72vw,290px)] md:w-full md:max-w-[860px]"
+      >
         {/* phone shape — hidden from md up */}
         <video
           ref={portraitRef}
