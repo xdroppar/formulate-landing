@@ -12,7 +12,7 @@ import { synergies, synergySlug } from "@/lib/synergies";
 import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
-import { recipes, recipeDietTags, recipeCategories } from "@/lib/recipes";
+import { recipeDietTags, recipeCategories } from "@/lib/recipes";
 
 /**
  * Localised homepages, included ONLY once a locale's copy is actually
@@ -177,14 +177,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    ...recipes.map((r) => ({
-      url: `${baseUrl}/recipes/${r.id}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      // Recipe detail pages carry full ingredients + method + nutrition + a
-      // schema.org/Recipe block (eligible for recipe rich results).
-      priority: 0.75,
-    })),
+    // Recipe DETAIL pages are deliberately absent.
+    //
+    // They were submitted for months and earned nothing: 739 recipe URLs, 14
+    // page views in 30 days (0.2% of all views) and ZERO entry sessions in 90.
+    // Measured against the rest of the site they are also the thinnest and the
+    // most repetitive -- ~430 words each at 67% pairwise text similarity, where
+    // ingredient pages run 574-809 words at 43%.
+    //
+    // That is the exact profile behind Search Console's "Discovered - currently
+    // not indexed", which stands at 1,611 URLs and is rising while the indexed
+    // count falls (1,541 -> 1,519). Crawl budget is allocated per SITE, so 719
+    // near-duplicates do not merely fail to rank: they teach Google the domain
+    // is not worth crawling deeply, and suppress the ingredient and food pages
+    // that carry 22.9% and 5.5% of real views.
+    //
+    // The collections below stay -- they aggregate rather than repeat, and
+    // "high-protein recipes" is a real query. The detail pages remain reachable
+    // and indexable through them; they are simply no longer submitted.
+    //
+    // Reversible on purpose: restore this map if the pages are ever given
+    // enough distinct content to earn a place.
     // Diet collections ("high-protein recipes", "vegan recipes", …) — top-tier
     // search volume + genuine ranked content.
     ...recipeDietTags().map((d) => ({
