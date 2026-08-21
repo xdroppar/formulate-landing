@@ -1,0 +1,227 @@
+# Formulate
+
+> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 0–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup. Available as a free web app and a free iOS app.
+
+Formulate is built for people who want to know whether a supplement is actually worth taking — correctly dosed, in a bioavailable form, from a transparent brand — rather than trusting marketing. Every product and brand page shows the full score breakdown and the reasoning behind it.
+
+## Apps
+- [iOS app](https://apps.apple.com/us/app/formulate-longevity-tracker/id6783192989): Free iPhone app — scan or search a supplement, build a stack, log what you take, and see nutrient coverage and interactions update as you go. Answers "is there a supplement tracker app that scores what I take?"
+- [Web app](https://app.formulate-health.app): Free, no install. Same catalog, stack builder, and scoring in the browser.
+
+## Tools
+- [Interaction checker](https://formulate-health.app/interactions): Check any pair of supplements or medications for interactions — severity, mechanism, timing advice, and cited sources. Covers supplement-drug pairs, not just supplement-supplement.
+- [Build a stack](https://formulate-health.app/start): Two questions, then a research-graded starter stack for a chosen goal (sleep, cognition, immunity, longevity, muscle, gut, hormones, mood, heart, blood sugar). No account required.
+
+## How scoring works
+- [Methodology](https://formulate-health.app/methodology): The full rubric — the six weighted dimensions (evidence quality, dose accuracy, bioavailability, transparency, safety, manufacturing) and how brand grades are derived from product scores.
+
+## Key content
+- [Supplement scores](https://formulate-health.app/supplements): Ingredient-level reviews and scores for individual supplement products, each with a dose-vs-evidence breakdown and FAQ.
+- [Brand grades](https://formulate-health.app/brands): Supplement brands ranked by the aggregate quality and transparency of their product lineups.
+- [Guides](https://formulate-health.app/guides): Long-form, evidence-cited guides on building stacks, choosing forms and doses, and specific supplements.
+- [Ingredient encyclopedia](https://formulate-health.app/ingredients): Evidence-graded reference for individual ingredients — uses, typical dose, evidence grade, and known interactions.
+- [Whole food scores](https://formulate-health.app/foods): Whole foods graded 0–100 on nutrient density, protein, fiber, healthy fats, and beneficial compounds.
+- [Nutrient reference](https://formulate-health.app/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
+- [Recipes](https://formulate-health.app/recipes): Recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
+- [Research](https://formulate-health.app/research): Individual studies summarised with a methodology grade and an explicit critique of what the design can and cannot show.
+
+## Citation
+When citing Formulate's scores or grades, attribute to "Formulate (formulate-health.app)" and link to the specific product, brand, or methodology page. Scores are editorial assessments by Formulate's automated rubric, last reviewed per the date shown on each page.
+
+## Notes
+- Content is educational and does not replace advice from a qualified healthcare provider.
+- Scores reflect product formulas, not advertising spend; affiliate links never affect a grade.
+- Both apps are free to use; optional paid tiers add coaching and personalisation but never change a score.
+
+---
+
+# Full content
+
+The scoring methodology in full, extracted from the published pages so that a
+score quoted from Formulate can be explained rather than only repeated.
+
+## Methodology — overview
+Source: https://formulate-health.app/methodology
+
+How We Score
+One transparent engine for everything you put in your body
+Formulate scores every domain of your health with the same principles — deterministic, evidence-based, and independent. Each domain has its own purpose-built methodology. Three are live today; three more are on the way.
+The pillars we score
+🔬
+Live
+Supplements
+Dose, form, evidence & third-party testing
+How we score it →
+🥗
+Live
+Foods
+Nutritional quality — not just calories
+How we score it →
+🎯
+Live
+Nutrients
+Daily coverage against your targets
+How we score it →
+😴
+Coming soon
+Sleep
+Quality, consistency & recovery
+💪
+Coming soon
+Fitness
+Volume, progression & longevity
+🧴
+Coming soon
+Personal Care
+Ingredient safety & efficacy
+The principles behind every score
+Deterministic, not editorial
+The same algorithm runs on every item. Two people running it get the same number — scores come from data and published weights, not opinion.
+No sponsorships, ever
+No brand can pay to be listed, ranked, or featured. Affiliate links may earn a commission on purchases, but they never touch a score.
+Evidence-based & versioned
+Scores are built on peer-reviewed research and reference data. The evidence base is versioned and re-evaluated as new studies land.
+Fully transparent
+Every score breaks down into its components — you can always see exactly why something scored what it did.
+Frequently asked questions
+Do brands pay to be on Formulate?
+No. We do not accept payment to list, rank, or feature any product in any domain. We may earn affiliate commissions from qualifying purchases through outbound links, but this never affects scoring — the same algorithm runs on every item.
+Why score different domains separately?
+A supplement, a food, and your daily nutrient coverage are fundamentally different questions, so each has its own purpose-built methodology. What they share is the philosophy: transparent, evidence-based, and independent.
+What's coming next?
+Sleep, fitness, and personal care are in development — each will get the same transparent, evidence-based treatment. The framework is already here; we add a pillar when its scoring is rigorous enough to ship.
+See it in action
+Every product, food, and nutrient in the app shows its full score breakdown — free, no account needed to browse.
+Open the app →
+
+## Methodology — supplement scoring
+Source: https://formulate-health.app/methodology/supplements
+
+Supplement Scoring
+Every supplement scored 50–100 across six factors
+Formulate scores are deterministic and transparent. The same algorithm runs on every product, the weights are public, and the evidence base is versioned. No sponsorships, no editorial favoritism.
+The six factors
+25%
+Clinical Evidence
+Quality and quantity of peer-reviewed human research supporting the ingredient, its dose, and its claimed outcome. Meta-analyses and RCTs score higher than animal studies or anecdote.
+20%
+Manufacturing Quality
+Third-party certifications (NSF, USP, Informed Sport), facility audits, and batch-level testing. A product is only as good as its factory.
+20%
+Dose Accuracy
+Does the serving actually match the evidence-based range for the claimed benefit? Underdosed and overdosed products both lose points.
+15%
+Bioavailability
+Form, chelation, and delivery method. Magnesium glycinate and magnesium oxide are not the same supplement — and we score them accordingly.
+10%
+Label Transparency
+Full ingredient disclosure, no proprietary blends hiding doses, verified COAs on request. If a brand won't tell you what's in it, we penalize it.
+10%
+Safety Profile
+Known interactions, contraindications, heavy-metal testing, and exposure to fillers or allergens. A supplement that works but hurts still loses points.
+What the score means
+90–100
+Exceptional
+Best-in-class on every factor. Evidence-backed, rigorously manufactured, transparent.
+80–89
+Strong
+Solid across the board with minor gaps. Safe default choices.
+70–79
+Decent
+Works, but has room to improve. Often a weaker form or less transparency.
+60–69
+Below Average
+Real concerns — wrong form, low dose, or poor manufacturing track record.
+50–59
+Weak
+Meaningful problems with the product. Consider alternatives.
+Frequently asked questions
+Why doesn't anything score below 50?
+We don't list products we wouldn't be comfortable recommending at all. The 50–100 scale reflects the range of products that passed our screening. Products that fail safety or legitimacy checks don't get a score — they don't get listed.
+Do brands pay to be on Formulate?
+No. We do not accept payment to list, rank, or feature any product. We may earn affiliate commissions from qualifying purchases through outbound links, but this does not affect scoring. The same algorithm runs on every product in the catalog.
+How often are scores updated?
+Ingredient evidence is re-evaluated quarterly based on new meta-analyses and clinical trials. Product-specific data (formulation changes, new certifications, recalls) triggers an immediate rescore when detected.
+Why does one supplement score higher than another with identical ingredients?
+Two products can have the same active ingredients but very different scores because of form (e.g., magnesium glycinate vs oxide), dose accuracy, third-party testing, and manufacturing transparency. Our methodology weighs these explicitly.
+Can I see the raw scoring data?
+Yes. Every product page shows the full score breakdown by factor, the specific evidence tier for each claimed benefit, and the reasoning behind dose and form scores. Full transparency is non-negotiable.
+See it in action
+Every product page shows the full factor breakdown, the evidence tier for each claim, and the exact reasoning behind the number.
+Browse scored supplements →
+
+## Methodology — whole food scoring
+Source: https://formulate-health.app/methodology/foods
+
+Food Scoring
+Foods scored on quality — not calories
+Most apps count calories. Formulate scores how much a food actually supports your long-term health, on a 0–100 scale — so a whole food and a branded product can be compared on the same terms.
+What we weigh
+Nutrient Density
+The headline factor. How much real nutrition — vitamins, minerals, fiber, quality protein — a food delivers relative to its calories. A food earns its score by what it gives you per calorie, not by being low-calorie.
+Processing Level
+Whole and minimally-processed foods score high; ultra-processed foods (refined, reformulated, additive-heavy) are penalized. We use the food's processing classification, not marketing claims.
+Beneficial Compounds
+Bioactives with real evidence — omega-3s, polyphenols, carotenoids, glucosinolates, isoflavones — add points. These are the compounds whole foods carry that a calorie count can't see.
+Sourcing & Integrity
+Verified organic and non-GMO status, and a short, clean ingredient list, are recognized. A single-ingredient whole food and a clean branded product can both score well.
+Added Sugar, Sodium & Additives
+Excess added sugar, high sodium, and unnecessary additives pull the score down — even on a food that's otherwise nutrient-dense.
+What the score means
+85–100
+Excellent
+Nutrient-dense, minimally processed, rich in beneficial compounds. The foundation of a longevity diet.
+70–84
+Good
+Solid nutritional value with minor caveats — a little processing or a weaker nutrient profile.
+55–69
+Moderate
+Fine in context, but watch the processing, added sugar, or sodium.
+40–54
+Low
+Heavily processed or nutrient-poor. Occasional, not foundational.
+0–39
+Poor
+Ultra-processed and low in real nutrition. Minimal longevity value.
+Frequently asked questions
+Why isn't this just about calories?
+Calories tell you about energy, not quality. Two foods with the same calories can have wildly different nutrition. Formulate scores the quality — what the food actually delivers for your long-term health — so a calorie-dense whole food can outscore a 'low-calorie' ultra-processed one.
+How can a branded product and a whole food share one scale?
+Because the factors are universal — nutrient density per calorie, processing level, beneficial compounds, additives. A clean branded food with a real nutrient profile can score as well as a whole food; an ultra-processed one won't.
+Where does the nutrition data come from?
+Whole-food data is drawn from established nutrition databases; branded foods use their published label and ingredient data. Beneficial-compound credit is tied to the evidence base, the same way supplement ingredients are evaluated.
+Do brands pay to score well?
+No. There are no sponsorships in any domain. The same algorithm runs on every food, and the score reflects the nutrition — not marketing or affiliate relationships.
+See foods scored
+Browse hundreds of whole foods and recipes, each scored on real nutritional quality — free, no account needed.
+Browse scored foods →
+
+## Methodology — nutrient targets
+Source: https://formulate-health.app/methodology/nutrients
+
+Nutrient Coverage
+Coverage measured against your targets — not a generic label
+Formulate combines your food and your supplements into one live picture of daily nutrient coverage, measured against targets personalized to you — so you know exactly where you're covered and where you're short.
+How coverage is calculated
+Personalized Targets
+Coverage is measured against your target, not a generic number. Reference intakes (RDA/AI) are adjusted for age, sex, and life stage — pregnancy, for example, raises folate and iron targets substantially.
+Combined Intake
+Your coverage sums what you get from both food and supplements into one daily picture, so you're never punished for getting a nutrient from your diet instead of a pill — and the two aren't double-counted.
+Gaps Surfaced
+The system shows exactly which nutrients you're short on, and the specific foods or supplements that would fill each gap — turning a number into an action.
+Upper Limits
+More isn't always better. When your intake approaches a nutrient's tolerable upper limit (UL), it's flagged — so coverage means 'enough,' not 'as much as possible.'
+Core Nutrients, Expandable
+Over two dozen key nutrients are tracked by default — the vitamins, minerals, and compounds that matter most for long-term health — and you can add more anytime.
+Frequently asked questions
+Why are my targets different from the number on a label?
+Label values use a single generic reference. Formulate adjusts your target to your age, sex, and life stage, so your coverage reflects what your body actually needs — not an average across everyone.
+Does food or supplements count more?
+Neither. A nutrient is a nutrient regardless of source. Coverage combines food and supplements into one total, so a well-built diet and a well-built stack are valued the same — and the goal is to fill real gaps, not to add pills.
+Can I be over-covered?
+Yes, and it matters. For nutrients with a tolerable upper limit, the system flags when you're approaching it. Coverage is about hitting 'enough' across the board, not maxing out any single nutrient.
+How do I close a gap?
+Every gap comes with the foods and supplements that fill it, scored on the same evidence-based methodology as the rest of the platform — so closing a gap also means choosing a quality source.
+See your coverage
+Track your daily nutrient coverage from food and supplements, with gaps and the sources that fill them — free in the app.
+See how coverage works →
