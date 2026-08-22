@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22T22:39:31+00:00",
+  "version": "2026-08-22T22:53:43+00:00",
   "score_version": "1.4.0",
   "categories": [
     "Fruit",
@@ -11515,7 +11515,7 @@
     },
     {
       "base_id": "chickpeas-garbanzo-bean",
-      "name": "Chickpeas (Garbanzo Bean",
+      "name": "Chickpeas (Garbanzo Beans, Bengal Gram)",
       "group": "Legume",
       "subgroup": null,
       "aliases": [],
@@ -66681,7 +66681,7 @@
     },
     {
       "base_id": "liquid-egg-yolk-plain",
-      "name": "Liquid Egg Yolk (Plain",
+      "name": "Liquid Egg Yolk (Plain, No Salt Or Sugar)",
       "group": "Eggs",
       "subgroup": null,
       "aliases": [],
@@ -66831,7 +66831,7 @@
     },
     {
       "base_id": "liquid-whole-egg-plain",
-      "name": "Liquid Whole Egg (Plain",
+      "name": "Liquid Whole Egg (Plain, No Salt Or Sugar)",
       "group": "Eggs",
       "subgroup": null,
       "aliases": [],
