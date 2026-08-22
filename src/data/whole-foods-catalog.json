@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-30T17:57:11+00:00",
+  "version": "2026-08-22T22:39:31+00:00",
   "score_version": "1.4.0",
   "categories": [
     "Fruit",
@@ -4474,7 +4474,8 @@
       "image_path": "",
       "image_url": "/food-assets/harissa-powder/hero.webp",
       "gallery_images": [
-        "/food-assets/harissa-powder/hero_2.webp"
+        "/food-assets/harissa-powder/hero_2.webp",
+        "/food-assets/harissa-powder/hero_3.webp"
       ],
       "description": "Harissa powder is a dry North African chili blend of hot peppers, caraway, coriander, cumin, and garlic, rich in vitamin A carotenoids and iron and carrying capsaicin, carvone, and capsanthin.",
       "overview": "Harissa powder is the dry form of Tunisia's signature chili paste, a fiery blend of ground hot red peppers cut with caraway, coriander, and cumin seeds, pungent garlic, and frequently a lift of dried mint. It seasons stews, roasted vegetables, grains, and grilled meats, and rehydrates easily into a paste with oil and water. Because its foundation is dried red chili, it carries a strong load of capsanthin and beta-carotene carotenoids, making it notably rich in vitamin A activity alongside the iron (~17 mg per 100 g), manganese, and high potassium (~1,700 mg) typical of seed-heavy spice blends, at about 320 kcal per 100 g. Its defining bioactive is capsaicin, the alkaloid responsible for its heat and for the thermogenic, circulatory, and appetite effects studied in chili research, while caraway contributes carvone and the cumin and coriander seeds add their own antioxidant polyphenols. As a seasoning used by the teaspoon, harissa's value lies in concentrated flavor and phytochemistry rather than bulk nutrition, but it is a particularly carotenoid- and capsaicin-rich way to bring heat and depth to a dish.",
@@ -65319,6 +65320,151 @@
       ]
     },
     {
+      "base_id": "egg-whites-dried",
+      "name": "Egg Whites Dried",
+      "group": "Eggs",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "high-protein",
+        "muscle-maintenance",
+        "weight-management",
+        "complete-amino-acids",
+        "low-fat",
+        "shelf-stable",
+        "longevity",
+        "sarcopenia-prevention",
+        "post-workout-recovery"
+      ],
+      "icon": "🥚",
+      "image_path": "",
+      "image_url": "/food-assets/egg-whites-dried/hero.webp",
+      "gallery_images": [],
+      "description": "Dried egg white powder is a shelf-stable, concentrated source of high-quality protein with minimal fat and cholesterol, created by spray-drying liquid egg whites.",
+      "overview": "Dried egg whites are a processed form of liquid egg whites that have been dehydrated to extend shelf life and increase protein concentration. A serving typically contains 10-12g of protein per 2 tablespoons (14g) with virtually no fat, carbohydrates, or cholesterol. Egg whites have been valued since antiquity in traditional medicine, but their modern nutritional significance lies in their complete amino acid profile—containing all nine essential amino acids in optimal ratios for human protein synthesis. The drying process concentrates the ovalbumin (the primary protein) and ovalbumin-derived peptides that support muscle maintenance and recovery. Dried egg whites are particularly relevant for longevity through their support of lean muscle mass preservation, which naturally declines with age (sarcopenia). The bioavailable form makes them practical for athletes, older adults, and those managing weight. Unlike whole eggs, they contain negligible amounts of choline and lutein, but their protein purity and convenience make them valuable in specific dietary contexts. The processing does not significantly alter the protein's biological value, making dried egg whites functionally equivalent to liquid or fresh egg whites for protein synthesis purposes.",
+      "health_benefits": [
+        {
+          "benefit": "Supports lean muscle mass maintenance and recovery",
+          "mechanism": "Complete amino acid profile with high leucine content (essential amino acid) stimulates mTOR pathway, triggering muscle protein synthesis. Particularly important for older adults experiencing age-related muscle loss.",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Promotes satiety and supports weight management",
+          "mechanism": "High protein content (>80% of calories) triggers CCK and GLP-1 hormone release in the gut, signaling fullness to the brain and reducing subsequent calorie intake.",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Supports bone health through amino acid provision",
+          "mechanism": "Amino acids like glycine and proline serve as building blocks for collagen matrix in bone; protein adequacy is essential for bone remodeling and fracture prevention.",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Stabilizes blood glucose when combined with carbohydrates",
+          "mechanism": "Protein slows gastric emptying and delays glucose absorption, reducing postprandial blood sugar spikes and insulin demand.",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Supports cardiovascular health through amino acid metabolism",
+          "mechanism": "Egg white protein is low in saturated fat and contains arginine, which supports nitric oxide production and endothelial function.",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with oatmeal or quinoa because the complete amino acids from egg whites combine with carbohydrates to create sustained energy and enhanced muscle protein synthesis",
+        "Pair with berries (blueberries, raspberries) because antioxidants in berries reduce exercise-induced inflammation while protein supports recovery",
+        "Pair with vegetables like spinach or broccoli because these are rich in vitamin K and folate, which work synergistically with amino acids for bone metabolism and homocysteine regulation",
+        "Pair with healthy fats (olive oil, avocado) because fat-soluble vitamin absorption and satiety are enhanced, and protein preserves satiety longer in mixed meals"
+      ],
+      "practical_tips": [
+        "Reconstitute dried egg whites by whisking 2 tablespoons powder with 3 tablespoons water and let sit 5 minutes before use in baking, smoothies, or cooking—avoid over-mixing to prevent excessive foam",
+        "Store in an airtight container in a cool, dry place; properly sealed dried egg whites last 10+ years, making them ideal for emergency nutrition stores",
+        "Use in protein smoothies: mix 1-2 scoops (14-28g) with liquid and fruit for a quick 10-24g protein boost without the texture of whole eggs",
+        "Check ingredient labels—pure dried egg white powder should list only egg whites; avoid products with added sugars, thickeners, or flow agents",
+        "For optimal digestibility in sensitive individuals, reconstitute gently and allow to rest, or incorporate into cooked dishes where gentle heating may ease digestion"
+      ],
+      "optimal_timing": {
+        "best_time": "post-workout",
+        "reasoning": "Protein is maximally utilized for muscle repair and glycogen repletion in the 30-120 minute window after resistance or endurance exercise, when mTOR signaling and muscle protein synthetic rates are elevated",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "Anytime protein intake is beneficial for maintaining daily amino acid targets; post-workout timing is optimal but not exclusive. Older adults benefit from distributed protein intake across all meals."
+      },
+      "default_variant_id": "egg_whites_dried__dried__whole",
+      "price_avg": 3.5,
+      "price_unit": "lb",
+      "score": 78,
+      "grade": "A",
+      "grade_color": "#3B82F6",
+      "score_breakdown": {
+        "nutrient_density": 34.23,
+        "protein_quality": 14.0,
+        "fiber_content": 0.0,
+        "healthy_fats": 5.0,
+        "bioactive_compounds": 7.0,
+        "glycemic_impact": 10.0,
+        "anti_nutrient_penalty": 2.0,
+        "top_nutrients": [
+          [
+            "Selenium",
+            236.4
+          ],
+          [
+            "Riboflavin",
+            194.6
+          ],
+          [
+            "Sodium",
+            55.7
+          ],
+          [
+            "Potassium",
+            23.9
+          ],
+          [
+            "Biotin",
+            23.3
+          ]
+        ],
+        "bioactives_found": [],
+        "concerns": [
+          "High sodium"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "egg_whites_dried__dried__whole",
+          "variety": null,
+          "prep": "dried",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 382.0,
+          "macros": {
+            "protein_g": 81.1,
+            "carbs_g": 4.94,
+            "fat_g": 0,
+            "fiber_g": 0
+          },
+          "micros": {
+            "sugars_g": 4.94,
+            "sodium_mg": 1280,
+            "potassium_mg": 1125,
+            "selenium_mcg": 130,
+            "riboflavin_mg": 2.53,
+            "magnesium_mg": 88,
+            "phosphorus_mg": 110,
+            "pantothenic_acid_mg": 0.19,
+            "biotin_mcg": 7.0
+          },
+          "source": {
+            "name": "USDA SR Legacy (curated 2026-05-18)"
+          },
+          "image_url": "/food-assets/egg-whites-dried/dried.webp",
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "egg-yolk",
       "name": "Egg Yolk",
       "group": "Eggs",
@@ -66536,7 +66682,7 @@
     {
       "base_id": "liquid-egg-yolk-plain",
       "name": "Liquid Egg Yolk (Plain",
-      "group": "Dairy",
+      "group": "Eggs",
       "subgroup": null,
       "aliases": [],
       "tags": [
@@ -66686,7 +66832,7 @@
     {
       "base_id": "liquid-whole-egg-plain",
       "name": "Liquid Whole Egg (Plain",
-      "group": "Dairy",
+      "group": "Eggs",
       "subgroup": null,
       "aliases": [],
       "tags": [
@@ -69276,151 +69422,6 @@
             "id": "2710826"
           },
           "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "egg-whites-dried",
-      "name": "Egg Whites Dried",
-      "group": "Dairy",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "high-protein",
-        "muscle-maintenance",
-        "weight-management",
-        "complete-amino-acids",
-        "low-fat",
-        "shelf-stable",
-        "longevity",
-        "sarcopenia-prevention",
-        "post-workout-recovery"
-      ],
-      "icon": "🥚",
-      "image_path": "",
-      "image_url": "/food-assets/egg-whites-dried/hero.webp",
-      "gallery_images": [],
-      "description": "Dried egg white powder is a shelf-stable, concentrated source of high-quality protein with minimal fat and cholesterol, created by spray-drying liquid egg whites.",
-      "overview": "Dried egg whites are a processed form of liquid egg whites that have been dehydrated to extend shelf life and increase protein concentration. A serving typically contains 10-12g of protein per 2 tablespoons (14g) with virtually no fat, carbohydrates, or cholesterol. Egg whites have been valued since antiquity in traditional medicine, but their modern nutritional significance lies in their complete amino acid profile—containing all nine essential amino acids in optimal ratios for human protein synthesis. The drying process concentrates the ovalbumin (the primary protein) and ovalbumin-derived peptides that support muscle maintenance and recovery. Dried egg whites are particularly relevant for longevity through their support of lean muscle mass preservation, which naturally declines with age (sarcopenia). The bioavailable form makes them practical for athletes, older adults, and those managing weight. Unlike whole eggs, they contain negligible amounts of choline and lutein, but their protein purity and convenience make them valuable in specific dietary contexts. The processing does not significantly alter the protein's biological value, making dried egg whites functionally equivalent to liquid or fresh egg whites for protein synthesis purposes.",
-      "health_benefits": [
-        {
-          "benefit": "Supports lean muscle mass maintenance and recovery",
-          "mechanism": "Complete amino acid profile with high leucine content (essential amino acid) stimulates mTOR pathway, triggering muscle protein synthesis. Particularly important for older adults experiencing age-related muscle loss.",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Promotes satiety and supports weight management",
-          "mechanism": "High protein content (>80% of calories) triggers CCK and GLP-1 hormone release in the gut, signaling fullness to the brain and reducing subsequent calorie intake.",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Supports bone health through amino acid provision",
-          "mechanism": "Amino acids like glycine and proline serve as building blocks for collagen matrix in bone; protein adequacy is essential for bone remodeling and fracture prevention.",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Stabilizes blood glucose when combined with carbohydrates",
-          "mechanism": "Protein slows gastric emptying and delays glucose absorption, reducing postprandial blood sugar spikes and insulin demand.",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Supports cardiovascular health through amino acid metabolism",
-          "mechanism": "Egg white protein is low in saturated fat and contains arginine, which supports nitric oxide production and endothelial function.",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with oatmeal or quinoa because the complete amino acids from egg whites combine with carbohydrates to create sustained energy and enhanced muscle protein synthesis",
-        "Pair with berries (blueberries, raspberries) because antioxidants in berries reduce exercise-induced inflammation while protein supports recovery",
-        "Pair with vegetables like spinach or broccoli because these are rich in vitamin K and folate, which work synergistically with amino acids for bone metabolism and homocysteine regulation",
-        "Pair with healthy fats (olive oil, avocado) because fat-soluble vitamin absorption and satiety are enhanced, and protein preserves satiety longer in mixed meals"
-      ],
-      "practical_tips": [
-        "Reconstitute dried egg whites by whisking 2 tablespoons powder with 3 tablespoons water and let sit 5 minutes before use in baking, smoothies, or cooking—avoid over-mixing to prevent excessive foam",
-        "Store in an airtight container in a cool, dry place; properly sealed dried egg whites last 10+ years, making them ideal for emergency nutrition stores",
-        "Use in protein smoothies: mix 1-2 scoops (14-28g) with liquid and fruit for a quick 10-24g protein boost without the texture of whole eggs",
-        "Check ingredient labels—pure dried egg white powder should list only egg whites; avoid products with added sugars, thickeners, or flow agents",
-        "For optimal digestibility in sensitive individuals, reconstitute gently and allow to rest, or incorporate into cooked dishes where gentle heating may ease digestion"
-      ],
-      "optimal_timing": {
-        "best_time": "post-workout",
-        "reasoning": "Protein is maximally utilized for muscle repair and glycogen repletion in the 30-120 minute window after resistance or endurance exercise, when mTOR signaling and muscle protein synthetic rates are elevated",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "Anytime protein intake is beneficial for maintaining daily amino acid targets; post-workout timing is optimal but not exclusive. Older adults benefit from distributed protein intake across all meals."
-      },
-      "default_variant_id": "egg_whites_dried__dried__whole",
-      "price_avg": 3.5,
-      "price_unit": "lb",
-      "score": 77,
-      "grade": "A",
-      "grade_color": "#3B82F6",
-      "score_breakdown": {
-        "nutrient_density": 34.23,
-        "protein_quality": 14.0,
-        "fiber_content": 0.0,
-        "healthy_fats": 5.0,
-        "bioactive_compounds": 7.0,
-        "glycemic_impact": 10.0,
-        "anti_nutrient_penalty": 2.0,
-        "top_nutrients": [
-          [
-            "Selenium",
-            236.4
-          ],
-          [
-            "Riboflavin",
-            194.6
-          ],
-          [
-            "Sodium",
-            55.7
-          ],
-          [
-            "Potassium",
-            23.9
-          ],
-          [
-            "Biotin",
-            23.3
-          ]
-        ],
-        "bioactives_found": [],
-        "concerns": [
-          "High sodium"
-        ]
-      },
-      "variants": [
-        {
-          "variant_id": "egg_whites_dried__dried__whole",
-          "variety": null,
-          "prep": "dried",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 382.0,
-          "macros": {
-            "protein_g": 81.1,
-            "carbs_g": 4.94,
-            "fat_g": 0,
-            "fiber_g": 0
-          },
-          "micros": {
-            "sugars_g": 4.94,
-            "sodium_mg": 1280,
-            "potassium_mg": 1125,
-            "selenium_mcg": 130,
-            "riboflavin_mg": 2.53,
-            "magnesium_mg": 88,
-            "phosphorus_mg": 110,
-            "pantothenic_acid_mg": 0.19,
-            "biotin_mcg": 7.0
-          },
-          "source": {
-            "name": "USDA SR Legacy (curated 2026-05-18)"
-          },
-          "image_url": "/food-assets/egg-whites-dried/dried.webp",
           "gallery_images": []
         }
       ]
@@ -73744,6 +73745,154 @@
       ]
     },
     {
+      "base_id": "liquid-egg-white",
+      "name": "Liquid Egg White (Without Whipping Agents)",
+      "group": "Eggs",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "complete-protein",
+        "low-calorie",
+        "muscle-maintenance",
+        "sarcopenia-prevention",
+        "post-workout",
+        "weight-management",
+        "cholesterol-free",
+        "amino-acids",
+        "protein-synthesis",
+        "longevity",
+        "metabolic-health"
+      ],
+      "icon": "🥚",
+      "image_path": "",
+      "image_url": "/food-assets/liquid-egg-white/hero.webp",
+      "gallery_images": [],
+      "description": "Liquid egg white is pasteurized, ready-to-use egg white without added whipping agents, providing pure protein with minimal calories and no fat or cholesterol. It serves as a convenient protein source for muscle maintenance and metabolic health.",
+      "overview": "Liquid egg whites are processed egg whites that have been pasteurized for food safety and packaged for convenience without additives like gums or stabilizers. Originating from industrial egg processing, they retain the nutritional integrity of whole egg whites—primarily high-quality complete protein containing all nine essential amino acids. Per 100g, liquid egg whites deliver approximately 10-11g of protein with negligible fat (<0.2g) and carbohydrates, making them exceptionally nutrient-dense for longevity-focused diets. The protein is easily digestible and has one of the highest biological values among food proteins, supporting lean muscle preservation critical for aging adults. Egg whites also contain ovalbumin and ovotransferrin, proteins with antioxidant and antimicrobial properties. The absence of added whipping agents preserves the pure nutritional profile, avoiding unnecessary emulsifiers or stabilizers. Liquid egg whites are particularly valuable for those prioritizing protein intake while minimizing caloric density, supporting metabolic health, satiety, and muscle protein synthesis—key factors in healthy aging and longevity.",
+      "health_benefits": [
+        {
+          "benefit": "Supports lean muscle maintenance and protein synthesis",
+          "mechanism": "Complete protein containing all essential amino acids, particularly rich in leucine which activates mTOR pathway for muscle protein synthesis; supports sarcopenia prevention in aging",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Promotes satiety with minimal caloric load",
+          "mechanism": "High protein-to-calorie ratio triggers gut peptides like PYY and GLP-1, enhancing satiation signals while remaining low in total energy density",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Supports cardiovascular health through cholesterol management",
+          "mechanism": "Zero cholesterol and negligible fat content makes it ideal for those managing lipid profiles; pure protein without atherogenic lipids",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Provides antioxidant and antimicrobial compounds",
+          "mechanism": "Ovalbumin and ovotransferrin possess inherent antioxidant activity and can chelate iron, supporting oxidative stress reduction",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Supports stable blood glucose and metabolic health",
+          "mechanism": "Pure protein with zero carbohydrates prevents glucose spikes; protein-induced thermogenesis increases metabolic rate by 20-30% of calories consumed",
+          "evidence_strength": "strong"
+        }
+      ],
+      "food_pairings": [
+        "Pair with berries (blueberries, raspberries) because anthocyanins enhance antioxidant effects and provide carbohydrates for post-workout recovery without glycemic spike",
+        "Combine with leafy greens (spinach, kale) because their iron pairs with egg white's iron-binding proteins, improving bioavailability of plant-based minerals",
+        "Mix with omega-3 rich foods (chia seeds, walnuts) because protein + omega-3 fatty acids synergistically reduce inflammation and support cardiovascular health",
+        "Pair with vitamin C sources (citrus, bell peppers) because ascorbic acid enhances absorption of any trace minerals and supports collagen synthesis alongside protein",
+        "Combine with resistant starch (legumes, green banana) because protein + resistant starch slows gastric emptying, prolonging satiety and stabilizing glucose"
+      ],
+      "practical_tips": [
+        "Store liquid egg whites in the refrigerator for up to 10 days after opening; check pasteurization date on packaging as this directly impacts shelf life stability",
+        "Use in smoothies, omelets, baked goods, or mixed into oatmeal; heating liquid egg whites to 160°F (71°C) ensures safety if not already pasteurized per label",
+        "Select brands without gums, xanthan, or other stabilizers to maintain pure nutritional profile; read ingredient lists carefully as some brands add carrageenan or locust bean gum",
+        "Consume within 2 hours of opening the container or transfer to an airtight glass container to prevent oxidation of proteins and minimize bacterial growth risk",
+        "Incorporate 20-30g per meal for optimal leucine threshold (~2.5-3g) to trigger muscle protein synthesis; spacing across multiple meals is more effective than single large doses"
+      ],
+      "optimal_timing": {
+        "best_time": "post-workout",
+        "reasoning": "Post-workout consumption (within 2 hours of exercise) maximizes muscle protein synthesis window when mTOR pathway is activated; 20-30g liquid egg white provides optimal leucine dose for anabolic response",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "While not compatible with strict fasting (contains protein which triggers minimal insulin), liquid egg whites are appropriate during eating windows and particularly valuable post-resistance training or endurance exercise"
+      },
+      "default_variant_id": "liquid_egg_white__raw__whole",
+      "price_avg": 3.5,
+      "price_unit": "lb",
+      "score": 74,
+      "grade": "B",
+      "grade_color": "#6366F1",
+      "score_breakdown": {
+        "nutrient_density": 31.02,
+        "protein_quality": 14.0,
+        "fiber_content": 0.0,
+        "healthy_fats": 5.0,
+        "bioactive_compounds": 7.0,
+        "glycemic_impact": 10.0,
+        "anti_nutrient_penalty": 2.0,
+        "top_nutrients": [
+          [
+            "Selenium",
+            34.5
+          ],
+          [
+            "Riboflavin",
+            32.3
+          ],
+          [
+            "Biotin",
+            23.3
+          ],
+          [
+            "Sodium",
+            6.5
+          ],
+          [
+            "Potassium",
+            3.3
+          ]
+        ],
+        "bioactives_found": [],
+        "concerns": [
+          "High sodium"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "liquid_egg_white__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 48.0,
+          "macros": {
+            "protein_g": 10.1,
+            "carbs_g": 0.5,
+            "fat_g": 0.16,
+            "fiber_g": 0
+          },
+          "micros": {
+            "sugars_g": 0.5,
+            "sodium_mg": 150,
+            "potassium_mg": 155,
+            "selenium_mcg": 19,
+            "riboflavin_mg": 0.42,
+            "magnesium_mg": 10,
+            "phosphorus_mg": 14,
+            "pantothenic_acid_mg": 0.15,
+            "biotin_mcg": 7.0
+          },
+          "source": {
+            "name": "USDA SR Legacy (curated 2026-05-18)"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "noodle",
       "name": "Noodle",
       "group": "Grain",
@@ -75714,154 +75863,6 @@
           "source": {
             "name": "USDA FDC",
             "id": "169219"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "liquid-egg-white",
-      "name": "Liquid Egg White (Without Whipping Agents)",
-      "group": "Dairy",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "complete-protein",
-        "low-calorie",
-        "muscle-maintenance",
-        "sarcopenia-prevention",
-        "post-workout",
-        "weight-management",
-        "cholesterol-free",
-        "amino-acids",
-        "protein-synthesis",
-        "longevity",
-        "metabolic-health"
-      ],
-      "icon": "🥚",
-      "image_path": "",
-      "image_url": "/food-assets/liquid-egg-white/hero.webp",
-      "gallery_images": [],
-      "description": "Liquid egg white is pasteurized, ready-to-use egg white without added whipping agents, providing pure protein with minimal calories and no fat or cholesterol. It serves as a convenient protein source for muscle maintenance and metabolic health.",
-      "overview": "Liquid egg whites are processed egg whites that have been pasteurized for food safety and packaged for convenience without additives like gums or stabilizers. Originating from industrial egg processing, they retain the nutritional integrity of whole egg whites—primarily high-quality complete protein containing all nine essential amino acids. Per 100g, liquid egg whites deliver approximately 10-11g of protein with negligible fat (<0.2g) and carbohydrates, making them exceptionally nutrient-dense for longevity-focused diets. The protein is easily digestible and has one of the highest biological values among food proteins, supporting lean muscle preservation critical for aging adults. Egg whites also contain ovalbumin and ovotransferrin, proteins with antioxidant and antimicrobial properties. The absence of added whipping agents preserves the pure nutritional profile, avoiding unnecessary emulsifiers or stabilizers. Liquid egg whites are particularly valuable for those prioritizing protein intake while minimizing caloric density, supporting metabolic health, satiety, and muscle protein synthesis—key factors in healthy aging and longevity.",
-      "health_benefits": [
-        {
-          "benefit": "Supports lean muscle maintenance and protein synthesis",
-          "mechanism": "Complete protein containing all essential amino acids, particularly rich in leucine which activates mTOR pathway for muscle protein synthesis; supports sarcopenia prevention in aging",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Promotes satiety with minimal caloric load",
-          "mechanism": "High protein-to-calorie ratio triggers gut peptides like PYY and GLP-1, enhancing satiation signals while remaining low in total energy density",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Supports cardiovascular health through cholesterol management",
-          "mechanism": "Zero cholesterol and negligible fat content makes it ideal for those managing lipid profiles; pure protein without atherogenic lipids",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Provides antioxidant and antimicrobial compounds",
-          "mechanism": "Ovalbumin and ovotransferrin possess inherent antioxidant activity and can chelate iron, supporting oxidative stress reduction",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Supports stable blood glucose and metabolic health",
-          "mechanism": "Pure protein with zero carbohydrates prevents glucose spikes; protein-induced thermogenesis increases metabolic rate by 20-30% of calories consumed",
-          "evidence_strength": "strong"
-        }
-      ],
-      "food_pairings": [
-        "Pair with berries (blueberries, raspberries) because anthocyanins enhance antioxidant effects and provide carbohydrates for post-workout recovery without glycemic spike",
-        "Combine with leafy greens (spinach, kale) because their iron pairs with egg white's iron-binding proteins, improving bioavailability of plant-based minerals",
-        "Mix with omega-3 rich foods (chia seeds, walnuts) because protein + omega-3 fatty acids synergistically reduce inflammation and support cardiovascular health",
-        "Pair with vitamin C sources (citrus, bell peppers) because ascorbic acid enhances absorption of any trace minerals and supports collagen synthesis alongside protein",
-        "Combine with resistant starch (legumes, green banana) because protein + resistant starch slows gastric emptying, prolonging satiety and stabilizing glucose"
-      ],
-      "practical_tips": [
-        "Store liquid egg whites in the refrigerator for up to 10 days after opening; check pasteurization date on packaging as this directly impacts shelf life stability",
-        "Use in smoothies, omelets, baked goods, or mixed into oatmeal; heating liquid egg whites to 160°F (71°C) ensures safety if not already pasteurized per label",
-        "Select brands without gums, xanthan, or other stabilizers to maintain pure nutritional profile; read ingredient lists carefully as some brands add carrageenan or locust bean gum",
-        "Consume within 2 hours of opening the container or transfer to an airtight glass container to prevent oxidation of proteins and minimize bacterial growth risk",
-        "Incorporate 20-30g per meal for optimal leucine threshold (~2.5-3g) to trigger muscle protein synthesis; spacing across multiple meals is more effective than single large doses"
-      ],
-      "optimal_timing": {
-        "best_time": "post-workout",
-        "reasoning": "Post-workout consumption (within 2 hours of exercise) maximizes muscle protein synthesis window when mTOR pathway is activated; 20-30g liquid egg white provides optimal leucine dose for anabolic response",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "While not compatible with strict fasting (contains protein which triggers minimal insulin), liquid egg whites are appropriate during eating windows and particularly valuable post-resistance training or endurance exercise"
-      },
-      "default_variant_id": "liquid_egg_white__raw__whole",
-      "price_avg": 3.5,
-      "price_unit": "lb",
-      "score": 73,
-      "grade": "B",
-      "grade_color": "#6366F1",
-      "score_breakdown": {
-        "nutrient_density": 31.02,
-        "protein_quality": 14.0,
-        "fiber_content": 0.0,
-        "healthy_fats": 5.0,
-        "bioactive_compounds": 7.0,
-        "glycemic_impact": 10.0,
-        "anti_nutrient_penalty": 2.0,
-        "top_nutrients": [
-          [
-            "Selenium",
-            34.5
-          ],
-          [
-            "Riboflavin",
-            32.3
-          ],
-          [
-            "Biotin",
-            23.3
-          ],
-          [
-            "Sodium",
-            6.5
-          ],
-          [
-            "Potassium",
-            3.3
-          ]
-        ],
-        "bioactives_found": [],
-        "concerns": [
-          "High sodium"
-        ]
-      },
-      "variants": [
-        {
-          "variant_id": "liquid_egg_white__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 48.0,
-          "macros": {
-            "protein_g": 10.1,
-            "carbs_g": 0.5,
-            "fat_g": 0.16,
-            "fiber_g": 0
-          },
-          "micros": {
-            "sugars_g": 0.5,
-            "sodium_mg": 150,
-            "potassium_mg": 155,
-            "selenium_mcg": 19,
-            "riboflavin_mg": 0.42,
-            "magnesium_mg": 10,
-            "phosphorus_mg": 14,
-            "pantothenic_acid_mg": 0.15,
-            "biotin_mcg": 7.0
-          },
-          "source": {
-            "name": "USDA SR Legacy (curated 2026-05-18)"
           },
           "image_url": null,
           "gallery_images": []
@@ -99117,176 +99118,6 @@
           },
           "source": {
             "name": "ported-from-sibling:brown_rice__boiled__whole"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "chorizo-pork-sausage",
-      "name": "Chorizo Pork Sausage",
-      "group": "Meat",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "processed-meat",
-        "high-sodium",
-        "saturated-fat-dense",
-        "complete-protein",
-        "heme-iron-source",
-        "cured-meat",
-        "use-sparingly",
-        "flavoring-agent",
-        "umami-rich"
-      ],
-      "icon": "🌶️",
-      "image_path": "",
-      "image_url": "/food-assets/chorizo-pork-sausage/hero.webp",
-      "gallery_images": [],
-      "description": "Chorizo is a highly seasoned pork sausage traditional to Spanish and Latin American cuisines, characterized by its spice profile and fat content. While nutrient-dense in protein and B vitamins, it is calorie and saturated fat-dense, requiring mindful portion control for longevity-focused diets.",
-      "overview": "Chorizo originated in the Iberian Peninsula and has become a staple across Spanish-speaking regions. This cured pork sausage derives its distinctive color and flavor from paprika, garlic, and various spices including cumin and oregano. Per 100g, chorizo typically provides 24-28g protein, 21-27g fat (with significant saturated fat content), and minimal carbohydrates. While it offers bioavailable heme iron and B vitamins (particularly B12 and niacin) essential for energy metabolism and neurological function, chorizo's high sodium content (600-900mg per 100g) and saturated fat profile (8-12g) present cardiovascular considerations for regular consumption. The paprika and garlic compounds contain polyphenols with antioxidant properties, though quantities are modest. For longevity optimization, chorizo functions best as an occasional flavoring agent rather than a primary protein source, leveraging its concentrated umami and spice profile to enhance vegetable-forward or legume-based dishes. The curing process involves nitrates/nitrites, which warrant consideration for those sensitive to processed meat consumption. Portion control—using 1-2 ounces as a flavoring rather than a main course—allows enjoyment of its culinary benefits while minimizing metabolic burden.",
-      "health_benefits": [
-        {
-          "benefit": "Supports energy production and red blood cell formation",
-          "mechanism": "High heme iron (2-3mg per 100g) and B12 (1-2mcg per 100g) facilitate oxygen transport and ATP synthesis, critical for cellular energy metabolism",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Provides complete protein for muscle maintenance",
-          "mechanism": "Contains all nine essential amino acids (24-28g per 100g) necessary for muscle protein synthesis and tissue repair",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Contributes antioxidant activity via paprika and garlic compounds",
-          "mechanism": "Capsaicinoids in paprika and allicin metabolites from garlic reduce oxidative stress and inflammatory markers, though bioavailable quantities are modest in typical servings",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "May support iron absorption when paired with vitamin C sources",
-          "mechanism": "Heme iron from pork is highly bioavailable (15-35% absorption rate) and non-heme iron absorption is enhanced by concurrent vitamin C intake",
-          "evidence_strength": "strong"
-        }
-      ],
-      "food_pairings": [
-        "Pair with bell peppers and tomatoes: vitamin C enhances non-heme iron absorption and the polyphenols in peppers have synergistic antioxidant effects",
-        "Combine with legumes (beans, lentils): balances the saturated fat load with fiber and plant compounds while reducing overall sodium density per serving",
-        "Mix into vegetable-forward dishes with leafy greens: dilutes calorie/fat concentration while the umami from chorizo enhances vegetable palatability",
-        "Pair with fermented foods (kimchi, sauerkraut): probiotics may support gut barrier function and offset processed meat's potential negative effects on microbiome"
-      ],
-      "practical_tips": [
-        "Use chorizo as a flavoring agent (1-2 ounces) rather than a main protein; slice thinly and render the fat to distribute flavor while reducing per-serving consumption",
-        "Choose Spanish-style chorizo over heavily processed varieties; verify ingredient lists for minimal additives and lower sodium formulations when possible",
-        "Store cured chorizo in a cool, dry place or refrigerator; opened packages should be used within 7-10 days to minimize lipid oxidation",
-        "Brown chorizo gently to render excess fat; drain on paper towels to reduce saturated fat intake by 20-30% while preserving flavor compounds",
-        "Limit consumption to 1-2 times weekly and pair exclusively with high-fiber, nutrient-dense vegetables to maintain cardiovascular health markers"
-      ],
-      "optimal_timing": {
-        "best_time": "midday",
-        "reasoning": "Consuming chorizo at lunch allows full digestive capacity and metabolic processing before evening; evening consumption may delay sleep due to high fat and sodium content triggering fluid retention",
-        "avoid_times": [
-          "evening",
-          "late-night",
-          "fasting"
-        ],
-        "fasting_compatible": false,
-        "notes": "Chorizo's high sodium and saturated fat profile makes it unsuitable for fasting windows; breaks fast with lighter, whole-food proteins instead"
-      },
-      "default_variant_id": "chorizo_pork_sausage__raw__whole",
-      "price_avg": 4.5,
-      "price_unit": "lb",
-      "score": 45,
-      "grade": "C",
-      "grade_color": "#9CA3AF",
-      "score_breakdown": {
-        "nutrient_density": 9.64,
-        "protein_quality": 14.0,
-        "fiber_content": 0.0,
-        "healthy_fats": 6.5,
-        "bioactive_compounds": 7.0,
-        "glycemic_impact": 10.0,
-        "anti_nutrient_penalty": 6.0,
-        "top_nutrients": [
-          [
-            "Sodium",
-            47.4
-          ],
-          [
-            "Zinc",
-            21.8
-          ],
-          [
-            "Iron",
-            15.0
-          ],
-          [
-            "Potassium",
-            7.9
-          ],
-          [
-            "Vitamin K",
-            5.0
-          ]
-        ],
-        "bioactives_found": [],
-        "concerns": [
-          "High saturated fat",
-          "Moderate sodium",
-          "Processed meat (WHO Group 1 carcinogen)"
-        ]
-      },
-      "variants": [
-        {
-          "variant_id": "chorizo_pork_sausage__cooked__whole",
-          "variety": null,
-          "prep": "cooked",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 0.0,
-          "macros": {
-            "protein_g": 0.0,
-            "carbs_g": 0.0,
-            "fat_g": 0.0,
-            "fiber_g": 0.0
-          },
-          "micros": {},
-          "source": {
-            "name": "USDA FDC",
-            "id": "332792"
-          },
-          "image_url": "/food-assets/chorizo-pork-sausage/cooked.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "chorizo_pork_sausage__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 455.0,
-          "macros": {
-            "protein_g": 24.0,
-            "carbs_g": 2.2,
-            "fat_g": 38.6,
-            "fiber_g": 0.0
-          },
-          "micros": {
-            "vitamin_k_mcg": 6.0,
-            "potassium_mg": 370.0,
-            "calcium_mg": 20.0,
-            "iron_mg": 2.7,
-            "magnesium_mg": 21.0,
-            "sodium_mg": 1090.0,
-            "zinc_mg": 2.4,
-            "saturated_fat_g": 14.2,
-            "monounsaturated_fat_g": 18.5,
-            "polyunsaturated_fat_g": 3.3
-          },
-          "source": {
-            "name": "claude-haiku backfill",
-            "id": ""
           },
           "image_url": null,
           "gallery_images": []
