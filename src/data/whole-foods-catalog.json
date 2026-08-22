@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22T22:53:43+00:00",
+  "version": "2026-08-22T23:02:03+00:00",
   "score_version": "1.4.0",
   "categories": [
     "Fruit",
@@ -9644,8 +9644,16 @@
         "tomato",
         "garlic"
       ],
-      "practical_tips": "Rinse salt-packed anchovies to cut sodium; eat bone-in for calcium. Choose fillets in olive oil over brine for fat quality.",
-      "optimal_timing": "Any meal; 2-3 servings of oily fish per week is the studied cardioprotective range.",
+      "practical_tips": [
+        "Rinse salt-packed anchovies to cut sodium; eat bone-in for calcium. Choose fillets in olive oil over brine for fat quality."
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Any meal; 2-3 servings of oily fish per week is the studied cardioprotective range.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": ""
+      },
       "default_variant_id": "anchovy__raw__whole",
       "price_avg": 0.8,
       "price_unit": "oz",
@@ -14656,8 +14664,16 @@
         "ginger",
         "unsweetened latte"
       ],
-      "practical_tips": "Steep brewed green tea at or below 80C to preserve catechins; for matcha, whisk ~1-2 g into hot (not boiling) water. Lemon stabilises EGCG.",
-      "optimal_timing": "Morning or early afternoon; avoid late evening due to caffeine.",
+      "practical_tips": [
+        "Steep brewed green tea at or below 80C to preserve catechins; for matcha, whisk ~1-2 g into hot (not boiling) water. Lemon stabilises EGCG."
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Morning or early afternoon; avoid late evening due to caffeine.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": ""
+      },
       "default_variant_id": "green_tea__raw__whole",
       "price_avg": 3.5,
       "price_unit": "oz",
@@ -39511,8 +39527,16 @@
         "greens",
         "oily fish"
       ],
-      "practical_tips": "Eat unpasteurised, refrigerated kimchi for live cultures; rinse lightly if sodium is a concern. Shelf-stable jars are pasteurised and lack live bacteria.",
-      "optimal_timing": "Any meal as a 50-100 g serving.",
+      "practical_tips": [
+        "Eat unpasteurised, refrigerated kimchi for live cultures; rinse lightly if sodium is a concern. Shelf-stable jars are pasteurised and lack live bacteria."
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Any meal as a 50-100 g serving.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": ""
+      },
       "default_variant_id": "kimchi__raw__whole",
       "price_avg": 0.4,
       "price_unit": "oz",
@@ -64941,8 +64965,16 @@
         "nuts",
         "yogurt"
       ],
-      "practical_tips": "Use unsweetened/non-alkalized ('natural') cocoa for the highest flavanol content; Dutch-processing destroys most flavanols.",
-      "optimal_timing": "Any time; pairing with fruit improves palatability without added sugar.",
+      "practical_tips": [
+        "Use unsweetened/non-alkalized ('natural') cocoa for the highest flavanol content; Dutch-processing destroys most flavanols."
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Any time; pairing with fruit improves palatability without added sugar.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": ""
+      },
       "default_variant_id": "cacao__raw__whole",
       "price_avg": 0.9,
       "price_unit": "oz",
