@@ -69,11 +69,28 @@ export const foods: Food[] = (catalog.foods as unknown as Food[]).filter(
   (f) => f.score != null && !!f.image_url,
 );
 
-/** Human-readable timing line — optimal_timing is sometimes an object, sometimes a string. */
+/** Human-readable timing line — optimal_timing is sometimes an object, sometimes a string.
+ *
+ * `best_time` is only worth printing when it says something. "anytime" is the
+ * schema default in `OptimalTiming`, so a row can carry it while the real
+ * guidance sits unread in `reasoning` — 215 of the 487 publishable foods were
+ * in exactly that state, rendering a bare "anytime" on their page while a
+ * usable sentence ("Pepper is most useful taken alongside meals so piperine
+ * can…") went unused. Falling back keeps every specific best_time exactly as
+ * it was and only replaces the placeholder.
+ *
+ * This also protects the four rows (cacao, green-tea, anchovy, kimchi) whose
+ * `optimal_timing` used to be a prose STRING and rendered in full here. They
+ * were reshaped into proper objects at source, which parked that prose in
+ * `reasoning`; without this fallback they would have silently regressed to
+ * "anytime".
+ */
 export function timingText(t: FoodTiming | string | null | undefined): string | null {
   if (!t) return null;
   if (typeof t === "string") return t;
-  return t.best_time || t.notes || null;
+  const best = (t.best_time ?? "").trim();
+  if (best && best.toLowerCase() !== "anytime") return best;
+  return t.reasoning || t.notes || best || null;
 }
 
 export const foodCount = foods.length;
