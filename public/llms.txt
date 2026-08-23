@@ -1,6 +1,6 @@
 # Formulate
 
-> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 0–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup. Available as a free web app and a free iOS app.
+> Evidence-based supplement and nutrition scoring. Formulate grades every supplement 50–100 against the clinical literature — judging ingredient dose, bioavailable form, label transparency, third-party testing, safety, and manufacturing — with no pay-to-play and no sponsored rankings. Brands are graded by aggregating the scores of their full product lineup. Available as a free web app and a free iOS app.
 
 Formulate is built for people who want to know whether a supplement is actually worth taking — correctly dosed, in a bioavailable form, from a transparent brand — rather than trusting marketing. Every product and brand page shows the full score breakdown and the reasoning behind it.
 

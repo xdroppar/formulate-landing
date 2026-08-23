@@ -13,6 +13,7 @@ import {
 } from "@/lib/products";
 import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 
@@ -144,6 +145,16 @@ export default function SupplementsHub() {
           and manufacturing practices. {products.length} supplements indexed.
         </p>
       </header>
+
+      {/* This hub is the site's highest-traffic landing page and carried no route
+          into the app at all — only a newsletter form 100 lines below the fold. */}
+      <AppCtaCard
+        className="mb-12"
+        title="Score your own stack — free"
+        sub="Add what you already take and see what it covers, and where the gaps are."
+        campaign="supplements_hub_cta"
+        path="/catalog"
+      />
 
       <section className="mb-14">
         <div className="flex items-baseline justify-between mb-4">

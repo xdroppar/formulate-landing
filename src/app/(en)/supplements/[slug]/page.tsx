@@ -18,6 +18,7 @@ import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
 import { ScoreMeter } from "@/components/score-meter";
 import { findIngredientByName } from "@/lib/encyclopedia";
 import { PageConversion } from "@/components/page-conversion";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 const APP_URL = "https://app.formulate-health.app";
@@ -436,6 +437,18 @@ export default async function SupplementPage({ params }: { params: Params }) {
             amazon_url={amazonUrl}
             iherb_url={iherbUrl}
             app_url={appUrl}
+          />
+          {/* The ask belongs HERE, not at the foot of the page. Readers spend ~35s
+              on this route and leave from it; the end-of-page PageConversion sits
+              ~200 lines below where they stop. They have just been given one
+              product's score, so the next question is their own stack — offer that
+              while the question is live. Tracked automatically by AppLinkTracker. */}
+          <AppCtaCard
+            className="mt-5"
+            title={`Add ${product.name} to your stack — free`}
+            sub="Get one number for what your supplements actually cover, and what they miss."
+            campaign="supplement_inline_cta"
+            path={`/catalog/${product.slug}`}
           />
           {reviewDateLabel && (
             <p className="text-xs text-muted mt-4 leading-relaxed">
