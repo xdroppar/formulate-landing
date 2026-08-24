@@ -6,6 +6,12 @@ import { trackEvent } from "@/lib/analytics";
 
 interface Props {
   slug: string;
+  /** Button text. Defaults to the guide wording; pSEO pages pass their own
+   *  per-kind CTA so the bar says the same thing as the block at the foot. */
+  label?: string;
+  /** Where the bar is running — drives analytics and the /start attribution
+   *  param. Defaults to "guide" so existing guide usage is unchanged. */
+  source?: string;
 }
 
 // Timestamped rather than a permanent "1": the old key never expired, so a
@@ -27,7 +33,7 @@ const DISMISS_TTL_MS = 7 * 24 * 60 * 60 * 1000;
  * Appears after a small scroll threshold so it doesn't cover the article
  * header on load.
  */
-export function GuideStickyCTA({ slug }: Props) {
+export function GuideStickyCTA({ slug, label = "Build my stack", source = "guide" }: Props) {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
@@ -62,7 +68,7 @@ export function GuideStickyCTA({ slug }: Props) {
 
   const handleClick = () => {
     trackEvent("start_click", {
-      source: `guide_sticky:${slug}`,
+      source: `${source}_sticky:${slug}`,
     });
   };
 
@@ -73,7 +79,7 @@ export function GuideStickyCTA({ slug }: Props) {
     } catch {
       // ignore
     }
-    trackEvent("guide_sticky_dismiss", { guide: slug });
+    trackEvent("guide_sticky_dismiss", { guide: slug, source });
   };
 
   if (dismissed || !visible) return null;
@@ -97,11 +103,11 @@ export function GuideStickyCTA({ slug }: Props) {
           </div>
         </div>
         <Link
-          href={`/start?from=guide&guide=${slug}`}
+          href={source === "guide" ? `/start?from=guide&guide=${slug}` : `/start?from=${source}&ref=${slug}`}
           onClick={handleClick}
           className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
         >
-          Build my stack
+          {label}
           <svg
             className="w-3.5 h-3.5"
             fill="none"

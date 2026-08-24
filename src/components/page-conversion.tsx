@@ -5,6 +5,7 @@ import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { MobileAppBadges } from "@/components/mobile-app-badges";
+import { GuideStickyCTA } from "@/components/guide-sticky-cta";
 import { IOS_LIVE } from "@/lib/app-store";
 
 /**
@@ -167,6 +168,19 @@ export function PageConversion({ kind, slug, subject }: Props) {
 
   return (
     <>
+      {/* The block below is the END of the page. Guides have had a pinned bar
+          since they're 400+ lines and nobody reaches the foot; the ~2,859 pSEO
+          pages never got one, and they are what search actually lands on —
+          median dwell ~19s, entry page and exit page identical. So the same bar
+          runs here, wearing this kind's own CTA wording.
+
+          Skipped on `supplement`: those pages carry an inline AppCtaCard right
+          under the score now, and two competing asks on one screen is worse
+          than one well-placed one. */}
+      {kind !== "supplement" && (
+        <GuideStickyCTA slug={slug} label={copy.cta} source={kind} />
+      )}
+
       <section className="mt-12 rounded-2xl border border-accent/20 bg-accent/[0.04] px-6 py-7">
         <div className="max-w-[560px]">
           <h2 className="text-lg font-bold text-text mb-2">{copy.title(subject)}</h2>
