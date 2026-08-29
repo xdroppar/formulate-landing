@@ -111,10 +111,49 @@ for (const d of dirs) {
   }
 }
 
+// 3) Mirror the WHOLE-FOODS catalog too.
+//
+// This step did not exist, and nothing else mirrored it either — so while the
+// supplement catalog was kept in step by this script, whole foods drifted
+// silently. Landing froze at the 2026-08-22 export while web moved to 08-26
+// (the bioactive pillar switched to measured flavonoid content), and the live
+// site scored Almonds 89/A for four days while the current engine said 97/A+.
+// Whole-food scores drive /foods, /foods/best/* and every video built from the
+// catalog, so a silent 8-point drift is not cosmetic.
+const WEB_FOODS = join(WEB_ROOT, "src", "data", "whole-foods-catalog.json");
+const LANDING_FOODS = join(LANDING_ROOT, "src", "data", "whole-foods-catalog.json");
+
+let foodCount = 0;
+let foodVersion = "n/a";
+if (!existsSync(WEB_FOODS)) {
+  console.warn(`WARN: no whole-foods catalog at ${WEB_FOODS} — skipping that mirror.`);
+} else {
+  let foods;
+  try {
+    foods = JSON.parse(readFileSync(WEB_FOODS, "utf8"));
+  } catch (e) {
+    die(`web whole-foods-catalog.json is not valid JSON: ${e.message}`);
+  }
+  const list = Array.isArray(foods.foods) ? foods.foods : [];
+  const scoredFoods = list.filter((f) => f.score != null).length;
+  // Same guard as the supplement catalog: never mirror an empty/broken export.
+  if (scoredFoods < 1) {
+    die(
+      `web whole-foods catalog has ${scoredFoods} scored foods — refusing to ` +
+        `mirror a broken catalog over the landing.`,
+    );
+  }
+  writeFileSync(LANDING_FOODS, JSON.stringify(foods, null, 2) + "\n");
+  foodCount = list.length;
+  foodVersion = foods.version || "n/a";
+}
+
 console.log("=== Landing catalog mirrored from web app ===");
 console.log(`  source : ${WEB_CATALOG}`);
 console.log(`  products: ${products.length} (${scored} scored/visible), brands: ${brands.length}`);
 console.log(`  image dirs referenced: ${dirs.size} — copied/refreshed: ${copied}` +
   (missing ? `, missing source (will 404): ${missing}` : ""));
+console.log(`  whole foods: ${foodCount} (export ${foodVersion})`);
 console.log("");
-console.log("Next: commit src/data/catalog.json + public/images/products, then push.");
+console.log("Next: commit src/data/catalog.json, src/data/whole-foods-catalog.json");
+console.log("      + public/images/products, then push.");
