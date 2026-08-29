@@ -1,72 +1,135 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { withUtm } from "@/lib/app-url";
 
 export const metadata: Metadata = {
-  title: "Food Scoring Methodology — How Formulate Scores Foods",
+  title: "Food Scoring Methodology — How Formulate Scores Whole Foods",
   description:
-    "Foods scored 0–100 on real nutritional quality — nutrient density, processing level, and beneficial compounds — so you can compare a whole food and a branded product on the same scale. Not calories.",
+    "Whole foods scored 0–100 on seven weighted pillars — nutrient density, protein, fiber, fat quality, bioactives, glycemic impact, anti-nutrients — with the evidence behind each one cited.",
   alternates: { canonical: "https://formulate-health.app/methodology/foods" },
   openGraph: {
-    title: "How Formulate Scores Foods",
+    title: "How Formulate Scores Whole Foods",
     description:
-      "Foods scored on nutritional quality, not calories — nutrient density, processing level, and beneficial compounds.",
+      "Seven weighted pillars, the exact grade bands, and a citation for every scoring decision.",
     type: "article",
   },
 };
 
-const FACTORS = [
+/**
+ * These weights, bands and figures are the ones the scoring engine actually
+ * uses (`whole_food_scoring_service.py`, score_version 1.5.1). This page
+ * previously described a different rubric — processing level and sourcing,
+ * which whole foods do not have — and published grade bands that disagreed
+ * with the app. If the engine changes, change this page in the same commit.
+ */
+const SCORE_VERSION = "1.5.1";
+
+const PILLARS = [
   {
     name: "Nutrient Density",
+    weight: 35,
     color: "text-green-400",
-    desc: "The headline factor. How much real nutrition — vitamins, minerals, fiber, quality protein — a food delivers relative to its calories. A food earns its score by what it gives you per calorie, not by being low-calorie.",
+    desc:
+      "Vitamins and minerals the food delivers, scored on two tracks — per 100 g and per 100 calories — so a calorie-dense food like nuts is not punished for its energy. Each nutrient is capped at 200% of its Daily Value so no single outlier can carry a food.",
+    evidence:
+      "Capping per nutrient follows the Nutrient-Rich Foods index, which caps at 100% DV to prevent overweighting foods exceptionally high in one nutrient.",
+    cite: "Drewnowski, J Nutr 2009",
+    href: "https://jn.nutrition.org/article/S0022-3166(22)06842-0/fulltext",
   },
   {
-    name: "Processing Level",
-    color: "text-blue-400",
-    desc: "Whole and minimally-processed foods score high; ultra-processed foods (refined, reformulated, additive-heavy) are penalized. We use the food's processing classification, not marketing claims.",
-  },
-  {
-    name: "Beneficial Compounds",
+    name: "Bioactive Compounds",
+    weight: 15,
     color: "text-cyan-400",
-    desc: "Bioactives with real evidence — omega-3s, polyphenols, carotenoids, glucosinolates, isoflavones — add points. These are the compounds whole foods carry that a calorie count can't see.",
+    desc:
+      "Polyphenols, flavonoids, carotenoids, glucosinolates and other compounds a calorie count cannot see. Where measured flavonoid content exists it is used directly; otherwise a food group baseline applies.",
+    evidence:
+      "In 56,048 adults followed 23 years, flavonoid intake was associated with lower all-cause and cardiovascular mortality, plateauing near 500 mg/day.",
+    cite: "Bondonno, Nat Commun 2019",
+    href: "https://www.nature.com/articles/s41467-019-11622-x",
   },
   {
-    name: "Sourcing & Integrity",
+    name: "Protein Quality",
+    weight: 15,
+    color: "text-indigo-400",
+    desc:
+      "Protein content and amino-acid completeness relative to the food's calories. Weighted toward complete proteins, which matters more with age than the plain RDA implies.",
+    evidence:
+      "Multiple consensus statements hold that the 0.8 g/kg/day RDA is inadequate for older adults; ~1.2 g/kg/day better preserves muscle.",
+    cite: "Traylor & Phillips, Adv Nutr 2018",
+    href: "https://pubmed.ncbi.nlm.nih.gov/29635313/",
+  },
+  {
+    name: "Fiber Content",
+    weight: 10,
+    color: "text-emerald-400",
+    desc: "Dietary fiber relative to calories, credited on absolute amount rather than a fiber-to-carb ratio.",
+    evidence:
+      "Across 185 prospective studies and 58 trials — nearly 135 million person-years — the highest fiber intakes carried 15–30% lower all-cause and cardiovascular mortality.",
+    cite: "Reynolds, Lancet 2019",
+    href: "https://www.thelancet.com/article/S0140-6736(18)31809-9/fulltext",
+  },
+  {
+    name: "Fat Quality",
+    weight: 10,
     color: "text-amber-400",
-    desc: "Verified organic and non-GMO status, and a short, clean ingredient list, are recognized. A single-ingredient whole food and a clean branded product can both score well.",
+    desc:
+      "Saturated fraction on a graded scale, monounsaturated and polyunsaturated fat credited separately rather than summed, trans fat penalised, and omega-3 credited on absolute amount. There is deliberately no omega-6 penalty and no omega-6:omega-3 ratio term.",
+    evidence:
+      "PREDIMED found a Mediterranean diet supplemented with olive oil or nuts cut major cardiovascular events in 7,216 high-risk adults. Separately, higher linoleic acid tracks with lower cardiovascular risk, which is why omega-6 is not penalised.",
+    cite: "Estruch, NEJM 2018 · Marklund, Circulation 2019",
+    href: "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389",
   },
   {
-    name: "Added Sugar, Sodium & Additives",
+    name: "Glycemic Impact",
+    weight: 10,
+    color: "text-blue-400",
+    desc: "Sugar load and the fiber-to-carbohydrate relationship — how sharply the food's carbohydrate arrives.",
+    evidence:
+      "The same Lancet series covering fiber also examined glycemic index and load as measures of carbohydrate quality.",
+    cite: "Reynolds, Lancet 2019",
+    href: "https://www.thelancet.com/article/S0140-6736(18)31809-9/fulltext",
+  },
+  {
+    name: "Anti-nutrients",
+    weight: -5,
     color: "text-red-400",
-    desc: "Excess added sugar, high sodium, and unnecessary additives pull the score down — even on a food that's otherwise nutrient-dense.",
+    desc:
+      "A deduction, not a pillar — very high saturated fat, and compounds such as oxalates and phytates that impair mineral absorption.",
+    evidence:
+      "This is the weakest-evidenced factor on the page, which is why it is capped at a 5-point deduction. Phytate in particular both reduces mineral absorption and carries plausible benefits, and the net effect in whole-food diets is genuinely unsettled.",
+    cite: "Weakest evidence — smallest weight",
+    href: null,
   },
 ];
 
 const SCORE_BANDS = [
-  { range: "85–100", label: "Excellent", color: "text-green-400", desc: "Nutrient-dense, minimally processed, rich in beneficial compounds. The foundation of a longevity diet." },
-  { range: "70–84", label: "Good", color: "text-blue-400", desc: "Solid nutritional value with minor caveats — a little processing or a weaker nutrient profile." },
-  { range: "55–69", label: "Moderate", color: "text-cyan-400", desc: "Fine in context, but watch the processing, added sugar, or sodium." },
-  { range: "40–54", label: "Low", color: "text-amber-400", desc: "Heavily processed or nutrient-poor. Occasional, not foundational." },
-  { range: "0–39", label: "Poor", color: "text-red-400", desc: "Ultra-processed and low in real nutrition. Minimal longevity value." },
+  { range: "90–100", label: "A+ · Optimal", color: "text-green-400", desc: "Nutrient-dense across several pillars at once. The foundation of a longevity diet." },
+  { range: "75–89", label: "A · Excellent", color: "text-blue-400", desc: "Strong on the pillars that matter for this food group." },
+  { range: "60–74", label: "B · Good", color: "text-cyan-400", desc: "Solid nutritional value with a weaker pillar or two." },
+  { range: "40–59", label: "C · Neutral", color: "text-zinc-400", desc: "Fine in context; not doing much work for you." },
+  { range: "20–39", label: "D · Low Value", color: "text-amber-400", desc: "Thin on nutrition relative to its calories." },
+  { range: "0–19", label: "F · Minimal", color: "text-red-400", desc: "Little nutritional return. Occasional, not foundational." },
 ];
 
 const FAQS = [
   {
+    q: "Are branded products scored on this same scale?",
+    a: "No — and that is deliberate. This page describes the whole-food scale. Branded packaged products are graded one tier harsher: an A there starts at 90, where a whole food scoring 90 earns an A+. The two are separate tables on purpose, so a packaged product cannot pick up a whole food's grade by matching its number.",
+  },
+  {
     q: "Why isn't this just about calories?",
-    a: "Calories tell you about energy, not quality. Two foods with the same calories can have wildly different nutrition. Formulate scores the quality — what the food actually delivers for your long-term health — so a calorie-dense whole food can outscore a 'low-calorie' ultra-processed one.",
+    a: "Calories measure energy, not quality. Two foods with the same calories can differ enormously in what they deliver. Nutrient density is scored on two tracks — per 100 g and per 100 calories — precisely so that a calorie-dense whole food like walnuts is not penalised for its energy while a low-calorie food with little in it is not rewarded for emptiness.",
   },
   {
-    q: "How can a branded product and a whole food share one scale?",
-    a: "Because the factors are universal — nutrient density per calorie, processing level, beneficial compounds, additives. A clean branded food with a real nutrient profile can score as well as a whole food; an ultra-processed one won't.",
-  },
-  {
-    q: "Where does the nutrition data come from?",
-    a: "Whole-food data is drawn from established nutrition databases; branded foods use their published label and ingredient data. Beneficial-compound credit is tied to the evidence base, the same way supplement ingredients are evaluated.",
+    q: "What serving are the nutrient figures based on?",
+    a: "Percentages of Daily Value are shown per studied serving, not per 100 g — 28 g for nuts, 14 g for oils, 85 g for meat and fish, 140 g for fruit, 2 g for a spice. Per 100 g would mean about 65 Brazil nuts. Brazil nuts are a specific exception at 15 g, roughly three nuts, because a larger serving exceeds the tolerable upper intake for selenium.",
   },
   {
     q: "Do brands pay to score well?",
     a: "No. There are no sponsorships in any domain. The same algorithm runs on every food, and the score reflects the nutrition — not marketing or affiliate relationships.",
+  },
+  {
+    q: "Where does the nutrition data come from?",
+    a: "USDA FoodData Central composition data, including the full fatty-acid panel where USDA publishes it. Where a food's panel is incomplete the score reflects what is documented, and the app marks a score as estimated rather than measured when the underlying data is sparse.",
   },
 ];
 
@@ -77,9 +140,9 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://formulate-health.app/methodology/foods",
       url: "https://formulate-health.app/methodology/foods",
-      name: "How Formulate Scores Foods",
+      name: "How Formulate Scores Whole Foods",
       description:
-        "Foods scored 0–100 on nutritional quality — nutrient density, processing level, and beneficial compounds.",
+        "Whole foods scored 0–100 on seven weighted pillars, with the evidence behind each cited.",
       isPartOf: { "@id": "https://formulate-health.app/#website" },
     },
     {
@@ -120,32 +183,60 @@ export default function FoodMethodologyPage() {
 
         <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Food Scoring</div>
         <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] leading-[1.15] mb-4">
-          Foods scored on quality — not calories
+          Seven pillars, and what each one rests on
         </h1>
-        <p className="text-base text-muted leading-relaxed mb-12 max-w-[640px]">
-          Most apps count calories. Formulate scores how much a food actually
-          supports your long-term health, on a 0–100 scale — so a whole food and a
-          branded product can be compared on the same terms.
+        <p className="text-base text-muted leading-relaxed mb-4 max-w-[640px]">
+          Every whole food is scored 0–100 by the same rubric. Below are the exact
+          weights the engine uses, the grade bands it applies, and the published
+          evidence behind each decision — including the one factor whose evidence
+          is weak, and what we did about it.
         </p>
+        <p className="text-xs font-mono text-muted mb-12">score_version {SCORE_VERSION}</p>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">What we weigh</h2>
+          <h2 className="text-xl font-bold mb-2">What we weigh</h2>
+          <p className="text-sm text-muted mb-6">Weights sum to 100, with anti-nutrients applied as a deduction.</p>
           <div className="space-y-3">
-            {FACTORS.map((p) => (
+            {PILLARS.map((p) => (
               <div key={p.name} className="p-5 rounded-xl bg-surface border border-border">
-                <div className={`text-sm font-bold mb-1 ${p.color}`}>{p.name}</div>
+                <div className="flex items-baseline justify-between gap-4 mb-1">
+                  <div className={`text-sm font-bold ${p.color}`}>{p.name}</div>
+                  <div className="text-sm font-mono font-bold text-muted shrink-0">
+                    {p.weight > 0 ? `${p.weight}%` : `−${Math.abs(p.weight)} pts`}
+                  </div>
+                </div>
                 <p className="text-sm text-muted leading-relaxed">{p.desc}</p>
+                <div className="mt-3 pt-3 border-t border-border">
+                  <p className="text-sm text-muted leading-relaxed">{p.evidence}</p>
+                  <div className="mt-1.5 text-xs font-mono">
+                    {p.href ? (
+                      <a
+                        href={p.href}
+                        rel="noopener"
+                        className="text-accent hover:underline"
+                      >
+                        {p.cite} →
+                      </a>
+                    ) : (
+                      <span className="text-muted">{p.cite}</span>
+                    )}
+                  </div>
+                </div>
               </div>
             ))}
           </div>
         </section>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">What the score means</h2>
+          <h2 className="text-xl font-bold mb-2">What the score means</h2>
+          <p className="text-sm text-muted mb-6">
+            These are the whole-food bands. Branded packaged products use a
+            separate, harsher table.
+          </p>
           <div className="rounded-xl bg-surface border border-border p-5 space-y-3">
             {SCORE_BANDS.map((b) => (
               <div key={b.range} className="flex items-start gap-4">
-                <div className="shrink-0 w-24">
+                <div className="shrink-0 w-28">
                   <div className={`font-mono font-bold text-sm ${b.color}`}>{b.range}</div>
                   <div className={`text-xs font-semibold ${b.color}`}>{b.label}</div>
                 </div>
