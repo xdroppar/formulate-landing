@@ -21,7 +21,8 @@ export type RecipeScoreBreakdown = {
   bioactive_compounds?: number | null;
   glycemic_impact?: number | null;
   anti_nutrient_penalty?: number | null;
-  top_nutrients?: string[];
+  /** [nutrient name, %DV per serving] pairs. */
+  top_nutrients?: [string, number][];
   bioactives_found?: string[];
   concerns?: string[];
 };

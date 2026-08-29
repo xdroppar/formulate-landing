@@ -9,6 +9,8 @@ import {
   relatedFoods,
   foodColor,
   timingText,
+  servingFactor,
+  standardServingLabel,
   FOOD_BREAKDOWN_ROWS,
   type Food,
 } from "@/lib/foods";
@@ -85,6 +87,10 @@ export default async function FoodDetail({ params }: { params: Params }) {
     (r) => typeof r.value === "number",
   );
   const topNutrients = f.score_breakdown?.top_nutrients ?? [];
+  // Stored %DV is per the variant's basis (100 g for all but the per-piece
+  // variants). 100 g of nuts is ~65 nuts — show it per studied serving instead.
+  const factor = servingFactor(f, v);
+  const serving = standardServingLabel(f, v);
   const related = relatedFoods(f, 6);
   const pairings = asList(f.food_pairings);
   const tips = asList(f.practical_tips);
@@ -171,10 +177,18 @@ export default async function FoodDetail({ params }: { params: Params }) {
           {topNutrients.length > 0 && (
             <div className="mt-6">
               <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-2">Top nutrients</div>
+              <p className="text-xs text-muted mb-2">
+                % Daily Value per {serving.approx} ({serving.grams} g)
+              </p>
               <div className="flex flex-wrap gap-2">
-                {topNutrients.slice(0, 10).map((n) => (
-                  <span key={n} className="text-xs px-2.5 py-1 rounded-full border border-border bg-white/[0.02] text-text">{n}</span>
-                ))}
+                {topNutrients.slice(0, 10).map(([nutrient, dv]) => {
+                  const perServing = dv * factor;
+                  return (
+                    <span key={nutrient} className="text-xs px-2.5 py-1 rounded-full border border-border bg-white/[0.02] text-text">
+                      {nutrient} <b className="font-semibold">{perServing >= 10 ? Math.round(perServing) : perServing.toFixed(1)}%</b>
+                    </span>
+                  );
+                })}
               </div>
             </div>
           )}

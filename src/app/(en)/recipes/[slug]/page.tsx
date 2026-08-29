@@ -221,9 +221,12 @@ export default async function RecipeDetail({ params }: { params: Params }) {
           {topNutrients.length > 0 && (
             <div className="mt-6">
               <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-2">Top nutrients</div>
+              <p className="text-xs text-muted mb-2">% Daily Value per serving</p>
               <div className="flex flex-wrap gap-2">
-                {topNutrients.slice(0, 10).map((n) => (
-                  <span key={n} className="text-xs px-2.5 py-1 rounded-full border border-border bg-white/[0.02] text-text">{n}</span>
+                {topNutrients.slice(0, 10).map(([nutrient, dv]) => (
+                  <span key={nutrient} className="text-xs px-2.5 py-1 rounded-full border border-border bg-white/[0.02] text-text">
+                    {nutrient} <b className="font-semibold">{dv >= 10 ? Math.round(dv) : dv.toFixed(1)}%</b>
+                  </span>
                 ))}
               </div>
             </div>
