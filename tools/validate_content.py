@@ -34,7 +34,29 @@ INTERACTIONS_JSON = ROOT / "src" / "data" / "interactions.json"
 SUBSTANCES_JSON = ROOT / "src" / "data" / "substance-aliases.json"
 ENCYCLOPEDIA_JSON = ROOT / "src" / "data" / "encyclopedia.json"
 COMPARISONS_TS = ROOT / "src" / "lib" / "comparisons.ts"
-GUIDE_CONTENT_DIR = ROOT / "src" / "app" / "guides"
+
+
+def _resolve_guide_dir(root: Path) -> Path:
+    """The guides route dir, wherever the App Router route group puts it.
+
+    This was `src/app/guides`; it moved under the `(en)` group when the intl
+    routes landed, and the hardcoded path silently became "77 guides missing"
+    — every guide reported absent while all 77 files sat one segment away.
+    The same stale path also made validate_link_rot glob zero files, so the
+    internal-link check passed everything by scanning nothing.
+
+    Resolve it rather than pin it, so the next route group doesn't repeat this.
+    """
+    direct = root / "src" / "app" / "guides"
+    if (direct / "[slug]" / "content").is_dir():
+        return direct
+    for cand in sorted((root / "src" / "app").glob("(*)/guides")):
+        if (cand / "[slug]" / "content").is_dir():
+            return cand
+    return direct
+
+
+GUIDE_CONTENT_DIR = _resolve_guide_dir(ROOT)
 PUBLIC_DIR = ROOT / "public"
 BASELINE = ROOT / "tools" / "validate_content_baseline.json"
 
@@ -157,8 +179,9 @@ def validate_guide(guide: dict, report: Report) -> None:
 
     content_file = GUIDE_CONTENT_DIR / "[slug]" / "content" / f"{slug}.tsx"
     if not content_file.exists():
+        rel = content_file.relative_to(ROOT).as_posix()
         report.add(Issue(Code.GUIDE_CONTENT_MISSING, Severity.ERROR, subj,
-                         f"no content file at src/app/guides/[slug]/content/{slug}.tsx"))
+                         f"no content file at {rel}"))
 
     title = guide["title"]
     if not (TITLE_MIN <= len(title) <= TITLE_MAX):
