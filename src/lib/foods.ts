@@ -231,6 +231,12 @@ export function standardServingG(f: Food, variant?: FoodVariant | null): number 
 
   if (group.includes("oil") || group.includes("fat")) return 14;
   if (group.includes("nuts") || group.includes("seed")) {
+    // Brazil nut is the one nut with a serving set by a safety limit rather
+    // than by the category RACC. At 100 g it carries ~1,917 mcg of selenium,
+    // so the 28 g nut serving is ~537 mcg — above the 400 mcg/day tolerable
+    // upper intake. ~15 g (about three nuts) is the amount actually
+    // recommended, and lands near 288 mcg.
+    if (name.includes("brazil")) return 15;
     if (name.includes("butter") || name.includes("paste") || name.includes("tahini")) return 32;
     return 28;
   }
@@ -267,6 +273,7 @@ export function standardServingLabel(f: Food, variant?: FoodVariant | null): { g
   const group = (f.group || "").toLowerCase();
   let approx: string;
   if (g <= 3) approx = "a pinch";
+  else if (g <= 16 && (group.includes("nuts") || group.includes("seed"))) approx = "about 3 nuts";
   else if (g <= 16) approx = "1 tbsp";
   else if (g <= 30) approx = "1 oz";
   else if (g <= 45) approx = "a handful";

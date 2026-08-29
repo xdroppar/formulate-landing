@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-29T05:07:00+00:00",
-  "score_version": "1.5.0",
+  "version": "2026-08-29T23:14:11+00:00",
+  "score_version": "1.5.1",
   "categories": [
     "Fruit",
     "Vegetable",
@@ -8051,176 +8051,6 @@
       ]
     },
     {
-      "base_id": "guava",
-      "name": "Guava",
-      "group": "Fruit",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "high-fiber",
-        "vitamin-c-rich",
-        "antioxidant",
-        "tropical-fruit",
-        "blood-sugar-control",
-        "cardiovascular-health",
-        "immune-support",
-        "polyphenol-dense"
-      ],
-      "icon": "🍌",
-      "image_path": "",
-      "image_url": "/food-assets/guava/hero.webp",
-      "gallery_images": [],
-      "description": "Guava is a tropical fruit exceptionally rich in vitamin C (228mg per 100g) and dietary fiber (5.4g), making it one of the most nutrient-dense fruits for immune support and digestive health.",
-      "overview": "Native to Central America, guava has been cultivated for centuries and is now widely grown across tropical and subtropical regions. Despite its modest calorie content (68 kcal/100g), guava delivers exceptional nutritional density, particularly in vitamin C—providing over 250% of the daily reference intake per serving. The fruit's high soluble fiber content supports blood sugar regulation and promotes satiety, while its potassium concentration (417mg/100g) contributes to cardiovascular health and electrolyte balance. Guava contains bioactive compounds including lycopene, quercetin, and catechin—polyphenols with documented antioxidant and anti-inflammatory properties. The edible seeds are rich in omega-3 and omega-6 polyunsaturated fatty acids. Traditional medicine has long valued guava for digestive support, and modern research supports its role in supporting glycemic control, lipid profiles, and systemic inflammation markers. The combination of high fiber, low glycemic index, and polyphenol diversity positions guava as a valuable longevity-supporting fruit, particularly for metabolic health and antioxidant defense.",
-      "health_benefits": [
-        {
-          "benefit": "Enhanced immune function and collagen synthesis",
-          "mechanism": "Exceptional vitamin C content (228mg/100g) supports neutrophil function, antibody production, and cross-linking of collagen in connective tissue",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Improved glycemic control and insulin sensitivity",
-          "mechanism": "High fiber content (5.4g/100g) slows glucose absorption; polyphenols like quercetin enhance insulin signaling pathways",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Cardiovascular health and blood pressure regulation",
-          "mechanism": "Potassium (417mg/100g) supports vasodilation and sodium-potassium pump function; polyphenols reduce endothelial dysfunction",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Antioxidant defense and reduced oxidative stress",
-          "mechanism": "Lycopene, quercetin, and catechin scavenge free radicals and upregulate endogenous antioxidant enzymes",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Digestive health and prebiotic support",
-          "mechanism": "Soluble fiber (pectin) feeds beneficial gut bacteria; traditional use supported by improved stool consistency in clinical observation",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with black pepper because piperine enhances absorption of polyphenols like lycopene",
-        "Combine with healthy fats (avocado, nuts) because lipophilic antioxidants including lycopene require fat for absorption",
-        "Pair with fermented foods (yogurt, kefir) because fiber acts prebiotic to support probiotic colonization and short-chain fatty acid production",
-        "Combine with leafy greens because guava's vitamin C enhances non-heme iron bioavailability from plant sources"
-      ],
-      "practical_tips": [
-        "Select guavas that yield slightly to gentle pressure and have a sweet aroma; firm fruits indicate underdevelopment",
-        "Consume skin and seeds for maximum fiber and polyphenol intake—they're edible and nutrient-dense",
-        "Store ripe guavas in a cool place for 2-3 days or refrigerate for up to 10 days; ethylene sensitivity means separate from ethylene-producing fruits",
-        "Blend whole guava (skin intact) into smoothies rather than juicing to retain fiber content and prevent nutrient loss"
-      ],
-      "optimal_timing": {
-        "best_time": "anytime",
-        "reasoning": "Guava's low glycemic index, high fiber, and modest calories make it suitable across the day; vitamin C absorption is independent of meal timing",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "Best consumed with other foods to slow carbohydrate absorption and enhance polyphenol absorption via fat co-ingestion"
-      },
-      "default_variant_id": "guava__raw__whole",
-      "price_avg": 2.4,
-      "price_unit": "lb",
-      "score": 97,
-      "grade": "A+",
-      "grade_color": "#22C55E",
-      "score_breakdown": {
-        "nutrient_density": 34.94,
-        "protein_quality": 8.33,
-        "fiber_content": 10,
-        "healthy_fats": 5,
-        "bioactive_compounds": 12.93,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 0,
-        "top_nutrients": [
-          [
-            "Vitamin C",
-            253.7
-          ],
-          [
-            "Vitamin B6",
-            26.5
-          ],
-          [
-            "Copper",
-            25.6
-          ],
-          [
-            "Folate",
-            12.2
-          ],
-          [
-            "Potassium",
-            8.9
-          ]
-        ],
-        "bioactives_found": [
-          "Lycopene",
-          "Quercetin",
-          "Catechins (EGCG)",
-          "Inulin / Prebiotic fibre",
-          "Omega-3 (ALA/EPA/DHA)",
-          "Polyphenols"
-        ],
-        "concerns": [],
-        "documented_micros": 18,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "guava__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 68,
-          "macros": {
-            "protein_g": 2.55,
-            "carbs_g": 14.32,
-            "fat_g": 0.95,
-            "fiber_g": 5.4
-          },
-          "micros": {
-            "saturated_fat_g": 0.272,
-            "omega3_mg": 0,
-            "choline_mg": 7.6,
-            "monounsaturated_fat_g": 0.087,
-            "polyunsaturated_fat_g": 0.401,
-            "vitamin_k_mcg": 2.6,
-            "vitamin_a_iu": 31,
-            "vitamin_e_mg": 0.73,
-            "trans_fat_g": 0,
-            "cholesterol_mg": 0,
-            "vitamin_b12_mcg": 0,
-            "vitamin_c_mg": 228.3,
-            "thiamin_mg": 0.067,
-            "riboflavin_mg": 0.04,
-            "folate_mcg": 49,
-            "iron_mg": 0.26,
-            "magnesium_mg": 22,
-            "phosphorus_mg": 40,
-            "sodium_mg": 2,
-            "copper_mg": 0.23,
-            "manganese_mg": 0.15,
-            "calcium_mg": 18,
-            "potassium_mg": 417,
-            "zinc_mg": 0.23,
-            "niacin_mg": 1.084,
-            "vitamin_b6_mg": 0.451,
-            "vitamin_d_iu": 0,
-            "selenium_mcg": 0.6
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "173044"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
       "base_id": "herbes-de-provence",
       "name": "Herbes de Provence",
       "group": "Herbs & Spices",
@@ -13314,6 +13144,176 @@
       ]
     },
     {
+      "base_id": "guava",
+      "name": "Guava",
+      "group": "Fruit",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "high-fiber",
+        "vitamin-c-rich",
+        "antioxidant",
+        "tropical-fruit",
+        "blood-sugar-control",
+        "cardiovascular-health",
+        "immune-support",
+        "polyphenol-dense"
+      ],
+      "icon": "🍌",
+      "image_path": "",
+      "image_url": "/food-assets/guava/hero.webp",
+      "gallery_images": [],
+      "description": "Guava is a tropical fruit exceptionally rich in vitamin C (228mg per 100g) and dietary fiber (5.4g), making it one of the most nutrient-dense fruits for immune support and digestive health.",
+      "overview": "Native to Central America, guava has been cultivated for centuries and is now widely grown across tropical and subtropical regions. Despite its modest calorie content (68 kcal/100g), guava delivers exceptional nutritional density, particularly in vitamin C—providing over 250% of the daily reference intake per serving. The fruit's high soluble fiber content supports blood sugar regulation and promotes satiety, while its potassium concentration (417mg/100g) contributes to cardiovascular health and electrolyte balance. Guava contains bioactive compounds including lycopene, quercetin, and catechin—polyphenols with documented antioxidant and anti-inflammatory properties. The edible seeds are rich in omega-3 and omega-6 polyunsaturated fatty acids. Traditional medicine has long valued guava for digestive support, and modern research supports its role in supporting glycemic control, lipid profiles, and systemic inflammation markers. The combination of high fiber, low glycemic index, and polyphenol diversity positions guava as a valuable longevity-supporting fruit, particularly for metabolic health and antioxidant defense.",
+      "health_benefits": [
+        {
+          "benefit": "Enhanced immune function and collagen synthesis",
+          "mechanism": "Exceptional vitamin C content (228mg/100g) supports neutrophil function, antibody production, and cross-linking of collagen in connective tissue",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Improved glycemic control and insulin sensitivity",
+          "mechanism": "High fiber content (5.4g/100g) slows glucose absorption; polyphenols like quercetin enhance insulin signaling pathways",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Cardiovascular health and blood pressure regulation",
+          "mechanism": "Potassium (417mg/100g) supports vasodilation and sodium-potassium pump function; polyphenols reduce endothelial dysfunction",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Antioxidant defense and reduced oxidative stress",
+          "mechanism": "Lycopene, quercetin, and catechin scavenge free radicals and upregulate endogenous antioxidant enzymes",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Digestive health and prebiotic support",
+          "mechanism": "Soluble fiber (pectin) feeds beneficial gut bacteria; traditional use supported by improved stool consistency in clinical observation",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with black pepper because piperine enhances absorption of polyphenols like lycopene",
+        "Combine with healthy fats (avocado, nuts) because lipophilic antioxidants including lycopene require fat for absorption",
+        "Pair with fermented foods (yogurt, kefir) because fiber acts prebiotic to support probiotic colonization and short-chain fatty acid production",
+        "Combine with leafy greens because guava's vitamin C enhances non-heme iron bioavailability from plant sources"
+      ],
+      "practical_tips": [
+        "Select guavas that yield slightly to gentle pressure and have a sweet aroma; firm fruits indicate underdevelopment",
+        "Consume skin and seeds for maximum fiber and polyphenol intake—they're edible and nutrient-dense",
+        "Store ripe guavas in a cool place for 2-3 days or refrigerate for up to 10 days; ethylene sensitivity means separate from ethylene-producing fruits",
+        "Blend whole guava (skin intact) into smoothies rather than juicing to retain fiber content and prevent nutrient loss"
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Guava's low glycemic index, high fiber, and modest calories make it suitable across the day; vitamin C absorption is independent of meal timing",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "Best consumed with other foods to slow carbohydrate absorption and enhance polyphenol absorption via fat co-ingestion"
+      },
+      "default_variant_id": "guava__raw__whole",
+      "price_avg": 2.4,
+      "price_unit": "lb",
+      "score": 96,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 34.15,
+        "protein_quality": 8.33,
+        "fiber_content": 10,
+        "healthy_fats": 5,
+        "bioactive_compounds": 12.93,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 0,
+        "top_nutrients": [
+          [
+            "Vitamin C",
+            253.7
+          ],
+          [
+            "Vitamin B6",
+            26.5
+          ],
+          [
+            "Copper",
+            25.6
+          ],
+          [
+            "Folate",
+            12.2
+          ],
+          [
+            "Potassium",
+            8.9
+          ]
+        ],
+        "bioactives_found": [
+          "Lycopene",
+          "Quercetin",
+          "Catechins (EGCG)",
+          "Inulin / Prebiotic fibre",
+          "Omega-3 (ALA/EPA/DHA)",
+          "Polyphenols"
+        ],
+        "concerns": [],
+        "documented_micros": 18,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "guava__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 68,
+          "macros": {
+            "protein_g": 2.55,
+            "carbs_g": 14.32,
+            "fat_g": 0.95,
+            "fiber_g": 5.4
+          },
+          "micros": {
+            "saturated_fat_g": 0.272,
+            "omega3_mg": 0,
+            "choline_mg": 7.6,
+            "monounsaturated_fat_g": 0.087,
+            "polyunsaturated_fat_g": 0.401,
+            "vitamin_k_mcg": 2.6,
+            "vitamin_a_iu": 31,
+            "vitamin_e_mg": 0.73,
+            "trans_fat_g": 0,
+            "cholesterol_mg": 0,
+            "vitamin_b12_mcg": 0,
+            "vitamin_c_mg": 228.3,
+            "thiamin_mg": 0.067,
+            "riboflavin_mg": 0.04,
+            "folate_mcg": 49,
+            "iron_mg": 0.26,
+            "magnesium_mg": 22,
+            "phosphorus_mg": 40,
+            "sodium_mg": 2,
+            "copper_mg": 0.23,
+            "manganese_mg": 0.15,
+            "calcium_mg": 18,
+            "potassium_mg": 417,
+            "zinc_mg": 0.23,
+            "niacin_mg": 1.084,
+            "vitamin_b6_mg": 0.451,
+            "vitamin_d_iu": 0,
+            "selenium_mcg": 0.6
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "173044"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "mustard-spinach",
       "name": "Mustard Spinach",
       "group": "Vegetable",
@@ -14543,177 +14543,6 @@
             "name": ""
           },
           "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "turnip-greens-and-turnip",
-      "name": "Turnip Greens And Turnip",
-      "group": "Vegetable",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "cruciferous",
-        "high-vitamin-k",
-        "bone-health",
-        "calcium-rich",
-        "anti-inflammatory",
-        "detoxification",
-        "low-glycemic",
-        "micronutrient-dense",
-        "fiber",
-        "cardiovascular-health",
-        "longevity"
-      ],
-      "icon": "🥬",
-      "image_path": "",
-      "image_url": "/food-assets/turnip-greens-and-turnip/hero.webp",
-      "gallery_images": [],
-      "description": "Turnip greens are nutrient-dense cruciferous leafy vegetables exceptionally high in vitamin K, calcium, and antioxidants, while the root bulb offers fiber and supportive micronutrients with minimal calories.",
-      "overview": "Turnip greens and roots have been cultivated for over 4,000 years, originating in Central Asia before spreading throughout Europe and Africa. They are a staple in Mediterranean, Southern, and African cuisines. Turnip greens are nutritionally superior to the root, delivering an exceptional 415 mcg of vitamin K per 100g—critical for bone mineralization and vascular health—alongside substantial calcium (128 mg), making them particularly valuable for skeletal integrity and cardiovascular function. The greens contain glucosinolates, sulfur-containing compounds that activate detoxification pathways and exert anti-inflammatory effects. Both greens and roots provide fiber (3.1g per 100g), supporting gut microbiota diversity and metabolic health. The low glycemic load (4.85g carbs, 35 calories per 100g) and high potassium content (216 mg) help maintain healthy blood pressure and electrolyte balance. Turnip greens' vitamin A content supports immune function and visual health, while vitamin C aids collagen synthesis and antioxidant defense. The combination of bioavailable minerals, phytonutrients, and fiber makes turnips valuable for longevity-focused nutrition, particularly for bone health, metabolic stability, and inflammatory regulation.",
-      "health_benefits": [
-        {
-          "benefit": "Bone health and fracture prevention through high vitamin K and calcium content",
-          "mechanism": "Vitamin K activates osteocalcin, a bone matrix protein essential for calcium binding and mineralization, while calcium provides structural integrity; combined intake significantly improves bone mineral density",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Cardiovascular health via potassium and vascular vitamin K-dependent proteins",
-          "mechanism": "Potassium reduces sodium-induced hypertension and supports vasodilation; vitamin K activates matrix Gla-protein (MGP), which prevents arterial calcification and maintains endothelial function",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Detoxification and reduced inflammation through glucosinolate metabolism",
-          "mechanism": "Glucosinolates are converted to isothiocyanates by gut bacteria and chewing, which activate Nrf2 antioxidant pathways, upregulating phase II detoxification enzymes and reducing oxidative stress",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Metabolic health and gut microbiota diversity via soluble and insoluble fiber",
-          "mechanism": "Fiber feeds beneficial bacteria (prebiotic effect), increasing butyrate production, which strengthens intestinal barrier function, improves insulin sensitivity, and supports metabolic flexibility",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Immune and eye health through vitamin A and antioxidant compounds",
-          "mechanism": "Vitamin A (431 IU per 100g) supports mucosal immunity and retinal adaptation; polyphenols reduce pathogenic inflammation and oxidative damage to ocular tissues",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with olive oil or avocado because fat-soluble vitamins K, A, and E require lipid carriers for optimal absorption across the intestinal epithelium",
-        "Combine with garlic or onions because allicin and quercetin enhance glucosinolate bioavailability and synergize anti-inflammatory and antimicrobial effects",
-        "Serve with citrus (lemon, orange) because vitamin C reduces anti-nutrients like oxalates and enhances non-heme iron absorption from the greens",
-        "Pair with fermented foods (sauerkraut, kimchi) because live cultures support the bacterial conversion of glucosinolates to bioactive isothiocyanates"
-      ],
-      "practical_tips": [
-        "Store turnip greens separately from the root in breathable bags in the refrigerator; use greens within 3-5 days and roots within 2-3 weeks for optimal nutrient retention",
-        "Lightly sauté or steam greens for 2-3 minutes rather than prolonged boiling to preserve heat-sensitive vitamin C and water-soluble B vitamins while retaining glucosinolates",
-        "Include the root skin when roasting or steaming, as it concentrates fiber and phytonutrients; peel only if visibly damaged",
-        "Chew greens thoroughly or lightly cook before consumption to activate myrosinase enzyme and ensure glucosinolate conversion to bioactive isothiocyanates",
-        "Choose smaller, younger greens with bright color and firm stems; avoid yellowing or wilted leaves, which indicate nutrient degradation"
-      ],
-      "optimal_timing": {
-        "best_time": "anytime",
-        "reasoning": "Turnip greens are nutrient-dense, low-glycemic, and fiber-rich, making them suitable for any meal. Morning consumption supports metabolic priming and micronutrient absorption throughout the day; midday or evening use provides sustained satiety and supports digestive health without interfering with sleep.",
-        "avoid_times": [],
-        "fasting_compatible": true,
-        "notes": "Turnip greens are compatible with fasting protocols due to negligible caloric content (35 kcal/100g), though consuming with fat enhances vitamin K absorption, which may technically break strict water fasts."
-      },
-      "default_variant_id": "turnip_greens_and_turnip__boiled__whole__drained",
-      "price_avg": 2.2,
-      "price_unit": "lb",
-      "score": 96,
-      "grade": "A+",
-      "grade_color": "#22C55E",
-      "score_breakdown": {
-        "nutrient_density": 35,
-        "protein_quality": 11.42,
-        "fiber_content": 10,
-        "healthy_fats": 5,
-        "bioactive_compounds": 12.41,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 0,
-        "top_nutrients": [
-          [
-            "Vitamin K",
-            345.9
-          ],
-          [
-            "Vitamin C",
-            20.2
-          ],
-          [
-            "Manganese",
-            17.4
-          ],
-          [
-            "Copper",
-            14.8
-          ],
-          [
-            "Vitamin E",
-            14.2
-          ]
-        ],
-        "bioactives_found": [
-          "Glucosinolates",
-          "Inulin / Prebiotic fibre",
-          "Polyphenols"
-        ],
-        "concerns": [],
-        "documented_micros": 18,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "turnip_greens_and_turnip__boiled__whole__drained",
-          "variety": null,
-          "prep": "boiled",
-          "form": "whole",
-          "notes": "drained",
-          "serving_basis": "per_100g",
-          "calories": 35,
-          "macros": {
-            "protein_g": 2.99,
-            "carbs_g": 4.85,
-            "fat_g": 0.38,
-            "fiber_g": 3.1
-          },
-          "micros": {
-            "calcium_mg": 128,
-            "potassium_mg": 216,
-            "zinc_mg": 0.37,
-            "selenium_mcg": 1.1,
-            "vitamin_e_mg": 2.13,
-            "niacin_mg": 0.486,
-            "vitamin_b6_mg": 0.083,
-            "choline_mg": 2.1,
-            "monounsaturated_fat_g": 0.024,
-            "polyunsaturated_fat_g": 0.16,
-            "iron_mg": 1.75,
-            "magnesium_mg": 24,
-            "phosphorus_mg": 32,
-            "sodium_mg": 19,
-            "copper_mg": 0.133,
-            "manganese_mg": 0.4,
-            "vitamin_a_iu": 431,
-            "saturated_fat_g": 0.085,
-            "omega3_mg": 0,
-            "vitamin_c_mg": 18.2,
-            "thiamin_mg": 0.05,
-            "riboflavin_mg": 0.065,
-            "folate_mcg": 33,
-            "vitamin_b12_mcg": 0,
-            "vitamin_k_mcg": 415.1,
-            "cholesterol_mg": 0,
-            "trans_fat_g": 0,
-            "vitamin_d_iu": 0
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "170062"
-          },
-          "image_url": "/food-assets/turnip-greens-and-turnip/cooked.webp",
           "gallery_images": []
         }
       ]
@@ -16618,7 +16447,7 @@
       "grade": "A+",
       "grade_color": "#22C55E",
       "score_breakdown": {
-        "nutrient_density": 33.72,
+        "nutrient_density": 33.56,
         "protein_quality": 8.79,
         "fiber_content": 7.92,
         "healthy_fats": 5,
@@ -18663,6 +18492,177 @@
             "id": "170061"
           },
           "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
+      "base_id": "turnip-greens-and-turnip",
+      "name": "Turnip Greens And Turnip",
+      "group": "Vegetable",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "cruciferous",
+        "high-vitamin-k",
+        "bone-health",
+        "calcium-rich",
+        "anti-inflammatory",
+        "detoxification",
+        "low-glycemic",
+        "micronutrient-dense",
+        "fiber",
+        "cardiovascular-health",
+        "longevity"
+      ],
+      "icon": "🥬",
+      "image_path": "",
+      "image_url": "/food-assets/turnip-greens-and-turnip/hero.webp",
+      "gallery_images": [],
+      "description": "Turnip greens are nutrient-dense cruciferous leafy vegetables exceptionally high in vitamin K, calcium, and antioxidants, while the root bulb offers fiber and supportive micronutrients with minimal calories.",
+      "overview": "Turnip greens and roots have been cultivated for over 4,000 years, originating in Central Asia before spreading throughout Europe and Africa. They are a staple in Mediterranean, Southern, and African cuisines. Turnip greens are nutritionally superior to the root, delivering an exceptional 415 mcg of vitamin K per 100g—critical for bone mineralization and vascular health—alongside substantial calcium (128 mg), making them particularly valuable for skeletal integrity and cardiovascular function. The greens contain glucosinolates, sulfur-containing compounds that activate detoxification pathways and exert anti-inflammatory effects. Both greens and roots provide fiber (3.1g per 100g), supporting gut microbiota diversity and metabolic health. The low glycemic load (4.85g carbs, 35 calories per 100g) and high potassium content (216 mg) help maintain healthy blood pressure and electrolyte balance. Turnip greens' vitamin A content supports immune function and visual health, while vitamin C aids collagen synthesis and antioxidant defense. The combination of bioavailable minerals, phytonutrients, and fiber makes turnips valuable for longevity-focused nutrition, particularly for bone health, metabolic stability, and inflammatory regulation.",
+      "health_benefits": [
+        {
+          "benefit": "Bone health and fracture prevention through high vitamin K and calcium content",
+          "mechanism": "Vitamin K activates osteocalcin, a bone matrix protein essential for calcium binding and mineralization, while calcium provides structural integrity; combined intake significantly improves bone mineral density",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Cardiovascular health via potassium and vascular vitamin K-dependent proteins",
+          "mechanism": "Potassium reduces sodium-induced hypertension and supports vasodilation; vitamin K activates matrix Gla-protein (MGP), which prevents arterial calcification and maintains endothelial function",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Detoxification and reduced inflammation through glucosinolate metabolism",
+          "mechanism": "Glucosinolates are converted to isothiocyanates by gut bacteria and chewing, which activate Nrf2 antioxidant pathways, upregulating phase II detoxification enzymes and reducing oxidative stress",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Metabolic health and gut microbiota diversity via soluble and insoluble fiber",
+          "mechanism": "Fiber feeds beneficial bacteria (prebiotic effect), increasing butyrate production, which strengthens intestinal barrier function, improves insulin sensitivity, and supports metabolic flexibility",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Immune and eye health through vitamin A and antioxidant compounds",
+          "mechanism": "Vitamin A (431 IU per 100g) supports mucosal immunity and retinal adaptation; polyphenols reduce pathogenic inflammation and oxidative damage to ocular tissues",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with olive oil or avocado because fat-soluble vitamins K, A, and E require lipid carriers for optimal absorption across the intestinal epithelium",
+        "Combine with garlic or onions because allicin and quercetin enhance glucosinolate bioavailability and synergize anti-inflammatory and antimicrobial effects",
+        "Serve with citrus (lemon, orange) because vitamin C reduces anti-nutrients like oxalates and enhances non-heme iron absorption from the greens",
+        "Pair with fermented foods (sauerkraut, kimchi) because live cultures support the bacterial conversion of glucosinolates to bioactive isothiocyanates"
+      ],
+      "practical_tips": [
+        "Store turnip greens separately from the root in breathable bags in the refrigerator; use greens within 3-5 days and roots within 2-3 weeks for optimal nutrient retention",
+        "Lightly sauté or steam greens for 2-3 minutes rather than prolonged boiling to preserve heat-sensitive vitamin C and water-soluble B vitamins while retaining glucosinolates",
+        "Include the root skin when roasting or steaming, as it concentrates fiber and phytonutrients; peel only if visibly damaged",
+        "Chew greens thoroughly or lightly cook before consumption to activate myrosinase enzyme and ensure glucosinolate conversion to bioactive isothiocyanates",
+        "Choose smaller, younger greens with bright color and firm stems; avoid yellowing or wilted leaves, which indicate nutrient degradation"
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Turnip greens are nutrient-dense, low-glycemic, and fiber-rich, making them suitable for any meal. Morning consumption supports metabolic priming and micronutrient absorption throughout the day; midday or evening use provides sustained satiety and supports digestive health without interfering with sleep.",
+        "avoid_times": [],
+        "fasting_compatible": true,
+        "notes": "Turnip greens are compatible with fasting protocols due to negligible caloric content (35 kcal/100g), though consuming with fat enhances vitamin K absorption, which may technically break strict water fasts."
+      },
+      "default_variant_id": "turnip_greens_and_turnip__boiled__whole__drained",
+      "price_avg": 2.2,
+      "price_unit": "lb",
+      "score": 95,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 34.14,
+        "protein_quality": 11.42,
+        "fiber_content": 10,
+        "healthy_fats": 5,
+        "bioactive_compounds": 12.41,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 0,
+        "top_nutrients": [
+          [
+            "Vitamin K",
+            345.9
+          ],
+          [
+            "Vitamin C",
+            20.2
+          ],
+          [
+            "Manganese",
+            17.4
+          ],
+          [
+            "Copper",
+            14.8
+          ],
+          [
+            "Vitamin E",
+            14.2
+          ]
+        ],
+        "bioactives_found": [
+          "Glucosinolates",
+          "Inulin / Prebiotic fibre",
+          "Polyphenols"
+        ],
+        "concerns": [],
+        "documented_micros": 18,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "turnip_greens_and_turnip__boiled__whole__drained",
+          "variety": null,
+          "prep": "boiled",
+          "form": "whole",
+          "notes": "drained",
+          "serving_basis": "per_100g",
+          "calories": 35,
+          "macros": {
+            "protein_g": 2.99,
+            "carbs_g": 4.85,
+            "fat_g": 0.38,
+            "fiber_g": 3.1
+          },
+          "micros": {
+            "calcium_mg": 128,
+            "potassium_mg": 216,
+            "zinc_mg": 0.37,
+            "selenium_mcg": 1.1,
+            "vitamin_e_mg": 2.13,
+            "niacin_mg": 0.486,
+            "vitamin_b6_mg": 0.083,
+            "choline_mg": 2.1,
+            "monounsaturated_fat_g": 0.024,
+            "polyunsaturated_fat_g": 0.16,
+            "iron_mg": 1.75,
+            "magnesium_mg": 24,
+            "phosphorus_mg": 32,
+            "sodium_mg": 19,
+            "copper_mg": 0.133,
+            "manganese_mg": 0.4,
+            "vitamin_a_iu": 431,
+            "saturated_fat_g": 0.085,
+            "omega3_mg": 0,
+            "vitamin_c_mg": 18.2,
+            "thiamin_mg": 0.05,
+            "riboflavin_mg": 0.065,
+            "folate_mcg": 33,
+            "vitamin_b12_mcg": 0,
+            "vitamin_k_mcg": 415.1,
+            "cholesterol_mg": 0,
+            "trans_fat_g": 0,
+            "vitamin_d_iu": 0
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "170062"
+          },
+          "image_url": "/food-assets/turnip-greens-and-turnip/cooked.webp",
           "gallery_images": []
         }
       ]
@@ -22716,7 +22716,7 @@
       "grade": "A+",
       "grade_color": "#22C55E",
       "score_breakdown": {
-        "nutrient_density": 34.17,
+        "nutrient_density": 34,
         "protein_quality": 10.49,
         "fiber_content": 8.37,
         "healthy_fats": 5,
@@ -23096,7 +23096,7 @@
       "grade": "A+",
       "grade_color": "#22C55E",
       "score_breakdown": {
-        "nutrient_density": 34.71,
+        "nutrient_density": 34.03,
         "protein_quality": 10.37,
         "fiber_content": 10,
         "healthy_fats": 5,
@@ -28947,346 +28947,6 @@
       ]
     },
     {
-      "base_id": "watercress",
-      "name": "Watercress",
-      "group": "Vegetable",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "cruciferous-vegetable",
-        "vitamin-k-rich",
-        "low-calorie-density",
-        "glucosinolates",
-        "antioxidant",
-        "bone-health",
-        "cardiovascular-health",
-        "detoxification",
-        "raw-consumption-optimal"
-      ],
-      "icon": "🌿",
-      "image_path": "",
-      "image_url": "/food-assets/watercress/hero.webp",
-      "gallery_images": [],
-      "description": "Watercress is a nutrient-dense leafy green with exceptionally high vitamin K content and bioactive glucosinolates, offering potent anti-inflammatory and antioxidant benefits with minimal calories.",
-      "overview": "Watercress is an aquatic leafy green vegetable native to Europe and Asia, historically used in traditional medicine for its purported health properties. Modern nutritional science has validated many of these uses. With only 11 calories per 100g, watercress delivers an impressive micronutrient density, particularly in vitamin K (250 mcg per 100g, exceeding 300% of daily needs), potassium, and vitamin C. Its primary longevity relevance lies in its glucosinolate content—sulfur-containing compounds that break down into isothiocyanates when chopped or chewed. These compounds have demonstrated potential in cellular health and detoxification pathways. Watercress also contains phenolic compounds and flavonoids with antioxidant capacity. The combination of high vitamin K, calcium, and phosphorus supports bone metabolism, while its potassium content contributes to cardiovascular health. As a cruciferous vegetable, watercress shares cancer-preventive properties with broccoli and cabbage, though research remains more preliminary. Its bioavailability is enhanced by fat-soluble vitamins, making consumption with dietary fat beneficial for absorption of vitamins A and K.",
-      "health_benefits": [
-        {
-          "benefit": "Supports bone density and cardiovascular health through high vitamin K content",
-          "mechanism": "Vitamin K activates osteocalcin and other bone proteins essential for mineralization, and carboxylates matrix Gla protein in vessel walls, reducing arterial calcification risk",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Reduces oxidative stress through glucosinolate-derived isothiocyanates and phenolic antioxidants",
-          "mechanism": "Isothiocyanates activate phase 2 detoxification enzymes (like sulfotransferases) and upregulate antioxidant response pathways; flavonoids scavenge free radicals directly",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Supports vascular health and blood pressure regulation via potassium and nitrate content",
-          "mechanism": "Potassium promotes natriuresis and vasodilation; inorganic nitrates are converted to nitric oxide, enhancing endothelial function and reducing systemic vascular resistance",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "May support cellular defense mechanisms and reduce cancer risk through glucosinolate metabolism",
-          "mechanism": "Isothiocyanates induce apoptosis in cancer cells, inhibit phase 1 carcinogens, and increase expression of detoxification enzymes in hepatocytes",
-          "evidence_strength": "emerging"
-        },
-        {
-          "benefit": "Promotes cognitive and metabolic health through choline and B-vitamin content",
-          "mechanism": "Choline is a precursor for acetylcholine (neurotransmitter) and phosphatidylcholine (membrane component); supports homocysteine metabolism",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with olive oil or avocado because fat-soluble vitamins K and A require dietary lipids for intestinal absorption and hepatic transport",
-        "Combine with citrus (lemon, orange) because vitamin C enhances absorption of non-heme iron if watercress is consumed with iron-rich foods, and acid environment optimizes glucosinolate preservation",
-        "Eat with cruciferous vegetables (broccoli, cabbage) because they provide complementary glucosinolates and create synergistic phytochemical diversity for broader detoxification enzyme activation",
-        "Pair with calcium-rich foods (dairy, fortified plant milks) because watercress contains oxalates that can inhibit calcium absorption; pairing increases net calcium bioavailability"
-      ],
-      "practical_tips": [
-        "Consume raw or lightly blanched (30 seconds) to preserve glucosinolates; prolonged cooking degrades these bioactive compounds by 50-75%",
-        "Chop or chew thoroughly 30 minutes before consumption to maximize myrosinase enzyme activity and isothiocyanate conversion from glucosinolates",
-        "Store in cold water (changed daily) or wrapped in damp paper towels in refrigerator; use within 3-5 days as nutrient density declines with storage time",
-        "Select watercress with vibrant green color and firm stems; avoid yellowing or wilted leaves indicating age and oxidative degradation",
-        "Rinse thoroughly under running water before consumption to remove potential bacteria from growing conditions, particularly if sourced from natural water sources"
-      ],
-      "optimal_timing": {
-        "best_time": "anytime",
-        "reasoning": "Watercress has no stimulating compounds and provides steady micronutrient availability. Consuming at lunch or dinner with fat-containing meals optimizes fat-soluble vitamin absorption. Raw consumption in morning salads preserves glucosinolates maximally.",
-        "avoid_times": [],
-        "fasting_compatible": true,
-        "notes": "Those on warfarin or anticoagulants should maintain consistent intake due to high vitamin K; individuals with thyroid conditions who are iodine-deficient should moderate raw cruciferous consumption, though watercress contains some iodine"
-      },
-      "default_variant_id": "watercress__raw__whole",
-      "price_avg": 2.2,
-      "price_unit": "lb",
-      "score": 93,
-      "grade": "A+",
-      "grade_color": "#22C55E",
-      "score_breakdown": {
-        "nutrient_density": 34.39,
-        "protein_quality": 12,
-        "fiber_content": 9.32,
-        "healthy_fats": 5,
-        "bioactive_compounds": 12.95,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 2,
-        "top_nutrients": [
-          [
-            "Vitamin K",
-            208.3
-          ],
-          [
-            "Vitamin C",
-            47.8
-          ],
-          [
-            "Vitamin B6",
-            18.2
-          ],
-          [
-            "Manganese",
-            10.6
-          ],
-          [
-            "Calcium",
-            9.2
-          ]
-        ],
-        "bioactives_found": [
-          "Glucosinolates",
-          "Choline",
-          "Nitrates",
-          "Polyphenols"
-        ],
-        "concerns": [
-          "High sodium"
-        ],
-        "documented_micros": 18,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "watercress__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 11,
-          "macros": {
-            "protein_g": 2.3,
-            "carbs_g": 1.29,
-            "fat_g": 0.1,
-            "fiber_g": 0.5
-          },
-          "micros": {
-            "vitamin_e_mg": 1,
-            "vitamin_k_mcg": 250,
-            "omega3_mg": 0,
-            "choline_mg": 9,
-            "vitamin_a_iu": 160,
-            "trans_fat_g": 0,
-            "saturated_fat_g": 0.027,
-            "cholesterol_mg": 0,
-            "iron_mg": 0.2,
-            "phosphorus_mg": 60,
-            "copper_mg": 0.077,
-            "manganese_mg": 0.244,
-            "vitamin_c_mg": 43,
-            "thiamin_mg": 0.09,
-            "riboflavin_mg": 0.12,
-            "folate_mcg": 9,
-            "vitamin_b12_mcg": 0,
-            "calcium_mg": 120,
-            "zinc_mg": 0.11,
-            "niacin_mg": 0.2,
-            "vitamin_b6_mg": 0.31,
-            "monounsaturated_fat_g": 0.008,
-            "polyunsaturated_fat_g": 0.035,
-            "potassium_mg": 330,
-            "sodium_mg": 41,
-            "magnesium_mg": 21,
-            "vitamin_d_iu": 0,
-            "selenium_mcg": 0.9
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "170068"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "acerola",
-      "name": "Acerola",
-      "group": "Fruit",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "high-vitamin-c",
-        "antioxidant-rich",
-        "immune-support",
-        "tropical-fruit",
-        "polyphenol-source",
-        "collagen-synthesis",
-        "anti-inflammatory",
-        "bioavailable-micronutrients",
-        "powder-form-available"
-      ],
-      "icon": "🍒",
-      "image_path": "",
-      "image_url": "/food-assets/acerola/hero.webp",
-      "gallery_images": [
-        "/food-assets/acerola/hero_2.webp",
-        "/food-assets/acerola/hero_3.webp"
-      ],
-      "description": "Acerola is a tropical cherry native to Central and South America with extraordinarily high vitamin C content—over 50 times more per gram than oranges. This nutrient-dense fruit is prized for immune support and antioxidant protection.",
-      "overview": "Acerola, also known as Barbados cherry or West Indian cherry, is a small red fruit cultivated primarily in Brazil, the Caribbean, and Central America. Despite its modest caloric profile (32 kcal per 100g), acerola delivers an unparalleled concentration of vitamin C at 1,677.6 mg per 100g—making it one of the richest natural sources of this micronutrient globally. Beyond ascorbic acid, acerola contains polyphenolic compounds including anthocyanins and flavonoids with documented antioxidant and anti-inflammatory properties. The fruit's nutritional density makes it particularly valuable for longevity-focused nutrition, as vitamin C plays critical roles in collagen synthesis, immune function, and protection against oxidative stress—all mechanisms linked to healthy aging. While fresh acerola is seasonally available only in tropical regions, powdered and frozen forms extend accessibility. The bioavailability of vitamin C from acerola is enhanced when consumed with foods containing fat or iron-rich foods, supporting practical integration into diverse dietary patterns. Research indicates acerola's polyphenols may support cardiovascular health and metabolic function, though human intervention studies remain limited compared to in vitro and animal research.",
-      "health_benefits": [
-        {
-          "benefit": "Enhanced immune function and reduced infection risk",
-          "mechanism": "Vitamin C supports neutrophil and lymphocyte function, improves antibody production, and strengthens epithelial barriers; the fruit's polyphenols provide additional antimicrobial and immunomodulatory effects",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Protection against oxidative stress and cellular aging",
-          "mechanism": "Exceptionally high vitamin C and anthocyanin content neutralize free radicals; vitamin C also regenerates other antioxidants like vitamin E, amplifying antioxidant defense across cellular compartments",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Improved collagen synthesis and skin health",
-          "mechanism": "Vitamin C is an essential cofactor for prolyl and lysyl hydroxylase enzymes required for collagen cross-linking and maturation, supporting skin elasticity and wound healing",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Cardiovascular protection through anti-inflammatory pathways",
-          "mechanism": "Polyphenolic compounds in acerola reduce pro-inflammatory cytokines and oxidative modification of LDL cholesterol; vitamin C supports endothelial function and vasodilation",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Enhanced iron absorption and improved bioavailability of other nutrients",
-          "mechanism": "Vitamin C reduces ferric iron (Fe³⁺) to ferrous form (Fe²⁺), the more readily absorbed form; acidic compounds enhance mineral solubility throughout the GI tract",
-          "evidence_strength": "strong"
-        }
-      ],
-      "food_pairings": [
-        "Pair with legumes or red meat because vitamin C dramatically increases non-heme iron absorption, supporting bioavailability of plant-based iron sources",
-        "Combine with leafy greens (spinach, kale) because both provide complementary micronutrients and the vitamin C preserves folate stability during digestion",
-        "Mix with healthy fats (avocado, nuts, seeds) because fat-soluble vitamins and polyphenols require dietary fat for optimal absorption and utilization",
-        "Blend with Greek yogurt or kefir because probiotics may enhance polyphenol metabolism via gut microbiota fermentation, increasing bioactive metabolite production"
-      ],
-      "practical_tips": [
-        "Purchase acerola powder or frozen fruit for year-round access and stable nutrient retention; freeze-dried forms preserve vitamin C better than sun-dried varieties",
-        "Consume fresh acerola immediately after purchase or within 2-3 days if refrigerated, as vitamin C degrades rapidly with light exposure, heat, and time",
-        "Mix acerola powder into smoothies with protein and fat sources rather than consuming alone; this improves polyphenol bioavailability and provides sustained satiety",
-        "Avoid heating acerola juice above 40°C (104°F) to preserve heat-sensitive vitamin C; add to beverages after cooling if using in warm preparations",
-        "Start with 15-30g of acerola powder daily; excessive vitamin C intake (>2,000 mg/day) may cause gastrointestinal distress or kidney stone risk in susceptible individuals"
-      ],
-      "optimal_timing": {
-        "best_time": "morning",
-        "reasoning": "Morning consumption maximizes immune surveillance benefits throughout the day; vitamin C supports cortisol modulation and circadian immune rhythm; pairing with breakfast containing protein and fat optimizes polyphenol absorption",
-        "avoid_times": [
-          "on empty stomach in sensitive individuals"
-        ],
-        "fasting_compatible": false,
-        "notes": "While acerola is technically compatible with fasting, nutritional benefits are substantially enhanced when consumed with food containing fat and protein"
-      },
-      "default_variant_id": "acerola__raw__whole",
-      "price_avg": 2.4,
-      "price_unit": "lb",
-      "score": 92,
-      "grade": "A+",
-      "grade_color": "#22C55E",
-      "score_breakdown": {
-        "nutrient_density": 35,
-        "protein_quality": 3.75,
-        "fiber_content": 7.66,
-        "healthy_fats": 5,
-        "bioactive_compounds": 12.72,
-        "glycemic_impact": 9,
-        "anti_nutrient_penalty": 0,
-        "top_nutrients": [
-          [
-            "Vitamin C",
-            1864
-          ],
-          [
-            "Vitamin B6",
-            18.2
-          ],
-          [
-            "Copper",
-            9.6
-          ],
-          [
-            "Riboflavin",
-            4.6
-          ],
-          [
-            "Magnesium",
-            4.3
-          ]
-        ],
-        "bioactives_found": [
-          "Anthocyanins",
-          "Polyphenols"
-        ],
-        "concerns": [],
-        "documented_micros": 15,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "acerola__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 32,
-          "macros": {
-            "protein_g": 0.4,
-            "carbs_g": 7.69,
-            "fat_g": 0.3,
-            "fiber_g": 1.1
-          },
-          "micros": {
-            "saturated_fat_g": 0.068,
-            "omega3_mg": 0,
-            "monounsaturated_fat_g": 0.082,
-            "copper_mg": 0.086,
-            "folate_mcg": 14,
-            "zinc_mg": 0.1,
-            "polyunsaturated_fat_g": 0.09,
-            "vitamin_a_iu": 38,
-            "trans_fat_g": 0,
-            "calcium_mg": 12,
-            "potassium_mg": 146,
-            "niacin_mg": 0.4,
-            "vitamin_b6_mg": 0.309,
-            "iron_mg": 0.2,
-            "magnesium_mg": 18,
-            "phosphorus_mg": 11,
-            "sodium_mg": 7,
-            "vitamin_c_mg": 1677.6,
-            "thiamin_mg": 0.02,
-            "riboflavin_mg": 0.06,
-            "cholesterol_mg": 0,
-            "vitamin_b12_mcg": 0,
-            "selenium_mcg": 0.6
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171686"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
       "base_id": "alfalfa-seed",
       "name": "Alfalfa Seed",
       "group": "Vegetable",
@@ -32034,221 +31694,6 @@
       ]
     },
     {
-      "base_id": "new-zealand-spinach",
-      "name": "New Zealand Spinach",
-      "group": "Vegetable",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "bone-health",
-        "vitamin-k-rich",
-        "low-calorie",
-        "low-oxalate",
-        "cardiovascular-support",
-        "summer-vegetable",
-        "micronutrient-dense",
-        "heat-tolerant",
-        "mineral-bioavailable",
-        "antioxidant"
-      ],
-      "icon": "🌿",
-      "image_path": "",
-      "image_url": "/food-assets/new-zealand-spinach/hero.webp",
-      "gallery_images": [],
-      "description": "New Zealand spinach is a leafy green vegetable with exceptional vitamin K content and minimal calories, making it an excellent choice for bone health and micronutrient density without caloric burden.",
-      "overview": "New Zealand spinach (Tetragonia tetragonioides), also called summer spinach or warrigal greens, is a heat-tolerant leafy vegetable native to New Zealand and Australia. Unlike common spinach, it thrives in warm conditions and offers a mild, slightly succulent flavor. Per 100g, it provides only 14 calories while delivering an impressive 337 mcg of vitamin K—essential for bone mineralization and vascular health—along with 30 mg of vitamin C for collagen synthesis and immune function. The vegetable contains meaningful amounts of magnesium (39 mg) and potassium (130 mg), which support cardiovascular regulation and metabolic function. Unlike true spinach, New Zealand spinach contains lower oxalate levels, making its minerals more bioavailable and suitable for those concerned with kidney stone risk. Its low glycemic impact and high fiber-to-calorie ratio make it ideal for sustained energy and metabolic health. The presence of vitamin E (1.42 mg) adds antioxidant protection. As a summer-season green, it diversifies micronutrient intake beyond typical year-round spinach varieties, contributing to comprehensive phytonutrient diversity—a key longevity marker. Its heat tolerance makes it accessible to home gardeners in warm climates, supporting local food security.",
-      "health_benefits": [
-        {
-          "benefit": "Supports bone health and fracture prevention through high vitamin K content",
-          "mechanism": "Vitamin K activates osteocalcin, a bone matrix protein essential for calcium binding and bone mineralization. The 337 mcg per 100g significantly contributes to daily requirements (120 mcg for women, 90 mcg for men).",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Promotes cardiovascular health through potassium and magnesium content",
-          "mechanism": "Potassium regulates blood pressure by counteracting sodium and supporting endothelial function. Magnesium relaxes vascular smooth muscle and supports healthy arrhythmia prevention.",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Supports collagen synthesis and immune function via vitamin C",
-          "mechanism": "Vitamin C (30 mg per 100g) is a cofactor for prolyl and lysyl hydroxylase enzymes required for collagen cross-linking. It also enhances neutrophil function and reduces infection risk.",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Provides antioxidant protection with lower oxalate burden compared to common spinach",
-          "mechanism": "Vitamin E and bioactive polyphenols neutralize oxidative stress. Lower oxalate content improves mineral bioavailability and reduces kidney stone risk in susceptible individuals.",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Supports metabolic health through low glycemic impact and fiber content",
-          "mechanism": "The 1.5 g fiber per 100g slows glucose absorption, promoting stable blood sugar. Low carbohydrate density (2.5 g) minimizes insulin demand.",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with olive oil because fat-soluble vitamin K requires dietary lipids for absorption and transport",
-        "Combine with citrus (lemon, orange) because vitamin C enhances non-heme iron absorption from the 0.8 mg iron content",
-        "Mix with calcium-rich foods (yogurt, tahini) because vitamin K activates osteocalcin, which requires adequate calcium for bone mineralization",
-        "Serve with garlic because allicin compounds support vascular health synergistically with potassium and magnesium"
-      ],
-      "practical_tips": [
-        "Store in a sealed plastic bag in the refrigerator crisper drawer for up to 5-7 days; wash gently just before use to preserve vitamin C content",
-        "Consume raw in salads or lightly wilted (30 seconds in hot water) to preserve heat-sensitive vitamin C while making vitamin K more bioavailable",
-        "Harvest or purchase younger leaves for tenderness and milder flavor; mature leaves develop slightly tougher texture but remain palatable",
-        "Grow in home gardens during summer months in warm climates as it outperforms common spinach in heat stress, ensuring consistent fresh supply"
-      ],
-      "optimal_timing": {
-        "best_time": "anytime",
-        "reasoning": "As a low-calorie, nutrient-dense vegetable with no stimulants or sleep-affecting compounds, New Zealand spinach can be consumed any time of day. Midday or evening consumption with fat sources optimizes vitamin K absorption.",
-        "avoid_times": [],
-        "fasting_compatible": true,
-        "notes": "Ideal as part of mixed green salads or cooked dishes throughout the day. No timing restrictions apply."
-      },
-      "default_variant_id": "new_zealand_spinach__raw__whole",
-      "price_avg": 2.2,
-      "price_unit": "lb",
-      "score": 92,
-      "grade": "A+",
-      "grade_color": "#22C55E",
-      "score_breakdown": {
-        "nutrient_density": 35,
-        "protein_quality": 12,
-        "fiber_content": 10,
-        "healthy_fats": 5,
-        "bioactive_compounds": 13.51,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 4,
-        "top_nutrients": [
-          [
-            "Vitamin K",
-            280.8
-          ],
-          [
-            "Vitamin C",
-            33.3
-          ],
-          [
-            "Manganese",
-            27.8
-          ],
-          [
-            "Vitamin B6",
-            18.4
-          ],
-          [
-            "Copper",
-            10.3
-          ]
-        ],
-        "bioactives_found": [
-          "Polyphenols"
-        ],
-        "concerns": [
-          "High oxalates",
-          "High sodium"
-        ],
-        "documented_micros": 18,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "new_zealand_spinach__boiled__whole__drained",
-          "variety": null,
-          "prep": "boiled",
-          "form": "whole",
-          "notes": "drained",
-          "serving_basis": "per_100g",
-          "calories": 12,
-          "macros": {
-            "protein_g": 1.3,
-            "carbs_g": 2.13,
-            "fat_g": 0.17,
-            "fiber_g": 1.4
-          },
-          "micros": {
-            "trans_fat_g": 0,
-            "niacin_mg": 0.39,
-            "vitamin_b6_mg": 0.256,
-            "calcium_mg": 48,
-            "potassium_mg": 102,
-            "zinc_mg": 0.31,
-            "monounsaturated_fat_g": 0.005,
-            "polyunsaturated_fat_g": 0.071,
-            "iron_mg": 0.66,
-            "magnesium_mg": 32,
-            "phosphorus_mg": 22,
-            "sodium_mg": 107,
-            "copper_mg": 0.077,
-            "manganese_mg": 0.526,
-            "cholesterol_mg": 0,
-            "saturated_fat_g": 0.027,
-            "vitamin_c_mg": 16,
-            "thiamin_mg": 0.03,
-            "riboflavin_mg": 0.107,
-            "folate_mcg": 8,
-            "vitamin_b12_mcg": 0,
-            "vitamin_e_mg": 1.23,
-            "vitamin_k_mcg": 292,
-            "vitamin_d_iu": 0,
-            "selenium_mcg": 0.9
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "168441"
-          },
-          "image_url": "/food-assets/new-zealand-spinach/cooked.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "new_zealand_spinach__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 14,
-          "macros": {
-            "protein_g": 1.5,
-            "carbs_g": 2.5,
-            "fat_g": 0.2,
-            "fiber_g": 1.5
-          },
-          "micros": {
-            "trans_fat_g": 0,
-            "iron_mg": 0.8,
-            "magnesium_mg": 39,
-            "phosphorus_mg": 28,
-            "sodium_mg": 130,
-            "copper_mg": 0.093,
-            "manganese_mg": 0.639,
-            "cholesterol_mg": 0,
-            "saturated_fat_g": 0.032,
-            "vitamin_c_mg": 30,
-            "thiamin_mg": 0.04,
-            "riboflavin_mg": 0.13,
-            "folate_mcg": 15,
-            "vitamin_b12_mcg": 0,
-            "niacin_mg": 0.5,
-            "vitamin_b6_mg": 0.312,
-            "calcium_mg": 58,
-            "potassium_mg": 130,
-            "zinc_mg": 0.38,
-            "monounsaturated_fat_g": 0.005,
-            "polyunsaturated_fat_g": 0.084,
-            "vitamin_k_mcg": 337,
-            "vitamin_e_mg": 1.42,
-            "vitamin_d_iu": 0,
-            "selenium_mcg": 0.7
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "168440"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
       "base_id": "nopale",
       "name": "Nopale",
       "group": "Vegetable",
@@ -33851,6 +33296,178 @@
       ]
     },
     {
+      "base_id": "watercress",
+      "name": "Watercress",
+      "group": "Vegetable",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "cruciferous-vegetable",
+        "vitamin-k-rich",
+        "low-calorie-density",
+        "glucosinolates",
+        "antioxidant",
+        "bone-health",
+        "cardiovascular-health",
+        "detoxification",
+        "raw-consumption-optimal"
+      ],
+      "icon": "🌿",
+      "image_path": "",
+      "image_url": "/food-assets/watercress/hero.webp",
+      "gallery_images": [],
+      "description": "Watercress is a nutrient-dense leafy green with exceptionally high vitamin K content and bioactive glucosinolates, offering potent anti-inflammatory and antioxidant benefits with minimal calories.",
+      "overview": "Watercress is an aquatic leafy green vegetable native to Europe and Asia, historically used in traditional medicine for its purported health properties. Modern nutritional science has validated many of these uses. With only 11 calories per 100g, watercress delivers an impressive micronutrient density, particularly in vitamin K (250 mcg per 100g, exceeding 300% of daily needs), potassium, and vitamin C. Its primary longevity relevance lies in its glucosinolate content—sulfur-containing compounds that break down into isothiocyanates when chopped or chewed. These compounds have demonstrated potential in cellular health and detoxification pathways. Watercress also contains phenolic compounds and flavonoids with antioxidant capacity. The combination of high vitamin K, calcium, and phosphorus supports bone metabolism, while its potassium content contributes to cardiovascular health. As a cruciferous vegetable, watercress shares cancer-preventive properties with broccoli and cabbage, though research remains more preliminary. Its bioavailability is enhanced by fat-soluble vitamins, making consumption with dietary fat beneficial for absorption of vitamins A and K.",
+      "health_benefits": [
+        {
+          "benefit": "Supports bone density and cardiovascular health through high vitamin K content",
+          "mechanism": "Vitamin K activates osteocalcin and other bone proteins essential for mineralization, and carboxylates matrix Gla protein in vessel walls, reducing arterial calcification risk",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Reduces oxidative stress through glucosinolate-derived isothiocyanates and phenolic antioxidants",
+          "mechanism": "Isothiocyanates activate phase 2 detoxification enzymes (like sulfotransferases) and upregulate antioxidant response pathways; flavonoids scavenge free radicals directly",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Supports vascular health and blood pressure regulation via potassium and nitrate content",
+          "mechanism": "Potassium promotes natriuresis and vasodilation; inorganic nitrates are converted to nitric oxide, enhancing endothelial function and reducing systemic vascular resistance",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "May support cellular defense mechanisms and reduce cancer risk through glucosinolate metabolism",
+          "mechanism": "Isothiocyanates induce apoptosis in cancer cells, inhibit phase 1 carcinogens, and increase expression of detoxification enzymes in hepatocytes",
+          "evidence_strength": "emerging"
+        },
+        {
+          "benefit": "Promotes cognitive and metabolic health through choline and B-vitamin content",
+          "mechanism": "Choline is a precursor for acetylcholine (neurotransmitter) and phosphatidylcholine (membrane component); supports homocysteine metabolism",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with olive oil or avocado because fat-soluble vitamins K and A require dietary lipids for intestinal absorption and hepatic transport",
+        "Combine with citrus (lemon, orange) because vitamin C enhances absorption of non-heme iron if watercress is consumed with iron-rich foods, and acid environment optimizes glucosinolate preservation",
+        "Eat with cruciferous vegetables (broccoli, cabbage) because they provide complementary glucosinolates and create synergistic phytochemical diversity for broader detoxification enzyme activation",
+        "Pair with calcium-rich foods (dairy, fortified plant milks) because watercress contains oxalates that can inhibit calcium absorption; pairing increases net calcium bioavailability"
+      ],
+      "practical_tips": [
+        "Consume raw or lightly blanched (30 seconds) to preserve glucosinolates; prolonged cooking degrades these bioactive compounds by 50-75%",
+        "Chop or chew thoroughly 30 minutes before consumption to maximize myrosinase enzyme activity and isothiocyanate conversion from glucosinolates",
+        "Store in cold water (changed daily) or wrapped in damp paper towels in refrigerator; use within 3-5 days as nutrient density declines with storage time",
+        "Select watercress with vibrant green color and firm stems; avoid yellowing or wilted leaves indicating age and oxidative degradation",
+        "Rinse thoroughly under running water before consumption to remove potential bacteria from growing conditions, particularly if sourced from natural water sources"
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Watercress has no stimulating compounds and provides steady micronutrient availability. Consuming at lunch or dinner with fat-containing meals optimizes fat-soluble vitamin absorption. Raw consumption in morning salads preserves glucosinolates maximally.",
+        "avoid_times": [],
+        "fasting_compatible": true,
+        "notes": "Those on warfarin or anticoagulants should maintain consistent intake due to high vitamin K; individuals with thyroid conditions who are iodine-deficient should moderate raw cruciferous consumption, though watercress contains some iodine"
+      },
+      "default_variant_id": "watercress__raw__whole",
+      "price_avg": 2.2,
+      "price_unit": "lb",
+      "score": 92,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 34.28,
+        "protein_quality": 12,
+        "fiber_content": 9.32,
+        "healthy_fats": 5,
+        "bioactive_compounds": 12.95,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 2,
+        "top_nutrients": [
+          [
+            "Vitamin K",
+            208.3
+          ],
+          [
+            "Vitamin C",
+            47.8
+          ],
+          [
+            "Vitamin B6",
+            18.2
+          ],
+          [
+            "Manganese",
+            10.6
+          ],
+          [
+            "Calcium",
+            9.2
+          ]
+        ],
+        "bioactives_found": [
+          "Glucosinolates",
+          "Choline",
+          "Nitrates",
+          "Polyphenols"
+        ],
+        "concerns": [
+          "High sodium"
+        ],
+        "documented_micros": 18,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "watercress__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 11,
+          "macros": {
+            "protein_g": 2.3,
+            "carbs_g": 1.29,
+            "fat_g": 0.1,
+            "fiber_g": 0.5
+          },
+          "micros": {
+            "vitamin_e_mg": 1,
+            "vitamin_k_mcg": 250,
+            "omega3_mg": 0,
+            "choline_mg": 9,
+            "vitamin_a_iu": 160,
+            "trans_fat_g": 0,
+            "saturated_fat_g": 0.027,
+            "cholesterol_mg": 0,
+            "iron_mg": 0.2,
+            "phosphorus_mg": 60,
+            "copper_mg": 0.077,
+            "manganese_mg": 0.244,
+            "vitamin_c_mg": 43,
+            "thiamin_mg": 0.09,
+            "riboflavin_mg": 0.12,
+            "folate_mcg": 9,
+            "vitamin_b12_mcg": 0,
+            "calcium_mg": 120,
+            "zinc_mg": 0.11,
+            "niacin_mg": 0.2,
+            "vitamin_b6_mg": 0.31,
+            "monounsaturated_fat_g": 0.008,
+            "polyunsaturated_fat_g": 0.035,
+            "potassium_mg": 330,
+            "sodium_mg": 41,
+            "magnesium_mg": 21,
+            "vitamin_d_iu": 0,
+            "selenium_mcg": 0.9
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "170068"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "avocado",
       "name": "Avocado",
       "group": "Fruit",
@@ -35397,6 +35014,221 @@
           "source": {
             "name": "USDA FDC",
             "id": "169957"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
+      "base_id": "new-zealand-spinach",
+      "name": "New Zealand Spinach",
+      "group": "Vegetable",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "bone-health",
+        "vitamin-k-rich",
+        "low-calorie",
+        "low-oxalate",
+        "cardiovascular-support",
+        "summer-vegetable",
+        "micronutrient-dense",
+        "heat-tolerant",
+        "mineral-bioavailable",
+        "antioxidant"
+      ],
+      "icon": "🌿",
+      "image_path": "",
+      "image_url": "/food-assets/new-zealand-spinach/hero.webp",
+      "gallery_images": [],
+      "description": "New Zealand spinach is a leafy green vegetable with exceptional vitamin K content and minimal calories, making it an excellent choice for bone health and micronutrient density without caloric burden.",
+      "overview": "New Zealand spinach (Tetragonia tetragonioides), also called summer spinach or warrigal greens, is a heat-tolerant leafy vegetable native to New Zealand and Australia. Unlike common spinach, it thrives in warm conditions and offers a mild, slightly succulent flavor. Per 100g, it provides only 14 calories while delivering an impressive 337 mcg of vitamin K—essential for bone mineralization and vascular health—along with 30 mg of vitamin C for collagen synthesis and immune function. The vegetable contains meaningful amounts of magnesium (39 mg) and potassium (130 mg), which support cardiovascular regulation and metabolic function. Unlike true spinach, New Zealand spinach contains lower oxalate levels, making its minerals more bioavailable and suitable for those concerned with kidney stone risk. Its low glycemic impact and high fiber-to-calorie ratio make it ideal for sustained energy and metabolic health. The presence of vitamin E (1.42 mg) adds antioxidant protection. As a summer-season green, it diversifies micronutrient intake beyond typical year-round spinach varieties, contributing to comprehensive phytonutrient diversity—a key longevity marker. Its heat tolerance makes it accessible to home gardeners in warm climates, supporting local food security.",
+      "health_benefits": [
+        {
+          "benefit": "Supports bone health and fracture prevention through high vitamin K content",
+          "mechanism": "Vitamin K activates osteocalcin, a bone matrix protein essential for calcium binding and bone mineralization. The 337 mcg per 100g significantly contributes to daily requirements (120 mcg for women, 90 mcg for men).",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Promotes cardiovascular health through potassium and magnesium content",
+          "mechanism": "Potassium regulates blood pressure by counteracting sodium and supporting endothelial function. Magnesium relaxes vascular smooth muscle and supports healthy arrhythmia prevention.",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Supports collagen synthesis and immune function via vitamin C",
+          "mechanism": "Vitamin C (30 mg per 100g) is a cofactor for prolyl and lysyl hydroxylase enzymes required for collagen cross-linking. It also enhances neutrophil function and reduces infection risk.",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Provides antioxidant protection with lower oxalate burden compared to common spinach",
+          "mechanism": "Vitamin E and bioactive polyphenols neutralize oxidative stress. Lower oxalate content improves mineral bioavailability and reduces kidney stone risk in susceptible individuals.",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Supports metabolic health through low glycemic impact and fiber content",
+          "mechanism": "The 1.5 g fiber per 100g slows glucose absorption, promoting stable blood sugar. Low carbohydrate density (2.5 g) minimizes insulin demand.",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with olive oil because fat-soluble vitamin K requires dietary lipids for absorption and transport",
+        "Combine with citrus (lemon, orange) because vitamin C enhances non-heme iron absorption from the 0.8 mg iron content",
+        "Mix with calcium-rich foods (yogurt, tahini) because vitamin K activates osteocalcin, which requires adequate calcium for bone mineralization",
+        "Serve with garlic because allicin compounds support vascular health synergistically with potassium and magnesium"
+      ],
+      "practical_tips": [
+        "Store in a sealed plastic bag in the refrigerator crisper drawer for up to 5-7 days; wash gently just before use to preserve vitamin C content",
+        "Consume raw in salads or lightly wilted (30 seconds in hot water) to preserve heat-sensitive vitamin C while making vitamin K more bioavailable",
+        "Harvest or purchase younger leaves for tenderness and milder flavor; mature leaves develop slightly tougher texture but remain palatable",
+        "Grow in home gardens during summer months in warm climates as it outperforms common spinach in heat stress, ensuring consistent fresh supply"
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "As a low-calorie, nutrient-dense vegetable with no stimulants or sleep-affecting compounds, New Zealand spinach can be consumed any time of day. Midday or evening consumption with fat sources optimizes vitamin K absorption.",
+        "avoid_times": [],
+        "fasting_compatible": true,
+        "notes": "Ideal as part of mixed green salads or cooked dishes throughout the day. No timing restrictions apply."
+      },
+      "default_variant_id": "new_zealand_spinach__raw__whole",
+      "price_avg": 2.2,
+      "price_unit": "lb",
+      "score": 91,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 34.32,
+        "protein_quality": 12,
+        "fiber_content": 10,
+        "healthy_fats": 5,
+        "bioactive_compounds": 13.51,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 4,
+        "top_nutrients": [
+          [
+            "Vitamin K",
+            280.8
+          ],
+          [
+            "Vitamin C",
+            33.3
+          ],
+          [
+            "Manganese",
+            27.8
+          ],
+          [
+            "Vitamin B6",
+            18.4
+          ],
+          [
+            "Copper",
+            10.3
+          ]
+        ],
+        "bioactives_found": [
+          "Polyphenols"
+        ],
+        "concerns": [
+          "High oxalates",
+          "High sodium"
+        ],
+        "documented_micros": 18,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "new_zealand_spinach__boiled__whole__drained",
+          "variety": null,
+          "prep": "boiled",
+          "form": "whole",
+          "notes": "drained",
+          "serving_basis": "per_100g",
+          "calories": 12,
+          "macros": {
+            "protein_g": 1.3,
+            "carbs_g": 2.13,
+            "fat_g": 0.17,
+            "fiber_g": 1.4
+          },
+          "micros": {
+            "trans_fat_g": 0,
+            "niacin_mg": 0.39,
+            "vitamin_b6_mg": 0.256,
+            "calcium_mg": 48,
+            "potassium_mg": 102,
+            "zinc_mg": 0.31,
+            "monounsaturated_fat_g": 0.005,
+            "polyunsaturated_fat_g": 0.071,
+            "iron_mg": 0.66,
+            "magnesium_mg": 32,
+            "phosphorus_mg": 22,
+            "sodium_mg": 107,
+            "copper_mg": 0.077,
+            "manganese_mg": 0.526,
+            "cholesterol_mg": 0,
+            "saturated_fat_g": 0.027,
+            "vitamin_c_mg": 16,
+            "thiamin_mg": 0.03,
+            "riboflavin_mg": 0.107,
+            "folate_mcg": 8,
+            "vitamin_b12_mcg": 0,
+            "vitamin_e_mg": 1.23,
+            "vitamin_k_mcg": 292,
+            "vitamin_d_iu": 0,
+            "selenium_mcg": 0.9
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "168441"
+          },
+          "image_url": "/food-assets/new-zealand-spinach/cooked.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "new_zealand_spinach__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 14,
+          "macros": {
+            "protein_g": 1.5,
+            "carbs_g": 2.5,
+            "fat_g": 0.2,
+            "fiber_g": 1.5
+          },
+          "micros": {
+            "trans_fat_g": 0,
+            "iron_mg": 0.8,
+            "magnesium_mg": 39,
+            "phosphorus_mg": 28,
+            "sodium_mg": 130,
+            "copper_mg": 0.093,
+            "manganese_mg": 0.639,
+            "cholesterol_mg": 0,
+            "saturated_fat_g": 0.032,
+            "vitamin_c_mg": 30,
+            "thiamin_mg": 0.04,
+            "riboflavin_mg": 0.13,
+            "folate_mcg": 15,
+            "vitamin_b12_mcg": 0,
+            "niacin_mg": 0.5,
+            "vitamin_b6_mg": 0.312,
+            "calcium_mg": 58,
+            "potassium_mg": 130,
+            "zinc_mg": 0.38,
+            "monounsaturated_fat_g": 0.005,
+            "polyunsaturated_fat_g": 0.084,
+            "vitamin_k_mcg": 337,
+            "vitamin_e_mg": 1.42,
+            "vitamin_d_iu": 0,
+            "selenium_mcg": 0.7
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "168440"
           },
           "image_url": null,
           "gallery_images": []
@@ -39691,6 +39523,174 @@
       ]
     },
     {
+      "base_id": "acerola",
+      "name": "Acerola",
+      "group": "Fruit",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "high-vitamin-c",
+        "antioxidant-rich",
+        "immune-support",
+        "tropical-fruit",
+        "polyphenol-source",
+        "collagen-synthesis",
+        "anti-inflammatory",
+        "bioavailable-micronutrients",
+        "powder-form-available"
+      ],
+      "icon": "🍒",
+      "image_path": "",
+      "image_url": "/food-assets/acerola/hero.webp",
+      "gallery_images": [
+        "/food-assets/acerola/hero_2.webp",
+        "/food-assets/acerola/hero_3.webp"
+      ],
+      "description": "Acerola is a tropical cherry native to Central and South America with extraordinarily high vitamin C content—over 50 times more per gram than oranges. This nutrient-dense fruit is prized for immune support and antioxidant protection.",
+      "overview": "Acerola, also known as Barbados cherry or West Indian cherry, is a small red fruit cultivated primarily in Brazil, the Caribbean, and Central America. Despite its modest caloric profile (32 kcal per 100g), acerola delivers an unparalleled concentration of vitamin C at 1,677.6 mg per 100g—making it one of the richest natural sources of this micronutrient globally. Beyond ascorbic acid, acerola contains polyphenolic compounds including anthocyanins and flavonoids with documented antioxidant and anti-inflammatory properties. The fruit's nutritional density makes it particularly valuable for longevity-focused nutrition, as vitamin C plays critical roles in collagen synthesis, immune function, and protection against oxidative stress—all mechanisms linked to healthy aging. While fresh acerola is seasonally available only in tropical regions, powdered and frozen forms extend accessibility. The bioavailability of vitamin C from acerola is enhanced when consumed with foods containing fat or iron-rich foods, supporting practical integration into diverse dietary patterns. Research indicates acerola's polyphenols may support cardiovascular health and metabolic function, though human intervention studies remain limited compared to in vitro and animal research.",
+      "health_benefits": [
+        {
+          "benefit": "Enhanced immune function and reduced infection risk",
+          "mechanism": "Vitamin C supports neutrophil and lymphocyte function, improves antibody production, and strengthens epithelial barriers; the fruit's polyphenols provide additional antimicrobial and immunomodulatory effects",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Protection against oxidative stress and cellular aging",
+          "mechanism": "Exceptionally high vitamin C and anthocyanin content neutralize free radicals; vitamin C also regenerates other antioxidants like vitamin E, amplifying antioxidant defense across cellular compartments",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Improved collagen synthesis and skin health",
+          "mechanism": "Vitamin C is an essential cofactor for prolyl and lysyl hydroxylase enzymes required for collagen cross-linking and maturation, supporting skin elasticity and wound healing",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Cardiovascular protection through anti-inflammatory pathways",
+          "mechanism": "Polyphenolic compounds in acerola reduce pro-inflammatory cytokines and oxidative modification of LDL cholesterol; vitamin C supports endothelial function and vasodilation",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Enhanced iron absorption and improved bioavailability of other nutrients",
+          "mechanism": "Vitamin C reduces ferric iron (Fe³⁺) to ferrous form (Fe²⁺), the more readily absorbed form; acidic compounds enhance mineral solubility throughout the GI tract",
+          "evidence_strength": "strong"
+        }
+      ],
+      "food_pairings": [
+        "Pair with legumes or red meat because vitamin C dramatically increases non-heme iron absorption, supporting bioavailability of plant-based iron sources",
+        "Combine with leafy greens (spinach, kale) because both provide complementary micronutrients and the vitamin C preserves folate stability during digestion",
+        "Mix with healthy fats (avocado, nuts, seeds) because fat-soluble vitamins and polyphenols require dietary fat for optimal absorption and utilization",
+        "Blend with Greek yogurt or kefir because probiotics may enhance polyphenol metabolism via gut microbiota fermentation, increasing bioactive metabolite production"
+      ],
+      "practical_tips": [
+        "Purchase acerola powder or frozen fruit for year-round access and stable nutrient retention; freeze-dried forms preserve vitamin C better than sun-dried varieties",
+        "Consume fresh acerola immediately after purchase or within 2-3 days if refrigerated, as vitamin C degrades rapidly with light exposure, heat, and time",
+        "Mix acerola powder into smoothies with protein and fat sources rather than consuming alone; this improves polyphenol bioavailability and provides sustained satiety",
+        "Avoid heating acerola juice above 40°C (104°F) to preserve heat-sensitive vitamin C; add to beverages after cooling if using in warm preparations",
+        "Start with 15-30g of acerola powder daily; excessive vitamin C intake (>2,000 mg/day) may cause gastrointestinal distress or kidney stone risk in susceptible individuals"
+      ],
+      "optimal_timing": {
+        "best_time": "morning",
+        "reasoning": "Morning consumption maximizes immune surveillance benefits throughout the day; vitamin C supports cortisol modulation and circadian immune rhythm; pairing with breakfast containing protein and fat optimizes polyphenol absorption",
+        "avoid_times": [
+          "on empty stomach in sensitive individuals"
+        ],
+        "fasting_compatible": false,
+        "notes": "While acerola is technically compatible with fasting, nutritional benefits are substantially enhanced when consumed with food containing fat and protein"
+      },
+      "default_variant_id": "acerola__raw__whole",
+      "price_avg": 2.4,
+      "price_unit": "lb",
+      "score": 90,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 33.37,
+        "protein_quality": 3.75,
+        "fiber_content": 7.66,
+        "healthy_fats": 5,
+        "bioactive_compounds": 12.72,
+        "glycemic_impact": 9,
+        "anti_nutrient_penalty": 0,
+        "top_nutrients": [
+          [
+            "Vitamin C",
+            1864
+          ],
+          [
+            "Vitamin B6",
+            18.2
+          ],
+          [
+            "Copper",
+            9.6
+          ],
+          [
+            "Riboflavin",
+            4.6
+          ],
+          [
+            "Magnesium",
+            4.3
+          ]
+        ],
+        "bioactives_found": [
+          "Anthocyanins",
+          "Polyphenols"
+        ],
+        "concerns": [],
+        "documented_micros": 15,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "acerola__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 32,
+          "macros": {
+            "protein_g": 0.4,
+            "carbs_g": 7.69,
+            "fat_g": 0.3,
+            "fiber_g": 1.1
+          },
+          "micros": {
+            "saturated_fat_g": 0.068,
+            "omega3_mg": 0,
+            "monounsaturated_fat_g": 0.082,
+            "copper_mg": 0.086,
+            "folate_mcg": 14,
+            "zinc_mg": 0.1,
+            "polyunsaturated_fat_g": 0.09,
+            "vitamin_a_iu": 38,
+            "trans_fat_g": 0,
+            "calcium_mg": 12,
+            "potassium_mg": 146,
+            "niacin_mg": 0.4,
+            "vitamin_b6_mg": 0.309,
+            "iron_mg": 0.2,
+            "magnesium_mg": 18,
+            "phosphorus_mg": 11,
+            "sodium_mg": 7,
+            "vitamin_c_mg": 1677.6,
+            "thiamin_mg": 0.02,
+            "riboflavin_mg": 0.06,
+            "cholesterol_mg": 0,
+            "vitamin_b12_mcg": 0,
+            "selenium_mcg": 0.6
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171686"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "bamboo-shoot",
       "name": "Bamboo Shoot",
       "group": "Vegetable",
@@ -40403,7 +40403,7 @@
       "grade": "A+",
       "grade_color": "#22C55E",
       "score_breakdown": {
-        "nutrient_density": 35,
+        "nutrient_density": 34.68,
         "protein_quality": 11.79,
         "fiber_content": 10,
         "healthy_fats": 5,
@@ -49921,7 +49921,7 @@
       "grade": "A",
       "grade_color": "#3B82F6",
       "score_breakdown": {
-        "nutrient_density": 33.92,
+        "nutrient_density": 33.91,
         "protein_quality": 6.3,
         "fiber_content": 5,
         "healthy_fats": 5,
@@ -50608,7 +50608,7 @@
       "grade": "A",
       "grade_color": "#3B82F6",
       "score_breakdown": {
-        "nutrient_density": 34.54,
+        "nutrient_density": 34.31,
         "protein_quality": 5.52,
         "fiber_content": 0,
         "healthy_fats": 5,
@@ -61788,7 +61788,7 @@
       "grade": "A",
       "grade_color": "#3B82F6",
       "score_breakdown": {
-        "nutrient_density": 34.5,
+        "nutrient_density": 34.28,
         "protein_quality": 5.52,
         "fiber_content": 5,
         "healthy_fats": 5,
