@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
+import { products } from "@/lib/products";
+
+/** Lowest score actually in the catalog. Derived, not written down: a
+ *  hardcoded figure here becomes wrong the next time the catalog is synced. */
+const LOWEST_SCORE = Math.min(
+  ...products.map((p) => p.score).filter((s): s is number => typeof s === "number"),
+);
 
 export const metadata: Metadata = {
   title: "Supplement Scoring Methodology — How Formulate Scores Supplements",
@@ -32,13 +39,17 @@ const FACTORS = [
     weight: "20%",
     color: "text-cyan-400",
     name: "Dose Accuracy",
-    desc: "Does the serving actually match the evidence-based range for the claimed benefit? Underdosed and overdosed products both lose points.",
+    desc: "Does the serving actually match the evidence-based range for the claimed benefit? Underdosed and overdosed products both lose points. Thresholds come from position stands where they exist — creatine is scored against 3–5 g/day, not against whatever the label rounds to.",
+    cite: "ISSN position stand, Kreider 2017",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/",
   },
   {
     weight: "15%",
     color: "text-amber-400",
     name: "Bioavailability",
-    desc: "Form, chelation, and delivery method. Magnesium glycinate and magnesium oxide are not the same supplement — and we score them accordingly.",
+    desc: "Form, chelation, and delivery method. Magnesium citrate is measurably better absorbed than magnesium oxide, and the two are not scored alike. Not every form difference is this well established — glycinate versus oxide is genuinely mixed in the literature — so forms are scored on the strength of their own evidence rather than on marketing.",
+    cite: "Lindberg, J Am Coll Nutr 1990",
+    href: "https://pubmed.ncbi.nlm.nih.gov/2407766/",
   },
   {
     weight: "10%",
@@ -65,7 +76,11 @@ const SCORE_BANDS = [
 const FAQS = [
   {
     q: "Why doesn't anything score below 50?",
-    a: "We don't list products we wouldn't be comfortable recommending at all. The 50–100 scale reflects the range of products that passed our screening. Products that fail safety or legitimacy checks don't get a score — they don't get listed.",
+    a: `Because 50 is a hard floor in the scoring itself, not a screening outcome. Two things put a product there: having too little information to score, and hiding its doses — if more than half the scorable ingredients don't disclose an amount, which is what a proprietary blend does, the score is capped at 50 no matter how the other factors came out. So a 50 means the label didn't tell us enough, not that we assessed the product and judged it weak. No product currently in the catalog sits at the floor; the lowest is ${LOWEST_SCORE}.`,
+  },
+  {
+    q: "Is price part of the score?",
+    a: "No. Cost-efficiency is calculated and shown, but it is deliberately kept out of the product score, so an expensive well-made supplement and a cheap well-made one score the same on quality. Price is information for you to weigh, not a thumb on the scale.",
   },
   {
     q: "Do brands pay to be on Formulate?",
@@ -154,6 +169,15 @@ export default function SupplementMethodologyPage() {
                 <div>
                   <div className="text-sm font-bold text-text mb-1">{p.name}</div>
                   <p className="text-sm text-muted leading-relaxed">{p.desc}</p>
+                  {p.cite && p.href && (
+                    <a
+                      href={p.href}
+                      rel="noopener"
+                      className="inline-block mt-2 text-xs font-mono text-accent hover:underline"
+                    >
+                      {p.cite} →
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
