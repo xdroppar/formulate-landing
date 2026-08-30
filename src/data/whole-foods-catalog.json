@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-29T23:14:11+00:00",
+  "version": "2026-08-30T00:19:36+00:00",
   "score_version": "1.5.1",
   "categories": [
     "Fruit",
@@ -37809,7 +37809,7 @@
       "grade_color": "#22C55E",
       "score_breakdown": {
         "nutrient_density": 30.14,
-        "protein_quality": 12,
+        "protein_quality": 11.03,
         "fiber_content": 10,
         "healthy_fats": 5,
         "bioactive_compounds": 12.42,
@@ -38130,12 +38130,12 @@
           "form": "whole",
           "notes": null,
           "serving_basis": "per_100g",
-          "calories": 5.7,
+          "calories": 16,
           "macros": {
-            "protein_g": 0.98,
-            "carbs_g": 0,
-            "fat_g": 0.2,
-            "fiber_g": 0.75
+            "protein_g": 1.21,
+            "carbs_g": 3.35,
+            "fat_g": 0.18,
+            "fiber_g": 1.1
           },
           "micros": {
             "magnesium_mg": 15.29,
@@ -38150,7 +38150,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "2685568"
+            "id": "170487",
+            "note": "repointed from 2685568 (foundation record with no energy or carbohydrate row, which made calories derive to 5.7 from macros with carbs treated as 0)"
           },
           "image_url": null,
           "gallery_images": []
