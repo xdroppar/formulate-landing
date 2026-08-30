@@ -21,7 +21,7 @@ export const metadata: Metadata = {
  * which whole foods do not have — and published grade bands that disagreed
  * with the app. If the engine changes, change this page in the same commit.
  */
-const SCORE_VERSION = "1.5.1";
+const SCORE_VERSION = "1.6.0";
 
 const PILLARS = [
   {
@@ -29,11 +29,11 @@ const PILLARS = [
     weight: 35,
     color: "text-green-400",
     desc:
-      "Vitamins and minerals the food delivers, scored on two tracks — per 100 g and per 100 calories — so a calorie-dense food like nuts is not punished for its energy. Each nutrient is capped at 200% of its Daily Value so no single outlier can carry a food.",
+      "Vitamins and minerals the food delivers, scored on two tracks — per studied serving and per 100 calories — so a calorie-dense food like nuts is not punished for its energy. Each nutrient is capped at 200% of its Daily Value so no single outlier can carry a food.",
     evidence:
-      "Capping per nutrient follows the Nutrient-Rich Foods index, which caps at 100% DV to prevent overweighting foods exceptionally high in one nutrient.",
-    cite: "Drewnowski, J Nutr 2009",
-    href: "https://jn.nutrition.org/article/S0022-3166(22)06842-0/fulltext",
+      "Both the basis and the cap follow the published nutrient-profiling work. NRF9.3, validated against the Healthy Eating Index, is computed per serving and per 100 calories, and caps each nutrient to stop one outlier dominating. Scoring per 100 g instead is why dried herbs used to top this catalog — 100 g of dried parsley is fifty servings — and a per-100-calorie basis alone rates low-energy foods disproportionately high against the amounts people actually eat.",
+    cite: "Drewnowski, J Nutr 2009 · Drewnowski & Maillot, Eur J Clin Nutr 2008",
+    href: "https://www.nature.com/articles/ejcn200853",
   },
   {
     name: "Bioactive Compounds",
