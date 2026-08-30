@@ -225,7 +225,14 @@ export function standardServingG(f: Food, variant?: FoodVariant | null): number 
     if ((dv.prep || "").toLowerCase().includes("dried")) return 40;
   }
 
-  if (/\bbutter\b/.test(name) && !name.includes("nut")) return 14;
+  // Dairy butter is 14 g (1 tbsp); a nut or seed butter is 32 g (2 tbsp). The
+  // guard was !name.includes("nut"), which reads as "spare the nut butters" but
+  // only catches the ones that spell it. Almond, cashew, sesame and sunflower
+  // butter fell through to 14 g, understating every %DV by more than half.
+  // Decide on the GROUP, which spelling cannot dodge.
+  const spreadable =
+    group.includes("nuts") || group.includes("seed") || group.includes("legume");
+  if (/\bbutter\b/.test(name) && !spreadable) return 14;
   if (name.includes("ghee") || name.includes("butter oil")) return 14;
   if (name.includes("dessert topping") || name.includes("whipped")) return 15;
 
