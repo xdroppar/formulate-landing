@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-30T00:33:37+00:00",
-  "score_version": "1.5.3",
+  "version": "2026-08-30T00:37:51+00:00",
+  "score_version": "1.5.4",
   "categories": [
     "Fruit",
     "Vegetable",
@@ -14644,6 +14644,8 @@
           ]
         ],
         "bioactives_found": [
+          "Catechins (EGCG)",
+          "Ellagitannins",
           "Omega-3 (ALA/EPA/DHA)",
           "Polyphenols"
         ],
@@ -59285,8 +59287,10 @@
           ]
         ],
         "bioactives_found": [
+          "Isoflavones",
           "Inulin / Prebiotic fibre",
-          "Live probiotics"
+          "Live probiotics",
+          "Polyphenols"
         ],
         "concerns": [
           "High sodium"
