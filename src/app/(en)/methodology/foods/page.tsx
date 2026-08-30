@@ -16,10 +16,13 @@ export const metadata: Metadata = {
 
 /**
  * These weights, bands and figures are the ones the scoring engine actually
- * uses (`whole_food_scoring_service.py`, score_version 1.5.1). This page
- * previously described a different rubric — processing level and sourcing,
- * which whole foods do not have — and published grade bands that disagreed
- * with the app. If the engine changes, change this page in the same commit.
+ * uses (`whole_food_scoring_service.py`). This page previously described a
+ * different rubric — processing level and sourcing, which whole foods do not
+ * have — and published grade bands that disagreed with the app.
+ *
+ * If the engine changes, change this page in the SAME commit, and grep the
+ * whole file: the basis moved to per-serving in 1.6.0 and the FAQ still said
+ * "per 100 g" because only the pillar description was updated.
  */
 const SCORE_VERSION = "1.6.0";
 
@@ -117,7 +120,7 @@ const FAQS = [
   },
   {
     q: "Why isn't this just about calories?",
-    a: "Calories measure energy, not quality. Two foods with the same calories can differ enormously in what they deliver. Nutrient density is scored on two tracks — per 100 g and per 100 calories — precisely so that a calorie-dense whole food like walnuts is not penalised for its energy while a low-calorie food with little in it is not rewarded for emptiness.",
+    a: "Calories measure energy, not quality. Two foods with the same calories can differ enormously in what they deliver. Nutrient density is scored on two tracks — per studied serving and per 100 calories — precisely so that a calorie-dense whole food like walnuts is not penalised for its energy while a low-calorie food with little in it is not rewarded for emptiness.",
   },
   {
     q: "What serving are the nutrient figures based on?",
