@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-30T17:05:00+00:00",
-  "score_version": "1.6.1",
+  "version": "2026-08-30T17:35:16+00:00",
+  "score_version": "1.6.2",
   "categories": [
     "Fruit",
     "Vegetable",
@@ -2201,7 +2201,7 @@
         "bioactives_found": [
           "Lycopene",
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Omega-3 (ALA/EPA/DHA)",
           "Polyphenols"
@@ -17347,7 +17347,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -18905,7 +18905,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)"
+          "Catechins"
         ],
         "concerns": [],
         "documented_micros": 9,
@@ -24012,7 +24012,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Polyphenols"
         ],
         "concerns": [
@@ -25521,7 +25521,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -26329,7 +26329,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -28671,7 +28671,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -30415,7 +30415,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -34203,7 +34203,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Choline",
           "Polyphenols"
@@ -38015,7 +38015,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Ellagitannins",
           "Omega-3 (ALA/EPA/DHA)",
           "Polyphenols"
@@ -48499,7 +48499,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Polyphenols"
         ],
         "concerns": [],
@@ -52577,7 +52577,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Choline",
           "Polyphenols"
@@ -74279,7 +74279,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -82730,7 +82730,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Chlorogenic acid",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
@@ -91052,7 +91052,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Chlorogenic acid",
           "Polyphenols"
         ],
@@ -94080,7 +94080,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
         ],
@@ -94883,7 +94883,7 @@
           "Lutein & Zeaxanthin",
           "Beta-carotene",
           "Carotenoids",
-          "Catechins (EGCG)",
+          "Catechins",
           "Chlorogenic acid",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
@@ -95998,7 +95998,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Chlorogenic acid",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
@@ -99968,7 +99968,7 @@
         ],
         "bioactives_found": [
           "Quercetin",
-          "Catechins (EGCG)",
+          "Catechins",
           "Chlorogenic acid",
           "Inulin / Prebiotic fibre",
           "Polyphenols"
@@ -100674,7 +100674,7 @@
           ]
         ],
         "bioactives_found": [
-          "Catechins (EGCG)",
+          "Catechins",
           "Ellagitannins",
           "Polyphenols"
         ],
@@ -101649,7 +101649,7 @@
         ],
         "bioactives_found": [
           "Resveratrol",
-          "Catechins (EGCG)",
+          "Catechins",
           "Polyphenols"
         ],
         "concerns": [],
