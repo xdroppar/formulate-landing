@@ -29,10 +29,19 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const b = brandBySlug(slug);
   if (!b) return { title: "Brand not found" };
   const count = productsForBrand(slug).length;
-  const title = `${b.name} Supplements Review: Brand Grade ${b.grade ?? "—"}, ${count} Products Scored`;
-  const description =
-    `Formulate graded ${count} ${b.name} supplement${count === 1 ? "" : "s"} on ingredient quality, ` +
-    `dose accuracy, and third-party testing. Brand grade: ${b.grade ?? "—"} (${b.score ?? "—"}/100).`;
+  // A provisional grade is one the scorer does not stand behind — too few
+  // products, or confidence under 0.50. Saying "Brand Grade C" for a company
+  // judged on ONE product states a verdict the evidence does not support, so
+  // the word "Provisional" carries into the title and description rather than
+  // living only in body copy nobody reads.
+  const graded = b.provisional ? "Provisional Grade" : "Brand Grade";
+  const title = `${b.name} Supplements Review: ${graded} ${b.grade ?? "—"}, ${count} Products Scored`;
+  const description = b.provisional
+    ? `Formulate has graded ${count} ${b.name} supplement${count === 1 ? "" : "s"} so far — ` +
+      `too few to grade the brand with confidence. Provisional grade: ${b.grade ?? "—"} ` +
+      `(${b.score ?? "—"}/100).`
+    : `Formulate graded ${count} ${b.name} supplement${count === 1 ? "" : "s"} on ingredient quality, ` +
+      `dose accuracy, and third-party testing. Brand grade: ${b.grade ?? "—"} (${b.score ?? "—"}/100).`;
   const url = `${BASE}/brands/${slug}`;
   return {
     title: title,
@@ -201,14 +210,34 @@ export default async function BrandHub({ params }: { params: Params }) {
         </div>
         <div className="flex items-center gap-3 flex-shrink-0">
           <ScoreMeter score={b.score} size={68} strokeWidth={6} color={bg.color} />
-          <div
-            className="text-3xl font-bold px-4 py-2.5 rounded-xl"
-            style={{ backgroundColor: `${bg.color}1a`, color: bg.color }}
-          >
-            {b.grade ?? bg.letter}
+          <div className="flex flex-col items-center gap-1">
+            <div
+              className="text-3xl font-bold px-4 py-2.5 rounded-xl"
+              style={{ backgroundColor: `${bg.color}1a`, color: bg.color }}
+            >
+              {b.grade ?? bg.letter}
+            </div>
+            {b.provisional && (
+              <span className="text-[10px] font-semibold uppercase tracking-wider text-muted">
+                Provisional
+              </span>
+            )}
           </div>
         </div>
       </header>
+
+      {/* A grade the scorer does not stand behind should say so where the grade
+          is, not in small print further down. Ritual and Optimum Nutrition are
+          each judged on a single product. */}
+      {b.provisional && (
+        <p className="mb-8 rounded-lg border border-border bg-card/30 px-4 py-3 text-sm text-muted">
+          <strong className="text-text">This grade is provisional.</strong>{" "}
+          Formulate has scored {lineup.length} {b.name} product
+          {lineup.length === 1 ? "" : "s"} so far — not enough to judge the brand
+          with confidence. It reflects what has been analysed, not a settled view
+          of the company, and will change as more of its lineup is scored.
+        </p>
+      )}
 
       <AppCtaCard
         className="mb-10"

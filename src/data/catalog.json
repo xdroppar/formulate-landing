@@ -56510,7 +56510,8 @@
         }
       ],
       "top_category": "Amino Acids",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "momentous",
@@ -56546,7 +56547,8 @@
         }
       ],
       "top_category": "Minerals",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "prohealth-longevity",
@@ -56582,7 +56584,8 @@
         }
       ],
       "top_category": "longevity",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": true
     },
     {
       "slug": "seed",
@@ -56618,7 +56621,8 @@
         }
       ],
       "top_category": "Probiotics",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "nutricost",
@@ -56654,7 +56658,8 @@
         }
       ],
       "top_category": "Minerals",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "complement",
@@ -56690,7 +56695,8 @@
         }
       ],
       "top_category": "Multivitamins",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "optimum-nutrition",
@@ -56726,7 +56732,8 @@
         }
       ],
       "top_category": "Protein",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": true
     },
     {
       "slug": "nootropics-depot",
@@ -56762,7 +56769,8 @@
         }
       ],
       "top_category": "Adaptogens",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "megafood-inc",
@@ -56798,7 +56806,8 @@
         }
       ],
       "top_category": "Magnesium",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": true
     },
     {
       "slug": "sports-research",
@@ -56834,7 +56843,8 @@
         }
       ],
       "top_category": "Herbal Extracts",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "bulksupplements",
@@ -56870,7 +56880,8 @@
         }
       ],
       "top_category": "Adaptogens",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "ritual",
@@ -56906,7 +56917,8 @@
         }
       ],
       "top_category": "Multivitamins",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": true
     },
     {
       "slug": "transparent-labs",
@@ -56942,7 +56954,8 @@
         }
       ],
       "top_category": "Adaptogens",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "megafood",
@@ -56978,7 +56991,8 @@
         }
       ],
       "top_category": "Multivitamins",
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "pure-encapsulations",
@@ -56992,7 +57006,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "life-extension",
@@ -57006,7 +57021,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "now-foods",
@@ -57020,7 +57036,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "jarrow-formulas",
@@ -57034,7 +57051,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "ag1",
@@ -57048,7 +57066,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "nordic-naturals",
@@ -57062,7 +57081,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "garden-of-life",
@@ -57076,7 +57096,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "nature-made",
@@ -57090,7 +57111,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "solgar",
@@ -57104,7 +57126,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "doctors-best",
@@ -57118,7 +57141,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "cymbiotika",
@@ -57132,7 +57156,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "natures-way",
@@ -57146,7 +57171,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "designs-for-health",
@@ -57160,7 +57186,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "metagenics",
@@ -57174,7 +57201,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "onnit",
@@ -57188,7 +57216,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "nutrafol",
@@ -57202,7 +57231,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "klean-athlete",
@@ -57216,7 +57246,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "standard-process",
@@ -57230,7 +57261,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "bulk-supplements",
@@ -57244,7 +57276,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     },
     {
       "slug": "country-life",
@@ -57258,7 +57291,8 @@
       "standout": null,
       "tags": [],
       "top_category": null,
-      "logo_url": null
+      "logo_url": null,
+      "provisional": false
     }
   ]
 }

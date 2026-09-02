@@ -70,6 +70,13 @@ export type BrandSummary = {
   score: number | null;
   grade: string | null;
   confidence?: "high" | "medium" | "low" | null;
+  /**
+   * True when the scorer does not stand behind this grade — confidence below
+   * 0.50, or too few products to judge a company by. Ritual and Optimum
+   * Nutrition are each graded on a SINGLE product. Render it as provisional;
+   * a grade built on one product is not a verdict about a brand.
+   */
+  provisional?: boolean | null;
   components?: BrandComponents | null;
   standout?: string | null;
   top_category?: string | null;
