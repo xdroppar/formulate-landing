@@ -7,6 +7,12 @@ export type ScoreComponent = {
   weight: number;
   raw_score: number;
   weighted_score: number;
+  /**
+   * Present only on GATE components (V3.23), which carry weight 0. The raw
+   * score must stay at or above this floor; below it, the shortfall is
+   * deducted from the total instead of the component contributing to it.
+   */
+  gate_floor?: number;
 };
 
 export type Ingredient = {

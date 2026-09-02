@@ -87,9 +87,24 @@ function ScoreBreakdown({ components }: { components: Product["score_components"
               <div className="flex items-baseline justify-between mb-1.5">
                 <div className="text-sm font-semibold text-text">
                   {c.name}
-                  <span className="ml-2 text-xs font-normal text-muted">
-                    weight {Math.round(c.weight * 100)}%
-                  </span>
+                  {/* A zero-weight component is a GATE (V3.23): it adds nothing
+                      and instead deducts when the score falls below its floor.
+                      Showing that as "weight 0%" reads as a bug. */}
+                  {c.gate_floor !== undefined && c.weight === 0 ? (
+                    <span
+                      className={`ml-2 text-xs font-normal ${
+                        c.raw_score < c.gate_floor ? "text-amber-500" : "text-muted"
+                      }`}
+                    >
+                      {c.raw_score < c.gate_floor
+                        ? `gate · below ${c.gate_floor}`
+                        : "gate · pass"}
+                    </span>
+                  ) : (
+                    <span className="ml-2 text-xs font-normal text-muted">
+                      weight {Math.round(c.weight * 100)}%
+                    </span>
+                  )}
                 </div>
                 <div className="text-sm font-bold" style={{ color }}>
                   {c.raw_score}
