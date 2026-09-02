@@ -38793,30 +38793,6 @@
           "bar_reference": "TR"
         },
         {
-          "name": "Copper",
-          "amount": 1,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": 111,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 75,
-          "bar_percent": 51.3,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Iron",
-          "amount": 330,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": 1833,
-          "dose_score": 70,
-          "dose_range_status": "over_limit",
-          "form_quality_score": 70,
-          "bar_percent": 1885.7,
-          "bar_reference": "TR"
-        },
-        {
           "name": "Magnesium",
           "amount": 180,
           "unit": "mg",
