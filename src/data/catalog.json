@@ -114,9 +114,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -132,9 +132,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 50,
-          "weighted_score": 10,
+          "weighted_score": 12.5,
           "explanations": [
             "No ingredient doses to evaluate"
           ],
@@ -144,7 +144,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 97,
           "weighted_score": 14.55,
           "explanations": [
@@ -157,9 +157,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -187,9 +187,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -268,9 +268,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 28.5,
           "explanations": [
             "All ingredients have Grade A evidence",
             "Evidence grades: A(1)"
@@ -285,9 +285,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: L-Theanine",
             "Reference coverage: 100%"
@@ -298,7 +298,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 97,
           "weighted_score": 14.55,
           "explanations": [
@@ -311,9 +311,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -325,7 +325,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 10.0,
           "explanations": [
             "Focused formula (1 ingredient)"
           ],
@@ -335,9 +335,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -413,9 +413,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -431,9 +431,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 50,
-          "weighted_score": 10,
+          "weighted_score": 12.5,
           "explanations": [
             "No ingredient doses to evaluate"
           ],
@@ -443,7 +443,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 70,
           "weighted_score": 10.5,
           "explanations": [
@@ -459,9 +459,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 50,
-          "weighted_score": 5,
+          "weighted_score": 7.5,
           "explanations": [
             "No doses provided"
           ],
@@ -475,7 +475,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 10.0,
           "explanations": [
             "Focused formula (1 ingredient)"
           ],
@@ -485,9 +485,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -566,9 +566,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -584,9 +584,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Organic Maca Extract (Lepidium meyenii) (Root)",
             "Reference coverage: 100%"
@@ -597,7 +597,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 94,
           "weighted_score": 14.1,
           "explanations": [
@@ -610,9 +610,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -624,7 +624,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 10.0,
           "explanations": [
             "Focused formula (1 ingredient)"
           ],
@@ -634,9 +634,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -715,9 +715,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -733,9 +733,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Rhodiola Extract (Rhodiola rosea) (Root) Standardized to contain 3% Salidrosides",
             "Reference coverage: 100%"
@@ -746,7 +746,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 91,
           "weighted_score": 13.65,
           "explanations": [
@@ -759,9 +759,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -789,9 +789,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -864,9 +864,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -879,9 +879,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Theobromine Powder",
             "Reference coverage: 100%"
@@ -892,7 +892,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 70,
           "weighted_score": 10.5,
           "explanations": [
@@ -908,9 +908,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -922,7 +922,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 10.0,
           "explanations": [
             "Focused formula (1 ingredient)"
           ],
@@ -932,9 +932,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 82,
-          "weighted_score": 16.4,
+          "weighted_score": 4.1,
           "explanations": [
             "Third-party testing verified",
             "Certifications: Third-party tested, GMP Certified"
@@ -4473,9 +4473,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -4488,9 +4488,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Boron (elemental) (from 50mg Boron Glycinate)",
             "Reference coverage: 100%"
@@ -4501,7 +4501,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 88,
           "weighted_score": 13.2,
           "explanations": [
@@ -4516,9 +4516,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -4530,7 +4530,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 10.0,
           "explanations": [
             "Focused formula (1 ingredient)"
           ],
@@ -4540,9 +4540,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 93,
-          "weighted_score": 18.6,
+          "weighted_score": 4.65,
           "explanations": [
             "Third-party testing verified",
             "COA (Certificate of Analysis) available",
@@ -4787,9 +4787,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -4805,9 +4805,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Cistanche tubulosa Extract (stem) (50% Echinacoside, 10% Acetoside)",
             "Reference coverage: 100%"
@@ -4818,7 +4818,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 70,
           "weighted_score": 10.5,
           "explanations": [
@@ -4834,9 +4834,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -4864,9 +4864,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 91,
-          "weighted_score": 18.2,
+          "weighted_score": 4.55,
           "explanations": [
             "Third-party testing verified",
             "COA (Certificate of Analysis) available",
@@ -6081,9 +6081,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 28.5,
           "explanations": [
             "All ingredients have Grade A evidence",
             "Evidence grades: A(1)"
@@ -6094,9 +6094,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 100,
-          "weighted_score": 20,
+          "weighted_score": 25.0,
           "explanations": [
             "Therapeutic: Shoden® Ashwagandha (Withania somnifera) Extract (root and leaf) (35% Withanolides)",
             "Reference coverage: 100%"
@@ -6107,9 +6107,9 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 15.0,
           "explanations": [
             "1 high: Shoden® Ashwagandha Extract",
             "Excellent form quality - premium bioavailable forms"
@@ -6120,9 +6120,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -6150,9 +6150,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 91,
-          "weighted_score": 18.2,
+          "weighted_score": 4.55,
           "explanations": [
             "Third-party testing verified",
             "COA (Certificate of Analysis) available",
@@ -6403,9 +6403,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "2 ingredients with Grade B evidence",
             "Evidence grades: B(2)"
@@ -6418,9 +6418,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "Optimal: Taurine 98%",
             "Reference coverage: 100%"
@@ -6431,9 +6431,9 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 15.0,
           "explanations": [
             "1 clinical: Taurine 98%",
             "Excellent form quality - premium bioavailable forms"
@@ -6444,9 +6444,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -6474,9 +6474,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 93,
-          "weighted_score": 18.6,
+          "weighted_score": 4.65,
           "explanations": [
             "Third-party testing verified",
             "COA (Certificate of Analysis) available",
@@ -10945,9 +10945,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 28.5,
           "explanations": [
             "All ingredients have Grade A evidence",
             "Evidence grades: A(1)"
@@ -10962,9 +10962,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 98,
-          "weighted_score": 19.6,
+          "weighted_score": 24.5,
           "explanations": [
             "28g protein per serving — strong dose for muscle synthesis"
           ],
@@ -10974,7 +10974,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 85,
           "weighted_score": 12.75,
           "explanations": [
@@ -10989,9 +10989,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -11021,9 +11021,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 84,
-          "weighted_score": 16.8,
+          "weighted_score": 4.2,
           "explanations": [
             "Third-party testing verified",
             "COA (Certificate of Analysis) available",
@@ -11541,9 +11541,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 85,
-          "weighted_score": 21.25,
+          "weighted_score": 25.5,
           "explanations": [
             "1 ingredients with Grade B evidence",
             "Evidence grades: B(1)"
@@ -11556,9 +11556,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 95,
-          "weighted_score": 19,
+          "weighted_score": 23.75,
           "explanations": [
             "22g protein per serving — strong dose for muscle synthesis"
           ],
@@ -11568,9 +11568,9 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 15.0,
           "explanations": [
             "1 clinical: Hydrolyzed Bovine Collagen Peptides",
             "Excellent form quality - premium bioavailable forms"
@@ -11581,9 +11581,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -11608,9 +11608,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 83,
-          "weighted_score": 16.6,
+          "weighted_score": 4.15,
           "explanations": [
             "Third-party testing verified",
             "FDA registered facility",
@@ -14769,9 +14769,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 87,
-          "weighted_score": 21.75,
+          "weighted_score": 26.1,
           "explanations": [
             "2 Grade A, 9 Grade B ingredients",
             "Evidence grades: A(2), B(9)"
@@ -14784,9 +14784,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 81,
-          "weighted_score": 16.2,
+          "weighted_score": 20.25,
           "explanations": [
             "Optimal: L-Lysine (as L-Lysine Chloride), L-Isoleucine, L-Valine, L-Threonine, L-Cystine (+1 more)",
             "Below RDA: L-Histidine, L-Phenylalanine, L-Methionine",
@@ -14807,7 +14807,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 93,
           "weighted_score": 13.95,
           "explanations": [
@@ -14821,9 +14821,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -14835,7 +14835,7 @@
           "name": "Safety/Redundancy",
           "weight": 0.1,
           "raw_score": 70,
-          "weighted_score": 7,
+          "weighted_score": 7.0,
           "explanations": [
             "DANGER: tyrosine + MAOIs — Hypertensive crisis (severe blood pressure spike)",
             "Drug interactions: Diabetes medications, SSRIs/SNRIs (Increased serotonin syndrome risk), Levodopa",
@@ -14854,9 +14854,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 90,
-          "weighted_score": 18,
+          "weighted_score": 4.5,
           "explanations": [
             "Premium certification standard",
             "Certifications: Third-party tested, NSF Certified, GMP Certified, NSF Certified for Sport"
@@ -15527,8 +15527,8 @@
       "category_tags": [
         "GI Support"
       ],
-      "score": 79,
-      "grade": "B+",
+      "score": 93,
+      "grade": "A+",
       "image_url": "/images/products/thorne/thorne-bacillus-coagulans-an-everyday-all-ages-probiotic-that-promotes-gi-function-and-bowel-regularity/primary.webp?v=b16c5140",
       "gallery_images": [
         "/images/products/thorne/thorne-bacillus-coagulans-an-everyday-all-ages-probiotic-that-promotes-gi-function-and-bowel-regularity/gallery_1.webp?v=fdb1d3f7",
@@ -15577,9 +15577,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 85,
-          "weighted_score": 25.5,
+          "weighted_score": 30.0,
           "explanations": [
             "Evidence grades: B(1)"
           ],
@@ -15589,9 +15589,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 27.94,
           "explanations": [
             "1 ingredient at optimal doses",
             "Reference coverage: 100%"
@@ -15602,9 +15602,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -15614,9 +15614,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -15626,9 +15626,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 90,
-          "weighted_score": 4.5,
+          "weighted_score": 5.29,
           "explanations": [
             "NSF Certified for Sport (premium)"
           ],
@@ -22042,9 +22042,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.25,
+          "weight": 0.3,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 28.5,
           "explanations": [
             "All ingredients have Grade A evidence",
             "Evidence grades: A(3)"
@@ -22057,9 +22057,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.2,
+          "weight": 0.25,
           "raw_score": 63,
-          "weighted_score": 12.6,
+          "weighted_score": 15.75,
           "explanations": [
             "Below RDA: Chloride (from Himalayan Pink Salt)",
             "Severely below: Potassium (as Potassium Citrate), Calcium (as Dicalcium Malate and Calcium Silicate), Magnesium (as DiMagnesium Malate)",
@@ -22078,7 +22078,7 @@
         },
         {
           "name": "Form/Bioavailability",
-          "weight": 0.2,
+          "weight": 0.15,
           "raw_score": 91,
           "weighted_score": 13.65,
           "explanations": [
@@ -22092,9 +22092,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.1,
+          "weight": 0.15,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 15.0,
           "explanations": [
             "Full disclosure - all doses labeled"
           ],
@@ -22121,9 +22121,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.1,
+          "weight": 0.05,
           "raw_score": 90,
-          "weighted_score": 18,
+          "weighted_score": 4.5,
           "explanations": [
             "Premium certification standard",
             "Certifications: Third-party tested, NSF Certified, GMP Certified, NSF Certified for Sport"
@@ -23100,8 +23100,8 @@
         "Sports Performance",
         "Gut Health"
       ],
-      "score": 75,
-      "grade": "B+",
+      "score": 89,
+      "grade": "A",
       "image_url": "/images/products/thorne/thorne-florasport-20b-the-four-unique-strains-in-florasport-20b-provide-20-billion-live-organisms-per-capsule/primary.webp?v=48a5502c",
       "gallery_images": [
         "/images/products/thorne/thorne-florasport-20b-the-four-unique-strains-in-florasport-20b-provide-20-billion-live-organisms-per-capsule/gallery_1.webp?v=91981939",
@@ -23184,9 +23184,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 74,
-          "weighted_score": 22.2,
+          "weighted_score": 26.12,
           "explanations": [
             "Evidence grades: B(1), C(3)",
             "1 ingredient without evidence data (scored as C)"
@@ -23197,9 +23197,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 27.94,
           "explanations": [
             "3 ingredients at optimal doses",
             "Reference coverage: 100%"
@@ -23210,9 +23210,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -23222,9 +23222,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -23234,9 +23234,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 90,
-          "weighted_score": 4.5,
+          "weighted_score": 5.29,
           "explanations": [
             "NSF Certified for Sport (premium)"
           ],
@@ -34950,8 +34950,8 @@
         "GI Support",
         "Gut Health"
       ],
-      "score": 68,
-      "grade": "B",
+      "score": 80,
+      "grade": "A-",
       "image_url": "/images/products/thorne/thorne-sacro-b-a-probiotic-yeast-that-supports-healthy-intestinal-flora-balance-and-mitigates-occasional-diarrhea/primary.webp?v=8b93eacc",
       "gallery_images": [
         "/images/products/thorne/thorne-sacro-b-a-probiotic-yeast-that-supports-healthy-intestinal-flora-balance-and-mitigates-occasional-diarrhea/gallery_1.webp?v=1cfa5e2d",
@@ -35000,9 +35000,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 100,
-          "weighted_score": 30,
+          "weighted_score": 35.3,
           "explanations": [
             "Evidence grades: A(1)"
           ],
@@ -35012,9 +35012,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 35,
-          "weighted_score": 8.75,
+          "weighted_score": 10.29,
           "explanations": [
             "1 undisclosed dose",
             "Reference coverage: 100%"
@@ -35025,9 +35025,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -35037,9 +35037,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -35049,9 +35049,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 90,
-          "weighted_score": 4.5,
+          "weighted_score": 5.29,
           "explanations": [
             "NSF Certified for Sport (premium)"
           ],
@@ -38557,8 +38557,8 @@
         "GI Support",
         "Gut Health"
       ],
-      "score": 68,
-      "grade": "B",
+      "score": 80,
+      "grade": "A-",
       "image_url": "/images/products/thorne/thorne-womens-daily-probiotic-take-control-of-your-health-with-a-daily-probiotic-designed-for-a-womans-unique-needs/primary.webp?v=00342bf7",
       "gallery_images": [
         "/images/products/thorne/thorne-womens-daily-probiotic-take-control-of-your-health-with-a-daily-probiotic-designed-for-a-womans-unique-needs/gallery_1.webp?v=20ac1d66",
@@ -38647,9 +38647,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 85,
-          "weighted_score": 25.5,
+          "weighted_score": 30.0,
           "explanations": [
             "Evidence grades: B(2)"
           ],
@@ -38659,9 +38659,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 50,
-          "weighted_score": 12.5,
+          "weighted_score": 14.7,
           "explanations": [
             "No ingredient doses to evaluate"
           ],
@@ -38671,9 +38671,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -38683,9 +38683,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -38695,9 +38695,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 92,
-          "weighted_score": 4.6,
+          "weighted_score": 5.41,
           "explanations": [
             "NSF Certified for Sport (premium)"
           ],
@@ -47876,8 +47876,8 @@
         "Immune Support",
         "Gut Health"
       ],
-      "score": 74,
-      "grade": "B+",
+      "score": 87,
+      "grade": "A",
       "image_url": "/images/products/thorne/thorne-floramend-prime-probiotic-an-everyday-probiotic-for-individuals-minding-their-gut-health-and-waistline/primary.webp?v=c8b32678",
       "gallery_images": [
         "/images/products/thorne/thorne-floramend-prime-probiotic-an-everyday-probiotic-for-individuals-minding-their-gut-health-and-waistline/gallery_1.webp?v=cef1ebaf",
@@ -47961,9 +47961,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 70,
-          "weighted_score": 21,
+          "weighted_score": 24.71,
           "explanations": [
             "Evidence grades: C(3)"
           ],
@@ -47973,9 +47973,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 27.94,
           "explanations": [
             "1 ingredient at optimal doses",
             "Reference coverage: 100%"
@@ -47986,9 +47986,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -47998,9 +47998,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -48010,9 +48010,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 92,
-          "weighted_score": 4.6,
+          "weighted_score": 5.41,
           "explanations": [
             "NSF Certified for Sport (premium)"
           ],
@@ -50341,8 +50341,8 @@
         "Gut Health",
         "Heart Health"
       ],
-      "score": 78,
-      "grade": "B+",
+      "score": 92,
+      "grade": "A",
       "image_url": "/images/products/seed/seed-seed-ds-01-daily-synbiotic-probiotic-best-price-available/primary.webp?v=31c93f33",
       "gallery_images": [
         "/images/products/seed/seed-seed-ds-01-daily-synbiotic-probiotic-best-price-available/gallery_1.webp?v=672f524c",
@@ -50432,9 +50432,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 85,
-          "weighted_score": 25.5,
+          "weighted_score": 30.0,
           "explanations": [
             "Evidence grades: B(1)"
           ],
@@ -50444,9 +50444,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 95,
-          "weighted_score": 23.75,
+          "weighted_score": 27.94,
           "explanations": [
             "1 ingredient at optimal doses",
             "Reference coverage: 100%"
@@ -50457,9 +50457,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -50469,9 +50469,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -50481,9 +50481,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 80,
-          "weighted_score": 4,
+          "weighted_score": 4.7,
           "explanations": [
             "Third-party tested"
           ],
@@ -51635,8 +51635,8 @@
       "category_tags": [
         "Gut Health"
       ],
-      "score": 64,
-      "grade": "B-",
+      "score": 76,
+      "grade": "B+",
       "image_url": "/images/products/seed/seed-vs-01-vaginal-synbiotic/primary.webp?v=d9d44211",
       "gallery_images": [
         "/images/products/seed/seed-vs-01-vaginal-synbiotic/gallery_1.webp?v=0c68e716",
@@ -51695,9 +51695,9 @@
       "score_components": [
         {
           "name": "Evidence Quality",
-          "weight": 0.3,
+          "weight": 0.353,
           "raw_score": 85,
-          "weighted_score": 25.5,
+          "weighted_score": 30.0,
           "explanations": [
             "Evidence grades: B(3)"
           ],
@@ -51707,9 +51707,9 @@
         },
         {
           "name": "Dose Adequacy",
-          "weight": 0.25,
+          "weight": 0.2941,
           "raw_score": 35,
-          "weighted_score": 8.75,
+          "weighted_score": 10.29,
           "explanations": [
             "3 undisclosed doses",
             "Reference coverage: 100%"
@@ -51720,9 +51720,9 @@
         },
         {
           "name": "Transparency",
-          "weight": 0.15,
+          "weight": 0.1765,
           "raw_score": 100,
-          "weighted_score": 15,
+          "weighted_score": 17.65,
           "explanations": [
             "Label transparency: full"
           ],
@@ -51732,9 +51732,9 @@
         },
         {
           "name": "Safety/Redundancy",
-          "weight": 0.1,
+          "weight": 0.1176,
           "raw_score": 100,
-          "weighted_score": 10,
+          "weighted_score": 11.76,
           "explanations": [
             "Probiotic formula - Generally Recognized As Safe (GRAS)"
           ],
@@ -51744,9 +51744,9 @@
         },
         {
           "name": "Manufacturing Quality",
-          "weight": 0.05,
+          "weight": 0.0588,
           "raw_score": 100,
-          "weighted_score": 5,
+          "weighted_score": 5.88,
           "explanations": [
             "Clinical grade manufacturing standards"
           ],
