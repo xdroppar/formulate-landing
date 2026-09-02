@@ -56625,15 +56625,15 @@
       "name": "Nutricost",
       "product_count": 57,
       "avg_score": 93,
-      "score": 80,
-      "grade": "B-",
+      "score": 83,
+      "grade": "B",
       "confidence": "high",
       "components": {
-        "integrity": 90,
-        "product_quality": 97,
+        "integrity": 91,
+        "product_quality": 100,
         "innovation": 22,
-        "transparency": 88,
-        "verification": 74
+        "transparency": 96,
+        "verification": 81
       },
       "standout": null,
       "tags": [
@@ -56733,15 +56733,15 @@
       "name": "Nootropics Depot",
       "product_count": 67,
       "avg_score": 84,
-      "score": 77,
-      "grade": "C+",
+      "score": 82,
+      "grade": "B-",
       "confidence": "high",
       "components": {
-        "integrity": 81,
-        "product_quality": 99,
+        "integrity": 90,
+        "product_quality": 98,
         "innovation": 36,
-        "transparency": 70,
-        "verification": 68
+        "transparency": 78,
+        "verification": 76
       },
       "standout": null,
       "tags": [
@@ -56805,15 +56805,15 @@
       "name": "Sports Research",
       "product_count": 5,
       "avg_score": 83,
-      "score": 75,
-      "grade": "C",
+      "score": 82,
+      "grade": "B-",
       "confidence": "high",
       "components": {
-        "integrity": 84,
-        "product_quality": 91,
+        "integrity": 90,
+        "product_quality": 99,
         "innovation": 31,
-        "transparency": 76,
-        "verification": 62
+        "transparency": 84,
+        "verification": 74
       },
       "standout": null,
       "tags": [
@@ -56913,15 +56913,15 @@
       "name": "Transparent Labs",
       "product_count": 29,
       "avg_score": 91,
-      "score": 65,
-      "grade": "D",
+      "score": 82,
+      "grade": "B-",
       "confidence": "high",
       "components": {
-        "integrity": 59,
-        "product_quality": 89,
+        "integrity": 91,
+        "product_quality": 93,
         "innovation": 55,
-        "transparency": 50,
-        "verification": 47
+        "transparency": 58,
+        "verification": 87
       },
       "standout": null,
       "tags": [
@@ -56949,15 +56949,15 @@
       "name": "MegaFood",
       "product_count": 5,
       "avg_score": 78,
-      "score": 58,
-      "grade": "F",
+      "score": 78,
+      "grade": "C+",
       "confidence": "high",
       "components": {
-        "integrity": 50,
+        "integrity": 90,
         "product_quality": 86,
-        "innovation": 10,
-        "transparency": 88,
-        "verification": 40
+        "innovation": 25,
+        "transparency": 96,
+        "verification": 73
       },
       "standout": null,
       "tags": [
