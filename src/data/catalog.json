@@ -971,7 +971,7 @@
         "Immune Support",
         "Healthy Aging"
       ],
-      "score": 72,
+      "score": 81,
       "grade": "B",
       "image_url": "/images/products/complement/complement-complement-sulfora-evidence-based-sulforaphane-formula/primary.webp?v=e75be21a",
       "gallery_images": [
@@ -1106,11 +1106,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 87,
-          "weighted_score": 34.8,
+          "raw_score": 89,
+          "weighted_score": 35.6,
           "explanations": [
-            "1 Grade A, 7 Grade B ingredients",
-            "Evidence grades: A(1), B(7)"
+            "3 Grade A, 5 Grade B ingredients",
+            "Evidence grades: A(3), B(5)"
           ],
           "improvements": [],
           "issues": [],
@@ -1119,13 +1119,13 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 44,
-          "weighted_score": 15.4,
+          "raw_score": 67,
+          "weighted_score": 23.45,
           "explanations": [
-            "1 ingredient at optimal doses",
+            "4 ingredients at optimal doses",
             "2 ingredients below recommended dose",
             "1 ingredient severely below recommended dose",
-            "Reference coverage: 88%"
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -1138,8 +1138,8 @@
           "weighted_score": 22.0,
           "explanations": [
             "1 clinical: TrueeBroc® Broccoli Seed Ex...",
-            "6 high: Quercetin, Kale, Vitamin C +3 more",
-            "1 good: White Mustard Seed Powder",
+            "6 good: Quercetin, Kale, Vitamin C +3 more",
+            "1 basic: White Mustard Seed Powder",
             "Absorption enhancer: Black Pepper Fruit Extract (+5)",
             "Good form quality - mostly bioavailable forms"
           ],
@@ -1157,8 +1157,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -1170,22 +1169,21 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 85,
+          "raw_score": 89,
           "weighted_score": 0.0,
           "explanations": [
             "Third-party tested",
+            "COA available",
             "FDA registered"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -1214,7 +1212,7 @@
         "Foundational",
         "Heart Health"
       ],
-      "score": 87,
+      "score": 86,
       "grade": "A",
       "image_url": "/images/products/complement/complement-complement-essential-the-best-vegan-multivitamin-for-plant-based-eaters/primary.webp?v=e7271c8a",
       "gallery_images": [
@@ -1429,8 +1427,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 96,
-          "weighted_score": 38.4,
+          "raw_score": 92,
+          "weighted_score": 36.8,
           "explanations": [
             "11 Grade A, 4 Grade B ingredients",
             "Evidence grades: A(11), B(4)"
@@ -1462,8 +1460,8 @@
           "weighted_score": 22.0,
           "explanations": [
             "5 clinical: Selenium, Vitamin D3, Vitamin K2 +2 more",
-            "8 high: Algal Oil, Magnesium, DHA +5 more",
-            "2 good: Iodine, Omega 6 Fatty Acids",
+            "8 good: Algal Oil, Magnesium, DHA +5 more",
+            "2 basic: Iodine, Omega 6 Fatty Acids",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -1480,8 +1478,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -1493,21 +1490,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 82,
+          "raw_score": 86,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -1520,7 +1516,7 @@
       "url": "https://lovecomplement.com/products/complement-essential-vegan-multivitamin",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 0.75,
+      "score_gate_penalty": 0.0,
       "score_version": "3.23"
     },
     {
@@ -3376,7 +3372,7 @@
         "Stress",
         "Heart Health"
       ],
-      "score": 93,
+      "score": 91,
       "grade": "A+",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-ashwagandha-extract-powder-minimum-9-withanolides/primary.webp?v=0b35d893",
       "gallery_images": [
@@ -3421,8 +3417,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(1)"
           ],
@@ -3449,7 +3445,7 @@
           "raw_score": 80,
           "weighted_score": 20.0,
           "explanations": [
-            "1 high: Withania somnifera Extract",
+            "1 good: Withania somnifera Extract",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -3466,8 +3462,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -3479,8 +3474,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -3495,8 +3489,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -4729,7 +4722,7 @@
       "category_tags": [
         "Stress"
       ],
-      "score": 88,
+      "score": 92,
       "grade": "A",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-bacopa-monnieri-tablets-24-bacosides/primary.webp?v=ab777af1",
       "gallery_images": [
@@ -4782,10 +4775,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
-            "Evidence grades: B(1)"
+            "Evidence grades: A(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -4810,7 +4803,7 @@
           "raw_score": 85,
           "weighted_score": 21.25,
           "explanations": [
-            "1 high: Bacopa monnieri Extract",
+            "1 good: Bacopa monnieri Extract",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -4827,8 +4820,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -4840,8 +4832,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -4856,8 +4847,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -6103,7 +6093,7 @@
         "Bone Support",
         "Energy"
       ],
-      "score": 82,
+      "score": 80,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-micromag-capsules-sucrosomial-magnesium/primary.webp?v=8ba3274d",
       "gallery_images": [
@@ -6157,8 +6147,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(1)"
           ],
@@ -6185,7 +6175,7 @@
           "raw_score": 70,
           "weighted_score": 17.5,
           "explanations": [
-            "1 good: Magnesium",
+            "1 basic: Magnesium",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -6202,8 +6192,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -6215,8 +6204,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -6231,8 +6219,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -6413,7 +6400,7 @@
         "Energy",
         "Mood"
       ],
-      "score": 47,
+      "score": 78,
       "grade": "C",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-sabroxy-tablets-10-oroxylin-a/primary.webp?v=957118de",
       "gallery_images": [
@@ -6462,11 +6449,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 70,
-          "weighted_score": 28.0,
+          "raw_score": 65,
+          "weighted_score": 26.0,
           "explanations": [
-            "Evidence grades: C(1)",
-            "1 ingredient without evidence data (scored as C)"
+            "Evidence grades: D(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -6475,9 +6461,10 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 0,
-          "weighted_score": 0.0,
+          "raw_score": 95,
+          "weighted_score": 33.25,
           "explanations": [
+            "1 ingredient at optimal doses",
             "Reference coverage: 100%"
           ],
           "improvements": [],
@@ -6506,8 +6493,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -6519,8 +6505,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -6535,8 +6520,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -7122,7 +7106,7 @@
           "raw_score": 85,
           "weighted_score": 21.25,
           "explanations": [
-            "1 high: Tongkat Ali Extract",
+            "1 good: Tongkat Ali Extract",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -7139,8 +7123,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -7152,8 +7135,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -7168,8 +7150,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -26739,7 +26720,7 @@
         "GI Support",
         "Liver Support"
       ],
-      "score": null,
+      "score": 77,
       "grade": null,
       "image_url": "/images/products/thorne/thorne-fibermend/primary.webp?v=92dce4f0",
       "gallery_images": [
@@ -26864,7 +26845,89 @@
         "Made in USA",
         "GMP"
       ],
-      "score_components": [],
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
+          "explanations": [
+            "3 Grade A, 2 Grade B ingredients",
+            "Evidence grades: A(3), B(2)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "1 ingredient below recommended dose",
+            "2 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 93,
+          "weighted_score": 23.25,
+          "explanations": [
+            "2 clinical: Green Tea Phytosome FTT, Partially Hydrolyzed Guar Gum",
+            "3 good: Rice Bran, Pectin, Arabinogalactan",
+            "Absorption enhancer: Green Tea Phytosome Ftt (+5)",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (5 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 96,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
       "explanation": null,
       "overview": "Get a healthy dose of prebiotic fiber for GI wellness and to grow good bacteria in your gut* Keep your gut healthy and in balance with FiberMend, a soluble prebiotic fiber that helps maintain healthy blood sugar levels, promotes regularity, and supports optimal digestive function.*",
       "description": "FiberMend is a well-tolerated prebiotic fiber formula that stimulates the growth of beneficial bacteria in the GI tract to support a healthy digestive system and balanced GI microbiota.* This soluble fiber blend produces little to no bloating, cramping or gas.*\n\n**Key Benefits:**\n• Enhances satiety to keep you feeling fuller, longer*\n• Helps maintain healthy blood sugar levels*\n• Promotes regularity and optimal digestive function*\n• Well tolerated with no bloating, cramping, or gas production*\n• Supports healthy prebiotic activity through powerful antioxidants*\n• Possesses important properties that benefit immune function*\n\n**Easy to Use:**\n• Mixes easily in water or a preferred beverage\n• Flavorless and odorless for easy addition to foods/beverages\n• Doesn't contain sweeteners\n• Can be used daily\n• Doesn't change the flavor of products to which it is added\n\n**Superior Formula:**\n• Combines Sunfiber (partially hydrolyzed guar gum fiber) with rice bran, larch arabinogalactan, apple pectin, and green tea phytosome\n• Features hydrolyzed guar gum fiber that dissolves more readily and improves digestibility without sacrificing fiber content\n• Contains green tea phytosome, a highly absorbable complex of green tea polyphenols and phospholipids\n• Plant-based, water-soluble fiber blend\n• Guar gum is derived from the seeds of the guar plant as a water-soluble carbohydrate\n\n**Quality Assurance:**\n• Third-party tested and certified to verify package contents match label claims\n• Confirmed to contain no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms",
@@ -26874,7 +26937,9 @@
       "iherb_url": "https://www.iherb.com/pr/thorne-fibermend-prebiotic-11-6-oz-330-g/71894",
       "url": "https://www.thorne.com/products/dp/fibermend-trade",
       "is_draft": false,
-      "variants": []
+      "variants": [],
+      "score_version": "3.23",
+      "score_gate_penalty": 0.0
     },
     {
       "id": "product:thorne-floramend-prime-probiotic",
@@ -26888,7 +26953,7 @@
         "Metabolism",
         "Immune Support"
       ],
-      "score": null,
+      "score": 84,
       "grade": null,
       "image_url": "/images/products/thorne/thorne-floramend-prime-probiotic/primary.webp?v=c8b32678",
       "gallery_images": [
@@ -26970,7 +27035,71 @@
         "Thorne Verified",
         "GMP"
       ],
-      "score_components": [],
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.5333,
+          "raw_score": 75,
+          "weighted_score": 39.9975,
+          "explanations": [
+            "Evidence grades: C(3)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.4667,
+          "raw_score": 95,
+          "weighted_score": 44.3365,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Probiotic formula - Generally Recognized As Safe (GRAS)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 96,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
       "explanation": null,
       "overview": "An everyday probiotic for individuals minding their gut health and waistline. The proprietary blend in FloraMend Prime Probiotic offers support for gut and immune health with the added benefit of clinically studied support for weight management.*",
       "description": "FloraMend Prime Probiotic® Details\n\nA healthy gut is key to overall wellness. Digestive health, immune function, and the state of your mood are dependent on the health of your gut and its microbiome. Support your gut health and much more with Thorne's FloraMend Prime Probiotic.* FloraMend offers benefits for occasional digestive upset, nutritional support for a challenged immune system, and balanced gut flora for healthy neurotransmitter production – important for a positive mood and healthy outlook.* A unique benefit of FloraMend Prime Probiotic is the research on this proprietary blend's benefit for weight management.*\n\nWho can benefit from FloraMend Prime Probiotic?\n• Individuals wanting to improve weight management, waist circumference, or body mass index (BMI)*\n• An individual experiencing occasional diarrhea, constipation, or both*\n• Anyone looking to support their immune function, including individuals suffering from a seasonal allergy*\n• Everyone! Anyone can benefit from a healthy balance of gut flora*\n\nWhat makes FloraMend Prime Probiotic different?\n\nClinically studied for weight management\n\nMost probiotics will support balanced gut flora, digestive function, and a healthy immune response. But FloraMend Prime Probiotic's proprietary blend boasts the added benefit of proven weight management support.* A study on the ingredients in FloraMend showed a nearly 5-percent average reduction in visceral and subcutaneous body fat with correlating positive effects on body weight, waist circumference, and BMI.*\n\nActivity where it matters most in the gut\n\nProbiotic supplements, by definition, contain live bacteria. These bacteria can be sensitive to the acid in your stomach, which can damage the bacteria before it gets to where it matters most – your lower GI tract. FloraMend Prime Probiotic is delivered in an acid-resistant and moisture-resistant capsule, which ensures that the live bacteria will make it past your stomach and into your lower GI tract, where it belongs.*\n\nNo refrigeration needed\n\nThe proprietary strains in FloraMend are stable at room temperature. FloraMend delivers the five billion live cells stated on the label up to the date of expiration. This makes FloraMend a great probiotic option for travel, the office, or simply keeping it from getting lost in the fridge.\n\nCurious about your individual gut balance and how to improve your health by balancing your gut microbiome? Take Thorne's Gut Health Test for detailed analysis, personalized recommendations, and insights into how you can adjust your lifestyle to optimize your wellness from the inside out.",
@@ -26980,7 +27109,9 @@
       "iherb_url": "https://www.iherb.com/pr/thorne-floramend-prime-probiotic-30-capsules/41208",
       "url": "https://www.thorne.com/products/dp/floramend-prime-probiotic",
       "is_draft": false,
-      "variants": []
+      "variants": [],
+      "score_version": "3.23",
+      "score_gate_penalty": 0.0
     },
     {
       "id": "product:thorne_florasport-20b-the-four-unique-strains-in-florasport-20b-provide-20-billion-live-organisms-per-capsule",
@@ -33944,7 +34075,7 @@
         "Heart Health",
         "Methylation"
       ],
-      "score": null,
+      "score": 91,
       "grade": null,
       "image_url": "/images/products/thorne/thorne-methyl-guard-plus/primary.webp?v=b6abdb9b",
       "gallery_images": [
@@ -34036,7 +34167,87 @@
         "Thorne Verified",
         "GMP"
       ],
-      "score_components": [],
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 92,
+          "weighted_score": 36.8,
+          "explanations": [
+            "3 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(3), B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "5 ingredients at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "2 clinical: Betaine Anhydrous, Vitamin B12",
+            "1 good: Riboflavin",
+            "2 basic: Vitamin B6, Folate",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (5 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 96,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
       "explanation": null,
       "overview": "Support cellular energy production, heart health, brain function, and mood with nutrients that optimize methylation* Methyl-Guard Plus provides superior methyl donors – trimethylglycine, 5-MTHF, and methylcobalamin – combined with bioactive vitamins B2 and B6 in a powerhouse formula for whole-body methylation support.*",
       "description": "Methyl-Guard Plus® Details\n\nVarious conditions and stressors can have an adverse impact on the body's methylation cycle. Nutrient deficiencies, environmental exposures, and other aspects of a modern lifestyle can cause inefficient methylation. In addition, approximately 60 percent of U.S. adults have a genetic variation that makes it difficult for their methylation cycle to function optimally.\n\nThorne's Methyl-Guard Plus features betaine (trimethylglycine), methylated vitamin B12 (methylcobalamin) and folate (5-MTHF), as well as the active forms of vitamins B2 and B6, for providing efficient nutritional support for the body's methylation challenges.*\n\nBenefits of Thorne's Methyl-Guard Plus\n\n• Nutritional support for individuals who have MTHFR gene variations*\n• Enhanced cellular energy production fights occasional fatigue*\n• Helps maintain a healthy homocysteine level in the blood, which supports cardiovascular, cognitive, and bone health*\n• Promotes fat metabolism and lean body composition*\n• Supports neurotransmitter production – natural chemicals that play an important role in nervous system functions, like attention, focus, mood, and sleep*\n• Promotes liver detoxification of many substances, including hormones like estrogen*\n\nWhy is methylation important?\n\nMethylation is a simple reaction where a small molecule known as a \"methyl group\" is transferred from one substance to another. Methylation significantly impacts many biochemical reactions in the body and plays a beneficial role in:\n\n• Cardiovascular health\n• Cellular energy production\n• Fat metabolism\n• Neurological function\n• DNA production\n• Liver detoxification processes\n• Eye health\n• Histamine balance\n\nWho can benefit from Thorne's Methyl-Guard Plus\n\n• Individuals with variations to MTHFR and other genes that adversely affect methylation*\n• Aging individuals wanting to support their cardiovascular, cognitive, and metabolic health*\n• Women seeking support for estrogen metabolism and bone health*\n• Individuals wanting nutritional support for fat metabolism and maintenance of a healthy body composition*\n• Anyone with limited consumption of methylation-supportive foods like green leafy vegetables, legumes, and cruciferous vegetables\n\nFeatures of Thorne's Methyl-Guard Plus\n\n• Betaine, also known as trimethylglycine, is a superior methyl donor\n• The methylated forms of vitamin B12 (methylcobalamin) and folate (5-MTHF) benefit individuals with certain gene mutations*\n• Active forms of vitamins B2 and B6 – key cofactors in methylation processes\n• B vitamins in their active, tissue-ready forms means your body gets the greatest benefit with the least additional work*\n• Robust methylation support in fewer capsules per day than Thorne's original Methyl-Guard®",
@@ -34046,7 +34257,9 @@
       "iherb_url": "https://www.iherb.com/pr/thorne-methyl-guard-plus-90-capsules/33646",
       "url": "https://www.thorne.com/products/dp/methyl-guard-plus-reg",
       "is_draft": false,
-      "variants": []
+      "variants": [],
+      "score_version": "3.23",
+      "score_gate_penalty": 0.0
     },
     {
       "id": "product:thorne_methyl-guard-supports-methylation-for-healthy-heart-blood-vessels-brain-and-bones",
@@ -38357,7 +38570,7 @@
         "Healthy Aging",
         "Metabolism"
       ],
-      "score": null,
+      "score": 85,
       "grade": null,
       "image_url": "/images/products/thorne/thorne-resveracel/primary.webp?v=fde4f722",
       "gallery_images": [
@@ -38440,7 +38653,87 @@
         "Thorne Verified",
         "GMP"
       ],
-      "score_components": [],
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(4)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 75,
+          "weighted_score": 26.25,
+          "explanations": [
+            "2 ingredients at optimal doses",
+            "1 ingredient below recommended dose",
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 100,
+          "weighted_score": 25.0,
+          "explanations": [
+            "4 clinical: Betaine Anhydrous, Nicotinamide Riboside Hydro..., Quercetin Phytosome +1 more",
+            "Absorption enhancer: Quercetin Phytosome (+5)",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (4 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 96,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
       "explanation": null,
       "overview": "Target the effects of aging from the inside out* ResveraCel features nicotinamide riboside with a supporting cast of three complementary ingredients that support your body's natural aging process and cellular metabolism.*",
       "description": "Thorne's ResveraCel supports cellular repair, up-regulates the sirtuin proteins, enhances NAD+ production, and benefits the cellular energy production that takes place in the mitochondria – thus supporting the process of healthy aging.* Adding ResveraCel to your daily supplement regimen can make a positive impact on aging and support good health as you get older.*\n\n**Benefits of Thorne's ResveraCel:**\n• Supports healthy cellular aging*\n• Natural activator of the sirtuin proteins, an important class of protein enzymes that act as cellular switches to up-regulate numerous positive functions associated with aging*\n• Helps clean the body of old cells, by assisting with the elimination of aging cells (inactive, senescent)*\n• Supports optimal mitochondrial number, structure, and function*\n• Supports healthy methylation*\n• Enhances cellular energy production*\n• Promotes healthy metabolism as you age*\n• Benefits healthy blood sugar and insulin sensitivity*\n• Supports fat metabolism in the liver*\n\n**Key Ingredients and Their Benefits:**\n\n**Nicotinamide Riboside Hydrogen Malate (NR):**\n• Direct precursor to NAD+, which declines significantly with age\n• Efficiently stimulates the production of NAD+*\n• Promotes multiple aspects of healthy aging*\n• Supports cellular repair processes*\n• Protects against DNA damage and oxidative stress*\n• Promotes exercise efficiency, helping to support health and fitness goals*\n• Helps maintain an optimal state of health*\n• Promotes the number and health of the mitochondria in cells, benefiting mitochondrial metabolism*\n• Supports normal circadian rhythm function*\n\n**Resveratrol:**\n• Supports the body's normal inflammatory response and its health-promoting effect on blood vessels*\n• Activates sirtuin proteins that up-regulate cellular aging, immune response, detoxification, stress resistance, fat and glucose metabolism, circadian rhythm, and mitochondrial biogenesis*\n• Supports the formation of new mitochondria in the cells, which results in more efficient cellular energy production and possibly increased longevity*\n\n**Quercetin Phytosome:**\n• One of only two nutrients that have been studied for its ability to reduce cellular senescence*\n• Partners with resveratrol in the body to slow aging because it allows resveratrol more time to do its job*\n• Up-regulates the sirtuin proteins, which are associated with healthy cellular aging and improved weight-related metabolic factors*\n\n**Betaine:**\n• Superior nutrient for donating methyl groups – compounds that help produce healthy DNA, neurotransmitters, and cellular energy*\n• In female athletes, research indicates that betaine promotes lean body composition by helping to reduce body fat without negatively affecting muscle mass*\n• Supports the body's ability to engage in higher volume exercise – increased repetitions and weight load in male athletes and improved high volume work capacity in female athletes*\n\n**Quality Assurance:**\n• Third-party tested and certified to verify what's in the package matches what's on the label\n• Confirmed to contain no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms",
@@ -38450,7 +38743,9 @@
       "iherb_url": "https://www.iherb.com/pr/thorne-resveracel-60-capsules/109407",
       "url": "https://www.thorne.com/products/dp/resveracel",
       "is_draft": false,
-      "variants": []
+      "variants": [],
+      "score_version": "3.23",
+      "score_gate_penalty": 0.0
     },
     {
       "id": "product:thorne-resveratrol-complex-formerly-polyresveratrol-sr-a-unique-blend-of-antioxidant-nutrients-for-supporti",
@@ -45719,7 +46014,7 @@
         "Cognition",
         "Heart Health"
       ],
-      "score": 82,
+      "score": 84,
       "grade": "A-",
       "image_url": "/images/products/transparent-labs/transparent-labs-omega-3-supplement-3-000-mg/primary.webp?v=ab8ff150",
       "gallery_images": [
@@ -45787,8 +46082,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(3)"
           ],
@@ -45799,11 +46094,12 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 60,
-          "weighted_score": 21.0,
+          "raw_score": 71,
+          "weighted_score": 24.85,
           "explanations": [
+            "2 ingredients at optimal doses",
             "WARNING: 1 ingredient exceeds upper limit",
-            "Reference coverage: 33%"
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -45815,7 +46111,7 @@
           "raw_score": 85,
           "weighted_score": 21.25,
           "explanations": [
-            "3 high: VivoMega™ 2050 TG Premium F..., Eicosapentaenoic Acid, Docosahexaenoic Acid",
+            "3 good: VivoMega™ 2050 TG Premium F..., Eicosapentaenoic Acid, Docosahexaenoic Acid",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -45828,12 +46124,12 @@
           "raw_score": 100,
           "weighted_score": 0.0,
           "explanations": [
-            "Label transparency: full"
+            "Label transparency: full",
+            "High brand transparency (80%)"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -45845,21 +46141,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 90,
+          "raw_score": 94,
           "weighted_score": 0.0,
           "explanations": [
-            "NSF Certified for Sport (premium)"
+            "NSF Certified for Sport (premium)",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -46235,7 +46530,7 @@
         "Healthy Aging",
         "Liver Support"
       ],
-      "score": 88,
+      "score": 90,
       "grade": "A",
       "image_url": "/images/products/transparent-labs/transparent-labs-transparent-labs-bulk-pre-workout/primary.webp?v=aee6d51a",
       "gallery_images": [],
@@ -46466,12 +46761,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 86,
-          "weighted_score": 34.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
           "explanations": [
-            "6 Grade A, 5 Grade B ingredients",
-            "Evidence grades: A(6), B(5), C(5)",
-            "5 ingredients without evidence data (scored as C)"
+            "10 Grade A, 6 Grade B ingredients",
+            "Evidence grades: A(10), B(6)"
           ],
           "improvements": [],
           "issues": [],
@@ -46480,14 +46774,14 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 86,
-          "weighted_score": 30.1,
+          "raw_score": 84,
+          "weighted_score": 29.4,
           "explanations": [
             "11 ingredients at optimal doses",
             "1 ingredient at therapeutic doses",
-            "1 ingredient below recommended dose",
+            "2 ingredients below recommended dose",
             "1 ingredient severely below recommended dose",
-            "Reference coverage: 88%"
+            "Reference coverage: 94%"
           ],
           "improvements": [],
           "issues": [],
@@ -46500,8 +46794,8 @@
           "weighted_score": 24.0,
           "explanations": [
             "7 clinical: AlphaSize® 50% Alpha-Glycer..., Betaine Anhydrous, Citrulline Malate 2:1 +4 more",
-            "7 high: Senactiv®, Beta-Alanine, Bioperine® +4 more",
-            "1 good: Zinc",
+            "7 good: Senactiv®, Beta-Alanine, Bioperine® +4 more",
+            "1 basic: Zinc",
             "Absorption enhancer: Senactiv®, Bioperine® (+5)",
             "Excellent form quality - premium bioavailable forms"
           ],
@@ -46515,12 +46809,12 @@
           "raw_score": 100,
           "weighted_score": 0.0,
           "explanations": [
-            "Label transparency: full"
+            "Label transparency: full",
+            "High brand transparency (80%)"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -46532,21 +46826,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 90,
+          "raw_score": 94,
           "weighted_score": 0.0,
           "explanations": [
-            "NSF Certified for Sport (premium)"
+            "NSF Certified for Sport (premium)",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -46572,7 +46865,7 @@
       "category_tags": [
         "Bone Support"
       ],
-      "score": 98,
+      "score": 96,
       "grade": "A+",
       "image_url": "/images/products/transparent-labs/transparent-labs-transparent-labs-magnesium-bisglycinate-capsules-300mg/primary.webp?v=54cc4de9",
       "gallery_images": [
@@ -46611,8 +46904,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(1)"
           ],
@@ -46652,12 +46945,12 @@
           "raw_score": 100,
           "weighted_score": 0.0,
           "explanations": [
-            "Label transparency: full"
+            "Label transparency: full",
+            "High brand transparency (80%)"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -46669,21 +46962,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 90,
+          "raw_score": 94,
           "weighted_score": 0.0,
           "explanations": [
-            "NSF Certified for Sport (premium)"
+            "NSF Certified for Sport (premium)",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -47030,7 +47322,7 @@
         "Muscle",
         "Weight Management"
       ],
-      "score": 81,
+      "score": 79,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-4-dma-78-dhf-capsules-eutropoflavin/primary.webp?v=46683709",
       "gallery_images": [
@@ -47080,10 +47372,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 70,
-          "weighted_score": 28.0,
+          "raw_score": 65,
+          "weighted_score": 26.0,
           "explanations": [
-            "Evidence grades: C(1)"
+            "Evidence grades: D(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -47108,7 +47400,7 @@
           "raw_score": 80,
           "weighted_score": 20.0,
           "explanations": [
-            "2 high: 4'-Dimethylamino-7, 8-dihydr...",
+            "1 good: 4'-Dimethylamino-7,8-dihydr...",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -47125,8 +47417,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -47138,8 +47429,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -47154,8 +47444,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -47351,7 +47640,7 @@
         "Liver Support",
         "Weight Management"
       ],
-      "score": 80,
+      "score": 78,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-78-dhf-powder-dihydroxyflavone/primary.webp?v=e32b9830",
       "gallery_images": [
@@ -47398,10 +47687,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 70,
-          "weighted_score": 28.0,
+          "raw_score": 65,
+          "weighted_score": 26.0,
           "explanations": [
-            "Evidence grades: C(1)"
+            "Evidence grades: D(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -47426,7 +47715,7 @@
           "raw_score": 75,
           "weighted_score": 18.75,
           "explanations": [
-            "2 good: 7, 8-Dihydroxyflavone",
+            "1 basic: 7,8-Dihydroxyflavone",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -47443,8 +47732,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -47456,8 +47744,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -47472,8 +47759,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -47502,7 +47788,7 @@
         "Liver Support",
         "Weight Management"
       ],
-      "score": 80,
+      "score": 78,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-78-dhf-capsules-dihydroxyflavone/primary.webp?v=c132b1b2",
       "gallery_images": [
@@ -47553,10 +47839,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 70,
-          "weighted_score": 28.0,
+          "raw_score": 65,
+          "weighted_score": 26.0,
           "explanations": [
-            "Evidence grades: C(1)"
+            "Evidence grades: D(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -47581,7 +47867,7 @@
           "raw_score": 75,
           "weighted_score": 18.75,
           "explanations": [
-            "2 good: 7, 8-Dihydroxyflavone",
+            "1 basic: 7,8-Dihydroxyflavone",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -47598,8 +47884,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -47611,8 +47896,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -47627,8 +47911,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -48826,7 +49109,7 @@
         "Immune Support",
         "Inflammation"
       ],
-      "score": 86,
+      "score": 90,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-andrographis-paniculata-capsules-50-andrographolides/primary.webp?v=687a4780",
       "gallery_images": [
@@ -48877,10 +49160,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
-            "Evidence grades: B(1)"
+            "Evidence grades: A(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -48905,7 +49188,7 @@
           "raw_score": 75,
           "weighted_score": 18.75,
           "explanations": [
-            "1 good: Andrographis paniculata Ext...",
+            "1 basic: Andrographis paniculata Ext...",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -48922,8 +49205,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -48935,8 +49217,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -48951,8 +49232,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -48981,7 +49261,7 @@
         "Immune Support",
         "Inflammation"
       ],
-      "score": 86,
+      "score": 90,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-andrographis-paniculata-powder-50-andrographolides/primary.webp?v=87a90a93",
       "gallery_images": [
@@ -49030,10 +49310,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
-            "Evidence grades: B(1)"
+            "Evidence grades: A(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -49058,7 +49338,7 @@
           "raw_score": 75,
           "weighted_score": 18.75,
           "explanations": [
-            "1 good: Andrographis paniculata Ext...",
+            "1 basic: Andrographis paniculata Ext...",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -49075,8 +49355,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -49088,8 +49367,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -49104,8 +49382,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -49809,7 +50086,7 @@
         "Mood",
         "Immune Support"
       ],
-      "score": 84,
+      "score": 83,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-cistamax-capsules-optimized-cistanche/primary.webp?v=d489ec7c",
       "gallery_images": [
@@ -49929,10 +50206,10 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 79,
-          "weighted_score": 31.6,
+          "raw_score": 76,
+          "weighted_score": 30.4,
           "explanations": [
-            "Evidence grades: B(4), C(3)"
+            "Evidence grades: B(1), C(6)"
           ],
           "improvements": [],
           "issues": [],
@@ -49959,7 +50236,7 @@
           "weighted_score": 23.25,
           "explanations": [
             "2 clinical: Primavie Purified Shilajit, Micronized Pregnenolone",
-            "1 high: DHEA",
+            "1 good: DHEA",
             "Excellent form quality - premium bioavailable forms"
           ],
           "improvements": [],
@@ -49976,8 +50253,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -49989,8 +50265,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -50005,8 +50280,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -50034,7 +50308,7 @@
         "Immune Support",
         "Gut Health"
       ],
-      "score": 90,
+      "score": 89,
       "grade": "A",
       "image_url": "/images/products/complement/complement-complement-gut-nurture-prebiotic-and-postbiotic-gut-health-drink-mix/primary.webp?v=8e8c6cc3",
       "gallery_images": [
@@ -50181,11 +50455,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 92,
-          "weighted_score": 36.8,
+          "raw_score": 91,
+          "weighted_score": 36.4,
           "explanations": [
-            "4 Grade A, 5 Grade B ingredients",
-            "Evidence grades: A(4), B(5)"
+            "5 Grade A, 4 Grade B ingredients",
+            "Evidence grades: A(5), B(4)"
           ],
           "improvements": [],
           "issues": [],
@@ -50214,8 +50488,8 @@
           "weighted_score": 22.25,
           "explanations": [
             "5 clinical: GPM Vitamin B5, GPM Molybdenum, Postbiotic Lactobacillus LB +2 more",
-            "2 high: Ginger Extract, Horse Chestnut",
-            "2 good: GPM Vitamin B1, GPM Vitamin B6",
+            "2 good: Ginger Extract, Horse Chestnut",
+            "2 basic: GPM Vitamin B1, GPM Vitamin B6",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -50232,8 +50506,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -50245,22 +50518,21 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 85,
+          "raw_score": 89,
           "weighted_score": 0.0,
           "explanations": [
             "Third-party tested",
+            "COA available",
             "FDA registered"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -50289,7 +50561,7 @@
         "Bone Support",
         "Gut Health"
       ],
-      "score": 86,
+      "score": 77,
       "grade": "A-",
       "image_url": "/images/products/complement/complement-complement-organic-chocolate-protein-the-worlds-cleanest-plant-protein/primary.webp?v=421af676",
       "gallery_images": [
@@ -50371,11 +50643,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 90,
-          "weighted_score": 36.0,
+          "raw_score": 93,
+          "weighted_score": 37.2,
           "explanations": [
-            "2 Grade A, 4 Grade B ingredients",
-            "Evidence grades: A(2), B(4)"
+            "5 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(5), B(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -50384,10 +50656,11 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 90,
-          "weighted_score": 31.5,
+          "raw_score": 60,
+          "weighted_score": 21.0,
           "explanations": [
-            "15g protein per serving — strong dose for muscle synthesis"
+            "4 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -50415,8 +50688,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -50428,21 +50700,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 82,
+          "raw_score": 86,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -50455,7 +50726,7 @@
       "url": "https://lovecomplement.com/products/complement-organic-vegan-plant-based-protein-chocolate",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 0.75,
+      "score_gate_penalty": 0.0,
       "score_version": "3.23"
     },
     {
@@ -50471,7 +50742,7 @@
         "Bone Support",
         "Blood Sugar"
       ],
-      "score": 86,
+      "score": 77,
       "grade": "A-",
       "image_url": "/images/products/complement/complement-complement-organic-unflavored-protein-the-worlds-cleanest-plant-protein/primary.webp?v=233e2822",
       "gallery_images": [
@@ -50550,11 +50821,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 89,
-          "weighted_score": 35.6,
+          "raw_score": 94,
+          "weighted_score": 37.6,
           "explanations": [
-            "2 Grade A, 5 Grade B ingredients",
-            "Evidence grades: A(2), B(5)"
+            "6 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(6), B(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -50563,10 +50834,11 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 90,
-          "weighted_score": 31.5,
+          "raw_score": 60,
+          "weighted_score": 21.0,
           "explanations": [
-            "15g protein per serving — strong dose for muscle synthesis"
+            "5 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -50594,8 +50866,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -50607,22 +50878,21 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 85,
+          "raw_score": 89,
           "weighted_score": 0.0,
           "explanations": [
             "Third-party tested",
+            "COA available",
             "FDA registered"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -50817,11 +51087,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 92,
-          "weighted_score": 36.8,
+          "raw_score": 90,
+          "weighted_score": 36.0,
           "explanations": [
-            "5 Grade A, 6 Grade B ingredients",
-            "Evidence grades: A(5), B(6)"
+            "6 Grade A, 4 Grade B ingredients",
+            "Evidence grades: A(6), B(4), C(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -50850,8 +51120,8 @@
           "weighted_score": 23.25,
           "explanations": [
             "4 clinical: Magnesium, Reishi Mushroom Fruiting Bo..., L-Theanine +1 more",
-            "5 high: Ashwagandha Root Extract, Passionflower Leaf, Stem an... +2 more",
-            "1 good: Iron",
+            "4 good: Ashwagandha Root Extract, Passionflower Leaf, Stem an..., Valerian Root Extract +1 more",
+            "1 basic: Iron",
             "Absorption enhancer: Black Pepper Fruit Extract (+5)",
             "Good form quality - mostly bioavailable forms"
           ],
@@ -50869,8 +51139,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -50882,21 +51151,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 82,
+          "raw_score": 86,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -50909,7 +51177,7 @@
       "url": "https://lovecomplement.com/products/complement-restore-sleep-support",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 0.75,
+      "score_gate_penalty": 0.0,
       "score_version": "3.23"
     },
     {
@@ -50925,7 +51193,7 @@
         "Bone Support",
         "Blood Sugar"
       ],
-      "score": 88,
+      "score": 79,
       "grade": "A",
       "image_url": "/images/products/complement/complement-complement-vanilla-organic-protein-the-worlds-cleanest-plant-based-protein-powder/primary.webp?v=8d83aa12",
       "gallery_images": [
@@ -51006,8 +51274,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(2)"
           ],
@@ -51018,10 +51286,12 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 90,
-          "weighted_score": 31.5,
+          "raw_score": 66,
+          "weighted_score": 23.1,
           "explanations": [
-            "15g protein per serving — strong dose for muscle synthesis"
+            "1 ingredient below recommended dose",
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -51033,7 +51303,7 @@
           "raw_score": 70,
           "weighted_score": 17.5,
           "explanations": [
-            "2 good: Iron, Calcium",
+            "2 basic: Iron, Calcium",
             "Adequate form quality - standard forms"
           ],
           "improvements": [],
@@ -51050,8 +51320,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -51063,21 +51332,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 82,
+          "raw_score": 86,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -51090,7 +51358,7 @@
       "url": "https://lovecomplement.com/products/complement-organic-vegan-plant-based-protein-vanilla",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 0.75,
+      "score_gate_penalty": 0.0,
       "score_version": "3.23"
     },
     {
@@ -51106,7 +51374,7 @@
         "Gut Health",
         "Heart Health"
       ],
-      "score": 98,
+      "score": 96,
       "grade": "A+",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-coqh-cf-softgels-ubiquinol-supplement/primary.webp?v=edaeaa23",
       "gallery_images": [
@@ -51163,8 +51431,8 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 100,
-          "weighted_score": 40.0,
+          "raw_score": 95,
+          "weighted_score": 38.0,
           "explanations": [
             "Evidence grades: A(1)"
           ],
@@ -51208,8 +51476,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -51221,8 +51488,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -51237,8 +51503,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -52052,7 +52317,7 @@
         "Stress",
         "Muscle"
       ],
-      "score": 86,
+      "score": 85,
       "grade": "A-",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-eurycomax-capsules-optimized-tongkat-ali/primary.webp?v=b88eb364",
       "gallery_images": [
@@ -52192,11 +52457,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
+          "raw_score": 84,
+          "weighted_score": 33.6,
           "explanations": [
-            "1 Grade A, 6 Grade B ingredients",
-            "Evidence grades: A(1), B(6), C(1)"
+            "1 Grade A, 5 Grade B ingredients",
+            "Evidence grades: A(1), B(5), C(2)"
           ],
           "improvements": [],
           "issues": [],
@@ -52222,8 +52487,8 @@
           "raw_score": 88,
           "weighted_score": 22.0,
           "explanations": [
-            "2 clinical: Micronized Pregnenolone, Boron",
-            "3 high: Cold Water Ultrasonic Extract, Water/Ethanol Extract +1 more",
+            "1 clinical: Micronized Pregnenolone",
+            "4 good: Cold Water Ultrasonic Extract, Water/Ethanol Extract, Boron +1 more",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -52240,8 +52505,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -52253,8 +52517,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
@@ -52269,8 +52532,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -54608,7 +54870,7 @@
         "Sleep",
         "Stress"
       ],
-      "score": 85,
+      "score": 86,
       "grade": "A-",
       "image_url": "/images/products/seed/seed-seed-am-02-energy-focus-supplement-steady-caffeine-free-energy/primary.webp?v=bf030a0e",
       "gallery_images": [
@@ -54891,12 +55153,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 92,
-          "weighted_score": 36.8,
+          "raw_score": 91,
+          "weighted_score": 36.4,
           "explanations": [
-            "15 Grade A, 1 Grade B ingredients",
-            "Evidence grades: A(15), B(1), C(5)",
-            "5 ingredients without evidence data (scored as C)"
+            "13 Grade A, 8 Grade B ingredients",
+            "Evidence grades: A(13), B(8)"
           ],
           "improvements": [],
           "issues": [],
@@ -54924,9 +55185,9 @@
           "raw_score": 87,
           "weighted_score": 21.75,
           "explanations": [
-            "7 clinical: Folate, Vitamin B12, Zinc +4 more",
-            "8 high: Vitamin C, Vitamin E, Riboflavin +5 more",
-            "2 good: Vitamin B6, Thiamine",
+            "6 clinical: Vitamin B6, Folate, Vitamin B12 +3 more",
+            "8 good: Vitamin C, Vitamin E, Riboflavin +5 more",
+            "3 basic: Thiamine, Zinc, Copper",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -54943,8 +55204,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -54956,21 +55216,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 80,
+          "raw_score": 84,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -54983,7 +55242,7 @@
       "url": "https://seed.com/energy-focus",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 1.25,
+      "score_gate_penalty": 0.25,
       "score_version": "3.23"
     },
     {
@@ -54999,7 +55258,7 @@
         "Gut Health",
         "Heart Health"
       ],
-      "score": 88,
+      "score": 89,
       "grade": "A",
       "image_url": "/images/products/seed/seed-seed-ds-01-daily-synbiotic-probiotic-best-price-available/primary.webp?v=31c93f33",
       "gallery_images": [
@@ -55092,7 +55351,7 @@
           "name": "Evidence Quality",
           "weight": 0.5333,
           "raw_score": 85,
-          "weighted_score": 45.33,
+          "weighted_score": 45.3305,
           "explanations": [
             "Evidence grades: B(1)"
           ],
@@ -55104,7 +55363,7 @@
           "name": "Dose Adequacy",
           "weight": 0.4667,
           "raw_score": 95,
-          "weighted_score": 44.34,
+          "weighted_score": 44.3365,
           "explanations": [
             "1 ingredient at optimal doses",
             "Reference coverage: 100%"
@@ -55123,8 +55382,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -55136,21 +55394,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 80,
+          "raw_score": 84,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -55163,7 +55420,7 @@
       "url": "https://seed.com/daily-synbiotic",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 1.25,
+      "score_gate_penalty": 0.25,
       "score_version": "3.23"
     },
     {
@@ -55179,7 +55436,7 @@
         "Sleep",
         "Stress"
       ],
-      "score": 87,
+      "score": 86,
       "grade": "A",
       "image_url": "/images/products/seed/seed-seed-pm-02-sleep-restore-supplement-non-habit-forming-melatonin/primary.webp?v=9327abc9",
       "gallery_images": [
@@ -55308,11 +55565,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 94,
-          "weighted_score": 37.6,
+          "raw_score": 91,
+          "weighted_score": 36.4,
           "explanations": [
-            "5 Grade A, 3 Grade B ingredients",
-            "Evidence grades: A(5), B(3)"
+            "6 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(6), B(1), C(1)"
           ],
           "improvements": [],
           "issues": [],
@@ -55321,14 +55578,14 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 83,
-          "weighted_score": 29.05,
+          "raw_score": 81,
+          "weighted_score": 28.35,
           "explanations": [
             "3 ingredients at optimal doses",
             "1 ingredient at therapeutic doses",
             "2 ingredients below recommended dose",
-            "1 ingredient severely below recommended dose",
-            "Reference coverage: 88%"
+            "2 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
           ],
           "improvements": [],
           "issues": [],
@@ -55341,8 +55598,8 @@
           "weighted_score": 22.0,
           "explanations": [
             "3 clinical: Restorative Sleep Complex -..., Cellular Renewal Complex - ..., Extended Release Biphasic M...",
-            "3 high: Riboflavin, Niacin, Microbiome-Modulating Prebi...",
-            "1 good: Thiamine",
+            "3 good: Riboflavin, Niacin, Microbiome-Modulating Prebi...",
+            "1 basic: Thiamine",
             "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
@@ -55359,8 +55616,7 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Safety/Redundancy",
@@ -55372,21 +55628,20 @@
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 95.0
+          "missing": []
         },
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 80,
+          "raw_score": 84,
           "weighted_score": 0.0,
           "explanations": [
-            "Third-party tested"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
-          "missing": [],
-          "gate_floor": 85.0
+          "missing": []
         }
       ],
       "explanation": null,
@@ -55399,7 +55654,7 @@
       "url": "https://seed.com/sleep-restore",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 1.25,
+      "score_gate_penalty": 0.25,
       "score_version": "3.23"
     },
     {
