@@ -17,6 +17,11 @@ import { withUtm } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
 import { ScoreMeter } from "@/components/score-meter";
 import { findIngredientByName } from "@/lib/encyclopedia";
+import {
+  evidenceProfileFor,
+  evidenceSummary,
+  pubmedSearchUrl,
+} from "@/lib/evidence-profiles";
 import { PageConversion } from "@/components/page-conversion";
 import { AppCtaCard } from "@/components/app-cta-card";
 
@@ -163,6 +168,31 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
                   {ing.form_details && (
                     <span className="block text-xs text-muted mt-0.5">{ing.form_details}</span>
                   )}
+                  {(() => {
+                    // How much human literature exists for this ingredient, with
+                    // the search that found it. Counts, never a verdict — see
+                    // lib/evidence-profiles.ts for why the two cannot be mixed.
+                    const p = evidenceProfileFor(ing.name);
+                    if (!p) return null;
+                    const summary = evidenceSummary(p);
+                    if (!summary) return null;
+                    const none = p.counts.all === 0;
+                    return (
+                      <a
+                        href={pubmedSearchUrl(p)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`block text-xs mt-1 underline-offset-4 hover:underline ${
+                          none ? "text-amber-500/80" : "text-muted"
+                        }`}
+                        title={`PubMed, human supplementation research${
+                          p.fetched_at ? ` — checked ${p.fetched_at.slice(0, 10)}` : ""
+                        }`}
+                      >
+                        {summary}
+                      </a>
+                    );
+                  })()}
                 </td>
                 <td className="px-4 py-3 text-right text-muted whitespace-nowrap">
                   {formatIngredientAmount(ing) || "—"}
