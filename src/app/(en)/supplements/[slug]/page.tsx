@@ -5,6 +5,7 @@ import Image from "next/image";
 import {
   products,
   productBySlug,
+  canonicalSlugFor,
   relatedProducts,
   scoreGrade,
   thumbUrl,
@@ -50,7 +51,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     .trim()
     .slice(0, 160);
 
-  const url = `${BASE}/supplements/${slug}`;
+  // A duplicate copy of another product points at the real record instead of
+  // itself, so the two stop competing in search. See canonicalSlugFor.
+  const url = `${BASE}/supplements/${canonicalSlugFor(slug)}`;
   const ogImage = p.image_url ? `${BASE}${p.image_url}` : undefined;
 
   return {

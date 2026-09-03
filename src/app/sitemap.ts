@@ -2,7 +2,7 @@ import { indexableLocales, DEFAULT_LOCALE } from "@/lib/i18n/locales";
 import type { MetadataRoute } from "next";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
-import { products, brands, bestCategories } from "@/lib/products";
+import { products, brands, bestCategories, canonicalSlugFor } from "@/lib/products";
 import { ingredients } from "@/lib/encyclopedia";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
@@ -87,7 +87,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    ...products.map((p) => ({
+    // A page that declares another page canonical must not also be advertised
+    // here: the sitemap would keep asking for indexing of a URL the page itself
+    // disclaims. Ten products are in the catalog twice (see canonicalSlugFor);
+    // only the real record is listed.
+    ...products
+      .filter((p) => canonicalSlugFor(p.slug) === p.slug)
+      .map((p) => ({
       url: `${baseUrl}/supplements/${p.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,

@@ -132,6 +132,65 @@ export function productBySlug(slug: string): Product | undefined {
   return bySlug.get(slug);
 }
 
+/**
+ * Ten products are in the catalog TWICE, and both copies are live and indexed.
+ *
+ * The cause is the GID round-trip: the canonical id is `product:<brand>_<slug>`
+ * with an underscore, the web form is all-hyphens, and a hyphenated id that
+ * failed to match its underscored original was inserted as a new product rather
+ * than resolved to it. So each pair is one real record plus one thinner copy —
+ * the underscored row is richer in 9 of the 10 pairs and never poorer, and it
+ * always carries a score where the copy often has none.
+ *
+ * Both URLs return 200, each page used to declare ITSELF canonical, and 19 of
+ * the 20 are in the sitemap — so search engines were told these are two
+ * distinct pages for one product, and the two competed with each other.
+ *
+ * This points the thin copy at the real record instead. Nothing is deleted and
+ * no URL stops resolving: a canonical is a signal, so it consolidates the two
+ * rather than dropping one, and it reverses by deleting this function. Removing
+ * the duplicate ROWS is the actual fix, but that retires indexed URLs and wants
+ * redirects planned with it.
+ */
+const canonicalSlug: Map<string, string> = (() => {
+  const norm = (n: string) =>
+    (n || "")
+      .replace(/\s*\((?:formerly|previously)[^)]*\)/gi, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+  const groups = new Map<string, Product[]>();
+  for (const p of products) {
+    const key = `${(p.brand || "").toLowerCase()}|${norm(p.name)}`;
+    const g = groups.get(key);
+    if (g) g.push(p);
+    else groups.set(key, [p]);
+  }
+  const out = new Map<string, string>();
+  for (const g of groups.values()) {
+    if (g.length < 2) continue;
+    // The canonical id keeps the brand/slug underscore; the accidental copy is
+    // the all-hyphens round-trip. Fall back to whichever row carries more
+    // fields, so an unrecognised pair still consolidates onto the fuller one.
+    const filled = (p: Product) =>
+      Object.values(p).filter((v) => v !== null && v !== undefined && v !== "").length;
+    const keep =
+      g.find((p) => (p.id || "").replace("product:", "").includes("_")) ??
+      [...g].sort((a, b) => filled(b) - filled(a))[0];
+    for (const p of g) if (p.slug !== keep.slug) out.set(p.slug, keep.slug);
+  }
+  return out;
+})();
+
+/** The URL a slug should declare canonical — itself, unless it is a duplicate. */
+export function canonicalSlugFor(slug: string): string {
+  return canonicalSlug.get(slug) ?? slug;
+}
+
+/** Slugs that are duplicate copies of another product. */
+export function duplicateSlugs(): ReadonlyMap<string, string> {
+  return canonicalSlug;
+}
+
 // Precomputed at module load (server-side, SSG). Maps image_url → thumb variant
 // when a thumb.webp sits on disk next to the primary. `unoptimized: true` in
 // next.config.ts disables Next/Vercel's image resizer, so card-sized surfaces
