@@ -50,4 +50,41 @@ if [ "$PUSHING_TO_DEPLOY" = "1" ]; then
   fi
   echo "[pre-push] v build passed"
 fi
+
+# ── cross-client data parity ─────────────────────────────────────────────────
+#
+# The landing MIRRORS web's catalogs — it does not export its own. Nothing
+# enforced that, and on 2026-09-03 the three clients were serving three
+# different catalogs. Web's push is gated the same way; drift can start here
+# just as easily, so the enforcement has to be symmetric or it just moves.
+#
+# --local landing compares THIS TREE (the commit is not on origin yet) against
+# what web and mobile actually ship. Byte differences are not drift: the tool
+# compares parsed content with int/float representation normalised, so autocrlf
+# and this repo's own ?v= image-token rewriting stay quiet.
+if [ "$PUSHING_TO_DEPLOY" = "1" ]; then
+  MAIN_REPO="$(cd "$(git rev-parse --git-common-dir)/.." 2>/dev/null && pwd)"
+  PARITY_TOOL="$MAIN_REPO/../Formulate/tools/client_data_parity_check.py"
+  [ -f "$PARITY_TOOL" ] || PARITY_TOOL="../Formulate/tools/client_data_parity_check.py"
+  if [ ! -f "$PARITY_TOOL" ]; then
+    # Never skip quietly — an absent checker and a passing one look identical.
+    echo "[pre-push] ! cross-client parity SKIPPED — checker not found."
+    echo "           Looked for: $PARITY_TOOL"
+    echo "           This push is NOT verified against web/mobile."
+  else
+    echo "[pre-push] cross-client data parity (this tree vs web/mobile shipping refs)"
+    LAND_TREE="$(git rev-parse --show-toplevel)"
+    if ! python "$PARITY_TOOL" --local landing --repo "landing=$LAND_TREE" --strict; then
+      echo ""
+      echo "[pre-push] x cross-client data drift - push blocked."
+      echo "           A catalog here disagrees with what web or mobile SHIP."
+      echo "           The landing mirrors web; re-sync from web rather than"
+      echo "           editing here, then push."
+      echo "           Emergency bypass: git push --no-verify"
+      exit 1
+    fi
+    echo "[pre-push] v clients agree"
+  fi
+fi
+
 exit 0
