@@ -74,7 +74,16 @@ if [ "$PUSHING_TO_DEPLOY" = "1" ]; then
   else
     echo "[pre-push] cross-client data parity (this tree vs web/mobile shipping refs)"
     LAND_TREE="$(git rev-parse --show-toplevel)"
-    if ! python "$PARITY_TOOL" --local landing --repo "landing=$LAND_TREE" --strict; then
+    # A change that must land in ALL THREE repos deadlocks against this gate:
+    # every client blocks until the others move, and none can move first.
+    # PARITY_ROLLOUT=1 is the escape, and deliberately NOT --no-verify, which
+    # would also skip the build. The drift is still computed and printed; only
+    # the block is lifted. Anything left unmirrored fails the NEXT push.
+    if [ "$PARITY_ROLLOUT" = "1" ]; then
+      python "$PARITY_TOOL" --local landing --repo "landing=$LAND_TREE" || true
+      echo "[pre-push] ! PARITY_ROLLOUT=1 — drift above is ALLOWED through."
+      echo "           The other clients must receive the same data."
+    elif ! python "$PARITY_TOOL" --local landing --repo "landing=$LAND_TREE" --strict; then
       echo ""
       echo "[pre-push] x cross-client data drift - push blocked."
       echo "           A catalog here disagrees with what web or mobile SHIP."
