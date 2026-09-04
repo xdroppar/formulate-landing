@@ -944,6 +944,227 @@
         }
       ]
     },
+    "DHA": {
+      "substance": "Omega-3 DHA",
+      "counts": {
+        "systematic": 4,
+        "rct": 6,
+        "human_trial": 6,
+        "all": 22
+      },
+      "pmids": [
+        "38924283",
+        "30480773",
+        "16855961",
+        "31782528"
+      ],
+      "query": "\"Omega-3 DHA\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-02T23:40:07.802471+00:00",
+      "outcomes": [
+        {
+          "outcome": "cognitive decline",
+          "direction": "benefit",
+          "pmids": [
+            "38924283"
+          ],
+          "quote": "The CDR scale showed reduced progression of cognitive decline among patients with n-3-PUFA supplemental interventions, with no differences between different n-3-PUFA supplements.",
+          "quote_pmid": "38924283"
+        },
+        {
+          "outcome": "preterm birth",
+          "direction": "benefit",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "In the overall analysis, preterm birth < 37 weeks and early preterm birth < 34 weeks were reduced in women receiving omega-3 LCPUFA compared with no omega-3.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "perinatal death",
+          "direction": "unclear",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "neonatal care admission",
+          "direction": "unclear",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "low birth weight",
+          "direction": "benefit",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "large for gestational age",
+          "direction": "harm",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "schizophrenia symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "16855961"
+          ],
+          "quote": "The results remain inconclusive.",
+          "quote_pmid": "16855961"
+        }
+      ]
+    },
+    "EPA": {
+      "substance": "Eicosapentaenoic Acid",
+      "counts": {
+        "systematic": 176,
+        "rct": 1018,
+        "human_trial": 1172,
+        "all": 2595
+      },
+      "pmids": [
+        "35010904",
+        "31383846",
+        "37028557",
+        "32114706",
+        "21961774"
+      ],
+      "query": "\"Eicosapentaenoic Acid\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-02T23:26:17.756041+00:00",
+      "outcomes": [
+        {
+          "outcome": "childhood asthma/wheezing",
+          "direction": "benefit",
+          "pmids": [
+            "42521226"
+          ],
+          "quote": "Early-life omega-3 PUFA supplementation reduces childhood asthma/wheezing risk in a dose-dependent manner.",
+          "quote_pmid": "42521226"
+        },
+        {
+          "outcome": "adhd symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "42433395"
+          ],
+          "quote": "Omega-3 supplementation response in pediatric ADHD may vary according to baseline nutritional status.",
+          "quote_pmid": "42433395"
+        },
+        {
+          "outcome": "chemotherapy-induced neuropathy",
+          "direction": "unclear",
+          "pmids": [
+            "42588106"
+          ],
+          "quote": "One trial reported lower paclitaxel-induced neuropathy, whereas another found no benefit for paclitaxel-associated acute pain or neuropathic symptoms.",
+          "quote_pmid": "42588106"
+        },
+        {
+          "outcome": "nutritional status in pancreatic cancer",
+          "direction": "unclear",
+          "pmids": [
+            "42180603"
+          ],
+          "quote": "This meta-analysis suggests that n-3 PUFAs may produce modest weight gain, but evidence is insufficient to support meaningful improvement in overall nutritional status.",
+          "quote_pmid": "42180603"
+        },
+        {
+          "outcome": "cardiovascular events",
+          "direction": "unclear",
+          "pmids": [
+            "42144851",
+            "42070013",
+            "32114706"
+          ],
+          "quote": "this analysis indicates no broad benefit in reducing MACE or AF risk with combined moderate-dose EPA + DHA in heterogeneous post-event populations.",
+          "quote_pmid": "42144851"
+        },
+        {
+          "outcome": "atrial fibrillation risk",
+          "direction": "harm",
+          "pmids": [
+            "42144851"
+          ],
+          "quote": "balanced against dose-dependent AF increases at high doses (> 1.5 g/day).",
+          "quote_pmid": "42144851"
+        },
+        {
+          "outcome": "serum triglycerides",
+          "direction": "benefit",
+          "pmids": [
+            "32114706"
+          ],
+          "quote": "Moderate- and low-certainty evidence suggests that increasing LCn3 slightly reduces risk of coronary heart disease mortality and events, and reduces serum triglycerides (evidence mainly from supplement trials).",
+          "quote_pmid": "32114706"
+        },
+        {
+          "outcome": "muscle soreness and damage markers after exercise",
+          "direction": "benefit",
+          "pmids": [
+            "42124047"
+          ],
+          "quote": "LC n-3 PUFA supplementation significantly reduced delayed onset muscle soreness (DOMS) (Hedges' g = -0.75; 95% CI: -1.14 to -0.36), creatine kinase (CK) (Hedges' g = -0.40; 95% CI: -0.70 to -0.10), and muscle swelling (Hedges' g = -0.45; 95% CI: -0.83 to -0.07), and significantly improved muscle strength (Hedges' g = 0.45; 95% CI: 0.07 to 0.83) and range of motion (ROM) (Hedges' g = 0.93; 95% CI: 0.33 to 1.53) at peak impairment compared with placebo.",
+          "quote_pmid": "42124047"
+        },
+        {
+          "outcome": "post-exercise inflammation and recovery",
+          "direction": "benefit",
+          "pmids": [
+            "41891174"
+          ],
+          "quote": "omega-3 fatty acids are a strong, evidence-based nutritional tool for reducing the effects of post-exercise inflammation, supporting functional recovery, and sustaining long-term athletic performance.",
+          "quote_pmid": "41891174"
+        },
+        {
+          "outcome": "inflammation (crp) in haemodialysis patients",
+          "direction": "unclear",
+          "pmids": [
+            "41692069"
+          ],
+          "quote": "Larger, high-quality trials are required to confirm therapeutic benefit, determine optimal dosing, and clarify the ideal EPA:DHA composition for this population.",
+          "quote_pmid": "41692069"
+        },
+        {
+          "outcome": "cognitive decline/dementia risk",
+          "direction": "benefit",
+          "pmids": [
+            "37028557"
+          ],
+          "quote": "Dietary intake or long-term supplementation of omega-3 fatty acids may help reduce risk of AD or cognitive decline.",
+          "quote_pmid": "37028557"
+        },
+        {
+          "outcome": "cognitive function",
+          "direction": "unclear",
+          "pmids": [
+            "41764841"
+          ],
+          "quote": "Nutritional supplementation demonstrates nuanced, domain-specific benefits rather than universal cognitive enhancement.",
+          "quote_pmid": "41764841"
+        },
+        {
+          "outcome": "depressive symptoms",
+          "direction": "benefit",
+          "pmids": [
+            "31383846"
+          ],
+          "quote": "Current evidence supports the finding that omega-3 PUFAs with EPA ≥ 60% at a dosage of ≤1 g/d would have beneficial effects on depression.",
+          "quote_pmid": "31383846"
+        }
+      ]
+    },
     "Other Omega 3s": {
       "substance": "Other Omega 3s",
       "counts": {
@@ -3482,6 +3703,159 @@
       "pmids": [],
       "query": "\"Alpha-GPC\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
       "fetched_at": "2026-09-03T00:09:38.536751+00:00"
+    },
+    "Withania somnifera Extract (whole plant)(9% Withanolides)": {
+      "substance": "Ashwagandha",
+      "counts": {
+        "systematic": 14,
+        "rct": 22,
+        "human_trial": 24,
+        "all": 78
+      },
+      "pmids": [
+        "36017529",
+        "35311615",
+        "34978226",
+        "38140274",
+        "41644067"
+      ],
+      "query": "\"Ashwagandha\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-03T00:09:13.925672+00:00",
+      "outcomes": [
+        {
+          "outcome": "aerobic endurance / exercise performance",
+          "direction": "benefit",
+          "pmids": [
+            "42356302"
+          ],
+          "quote": "Oral ashwagandha may improve selected exercise-performance outcomes, particularly aerobic endurance, but benefits are not uniform across contexts.",
+          "quote_pmid": "42356302"
+        },
+        {
+          "outcome": "vo2max",
+          "direction": "benefit",
+          "pmids": [
+            "32316411"
+          ],
+          "quote": "Results showed a significant enhancement in VO2max in healthy adults and athletes (p = 0.04).",
+          "quote_pmid": "32316411"
+        },
+        {
+          "outcome": "cortisol",
+          "direction": "benefit",
+          "pmids": [
+            "41740946",
+            "38140274"
+          ],
+          "quote": "Ashwagandha significantly reduced cortisol (SMD =- 1.18, p < 0.04) and increased serotonin (MD = 31.75 ng/ml, p < 0.01).",
+          "quote_pmid": "41740946"
+        },
+        {
+          "outcome": "serotonin",
+          "direction": "benefit",
+          "pmids": [
+            "41740946"
+          ],
+          "quote": "Ashwagandha significantly reduced cortisol (SMD =- 1.18, p < 0.04) and increased serotonin (MD = 31.75 ng/ml, p < 0.01).",
+          "quote_pmid": "41740946"
+        },
+        {
+          "outcome": "thyroid hormones",
+          "direction": "unclear",
+          "pmids": [
+            "41740946"
+          ],
+          "quote": "No effect was found on TSH or T3, but T4 levels increased modestly (MD = 0.61 µg/dL, p = 0.02).",
+          "quote_pmid": "41740946"
+        },
+        {
+          "outcome": "testosterone",
+          "direction": "benefit",
+          "pmids": [
+            "41740946"
+          ],
+          "quote": "Ashwagandha increased testosterone in men (MD = 57.43 ng/dl) but not in women (MD = 5.09 ng/dl), with a significant gender difference.",
+          "quote_pmid": "41740946"
+        },
+        {
+          "outcome": "anxiety",
+          "direction": "benefit",
+          "pmids": [
+            "36017529",
+            "41644067",
+            "41906501"
+          ],
+          "quote": "significantly reduced anxiety (SMD: -1.55, 95% CI: -2.37, -0.74; p = .005; I2  = 93.8%)",
+          "quote_pmid": "36017529"
+        },
+        {
+          "outcome": "stress",
+          "direction": "benefit",
+          "pmids": [
+            "36017529",
+            "41644067",
+            "38140274",
+            "41906501"
+          ],
+          "quote": "Brief-term supplementation with WS appears to have a stress-reducing effect in stressed individuals.",
+          "quote_pmid": "38140274"
+        },
+        {
+          "outcome": "depressive symptoms",
+          "direction": "benefit",
+          "pmids": [
+            "41906501",
+            "41644067"
+          ],
+          "quote": "alleviation of depressive symptoms",
+          "quote_pmid": "41906501"
+        },
+        {
+          "outcome": "sleep quality",
+          "direction": "benefit",
+          "pmids": [
+            "41906501"
+          ],
+          "quote": "improved sleep quality",
+          "quote_pmid": "41906501"
+        },
+        {
+          "outcome": "muscle strength and recovery",
+          "direction": "benefit",
+          "pmids": [
+            "41906501"
+          ],
+          "quote": "increased muscle strength and recovery",
+          "quote_pmid": "41906501"
+        },
+        {
+          "outcome": "cognitive function",
+          "direction": "unclear",
+          "pmids": [
+            "41843701"
+          ],
+          "quote": "the inconsistency in outcomes and differences in study methodologies highlight the need for larger, rigorously controlled trials with uniform cognitive evaluations to confirm these findings and to assess their clinical relevance.",
+          "quote_pmid": "41843701"
+        },
+        {
+          "outcome": "oxidative stress and inflammation",
+          "direction": "benefit",
+          "pmids": [
+            "37428341"
+          ],
+          "quote": "Participants supplemented with Ws displayed reduced levels of oxidative stress and inflammation, and counterbalanced hormone levels.",
+          "quote_pmid": "37428341"
+        },
+        {
+          "outcome": "hematological markers",
+          "direction": "no_effect",
+          "pmids": [
+            "37428341"
+          ],
+          "quote": "No evidence of the beneficial effects of Ws supplementation on hematological markers was reported.",
+          "quote_pmid": "37428341"
+        }
+      ]
     },
     "(DHA) Docosahexaenoic Acid": {
       "substance": "Docosahexaenoic Acid",
@@ -7580,6 +7954,227 @@
       ],
       "query": "\"Citric Acid\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
       "fetched_at": "2026-09-02T23:26:38.254595+00:00"
+    },
+    "DHA (Docosahexaenoic Acid)(EE)": {
+      "substance": "Omega-3 DHA",
+      "counts": {
+        "systematic": 4,
+        "rct": 6,
+        "human_trial": 6,
+        "all": 22
+      },
+      "pmids": [
+        "38924283",
+        "30480773",
+        "16855961",
+        "31782528"
+      ],
+      "query": "\"Omega-3 DHA\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-02T23:40:07.802471+00:00",
+      "outcomes": [
+        {
+          "outcome": "cognitive decline",
+          "direction": "benefit",
+          "pmids": [
+            "38924283"
+          ],
+          "quote": "The CDR scale showed reduced progression of cognitive decline among patients with n-3-PUFA supplemental interventions, with no differences between different n-3-PUFA supplements.",
+          "quote_pmid": "38924283"
+        },
+        {
+          "outcome": "preterm birth",
+          "direction": "benefit",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "In the overall analysis, preterm birth < 37 weeks and early preterm birth < 34 weeks were reduced in women receiving omega-3 LCPUFA compared with no omega-3.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "perinatal death",
+          "direction": "unclear",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "neonatal care admission",
+          "direction": "unclear",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "low birth weight",
+          "direction": "benefit",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "large for gestational age",
+          "direction": "harm",
+          "pmids": [
+            "30480773"
+          ],
+          "quote": "There was a possibly reduced risk of perinatal death and of neonatal care admission, a reduced risk of LBW babies; and possibly a small increased risk of LGA babies with omega-3 LCPUFA.",
+          "quote_pmid": "30480773"
+        },
+        {
+          "outcome": "schizophrenia symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "16855961"
+          ],
+          "quote": "The results remain inconclusive.",
+          "quote_pmid": "16855961"
+        }
+      ]
+    },
+    "EPA (Eicosapentaenoic Acid)(EE)": {
+      "substance": "Eicosapentaenoic Acid",
+      "counts": {
+        "systematic": 176,
+        "rct": 1018,
+        "human_trial": 1172,
+        "all": 2595
+      },
+      "pmids": [
+        "35010904",
+        "31383846",
+        "37028557",
+        "32114706",
+        "21961774"
+      ],
+      "query": "\"Eicosapentaenoic Acid\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-02T23:26:17.756041+00:00",
+      "outcomes": [
+        {
+          "outcome": "childhood asthma/wheezing",
+          "direction": "benefit",
+          "pmids": [
+            "42521226"
+          ],
+          "quote": "Early-life omega-3 PUFA supplementation reduces childhood asthma/wheezing risk in a dose-dependent manner.",
+          "quote_pmid": "42521226"
+        },
+        {
+          "outcome": "adhd symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "42433395"
+          ],
+          "quote": "Omega-3 supplementation response in pediatric ADHD may vary according to baseline nutritional status.",
+          "quote_pmid": "42433395"
+        },
+        {
+          "outcome": "chemotherapy-induced neuropathy",
+          "direction": "unclear",
+          "pmids": [
+            "42588106"
+          ],
+          "quote": "One trial reported lower paclitaxel-induced neuropathy, whereas another found no benefit for paclitaxel-associated acute pain or neuropathic symptoms.",
+          "quote_pmid": "42588106"
+        },
+        {
+          "outcome": "nutritional status in pancreatic cancer",
+          "direction": "unclear",
+          "pmids": [
+            "42180603"
+          ],
+          "quote": "This meta-analysis suggests that n-3 PUFAs may produce modest weight gain, but evidence is insufficient to support meaningful improvement in overall nutritional status.",
+          "quote_pmid": "42180603"
+        },
+        {
+          "outcome": "cardiovascular events",
+          "direction": "unclear",
+          "pmids": [
+            "42144851",
+            "42070013",
+            "32114706"
+          ],
+          "quote": "this analysis indicates no broad benefit in reducing MACE or AF risk with combined moderate-dose EPA + DHA in heterogeneous post-event populations.",
+          "quote_pmid": "42144851"
+        },
+        {
+          "outcome": "atrial fibrillation risk",
+          "direction": "harm",
+          "pmids": [
+            "42144851"
+          ],
+          "quote": "balanced against dose-dependent AF increases at high doses (> 1.5 g/day).",
+          "quote_pmid": "42144851"
+        },
+        {
+          "outcome": "serum triglycerides",
+          "direction": "benefit",
+          "pmids": [
+            "32114706"
+          ],
+          "quote": "Moderate- and low-certainty evidence suggests that increasing LCn3 slightly reduces risk of coronary heart disease mortality and events, and reduces serum triglycerides (evidence mainly from supplement trials).",
+          "quote_pmid": "32114706"
+        },
+        {
+          "outcome": "muscle soreness and damage markers after exercise",
+          "direction": "benefit",
+          "pmids": [
+            "42124047"
+          ],
+          "quote": "LC n-3 PUFA supplementation significantly reduced delayed onset muscle soreness (DOMS) (Hedges' g = -0.75; 95% CI: -1.14 to -0.36), creatine kinase (CK) (Hedges' g = -0.40; 95% CI: -0.70 to -0.10), and muscle swelling (Hedges' g = -0.45; 95% CI: -0.83 to -0.07), and significantly improved muscle strength (Hedges' g = 0.45; 95% CI: 0.07 to 0.83) and range of motion (ROM) (Hedges' g = 0.93; 95% CI: 0.33 to 1.53) at peak impairment compared with placebo.",
+          "quote_pmid": "42124047"
+        },
+        {
+          "outcome": "post-exercise inflammation and recovery",
+          "direction": "benefit",
+          "pmids": [
+            "41891174"
+          ],
+          "quote": "omega-3 fatty acids are a strong, evidence-based nutritional tool for reducing the effects of post-exercise inflammation, supporting functional recovery, and sustaining long-term athletic performance.",
+          "quote_pmid": "41891174"
+        },
+        {
+          "outcome": "inflammation (crp) in haemodialysis patients",
+          "direction": "unclear",
+          "pmids": [
+            "41692069"
+          ],
+          "quote": "Larger, high-quality trials are required to confirm therapeutic benefit, determine optimal dosing, and clarify the ideal EPA:DHA composition for this population.",
+          "quote_pmid": "41692069"
+        },
+        {
+          "outcome": "cognitive decline/dementia risk",
+          "direction": "benefit",
+          "pmids": [
+            "37028557"
+          ],
+          "quote": "Dietary intake or long-term supplementation of omega-3 fatty acids may help reduce risk of AD or cognitive decline.",
+          "quote_pmid": "37028557"
+        },
+        {
+          "outcome": "cognitive function",
+          "direction": "unclear",
+          "pmids": [
+            "41764841"
+          ],
+          "quote": "Nutritional supplementation demonstrates nuanced, domain-specific benefits rather than universal cognitive enhancement.",
+          "quote_pmid": "41764841"
+        },
+        {
+          "outcome": "depressive symptoms",
+          "direction": "benefit",
+          "pmids": [
+            "31383846"
+          ],
+          "quote": "Current evidence supports the finding that omega-3 PUFAs with EPA ≥ 60% at a dosage of ≤1 g/d would have beneficial effects on depression.",
+          "quote_pmid": "31383846"
+        }
+      ]
     },
     "Cod Liver Oil": {
       "substance": "Cod Liver Oil",
@@ -19784,6 +20379,81 @@
         }
       ]
     },
+    "Silybin Phytosome": {
+      "substance": "Milk Thistle",
+      "counts": {
+        "systematic": 7,
+        "rct": 17,
+        "human_trial": 20,
+        "all": 96
+      },
+      "pmids": [
+        "38579127",
+        "32065376",
+        "27655839",
+        "25247194",
+        "28785154"
+      ],
+      "query": "\"Milk Thistle\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-03T00:09:24.463161+00:00",
+      "outcomes": [
+        {
+          "outcome": "liver damage/histology in nafld",
+          "direction": "benefit",
+          "pmids": [
+            "38579127"
+          ],
+          "quote": "Silymarin can regulate energy metabolism, attenuate liver damage, and improve liver histology in NAFLD patients.",
+          "quote_pmid": "38579127"
+        },
+        {
+          "outcome": "liver-related mortality in cirrhosis",
+          "direction": "benefit",
+          "pmids": [
+            "32065376"
+          ],
+          "quote": "In a pooled analysis of trials in patients with cirrhosis, silymarin treatment was associated with a significant reduction in liver-related deaths.",
+          "quote_pmid": "32065376"
+        },
+        {
+          "outcome": "liver enzymes (alt/ast)",
+          "direction": "no_effect",
+          "pmids": [
+            "28785154",
+            "25247194"
+          ],
+          "quote": "Silymarin minimally reduced, but without clinical relevance, the serum levels of ALT and AST.",
+          "quote_pmid": "28785154"
+        },
+        {
+          "outcome": "glycemic control in type 2 diabetes",
+          "direction": "unclear",
+          "pmids": [
+            "21843614"
+          ],
+          "quote": "Given the limitations of the available studies and high heterogeneity of the study results for milk thistle and fenugreek, further high quality, large controlled trials using standardized preparation are warranted to better elucidate the effects of these herbs on glycemic control in type 2 diabetes patients.",
+          "quote_pmid": "21843614"
+        },
+        {
+          "outcome": "antiretroviral drug levels",
+          "direction": "harm",
+          "pmids": [
+            "27655839"
+          ],
+          "quote": "Calcium carbonate, ferrous fumarate, some forms of ginkgo, some forms of garlic, some forms of milk thistle, St. John's wort, vitamin C, zinc sulfate, and multivitamins were all found to significantly decrease the levels of selected antiretrovirals and should be avoided in patients taking these antiretrovirals.",
+          "quote_pmid": "27655839"
+        },
+        {
+          "outcome": "ocd symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "21620478"
+          ],
+          "quote": "While several studies were positive, these were un-replicated and commonly used small samples.",
+          "quote_pmid": "21620478"
+        }
+      ]
+    },
     "N-Acetyl-L-Cysteine": {
       "substance": "N-Acetyl-L-Cysteine",
       "counts": {
@@ -21464,6 +22134,302 @@
       ]
     },
     "Vitamin K (as Vitamin K2 (Menatetrenone))": {
+      "substance": "Vitamin K2",
+      "counts": {
+        "systematic": 16,
+        "rct": 51,
+        "human_trial": 60,
+        "all": 189
+      },
+      "pmids": [
+        "36033779",
+        "32219282",
+        "18830045",
+        "38282652",
+        "35711002"
+      ],
+      "query": "\"Vitamin K2\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-03T05:52:00.195974+00:00",
+      "outcomes": [
+        {
+          "outcome": "insulin resistance (homa-ir)",
+          "direction": "benefit",
+          "pmids": [
+            "38282652",
+            "41599883"
+          ],
+          "quote": "vitamin K supplementation can reduce homeostatic model assessment insulin resistance (HOMA-IR) (WMD: -0⋅24, 95 % CI: -0⋅49, -0⋅02, P = 0⋅047) significantly compared to the placebo group.",
+          "quote_pmid": "38282652"
+        },
+        {
+          "outcome": "fasting blood glucose",
+          "direction": "benefit",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "significant reduction in FBG, SMD = -0.22 (-0.39 to -0.05)",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "hba1c",
+          "direction": "benefit",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "HbA1c, MD = -1.00%, 95% CI (-1.92 to -0.07)",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "insulin",
+          "direction": "no_effect",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "no effect was observed on insulin (SMD = -0.39, 95% CI: -0.91 to 0.13, p = 0.15)",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "homa-β",
+          "direction": "no_effect",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "HOMA-β (MD = 6.56, 95% CI (-3.89 to 17.01), p = 0.2184",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "lipid profile and other cardiovascular risk factors",
+          "direction": "no_effect",
+          "pmids": [
+            "38282652"
+          ],
+          "quote": "We demonstrated that supplementation with vitamin K has no effect on anthropometrics indexes, CRP, glucose metabolism, and lipid profile factors except HOMA-IR.",
+          "quote_pmid": "38282652"
+        },
+        {
+          "outcome": "bone turnover markers (osteocalcin/ucoc)",
+          "direction": "benefit",
+          "pmids": [
+            "41268154"
+          ],
+          "quote": "Vitamin K2 supplementation improves key bone turnover biomarkers, particularly OC and ucOC.",
+          "quote_pmid": "41268154"
+        },
+        {
+          "outcome": "bone mineral density",
+          "direction": "benefit",
+          "pmids": [
+            "36033779"
+          ],
+          "quote": "VK2 supplementation has a positive effect on the maintenance and improvement of BMD LS in postmenopausal women",
+          "quote_pmid": "36033779"
+        },
+        {
+          "outcome": "fracture incidence",
+          "direction": "benefit",
+          "pmids": [
+            "36033779"
+          ],
+          "quote": "it can also reduce the fracture incidence, serum uc-OC levels and the ratio of uc-OC to cOC.",
+          "quote_pmid": "36033779"
+        },
+        {
+          "outcome": "hepatocellular carcinoma recurrence and mortality",
+          "direction": "benefit",
+          "pmids": [
+            "41388930"
+          ],
+          "quote": "This study suggests substantial benefits associated with VK supplementation in HCC patients, particularly in reducing DR and mortality across one, two, and three years.",
+          "quote_pmid": "41388930"
+        },
+        {
+          "outcome": "disease-free survival after liver cancer treatment",
+          "direction": "benefit",
+          "pmids": [
+            "21163409"
+          ],
+          "quote": "There is evidence to suggest that chemopreventive therapy after partial hepatectomy or local ablative therapy is beneficial in prolonging disease-free survival, but the evidence is less for an effect on the overall survival.",
+          "quote_pmid": "21163409"
+        },
+        {
+          "outcome": "overall survival after liver cancer treatment",
+          "direction": "unclear",
+          "pmids": [
+            "21163409"
+          ],
+          "quote": "There is evidence to suggest that chemopreventive therapy after partial hepatectomy or local ablative therapy is beneficial in prolonging disease-free survival, but the evidence is less for an effect on the overall survival.",
+          "quote_pmid": "21163409"
+        },
+        {
+          "outcome": "depressive symptoms",
+          "direction": "unclear",
+          "pmids": [
+            "40428819"
+          ],
+          "quote": "the current evidence is limited by cross-sectional designs, lack of isoform-specific analyses, and the absence of depression-focused preclinical models.",
+          "quote_pmid": "40428819"
+        },
+        {
+          "outcome": "coronary heart disease risk",
+          "direction": "unclear",
+          "pmids": [
+            "20850029"
+          ],
+          "quote": "Currently there is no evidence for an effect of vitamin K1, but results for vitamin K2 look promising.",
+          "quote_pmid": "20850029"
+        },
+        {
+          "outcome": "primary prevention of cardiovascular disease",
+          "direction": "unclear",
+          "pmids": [
+            "26389791"
+          ],
+          "quote": "The very limited results of this review highlight the lack of evidence currently available to determine the effectiveness of vitamin K supplementation for the primary prevention of cardiovascular disease, and demonstrate the need for further high quality trials in this area.",
+          "quote_pmid": "26389791"
+        }
+      ]
+    },
+    "K1": {
+      "substance": "Vitamin K1",
+      "counts": {
+        "systematic": 9,
+        "rct": 52,
+        "human_trial": 67,
+        "all": 261
+      },
+      "pmids": [
+        "18830045",
+        "38282652",
+        "28403946",
+        "38652023",
+        "20850029"
+      ],
+      "query": "\"Vitamin K1\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-02T23:31:36.491631+00:00",
+      "outcomes": [
+        {
+          "outcome": "fasting blood glucose",
+          "direction": "benefit",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "The evidence showed a significant reduction in FBG, SMD = -0.22 (-0.39 to -0.05),",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "hba1c",
+          "direction": "benefit",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "HbA1c, MD = -1.00%, 95% CI (-1.92 to -0.07)",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "homa-ir",
+          "direction": "benefit",
+          "pmids": [
+            "41599883",
+            "38282652"
+          ],
+          "quote": "vitamin K supplementation can reduce homeostatic model assessment insulin resistance (HOMA-IR) (WMD: -0⋅24, 95 % CI: -0⋅49, -0⋅02, P = 0⋅047) significantly compared to the placebo group.",
+          "quote_pmid": "38282652"
+        },
+        {
+          "outcome": "insulin",
+          "direction": "no_effect",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "no effect was observed on insulin (SMD = -0.39, 95% CI: -0.91 to 0.13, p = 0.15)",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "homa-beta",
+          "direction": "no_effect",
+          "pmids": [
+            "41599883"
+          ],
+          "quote": "HOMA-β (MD = 6.56, 95% CI (-3.89 to 17.01), p = 0.2184",
+          "quote_pmid": "41599883"
+        },
+        {
+          "outcome": "cardiovascular risk factors",
+          "direction": "no_effect",
+          "pmids": [
+            "38282652"
+          ],
+          "quote": "We demonstrated that supplementation with vitamin K has no effect on anthropometrics indexes, CRP, glucose metabolism, and lipid profile factors except HOMA-IR.",
+          "quote_pmid": "38282652"
+        },
+        {
+          "outcome": "bone mineral density",
+          "direction": "unclear",
+          "pmids": [
+            "34649591",
+            "28403946",
+            "18830045"
+          ],
+          "quote": "Several observational and interventional studies have examined the relationship between vitamin K and bone metabolism, but findings are conflicting and unclear.",
+          "quote_pmid": "28403946"
+        },
+        {
+          "outcome": "fracture incidence",
+          "direction": "benefit",
+          "pmids": [
+            "18830045"
+          ],
+          "quote": "supplementation with phytonadione (Vitamin K1) and menaquinone (Vitamin K2) , particularly menaquinone-4, is associated with increased BMD and reduced fracture incidence.",
+          "quote_pmid": "18830045"
+        },
+        {
+          "outcome": "anticoagulation stability with vkas",
+          "direction": "no_effect",
+          "pmids": [
+            "26962786"
+          ],
+          "quote": "Restriction of dietary vitamin K intake does not seem to be a valid strategy to improve anticoagulation quality with VKAs.",
+          "quote_pmid": "26962786"
+        },
+        {
+          "outcome": "vitamin k deficiency bleeding of the newborn",
+          "direction": "benefit",
+          "pmids": [
+            "21111646"
+          ],
+          "quote": "There is sufficient evidence to support the effectiveness of a single intramuscular dose of vitamin K to prevent the classic form of HDN.",
+          "quote_pmid": "21111646"
+        },
+        {
+          "outcome": "coronary heart disease",
+          "direction": "no_effect",
+          "pmids": [
+            "20850029"
+          ],
+          "quote": "No associations were found between vitamin K1 intake and coronary heart disease (CHD) (4 cohorts) or stroke (2 cohorts) in multivariate analyses.",
+          "quote_pmid": "20850029"
+        },
+        {
+          "outcome": "stroke",
+          "direction": "no_effect",
+          "pmids": [
+            "20850029"
+          ],
+          "quote": "No associations were found between vitamin K1 intake and coronary heart disease (CHD) (4 cohorts) or stroke (2 cohorts) in multivariate analyses.",
+          "quote_pmid": "20850029"
+        },
+        {
+          "outcome": "diabetes prevalence",
+          "direction": "no_effect",
+          "pmids": [
+            "20850029"
+          ],
+          "quote": "No differences were seen in the prevalence of diabetes in a trial of vitamin K1 supplementation.",
+          "quote_pmid": "20850029"
+        }
+      ]
+    },
+    "K2": {
       "substance": "Vitamin K2",
       "counts": {
         "systematic": 16,
@@ -28202,6 +29168,198 @@
       "pmids": [],
       "query": "\"Ashwagandha Root\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
       "fetched_at": "2026-09-02T23:39:36.641493+00:00"
+    },
+    "Curcuminoids": {
+      "substance": "Curcumin",
+      "counts": {
+        "systematic": 188,
+        "rct": 279,
+        "human_trial": 312,
+        "all": 1512
+      },
+      "pmids": [
+        "29018060",
+        "36804260",
+        "34017975",
+        "35311615",
+        "35935936"
+      ],
+      "query": "\"Curcumin\" AND humans[mesh] AND (dietary supplements[mesh] OR supplementation OR oral administration)",
+      "fetched_at": "2026-09-03T00:09:31.210474+00:00",
+      "outcomes": [
+        {
+          "outcome": "oxidative stress markers",
+          "direction": "benefit",
+          "pmids": [
+            "36804260"
+          ],
+          "quote": "turmeric/curcumin supplementation significantly improved anti-oxidant activity through enhancing TAC",
+          "quote_pmid": "36804260"
+        },
+        {
+          "outcome": "exercise recovery and performance",
+          "direction": "unclear",
+          "pmids": [
+            "42356379"
+          ],
+          "quote": "Evidence for muscle damage, inflammation, subjective recovery, fatigue, and performance remains inconsistent",
+          "quote_pmid": "42356379"
+        },
+        {
+          "outcome": "muscle soreness",
+          "direction": "benefit",
+          "pmids": [
+            "42197097"
+          ],
+          "quote": "beneficial trends for perceptual outcomes, particularly reduced muscle soreness and improved subjective well-being, were mainly observed in studies using tart cherry juice, beetroot juice, and curcumin",
+          "quote_pmid": "42197097"
+        },
+        {
+          "outcome": "disability in multiple sclerosis",
+          "direction": "unclear",
+          "pmids": [
+            "42356263"
+          ],
+          "quote": "Nanocurcumin may contribute to improvements in disability outcomes in Relapse Remitting Multiple Sclerosis (RRMS), whereas other polyphenols lack consistent efficacy.",
+          "quote_pmid": "42356263"
+        },
+        {
+          "outcome": "bone mineral density",
+          "direction": "benefit",
+          "pmids": [
+            "42352378"
+          ],
+          "quote": "synbiotics, soy isoflavones, naringin, curcumin, and resveratrol effectively improve bone mineral density, restore gut microbiota balance, and inhibit pathological bone resorption via the gut-bone axis",
+          "quote_pmid": "42352378"
+        },
+        {
+          "outcome": "body weight",
+          "direction": "benefit",
+          "pmids": [
+            "42280140",
+            "42116302"
+          ],
+          "quote": "Curcumin supplementation was associated with decreases in body weight (up to 0.82 kg), BMI (up to 0.30 kg/m2), triglycerides, total cholesterol, and fasting glucose levels.",
+          "quote_pmid": "42280140"
+        },
+        {
+          "outcome": "bmi",
+          "direction": "unclear",
+          "pmids": [
+            "42116302"
+          ],
+          "quote": "Curcumin supplementation may result in a statistically detectable but clinically modest reduction in body weight in patients with MAFLD, while showing limited or no efficacy on BMI and waist circumference.",
+          "quote_pmid": "42116302"
+        },
+        {
+          "outcome": "waist circumference",
+          "direction": "no_effect",
+          "pmids": [
+            "42116302"
+          ],
+          "quote": "showing limited or no efficacy on BMI and waist circumference",
+          "quote_pmid": "42116302"
+        },
+        {
+          "outcome": "triglycerides",
+          "direction": "benefit",
+          "pmids": [
+            "42280140"
+          ],
+          "quote": "Curcumin supplementation was associated with decreases in body weight (up to 0.82 kg), BMI (up to 0.30 kg/m2), triglycerides, total cholesterol, and fasting glucose levels.",
+          "quote_pmid": "42280140"
+        },
+        {
+          "outcome": "total cholesterol",
+          "direction": "benefit",
+          "pmids": [
+            "42280140"
+          ],
+          "quote": "Curcumin supplementation was associated with decreases in body weight (up to 0.82 kg), BMI (up to 0.30 kg/m2), triglycerides, total cholesterol, and fasting glucose levels.",
+          "quote_pmid": "42280140"
+        },
+        {
+          "outcome": "fasting glucose",
+          "direction": "benefit",
+          "pmids": [
+            "42280140"
+          ],
+          "quote": "Curcumin supplementation was associated with decreases in body weight (up to 0.82 kg), BMI (up to 0.30 kg/m2), triglycerides, total cholesterol, and fasting glucose levels.",
+          "quote_pmid": "42280140"
+        },
+        {
+          "outcome": "glycemic control",
+          "direction": "no_effect",
+          "pmids": [
+            "42171191"
+          ],
+          "quote": "Current evidence suggests that short-term nanocurcumin supplementation does not significantly improve glycemic control, lipid profile or systemic inflammation in patients with T2DM.",
+          "quote_pmid": "42171191"
+        },
+        {
+          "outcome": "lipid profile in type 2 diabetes",
+          "direction": "no_effect",
+          "pmids": [
+            "42171191"
+          ],
+          "quote": "Current evidence suggests that short-term nanocurcumin supplementation does not significantly improve glycemic control, lipid profile or systemic inflammation in patients with T2DM.",
+          "quote_pmid": "42171191"
+        },
+        {
+          "outcome": "inflammatory markers",
+          "direction": "benefit",
+          "pmids": [
+            "36804260"
+          ],
+          "quote": "turmeric/curcumin supplementation significantly reduces levels of inflammatory markers, including CRP (WMD: -0.58 mg/l, 95 % CI: -0.74, -0.41), TNF-α (WMD: -3.48 pg/ml, 95 % CI: -4.38, -2.58), and IL-6 (WMD: -1.31 pg/ml, 95 % CI: -1.58, -0.67)",
+          "quote_pmid": "36804260"
+        },
+        {
+          "outcome": "il-1β",
+          "direction": "no_effect",
+          "pmids": [
+            "36804260"
+          ],
+          "quote": "except for IL-1β (WMD: -0.46 pg/ml, 95 % CI: -1.18, 0.27) for which no significant change was found",
+          "quote_pmid": "36804260"
+        },
+        {
+          "outcome": "periodontal pocket depth",
+          "direction": "benefit",
+          "pmids": [
+            "42260483"
+          ],
+          "quote": "Locally delivered curcumin/turmeric-derived formulations used adjunctively with SRP may provide a modest improvement in PPD reduction",
+          "quote_pmid": "42260483"
+        },
+        {
+          "outcome": "lower urinary tract symptoms in bph",
+          "direction": "benefit",
+          "pmids": [
+            "42247029"
+          ],
+          "quote": "Curcumin supplementation was associated with significant improvement in LUTS and functional parameters in men with BPH.",
+          "quote_pmid": "42247029"
+        },
+        {
+          "outcome": "arthritis symptoms",
+          "direction": "benefit",
+          "pmids": [
+            "35935936"
+          ],
+          "quote": "Curcumin and Curcuma longa Extract may improve symptoms and inflammation levels in people with arthritis.",
+          "quote_pmid": "35935936"
+        },
+        {
+          "outcome": "osteoarthritis",
+          "direction": "benefit",
+          "pmids": [
+            "34017975"
+          ],
+          "quote": "Curcuma longa extract and curcumin may be a safer and effective supplement for OA patients.",
+          "quote_pmid": "34017975"
+        }
+      ]
     },
     "Passionflower Leaf, Stem and Flower Extract": {
       "substance": "Passiflora incarnata",

@@ -3380,7 +3380,7 @@
         "Stress",
         "Heart Health"
       ],
-      "score": 91,
+      "score": 93,
       "grade": "A+",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-ashwagandha-extract-powder-minimum-9-withanolides/primary.webp?v=0b35d893",
       "gallery_images": [
@@ -3425,10 +3425,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 95,
-          "weighted_score": 38.0,
+          "raw_score": 100,
+          "weighted_score": 40.0,
           "explanations": [
-            "Evidence grades: A(1)"
+            "Evidence grades: A(1)",
+            "Review conclusions: 72% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 100"
           ],
           "improvements": [],
           "issues": [],
@@ -3526,7 +3527,7 @@
         "Sleep",
         "Stress"
       ],
-      "score": 91,
+      "score": 93,
       "grade": "A+",
       "image_url": "/images/products/nootropics-depot/nootropics-depot-ashwagandha-extract-tablets/primary.webp?v=1fdb1deb",
       "gallery_images": [
@@ -3577,10 +3578,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 95,
-          "weighted_score": 38.0,
+          "raw_score": 100,
+          "weighted_score": 40.0,
           "explanations": [
-            "Evidence grades: A(1)"
+            "Evidence grades: A(1)",
+            "Review conclusions: 72% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 100"
           ],
           "improvements": [],
           "issues": [],
@@ -13675,7 +13677,7 @@
           "weighted_score": 37.2,
           "explanations": [
             "Evidence grades: A(5)",
-            "Review conclusions: 36% of measured outcomes showed a benefit (43% of ingredients covered) — evidence 95 -> 93"
+            "Review conclusions: 41% of measured outcomes showed a benefit (71% of ingredients covered) — evidence 95 -> 93"
           ],
           "improvements": [],
           "issues": [],
@@ -42927,10 +42929,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 95,
-          "weighted_score": 38.0,
+          "raw_score": 94,
+          "weighted_score": 37.6,
           "explanations": [
-            "Evidence grades: A(4)"
+            "Evidence grades: A(4)",
+            "Review conclusions: 47% of measured outcomes showed a benefit (50% of ingredients covered) — evidence 95 -> 94"
           ],
           "improvements": [],
           "issues": [],
@@ -51243,12 +51246,12 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 89,
-          "weighted_score": 35.6,
+          "raw_score": 90,
+          "weighted_score": 36.0,
           "explanations": [
             "6 Grade A, 4 Grade B ingredients",
             "Evidence grades: A(6), B(4), C(1)",
-            "Review conclusions: 47% of measured outcomes showed a benefit (55% of ingredients covered) — evidence 90 -> 89"
+            "Review conclusions: 49% of measured outcomes showed a benefit (64% of ingredients covered)"
           ],
           "improvements": [],
           "issues": [],
