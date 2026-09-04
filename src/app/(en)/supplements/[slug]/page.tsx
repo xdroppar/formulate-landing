@@ -22,6 +22,9 @@ import {
   evidenceProfileFor,
   evidenceSummary,
   pubmedSearchUrl,
+  pubmedAbstractUrl,
+  topOutcomes,
+  directionLabel,
 } from "@/lib/evidence-profiles";
 import { PageConversion } from "@/components/page-conversion";
 import { AppCtaCard } from "@/components/app-cta-card";
@@ -194,6 +197,46 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
                       >
                         {summary}
                       </a>
+                    );
+                  })()}
+                  {(() => {
+                    // What those reviews CONCLUDED, per outcome. The counts
+                    // above cannot say this: an ingredient is never good or bad
+                    // on its own, it is effective FOR something, and the same
+                    // substance earns different verdicts on different outcomes.
+                    // Each row links the abstract its quote came from.
+                    const p = evidenceProfileFor(ing.name);
+                    const outs = p ? topOutcomes(p) : [];
+                    if (!outs.length) return null;
+                    return (
+                      <ul className="mt-1.5 space-y-0.5">
+                        {outs.map((o) => (
+                          <li key={`${o.outcome}-${o.quote_pmid}`} className="text-xs leading-snug">
+                            <a
+                              href={pubmedAbstractUrl(o.quote_pmid)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="underline-offset-4 hover:underline"
+                              title={o.quote}
+                            >
+                              <span
+                                className={
+                                  o.direction === "benefit"
+                                    ? "text-emerald-600 dark:text-emerald-400"
+                                    : o.direction === "harm"
+                                      ? "text-rose-600 dark:text-rose-400"
+                                      : o.direction === "no_effect"
+                                        ? "text-amber-600 dark:text-amber-400"
+                                        : "text-muted"
+                                }
+                              >
+                                {directionLabel(o.direction)}
+                              </span>
+                              <span className="text-muted"> · {o.outcome}</span>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
                     );
                   })()}
                 </td>

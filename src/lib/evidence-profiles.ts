@@ -28,7 +28,64 @@ export type EvidenceProfile = {
   /** Present when the row asserts a genuine absence rather than a count. */
   resolution?: "true_low" | "rejected";
   resolution_reason?: string;
+  /**
+   * What the systematic reviews CONCLUDED, per outcome. This is the one thing
+   * the counts above cannot give: an ingredient is never good or bad on its
+   * own, it is effective FOR something, and the same substance routinely earns
+   * different verdicts on different outcomes. Every row quotes a sentence
+   * verified to occur in the abstract of the PMID it cites.
+   */
+  outcomes?: EvidenceOutcome[];
 };
+
+export type EvidenceOutcome = {
+  /** What was MEASURED — "muscle strength", never a verdict. */
+  outcome: string;
+  direction: "benefit" | "no_effect" | "harm" | "unclear";
+  pmids: string[];
+  quote: string;
+  quote_pmid: string;
+};
+
+/**
+ * Outcomes worth showing, strongest signal first, capped.
+ *
+ * `benefit` and `no_effect` are both real findings and lead. `unclear` is
+ * shown last and only to fill the list: "the evidence is mixed" is honest but
+ * it is not what a reader came for, and a wall of it buries the two rows that
+ * actually say something.
+ */
+const DIRECTION_RANK: Record<EvidenceOutcome["direction"], number> = {
+  benefit: 0,
+  no_effect: 1,
+  harm: 2,
+  unclear: 3,
+};
+
+export function topOutcomes(p: EvidenceProfile, limit = 4): EvidenceOutcome[] {
+  if (!p.outcomes?.length) return [];
+  return [...p.outcomes]
+    .sort((a, b) => DIRECTION_RANK[a.direction] - DIRECTION_RANK[b.direction])
+    .slice(0, limit);
+}
+
+/** Plain-language label for a direction. Never a grade, never a score. */
+export function directionLabel(d: EvidenceOutcome["direction"]): string {
+  switch (d) {
+    case "benefit":
+      return "benefit";
+    case "no_effect":
+      return "no effect found";
+    case "harm":
+      return "harm";
+    default:
+      return "unclear";
+  }
+}
+
+export function pubmedAbstractUrl(pmid: string): string {
+  return `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`;
+}
 
 const PROFILES = (raw as { profiles: Record<string, EvidenceProfile> }).profiles;
 
