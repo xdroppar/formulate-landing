@@ -10,7 +10,7 @@ import { ScoreMeter } from "@/components/score-meter";
 
 /* ── Score ring (SVG) ──────────────────────────────────────────── */
 
-function ScoreRing({ score }: { score: number }) {
+function ScoreRing({ score }: { score: number | null }) {
   // Delegates to the shared ScoreMeter so every score across the site renders
   // with one visual language.
   return <ScoreMeter score={score} size={48} strokeWidth={3} />;

@@ -32,7 +32,11 @@ interface ComparisonTableProps {
   data: Record<string, Record<string, string>>;
 }
 
-function scoreColor(score: number): string {
+function scoreColor(score: number | null): string {
+  // A product the catalog has not scored gets the muted ring, never a colour
+  // that implies a verdict. Guide scores are read from the catalog, so "no
+  // score yet" is a state this has to render rather than a case to exclude.
+  if (score == null) return "#94A3B8";
   if (score >= 85) return "#10B981";
   if (score >= 70) return "#3B82F6";
   if (score >= 55) return "#F59E0B";
