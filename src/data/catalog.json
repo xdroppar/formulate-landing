@@ -3,7 +3,7 @@
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
   "product_count": 315,
-  "brand_count": 33,
+  "brand_count": 32,
   "products": [
     {
       "id": "product:bulksupplements-acerola-cherry-extract-powder",
@@ -56737,14 +56737,14 @@
     {
       "slug": "thorne",
       "name": "Thorne",
-      "product_count": 314,
+      "product_count": 166,
       "avg_score": 88,
       "score": 94,
       "grade": "A",
       "confidence": "high",
       "components": {
         "integrity": 100,
-        "product_quality": 98,
+        "product_quality": 97,
         "innovation": 69,
         "transparency": 96,
         "verification": 100
@@ -56769,19 +56769,20 @@
       ],
       "top_category": "Amino Acids",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "momentous",
       "name": "Momentous",
-      "product_count": 6,
-      "avg_score": 94,
+      "product_count": 3,
+      "avg_score": 90,
       "score": 87,
       "grade": "B+",
       "confidence": "high",
       "components": {
         "integrity": 100,
-        "product_quality": 95,
+        "product_quality": 97,
         "innovation": 53,
         "transparency": 52,
         "verification": 100
@@ -56806,19 +56807,20 @@
       ],
       "top_category": "Minerals",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "prohealth-longevity",
       "name": "ProHealth Longevity",
-      "product_count": 4,
-      "avg_score": 90,
-      "score": 86,
+      "product_count": 2,
+      "avg_score": 86,
+      "score": 85,
       "grade": "B",
       "confidence": "high",
       "components": {
         "integrity": 90,
-        "product_quality": 100,
+        "product_quality": 96,
         "innovation": 54,
         "transparency": 96,
         "verification": 71
@@ -56843,13 +56845,14 @@
       ],
       "top_category": "longevity",
       "logo_url": null,
-      "provisional": true
+      "provisional": true,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "seed",
       "name": "Seed",
       "product_count": 4,
-      "avg_score": 83,
+      "avg_score": 81,
       "score": 82,
       "grade": "B-",
       "confidence": "high",
@@ -56880,13 +56883,14 @@
       ],
       "top_category": "Probiotics",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "nutricost",
       "name": "Nutricost",
-      "product_count": 57,
-      "avg_score": 93,
+      "product_count": 48,
+      "avg_score": 89,
       "score": 83,
       "grade": "B",
       "confidence": "high",
@@ -56917,19 +56921,20 @@
       ],
       "top_category": "Minerals",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "complement",
       "name": "Complement",
-      "product_count": 12,
-      "avg_score": 85,
-      "score": 78,
+      "product_count": 9,
+      "avg_score": 83,
+      "score": 77,
       "grade": "C+",
       "confidence": "high",
       "components": {
         "integrity": 85,
-        "product_quality": 87,
+        "product_quality": 85,
         "innovation": 45,
         "transparency": 78,
         "verification": 76
@@ -56954,13 +56959,14 @@
       ],
       "top_category": "Multivitamins",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "optimum-nutrition",
       "name": "Optimum Nutrition",
       "product_count": 1,
-      "avg_score": 92,
+      "avg_score": 90,
       "score": 78,
       "grade": "C+",
       "confidence": "high",
@@ -56991,13 +56997,14 @@
       ],
       "top_category": "Protein",
       "logo_url": null,
-      "provisional": true
+      "provisional": true,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "nootropics-depot",
       "name": "Nootropics Depot",
-      "product_count": 67,
-      "avg_score": 84,
+      "product_count": 49,
+      "avg_score": 87,
       "score": 82,
       "grade": "B-",
       "confidence": "high",
@@ -57028,13 +57035,14 @@
       ],
       "top_category": "Adaptogens",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "sports-research",
       "name": "Sports Research",
       "product_count": 5,
-      "avg_score": 83,
+      "avg_score": 90,
       "score": 82,
       "grade": "B-",
       "confidence": "high",
@@ -57065,22 +57073,23 @@
       ],
       "top_category": "Herbal Extracts",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "bulksupplements",
       "name": "BulkSupplements",
       "product_count": 7,
-      "avg_score": 86,
+      "avg_score": 85,
       "score": 74,
       "grade": "C",
       "confidence": "high",
       "components": {
-        "integrity": 84,
-        "product_quality": 94,
-        "innovation": 10,
-        "transparency": 88,
-        "verification": 57
+        "integrity": 77,
+        "product_quality": 95,
+        "innovation": 25,
+        "transparency": 91,
+        "verification": 55
       },
       "standout": null,
       "tags": [
@@ -57102,19 +57111,20 @@
       ],
       "top_category": "Adaptogens",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "ritual",
       "name": "Ritual",
       "product_count": 1,
-      "avg_score": 86,
+      "avg_score": 88,
       "score": 73,
       "grade": "C",
       "confidence": "high",
       "components": {
         "integrity": 64,
-        "product_quality": 91,
+        "product_quality": 90,
         "innovation": 45,
         "transparency": 91,
         "verification": 73
@@ -57139,13 +57149,14 @@
       ],
       "top_category": "Multivitamins",
       "logo_url": null,
-      "provisional": true
+      "provisional": true,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "transparent-labs",
       "name": "Transparent Labs",
-      "product_count": 29,
-      "avg_score": 91,
+      "product_count": 16,
+      "avg_score": 90,
       "score": 82,
       "grade": "B-",
       "confidence": "high",
@@ -57176,20 +57187,21 @@
       ],
       "top_category": "Adaptogens",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "megafood",
       "name": "MegaFood",
-      "product_count": 5,
-      "avg_score": 78,
-      "score": 78,
+      "product_count": 4,
+      "avg_score": 80,
+      "score": 77,
       "grade": "C+",
       "confidence": "high",
       "components": {
         "integrity": 90,
-        "product_quality": 86,
-        "innovation": 25,
+        "product_quality": 81,
+        "innovation": 29,
         "transparency": 96,
         "verification": 73
       },
@@ -57213,7 +57225,8 @@
       ],
       "top_category": "Multivitamins",
       "logo_url": null,
-      "provisional": false
+      "provisional": false,
+      "score_version": "brand_v2.8"
     },
     {
       "slug": "pure-encapsulations",
@@ -57473,21 +57486,6 @@
     {
       "slug": "standard-process",
       "name": "Standard Process",
-      "product_count": 0,
-      "avg_score": null,
-      "score": null,
-      "grade": null,
-      "confidence": null,
-      "components": null,
-      "standout": null,
-      "tags": [],
-      "top_category": null,
-      "logo_url": null,
-      "provisional": false
-    },
-    {
-      "slug": "bulk-supplements",
-      "name": "BulkSupplements.com",
       "product_count": 0,
       "avg_score": null,
       "score": null,
