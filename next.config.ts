@@ -38,6 +38,30 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       /**
+       * MegaFood was in the catalog under two brand spellings — "MegaFood"
+       * (slug megafood) and "MegaFood Inc." (slug megafood-inc) — which gave it
+       * two GID namespaces, two public brand grades (78/C+ and a provisional
+       * 75/C), and the SAME product twice at different scores: Blood Builder
+       * was 74 on one page and 85 on the other.
+       *
+       * The records are merged onto the canonical `megafood` slug, keeping the
+       * richer capture's ingredients (9 vs 4 for Blood Builder — it had the
+       * whole-food blend) together with the score computed FROM them. These
+       * three URLs were indexed, so they redirect permanently rather than 404;
+       * a merge that drops the traffic it consolidates is not a fix.
+       */
+      {
+        source: "/supplements/megafood-inc-blood-buildera-iron-supplement",
+        destination: "/supplements/megafood-blood-builder",
+        permanent: true,
+      },
+      {
+        source: "/supplements/megafood-inc-magnesium",
+        destination: "/supplements/megafood-magnesium",
+        permanent: true,
+      },
+      { source: "/brands/megafood-inc", destination: "/brands/megafood", permanent: true },
+      /**
        * Social-card URLs from before the route-group split.
        *
        * Adding a second root layout (for `<html lang>` on /es) forced Next to

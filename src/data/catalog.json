@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 319,
-  "brand_count": 34,
+  "product_count": 315,
+  "brand_count": 33,
   "products": [
     {
       "id": "product:bulksupplements-acerola-cherry-extract-powder",
@@ -1923,414 +1923,6 @@
       "is_draft": false,
       "variants": [],
       "score_gate_penalty": 8.75,
-      "score_version": "3.24"
-    },
-    {
-      "id": "product:megafood-inc_blood-buildera-iron-supplement",
-      "slug": "megafood-inc-blood-buildera-iron-supplement",
-      "brand": "MegaFood Inc.",
-      "brand_slug": "megafood-inc",
-      "name": "Blood Builderâ¢ Iron Supplement",
-      "category": "Minerals",
-      "category_tags": [
-        "Energy",
-        "Heart Health",
-        "Immune Support",
-        "Blood Sugar"
-      ],
-      "score": 85,
-      "grade": "A-",
-      "image_url": "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/primary.webp?v=3f87385d",
-      "gallery_images": [
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_1.webp?v=85dc0ed8",
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_2.webp?v=09c61355",
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_3.webp?v=fa441b56",
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_4.webp?v=a63cc20f",
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_5.webp?v=9f1d4f89",
-        "/images/products/megafood-inc/megafood-inc-blood-buildera-iron-supplement/gallery_6.webp?v=b40aacc9"
-      ],
-      "price_usd": 23.99,
-      "serving_size": "1 tablet",
-      "servings_per_container": 60,
-      "form": "tablet",
-      "ingredients": [
-        {
-          "name": "Organic brown rice",
-          "amount": null,
-          "unit": null,
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": null,
-          "dose_range_status": null,
-          "form_quality_score": 50,
-          "bar_percent": null,
-          "bar_reference": null
-        },
-        {
-          "name": "Organic orange",
-          "amount": null,
-          "unit": null,
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": null,
-          "dose_range_status": null,
-          "form_quality_score": 50,
-          "bar_percent": null,
-          "bar_reference": null
-        },
-        {
-          "name": "Organic broccoli",
-          "amount": null,
-          "unit": null,
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": null,
-          "dose_range_status": null,
-          "form_quality_score": 80,
-          "bar_percent": null,
-          "bar_reference": null
-        },
-        {
-          "name": "Organic beetroot",
-          "amount": 125.0,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": -1,
-          "dose_range_status": "not_applicable",
-          "form_quality_score": 50,
-          "bar_percent": null,
-          "bar_reference": null
-        },
-        {
-          "name": "Iron",
-          "amount": 26.0,
-          "unit": "mg",
-          "form_details": "fermented iron bisglycinate",
-          "daily_value_pct": 144.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 100,
-          "bar_percent": 148.6,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Vitamin B12",
-          "amount": 30.0,
-          "unit": "mcg",
-          "form_details": "cyanocobalamin",
-          "daily_value_pct": 1250.0,
-          "dose_score": 70,
-          "dose_range_status": "below_rda",
-          "form_quality_score": 70,
-          "bar_percent": 5.5,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Vitamin C",
-          "amount": 15.0,
-          "unit": "mg",
-          "form_details": "ascorbic acid",
-          "daily_value_pct": 17.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 80,
-          "bar_percent": 2.5,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Folate (as folic acid) DFE",
-          "amount": 680.0,
-          "unit": "mcg",
-          "form_details": null,
-          "daily_value_pct": 170.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 70,
-          "bar_percent": 64.8,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Food Blend",
-          "amount": 30.0,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": 70,
-          "dose_range_status": "below_rda",
-          "form_quality_score": 50,
-          "bar_percent": 10.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "supplement_facts": [],
-      "other_ingredients": [
-        "Ferment media (rice protein, autolyzed yeast extract, organic brown rice, yeast [inactive])",
-        "Rice protein",
-        "Autolyzed yeast",
-        "Stearic acid",
-        "Silicon dioxide",
-        "Hypromellose"
-      ],
-      "certifications": [
-        "Gluten Free",
-        "Non-GMO",
-        "Vegan",
-        "Vegetarian",
-        "Kosher",
-        "Organic"
-      ],
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 96,
-          "weighted_score": 38.4,
-          "explanations": [
-            "Evidence grades: A(4)",
-            "Review conclusions: 53% of measured outcomes showed a benefit (44% of ingredients covered) — evidence 95 -> 96"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 78,
-          "weighted_score": 27.3,
-          "explanations": [
-            "2 ingredients at optimal doses",
-            "1 ingredient below recommended dose",
-            "1 ingredient severely below recommended dose",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 80,
-          "weighted_score": 20.0,
-          "explanations": [
-            "1 clinical: Iron",
-            "1 good: Vitamin C",
-            "2 basic: Vitamin B12, Folate",
-            "Good form quality - mostly bioavailable forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "No significant safety concerns"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "explanation": null,
-      "description": "Low in energy? You could be low in iron. Blood Builder® is a vegan iron supplement clinically shown to increase iron levels without nausea or constipation.††",
-      "overview": "MegaFood Inc. Blood Builderâ¢ Iron Supplement — tablet format. Contains Organic brown rice, Organic orange, Organic broccoli, Organic beetroot and 5 more. Supports: Energy, Heart Health, Immune Support, Blood Sugar. Gluten Free, Non-GMO, Vegan certified.",
-      "warnings": "These statements have not been evaluated by the Food and Drug Administration.",
-      "recommended_use": "1 tablet daily.\nMay be taken anytime throughout the day, even on an empty stomach.",
-      "amazon_url": "https://www.amazon.com/s?k=MegaFood+Inc.+Blood+Builder%C3%A2%C2%84%C2%A2+Iron+Supplement&tag=formulate00-20",
-      "iherb_url": null,
-      "url": "https://www.megafood.com/products/blood-builder",
-      "is_draft": false,
-      "variants": [],
-      "score_gate_penalty": 0.25,
-      "score_version": "3.24"
-    },
-    {
-      "id": "product:megafood-inc_magnesium",
-      "slug": "megafood-inc-magnesium",
-      "brand": "MegaFood Inc.",
-      "brand_slug": "megafood-inc",
-      "name": "Magnesium",
-      "category": "Minerals",
-      "category_tags": [
-        "Detox",
-        "Immune Support",
-        "Bone Support",
-        "Liver Support"
-      ],
-      "score": 82,
-      "grade": "A-",
-      "image_url": "/images/products/megafood-inc/megafood-inc-magnesium/primary.webp?v=fb2d2d17",
-      "gallery_images": [
-        "/images/products/megafood-inc/megafood-inc-magnesium/gallery_1.webp?v=774c2599",
-        "/images/products/megafood-inc/megafood-inc-magnesium/gallery_2.webp?v=568e9f02",
-        "/images/products/megafood-inc/megafood-inc-magnesium/gallery_3.webp?v=00ce6344",
-        "/images/products/megafood-inc/megafood-inc-magnesium/gallery_4.webp?v=9c2d35d4"
-      ],
-      "price_usd": 19.98,
-      "serving_size": "1 tablet",
-      "servings_per_container": 60,
-      "form": "tablet",
-      "ingredients": [
-        {
-          "name": "Magnesium",
-          "amount": 50.0,
-          "unit": "mg",
-          "form_details": "fermented magnesium bisglycinate",
-          "daily_value_pct": 12.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 100,
-          "bar_percent": 11.1,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Organic spinach leaf",
-          "amount": 50.0,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": -1,
-          "dose_range_status": "not_applicable",
-          "form_quality_score": 85,
-          "bar_percent": null,
-          "bar_reference": null
-        }
-      ],
-      "supplement_facts": [],
-      "other_ingredients": [
-        "Ferment media (organic brown rice, rice protein, autolyzed yeast extract, yeast [inactive])",
-        "Microcrystalline cellulose",
-        "Stearic acid",
-        "Hypromellose",
-        "Silicon dioxide"
-      ],
-      "certifications": [
-        "Gluten Free",
-        "Non-GMO",
-        "Vegan",
-        "Kosher",
-        "Organic"
-      ],
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 95,
-          "weighted_score": 38.0,
-          "explanations": [
-            "Evidence grades: A(1)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 60,
-          "weighted_score": 21.0,
-          "explanations": [
-            "1 ingredient severely below recommended dose",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 92,
-          "weighted_score": 23.0,
-          "explanations": [
-            "1 clinical: Magnesium",
-            "1 good: Organic spinach leaf",
-            "Excellent form quality - premium bioavailable forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (2 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "explanation": null,
-      "description": "Our vegan & gluten-free magnesium supplement promotes a healthy heart, nervous system, & muscle relaxation.† Features 50 mg of magnesium per tablet.",
-      "overview": "MegaFood Inc. Magnesium — tablet format. Contains Magnesium, Organic spinach leaf. Supports: Detox, Immune Support, Bone Support, Liver Support. Gluten Free, Non-GMO, Vegan certified.",
-      "warnings": "These statements have not been evaluated by the Food and Drug Administration.",
-      "recommended_use": "Adults, take 1 tablet daily with a beverage.\nMay be taken any time of day, even on an empty stomach.",
-      "amazon_url": "https://www.amazon.com/s?k=MegaFood+Inc.+Magnesium&tag=formulate00-20",
-      "iherb_url": "https://www.iherb.com/pr/megafood-relax-calm-magnesium-soft-chews-grape-30-individually-wrapped-soft-chews-125-mg-per-chew/102265",
-      "url": "https://www.megafood.com/products/magnesium",
-      "is_draft": false,
-      "variants": [],
-      "score_gate_penalty": 0.25,
       "score_version": "3.24"
     },
     {
@@ -49912,7 +49504,7 @@
         "Immune Support",
         "Blood Sugar"
       ],
-      "score": 74,
+      "score": 85,
       "grade": "A-",
       "image_url": "/images/products/megafood/megafood-blood-builder/primary.webp?v=c20cd93a",
       "gallery_images": [
@@ -49928,23 +49520,83 @@
       "form": "tablet",
       "ingredients": [
         {
+          "name": "Organic brown rice",
+          "amount": null,
+          "unit": null,
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": null,
+          "dose_range_status": null,
+          "form_quality_score": 50,
+          "bar_percent": null,
+          "bar_reference": null
+        },
+        {
+          "name": "Organic orange",
+          "amount": null,
+          "unit": null,
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": null,
+          "dose_range_status": null,
+          "form_quality_score": 50,
+          "bar_percent": null,
+          "bar_reference": null
+        },
+        {
+          "name": "Organic broccoli",
+          "amount": null,
+          "unit": null,
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": null,
+          "dose_range_status": null,
+          "form_quality_score": 80,
+          "bar_percent": null,
+          "bar_reference": null
+        },
+        {
+          "name": "Organic beetroot",
+          "amount": 125.0,
+          "unit": "mg",
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": -1,
+          "dose_range_status": "not_applicable",
+          "form_quality_score": 50,
+          "bar_percent": null,
+          "bar_reference": null
+        },
+        {
           "name": "Iron",
           "amount": 26.0,
           "unit": "mg",
-          "form_details": "FoodState nutrient",
-          "daily_value_pct": 144.4,
+          "form_details": "fermented iron bisglycinate",
+          "daily_value_pct": 144.0,
           "dose_score": 90,
           "dose_range_status": "optimal",
-          "form_quality_score": 70,
+          "form_quality_score": 100,
           "bar_percent": 148.6,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin B12",
+          "amount": 30.0,
+          "unit": "mcg",
+          "form_details": "cyanocobalamin",
+          "daily_value_pct": 1250.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 70,
+          "bar_percent": 5.5,
           "bar_reference": "TR"
         },
         {
           "name": "Vitamin C",
           "amount": 15.0,
           "unit": "mg",
-          "form_details": "FoodState",
-          "daily_value_pct": 16.7,
+          "form_details": "ascorbic acid",
+          "daily_value_pct": 17.0,
           "dose_score": 60,
           "dose_range_status": "severely_below",
           "form_quality_score": 80,
@@ -49952,10 +49604,10 @@
           "bar_reference": "TR"
         },
         {
-          "name": "Folate",
+          "name": "Folate (as folic acid) DFE",
           "amount": 680.0,
-          "unit": "mcg DFE",
-          "form_details": "FoodState",
+          "unit": "mcg",
+          "form_details": null,
           "daily_value_pct": 170.0,
           "dose_score": 90,
           "dose_range_status": "optimal",
@@ -49964,24 +49616,26 @@
           "bar_reference": "TR"
         },
         {
-          "name": "Vitamin B12",
-          "amount": 8.0,
-          "unit": "mcg",
-          "form_details": "FoodState",
-          "daily_value_pct": 333.3,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 70,
-          "bar_percent": 1.5,
+          "name": "Food Blend",
+          "amount": 30.0,
+          "unit": "mg",
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 50,
+          "bar_percent": 10.0,
           "bar_reference": "TR"
         }
       ],
       "supplement_facts": [],
       "other_ingredients": [
-        "Microcrystalline Cellulose",
-        "Stearic Acid",
-        "Silica",
-        "Cellulose Coating"
+        "Ferment media (rice protein, autolyzed yeast extract, organic brown rice, yeast [inactive])",
+        "Rice protein",
+        "Autolyzed yeast",
+        "Stearic acid",
+        "Silicon dioxide",
+        "Hypromellose"
       ],
       "certifications": [
         "Certified B Corp",
@@ -49993,10 +49647,11 @@
         {
           "name": "Evidence Quality",
           "weight": 0.4,
-          "raw_score": 95,
-          "weighted_score": 38.0,
+          "raw_score": 96,
+          "weighted_score": 38.4,
           "explanations": [
-            "Evidence grades: A(4)"
+            "Evidence grades: A(4)",
+            "Review conclusions: 53% of measured outcomes showed a benefit (44% of ingredients covered) — evidence 95 -> 96"
           ],
           "improvements": [],
           "issues": [],
@@ -50005,11 +49660,12 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 76,
-          "weighted_score": 26.6,
+          "raw_score": 78,
+          "weighted_score": 27.3,
           "explanations": [
             "2 ingredients at optimal doses",
-            "2 ingredients severely below recommended dose",
+            "1 ingredient below recommended dose",
+            "1 ingredient severely below recommended dose",
             "Reference coverage: 100%"
           ],
           "improvements": [],
@@ -50019,12 +49675,13 @@
         {
           "name": "Form/Bioavailability",
           "weight": 0.25,
-          "raw_score": 73,
-          "weighted_score": 18.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
           "explanations": [
+            "1 clinical: Iron",
             "1 good: Vitamin C",
-            "2 basic: Folate, Vitamin B12",
-            "Adequate form quality - standard forms"
+            "2 basic: Vitamin B12, Folate",
+            "Good form quality - mostly bioavailable forms"
           ],
           "improvements": [],
           "issues": [],
@@ -50048,7 +49705,7 @@
           "raw_score": 100,
           "weighted_score": 0.0,
           "explanations": [
-            "Focused formula (4 ingredients)"
+            "No significant safety concerns"
           ],
           "improvements": [],
           "issues": [],
@@ -50057,10 +49714,11 @@
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 50,
+          "raw_score": 84,
           "weighted_score": 0.0,
           "explanations": [
-            "No quality certifications verified"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
@@ -50077,7 +49735,7 @@
       "url": "https://www.megafood.com/products/blood-builder",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 8.75,
+      "score_gate_penalty": 0.25,
       "score_version": "3.24"
     },
     {
@@ -53435,8 +53093,8 @@
         "Stress",
         "Bone Support"
       ],
-      "score": 81,
-      "grade": "A",
+      "score": 82,
+      "grade": "A-",
       "image_url": "/images/products/megafood/megafood-magnesium/primary.webp?v=93722731",
       "gallery_images": [
         "/images/products/megafood/megafood-magnesium/gallery_1.webp?v=a6bc7c41",
@@ -53445,29 +53103,42 @@
         "/images/products/megafood/megafood-magnesium/gallery_4.webp?v=d148f338"
       ],
       "price_usd": 19.99,
-      "serving_size": "2 tablets",
+      "serving_size": "1 tablet",
       "servings_per_container": 60,
       "form": "tablet",
       "ingredients": [
         {
           "name": "Magnesium",
-          "amount": 300.0,
+          "amount": 50.0,
           "unit": "mg",
-          "form_details": "FoodState",
-          "daily_value_pct": 71.4,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 70,
-          "bar_percent": 66.7,
+          "form_details": "fermented magnesium bisglycinate",
+          "daily_value_pct": 12.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 100,
+          "bar_percent": 11.1,
           "bar_reference": "TR"
+        },
+        {
+          "name": "Organic spinach leaf",
+          "amount": 50.0,
+          "unit": "mg",
+          "form_details": null,
+          "daily_value_pct": null,
+          "dose_score": -1,
+          "dose_range_status": "not_applicable",
+          "form_quality_score": 85,
+          "bar_percent": null,
+          "bar_reference": null
         }
       ],
       "supplement_facts": [],
       "other_ingredients": [
-        "Microcrystalline Cellulose",
-        "Stearic Acid",
-        "Silica",
-        "Cellulose Coating"
+        "Ferment media (organic brown rice, rice protein, autolyzed yeast extract, yeast [inactive])",
+        "Microcrystalline cellulose",
+        "Stearic acid",
+        "Hypromellose",
+        "Silicon dioxide"
       ],
       "certifications": [
         "Certified B Corp",
@@ -53491,10 +53162,10 @@
         {
           "name": "Dose Adequacy",
           "weight": 0.35,
-          "raw_score": 95,
-          "weighted_score": 33.25,
+          "raw_score": 60,
+          "weighted_score": 21.0,
           "explanations": [
-            "1 ingredient at optimal doses",
+            "1 ingredient severely below recommended dose",
             "Reference coverage: 100%"
           ],
           "improvements": [],
@@ -53504,10 +53175,12 @@
         {
           "name": "Form/Bioavailability",
           "weight": 0.25,
-          "raw_score": 75,
-          "weighted_score": 18.75,
+          "raw_score": 92,
+          "weighted_score": 23.0,
           "explanations": [
-            "Form data not available for ingredients"
+            "1 clinical: Magnesium",
+            "1 good: Organic spinach leaf",
+            "Excellent form quality - premium bioavailable forms"
           ],
           "improvements": [],
           "issues": [],
@@ -53531,7 +53204,7 @@
           "raw_score": 100,
           "weighted_score": 0.0,
           "explanations": [
-            "Focused formula (1 ingredients)"
+            "Focused formula (2 ingredients)"
           ],
           "improvements": [],
           "issues": [],
@@ -53540,10 +53213,11 @@
         {
           "name": "Manufacturing Quality",
           "weight": 0.0,
-          "raw_score": 50,
+          "raw_score": 84,
           "weighted_score": 0.0,
           "explanations": [
-            "No quality certifications verified"
+            "Third-party tested",
+            "COA available"
           ],
           "improvements": [],
           "issues": [],
@@ -53560,7 +53234,7 @@
       "url": "https://www.megafood.com/products/magnesium",
       "is_draft": false,
       "variants": [],
-      "score_gate_penalty": 8.75,
+      "score_gate_penalty": 0.25,
       "score_version": "3.24"
     },
     {
@@ -57355,43 +57029,6 @@
       "top_category": "Adaptogens",
       "logo_url": null,
       "provisional": false
-    },
-    {
-      "slug": "megafood-inc",
-      "name": "MegaFood Inc.",
-      "product_count": 4,
-      "avg_score": 89,
-      "score": 75,
-      "grade": "C",
-      "confidence": "high",
-      "components": {
-        "integrity": 90,
-        "product_quality": 84,
-        "innovation": 34,
-        "transparency": 58,
-        "verification": 73
-      },
-      "standout": null,
-      "tags": [
-        {
-          "text": "Gold Standard",
-          "color": "#8B5CF6",
-          "icon": "🏅"
-        },
-        {
-          "text": "energy",
-          "color": "#6B7280",
-          "icon": ""
-        },
-        {
-          "text": "detox-liver",
-          "color": "#6B7280",
-          "icon": ""
-        }
-      ],
-      "top_category": "Magnesium",
-      "logo_url": null,
-      "provisional": true
     },
     {
       "slug": "sports-research",
