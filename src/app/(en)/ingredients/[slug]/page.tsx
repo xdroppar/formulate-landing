@@ -151,6 +151,36 @@ function interactionPairSlug(aCanonical: string, bCanonical: string): string | n
   return `${first}-and-${second}`;
 }
 
+
+/**
+ * Collapse near-duplicate label lists.
+ *
+ * Creatine listed ELEVEN primary uses including "Power output" and "Power",
+ * "Cognitive function" and "Cognition", "Muscle mass" and "Muscle" — the same
+ * concept twice, plus "Solubility", which is not a use. Its forms repeated
+ * "Capsules"/"Capsule" and "Powder"/"Monohydrate powder".
+ *
+ * Keeps the FIRST (more specific) spelling and drops any later entry that is a
+ * case-insensitive duplicate or a bare word already contained in one. Display
+ * only — the underlying data still needs deduping upstream, where it is shared
+ * with the app.
+ */
+function dedupeLabels<T>(items: T[], label: (x: T) => string): T[] {
+  const kept: T[] = [];
+  const seen: string[] = [];
+  for (const item of items) {
+    const raw = (label(item) || "").trim();
+    if (!raw) continue;
+    const key = raw.toLowerCase();
+    if (seen.some((s) => s === key || s.split(/\s+/).includes(key) || key.split(/\s+/).includes(s))) {
+      continue;
+    }
+    seen.push(key);
+    kept.push(item);
+  }
+  return kept;
+}
+
 export default async function IngredientPage({ params }: { params: Params }) {
   const { slug } = await params;
   const ing = ingredientBySlug(slug);
@@ -216,8 +246,14 @@ export default async function IngredientPage({ params }: { params: Params }) {
     ],
   };
 
+  // Widened from max-w-3xl. At 1400px this template used 768px and left the rest
+  // of the screen to the ambient decoration — the same dead-band problem the app
+  // fixed on /biomarkers. It is the most-read template on the site (ingredient
+  // pages carry 22.9% of views), and its densest sections are two-column grids
+  // that were being squeezed into half a screen. Prose still caps at a readable
+  // measure inside.
   return (
-    <main id="main-content" className="max-w-3xl mx-auto px-6 md:px-8 pt-28 pb-20">
+    <main id="main-content" className="max-w-[1100px] mx-auto px-6 md:px-8 pt-28 pb-20">
       <ReadingProgressBar />
       <script
         type="application/ld+json"
@@ -310,9 +346,17 @@ export default async function IngredientPage({ params }: { params: Params }) {
       {ing.primary_uses.length > 0 && (
         <section className="mb-10">
           <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Primary uses</h2>
-          <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
-            {ing.primary_uses.map((u, idx) => (
-              <li key={idx}>{u}</li>
+          {/* Chips rather than a bulleted column: these are one- and two-word
+              labels, and eleven of them stacked read as a long list of nothing
+              when they scan in a single line. */}
+          <ul className="flex flex-wrap gap-2">
+            {dedupeLabels(ing.primary_uses, (u) => u).map((u, idx) => (
+              <li
+                key={idx}
+                className="text-[14px] text-text bg-white/[0.03] border border-border rounded-full px-3 py-1.5"
+              >
+                {u}
+              </li>
             ))}
           </ul>
         </section>
@@ -321,9 +365,11 @@ export default async function IngredientPage({ params }: { params: Params }) {
       {ing.mechanism_of_action.length > 0 && (
         <section className="mb-10">
           <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">How it works</h2>
-          <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 max-w-[900px]">
             {ing.mechanism_of_action.map((m, idx) => (
-              <li key={idx}>{m}</li>
+              <li key={idx} className="fm-panel p-4 text-[14px] text-muted leading-relaxed">
+                {m}
+              </li>
             ))}
           </ul>
         </section>
@@ -371,7 +417,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
         <section className="mb-10">
           <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Forms</h2>
           <ul className="flex flex-wrap gap-2">
-            {ing.forms.map((f, idx) => (
+            {dedupeLabels(ing.forms, (f) => f.form).map((f, idx) => (
               <li
                 key={idx}
                 className="text-sm bg-white/[0.03] border border-border rounded-full px-3 py-1"
