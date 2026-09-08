@@ -274,7 +274,13 @@
     "noTiersNoTrialsNo": "Sin planes, sin pruebas, sin ventas adicionales. Formulate se financia con enlaces de afiliado opcionales — nunca cobrándote ni cambiando una puntuación.",
     "browseNRecipes": "Ver {n}+ recetas",
     "browseNFoods": "Ver {n}+ alimentos",
-    "heroSub": "Puntúa tus suplementos frente a la investigación clínica, registra tu comida y tus platos, y observa cómo se completa tu cobertura de nutrientes — todo en una app gratuita creada para la longevidad, no para el marketing."
+    "heroSub": "Puntúa tus suplementos frente a la investigación clínica, registra tu comida y tus platos, y observa cómo se completa tu cobertura de nutrientes — todo en una app gratuita creada para la longevidad, no para el marketing.",
+    "heroTitleA": "Una de las cosas que tomas",
+    "heroTitleB": "está frenando a las demás.",
+    "heroSubNew": "Añade lo que tomas de verdad. Te diremos cuál es el punto débil y por qué — puntuado por evidencia, dosis y forma, frente a la investigación y no a la etiqueta.",
+    "heroSearchNote": "Sin cuenta. Sin correo. Nada que instalar.",
+    "supplementsScored": "suplementos puntuados",
+    "nobodyPaysToRank": "nadie paga por aparecer"
   },
   "chrome": {
     "skipToMainContent": "Saltar al contenido principal",
