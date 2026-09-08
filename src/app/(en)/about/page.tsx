@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { PageHeader } from "@/components/landing/page-header";
 
 export const metadata: Metadata = {
   title: "About Formulate — Independent, Evidence-Based Scoring",
@@ -78,12 +79,10 @@ export default function AboutPage() {
           <span className="text-text/60">About</span>
         </nav>
 
-        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">
-          About
-        </div>
-        <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] leading-[1.15] mb-4">
-          We score what you put in your body so you don&apos;t have to guess
-        </h1>
+        <PageHeader
+          eyebrow="About"
+          title="We score what you put in your body so you don't have to guess"
+        />
         <p className="text-base text-muted leading-relaxed mb-10 max-w-[620px]">
           The wellness industry runs on marketing, sponsorships, and vague
           claims. Formulate runs on clinical evidence, third-party testing data,

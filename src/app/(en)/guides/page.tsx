@@ -5,6 +5,7 @@ import type { Guide } from "@/lib/guides";
 import { visibleGuides, getAllTags } from "@/lib/guides";
 import { withUtm } from "@/lib/app-url";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { PageHeader } from "@/components/landing/page-header";
 
 export const metadata: Metadata = {
   title: "Supplement Guides — Evidence-Based Reviews & Protocols",
@@ -388,16 +389,11 @@ export default function GuidesPage() {
   return (
     <div className="pt-24 pb-20 px-6">
       <div className="max-w-[960px] mx-auto">
-        <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">
-          Evidence-Based
-        </div>
-        <h1 className="text-[clamp(28px,4vw,48px)] font-extrabold tracking-[-1px] mb-3">
-          Supplement Guides
-        </h1>
-        <p className="text-base text-muted max-w-[540px] mb-12 leading-relaxed">
-          Best-of roundups, stacking protocols, and deep-dives — every
-          recommendation backed by clinical research and scored in our catalog.
-        </p>
+        <PageHeader
+          eyebrow="Evidence-based"
+          title="Supplement Guides"
+          lead="Best-of roundups, stacking protocols, and deep-dives — every recommendation backed by clinical research and scored in our catalog."
+        />
 
         {/* CTA banner */}
         <div className="mb-10 p-6 rounded-2xl bg-surface border border-accent/20 flex flex-col sm:flex-row items-center gap-4">
