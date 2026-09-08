@@ -200,21 +200,21 @@ export default async function ComparePage({ params }: { params: Params }) {
       />
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
           When to pick {a.name}
         </h2>
         <p className="text-sm text-muted leading-relaxed">{c.when_a}</p>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
           When to pick {b.name}
         </h2>
         <p className="text-sm text-muted leading-relaxed">{c.when_b}</p>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
           Can you take them together?
         </h2>
         <p className="text-sm text-muted leading-relaxed">{c.combine}</p>
@@ -274,7 +274,7 @@ export default async function ComparePage({ params }: { params: Params }) {
       </section>
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Dig deeper
         </h2>
         <ul className="text-sm text-text space-y-2">

@@ -15,7 +15,7 @@ export function OnboardingAurora() {
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-      <div className="absolute inset-0 bg-[#06060d]" />
+      <div className="absolute inset-0 bg-[#0b0f0e]" />
       <div
         className="absolute inset-0 opacity-60"
         style={{
@@ -39,13 +39,13 @@ export function OnboardingAurora() {
           />
           <motion.div
             className={blob}
-            style={{ width: 520, height: 520, bottom: "-12%", right: "-8%", background: "#7c6dfa", opacity: 0.16 }}
+            style={{ width: 520, height: 520, bottom: "-12%", right: "-8%", background: "#4f9e70", opacity: 0.16 }}
             animate={{ x: [0, -50, 30, 0], y: [0, -30, -70, 0], scale: [1, 1.08, 1.18, 1] }}
             transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
             className={blob}
-            style={{ width: 380, height: 380, top: "35%", left: "55%", background: "#10b981", opacity: 0.12 }}
+            style={{ width: 380, height: 380, top: "35%", left: "55%", background: "#63c98a", opacity: 0.12 }}
             animate={{ x: [0, 40, -40, 0], y: [0, 50, 20, 0], scale: [1, 0.9, 1.1, 1] }}
             transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
           />

@@ -209,7 +209,7 @@ export default function SupplementsHub() {
 
       <section className="mb-14">
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-muted">
+          <h2 className="fm-eyebrow">
             Browse by brand
           </h2>
           <Link
@@ -335,7 +335,7 @@ export default function SupplementsHub() {
       )}
 
       <section className="mt-4">
-        <h2 className="text-2xl font-bold text-text mb-6">Frequently asked questions</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">Frequently asked questions</h2>
         <div className="space-y-5 max-w-3xl">
           {hubFaqs.map((f) => (
             <div key={f.q}>

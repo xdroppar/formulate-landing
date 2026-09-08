@@ -94,7 +94,7 @@ export default function AboutPage() {
 
         {/* Why we exist */}
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-4">Why we built this</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Why we built this</h2>
           <div className="space-y-4 text-[15px] text-muted leading-relaxed">
             <p>
               Walk into any supplement store and you&apos;ll see 200 brands
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
         {/* Principles */}
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">How we work</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">How we work</h2>
           <div className="space-y-4">
             {PRINCIPLES.map((p) => (
               <div key={p.title} className="p-5 rounded-xl bg-surface border border-border">
@@ -144,7 +144,7 @@ export default function AboutPage() {
 
         {/* Who we are */}
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-4">Who we are</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Who we are</h2>
           <p className="text-[15px] text-muted leading-relaxed mb-4">
             Formulate is built and maintained by the Formulate Team — a group of
             developers, researchers, and data analysts focused on making the
@@ -167,7 +167,7 @@ export default function AboutPage() {
 
         {/* Affiliate disclosure */}
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-4">Affiliate disclosure</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Affiliate disclosure</h2>
           <p className="text-sm text-muted leading-relaxed">
             When you buy a supplement through an outbound link on Formulate, we
             may earn a small commission from the retailer (typically Amazon,

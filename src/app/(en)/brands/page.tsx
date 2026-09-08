@@ -123,7 +123,7 @@ export default function BrandsIndex() {
       </div>
 
       <section className="mt-14">
-        <h2 className="text-2xl font-bold text-text mb-6">Frequently asked questions</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">Frequently asked questions</h2>
         <div className="space-y-5 max-w-3xl">
           {hubFaqs.map((f) => (
             <div key={f.q}>

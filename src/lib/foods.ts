@@ -295,3 +295,21 @@ export function standardServingLabel(f: Food, variant?: FoodVariant | null): { g
 export function servingFactor(f: Food, variant?: FoodVariant | null): number {
   return standardServingG(f, variant) / variantBasisGrams(f, variant);
 }
+
+/**
+ * Human text for a variant's `serving_basis`.
+ *
+ * The raw field is a database key and was rendered straight onto the page:
+ * "per_100g" on 1,022 variants, and "per_1_colossal_shrimp",
+ * "per_half_avocado", "per_1_drumstick" on the rest — visible on all 498 food
+ * detail pages.
+ *
+ * Formatting only. The value itself is load-bearing for scoring (see the
+ * per-piece serving basis work) and is not touched here.
+ */
+export function servingBasisLabel(basis: string): string {
+  const body = basis.replace(/^per_/, "").replace(/_/g, " ").trim();
+  // "100g" / "250ml" -> "100 g" / "250 ml"
+  const spaced = body.replace(/(\d)\s*(g|kg|ml|l|oz)\b/gi, "$1 $2");
+  return spaced ? "per " + spaced : basis;
+}

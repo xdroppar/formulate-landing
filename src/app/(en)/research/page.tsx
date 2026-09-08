@@ -63,7 +63,7 @@ export default function ResearchIndex() {
       {groups.map(({ topic, items }) => (
         <section key={topic} className="mb-10">
           <div className="flex items-baseline justify-between mb-3">
-            <h2 className="text-xl font-bold text-text">{topic}</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text">{topic}</h2>
             <span className="text-xs text-muted">
               {items.length} {items.length === 1 ? "study" : "studies"}
             </span>

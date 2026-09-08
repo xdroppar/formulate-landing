@@ -117,7 +117,7 @@ export default async function CategoryCollection({ params }: { params: Params })
       </div>
 
       <section>
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-4">Browse other categories</h2>
+        <h2 className="fm-eyebrow mb-4">Browse other categories</h2>
         <ul className="flex flex-wrap gap-2">
           {others.map((c) => (
             <li key={c.slug}>

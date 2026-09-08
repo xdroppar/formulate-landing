@@ -108,7 +108,7 @@ export default async function DietCollection({ params }: { params: Params }) {
       </a>
 
       <section>
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-4">Browse other diets</h2>
+        <h2 className="fm-eyebrow mb-4">Browse other diets</h2>
         <ul className="flex flex-wrap gap-2">
           {others.map((d) => (
             <li key={d.slug}>

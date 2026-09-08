@@ -124,7 +124,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-4">Evidence-rated supplements</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Evidence-rated supplements</h2>
         <div className="space-y-3">
           {c.supplements.map((s) => {
             const ing = ingredientBySlug(s.slug);
@@ -213,7 +213,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
       />
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">Lifestyle context</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Lifestyle context</h2>
         <p className="text-sm text-muted leading-relaxed">{c.lifestyle}</p>
       </section>
 
@@ -226,7 +226,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
 
       {relatedStack && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Related stack</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Related stack</h2>
           <Link
             href={`/stacks/${relatedStack.slug}`}
             className="block rounded-xl border border-border bg-white/[0.02] p-5 hover:border-accent/40 transition-colors"
@@ -242,7 +242,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
 
       {c.related_guides && c.related_guides.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Related reading</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Related reading</h2>
           <ul className="space-y-2">
             {c.related_guides.map((g) => (
               <li key={g.slug}>
@@ -265,7 +265,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
       <AcademyCallout tags={c.tags} source={`condition:${c.slug}`} />
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Next steps
         </h2>
         <ul className="text-sm text-text space-y-2">

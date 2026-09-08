@@ -261,7 +261,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {content?.key_facts && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             What {n.name} does
           </h2>
           <p className="text-base text-text leading-relaxed">
@@ -272,7 +272,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {content?.food_sources && content.food_sources.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Food sources of {n.name}
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-4">
@@ -315,7 +315,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {content?.deficiency_signs && content.deficiency_signs.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Signs of {n.name} deficiency
           </h2>
           <ul className="space-y-2">
@@ -334,7 +334,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {content?.who_needs_more && content.who_needs_more.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Who needs more {n.name}
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-4">
@@ -357,7 +357,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {n.low_bioavail_forms.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Forms to avoid</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Forms to avoid</h2>
           <p className="text-sm text-muted leading-relaxed mb-3">
             Not all {n.name} forms absorb equally well. The following forms
             are commonly used because they&apos;re cheap, but their
@@ -387,7 +387,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {n.synonyms.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             How {n.name} appears on labels
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-3">
@@ -410,7 +410,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {cleanProducts.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Best supplements for {n.name}
           </h2>
           <p className="text-xs text-muted mb-4">
@@ -456,7 +456,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {lowAbsorbProducts.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Products using a low-absorption {n.name} form
           </h2>
           <p className="text-xs text-muted mb-4">
@@ -512,7 +512,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {conditionMatches.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Conditions where {n.name} has evidence
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-4">
@@ -564,7 +564,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {studies.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Research on {n.name}
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-4">
@@ -598,7 +598,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {relatedGuides.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Guides covering {n.name}
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-4">
@@ -627,7 +627,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {faqItems.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">
             Frequently asked questions
           </h2>
           <div className="space-y-3">
@@ -656,7 +656,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
 
       {related.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Related {meta.label.toLowerCase()}
           </h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -678,7 +678,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
       )}
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Track your full intake
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">

@@ -121,7 +121,7 @@ export default function NutrientMethodologyPage() {
         </p>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">How coverage is calculated</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">How coverage is calculated</h2>
           <div className="space-y-3">
             {FACTORS.map((p) => (
               <div key={p.name} className="p-5 rounded-xl bg-surface border border-border">
@@ -133,7 +133,7 @@ export default function NutrientMethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">Frequently asked questions</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">Frequently asked questions</h2>
           <div className="space-y-4">
             {FAQS.map((f) => (
               <div key={f.q} className="p-5 rounded-xl bg-surface border border-border">

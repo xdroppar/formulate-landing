@@ -9,7 +9,11 @@ import { motion, useReducedMotion } from "motion/react";
  * Render conditionally; the parent removes it after ~1.6s. The random spread is
  * computed client-side so it never causes a hydration mismatch.
  */
-const COLORS = ["#00e5a0", "#7c6dfa", "#10b981", "#f59e0b", "#22d3ee", "#ec4899", "#f87171"];
+// Seven saturated colours from the old accent set — mint, violet, cyan,
+// magenta — celebrating on a warm green-black ground. Retoned to the
+// revamp palette plus the two score-tier accents, so the moment still
+// reads as celebration without importing a different product's colours.
+const COLORS = ["#63c98a", "#4f9e70", "#7d9e6a", "#D4A853", "#c9b79f", "#BE9A4C", "#e9ece8"];
 
 export function OnboardingConfetti({ count = 90 }: { count?: number }) {
   const reduce = useReducedMotion();

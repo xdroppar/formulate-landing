@@ -247,7 +247,7 @@ export default async function PairPage({ params }: { params: Params }) {
 
       {found?.mechanism && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">How it works</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">How it works</h2>
           <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
             {found.mechanism}
           </p>
@@ -256,7 +256,7 @@ export default async function PairPage({ params }: { params: Params }) {
 
       {found?.populations && found.populations.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Who should be careful</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Who should be careful</h2>
           <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
             {found.populations.map((p, idx) => (
               <li key={idx}>{p}</li>
@@ -267,7 +267,7 @@ export default async function PairPage({ params }: { params: Params }) {
 
       {found?.monitoring && found.monitoring.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Warning signs to watch for</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Warning signs to watch for</h2>
           <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
             {found.monitoring.map((m, idx) => (
               <li key={idx}>{m}</li>
@@ -281,7 +281,7 @@ export default async function PairPage({ params }: { params: Params }) {
 
       {found?.what_we_dont_know && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">What we don&apos;t know</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">What we don&apos;t know</h2>
           <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
             {found.what_we_dont_know}
           </p>
@@ -290,7 +290,7 @@ export default async function PairPage({ params }: { params: Params }) {
 
       {found?.severity_rationale && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Why this severity</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Why this severity</h2>
           <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
             {found.severity_rationale}
           </p>
@@ -347,7 +347,7 @@ export default async function PairPage({ params }: { params: Params }) {
         if (entries.length === 0) return null;
         return (
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-text mb-3">Learn more about each substance</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Learn more about each substance</h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {entries.map((e) => (
                 <li key={e.slug}>
@@ -382,7 +382,7 @@ export default async function PairPage({ params }: { params: Params }) {
         const bothCount = citedResearch.filter((s) => s.side === "both").length;
         return (
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-text mb-3">
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
               Cited research
             </h2>
             <p className="text-sm text-muted leading-relaxed mb-4">
@@ -437,7 +437,7 @@ export default async function PairPage({ params }: { params: Params }) {
         if (relatedGuides.length === 0) return null;
         return (
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-text mb-3">Related reading</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Related reading</h2>
             <ul className="space-y-3">
               {relatedGuides.map((g) => (
                 <li key={g.slug}>
@@ -468,7 +468,7 @@ export default async function PairPage({ params }: { params: Params }) {
       )}
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Want to check your whole stack?
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">

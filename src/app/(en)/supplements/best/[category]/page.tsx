@@ -206,7 +206,7 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-4">Frequently asked questions</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Frequently asked questions</h2>
         <div className="space-y-5">
           {faqs.map((f) => (
             <div key={f.q}>
@@ -219,7 +219,7 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
 
       {otherCategories.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">Best supplements by category</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Best supplements by category</h2>
           <div className="flex flex-wrap gap-2">
             {otherCategories.map((c) => (
               <Link
@@ -235,7 +235,7 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
       )}
 
       <section className="rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           How these are ranked
         </h2>
         <p className="text-sm text-text leading-relaxed">

@@ -197,7 +197,7 @@ export default function FoodMethodologyPage() {
         <p className="text-xs font-mono text-muted mb-12">score_version {SCORE_VERSION}</p>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-2">What we weigh</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-2">What we weigh</h2>
           <p className="text-sm text-muted mb-6">Weights sum to 100, with anti-nutrients applied as a deduction.</p>
           <div className="space-y-3">
             {PILLARS.map((p) => (
@@ -231,7 +231,7 @@ export default function FoodMethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-2">What the score means</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-2">What the score means</h2>
           <p className="text-sm text-muted mb-6">
             These are the whole-food bands. Branded packaged products use a
             separate, harsher table.
@@ -250,7 +250,7 @@ export default function FoodMethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">Frequently asked questions</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">Frequently asked questions</h2>
           <div className="space-y-4">
             {FAQS.map((f) => (
               <div key={f.q} className="p-5 rounded-xl bg-surface border border-border">

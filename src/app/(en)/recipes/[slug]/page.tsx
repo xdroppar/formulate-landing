@@ -155,7 +155,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
         {(r.ingredients ?? []).length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-text mb-4">Ingredients</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Ingredients</h2>
             <ul className="space-y-2.5">
               {r.ingredients!.map((ing, i) => (
                 <li key={i} className="text-sm text-text leading-relaxed flex gap-2.5">
@@ -168,7 +168,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
         )}
         {(r.steps ?? []).length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-text mb-4">Method</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Method</h2>
             <ol className="space-y-3">
               {r.steps!.map((s, i) => (
                 <li key={i} className="text-sm text-muted leading-relaxed flex gap-3">
@@ -184,7 +184,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       {/* nutrition */}
       {r.nutrition && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-1">Nutrition</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-1">Nutrition</h2>
           {r.nutrition.serving_size && <p className="text-xs text-muted mb-5">Per {r.nutrition.serving_size}</p>}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {NUTRITION_ROWS.map((m) => {
@@ -204,7 +204,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       {/* score breakdown */}
       {breakdown.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-5">Why {r.name} scores {r.score}</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-5">Why {r.name} scores {r.score}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
             {breakdown.map((row) => (
               <div key={row.key as string}>
@@ -249,7 +249,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       {/* related */}
       {related.length > 0 && (
         <section>
-          <h2 className="text-xl font-bold text-text mb-5">More {r.category.toLowerCase()} recipes</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-5">More {r.category.toLowerCase()} recipes</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {related.map((x) => {
               const rc = recipeColor(x);

@@ -309,7 +309,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.primary_uses.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Primary uses</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Primary uses</h2>
           <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
             {ing.primary_uses.map((u, idx) => (
               <li key={idx}>{u}</li>
@@ -320,7 +320,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.mechanism_of_action.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">How it works</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">How it works</h2>
           <ul className="text-sm text-muted leading-relaxed space-y-2 list-disc pl-5">
             {ing.mechanism_of_action.map((m, idx) => (
               <li key={idx}>{m}</li>
@@ -331,7 +331,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.dosage && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Dosage</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Dosage</h2>
           <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
             {ing.dosage.typical_range && (
               <>
@@ -369,7 +369,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.forms.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Forms</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Forms</h2>
           <ul className="flex flex-wrap gap-2">
             {ing.forms.map((f, idx) => (
               <li
@@ -388,7 +388,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.safety && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Safety</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Safety</h2>
           {Array.isArray(ing.safety.common_side_effects) &&
             ing.safety.common_side_effects.length > 0 && (
               <>
@@ -426,7 +426,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {matchingProducts.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Products containing {ing.name}
           </h2>
           <p className="text-xs text-muted mb-4">
@@ -477,7 +477,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {knownInteractionPages.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Known interactions</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Known interactions</h2>
           <ul className="space-y-2">
             {knownInteractionPages.map((i) => {
               const pairSlug = interactionPairSlug(i.substance_a, i.substance_b);
@@ -518,7 +518,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {ing.evidence_notes && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Evidence notes</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Evidence notes</h2>
           <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
             {ing.evidence_notes}
           </p>
@@ -535,7 +535,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {citedResearch.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Cited research for {ing.name}
           </h2>
           <p className="text-xs text-muted mb-4">
@@ -568,7 +568,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {relatedComparisons.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             {ing.name} compared head-to-head
           </h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -600,7 +600,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
       {related.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">Related in {ing.category}</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Related in {ing.category}</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {related.map((r) => {
               const g = r.evidence_grade;
@@ -629,7 +629,7 @@ export default async function IngredientPage({ params }: { params: Params }) {
       )}
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Check a full stack
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">

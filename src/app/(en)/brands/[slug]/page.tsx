@@ -249,7 +249,7 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       {b.components && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">How {b.name} scored</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">How {b.name} scored</h2>
           <div className="space-y-3">
             {([
               ["Integrity", b.components.integrity, "Accurate labels, no proprietary blends hiding doses, consistent sourcing"],
@@ -293,7 +293,7 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       {breakdown.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">What {b.name} makes</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">What {b.name} makes</h2>
           <ul className="flex flex-wrap gap-2">
             {breakdown.map((row) => (
               <li
@@ -309,7 +309,7 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       {topPicks.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">Top-scoring products</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Top-scoring products</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {topPicks.map((p) => {
               const g = scoreGrade(p.score);
@@ -347,7 +347,7 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       {lineup.length > topPicks.length && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">
             All {b.name} products ({lineup.length})
           </h2>
           <ul className="divide-y divide-border border border-border rounded-xl overflow-hidden">
@@ -374,7 +374,7 @@ export default async function BrandHub({ params }: { params: Params }) {
 
       {faqs.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-4">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">
             {b.name}: frequently asked questions
           </h2>
           <div className="space-y-5">
@@ -389,7 +389,7 @@ export default async function BrandHub({ params }: { params: Params }) {
       )}
 
       <section className="rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           About the grading
         </h2>
         <p className="text-sm text-text leading-relaxed">

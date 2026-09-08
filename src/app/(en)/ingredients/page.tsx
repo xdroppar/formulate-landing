@@ -75,7 +75,7 @@ export default function IngredientsIndex() {
       {groups.map(({ category, items }) => (
         <section key={category} className="mb-10">
           <div className="flex items-baseline justify-between mb-3">
-            <h2 className="text-xl font-bold text-text">{category}</h2>
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text">{category}</h2>
             <span className="text-xs text-muted">
               {items.length} {items.length === 1 ? "entry" : "entries"}
             </span>

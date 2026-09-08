@@ -204,7 +204,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
             {/* Per-flag deep dive — the "teach users to read studies" layer */}
             {m.flags.length > 0 && (
               <section className="mb-10">
-                <h2 className="text-xl font-bold text-text mb-1">
+                <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-1">
                   What these flags mean for you
                 </h2>
                 <p className="text-sm text-muted mb-4 leading-relaxed">
@@ -249,7 +249,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
       })()}
 
       <section className="mb-10">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Read the full paper
         </h2>
         <div className="flex flex-wrap items-center gap-3">
@@ -293,7 +293,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
 
       {citingGuides.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-text mb-3">
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">
             Cited in {citingGuides.length} {citingGuides.length === 1 ? "guide" : "guides"}
           </h2>
           <ul className="space-y-2">
@@ -319,7 +319,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
           This is the core educational payload: one visitor learning to
           read research is worth more than a flashier methodology section. */}
       <section className="mb-10 rounded-2xl border border-border bg-white/[0.02] p-6">
-        <h2 className="text-xl font-bold text-text mb-1">
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-1">
           {READING_PRIMER.title}
         </h2>
         <p className="text-sm text-muted mb-5 leading-relaxed">
@@ -337,7 +337,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
       </section>
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           About this page
         </h2>
         <p className="text-sm text-text leading-relaxed mb-3">

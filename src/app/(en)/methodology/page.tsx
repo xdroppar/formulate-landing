@@ -103,7 +103,7 @@ export default function MethodologyHubPage() {
 
         {/* Pillars */}
         <section className="mb-16">
-          <h2 className="text-xl font-bold mb-6">The pillars we score</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">The pillars we score</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {PILLARS.map((p) => {
               const live = p.status === "live";
@@ -153,7 +153,7 @@ export default function MethodologyHubPage() {
 
         {/* Shared principles */}
         <section className="mb-16">
-          <h2 className="text-xl font-bold mb-6">The principles behind every score</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">The principles behind every score</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {PRINCIPLES.map((pr) => (
               <div key={pr.title} className="p-5 rounded-xl bg-surface border border-border">
@@ -166,7 +166,7 @@ export default function MethodologyHubPage() {
 
         {/* FAQ */}
         <section className="mb-14">
-          <h2 className="text-xl font-bold mb-6">Frequently asked questions</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-6">Frequently asked questions</h2>
           <div className="space-y-4">
             {FAQS.map((f) => (
               <div key={f.q} className="p-5 rounded-xl bg-surface border border-border">

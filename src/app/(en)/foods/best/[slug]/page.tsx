@@ -110,7 +110,7 @@ export default async function BestFoodGroup({ params }: { params: Params }) {
       </a>
 
       <section>
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-4">Healthiest by group</h2>
+        <h2 className="fm-eyebrow mb-4">Healthiest by group</h2>
         <ul className="flex flex-wrap gap-2">
           {others.map((g) => (
             <li key={g.slug}>

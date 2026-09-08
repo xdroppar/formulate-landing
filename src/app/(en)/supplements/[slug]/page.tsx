@@ -77,7 +77,7 @@ function ScoreBreakdown({ components }: { components: Product["score_components"
   if (!components.length) return null;
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-bold text-text mb-4">Score Breakdown</h2>
+      <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Score Breakdown</h2>
       <p className="text-sm text-muted mb-6 leading-relaxed">
         Formulate scores every product across six weighted dimensions. Each dimension
         is graded independently — hover or tap to see what drove each component.
@@ -140,7 +140,7 @@ function IngredientTable({ ingredients }: { ingredients: Product["ingredients"] 
   if (!ingredients.length) return null;
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-bold text-text mb-4">Ingredients per Serving</h2>
+      <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Ingredients per Serving</h2>
       <div className="rounded-xl border border-border overflow-hidden">
         <table className="w-full text-sm">
           <thead className="bg-white/[0.02]">
@@ -331,7 +331,7 @@ function FAQ({ faqs }: { faqs: { q: string; a: string }[] }) {
 
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-bold text-text mb-4">Frequently Asked Questions</h2>
+      <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Frequently Asked Questions</h2>
       <div className="space-y-5">
         {faqs.map((item) => (
           <div key={item.q}>
@@ -580,7 +580,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
       {product.overview &&
         stripHtml(product.overview) !== stripHtml(product.explanation) && (
           <section className="mb-12">
-            <h2 className="text-xl font-bold text-text mb-4">
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">
               Overview: {product.brand} {product.name}
             </h2>
             <p className="text-base text-muted leading-relaxed">
@@ -595,7 +595,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
 
       {product.certifications.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-4">Certifications & Testing</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Certifications & Testing</h2>
           <div className="flex flex-wrap gap-2">
             {product.certifications.map((c) => (
               <span
@@ -611,7 +611,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
 
       {product.other_ingredients.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-3">Other Ingredients</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Other Ingredients</h2>
           <p className="text-sm text-muted leading-relaxed">
             {product.other_ingredients.join(", ")}
           </p>
@@ -622,7 +622,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
         <section className="mb-12 grid md:grid-cols-2 gap-6">
           {product.recommended_use && (
             <div className="rounded-xl border border-border bg-white/[0.02] p-5">
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-2">
+              <h2 className="fm-eyebrow mb-2">
                 Recommended Use
               </h2>
               <p className="text-sm text-text leading-relaxed">
@@ -632,7 +632,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
           )}
           {product.warnings && (
             <div className="rounded-xl border border-border bg-white/[0.02] p-5">
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-2">
+              <h2 className="fm-eyebrow mb-2">
                 Warnings
               </h2>
               <p className="text-sm text-text leading-relaxed">
@@ -647,7 +647,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
 
       {related.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-4">Related Supplements</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Related Supplements</h2>
           <div className="grid sm:grid-cols-3 gap-4">
             {related.map((r) => {
               return (
@@ -682,7 +682,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
       )}
 
       <section className="rounded-2xl border border-border bg-card/30 p-6 mb-10">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Track {product.name.toLowerCase()} in your stack
         </h2>
         <p className="text-sm text-text mb-4 leading-relaxed">

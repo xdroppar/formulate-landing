@@ -202,17 +202,17 @@ export default async function SynergyPage({ params }: { params: Params }) {
       />
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">Why they work together</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Why they work together</h2>
         <p className="text-sm text-muted leading-relaxed">{s.why_synergy}</p>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">How to dose them</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">How to dose them</h2>
         <p className="text-sm text-muted leading-relaxed">{s.dose_protocol}</p>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-text mb-3">Evidence</h2>
+        <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Evidence</h2>
         <p className="text-sm text-muted leading-relaxed">{s.evidence}</p>
       </section>
 
@@ -224,7 +224,7 @@ export default async function SynergyPage({ params }: { params: Params }) {
       </section>
 
       <section className="mt-10 rounded-2xl border border-border bg-card/30 p-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-muted mb-3">
+        <h2 className="fm-eyebrow mb-3">
           Next steps
         </h2>
         <ul className="text-sm text-text space-y-2">

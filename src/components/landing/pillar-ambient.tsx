@@ -20,14 +20,21 @@ export type PillarKey = "supplements" | "foods" | "nutrients" | "learn";
 const LEAF_PATH = "M0 0 C -7 -7 -7 -18 0 -26 C 7 -18 7 -7 0 0 Z";
 
 const CONFIG: Record<PillarKey, { motif: Motif; hues: string[]; glow: string }> = {
-  // Capsules + teal — the science/supplement branch of the tree.
-  supplements: { motif: "capsule", hues: ["#00e5a0", "#2fd8a8", "#39c9b0", "#5bc8d8", "#7c6dfa"], glow: "rgba(0,229,160,0.16)" },
-  // Leaves + green — the most literal "growing" branch.
-  foods: { motif: "leaf", hues: ["#00e5a0", "#2fd8a8", "#5bd08a", "#86d36b", "#39c9b0"], glow: "rgba(0,229,160,0.16)" },
-  // Rising specks + amber/gold — nutrients drawn up like roots feeding the tree.
-  nutrients: { motif: "particle", hues: ["#f5c451", "#f0b54a", "#ffd36b", "#39c9b0", "#7c6dfa"], glow: "rgba(245,196,81,0.14)" },
-  // Faint violet leaves — the quiet reference branch.
-  learn: { motif: "leaf", hues: ["#7c6dfa", "#6bd0c0", "#39c9b0"], glow: "rgba(124,109,250,0.14)" },
+  /* Retoned 2026-09-08 onto the revamp palette. This layer renders in THIRTEEN
+     layouts — brands, compare, conditions, foods, guides, ingredients,
+     interactions, nutrients and more — so it was the largest surviving piece of
+     the old theme on the site: mint #00e5a0, teal #2fd8a8 and violet #7c6dfa
+     drifting over a warm green-black ground on nearly every inner page. The
+     motifs still differ per pillar, which is the point of the component; only
+     the hues moved. */
+  // Capsules — the science/supplement branch of the tree.
+  supplements: { motif: "capsule", hues: ["#63c98a", "#4f9e70", "#7d9e6a", "#8d968f", "#c9b79f"], glow: "rgba(99,201,138,0.14)" },
+  // Leaves — the most literal "growing" branch.
+  foods: { motif: "leaf", hues: ["#63c98a", "#4f9e70", "#7d9e6a", "#86b06b", "#8d968f"], glow: "rgba(99,201,138,0.14)" },
+  // Rising specks in the warm sand tones — roots feeding the tree.
+  nutrients: { motif: "particle", hues: ["#d8c08a", "#c9b79f", "#BE9A4C", "#7d9e6a", "#8d968f"], glow: "rgba(216,192,138,0.12)" },
+  // The quiet reference branch: sand and grey-green, no accent at all.
+  learn: { motif: "leaf", hues: ["#c9b79f", "#8d968f", "#7d9e6a"], glow: "rgba(201,183,159,0.12)" },
 };
 
 /** Deterministic PRNG — stable layout across renders (mirrors FallingLeaves). */

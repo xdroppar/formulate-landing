@@ -11,6 +11,7 @@ import {
   timingText,
   servingFactor,
   standardServingLabel,
+  servingBasisLabel,
   FOOD_BREAKDOWN_ROWS,
   type Food,
 } from "@/lib/foods";
@@ -157,7 +158,7 @@ export default async function FoodDetail({ params }: { params: Params }) {
       {/* score breakdown */}
       {breakdown.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-5">Why {f.name} scores {f.score}</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-5">Why {f.name} scores {f.score}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
             {breakdown.map((r) => (
               <div key={r.key as string}>
@@ -198,8 +199,8 @@ export default async function FoodDetail({ params }: { params: Params }) {
       {/* nutrition */}
       {v && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-1">Nutrition</h2>
-          {v.serving_basis && <p className="text-xs text-muted mb-5">{v.serving_basis}</p>}
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-1">Nutrition</h2>
+          {v.serving_basis && <p className="text-[12px] text-muted mb-5">{servingBasisLabel(v.serving_basis)}</p>}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {v.calories != null && (
               <div className="rounded-xl border border-border bg-white/[0.02] p-4 text-center">
@@ -224,7 +225,7 @@ export default async function FoodDetail({ params }: { params: Params }) {
       {/* health benefits */}
       {benefits.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-xl font-bold text-text mb-5">Health benefits</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-5">Health benefits</h2>
           <div className="space-y-5">
             {benefits.map((b, i) => (
               <div key={i} className="rounded-xl border border-border bg-white/[0.02] p-5">
@@ -279,7 +280,7 @@ export default async function FoodDetail({ params }: { params: Params }) {
       {/* related */}
       {related.length > 0 && (
         <section>
-          <h2 className="text-xl font-bold text-text mb-5">Related foods</h2>
+          <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-5">Related foods</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {related.map((r) => {
               const rc = foodColor(r);
