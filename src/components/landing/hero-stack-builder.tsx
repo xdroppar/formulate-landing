@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
 export type ScoreItem = {
@@ -16,9 +16,14 @@ export type ScoreItem = {
   why: string;
   /** Product photo, resolved at build time by the page's cardImage(). */
   image: string;
+  /** Which catalog this came from. Shown, because a mixed list where a leafy
+   *  green and a magnesium capsule look identical is a puzzle, not a feature. */
+  kind: "supplement" | "food";
 };
 
-const EXAMPLES = ["magnesium", "creatine", "vitamin d", "omega-3", "ashwagandha", "zinc"];
+// Deliberately mixed. The scope of the product is demonstrated by the box
+// answering for kale, not by a sentence claiming it does more than pills.
+const EXAMPLES = ["magnesium", "creatine", "kale", "vitamin d", "omega-3", "olive oil"];
 
 /**
  * Build a stack, on the landing page, before any account exists.
@@ -42,11 +47,9 @@ const EXAMPLES = ["magnesium", "creatine", "vitamin d", "omega-3", "ashwagandha"
  * on "this one is underdosed". Nobody can act on "your stack is 87".
  */
 export function HeroStackBuilder({
-  index,
   appUrl,
   emptyFooter,
 }: {
-  index: ScoreItem[];
   appUrl: string;
   /**
    * The hint line and the secondary CTAs, shown ONLY while the stack is empty.
@@ -61,6 +64,31 @@ export function HeroStackBuilder({
   const [q, setQ] = useState("");
   const [focused, setFocused] = useState(false);
   const [stack, setStack] = useState<ScoreItem[]>([]);
+
+  /**
+   * The catalog arrives on first focus, not with the page.
+   *
+   * Inlined it was ~212 KB, and Next serialises a server component's props
+   * twice — HTML and RSC payload — so it was ~424 KB of a 560 KB document that
+   * most visitors never type into. Fetched here it costs one cached request,
+   * and only for the people who actually use the box.
+   */
+  const [index, setIndex] = useState<ScoreItem[]>([]);
+  const [loading, setLoading] = useState(false);
+  const asked = useRef(false);
+
+  const loadIndex = () => {
+    if (asked.current) return;
+    asked.current = true;
+    setLoading(true);
+    fetch("/api/score-index")
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d) => setIndex(Array.isArray(d.items) ? d.items : []))
+      // Leaving `index` empty makes the box report "nothing matching", which is
+      // wrong but visible. Silently pretending to have searched would be worse.
+      .catch(() => setIndex([]))
+      .finally(() => setLoading(false));
+  };
 
   const term = q.trim().toLowerCase();
   const chosen = useMemo(() => new Set(stack.map((p) => p.slug)), [stack]);
@@ -124,7 +152,7 @@ export function HeroStackBuilder({
       <input
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        onFocus={() => setFocused(true)}
+        onFocus={() => { setFocused(true); loadIndex(); }}
         onBlur={() => window.setTimeout(() => setFocused(false), 140)}
         placeholder={stack.length ? "Add another…" : "Type something you take — magnesium, creatine, vitamin D…"}
         aria-label="Search a supplement to add to your stack"
@@ -169,8 +197,10 @@ export function HeroStackBuilder({
 
       {term && (
         <div className="mt-2 rounded-xl border border-border bg-surface overflow-hidden divide-y divide-border text-left">
-          {results.length === 0 ? (
-            <div className="px-5 py-4 text-[13px] text-muted">
+          {loading && !index.length ? (
+            <div className="px-5 py-4 text-[12px] text-muted">Loading the catalog…</div>
+          ) : results.length === 0 ? (
+            <div className="px-5 py-4 text-[12px] text-muted">
               Nothing matching &ldquo;{q}&rdquo; yet — the catalog is still growing.
             </div>
           ) : (
@@ -185,11 +215,11 @@ export function HeroStackBuilder({
                   {p.image ? (
                     <Image src={p.image} alt="" width={44} height={44} className="object-contain max-h-[38px] w-auto" />
                   ) : (
-                    <span className="text-[13px] font-bold" style={{ color: p.color }}>{p.score}</span>
+                    <span className="text-[12px] font-bold" style={{ color: p.color }}>{p.score}</span>
                   )}
                 </span>
                 <span
-                  className="text-[13px] font-bold tabular-nums w-7 flex-shrink-0"
+                  className="text-[12px] font-bold tabular-nums w-7 flex-shrink-0"
                   style={{ color: p.color }}
                 >
                   {p.score}
@@ -197,6 +227,9 @@ export function HeroStackBuilder({
                 <span className="min-w-0 flex-1">
                   <span className="block text-[14px] font-semibold text-text truncate">{p.name}</span>
                   <span className="block text-[12px] text-muted truncate">{p.brand}</span>
+                </span>
+                <span className="text-[11px] uppercase tracking-wider text-muted/70 flex-shrink-0 hidden sm:inline">
+                  {p.kind}
                 </span>
                 <span className="text-[12px] font-semibold text-accent flex-shrink-0">Add +</span>
               </button>
@@ -208,7 +241,7 @@ export function HeroStackBuilder({
       {stack.length > 0 && (
         <div className="mt-4 text-left">
           <div className="fm-eyebrow mb-2">
-            Your stack · {stack.length} {stack.length === 1 ? "product" : "products"}
+            Your routine · {stack.length} {stack.length === 1 ? "item" : "items"}
             {stack.length > 1 ? ` · ${lo}–${hi}` : ""}
           </div>
 
@@ -241,7 +274,7 @@ export function HeroStackBuilder({
 
           {weakest ? (
             <div className="mt-3 fm-panel p-5" style={{ borderColor: `${weakest.color}55` }}>
-              <div className="fm-eyebrow mb-3">The weak point in your stack</div>
+              <div className="fm-eyebrow mb-3">The weak point in your routine</div>
               {weakest.image ? (
                 <span className="inline-grid place-items-center w-14 h-14 rounded-lg bg-[#e9ece8] overflow-hidden mb-3">
                   <Image src={weakest.image} alt="" width={56} height={56} className="object-contain max-h-[48px] w-auto" />
@@ -251,18 +284,21 @@ export function HeroStackBuilder({
                 <span className="fm-figure" style={{ color: weakest.color }}>
                   {weakest.score}
                 </span>
-                <span className="text-[13px] font-semibold" style={{ color: weakest.color }}>
+                <span className="text-[12px] font-semibold" style={{ color: weakest.color }}>
                   {weakest.word}
                 </span>
               </div>
               <div className="text-[14px] font-semibold text-text">{weakest.name}</div>
-              <div className="text-[12px] text-muted mb-3">{weakest.brand}</div>
-              <div className="text-[13px] text-muted leading-relaxed border-t border-border pt-3">
+              <div className="text-[12px] text-muted mb-3">
+                {weakest.brand}
+                <span className="text-muted/60"> · {weakest.kind}</span>
+              </div>
+              <div className="text-[12px] text-muted leading-relaxed border-t border-border pt-3">
                 {weakest.why}
               </div>
             </div>
           ) : (
-            <p className="mt-3 text-[13px] text-muted/80">
+            <p className="mt-3 text-[12px] text-muted/80">
               Add one more and we&rsquo;ll show you the weak point.
             </p>
           )}
@@ -272,7 +308,7 @@ export function HeroStackBuilder({
             onClick={() => trackEvent("web_app_cta_click", { source: "hero_stack_save", size: stack.length })}
             className="mt-4 w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-[15px] font-semibold bg-accent text-bg hover:brightness-110 transition-all"
           >
-            Keep this stack — free, no card
+            Keep this routine — free, no card
           </a>
         </div>
       )}

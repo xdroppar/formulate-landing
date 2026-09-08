@@ -11,16 +11,12 @@ import {
 } from "@/components/landing/landing-visuals";
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { FallingLeaves } from "@/components/landing/falling-leaves";
-import { HeroStackBuilder, type ScoreItem } from "@/components/landing/hero-stack-builder";
+import { HeroStackBuilder } from "@/components/landing/hero-stack-builder";
 import { SectionView, SectionDepthReporter } from "@/components/landing/section-view";
-import { products as catalogProducts, type Product } from "@/lib/products";
 import { foods as allFoods, foodColor } from "@/lib/foods";
 import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
-import { existsSync, statSync } from "node:fs";
-import { join } from "node:path";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
-import { scoreTierColor, scoreTierWord } from "@/lib/score-tier-color";
 
 // The stat bar hardcoded 260 while the hero, three CTAs and the spotlight all
 // read SCORED_PRODUCTS_CLAIM ("290+") — two numbers for one thing on a single
@@ -78,89 +74,6 @@ function homeFaqLd(t: T) {
     })),
   };
 }
-
-/** Prefer the pre-generated ~256px thumb when it exists on disk (the catalog
- *  image_url often carries a `?v=` cache token that defeats the lib's thumb
- *  swap), else fall back to the full image. Server-only (SSG). */
-function fileSize(publicPath: string): number {
-  try {
-    return statSync(join(process.cwd(), "public", publicPath)).size;
-  } catch {
-    return Infinity;
-  }
-}
-
-function cardImage(p: Product): string {
-  const raw = p.image_url ?? "";
-  if (!raw) return p.gallery_images?.[0] ?? "";
-  const [path] = raw.split("?");
-  // Some products only have a placeholder "template" primary (a tiny rendered
-  // card, not a real photo, e.g. Ritual Essential Prenatal). Detect it by size
-  // and fall back to the first real gallery photo.
-  if (fileSize(path) < 8000 && p.gallery_images?.[0]) return p.gallery_images[0];
-  const thumb = path.replace(/\/[^/]+\.(webp|jpg|jpeg|png)$/i, "/thumb.webp");
-  if (thumb !== path && existsSync(join(process.cwd(), "public", thumb))) return thumb;
-  return raw;
-}
-
-// Was a local five-band map in a palette the app does not use. Now the app's
-// own table, so a score found in this page's search wears the same colour when
-// the visitor opens it in the product.
-const scoreHex = (s: number): string => scoreTierColor(s);
-
-// Brand-diverse, top-scored products that have a real image — powers the
-// "real products, real scores" proof strip. Selected at build time (SSG).
-// Recognizable stack staples for the hero mockup rows (graceful fallback to
-// Trimmed, build-time search index for the interactive "score your supplement"
-// hero widget — name/brand/score only, so the full 2MB catalog never ships to
-// the client. Sorted so the highest-scoring match surfaces first.
-/**
- * The one line that explains a product's score, pulled from the component the
- * score actually turns on.
- *
- * Prefer the LOWEST-scoring weighted component's explanation — that is what a
- * reader wants to know and it is the only thing that separates products in a
- * catalog where 91% score 80+. If the product has nothing weak, fall back to
- * its strongest component, which reads as praise rather than a shrug.
- *
- * Only weighted components are considered. Transparency, Safety and
- * Manufacturing ship at weight 0 under the V3.23+ gated model — they gate and
- * penalise rather than contribute — so quoting them would explain a number they
- * did not move.
- */
-function scoreWhy(p: Product): string {
-  const parts = (p.score_components ?? []).filter(
-    (c): c is NonNullable<typeof c> => !!c && (c.weight ?? 0) > 0,
-  );
-  if (!parts.length) return "Scored on evidence, dose and form.";
-  const sorted = [...parts].sort((a, b) => (a.raw_score ?? 100) - (b.raw_score ?? 100));
-  const weakest = sorted[0];
-  const pick = (weakest.raw_score ?? 100) < 85 ? weakest : sorted[sorted.length - 1];
-  // 236 of the 628 distinct explanation strings are enumerations rather than
-  // findings — "1 clinical: Magnesium", "2 good: Beet root". They are the FIRST
-  // entry on most components, so taking [0] handed the reader a machine noise
-  // line where a real sentence ("Excellent form quality — premium bioavailable
-  // forms") was sitting right behind it. Skip the enumerations, then prefer the
-  // most specific line left.
-  const findings = (pick.explanations ?? []).filter(
-    (e) => e && e.length > 8 && !/^\d+\s+(clinical|good|other|fair|poor)\b/i.test(e),
-  );
-  const line = findings.sort((a, b) => b.length - a.length)[0];
-  return line ? `${pick.name}: ${line}` : `${pick.name}: ${pick.raw_score}/100`;
-}
-
-const scoreSearchIndex: ScoreItem[] = catalogProducts
-  .filter((p) => p.score != null)
-  .map((p) => ({
-    slug: p.slug,
-    name: p.name,
-    brand: p.brand,
-    score: p.score as number,
-    color: scoreHex(p.score as number),
-    word: scoreTierWord(p.score as number) ?? "",
-    why: scoreWhy(p),
-    image: cardImage(p),
-  }));
 
 // Top-scored foods + recipes for the homepage "whole plate, scored too" strip
 // (surfaces the food/recipe SEO surface + internal-links the hubs & details).
@@ -237,7 +150,6 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
           {/* The payoff, in the first screen. */}
           <div className="hero-animate-delay-3">
             <HeroStackBuilder
-              index={scoreSearchIndex}
               appUrl={APP_URL}
               /* The key is not decoration: React renders this element inside
                  the builder's children and, because it was CREATED here in Home
