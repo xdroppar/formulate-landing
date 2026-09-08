@@ -275,7 +275,7 @@ function productFaqs(product: Product): { q: string; a: string }[] {
     const grade = scoreGrade(product.score);
     qs.push({
       q: `What is ${product.brand} ${product.name}'s Formulate score?`,
-      a: `${product.brand} ${product.name} scores ${product.score} out of 100 (grade ${grade.letter}) on Formulate's ingredient-level rubric, which weighs evidence quality, dose accuracy, bioavailability, transparency, safety, and manufacturing practices.`,
+      a: `${product.brand} ${product.name} scores ${product.score} out of 100 (grade ${grade.letter}) on Formulate's ingredient-level rubric: clinical evidence, dose accuracy and bioavailability carry the score, while manufacturing, transparency and safety are checked separately and can only deduct.`,
     });
 
     const s = product.score;
@@ -389,7 +389,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
       },
       reviewBody:
         stripHtml(product.explanation ?? product.overview ?? "").slice(0, 500) ||
-        `${product.brand} ${product.name} scored ${product.score}/100 (Grade ${grade.letter}) on Formulate's ingredient-level rubric covering dose, form, bioavailability, transparency, safety, and manufacturing.`,
+        `${product.brand} ${product.name} scored ${product.score}/100 (Grade ${grade.letter}) on Formulate's ingredient-level rubric: evidence, dose and form carry the score, while transparency, safety and manufacturing can only deduct.`,
     };
   }
   if (product.price_usd && product.url) {

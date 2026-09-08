@@ -96,7 +96,7 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
     },
     {
       q: `How does Formulate rank ${lower} supplements?`,
-      a: `Each product is scored 0–100 by an automated rubric covering evidence quality, dose accuracy, bioavailable form, label transparency, safety, and manufacturing. Rankings reflect the formula on the label — not advertising or sponsorships.`,
+      a: `Each product is scored 0–100 by the same automated rubric. Clinical evidence, dose accuracy and bioavailable form carry the score; manufacturing, label transparency and safety are checked separately and can only cost points. Rankings reflect the formula on the label — not advertising or sponsorships.`,
     },
     {
       q: `How many ${lower} supplements were compared?`,

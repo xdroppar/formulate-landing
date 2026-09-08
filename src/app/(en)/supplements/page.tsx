@@ -15,6 +15,7 @@ import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { PageHeader, SectionHeader } from "@/components/landing/page-header";
+import { scoreTierColor } from "@/lib/score-tier-color";
 
 const BASE = "https://formulate-health.app";
 
@@ -54,11 +55,38 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Group by category, case-insensitively, with a display label.
+ *
+ * Keying on the raw string rendered "Energy" and "energy" as two separate
+ * sections on this page, and "Hormones" and "hormones" as two more — the same
+ * category twice, publicly, on the site's highest-traffic page. Five category
+ * names ship all-lowercase ("sports", "gut", "hormones", "energy", "weight")
+ * and rendered as lowercase headings beside title-case ones.
+ *
+ * Fixed here as a DISPLAY concern, not by editing the catalog: this data is
+ * mirrored from formulate-web and diverging the copy is the trap this repo
+ * treats as its worst. The underlying taxonomy still needs cleaning upstream.
+ */
+function titleCase(s: string): string {
+  return s.replace(/\w[^\s/-]*/g, (w) => w[0].toUpperCase() + w.slice(1));
+}
+
+/** Cards shown per category on the hub before deferring to the category page. */
+const HUB_CAP = 12;
+/** Below this, a category is folded into the single "smaller categories" band. */
+const MINOR_MIN = 5;
+
 function byCategory(list: Product[]): Record<string, Product[]> {
   const map: Record<string, Product[]> = {};
+  const label: Record<string, string> = {};
   for (const p of list) {
-    const key = p.category || "Other";
-    (map[key] ??= []).push(p);
+    const raw = p.category || "Other";
+    const key = raw.trim().toLowerCase();
+    // Keep the first title-cased spelling seen, so a category that ships in
+    // both cases gets the tidier of the two.
+    if (!label[key]) label[key] = /[A-Z]/.test(raw) ? raw.trim() : titleCase(raw.trim());
+    (map[label[key]] ??= []).push(p);
   }
   for (const k of Object.keys(map)) {
     map[k].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
@@ -72,6 +100,19 @@ export default function SupplementsHub() {
   const categories = Object.keys(grouped).sort(
     (a, b) => grouped[b].length - grouped[a].length,
   );
+  /**
+   * This hub rendered 43 category sections, and the length came from the COUNT
+   * of them rather than the length of any one list: only 7 categories hold more
+   * than the 12-card cap, while 26 hold fewer than five products between them —
+   * 47 products spread over 26 headings, each with its own grid. A heading per
+   * product is not navigation, it is scrollbar.
+   *
+   * The small ones fold into a single compact band. Nothing is dropped: every
+   * product keeps its link, and 316 of the 321 detail pages are in the sitemap.
+   */
+  const majorCategories = categories.filter((c) => grouped[c].length >= MINOR_MIN);
+  const minorCategories = categories.filter((c) => grouped[c].length < MINOR_MIN);
+
   const bestSlugs = bestCategorySlugSet();
 
   const collectionLd = {
@@ -95,7 +136,7 @@ export default function SupplementsHub() {
   const hubFaqs: { q: string; a: string }[] = [
     {
       q: "How does Formulate score supplements?",
-      a: `Every supplement is graded 0–100 by an automated rubric covering evidence quality, dose accuracy, bioavailability (ingredient form), label transparency, safety, and manufacturing practices. The same rubric is applied to all ${products.length} products — no human picks favorites.`,
+      a: `Every supplement is graded 0–100 by the same automated rubric. Clinical evidence, dose accuracy and bioavailability carry the score; manufacturing, label transparency and safety are checked separately and can only cost a product points. The same rubric is applied to all ${products.length} products — no human picks favorites.`,
     },
     {
       q: "Are these supplement reviews sponsored?",
@@ -201,7 +242,7 @@ export default function SupplementsHub() {
         </ul>
       </section>
 
-      {categories.map((cat) => (
+      {majorCategories.map((cat) => (
         <section key={cat} className="mb-14">
           <SectionHeader
             title={cat}
@@ -221,7 +262,10 @@ export default function SupplementsHub() {
             }
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {grouped[cat].map((p) => {
+            {/* Same cap as /foods, same reasoning: /supplements/best/[category]
+                carries the full ranked category, the link is already in the
+                header, and 316 of 321 product pages are in the sitemap. */}
+            {grouped[cat].slice(0, HUB_CAP).map((p) => {
               const g = scoreGrade(p.score);
               return (
                 <Link
@@ -255,6 +299,40 @@ export default function SupplementsHub() {
           </div>
         </section>
       ))}
+
+      {minorCategories.length > 0 && (
+        <section className="mb-14">
+          <SectionHeader
+            title="Smaller categories"
+            description={`${minorCategories.length} categories with only a handful of scored products each. Every one is linked; the catalog page carries the rest.`}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4">
+            {minorCategories.map((cat) => (
+              <div key={cat}>
+                <div className="fm-eyebrow mb-1.5">{cat}</div>
+                <ul className="space-y-1">
+                  {grouped[cat].map((p) => (
+                    <li key={p.slug} className="flex items-baseline gap-2">
+                      <span
+                        className="text-[12px] font-bold tabular-nums w-6 shrink-0"
+                        style={{ color: scoreTierColor(p.score ?? null) }}
+                      >
+                        {p.score}
+                      </span>
+                      <Link
+                        href={`/supplements/${p.slug}`}
+                        className="text-[14px] text-text hover:text-accent transition-colors leading-snug"
+                      >
+                        {p.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="mt-4">
         <h2 className="text-2xl font-bold text-text mb-6">Frequently asked questions</h2>

@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { foods, foodCount, foodGroups, foodsByGroup, foodColor, BEST_GROUP_MIN } from "@/lib/foods";
+
+/** Cards shown per group on the hub before deferring to the group page. */
+const HUB_CAP = 12;
 import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { PageHeader, SectionHeader } from "@/components/landing/page-header";
@@ -131,7 +134,14 @@ export default function FoodsHub() {
             }
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {foodsByGroup(group).map((f) => {
+            {/* Capped at HUB_CAP per group. Uncapped, this hub rendered all
+                487 foods — 138 vegetables alone — and ran 23 screens, which is
+                the same length problem the homepage went from 13.8 to 7.9 on.
+                Nothing becomes unreachable: /foods/best/[group] lists ALL of a
+                group ranked (not a top ten), the "see all" link is already in
+                the header, and every food detail page is in the sitemap — 497
+                of 498. Groups smaller than the cap are untouched. */}
+            {foodsByGroup(group).slice(0, HUB_CAP).map((f) => {
               const color = foodColor(f);
               return (
                 <Link
