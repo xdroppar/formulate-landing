@@ -6,7 +6,7 @@ import { getLocale, routedLocales, SITE_URL } from "@/lib/i18n/locales";
 // Reuse the English root layout's font instance and organisation JSON-LD
 // verbatim. A second `Inter()` call would emit a second @font-face and a
 // different CSS variable, and a hand-copied JSON-LD graph would drift.
-import { inter, jsonLd } from "../../(en)/layout";
+import { fontVariables, jsonLd } from "../../(en)/layout";
 
 /**
  * The SECOND root layout.
@@ -77,7 +77,7 @@ export default async function LocaleRootLayout({
     <SiteShell
       lang={def.code}
       dir={def.dir}
-      fontVariable={inter.variable}
+      fontVariable={fontVariables}
       jsonLd={jsonLd}
     >
       {children}

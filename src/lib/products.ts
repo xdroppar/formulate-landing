@@ -13,6 +13,14 @@ export type ScoreComponent = {
    * deducted from the total instead of the component contributing to it.
    */
   gate_floor?: number;
+  /**
+   * Human-readable reasons the component scored what it did — e.g.
+   * "1 ingredient severely below recommended dose". Present on all 1,810
+   * components in the shipped catalog (898 of the 901 WEIGHTED ones carry a
+   * non-empty line); typed optional so a future export that drops it is a
+   * compile error at the call site rather than an undefined at runtime.
+   */
+  explanations?: string[];
 };
 
 export type Ingredient = {

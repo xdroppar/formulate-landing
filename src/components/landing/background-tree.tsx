@@ -210,9 +210,9 @@ function Blossom() {
   return (
     <>
       {[0, 1, 2, 3, 4].map((p) => (
-        <ellipse key={p} cx={0} cy={-7} rx={3} ry={5.5} fill="#f7a8cf" transform={`rotate(${p * 72})`} />
+        <ellipse key={p} cx={0} cy={-7} rx={3} ry={5.5} fill="#c9b79f" transform={`rotate(${p * 72})`} />
       ))}
-      <circle r={2.6} fill="#ffd36b" />
+      <circle r={2.6} fill="#d8c08a" />
     </>
   );
 }
@@ -439,9 +439,9 @@ export function BackgroundTree() {
         >
           <defs>
             <linearGradient id="bt-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2={dims.h}>
-              <stop offset="0%" stopColor="#00e5a0" />
-              <stop offset="45%" stopColor="#2fd8a8" />
-              <stop offset="100%" stopColor="#7c6dfa" />
+              <stop offset="0%" stopColor="#63c98a" />
+              <stop offset="45%" stopColor="#4f9e70" />
+              <stop offset="100%" stopColor="#7d9e6a" />
             </linearGradient>
           </defs>
 
@@ -470,10 +470,10 @@ export function BackgroundTree() {
             }
             @keyframes bt-fly {
               0%   { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
-              12%  { opacity: var(--fly-op, 0.5); }
+              12%  { opacity: var(--fly-op, 0.22); }
               55%  {
                 transform: translate(calc(var(--fly-dx) * 0.55), calc(var(--fly-dy) * 0.4 - 22px)) rotate(calc(var(--fly-rot) * 0.5));
-                opacity: var(--fly-op, 0.5);
+                opacity: var(--fly-op, 0.22);
               }
               100% { transform: translate(var(--fly-dx), var(--fly-dy)) rotate(var(--fly-rot)); opacity: 0; }
             }
@@ -495,7 +495,7 @@ export function BackgroundTree() {
           `}</style>
 
           {/* soft glow pooling around the crown for depth */}
-          <ellipse cx={dims.w / 2} cy={130} rx={dims.w * 0.32} ry={220} fill="url(#bt-grad)" opacity={0.05} />
+          <ellipse cx={dims.w / 2} cy={130} rx={dims.w * 0.32} ry={220} fill="url(#bt-grad)" opacity={0.03} />
 
           {tree.branches.map((b, bi) => {
             const windStyle: CSSProperties | undefined =
@@ -510,7 +510,7 @@ export function BackgroundTree() {
             return (
               <g key={bi} className={b.flex > 0 ? "bt-wind" : undefined} style={windStyle}>
                 {/* branch + trunk + root strokes — each draws itself on when revealed */}
-                <g stroke="url(#bt-grad)" fill="none" strokeLinecap="round" opacity={0.26}>
+                <g stroke="url(#bt-grad)" fill="none" strokeLinecap="round" opacity={0.13}>
                   {b.segs.map((s) => (
                     <path
                       key={s.gi}
@@ -524,7 +524,7 @@ export function BackgroundTree() {
                 </g>
                 {/* leaves — sprout on reveal, then flutter (and ride the branch sway) */}
                 {b.leaves.length > 0 && (
-                  <g fill="url(#bt-grad)" opacity={0.34}>
+                  <g fill="url(#bt-grad)" opacity={0.17}>
                     {b.leaves.map((l) => (
                       <g key={l.li} transform={`translate(${l.x.toFixed(1)} ${l.y.toFixed(1)}) rotate(${l.r.toFixed(0)}) scale(${l.s.toFixed(2)})`}>
                         <g ref={(el) => { leafRefs.current[l.li] = el; }} className="bt-sprout">
@@ -540,7 +540,7 @@ export function BackgroundTree() {
                 )}
                 {/* flowers — a few warm blossoms on the outgoing limbs; sprout on reveal, sway softly */}
                 {b.flowers.length > 0 && (
-                  <g opacity={0.55}>
+                  <g opacity={0.22}>
                     {b.flowers.map((fl) => (
                       <g key={fl.fi} transform={`translate(${fl.x.toFixed(1)} ${fl.y.toFixed(1)}) rotate(${fl.r.toFixed(0)}) scale(${fl.s.toFixed(2)})`}>
                         <g ref={(el) => { flowerRefs.current[fl.fi] = el; }} className="bt-sprout">
@@ -561,7 +561,7 @@ export function BackgroundTree() {
 
           {/* blossoms that have broken loose and are drifting on the wind toward a margin */}
           {flying.map((f) => (
-            <g key={f.id} transform={`translate(${f.x.toFixed(1)} ${f.y.toFixed(1)})`} opacity={0.55}>
+            <g key={f.id} transform={`translate(${f.x.toFixed(1)} ${f.y.toFixed(1)})`} opacity={0.22}>
               <g
                 className="bt-fly"
                 style={{

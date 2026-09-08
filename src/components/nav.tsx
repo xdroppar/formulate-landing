@@ -57,7 +57,7 @@ function ChevronDown({ open }: { open: boolean }) {
 }
 
 /** Desktop dropdown menu (hover or click), accessible + closes on outside/Escape. */
-function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; icon?: string }) {
+function NavMenu({ label, items }: { label: string; items: MenuItem[] }) {
   const t = useT();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -87,7 +87,6 @@ function NavMenu({ label, items, icon }: { label: string; items: MenuItem[]; ico
         aria-haspopup="true"
         className="flex items-center gap-1.5 text-sm font-medium text-muted hover:text-text transition-colors"
       >
-        {icon && <span aria-hidden="true">{icon}</span>}
         {label}
         <ChevronDown open={open} />
       </button>
@@ -159,10 +158,10 @@ export function Nav() {
       >{t("chrome.skipToMainContent")}</a>
 
       <nav className="fixed top-0 left-0 right-0 z-100 bg-bg/85 backdrop-blur-md border-b border-border">
-        <div className="flex items-center justify-between px-6 md:px-12 py-3">
-          <Link href="/" className="flex items-center gap-2.5">
-            <Image src="/logo.png" alt="Formulate" width={32} height={32} className="rounded-lg" unoptimized />
-            <span className="text-xl font-extrabold tracking-tight text-text">
+        <div className="flex items-center justify-between gap-2 px-4 sm:px-6 md:px-12 py-3">
+          <Link href="/" className="flex items-center gap-2.5 min-w-0 shrink">
+            <Image src="/logo.png" alt="Formulate" width={32} height={32} className="rounded-lg shrink-0" unoptimized />
+            <span className="min-w-0 truncate max-[389px]:hidden text-lg sm:text-xl font-extrabold tracking-tight text-text">
               Formulate<span className="text-accent">.</span>
             </span>
           </Link>
@@ -170,24 +169,23 @@ export function Nav() {
           <div className="hidden lg:flex items-center gap-5">
             {PILLARS.map((p) =>
               p.status === "live" ? (
-                <NavMenu key={p.slug} label={pillarTitle(t, p.title)} items={PILLAR_SECTIONS[p.slug] ?? []} icon={p.icon} />
+                <NavMenu key={p.slug} label={pillarTitle(t, p.title)} items={PILLAR_SECTIONS[p.slug] ?? []} />
               ) : (
                 <span
                   key={p.slug}
                   className="flex items-center gap-1.5 text-sm font-medium text-muted/40 cursor-default whitespace-nowrap"
                   title={`${pillarTitle(t, p.title)} — ${t("chrome.soon")}`}
                 >
-                  <span aria-hidden="true">{p.icon}</span>
                   {pillarTitle(t, p.title)}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40">{t("chrome.soon")}</span>
                 </span>
               )
             )}
             <span className="w-px h-4 bg-border" aria-hidden="true" />
-            <NavMenu label={t("nav.learn")} items={LEARN} icon="📚" />
+            <NavMenu label={t("nav.learn")} items={LEARN} />
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <LanguageSwitcher />
             {/* New users: landing-side goal quiz (/start) that builds an
                 evidence-based starter stack, then hands off into the webapp's
@@ -196,7 +194,7 @@ export function Nav() {
             <Link
               href="/start"
               onClick={() => trackEvent("start_click", { source: "nav" })}
-              className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
+              className="whitespace-nowrap px-3.5 sm:px-5 py-2.5 rounded-xl text-[13px] sm:text-sm font-semibold bg-accent text-bg hover:brightness-110 transition-all"
             >{t("chrome.getStartedFree")}</Link>
             {/* Returning users — secondary, desktop bar only (in the mobile menu otherwise). */}
             <a
@@ -225,7 +223,7 @@ export function Nav() {
               p.status === "live" ? (
                 <div key={p.slug} className="flex flex-col gap-2">
                   <span className="text-[11px] font-bold uppercase tracking-[1.5px] text-muted/60">
-                    <span aria-hidden="true" className="mr-1.5">{p.icon}</span>{pillarTitle(t, p.title)}
+                    {pillarTitle(t, p.title)}
                   </span>
                   {(PILLAR_SECTIONS[p.slug] ?? []).map((it) => (
                     <Link
@@ -241,7 +239,6 @@ export function Nav() {
                 </div>
               ) : (
                 <span key={p.slug} className="flex items-center gap-2 text-sm font-medium text-muted/40 py-1">
-                  <span aria-hidden="true">{p.icon}</span>
                   {pillarTitle(t, p.title)}
                   <span className="text-[9px] font-bold uppercase tracking-wider text-muted/40 border border-border rounded-full px-1.5 py-0.5">
                     Soon

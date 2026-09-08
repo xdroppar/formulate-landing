@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SiteShell } from "@/components/site-shell";
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight, Newsreader } from "next/font/google";
 import { APP_STORE_ID, IOS_LIVE } from "@/lib/app-store";
 import "@/app/globals.css";
 
@@ -10,6 +10,39 @@ export const inter = Inter({
   display: "swap",
   variable: "--font-inter",
 });
+
+/**
+ * The revamp's two faces, mirrored from formulate-web.
+ *
+ * Loading them here is the whole point: the app shipped a stylesheet that asked
+ * for `--font-inter-tight` and `--font-newsreader` for weeks while NOTHING ever
+ * fetched them, so both variables were undefined in production and every serif
+ * headline silently fell back to Inter. The design system was entirely present
+ * and rendering as the old one. Declared and loaded together here so this site
+ * cannot repeat it.
+ *
+ * Inter stays loaded and stays the fallback, so a failed fetch degrades to the
+ * face this site already shipped rather than to a system font. Newsreader is
+ * display-only — a handful of elements per page — so it is not preloaded.
+ */
+export const interTight = Inter_Tight({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  preload: true,
+  variable: "--font-inter-tight",
+});
+
+export const newsreader = Newsreader({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  display: "swap",
+  preload: false,
+  variable: "--font-newsreader",
+});
+
+/** All three variables, for the single shared <html> in SiteShell. */
+export const fontVariables = [inter.variable, interTight.variable, newsreader.variable].join(" ");
 
 export const metadata: Metadata = {
   title: {
@@ -103,7 +136,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <SiteShell lang="en" fontVariable={inter.variable} jsonLd={jsonLd}>
+    <SiteShell lang="en" fontVariable={fontVariables} jsonLd={jsonLd}>
       {children}
     </SiteShell>
   );

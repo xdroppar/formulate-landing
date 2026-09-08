@@ -5,6 +5,7 @@ import { useT } from "@/components/i18n-provider";
 import Image from "next/image";
 import { useEffect, useState, type ReactNode } from "react";
 import { useInView } from "./use-in-view";
+import { scoreTierColor } from "@/lib/score-tier-color";
 
 export type HeroRow = { name: string; brand: string; score: number; image?: string; logged?: boolean };
 
@@ -13,11 +14,9 @@ export type HeroRow = { name: string; brand: string; score: number; image?: stri
  * ────────────────────────────────────────────────────────────── */
 
 function scoreColor(score: number): string {
-  if (score >= 90) return "#10B981";
-  if (score >= 80) return "#3B82F6";
-  if (score >= 70) return "#F59E0B";
-  if (score >= 60) return "#F97316";
-  return "#EF4444";
+  // Mirrors the app's score-tier table rather than a second local palette;
+  // the hero mockup shows a score the product also shows.
+  return scoreTierColor(score);
 }
 
 const easeOutCubic = (p: number) => 1 - Math.pow(1 - p, 3);
@@ -244,7 +243,9 @@ function NutrientDonut({ name, pct, delay = 0 }: { name: string; pct: number; de
   const r = (size - sw) / 2;
   const circ = 2 * Math.PI * r;
   const fill = Math.min(1, pct / 100);
-  const color = pct >= 100 ? "#10B981" : pct >= 70 ? "#3B82F6" : pct >= 40 ? "#F59E0B" : "#EF4444";
+  // A coverage percentage, read off the same tier table as a score so the
+  // ring beside a score cannot disagree with it.
+  const color = scoreTierColor(pct);
   return (
     <div ref={ref} className="flex flex-col items-center gap-1.5">
       <div className="relative" style={{ width: size, height: size }}>
@@ -267,7 +268,7 @@ function NutrientDonut({ name, pct, delay = 0 }: { name: string; pct: number; de
           {Math.round(pct)}%
         </span>
       </div>
-      <span className="text-[10px] text-muted text-center leading-tight max-w-[64px]">{name}</span>
+      <span className="text-[11px] text-muted text-center leading-tight max-w-[64px]">{name}</span>
     </div>
   );
 }
@@ -289,14 +290,14 @@ export function AppWindow({
 }) {
   return (
     <div className={`relative ${float ? "animate-float" : ""} ${className}`}>
-      <div className="rounded-2xl border border-border bg-[#0b0b16] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)] overflow-hidden">
+      <div className="rounded-2xl border border-border bg-[#0f1311] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)] overflow-hidden">
         {/* chrome bar */}
         <div className="flex items-center gap-2 px-4 py-2.5 border-b border-border bg-surface/60">
           <span className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
           <span className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
           <span className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
           <div className="flex-1 mx-3 hidden sm:flex items-center justify-center">
-            <div className="px-3 py-0.5 rounded-md bg-bg/60 text-[10px] text-muted/70 max-w-[240px] truncate">{title}</div>
+            <div className="px-3 py-0.5 rounded-md bg-bg/60 text-[11px] text-muted/70 max-w-[240px] truncate">{title}</div>
           </div>
         </div>
         <div className="p-4 sm:p-5">{children}</div>
@@ -326,13 +327,13 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
         {/* greeting row */}
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent2 flex items-center justify-center text-[11px] font-black text-bg">JD</div>
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-[#b8d8a8] flex items-center justify-center text-[11px] font-black text-bg">JD</div>
             <div>
               <div className="text-[13px] font-bold text-text leading-tight">{t("chrome.myStack")}</div>
-              <div className="text-[10px] text-muted">{t("visuals.8Supplements12Foods")}</div>
+              <div className="text-[11px] text-muted">{t("visuals.8Supplements12Foods")}</div>
             </div>
           </div>
-          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-warning/10 text-warning text-[10px] font-bold">{t("visuals.14DayStreak")}</div>
+          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-warning/10 text-warning text-[11px] font-bold">{t("visuals.14DayStreak")}</div>
         </div>
 
         {/* Stack score hero card */}
@@ -343,15 +344,15 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
             <div className="flex-1 space-y-2.5">
               <div className="flex items-center justify-between">
                 <span className="text-[11px] font-bold tracking-wide uppercase text-muted">{t("visuals.stackScoreLabel")}</span>
-                <span className="px-1.5 py-0.5 rounded bg-accent/15 text-accent text-[10px] font-bold">+6 ▲</span>
+                <span className="px-1.5 py-0.5 rounded bg-accent/15 text-accent text-[11px] font-bold">+6 ▲</span>
               </div>
               <AnimatedBar label={t("visuals.quality")} value={92} sub="avg 92" color="#10B981" delay={200} />
-              <AnimatedBar label={t("visuals.coverage")} value={78} sub="20/26" color="#3B82F6" delay={350} />
-              <AnimatedBar label={t("visuals.nutritionLabel")} value={84} sub={t("visuals.suppsDiet")} color="#7c6dfa" delay={500} />
+              <AnimatedBar label={t("visuals.coverage")} value={78} sub="20/26" color="#BE9A4C" delay={350} />
+              <AnimatedBar label={t("visuals.nutritionLabel")} value={84} sub={t("visuals.suppsDiet")} color="#D4A853" delay={500} />
             </div>
           </div>
           {/* plain-language legend so the three metrics self-explain */}
-          <div className="relative mt-3 pt-3 border-t border-border/60 text-[10px] leading-relaxed text-muted">
+          <div className="relative mt-3 pt-3 border-t border-border/60 text-[11px] leading-relaxed text-muted">
             <span className="text-text font-semibold">{t("visuals.quality")}</span>{" "}{t("visuals.ofYourProducts")} ·{" "}
             <span className="text-text font-semibold">{t("visuals.coverage")}</span>{" "}{t("visuals.ofYourNeeds")} ·{" "}
             <span className="text-text font-semibold">{t("visuals.nutritionLabel")}</span>{" "}{t("visuals.fromFoodSupps")}</div>
@@ -379,7 +380,7 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
               )}
               <div className="flex-1 min-w-0">
                 <div className="text-[12px] font-semibold text-text truncate">{p.name}</div>
-                <div className="text-[10px] text-muted truncate">{p.brand}</div>
+                <div className="text-[11px] text-muted truncate">{p.brand}</div>
               </div>
               <div className="text-right shrink-0">
                 <div className="text-[13px] font-black leading-none" style={{ color: scoreColor(p.score) }}>{p.score}</div>
@@ -396,8 +397,8 @@ export function HeroPreview({ products }: { products?: HeroRow[] }) {
 
       {/* floating accent chip */}
       <div className="absolute -left-4 sm:-left-10 top-1/3 animate-float-slow hidden sm:block">
-        <div className="rounded-xl border border-border bg-[#0b0b16]/95 backdrop-blur px-3 py-2 shadow-xl">
-          <div className="text-[10px] text-muted">{t("visuals.todaysCoverage")}</div>
+        <div className="rounded-xl border border-border bg-[#0f1311]/95 backdrop-blur px-3 py-2 shadow-xl">
+          <div className="text-[11px] text-muted">{t("visuals.todaysCoverage")}</div>
           <div className="text-lg font-black text-accent">
             <AnimatedNumber value={20} suffix="/26" />
           </div>
@@ -417,9 +418,9 @@ export function ScoreBreakdownPreview({ image }: { image?: string }) {
   const bars = [
     { label: "Clinical Evidence", value: 100, color: "#10B981" },
     { label: "Dose Accuracy", value: 95, color: "#10B981" },
-    { label: "Bioavailability", value: 100, color: "#3B82F6" },
-    { label: "Label Transparency", value: 100, color: "#7c6dfa" },
-    { label: "Third-Party Testing", value: 92, color: "#3B82F6" },
+    { label: "Bioavailability", value: 100, color: "#D4A853" },
+    { label: "Label Transparency", value: 100, color: "#BE9A4C" },
+    { label: "Third-Party Testing", value: 92, color: "#D4A853" },
   ];
   return (
     <AppWindow className="max-w-[460px]" title="Creatine Monohydrate — Thorne">
@@ -432,7 +433,7 @@ export function ScoreBreakdownPreview({ image }: { image?: string }) {
         <div className="flex-1 min-w-0">
           <div className="text-[15px] font-bold text-text truncate">Creatine Monohydrate</div>
           <div className="text-[12px] text-muted truncate">Thorne · NSF Certified for Sport</div>
-          <div className="mt-1.5 inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/15 text-accent text-[10px] font-bold">{t("visuals.gradeATopValueIn")}</div>
+          <div className="mt-1.5 inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/15 text-accent text-[11px] font-bold">{t("visuals.gradeATopValueIn")}</div>
         </div>
         <AnimatedScoreRing score={98} size={72} strokeWidth={6} />
       </div>
@@ -470,7 +471,7 @@ export function NutrientCoveragePreview() {
             <AnimatedNumber value={20} />
             <span className="text-muted text-base">/26</span>
           </div>
-          <div className="text-[10px] text-muted">on target</div>
+          <div className="text-[11px] text-muted">on target</div>
         </div>
       </div>
       <div className="grid grid-cols-4 gap-3">
@@ -495,10 +496,10 @@ export function MealLogPreview() {
       {/* macro summary */}
       <div className="grid grid-cols-4 gap-2 mb-4">
         {[
-          { k: "Calories", v: 1070, t: "/ 2,100", c: "#00e5a0" },
-          { k: "Protein", v: 92, t: "g", c: "#3B82F6" },
+          { k: "Calories", v: 1070, t: "/ 2,100", c: "#63c98a" },
+          { k: "Protein", v: 92, t: "g", c: "#D4A853" },
           { k: "Carbs", v: 104, t: "g", c: "#F59E0B" },
-          { k: "Fat", v: 38, t: "g", c: "#7c6dfa" },
+          { k: "Fat", v: 38, t: "g", c: "#BE9A4C" },
         ].map((m) => (
           <div key={m.k} className="rounded-lg border border-border bg-surface/50 p-2 text-center">
             <div className="text-[14px] font-black leading-none" style={{ color: m.c }}>
@@ -519,16 +520,16 @@ export function MealLogPreview() {
               <Image src={m.image} alt={m.name} width={40} height={40} className="object-cover w-full h-full" />
             </div>
             <div className="flex-1 min-w-0">
-              <div className="text-[10px] uppercase tracking-wide text-muted">{m.slot}</div>
+              <div className="text-[11px] uppercase tracking-wide text-muted">{m.slot}</div>
               <div className="text-[12px] font-semibold text-text truncate">{m.name}</div>
-              <div className="text-[10px] text-muted">{m.kcal} kcal</div>
+              <div className="text-[11px] text-muted">{m.kcal} kcal</div>
             </div>
             <AnimatedScoreRing score={m.grade} size={40} strokeWidth={4} trackOpacity={0.08} />
           </div>
         ))}
       </div>
       <div className="mt-3 h-1.5 rounded-full bg-white/5 overflow-hidden">
-        <AnimatedBar label="" value={51} color="#00e5a0" />
+        <AnimatedBar label="" value={51} color="#63c98a" />
       </div>
     </AppWindow>
   );
@@ -554,7 +555,7 @@ export function JourneyPreview() {
           <LevelRing level={level} pct={pct} color={tier.color} size={88} strokeWidth={7} />
           <span
             className="absolute -bottom-1 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[9px] font-black"
-            style={{ background: tier.color, color: "#08080f" }}
+            style={{ background: tier.color, color: "#0b0f0e" }}
           >
             {tier.name.toUpperCase()}
           </span>

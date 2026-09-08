@@ -47,7 +47,9 @@ function mulberry32(seed: number) {
 // Same teardrop as the tree's leaves, so the two effects read as one system.
 const LEAF_PATH = "M0 0 C -7 -7 -7 -18 0 -26 C 7 -18 7 -7 0 0 Z";
 // Crown-green → root-violet, sampled from the BackgroundTree gradient.
-const HUES = ["#00e5a0", "#2fd8a8", "#39c9b0", "#6bd0c0", "#7c6dfa"];
+// Retoned off the old mint/violet accent onto the revamp greens; the
+// violet leaf in particular read as confetti, not foliage.
+const HUES = ["#63c98a", "#4f9e70", "#7d9e6a", "#8d968f", "#c9b79f"];
 
 function buildLeaves(seed: number): Leaf[] {
   const rng = mulberry32(seed);
@@ -66,7 +68,7 @@ function buildLeaves(seed: number): Leaf[] {
       swayAmp: 10 + rng() * 16,
       tumble: 18 + rng() * 26,
       hue: HUES[Math.floor(rng() * HUES.length)],
-      opacity: 0.16 + rng() * 0.22,
+      opacity: 0.08 + rng() * 0.10,
     });
   }
   return leaves;

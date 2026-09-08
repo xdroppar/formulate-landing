@@ -2,31 +2,31 @@ import Link from "next/link";
 import { DEFAULT_LOCALE } from "@/lib/i18n/locales";
 import { getMessages, translate } from "@/lib/i18n/messages";
 import Image from "next/image";
-import type { ReactNode } from "react";
 import { Reveal } from "@/components/reveal";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { TrackedAppLink } from "@/components/tracked-app-link";
 import { MobileAppBadges } from "@/components/mobile-app-badges";
-import { NewsletterSignup } from "@/components/newsletter-signup";
 import {
   AnimatedNumber,
-  HeroPreview,
-  ScoreBreakdownPreview,
-  NutrientCoveragePreview,
-  MealLogPreview,
-  JourneyPreview,
 } from "@/components/landing/landing-visuals";
 import { BackgroundTree } from "@/components/landing/background-tree";
 import { FallingLeaves } from "@/components/landing/falling-leaves";
-import { LiveScoreSearch, type ScoreItem } from "@/components/landing/live-score-search";
-import { HeroVideo } from "@/components/hero-video";
-import { products as catalogProducts, productBySlug, type Product } from "@/lib/products";
+import { HeroStackBuilder, type ScoreItem } from "@/components/landing/hero-stack-builder";
+import { SectionView, SectionDepthReporter } from "@/components/landing/section-view";
+import { products as catalogProducts, type Product } from "@/lib/products";
 import { foods as allFoods, foodColor } from "@/lib/foods";
 import { recipes as allRecipes, recipeColor } from "@/lib/recipes";
 import { withUtm } from "@/lib/app-url";
 import { existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
+import { scoreTierColor, scoreTierWord } from "@/lib/score-tier-color";
+
+// The stat bar hardcoded 260 while the hero, three CTAs and the spotlight all
+// read SCORED_PRODUCTS_CLAIM ("290+") — two numbers for one thing on a single
+// page, which is the exact failure catalog-size.ts was written to end. It just
+// never reached this call site. Derived from the claim so it cannot drift again.
+const SCORED_PRODUCTS_COUNT = Number(SCORED_PRODUCTS_CLAIM.replace(/[^0-9]/g, "")) || 0;
 import { TrackedStartLink } from "@/components/tracked-start-link";
 
 const APP_URL = "https://app.formulate-health.app";
@@ -103,53 +103,52 @@ function cardImage(p: Product): string {
   return raw;
 }
 
-function scoreHex(s: number): string {
-  return s >= 90 ? "#10B981" : s >= 80 ? "#3B82F6" : s >= 70 ? "#F59E0B" : s >= 60 ? "#F97316" : "#EF4444";
-}
+// Was a local five-band map in a palette the app does not use. Now the app's
+// own table, so a score found in this page's search wears the same colour when
+// the visitor opens it in the product.
+const scoreHex = (s: number): string => scoreTierColor(s);
 
 // Brand-diverse, top-scored products that have a real image — powers the
 // "real products, real scores" proof strip. Selected at build time (SSG).
-const featuredProducts: Product[] = (() => {
-  const seen = new Set<string>();
-  const out: Product[] = [];
-  for (const p of [...catalogProducts].sort((a, b) => (b.score ?? 0) - (a.score ?? 0))) {
-    if (!p.image_url || p.score == null) continue;
-    if (seen.has(p.brand_slug)) continue;
-    seen.add(p.brand_slug);
-    out.push(p);
-    if (out.length >= 10) break;
-  }
-  return out;
-})();
-
 // Recognizable stack staples for the hero mockup rows (graceful fallback to
-// the featured set if a slug ever drops out of the catalog).
-const heroRows = (() => {
-  const staples = [
-    "nootropics-depot-creatine-monohydrate-powder",
-    "megafood-magnesium",
-    "bulksupplements-l-theanine-powder",
-  ]
-    .map(productBySlug)
-    .filter((p): p is Product => !!p);
-  const list = staples.length >= 3 ? staples : featuredProducts;
-  return list.slice(0, 3).map((p, i) => ({
-    name: p.name,
-    brand: p.brand,
-    score: p.score ?? 0,
-    image: cardImage(p),
-    logged: i < 2,
-  }));
-})();
-
-const creatineImage = (() => {
-  const p = productBySlug("thorne-creatine");
-  return p ? cardImage(p) : undefined;
-})();
-
 // Trimmed, build-time search index for the interactive "score your supplement"
 // hero widget — name/brand/score only, so the full 2MB catalog never ships to
 // the client. Sorted so the highest-scoring match surfaces first.
+/**
+ * The one line that explains a product's score, pulled from the component the
+ * score actually turns on.
+ *
+ * Prefer the LOWEST-scoring weighted component's explanation — that is what a
+ * reader wants to know and it is the only thing that separates products in a
+ * catalog where 91% score 80+. If the product has nothing weak, fall back to
+ * its strongest component, which reads as praise rather than a shrug.
+ *
+ * Only weighted components are considered. Transparency, Safety and
+ * Manufacturing ship at weight 0 under the V3.23+ gated model — they gate and
+ * penalise rather than contribute — so quoting them would explain a number they
+ * did not move.
+ */
+function scoreWhy(p: Product): string {
+  const parts = (p.score_components ?? []).filter(
+    (c): c is NonNullable<typeof c> => !!c && (c.weight ?? 0) > 0,
+  );
+  if (!parts.length) return "Scored on evidence, dose and form.";
+  const sorted = [...parts].sort((a, b) => (a.raw_score ?? 100) - (b.raw_score ?? 100));
+  const weakest = sorted[0];
+  const pick = (weakest.raw_score ?? 100) < 85 ? weakest : sorted[sorted.length - 1];
+  // 236 of the 628 distinct explanation strings are enumerations rather than
+  // findings — "1 clinical: Magnesium", "2 good: Beet root". They are the FIRST
+  // entry on most components, so taking [0] handed the reader a machine noise
+  // line where a real sentence ("Excellent form quality — premium bioavailable
+  // forms") was sitting right behind it. Skip the enumerations, then prefer the
+  // most specific line left.
+  const findings = (pick.explanations ?? []).filter(
+    (e) => e && e.length > 8 && !/^\d+\s+(clinical|good|other|fair|poor)\b/i.test(e),
+  );
+  const line = findings.sort((a, b) => b.length - a.length)[0];
+  return line ? `${pick.name}: ${line}` : `${pick.name}: ${pick.raw_score}/100`;
+}
+
 const scoreSearchIndex: ScoreItem[] = catalogProducts
   .filter((p) => p.score != null)
   .map((p) => ({
@@ -158,6 +157,9 @@ const scoreSearchIndex: ScoreItem[] = catalogProducts
     brand: p.brand,
     score: p.score as number,
     color: scoreHex(p.score as number),
+    word: scoreTierWord(p.score as number) ?? "",
+    why: scoreWhy(p),
+    image: cardImage(p),
   }));
 
 // Top-scored foods + recipes for the homepage "whole plate, scored too" strip
@@ -186,64 +188,6 @@ function ArrowIcon({ className = "w-4 h-4" }: { className?: string }) {
   );
 }
 
-/** Alternating text + animated-preview feature block. */
-function Spotlight({
-  eyebrow,
-  title,
-  body,
-  bullets,
-  href,
-  cta,
-  preview,
-  flip = false,
-}: {
-  eyebrow: string;
-  title: ReactNode;
-  body: string;
-  bullets: string[];
-  href: string;
-  cta: string;
-  preview: ReactNode;
-  flip?: boolean;
-}) {
-  return (
-    <section className="max-w-[1100px] mx-auto px-6 py-16 md:py-24">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-        <Reveal className={flip ? "lg:order-2" : ""}>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{eyebrow}</div>
-          <h2 className="text-[clamp(26px,4vw,40px)] font-extrabold tracking-[-1px] mb-5 leading-[1.1]">{title}</h2>
-          <p className="text-muted text-[16px] leading-relaxed mb-6 max-w-[480px]">{body}</p>
-          <ul className="space-y-3 mb-8">
-            {bullets.map((b) => (
-              <li key={b} className="flex items-start gap-3 text-sm text-text leading-relaxed">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-                {b}
-              </li>
-            ))}
-          </ul>
-          <a href={href} className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all">
-            {cta}
-            <ArrowIcon className="w-3.5 h-3.5" />
-          </a>
-        </Reveal>
-        <Reveal delay={120} className={flip ? "lg:order-1" : ""}>
-          {preview}
-        </Reveal>
-      </div>
-    </section>
-  );
-}
-
-/**
- * Locale arrives as a PROP, not from a context or a cookie.
- *
- * This is a server component, so the translated copy has to be in the HTML the
- * server emits — a crawler never runs the client bundle, and Spanish injected
- * after hydration is Spanish Google will not index. Props are also what keeps
- * every page statically prerendered: no dynamic server API is touched.
- */
 export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
   const messages = getMessages(locale);
   const t: T = (key, vars) => translate(messages, key, vars);
@@ -253,170 +197,191 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
       <FallingLeaves />
       <div className="relative z-10">
 
-      {/* ───────────────── Hero ───────────────── */}
-      <section className="relative overflow-hidden px-6 pt-28 md:pt-32 pb-16">
-        {/* animated glow blobs */}
-        <div className="absolute -top-[180px] left-[10%] w-[640px] h-[640px] rounded-full bg-[radial-gradient(circle,rgba(0,229,160,0.10)_0%,transparent_70%)] pointer-events-none animate-blob" />
-        <div className="absolute top-[200px] right-[5%] w-[560px] h-[560px] rounded-full bg-[radial-gradient(circle,rgba(124,109,250,0.09)_0%,transparent_70%)] pointer-events-none animate-blob" style={{ animationDelay: "-6s" }} />
+      <SectionDepthReporter total={12} />
+      <SectionView id="hero" depth={1} />
+      {/* ───────────────── Hero ─────────────────
+          Restructured 2026-09-07. The old hero led with "Know exactly what's
+          working in your routine" over two CTAs, and put the live score search
+          THIRD — behind the hero and a 53-second video.
 
-        <div className="relative max-w-[1180px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10 items-center">
-          {/* copy */}
-          <div className="text-center lg:text-left">
-            <div className="hero-animate inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[13px] font-semibold mb-7">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />{t("home.supplementsFoodNutrientsYourWhole")}</div>
+          That order asks before it gives. A visitor has to have a routine, care
+          that it might be wrong, and then hand over an account, all before the
+          product does anything for them. The search needs none of that: it is
+          the entire value proposition in one interaction, and it works on
+          someone who has never heard of us.
 
-            <h1 className="hero-animate-delay-1 text-[clamp(40px,6vw,68px)] font-black leading-[1.04] tracking-[-2px] mb-6">{t("home.knowExactlyWhatS")}<br />
-              <span className="text-gradient">{t("home.workingInYourRoutine")}</span>
-            </h1>
+          So the search IS the hero now. The headline sets up a question the box
+          immediately answers, and the CTAs drop to secondary — they are the
+          next step for someone already convinced, not the ask. The page's own
+          notes record that it runs ~15 screens and that entry pages equal exit
+          pages in the funnel; anything that has to be seen belongs here. */}
+      <section className="relative overflow-hidden px-6 pt-24 md:pt-28 pb-14">
+        {/* One soft ground wash. The old hero ran two animated radial blobs in
+            mint and violet; on the warm ground they read as a screensaver. */}
+        <div className="absolute -top-[220px] left-1/2 -translate-x-1/2 w-[900px] h-[620px] rounded-full bg-[radial-gradient(circle,rgba(99,201,138,0.07)_0%,transparent_70%)] pointer-events-none" />
 
-            <p className="hero-animate-delay-2 text-[clamp(16px,2vw,20px)] text-muted max-w-[520px] mx-auto lg:mx-0 leading-relaxed mb-9">
-              {t("home.heroSub")}
-            </p>
-
-            <div className="hero-animate-delay-3 flex flex-col items-center lg:items-start gap-4">
-              <div className="flex gap-3.5 flex-wrap justify-center lg:justify-start">
-                <TrackedStartLink
-                  source="home_hero"
-                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
-                >{t("home.buildMyFreeStack")}<ArrowIcon />
-                </TrackedStartLink>
-                <TrackedAppLink
-                  href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
-                  source="home_hero"
-                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
-                >{t("home.openTheApp")}</TrackedAppLink>
-              </div>
-              {/* The iPhone app ships and out-converts the web signup roughly
-                  2:1 on first run, but until now it appeared nowhere above the
-                  footer. Sits under the primary CTAs rather than replacing
-                  them: the hero has to work for desktop readers too. */}
-              <MobileAppBadges source="home_hero" size="sm" />
-              <span className="text-[13px] text-muted/60">{t("home.freeForeverNoAccountNeeded")}</span>
-            </div>
+        <div className="relative max-w-[820px] mx-auto text-center">
+          <div className="hero-animate fm-eyebrow mb-6">
+            {SCORED_PRODUCTS_CLAIM} {t("home.supplementsScored")} <span className="opacity-40">·</span> {t("home.nobodyPaysToRank")}
           </div>
 
-          {/* animated preview */}
-          <div className="hero-animate-delay-4">
-            <HeroPreview products={heroRows} />
-          </div>
-        </div>
-      </section>
+          <h1 className="hero-animate-delay-1 fm-display text-[clamp(34px,5.2vw,var(--text-h-hero))] mb-5">
+            {t("home.heroTitleA")}<br />
+            <span className="text-muted">{t("home.heroTitleB")}</span>
+          </h1>
 
-      {/* ───────────────── What it actually is, in 53 seconds ─────────────────
-          Directly under the hero on purpose. This page is ~15 screens tall and
-          entry pages equal exit pages in the funnel — the CTAs at 13 and 14
-          screens are effectively unseen. Anything meant to be watched has to be
-          in the first screen or two. */}
-      <section className="max-w-[1100px] mx-auto px-6 pb-16">
-        <div className="flex flex-col items-center gap-5 text-center">
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent">{t("home.seeItIn53Seconds")}</div>
-          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] max-w-[620px]">{t("home.youBuildYourWholeStack")} <span className="text-gradient">{t("home.before")}</span>{" "}{t("home.youMakeAnAccount")}</h2>
-          <HeroVideo />
-        </div>
-      </section>
+          <p className="hero-animate-delay-2 text-[17px] text-muted max-w-[560px] mx-auto leading-relaxed mb-9">
+            {t("home.heroSubNew")}
+          </p>
 
-      {/* ───────────────── Live score search (instant payoff) ───────────────── */}
-      <Reveal>
-        <section className="max-w-[760px] mx-auto px-6 pb-16 text-center">
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.tryItNoSignupNeeded")}</div>
-          <h2 className="text-[clamp(20px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-6">{t("home.typeAnySupplementSeeIts")} <span className="text-gradient">{t("home.instantly")}</span>
-          </h2>
-          <LiveScoreSearch index={scoreSearchIndex} appUrl={APP_URL} />
-        </section>
-      </Reveal>
-
-      {/* ───────────────── Animated stat bar ───────────────── */}
-      <Reveal>
-        <div className="max-w-[1000px] mx-auto px-6 pb-20">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-border bg-border">
-            {[
-              { node: <><AnimatedNumber value={260} />+</>, label: "Supplements scored" },
-              { node: <><AnimatedNumber value={600} />+</>, label: t("home.wholeFoodsMeals") },
-              { node: <><AnimatedNumber value={26} />+</>, label: t("home.nutrientsTrackedDaily") },
-              { node: <>$<AnimatedNumber value={0} /></>, label: t("home.costAlwaysFree") },
-            ].map((s) => (
-              <div key={s.label} className="bg-surface px-4 py-7 text-center">
-                <div className="text-[clamp(26px,4vw,38px)] font-black text-text">
-                  {s.node}
-                </div>
-                <div className="text-[12px] md:text-[13px] text-muted mt-1">{s.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Reveal>
-
-      {/* ───────────────── Real products proof strip ───────────────── */}
-      <Reveal>
-        <section className="max-w-[1100px] mx-auto px-6 pb-24">
-          <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.realProductsRealScores")}</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[640px] mx-auto">{t("home.actualProductsFromTheCatalog")} <span className="text-muted">{t("home.scoredNotSponsored")}</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
-            {featuredProducts.slice(0, 10).map((p, i) => (
-              <a
-                key={p.slug}
-                href={withUtm(`${APP_URL}/catalog/${p.slug}`, { source: "landing", campaign: "home_proof_strip" })}
-                className={`group bg-surface border border-border rounded-2xl overflow-hidden hover:border-accent/30 hover:-translate-y-1 transition-all ${i >= 6 ? "hidden lg:block" : ""} ${i >= 4 && i < 6 ? "hidden sm:block" : ""}`}
-              >
-                <div className="relative aspect-square bg-surface2 flex items-center justify-center p-4">
-                  <Image src={cardImage(p)} alt={`${p.brand} ${p.name}`} width={150} height={150} className="object-contain max-h-[120px] w-auto group-hover:scale-105 transition-transform" />
-                  <div
-                    className="absolute top-2.5 right-2.5 w-10 h-10 rounded-full flex items-center justify-center text-sm font-black border-2 bg-bg/80 backdrop-blur"
-                    style={{ color: scoreHex(p.score ?? 0), borderColor: scoreHex(p.score ?? 0) }}
-                  >
-                    {p.score}
+          {/* The payoff, in the first screen. */}
+          <div className="hero-animate-delay-3">
+            <HeroStackBuilder
+              index={scoreSearchIndex}
+              appUrl={APP_URL}
+              /* The key is not decoration: React renders this element inside
+                 the builder's children and, because it was CREATED here in Home
+                 rather than there, it lands in a list position and warns
+                 without one. Verified — the homepage was throwing a key error
+                 on every load and is now clean. */
+              emptyFooter={
+                <div key="hero-empty-footer" className="hero-animate-delay-4 mt-8 flex flex-col items-center gap-4">
+                  <p className="text-[12px] text-muted/70">{t("home.heroSearchNote")}</p>
+                  <div className="flex gap-3 flex-wrap justify-center">
+                    <TrackedStartLink
+                      source="home_hero"
+                      className="inline-flex items-center gap-2 px-7 py-3 rounded-xl text-[16px] font-semibold bg-accent text-bg hover:brightness-110 hover:-translate-y-0.5 transition-all"
+                    >
+                      {t("home.buildMyFreeStack")}
+                      <ArrowIcon />
+                    </TrackedStartLink>
+                    <TrackedAppLink
+                      href={withUtm(`${APP_URL}`, { source: "landing", campaign: "home_hero_open" })}
+                      source="home_hero"
+                      className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-[16px] font-medium bg-transparent text-muted border border-border hover:border-accent hover:text-accent transition-all"
+                    >
+                      {t("home.openTheApp")}
+                    </TrackedAppLink>
                   </div>
+                  {/* The iPhone app ships and out-converts the web signup
+                      roughly 2:1 on first run, so it stays above the footer. */}
+                  <MobileAppBadges source="home_hero" size="sm" />
+                  <span className="text-[12px] text-muted/60">{t("home.freeForeverNoAccountNeeded")}</span>
                 </div>
-                <div className="p-3.5">
-                  <div className="text-[13px] font-semibold text-text truncate" title={p.name}>{p.name}</div>
-                  <div className="text-[11px] text-muted truncate">{p.brand}</div>
-                </div>
-              </a>
-            ))}
+              }
+            />
           </div>
-          <div className="mt-8 text-center">
-            <a
-              href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "home_proof_strip_all" })}
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
-            >{t("home.browseAllScoredProducts", { count: SCORED_PRODUCTS_CLAIM })}<ArrowIcon className="w-3.5 h-3.5" />
-            </a>
+        </div>
+      </section>
+
+      <SectionView id="problem" depth={2} />
+      {/* ───────────────── Problem stats (every claim sourced) ─────────────────
+          Moved up 2026-09-07, from screen 11 to screen 2. "Zero safety or
+          effectiveness reviews are required before a supplement is sold" is a
+          sourced fact about US law and the most arresting line on the page, and
+          it sat below the fold-line this page's own funnel notes say nobody
+          reaches. It is the reason to CARE, so it now runs before the reason
+          to TRUST. */}
+      <Reveal>
+        <section className="max-w-[880px] mx-auto px-6 py-24 text-center">
+          <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] mb-4">{t("home.theSupplementIndustryMakesIt")} <span className="text-danger">{t("home.hardToKnow")}</span>{" "}{t("home.whatSActuallyGood")}</h2>
+          <p className="text-muted text-[16px] max-w-[560px] mx-auto leading-relaxed mb-12">{t("home.notScareStatsVerifiableFacts")}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {[
+              {
+                stat: "0",
+                desc: t("home.safetyOrEffectivenessReviewsA"),
+                source: "U.S. law — DSHEA, 1994",
+              },
+              {
+                stat: "+478%",
+                desc: t("home.overTheLabeledDoseSome"),
+                source: "2017, J. Clinical Sleep Medicine",
+              },
+              {
+                stat: "0mg",
+                desc: "The per-ingredient amount a brand must disclose inside a \"proprietary blend.\"",
+                source: "FDA labeling rules",
+              },
+            ].map((item) => (
+              <Reveal key={item.stat} delay={100}>
+                <div className="bg-surface border border-border rounded-xl p-6 h-full flex flex-col">
+                  <div className="text-4xl font-black text-accent mb-3">{item.stat}</div>
+                  <div className="text-sm text-text leading-relaxed mb-4 flex-1">{item.desc}</div>
+                  <div className="text-[11px] text-muted/60 font-semibold tracking-wide uppercase">{item.source}</div>
+                </div>
+              </Reveal>
+            ))}
           </div>
         </section>
       </Reveal>
 
-      {/* ───────────────── Why you can trust the score ───────────────── */}
+      <SectionView id="trust" depth={3} />
+      {/* ───────────────── Why you can trust the score ─────────────────
+          Moved up 2026-09-07, from below the proof strip to directly under the
+          hero. The search hands a visitor a number in the first screen; the very
+          next question a sceptical person asks is "says who?" — and the answer
+          to it was six screens down, past the fold-line the page's own funnel
+          notes say nobody reaches. Scoring criteria and "no brand pays" are the
+          only claims here a competitor cannot copy, so they lead. */}
       <Reveal>
         <section className="max-w-[1100px] mx-auto px-6 pb-24">
           <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.whyYouCanTrustThe")}</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[700px] mx-auto mb-4">{t("home.builtOnTheStandardsA")} <span className="text-muted">{t("home.notSponsorships")}</span>
+            <div className="fm-eyebrow mb-3">{t("home.whyYouCanTrustThe")}</div>
+            <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] max-w-[700px] mx-auto mb-4">{t("home.builtOnTheStandardsA")} <span className="text-muted">{t("home.notSponsorships")}</span>
             </h2>
             <p className="text-muted text-[16px] max-w-[620px] mx-auto leading-relaxed">{t("home.everyProductRunsThroughThe")}</p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
-            {[
-              { w: "25%", n: t("home.clinicalEvidence"), c: "text-green-400" },
-              { w: "20%", n: t("home.manufacturing"), c: "text-blue-400" },
-              { w: "20%", n: t("home.doseAccuracy"), c: "text-cyan-400" },
-              { w: "15%", n: t("home.bioavailability"), c: "text-amber-400" },
-              { w: "10%", n: t("home.transparency"), c: "text-purple-400" },
-              { w: "10%", n: t("home.safety"), c: "text-red-400" },
-            ].map((f) => (
-              <div key={f.n} className="bg-surface border border-border rounded-2xl p-4 text-center">
-                <div className={`text-2xl font-black ${f.c}`}>{f.w}</div>
-                <div className="text-[12px] text-muted mt-1 leading-tight">{f.n}</div>
+          {/* Corrected 2026-09-07 against the shipped catalog: this block used
+             to advertise 25/20/20/15/10/10 across six weighted factors, while
+             all 303 scored products at score_version 3.23/3.24 actually run
+             Evidence 40 / Dose 35 / Form 25, with Manufacturing, Transparency
+             and Safety at weight ZERO because V3.23 made them gates that deduct
+             (23 products carry a score_gate_penalty).
+
+             The first correction rendered those three as the word "gate", which
+             is our vocabulary, not a reader's — six cards where three showed a
+             percentage and three showed a word that looks like a missing value.
+             Split into two labelled groups instead: the split IS the
+             explanation, so no jargon has to carry it. */}
+          <div className="space-y-6 mb-8">
+            <div>
+              <div className="fm-eyebrow mb-2.5">{t("home.scoredFactors")}</div>
+              <div className="grid grid-cols-3 gap-3">
+                {[
+                  { w: "40%", n: t("home.clinicalEvidence") },
+                  { w: "35%", n: t("home.doseAccuracy") },
+                  { w: "25%", n: t("home.bioavailability") },
+                ].map((f) => (
+                  <div key={f.n} className="fm-panel p-4 text-center">
+                    <div className="fm-figure text-accent">{f.w}</div>
+                    <div className="text-[12px] text-muted mt-1.5 leading-tight">{f.n}</div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            <div>
+              <div className="fm-eyebrow mb-2.5">{t("home.gateFactors")}</div>
+              <div className="grid grid-cols-3 gap-3">
+                {[t("home.manufacturing"), t("home.transparency"), t("home.safety")].map((n) => (
+                  <div key={n} className="fm-panel p-4 text-center">
+                    {/* Name first here, not a number: these have no number, and
+                        inverting the hierarchy is what stops the card looking
+                        like a percentage that failed to load. */}
+                    <div className="text-[16px] font-semibold text-text leading-tight">{n}</div>
+                    <div className="text-[11px] text-muted/70 mt-1.5">{t("home.mustPass")}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div className="max-w-[760px] mx-auto rounded-2xl bg-surface border border-border p-6 text-center">
-            <p className="text-[15px] text-text leading-relaxed mb-2">{t("home.weReadTheCredentialsThat")} <span className="font-semibold text-text">{t("home.nsf")}</span>,{" "}
+            <p className="text-[16px] text-text leading-relaxed mb-2">{t("home.weReadTheCredentialsThat")} <span className="font-semibold text-text">{t("home.nsf")}</span>,{" "}
               <span className="font-semibold text-text">{t("home.uspVerified")}</span>, <span className="font-semibold text-text">{t("home.informedSport")}</span>{t("home.thirdPartyCoasAlongsidePeer")}</p>
-            <p className="text-[13px] text-muted">{t("home.noBrandPaysToBe")}</p>
+            <p className="text-[12px] text-muted">{t("home.noBrandPaysToBe")}</p>
             <Link
               href="/methodology/supplements"
               className="inline-flex items-center gap-1.5 mt-5 text-sm font-semibold text-accent hover:gap-2.5 transition-all"
@@ -426,92 +391,70 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </section>
       </Reveal>
 
+
+      <SectionView id="stats" depth={4} />
+      {/* ───────────────── Animated stat bar ───────────────── */}
+      <Reveal>
+        <div className="max-w-[1000px] mx-auto px-6 pb-20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-border bg-border">
+            {[
+              { node: <><AnimatedNumber value={SCORED_PRODUCTS_COUNT} />+</>, label: "Supplements scored" },
+              { node: <><AnimatedNumber value={600} />+</>, label: t("home.wholeFoodsMeals") },
+              { node: <><AnimatedNumber value={26} />+</>, label: t("home.nutrientsTrackedDaily") },
+              { node: <>$<AnimatedNumber value={0} /></>, label: t("home.costAlwaysFree") },
+            ].map((s) => (
+              <div key={s.label} className="bg-surface px-4 py-7 text-center">
+                <div className="text-[clamp(26px,4vw,38px)] font-black text-text">
+                  {s.node}
+                </div>
+                <div className="text-[12px] md:text-[12px] text-muted mt-1">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Reveal>
+
+      <SectionView id="platform" depth={5} />
       {/* ───────────────── Platform pillars ───────────────── */}
       <section id="features" className="max-w-[1100px] mx-auto px-6 py-16 md:py-24">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.thePlatform")}</div>
-          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] text-center max-w-[760px] mx-auto mb-4">{t("home.oneAppForEverythingYou")}</h2>
+          <div className="fm-eyebrow mb-4 text-center">{t("home.thePlatform")}</div>
+          <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] text-center max-w-[760px] mx-auto mb-4">{t("home.oneAppForEverythingYou")}</h2>
           <p className="text-muted text-[17px] max-w-[600px] mx-auto text-center leading-relaxed mb-14">{t("home.mostAppsTrackCaloriesFormulate")}</p>
         </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Six emoji in accent-tinted rounded squares, each scaling on hover,
+            was the loudest remaining piece of the old page — the same
+            kids-app register the app itself has been moving away from, and a
+            layout indistinguishable from every other SaaS feature grid. The
+            content is unchanged; it is now set in the app's own primitives, so
+            a visitor crossing from here into the product sees one language. */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {[
-            { icon: "🔬", title: t("home.supplementScoring"), desc: t("home.everyProductScored50100") },
-            { icon: "🍽️", title: t("home.foodMealTracking"), desc: t("home.logWholeFoodsBrandedItems") },
-            { icon: "🎯", title: t("home.nutrientCoverage"), desc: t("home.seeExactlyWhichOf26") },
-            { icon: "📊", title: t("home.yourStackScore"), desc: t("home.aSinglePersonalizedScoreFor") },
-            { icon: "💧", title: t("home.hydrationHabits"), desc: t("home.trackWaterBuildStreaksAnd") },
-            { icon: "🧬", title: t("home.progressJourney"), desc: t("home.levelUpAcrossHealthPillars") },
+            { title: t("home.supplementScoring"), desc: t("home.everyProductScored50100") },
+            { title: t("home.foodMealTracking"), desc: t("home.logWholeFoodsBrandedItems") },
+            { title: t("home.nutrientCoverage"), desc: t("home.seeExactlyWhichOf26") },
+            { title: t("home.yourStackScore"), desc: t("home.aSinglePersonalizedScoreFor") },
+            { title: t("home.hydrationHabits"), desc: t("home.trackWaterBuildStreaksAnd") },
+            { title: t("home.progressJourney"), desc: t("home.levelUpAcrossHealthPillars") },
           ].map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 90}>
-              <div className="group bg-surface border border-border rounded-2xl p-6 hover:border-accent/30 hover:-translate-y-1 transition-all h-full">
-                <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-                  {f.icon}
-                </div>
-                <div className="text-base font-bold mb-2">{f.title}</div>
-                <div className="text-sm text-muted leading-relaxed">{f.desc}</div>
+              <div className="fm-panel p-6 h-full transition-colors hover:border-accent/25">
+                <div className="fm-eyebrow mb-3">{String(i + 1).padStart(2, "0")}</div>
+                <div className="fm-display text-[length:var(--text-title)] mb-2">{f.title}</div>
+                <div className="text-[14px] text-muted leading-relaxed">{f.desc}</div>
               </div>
             </Reveal>
           ))}
         </div>
       </section>
 
-      {/* ───────────────── Feature spotlights ───────────────── */}
-      <div className="border-t border-border">
-        <Spotlight
-          eyebrow={t("home.supplementScores")}
-          title={<>{t("home.stopGuessing")} <span className="text-muted">{t("home.seeTheRealScore")}</span></>}
-          body={t("home.whetherADoseIsActually")}
-          bullets={[
-            t("home.doseAccuracyCheckedAgainstEffective"),
-            t("home.ingredientFormsGradedForBioavailability"),
-            t("home.underdosedBlendsAndUnsafeLimits"),
-            t("home.brandScoresDerivedFromProduct"),
-          ]}
-          href={withUtm(`${APP_URL}/catalog`, { source: "landing", campaign: "spotlight_scores" })}
-          cta={`Browse ${SCORED_PRODUCTS_CLAIM} scored products`}
-          preview={<ScoreBreakdownPreview image={creatineImage} />}
-        />
-      </div>
-
-      <div className="bg-surface border-t border-b border-border">
-        <Spotlight
-          flip
-          eyebrow={t("home.nutrientCoverage")}
-          title={<>{t("home.fillInTheGapsYour")} <span className="text-muted">{t("home.dietLeavesBehind")}</span></>}
-          body={t("home.formulateCombinesWhatYouEat")}
-          bullets={[
-            t("home.26CoreNutrientsTrackedFrom"),
-            t("home.targetsPersonalizedToYourAge"),
-            t("home.clearGapsSurfacedWithThe"),
-            t("home.noDoubleCountingBetweenYour"),
-          ]}
-          href={withUtm(`${APP_URL}/stack/nutrients`, { source: "landing", campaign: "spotlight_nutrients" })}
-          cta={t("home.seeHowCoverageWorks")}
-          preview={<NutrientCoveragePreview />}
-        />
-      </div>
-
-      <Spotlight
-        eyebrow={t("home.foodMeals")}
-        title={<>{t("home.trackFoodBy")} <span className="text-muted">{t("home.qualityNotJustCalories")}</span></>}
-        body={t("home.logWholeFoodsBrandedProducts")}
-        bullets={[
-          t("home.hundredsOfWholeFoodsAnd"),
-          t("home.buildAndSaveCustomMeals"),
-          t("home.macrosAndMicrosRollInto"),
-          t("home.portionAwareScoringTooMuch"),
-        ]}
-        href={withUtm(`${APP_URL}/meals`, { source: "landing", campaign: "spotlight_meals" })}
-        cta={t("home.exploreMealsRecipes")}
-        preview={<MealLogPreview />}
-      />
-
+      <SectionView id="foods" depth={6} />
       {/* ───────────────── Foods & recipes scored (proof + internal links) ───────────────── */}
       <Reveal>
         <section className="max-w-[1100px] mx-auto px-6 pb-24">
           <div className="text-center mb-10">
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">{t("home.foodsRecipesScoredToo")}</div>
-            <h2 className="text-[clamp(24px,3.5vw,36px)] font-extrabold tracking-[-1px] max-w-[680px] mx-auto">{t("home.notJustSupplements")} <span className="text-muted">{t("home.yourWholePlateScored")}</span>
+            <div className="fm-eyebrow mb-3">{t("home.foodsRecipesScoredToo")}</div>
+            <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] max-w-[680px] mx-auto">{t("home.notJustSupplements")} <span className="text-muted">{t("home.yourWholePlateScored")}</span>
             </h2>
           </div>
 
@@ -562,64 +505,15 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
       </Reveal>
 
       <div className="bg-surface border-t border-b border-border">
-        <Spotlight
-          flip
-          eyebrow={t("home.progressJourney")}
-          title={<>{t("home.buildMomentumThat")} <span className="text-muted">{t("home.actuallySticks")}</span></>}
-          body={t("home.loggingConsistentlyIsTheHard")}
-          bullets={[
-            t("home.levelUpAcrossSupplementsDiet"),
-            t("home.streaksAndAchievementsKeepYou"),
-            t("home.weeklyAndMonthlyTrendCharts"),
-            t("home.yourStackScoreClimbsAs"),
-          ]}
-          href={withUtm(`${APP_URL}`, { source: "landing", campaign: "spotlight_journey" })}
-          cta={t("home.startYourJourney")}
-          preview={<JourneyPreview />}
-        />
       </div>
 
-      {/* ───────────────── Problem stats (every claim sourced) ───────────────── */}
-      <Reveal>
-        <section className="max-w-[880px] mx-auto px-6 py-24 text-center">
-          <h2 className="text-[clamp(24px,4vw,40px)] font-extrabold tracking-[-1px] mb-4">{t("home.theSupplementIndustryMakesIt")} <span className="text-danger">{t("home.hardToKnow")}</span>{" "}{t("home.whatSActuallyGood")}</h2>
-          <p className="text-muted text-[15px] max-w-[560px] mx-auto leading-relaxed mb-12">{t("home.notScareStatsVerifiableFacts")}</p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {[
-              {
-                stat: "0",
-                desc: t("home.safetyOrEffectivenessReviewsA"),
-                source: "U.S. law — DSHEA, 1994",
-              },
-              {
-                stat: "+478%",
-                desc: t("home.overTheLabeledDoseSome"),
-                source: "2017, J. Clinical Sleep Medicine",
-              },
-              {
-                stat: "0mg",
-                desc: "The per-ingredient amount a brand must disclose inside a \"proprietary blend.\"",
-                source: "FDA labeling rules",
-              },
-            ].map((item) => (
-              <Reveal key={item.stat} delay={100}>
-                <div className="bg-surface border border-border rounded-xl p-6 h-full flex flex-col">
-                  <div className="text-4xl font-black text-accent mb-3">{item.stat}</div>
-                  <div className="text-sm text-text leading-relaxed mb-4 flex-1">{item.desc}</div>
-                  <div className="text-[11px] text-muted/60 font-semibold tracking-wide uppercase">{item.source}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      </Reveal>
-
+      <SectionView id="how_it_works" depth={7} />
       {/* ───────────────── How it works ───────────────── */}
       <div id="how" className="bg-surface border-t border-b border-border py-24 px-6">
         <div className="max-w-[1100px] mx-auto">
           <Reveal>
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.howItWorks")}</div>
-            <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[600px] mb-14">{t("home.fromConfusionToClarityIn")}</h2>
+            <div className="fm-eyebrow mb-4">{t("home.howItWorks")}</div>
+            <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] max-w-[600px] mb-14">{t("home.fromConfusionToClarityIn")}</h2>
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {[
@@ -640,41 +534,12 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </div>
       </div>
 
-      {/* ───────────────── Methodology / Trust ───────────────── */}
-      <section id="methodology" className="max-w-[1100px] mx-auto px-6 py-24">
-        <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.ourMethodology")}</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-6">{t("home.transparentScoringNoBrandDeals")}</h2>
-          <p className="text-muted text-[17px] max-w-[600px] leading-relaxed mb-12">{t("home.everyScoreIsDerivedFrom")}</p>
-        </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {[
-            { label: t("home.ingredientQuality"), desc: t("home.areTheIngredientFormsClinically") },
-            { label: t("home.doseAccuracy"), desc: t("home.doesEachIngredientMeetIts") },
-            { label: t("home.labelTransparency"), desc: t("home.fullDisclosureOrProprietaryBlends") },
-            { label: t("home.thirdPartyTesting"), desc: t("home.isTheProductIndependentlyTested") },
-          ].map((item, i) => (
-            <Reveal key={item.label} delay={i * 80}>
-              <div className="bg-surface border border-border rounded-xl p-6 h-full">
-                <div className="text-sm font-bold text-accent mb-2">{item.label}</div>
-                <div className="text-sm text-muted leading-relaxed">{item.desc}</div>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-        <Reveal delay={200}>
-          <div className="mt-8">
-            <a href={`${APP_URL}/methodology`} className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">{t("home.readOurFullScoringMethodology")}<ArrowIcon className="w-3.5 h-3.5" />
-            </a>
-          </div>
-        </Reveal>
-      </section>
-
+      <SectionView id="comparison" depth={8} />
       {/* ───────────────── Comparison ───────────────── */}
       <section id="compare" className="max-w-[960px] mx-auto px-6 py-24 scroll-mt-20">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.howFormulateCompares")}</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[640px] mx-auto mb-4">{t("home.builtToTellYouThe")}</h2>
+          <div className="fm-eyebrow mb-4 text-center">{t("home.howFormulateCompares")}</div>
+          <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] text-center max-w-[640px] mx-auto mb-4">{t("home.builtToTellYouThe")}</h2>
           <p className="text-muted text-[17px] max-w-[560px] mx-auto text-center leading-relaxed mb-12">{t("home.calorieTrackersCountWhatYou")}</p>
         </Reveal>
         <Reveal delay={120}>
@@ -729,6 +594,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </Reveal>
       </section>
 
+      <SectionView id="faq" depth={9} />
       {/* ───────────────── FAQ ───────────────── */}
       <section className="bg-surface border-t border-b border-border py-24 px-6">
         <script
@@ -737,8 +603,8 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         />
         <div className="max-w-[800px] mx-auto">
           <Reveal>
-            <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.faq")}</div>
-            <h2 className="text-[clamp(28px,4vw,40px)] font-extrabold tracking-[-1px] mb-12">{t("home.commonQuestions")}</h2>
+            <div className="fm-eyebrow mb-4">{t("home.faq")}</div>
+            <h2 className="fm-display text-[clamp(20px,2.6vw,var(--text-h-section))] mb-10">{t("home.commonQuestions")}</h2>
           </Reveal>
           <div className="space-y-8">
             {homeFaqs(t).map((item, i) => (
@@ -753,12 +619,13 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </div>
       </section>
 
+      <SectionView id="pricing" depth={10} />
       {/* ───────────────── Pricing ───────────────── */}
       <section id="pricing" className="max-w-[1100px] mx-auto px-6 py-24 scroll-mt-20">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4 text-center">{t("home.pricing")}</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] text-center max-w-[600px] mx-auto mb-4">{t("home.everythingForFree")}</h2>
-          <p className="text-muted text-[17px] max-w-[540px] mx-auto text-center leading-relaxed mb-12">{t("home.noTiersNoTrialsNo")}</p>
+          <div className="fm-eyebrow mb-4 text-center">{t("home.pricing")}</div>
+          <h2 className="fm-display text-[clamp(20px,2.6vw,var(--text-h-section))] text-center max-w-[600px] mx-auto mb-10">{t("home.everythingForFree")}</h2>
+
         </Reveal>
         <Reveal delay={120}>
           <div className="max-w-[460px] mx-auto rounded-2xl border border-accent/25 bg-surface p-8 relative overflow-hidden">
@@ -766,7 +633,7 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
             <div className="relative">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[12px] font-bold mb-5">{t("home.freeForever")}</div>
               <div className="flex items-end gap-2 mb-6">
-                <span className="text-6xl font-black text-text leading-none">$0</span>
+                <span className="fm-figure text-[length:var(--text-display)] leading-none">$0</span>
                 <span className="text-muted text-sm mb-1.5">{t("home.forever")}</span>
               </div>
               <ul className="space-y-3 mb-8">
@@ -796,12 +663,13 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </Reveal>
       </section>
 
+      <SectionView id="guides" depth={11} />
       {/* ───────────────── Featured Guides ───────────────── */}
       <section className="max-w-[1100px] mx-auto px-6 py-24">
         <Reveal>
-          <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-4">{t("home.learn")}</div>
-          <h2 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] max-w-[700px] mb-4">{t("home.evidenceBasedHealthGuides")}</h2>
-          <p className="text-muted text-[17px] max-w-[560px] leading-relaxed mb-12">{t("home.deepDivesBestOfRoundups")}</p>
+          <div className="fm-eyebrow mb-4">{t("home.learn")}</div>
+          <h2 className="fm-display text-[clamp(20px,2.6vw,var(--text-h-section))] max-w-[700px] mb-10">{t("home.evidenceBasedHealthGuides")}</h2>
+
         </Reveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
@@ -833,8 +701,8 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
                 className="group block bg-surface border border-border rounded-2xl p-7 hover:border-accent/30 hover:-translate-y-0.5 transition-all h-full"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[10px] font-bold tracking-[1.5px] uppercase text-accent">{guide.category}</span>
-                  <span className="text-[10px] text-muted">{guide.readTime}</span>
+                  <span className="text-[11px] font-bold tracking-[1.5px] uppercase text-accent">{guide.category}</span>
+                  <span className="text-[11px] text-muted">{guide.readTime}</span>
                 </div>
                 <h3 className="text-base font-bold leading-snug mb-2 group-hover:text-accent transition-colors">{guide.title}</h3>
                 <p className="text-sm text-muted leading-relaxed">{guide.desc}</p>
@@ -850,17 +718,11 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         </Reveal>
       </section>
 
-      {/* ───────────────── Newsletter ───────────────── */}
-      <Reveal>
-        <section className="px-6 max-w-[640px] mx-auto">
-          <NewsletterSignup source="home" />
-        </section>
-      </Reveal>
-
+      <SectionView id="final_cta" depth={12} />
       {/* ───────────────── Final CTA ───────────────── */}
       <Reveal>
         <section className="py-24 px-6 text-center max-w-[680px] mx-auto flex flex-col items-center">
-          <h2 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] mb-4">{t("home.seeWhatS")} <span className="text-accent">{t("home.actuallyWorking")}</span>{" "}{t("home.inYourRoutine")}</h2>
+          <h2 className="fm-display text-[clamp(24px,3.5vw,var(--text-h-argument))] mb-4">{t("home.seeWhatS")} <span className="text-accent">{t("home.actuallyWorking")}</span>{" "}{t("home.inYourRoutine")}</h2>
           <p className="text-muted text-[17px] leading-relaxed mb-10">{t("home.scoreYourSupplementsTrackYour")}</p>
           <div className="flex gap-3.5 flex-wrap justify-center">
             <TrackedAppLink
