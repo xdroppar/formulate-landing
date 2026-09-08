@@ -210,10 +210,18 @@ export default async function RecipeDetail({ params }: { params: Params }) {
               <div key={row.key as string}>
                 <div className="flex items-baseline justify-between mb-1">
                   <span className="text-sm text-text">{row.label}</span>
-                  <span className="text-xs text-muted">{Math.round(row.value as number)}</span>
+                  <span className="text-[12px] text-muted tabular-nums">
+                    {Math.round(row.value as number)}<span className="text-muted/50"> / {row.max}</span>
+                  </span>
                 </div>
                 <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
-                  <div className="h-full rounded-full" style={{ width: `${Math.max(0, Math.min(100, row.value as number))}%`, backgroundColor: color }} />
+                  <div
+                    className="h-full rounded-full"
+                    style={{
+                      width: `${Math.max(0, Math.min(100, ((row.value as number) / row.max) * 100))}%`,
+                      backgroundColor: color,
+                    }}
+                  />
                 </div>
               </div>
             ))}

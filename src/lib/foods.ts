@@ -157,13 +157,29 @@ export function foodColor(f: Pick<Food, "score" | "grade_color">): string {
 }
 
 /** The score-breakdown rows worth surfacing as meters (skip penalties/arrays). */
-export const FOOD_BREAKDOWN_ROWS: { key: keyof FoodScoreBreakdown; label: string }[] = [
-  { key: "nutrient_density", label: "Nutrient density" },
-  { key: "protein_quality", label: "Protein quality" },
-  { key: "fiber_content", label: "Fiber content" },
-  { key: "healthy_fats", label: "Healthy fats" },
-  { key: "bioactive_compounds", label: "Bioactive compounds" },
-  { key: "glycemic_impact", label: "Glycemic impact" },
+/**
+ * The six scored components, with the maximum each can reach.
+ *
+ * The `max` is not decoration — the detail page drew its bars using the raw
+ * value AS A PERCENTAGE. The components do not share a scale, so kale, which is
+ * maxed on fiber (10/10) and on glycemic impact (10/10), rendered both as
+ * nearly-empty 10% bars while nutrient density at 35/35 drew at 35%. Every food
+ * page understated every component, and the RELATIVE reading was wrong too: a
+ * food's strongest components looked like its weakest.
+ *
+ * /35 and /15 are confirmed from formulate-web's comparison facets
+ * (`unit: "/35"`, `unit: "/15"`). The remaining four are taken from the maxima
+ * observed across all 487 scored foods — fiber, fats and glycemic impact each
+ * top out at exactly 10.0, and protein quality at 14.0 against an assumed 15.
+ * If the scorer ever publishes its own table, prefer that over this.
+ */
+export const FOOD_BREAKDOWN_ROWS: { key: keyof FoodScoreBreakdown; label: string; max: number }[] = [
+  { key: "nutrient_density", label: "Nutrient density", max: 35 },
+  { key: "protein_quality", label: "Protein quality", max: 15 },
+  { key: "fiber_content", label: "Fiber content", max: 10 },
+  { key: "healthy_fats", label: "Healthy fats", max: 10 },
+  { key: "bioactive_compounds", label: "Bioactive compounds", max: 15 },
+  { key: "glycemic_impact", label: "Glycemic impact", max: 10 },
 ];
 
 

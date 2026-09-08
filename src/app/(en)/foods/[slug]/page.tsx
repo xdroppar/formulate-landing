@@ -164,12 +164,19 @@ export default async function FoodDetail({ params }: { params: Params }) {
               <div key={r.key as string}>
                 <div className="flex items-baseline justify-between mb-1">
                   <span className="text-sm text-text">{r.label}</span>
-                  <span className="text-xs text-muted">{Math.round(r.value as number)}</span>
+                  <span className="text-[12px] text-muted tabular-nums">
+                    {Math.round(r.value as number)}<span className="text-muted/50"> / {r.max}</span>
+                  </span>
                 </div>
                 <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
                   <div
                     className="h-full rounded-full"
-                    style={{ width: `${Math.max(0, Math.min(100, r.value as number))}%`, backgroundColor: color }}
+                    style={{
+                      // Against the component's OWN maximum. Using the raw value
+                      // as a percentage drew a maxed component at 10% wide.
+                      width: `${Math.max(0, Math.min(100, ((r.value as number) / r.max) * 100))}%`,
+                      backgroundColor: color,
+                    }}
                   />
                 </div>
               </div>

@@ -8,6 +8,7 @@ import {
   type BrandComparison,
 } from "@/lib/brand-comparisons";
 import { brandBySlug, productsForBrand, scoreGrade, type BrandSummary } from "@/lib/products";
+import { scoreTierColor } from "@/lib/score-tier-color";
 
 const BASE = "https://formulate-health.app";
 
@@ -179,14 +180,11 @@ export default async function BrandComparePage({ params }: { params: Params }) {
                           className="h-full rounded-full"
                           style={{
                             width: `${Math.max(0, Math.min(100, value))}%`,
-                            backgroundColor:
-                              value >= 85
-                                ? "#10B981"
-                                : value >= 70
-                                  ? "#3B82F6"
-                                  : value >= 55
-                                    ? "#F59E0B"
-                                    : "#EF4444",
+                            // Brand component scores ARE 0-100, so the width is
+                            // correct here — but the colour was a fourth private
+                            // palette on its own thresholds (85/70/55). The app's
+                            // table breaks at 90/80/60.
+                            backgroundColor: scoreTierColor(value),
                           }}
                         />
                       </div>

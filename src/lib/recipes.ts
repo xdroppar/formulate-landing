@@ -132,11 +132,18 @@ export function recipesByDiet(tag: string): Recipe[] {
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
 }
 
-export const RECIPE_BREAKDOWN_ROWS: { key: keyof RecipeScoreBreakdown; label: string }[] = [
-  { key: "nutrient_density", label: "Nutrient density" },
-  { key: "protein_quality", label: "Protein quality" },
-  { key: "fiber_content", label: "Fiber content" },
-  { key: "healthy_fats", label: "Healthy fats" },
-  { key: "bioactive_compounds", label: "Bioactive compounds" },
-  { key: "glycemic_impact", label: "Glycemic impact" },
+/**
+ * Same six components as whole foods, same maxima, and the detail page had the
+ * same bug: the raw value was used AS A PERCENTAGE, so a recipe maxed on fiber
+ * (10/10) drew a 10% bar. See FOOD_BREAKDOWN_ROWS for where the maxima come
+ * from; observed ranges across all 719 scored recipes agree (nutrient density
+ * tops out at 35, fiber / fats / glycemic at exactly 10).
+ */
+export const RECIPE_BREAKDOWN_ROWS: { key: keyof RecipeScoreBreakdown; label: string; max: number }[] = [
+  { key: "nutrient_density", label: "Nutrient density", max: 35 },
+  { key: "protein_quality", label: "Protein quality", max: 15 },
+  { key: "fiber_content", label: "Fiber content", max: 10 },
+  { key: "healthy_fats", label: "Healthy fats", max: 10 },
+  { key: "bioactive_compounds", label: "Bioactive compounds", max: 15 },
+  { key: "glycemic_impact", label: "Glycemic impact", max: 10 },
 ];
