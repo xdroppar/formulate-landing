@@ -34,7 +34,7 @@ export default async function UnsubscribePage({
         {success ? (
           <>
             <div className="text-accent text-3xl mb-3">✓</div>
-            <h1 className="text-xl font-bold text-text mb-2">
+            <h1 className="fm-display text-[length:var(--text-h-section)] text-text mb-2">
               You've been unsubscribed
             </h1>
             <p className="text-sm text-muted mb-6 leading-relaxed">
@@ -45,7 +45,7 @@ export default async function UnsubscribePage({
         ) : (
           <>
             <div className="text-danger text-3xl mb-3">✕</div>
-            <h1 className="text-xl font-bold text-text mb-2">
+            <h1 className="fm-display text-[length:var(--text-h-section)] text-text mb-2">
               Invalid unsubscribe link
             </h1>
             <p className="text-sm text-muted mb-6 leading-relaxed">

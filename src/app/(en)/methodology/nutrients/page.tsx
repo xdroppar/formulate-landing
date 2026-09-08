@@ -111,7 +111,7 @@ export default function NutrientMethodologyPage() {
         </nav>
 
         <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">Nutrient Coverage</div>
-        <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] leading-[1.15] mb-4">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text leading-[1.15] mb-4">
           Coverage measured against your targets — not a generic label
         </h1>
         <p className="text-base text-muted leading-relaxed mb-12 max-w-[640px]">

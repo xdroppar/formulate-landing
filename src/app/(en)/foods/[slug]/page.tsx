@@ -128,7 +128,7 @@ export default async function FoodDetail({ params }: { params: Params }) {
           <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-2">
             {f.group}{f.subgroup ? ` · ${f.subgroup}` : ""}
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">{f.name}</h1>
+          <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">{f.name}</h1>
           <div className="flex items-center gap-3 mb-4">
             <ScoreMeter score={f.score} size={72} strokeWidth={6} color={color} className="-ml-1" />
             <span className="text-xs text-muted leading-tight">Health<br />Score</span>

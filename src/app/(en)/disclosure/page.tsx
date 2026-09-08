@@ -10,7 +10,7 @@ export default function DisclosurePage() {
       <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">
         Transparency
       </div>
-      <h1 className="text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-1px] mb-2">
+      <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-2">
         Affiliate Disclosure
       </h1>
       <p className="text-xs text-muted mb-8">Last updated: March 2026</p>

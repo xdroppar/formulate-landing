@@ -39,7 +39,7 @@ export default function BrandCompareIndex() {
       />
 
       <header className="mb-10 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-4">
           Supplement Brand Comparisons
         </h1>
         <p className="text-base text-muted leading-relaxed">

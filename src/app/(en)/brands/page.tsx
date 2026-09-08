@@ -78,7 +78,7 @@ export default function BrandsIndex() {
       />
 
       <header className="mb-12 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-4">
           Supplement Brands, Ranked
         </h1>
         <p className="text-base text-muted leading-relaxed">

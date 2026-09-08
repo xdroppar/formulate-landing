@@ -113,7 +113,7 @@ export default async function ResearchPage({ params }: { params: Params }) {
         <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-3">
           Primary Research · {s.year}
         </p>
-        <h1 className="text-2xl md:text-3xl font-extrabold text-text tracking-tight mb-3 leading-tight">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3 leading-tight">
           {s.title}
         </h1>
         <p className="text-sm text-muted leading-relaxed">

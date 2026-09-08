@@ -92,7 +92,7 @@ export default function MethodologyHubPage() {
         </nav>
 
         <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">How We Score</div>
-        <h1 className="text-[clamp(28px,4vw,46px)] font-extrabold tracking-[-1px] leading-[1.12] mb-4 max-w-[720px]">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text leading-[1.12] mb-4 max-w-[720px]">
           One transparent engine for everything you put in your body
         </h1>
         <p className="text-base text-muted leading-relaxed mb-12 max-w-[660px]">

@@ -56,7 +56,7 @@ export default function AppPage() {
   return (
     <main className="max-w-[720px] mx-auto px-6 py-16">
       <p className="text-[13px] font-medium text-accent mb-3">Free · iPhone</p>
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-text leading-[1.1] mb-4">
+      <h1 className="fm-display text-[clamp(30px,4.4vw,var(--text-h-hero))] text-text leading-[1.1] mb-4">
         {APP_TAGLINE}
       </h1>
       <p className="text-[17px] text-muted leading-relaxed mb-8">

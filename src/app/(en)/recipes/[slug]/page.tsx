@@ -124,7 +124,7 @@ export default async function RecipeDetail({ params }: { params: Params }) {
       <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-2">
         {r.category}{r.cuisine ? ` · ${r.cuisine}` : ""}
       </div>
-      <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">{r.name}</h1>
+      <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">{r.name}</h1>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted mb-4">
         <span className="text-lg font-bold px-2 py-0.5 rounded-lg" style={{ backgroundColor: `${color}1a`, color }}>Grade {r.grade}</span>
         {mins && <span>⏱ {mins} min</span>}

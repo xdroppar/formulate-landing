@@ -187,7 +187,7 @@ export default async function BrandHub({ params }: { params: Params }) {
               </span>
             )}
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-3">
+          <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">
             {b.name}
           </h1>
           <p className="text-muted text-base leading-relaxed max-w-2xl">

@@ -113,7 +113,7 @@ export default async function ConditionPage({ params }: { params: Params }) {
         <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-3">
           Supplement Support
         </p>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-4">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-4">
           Supplements for {c.name}
         </h1>
         <p className="text-base text-muted leading-relaxed">{c.tagline}</p>

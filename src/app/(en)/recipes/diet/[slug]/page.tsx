@@ -67,7 +67,7 @@ export default async function DietCollection({ params }: { params: Params }) {
       </nav>
 
       <header className="mb-10 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">{tag} Recipes</h1>
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-4">{tag} Recipes</h1>
         <p className="text-base text-muted leading-relaxed">
           {list.length} {tag.toLowerCase()} recipes, each graded on real nutritional quality — nutrient density,
           protein, fiber, healthy fats, and beneficial compounds — and ranked best-first.

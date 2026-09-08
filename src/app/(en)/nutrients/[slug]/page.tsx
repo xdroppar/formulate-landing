@@ -203,7 +203,7 @@ export default async function NutrientPage({ params }: { params: Params }) {
         >
           {meta.label}
         </p>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">
           {n.name}
         </h1>
         <p className="text-sm text-muted mb-4">{n.role}</p>

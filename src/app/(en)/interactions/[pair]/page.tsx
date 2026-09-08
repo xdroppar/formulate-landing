@@ -223,7 +223,7 @@ export default async function PairPage({ params }: { params: Params }) {
       </nav>
 
       <header className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">
           <span className="capitalize">{aName}</span> and{" "}
           <span className="capitalize">{bName}</span>
         </h1>

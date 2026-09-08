@@ -492,7 +492,7 @@ export default async function SupplementPage({ params }: { params: Params }) {
               {product.brand}
             </Link>
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-4 leading-tight">
+          <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-4 leading-tight">
             {product.name}
           </h1>
           <div className="flex items-center gap-4 mb-5">

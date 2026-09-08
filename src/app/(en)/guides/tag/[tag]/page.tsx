@@ -78,7 +78,7 @@ export default async function TagPage({
         <div className="text-xs font-bold tracking-[2px] uppercase text-accent mb-3">
           Topic
         </div>
-        <h1 className="text-[clamp(28px,4vw,48px)] font-extrabold tracking-[-1px] mb-3">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">
           {result.tag}
         </h1>
         <p className="text-base text-muted max-w-[540px] mb-12 leading-relaxed">

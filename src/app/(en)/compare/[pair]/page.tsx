@@ -123,7 +123,7 @@ export default async function ComparePage({ params }: { params: Params }) {
         <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-3">
           {c.topic}
         </p>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight mb-3">
+        <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-3">
           {a.name} <span className="text-muted font-normal">vs</span> {b.name}
         </h1>
         <p className="text-base text-muted leading-relaxed">{c.bottom_line}</p>
