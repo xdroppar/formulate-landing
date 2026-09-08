@@ -4,6 +4,7 @@ import Image from "next/image";
 import { recipes, recipeCount, recipeCategories, recipesByCategory, recipeColor, totalMinutes, recipeDietTags } from "@/lib/recipes";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { ScoreMeter } from "@/components/score-meter";
+import { PageHeader, SectionHeader } from "@/components/landing/page-header";
 
 const BASE = "https://formulate-health.app";
 
@@ -67,14 +68,17 @@ export default function RecipesHub() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
-      <header className="mb-10 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">Healthy Recipes, Scored</h1>
-        <p className="text-base text-muted leading-relaxed">
-          Every recipe below is graded on real nutritional quality — nutrient density, protein, fiber,
-          healthy fats, and beneficial compounds — with the score reacting to actual portions, not just
-          calories. {recipeCount} recipes indexed.
-        </p>
-      </header>
+      <PageHeader
+        eyebrow="Recipes"
+        title="Healthy Recipes, Scored"
+        lead={
+          <>
+            Every recipe below is graded on real nutritional quality — nutrient density, protein, fiber,
+            healthy fats, and beneficial compounds — with the score reacting to actual portions, not just
+            calories. {recipeCount} recipes indexed.
+          </>
+        }
+      />
 
       <ul className="flex flex-wrap gap-2 mb-6">
         {categories.map((c) => (
@@ -104,13 +108,11 @@ export default function RecipesHub() {
 
       {categories.map(({ category, slug }) => (
         <section key={slug} id={slug} className="mb-14 scroll-mt-24">
-          <div className="flex items-baseline justify-between mb-3 gap-3">
-            <h2 className="text-xl font-bold text-text">{category}</h2>
-            <span className="text-xs text-muted flex-shrink-0">{recipesByCategory(category).length} recipes</span>
-          </div>
-          {CATEGORY_DESCRIPTIONS[category] && (
-            <p className="text-sm text-muted leading-relaxed mb-5 max-w-3xl">{CATEGORY_DESCRIPTIONS[category]}</p>
-          )}
+          <SectionHeader
+            title={category}
+            description={CATEGORY_DESCRIPTIONS[category]}
+            action={<span className="text-muted">{recipesByCategory(category).length} recipes</span>}
+          />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {recipesByCategory(category).slice(0, 24).map((r) => {
               const color = recipeColor(r);

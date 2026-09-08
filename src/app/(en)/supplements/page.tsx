@@ -14,6 +14,7 @@ import {
 import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { PageHeader, SectionHeader } from "@/components/landing/page-header";
 
 const BASE = "https://formulate-health.app";
 
@@ -135,16 +136,25 @@ export default function SupplementsHub() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
-      <header className="mb-12 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">
-          Supplement Scores
-        </h1>
-        <p className="text-base text-muted leading-relaxed">
-          Every product below has been graded by Formulate&apos;s automated rubric:
-          evidence quality, dose accuracy, bioavailability, transparency, safety,
-          and manufacturing practices. {products.length} supplements indexed.
-        </p>
-      </header>
+      {/* The lead used to list six scoring factors — "evidence quality, dose
+          accuracy, bioavailability, transparency, safety, and manufacturing
+          practices" — which is the weighting the engine stopped using at V3.23.
+          Measured over all 303 scored products, three factors carry the score
+          and the other three are gates that can only deduct. The homepage was
+          corrected first; this is the site's highest-traffic page and was still
+          publishing the old claim. */}
+      <PageHeader
+        eyebrow="Supplements"
+        title="Supplement Scores"
+        lead={
+          <>
+            Every product below is graded by the same rubric: clinical evidence, dose
+            accuracy and bioavailability carry the score, while manufacturing,
+            transparency and safety are checked separately and can only cost a product
+            points. {products.length} supplements indexed.
+          </>
+        }
+      />
 
       {/* This hub is the site's highest-traffic landing page and carried no route
           into the app at all — only a newsletter form 100 lines below the fold. */}
@@ -193,25 +203,23 @@ export default function SupplementsHub() {
 
       {categories.map((cat) => (
         <section key={cat} className="mb-14">
-          <div className="flex items-baseline justify-between mb-3 gap-3">
-            <h2 className="text-xl font-bold text-text">{cat}</h2>
-            <div className="flex items-baseline gap-3 flex-shrink-0">
-              {bestSlugs.has(categorySlug(cat)) && (
-                <Link
-                  href={`/supplements/best/${categorySlug(cat)}`}
-                  className="text-xs font-semibold text-accent hover:underline whitespace-nowrap"
-                >
-                  Best {cat} →
-                </Link>
-              )}
-              <span className="text-xs text-muted">{grouped[cat].length} products</span>
-            </div>
-          </div>
-          {CATEGORY_DESCRIPTIONS[cat.toLowerCase()] && (
-            <p className="text-sm text-muted leading-relaxed mb-5 max-w-3xl">
-              {CATEGORY_DESCRIPTIONS[cat.toLowerCase()]}
-            </p>
-          )}
+          <SectionHeader
+            title={cat}
+            description={CATEGORY_DESCRIPTIONS[cat.toLowerCase()]}
+            action={
+              <span className="flex items-baseline gap-3">
+                {bestSlugs.has(categorySlug(cat)) && (
+                  <Link
+                    href={`/supplements/best/${categorySlug(cat)}`}
+                    className="font-semibold text-accent hover:underline whitespace-nowrap"
+                  >
+                    Best {cat} →
+                  </Link>
+                )}
+                <span className="text-muted">{grouped[cat].length} products</span>
+              </span>
+            }
+          />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {grouped[cat].map((p) => {
               const g = scoreGrade(p.score);

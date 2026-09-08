@@ -4,6 +4,7 @@ import Image from "next/image";
 import { foods, foodCount, foodGroups, foodsByGroup, foodColor, BEST_GROUP_MIN } from "@/lib/foods";
 import { ScoreMeter } from "@/components/score-meter";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { PageHeader, SectionHeader } from "@/components/landing/page-header";
 
 const BASE = "https://formulate-health.app";
 
@@ -86,14 +87,17 @@ export default function FoodsHub() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
-      <header className="mb-10 max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text tracking-tight mb-4">Whole Food Scores</h1>
-        <p className="text-base text-muted leading-relaxed">
-          Every food below is graded on real nutritional quality — nutrient density, protein, fiber,
-          healthy fats, beneficial plant compounds, and glycemic impact — not just calories.{" "}
-          {foodCount} whole foods indexed.
-        </p>
-      </header>
+      <PageHeader
+        eyebrow="Whole foods"
+        title="Whole Food Scores"
+        lead={
+          <>
+            Every food below is graded on real nutritional quality — nutrient density, protein, fiber,
+            healthy fats, beneficial plant compounds, and glycemic impact — not just calories.{" "}
+            {foodCount} whole foods indexed.
+          </>
+        }
+      />
 
       {/* group jump links */}
       <ul className="flex flex-wrap gap-2 mb-12">
@@ -112,20 +116,20 @@ export default function FoodsHub() {
 
       {groups.map(({ group, slug }) => (
         <section key={slug} id={slug} className="mb-14 scroll-mt-24">
-          <div className="flex items-baseline justify-between mb-3 gap-3">
-            <h2 className="text-xl font-bold text-text">{group}</h2>
-            <div className="flex items-baseline gap-3 flex-shrink-0">
-              {foodsByGroup(group).length >= BEST_GROUP_MIN && (
-                <Link href={`/foods/best/${slug}`} className="text-xs font-semibold text-accent hover:underline whitespace-nowrap">
-                  Healthiest {group} →
-                </Link>
-              )}
-              <span className="text-xs text-muted">{foodsByGroup(group).length} foods</span>
-            </div>
-          </div>
-          {GROUP_DESCRIPTIONS[group] && (
-            <p className="text-sm text-muted leading-relaxed mb-5 max-w-3xl">{GROUP_DESCRIPTIONS[group]}</p>
-          )}
+          <SectionHeader
+            title={group}
+            description={GROUP_DESCRIPTIONS[group]}
+            action={
+              <span className="flex items-baseline gap-3">
+                {foodsByGroup(group).length >= BEST_GROUP_MIN && (
+                  <Link href={`/foods/best/${slug}`} className="font-semibold text-accent hover:underline whitespace-nowrap">
+                    Healthiest {group} →
+                  </Link>
+                )}
+                <span className="text-muted">{foodsByGroup(group).length} foods</span>
+              </span>
+            }
+          />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {foodsByGroup(group).map((f) => {
               const color = foodColor(f);
