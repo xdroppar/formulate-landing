@@ -25,6 +25,8 @@ type GoalStack = {
   slug: string;
   name: string;
   tagline: string;
+  protocol: string;
+  cautions: string;
   tags: string[];
   ingredients: GoalIngredient[];
 };
@@ -390,7 +392,7 @@ export function StartClient({
                       aria-pressed={on}
                       onClick={() => pickGoal(g.slug)}
                       className={
-                        "px-3.5 py-1.5 rounded-full text-[13px] font-semibold border transition-colors " +
+                        "px-3.5 py-1.5 rounded-full text-[12px] font-semibold border transition-colors " +
                         (on
                           ? "border-accent/60 text-accent bg-accent/10"
                           : "border-border bg-surface text-muted hover:text-text hover:border-accent/30")
@@ -533,6 +535,27 @@ export function StartClient({
                   </div>
                 ) : null}
               </motion.div>
+
+              {goal.protocol && (
+                <div className="mb-6">
+                  <div className="fm-eyebrow mb-2">How to run it</div>
+                  <p className="fm-panel p-5 text-[14px] text-muted leading-relaxed">
+                    {goal.protocol}
+                  </p>
+                </div>
+              )}
+
+              {goal.cautions && (
+                <div className="mb-6">
+                  <div className="fm-eyebrow mb-2">Before you start</div>
+                  <p
+                    className="p-5 rounded-xl text-[14px] text-muted leading-relaxed border"
+                    style={{ borderColor: "rgba(224,133,92,0.35)", backgroundColor: "rgba(224,133,92,0.06)" }}
+                  >
+                    {goal.cautions}
+                  </p>
+                </div>
+              )}
 
               {/* Handoff CTA */}
               <motion.div

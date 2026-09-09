@@ -20,10 +20,21 @@ export const metadata: Metadata = {
 export default function StartPage() {
   // Editorial goal-stacks carry the recommendation logic. We hand the client
   // only the fields it renders — no need to ship the full encyclopedia prose.
+  //
+  // `protocol` and `cautions` were caught by that trim and were the two most
+  // useful strings in the dataset. `cautions` names real drug interactions —
+  // melatonin with blood-pressure and anticoagulant medication, magnesium
+  // competing with thyroid medication — on the page that recommends the stack,
+  // while the page showed only a generic "run this by a pharmacist" line. A
+  // specific warning beats a general one, and it was already written for all
+  // ten stacks. Together they cost 6.5 KB of prose; `summary` (6 KB) stays out,
+  // since that genuinely is the encyclopedia copy the trim was aimed at.
   const goalStacks = stacks.map((s) => ({
     slug: s.slug,
     name: s.name,
     tagline: s.tagline,
+    protocol: s.protocol,
+    cautions: s.cautions,
     tags: s.tags,
     ingredients: s.ingredients.map((i) => ({
       slug: i.slug,
