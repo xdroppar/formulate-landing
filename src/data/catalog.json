@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 311,
+  "product_count": 318,
   "brand_count": 32,
   "products": [
     {
@@ -55970,13 +55970,1447 @@
       "variants": [],
       "score_gate_penalty": 0.0,
       "score_version": "3.24"
+    },
+    {
+      "id": "product:thorne-creatine-pineapple-orange",
+      "slug": "thorne-creatine-pineapple-orange",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Creatine - Pineapple Orange",
+      "category": "Creatine",
+      "category_tags": [
+        "sports performance",
+        "brain health",
+        "muscle",
+        "energy"
+      ],
+      "score": 98,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 99,
+          "weighted_score": 39.6,
+          "explanations": [
+            "Evidence grades: A(1)",
+            "Review conclusions: 61% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 99"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 100,
+          "weighted_score": 25.0,
+          "explanations": [
+            "1 clinical: Creatine Monohydrate",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 94,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/thorne/creatine-pineapple-orange/primary.webp?v=7ba97545",
+      "gallery_images": [
+        "/images/products/thorne/creatine-pineapple-orange/gallery_1.png?v=7f4842d9",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_2.jpg?v=3e7f6224",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_3.jpg?v=fdf91ba9",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_4.jpg?v=defd2aa8",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_5.jpg?v=6059c7e3",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_6.jpg?v=3e9edcfc",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_7.png?v=df1eadb0",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_8.png?v=a24d3a4a",
+        "/images/products/thorne/creatine-pineapple-orange/gallery_9.png?v=0ab79c04"
+      ],
+      "price_usd": 25.0,
+      "serving_size": "1 Scoops",
+      "servings_per_container": 60,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Creatine Monohydrate",
+          "label_amount": 5.0,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "supplement:creatine-monohydrate",
+          "amount": 5.0
+        }
+      ],
+      "other_ingredients": [
+        "Citric Acid",
+        "Malic Acid",
+        "Natural Flavors",
+        "Rebaudioside M",
+        "Turmeric and Beet Juice Powder (color)"
+      ],
+      "certifications": [
+        "NSF Certified for Sport",
+        "Gluten Free",
+        "Dairy Free",
+        "Soy Free",
+        "Thorne Verified",
+        "Natural Flavors",
+        "Natural Colors",
+        "GMP Certified"
+      ],
+      "description": "Creatine is an amino acid found mostly in your muscles and in the brain. It's naturally produced in the body from other amino acids. Creatine is also found in foods like meats, eggs, and fish. It plays a vital role in the body's production of cellular energy by helping to make ATP, a molecule needed for intense exercise, as well as for supplying the energy to pump your heart and power your brain.\n\nBenefits of Thorne's Creatine Monohydrate Powder \n• Muscle Performance: Promotes physical endurance, power output, and increased work capacity of muscle\n• Lean Body Mass: Enhances strength and promotes lean body mass\n• Cognition: Supports cognitive function and a healthy body composition, especially in the aging population\n• Cellular Energy Production: Creatine helps the cells of the body more efficiently create energy, thus benefiting exercise capacity\n• Muscle and Cellular Hydration Support: Helps maintain healthy cellular hydration and reduces the frequency of exercise induced muscle cramps\n• Nutritional Support: For individuals who have an increased dietary need, such as athletes, or for those who aren't consuming enough creatine-containing foods in their normal diet\n\nWhat sets Thorne's Creatine Monohydrate Powder apart  \n• Available in 3 varieties – Strawberry, Pineapple Orange, and our best-selling unflavored Creatine\n• NSF Certified for Sport&reg;\n• Easy-to-mix\n• 0 g added sugars and no artificial sweeteners\n• A highly researched, micronized form of creatine monohydrate for enhanced solubility \nBecause athletes need to know their supplements are trustworthy and compliant, every batch of an NSF Certified for Sport&reg; product is tested for compliance with label claims and to ensure the absence of nearly 300 substances banned by many major athletic organizations.",
+      "overview": "High-quality creatine for lean muscle mass, endurance, cellular energy, and brain function*\n\nPromote enhanced muscle performance and strength with creatine monohydrate.* Great for more than just athletes – it also supports cellular energy production and cognitive function to help you perform at your best.* NSF Certified for Sport®",
+      "warnings": "ALLERGY WARNING\n\nThis product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients.\n\nPREGNANCY\n\nIf pregnant, consult your health-care practitioner before using this product.\n\nINTERACTIONS\n\nThere are no known adverse interactions or contraindications at publication date.\n\nNOTICE FOR NEW YORK RESIDENTS\n\nNew York law prohibits the sale of this product to individuals under the age of eighteen.",
+      "recommended_use": "Mix 1 scoop with at least 8 ounces of water, juice, or preferred beverage daily or as recommended by your health-care or performance professional.",
+      "amazon_url": "https://www.amazon.com/s?k=Thorne+Creatine+-+Pineapple+Orange&tag=formulate00-20",
+      "iherb_url": null,
+      "url": "https://www.thorne.com/products/dp/creatine-pineapple-orange-flavored",
+      "variants": [
+        {
+          "variant_id": "thorne-creatine-pineapple-orange-high-quality-creatine-for-lean-muscle-mass-endurance-cellular-energy-and-b-powder-60",
+          "servings": 60,
+          "net_quantity_text": "60 Capsules",
+          "price_usd": 25.0,
+          "is_default": true,
+          "variant_label": "Pineapple Orange - 60 Capsules",
+          "variant_url": "https://www.thorne.com/products/dp/creatine-pineapple-orange-flavored",
+          "serving_size_text": "1 Scoops",
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\a3\\a3cc4d310ca88435c218c004e3ef484c2f3c67bdf885160cc494f6755b4608f6.png",
+          "gallery_images": [
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\a3\\a3cc4d310ca88435c218c004e3ef484c2f3c67bdf885160cc494f6755b4608f6.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\f1\\f1afa5b8aa577fd88df2e0e75240033fc52228947cd6ecf6daeb147aae67f03f.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\23\\232df4db19cd773e657c559166bf71efb8a05230c01e0e3eec462510a003b707.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\7e\\7ebe839125247dfbd5254b5f6d8a5dd4f8c6abfa29428bc4a4bc9659f71f8392.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\a4\\a42f5d6097714d24e246078c9a82ad5d45c8343409469b982e63194f15befbb0.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\ca\\ca78b224313a35dc6d378ed6abc1cca128a94678517751c4a242ed03eeec9be7.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\77\\773e895972dafc46e6d0d9b912e8108551fd2184e6e98b278f5a94afebc5ba2a.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\d1\\d11af32d397e1bb1edd7439ebdcba197349b618322c10c8d974ff4b72bbcefef.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\7f\\7fdcfe9e8b21691ecbee2a1d01bae1b360b7d5adb80cf97fc8fea5f46575ab0c.png"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:thorne-curcumin-phytosome-sustained-release",
+      "slug": "thorne-curcumin-phytosome-sustained-release",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Curcumin Phytosome - Sustained Release",
+      "category": "Curcumin",
+      "category_tags": [
+        "joint support",
+        "liver support",
+        "gi support",
+        "joints"
+      ],
+      "score": 89,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 89,
+          "weighted_score": 35.6,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 62% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 89"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
+          "explanations": [
+            "Form data not available for ingredients",
+            "Absorption enhancer: Curcumin Phytosome (+5)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 95,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Blend total disclosed (individual amounts hidden)",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 96,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_4.jpg?v=0bd6d5b8",
+      "gallery_images": [
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_1.jpg?v=e3b1277b",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_2.jpg?v=9eb51ae7",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/primary.webp?v=fdec7273",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_5.jpg?v=612675b3",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_6.jpg?v=04ac9e9e",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_7.jpg?v=be0a1499",
+        "/images/products/thorne/curcumin-phytosome-sustained-release/gallery_8.jpg?v=58756489"
+      ],
+      "price_usd": 49.0,
+      "serving_size": "2 capsules",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Curcumin Phytosome (Curcuma longa extract (root) / Phospholipid complex from Sunflower)",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": "nutrient:curcumin-phytosome",
+          "amount": 500.0
+        }
+      ],
+      "other_ingredients": [
+        "Calcium Citrate",
+        "Calcium Laurate (Time-Sorb)",
+        "High and low viscosity hydroxypropyl methylcellulose",
+        "Hypromellose (derived from cellulose) capsule",
+        "Leucine",
+        "Microcrystalline Cellulose",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "Gluten Free",
+        "Soy Free",
+        "Dairy Free",
+        "Derived From Natural Flavors",
+        "Derived From Natural Colors",
+        "Made in USA",
+        "Third-Party Contents Certified",
+        "Thorne Verified",
+        "GMP"
+      ],
+      "description": "Curcumin Phytosome - Sustained Release Details\n\nTurmeric has been extensively researched for its health-promoting properties. It has been used in traditional Chinese medicine, as well as Ayurvedic medicine, for more than 2,000 years. Curcuminoids, the most-active components in turmeric, provide numerous health benefits, such as promoting joint health and flexibility, supporting the liver and digestive system, and aiding cardiovascular health. Additionally, curcumin acts as a powerful antioxidant.\n\nCurcumin's ability to promote a healthy inflammatory response makes it especially helpful for those dealing with intermittent physical discomfort. It can help ease tension in muscles and joints caused by overuse. A balanced inflammatory response is also vital for the health of the brain, eyes, liver, digestive tract, kidneys, and cardiovascular system.\n\nThorne's Curcumin Phytosome is formulated exclusively with Meriva®, the most clinically studied curcumin on the market. As a phytosome complex, Meriva provides superior absorption over other curcumin extracts. A human study demonstrated 29-times greater absorption of Meriva than ordinary curcumin.\n\nThe advanced Sustained Release formula utilizes Time-Sorb®, a patented combination of high- and low-viscosity hydroxypropyl methylcellulose with magnesium citrate laurate to delay absorption and help protect the active curcumin compounds in each capsule as they pass through the stomach.\n\nBenefits of Thorne's Curcumin Phytosome\n\nFor joints and muscles\n• Eases joint stiffness\n• Encourages flexibility\n• Alleviates minor aches and muscle soreness\n• Shields muscles from exercise-related stress and may help reduce DOMS (delayed onset muscle soreness)\n• May lessen cellular damage in the muscles caused by intense training or exertion\n• Helps guard muscle tissue from age-related decline\n\nFor healthy inflammatory response\n• Supports a balanced inflammatory response in the joints, muscles, digestive tract, liver, brain, eyes, and nerves\n\nFor metabolic health\n• Encourages healthy cholesterol processing and boosts liver enzyme activity\n• Helps support normal blood sugar levels\n\nFeatures of Thorne's Curcumin Phytosome\n• Contains the most clinically studied form of curcumin, Meriva\n• Provides 29-times greater absorption than regular curcumin\n• Sustained Release formula helps protect curcumin compounds as they pass through the stomach\n\nThis product has been third-party tested and certified to verify what's in the package matches what's on the label and to confirm it contains no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms.",
+      "overview": "Well-absorbed curcumin support for joint stiffness, muscle soreness and a healthy inflammatory response. Thorne's Curcumin Phytosome provides the most clinically studied curcumin on the market, helping maintain a healthy inflammatory response in the joints, muscles, GI tract, liver, brain, and nerves.",
+      "warnings": "ALLERGY WARNING: This product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients. PREGNANCY: If pregnant, consult your health-care practitioner before using this product. INTERACTIONS: Curcumin has been shown to reduce the therapeutic efficacy of cyclophosphamide (Cytoxan) in animal studies. In vitro research revealed that curcumin decreased camptothecin-induced death of cultured breast cancer cells. Curcumin might also interfere with the absorption and efficacy of the chemotherapy drug irinotecan, used to treat colon cancer. The concurrent use of curcumin with these agents should be avoided.",
+      "recommended_use": "Take 1-2 capsules two times daily or as recommended by your health-care practitioner.",
+      "amazon_url": "https://www.amazon.com/Thorne-Curcumin-Phytosome-500-Meriva/dp/B01D8V0962/ref=sr_1_1?crid=3GY5K2O5IHQFO&dib=eyJ2IjoiMSJ9.SxLv5gLLoazjjob1y7CHy5PHxYCcdUVOv6HdE4TvkbI1kL92zQwNyZTRkf31TVnRZ8WKHRt5IcrQbUZyyl7_7Zx5EWGIeNio9HirVZSr1Bb_RH1lfxP5gnJ43NkLhwttsBPKbDRk5455YwD1TclbC0i9_2xbd7gg7TY5slmeTsIWkck-aQer2GWsdsRpg6WWMtzEyRNi4Zb8wzDPeZNTTWUk1mNceuKY7tSoX8932gxcUgNJNCdRRqBJtqPIAVNZwiW4x7epe5ZyTu9PoyOSI-raDqAyDrZwtCib761NUc0.tG6h2QAiunsunXcPYPitDiiiVb1yCzFC8K3qyyqY5kw&dib_tag=se&keywords=thorne+Curcumin+Phytosome+-+Sustained+Release&qid=1767994012&sprefix=thorne+curcumin+phytosome+-+sustained+release%2Caps%2C205&sr=8-1",
+      "iherb_url": "https://www.iherb.com/search?kw=thorne%20Curcumin%20Phytosome%20-%20Sustained%20Release",
+      "url": "https://www.thorne.com/products/dp/meriva-sf",
+      "variants": [
+        {
+          "variant_id": "thorne-curcumin-phytosome-v2-capsule-60",
+          "servings": 60,
+          "net_quantity_text": "120 capsules",
+          "price_usd": 49.0,
+          "is_default": true,
+          "variant_label": "120 capsules",
+          "variant_url": "https://www.thorne.com/products/dp/meriva-sf",
+          "serving_size_text": "2 capsules",
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "d:\\vscode\\projects\\Formulate\\data\\assets\\product_image\\f7\\f77d3adff573fd8aafd845064470c3454da8cc9f48f2683035299d4b30afe329.png",
+          "gallery_images": [
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\e6\\e631b0590a46c2686945825b925142e80aedfe0bdc48b98c2114706371acc402.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\02\\024eedcab288953e71b3869a559d0be13416a641f962e2cfd1a05e50c136a83c.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\84\\8480b2f38a035a7173036d74204615a73eddeee2e85be876b711552ec537404c.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\0f\\0fcb2e551818868e2a57b37741628c42e18b555eeeda9ec68594ed8481c7832a.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\57\\579e34646c765930d39c14c64ec20992271b469a9b6d8639c019e7867638f06c.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\13\\139464cf1be92beb1a20255c710dafd1f2f31157afa9f2d8614fb198e1193cf2.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\80\\80c114442711489699a7b9c309619c4b291d6e12f5001a49c07da7ae0b9812ad.jpg",
+            "d:\\vscode\\projects\\Formulate\\data\\assets\\gallery_image\\73\\738836d5d69fa99426aff7b19921e59f853e757632085cc950fb3e8690c3bc74.jpg"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nootropics-depot-aakg-2-1-powder",
+      "slug": "nootropics-depot-aakg-2-1-powder",
+      "brand": "Nootropics Depot",
+      "brand_slug": "nootropics-depot",
+      "name": "AAKG 2:1 Powder",
+      "category": "Amino Acids",
+      "category_tags": [
+        "energy",
+        "cognitive",
+        "immune",
+        "muscle"
+      ],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: L-Arginine Alpha-Ketoglutarate",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 93,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "ISO/IEC certified",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nootropics-depot/aakg-2-1-powder/primary.webp?v=a77a15cb",
+      "gallery_images": [
+        "/images/products/nootropics-depot/aakg-2-1-powder/gallery_1.webp?v=545f26bc",
+        "/images/products/nootropics-depot/aakg-2-1-powder/gallery_2.webp?v=1b2f85e4",
+        "/images/products/nootropics-depot/aakg-2-1-powder/gallery_3.webp?v=a374e4e7",
+        "/images/products/nootropics-depot/aakg-2-1-powder/gallery_4.webp?v=710124d7",
+        "/images/products/nootropics-depot/aakg-2-1-powder/gallery_5.webp?v=997a5af3"
+      ],
+      "price_usd": 15.99,
+      "serving_size": "2600 mg",
+      "servings_per_container": 48,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Arginine Alpha-Ketoglutarate",
+          "label_amount": 2600.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 2600.0
+        }
+      ],
+      "other_ingredients": [],
+      "certifications": [
+        "COA Available",
+        "FDA Registered",
+        "ISO/IEC Certified",
+        "Made in USA",
+        "Third-Party Tested",
+        "cGMP Certified",
+        "Gluten-Free",
+        "Lactose-Free",
+        "Non-GMO",
+        "Vegan"
+      ],
+      "description": "AAKG Powder\n\nL-arginine alpha ketoglutarate, shortened simply to AAKG, is comprised of two important compounds to your health.* Arginine is a semi-essential or conditionally essential amino acid, meaning that it is necessary to proper health and bodily functions but can only be created in the body under specific situations. Normally, it comes from supplements or from diet sources, including soy beans, peanuts, pumpkin seeds, dairy products, and poultry and other lean cuts of meat. Alpha ketoglutarate is an important compound created during the Krebs cycle, which breaks down molecules to create a pool of energy.\n\nWhen combined, alpha ketoglutarate has actually been shown to increase the intestinal uptake of arginine. AAKG presents a wide range of potential benefits and uses that may improve your health and wellbeing.*\n\nAAKG 2:1 Uses and Benefits\n\nAAKG 2:1 benefits most commonly involve supplementation for bodybuilding and athletic performance. Studies suggest that AAKG may effectively help the liver neutralize ammonia and other harmful substances, which should make for less pain, less muscle fatigue, and longer workouts. Arginine may also be beneficial for its role in building protein. Creating various protein chains is necessary for developing larger, stronger muscles and repairing damaged muscle tissue. In studies, arginine has also been associated with increased insulin production. Increased insulin has been found to assist in creating greater muscle growth and strength.*\n\nArginine is also prized for its potential to increase nitric oxide activity. Increased nitric oxide production may lead to wider blood vessels, which in turn may result in increased blood flow. This means more oxygen and nutrients to muscles and organs. Wider blood vessels also means more carbohydrates, protein chains, and muscle building hormones. All of this may result in greater physical performance, enhanced workout capacity, improved endurance, and reduced recovery times.*\n\nStudies have also found that arginine may help to promote a healthy immune system. Alpha ketoglutarate supplementation may also positively effect how your body handles amino acids during states of impaired protein metabolism. Some studies suggest that alpha ketoglutarate may improve intestinal health, possibly by helping in the process of metabolizing glutamine, which has been shown to:\n\nMay help fuel the immune system in your intestines*\nMay help enhance immune responses and functions during physical trauma*\nMay help promote protein turnover when you’re in a malnourished state*\nHow Does AAKG 2:1 Powder Work\n\nThe human body requires arginine for various functions, but it is most important for eliminating ammonia, which is toxic to the human body, by controlling the urea cycle. Arginine is a key component of building protein and is also converted into nitric oxide, which causes blood vessels to dilate.\n\nAlpha ketoglutarate is a derivative of glutaric acid. While acting as an intermediary in the Krebs cycle, alpha ketoglutarate also plays a key role in cell growth and healing from injuries. During normal protein turnover or when you take in a lot of protein, alpha ketoglutarate takes on nitrogen from amino acids, turning into glutamate. Glutamate then contributes to the urea cycle, which involves the breakdown of protein to produce urea, a waste compound that is flushed away in urine. Alpha ketoglutarate can also generate arginine on its own through transamination reactions.\n\nAAKG Dosage\n\nAs a dietary supplement, take 2600mg of AAKG 2:1 once daily.\n\nAAKG Reviews\n\nTo gain more insight, read the AAKG reviews and experiences below.\n\nWhere to Buy AAKG?\n\nNootropics Depot offers 125g or 250g jars of high quality AAKG powder. Nootropics Depot's L-Arginine A-Ketoglutarate has been lab-tested and verified for both product purity and identity.\n\n *Attention: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "overview": "Buy AAKG 2:1 L-Arginine A-Ketoglutarate Powder - Nootropics Depot is the #1 most trusted source for high quality AAKG Powder. Read reviews, learn uses and benefits. 10% off first order",
+      "warnings": "*Attention: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "recommended_use": "Take 2600 mg (powder) once or twice daily, or as directed by a healthcare professional. Mix with water or juice.",
+      "amazon_url": "https://www.amazon.com/s?k=Nootropics+Depot+AAKG+2%3A1+Powder&tag=formulate00-20",
+      "iherb_url": null,
+      "url": "https://nootropicsdepot.com/aakg-2-1-powder-l-arginine-a-ketoglutarate/",
+      "variants": [
+        {
+          "variant_id": "nootropics-depot-aakg-21-powder-l-arginine-a-ketoglutarate-default",
+          "servings": null,
+          "net_quantity_text": null,
+          "price_usd": 15.99,
+          "is_default": true,
+          "variant_label": null,
+          "variant_url": null,
+          "serving_size_text": null,
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/01_gallery_hero.jpg",
+          "gallery_images": [
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/01_gallery_hero.jpg",
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/02_gallery_02.jpg",
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/03_gallery_03.jpg",
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/04_gallery_04.jpg",
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/05_gallery_05.jpg",
+            "assets/products/nootropics-depot/aakg-21-powder-l-arginine-a-ketoglutarate/06_gallery_06.jpg"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:prohealth-longevity-nmn-pro-powder-uthever-nmn-15-grams",
+      "slug": "prohealth-longevity-nmn-pro-powder-uthever-nmn-15-grams",
+      "brand": "ProHealth Longevity",
+      "brand_slug": "prohealth-longevity",
+      "name": "NMN Pro™ Powder - Uthever NMN, 15 Grams",
+      "category": "longevity",
+      "category_tags": [
+        "energy",
+        "longevity"
+      ],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "1 basic: Uthever® β-Nicotinamide Mon...",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/prohealth-longevity/nmn-pro-powder-uthever-nmn-15-grams/primary.webp?v=9ec8944d",
+      "gallery_images": [
+        "/images/products/prohealth-longevity/nmn-pro-powder-uthever-nmn-15-grams/gallery_1.png?v=5b221927",
+        "/images/products/prohealth-longevity/nmn-pro-powder-uthever-nmn-15-grams/gallery_2.png?v=8fd7b505",
+        "/images/products/prohealth-longevity/nmn-pro-powder-uthever-nmn-15-grams/gallery_3.jpg?v=cf67e411",
+        "/images/products/prohealth-longevity/nmn-pro-powder-uthever-nmn-15-grams/gallery_4.jpg?v=867022d1"
+      ],
+      "price_usd": 44.25,
+      "serving_size": "1 Scoop",
+      "servings_per_container": 60,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Uthever® β-Nicotinamide Mononucleotide (NMN)",
+          "label_amount": 250.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:nmn",
+          "amount": 250.0
+        }
+      ],
+      "other_ingredients": [],
+      "certifications": [
+        "GMP Certified",
+        "Third-Party Tested",
+        "Vegan",
+        "Vegetarian"
+      ],
+      "description": "ProHealth Longevity creates high-quality anti-aging supplements backed by science. Browse products suited to your needs that encourage a long, healthy lifestyle.",
+      "overview": "ProHealth Longevity creates high-quality anti-aging supplements backed by science. Browse products suited to your needs that encourage a long, healthy lifestyle.",
+      "warnings": "Not intended for use if you are pregnant or nursing. Not formulated for use in children. If you have a medical condition or are taking medications, consult with your healthcare professional before using this product. KEEP OUT OF REACH OF CHILDREN",
+      "recommended_use": "Place 1 scoop under the tongue to dissolve, then swallow, or mix in water, or as recommended by your healthcare professional.",
+      "amazon_url": "https://amazon.com/ProHealth-Longevity-Liposomal-CompleteTM-Capsules/dp/B0CBF8V1SB/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pQ7V_SUBgHhYTRHH1SQV-g3eLE4K_YNBGEw5SqaughfLw4f7uZ0o4N7EoNS8mVKG6Wa7ozZtu0oyHOPBDA2e6tvXbRmHvP52-enYu-0TrJF9QMPnjfDVRYqAiNbT53RWM2JnYEOIBgzWAKsIX_WXNDZ0Q0mat3NTml1HwgOrdGWNvaDxTNpZbpm6jI5EdUVNGR5CXX_ho-ZayvKQ5ZsmzGAQ9HdeIFeagylSezX7pul9cYK3Meata6WmZSE6kxoFPQXy3Y-qV0kGqAzJ3n1gmhqbKFE9hAC-NT_b6qaZ2kM.c3PicRDpcx-3YkeZgN2Bz481MJQt4GcGd8YulrRcw7Q&dib_tag=se&keywords=ProHealth+Longevity&qid=1774119314&sr=8-1",
+      "iherb_url": "https://www.iherb.com/pr/prohealth-longevity-magnesium-glycinate-90-capsules/156107",
+      "url": "https://www.prohealth.com/products/prohealth-nmn-powder-250-mg-15-grams-ph517",
+      "variants": [
+        {
+          "variant_id": "prohealth-longevity-nmn-protm-powder-uthever-nmn-15-grams-powder",
+          "servings": 60,
+          "net_quantity_text": null,
+          "price_usd": 44.25,
+          "is_default": true,
+          "variant_label": "60.0 servings",
+          "variant_url": "https://www.prohealth.com/products/prohealth-nmn-powder-250-mg-15-grams-ph517",
+          "serving_size_text": "1 Scoop",
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\3e\\3e91bbf9838a413229cdb954a85210bc4a62a283a9a5c555977a7a03cdfb4072.png",
+          "gallery_images": [
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\3e\\3e91bbf9838a413229cdb954a85210bc4a62a283a9a5c555977a7a03cdfb4072.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\a0\\a0e5a2e6dac4a6bd77e2d523e582a46e8cd52fb983041ab27611f199ad951ce9.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\a8\\a8ab6db5a4ba0bb2050aa93371ecf15bd401bab26dfd02204c85594fa68e40ef.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\01\\0119c6edfbd330bd5f0299b22e7da80549f37d431ffd062e613a84c0c4ad88e9.jpg"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:thorne-amino-complex-travel-packs-berry",
+      "slug": "thorne-amino-complex-travel-packs-berry",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Amino Complex - Travel Packs - Berry",
+      "category": "Amino Acids",
+      "category_tags": [
+        "sports performance",
+        "muscle",
+        "recovery",
+        "stress"
+      ],
+      "score": 85,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 86,
+          "weighted_score": 34.4,
+          "explanations": [
+            "2 Grade A, 9 Grade B ingredients",
+            "Evidence grades: A(2), B(9)",
+            "Review conclusions: 44% of measured outcomes showed a benefit (73% of ingredients covered) — evidence 87 -> 86"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 81,
+          "weighted_score": 28.35,
+          "explanations": [
+            "6 ingredients at optimal doses",
+            "3 ingredients below recommended dose",
+            "2 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 88,
+          "weighted_score": 22.0,
+          "explanations": [
+            "10 good: L-Lysine, L-Isoleucine, L-Valine +7 more",
+            "1 basic: L-Cystine",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 94,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/thorne/amino-complex-travel-packs-berry/gallery_1.png?v=d5c0d237",
+      "gallery_images": [
+        "/images/products/thorne/amino-complex-travel-packs-berry/primary.webp?v=d55cee9d",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_2.png?v=e9165c39",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_3.jpg?v=4066befe",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_4.jpg?v=40dd29f8",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_5.jpg?v=ea46a1e1",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_6.jpg?v=c31d5b51",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_7.jpg?v=25b7fbc4",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_8.png?v=2f831bb8",
+        "/images/products/thorne/amino-complex-travel-packs-berry/gallery_9.png?v=44cfe9e6"
+      ],
+      "price_usd": 36.0,
+      "serving_size": "1 Packets",
+      "servings_per_container": 30,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Lysine (as L-Lysine Chloride)",
+          "label_amount": 650.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:lysine",
+          "amount": 650.0
+        },
+        {
+          "name": "L-Isoleucine",
+          "label_amount": 625.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:isoleucine",
+          "amount": 625.0
+        },
+        {
+          "name": "L-Valine",
+          "label_amount": 625.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:valine",
+          "amount": 625.0
+        },
+        {
+          "name": "L-Threonine",
+          "label_amount": 350.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:threonine",
+          "amount": 350.0
+        },
+        {
+          "name": "L-Histidine",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:histidine",
+          "amount": 150.0
+        },
+        {
+          "name": "L-Cystine",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "supplement:l-cystine",
+          "amount": 150.0
+        },
+        {
+          "name": "L-Phenylalanine",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:phenylalanine",
+          "amount": 100.0
+        },
+        {
+          "name": "L-Methionine",
+          "label_amount": 50.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:methionine",
+          "amount": 50.0
+        },
+        {
+          "name": "L-Tyrosine",
+          "label_amount": 30.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:tyrosine",
+          "amount": 30.0
+        },
+        {
+          "name": "L-Tryptophan",
+          "label_amount": 20.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:tryptophan",
+          "amount": 20.0
+        },
+        {
+          "name": "L-Leucine",
+          "label_amount": 1.25,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:leucine",
+          "amount": 1.25
+        }
+      ],
+      "other_ingredients": [
+        "Citric Acid",
+        "Flavor",
+        "Fruit and Vegetable Juice (Color)",
+        "Rebaudioside A"
+      ],
+      "certifications": [
+        "NSF Certified for Sport",
+        "Gluten Free",
+        "Dairy Free",
+        "Soy Free",
+        "Vegan",
+        "Thorne Verified",
+        "Natural Flavors",
+        "Natural Colors",
+        "GMP Certified"
+      ],
+      "description": "Optimize your workout results and build the lean muscle mass that boosts strength.\n• Thorne's Amino Complex formula also enhances cellular energy production.\n• Amino acids are the building blocks of protein. They fuel muscle gain and other physiological functions, including enzyme production, hormone regulation, cognitive ability, neurotransmitter balance, metabolism, and energy production. As we age, we lose muscle mass, which can cause other health issues, so it is important to promote the growth of lean muscle mass.Of the 20 amino acids that make up protein, nine are classified as essential amino acids (EAAs), those the body cannot produce itself. Therefore, they must be consumed through diet and supplementation to support the body's internal production of energy.  Thorne's Amino Complex is a comprehensive blend of EAAs, which is high in branched-chain amino acids (BCAAs) – a group of amino acids that promote the growth of lean muscle mass and enhance muscle strength.\n• EAAs benefit the body in multiple ways\n• Support muscle repair and recovery\n• Reduce muscle soreness\n• Benefit muscle strength\n• Support lean muscle mass\n• Increase cellular energy production\n• Promote healthy blood sugar already within the normal range\n• Support cardiovascular health\n• Strengthen connective tissue\n• Who can benefit from Thorne's Amino Complex\n• Athletes, to support training and fitness\n• The elderly, who need to preserve muscle mass\n• A person recovering from muscle injury or overuse\n• Anyone needing readily bioavailable amino acids for protein building \n\nFeatures of Thorne's Amino Complex\n\n• Available in two flavors - lemon and berry\n• Available in bulk powder or individual stick pack servings\n• NSF Certified for Sport&reg;\n• Lightly sweetened\n• Mixes easily in warm or cold liquid\n• Contains flavors and sweeteners derived from natural flavors\n\nHow to take Thorne's Amino ComplexAmino Complex is best taken after a workout to facilitate the recovery process.\n• It's an ideal formula for active individuals, individuals managing calories, or anyone who has difficulty consuming whole foods or protein powders, particularly after heavy exercise.Because athletes need to know their supplements are trustworthy and compliant, every batch of an NSF Certified for Sport&reg; product is tested for compliance with label claims and to ensure the absence of nearly 300 substances banned by many major athletic organizations.",
+      "overview": "Clinically validated EAA and BCAA formula that supports your muscles and your love for training and weightlifting* \n\nAmino Complex promotes the growth of lean muscle mass, enhances muscle strength, and supports recovery.* NSF Certified for Sport®",
+      "warnings": "CALIFORNIA WARNING\n\nRisk of reproductive harm from exposure to lead. See www.P65Warnings.ca.gov/food.\n\nALLERGY WARNING\n\nThis product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients.\n\nPREGNANCY WARNING\n\nIf pregnant or nursing, do not use this product.\n\nINTERACTIONS\n\nThere are no known adverse interactions or contraindications at publication date.\n\nNOTICE FOR NEW YORK RESIDENTS\n\nNew York law prohibits the sale of this product to individuals under the age of eighteen.",
+      "recommended_use": "Mix 1 stick pack with at least 8 ounces of water one to two times daily or as recommended by your health-care practitioner.",
+      "amazon_url": "https://www.amazon.com/s?k=Thorne+Amino+Complex+-+Travel+Packs+-+Berry&tag=formulate00-20",
+      "iherb_url": null,
+      "url": "https://www.thorne.com/products/dp/amino-complex-berry-sp641p",
+      "variants": [
+        {
+          "variant_id": "thorne-amino-complex-travel-packs-berry-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscle-powder-30",
+          "servings": 30,
+          "net_quantity_text": "30 Capsules",
+          "price_usd": 36.0,
+          "is_default": true,
+          "variant_label": "Berry - 30 Capsules",
+          "variant_url": "https://www.thorne.com/products/dp/amino-complex-berry-sp641p",
+          "serving_size_text": "1 Packets",
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\3f\\3f16233c39382a2dd38c4d78015d4ce53bdacb3783881da58efcec1b474de74f.png",
+          "gallery_images": [
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\3f\\3f16233c39382a2dd38c4d78015d4ce53bdacb3783881da58efcec1b474de74f.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\8b\\8b73c555952c07e539167a321857a8ccd84a6501c2a6a73f56e60bef245fa0a4.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\ad\\adf69e73ff75e5ea8efe2543bf1d9045e51dff43f67e95979df0441c40e13f8a.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\f2\\f26eba82e51be20289267308ffce2086ed090358dd760ffbb93ae34e26d71349.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\8d\\8d710c483e7862508e6d7aeb9f2aa743224311535c2844d3c08e5056d9909ba4.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\01\\01925fe38d9965862a3395be84a09b3fcdd2b389da2f2e6cf55f39630990364d.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\16\\16a5155d87b6225b8352d7d2b4e7567ccd33a213bfc6c58423475cc93ec08169.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\05\\05143664f891d16ded9eb10bc9dfabf399bdf9de2f21bf8015a053b511f9ab7f.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\71\\7116212acec55728dec5e3fc9bcbac55cf67c9fcf9c5e84b1b25d14ade0328a6.png"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:thorne-amino-complex-travel-packs-lemon",
+      "slug": "thorne-amino-complex-travel-packs-lemon",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Amino Complex - Travel Packs - Lemon",
+      "category": "Amino Acids",
+      "category_tags": [
+        "sports performance",
+        "muscle",
+        "recovery",
+        "stress"
+      ],
+      "score": 85,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 86,
+          "weighted_score": 34.4,
+          "explanations": [
+            "2 Grade A, 9 Grade B ingredients",
+            "Evidence grades: A(2), B(9)",
+            "Review conclusions: 44% of measured outcomes showed a benefit (73% of ingredients covered) — evidence 87 -> 86"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 81,
+          "weighted_score": 28.35,
+          "explanations": [
+            "6 ingredients at optimal doses",
+            "3 ingredients below recommended dose",
+            "2 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 88,
+          "weighted_score": 22.0,
+          "explanations": [
+            "10 good: L-Lysine, L-Isoleucine, L-Valine +7 more",
+            "1 basic: L-Cystine",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 94,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_1.png?v=b922974f",
+      "gallery_images": [
+        "/images/products/thorne/amino-complex-travel-packs-lemon/primary.webp?v=e0b77f38",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_2.png?v=774d80c1",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_3.jpg?v=8f75e4a0",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_4.jpg?v=40dd29f8",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_5.jpg?v=ea46a1e1",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_6.jpg?v=c58784de",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_7.jpg?v=25b7fbc4",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_8.png?v=3971a810",
+        "/images/products/thorne/amino-complex-travel-packs-lemon/gallery_9.png?v=f0c05a14"
+      ],
+      "price_usd": 36.0,
+      "serving_size": "1 Packets",
+      "servings_per_container": 30,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Lysine (as L-Lysine Chloride)",
+          "label_amount": 650.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:lysine",
+          "amount": 650.0
+        },
+        {
+          "name": "L-Isoleucine",
+          "label_amount": 625.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:isoleucine",
+          "amount": 625.0
+        },
+        {
+          "name": "L-Valine",
+          "label_amount": 625.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:valine",
+          "amount": 625.0
+        },
+        {
+          "name": "L-Threonine",
+          "label_amount": 350.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:threonine",
+          "amount": 350.0
+        },
+        {
+          "name": "L-Histidine",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:histidine",
+          "amount": 150.0
+        },
+        {
+          "name": "L-Cystine",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "supplement:l-cystine",
+          "amount": 150.0
+        },
+        {
+          "name": "L-Phenylalanine",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:phenylalanine",
+          "amount": 100.0
+        },
+        {
+          "name": "L-Methionine",
+          "label_amount": 50.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:methionine",
+          "amount": 50.0
+        },
+        {
+          "name": "L-Tyrosine",
+          "label_amount": 30.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:tyrosine",
+          "amount": 30.0
+        },
+        {
+          "name": "L-Tryptophan",
+          "label_amount": 20.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:tryptophan",
+          "amount": 20.0
+        },
+        {
+          "name": "L-Leucine",
+          "label_amount": 1.25,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:leucine",
+          "amount": 1.25
+        }
+      ],
+      "other_ingredients": [
+        "Citric Acid",
+        "Flavor",
+        "Rebaudioside A",
+        "Turmeric Powder"
+      ],
+      "certifications": [
+        "NSF Certified for Sport",
+        "Gluten Free",
+        "Dairy Free",
+        "Soy Free",
+        "Vegan",
+        "Thorne Verified",
+        "Natural Flavors",
+        "Natural Colors",
+        "GMP Certified"
+      ],
+      "description": "Optimize your workout results and build the lean muscle mass that boosts strength.\n• Thorne's Amino Complex formula also enhances cellular energy production.\n• Amino acids are the building blocks of protein. They fuel muscle gain and other physiological functions, including enzyme production, hormone regulation, cognitive ability, neurotransmitter balance, metabolism, and energy production. As we age, we lose muscle mass, which can cause other health issues, so it is important to promote the growth of lean muscle mass.Of the 20 amino acids that make up protein, nine are classified as essential amino acids (EAAs), those the body cannot produce itself. Therefore, they must be consumed through diet and supplementation to support the body's internal production of energy.  Thorne's Amino Complex is a comprehensive blend of EAAs, which is high in branched-chain amino acids (BCAAs) – a group of amino acids that promote the growth of lean muscle mass and enhance muscle strength.\n• EAAs benefit the body in multiple ways\n• Support muscle repair and recovery\n• Reduce muscle soreness\n• Benefit muscle strength\n• Support lean muscle mass\n• Increase cellular energy production\n• Promote healthy blood sugar already within the normal range\n• Support cardiovascular health\n• Strengthen connective tissue\n• Who can benefit from Thorne's Amino Complex\n• Athletes, to support training and fitness\n• The elderly, who need to preserve muscle mass\n• A person recovering from muscle injury or overuse\n• Anyone needing readily bioavailable amino acids for protein building \n\nFeatures of Thorne's Amino Complex\n\n• Available in two flavors - lemon and berry\n• Available in bulk powder or individual stick pack servings \n• NSF Certified for Sport&reg;\n• Lightly sweetened\n• Mixes easily in warm or cold liquid\n• Contains flavors and sweeteners derived from natural flavors\n\nHow to take Thorne's Amino ComplexAmino Complex is best taken after a workout to facilitate the recovery process.\n• It's an ideal formula for active individuals, individuals managing calories, or anyone who has difficulty consuming whole foods or protein powders, particularly after heavy exercise.Because athletes need to know their supplements are trustworthy and compliant, every batch of an NSF Certified for Sport&reg; product is tested for compliance with label claims and to ensure the absence of nearly 300 substances banned by many major athletic organizations.",
+      "overview": "Clinically validated EAA and BCAA formula that supports your muscles and your love for training and weightlifting*\n\nAmino Complex promotes the growth of lean muscle mass, enhances muscle strength, and supports recovery.* NSF Certified for Sport®",
+      "warnings": "CALIFORNIA WARNING\n\nRisk of reproductive harm from exposure to lead. See www.P65Warnings.ca.gov/food.\n\nALLERGY WARNING\n\nThis product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients.\n\nPREGNANCY WARNING\n\nIf pregnant or nursing, do not use this product.\n\nINTERACTIONS\n\nThere are no known adverse interactions or contraindications at publication date.\n\nNOTICE FOR NEW YORK RESIDENTS\n\nNew York law prohibits the sale of this product to individuals under the age of eighteen.",
+      "recommended_use": "Mix 1 stick pack with at least 8 ounces of water one to two times daily or as recommended by your health-care practitioner.",
+      "amazon_url": "https://www.amazon.com/s?k=Thorne+Amino+Complex+-+Travel+Packs+-+Lemon&tag=formulate00-20",
+      "iherb_url": null,
+      "url": "https://www.thorne.com/products/dp/amino-complex-lemon-sp637p",
+      "variants": [
+        {
+          "variant_id": "thorne-amino-complex-travel-packs-lemon-clinically-validated-eaa-and-bcaa-formula-that-supports-your-muscle-powder-30",
+          "servings": 30,
+          "net_quantity_text": "30 Capsules",
+          "price_usd": 36.0,
+          "is_default": true,
+          "variant_label": "Lemon - 30 Capsules",
+          "variant_url": "https://www.thorne.com/products/dp/amino-complex-lemon-sp637p",
+          "serving_size_text": "1 Packets",
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\11\\11f40b314a3971df9f7a3a586a9f8b58a42f4f5488ce8b65de021e07dc79b56f.png",
+          "gallery_images": [
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\11\\11f40b314a3971df9f7a3a586a9f8b58a42f4f5488ce8b65de021e07dc79b56f.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\b1\\b180a0333c5400f2547334d68908556eb877164823518c519870e2b655eb3491.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\c5\\c57d24be640a993e920b70b5a1fe94938d04d57dd3f7df00e9173dab27689d82.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\f2\\f26eba82e51be20289267308ffce2086ed090358dd760ffbb93ae34e26d71349.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\8d\\8d710c483e7862508e6d7aeb9f2aa743224311535c2844d3c08e5056d9909ba4.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\c6\\c65e31d21a2fe4a784b2ee116bd042af268a8f91c98c99a539db59cb65adb79b.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\16\\16a5155d87b6225b8352d7d2b4e7567ccd33a213bfc6c58423475cc93ec08169.jpg",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\db\\dbfed163b00b12d804d561303d1b32cf10b340556e300511a1f3e3967deb3d9d.png",
+            "C:\\Users\\xdrop\\clawd\\Formulate\\data\\assets\\gallery_image\\23\\234db3f88ae584d5559f65f797074bb81b497b5e13ef267ff66d86a9f34604e3.png"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:thorne-l-arginine-sustained-release",
+      "slug": "thorne-l-arginine-sustained-release",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "L-Arginine - Sustained Release",
+      "category": "Amino Acids",
+      "category_tags": [
+        "heart health",
+        "blood pressure",
+        "muscle"
+      ],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 88,
+          "weighted_score": 35.2,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 60% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 88"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 70,
+          "weighted_score": 24.5,
+          "explanations": [
+            "1 ingredient below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: L-Arginine",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "High brand transparency (95%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 94,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/thorne/l-arginine-sustained-release/primary.webp?v=cbaefdb9",
+      "gallery_images": [
+        "/images/products/thorne/l-arginine-sustained-release/gallery_1.webp?v=7f8ea4d3",
+        "/images/products/thorne/l-arginine-sustained-release/gallery_2.webp?v=87046a57",
+        "/images/products/thorne/l-arginine-sustained-release/gallery_3.webp?v=77a0d889",
+        "/images/products/thorne/l-arginine-sustained-release/gallery_4.webp?v=6f74a6b4",
+        "/images/products/thorne/l-arginine-sustained-release/gallery_5.webp?v=a810baa3"
+      ],
+      "price_usd": 44.0,
+      "serving_size": "2 Capsules",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "L-Arginine",
+          "label_amount": 1.0,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": "nutrient:arginine",
+          "amount": 1.0
+        }
+      ],
+      "other_ingredients": [
+        "Calcium Laurate",
+        "High and Low Viscosity Hydroxypropyl Methylcellulose",
+        "Leucine",
+        "Magnesium (Citrate)",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "NSF Certified",
+        "Gluten Free",
+        "Dairy Free",
+        "Soy Free",
+        "Thorne Verified",
+        "Natural Flavors",
+        "Natural Colors",
+        "GMP Certified"
+      ],
+      "description": "L-arginine is a conditionally essential amino acid, meaning that while your body can make it, it becomes necessary to get it in through diet or supplementation under certain circumstances or for certain physical conditions. L-arginine, like other amino acids, is a building block of protein, which helps to promote muscle and tissue repair, helps to support a healthy immune system, and benefits cellular metabolism.\n• One of L-arginine's unique functions is that it is necessary for the production of nitric oxide. Nitric oxide is essential to the regulation of blood flow in the body. By supporting nitic oxide levels, L-arginine can support cardiovascular health, benefit healthy blood pressure, and optimize blood flow to the extremities.\n• Thorne's L-Arginine – Sustained Release combines L-arginine with our Time-Sorb&reg; complex to help maintain an optimal levels of L-arginine over 24 hours with suggested use.\n\nBenefits of Thorne's L-Arginine - Sustained Release\n• Helps maintain normal blood pressure and benefits vascular elasticity\n• Supports a healthy heart and vascular system\n• Helps promote cellular repair and collagen formation\n• Supports blood flow to the extremities to increase work capacity during exercise\n• Benefits the occurrence and maintenance of erections during intimacy\n• Who can benefit from Thorne's L-Arginine - Sustained Release\n• Individuals who want to maintain healthy blood pressure and support cardiovascular health\n• Athletes wanting enhanced blood flow to increase work capacity during exercise\n• Individuals desiring increased blood flow to the extremities\n• Individuals who want to support sexual wellness\n\nFeatures of Thorne's L-Arginine – Sustained Release\n• Single active ingredient formula for ease of personalized health plans\n• Sustained release formula to maintain optimal levels over time when used as suggested\n• This product has been third-party tested and certified to verify what's in the package matches what's on the label and to confirm it contains no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms.",
+      "overview": "Maintain healthy blood pressure and support optimal blood flow with sustained-release L-arginine*\n\nL-Arginine – Sustained Release supports blood flow to the extremities to benefit heart health, exercise capacity, collagen formation, and sexual wellness.*",
+      "warnings": "ALLERGY WARNING\n\nThis product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients.\n\nPREGNANCY\n\nIf pregnant, consult your health-care practitioner before using this product.\n\nINTERACTIONS\n\nIndividuals with a known herpes infection should not take L-arginine without also taking lysine, as L-arginine alone has been noted to cause herpes eruptions in susceptible individuals. L-arginine supplementation is contraindicated in a patient with hepatocellular carcinoma.",
+      "recommended_use": "Take 2 capsules two times daily or as recommended by your health-care practitioner.",
+      "amazon_url": "https://www.amazon.com/s?k=Thorne+L-Arginine+-+Sustained+Release&tag=formulate00-20",
+      "iherb_url": null,
+      "url": "https://www.thorne.com/products/dp/perfusia-sr-reg",
+      "variants": [
+        {
+          "variant_id": "thorne-l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine-default",
+          "servings": 60,
+          "net_quantity_text": null,
+          "price_usd": 44.0,
+          "is_default": true,
+          "variant_label": null,
+          "variant_url": "https://www.thorne.com/products/dp/perfusia-sr-reg",
+          "serving_size_text": null,
+          "description": null,
+          "overview": null,
+          "recommended_use": null,
+          "warnings": null,
+          "certifications": [],
+          "image_url": "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/primary.webp",
+          "gallery_images": [
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/01_gallery_hero.png",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/02_gallery_02.jpg",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/03_gallery_03.jpg",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/04_gallery_04.jpg",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/05_gallery_05.jpg",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/06_gallery_06.png",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/07_gallery_07.png",
+            "assets/products/thorne/l-arginine-sustained-release-maintain-healthy-blood-pressure-and-support-optimal-blood-flow-with-sustained-release-l-arginine/08_gallery_08.png"
+          ]
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
     }
   ],
   "brands": [
     {
       "slug": "thorne",
       "name": "Thorne",
-      "product_count": 166,
+      "product_count": 162,
       "avg_score": 88,
       "score": 94,
       "grade": "A",
