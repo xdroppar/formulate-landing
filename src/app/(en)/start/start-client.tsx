@@ -316,7 +316,7 @@ export function StartClient({
   const dotIdx = step === "goals" ? 0 : step === "experience" ? 1 : 2;
 
   return (
-    <div className="fixed inset-0 z-[150] flex items-stretch justify-center">
+    <div className="fixed inset-0 z-[150] flex items-stretch justify-center overflow-y-auto overscroll-contain">
       <OnboardingAurora />
 
       {/* Close → back to wherever they came from (usually the guide they were
@@ -330,7 +330,7 @@ export function StartClient({
             router.push("/");
           }
         }}
-        className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-surface hover:bg-surface2 border border-border text-muted hover:text-text grid place-items-center transition-colors"
+        className="fixed top-4 right-4 z-20 w-9 h-9 rounded-full bg-surface hover:bg-surface2 border border-border text-muted hover:text-text grid place-items-center transition-colors"
         aria-label="Close and return to home"
       >
         ✕
@@ -338,7 +338,7 @@ export function StartClient({
 
       {/* Progress dots */}
       <div
-        className="absolute top-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5"
+        className="fixed top-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5"
         role="progressbar"
         aria-valuemin={1}
         aria-valuemax={DOTS.length}
@@ -358,7 +358,7 @@ export function StartClient({
         ))}
       </div>
 
-      <div ref={panelRef} className="relative z-10 w-full max-w-3xl mx-auto px-5 flex flex-col overflow-y-auto py-14">
+      <div ref={panelRef} className="relative z-10 w-full max-w-3xl mx-auto px-5 flex flex-col py-14">
         <AnimatePresence mode="wait" initial={false}>
           {/* ── Step: goals ── */}
           {step === "goals" && (
