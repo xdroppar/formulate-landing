@@ -12,7 +12,6 @@ import {
 import { withUtm } from "@/lib/app-url";
 import { trackEvent } from "@/lib/analytics";
 import { OnboardingAurora } from "@/components/landing/onboarding-aurora";
-import { OnboardingScoreRing } from "@/components/landing/onboarding-score-ring";
 import { OnboardingConfetti } from "@/components/landing/onboarding-confetti";
 
 const APP_URL = "https://app.formulate-health.app";
@@ -62,7 +61,6 @@ const EXPERIENCE: {
 ];
 
 type Step = "goals" | "experience" | "building" | "result";
-const DOTS: Step[] = ["goals", "experience", "result"];
 
 function titleCaseSlug(slug: string): string {
   return slug
@@ -120,6 +118,20 @@ function taglineWithoutCount(t: string): string {
   return m ? m[2].toUpperCase() + m[3] : t;
 }
 
+
+/**
+ * The three tiers, phrased as the decision they represent.
+ *
+ * A reader does not need to be told an ingredient is "supporting"; they need to
+ * be told whether to buy it this week. The tier already encodes that and the
+ * old design spent it on a badge.
+ */
+const TIER_BANDS: { tier: Tier; title: string; note: string }[] = [
+  { tier: "core", title: "Start here", note: "the evidence is strongest for these" },
+  { tier: "supporting", title: "Add when ready", note: "real evidence, smaller effect" },
+  { tier: "optional", title: "Only if it fits you", note: "situational — skip unless the reason applies" },
+];
+
 export function StartClient({
   goalStacks,
   ingredientIndex,
@@ -130,7 +142,7 @@ export function StartClient({
   const router = useRouter();
   const reduce = useReducedMotion();
 
-  const [step, setStepRaw] = useState<Step>("goals");
+  const [step, setStepRaw] = useState<Step>("result");
   /**
    * Which way the wizard is moving.
    *
@@ -150,8 +162,18 @@ export function StartClient({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const setStep = go;
-  const [goalSlug, setGoalSlug] = useState<string | null>(null);
-  const [experience, setExperience] = useState<Experience | null>(null);
+  /**
+   * The wizard opens ON a stack, not on a question.
+   *
+   * It used to gate everything behind two questions and a 1.3s "building"
+   * animation — a toll before anything of value appeared, on the screen someone
+   * reaches by clicking "Build my stack". Landing on a real, complete stack
+   * makes the goal a CONTROL rather than a gate: the chips sit above the stack
+   * and switching one re-forms it in place. Longevity is the default because it
+   * is the platform's own framing.
+   */
+  const [goalSlug, setGoalSlug] = useState<string | null>("longevity");
+  const [experience, setExperience] = useState<Experience | null>("experienced");
   const [confetti, setConfetti] = useState(false);
 
   const ingredientMap = useMemo(
@@ -295,16 +317,21 @@ export function StartClient({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [step]);
 
+  /**
+   * Switch the stack in place.
+   *
+   * This used to advance to the next question, because the goal WAS a gate.
+   * Now the chips sit above a live stack, so choosing one re-forms what is
+   * already on screen — which is the point: a visitor can compare Sleep against
+   * Longevity in two clicks instead of restarting a wizard to see the second
+   * one.
+   */
   function pickGoal(slug: string) {
+    if (slug === goalSlug) return;
     trackEvent("start_goal", { goal: slug });
     setGoalSlug(slug);
-    setStep("experience");
   }
-  function pickExperience(id: Experience) {
-    trackEvent("start_experience", { goal: goalSlug, experience: id });
-    setExperience(id);
-    setStep("building");
-  }
+
   function restart() {
     trackEvent("start_restart", { goal: goalSlug });
     setGoalSlug(null);
@@ -313,7 +340,6 @@ export function StartClient({
     setStep("goals");
   }
 
-  const dotIdx = step === "goals" ? 0 : step === "experience" ? 1 : 2;
 
   return (
     <div className="fixed inset-0 z-[150] flex items-stretch justify-center overflow-y-auto overscroll-contain">
@@ -336,158 +362,11 @@ export function StartClient({
         ✕
       </button>
 
-      {/* Progress dots */}
-      <div
-        className="fixed top-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5"
-        role="progressbar"
-        aria-valuemin={1}
-        aria-valuemax={DOTS.length}
-        aria-valuenow={dotIdx + 1}
-        aria-label={`Step ${dotIdx + 1} of ${DOTS.length}`}
-      >
-        {DOTS.map((_, i) => (
-          <motion.div
-            key={i}
-            className="h-1.5 rounded-full"
-            animate={{
-              width: i === dotIdx ? 26 : 7,
-              backgroundColor: i <= dotIdx ? "var(--color-accent)" : "var(--color-border)",
-            }}
-            transition={{ duration: 0.35, ease }}
-          />
-        ))}
-      </div>
 
       <div ref={panelRef} className="relative z-10 w-full max-w-3xl mx-auto px-5 flex flex-col py-14">
         <AnimatePresence mode="wait" initial={false}>
-          {/* ── Step: goals ── */}
-          {step === "goals" && (
-            <motion.div
-              key="goals"
-              {...stepMotion(dir, !!reduce)}
-              onAnimationComplete={focusStepHeading}
-              className="flex-1 flex flex-col justify-center text-center"
-            >
-              <p className="fm-eyebrow mb-3">
-                Build your stack — free
-              </p>
-              <h1 tabIndex={-1} className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text outline-none">
-                What do you want your <span className="text-accent whitespace-nowrap">body to do?</span>
-              </h1>
-              <p className="mt-3 text-sm text-muted max-w-md mx-auto">
-                Pick your main goal. We&apos;ll build an evidence-based stack —
-                every ingredient graded on real research, with dose and timing.
-              </p>
 
-              <div className="mt-8 flex flex-wrap gap-2.5 justify-center max-w-xl mx-auto">
-                {goalStacks.map((s, i) => {
-                  const m = GOAL_META[s.slug] ?? { label: s.name };
-                  return (
-                    <motion.button
-                      key={s.slug}
-                      type="button"
-                      initial={reduce ? false : { opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.05 + i * 0.03, duration: 0.3, ease }}
-                      whileHover={reduce ? undefined : { scale: 1.05 }}
-                      whileTap={reduce ? undefined : { scale: 0.96 }}
-                      onClick={() => pickGoal(s.slug)}
-                      className="px-4 py-2.5 rounded-full text-[14px] font-semibold border border-border bg-surface text-text hover:border-accent/50 hover:text-accent transition-colors"
-                    >
-                      {m.label}
-                    </motion.button>
-                  );
-                })}
-              </div>
-              <p className="mt-9 text-[12px] text-muted/60">
-                No account needed yet · 2 quick questions
-              </p>
-            </motion.div>
-          )}
 
-          {/* ── Step: experience ── */}
-          {step === "experience" && (
-            <motion.div
-              key="experience"
-              {...stepMotion(dir, !!reduce)}
-              onAnimationComplete={focusStepHeading}
-              className="flex-1 flex flex-col justify-center text-center"
-            >
-              <p className="fm-eyebrow mb-3">
-                {goal ? GOAL_META[goal.slug]?.label ?? goal.name : ""}
-              </p>
-              <h1 tabIndex={-1} className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text outline-none">
-                How much do you <span className="text-accent whitespace-nowrap">take today?</span>
-              </h1>
-              <p className="mt-3 text-sm text-muted max-w-md mx-auto">
-                We&apos;ll tailor how much of the stack to show you — from the
-                bare essentials to the full protocol.
-              </p>
-
-              <div className="mt-8 space-y-3 max-w-md mx-auto w-full">
-                {EXPERIENCE.map((e, i) => (
-                  <motion.button
-                    key={e.id}
-                    type="button"
-                    initial={reduce ? false : { opacity: 0, y: 12 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.05 + i * 0.06, duration: 0.3, ease }}
-                    whileHover={reduce ? undefined : { scale: 1.02 }}
-                    whileTap={reduce ? undefined : { scale: 0.98 }}
-                    onClick={() => pickExperience(e.id)}
-                    className="group w-full text-left fm-panel p-4 hover:border-accent/40 transition-colors flex items-center gap-4"
-                  >
-                    <span className="fm-eyebrow shrink-0 w-5" aria-hidden>
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <div className="flex-1">
-                      <div className="text-[16px] font-semibold text-text group-hover:text-accent transition-colors">
-                        {e.label}
-                      </div>
-                      <div className="text-xs text-muted mt-0.5">{e.sub}</div>
-                    </div>
-                    <span className="text-muted group-hover:text-accent transition-colors">→</span>
-                  </motion.button>
-                ))}
-              </div>
-              <button
-                type="button"
-                onClick={() => setStep("goals")}
-                className="mt-7 text-xs text-muted hover:text-accent transition-colors"
-              >
-                ← Back
-              </button>
-            </motion.div>
-          )}
-
-          {/* ── Step: building ── */}
-          {step === "building" && (
-            <motion.div
-              key="building"
-              initial={reduce ? false : { opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="flex-1 flex flex-col items-center justify-center text-center"
-            >
-              <motion.div
-                className="w-14 h-14 rounded-full border-2 border-white/10 border-t-accent"
-                animate={reduce ? undefined : { rotate: 360 }}
-                transition={{ duration: 0.9, repeat: Infinity, ease: "linear" }}
-              />
-              <motion.p
-                className="mt-6 text-lg font-bold text-text"
-                initial={reduce ? false : { opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-              >
-                Building your {goal ? GOAL_META[goal.slug]?.label.toLowerCase() : ""} stack…
-              </motion.p>
-              <p className="mt-2 text-sm text-muted">
-                Matching ingredients to real research
-              </p>
-            </motion.div>
-          )}
 
           {/* ── Step: result ── */}
           {step === "result" && goal && (
@@ -497,10 +376,34 @@ export function StartClient({
               onAnimationComplete={focusStepHeading}
               className="flex-1"
             >
-              {/* Headline + score ring */}
+              {/* The goal is a CONTROL now, not a question that was already
+                  answered and disappeared. It sits above the stack, always
+                  visible, and switching it re-forms the stack in place — so a
+                  visitor can compare goals instead of restarting a wizard. */}
+              <div className="flex flex-wrap gap-2 justify-center mb-8">
+                {goalStacks.map((g) => {
+                  const on = g.slug === goalSlug;
+                  return (
+                    <button
+                      key={g.slug}
+                      type="button"
+                      aria-pressed={on}
+                      onClick={() => pickGoal(g.slug)}
+                      className={
+                        "px-3.5 py-1.5 rounded-full text-[13px] font-semibold border transition-colors " +
+                        (on
+                          ? "border-accent/60 text-accent bg-accent/10"
+                          : "border-border bg-surface text-muted hover:text-text hover:border-accent/30")
+                      }
+                    >
+                      {(GOAL_META[g.slug] ?? { label: g.name }).label}
+                    </button>
+                  );
+                })}
+              </div>
+
               <div className="flex flex-col items-center text-center mb-8">
-                <OnboardingScoreRing score={evidenceScore} label="Evidence" />
-                <h1 tabIndex={-1} className="mt-5 fm-display text-[clamp(24px,3vw,var(--text-h-section))] text-text outline-none">
+                <h1 tabIndex={-1} className="fm-display text-[clamp(24px,3vw,var(--text-h-section))] text-text outline-none">
                   Your {goal.name}
                 </h1>
                 <p className="mt-2 text-sm text-muted max-w-lg">{taglineWithoutCount(goal.tagline)}</p>
@@ -511,9 +414,15 @@ export function StartClient({
                 </div>
               </div>
 
-              {/* Ingredients (staggered) */}
-              <ul className="space-y-2 mb-6">
-                {recommended.map((r, i) => {
+              {/* Ingredients, banded by tier — the band IS the guidance. */}
+              {TIER_BANDS.filter((band) => recommended.some((r) => r.tier === band.tier)).map((band) => (
+                <div key={band.tier} className="mb-6">
+                  <div className="flex items-baseline gap-2 mb-2">
+                    <span className="fm-eyebrow">{band.title}</span>
+                    <span className="text-[12px] text-muted/70">{band.note}</span>
+                  </div>
+              <ul className="space-y-2">
+                {recommended.filter((r) => r.tier === band.tier).map((r, i) => {
                   const g = r.grade ? EVIDENCE_GRADE_META[r.grade] : null;
                   return (
                     <motion.li
@@ -543,9 +452,10 @@ export function StartClient({
                             {r.grade}
                           </span>
                         )}
-                        <span className="text-[9px] font-semibold uppercase tracking-wider text-muted px-1.5 py-0.5 rounded bg-white/[0.05]">
-                          {r.tier}
-                        </span>
+                        {/* The band above already says what the tier is, so
+                            repeating it on every row is noise — and blanking
+                            the label left an empty pill floating beside the
+                            grade. The badge is gone entirely now. */}
                       </div>
                       <p className="text-xs text-text/80 leading-relaxed mb-1.5">{r.role}</p>
                       <p className="text-xs text-muted">
@@ -556,6 +466,8 @@ export function StartClient({
                   );
                 })}
               </ul>
+                </div>
+              ))}
 
               {/* Evidence quality + interactions */}
               <motion.div
