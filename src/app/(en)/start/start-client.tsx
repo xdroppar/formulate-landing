@@ -279,10 +279,10 @@ export function StartClient({
               transition={{ duration: 0.4, ease }}
               className="flex-1 flex flex-col justify-center text-center"
             >
-              <p className="text-xs font-bold uppercase tracking-[2px] text-accent mb-3">
+              <p className="fm-eyebrow mb-3">
                 Build your stack — free
               </p>
-              <h1 className="text-3xl sm:text-4xl font-extrabold text-text tracking-tight">
+              <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text">
                 What do you want your <span className="text-accent">body to do?</span>
               </h1>
               <p className="mt-3 text-sm text-muted max-w-md mx-auto">
@@ -292,7 +292,7 @@ export function StartClient({
 
               <div className="mt-8 flex flex-wrap gap-2.5 justify-center max-w-xl mx-auto">
                 {goalStacks.map((s, i) => {
-                  const m = GOAL_META[s.slug] ?? { label: s.name, emoji: "✨" };
+                  const m = GOAL_META[s.slug] ?? { label: s.name };
                   return (
                     <motion.button
                       key={s.slug}
@@ -303,15 +303,14 @@ export function StartClient({
                       whileHover={reduce ? undefined : { scale: 1.05 }}
                       whileTap={reduce ? undefined : { scale: 0.96 }}
                       onClick={() => pickGoal(s.slug)}
-                      className="px-4 py-2.5 rounded-full text-sm font-semibold border border-white/10 bg-white/[0.04] text-text hover:border-accent/60 hover:bg-accent/10 hover:text-accent transition-colors"
+                      className="px-4 py-2.5 rounded-full text-[14px] font-semibold border border-border bg-surface text-text hover:border-accent/50 hover:text-accent transition-colors"
                     >
-                      <span className="mr-1.5">{m.emoji}</span>
                       {m.label}
                     </motion.button>
                   );
                 })}
               </div>
-              <p className="mt-9 text-[11px] text-muted/60">
+              <p className="mt-9 text-[12px] text-muted/60">
                 No account needed yet · 2 quick questions
               </p>
             </motion.div>
@@ -327,10 +326,10 @@ export function StartClient({
               transition={{ duration: 0.4, ease }}
               className="flex-1 flex flex-col justify-center text-center"
             >
-              <p className="text-xs font-bold uppercase tracking-[2px] text-accent mb-3">
+              <p className="fm-eyebrow mb-3">
                 {goal ? GOAL_META[goal.slug]?.label ?? goal.name : ""}
               </p>
-              <h1 className="text-3xl sm:text-4xl font-extrabold text-text tracking-tight">
+              <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text">
                 How much do you <span className="text-accent">take today?</span>
               </h1>
               <p className="mt-3 text-sm text-muted max-w-md mx-auto">
@@ -349,11 +348,13 @@ export function StartClient({
                     whileHover={reduce ? undefined : { scale: 1.02 }}
                     whileTap={reduce ? undefined : { scale: 0.98 }}
                     onClick={() => pickExperience(e.id)}
-                    className="group w-full text-left rounded-2xl border border-white/10 bg-white/[0.04] p-4 hover:border-accent/60 hover:bg-accent/[0.06] transition-colors flex items-center gap-4"
+                    className="group w-full text-left fm-panel p-4 hover:border-accent/40 transition-colors flex items-center gap-4"
                   >
-                    <span className="text-2xl" aria-hidden>{e.emoji}</span>
+                    <span className="fm-eyebrow shrink-0 w-5" aria-hidden>
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
                     <div className="flex-1">
-                      <div className="text-base font-bold text-text group-hover:text-accent transition-colors">
+                      <div className="text-[16px] font-semibold text-text group-hover:text-accent transition-colors">
                         {e.label}
                       </div>
                       <div className="text-xs text-muted mt-0.5">{e.sub}</div>
@@ -414,7 +415,7 @@ export function StartClient({
               {/* Headline + score ring */}
               <div className="flex flex-col items-center text-center mb-8">
                 <OnboardingScoreRing score={evidenceScore} label="Evidence" />
-                <h1 className="mt-5 text-2xl sm:text-3xl font-extrabold text-text tracking-tight">
+                <h1 className="mt-5 fm-display text-[clamp(24px,3vw,var(--text-h-section))] text-text">
                   Your {goal.name}
                 </h1>
                 <p className="mt-2 text-sm text-muted max-w-lg">{goal.tagline}</p>
@@ -450,7 +451,7 @@ export function StartClient({
                         )}
                         {g && (
                           <span
-                            className="text-[10px] font-bold px-1.5 py-0.5 rounded"
+                            className="text-[11px] font-bold px-1.5 py-0.5 rounded"
                             style={{ backgroundColor: `${g.color}1a`, color: g.color }}
                             title={g.label}
                           >
@@ -478,7 +479,7 @@ export function StartClient({
                 transition={{ delay: 0.5 + recommended.length * 0.08 + 0.1 }}
               >
                 <div className="rounded-xl border border-white/10 bg-white/[0.03] p-4 mb-4 flex items-center gap-5 flex-wrap">
-                  <span className="text-[11px] font-semibold uppercase tracking-wider text-muted">
+                  <span className="fm-eyebrow">
                     Evidence quality
                   </span>
                   {(["A", "B", "C", "D"] as const).map((gr) => {
@@ -486,7 +487,7 @@ export function StartClient({
                     return (
                       <div key={gr} className="flex items-center gap-1.5">
                         <span
-                          className="text-[10px] font-bold px-1.5 py-0.5 rounded"
+                          className="text-[11px] font-bold px-1.5 py-0.5 rounded"
                           style={{ backgroundColor: `${meta.color}1a`, color: meta.color }}
                         >
                           {gr}
@@ -515,7 +516,6 @@ export function StartClient({
                             key={i.pair_key}
                             className={`flex items-center gap-3 px-4 py-2.5 rounded-lg border ${meta.border} ${meta.bg}`}
                           >
-                            <span className="text-base" aria-hidden>{meta.icon}</span>
                             <div className="flex-1 min-w-0">
                               <span className="text-sm font-semibold text-text capitalize">
                                 {i.substance_a} + {i.substance_b}
@@ -563,7 +563,7 @@ export function StartClient({
                     }
                     className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 transition-all shadow-[0_8px_30px_-8px_rgba(0,229,160,0.5)]"
                   >
-                    Continue in the app — free →
+                    Continue in the app →
                   </a>
                   <Link
                     href={builderUrl}
@@ -594,7 +594,7 @@ export function StartClient({
                 </button>
               </div>
 
-              <p className="text-[11px] text-muted/60 leading-relaxed mt-8 text-center max-w-xl mx-auto">
+              <p className="text-[12px] text-muted/60 leading-relaxed mt-8 text-center max-w-xl mx-auto">
                 <strong className="text-text/80">Educational only.</strong> Evidence-based
                 starting points, not medical advice. Run any stack by a pharmacist
                 or clinician if you take prescription medication.
