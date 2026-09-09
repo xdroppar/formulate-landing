@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
 import {
@@ -71,6 +71,55 @@ function titleCaseSlug(slug: string): string {
     .join(" ");
 }
 
+
+/**
+ * Step motion, in one place.
+ *
+ * Was four copies of `{opacity:0,y:18} -> {y:0} -> {y:-18}` at 0.4s each. With
+ * AnimatePresence mode="wait" that is 0.4 out plus 0.4 in — 800ms of dead time
+ * between screens, on a three-screen wizard, which is most of a second spent
+ * watching nothing three times. Now 220ms out, 320ms in, and the axis is
+ * horizontal and DIRECTIONAL so going back reads as going back.
+ */
+function stepMotion(dir: 1 | -1, reduce: boolean) {
+  if (reduce) {
+    return {
+      initial: false as const,
+      animate: { opacity: 1, x: 0 },
+      exit: { opacity: 0, transition: { duration: 0.1 } },
+      transition: { duration: 0.12 },
+    };
+  }
+  return {
+    initial: { opacity: 0, x: dir * 28 },
+    animate: { opacity: 1, x: 0 },
+    // Leaving is faster than arriving. An exit is dead time — the reader has
+    // already decided — while the entrance is the thing they are waiting for.
+    exit: { opacity: 0, x: dir * -28, transition: { duration: 0.18, ease } },
+    transition: { duration: 0.3, ease },
+  };
+}
+
+
+/**
+ * The goal's tagline, minus any count it states.
+ *
+ * Nine taglines open with a number — "Four evidence-backed supplements that
+ * improve sleep quality…" — and they are correct on /conditions, which shows
+ * the whole stack. Here the list is FILTERED by the experience answer, so
+ * picking "I take a few things" rendered "Four evidence-backed supplements"
+ * directly above three cards and a chip reading "3 ingredients". The page
+ * contradicted itself on the one screen that has to be believed.
+ *
+ * Dropping the leading count keeps the useful half of the sentence — what the
+ * stack is FOR — and lets the chip underneath be the only thing that counts,
+ * which is the one that is computed rather than written.
+ */
+function taglineWithoutCount(t: string): string {
+  const m = /^(One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten)\s+(\S)([\s\S]*)$/.exec(t);
+  return m ? m[2].toUpperCase() + m[3] : t;
+}
+
 export function StartClient({
   goalStacks,
   ingredientIndex,
@@ -81,7 +130,26 @@ export function StartClient({
   const router = useRouter();
   const reduce = useReducedMotion();
 
-  const [step, setStep] = useState<Step>("goals");
+  const [step, setStepRaw] = useState<Step>("goals");
+  /**
+   * Which way the wizard is moving.
+   *
+   * Every step animated identically in both directions: going BACK slid the
+   * old panel up and the new one in from below, exactly as going forward did.
+   * That reads as "another new screen" rather than "returning", which is the
+   * one thing a back button has to communicate. Forward enters from the right,
+   * back from the left.
+   */
+  const [dir, setDir] = useState<1 | -1>(1);
+  const ORDER: Step[] = ["goals", "experience", "building", "result"];
+  const go = useCallback((next: Step) => {
+    setStepRaw((cur) => {
+      setDir(ORDER.indexOf(next) >= ORDER.indexOf(cur) ? 1 : -1);
+      return next;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const setStep = go;
   const [goalSlug, setGoalSlug] = useState<string | null>(null);
   const [experience, setExperience] = useState<Experience | null>(null);
   const [confetti, setConfetti] = useState(false);
@@ -181,7 +249,23 @@ export function StartClient({
 
   useEffect(() => {
     once("start_view");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  /**
+   * Move focus to the new step's heading.
+   *
+   * AnimatePresence unmounts the old panel, so the focused button disappears
+   * and focus falls back to <body>. A keyboard or screen-reader user then has
+   * to tab from the top of the document on every step — three times through a
+   * three-step wizard — and hears nothing announced when the screen changes.
+   * Focusing the heading both announces the new step and puts the next Tab
+   * exactly where the options are.
+   */
+  const panelRef = useRef<HTMLDivElement | null>(null);
+  const firstRender = useRef(true);
+  const focusStepHeading = useCallback(() => {
+    if (firstRender.current) { firstRender.current = false; return; }
+    panelRef.current?.querySelector<HTMLElement>("h1")?.focus();
   }, []);
 
   // "Building your stack" beat → reveal + confetti.
@@ -196,7 +280,7 @@ export function StartClient({
       }
     }, delay);
     return () => clearTimeout(t);
-  }, [step, reduce]);
+  }, [step, reduce, setStep]);
 
   // Reaching the result is the moment the quiz has "paid off" — the ratio of
   // this to start_view is the completion rate, and the ratio of start_handoff
@@ -246,44 +330,49 @@ export function StartClient({
             router.push("/");
           }
         }}
-        className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-muted hover:text-text grid place-items-center transition-colors"
+        className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-surface hover:bg-surface2 border border-border text-muted hover:text-text grid place-items-center transition-colors"
         aria-label="Close and return to home"
       >
         ✕
       </button>
 
       {/* Progress dots */}
-      <div className="absolute top-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5">
+      <div
+        className="absolute top-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1.5"
+        role="progressbar"
+        aria-valuemin={1}
+        aria-valuemax={DOTS.length}
+        aria-valuenow={dotIdx + 1}
+        aria-label={`Step ${dotIdx + 1} of ${DOTS.length}`}
+      >
         {DOTS.map((_, i) => (
           <motion.div
             key={i}
             className="h-1.5 rounded-full"
             animate={{
               width: i === dotIdx ? 26 : 7,
-              backgroundColor: i <= dotIdx ? "var(--color-accent)" : "rgba(255,255,255,0.18)",
+              backgroundColor: i <= dotIdx ? "var(--color-accent)" : "var(--color-border)",
             }}
             transition={{ duration: 0.35, ease }}
           />
         ))}
       </div>
 
-      <div className="relative z-10 w-full max-w-3xl mx-auto px-5 flex flex-col overflow-y-auto py-14">
+      <div ref={panelRef} className="relative z-10 w-full max-w-3xl mx-auto px-5 flex flex-col overflow-y-auto py-14">
         <AnimatePresence mode="wait" initial={false}>
           {/* ── Step: goals ── */}
           {step === "goals" && (
             <motion.div
               key="goals"
-              initial={reduce ? false : { opacity: 0, y: 18 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={reduce ? undefined : { opacity: 0, y: -18 }}
-              transition={{ duration: 0.4, ease }}
+              {...stepMotion(dir, !!reduce)}
+              onAnimationComplete={focusStepHeading}
               className="flex-1 flex flex-col justify-center text-center"
             >
               <p className="fm-eyebrow mb-3">
                 Build your stack — free
               </p>
-              <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text">
-                What do you want your <span className="text-accent">body to do?</span>
+              <h1 tabIndex={-1} className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text outline-none">
+                What do you want your <span className="text-accent whitespace-nowrap">body to do?</span>
               </h1>
               <p className="mt-3 text-sm text-muted max-w-md mx-auto">
                 Pick your main goal. We&apos;ll build an evidence-based stack —
@@ -320,17 +409,15 @@ export function StartClient({
           {step === "experience" && (
             <motion.div
               key="experience"
-              initial={reduce ? false : { opacity: 0, y: 18 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={reduce ? undefined : { opacity: 0, y: -18 }}
-              transition={{ duration: 0.4, ease }}
+              {...stepMotion(dir, !!reduce)}
+              onAnimationComplete={focusStepHeading}
               className="flex-1 flex flex-col justify-center text-center"
             >
               <p className="fm-eyebrow mb-3">
                 {goal ? GOAL_META[goal.slug]?.label ?? goal.name : ""}
               </p>
-              <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text">
-                How much do you <span className="text-accent">take today?</span>
+              <h1 tabIndex={-1} className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text outline-none">
+                How much do you <span className="text-accent whitespace-nowrap">take today?</span>
               </h1>
               <p className="mt-3 text-sm text-muted max-w-md mx-auto">
                 We&apos;ll tailor how much of the stack to show you — from the
@@ -406,19 +493,17 @@ export function StartClient({
           {step === "result" && goal && (
             <motion.div
               key="result"
-              initial={reduce ? false : { opacity: 0, y: 18 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={reduce ? undefined : { opacity: 0, y: -18 }}
-              transition={{ duration: 0.4, ease }}
+              {...stepMotion(dir, !!reduce)}
+              onAnimationComplete={focusStepHeading}
               className="flex-1"
             >
               {/* Headline + score ring */}
               <div className="flex flex-col items-center text-center mb-8">
                 <OnboardingScoreRing score={evidenceScore} label="Evidence" />
-                <h1 className="mt-5 fm-display text-[clamp(24px,3vw,var(--text-h-section))] text-text">
+                <h1 tabIndex={-1} className="mt-5 fm-display text-[clamp(24px,3vw,var(--text-h-section))] text-text outline-none">
                   Your {goal.name}
                 </h1>
-                <p className="mt-2 text-sm text-muted max-w-lg">{goal.tagline}</p>
+                <p className="mt-2 text-sm text-muted max-w-lg">{taglineWithoutCount(goal.tagline)}</p>
                 <div className="mt-3 inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-3 py-1 text-[12px] text-muted">
                   <span className="font-bold text-text tabular-nums">{recommended.length}</span> ingredients
                   <span className="opacity-40">·</span>
@@ -544,7 +629,7 @@ export function StartClient({
                 transition={{ delay: 0.5 + recommended.length * 0.08 + 0.25, duration: 0.4, ease }}
                 className="rounded-2xl border border-accent/30 bg-accent/[0.07] p-6"
               >
-                <h2 className="text-lg font-bold text-text mb-1.5">Take this stack into the app</h2>
+                <h2 className="text-[length:var(--text-title)] font-semibold text-text mb-1.5">Take this stack into the app</h2>
                 <p className="text-sm text-muted leading-relaxed mb-5">
                   Add it to your free stack, log what you take, and watch your
                   nutrient coverage and Stack Score fill in — with a quick guided

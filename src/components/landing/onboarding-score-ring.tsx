@@ -77,11 +77,11 @@ export function OnboardingScoreRing({
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.2, type: "spring", stiffness: 320, damping: 18 }}
       >
-        <span className="font-extrabold leading-none tabular-nums" style={{ color, fontSize: size * 0.3 }}>
+        <span className="fm-figure leading-none" style={{ color, fontSize: "var(--text-display)" }}>
           {display}
         </span>
         {label && (
-          <span className="mt-1 text-[10px] font-semibold uppercase tracking-wide text-muted">
+          <span className="mt-1 fm-eyebrow">
             {label}
           </span>
         )}
