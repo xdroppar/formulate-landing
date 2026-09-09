@@ -14,7 +14,7 @@ export function OnboardingAurora() {
   const blob = "absolute rounded-full blur-[80px] will-change-transform";
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
       <div className="absolute inset-0 bg-[#0b0f0e]" />
       <div
         className="absolute inset-0 opacity-60"

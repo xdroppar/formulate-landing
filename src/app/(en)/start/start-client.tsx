@@ -586,9 +586,7 @@ export function StartClient({
                 <button type="button" onClick={restart} className="text-xs text-muted hover:text-accent transition-colors">
                   ↺ Start over
                 </button>
-                <button type="button" onClick={() => setStep("experience")} className="text-xs text-muted hover:text-accent transition-colors">
-                  ← Change level
-                </button>
+
               </div>
 
               <p className="text-[12px] text-muted/60 leading-relaxed mt-8 text-center max-w-xl mx-auto">
