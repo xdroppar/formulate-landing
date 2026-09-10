@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 651,
+  "product_count": 642,
   "brand_count": 32,
   "products": [
     {
@@ -9324,7 +9324,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Betaine Anhydrous (TMG) Capsules",
-      "category": "sports",
+      "category": "Sports Performance",
       "category_tags": [
         "Sleep",
         "Muscle"
@@ -9622,7 +9622,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Bilberry Powder",
-      "category": "gut",
+      "category": "Gut Health",
       "category_tags": [
         "Gut Health",
         "vision"
@@ -12466,7 +12466,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Cayenne Pepper Capsules",
-      "category": "weight",
+      "category": "Metabolism",
       "category_tags": [
         "Weight Management",
         "circulation"
@@ -13578,7 +13578,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Glycine Powder",
-      "category": "Sleep",
+      "category": "Sleep Supplements",
       "category_tags": [
         "Muscle"
       ],
@@ -44439,7 +44439,7 @@
       "brand": "Transparent Labs",
       "brand_slug": "transparent-labs",
       "name": "Fat Burner",
-      "category": "Weight Management",
+      "category": "Metabolism",
       "category_tags": [
         "Energy"
       ],
@@ -55226,7 +55226,7 @@
       "brand": "Thorne",
       "brand_slug": "thorne",
       "name": "Curcumin Phytosome - Sustained Release",
-      "category": "Curcumin",
+      "category": "Adaptogens",
       "category_tags": [
         "joint support",
         "liver support",
@@ -55587,7 +55587,7 @@
       "brand": "ProHealth Longevity",
       "brand_slug": "prohealth-longevity",
       "name": "NMN Pro™ Powder - Uthever NMN, 15 Grams",
-      "category": "longevity",
+      "category": "Antioxidants",
       "category_tags": [
         "energy",
         "longevity"
@@ -57220,7 +57220,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Curcumin 500 with Bioperine",
-      "category": "Nootropics",
+      "category": "Adaptogens",
       "category_tags": [],
       "score": 92,
       "grade": null,
@@ -58304,7 +58304,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Calcium (citrate)",
-      "category": "Multivitamins",
+      "category": "Minerals",
       "category_tags": [],
       "score": 90,
       "grade": null,
@@ -58627,7 +58627,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Curcumin",
-      "category": "Nootropics",
+      "category": "Adaptogens",
       "category_tags": [],
       "score": 90,
       "grade": null,
@@ -67521,7 +67521,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Beta Carotene (with mixed carotenoids)",
-      "category": "Multivitamins",
+      "category": "Antioxidants",
       "category_tags": [],
       "score": 79,
       "grade": null,
@@ -70172,7 +70172,7 @@
       ],
       "price_usd": 115.0,
       "serving_size": "1 Capsule(s)",
-      "servings_per_container": 60,
+      "servings_per_container": 120,
       "form": "capsule",
       "ingredients": [
         {
@@ -70993,7 +70993,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Zinc Liquid 15 mg",
-      "category": "Immune Support",
+      "category": "Minerals",
       "category_tags": [],
       "score": 93,
       "grade": null,
@@ -72564,7 +72564,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Melatonin 20 mg",
-      "category": "Immune Support",
+      "category": "Sleep Supplements",
       "category_tags": [],
       "score": 92,
       "grade": null,
@@ -73166,7 +73166,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine Sulfate 1000 mg",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 92,
       "grade": null,
@@ -74280,7 +74280,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Boswellia",
-      "category": "Immune Support",
+      "category": "Adaptogens",
       "category_tags": [],
       "score": 92,
       "grade": null,
@@ -74738,7 +74738,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "UltraZin Zinc",
-      "category": "Immune Support",
+      "category": "Minerals",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -74886,7 +74886,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Zinc 30",
-      "category": "Immune Support",
+      "category": "Minerals",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -75045,7 +75045,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Zinc 15",
-      "category": "Immune Support",
+      "category": "Minerals",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -75213,7 +75213,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Zinc (citrate)",
-      "category": "Immune Support",
+      "category": "Minerals",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -75520,7 +75520,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Rhodiola Rosea",
-      "category": "Nootropics",
+      "category": "Adaptogens",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -75993,7 +75993,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine HCl+ Chondroitin",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 91,
       "grade": null,
@@ -80044,144 +80044,6 @@
       "score_gate_penalty": 0.25
     },
     {
-      "id": "product:pure-encapsulations-magnesium-gummy",
-      "slug": "pure-encapsulations-magnesium-gummy",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Magnesium Gummy",
-      "category": "Minerals",
-      "category_tags": [],
-      "score": 90,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 98,
-          "weighted_score": 39.2,
-          "explanations": [
-            "Evidence grades: A(1)",
-            "Review conclusions: 57% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 98"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 95,
-          "weighted_score": 33.25,
-          "explanations": [
-            "1 ingredient at optimal doses",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 70,
-          "weighted_score": 17.5,
-          "explanations": [
-            "1 basic: Magnesium",
-            "Adequate form quality - standard forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/magnesium-gummy/primary.webp?v=900cdb6a",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/magnesium-gummy/gallery_1.webp?v=f5785db1"
-      ],
-      "price_usd": 24.5,
-      "serving_size": "1.8 Gram(s)",
-      "servings_per_container": 60,
-      "form": "powder",
-      "ingredients": [
-        {
-          "name": "Magnesium",
-          "label_amount": 250.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 250.0,
-          "dose_score": 100,
-          "dose_range_status": "therapeutic",
-          "form_quality_score": 70,
-          "bar_percent": 55.6,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [],
-      "certifications": [
-        "Dairy-Free",
-        "Gluten-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested"
-      ],
-      "description": "The highest dose of magnesium (citrate) per gummy among leading professional brands\n\n• Provides 150 mg of magnesium citrate per gummy, a highly absorbable form better absorbed than magnesium oxide‡\n\n• Less than <0.5g of sugar per gummy\n\n• One gummy contains as much magnesium as 46 almonds¹\n\n• Supports emotional well-being, positive mood, relaxation and a healthy stress response‡\n\n• Great-tasting berry vanilla flavor free from artificial flavors, sweeteners or synthetic colors",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 scoop 1-2 times daily, with meals, mixed with 8 oz water.\nShake well before use.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/magnesium-gummy",
-      "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
       "id": "product:pure-encapsulations-vitamin-e-with-mixed-tocopherols",
       "slug": "pure-encapsulations-vitamin-e-with-mixed-tocopherols",
       "brand": "Pure Encapsulations",
@@ -81191,148 +81053,6 @@
       "score_gate_penalty": 0.25
     },
     {
-      "id": "product:pure-encapsulations-adenosyl-hydroxy-b12-liquid",
-      "slug": "pure-encapsulations-adenosyl-hydroxy-b12-liquid",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Adenosyl/Hydroxy B12 liquid",
-      "category": "B Vitamins",
-      "category_tags": [],
-      "score": 89,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 97,
-          "weighted_score": 38.8,
-          "explanations": [
-            "Evidence grades: A(1)",
-            "Review conclusions: 56% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 97"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 95,
-          "weighted_score": 33.25,
-          "explanations": [
-            "1 ingredient at optimal doses",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 70,
-          "weighted_score": 17.5,
-          "explanations": [
-            "1 basic: Vitamin B12",
-            "Adequate form quality - standard forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/adenosyl-hydroxy-b12-liquid/primary.webp?v=8dc643a0",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/adenosyl-hydroxy-b12-liquid/gallery_1.webp?v=fb14998f"
-      ],
-      "price_usd": 35.0,
-      "serving_size": "1 Capsule(s)",
-      "servings_per_container": 90,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Vitamin B12",
-          "label_amount": 2000.0,
-          "unit": "mcg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 2000.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 70,
-          "bar_percent": 363.6,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "hypoallergenic Plant Fiber",
-        "Cellulose",
-        "Water"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Liquid blend promotes nerve and mitochondrial health‡\n\n\r\n• Provides healthy nerve support‡ \n• Supports metabolism and mitochondrial health‡ \n• Convenient, great-tasting liquid formula for easy dispensing",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-3 times daily, with meals.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/adenosyl-hydroxy-b12-liquid",
-      "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
       "id": "product:pure-encapsulations-purelean-satiety",
       "slug": "pure-encapsulations-purelean-satiety",
       "brand": "Pure Encapsulations",
@@ -81823,7 +81543,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "MSM capsules",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 88,
       "grade": null,
@@ -81975,146 +81695,6 @@
       "score_gate_penalty": 0.25
     },
     {
-      "id": "product:pure-encapsulations-msm-powder",
-      "slug": "pure-encapsulations-msm-powder",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "MSM powder",
-      "category": "Minerals",
-      "category_tags": [],
-      "score": 88,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
-          "explanations": [
-            "Evidence grades: B(1)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 95,
-          "weighted_score": 33.25,
-          "explanations": [
-            "1 ingredient at optimal doses",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 85,
-          "weighted_score": 21.25,
-          "explanations": [
-            "1 good: Methylsulfonylmethane",
-            "Good form quality - mostly bioavailable forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/msm-powder/primary.webp?v=b451e6be",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/msm-powder/gallery_1.webp?v=ec9a15bb"
-      ],
-      "price_usd": 40.0,
-      "serving_size": "2 Capsule(s)",
-      "servings_per_container": 180,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Methylsulfonylmethane",
-          "label_amount": 1700.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 1700.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 85,
-          "bar_percent": 85.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "Cellulose",
-        "Water"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Unflavored powder to support joint, immune, and respiratory health‡\n\n\r\n• Enhances immune and respiratory health‡ \n• Supports joint functionality and comfort, specifically connective tissue health‡ \n• Naturally-derived sulfur formula \n• Convenient powder formula",
-      "overview": null,
-      "warnings": "Warning: if you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 2 capsules, 1-4 times daily, with meals.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/msm-powder",
-      "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
       "id": "product:pure-encapsulations-l-arginine",
       "slug": "pure-encapsulations-l-arginine",
       "brand": "Pure Encapsulations",
@@ -82208,7 +81788,7 @@
       ],
       "price_usd": 49.5,
       "serving_size": "2 Capsule(s)",
-      "servings_per_container": 45,
+      "servings_per_container": 90,
       "form": "capsule",
       "ingredients": [
         {
@@ -82432,7 +82012,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine MSM",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 88,
       "grade": null,
@@ -86144,7 +85724,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine Chondroitin with Manganese",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 87,
       "grade": null,
@@ -96433,7 +96013,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine + Chondroitin with MSM",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 84,
       "grade": null,
@@ -97884,7 +97464,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Boswellia AKBA",
-      "category": "Immune Support",
+      "category": "Adaptogens",
       "category_tags": [],
       "score": 84,
       "grade": null,
@@ -111162,148 +110742,6 @@
       "score_gate_penalty": 6.5
     },
     {
-      "id": "product:pure-encapsulations-magnesium-glycinate-liquid",
-      "slug": "pure-encapsulations-magnesium-glycinate-liquid",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Magnesium Glycinate liquid",
-      "category": "Minerals",
-      "category_tags": [],
-      "score": 81,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 98,
-          "weighted_score": 39.2,
-          "explanations": [
-            "Evidence grades: A(1)",
-            "Review conclusions: 57% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 98"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 70,
-          "weighted_score": 24.5,
-          "explanations": [
-            "1 ingredient below recommended dose",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 70,
-          "weighted_score": 17.5,
-          "explanations": [
-            "1 basic: Magnesium",
-            "Adequate form quality - standard forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/magnesium-glycinate-liquid/primary.webp?v=f88c6751",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/magnesium-glycinate-liquid/gallery_1.webp?v=fbadbeb4"
-      ],
-      "price_usd": 48.5,
-      "serving_size": "1 Capsule(s)",
-      "servings_per_container": 30,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Magnesium",
-          "label_amount": 120.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 120.0,
-          "dose_score": 70,
-          "dose_range_status": "below_rda",
-          "form_quality_score": 70,
-          "bar_percent": 26.7,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "Cellulose",
-        "Water",
-        "Ascorbyl Palmitate"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Supports heart health, nerve & muscle function and metabolism in convenient liquid form‡\n\n\r\n• Supports metabolism to break down carbohydrates, amino acids, fats, and other essential nutrients‡ \n• Helps to improve heart health‡ \n• Provides energy and bone support‡ \n• Helps to minimize nerve and muscle contractions‡ \n• Found to help improve mood‡ \n• Convenient, great-tasting liquid formula",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule daily, with a meal.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/magnesium-glycinate-liquid",
-      "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
       "id": "product:pure-encapsulations-lvr-formula",
       "slug": "pure-encapsulations-lvr-formula",
       "brand": "Pure Encapsulations",
@@ -111843,7 +111281,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Glucosamine Complex",
-      "category": "Minerals",
+      "category": "Joint Support",
       "category_tags": [],
       "score": 81,
       "grade": null,
@@ -112626,207 +112064,6 @@
       "iherb_url": null,
       "url": "https://pureforyou.com/products/buffered-ascorbic-acid-powder-8",
       "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
-      "id": "product:pure-encapsulations-buffered-ascorbic-acid-capsules",
-      "slug": "pure-encapsulations-buffered-ascorbic-acid-capsules",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Buffered Ascorbic Acid capsules",
-      "category": "Immune Support",
-      "category_tags": [],
-      "score": 81,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 94,
-          "weighted_score": 37.6,
-          "explanations": [
-            "Evidence grades: A(4)",
-            "Review conclusions: 48% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 94"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 70,
-          "weighted_score": 24.5,
-          "explanations": [
-            "3 ingredients severely below recommended dose",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 75,
-          "weighted_score": 18.75,
-          "explanations": [
-            "2 good: Vitamin C, Potassium",
-            "2 basic: Calcium, Magnesium",
-            "Adequate form quality - standard forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (4 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/buffered-ascorbic-acid-capsules/primary.webp?v=3af2fbe5",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/buffered-ascorbic-acid-capsules/gallery_1.webp?v=90726463",
-        "/images/products/pure-encapsulations/buffered-ascorbic-acid-capsules/gallery_2.webp?v=2b8e91f9",
-        "/images/products/pure-encapsulations/buffered-ascorbic-acid-capsules/gallery_3.webp?v=3fa80529"
-      ],
-      "price_usd": 26.5,
-      "serving_size": "2.2 Gram(s)",
-      "servings_per_container": 103,
-      "form": "powder",
-      "ingredients": [
-        {
-          "name": "Vitamin C",
-          "label_amount": 1220.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 1220.0,
-          "dose_score": 90,
-          "dose_range_status": "above_optimal",
-          "form_quality_score": 80,
-          "bar_percent": 203.3,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Calcium",
-          "label_amount": 100.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 100.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 70,
-          "bar_percent": 11.8,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Magnesium",
-          "label_amount": 60.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 60.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 70,
-          "bar_percent": 13.3,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Potassium",
-          "label_amount": 20.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 20.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 80,
-          "bar_percent": 0.6,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Vitamin C benefits (immune health & collagen) for sensitive individuals‡\n\n\r\n• Vitamin C for sensitive individuals \n• Lessens possible gastric irritation \n• Supports the body's defense system‡ \n• Essential for the formation of collagen‡",
-      "overview": null,
-      "warnings": "Warning: if you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: as a dietary supplement, take 1 rounded scoop (2.2 g) daily, or as directed by a health professional.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/buffered-ascorbic-acid-capsules-90",
-      "variants": [
-        {
-          "price_usd": 26.5,
-          "servings_per_container": 40,
-          "serving_size": "2.2 Gram(s)",
-          "form": "powder",
-          "label": "90 Capsules"
-        },
-        {
-          "price_usd": 65.5,
-          "servings_per_container": 113,
-          "serving_size": "2.2 Gram(s)",
-          "form": "powder",
-          "label": "250 Capsules"
-        }
-      ],
       "supplement_facts": [],
       "explanation": null,
       "is_draft": false,
@@ -115853,7 +115090,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Krill-plex",
-      "category": "Heart Health",
+      "category": "Fish Oil & Omegas",
       "category_tags": [],
       "score": 80,
       "grade": null,
@@ -126977,253 +126214,6 @@
       "score_gate_penalty": 6.5
     },
     {
-      "id": "product:pure-encapsulations-g-i-fortify-capsules",
-      "slug": "pure-encapsulations-g-i-fortify-capsules",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "G.I. Fortify (capsules)",
-      "category": "Gut Health",
-      "category_tags": [],
-      "score": 77,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
-          "explanations": [
-            "1 Grade A, 5 Grade B ingredients",
-            "Evidence grades: A(1), B(5), C(2)",
-            "Review conclusions: 69% of measured outcomes showed a benefit (12% of ingredients covered) — evidence 84 -> 85"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 83,
-          "weighted_score": 29.05,
-          "explanations": [
-            "5 ingredients at optimal doses",
-            "2 ingredients severely below recommended dose",
-            "Reference coverage: 88%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 81,
-          "weighted_score": 20.25,
-          "explanations": [
-            "5 good: Psyllium powder, L-Glutamine, Deglycyrrhizinated Licorice +2 more",
-            "3 basic: Flax, Slippery Elm, Triphala",
-            "Good form quality - mostly bioavailable forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 70,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Proprietary blend hides ingredient amounts"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "No significant safety concerns"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/g-i-fortify-capsules/primary.webp?v=cfacca3a",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/g-i-fortify-capsules/gallery_1.webp?v=78e5bf7b"
-      ],
-      "price_usd": 35.5,
-      "serving_size": "8.9 Gram(s)",
-      "servings_per_container": 45,
-      "form": "powder",
-      "ingredients": [
-        {
-          "name": "Psyllium powder",
-          "label_amount": 4.0,
-          "unit": "g",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 4.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 80,
-          "bar_percent": 80.0,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Flax (Linum usitatissimum) powder",
-          "label_amount": 2.25,
-          "unit": "g",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 2.25,
-          "dose_score": 50,
-          "dose_range_status": "unknown_reference",
-          "form_quality_score": 75
-        },
-        {
-          "name": "L-Glutamine",
-          "label_amount": 1.0,
-          "unit": "g",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 1.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 90,
-          "bar_percent": 8.0,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Deglycyrrhizinated Licorice (Glycyrrhiza glabra) extract",
-          "label_amount": 600.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 600.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 85,
-          "bar_percent": 200.0,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Marshmallow (Althaea officinalis) extract",
-          "label_amount": 400.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 400.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 85,
-          "bar_percent": 106.7,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Aloe vera (Aloe barbadensis) extract",
-          "label_amount": 100.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 100.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 85,
-          "bar_percent": 80.0,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Slippery Elm (Ulmus fulva) powder",
-          "label_amount": 200.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 200.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 75,
-          "bar_percent": 57.1,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Triphala",
-          "label_amount": 90.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 90.0,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 75,
-          "bar_percent": 12.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "Stevia leaf extract",
-        "Ascorbyl Palmitate"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Designed to support a healthy G.I. environment, bowel regularity, colon function and detoxification‡\n\n\r\n• Supports gastrointestinal health‡ \n• Promotes healthy bowel movement frequency‡ \n• Blend of high-impact fiber \n• Supports the function, microflora balance, cellular health and detoxification of the G.I. tract‡",
-      "overview": null,
-      "warnings": "Warning: Not to be taken by pregnant or lactating women. If you have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, add 1 serving to 8–12 oz water. Shake, stir or blend briskly and drink immediately. Drink an additional 8–12 oz serving of water following. Daily water intake should be increased when consuming this product.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/gi-fortify-capsules",
-      "variants": [],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 6.5
-    },
-    {
       "id": "product:pure-encapsulations-g-i-fortify",
       "slug": "pure-encapsulations-g-i-fortify",
       "brand": "Pure Encapsulations",
@@ -128591,147 +127581,6 @@
           "label": "120 Capsules"
         }
       ],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 0.25
-    },
-    {
-      "id": "product:pure-encapsulations-ascorbic-acid-powder",
-      "slug": "pure-encapsulations-ascorbic-acid-powder",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Ascorbic Acid powder",
-      "category": "Immune Support",
-      "category_tags": [],
-      "score": 76,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 87,
-          "weighted_score": 34.8,
-          "explanations": [
-            "Evidence grades: A(1)",
-            "Review conclusions: 28% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 87"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 60,
-          "weighted_score": 21.0,
-          "explanations": [
-            "WARNING: 1 ingredient exceeds upper limit",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 80,
-          "weighted_score": 20.0,
-          "explanations": [
-            "1 good: Vitamin C",
-            "Good form quality - mostly bioavailable forms"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Label transparency: full"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/ascorbic-acid-powder/primary.webp?v=bd340ab6",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/ascorbic-acid-powder/gallery_1.webp?v=257e7d8a"
-      ],
-      "price_usd": 33.0,
-      "serving_size": "1 Capsule(s)",
-      "servings_per_container": 250,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Vitamin C",
-          "label_amount": 1000.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": false,
-          "ingredient_gid": null,
-          "amount": 1000.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 80,
-          "bar_percent": 166.7,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "Vegetarian Capsule",
-        "Ascorbyl Palmitate"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Gluten-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested"
-      ],
-      "description": "Contains vitamin C to support immune & vascular health‡\n\n\r\n• Helps enhance immune and vascular system health‡ \n• Provides antioxidant support‡ \n• Contains 1,400mg of vitamin C per scoop of powder",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-4 times daily, with meals.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/ascorbic-acid-powder",
-      "variants": [],
       "supplement_facts": [],
       "explanation": null,
       "is_draft": false,
@@ -130657,168 +129506,6 @@
       "score_gate_penalty": 6.5
     },
     {
-      "id": "product:pure-encapsulations-bcaa-capsules",
-      "slug": "pure-encapsulations-bcaa-capsules",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "BCAA capsules",
-      "category": "Energy",
-      "category_tags": [],
-      "score": 71,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 85,
-          "weighted_score": 34.0,
-          "explanations": [
-            "Evidence grades: B(1)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 70,
-          "weighted_score": 24.5,
-          "explanations": [
-            "1 ingredient below recommended dose",
-            "Reference coverage: 100%"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 75,
-          "weighted_score": 18.75,
-          "explanations": [
-            "Form data not available for ingredients"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 70,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Proprietary blend hides ingredient amounts"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/bcaa-capsules/primary.webp?v=dbc54ae3",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/bcaa-capsules/gallery_1.webp?v=8610c204",
-        "/images/products/pure-encapsulations/bcaa-capsules/gallery_2.webp?v=880dabb1",
-        "/images/products/pure-encapsulations/bcaa-capsules/gallery_3.webp?v=dd2e85f4",
-        "/images/products/pure-encapsulations/bcaa-capsules/gallery_4.webp?v=30df4521",
-        "/images/products/pure-encapsulations/bcaa-capsules/gallery_5.webp?v=bcdb442d"
-      ],
-      "price_usd": 29.5,
-      "serving_size": "3.3 Gram(s)",
-      "servings_per_container": 68,
-      "form": "powder",
-      "ingredients": [
-        {
-          "name": "Branched Chain Amino Acids",
-          "label_amount": 3000.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": true,
-          "ingredient_gid": null,
-          "amount": 3000.0,
-          "dose_score": 70,
-          "dose_range_status": "below_rda",
-          "form_quality_score": 90,
-          "bar_percent": 40.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [],
-      "certifications": [
-        "Dairy-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested",
-        "Certified Gluten-Free (GFCO)"
-      ],
-      "description": "Supports lean muscle mass and exercise recovery‡\n\n\r\n• Supports energy levels & muscle function during exercise‡ \n• Helps to support mental and physical performance for fitness and lifestyle‡ \n• Supports building lean muscle mass‡ \n• May reduce recovery time in athletes and those engaged in strenuous physical activity‡",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 scoop daily, mixed with 10 oz of water or juice.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/bcaa-capsules-90",
-      "variants": [
-        {
-          "price_usd": 20.0,
-          "servings_per_container": 18,
-          "serving_size": "3.3 Gram(s)",
-          "form": "powder",
-          "label": "60 Capsules"
-        },
-        {
-          "price_usd": 29.5,
-          "servings_per_container": 27,
-          "serving_size": "3.3 Gram(s)",
-          "form": "powder",
-          "label": "90 Capsules"
-        },
-        {
-          "price_usd": 67.0,
-          "servings_per_container": 75,
-          "serving_size": "3.3 Gram(s)",
-          "form": "powder",
-          "label": "250 Capsules"
-        }
-      ],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 6.5
-    },
-    {
       "id": "product:pure-encapsulations-efa-essentials",
       "slug": "pure-encapsulations-efa-essentials",
       "brand": "Pure Encapsulations",
@@ -131217,7 +129904,7 @@
       "brand": "Pure Encapsulations",
       "brand_slug": "pure-encapsulations",
       "name": "Collagen JS",
-      "category": "Minerals",
+      "category": "Collagen",
       "category_tags": [],
       "score": 68,
       "grade": null,
@@ -131517,145 +130204,6 @@
           "label": "180 Capsules"
         }
       ],
-      "supplement_facts": [],
-      "explanation": null,
-      "is_draft": false,
-      "score_version": "3.24",
-      "score_gate_penalty": 2.75
-    },
-    {
-      "id": "product:pure-encapsulations-liposomal-glutathione-liquid",
-      "slug": "pure-encapsulations-liposomal-glutathione-liquid",
-      "brand": "Pure Encapsulations",
-      "brand_slug": "pure-encapsulations",
-      "name": "Liposomal Glutathione liquid",
-      "category": "Liver Support",
-      "category_tags": [],
-      "score": 54,
-      "grade": null,
-      "score_components": [
-        {
-          "name": "Evidence Quality",
-          "weight": 0.4,
-          "raw_score": 50,
-          "weighted_score": 20.0,
-          "explanations": [
-            "No scoreable ingredients found"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Dose Adequacy",
-          "weight": 0.35,
-          "raw_score": 50,
-          "weighted_score": 17.5,
-          "explanations": [
-            "No ingredient doses to evaluate"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Form/Bioavailability",
-          "weight": 0.25,
-          "raw_score": 75,
-          "weighted_score": 18.75,
-          "explanations": [
-            "Form data not available for ingredients"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Transparency",
-          "weight": 0.0,
-          "raw_score": 85,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Blend total disclosed (individual amounts hidden)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Safety/Redundancy",
-          "weight": 0.0,
-          "raw_score": 100,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Focused formula (1 ingredients)"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        },
-        {
-          "name": "Manufacturing Quality",
-          "weight": 0.0,
-          "raw_score": 84,
-          "weighted_score": 0.0,
-          "explanations": [
-            "Third-party tested",
-            "COA available"
-          ],
-          "improvements": [],
-          "issues": [],
-          "missing": []
-        }
-      ],
-      "image_url": "/images/products/pure-encapsulations/liposomal-glutathione-liquid/primary.webp?v=65fad212",
-      "gallery_images": [
-        "/images/products/pure-encapsulations/liposomal-glutathione-liquid/gallery_1.webp?v=17d35bba"
-      ],
-      "price_usd": 60.0,
-      "serving_size": "1 Softgel Capsule(s)",
-      "servings_per_container": 60,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "BioGlute Proprietary Blend",
-          "label_amount": 375.0,
-          "unit": "mg",
-          "form": null,
-          "daily_value_percent": null,
-          "is_proprietary_blend": true,
-          "ingredient_gid": null,
-          "amount": 375.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 50,
-          "bar_percent": 125.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "other_ingredients": [
-        "Gelatin capsule",
-        "extra virgin Olive Oil",
-        "Beeswax"
-      ],
-      "certifications": [
-        "Dairy-Free",
-        "Gluten-Free",
-        "Non-GMO",
-        "Soy-Free",
-        "Vegan",
-        "Vegetarian",
-        "cGMP Certified",
-        "Third-Party Tested"
-      ],
-      "description": "Supports liver health and detoxification‡\n\n\r\n• Supports liver health & detoxification‡ \n• Provides antioxidant support for liver tissue health and protection‡ \n• Helps support cellular health throughout the body‡ \n• Protects from free radicals to support tissue health‡ \n• Delicious lemon-mint liquid formula",
-      "overview": null,
-      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.\nContains soy",
-      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-2 times daily, with meals, or as directed by a health professional.",
-      "amazon_url": null,
-      "iherb_url": null,
-      "url": "https://pureforyou.com/products/liposomal-glutathione-liquid",
-      "variants": [],
       "supplement_facts": [],
       "explanation": null,
       "is_draft": false,
