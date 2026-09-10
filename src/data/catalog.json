@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 312,
+  "product_count": 308,
   "brand_count": 32,
   "products": [
     {
@@ -24348,159 +24348,6 @@
       "score_version": "3.24"
     },
     {
-      "id": "product:thorne-d-1000",
-      "slug": "thorne-d-1000",
-      "brand": "Thorne",
-      "brand_slug": "thorne",
-      "name": "D-1,000",
-      "category": "Vitamin D",
-      "category_tags": [
-        "Immune Support",
-        "Bone Support"
-      ],
-      "score": null,
-      "grade": null,
-      "image_url": "/images/products/thorne/thorne-d-1000/primary.webp?v=6d872286",
-      "gallery_images": [
-        "/images/products/thorne/thorne-d-1000/gallery_1.webp?v=2456250d",
-        "/images/products/thorne/thorne-d-1000/gallery_2.webp?v=e4754c33",
-        "/images/products/thorne/thorne-d-1000/gallery_3.webp?v=f7682945",
-        "/images/products/thorne/thorne-d-1000/gallery_4.webp?v=8e13df9f",
-        "/images/products/thorne/thorne-d-1000/gallery_5.webp?v=f3f8b17e"
-      ],
-      "price_usd": 17.0,
-      "serving_size": "One Capsule",
-      "servings_per_container": 90.0,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Vitamin D",
-          "amount": 3000.0,
-          "label_amount": 1000.0,
-          "unit": "IU",
-          "form_details": "Vitamin D3",
-          "daily_value_pct": 1250.0,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 100,
-          "bar_percent": 85.7,
-          "bar_reference": "TR"
-        }
-      ],
-      "supplement_facts": [],
-      "other_ingredients": [
-        "Microcrystalline Cellulose",
-        "Hypromellose (derived from cellulose) capsule",
-        "Leucine",
-        "Silicon Dioxide",
-        "Vitamin E (d-Alpha Tocopheryl)"
-      ],
-      "certifications": [
-        "Gluten Free",
-        "Soy Free",
-        "Dairy Free",
-        "Derived From Natural Flavors",
-        "Derived From Natural Colors",
-        "Made in USA",
-        "Third-Party Contents Certified",
-        "Thorne Verified",
-        "GMP"
-      ],
-      "score_components": [],
-      "explanation": null,
-      "overview": "Get the vitamin that supports healthy teeth, bones, and muscles, as well as cardiovascular and immune function* Vitamin D, in its D3 form, is more potent and better absorbed form than its D2 form. Thorne's vitamin D supplements contain no lactose and no preservatives.",
-      "description": "Thorne's D-1,000 contains 1,000 IU of high-quality vitamin D3. Although it is well known that direct sunlight is a natural source of vitamin D, many individuals, especially the elderly, don't get enough vitamin D from sunlight or from their diet. Be sure you get the vitamin D your body needs with Thorne's easily absorbed Vitamin D-1,000. Benefits of Thorne's Vitamin D-1,000: Supports healthy teeth and bones* Promotes lean muscle mass and helps maintain muscle strength* Enhances the absorption and retention of calcium* Supports healthy brain function* Promotes cardiovascular health and immune function* Formulated with vitamin D3, a more potent and better absorbed form than vitamin D2 Thorne's vitamin D contains no lactose and no preservatives like BHT, BHA, sodium benzoate, and sorbic acid You could be at a higher risk of a vitamin D deficiency if you: Rarely go outdoors, live in the northern latitudes, or have a darker skin tone Have limited sun exposure due to your occupation, clothing choices, or engage in indoor athletics rather than outdoor sports Regularly wear sunscreen with an SPF greater than 8 Are an older adult (the risk of a deficiency increases with age beginning at age 50) Have a chronic health condition, such as a bowel disease or a surgical procedure (like gastric bypass) that decreases fat absorption Are obese The optimal amount of vitamin D for an individual depends on many factors and varies from person to person. Therefore, the requirement for vitamin D supplementation should be individualized. This product has been third-party tested and certified to verify what's in the package matches what's on the label and to confirm it contains no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms.",
-      "warnings": "ALLERGY WARNING: This product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients. PREGNANCY: If pregnant, consult your health-care practitioner before using this product. INTERACTIONS: There are no known adverse interactions or contraindications at publication date.",
-      "recommended_use": "Take 1 capsule one to three times daily or as recommended by your health-care practitioner.",
-      "serving_multiplier": 3,
-      "amazon_url": "https://www.amazon.com/s?k=Thorne+D-1%2C000&tag=formulate00-20",
-      "iherb_url": "https://www.iherb.com/pr/thorne-d-1-000-90-capsules-25-mcg-per-capsule/18445",
-      "url": "https://www.thorne.com/products/dp/d-1000-vitamin-d-capsule",
-      "is_draft": false,
-      "variants": []
-    },
-    {
-      "id": "product:thorne-d-5000",
-      "slug": "thorne-d-5000",
-      "brand": "Thorne",
-      "brand_slug": "thorne",
-      "name": "D-5,000",
-      "category": "Vitamin D",
-      "category_tags": [
-        "Immune Support",
-        "Bone Support"
-      ],
-      "score": null,
-      "grade": null,
-      "image_url": "/images/products/thorne/thorne-d-5000/primary.webp?v=4bcc78a3",
-      "gallery_images": [
-        "/images/products/thorne/thorne-d-5000/gallery_1.webp?v=4f5c0657",
-        "/images/products/thorne/thorne-d-5000/gallery_2.webp?v=dd6933ff",
-        "/images/products/thorne/thorne-d-5000/gallery_3.webp?v=dbdf8dfa",
-        "/images/products/thorne/thorne-d-5000/gallery_4.webp?v=7a582370",
-        "/images/products/thorne/thorne-d-5000/gallery_5.webp?v=76d70a15"
-      ],
-      "price_usd": 20.0,
-      "serving_size": "1 capsule",
-      "servings_per_container": 60.0,
-      "form": "capsule",
-      "ingredients": [
-        {
-          "name": "Vitamin D",
-          "amount": 125.0,
-          "unit": "mcg",
-          "form_details": null,
-          "daily_value_pct": 625,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 85,
-          "bar_percent": 142.9,
-          "bar_reference": "TR"
-        }
-      ],
-      "supplement_facts": [],
-      "other_ingredients": [
-        "Hypromellose (derived from cellulose) capsule",
-        "Leucine",
-        "Microcrystalline Cellulose",
-        "Silicon Dioxide",
-        "Vitamin E (d-Alpha Tocopheryl)"
-      ],
-      "certifications": [
-        "Gluten Free",
-        "Soy Free",
-        "Dairy Free",
-        "Derived From Natural Flavors",
-        "Derived From Natural Colors",
-        "NSF Certified for Sport",
-        "Thorne Verified"
-      ],
-      "score_components": [],
-      "explanation": null,
-      "overview": "Get the vitamin that supports healthy teeth, bones, and muscles, as well as cardiovascular and immune function* Vitamin D, in its D3 form, is more potent and better absorbed form than its D2 form. Thorne's vitamin D supplements contain no lactose and no preservatives. NSF Certified for Sport®",
-      "description": "Thorne's D-5,000 contains 5,000 IU of high-quality vitamin D3 and is NSF Certified for Sport®. Although it is well known that direct sunlight is a natural source of vitamin D, many individuals, especially the elderly, don't get enough vitamin D from sunlight or from their diet.\n\n**Benefits of Thorne's Vitamin D-5,000:**\n• Supports healthy teeth and bones*\n• Promotes lean muscle mass and helps maintain muscle strength*\n• Enhances the absorption and retention of calcium*\n• Supports healthy brain function*\n• Promotes cardiovascular health and immune function*\n\n**Superior Absorption:**\n• Formulated with vitamin D3, a more potent and better absorbed form than vitamin D2\n• Contains no lactose and no preservatives like BHT, BHA, sodium benzoate, and sorbic acid\n\n**Who Can Benefit:**\nYou could be at a higher risk of a vitamin D deficiency if you:\n• Rarely go outdoors, live in the northern latitudes, or have a darker skin tone\n• Have limited sun exposure due to your occupation, clothing choices, or engage in indoor athletics rather than outdoor sports\n• Regularly wear sunscreen with an SPF greater than 8\n• Are an older adult (the risk of a deficiency increases with age beginning at age 50)\n• Have a chronic health condition, such as a bowel disease or a surgical procedure (like gastric bypass) that decreases fat absorption\n• Are obese\n\n**Quality Assurance:**\n• NSF Certified for Sport® - every batch is tested for compliance with label claims\n• Tested to ensure the absence of nearly 300 substances banned by many major athletic organizations\n• Trustworthy and compliant for athletes\n\nThe optimal amount of vitamin D for an individual depends on many factors and varies from person to person. Therefore, the requirement for vitamin D supplementation should be individualized. Either of Thorne's D-1,000 or D-5,000 can be an ideal way to maintain an optimal level of vitamin D in healthy individuals.*",
-      "warnings": "ALLERGY WARNING This product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients. PREGNANCY If pregnant, consult your health-care practitioner before using this product. INTERACTIONS There are no known adverse interactions or contraindications at publication date.",
-      "recommended_use": "Take 1 capsule daily or as recommended by your health-care practitioner.",
-      "amazon_url": "https://www.amazon.com/s?k=Thorne+D-5%2C000&tag=formulate00-20",
-      "iherb_url": "https://www.iherb.com/pr/thorne-d-5-000-60-capsules-125-mcg-per-capsule/18451",
-      "url": "https://www.thorne.com/products/dp/d-5-000-vitamin-d-capsule",
-      "is_draft": false,
-      "variants": [
-        {
-          "serving_size": "1 capsule",
-          "servings_per_container": 60.0,
-          "price_usd": 20.0,
-          "form": "capsule"
-        },
-        {
-          "serving_size": "1 capsule",
-          "servings_per_container": 120.0,
-          "price_usd": 39.0,
-          "form": "capsule"
-        }
-      ]
-    },
-    {
       "id": "product:thorne_daily-greens-plus-energize-your-morning-or-break-through-an-afternoon-slump-with-the-power-of-daily-greens-plus",
       "slug": "thorne-daily-greens-plus-energize-your-morning-or-break-through-an-afternoon-slump-with-the-power-of-daily-greens-plus",
       "brand": "Thorne",
@@ -37525,106 +37372,6 @@
       "score_version": "3.24"
     },
     {
-      "id": "product:thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr",
-      "slug": "thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr",
-      "brand": "Thorne",
-      "brand_slug": "thorne",
-      "name": "Protein Isolate - Vanilla",
-      "category": "Protein",
-      "category_tags": [
-        "Sports Performance",
-        "Muscle"
-      ],
-      "score": null,
-      "grade": null,
-      "image_url": "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/primary.webp?v=78fe5d97",
-      "gallery_images": [
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_1.webp?v=414aebe4",
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_2.webp?v=1bdb6126",
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_3.webp?v=e84cf07d",
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_4.webp?v=9a611e20",
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_5.webp?v=af3db4aa",
-        "/images/products/thorne/thorne-whey-protein-isolate-vanilla-21-grams-of-bioavailable-protein-with-flavors-and-sweeteners-derived-fr/gallery_6.webp?v=03c3f28e"
-      ],
-      "price_usd": 44.0,
-      "serving_size": "1 Scoops",
-      "servings_per_container": 30.0,
-      "form": "powder",
-      "ingredients": [
-        {
-          "name": "Calcium",
-          "amount": 94.0,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": 7,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 70,
-          "bar_percent": 11.1,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Whey Protein Isolate",
-          "amount": 25.0,
-          "unit": "g",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 95,
-          "bar_percent": 83.3,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Bromelain and Papain Blend",
-          "amount": 30.0,
-          "unit": "mg",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": 60,
-          "dose_range_status": "severely_below",
-          "form_quality_score": 75,
-          "bar_percent": 5.0,
-          "bar_reference": "TR"
-        }
-      ],
-      "supplement_facts": [
-        {
-          "name": "Sodium",
-          "amount": 75.0,
-          "unit": "mg",
-          "daily_value_pct": 3
-        }
-      ],
-      "other_ingredients": [
-        "Carboxymethylcellulose Gum",
-        "Evaporated Cane Juice Sugar",
-        "Rebaudioside A (from stevia)",
-        "Vanilla Flavor",
-        "Xanthan Gum"
-      ],
-      "certifications": [
-        "NSF Certified for Sport",
-        "Gluten Free",
-        "Soy Free",
-        "Thorne Verified",
-        "Natural Flavors",
-        "Natural Colors",
-        "GMP Certified"
-      ],
-      "score_components": [],
-      "explanation": null,
-      "overview": "21 grams of bioavailable protein with flavors and sweeteners derived from natural sources\n\nGreat tasting, high-quality whey protein designed for athletes, aging individuals, and anyone requiring additional support for maintaining healthy muscle mass.* NSF Certified for Sport®",
-      "description": "Many trainers and dieticians recommend consuming protein with every meal. This is particularly important for individuals needing support for a workout routine, or those looking to maintain a healthy weight.Protein is essential for muscle repair and maintenance, and whey protein provides a complete amino acid profile, optimized for absorption and assimilation. Supplementing the diet with a high-quality whey protein can make reaching your macro goals easier.\n\nBenefits of Thorne's Whey Protein Isolate \n• Helps maintain healthy muscle mass\n• Supports muscle repair after exercise\n• Benefits a healthy weight\n• Aids in the digestion and assimilation of protein with added bromelain and papain\n• Balanced amino acids profile, including branched-chain amino acids (BCAAs)\nWho can benefit from Thorne's Whey Protein Isolate\n• Teens who need additional nutritional support for a growing body\n• Aging individuals who need additional protein support to help maintain muscle mass and a healthy weight\n• Athletes and exercise enthusiasts looking to support lean muscle mass\n• Anyone wanting to support healthy weight management \n\nFeatures of Thorne's Whey Protein Isolate\n• 21 grams of protein per serving\n• 2.2 grams of leucine per serving – the optimal amount for muscle repair and maintenance\n• 100 calories, 3 g sugar, and 0.5 g fat per serving\n• Whey protein isolate form for optimal absorption\n• Easy to digest\n• Flavors and sweeteners derived from natural sources\n• Tastes great\n• Available in bulk powder or individual single-serving packets\n• NSF Certified for Sport®\n\nHow to use Whey Protein Isolate\n• Shake with water or preferred beverage for a quick protein fix\n• Blend into your favorite smoothie with fresh fruit or coffee\n• Stir into oatmeal for a high-fiber, protein-rich breakfast\n• Add to your favorite recipes at home, like pancakes, muffins, or chia pudding for an easy protein boost\nBecause athletes need to know their supplements are trustworthy and compliant, every batch of an NSF Certified for Sport® product is tested for compliance with label claims and to ensure the absence of nearly 300 substances banned by many major athletic organizations.",
-      "warnings": "CALIFORNIA WARNING\n\nRisk of reproductive harm from exposure to lead. See www.P65Warnings.ca.gov/food.\n\nALLERGY WARNING\n\nThis product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients.\n\nContains an ingredient derived from milk (whey protein isolate).\n\nPREGNANCY\n\nIf pregnant, consult your health-care practitioner before using this product.\n\nINTERACTIONS\n\nThere are no known adverse interactions or contraindications at publication date.",
-      "recommended_use": "Mix 1 scoop with at least 8 ounces of water, juice, or preferred beverage daily or as recommended by your health-care practitioner.",
-      "amazon_url": "https://www.amazon.com/s?k=Thorne+Protein+Isolate+-+Vanilla&tag=formulate00-20",
-      "iherb_url": null,
-      "url": "https://www.thorne.com/products/dp/whey-protein-isolate-vanilla",
-      "is_draft": false,
-      "variants": []
-    },
-    {
       "id": "product:thorne_pyridoxal-5-phosphate-a-tissue-ready-form-of-vitamin-b6-that-promotes-energy-production-and-neurotransmitter-synthesis",
       "slug": "thorne-pyridoxal-5-phosphate-a-tissue-ready-form-of-vitamin-b6-that-promotes-energy-production-and-neurotransmitter-synthesis",
       "brand": "Thorne",
@@ -42238,82 +41985,6 @@
       "variants": [],
       "score_version": "3.24",
       "score_gate_penalty": 0.0
-    },
-    {
-      "id": "product:thorne-vitamin-d-k2",
-      "slug": "thorne-vitamin-d-k2",
-      "brand": "Thorne",
-      "brand_slug": "thorne",
-      "name": "Vitamin D + K2",
-      "category": "Vitamin D",
-      "category_tags": [
-        "Bone Support",
-        "Heart Health"
-      ],
-      "score": null,
-      "grade": null,
-      "image_url": "/images/products/thorne/thorne-vitamin-d-k2/primary.webp?v=daddc878",
-      "gallery_images": [],
-      "price_usd": 34.0,
-      "serving_size": "Two Drops",
-      "servings_per_container": 600.0,
-      "form": "liquid",
-      "ingredients": [
-        {
-          "name": "Vitamin D",
-          "amount": 3000.0,
-          "label_amount": 1000.0,
-          "unit": "IU",
-          "form_details": "Vitamin D3",
-          "daily_value_pct": null,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 100,
-          "bar_percent": 85.7,
-          "bar_reference": "TR"
-        },
-        {
-          "name": "Vitamin K (as Vitamin K2 (Menatetrenone))",
-          "amount": 600.0,
-          "label_amount": 200.0,
-          "unit": "mcg",
-          "form_details": null,
-          "daily_value_pct": null,
-          "dose_score": 90,
-          "dose_range_status": "optimal",
-          "form_quality_score": 95,
-          "bar_percent": 110.1,
-          "bar_reference": "TR"
-        }
-      ],
-      "supplement_facts": [],
-      "other_ingredients": [
-        "MK4",
-        "Medium Chain Triglyceride Oil",
-        "Mixed Tocopherols"
-      ],
-      "certifications": [
-        "Gluten Free",
-        "Soy Free",
-        "Dairy Free",
-        "Derived From Natural Flavors",
-        "Derived From Natural Colors",
-        "Thorne Verified",
-        "GMP",
-        "Manufactured in the USA"
-      ],
-      "score_components": [],
-      "explanation": null,
-      "overview": "A convenient combination of vitamin D and vitamin K for bone, cardiovascular, and immune support* Vitamin D + K2 Liquid promotes bone health, healthy immune function, and cardiovascular health.* The combination of vitamin D3 and K2 provides greater benefits together than either does individually.",
-      "description": "Vitamin D3 and K2 work together to benefit bone health, cardiovascular support, and healthy immune function. Combining vitamins D3 and K2 provides greater benefit together than each offers separately.\n\n**Benefits of Thorne's Vitamin D + K2:**\n• Supports a healthy heart and blood circulation*\n• Promotes bone health and calcium absorption*\n• Benefits immune function*\n• Provides advanced bone health support*\n• Helps move calcium to the bones to protect soft tissues, such as the arteries and kidneys, from calcification*\n• Helps maintain strong bones and healthy immune function throughout all stages of life*\n\n**Why Choose Thorne's Vitamin D + K2:**\n• Contains vitamin K2 in the MK-4 form, the most clinically studied form of vitamin K\n• Features vitamin D in its D3 form, which is more potent and better absorbed than the D2 form\n• Self-dispensing top provides an accurate, safe, and individualized dose by metering individual drops\n• Formulated in medium chain triglyceride oil and preserved with mixed tocopherols\n\n**Quality Assurance:**\n• Third-party tested and certified to verify what's in the package matches what's on the label\n• Confirmed to contain no unsafe levels of contaminants, such as heavy metals, pesticides, and microorganisms",
-      "warnings": "ALLERGY WARNING This product is contraindicated in an individual with a history of hypersensitivity to any of its ingredients. PREGNANCY If pregnant, consult your health-care practitioner before using this product. INTERACTIONS As vitamin K interferes with the effect of anticoagulant drugs (like Coumadin), the concurrent use of these agents should be avoided.",
-      "recommended_use": "Take 2 drops one to three times daily or as recommended by your health-care practitioner. Invert bottle to dispense individual drops. May be added to food or mixed in beverages. Do not refrigerate.",
-      "serving_multiplier": 3,
-      "amazon_url": "https://www.amazon.com/s?k=Thorne+Vitamin+D+%2B+K2&tag=formulate00-20",
-      "iherb_url": "https://www.iherb.com/pr/thorne-vitamin-d-k2-1-fl-oz-30-ml/23517",
-      "url": "https://www.thorne.com/products/dp/vitamin-d-k2-liquid",
-      "is_draft": false,
-      "variants": []
     },
     {
       "id": "product:thorne_vitamin-d-liquid-good-health-starts-with-vitamin-d-which-supports-healthy-bones-and-muscles-cardiovascular-health-and-immune-function",
@@ -56937,7 +56608,7 @@
     {
       "slug": "thorne",
       "name": "Thorne",
-      "product_count": 161,
+      "product_count": 157,
       "avg_score": 88,
       "score": 94,
       "grade": "A",
