@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 722,
+  "product_count": 737,
   "brand_count": 32,
   "products": [
     {
@@ -143639,6 +143639,2695 @@
       "is_draft": false,
       "score_version": "3.24",
       "score_gate_penalty": 6.25
+    },
+    {
+      "id": "product:bulksupplements-l-isoleucine-powder",
+      "slug": "bulksupplements-l-isoleucine-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "L-Isoleucine Powder",
+      "category": "Amino Acids",
+      "category_tags": [],
+      "score": 91,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 67% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 91"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: L-Isoleucine",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/l-isoleucine-powder/primary.webp?v=c1e652ef",
+      "gallery_images": [
+        "/images/products/bulksupplements/l-isoleucine-powder/gallery_1.webp?v=bc838666",
+        "/images/products/bulksupplements/l-isoleucine-powder/gallery_2.webp?v=661ca583",
+        "/images/products/bulksupplements/l-isoleucine-powder/gallery_3.webp?v=05e563c7",
+        "/images/products/bulksupplements/l-isoleucine-powder/gallery_4.webp?v=f703185f",
+        "/images/products/bulksupplements/l-isoleucine-powder/gallery_5.webp?v=4bb9270b"
+      ],
+      "price_usd": 24.97,
+      "serving_size": "1000 mg",
+      "servings_per_container": 500,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Isoleucine",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 50.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Unleash the boundless potential of natural vigor with L-Isoleucine powder — a vital amino acid serving as a cornerstone for the discerning fitness enthusiast. Meticulously extracted to enhance and complement your active lifestyle, each granule embodies a commitment to unparalleled quality and a pursuit of excellence. Elevate every facet of your regimen with the inclusion of L-Isoleucine and transcend your performance benchmarks with a trusted ally.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1000 mg (about 1/3 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/l-isoleucine-powder",
+      "variants": [
+        {
+          "price_usd": 24.97,
+          "servings_per_container": 500,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 19.97,
+          "servings_per_container": 100,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 21.97,
+          "servings_per_container": 250,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 33.97,
+          "servings_per_container": 1000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 153.97,
+          "servings_per_container": 5000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 374.29,
+          "servings_per_container": 25000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-gymnema-extract-powder",
+      "slug": "bulksupplements-gymnema-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Gymnema Extract Powder",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 90,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 67% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 91"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Gymnema extract",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/gymnema-extract-powder/primary.webp?v=d54b4ab9",
+      "gallery_images": [
+        "/images/products/bulksupplements/gymnema-extract-powder/gallery_1.webp?v=c1830d0b",
+        "/images/products/bulksupplements/gymnema-extract-powder/gallery_2.webp?v=2cac45fd",
+        "/images/products/bulksupplements/gymnema-extract-powder/gallery_3.webp?v=057dd08c",
+        "/images/products/bulksupplements/gymnema-extract-powder/gallery_4.webp?v=c292b0a5",
+        "/images/products/bulksupplements/gymnema-extract-powder/gallery_5.webp?v=9d03824f"
+      ],
+      "price_usd": 28.97,
+      "serving_size": "500 mg",
+      "servings_per_container": 500,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Gymnema extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 166.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Discover Gymnema Extract powder by BulkSupplements.com, an elixir treasured for its ability to harmonize and rejuvenate. Our Gymnema Extract is meticulously crafted, ensuring each serving is infused with only the best. This is not just a supplement; it's a commitment to your well-being, created for those who demand nothing but the utmost quality. Elevate your regime, embrace the legacy of vitality, and join the ranks of those who choose to thrive with every sip of nature's powerful potion.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 500 mg (1/5 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/gymnema-extract-powder",
+      "variants": [
+        {
+          "price_usd": 28.97,
+          "servings_per_container": 500,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 22.97,
+          "servings_per_container": 200,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 42.97,
+          "servings_per_container": 1000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 64.97,
+          "servings_per_container": 2000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 301.97,
+          "servings_per_container": 10000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 1245.29,
+          "servings_per_container": 50000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-bitter-melon-extract-powder",
+      "slug": "bulksupplements-bitter-melon-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Bitter Melon Extract Powder",
+      "category": "Liver Support",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Bitter Melon Extract",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/bitter-melon-extract-powder/primary.webp?v=fc6f2f6d",
+      "gallery_images": [
+        "/images/products/bulksupplements/bitter-melon-extract-powder/gallery_1.webp?v=03f481c9",
+        "/images/products/bulksupplements/bitter-melon-extract-powder/gallery_2.webp?v=bcb9092d",
+        "/images/products/bulksupplements/bitter-melon-extract-powder/gallery_3.webp?v=28cf6377",
+        "/images/products/bulksupplements/bitter-melon-extract-powder/gallery_4.webp?v=bc3e18ad",
+        "/images/products/bulksupplements/bitter-melon-extract-powder/gallery_5.webp?v=fa2e7cf7"
+      ],
+      "price_usd": 26.97,
+      "serving_size": "750 mg",
+      "servings_per_container": 333,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Bitter Melon Extract",
+          "label_amount": 750.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 750.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 60.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Elevate your health with our Bitter Melon Extract powder, a powerhouse of essential nutrients designed to fortify your wellness journey. Brimming with vitamin A, vitamin C, and an abundance of minerals like iron, zinc, and calcium, each serving packs a punch of antioxidants to invigorate your daily regimen. Its numerous health benefits make it a must-have in your daily routine!",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 750 mg (about 1/3 tsp) once daily with meal, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/bitter-melon-extract-powder",
+      "variants": [
+        {
+          "price_usd": 34.97,
+          "servings_per_container": 666,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 21.97,
+          "servings_per_container": 133,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 26.97,
+          "servings_per_container": 333,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 52.97,
+          "servings_per_container": 1333,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 244.97,
+          "servings_per_container": 6666,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 895.29,
+          "servings_per_container": 33333,
+          "serving_size": "750 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-l-valine-powder",
+      "slug": "bulksupplements-l-valine-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "L-Valine Powder",
+      "category": "Amino Acids",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 79,
+          "weighted_score": 31.6,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 33% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 79"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: L-Valine",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/l-valine-powder/primary.webp?v=d614ad1c",
+      "gallery_images": [
+        "/images/products/bulksupplements/l-valine-powder/gallery_1.webp?v=7f7723c2",
+        "/images/products/bulksupplements/l-valine-powder/gallery_2.webp?v=fd228ac8",
+        "/images/products/bulksupplements/l-valine-powder/gallery_3.webp?v=4cd430c9",
+        "/images/products/bulksupplements/l-valine-powder/gallery_4.webp?v=a1cdd37d",
+        "/images/products/bulksupplements/l-valine-powder/gallery_5.webp?v=746340a9"
+      ],
+      "price_usd": 25.97,
+      "serving_size": "2000 mg",
+      "servings_per_container": 250,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Valine",
+          "label_amount": 2000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 2000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 100.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Elevate your fitness journey with our top-tier L-Valine powder! One of the three Branched Chain Amino Acids (BCAAs), L-Valine is a key player in muscle metabolism. Our Valine powder is pure, potent, and easy to mix into your favorite pre or post-workout shake. With no added fillers or additives, you're getting 100% pure L-Valine. Start powering your workouts with BulkSupplements.com L-Valine powder today!",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 2000 mg (about 3/4 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/l-valine-powder",
+      "variants": [
+        {
+          "price_usd": 19.97,
+          "servings_per_container": 125,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 19.97,
+          "servings_per_container": 50,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 25.97,
+          "servings_per_container": 250,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 30.97,
+          "servings_per_container": 500,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 139.97,
+          "servings_per_container": 2500,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 286.79,
+          "servings_per_container": 12500,
+          "serving_size": "2000 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-white-willow-bark-extract-capsules",
+      "slug": "bulksupplements-white-willow-bark-extract-capsules",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "White Willow Bark Extract Capsules",
+      "category": "Immune Support",
+      "category_tags": [],
+      "score": 85,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/white-willow-bark-extract-capsules/primary.webp?v=6f299dc3",
+      "gallery_images": [
+        "/images/products/bulksupplements/white-willow-bark-extract-capsules/gallery_1.webp?v=92c7e615",
+        "/images/products/bulksupplements/white-willow-bark-extract-capsules/gallery_2.webp?v=8bdc87ed",
+        "/images/products/bulksupplements/white-willow-bark-extract-capsules/gallery_3.webp?v=24121838",
+        "/images/products/bulksupplements/white-willow-bark-extract-capsules/gallery_4.webp?v=355adb4d",
+        "/images/products/bulksupplements/white-willow-bark-extract-capsules/gallery_5.webp?v=ab711e9f"
+      ],
+      "price_usd": 20.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 100,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "White Willow bark extract",
+          "label_amount": 400.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 222.2,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Introducing our premiere White Willow Bark Extract capsules, a marvel in the realm of natural health supplements. Carefully formulated with your wellness in mind, these capsules are an embodiment of purity and effectiveness, without the need for fancy jargon or complex terms. Our promise is straightforward: to deliver the natural benefits of White Willow Bark directly to you, in a form that's easy and convenient to incorporate into your daily routine.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 1 capsule once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/white-willow-bark-capsules",
+      "variants": [
+        {
+          "price_usd": 23.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Capsule / 365 Veg Capsules"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 23.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 32.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 44.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-caralluma-fimbriata-extract-capsules",
+      "slug": "bulksupplements-caralluma-fimbriata-extract-capsules",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Caralluma Fimbriata Extract Capsules",
+      "category": "Adaptogens",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/primary.webp?v=7f1cca4f",
+      "gallery_images": [
+        "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/gallery_1.webp?v=1f64f29b",
+        "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/gallery_2.webp?v=a5d80b12",
+        "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/gallery_3.webp?v=26ddfc4c",
+        "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/gallery_4.webp?v=9aa5dc25",
+        "/images/products/bulksupplements/caralluma-fimbriata-extract-capsules/gallery_5.webp?v=c8bd92f8"
+      ],
+      "price_usd": 41.97,
+      "serving_size": "1000 mg",
+      "servings_per_container": 500,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Caralluma fimbriata extract",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Caralluma Fimbriata Extract Capsules offer a simple way to bring something fresh into your daily routine. Derived from a cactus traditionally used in wellness practices, these capsules fit effortlessly into a variety of lifestyles. Whether you're updating your supplement stack or starting something new, they make a thoughtful and easy addition to your everyday habits.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 1000 mg (about 1/3 tsp) once or twice daily preferably with meals, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/caralluma-fimbriata-capsules",
+      "variants": [
+        {
+          "price_usd": 25.96,
+          "servings_per_container": null,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Capsule / 240 Veg Capsules"
+        },
+        {
+          "price_usd": 22.97,
+          "servings_per_container": 100,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 27.97,
+          "servings_per_container": 250,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 41.97,
+          "servings_per_container": 500,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 63.97,
+          "servings_per_container": 1000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-barberry-extract-powder",
+      "slug": "bulksupplements-barberry-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Barberry Extract Powder",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/barberry-extract-powder/primary.webp?v=1cc4247a",
+      "gallery_images": [
+        "/images/products/bulksupplements/barberry-extract-powder/gallery_1.webp?v=309000e4",
+        "/images/products/bulksupplements/barberry-extract-powder/gallery_2.webp?v=fc4e6066",
+        "/images/products/bulksupplements/barberry-extract-powder/gallery_3.webp?v=ead0a765",
+        "/images/products/bulksupplements/barberry-extract-powder/gallery_4.webp?v=c48dd1a5",
+        "/images/products/bulksupplements/barberry-extract-powder/gallery_5.webp?v=8ee6087d"
+      ],
+      "price_usd": 20.97,
+      "serving_size": "500 mg",
+      "servings_per_container": 200,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Barberry extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 111.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Dairy-Free"
+      ],
+      "description": "Elevate your health journey with our Barberry Extract powder—the natural powerhouse packed with the richness of berberine and array of essential compounds. Rich in alkaloids and flavonoids, each serving is a testament to the potency of our extracts, providing a natural source of vital nutrition and whole-body wellness. Unleash the bounty of nature's secrets in a convenient form designed to fit seamlessly into your daily routine.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 500 mg (about 1/5 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/barberry-extract-powder",
+      "variants": [
+        {
+          "price_usd": 23.97,
+          "servings_per_container": 500,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 200,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 32.97,
+          "servings_per_container": 1000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 44.97,
+          "servings_per_container": 2000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 206.97,
+          "servings_per_container": 10000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 669.29,
+          "servings_per_container": 50000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-butcher-s-broom-extract-powder",
+      "slug": "bulksupplements-butcher-s-broom-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Butcher's Broom Extract Powder",
+      "category": "Adaptogens",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/butcher-s-broom-extract-powder/primary.webp?v=98590400",
+      "gallery_images": [
+        "/images/products/bulksupplements/butcher-s-broom-extract-powder/gallery_1.webp?v=f0c198bc",
+        "/images/products/bulksupplements/butcher-s-broom-extract-powder/gallery_2.webp?v=4988bfaa",
+        "/images/products/bulksupplements/butcher-s-broom-extract-powder/gallery_3.webp?v=91863cef",
+        "/images/products/bulksupplements/butcher-s-broom-extract-powder/gallery_4.webp?v=64ea869e",
+        "/images/products/bulksupplements/butcher-s-broom-extract-powder/gallery_5.webp?v=c9f95bfb"
+      ],
+      "price_usd": 31.97,
+      "serving_size": "500 mg",
+      "servings_per_container": 1000,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Butcher's Broom extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 111.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Support your wellness routine with Butcher's Broom Extract Powder from BulkSupplements.com! Made from the leaves and stems of the butcher's broom plant, this herbal powder is perfect for adding to smoothies, shakes, or your favorite beverages. Simple to use and packed with natural goodness, it's an easy way to support your daily health goals and feel your best!",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 500 mg (about 1/5 tsp) one to three times daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/butchers-broom-extract-powder",
+      "variants": [
+        {
+          "price_usd": 22.97,
+          "servings_per_container": 500,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 200,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 31.97,
+          "servings_per_container": 1000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 43.97,
+          "servings_per_container": 2000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 201.97,
+          "servings_per_container": 10000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 644.29,
+          "servings_per_container": 50000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-garlic-extract-powder",
+      "slug": "bulksupplements-garlic-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Garlic Extract Powder",
+      "category": "Immune Support",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/garlic-extract-powder/primary.webp?v=48cdf423",
+      "gallery_images": [
+        "/images/products/bulksupplements/garlic-extract-powder/gallery_1.webp?v=da93e27f",
+        "/images/products/bulksupplements/garlic-extract-powder/gallery_2.webp?v=89bf2bf4",
+        "/images/products/bulksupplements/garlic-extract-powder/gallery_3.webp?v=95269e47",
+        "/images/products/bulksupplements/garlic-extract-powder/gallery_4.webp?v=d35b8e1b",
+        "/images/products/bulksupplements/garlic-extract-powder/gallery_5.webp?v=b70db94a"
+      ],
+      "price_usd": 20.97,
+      "serving_size": "500 mg",
+      "servings_per_container": 200,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Garlic extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 40.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Unleash the transformative power with our Garlic Extract powder, meticulously crafted from the choicest, hand-picked bulbs. This essence stands as a remarkable tribute to the ingenious beauty of nature, captured in an easy-to-use supplement tailored to harmonize with your discerning lifestyle preferences. Elevate and enrich your daily regimen with the essence of unparalleled potency and natural goodness.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 500 mg (about 1/5 tsp) once or twice daily with meals, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/garlic-extract-powder",
+      "variants": [
+        {
+          "price_usd": 23.97,
+          "servings_per_container": 500,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 200,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 32.97,
+          "servings_per_container": 1000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 44.97,
+          "servings_per_container": 2000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 206.97,
+          "servings_per_container": 10000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 669.29,
+          "servings_per_container": 50000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:onnit-shroom-tech-sport-28-ct",
+      "slug": "onnit-shroom-tech-sport-28-ct",
+      "brand": "Onnit",
+      "brand_slug": "onnit",
+      "name": "Shroom Tech SPORT (28 ct)",
+      "category": "Energy",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
+          "explanations": [
+            "1 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(1), B(1)",
+            "Review conclusions: 53% of measured outcomes showed a benefit (50% of ingredients covered) — evidence 90 -> 91"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "2 ingredients at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 77,
+          "weighted_score": 19.25,
+          "explanations": [
+            "1 good: Chromium",
+            "1 basic: Vitamin B12",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 85,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Blend total disclosed (individual amounts hidden)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (4 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 90,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/onnit/shroom-tech-sport-28-ct/primary.webp?v=7f7fc7b7",
+      "gallery_images": [
+        "/images/products/onnit/shroom-tech-sport-28-ct/gallery_1.webp?v=97e4647d",
+        "/images/products/onnit/shroom-tech-sport-28-ct/gallery_2.webp?v=ddff1d62",
+        "/images/products/onnit/shroom-tech-sport-28-ct/gallery_3.webp?v=fc41ad7a",
+        "/images/products/onnit/shroom-tech-sport-28-ct/gallery_4.webp?v=3e765c99",
+        "/images/products/onnit/shroom-tech-sport-28-ct/gallery_5.webp?v=1838791c"
+      ],
+      "price_usd": 23.29,
+      "serving_size": "3 Capsule(s)",
+      "servings_per_container": 10,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin B12",
+          "label_amount": 3000.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 3000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 70,
+          "bar_percent": 545.5,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Chromium",
+          "label_amount": 200.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 200.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 177.8,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Shroom Tech O2 Blend",
+          "label_amount": 1.5,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 1.5,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Shroom Tech Adaptogen Blend",
+          "label_amount": 875.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 875.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        }
+      ],
+      "other_ingredients": [
+        "Vegetarian Capsule",
+        "Maltodextrin"
+      ],
+      "certifications": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Inspired by the energy and stamina of high-altitude mountain goats, Shroom Tech® Sport harnesses the power of cordyceps mushrooms to support cellular energy and help you push for longer periods. Taken before your workout, this pre-exercise supplement promotes daily energy and endurance, so you can go faster for longer. †︎\n\nShroom Tech® Sport helps your body use oxygen more efficiently and produce energy at the cellular level, so you can go harder, for longer. Backed by clinical research and third-party tested for quality, it's formulated for athletes and everyday performers alike who demand results from their training. †︎",
+      "overview": null,
+      "warnings": "Consult a medical doctor before taking this or any other nutritional supplement if you are pregnant, nursing, have or suspect a medical condition or are taking any medications.\nKEEP OUT OF REACH OF CHILDREN.\nDo not exceed six capsules in any 24-hour period.",
+      "recommended_use": "Suggested Use: Adults, as a dietary supplement, take three capsules 45 minutes prior to exercise, competition or for occasional energy support, preferably on an empty stomach. Do not exceed six capsules in any 24-hour period.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://onnit.com/products/shroom-tech-sport-28-ct",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 2.5
+    },
+    {
+      "id": "product:onnit-new-mood-60-ct",
+      "slug": "onnit-new-mood-60-ct",
+      "brand": "Onnit",
+      "brand_slug": "onnit",
+      "name": "New MOOD (60 ct)",
+      "category": "Stress",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 93,
+          "weighted_score": 37.2,
+          "explanations": [
+            "4 Grade A, 2 Grade B ingredients",
+            "Evidence grades: A(4), B(2)",
+            "Review conclusions: 54% of measured outcomes showed a benefit (71% of ingredients covered) — evidence 92 -> 93"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 84,
+          "weighted_score": 29.4,
+          "explanations": [
+            "3 ingredients at optimal doses",
+            "1 ingredient at therapeutic doses",
+            "2 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 81,
+          "weighted_score": 20.25,
+          "explanations": [
+            "4 good: Niacin, L-Tryptophan, 5-HTP +1 more",
+            "2 basic: Vitamin B6, Magnesium",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 85,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Blend total disclosed (individual amounts hidden)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "No significant safety concerns"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 90,
+          "weighted_score": 0.0,
+          "explanations": [
+            "NSF Certified for Sport (premium)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/onnit/new-mood-60-ct/primary.webp?v=b025979c",
+      "gallery_images": [
+        "/images/products/onnit/new-mood-60-ct/gallery_1.webp?v=c601e136",
+        "/images/products/onnit/new-mood-60-ct/gallery_2.webp?v=f6a9b2ec",
+        "/images/products/onnit/new-mood-60-ct/gallery_3.webp?v=446132d6",
+        "/images/products/onnit/new-mood-60-ct/gallery_4.webp?v=71f4ab0b",
+        "/images/products/onnit/new-mood-60-ct/gallery_5.webp?v=050ba838"
+      ],
+      "price_usd": 59.9,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 45,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Niacin",
+          "label_amount": 30.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 30.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 11.7,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin B6",
+          "label_amount": 20.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 20.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 39.2,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Magnesium",
+          "label_amount": 40.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 40.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 70,
+          "bar_percent": 8.9,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Onnit Transquility Blend:",
+          "label_amount": 450.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 450.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "L-Tryptophan",
+          "label_amount": 400.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 90,
+          "bar_percent": 32.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "5-HTP",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 150.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 85.7,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Inositol",
+          "label_amount": 12.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 12.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 0.5,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Vegetarian Capsule",
+        "Maltodextrin",
+        "organic Rice hull concentrate"
+      ],
+      "certifications": [
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "New MOOD® is designed to support your body’s natural serotonin production, promoting a calm, relaxed state of mind. With L-tryptophan and 5-HTP—the raw building blocks of serotonin—plus Vitamin B6 to help convert them, it encourages a balanced mood and a positive outlook.†︎\n\nThis formula also includes Calming herbs to help you unwind and reset. Whether you're dealing with daily stress or just need help relaxing at night, New MOOD® offers gentle support for mood and relaxation.†︎",
+      "overview": null,
+      "warnings": "Consult a medical doctor before taking this or any other nutritional supplement if you are pregnant, nursing, have or suspect a medical condition or are taking any medications.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: Adults, as a dietary supplement, take two capsules in the evening prior to sleep. A serving of two capsules may be taken during the day for occasional stress support. Do not exceed six capsules in any 24-hour period.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://onnit.com/products/new-mood-60-ct",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 2.5
+    },
+    {
+      "id": "product:pure-encapsulations-inositol-complex",
+      "slug": "pure-encapsulations-inositol-complex",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Inositol Complex",
+      "category": "Multivitamins",
+      "category_tags": [],
+      "score": 90,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 96,
+          "weighted_score": 38.4,
+          "explanations": [
+            "Evidence grades: A(2)",
+            "Review conclusions: 53% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 96"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 82,
+          "weighted_score": 28.7,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "1 ingredient below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 92,
+          "weighted_score": 23.0,
+          "explanations": [
+            "1 clinical: D-Chiro Inositol",
+            "1 good: Inositol",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Standard vitamin/mineral formula - well-established safety"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/inositol-complex/primary.webp?v=b1c4692f",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/inositol-complex/gallery_1.webp?v=74d9dae1"
+      ],
+      "price_usd": 55.5,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Inositol",
+          "label_amount": 550.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 550.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 24.4,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "D-Chiro Inositol",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 150.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 95,
+          "bar_percent": 6.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Water"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested"
+      ],
+      "description": "A blend of myo-inositol and D-chiro inositol to support emotional wellness, healthy insulin response and ovarian function‡\n\n• Encourages healthy glycemic response and insulin function‡\n\n• Promotes healthy ovarian function‡\n\n• Supports emotional wellness‡",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have a health condition or are taking any medication, consult your health professional before use.\nKeep out of reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 2 times daily, with meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/inositol-complex",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-pure-tranquility-liquid",
+      "slug": "pure-encapsulations-pure-tranquility-liquid",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Pure Tranquility Liquid",
+      "category": "Sleep Supplements",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "1 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(1), B(1), C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 85,
+          "weighted_score": 29.75,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "1 ingredient at therapeutic doses",
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 93,
+          "weighted_score": 23.25,
+          "explanations": [
+            "2 clinical: Suntheanine, Glycine",
+            "1 good: GABA",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (3 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/pure-tranquility-liquid/primary.webp?v=6623b70f",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/pure-tranquility-liquid/gallery_1.webp?v=04b2474e"
+      ],
+      "price_usd": 51.0,
+      "serving_size": "4 mL",
+      "servings_per_container": 29,
+      "form": "liquid",
+      "ingredients": [
+        {
+          "name": "GABA",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 80,
+          "bar_percent": 20.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Suntheanine",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 100,
+          "bar_percent": 40.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Glycine",
+          "label_amount": 50.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 50.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 100,
+          "bar_percent": 1.2,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Water, Purified",
+        "Glycerin, Natural",
+        "Cane Sugar, Evaporated",
+        "Citric Acid",
+        "Natural Apple Flavor",
+        "Potassium Sorbate",
+        "Stevia Leaf Extract, Purified"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Promotes relaxation and helps moderate occasional stress‡\n\n• Promotes relaxation without causing drowsiness‡\n\n• Helps maintain immune health during occasional stress‡  \n\n• Convenient, great-tasting liquid formula",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition are are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement take 4 ml (4 full droppers), 1-2 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/pure-tranquility-liquid",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-biotin-complex-hair-skin",
+      "slug": "pure-encapsulations-biotin-complex-hair-skin",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Biotin Complex Hair & Skin",
+      "category": "Multivitamins",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 77,
+          "weighted_score": 30.8,
+          "explanations": [
+            "Evidence grades: B(1), C(1)",
+            "1 ingredient without evidence data (scored as C)",
+            "Review conclusions: 33% of measured outcomes showed a benefit (50% of ingredients covered) — evidence 80 -> 77"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 50%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Biotin",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Standard vitamin/mineral formula - well-established safety"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/biotin-complex-hair-skin/primary.webp?v=d375b264",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/biotin-complex-hair-skin/gallery_1.webp?v=cfd194f5"
+      ],
+      "price_usd": 45.5,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Biotin",
+          "label_amount": 10000.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 10000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 397.6,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Lustriva",
+          "label_amount": 160.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 160.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Water",
+        "hypoallergenic Plant Fiber",
+        "Ascorbyl Palmitate"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Clinically researched biotin complex to support healthy hair and skin‡\n\n• In a clinical trial, improves skin texture, reduces depth of fine lines and skin roughness after just 12 weeks 1‡\n\n• Supports growth of fuller, thicker hair in as little as 12 weeks in the same study1‡\n\n• Unique complex enhances biotin solubility by 40x, which helps with absorption\n\n• Superior absorption compared to standard biotin",
+      "overview": null,
+      "warnings": "Warning: Biotin may interfere with certain blood tests. Wait at least 8 hours between biotin consumption and blood testing. Inform your health professional about all biotin-containing supplements you are taking. \r\nUse only if safety seal is intact.\nIf you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule daily, with a meal.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/biotin-complex-hair-skin-60s",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-adipolean-ii",
+      "slug": "pure-encapsulations-adipolean-ii",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "AdipoLean II",
+      "category": "Metabolism",
+      "category_tags": [],
+      "score": 54,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 50,
+          "weighted_score": 20.0,
+          "explanations": [
+            "No scoreable ingredients found"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 85,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Blend total disclosed (individual amounts hidden)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (2 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/adipolean-ii/primary.webp?v=a06e84ca",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/adipolean-ii/gallery_1.webp?v=8809af81"
+      ],
+      "price_usd": 67.0,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "LOWAT Proprietary Blend of",
+          "label_amount": 300.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 300.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 100.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Oligonol Proprietary Blend of",
+          "label_amount": 17.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 17.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 50,
+          "bar_percent": 5.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "hypoallergenic Plant Fiber",
+        "Vegetarian Capsule",
+        "Ascorbyl Palmitate"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Helps target fat breakdown and appetite for healthy weight management†‡\n\n• Promotes healthy weight management†‡ \n• Helps target fat breakdown‡ \n• Supports healthy appetite‡ \n• Consists of green tea leaf extract and other plant-based ingredients\n\n†Provides weight management support as part of a healthy lifestyle with a reduced calorie diet and regular exercise",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 3 times daily, 30 minutes before meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/adipolean-ii",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 2.75
     }
   ],
   "brands": [
@@ -143987,7 +146676,7 @@
     {
       "slug": "bulksupplements",
       "name": "BulkSupplements",
-      "product_count": 36,
+      "product_count": 45,
       "avg_score": 85,
       "score": 78,
       "grade": "C+",
@@ -144139,7 +146828,7 @@
     {
       "slug": "pure-encapsulations",
       "name": "Pure Encapsulations",
-      "product_count": 332,
+      "product_count": 336,
       "avg_score": 84,
       "score": 78,
       "grade": "C+",
@@ -144363,7 +147052,7 @@
     {
       "slug": "onnit",
       "name": "Onnit",
-      "product_count": 7,
+      "product_count": 9,
       "avg_score": 86,
       "score": 75,
       "grade": "C",
