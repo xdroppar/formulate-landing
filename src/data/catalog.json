@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 914,
+  "product_count": 932,
   "brand_count": 32,
   "products": [
     {
@@ -178680,6 +178680,3019 @@
       "is_draft": false,
       "score_version": "3.24",
       "score_gate_penalty": 11.25
+    },
+    {
+      "id": "product:double-wood-inositol-supplement",
+      "slug": "double-wood-inositol-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Inositol Supplement",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 94,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 97,
+          "weighted_score": 38.8,
+          "explanations": [
+            "Evidence grades: A(1)",
+            "Review conclusions: 56% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 97"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Inositol",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/inositol-supplement/primary.webp?v=c5ac3897",
+      "gallery_images": [
+        "/images/products/double-wood/inositol-supplement/gallery_1.webp?v=397f1bbe",
+        "/images/products/double-wood/inositol-supplement/gallery_2.webp?v=490ad7e7",
+        "/images/products/double-wood/inositol-supplement/gallery_3.webp?v=355e0f08",
+        "/images/products/double-wood/inositol-supplement/gallery_4.webp?v=68e54e4c",
+        "/images/products/double-wood/inositol-supplement/gallery_5.webp?v=7ee683c2"
+      ],
+      "price_usd": 14.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Inositol",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 44.4,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Inositol (specifically myo-inositol) is a stereoisomer known as a pseudovitamin for its close relation to B-complex vitamins without having the same physiologic action as actual B vitamins. Though it is often referred to as Vitamin B8, inositol is actually a type of sugar which has several important bodily functions such as making up cell membranes, influencing the action of insulin, and helping to regulate neurotransmitter levels. Inositol is naturally found in foods such as fruits, beans, grains, and nuts and the average American diet provides a dosage of around 1 gram per day. However, supplemental dosages are often much higher. Inositol has become popular as a supplement to help balance hormone levels and promote fertility in women after several promising studies.\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\r\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not use Inositol and operate heavy machinery until you know how it affects you.\r\nDo not exceed 4 softgels per day.\nKeep out of reach of children.\nDo not use inositol if you are pregnant, nursing, or are under 18 years of age.\nDo not use inositol if you are pregnant, nursing, or are under 18 years of age.",
+      "recommended_use": "Suggested use: as a dietary supplement take 1 serving per day, with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/inositol",
+      "variants": [
+        {
+          "price_usd": 14.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 28.41,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 40.37,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-saffron-extract-supplement",
+      "slug": "double-wood-saffron-extract-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Saffron Extract Supplement",
+      "category": "Metabolism",
+      "category_tags": [],
+      "score": 90,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/saffron-extract-supplement/primary.webp?v=0445fd6f",
+      "gallery_images": [
+        "/images/products/double-wood/saffron-extract-supplement/gallery_1.webp?v=4c5b6bdb",
+        "/images/products/double-wood/saffron-extract-supplement/gallery_2.webp?v=676b48f5",
+        "/images/products/double-wood/saffron-extract-supplement/gallery_3.webp?v=b468f959",
+        "/images/products/double-wood/saffron-extract-supplement/gallery_4.webp?v=0506bc5b",
+        "/images/products/double-wood/saffron-extract-supplement/gallery_5.webp?v=a20b84bc"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 210,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Saffron extract",
+          "label_amount": 88.5,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 88.5,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 393.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour",
+        "Cellulose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Saffron is commonly known as the world’s most expensive spice due to the high amount of labor needed to produce the spice from the plant itself. Using Saffron in food will have the same effects as supplementation, but it can be very difficult to get the dose right when using it this way so its typically recommended to use a standardized extract instead. Double Wood’s Saffron is a standardized extract with a 0.3% Safranal content.\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Saffron if you are pregnant, nursing, or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Saffron and operate heavy machinery until you know how it affects you.\nDo not use Saffron if you are pregnant, nursing, or are under 18 years of age.\nKeep out of reach of children.\nDo not exceed 2 capsules per day.",
+      "recommended_use": "Suggested Use: As a supplement, take 1-2 capules per day on an empty stomach to support appetite control and mood. Do not exceed 2 capsules in one day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/saffron-extract",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-hyaluronic-acid-supplement",
+      "slug": "double-wood-hyaluronic-acid-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Hyaluronic Acid Supplement",
+      "category": "Joint Support",
+      "category_tags": [],
+      "score": 88,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Hyaluronic Acid",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/hyaluronic-acid-supplement/primary.webp?v=012ec39a",
+      "gallery_images": [
+        "/images/products/double-wood/hyaluronic-acid-supplement/gallery_1.webp?v=097e1221",
+        "/images/products/double-wood/hyaluronic-acid-supplement/gallery_2.webp?v=1e7486d3",
+        "/images/products/double-wood/hyaluronic-acid-supplement/gallery_3.webp?v=39e0f8ce",
+        "/images/products/double-wood/hyaluronic-acid-supplement/gallery_4.webp?v=104e58ff",
+        "/images/products/double-wood/hyaluronic-acid-supplement/gallery_5.webp?v=ca45c30d"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Hyaluronic Acid",
+          "label_amount": 200.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 200.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Cellulose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Hyaluronic Acid, also known as hyaluronan, is a natural compound and important constituent of joint fluid which is found in high concentrations in the eyes, skin, and cartilage. Its main role in the body is to retain water which allows the tissues it's present in to remain well lubricated. Hyaluronic Acid is often taken as a supplement both to support joint health and lubrication as well as to promote skin and hair health.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Hyaluronic Acid if you are pregnant, nursing, or under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Hyaluronic Acid and operate heavy machinery until you know how it affects you.\nKeep out of reach of children.\nDo not exceed 4 capsules per day.\nDo not use Hyaluronic Acid if you are pregnant, nursing, or under 18 years of age.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 2 capsules (200mg) per day on an empty stomach. Do not exceed 4 capsules in one day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/hyaluronic-acid",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-tudca-supplement",
+      "slug": "double-wood-tudca-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "TUDCA Supplement",
+      "category": "Liver Support",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/tudca-supplement/primary.webp?v=9375126e",
+      "gallery_images": [
+        "/images/products/double-wood/tudca-supplement/gallery_1.webp?v=b32a7f31",
+        "/images/products/double-wood/tudca-supplement/gallery_2.webp?v=4ff4467a",
+        "/images/products/double-wood/tudca-supplement/gallery_3.webp?v=3b225547",
+        "/images/products/double-wood/tudca-supplement/gallery_4.webp?v=ba1de5a9",
+        "/images/products/double-wood/tudca-supplement/gallery_5.webp?v=c97684fe"
+      ],
+      "price_usd": 27.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Tauroursodeoxycholic Acid",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "TUDCA, short for tauroursodeoxycholic acid, is a water-soluble bile acid naturally produced in small amounts in the body. Historically, TUDCA was associated with traditional Chinese medicine and was originally sourced from bear bile.\n\nDouble Wood’s TUDCA is synthetic and not animal-derived. It is not sourced from bear bile, bull bile, or the bile of any animal.\n\nAs a supplement, TUDCA is commonly used to support liver health, healthy bile flow, digestion, and cellular stress response. It has also been studied for its role in protecting cells from oxidative stress and supporting retinal and neurological health.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use. Do not use TUDCA if you are pregnant, nursing, or are under 18 years of age.\nDiscontinue use and consult your physician if any adverse reactions occur.\nDo not use TUDCA and operate heavy machinery until you know how it affects you.\nDo not use TUDCA if you are pregnant, nursing, or are under 18 years of age.\nKeep out of reach of children.\nDo not exceed 6 capsules per day.",
+      "recommended_use": "Suggested Use: As a supplement, take 2 capsules per day on an empty stomach. Do not exceed 4 capsules in one day. Side effects are more likely at doses exceeding 1,000mg.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/tudca",
+      "variants": [
+        {
+          "price_usd": 27.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 53.11,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 75.47,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-horny-goat-weed-supplement",
+      "slug": "double-wood-horny-goat-weed-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Horny Goat Weed Supplement",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/horny-goat-weed-supplement/primary.webp?v=5603147a",
+      "gallery_images": [
+        "/images/products/double-wood/horny-goat-weed-supplement/gallery_1.webp?v=8a954bb6",
+        "/images/products/double-wood/horny-goat-weed-supplement/gallery_2.webp?v=9cc5cc7c",
+        "/images/products/double-wood/horny-goat-weed-supplement/gallery_3.webp?v=5132f326",
+        "/images/products/double-wood/horny-goat-weed-supplement/gallery_4.webp?v=9cce1ac2",
+        "/images/products/double-wood/horny-goat-weed-supplement/gallery_5.webp?v=669eacdc"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 45,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Horny Goat Weed Extract",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 160.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Horny Goat Weed, also known as Epimedium, is renowned for its libido-enhancing properties and potential support for optimal testosterone levels. The key active ingredient, the flavonoid icariin, is believed to be responsible for its benefits. Our high-potency Horny Goat Weed supplement is standardized to 20% icariins, ensuring each 1000 mg serving contains 200 mg of icariins, making it one of the most potent products available.\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Do not exceed recommended dose.\r\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not use Horny Goat Weed and operate heavy machinery until you know how it affects you.\r\nDo not use if safety seal is damaged or missing.\nPregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nPregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\r\nKeep out of the reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 serving per day. (2 capsules)",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/horny-goat-weed",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-artemisinin-supplement",
+      "slug": "double-wood-artemisinin-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Artemisinin Supplement",
+      "category": "Immune Support",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/artemisinin-supplement/primary.webp?v=63a9023a",
+      "gallery_images": [
+        "/images/products/double-wood/artemisinin-supplement/gallery_1.webp?v=f559b5ec",
+        "/images/products/double-wood/artemisinin-supplement/gallery_2.webp?v=49624c27",
+        "/images/products/double-wood/artemisinin-supplement/gallery_3.webp?v=41027dda",
+        "/images/products/double-wood/artemisinin-supplement/gallery_4.webp?v=7980eb6b",
+        "/images/products/double-wood/artemisinin-supplement/gallery_5.webp?v=ebe8b946"
+      ],
+      "price_usd": 24.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Artemisinin",
+          "label_amount": 200.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 200.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Artemisinin is a compound extracted from the sweet wormwood herb (Artemisia annua) which has a long history of use in traditional Chinese medicine. Artemisinin is most often used as a supplement for immune system support. There is also some evidence it can promote healthy aging and cell repair so Artemisinin is sometimes used as a supplement for longevity as well.\n\nVegan, Non-GMO, Gluten-Free",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Artemisinin if you are pregnant, nursing or are under 18 years of age.\nDo not use Artemisinin if you are pregnant, nursing or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not Artemisinin and operate heavy machinery until you know how it affects you.\nKeep out of reach of children.\nDo not exceed 3 capsules per day.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 1-2 capsules per day with food. Do not exceed 3 capsules in one day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/artemisinin",
+      "variants": [
+        {
+          "price_usd": 24.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 47.41,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 67.37,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-fisetin-supplement",
+      "slug": "double-wood-fisetin-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Fisetin Supplement",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "1 basic: Fisetin",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/fisetin-supplement/primary.webp?v=2ff0f3ca",
+      "gallery_images": [
+        "/images/products/double-wood/fisetin-supplement/gallery_1.webp?v=a032ecdc",
+        "/images/products/double-wood/fisetin-supplement/gallery_2.webp?v=8472a12b",
+        "/images/products/double-wood/fisetin-supplement/gallery_3.webp?v=1ede8ce4",
+        "/images/products/double-wood/fisetin-supplement/gallery_4.webp?v=ef0f744e",
+        "/images/products/double-wood/fisetin-supplement/gallery_5.webp?v=377bcf15"
+      ],
+      "price_usd": 22.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Fisetin",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 33.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour",
+        "Cellulose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Fisetin occurs naturally in foods such as strawberries, apples, and onions, but only in small amounts. Double Wood sources fisetin from smoke tree (Cotinus coggygria) stems, a naturally concentrated botanical source that makes it possible to provide 100 mg of fisetin per capsule.\n\nFisetin is best known for its antioxidant and senolytic research. Senolytics are compounds being studied for their potential ability to selectively target senescent cells—aging or damaged cells that have stopped dividing but remain active in the body.\n\nPreclinical research, including a 2018 study involving Mayo Clinic researchers, identified fisetin as the most potent senolytic among ten flavonoids tested. Fisetin has since advanced into Phase 2 human trials, including studies evaluating it in older adults with COVID-19 and patients with sepsis. These trials demonstrate growing clinical interest, but fisetin’s senolytic and healthy-aging benefits have not yet been established in humans. COVID-FISETIN trial, STOP-Sepsis trial\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Fisetin if you are pregnant, nursing, or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Fisetin and operate heavy machinery until you know how it affects you know how it affects you.\nKeep out of reach of children.\nDo not exceed 3 capsules per day.",
+      "recommended_use": "Suggested Use: As a supplement, take 1 capsule per day on an empty stomach. Do not exceed 3 capsules in one day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/fisetin",
+      "variants": [
+        {
+          "price_usd": 22.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 43.61,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 61.97,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-hmb-supplement",
+      "slug": "double-wood-hmb-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "HMB Supplement",
+      "category": "Sports Performance",
+      "category_tags": [],
+      "score": 77,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 70,
+          "weighted_score": 24.5,
+          "explanations": [
+            "1 ingredient below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/hmb-supplement/primary.webp?v=c3baa59e",
+      "gallery_images": [
+        "/images/products/double-wood/hmb-supplement/gallery_1.webp?v=2e63d876",
+        "/images/products/double-wood/hmb-supplement/gallery_2.webp?v=32592c6d",
+        "/images/products/double-wood/hmb-supplement/gallery_3.webp?v=2ac01090",
+        "/images/products/double-wood/hmb-supplement/gallery_4.webp?v=29b1a0e1",
+        "/images/products/double-wood/hmb-supplement/gallery_5.webp?v=43adc4c1"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "HMB",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 50,
+          "bar_percent": 30.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Rice Flour",
+        "Microcrystalline Cellulose",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "HMB (Hydroxy Methyl Butyric acid) is a compound produced when the amino acid leucine is broken down, and is naturally synthesized in the human body. Studies have shown that HMB promotes protein synthesis, a process that is important to the maintenance of lean muscle tissue. When taken as a supplement, studies have shown that HMB may help support power output as well as retention of muscle when eating at a caloric deficit.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before taking this product. Do not consume more than 6 capsules per day.\nDo not take this product if you are pregnant, nursing, or taking any other medications.\nDiscontinue use if any adverse reactions occur.\nDo not take HMB and operate any heavy machinery until you know how it affects you.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: To reduce muscle loss during a period of caloric deficit, take 2-4 (two to four) 500 mg capsules daily. HMB is most effective when taken 30 minutes before a workout.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/hmb-hydroxy-methyl-butyric-acid",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:bulksupplements-magnolia-extract-powder",
+      "slug": "bulksupplements-magnolia-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Magnolia Extract Powder",
+      "category": "Stress",
+      "category_tags": [],
+      "score": 88,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Magnolia Bark Extract, Powder",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/magnolia-extract-powder/primary.webp?v=f4ae2751",
+      "gallery_images": [
+        "/images/products/bulksupplements/magnolia-extract-powder/gallery_1.webp?v=dc45e3d7",
+        "/images/products/bulksupplements/magnolia-extract-powder/gallery_2.webp?v=c924514f",
+        "/images/products/bulksupplements/magnolia-extract-powder/gallery_3.webp?v=3a4b54c9",
+        "/images/products/bulksupplements/magnolia-extract-powder/gallery_4.webp?v=9165357b",
+        "/images/products/bulksupplements/magnolia-extract-powder/gallery_5.webp?v=1a8fc478"
+      ],
+      "price_usd": 23.97,
+      "serving_size": "800 mg",
+      "servings_per_container": 312,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Magnolia Bark Extract, Powder",
+          "label_amount": 720.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 720.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 221.5,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Dextrin"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified"
+      ],
+      "description": "Unleash the power of nature with our premium Magnolia Extract powder! It's easy to use - just mix it into your favorite beverage or culinary creation for an added touch of elegance. With a texture that's perfect for blending, and a taste that's subtle yet distinctive, Magnolia Extract powder is sure to elevate your everyday recipes. Experience the magic of magnolia, encapsulated in a versatile powder, today!",
+      "overview": null,
+      "warnings": "Keep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 800 mg (about 1/3 tsp) once daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/magnolia-extract-powder",
+      "variants": [
+        {
+          "price_usd": 23.97,
+          "servings_per_container": 312,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 125,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 33.97,
+          "servings_per_container": 625,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 45.97,
+          "servings_per_container": 1250,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 210.97,
+          "servings_per_container": 6250,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 716.79,
+          "servings_per_container": 31250,
+          "serving_size": "800 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-devil-s-claw-extract-capsules",
+      "slug": "bulksupplements-devil-s-claw-extract-capsules",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Devil's Claw Extract Capsules",
+      "category": "Metabolism",
+      "category_tags": [],
+      "score": 85,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "1 basic: Devil's Claw Herb Extract",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/devil-s-claw-extract-capsules/primary.webp?v=c51d6f54",
+      "gallery_images": [
+        "/images/products/bulksupplements/devil-s-claw-extract-capsules/gallery_1.webp?v=0b5c71e7",
+        "/images/products/bulksupplements/devil-s-claw-extract-capsules/gallery_2.webp?v=74fcbb31",
+        "/images/products/bulksupplements/devil-s-claw-extract-capsules/gallery_3.webp?v=0da23fe3",
+        "/images/products/bulksupplements/devil-s-claw-extract-capsules/gallery_4.webp?v=b696ebe2",
+        "/images/products/bulksupplements/devil-s-claw-extract-capsules/gallery_5.webp?v=0e7c275b"
+      ],
+      "price_usd": 19.97,
+      "serving_size": "1000 mg",
+      "servings_per_container": 100,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Devil's Claw Herb Extract",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 111.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Introducing Devil's Claw Extract capsules, the ultimate solution to integrating timeless wellness into your daily routine. Crafted with meticulous attention to quality, our capsules embody the power of nature's most potent botanicals, delivering unparalleled benefits to those seeking to enhance their health journey. With Devil's Claw Extract capsules, you can confidently take control of your well-being and experience the transformative benefits of nature in every serving!",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 1000mg (about 1/3 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/devils-claw-pills",
+      "variants": [
+        {
+          "price_usd": 21.97,
+          "servings_per_container": null,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Capsule / 240 Capsules"
+        },
+        {
+          "price_usd": 19.97,
+          "servings_per_container": 100,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 21.97,
+          "servings_per_container": 250,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 29.97,
+          "servings_per_container": 500,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 37.97,
+          "servings_per_container": 1000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-cascara-sagrada-extract-powder",
+      "slug": "bulksupplements-cascara-sagrada-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Cascara Sagrada Extract Powder",
+      "category": "Gut Health",
+      "category_tags": [],
+      "score": 85,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/cascara-sagrada-extract-powder/primary.webp?v=57d9fd39",
+      "gallery_images": [
+        "/images/products/bulksupplements/cascara-sagrada-extract-powder/gallery_1.webp?v=26a92707",
+        "/images/products/bulksupplements/cascara-sagrada-extract-powder/gallery_2.webp?v=546defd8",
+        "/images/products/bulksupplements/cascara-sagrada-extract-powder/gallery_3.webp?v=45217530",
+        "/images/products/bulksupplements/cascara-sagrada-extract-powder/gallery_4.webp?v=8de008f5",
+        "/images/products/bulksupplements/cascara-sagrada-extract-powder/gallery_5.webp?v=2625021c"
+      ],
+      "price_usd": 20.97,
+      "serving_size": "500 mg",
+      "servings_per_container": 200,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Cascara Sagrada extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 83.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Dairy-Free"
+      ],
+      "description": "Experience the power of nature with Cascara Sagrada Extract Powder by BulkSupplements.com, the vegan-friendly answer to your digestive woes! Derived from the sacred bark of the Rhamnus davurica, our premium-grade powder takes a gentle yet effective approach to providing relief without the use of synthetic ingredients.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 500 mg (about 1/5 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/cascara-sagrada-extract-powder",
+      "variants": [
+        {
+          "price_usd": 22.97,
+          "servings_per_container": 500,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 200,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 30.97,
+          "servings_per_container": 1000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 41.97,
+          "servings_per_container": 2000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 191.97,
+          "servings_per_container": 10000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 594.29,
+          "servings_per_container": 50000,
+          "serving_size": "500 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:pure-encapsulations-saw-palmetto-320",
+      "slug": "pure-encapsulations-saw-palmetto-320",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Saw Palmetto 320",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 91,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
+          "explanations": [
+            "1 good: Saw Palmetto",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/saw-palmetto-320/primary.webp?v=376c156a",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/saw-palmetto-320/gallery_1.webp?v=66228393",
+        "/images/products/pure-encapsulations/saw-palmetto-320/gallery_2.webp?v=7bf03e3a",
+        "/images/products/pure-encapsulations/saw-palmetto-320/gallery_3.webp?v=77631812"
+      ],
+      "price_usd": 89.5,
+      "serving_size": "1 Softgel Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Saw Palmetto (Serenoa repens) extract",
+          "label_amount": 320.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 320.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin Capsule"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested"
+      ],
+      "description": "Fundamental support for urinary function and prostate health‡\n\n\r\n• Promotes healthy prostate and urinary function‡ \n• Helps maintain proper testosterone metabolism for optimal prostate and urinary health‡",
+      "overview": null,
+      "warnings": "Warning: Not to be taken by pregnant or lactating women. If you have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-2 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/saw-palmetto-320-120",
+      "variants": [
+        {
+          "price_usd": 89.5,
+          "servings_per_container": 120,
+          "serving_size": "1 Softgel Capsule(s)",
+          "form": "capsule",
+          "label": "120 Softgel Capsules"
+        },
+        {
+          "price_usd": 164.0,
+          "servings_per_container": 240,
+          "serving_size": "1 Softgel Capsule(s)",
+          "form": "capsule",
+          "label": "240 Softgel Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-saw-palmetto-plus",
+      "slug": "pure-encapsulations-saw-palmetto-plus",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Saw Palmetto Plus",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 86,
+          "weighted_score": 34.4,
+          "explanations": [
+            "2 Grade A, 2 Grade B ingredients",
+            "Evidence grades: A(2), B(2), C(1)",
+            "1 ingredient without evidence data (scored as C)",
+            "Review conclusions: 36% of measured outcomes showed a benefit (20% of ingredients covered) — evidence 87 -> 86"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "4 ingredients at optimal doses",
+            "Reference coverage: 80%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 77,
+          "weighted_score": 19.25,
+          "explanations": [
+            "1 good: Saw Palmetto",
+            "1 basic: Vitamin E",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (5 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/saw-palmetto-plus/primary.webp?v=3d811607",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/saw-palmetto-plus/gallery_1.webp?v=f54da820",
+        "/images/products/pure-encapsulations/saw-palmetto-plus/gallery_2.webp?v=9c5722d1",
+        "/images/products/pure-encapsulations/saw-palmetto-plus/gallery_3.webp?v=fd995377"
+      ],
+      "price_usd": 53.5,
+      "serving_size": "2 Softgel Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin E",
+          "label_amount": 13.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 13.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 6.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Saw Palmetto (Serenoa repens) extract",
+          "label_amount": 320.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 320.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Pumpkin (Cucurbita pepo) Oil",
+          "label_amount": 640.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 640.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Pygeum (Pygeum africanum) extract",
+          "label_amount": 40.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 40.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 50,
+          "bar_percent": 26.7,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Nettle (Urtica dioica) extract",
+          "label_amount": 400.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 88.9,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin Capsule",
+        "Beeswax",
+        "Sunflower Lecithin"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested"
+      ],
+      "description": "Broad support for urinary function and prostate health‡\n\n\r\n• Promotes healthy prostate and urinary function‡ \n• Helps maintain proper testosterone metabolism for optimal prostate and urinary health‡ \n• Includes other key ingredients important for prostate health and maintaining healthy hormone metabolism in prostate cells‡",
+      "overview": null,
+      "warnings": "Warning: Not to be taken by pregnant or lactating women. If you have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Store in a cool, dry place.\nRecommendations: As a dietary supplement, take 2 capsules, 1–2 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/saw-palmetto-plus-60",
+      "variants": [
+        {
+          "price_usd": 53.5,
+          "servings_per_container": 30,
+          "serving_size": "2 Softgel Capsule(s)",
+          "form": "capsule",
+          "label": "60 Softgel Capsules"
+        },
+        {
+          "price_usd": 99.0,
+          "servings_per_container": 60,
+          "serving_size": "2 Softgel Capsule(s)",
+          "form": "capsule",
+          "label": "120 Softgel Capsules"
+        },
+        {
+          "price_usd": 178.0,
+          "servings_per_container": 125,
+          "serving_size": "2 Softgel Capsule(s)",
+          "form": "capsule",
+          "label": "250 Softgel Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-tribulus-formula",
+      "slug": "pure-encapsulations-tribulus-formula",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Tribulus Formula",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(4)",
+            "2 ingredients without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "2 ingredients at optimal doses",
+            "Reference coverage: 50%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 82,
+          "weighted_score": 20.5,
+          "explanations": [
+            "1 good: D-Aspartic Acid",
+            "1 basic: Hesperetin",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (4 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/tribulus-formula/primary.webp?v=4ed5b8a8",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/tribulus-formula/gallery_1.webp?v=0ff65757"
+      ],
+      "price_usd": 44.0,
+      "serving_size": "3 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Tribulus Fruit Extract",
+          "label_amount": 250.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 250.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 50.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "D-Aspartic Acid",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 200.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Chrysin",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Hesperetin",
+          "label_amount": 50.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 50.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 75
+        }
+      ],
+      "other_ingredients": [
+        "hypoallergenic Plant Fiber",
+        "Vegetarian Capsule",
+        "Ascorbyl Palmitate"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested"
+      ],
+      "description": "Helps maintain the body's normal testosterone levels‡\n\n\r\n• Helps maintain the body's normal testosterone levels‡ \n• Promotes healthy enzyme activity‡",
+      "overview": null,
+      "warnings": "Warning: Not to be taken by pregnant or lactating women. If you have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 3 capsules, 1-2 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/tribulus-formula",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-beta-sitosterol",
+      "slug": "pure-encapsulations-beta-sitosterol",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Beta-sitosterol",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 78,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 60,
+          "weighted_score": 21.0,
+          "explanations": [
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/beta-sitosterol/primary.webp?v=b045ce05",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/beta-sitosterol/gallery_1.webp?v=c9a605a9",
+        "/images/products/pure-encapsulations/beta-sitosterol/gallery_2.webp?v=9b364ea8"
+      ],
+      "price_usd": 21.5,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Beta-Sitosterol",
+          "label_amount": 60.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 60.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 50,
+          "bar_percent": 3.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "hypoallergenic Plant Fiber",
+        "Cellulose",
+        "Water",
+        "Ascorbyl Palmitate"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Formula for prostate health and urinary function‡\n\n\r\n• Supports prostate health‡ \n• Promotes healthy urinary flow‡ \n• Made with plant based, vegan ingredients",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.\nContains: Soy",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-2 times daily, with meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/beta-sitosterol-90",
+      "variants": [
+        {
+          "price_usd": 21.5,
+          "servings_per_container": 90,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "90 Capsules"
+        },
+        {
+          "price_usd": 55.0,
+          "servings_per_container": 270,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "270 Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:jarrow-formulas-broccomax",
+      "slug": "jarrow-formulas-broccomax",
+      "brand": "Jarrow Formulas",
+      "brand_slug": "jarrow-formulas",
+      "name": "BroccoMax",
+      "category": "Liver Support",
+      "category_tags": [],
+      "score": 95,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 95,
+          "weighted_score": 23.75,
+          "explanations": [
+            "1 clinical: Sulforaphane Glucosinolate",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/jarrow-formulas/broccomax/primary.webp?v=f03080d3",
+      "gallery_images": [
+        "/images/products/jarrow-formulas/broccomax/gallery_1.webp?v=274c1162",
+        "/images/products/jarrow-formulas/broccomax/gallery_2.webp?v=ce120279",
+        "/images/products/jarrow-formulas/broccomax/gallery_3.webp?v=33dfd4fd",
+        "/images/products/jarrow-formulas/broccomax/gallery_4.webp?v=164a3c49",
+        "/images/products/jarrow-formulas/broccomax/gallery_5.webp?v=8ce153d9"
+      ],
+      "price_usd": 25.99,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Sulforaphane Glucosinolate",
+          "label_amount": 35.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 35.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 95,
+          "bar_percent": 116.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Microcrystalline Cellulose",
+        "Hydroxypropyl Methylcellulose",
+        "Water",
+        "Maltodextrin",
+        "Silicon Dioxide",
+        "Magnesium Stearate",
+        "Calcium Ascorbate"
+      ],
+      "certifications": [
+        "Gluten-Free",
+        "Non-GMO",
+        "Vegan",
+        "Vegetarian",
+        "Dairy-Free"
+      ],
+      "description": "Jarrow Formulas® BroccoMax® broccoli seed extract is formulated with active myrosinase, the enzyme in broccoli that metabolizes SGS (Sulforaphane Glucosinolate, a.k.a. glucoraphanin) in the small intestine into sulforaphane.* Sulforaphane supports healthy cell replication and liver health.*",
+      "overview": null,
+      "warnings": "Warning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, are taking medication or have a medical condition; if adverse reactions occur, discontinue use.\nWarning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, are taking medication or have a medical condition; if adverse reactions occur, discontinue use.\r\nKeep out of the reach of children.\nDo not use if safety seal is damaged or missing.",
+      "recommended_use": "Suggested use: Adults take 2 delayed release veggie capsules once a day or as directed by your qualified healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://jarrow.com/products/broccomax-delayed-release-veggie-caps",
+      "variants": [
+        {
+          "price_usd": 25.99,
+          "servings_per_container": 30,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "60ct"
+        },
+        {
+          "price_usd": 46.99,
+          "servings_per_container": 60,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "120ct"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:jarrow-formulas-inositol-750mg-veggie-capsules",
+      "slug": "jarrow-formulas-inositol-750mg-veggie-capsules",
+      "brand": "Jarrow Formulas",
+      "brand_slug": "jarrow-formulas",
+      "name": "Inositol - 750mg Veggie Capsules",
+      "category": "Liver Support",
+      "category_tags": [],
+      "score": 94,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 97,
+          "weighted_score": 38.8,
+          "explanations": [
+            "Evidence grades: A(1)",
+            "Review conclusions: 56% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 97"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Inositol",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/primary.webp?v=87a958c3",
+      "gallery_images": [
+        "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/gallery_1.webp?v=b5ece165",
+        "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/gallery_2.webp?v=428abd7d",
+        "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/gallery_3.webp?v=5e3e071b",
+        "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/gallery_4.webp?v=9849eb29",
+        "/images/products/jarrow-formulas/inositol-750mg-veggie-capsules/gallery_5.webp?v=5124e530"
+      ],
+      "price_usd": 18.99,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 100,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Inositol",
+          "label_amount": 750.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 750.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 33.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hydroxypropyl Methylcellulose",
+        "Water",
+        "Magnesium Stearate",
+        "Silicon Dioxide",
+        "Microcrystalline Cellulose"
+      ],
+      "certifications": [
+        "Gluten-Free",
+        "Non-GMO",
+        "Vegan",
+        "Vegetarian",
+        "Dairy-Free"
+      ],
+      "description": "Jarrow Formulas® Inositol is readily absorbed and used to produce the active inositides as necessary.* The various forms of inositol (phosphatidylinositol and inositides such as IP3) are active in cell-to-cell communication (such as nerve impulses), including in the brain, liver and muscles.* Inositol, also known as myoinositol, is an indirect source of glucuronic acid, which is essential to liver detoxification.*",
+      "overview": null,
+      "warnings": "Warning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, or have a medical condition; if adverse reactions occur, discontinue use.\nWarning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, or have a medical condition; if adverse reactions occur, discontinue use.\r\nKeep out of the reach of children.\nDo not use if safety seal is damaged or missing.",
+      "recommended_use": "Suggested Use: Adults take 1 capsule once a day or as directed by your qualified healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://jarrow.com/products/inositol-750-mg-100-veggie-caps",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:jarrow-formulas-mastic-gum",
+      "slug": "jarrow-formulas-mastic-gum",
+      "brand": "Jarrow Formulas",
+      "brand_slug": "jarrow-formulas",
+      "name": "Mastic Gum",
+      "category": "Gut Health",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/jarrow-formulas/mastic-gum/primary.webp?v=e5477d5f",
+      "gallery_images": [
+        "/images/products/jarrow-formulas/mastic-gum/gallery_1.webp?v=ebaaa87f",
+        "/images/products/jarrow-formulas/mastic-gum/gallery_2.webp?v=44f7da6c",
+        "/images/products/jarrow-formulas/mastic-gum/gallery_3.webp?v=302397ed",
+        "/images/products/jarrow-formulas/mastic-gum/gallery_4.webp?v=5d49316c",
+        "/images/products/jarrow-formulas/mastic-gum/gallery_5.webp?v=d3dab8c3"
+      ],
+      "price_usd": 34.99,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Mastic Gum",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hydroxypropylmethylcellulose",
+        "Water",
+        "Microcrystalline Cellulose",
+        "Magnesium Stearate",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "Gluten-Free",
+        "Non-GMO",
+        "Vegan",
+        "Vegetarian",
+        "Dairy-Free"
+      ],
+      "description": "Jarrow Formulas® Mastic Gum features resin from the mastic tree (Pistacia lentiscus), also called mastiha, a shrub-like tree grown mainly in Greece and Turkey. Composed of a resinous exudate containing essential oils, mastic gum has been used for centuries. Mastic Gum supports the health of the gastric and duodenal cells and tissues to promote gastrointestinal health.*",
+      "overview": null,
+      "warnings": "Warning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, are taking medication or have a medical condition; if adverse reactions occur, discontinue use.\nWarning: Consult a healthcare professional before using this product if you are pregnant, nursing, under the age of 18, are taking medication or have a medical condition; if adverse reactions occur, discontinue use.\r\nKeep out of the reach of children.\nDo not use if safety seal is damaged or missing.",
+      "recommended_use": "Suggested Use: Adults take 2 capsules once a day with water or juice before breakfast or as directed by your qualified healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://jarrow.com/products/mastic-gum-veggie-caps",
+      "variants": [
+        {
+          "price_usd": 34.99,
+          "servings_per_container": 30,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "60ct"
+        },
+        {
+          "price_usd": 59.99,
+          "servings_per_container": 60,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "120ct"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
     }
   ],
   "brands": [
@@ -179028,7 +182041,7 @@
     {
       "slug": "bulksupplements",
       "name": "BulkSupplements",
-      "product_count": 45,
+      "product_count": 48,
       "avg_score": 85,
       "score": 78,
       "grade": "C+",
@@ -179180,7 +182193,7 @@
     {
       "slug": "pure-encapsulations",
       "name": "Pure Encapsulations",
-      "product_count": 336,
+      "product_count": 340,
       "avg_score": 84,
       "score": 78,
       "grade": "C+",
@@ -179232,7 +182245,7 @@
     {
       "slug": "jarrow-formulas",
       "name": "Jarrow Formulas",
-      "product_count": 46,
+      "product_count": 49,
       "avg_score": 85,
       "score": 79,
       "grade": "C+",
@@ -179486,7 +182499,7 @@
     {
       "slug": "double-wood",
       "name": "Double Wood",
-      "product_count": 41,
+      "product_count": 49,
       "score": 79,
       "grade": "C+",
       "components": {
