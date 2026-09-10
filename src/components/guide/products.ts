@@ -52,10 +52,16 @@ export const PRODUCTS: Record<string, GuideProduct> = {
     image: "/images/products/thorne/thorne-vitamin-d-5000/primary.webp",
     verdict: "D3 at clinical dose, NSF certified, pairs well with K2",
   }),
-  "thorne-vitamin-d-k2": p("thorne-vitamin-d-k2", {
-    name: "Vitamin D & K2",
+  // The catalog key stays "thorne-vitamin-d-k2" — guide content pages look it up by
+  // that key — but the SLUG and image now point at the live product. The old
+  // row was a shadow duplicate of this one (identical D3 + K2 menaquinone,
+  // identical $34) and was retired; leaving the slug here would have linked
+  // every guide card to a 404, which is exactly what landing's build check
+  // caught.
+  "thorne-vitamin-d-k2": p("thorne-vitamin-d-k2-liquid", {
+    name: "Vitamin D + K2 Liquid",
     brand: "Thorne",
-    image: "/images/products/thorne/thorne-vitamin-d-k2/primary.webp",
+    image: "/images/products/thorne/thorne-vitamin-d-k2-liquid/primary.webp",
     verdict: "D3 + MK-7 combo for calcium direction — the essential pair",
   }),
   "thorne-magnesium-bisglycinate": p("thorne-magnesium-bisglycinate", {
