@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 932,
+  "product_count": 935,
   "brand_count": 32,
   "products": [
     {
@@ -181693,6 +181693,823 @@
       "is_draft": false,
       "score_version": "3.24",
       "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:kaged-glutamine",
+      "slug": "kaged-glutamine",
+      "brand": "Kaged",
+      "brand_slug": "kaged",
+      "name": "Glutamine",
+      "category": "Amino Acids",
+      "category_tags": [],
+      "score": 91,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 91,
+          "weighted_score": 36.4,
+          "explanations": [
+            "Evidence grades: B(1)",
+            "Review conclusions: 69% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 85 -> 91"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: L-Glutamine",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/kaged/glutamine/primary.webp?v=7eef0346",
+      "gallery_images": [
+        "/images/products/kaged/glutamine/gallery_1.webp?v=1e6b17e3",
+        "/images/products/kaged/glutamine/gallery_2.webp?v=83bb7e3e",
+        "/images/products/kaged/glutamine/gallery_3.webp?v=193eef28",
+        "/images/products/kaged/glutamine/gallery_4.webp?v=4731fa7b",
+        "/images/products/kaged/glutamine/gallery_5.webp?v=e69e9e6e"
+      ],
+      "price_usd": 24.99,
+      "serving_size": "5 Gram(s)",
+      "servings_per_container": 100,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Glutamine",
+          "label_amount": 5.0,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 5.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 40.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "description": "Glutamine is an amino acid that aids in tissue repair, muscle growth, and recovery.* It also plays a role in gut and intestinal health.* Our fermented glutamine is 100% plant-based. This pure, unflavored powder mixes easily, so it’s perfect to add to any muscle-building or recovery stack. \n\n• Rapid Recovery\n\n• Builds Muscle\n\n• Fights Fatigue",
+      "overview": null,
+      "warnings": "Warning: Consult your physician prior to using this product if you are pregnant, nursing, under 18 years of age, taking medication or have a medical condition.\nWarning: Consult your physician prior to using this product if you are pregnant, nursing, under 18 years of age, taking medication or have a medical condition.\nImmediately discontinue use and contact your physician if any adverse reactions occur.\nKeep out of reach of children.",
+      "recommended_use": "Directions: As a dietary supplement, mix one scoop in your favorite beverage or protein shake. Consume 3 servings daily.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://kaged.com/products/glutamine",
+      "variants": [
+        {
+          "price_usd": 24.99,
+          "servings_per_container": 100,
+          "serving_size": "5 Gram(s)",
+          "form": "powder",
+          "label": "500 Grams / Unflavored"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:kaged-bcaa-2-1-1",
+      "slug": "kaged-bcaa-2-1-1",
+      "brand": "Kaged",
+      "brand_slug": "kaged",
+      "name": "BCAA 2:1:1",
+      "category": "Amino Acids",
+      "category_tags": [],
+      "score": 89,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 87,
+          "weighted_score": 34.8,
+          "explanations": [
+            "1 Grade A, 2 Grade B ingredients",
+            "Evidence grades: A(1), B(2)",
+            "Review conclusions: 47% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 88 -> 87"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "3 ingredients at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "3 good: L-Leucine, L-Isoleucine, L-Valine",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (3 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/kaged/bcaa-2-1-1/primary.webp?v=f5f4faf2",
+      "gallery_images": [
+        "/images/products/kaged/bcaa-2-1-1/gallery_1.webp?v=810a56a2",
+        "/images/products/kaged/bcaa-2-1-1/gallery_2.webp?v=cba88d02",
+        "/images/products/kaged/bcaa-2-1-1/gallery_3.webp?v=db43d8ea",
+        "/images/products/kaged/bcaa-2-1-1/gallery_4.webp?v=529117e2",
+        "/images/products/kaged/bcaa-2-1-1/gallery_5.webp?v=7663f784"
+      ],
+      "price_usd": 29.99,
+      "serving_size": "5.5 Gram(s)",
+      "servings_per_container": 72,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "L-Leucine",
+          "label_amount": 2.5,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 2.5,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 71.4,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Isoleucine",
+          "label_amount": 1.25,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1.25,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 62.5,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Valine",
+          "label_amount": 1.25,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1.25,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 62.5,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Sunflower Lecithin"
+      ],
+      "certifications": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "description": "The branched-chain amino acids are key building blocks of protein that help reduce muscle breakdown and encourage muscle growth. Our fermented BCAAs come from 100% plant-based sources. This pure, unflavored powder mixes easily, so it’s perfect to add to any stack anytime you need quality fuel for your muscles.*\n\n• Mixes Easily\n\n• No Flavors Or Colors Added\n\n• Banned Substance Free & Safe For Athletes\n\n• Suitable For Strict Diets",
+      "overview": null,
+      "warnings": "Warning: Consult your physician prior to using this product if you are pregnant, nursing, under 18 years of age, taking medication or have a medical condition.\nWarning: Consult your physician prior to using this product if you are pregnant, nursing, under 18 years of age, taking medication or have a medical condition.\nImmediately discontinue use and contact your physician if any adverse reactions occur.\nKeep out of reach of children.",
+      "recommended_use": "Directions: As a dietary supplement, mix one heaping scoop in your favorite beverage or protein shake. Consume 1 - 3 servings daily with or before each meal.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://kaged.com/products/bcaa-2-1-1",
+      "variants": [
+        {
+          "price_usd": 29.99,
+          "servings_per_container": 72,
+          "serving_size": "5.5 Gram(s)",
+          "form": "powder",
+          "label": "400 Grams / Natural Unflavored"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:kaged-multivitamin",
+      "slug": "kaged-multivitamin",
+      "brand": "Kaged",
+      "brand_slug": "kaged",
+      "name": "Multivitamin",
+      "category": "Multivitamins",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 90,
+          "weighted_score": 36.0,
+          "explanations": [
+            "17 Grade A, 4 Grade B ingredients",
+            "Evidence grades: A(17), B(4), C(3)",
+            "3 ingredients without evidence data (scored as C)",
+            "Review conclusions: 46% of measured outcomes showed a benefit (83% of ingredients covered) — evidence 91 -> 90"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 86,
+          "weighted_score": 30.1,
+          "explanations": [
+            "17 ingredients at optimal doses",
+            "1 ingredient at therapeutic doses",
+            "2 ingredients below recommended dose",
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 88%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 78,
+          "weighted_score": 19.5,
+          "explanations": [
+            "13 good: Vitamin A, Vitamin C, Vitamin D +10 more",
+            "9 basic: Vitamin E, Thiamine, Vitamin B6 +6 more",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Standard vitamin/mineral formula - well-established safety"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/kaged/multivitamin/primary.webp?v=40bfe526",
+      "gallery_images": [
+        "/images/products/kaged/multivitamin/gallery_1.webp?v=97d7a10c",
+        "/images/products/kaged/multivitamin/gallery_2.webp?v=355c3607",
+        "/images/products/kaged/multivitamin/gallery_3.webp?v=13c402ab",
+        "/images/products/kaged/multivitamin/gallery_4.webp?v=0609b60c",
+        "/images/products/kaged/multivitamin/gallery_5.webp?v=06ee453e"
+      ],
+      "price_usd": 34.99,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin A",
+          "label_amount": 900.0,
+          "unit": "mcg RAE",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 900.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 81.8,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin C",
+          "label_amount": 90.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 90.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 80,
+          "bar_percent": 15.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin D",
+          "label_amount": 20.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 20.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 85,
+          "bar_percent": 22.9,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin E",
+          "label_amount": 15.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 15.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 7.2,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin K",
+          "label_amount": 120.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 120.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 22.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Thiamine",
+          "label_amount": 1.2,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1.2,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 2.4,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Riboflavin",
+          "label_amount": 1.3,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1.3,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 2.6,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Niacin",
+          "label_amount": 16.0,
+          "unit": "mg NE",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 16.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 80
+        },
+        {
+          "name": "Vitamin B6",
+          "label_amount": 1.7,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1.7,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 3.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Folate",
+          "label_amount": 400.0,
+          "unit": "mcg DFE",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 70,
+          "bar_percent": 38.1,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin B12",
+          "label_amount": 2.4,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 2.4,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 70,
+          "bar_percent": 0.4,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Biotin",
+          "label_amount": 30.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 30.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 1.2,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Pantothenic Acid",
+          "label_amount": 5.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 5.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 2.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Aquamin F",
+          "label_amount": 60.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 60.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Iron",
+          "label_amount": 18.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 18.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 70,
+          "bar_percent": 102.9,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Iodine",
+          "label_amount": 150.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 150.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 46.2,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Aquamin Mg",
+          "label_amount": 96.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 96.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Zinc",
+          "label_amount": 11.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 11.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 57.9,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Selenium",
+          "label_amount": 55.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 55.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 43.1,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Copper",
+          "label_amount": 0.9,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 0.9,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 46.2,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Manganese",
+          "label_amount": 2.3,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 2.3,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 67.6,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Chromium",
+          "label_amount": 35.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 35.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 31.1,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Molybdenum",
+          "label_amount": 45.0,
+          "unit": "mcg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 45.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 75.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "ACTIValoe",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Rice Extract",
+        "Rice",
+        "Gum Arabic",
+        "Sunflower Oil"
+      ],
+      "certifications": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "The whole-food multivitamin with 21 essential vitamins and minerals. It’s sourced from organic fruits and vegetables, so you can actually absorb the key micronutrients. Bioavailable, properly dosed, and with prebiotic fibers to cover your nutritional bases.*",
+      "overview": null,
+      "warnings": "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately.\nThis product contains a silica gel pack. Do not eat.",
+      "recommended_use": "Directions: Take 2 capsules daily with food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://kaged.com/products/multivitamin",
+      "variants": [
+        {
+          "price_usd": 34.99,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "30 Servings"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
     }
   ],
   "brands": [
@@ -182527,6 +183344,23 @@
         "verification": 57
       },
       "avg_score": 74,
+      "score_version": "brand_v2.8",
+      "provisional": false
+    },
+    {
+      "slug": "kaged",
+      "name": "Kaged",
+      "product_count": 3,
+      "score": 71,
+      "grade": "C-",
+      "components": {
+        "integrity": 77,
+        "product_quality": 85,
+        "innovation": 17,
+        "transparency": 91,
+        "verification": 65
+      },
+      "avg_score": 88,
       "score_version": "brand_v2.8",
       "provisional": false
     }
