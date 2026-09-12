@@ -1224,7 +1224,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-guidance"
+        "time_of_day": "morning",
+        "strength": "preferred"
       }
     },
     {
@@ -1548,7 +1549,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -1769,7 +1771,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -1957,7 +1960,7 @@
       "score_gate_penalty": 8.75,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -2392,7 +2395,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -2550,6 +2553,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -2707,6 +2711,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -2864,7 +2869,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -3166,7 +3171,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -3322,7 +3327,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -4400,7 +4405,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning"
       }
     },
     {
@@ -5807,8 +5812,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "evening",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -5965,8 +5969,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "evening",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -6447,9 +6450,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "evening",
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -6770,7 +6772,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning"
       }
     },
     {
@@ -7501,6 +7503,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -7646,6 +7649,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -8350,8 +8354,7 @@
       "score_gate_penalty": 18.75,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -9369,8 +9372,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -9514,8 +9516,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -10396,7 +10397,7 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -11449,8 +11450,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -11637,8 +11637,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -11802,8 +11801,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -11942,8 +11940,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -12090,8 +12087,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -12267,8 +12263,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -12427,8 +12422,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -12569,8 +12563,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -12731,8 +12724,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -14297,6 +14289,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -14447,7 +14440,7 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -14744,7 +14737,8 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "strength": "preferred"
       }
     },
     {
@@ -15065,7 +15059,7 @@
       "score_gate_penalty": 5.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -20981,7 +20975,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -21306,8 +21300,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -22134,8 +22127,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -22286,8 +22278,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -22615,7 +22606,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -25489,6 +25480,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
+        "time_of_day": "evening",
         "food": "with"
       }
     },
@@ -25932,7 +25924,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -26124,8 +26116,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -26332,7 +26323,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -27245,7 +27236,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -27420,7 +27411,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with"
       }
     },
     {
@@ -28975,8 +28966,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -31240,8 +31230,7 @@
       "is_draft": false,
       "variants": [],
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -35290,7 +35279,6 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.23",
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "without"
       }
     },
@@ -37159,7 +37147,6 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -37312,7 +37299,6 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -38070,8 +38056,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -38545,7 +38530,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided"
+        "food": "with"
       }
     },
     {
@@ -38756,8 +38741,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -40018,7 +40002,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without"
       }
     },
     {
@@ -42768,8 +42752,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -45259,8 +45242,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -45679,7 +45661,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -46204,7 +46187,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "strength": "preferred"
       }
     },
     {
@@ -46751,7 +46735,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "strength": "preferred"
       }
     },
     {
@@ -46922,7 +46907,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -47277,7 +47262,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "strength": "preferred"
       }
     },
     {
@@ -48718,7 +48704,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with"
       }
     },
     {
@@ -49182,7 +49168,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "with"
       }
     },
     {
@@ -49547,7 +49534,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -49857,7 +49844,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -50209,7 +50196,8 @@
       "score_gate_penalty": 8.75,
       "score_version": "3.24",
       "timing_rule": {
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -50365,7 +50353,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -50613,7 +50601,8 @@
       "score_gate_penalty": 8.75,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -50764,8 +50753,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -51249,7 +51237,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -51895,8 +51883,9 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "time_of_day": "evening",
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -52082,6 +52071,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -52449,8 +52439,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -53605,6 +53594,7 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -54789,8 +54779,7 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -54972,7 +54961,7 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "evening"
       }
     },
     {
@@ -55209,7 +55198,8 @@
       "score_gate_penalty": 0.25,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-guidance"
+        "time_of_day": "evening",
+        "strength": "preferred"
       }
     },
     {
@@ -55404,7 +55394,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -55560,7 +55550,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -55866,7 +55856,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "evening",
+        "strength": "preferred"
       }
     },
     {
@@ -56044,8 +56035,7 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -57781,7 +57771,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -57958,7 +57948,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "without"
       }
     },
@@ -58119,7 +58108,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "without"
       }
     },
@@ -58262,7 +58250,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -58438,7 +58426,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -59204,6 +59192,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -59365,7 +59354,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "food": "with"
       }
     },
     {
@@ -59526,7 +59516,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -59853,7 +59843,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -60016,6 +60006,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -60175,7 +60166,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -60338,7 +60329,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -60485,7 +60477,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -60630,7 +60622,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -60893,6 +60885,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -61133,7 +61126,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without"
       }
     },
     {
@@ -61293,7 +61286,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -61580,6 +61574,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -61869,8 +61864,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -62086,7 +62080,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -62244,7 +62238,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -62522,7 +62516,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -62875,6 +62870,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -63780,7 +63776,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -63922,7 +63918,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -64237,7 +64233,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -65195,7 +65191,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -65433,7 +65430,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -66564,6 +66561,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -66805,7 +66803,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -66972,7 +66970,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -67148,7 +67147,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -67374,7 +67373,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -67659,7 +67658,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -68519,7 +68518,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -68709,7 +68708,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -69375,7 +69374,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -69536,7 +69536,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -69697,7 +69696,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -70015,7 +70014,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -70268,8 +70267,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -70411,7 +70409,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -70552,7 +70550,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -70718,7 +70716,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -71022,7 +71020,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -71171,7 +71169,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -71320,7 +71318,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -71479,7 +71477,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -71623,7 +71621,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -72106,7 +72104,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -72247,7 +72245,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "food": "without"
       }
     },
     {
@@ -73561,7 +73559,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -73707,6 +73706,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -73852,6 +73852,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -74466,7 +74467,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -74634,7 +74636,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -74779,6 +74782,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -74941,7 +74945,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "with"
       }
     },
     {
@@ -75103,7 +75108,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "with"
       }
     },
     {
@@ -75265,7 +75271,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "with"
       }
     },
     {
@@ -75426,7 +75433,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -75603,7 +75610,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -75764,7 +75771,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -75909,7 +75916,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -76071,7 +76078,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -76869,6 +76876,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -77028,7 +77036,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -77513,7 +77521,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -77742,7 +77750,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -77902,7 +77911,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -78062,7 +78071,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -78222,7 +78231,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -78867,7 +78876,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -79227,7 +79236,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -80192,6 +80201,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -80334,6 +80344,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -80496,6 +80507,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -80818,7 +80830,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -81026,7 +81039,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -81668,7 +81681,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with"
       }
     },
     {
@@ -81829,7 +81842,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -82007,6 +82021,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -82230,7 +82245,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -82376,7 +82391,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -82871,6 +82887,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -83031,7 +83048,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -83191,6 +83209,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -83350,7 +83369,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -83557,7 +83577,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -83734,7 +83755,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -83878,6 +83899,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
+        "food": "with",
         "separate_from": [
           "zinc"
         ]
@@ -84024,6 +84046,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
+        "food": "with",
         "separate_from": [
           "zinc"
         ]
@@ -84644,7 +84667,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -84959,6 +84983,7 @@
       "score_gate_penalty": 2.75,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -85113,7 +85138,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -85345,7 +85370,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -85532,7 +85557,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -85941,7 +85966,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -86372,7 +86397,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "without"
       }
     },
     {
@@ -86662,7 +86688,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -86823,7 +86849,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -87176,7 +87202,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -87497,7 +87524,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -87649,7 +87677,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -87812,7 +87841,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -87976,7 +88005,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -88139,7 +88168,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -88318,7 +88347,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -88462,7 +88491,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -89155,7 +89184,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -89579,7 +89608,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -89945,7 +89974,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "evening"
+        "time_of_day": "evening",
+        "food": "without"
       }
     },
     {
@@ -90084,7 +90114,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -90404,7 +90434,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -90563,7 +90593,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -90742,6 +90772,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -90902,7 +90933,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -91060,7 +91091,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -91203,7 +91234,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -91345,7 +91376,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -92235,6 +92266,7 @@
       "score_gate_penalty": 2.75,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -92699,7 +92731,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "food": "with"
       }
     },
     {
@@ -92998,7 +93030,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -94017,7 +94049,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -94315,8 +94348,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -95087,7 +95119,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -95899,6 +95932,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -96093,7 +96127,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "without"
       }
     },
@@ -96260,7 +96293,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -96436,7 +96469,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -96915,7 +96948,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -97107,7 +97140,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -97437,7 +97470,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -97648,7 +97681,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -97791,7 +97824,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -97934,7 +97967,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -98094,7 +98127,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -98253,7 +98286,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -99075,7 +99108,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -99344,7 +99377,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -101555,7 +101588,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -102783,7 +102817,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -102943,6 +102978,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -103480,7 +103516,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -107090,7 +107126,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -107249,7 +107285,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -108054,7 +108090,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -108212,7 +108248,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -108355,7 +108391,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -108513,7 +108549,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -108719,7 +108755,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without"
       }
     },
     {
@@ -109086,7 +109123,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -109578,7 +109615,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without"
       }
     },
     {
@@ -109762,6 +109799,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -111081,7 +111119,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -111604,7 +111642,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -111845,7 +111883,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -112146,6 +112184,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -112339,7 +112378,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -112606,7 +112646,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -112766,7 +112806,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -112954,8 +112994,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -113131,7 +113170,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -113368,8 +113407,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -113609,7 +113647,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -114636,6 +114675,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -115103,7 +115143,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -115809,6 +115850,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -116002,7 +116044,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -116302,7 +116344,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -116445,7 +116488,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -116588,7 +116632,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -116888,7 +116933,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -117041,7 +117087,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -117197,7 +117243,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -117440,6 +117486,7 @@
       "score_gate_penalty": 2.75,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -117629,7 +117676,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -117864,7 +117911,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -118137,7 +118184,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -118375,7 +118423,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -122108,7 +122156,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -122543,6 +122591,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -122733,7 +122782,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -123404,7 +123453,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -123900,6 +123948,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -125591,7 +125640,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -125768,7 +125817,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -126993,7 +127042,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -127171,7 +127220,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -127442,7 +127491,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -127601,7 +127650,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -127790,8 +127839,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -127949,7 +127997,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with"
       }
     },
     {
@@ -128615,7 +128663,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -129091,7 +129139,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -129237,7 +129285,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "with"
       }
     },
     {
@@ -129617,6 +129666,7 @@
       "score_gate_penalty": 6.5,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -129759,7 +129809,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -130079,7 +130129,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -130456,7 +130506,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -130616,7 +130666,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -130794,7 +130844,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -130959,8 +131009,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -131096,7 +131145,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "with"
       }
     },
     {
@@ -131266,6 +131316,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -131764,6 +131815,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -132097,6 +132149,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -132442,7 +132495,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -132605,7 +132659,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "evening"
+        "time_of_day": "evening",
+        "food": "with"
       }
     },
     {
@@ -134102,7 +134157,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without"
       }
     },
     {
@@ -134264,7 +134319,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -134450,7 +134505,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -134769,8 +134825,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -134939,7 +134994,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -135121,7 +135176,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -135269,7 +135324,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -135587,7 +135642,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -135895,7 +135950,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -136205,7 +136260,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -136372,7 +136427,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -136521,7 +136577,9 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -136669,7 +136727,9 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -136835,7 +136895,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -137001,7 +137061,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -137614,7 +137674,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -137916,7 +137976,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -138232,7 +138293,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -138777,8 +138838,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -138986,8 +139046,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -139310,7 +139369,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.75,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -140415,8 +140474,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -142779,7 +142837,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 1.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -142957,6 +143015,7 @@
       "score_gate_penalty": 1.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -144600,8 +144659,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 1.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -145189,7 +145247,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "time_of_day": "divided",
+        "time_of_day": "exercise",
         "strength": "preferred"
       }
     },
@@ -146023,7 +146081,9 @@
       "score_gate_penalty": 6.25,
       "withdrawn_reason": "DSLD 273144 contradicts itself — 30 softgels at 1/serving but servingsPerContainer=7, so neither the serving size nor the count can be trusted",
       "timing_rule": {
-        "food": "with"
+        "time_of_day": "morning",
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -147125,7 +147185,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 1.25,
       "timing_rule": {
-        "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -147680,7 +147740,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 1.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "with"
       }
     },
     {
@@ -147866,7 +147926,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.5,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -148101,7 +148162,7 @@
       "score_gate_penalty": 2.5,
       "timing_rule": {
         "time_of_day": "evening",
-        "food": "with"
+        "strength": "preferred"
       }
     },
     {
@@ -148262,7 +148323,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "food": "with"
       }
     },
     {
@@ -148445,6 +148506,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -148603,7 +148665,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -152407,6 +152470,7 @@
       "score_gate_penalty": 0.0,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -153267,7 +153331,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -153999,8 +154063,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -154437,7 +154500,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "time_of_day": "exercise",
+        "strength": "preferred"
       }
     },
     {
@@ -155496,7 +155560,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -156082,7 +156146,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -156223,8 +156288,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -157980,8 +158044,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "morning",
-        "food": "without"
+        "time_of_day": "morning"
       }
     },
     {
@@ -158261,7 +158324,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -158584,8 +158646,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -160602,8 +160663,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "morning",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -160789,8 +160849,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -161095,8 +161154,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -161683,7 +161741,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -162490,8 +162549,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -162630,7 +162688,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -162788,7 +162845,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -162995,8 +163051,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -163422,8 +163477,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -164165,8 +164219,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -164404,8 +164457,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -164611,8 +164663,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -164769,8 +164820,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -164976,8 +165026,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -165183,8 +165232,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -165327,9 +165375,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -165657,7 +165704,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -165820,7 +165867,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -165986,6 +166033,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "exercise",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -166332,8 +166380,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "evening",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -166661,8 +166708,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -166992,6 +167038,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "morning",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -167486,7 +167533,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "exercise"
+        "time_of_day": "exercise",
+        "food": "with"
       }
     },
     {
@@ -167814,7 +167862,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -168508,7 +168556,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -169367,7 +169415,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "morning"
+        "time_of_day": "morning",
+        "food": "without"
       }
     },
     {
@@ -169531,7 +169580,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "food": "without"
       }
     },
     {
@@ -169695,7 +169744,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -170043,7 +170093,9 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-reference"
+        "time_of_day": "morning",
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -170208,6 +170260,7 @@
       "score_gate_penalty": 0.25,
       "timing_rule": {
         "time_of_day": "evening",
+        "food": "without",
         "strength": "preferred"
       }
     },
@@ -170374,7 +170427,9 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "evening"
+        "time_of_day": "evening",
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -170538,7 +170593,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -170768,7 +170823,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -171074,7 +171129,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -171404,8 +171459,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.5,
       "timing_rule": {
-        "time_of_day": "evening",
-        "strength": "preferred"
+        "unknown": "conflict"
       }
     },
     {
@@ -171569,7 +171623,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -171800,8 +171854,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -171965,7 +172018,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided",
+        "food": "with",
         "strength": "preferred"
       }
     },
@@ -172441,8 +172494,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -172632,7 +172684,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -172983,7 +173035,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 2.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -173328,7 +173380,6 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "time_of_day": "divided",
         "food": "with"
       }
     },
@@ -173598,7 +173649,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 6.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -173837,7 +173888,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -173979,7 +174030,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -174400,7 +174451,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -174562,7 +174613,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 15.0,
       "timing_rule": {
-        "time_of_day": "evening"
+        "time_of_day": "evening",
+        "strength": "preferred"
       }
     },
     {
@@ -174966,7 +175018,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -175106,7 +175158,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "without"
+        "unknown": "conflict"
       }
     },
     {
@@ -175552,7 +175604,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -176181,7 +176233,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -176678,7 +176730,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -177533,7 +177585,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -177829,8 +177881,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -178174,8 +178225,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -179289,7 +179339,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -179557,7 +179607,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -180187,8 +180237,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -180774,8 +180823,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 7.5,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -181268,8 +181316,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "time_of_day": "divided",
-        "strength": "preferred"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -181567,7 +181614,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -181712,7 +181759,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 11.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -181876,7 +181923,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
@@ -182040,7 +182087,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -182205,7 +182253,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -182368,7 +182417,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -182858,7 +182907,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "unknown": "no-guidance"
+        "food": "without"
       }
     },
     {
@@ -183730,7 +183779,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -183960,7 +184009,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -184147,7 +184196,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "food": "with"
+        "unknown": "conflict"
       }
     },
     {
@@ -184620,7 +184669,7 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "time_of_day": "divided"
+        "unknown": "no-guidance"
       }
     },
     {
