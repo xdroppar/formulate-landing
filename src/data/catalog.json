@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 976,
+  "product_count": 979,
   "brand_count": 32,
   "products": [
     {
@@ -192074,6 +192074,523 @@
       "is_draft": false,
       "score_version": "3.24",
       "score_gate_penalty": 6.5
+    },
+    {
+      "id": "product:bulksupplements-zeaxanthin-5-powder",
+      "slug": "bulksupplements-zeaxanthin-5-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Zeaxanthin 5% Powder",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 92,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 94,
+          "weighted_score": 37.6,
+          "explanations": [
+            "Evidence grades: A(1)",
+            "Review conclusions: 48% of measured outcomes showed a benefit (100% of ingredients covered) — evidence 95 -> 94"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Zeaxanthin",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/zeaxanthin-5-powder/primary.webp?v=2fedb9dd",
+      "gallery_images": [
+        "/images/products/bulksupplements/zeaxanthin-5-powder/gallery_1.webp?v=39fa7a21",
+        "/images/products/bulksupplements/zeaxanthin-5-powder/gallery_2.webp?v=74ddd701",
+        "/images/products/bulksupplements/zeaxanthin-5-powder/gallery_3.webp?v=093f9c14",
+        "/images/products/bulksupplements/zeaxanthin-5-powder/gallery_4.webp?v=21024b93",
+        "/images/products/bulksupplements/zeaxanthin-5-powder/gallery_5.webp?v=21d37978"
+      ],
+      "price_usd": 38.97,
+      "serving_size": "100 mg",
+      "servings_per_container": 2500,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Zeaxanthin",
+          "label_amount": 5.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 5.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 166.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Zeaxanthin Powder brings a bright addition to your daily regimen with a simple, no-frills approach. Its smooth texture and easy-to-handle form make it a seamless fit for those who value simplicity and consistency. Whether you’re expanding your collection or fine-tuning your routine, it offers an effortless way to keep things consistent.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 100 mg once or twice daily, or as directed by a physician. Use an accurate milligram scale to measure.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/zeaxanthin-5-percent-powder",
+      "variants": [
+        {
+          "price_usd": 25.97,
+          "servings_per_container": 1000,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 38.97,
+          "servings_per_container": 2500,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 60.97,
+          "servings_per_container": 5000,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 101.97,
+          "servings_per_container": 10000,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 476.97,
+          "servings_per_container": 50000,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 899.26,
+          "servings_per_container": 100000,
+          "serving_size": "100 mg",
+          "form": "powder",
+          "label": "Powder / 10 Kilograms (22 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-phenylethylamine-hcl-pea-powder",
+      "slug": "bulksupplements-phenylethylamine-hcl-pea-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Phenylethylamine HCl (PEA) Powder",
+      "category": "Nootropics",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "1 basic: Phenylethylamine HCl",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/primary.webp?v=c9c94cce",
+      "gallery_images": [
+        "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/gallery_1.webp?v=1b67946e",
+        "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/gallery_2.webp?v=5709e56f",
+        "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/gallery_3.webp?v=08de772f",
+        "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/gallery_4.webp?v=42e6af15",
+        "/images/products/bulksupplements/phenylethylamine-hcl-pea-powder/gallery_5.webp?v=354ada23"
+      ],
+      "price_usd": 52.97,
+      "serving_size": "150 mg",
+      "servings_per_container": 3333,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Phenylethylamine HCl",
+          "label_amount": 150.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 150.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 50.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Unleash your inner spark with our premium Phenylethylamine HCl powder (PEA HCl). Our pure, exceptional powder offers a natural, holistic approach to lift your spirits and clear your mind. Packed with essential nutrients, PEA HCl powder provides a convenient way to elevate your well-being and reap the benefits. Experience the revitalizing essence of Phenylethylamine powder and nurture your vitality with every serving.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.\nDo not exceed recommended dose.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 150 mg once daily, or as directed by a physician. Individual needs may vary.\nUse an accurate milligram scale to measure.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/phenylethylamine-hcl-pea-powder",
+      "variants": [
+        {
+          "price_usd": 52.97,
+          "servings_per_container": 3333,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 24.97,
+          "servings_per_container": 666,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 35.97,
+          "servings_per_container": 1666,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 88.97,
+          "servings_per_container": 6666,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 415.97,
+          "servings_per_container": 33333,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 1887.79,
+          "servings_per_container": 166666,
+          "serving_size": "150 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-orotic-acid-powder",
+      "slug": "bulksupplements-orotic-acid-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Orotic Acid Powder",
+      "category": "Sports Performance",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/orotic-acid-powder/primary.webp?v=491f0598",
+      "gallery_images": [
+        "/images/products/bulksupplements/orotic-acid-powder/gallery_1.webp?v=8f03a9cb",
+        "/images/products/bulksupplements/orotic-acid-powder/gallery_2.webp?v=e6b48640",
+        "/images/products/bulksupplements/orotic-acid-powder/gallery_3.webp?v=b9fb64be",
+        "/images/products/bulksupplements/orotic-acid-powder/gallery_4.webp?v=4359ef8f",
+        "/images/products/bulksupplements/orotic-acid-powder/gallery_5.webp?v=1e6b71b7"
+      ],
+      "price_usd": 419.97,
+      "serving_size": "1000 mg",
+      "servings_per_container": 5000,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Orotic Acid",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Dairy-Free"
+      ],
+      "description": "Unleash the power of Orotic Acid powder! Our top-notch product is a game-changer for those seeking to elevate their wellness routine. It's not just a supplement, it's a step towards a more balanced lifestyle. With its easy-to-use format, our Orotic Acid Powder seamlessly blends into your daily regimen. Perfect for those who value purity and simplicity in their wellness journey. Transform your day with our Orotic Acid powder - it's the revitalizing boost your routine needs!",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.\nSuggested Use:  As a dietary supplement, take 1000 mg (about 1/3 tsp) once daily, or as directed by a physician.",
+      "recommended_use": null,
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/orotic-acid-powder",
+      "variants": [
+        {
+          "price_usd": 419.97,
+          "servings_per_container": 5000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 1925.29,
+          "servings_per_container": 25000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
     }
   ],
   "brands": [
@@ -192422,7 +192939,7 @@
     {
       "slug": "bulksupplements",
       "name": "BulkSupplements",
-      "product_count": 51,
+      "product_count": 54,
       "avg_score": 84,
       "score": 78,
       "grade": "C+",
