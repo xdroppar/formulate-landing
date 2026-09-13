@@ -55,6 +55,19 @@ export type Product = {
   description: string | null;
   overview: string | null;
   recommended_use: string | null;
+  /**
+   * Structured timing guidance, reconciled at export from BOTH the ingredient's
+   * reference record and this product's own `recommended_use`, so the chip
+   * cannot contradict the prose it is rendered beside. 673 of 979 rows carry an
+   * actionable rule; the rest carry `unknown` and render nothing.
+   */
+  timing_rule?: {
+    time_of_day?: "morning" | "evening" | "exercise";
+    food?: "with" | "without";
+    strength?: "required" | "preferred";
+    separate_from?: string[];
+    unknown?: string;
+  } | null;
   warnings: string | null;
   amazon_url: string | null;
   iherb_url: string | null;

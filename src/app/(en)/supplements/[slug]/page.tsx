@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { TimingChips } from "@/components/timing-chips";
 import Image from "next/image";
 import {
   products,
@@ -618,16 +619,24 @@ export default async function SupplementPage({ params }: { params: Params }) {
         </section>
       )}
 
-      {(product.recommended_use || product.warnings) && (
+      {(product.recommended_use || product.warnings ||
+        (product.timing_rule && !product.timing_rule.unknown)) && (
         <section className="mb-12 grid md:grid-cols-2 gap-6">
-          {product.recommended_use && (
+          {(product.recommended_use ||
+            (product.timing_rule && !product.timing_rule.unknown)) && (
             <div className="rounded-xl border border-border bg-white/[0.02] p-5">
               <h2 className="fm-eyebrow mb-2">
                 Recommended Use
               </h2>
-              <p className="text-sm text-text leading-relaxed">
-                {stripHtml(product.recommended_use).slice(0, 400)}
-              </p>
+              {/* Above the prose, not instead of it. The chips are the parsed
+                  form of this same text — reconciled against it at export, so
+                  they cannot disagree with it. */}
+              <TimingChips rule={product.timing_rule} />
+              {product.recommended_use && (
+                <p className="text-sm text-text leading-relaxed">
+                  {stripHtml(product.recommended_use).slice(0, 400)}
+                </p>
+              )}
             </div>
           )}
           {product.warnings && (
