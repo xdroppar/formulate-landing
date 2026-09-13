@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 964,
+  "product_count": 976,
   "brand_count": 32,
   "products": [
     {
@@ -190150,6 +190150,1930 @@
       "is_draft": false,
       "score_version": "3.24",
       "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:pure-encapsulations-black-cohosh-2-5",
+      "slug": "pure-encapsulations-black-cohosh-2-5",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Black Cohosh 2.5",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 92,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Black Cohosh Root Extract",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/black-cohosh-2-5/primary.webp?v=037d60b9",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/black-cohosh-2-5/gallery_1.webp?v=f2794550"
+      ],
+      "price_usd": 53.0,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Black Cohosh Root Extract",
+          "label_amount": 250.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 250.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 500.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Water",
+        "Plant Fiber"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Offers support for menopausal comfort including occasional hot flashes‡\n\n• Promotes comfort during menopause‡ \n• May provide support for ocassional hot flashes‡ \n• Promotes healthy estrogen metabolism‡",
+      "overview": null,
+      "warnings": "Warning: Not to be taken by pregnant or lactating women. If you have any health condition, particularly a liver condition, or are taking any medication, consult your health professional before use.\nIf you have any health condition, particularly a liver condition, or are taking any medication, consult your health professional before use. Your health professional may decide to monitor liver function while taking this product.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-2 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/black-cohosh",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-cranberry-ns",
+      "slug": "pure-encapsulations-cranberry-ns",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Cranberry NS",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/cranberry-ns/primary.webp?v=52dc5264",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/cranberry-ns/gallery_1.webp?v=9bf11c6c",
+        "/images/products/pure-encapsulations/cranberry-ns/gallery_2.webp?v=85b6e130"
+      ],
+      "price_usd": 73.5,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 180,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Cranberry (Vaccinium macrocarpon) concentrate",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 125.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cranberry Fiber",
+        "Vegetarian Capsule",
+        "Cranberry seed Oil",
+        "Guar Gum",
+        "Sunflower Lecithin"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Nutritionally supports urinary tract health without unwanted sugar‡\n\n\r\n• Promotes urinary tract health‡ \n• Helps maintain a healthy bladder wall‡ \n• Cranberry extract plays an important role in enhancing the acidity of urine to support urinary health‡",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, 1-3 times daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/cranberry-ns-90",
+      "variants": [
+        {
+          "price_usd": 41.5,
+          "servings_per_container": 90,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "90 Capsules"
+        },
+        {
+          "price_usd": 73.5,
+          "servings_per_container": 180,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "180 Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-ip6-inositol-hexaphosphate",
+      "slug": "pure-encapsulations-ip6-inositol-hexaphosphate",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "IP6 (inositol hexaphosphate)",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 66,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/ip6-inositol-hexaphosphate/primary.webp?v=8a809ba3",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/ip6-inositol-hexaphosphate/gallery_1.webp?v=7ccd028b"
+      ],
+      "price_usd": 53.0,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "IP6",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 66.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Water",
+        "hypoallergenic Plant Fiber"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Antioxidant support for prostate, breast, colon, and liver cell health‡\n\n\r\n• Designed to promote healthy cell metabolism and maintain proper enzyme activity in cells‡ \n• Provides antioxidant support to protect cells from damage caused from free radicals‡ \n• Antioxidant support for prostate, breast, colon, and liver cell health‡ \n• Supports natural defense mechanisms‡",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact",
+      "recommended_use": "Recommendations: As a dietary supplement, take 2 capsules,1-2 daily, between meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/ip6-inositol-hexaphosphate",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:pure-encapsulations-cinnamon-ws",
+      "slug": "pure-encapsulations-cinnamon-ws",
+      "brand": "Pure Encapsulations",
+      "brand_slug": "pure-encapsulations",
+      "name": "Cinnamon WS",
+      "category": "Heart Health",
+      "category_tags": [],
+      "score": 66,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/pure-encapsulations/cinnamon-ws/primary.webp?v=37d82891",
+      "gallery_images": [
+        "/images/products/pure-encapsulations/cinnamon-ws/gallery_1.webp?v=2432fab6"
+      ],
+      "price_usd": 57.5,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Cinnamon Dried Bark Extract",
+          "label_amount": 125.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 125.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 33.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Water",
+        "Cellulose",
+        "Ascorbyl Palmitate"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Non-GMO",
+        "Soy-Free",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "Certified Gluten-Free (GFCO)"
+      ],
+      "description": "Provides cardiovascular benefits & healthy glucose metabolsim‡\n\n\r\n• Provides cardiovascular benefits with support for healthy lipid metabolism‡ \n• May support healthy blood flow and antioxidant protection‡ \n• Helps maintain healthy glucose metabolism‡",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant or lactating, have any health condition or are taking any medication, consult your health professional before use.\nKeep out of the reach of children.\nUse only if safety seal is intact.",
+      "recommended_use": "Recommendations: As a dietary supplement, take 1 capsule, twice daily, with meals.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://pureforyou.com/products/cinnamon-ws",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:codeage-liposomal-coq10-capsules",
+      "slug": "codeage-liposomal-coq10-capsules",
+      "brand": "Codeage",
+      "brand_slug": "codeage",
+      "name": "Liposomal CoQ10 Capsules",
+      "category": "Heart Health",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 94,
+          "weighted_score": 37.6,
+          "explanations": [
+            "Evidence grades: A(3)",
+            "Review conclusions: 45% of measured outcomes showed a benefit (67% of ingredients covered) — evidence 95 -> 94"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 100,
+          "weighted_score": 35.0,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "2 ingredients at therapeutic doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "2 basic: Vitamin E, Vitamin E Isomers",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 90,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "Low brand transparency (20%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (3 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 60,
+          "weighted_score": 0.0,
+          "explanations": [
+            "GMP Certified facility"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/codeage/liposomal-coq10-capsules/primary.webp?v=b20c53cc",
+      "gallery_images": [
+        "/images/products/codeage/liposomal-coq10-capsules/gallery_1.webp?v=a0eda3b2",
+        "/images/products/codeage/liposomal-coq10-capsules/gallery_2.webp?v=bb8c6a89",
+        "/images/products/codeage/liposomal-coq10-capsules/gallery_3.webp?v=67f67094",
+        "/images/products/codeage/liposomal-coq10-capsules/gallery_4.webp?v=03263f9c"
+      ],
+      "price_usd": 34.99,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin E",
+          "label_amount": 11.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 11.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 5.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Coenzyme Q-10",
+          "label_amount": 125.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 125.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 62.5,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin E Isomers",
+          "label_amount": 14.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 14.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 6.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Methylcellulose",
+        "Microcrystalline Cellulose",
+        "Sunflower Oil"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Vegan",
+        "cGMP Certified",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "Codeage Liposomal CoQ10 offers a blend of Coenzyme Q10, Vitamin E, and its isomers (delta, beta, and gamma tocopherols) in a convenient 1-capsule daily formula. This coenzyme Q10 supplement also includes a liposomal formula. 2-month supply per bottle.\n\n• Each serving of Codeage Liposomal CoQ10 delivers 125 mg of Coenzyme Q10, along with Vitamin E as d-Alpha Tocopherol and Vitamin E Isomers (delta, beta, and gamma tocopherols).\n\n• The formula features a liposomal delivery made with a phospholipid complex.\n\n• With 60 servings per bottle, Codeage Liposomal CoQ10 supplement provides a 2-month supply per bottle.\n\n• Codeage Liposomal CoQ10 is manufactured in the USA with global ingredients in a cGMP-certified facility for quality and purity. The formula is non-GMO, vegan, dairy-free, soy-free, and gluten-free to accommodate various dietary preferences and restrictions. A more potent version with 250 mg of CoQ10 per serving is also available.",
+      "overview": null,
+      "warnings": "Caution: Do not exceed recommended dose.\r\nDiscontinue use two weeks prior to surgery.\nPregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nPlease use caution if you have allergies or sensitivities to any of the listed ingredients.\r\nThis product is manufactured in a facility that processes fish and tree nuts.\nKeep out of reach of children and pets.\nKeep out of reach of children and pets.",
+      "recommended_use": "Suggested Use: Adults take 1 capsule daily, or as recommended by your healthcare practitioner, with 8 ounces of water or your favorite beverage. May be taken with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://codeage.com/products/liposomal-coq10-capsule-supplement",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 7.5
+    },
+    {
+      "id": "product:codeage-liposomal-coq10-max-capsules",
+      "slug": "codeage-liposomal-coq10-max-capsules",
+      "brand": "Codeage",
+      "brand_slug": "codeage",
+      "name": "Liposomal CoQ10 Max Capsules",
+      "category": "Heart Health",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 94,
+          "weighted_score": 37.6,
+          "explanations": [
+            "Evidence grades: A(3)",
+            "Review conclusions: 45% of measured outcomes showed a benefit (67% of ingredients covered) — evidence 95 -> 94"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 100,
+          "weighted_score": 35.0,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "2 ingredients at therapeutic doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "2 basic: Vitamin E, Vitamin E Isomers",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 90,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "Low brand transparency (20%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (3 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 60,
+          "weighted_score": 0.0,
+          "explanations": [
+            "GMP Certified facility"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/codeage/liposomal-coq10-max-capsules/primary.webp?v=77fc9e51",
+      "gallery_images": [
+        "/images/products/codeage/liposomal-coq10-max-capsules/gallery_1.webp?v=2c8d1dad",
+        "/images/products/codeage/liposomal-coq10-max-capsules/gallery_2.webp?v=ac0560d6",
+        "/images/products/codeage/liposomal-coq10-max-capsules/gallery_3.webp?v=8970f678",
+        "/images/products/codeage/liposomal-coq10-max-capsules/gallery_4.webp?v=b0c1cf30"
+      ],
+      "price_usd": 49.99,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin E",
+          "label_amount": 11.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 11.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 5.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Coenzyme Q-10",
+          "label_amount": 250.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 250.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 125.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin E Isomers",
+          "label_amount": 14.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 14.0,
+          "dose_score": 100,
+          "dose_range_status": "therapeutic",
+          "form_quality_score": 75,
+          "bar_percent": 6.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Methylcellulose",
+        "Sunflower Oil"
+      ],
+      "certifications": [
+        "Dairy-Free",
+        "Vegan",
+        "cGMP Certified",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "Codeage Liposomal CoQ10 Max provides 250 mg of Coenzyme Q10 per serving with just one capsule daily. This advanced CoQ10 supplement also includes Vitamin E, Vitami E isomers, and liposomal formula made with a phospholipid complex. Each bottle offers a 2-month supply.\n\n• Codeage Liposomal CoQ10 Max contains 250 mg of Coenzyme Q10 per serving, along with Vitamin E as d-Alpha Tocopherol and Vitamin E Isomers (delta, beta, and gamma tocopherols).\n\n• This coenzyme Q10 supplement features a unique liposomal delivery with a phospholipid complex. Each bottle provides a 2-month supply.\n\n• Designed for convenience, this supplement comes in a daily serving of one capsule.\n\n• Codeage Liposomal CoQ10 Max is non-GMO, vegan, dairy-free, soy-free, and gluten-free, catering to various dietary preferences.\n\n• Manufactured in a cGMP-certified facility in the USA with global ingredients for quality and purity.",
+      "overview": null,
+      "warnings": "Caution: Do not exceed recommended dose.\r\nDiscontinue use two weeks prior to surgery.\nPregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nPregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nPlease use caution if you have allergies or sensitivities to any of the listed ingredients.\r\nThis product is manufactured in a facility that processes fish and tree nuts.",
+      "recommended_use": "Suggested use: Adults take 1 capsule daily, or as recommended by your healthcare practitioner, with 8 ounces of water or your favorite beverage. May be taken with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://codeage.com/products/liposomal-coq10-max-capsules-vitamin-e-isomers-supplement",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 7.5
+    },
+    {
+      "id": "product:codeage-amen-sea-moss",
+      "slug": "codeage-amen-sea-moss",
+      "brand": "Codeage",
+      "brand_slug": "codeage",
+      "name": "Amen Sea Moss",
+      "category": "Greens",
+      "category_tags": [],
+      "score": 75,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 82,
+          "weighted_score": 32.8,
+          "explanations": [
+            "2 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(2), B(1), C(3)",
+            "1 ingredient without evidence data (scored as C)",
+            "Review conclusions: 39% of measured outcomes showed a benefit (33% of ingredients covered) — evidence 83 -> 82"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 84,
+          "weighted_score": 29.4,
+          "explanations": [
+            "4 ingredients at optimal doses",
+            "1 ingredient below recommended dose",
+            "Reference coverage: 83%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 83,
+          "weighted_score": 20.75,
+          "explanations": [
+            "3 good: Vitamin C, Aloe vera Whole Plant Extract, Black Pepper Fruit Extract",
+            "1 basic: Bladderwrack",
+            "Absorption enhancer: Black Pepper Fruit Extract (+5)",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 90,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full",
+            "Low brand transparency (20%)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 60,
+          "weighted_score": 0.0,
+          "explanations": [
+            "GMP Certified facility"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/codeage/amen-sea-moss/primary.webp?v=b45df5fb",
+      "gallery_images": [
+        "/images/products/codeage/amen-sea-moss/gallery_1.webp?v=c36828b9",
+        "/images/products/codeage/amen-sea-moss/gallery_2.webp?v=840515f8",
+        "/images/products/codeage/amen-sea-moss/gallery_3.webp?v=ca2475e0",
+        "/images/products/codeage/amen-sea-moss/gallery_4.webp?v=e2ed3467"
+      ],
+      "price_usd": 26.99,
+      "serving_size": "3 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Vitamin C",
+          "label_amount": 50.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 50.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 80,
+          "bar_percent": 8.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Irish Sea Moss",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50
+        },
+        {
+          "name": "Bladderwrack",
+          "label_amount": 400.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 53.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Burdock",
+          "label_amount": 400.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 400.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 114.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Aloe vera Whole Plant Extract",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Black Pepper Fruit Extract",
+          "label_amount": 5.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 5.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 40.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Methylcellulose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Amen Sea Moss supplement features a nutrient-dense blend of organic Irish sea moss, bladderwrack, and burdock. This formula also includes vitamin C, aloe vera, and black pepper. Each bottle provides a 1-month supply in convenient capsule form.\n\n• Amen Sea Moss supplement contains 1000mg of organic Irish sea moss, 400mg of organic bladderwrack, and 400mg of organic burdock, offering a high-quality blend of plants and ingredients in each serving.\n\n• This formula is further enhanced with vitamin C, aloe vera extract, and black pepper extract.\n\n• Amen Sea Moss is plant-based, non-GMO, and free from dairy, soy, and gluten. It is also vegan, making it suitable for various dietary preferences and needs.\n\n• Each bottle contains a 1-month supply, allowing you to conveniently incorporate this supplement into your daily routine.\n\n• Amen Sea Moss supplement is manufactured in a cGMP-certified facility in the USA with globally sourced ingredients for quality and purity.",
+      "overview": null,
+      "warnings": "Made on equipment that also processes milk, eggs, fish, tree nuts and soy.\r\nPlease use caution if you have allergies or sensitivities to any of the listed ingredients.\nCaution: Do not exceed recommended dose.\nPregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\nPregnant or nursing mothers, children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement.\r\nKeep out of reach of children and pets.\nDo not use if product has been opened or tampered with in any way.",
+      "recommended_use": "Suggested use: Take 3 capsules daily with 8 ounces of water or your favorite beverage. May be taken with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://codeage.com/products/amen-sea-moss-organic-irish-moss-bladderwack-burdock-vitamin-c-supplement",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 7.5
+    },
+    {
+      "id": "product:nutricost-acai-capsules",
+      "slug": "nutricost-acai-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Acai Capsules",
+      "category": "Nootropics",
+      "category_tags": [],
+      "score": 70,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/acai-capsules/primary.webp?v=f1acedfb",
+      "gallery_images": [
+        "/images/products/nutricost/acai-capsules/gallery_1.webp?v=4c0ab5cf",
+        "/images/products/nutricost/acai-capsules/gallery_2.webp?v=eb78c820"
+      ],
+      "price_usd": 15.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Acai Fruit Extract",
+          "label_amount": 550.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 550.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 44.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Maltodextrin",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 550mg of High Quality Acai Per Capsule\n\n• 120 Vegetarian Capsules of Acai For 120 Servings\n\n• Non-GMO & Gluten Free\n\n• Vegetarian Friendly & 3rd Party Tested\n\n• Made in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-acai-capsules-550mg-120-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-white-kidney-bean-capsules",
+      "slug": "nutricost-white-kidney-bean-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "White Kidney Bean Capsules",
+      "category": "Metabolism",
+      "category_tags": [],
+      "score": 66,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/white-kidney-bean-capsules/primary.webp?v=b2fbcfbd",
+      "gallery_images": [
+        "/images/products/nutricost/white-kidney-bean-capsules/gallery_1.webp?v=75898221",
+        "/images/products/nutricost/white-kidney-bean-capsules/gallery_2.webp?v=d39edcde"
+      ],
+      "price_usd": 14.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "White Kidney Bean Seed Extract",
+          "label_amount": 650.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 650.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 37.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 650mg of White Kidney Bean Extract (10:1) Per Serving. Equivalent to 6500mg of White Kidney Bean\n\n• 120 Capsules In Each Bottle (1 Serving, just 1 Capsule)\n\n• High Quality Vegetarian Product Sourced from the Phaseolus Vulgaris seed (White Kidney Bean)\n\n• Plant-Based “Veggie” Capsules, Non-GMO, & Gluten Free\n\n• \n3rd Party Tested and Made in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-white-kidney-bean-650mg-120-capsules-1",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:bulksupplements-cinnamon-bark-extract-capsules",
+      "slug": "bulksupplements-cinnamon-bark-extract-capsules",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Cinnamon Bark Extract Capsules",
+      "category": "Antioxidants",
+      "category_tags": [],
+      "score": 65,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/cinnamon-bark-extract-capsules/primary.webp?v=59d89135",
+      "gallery_images": [
+        "/images/products/bulksupplements/cinnamon-bark-extract-capsules/gallery_1.webp?v=3399fcd4",
+        "/images/products/bulksupplements/cinnamon-bark-extract-capsules/gallery_2.webp?v=3f9a827d",
+        "/images/products/bulksupplements/cinnamon-bark-extract-capsules/gallery_3.webp?v=47c12b62",
+        "/images/products/bulksupplements/cinnamon-bark-extract-capsules/gallery_4.webp?v=95f076bc",
+        "/images/products/bulksupplements/cinnamon-bark-extract-capsules/gallery_5.webp?v=0245cf89"
+      ],
+      "price_usd": 20.97,
+      "serving_size": "1000 mg",
+      "servings_per_container": 100,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Cinnamon Bark Extract",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 266.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [],
+      "certifications": [
+        "Vegan",
+        "Vegetarian",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Cinnamon Bark Capsules bring the warm, familiar spice of cinnamon into your daily routine in a simple, convenient form. With roots in centuries of tradition, these capsules offer an easy way to add a touch of comfort to your day. Whether you're building a new ritual or switching things up, they’re a flavorful addition that fits seamlessly into your lifestyle.",
+      "overview": null,
+      "warnings": "Always consult a physician before taking any dietary supplement.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1000 mg (about 1/3 tsp) once or twice daily, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/ceylon-cinnamon-capsules",
+      "variants": [
+        {
+          "price_usd": 27.96,
+          "servings_per_container": null,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Capsule / 240 Veg Capsules"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 100,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 24.97,
+          "servings_per_container": 250,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 30.97,
+          "servings_per_container": 500,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 44.97,
+          "servings_per_container": 1000,
+          "serving_size": "1000 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:bulksupplements-watercress-extract-powder",
+      "slug": "bulksupplements-watercress-extract-powder",
+      "brand": "BulkSupplements",
+      "brand_slug": "bulksupplements",
+      "name": "Watercress Extract Powder",
+      "category": "Minerals",
+      "category_tags": [],
+      "score": 65,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 80,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/bulksupplements/watercress-extract-powder/primary.webp?v=71a84305",
+      "gallery_images": [
+        "/images/products/bulksupplements/watercress-extract-powder/gallery_1.webp?v=6847f49d",
+        "/images/products/bulksupplements/watercress-extract-powder/gallery_2.webp?v=4702f10d",
+        "/images/products/bulksupplements/watercress-extract-powder/gallery_3.webp?v=1fd97bd9",
+        "/images/products/bulksupplements/watercress-extract-powder/gallery_4.webp?v=d15de419",
+        "/images/products/bulksupplements/watercress-extract-powder/gallery_5.webp?v=0ca6f0ad"
+      ],
+      "price_usd": 32.97,
+      "serving_size": "900 mg",
+      "servings_per_container": 555,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Watercress Leaf Extract",
+          "label_amount": 900.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 900.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 72.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "None"
+      ],
+      "certifications": [
+        "Vegan",
+        "cGMP Certified",
+        "Third-Party Tested",
+        "NSF Certified",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "description": "Embrace the power of nature with Watercress Extract powder. Carefully crafted from pure watercress, our Watercress Extract powder is a versatile addition to your wellness routine. Packed with essential nutrients and antioxidants, it's perfect for creating nutritious smoothies, juices, or culinary delights. Elevate your daily nutrition with our premium Watercress Extract powder and savor the benefits of this natural superfood.",
+      "overview": null,
+      "warnings": "Keep out of reach of children.\nAlways consult a physician before taking any dietary supplement.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 900 mg (about 1/3 tsp) once daily with meal, or as directed by a physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://www.bulksupplements.com/products/watercress-extract-powder",
+      "variants": [
+        {
+          "price_usd": 23.97,
+          "servings_per_container": 277,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 250 Grams (8.8 oz)"
+        },
+        {
+          "price_usd": 20.97,
+          "servings_per_container": 111,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 100 Grams (3.5 oz)"
+        },
+        {
+          "price_usd": 32.97,
+          "servings_per_container": 555,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 500 Grams (1.1 lbs)"
+        },
+        {
+          "price_usd": 45.97,
+          "servings_per_container": 1111,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 1 Kilogram (2.2 lbs)"
+        },
+        {
+          "price_usd": 210.97,
+          "servings_per_container": 5555,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 5 Kilograms (11 lbs)"
+        },
+        {
+          "price_usd": 704.79,
+          "servings_per_container": 27777,
+          "serving_size": "900 mg",
+          "form": "powder",
+          "label": "Powder / 25 Kilograms (55 lbs)"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 1.25
+    },
+    {
+      "id": "product:jarrow-formulas-artichoke",
+      "slug": "jarrow-formulas-artichoke",
+      "brand": "Jarrow Formulas",
+      "brand_slug": "jarrow-formulas",
+      "name": "Artichoke",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 80,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 70,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Proprietary blend hides ingredient amounts"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/jarrow-formulas/artichoke/primary.webp?v=44d04021",
+      "gallery_images": [
+        "/images/products/jarrow-formulas/artichoke/gallery_1.webp?v=0b98f0d2",
+        "/images/products/jarrow-formulas/artichoke/gallery_2.webp?v=6c9d45cd",
+        "/images/products/jarrow-formulas/artichoke/gallery_3.webp?v=0b83b45b",
+        "/images/products/jarrow-formulas/artichoke/gallery_4.webp?v=62ac3684",
+        "/images/products/jarrow-formulas/artichoke/gallery_5.webp?v=220ea92d"
+      ],
+      "price_usd": 35.99,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 180,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Artichoke Leaf Extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 106.4,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Cellulose",
+        "Hydroxypropyl Methylcellulose",
+        "Water",
+        "Maltodextrin",
+        "Magnesium Stearate",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "Gluten-Free",
+        "Non-GMO",
+        "Vegan",
+        "Non GMO Certified by NSF\nwww.nsfnongmo.org",
+        "Vegetarian",
+        "Dairy-Free"
+      ],
+      "description": "Jarrow Formulas® Artichoke Extract is standardized to 5% total caffeoylquinic acids and supports liver health and digestion by increasing the production of bile to aid detoxification and the digestion and absorption of fat-soluble nutrients.*",
+      "overview": null,
+      "warnings": "Note: Consult a healthcare professional before using this product if you are trying to conceive, pregnant, or lactating, under the age of 18, or have a medical condition (especially gall bladder or bile duct blockages); if adverse reactions occur, discontinue use.\nNote: Consult a healthcare professional before using this product if you are trying to conceive, pregnant, or lactating, under the age of 18, or have a medical condition (especially gall bladder or bile duct blockages); if adverse reactions occur, discontinue use.\nKeep out of the reach of children.",
+      "recommended_use": "Usage: Take 1 capsule per day with food or as directed by your qualified healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://jarrow.com/products/artichoke-500-mg-180-veggie-caps",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 6.5
     }
   ],
   "brands": [
@@ -190308,7 +192232,7 @@
     {
       "slug": "nutricost",
       "name": "Nutricost",
-      "product_count": 155,
+      "product_count": 157,
       "avg_score": 86,
       "score": 83,
       "grade": "B",
@@ -190498,8 +192422,8 @@
     {
       "slug": "bulksupplements",
       "name": "BulkSupplements",
-      "product_count": 49,
-      "avg_score": 85,
+      "product_count": 51,
+      "avg_score": 84,
       "score": 78,
       "grade": "C+",
       "confidence": "high",
@@ -190650,7 +192574,7 @@
     {
       "slug": "pure-encapsulations",
       "name": "Pure Encapsulations",
-      "product_count": 340,
+      "product_count": 344,
       "avg_score": 84,
       "score": 78,
       "grade": "C+",
@@ -190702,7 +192626,7 @@
     {
       "slug": "jarrow-formulas",
       "name": "Jarrow Formulas",
-      "product_count": 50,
+      "product_count": 51,
       "avg_score": 85,
       "score": 79,
       "grade": "C+",
@@ -190973,7 +192897,7 @@
     {
       "slug": "codeage",
       "name": "Codeage",
-      "product_count": 42,
+      "product_count": 45,
       "score": 67,
       "grade": "D+",
       "components": {
