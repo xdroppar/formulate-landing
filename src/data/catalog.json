@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "exported_at": "2026-08-18T17:44:05.898990+00:00",
   "latest_score_update": "2026-07-17T02:10:11.843011",
-  "product_count": 938,
+  "product_count": 964,
   "brand_count": 32,
   "products": [
     {
@@ -5339,8 +5339,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -6127,8 +6127,8 @@
       "score_version": "3.24",
       "timing_rule": {
         "time_of_day": "morning",
-        "strength": "preferred",
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -9068,8 +9068,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -9227,8 +9227,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -15205,8 +15205,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -15492,8 +15492,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -17090,8 +17090,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -19660,8 +19660,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -21142,8 +21142,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -23460,8 +23460,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -23987,8 +23987,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -24151,8 +24151,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -24357,8 +24357,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -24512,8 +24512,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -24664,8 +24664,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -29290,8 +29290,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -43702,8 +43702,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -46592,8 +46592,8 @@
       "score_gate_penalty": 0.0,
       "score_version": "3.24",
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -56224,8 +56224,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -66332,8 +66332,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -77359,8 +77359,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -86542,8 +86542,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "without"
+        "food": "without",
+        "strength": "preferred"
       }
     },
     {
@@ -131984,8 +131984,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -149151,8 +149151,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.0,
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -169250,8 +169250,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -172184,8 +172184,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "preferred",
-        "food": "with"
+        "food": "with",
+        "strength": "preferred"
       }
     },
     {
@@ -184356,8 +184356,8 @@
       "score_version": "3.24",
       "score_gate_penalty": 0.25,
       "timing_rule": {
-        "strength": "required",
-        "food": "with"
+        "food": "with",
+        "strength": "required"
       }
     },
     {
@@ -186163,6 +186163,3993 @@
         "time_of_day": "exercise",
         "strength": "preferred"
       }
+    },
+    {
+      "id": "product:nutricost-mct-oil",
+      "slug": "nutricost-mct-oil",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "MCT Oil",
+      "category": "Metabolism",
+      "category_tags": [],
+      "score": 70,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/mct-oil/primary.webp?v=fb3f8537",
+      "gallery_images": [
+        "/images/products/nutricost/mct-oil/gallery_1.webp?v=5f66a671"
+      ],
+      "price_usd": 19.97,
+      "serving_size": "3 Softgel(s)",
+      "servings_per_container": 50,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Medium Chain Triglyceride Oil",
+          "label_amount": 3000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 3000.0,
+          "dose_score": 50,
+          "dose_range_status": "unknown_reference",
+          "form_quality_score": 50,
+          "bar_percent": 30.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Glycerin",
+        "Water, Purified"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• Vegetarian MCT Oil (Medium Chain Triglycerides)\n\n• 16 oz of MCT Oil Per Bottle\n\n• Great For Keto, Paleo, and Other Low-Carb Diets\n\n• Great For Smoothies, Coffee, Protein Shakes, and More\n\n• Non-GMO, Gluten-Free, Made in a GMP Compliant Facility\n\nHarness the power of Medium Chain Triglycerides (MCTs) with Nutricost MCT Oil. This is the perfect addition to any low-carb diet such as the KETO diet. Each bottle contains 16oz of MCT Oil.\n\n \n\n⚠️This product can expose you to chemicals including lead, which is known to the State of California to cause birth defects or other reproductive harm. For more information, go to www.P65Warnings.ca.gov.",
+      "overview": null,
+      "warnings": "Warning: for healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use:\r\nAs a dietary supplement, take 3 softgels daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-mct-oil",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-moringa-supplement",
+      "slug": "double-wood-moringa-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Moringa Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 88,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: organic Moringa leaf powder",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/moringa-supplement/primary.webp?v=50efff26",
+      "gallery_images": [
+        "/images/products/double-wood/moringa-supplement/gallery_1.webp?v=1c40bcd9",
+        "/images/products/double-wood/moringa-supplement/gallery_2.webp?v=56cd03f9",
+        "/images/products/double-wood/moringa-supplement/gallery_3.webp?v=062f806b",
+        "/images/products/double-wood/moringa-supplement/gallery_4.webp?v=4aa19f79",
+        "/images/products/double-wood/moringa-supplement/gallery_5.webp?v=af7c5760"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 105,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "organic Moringa leaf powder",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 160.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Moringa is a nutrient-rich tree native to South Asia and tropical regions which is an important food source in some parts of the world and has a long history of use in various traditional medicinal practices. Moringa is popular as a supplement due to its high levels of vitamins and minerals including Vitamins B, C, K, and Manganese, as well as having potent antioxidant properties. Our Moringa supplement consists of certified organic Moringa leaf powder.\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Moringa if you are pregnant, nursing or under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Moringa and operate heavy machinery until you k now how it affects you.\nDo not use Moringa if you are pregnant, nursing or under 18 years of age.\nKeep out of reach of children.\nDo not exceed 10 capsules per day.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 2-8 capsules daily with food or as directed by your physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/moringa-extract",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-astragalus-supplement",
+      "slug": "double-wood-astragalus-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Astragalus Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 88,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Astragalus",
+            "Absorption enhancer: Astragalus (+5)",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/astragalus-supplement/primary.webp?v=da1ec7df",
+      "gallery_images": [
+        "/images/products/double-wood/astragalus-supplement/gallery_1.webp?v=692a71c6",
+        "/images/products/double-wood/astragalus-supplement/gallery_2.webp?v=f27f3cef",
+        "/images/products/double-wood/astragalus-supplement/gallery_3.webp?v=66a6aee4",
+        "/images/products/double-wood/astragalus-supplement/gallery_4.webp?v=365a9aad",
+        "/images/products/double-wood/astragalus-supplement/gallery_5.webp?v=8ec097e9"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 150,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Astragalus",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Cellulose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Astragalus (Astragalus membranaceus) is an herb with a long history of use in traditional Chinese medicine where it was used for a variety of different purposes. In recent times, Astragalus has become popular as a supplement used mainly to support cardiovascular health and to support kidney health. Astragalus is often touted as supporting longevity, and while it has been well researched with human studies showing a variety of health benefits most notably to heart and kidney health, there are currently no studies looking at its ability to promote longevity so this particular benefit is still unproven.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Astragalus if you are pregnant, nursing or are under 18 years of age.\nDo not use Astragalus if you are pregnant, nursing or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Astragalus and operate heavy machinery until you know how it affects you.\nKeep out of reach of children.\nDo not exceed 6 capsules per day.",
+      "recommended_use": "Suggested Use: As a dietary supplement take 2 capsules per day with a meal. It's not recommended to exceed 6 capsules per day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/astragalus",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-dhea-supplement",
+      "slug": "double-wood-dhea-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "DHEA Supplement",
+      "category": "Hormones",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
+          "explanations": [
+            "1 good: Dehydroepiandrosterone",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/dhea-supplement/primary.webp?v=a3305b11",
+      "gallery_images": [
+        "/images/products/double-wood/dhea-supplement/gallery_1.webp?v=b0e78cc0",
+        "/images/products/double-wood/dhea-supplement/gallery_2.webp?v=fd55cab9",
+        "/images/products/double-wood/dhea-supplement/gallery_3.webp?v=1015db57",
+        "/images/products/double-wood/dhea-supplement/gallery_4.webp?v=73f2f063",
+        "/images/products/double-wood/dhea-supplement/gallery_5.webp?v=03d41ca6"
+      ],
+      "price_usd": 24.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 180,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Dehydroepiandrosterone",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 333.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Microcrystalline Cellulose"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "DHEA (Dehydroepiandrosterone) is an endogenous hormone produced in the adrenal glands, gonads, and brain. It plays a key role in numerous bodily processes including working as an androgen and neurosteroid. Natural DHEA levels peak in one's mid 20's, and decrease rapidly as one enters middle age. Taking DHEA as a supplement can help support your overall health as DHEA levels begin to decline.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Not for use by individuals under the age of 18 years.\nDo not use if you are pregnant, nursing or are a woman of childbearing age. Consult a physician or licensed qualified health care professional before using this product if you are a woman, or if you have a family history of, have or have had prostate cancer, prostate enlargement, breast cancer, hormone-sensitive disorder, heart disease, low \"good\" cholesterol (HDL), high blood pressure, diabetes, an autoimmune disorder, liver disease, kidney disease, thyroid disorder, psychiatric problems, pernicious anemia, nervousness, anxiety, seizure disorder, stroke, are under age 40 or if you are using any other dietary supplement, prescription drug, including MAO inhibitors, or over-the-counter drug or have any other medical condition.\nDo not exceed recommended serving. Exceeding recommended serving may cause serious adverse health effects. Possible side effects include acne, oily skin, hair loss, hair growth on the face (in women), increased perspiration, aggressiveness, irritability and increased levels of estrogen. Discontinue use and call a physician or licensed qualified healthcare professional immediately if you experience rapid heartbeat, dizziness, blurred vision, insomnia, tremors, nervousness, unwanted hair growth, deepening of voice, headache, weight gain, mood changes, high blood pressure, changes in lipid levels, breast tenderness, menstrual irregularities or other similar symptoms.\r\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not take DHEA and operate any heavy machinery until you know how it affects you.\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: For adults, take one (1) capsule daily or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/dhea",
+      "variants": [
+        {
+          "price_usd": 24.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 47.41,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 67.37,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-cistanche-extract-supplement",
+      "slug": "double-wood-cistanche-extract-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Cistanche Extract Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/cistanche-extract-supplement/primary.webp?v=24fb0888",
+      "gallery_images": [
+        "/images/products/double-wood/cistanche-extract-supplement/gallery_1.webp?v=b0f0e88b",
+        "/images/products/double-wood/cistanche-extract-supplement/gallery_2.webp?v=11dadc70",
+        "/images/products/double-wood/cistanche-extract-supplement/gallery_3.webp?v=8e301aed",
+        "/images/products/double-wood/cistanche-extract-supplement/gallery_4.webp?v=5fb3eb9d",
+        "/images/products/double-wood/cistanche-extract-supplement/gallery_5.webp?v=bc582b09"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Cistanche Extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 166.7,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Cellulose",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Cistanche Tubulosa, also known as desert ginseng, is a holoparasitic plant which completely lacks chlorophyll and survives by growing on and absorbing nutrients from a host plant. Cictanche Extract has a long history of use in traditional Chinese medicine and has recently gained popularity in the west for its beneficial properties to testosterone levels and cognitive function. Cistanche Tubulosa is an especially rich source of echinacosides and acteosides which both support both BDNF and healthy testosterone levels. Our Cistanche Extract is standardized to 10% echinacodises and 1% acteosides.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Cistanche if you are pregnant, nursing, or are under 18 years of age.\nDo not use Cistanche if you are pregnant, nursing, or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not use Cistance and operate heavy machinery until you know how it affects you.\nKeep out of reach of children.\nDo not exceed 4 capsules per day.",
+      "recommended_use": "Suggested Use: As a dietary supplement take 1 serving per day, with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/cistanche-extract",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-elderberry-liquid-supplement",
+      "slug": "double-wood-elderberry-liquid-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Elderberry Liquid Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 81,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 90,
+          "weighted_score": 36.0,
+          "explanations": [
+            "2 Grade A, 1 Grade B ingredients",
+            "Evidence grades: A(2), B(1)",
+            "Review conclusions: 43% of measured outcomes showed a benefit (67% of ingredients covered) — evidence 92 -> 90"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 75,
+          "weighted_score": 26.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "2 ingredients below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 77,
+          "weighted_score": 19.25,
+          "explanations": [
+            "1 good: Vitamin C",
+            "1 basic: Zinc",
+            "Adequate form quality - standard forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (3 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/elderberry-liquid-supplement/primary.webp?v=219bbf7e",
+      "gallery_images": [
+        "/images/products/double-wood/elderberry-liquid-supplement/gallery_1.webp?v=5b00ddc5",
+        "/images/products/double-wood/elderberry-liquid-supplement/gallery_2.webp?v=decabe37",
+        "/images/products/double-wood/elderberry-liquid-supplement/gallery_3.webp?v=58fb4e8a",
+        "/images/products/double-wood/elderberry-liquid-supplement/gallery_4.webp?v=37e40802",
+        "/images/products/double-wood/elderberry-liquid-supplement/gallery_5.webp?v=dfd961ee"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "10 mL",
+      "servings_per_container": 24,
+      "form": "liquid",
+      "ingredients": [
+        {
+          "name": "Elderberry extract",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 50,
+          "bar_percent": 15.4,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Vitamin C",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 80,
+          "bar_percent": 16.7,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "Zinc",
+          "label_amount": 10.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 10.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 75,
+          "bar_percent": 52.6,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Fructose",
+        "Water",
+        "Glycerin",
+        "Flavor",
+        "Malic Acid",
+        "Potassium Sorbate",
+        "Sodium Benzoate"
+      ],
+      "certifications": [
+        "Third-Party Tested",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "Discover the benefits of organic elderberry with Double Wood’s Organic European Elderberry Syrup. Sourced exclusively from high-quality European elderberries, this formula is designed to help support your immune health naturally. Each bottle contains 2 fluid ounces of concentrated elderberry tincture, providing a convenient 60 servings of 200 mg each—a full two-month supply in every bottle. Elderberry is rich in natural antioxidants and may help promote a healthy immune response by supporting balanced cytokine activity. At Double Wood, we are committed to quality and transparency. Our elderberry syrup is manufactured and tested in the USA using globally sourced ingredients. We believe wellness should be simple, pure, and effective. That’s why every bottle of Double Wood’s Organic Elderberry Syrup undergoes rigorous third-party testing to verify purity and potency. With careful sourcing and uncompromising standards, we bottle wellness—so you can support your health with confidence.\n\nVegetarian, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: If you are pregnant, nursing, are allergic, have a medical condition, or taking any medication, consult a doctor before using this or any other dietary supplement.",
+      "recommended_use": "Please use as directed\nSuggested Use:\nTake as a dietary supplement, or as directed by your physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/elderberry-liquid-supplement",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "10 mL",
+          "form": "liquid",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "10 mL",
+          "form": "liquid",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "10 mL",
+          "form": "liquid",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-blue-spirulina-powder",
+      "slug": "double-wood-blue-spirulina-powder",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Blue Spirulina Powder",
+      "category": "Greens",
+      "category_tags": [],
+      "score": 80,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 70,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Proprietary blend hides ingredient amounts"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/blue-spirulina-powder/primary.webp?v=788a3a75",
+      "gallery_images": [
+        "/images/products/double-wood/blue-spirulina-powder/gallery_1.webp?v=8bd64c92",
+        "/images/products/double-wood/blue-spirulina-powder/gallery_2.webp?v=e2ea1b11",
+        "/images/products/double-wood/blue-spirulina-powder/gallery_3.webp?v=e67eae0f",
+        "/images/products/double-wood/blue-spirulina-powder/gallery_4.webp?v=ecf43796"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "1 Gram(s)",
+      "servings_per_container": 30,
+      "form": "powder",
+      "ingredients": [
+        {
+          "name": "Blue Spirulina extract",
+          "label_amount": 1.0,
+          "unit": "g",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 1.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 50.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Spirulina is an edible blue-green algae and is believed to be one of the oldest lifeforms on earth. Spirulina has become a popular alternative to multivitamins as it is a highly nutritious natural supplement with high levels of vitamins, minerals, protein, carotenoids, and antioxidants. Blue Spirulina is a type of spirulina with a higher phycocyanin content than normal giving it a deep blue color. \n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Blue Spirulina if you are pregnant, nursing, or under 18 years of age.\nDo not use Blue Spirulina if you are pregnant, nursing, or under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not use Blue Spirulina and operate heavy machinery until you know how it affects you.\nKeep out of reach of children.\nDo not exceed 10 grams per day.",
+      "recommended_use": "Suggested Use: Take 1 gram per day with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/blue-spirulina",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 6.5
+    },
+    {
+      "id": "product:double-wood-fadogia-agrestis-supplement",
+      "slug": "double-wood-fadogia-agrestis-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Fadogia Agrestis Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 78,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 65,
+          "weighted_score": 26.0,
+          "explanations": [
+            "Evidence grades: D(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/fadogia-agrestis-supplement/primary.webp?v=b6a7db0a",
+      "gallery_images": [
+        "/images/products/double-wood/fadogia-agrestis-supplement/gallery_1.webp?v=806b93da",
+        "/images/products/double-wood/fadogia-agrestis-supplement/gallery_2.webp?v=b1a01828",
+        "/images/products/double-wood/fadogia-agrestis-supplement/gallery_3.webp?v=8a6dc357",
+        "/images/products/double-wood/fadogia-agrestis-supplement/gallery_4.webp?v=69543de9",
+        "/images/products/double-wood/fadogia-agrestis-supplement/gallery_5.webp?v=640b7d4e"
+      ],
+      "price_usd": 29.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Fadogia agrestis Stem Extract",
+          "label_amount": 600.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 600.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 117.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Stearate",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Fadogia Agrestis is a short bush native to Eastern Europe and Northern Africa, traditionally used as an aphrodisiac herb. Recently, it has gained popularity as a supplement for supporting testosterone levels in men by mimicking luteinizing hormones, signaling the body to produce more testosterone. It is also used by athletes to potentially enhance performance. Fadogia Agrestis contains beneficial compounds such as saponins, anthraquinones, flavonoids, and glycosides that contribute to its effects.\n\nSoy-Free, Gluten-Free, Non-GMO, Vegan",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\r\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not use Fadogia Agrestis and operate heavy machinery until you know how it affects you.\r\nDo not exceed 4 capsules per day.\nDo not use Fadogia Agrestis if you are pregnant, nursing, or are under 18 years of age.\nDo not use Fadogia Agrestis if you are pregnant, nursing, or are under 18 years of age.\r\nKeep out of reach of children.",
+      "recommended_use": "Suggested use: As a dietary supplement take one (1) capsule per day. After 1 week of use you may increase dosage to two (2) capsules per day.\r\nTake with or without food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/fadogia-agrestis",
+      "variants": [
+        {
+          "price_usd": 29.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 56.91,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 80.87,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-essential-amino-acid-supplement",
+      "slug": "double-wood-essential-amino-acid-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Essential Amino Acid Supplement",
+      "category": "Amino Acids",
+      "category_tags": [],
+      "score": 77,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "1 Grade A, 9 Grade B ingredients",
+            "Evidence grades: A(1), B(9)",
+            "Review conclusions: 48% of measured outcomes showed a benefit (80% of ingredients covered) — evidence 86 -> 85"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 60,
+          "weighted_score": 21.0,
+          "explanations": [
+            "3 ingredients severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "3 good: L-Leucine, L-Valine, L-Isoleucine",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/essential-amino-acid-supplement/primary.webp?v=3d3cfa9b",
+      "gallery_images": [
+        "/images/products/double-wood/essential-amino-acid-supplement/gallery_1.webp?v=87a198e1",
+        "/images/products/double-wood/essential-amino-acid-supplement/gallery_2.webp?v=54262cf2",
+        "/images/products/double-wood/essential-amino-acid-supplement/gallery_3.webp?v=98dba714",
+        "/images/products/double-wood/essential-amino-acid-supplement/gallery_4.webp?v=18f2f3e2",
+        "/images/products/double-wood/essential-amino-acid-supplement/gallery_5.webp?v=2b5b2e46"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "3 Capsule(s)",
+      "servings_per_container": 75,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "L-Leucine",
+          "label_amount": 205.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 205.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 5.9,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Lysine",
+          "label_amount": 185.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 185.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 90,
+          "bar_percent": 10.6,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Threonine",
+          "label_amount": 141.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 141.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 90,
+          "bar_percent": 11.3,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Valine",
+          "label_amount": 141.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 141.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 7.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Isoleucine",
+          "label_amount": 115.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 115.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 5.8,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Phenylalanine",
+          "label_amount": 72.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 72.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 5.8,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Histidine",
+          "label_amount": 37.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 37.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 3.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Tryptophan",
+          "label_amount": 37.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 37.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 3.0,
+          "bar_reference": "TR"
+        },
+        {
+          "name": "L-Methionine",
+          "label_amount": 35.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 35.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 90,
+          "bar_percent": 5.6,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin Capsule",
+        "Cellulose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Essential amino acids (EAAs) are the 9 amino acids your body can't make on its own — they have to come from food or supplementation. They're the building blocks of every protein in your body and are directly involved in muscle protein synthesis, recovery, and the production of hormones and neurotransmitters.\n\nDouble Wood's EAA capsules deliver all 9 essential amino acids in every serving, including the 3 branched-chain amino acids (BCAAs) — L-Leucine, L-Isoleucine, and L-Valine. Where most EAA products come as flavored intra-workout powders, our EAA capsules are unflavored, additive-light, and built for daily use: protein-gap support on lower-protein days, recovery support around training, and a complete amino acid profile during fasted periods or calorie-restricted phases.\n\nAll 9 EAAs in one capsule. Soy-Free, Gluten-Free, Non-GMO.",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Essential Amino Acids if you are pregnant, nursing, or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Essential Amino Acids and operate heavy machinery until you know how it affects you.\nDo not use Essential Amino Acids if you are pregnant, nursing, or are under 18 years of age.\nKeep out of reach of children.\nDo not exceed 12 capsules per day.",
+      "recommended_use": "Suggested Use: As a dietary supplement, take 3 capsules per day on an empty stomach. Do not exceed 12 capsules in one day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/essential-amino-acids",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "3 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "3 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "3 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:double-wood-citrus-bergamot-extract-supplement",
+      "slug": "double-wood-citrus-bergamot-extract-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Citrus Bergamot Extract Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 76,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 70,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Proprietary blend hides ingredient amounts"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Energy/focus formula - standard ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/citrus-bergamot-extract-supplement/primary.webp?v=f1f3d16f",
+      "gallery_images": [
+        "/images/products/double-wood/citrus-bergamot-extract-supplement/gallery_1.webp?v=1bbeca35",
+        "/images/products/double-wood/citrus-bergamot-extract-supplement/gallery_2.webp?v=bccef52d",
+        "/images/products/double-wood/citrus-bergamot-extract-supplement/gallery_3.webp?v=5ad2c839",
+        "/images/products/double-wood/citrus-bergamot-extract-supplement/gallery_4.webp?v=c9a1f016",
+        "/images/products/double-wood/citrus-bergamot-extract-supplement/gallery_5.webp?v=6bc0fb9d"
+      ],
+      "price_usd": 24.95,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Citrus Bergamot extract",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": true,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Microcrystalline Cellulose",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Citrus Bergamot Extract is an extraction of several phytochemical compounds from the bergamot citrus fruit. These compounds include a wide array of flavonoids and have been found to offer a number of health benefits when taken as a supplement. Citrus supports healthy cholesterol levels and supports blood cell health and function.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use if you are taking any medications. Do not use Citrus Bergamot Extract if you are pregnant, nursing, suffering from liver disease, or under 18 years of age.\nDo not use Citrus Bergamot Extract if you are pregnant, nursing, suffering from liver disease, or under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur. Do not take Citrus Bergamot Extract and operate heavy machinery.\nKeep out of reach of children.",
+      "recommended_use": "Suggested Use: For managing cholesterol, take 2 capsules daily of Bergamonte during the first 1 to 6 months until optimal healthy cholesterol is achieved; 1 to 2 capsules as maintenance dose may be taken thereafter. It is not suggested to take more than three capsules per day.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/citrus-bergamot-extract",
+      "variants": [
+        {
+          "price_usd": 24.95,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 47.41,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 67.37,
+          "servings_per_container": null,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 6.5
+    },
+    {
+      "id": "product:double-wood-beet-root-supplement",
+      "slug": "double-wood-beet-root-supplement",
+      "brand": "Double Wood",
+      "brand_slug": "double-wood",
+      "name": "Beet Root Supplement",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 56,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 50,
+          "weighted_score": 20.0,
+          "explanations": [
+            "No scoreable ingredients found"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 50,
+          "weighted_score": 17.5,
+          "explanations": [
+            "No ingredient doses to evaluate"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/double-wood/beet-root-supplement/primary.webp?v=d8243005",
+      "gallery_images": [
+        "/images/products/double-wood/beet-root-supplement/gallery_1.webp?v=746be0af",
+        "/images/products/double-wood/beet-root-supplement/gallery_2.webp?v=730df162",
+        "/images/products/double-wood/beet-root-supplement/gallery_3.webp?v=8d3fd6bd",
+        "/images/products/double-wood/beet-root-supplement/gallery_4.webp?v=2cf95e17",
+        "/images/products/double-wood/beet-root-supplement/gallery_5.webp?v=5f6afbdf"
+      ],
+      "price_usd": 19.95,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 105,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "organic Beet root powder",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Third-Party Tested"
+      ],
+      "description": "Beets are a popular root vegetable found in many different cuisines around the world and have a high density of vitamins, minerals, and various other plant compounds which have a beneficial impact on health. Of particular interest is the high concentration of nitrates in beets, which are converted into nitric oxide, a molecule which dilates blood vessels thus supporting healthy circulation. Our Beet Root supplement is prepared from powdered beet roots and is mainly used to support cardiovascular health, athletic performance, and workout recovery due to its ability to increase nitric oxide levels.\n\nSoy-Free, Gluten-Free, Non-GMO",
+      "overview": null,
+      "warnings": "Warning: Consult your physician before use.\nDo not use Beet Root if you are pregnant, nursing or are under 18 years of age.\nDiscontinue use and consult your doctor immediately if any adverse reactions occur.\nDo not use Beet Root and operate heavy machinery until you know how it affects you.\nKeep out of reach children.\nDo not exceed 4 capsules per day.",
+      "recommended_use": "Suggested Use: As a supplement for cardiovascular and athletic support, take two (2) capsules per day with food.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://doublewoodsupplements.com/products/beet-root",
+      "variants": [
+        {
+          "price_usd": 19.95,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "One Bottle"
+        },
+        {
+          "price_usd": 37.91,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Double Pack"
+        },
+        {
+          "price_usd": 53.87,
+          "servings_per_container": null,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "Triple Pack"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:nutricost-st-johns-wort-capsules",
+      "slug": "nutricost-st-johns-wort-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "St Johns Wort Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 90,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/st-johns-wort-capsules/primary.webp?v=a6a8db80",
+      "gallery_images": [
+        "/images/products/nutricost/st-johns-wort-capsules/gallery_1.webp?v=96a14602",
+        "/images/products/nutricost/st-johns-wort-capsules/gallery_2.webp?v=e2cf4037"
+      ],
+      "price_usd": 13.97,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 60,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "St. John's Wort",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 333.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Vegetable Capsules",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 120 Vegetarian Capsules In Every Bottle\n\n• 500mg of St Johns Wort Per Capsule\n\n• St John’s Wort is the Only Active Ingredient\n\n• Non-GMO, Gluten Free, Soy Free, Vegetarian Friendly, 3rd Party Tested\n\n• Made in a GMP Compliant, FDA Registered Facility\n\n ⚠️ WARNING: Consuming this product can expose you to chemicals including lead, which is known to the State of California to cause birth defects or other reproductive harm. For more information, go to www.P65Warnings.ca.gov/food.",
+      "overview": null,
+      "warnings": "Warning: This product is only intended to be consumed by healthy individuals 18 years of age of older.\nConsult your physician prior to use if you are pregnant or nursing.\nDo not exceed recommended use. Improper use will not improve results and is not advised.\nKeep out of reach of children.\nDo not use if safety seal is broken.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 2 capsules daily, preferably with food, or as directed by your physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-st-johns-wort-500mg-120-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-astragalus-capsules",
+      "slug": "nutricost-astragalus-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Astragalus Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 88,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Astragalus root powder",
+            "Absorption enhancer: Astragalus Root Powder (+5)",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/astragalus-capsules/primary.webp?v=ff895ddf",
+      "gallery_images": [
+        "/images/products/nutricost/astragalus-capsules/gallery_1.webp?v=98105552",
+        "/images/products/nutricost/astragalus-capsules/gallery_2.webp?v=1c1c90c6"
+      ],
+      "price_usd": 16.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 240,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Astragalus root powder",
+          "label_amount": 550.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 550.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 44.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Vegetable capsule",
+        "Vegetable Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 550mg of Astragalus Per Capsule\n\n• 240 Servings of Astragalus Per Bottle\n\n• Just 1 Capsule For 1 Serving\n\n• 240 Vegetarian Capsules, Non-GMO, Soy Free, Gluten Free, and Vegetarian Friendly\n\n• 3rd Party Tested, Made in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: This product is only intended to be consumed by healthy individuals 18 years of age or older.\nConsult your physician prior to use if you are pregnant or nursing.\nDo not exceed recommended use. Improper use will not improve results and is not advised.\nKeep out of reach of children.\nDo not use if safety seal is broken.",
+      "recommended_use": "Recommended Use: As a dietary supplement: take 1-2 capsules with 8-12 oz of water 1-2 times daily, or as directed by your physician.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-astragalus-550mg-240-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-moringa-capsules",
+      "slug": "nutricost-moringa-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Moringa Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
+          "explanations": [
+            "1 good: Moringa",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/moringa-capsules/primary.webp?v=261bfd3c",
+      "gallery_images": [
+        "/images/products/nutricost/moringa-capsules/gallery_1.webp?v=5612a149",
+        "/images/products/nutricost/moringa-capsules/gallery_2.webp?v=cafc4db1"
+      ],
+      "price_usd": 16.97,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 90,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Moringa",
+          "label_amount": 1000.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 1000.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 160.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 180 Moringa Capsules Per Bottle\n\n• 500mg Of Moringa Per Capsule\n\n• 2 Plant-Based Capsules Per Serving\n\n• Vegetarian Friendly, Non-GMO, Gluten Free\n\n• Made in a GMP Compliant Facility\n\nNutricost Moringa capsules contains 90 servings with 1,000 milligrams of Moringa in every capsule. \n\n⚠️\nWARNING: Consuming this product can expose you to chemicals including lead, which is known to the State of California to cause birth defects or other reproductive harm. For more information, go to www.P65Warnings.ca.gov/food.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 2 capsules daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-moringa-capsules-500mg",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:nutricost-aloe-vera-capsules",
+      "slug": "nutricost-aloe-vera-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Aloe Vera Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 87,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 80,
+          "weighted_score": 20.0,
+          "explanations": [
+            "1 good: Aloe vera Concentrate",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/aloe-vera-capsules/primary.webp?v=a5df6c82",
+      "gallery_images": [
+        "/images/products/nutricost/aloe-vera-capsules/gallery_1.webp?v=589fb921",
+        "/images/products/nutricost/aloe-vera-capsules/gallery_2.webp?v=5b056314"
+      ],
+      "price_usd": 15.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Aloe vera Concentrate",
+          "label_amount": 100.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 100.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 80,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Rice Flour",
+        "Hypromellose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 120 Vegetarian Capsules of Aloe Vera Extract Per Bottle.\n\n• 20,000mg Aloe Vera Equivalent in Each Capsule (from 200:1 Aloe Vera Concentrate)\n\n• Nutricost Aloe Vera Extract Capsules are Non-GMO and made in a GMP compliant, FDA registered facility.\n\n• Every Capsule is Vegetarian Friendly and Gluten-Free.\n\n• Nutricost Product Recipes are Simple and Clean. All Products are 3rd Party Tested.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-aloe-vera-100mg-120-capsules-gluten-free-non-gmo-vegan-friendly",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-yohimbe-bark-extract-capsules",
+      "slug": "nutricost-yohimbe-bark-extract-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Yohimbe Bark Extract Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/yohimbe-bark-extract-capsules/primary.webp?v=bed03255",
+      "gallery_images": [
+        "/images/products/nutricost/yohimbe-bark-extract-capsules/gallery_1.webp?v=8dbf356c",
+        "/images/products/nutricost/yohimbe-bark-extract-capsules/gallery_2.webp?v=8fcad29f"
+      ],
+      "price_usd": 16.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Yohimbe Bark Extract",
+          "label_amount": 450.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 450.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 4000.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Rice Flour",
+        "Capsule",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 450mg of Yohimbe Bark Extract Per Capsule\n\n• Standardized to 2% Yohimbine Alkaloids (9mg)\n\n• 120 Capsules of Yohimbe Bark Extract Per Bottle, 1 Capsule Per Serving\n\n• Soy-Free, Non-GMO, Gluten Free\n\n• \nMade in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individual 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-yohimbe-bark-extract-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-marshmallow-root-capsules",
+      "slug": "nutricost-marshmallow-root-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Marshmallow Root Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 86,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 90,
+          "weighted_score": 22.5,
+          "explanations": [
+            "1 good: Marshmallow Root Extract",
+            "Excellent form quality - premium bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/marshmallow-root-capsules/primary.webp?v=546bdb6f",
+      "gallery_images": [
+        "/images/products/nutricost/marshmallow-root-capsules/gallery_1.webp?v=ecdf50c9",
+        "/images/products/nutricost/marshmallow-root-capsules/gallery_2.webp?v=2bdd2ddb"
+      ],
+      "price_usd": 14.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Marshmallow Root Extract",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 90,
+          "bar_percent": 133.3,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Olive Oil"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 5,000mg Equivalent of Marshmallow Root Per Capsule (From 500mg of 10:1 extract)\n\n• 120 Vegetarian Capsules Per Bottle\n\n• Vegetarian Friendly, Non-GMO, Gluten Free\n\n• 1 Serving, Just 1 Capsule\n\n• 3rd Party Tested by ISO-Accredited Laboratories",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use:\r\nAs a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-marshmallow-root-500mg-120-veggie-capsules-gluten-free-non-gmo",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:nutricost-sodium-chloride-tablets",
+      "slug": "nutricost-sodium-chloride-tablets",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Sodium Chloride Tablets",
+      "category": "Electrolytes",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 95,
+          "weighted_score": 38.0,
+          "explanations": [
+            "Evidence grades: A(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 70,
+          "weighted_score": 24.5,
+          "explanations": [
+            "1 ingredient below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Chloride",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 84,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/sodium-chloride-tablets/primary.webp?v=f480b1aa",
+      "gallery_images": [
+        "/images/products/nutricost/sodium-chloride-tablets/gallery_1.webp?v=6f241a49",
+        "/images/products/nutricost/sodium-chloride-tablets/gallery_2.webp?v=b68830fe"
+      ],
+      "price_usd": 16.97,
+      "serving_size": "1 Tablet(s)",
+      "servings_per_container": 240,
+      "form": "tablet",
+      "ingredients": [
+        {
+          "name": "Chloride",
+          "label_amount": 610.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 610.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 85,
+          "bar_percent": 29.8,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Microcrystalline Cellulose",
+        "Dextrin",
+        "Sodium Starch Glycolate",
+        "Povidone",
+        "Magnesium Stearate",
+        "Silicon Dioxide",
+        "Coating powder"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 240 Salt Tablets Per Bottle\n\n• 390mg of Sodium (from Sodium Chloride) Per Tablet\n\n• 1,000mg of Sodium Chloride in Each Tablet\n\n• Non-GMO, Gluten-Free\n\n• Made in a GMP Compliant Facility\n\nNutricost Sodium Chloride tablets contain 240 tablets containing 1,000 milligrams of sodium chloride. They are non-GMO, gluten-free, soy-free, and made in a GMP-compliant facility.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 1  tablet daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-sodium-chloride-1000-mg-240-tabs",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.25
+    },
+    {
+      "id": "product:nutricost-bitter-melon-capsules",
+      "slug": "nutricost-bitter-melon-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Bitter Melon Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 84,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)",
+            "1 ingredient without evidence data (scored as C)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Bitter Melon Fruit Extract",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/bitter-melon-capsules/primary.webp?v=28d0c3e1",
+      "gallery_images": [
+        "/images/products/nutricost/bitter-melon-capsules/gallery_1.webp?v=e26d47f6",
+        "/images/products/nutricost/bitter-melon-capsules/gallery_2.webp?v=d58d0959"
+      ],
+      "price_usd": 17.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 180,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Bitter Melon Fruit Extract",
+          "label_amount": 600.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 600.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 85,
+          "bar_percent": 48.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Gelatin",
+        "Rice Flour",
+        "Magnesium Stearate",
+        "Silica"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 2,400mg equivalent (From 600mg of 4:1 Extract) of Bitter Melon (Momordica Charantia) Per Capsule\n\n• 180 Capsules of Bitter Melon Per Bottle\n\n• High Quality Bitter Melon In Every Serving\n\n• Non-GMO, Gluten Free, 3rd Party Tested\n\n• Made in a GMP Complaint, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use:\r\nAs a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-bitter-melon-180-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-uva-ursi-capsules",
+      "slug": "nutricost-uva-ursi-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Uva Ursi Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 82,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/uva-ursi-capsules/primary.webp?v=4fd69fb9",
+      "gallery_images": [
+        "/images/products/nutricost/uva-ursi-capsules/gallery_1.webp?v=7cf5c1df",
+        "/images/products/nutricost/uva-ursi-capsules/gallery_2.webp?v=870c7c23"
+      ],
+      "price_usd": 17.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 240,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Uva Ursi Leaf Extract",
+          "label_amount": 450.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 450.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 72.6,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 4,500mg of Uva Ursi Per Capsule (From 450mg 10:1 Extract)\n\n• 240 Capsules of Uva Ursi Per Bottle\n\n• 1 Serving, Just 1 Plant-Source Capsule\n\n• Non-GMO, Gluten Free, Soy Free, Vegetarian Friendly\n\n• \nManufactured in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-uva-ursi",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-coleus-forskohlii-capsules",
+      "slug": "nutricost-coleus-forskohlii-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Coleus Forskohlii Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 82,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/coleus-forskohlii-capsules/primary.webp?v=3eb32090",
+      "gallery_images": [
+        "/images/products/nutricost/coleus-forskohlii-capsules/gallery_1.webp?v=2c1a79fb",
+        "/images/products/nutricost/coleus-forskohlii-capsules/gallery_2.webp?v=a9b7801f"
+      ],
+      "price_usd": 21.97,
+      "serving_size": "2 Capsule(s)",
+      "servings_per_container": 30,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Coleus forskohlii",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 200.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Rice Flour",
+        "Gelatin",
+        "Magnesium Stearate",
+        "Silicon Dioxide"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• Maximum Strength 500mg Per Serving\n\n• Powerful and Natural\n\n• 60 Capsules Per Bottle. Each capsule contains an extra strength dose of 250mg, each serving size at 500mg!\n\n• Formulated for optimal absorption Coleus Forskohlii starts helping you achieve your goals from the start\n\n• Non-GMO, Gluten Free, Made in a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 2 capsules daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-coleus-forskohlii-250mg-capsules",
+      "variants": [
+        {
+          "price_usd": 21.97,
+          "servings_per_container": 30,
+          "serving_size": "2 Capsule(s)",
+          "form": "capsule",
+          "label": "60 Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-goldenseal-root-capsules",
+      "slug": "nutricost-goldenseal-root-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Goldenseal Root Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 82,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/goldenseal-root-capsules/primary.webp?v=b01fa09d",
+      "gallery_images": [
+        "/images/products/nutricost/goldenseal-root-capsules/gallery_1.webp?v=b1431a65",
+        "/images/products/nutricost/goldenseal-root-capsules/gallery_2.webp?v=ed16a228"
+      ],
+      "price_usd": 17.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Goldenseal Root Extract",
+          "label_amount": 600.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 600.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 80.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Rice Flour",
+        "Hypromellose",
+        "Olive Oil, Pure",
+        "Stearic Acid"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 600mg of Goldenseal Root Per Serving (120 Servings)\n\n• 120 Servings of Goldenseal Root In Each Bottle\n\n• 1 Serving, Just 1 Easy To Take Capsule\n\n• Non-GMO, Gluten Free, and Vegetarian Capsules\n\n• Manufactured In a GMP Compliant, FDA Registered Facility\n\n \n\n⚠️WARNING: Consuming this product can expose you to chemicals including lead, which is known to the State of California to cause birth defects or other reproductive harm. For more information, go to www.P65Warnings.ca.gov/food.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-goldenseal-root-600mg-120-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-butterbur-extract-capsules",
+      "slug": "nutricost-butterbur-extract-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Butterbur Extract Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 82,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/butterbur-extract-capsules/primary.webp?v=be5359a1",
+      "gallery_images": [
+        "/images/products/nutricost/butterbur-extract-capsules/gallery_1.webp?v=c12bf41b",
+        "/images/products/nutricost/butterbur-extract-capsules/gallery_2.webp?v=b0e95f9a"
+      ],
+      "price_usd": 11.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 120,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Butterbur extract",
+          "label_amount": 75.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 75.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 75.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Rice Flour",
+        "Hypromellose",
+        "Magnesium Stearate"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 120 Servings of Butterbur in Every Bottle (120 Capsules)\n\n• 75 mg of Butterbur in Every (Vegetarian) Capsule\n\n• Butterbur Extract (Also Known As Coltsfoot) Is The Only Active Ingredient\n\n• Non-GMO, Gluten Free, 3rd Party Tested, Pyrrolizidine Alkaloids (PA) Free\n\n• Made in a GMP Compliant, FDA Registered Facility.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nKeep out of reach of children.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Recommended Use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-butterbur-extract-75mg-120-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-dong-quai-capsules",
+      "slug": "nutricost-dong-quai-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Dong Quai Capsules",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 82,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 75,
+          "weighted_score": 30.0,
+          "explanations": [
+            "Evidence grades: C(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 95,
+          "weighted_score": 33.25,
+          "explanations": [
+            "1 ingredient at optimal doses",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/dong-quai-capsules/primary.webp?v=cbb76345",
+      "gallery_images": [
+        "/images/products/nutricost/dong-quai-capsules/gallery_1.webp?v=fa23bfa3",
+        "/images/products/nutricost/dong-quai-capsules/gallery_2.webp?v=a25944a9",
+        "/images/products/nutricost/dong-quai-capsules/gallery_3.webp?v=3a9c5689",
+        "/images/products/nutricost/dong-quai-capsules/gallery_4.webp?v=101d0bae",
+        "/images/products/nutricost/dong-quai-capsules/gallery_5.webp?v=acc110b8"
+      ],
+      "price_usd": 17.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 240,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Dong Quai",
+          "label_amount": 565.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 565.0,
+          "dose_score": 90,
+          "dose_range_status": "optimal",
+          "form_quality_score": 50,
+          "bar_percent": 45.2,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Silica"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 565mg of Dong Quai (Angelica Sinensis) Per Capsule\n\n• 120 or 240 (Vegetarian) Capsules of Dong Quai Per Bottle\n\n• Non-GMO, Gluten Free, Vegetarian Friendly\n\n• Manufactured In a GMP Compliant, FDA Registered Facility\n\n• 240 Servings of Dong Quai in Every Bottle\n\n⚠️\nWARNING: Consuming this product can expose you to chemicals including lead, which is known to the State of California to cause birth defects or other reproductive harm. For more information, go to www.P65Warnings.ca.gov/food.",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-dong-quai-565mg",
+      "variants": [
+        {
+          "price_usd": 13.97,
+          "servings_per_container": 120,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "120 Capsules"
+        },
+        {
+          "price_usd": 17.97,
+          "servings_per_container": 240,
+          "serving_size": "1 Capsule(s)",
+          "form": "capsule",
+          "label": "240 Capsules"
+        }
+      ],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-chlorella-capsules",
+      "slug": "nutricost-chlorella-capsules",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Chlorella Capsules",
+      "category": "Greens",
+      "category_tags": [],
+      "score": 80,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 70,
+          "weighted_score": 24.5,
+          "explanations": [
+            "1 ingredient below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 85,
+          "weighted_score": 21.25,
+          "explanations": [
+            "1 good: Chlorella",
+            "Good form quality - mostly bioavailable forms"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/chlorella-capsules/primary.webp?v=759bb91c",
+      "gallery_images": [
+        "/images/products/nutricost/chlorella-capsules/gallery_1.webp?v=11329045",
+        "/images/products/nutricost/chlorella-capsules/gallery_2.webp?v=616adac1"
+      ],
+      "price_usd": 18.97,
+      "serving_size": "1 Capsule(s)",
+      "servings_per_container": 240,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Chlorella",
+          "label_amount": 500.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 500.0,
+          "dose_score": 70,
+          "dose_range_status": "below_rda",
+          "form_quality_score": 85,
+          "bar_percent": 25.0,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Hypromellose",
+        "Rice Flour"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "description": "• 500MG of Chlorella Per Capsule (240 Servings)\n\n• 240 Capsules Per Bottle\n\n• Vegan, Non-GMO and Gluten Free\n\n• 3rd Party Tested\n\n• Manufactured In a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 capsule daily with 8-12 oz of water or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-chlorella-500mg-240-capsules",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
+    },
+    {
+      "id": "product:nutricost-garlic-softgels",
+      "slug": "nutricost-garlic-softgels",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Garlic Softgels",
+      "category": "Botanicals",
+      "category_tags": [],
+      "score": 74,
+      "grade": null,
+      "score_components": [
+        {
+          "name": "Evidence Quality",
+          "weight": 0.4,
+          "raw_score": 85,
+          "weighted_score": 34.0,
+          "explanations": [
+            "Evidence grades: B(1)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Dose Adequacy",
+          "weight": 0.35,
+          "raw_score": 60,
+          "weighted_score": 21.0,
+          "explanations": [
+            "1 ingredient severely below recommended dose",
+            "Reference coverage: 100%"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Form/Bioavailability",
+          "weight": 0.25,
+          "raw_score": 75,
+          "weighted_score": 18.75,
+          "explanations": [
+            "Form data not available for ingredients"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Transparency",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Label transparency: full"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Safety/Redundancy",
+          "weight": 0.0,
+          "raw_score": 100,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Focused formula (1 ingredients)"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        },
+        {
+          "name": "Manufacturing Quality",
+          "weight": 0.0,
+          "raw_score": 87,
+          "weighted_score": 0.0,
+          "explanations": [
+            "Third-party tested",
+            "COA available",
+            "FDA registered"
+          ],
+          "improvements": [],
+          "issues": [],
+          "missing": []
+        }
+      ],
+      "image_url": "/images/products/nutricost/garlic-softgels/primary.webp?v=ec848457",
+      "gallery_images": [
+        "/images/products/nutricost/garlic-softgels/gallery_1.webp?v=700a1a4d",
+        "/images/products/nutricost/garlic-softgels/gallery_2.webp?v=b7786e8e"
+      ],
+      "price_usd": 17.97,
+      "serving_size": "1 Softgel(s)",
+      "servings_per_container": 240,
+      "form": "capsule",
+      "ingredients": [
+        {
+          "name": "Garlic Bulb Oil Extract",
+          "label_amount": 10.0,
+          "unit": "mg",
+          "form": null,
+          "daily_value_percent": null,
+          "is_proprietary_blend": false,
+          "ingredient_gid": null,
+          "amount": 10.0,
+          "dose_score": 60,
+          "dose_range_status": "severely_below",
+          "form_quality_score": 50,
+          "bar_percent": 1.1,
+          "bar_reference": "TR"
+        }
+      ],
+      "other_ingredients": [
+        "Sunflower Oil",
+        "Gelatin",
+        "Glycerin",
+        "Water, Purified"
+      ],
+      "certifications": [
+        "cGMP Certified",
+        "FDA Registered",
+        "Non-GMO",
+        "Gluten-Free"
+      ],
+      "description": "• 240 High Quality Garlic Softgels\n\n• Odorless Garlic\n\n• 1000mg Per Serving (1 Capsule)\n\n• Non-GMO, Gluten Free\n\n• Manufactured In a GMP Compliant, FDA Registered Facility",
+      "overview": null,
+      "warnings": "Warning: For healthy individuals 18 years and older.\r\nKeep out of reach of children.\nConsult a healthcare professional prior to use if you are pregnant or nursing, taking medication, or have a medical condition.\nDo not use if safety seal is broken or missing.",
+      "recommended_use": "Suggested use: As a dietary supplement, take 1 softgel with 8-12 oz of water up to 4 times daily or as directed by your healthcare professional.",
+      "amazon_url": null,
+      "iherb_url": null,
+      "url": "https://nutricost.com/products/nutricost-garlic-1000mg-240-softgels",
+      "variants": [],
+      "supplement_facts": [],
+      "explanation": null,
+      "is_draft": false,
+      "score_version": "3.24",
+      "score_gate_penalty": 0.0
     }
   ],
   "brands": [
@@ -186321,8 +190308,8 @@
     {
       "slug": "nutricost",
       "name": "Nutricost",
-      "product_count": 139,
-      "avg_score": 87,
+      "product_count": 155,
+      "avg_score": 86,
       "score": 83,
       "grade": "B",
       "confidence": "high",
@@ -186969,7 +190956,7 @@
     {
       "slug": "double-wood",
       "name": "Double Wood",
-      "product_count": 49,
+      "product_count": 59,
       "score": 79,
       "grade": "C+",
       "components": {
@@ -186979,7 +190966,7 @@
         "transparency": 96,
         "verification": 79
       },
-      "avg_score": 85,
+      "avg_score": 84,
       "score_version": "brand_v2.8",
       "provisional": false
     },
