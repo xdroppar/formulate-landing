@@ -1,0 +1,236 @@
+"use client";
+
+/**
+ * The three verbs, and the close.
+ *
+ * WHAT IS HERE AND WHAT IS NOT. The prototype's sections are built around
+ * live embeds of the mockup — a 148-day streak, a blood panel with markers
+ * moving, a wall of 37 trackable faces. Every one of those numbers is
+ * invented, which is fine in a mockup and is not fine on a page that makes
+ * claims to the public. There are no accounts behind this product yet, so
+ * there is no 148-day streak to show and no panel to show moving.
+ *
+ * So each section is ported down to the part that is true: what the thing is,
+ * and what it gets you. Every claim below was checked against the shipped app
+ * rather than carried across from the prototype's copy —
+ *
+ *   "seven drawers"    the log rail: SUPPS FOOD WATER TRAIN SLEEP BODY CARE,
+ *                      visible in the hero capture, present on every console
+ *                      screen (see dense.css in formulate-web).
+ *   "against a panel"  /biomarkers is a real route with sessions and an
+ *                      upload parser, not a planned one.
+ *   the pillar count   read off lib/pillars, not typed.
+ *
+ * The prototype's copy said "thirty-seven trackable". Nothing in the shipped
+ * app produced that number, so it is not repeated here. When the streak and
+ * the panel have real data behind them, those blocks are worth building; a
+ * demo account is what they need, and that is the owner's call to make.
+ */
+import Link from "next/link";
+import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
+
+function Ups({ items }: { items: { title: string; line: string }[] }) {
+  return (
+    <div className="ups">
+      {items.map((u) => (
+        <div className="up" key={u.title}>
+          <b>{u.title}</b>
+          <span>{u.line}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function ScoreSection() {
+  return (
+    <section className="cn-sec">
+      <div className="wrap">
+        <div className="sechead">
+          <span className="lab">01 · Score it</span>
+          <h2>
+            Start with what
+            <br />
+            you already take.
+          </h2>
+          <p className="secline">
+            Add your stack and it scores in front of you — every item, the weak
+            link, and the components that produced it. No account, nothing to
+            buy to find out.
+          </p>
+        </div>
+
+        <div className="cn-doors">
+          <div className="door">
+            <span className="dk">You already take things</span>
+            <ol className="steps">
+              <li>Add what is in your cupboard.</li>
+              <li>Every item comes back scored, with the weak link named.</li>
+              <li>Fix the form or the dose before you spend on anything new.</li>
+            </ol>
+            <Link className="doorlink" href="/tools/stack-builder">
+              Build and score a stack →
+            </Link>
+          </div>
+          <div className="door">
+            <span className="dk">You are starting from nothing</span>
+            <ol className="steps">
+              <li>Search the catalog for what you are considering.</li>
+              <li>See its score, and whether it fits your gaps — before you buy it.</li>
+              <li>Add it to your stack and give it a window.</li>
+            </ol>
+            <Link className="doorlink" href="/supplements">
+              Browse the catalog →
+            </Link>
+          </div>
+        </div>
+
+        <Ups
+          items={[
+            {
+              title: "Scored before you buy",
+              line: "The catalog is the research step, not the shop.",
+            },
+            {
+              title: "Every score shows its components",
+              line: "You can see why it scored, not just what.",
+            },
+            {
+              title: "We take nothing from the brands",
+              line: "No sponsorships, no paid placement, no affiliate rank.",
+            },
+          ]}
+        />
+      </div>
+    </section>
+  );
+}
+
+function TrackSection() {
+  return (
+    <section className="cn-sec">
+      <div className="wrap">
+        <div className="sechead">
+          <span className="lab">02 · Track it</span>
+          <h2>
+            Then make it
+            <br />
+            a routine.
+          </h2>
+          <p className="secline">
+            Give each thing a window and log it in two taps. Seven drawers —
+            supplements, food, water, training, sleep, body and care — on every
+            screen, because logging is the thing the app is for.
+          </p>
+        </div>
+
+        <Ups
+          items={[
+            {
+              title: "Windows, not reminders",
+              line: "Each one holds whatever falls inside it — supplements, food, care and training at once.",
+            },
+            {
+              title: "Logged, never estimated",
+              line: "A half day shows as a half day. Streaks you can trust.",
+            },
+            {
+              title: "One thing worth fixing today",
+              line: "Named, with the points attached, and it never needs a purchase.",
+            },
+          ]}
+        />
+      </div>
+    </section>
+  );
+}
+
+function TestSection() {
+  return (
+    <section className="cn-sec">
+      <div className="wrap">
+        <div className="sechead">
+          <span className="lab">03 · Test it</span>
+          <h2>
+            Then find out
+            <br />
+            if it worked.
+          </h2>
+          <p className="secline">
+            A score that never meets a panel is just a score agreeing with
+            itself. Put your markers in and the number answers to them.
+          </p>
+        </div>
+
+        <Ups
+          items={[
+            {
+              title: "The loop actually closes",
+              line: "Most apps stop at the streak. This one answers to a panel.",
+            },
+            {
+              title: "Measured, not claimed",
+              line: "Each change sits against the panel before it.",
+            },
+            {
+              title: "It will tell you when it did nothing",
+              line: "A number that only ever goes up is not measuring anything.",
+            },
+          ]}
+        />
+      </div>
+    </section>
+  );
+}
+
+function CloseSection() {
+  return (
+    <section className="cn-close">
+      <div className="wrap">
+        <h2>Start today&rsquo;s score.</h2>
+        {/* The pillar count is interpolated, so it must never land where a
+            capital is expected — "six" is produced lowercase and a sentence
+            cannot start with it. Kept mid-clause on purpose. */}
+        <p className="cn-sub" style={{ margin: "14px auto 0", maxWidth: "40ch" }}>
+          Nothing to install, about a minute — {PILLAR_WORD} pillars, one
+          number, and the part of it you can close today.
+        </p>
+        <ActionRow source="console_close" />
+        <p className="trust">
+          WORKS IN ANY BROWSER · IPHONE APP TOO · ANDROID NOT LISTED YET
+        </p>
+      </div>
+    </section>
+  );
+}
+
+function Foot() {
+  return (
+    <footer className="cn-foot">
+      <div className="wrap">
+        <span className="brand" style={{ fontSize: 15 }}>
+          Formulate
+        </span>
+        <span className="hint">NO SPONSORSHIPS · NO PAID PLACEMENT</span>
+        <span style={{ marginLeft: "auto", display: "flex", gap: 18 }}>
+          <Link href="/about">About</Link>
+          <Link href="/methodology/supplements">How we score</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+        </span>
+      </div>
+    </footer>
+  );
+}
+
+export function ConsoleSections() {
+  return (
+    <>
+      <ScoreSection />
+      <TrackSection />
+      <TestSection />
+      <CloseSection />
+      <Foot />
+    </>
+  );
+}

@@ -281,3 +281,186 @@
     margin-right: 0;
   }
 }
+
+/* ── sections ──
+   Each area is a head, the thing itself, and a strip of three upsides. The
+   strip is what the area is FOR, in the reader's terms; the head is what it
+   is called. */
+.cn-sec {
+  padding-block: clamp(46px, 5.4vw, 82px);
+  border-top: 1px solid var(--hair);
+  position: relative;
+  z-index: 1;
+}
+.cn .sechead {
+  max-width: 640px;
+}
+.cn .sechead h2 {
+  margin-top: 13px;
+  font-size: clamp(26px, 3.1vw, 40px);
+  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+.cn .secline {
+  margin-top: 16px;
+  font-size: 15.5px;
+  color: var(--mute);
+  line-height: 1.55;
+  max-width: 56ch;
+}
+
+/* the upside strip that closes each area */
+.cn .ups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2.4vw, 34px);
+  margin-top: clamp(26px, 3.2vw, 42px);
+  padding-top: clamp(20px, 2.4vw, 28px);
+  border-top: 1px solid var(--hair);
+}
+.cn .up {
+  position: relative;
+  padding-left: 16px;
+}
+.cn .up::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--g);
+}
+.cn .up b {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+.cn .up span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12.5px;
+  color: var(--faint);
+  line-height: 1.5;
+}
+
+/* the two ways in: already taking things, or starting from nothing */
+.cn-doors {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 1.8vw, 22px);
+  margin-top: clamp(26px, 3.4vw, 42px);
+}
+.cn .door {
+  border-radius: 16px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.014);
+  padding: 20px 22px 18px;
+}
+.cn .dk {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: var(--g);
+  text-transform: uppercase;
+  display: block;
+}
+.cn .steps {
+  margin: 13px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: s;
+}
+.cn .steps li {
+  counter-increment: s;
+  position: relative;
+  padding: 9px 0 9px 30px;
+  font-size: 13.5px;
+  color: var(--mute);
+  line-height: 1.5;
+  border-bottom: 1px solid var(--hair);
+}
+.cn .steps li:last-child {
+  border-bottom: 0;
+}
+.cn .steps li::before {
+  content: counter(s);
+  position: absolute;
+  left: 0;
+  top: 9px;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 10px;
+  color: var(--faint);
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid var(--hair2);
+}
+
+/* ── the close ── */
+.cn-close {
+  padding-block: clamp(56px, 7vw, 96px);
+  border-top: 1px solid var(--hair);
+  text-align: center;
+}
+/* The prototype leaves this at the browser's default h2 size on purpose — the
+   close is quieter than the section heads above it. It cannot be left unset
+   HERE: Tailwind's preflight resets every heading to `font-size: inherit`, so
+   an unsized h2 would come out at body size. Stated rather than inherited. */
+.cn-close h2 {
+  font-size: clamp(24px, 2.6vw, 34px);
+}
+.cn-close .actrow {
+  justify-content: center;
+}
+.cn-close .trust {
+  margin-top: 20px;
+}
+
+/* ── the foot ── */
+.cn-foot {
+  padding-block: 26px 34px;
+  border-top: 1px solid var(--hair);
+}
+.cn-foot .wrap {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cn-foot a {
+  font-size: 12px;
+  color: var(--dim);
+  transition: color 0.24s;
+}
+.cn-foot a:hover {
+  color: var(--ink);
+}
+
+@media (max-width: 760px) {
+  .cn .ups,
+  .cn-doors {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* The way out of each door. A door that describes a path and then offers no
+   way onto it is a paragraph. */
+.cn .doorlink {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--g);
+  transition: opacity 0.24s;
+}
+.cn .doorlink:hover {
+  opacity: 0.72;
+}

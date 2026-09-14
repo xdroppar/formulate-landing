@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ConsoleHero } from "@/components/console/console-hero";
+import { ConsoleLanding } from "@/components/console/console-landing";
 
 /**
  * /preview — the console landing, on the real domain, beside the live one.
@@ -22,5 +22,5 @@ export const metadata: Metadata = {
 };
 
 export default function PreviewPage() {
-  return <ConsoleHero />;
+  return <ConsoleLanding />;
 }
