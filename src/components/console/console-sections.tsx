@@ -40,6 +40,12 @@ import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import { ConsolePanel } from "@/components/console/console-panel";
 import { ConsoleBuilder } from "@/components/console/console-builder";
 import { SectionView, SectionDepthReporter } from "@/components/landing/section-view";
+/* Type-only, and it must stay that way. lib/site-surfaces imports the whole
+   catalog to count it; a value import here would pull catalog.json,
+   recipes-catalog.json and whole-foods-catalog.json into the CLIENT bundle of
+   a page that already moved its search index out to /api/score-index for
+   costing 212 KB. The groups arrive as a prop from the server page instead. */
+import type { Surface, SurfaceGroup } from "@/lib/site-surfaces";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
   return (
@@ -54,7 +60,7 @@ function Ups({ items }: { items: { title: string; line: string }[] }) {
   );
 }
 
-function ScoreSection() {
+function ScoreSection({ catalogDoors }: { catalogDoors: Surface[] }) {
   return (
     <section className="cn-sec">
       <SectionView id="score" depth={2} />
@@ -107,6 +113,24 @@ function ScoreSection() {
             </Link>
           </div>
         </div>
+
+        {/* Which catalog, and how big.
+            "Browse the catalog →" went to /supplements and stopped there,
+            so three of this site's four largest surfaces — 487 foods, 719
+            recipes, 968 ingredients — were named nowhere on the homepage
+            while every one of them was in the sitemap. This is the same four
+            links the footer carries, put where the section that is ABOUT
+            browsing can be seen by someone who never scrolls past the close. */}
+        {catalogDoors.length > 0 && (
+          <nav className="cn-cats" aria-label="Browse the catalogs">
+            {catalogDoors.map((c) => (
+              <Link className="cn-catdoor" href={c.href} key={c.href}>
+                <span className="cn-catn">{c.count?.toLocaleString("en-US")}</span>
+                <span className="cn-catl">{c.label}</span>
+              </Link>
+            ))}
+          </nav>
+        )}
 
         <Ups
           items={[
@@ -297,26 +321,68 @@ function CloseSection() {
   );
 }
 
-function Foot() {
+/**
+ * The site, indexed.
+ *
+ * The four-link version of this footer was the whole of the homepage's
+ * outbound linking after the console replaced the old page: eleven unique
+ * hrefs against a sitemap of 3,114 URLs. This is the repair, and it is a
+ * footer rather than a restored nav on purpose — the nav was cut because the
+ * hero is better without one, and that judgment still holds. A footer costs
+ * the top of the page nothing.
+ *
+ * The counts are the argument. A list of category names is furniture; the
+ * same list saying 972 / 487 / 719 / 968 is the catalog telling you how big
+ * it is, which is the one thing this site has that its competitors do not.
+ * They are read from lib/site-surfaces, never typed here.
+ */
+function Foot({ groups }: { groups: SurfaceGroup[] }) {
   return (
     <footer className="cn-foot">
       <div className="wrap">
-        <span className="brand" style={{ fontSize: 15 }}>
-          Formulate
-        </span>
-        <span className="hint">NO SPONSORSHIPS · NO PAID PLACEMENT</span>
-        <span style={{ marginLeft: "auto", display: "flex", gap: 18 }}>
-          <Link href="/about">About</Link>
-          <Link href="/methodology/supplements">How we score</Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
-        </span>
+        <div className="cn-footgrid">
+          {groups.map((g) => (
+            <nav className="cn-footcol" key={g.title} aria-label={g.title}>
+              <span className="lab">{g.title}</span>
+              <ul>
+                {g.items.map((s) => (
+                  <li key={s.href}>
+                    <Link href={s.href}>
+                      {s.label}
+                      {typeof s.count === "number" && (
+                        <em className="cn-footn">{s.count.toLocaleString("en-US")}</em>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ))}
+        </div>
+
+        <div className="cn-footbar">
+          <span className="brand" style={{ fontSize: 15 }}>
+            Formulate
+          </span>
+          <span className="hint">NO SPONSORSHIPS · NO PAID PLACEMENT</span>
+          <span className="cn-footrule">
+            © {new Date().getFullYear()} Formulate
+          </span>
+        </div>
       </div>
     </footer>
   );
 }
 
-export function ConsoleSections({ faq }: { faq?: React.ReactNode }) {
+export function ConsoleSections({
+  faq,
+  surfaces = [],
+  catalogDoors = [],
+}: {
+  faq?: React.ReactNode;
+  surfaces?: SurfaceGroup[];
+  catalogDoors?: Surface[];
+}) {
   return (
     <>
       {/* How far down anyone actually got. The old homepage measured this
@@ -325,12 +391,12 @@ export function ConsoleSections({ faq }: { faq?: React.ReactNode }) {
           only the page did. One event per visitor, at the deepest section
           reached — see section-view.tsx for why it is not one per section. */}
       <SectionDepthReporter total={6} />
-      <ScoreSection />
+      <ScoreSection catalogDoors={catalogDoors} />
       <TrackSection />
       <TestSection />
       {faq}
       <CloseSection />
-      <Foot />
+      <Foot groups={surfaces} />
     </>
   );
 }

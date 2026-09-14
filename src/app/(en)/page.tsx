@@ -3,6 +3,7 @@ import { ConsoleFaq } from "@/components/console/console-faq";
 import { DEFAULT_LOCALE } from "@/lib/i18n/locales";
 import { getMessages, translate } from "@/lib/i18n/messages";
 import { homeFaqs, homeFaqLd, type T } from "@/lib/home-faq";
+import { SURFACE_GROUPS, CATALOG_DOORS } from "@/lib/site-surfaces";
 
 /**
  * The homepage.
@@ -43,7 +44,14 @@ export default function Home({ locale = DEFAULT_LOCALE }: { locale?: string }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqLd(t)) }}
       />
-      <ConsoleLanding faq={<ConsoleFaq faqs={faqs} />} />
+      {/* The surfaces are counted here, on the server, and handed down as
+          plain data — lib/site-surfaces imports every catalog to measure it,
+          and the tree below this line is a client component. */}
+      <ConsoleLanding
+        faq={<ConsoleFaq faqs={faqs} />}
+        surfaces={SURFACE_GROUPS}
+        catalogDoors={CATALOG_DOORS}
+      />
     </>
   );
 }

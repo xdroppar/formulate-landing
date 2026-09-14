@@ -10,13 +10,25 @@
  */
 import { ConsoleNav, ConsoleHero } from "@/components/console/console-hero";
 import { ConsoleSections } from "@/components/console/console-sections";
+/* Type-only, deliberately — see the note beside the same import in
+   console-sections.tsx. The counts are taken on the server and travel here as
+   plain data, so the catalog never reaches the client bundle. */
+import type { Surface, SurfaceGroup } from "@/lib/site-surfaces";
 
-export function ConsoleLanding({ faq }: { faq?: React.ReactNode }) {
+export function ConsoleLanding({
+  faq,
+  surfaces = [],
+  catalogDoors = [],
+}: {
+  faq?: React.ReactNode;
+  surfaces?: SurfaceGroup[];
+  catalogDoors?: Surface[];
+}) {
   return (
     <div className="cn">
       <ConsoleNav />
       <ConsoleHero />
-      <ConsoleSections faq={faq} />
+      <ConsoleSections faq={faq} surfaces={surfaces} catalogDoors={catalogDoors} />
     </div>
   );
 }

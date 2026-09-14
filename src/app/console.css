@@ -171,11 +171,30 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  /* Held to the row it is in. Without this the pair sat at a fixed
+     left:365/right:439 at every width from 360 to 430 and simply hung off
+     the end of the viewport — 49px of the iOS button cut at 390 (iPhone
+     12-15) and the whole of it gone at 360. It never showed up as a
+     horizontal scrollbar to scroll back into, because `.cn` sets
+     overflow-x: hidden, so the button was not off-screen so much as
+     deleted. `min-width: 0` is the half that actually does the work: a flex
+     item will not shrink below its content without it. */
+  min-width: 0;
+  flex-shrink: 1;
 }
 .cn .navacts .act {
   padding: 9px 15px;
   font-size: 12.5px;
   border-radius: 10px;
+  white-space: nowrap;
+}
+/* The tagline is the thing worth losing. It is a mood, the buttons are the
+   product — so it goes first and the actions keep their full size, rather
+   than every item shrinking together until all three are unreadable. */
+@media (max-width: 560px) {
+  .cn .cn-nav .hint {
+    display: none;
+  }
 }
 
 /* ── hero: everything that matters fits one screen ── */
@@ -422,23 +441,113 @@
   margin-top: 20px;
 }
 
-/* ── the foot ── */
+/* ── the foot ──
+   Four columns of the site, then the brand rule under them. The columns are
+   `auto-fit` rather than a fixed four so the breakpoint is the content's, not
+   a guessed width: they fall to two and then one on their own, and nothing
+   here needs a media query to do it. */
 .cn-foot {
-  padding-block: 26px 34px;
+  padding-block: 44px 34px;
   border-top: 1px solid var(--hair);
 }
 .cn-foot .wrap {
+  display: block;
+}
+.cn-footgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 30px 24px;
+}
+.cn-footcol .lab {
+  margin-bottom: 13px;
+}
+.cn-footcol ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+.cn-foot a {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--mute);
+  transition: color 0.24s;
+}
+.cn-foot a:hover {
+  color: var(--ink);
+}
+/* The count. Dim by default so the column reads as a list of names first and
+   a set of sizes second — the number is evidence, not the label. */
+.cn-footn {
+  font-style: normal;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+  transition: color 0.24s;
+}
+.cn-foot a:hover .cn-footn {
+  color: var(--g-soft);
+}
+.cn-footbar {
   display: flex;
   gap: 18px;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hair);
 }
-.cn-foot a {
-  font-size: 12px;
-  color: var(--dim);
-  transition: color 0.24s;
+.cn-footrule {
+  margin-left: auto;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--faint);
 }
-.cn-foot a:hover {
+
+/* ── the four catalogs, in the section that is about browsing them ──
+   Sized off the number rather than the word: the count is the reason to click,
+   so it is the thing set large. Same auto-fit rule as the footer columns. */
+.cn-cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 26px;
+}
+.cn-catdoor {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 15px 17px;
+  border-radius: 12px;
+  border: 1px solid var(--hair2);
+  background: rgba(255, 255, 255, 0.02);
+  transition:
+    border-color 0.24s var(--ease),
+    background 0.24s var(--ease);
+}
+.cn-catdoor:hover {
+  border-color: rgba(142, 232, 171, 0.4);
+  background: rgba(142, 232, 171, 0.05);
+}
+.cn-catn {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: var(--g);
+  line-height: 1;
+}
+.cn-catl {
+  font-size: 12.5px;
+  color: var(--mute);
+}
+.cn-catdoor:hover .cn-catl {
   color: var(--ink);
 }
 
