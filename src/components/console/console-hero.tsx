@@ -50,8 +50,10 @@ import {
  *  arguing against itself. This is the demo at /v2, the authored account the
  *  design was drawn around, which is the app at the density it is FOR. */
 const CONSOLE_SHOT = "/console-today.webp";
-/** The phone, from the same demo and the same capture run. */
-const MOBILE_SHOT = "/console-mobile.webp";
+/** The phone: the score screen, ring and all — the demo's own hero frames this
+ *  one. Section 02 uses the other phone shot, the windows without the number
+ *  above them, because the argument there is the day rather than the score. */
+const MOBILE_SHOT = "/console-mobile-hero.webp";
 
 export function ConsoleNav() {
   return (
@@ -146,7 +148,7 @@ export function ConsoleHero() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={MOBILE_SHOT}
-                alt="Formulate on iPhone: the day's windows, each with what is due in it."
+                alt="Formulate on iPhone: today's score at 67 against a potential of 77, with the day's windows below it."
                 width={393}
                 height={852}
               />

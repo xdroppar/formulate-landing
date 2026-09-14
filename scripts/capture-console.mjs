@@ -95,6 +95,27 @@ const SHOTS = [
     clipTo: "#recbox",
   },
   {
+    /* The hero's phone: the score screen, ring and all. The demo's own hero
+       frames ios.html with no screen param, which is this one. */
+    name: "mobilehero",
+    out: "console-mobile-hero.webp",
+    url: "/v2/ios.html?live=1",
+    width: 393,
+    height: 852,
+    /* Both screens carry "Wake up" — "POTENTIAL" and "LOGGED TODAY" do not, so
+       a mix-up fails rather than quietly shipping the wrong phone.
+
+       "67" and "Steady" are here because the ring ANIMATES UP from zero. The
+       first capture of this shot passed every other check and caught it at
+       31 / "Building" — a phone reading 31 beside a desktop reading 67, two
+       scores for one account on one page. Waiting a fixed moment longer would
+       have fixed that run and not the next one; requiring the settled value is
+       what makes the two pictures agree by construction. */
+    wantText: ["POTENTIAL", "LOGGED TODAY", "67", "Steady"],
+  },
+  {
+    /* Section 02's phone: the windows, without the score above them, because
+       the argument there is the day rather than the number. */
     name: "mobile",
     out: "console-mobile.webp",
     url: "/v2/ios.html?live=1&screen=today2",
