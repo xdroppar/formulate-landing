@@ -60,7 +60,7 @@ export function ConsoleShelf({ cards, total }: { cards: ShelfCard[]; total: numb
             <Ring score={c.score} color={c.color} />
           </span>
           <span className="cn-nm">{c.name}</span>
-          {c.sub ? <span className="cn-sub">{c.sub}</span> : null}
+          {c.sub ? <span className="cn-cardsub">{c.sub}</span> : null}
         </Link>
       ))}
       <p className="cn-shelfnote">

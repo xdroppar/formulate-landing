@@ -552,7 +552,13 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.cn-sub {
+/* NOT .cn-sub. That name already belongs to the hero's sub-headline 180 lines
+   up, and at equal specificity the later rule wins — so this card styling
+   captured the hero paragraph and clamped "What you take, eat, train and
+   sleep..." to one line of mono capitals with an ellipsis. Same failure as the
+   rail's, one file over: two owners for one class name, and the loser is
+   whichever one is declared first. */
+.cn-cardsub {
   margin-top: 5px;
   font-family: var(--mono, "JetBrains Mono", monospace);
   font-size: 8.5px;
