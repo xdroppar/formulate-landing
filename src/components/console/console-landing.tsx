@@ -11,12 +11,12 @@
 import { ConsoleNav, ConsoleHero } from "@/components/console/console-hero";
 import { ConsoleSections } from "@/components/console/console-sections";
 
-export function ConsoleLanding() {
+export function ConsoleLanding({ faq }: { faq?: React.ReactNode }) {
   return (
     <div className="cn">
       <ConsoleNav />
       <ConsoleHero />
-      <ConsoleSections />
+      <ConsoleSections faq={faq} />
     </div>
   );
 }

@@ -31,6 +31,7 @@
  * measuring.
  */
 import { TrackedAppLink } from "@/components/tracked-app-link";
+import { SectionView } from "@/components/landing/section-view";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { APP_STORE_URL } from "@/lib/app-store";
 import {
@@ -77,6 +78,7 @@ export function ConsoleNav() {
 export function ConsoleHero() {
   return (
     <section className="cn-hero">
+      <SectionView id="hero" depth={1} />
       <div className="wrap">
         <div className="cn-herogrid">
           <div>

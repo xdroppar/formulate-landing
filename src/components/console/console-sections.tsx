@@ -39,6 +39,7 @@ import { ConsoleShelf } from "@/components/console/console-shelf";
 import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import { ConsolePanel } from "@/components/console/console-panel";
 import { ConsoleBuilder } from "@/components/console/console-builder";
+import { SectionView, SectionDepthReporter } from "@/components/landing/section-view";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
   return (
@@ -56,6 +57,7 @@ function Ups({ items }: { items: { title: string; line: string }[] }) {
 function ScoreSection() {
   return (
     <section className="cn-sec">
+      <SectionView id="score" depth={2} />
       <div className="wrap">
         <div className="cn-scorehead">
         <div className="sechead">
@@ -130,6 +132,7 @@ function ScoreSection() {
 function TrackSection() {
   return (
     <section className="cn-sec">
+      <SectionView id="track" depth={3} />
       <div className="wrap">
         <div className="sechead">
           <span className="lab">02 · Track it</span>
@@ -234,6 +237,7 @@ function TrackSection() {
 function TestSection() {
   return (
     <section className="cn-sec">
+      <SectionView id="test" depth={4} />
       <div className="wrap">
         <div className="sechead">
           <span className="lab">03 · Test it</span>
@@ -274,6 +278,7 @@ function TestSection() {
 function CloseSection() {
   return (
     <section className="cn-close">
+      <SectionView id="close" depth={6} />
       <div className="wrap">
         <h2>Start today&rsquo;s score.</h2>
         {/* The pillar count is interpolated, so it must never land where a
@@ -311,12 +316,19 @@ function Foot() {
   );
 }
 
-export function ConsoleSections() {
+export function ConsoleSections({ faq }: { faq?: React.ReactNode }) {
   return (
     <>
+      {/* How far down anyone actually got. The old homepage measured this
+          across twelve sections and the console has six; losing the reading
+          in the swap would have made the funnel look like it changed when
+          only the page did. One event per visitor, at the deepest section
+          reached — see section-view.tsx for why it is not one per section. */}
+      <SectionDepthReporter total={6} />
       <ScoreSection />
       <TrackSection />
       <TestSection />
+      {faq}
       <CloseSection />
       <Foot />
     </>

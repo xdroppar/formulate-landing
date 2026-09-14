@@ -26,8 +26,16 @@ import { Footer } from "@/components/footer";
 import { LanguagePrompt } from "@/components/language-prompt";
 import { routedLocales } from "@/lib/i18n/locales";
 
-/** Routes that render the console design instead of the marketing shell. */
-const CONSOLE = ["/preview"];
+/**
+ * Routes that render the console design instead of the marketing shell.
+ *
+ * "/" is the homepage. The prefix test below appends a slash before comparing
+ * — `p.startsWith(`${c}/`)` — so "/" matches only itself and never "//".
+ * Written as `p.startsWith(c)` it would match EVERY path on the site and strip
+ * the nav and footer from all of them, which is worth knowing before anyone
+ * simplifies it.
+ */
+const CONSOLE = ["/"];
 
 /** `/es/preview` → `/preview`. Read off the locale table rather than matched
  *  by shape: a two-letter pattern would also eat a real two-letter route, and
