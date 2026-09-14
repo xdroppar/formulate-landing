@@ -11,12 +11,16 @@
  * from holds fourteen — so the sentence is not repeated and the wall is left
  * to say what it can show.
  */
-import { CONSOLE_MARKS } from "@/lib/console-marks";
+/* WALL_MARKS, not CONSOLE_MARKS. The module now carries all fourteen marks in
+   the registry so other components can reach the six that are not on the
+   wall; mapping the whole set here would put apple, gem and coffee into a
+   wall captioned with the seven things you can actually log. */
+import { WALL_MARKS } from "@/lib/console-marks";
 
 export function ConsoleMarkWall() {
   return (
     <div className="cn-markwall">
-      {CONSOLE_MARKS.map((m) => (
+      {WALL_MARKS.map((m) => (
         <div className="cn-mkc" key={m.key}>
           {/* The SVG is this repo's own generated file, not user input. */}
           <span className="cn-mk" dangerouslySetInnerHTML={{ __html: m.svg }} />

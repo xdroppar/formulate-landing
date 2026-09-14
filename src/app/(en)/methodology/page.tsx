@@ -2,6 +2,30 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
 import { PILLARS } from "@/lib/pillars";
+import { ConsoleMark } from "@/components/console/console-mark";
+
+/**
+ * Which drawn mark stands for which pillar.
+ *
+ * Kept here rather than added to lib/pillars because that module is shared
+ * with the console and the app link builders, and this is a rendering choice
+ * for one page — the pillar's `icon` character is still the portable answer
+ * for anything that cannot draw.
+ *
+ * Every one of these was picked by rendering the set at 120px, not by reading
+ * its key. Two things only visible that way: `cabin` reads as a wooden crate
+ * rather than anything bodily, so it is not used here, and `care` and `drop`
+ * are the same teardrop in two colours — `care` is the teal one and is the
+ * right answer for personal care, but they must not both appear in one row.
+ */
+const PILLAR_MARKS: Record<string, string> = {
+  supplements: "capsule",
+  foods: "apple",
+  nutrients: "gem",
+  sleep: "moon",
+  fitness: "dumbbell",
+  "personal-care": "care",
+};
 
 export const metadata: Metadata = {
   title: "Methodology — How Formulate Scores Everything",
@@ -110,8 +134,14 @@ export default function MethodologyHubPage() {
               const inner = (
                 <>
                   <div className="flex items-center justify-between mb-3">
-                    <div className="w-11 h-11 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-xl">
-                      {p.icon}
+                    {/* The drawn mark, not the pillar's emoji field. `p.icon`
+                        is still there and still feeds anything that wants a
+                        character; this page has room for the real thing.
+                        Decorative on purpose — the pillar's name is rendered
+                        directly below it, so announcing the mark too would
+                        just say everything twice. */}
+                    <div className="w-11 h-11 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center">
+                      <ConsoleMark name={PILLAR_MARKS[p.slug] ?? "gem"} className="w-8 h-8 [&>svg]:w-full [&>svg]:h-full" />
                     </div>
                     {live ? (
                       <span className="text-[10px] font-bold uppercase tracking-wider text-accent">Live</span>

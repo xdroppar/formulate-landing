@@ -35,6 +35,7 @@
  */
 import Link from "next/link";
 import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
+import { ConsoleMark } from "@/components/console/console-mark";
 import { ConsoleShelf } from "@/components/console/console-shelf";
 import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import { ConsolePanel } from "@/components/console/console-panel";
@@ -212,9 +213,11 @@ function TrackSection() {
 
         <div className="cn-streak">
           <div className="cn-streakhead">
-            <span className="cn-flame" aria-hidden>
-              🔥
-            </span>
+            {/* The drawn flame, not 🔥. It sits a few hundred pixels under a
+                wall of hand-drawn marks, and was the one thing in that band
+                still rendering as a system emoji — which meant it changed
+                shape per platform while everything around it did not. */}
+            <ConsoleMark name="flame" className="cn-flame" />
             <div>
               <div className="cn-streaknum">148</div>
               <span className="lab" style={{ marginTop: 4 }}>
