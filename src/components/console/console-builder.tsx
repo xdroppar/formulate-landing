@@ -24,9 +24,10 @@
  * a composite nobody computed.
  *
  * THE PILLARS ARE READ, NOT LISTED. They come from lib/pillars, the same
- * authority the site nav uses, and a chip is only active if the index actually
- * holds items for it. Nutrients is absent on purpose: a nutrient is not
- * something you add to a stack, it is what having added things gets you.
+ * authority the site nav uses. A chip filters in place where the index can
+ * serve it and opens the app's catalog where it cannot — see PILLAR_BROWSE.
+ * Nutrients is absent on purpose: a nutrient is not something you add to a
+ * stack, it is what having added things gets you.
  */
 import { useEffect, useMemo, useState } from "react";
 import type { ScoreItem } from "@/components/landing/hero-stack-builder";
@@ -37,6 +38,26 @@ const PILLAR_KIND: Record<string, ScoreItem["kind"] | undefined> = {
   supplements: "supplement",
   foods: "food",
 };
+
+/**
+ * Where a pillar's catalog lives when this page cannot serve it.
+ *
+ * /api/score-index holds supplements and whole foods. Sleep, fitness and
+ * personal care are live pillars with real catalogs — they just live in the
+ * app, so their chip is a door rather than a filter. It is NOT marked "soon":
+ * that was true while those pages were dev-gated and stopped being true when
+ * they were released, and a chip that says soon about a shipped catalog is
+ * the same lie as a nav that says it.
+ *
+ * Personal Care browses at /skin — the route is named for the catalog, the
+ * label for the pillar.
+ */
+const PILLAR_BROWSE: Record<string, string> = {
+  sleep: "/sleep",
+  fitness: "/fitness",
+  "personal-care": "/skin",
+};
+const APP = "https://app.formulate-health.app";
 
 const CHIPS = PILLARS.filter((p) => p.slug !== "nutrients");
 
@@ -119,17 +140,31 @@ export function ConsoleBuilder() {
           {CHIPS.map((p) => {
             const n = counts[p.slug] ?? 0;
             const on = pillar === p.slug;
+            if (!n) {
+              const path = PILLAR_BROWSE[p.slug];
+              if (!path) return null;
+              return (
+                <a
+                  key={p.slug}
+                  className="cn-pil out"
+                  href={`${APP}${path}`}
+                  title={`${p.title} is catalogued in the app`}
+                >
+                  {p.title}
+                  <em className="w">browse &rarr;</em>
+                </a>
+              );
+            }
             return (
               <button
                 type="button"
                 key={p.slug}
-                className={`cn-pil ${on ? "on" : ""} ${n ? "" : "soon"}`}
-                onClick={() => n && setPillar(on ? null : p.slug)}
-                disabled={!n}
-                title={n ? `${n} scored` : "Not in the catalog yet"}
+                className={`cn-pil ${on ? "on" : ""}`}
+                onClick={() => setPillar(on ? null : p.slug)}
+                title={`${n} scored`}
               >
                 {p.title}
-                {n ? <em>{n}</em> : <em className="w">soon</em>}
+                <em>{n}</em>
               </button>
             );
           })}

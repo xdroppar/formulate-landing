@@ -13,6 +13,37 @@ import { trackEvent } from "@/lib/analytics";
 
 type MenuItem = { href: string; title: string; desc: string; soon?: boolean };
 
+/**
+ * The three pillars that launched later point into the WEB APP, because that
+ * is where their catalogs live — this site has no /sleep, /fitness or
+ * /personal-care pages to send anyone to. Flipping their status without this
+ * would have given each an empty dropdown: `PILLAR_SECTIONS[p.slug] ?? []`
+ * renders a menu that opens onto nothing, which is a worse answer than the
+ * "Soon" badge it replaced.
+ *
+ * Personal Care browses at /skin — the route is named for the catalog rather
+ * than the pillar, and the label is what a reader sees.
+ */
+const APP = "https://app.formulate-health.app";
+const appLink = (path: string, campaign: string) =>
+  withUtm(`${APP}${path}`, { source: "landing", campaign });
+
+const SLEEP_ITEMS: MenuItem[] = [
+  { href: appLink("/sleep", "nav_sleep"), title: "Browse Catalog", desc: "Sleep gear, compared inside its category" },
+  { href: appLink("/sleep/brands", "nav_sleep_brands"), title: "Brands", desc: "Who makes it, and how they test" },
+  { href: appLink("/sleep/methodology", "nav_sleep_method"), title: "How we score it", desc: "Why a mask and a mattress are not one number" },
+];
+const FITNESS_ITEMS: MenuItem[] = [
+  { href: appLink("/fitness", "nav_fitness"), title: "Browse Catalog", desc: "Equipment, graded on build and on fit" },
+  { href: appLink("/fitness/brands", "nav_fitness_brands"), title: "Brands", desc: "Who makes it, and how they test" },
+  { href: appLink("/fitness/methodology", "nav_fitness_method"), title: "How we score it", desc: "Build quality, and whether it fits your goal" },
+];
+const CARE_ITEMS: MenuItem[] = [
+  { href: appLink("/skin", "nav_care"), title: "Browse Catalog", desc: "Personal care, scored on actives and safety" },
+  { href: appLink("/skin/brands", "nav_care_brands"), title: "Brands", desc: "Who makes it, and how they test" },
+  { href: appLink("/skin/methodology", "nav_care_method"), title: "How we score it", desc: "Actives, concentration and irritants" },
+];
+
 // Pillar-centric nav (end-state template): each platform pillar is its own
 // top-level section. Live pillars open a dropdown of their browse pages + "How
 // we score it" (methodology folded in); "coming soon" pillars show greyed with a
@@ -38,6 +69,9 @@ const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
     { href: "/nutrients", title: "Browse Nutrients", desc: "Targets, sources & daily coverage" },
     { href: "/methodology/nutrients", title: "How we score it", desc: "Coverage vs your targets" },
   ],
+  sleep: SLEEP_ITEMS,
+  fitness: FITNESS_ITEMS,
+  "personal-care": CARE_ITEMS,
 };
 const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },

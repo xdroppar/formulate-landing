@@ -1080,13 +1080,13 @@
   letter-spacing: 0.1em;
   color: var(--faint);
 }
-/* A pillar the catalog cannot serve yet is shown, and shown as not ready —
-   the site's own nav marks the same three the same way. Hiding them would
-   claim the platform is smaller than it is; enabling them would claim it is
-   further along. */
-.cn-pil.soon {
-  opacity: 0.5;
-  cursor: default;
+/* A pillar whose catalog lives in the app: a door, not a dead chip. */
+.cn-pil.out {
+  color: var(--dim);
+}
+.cn-pil.out:hover {
+  border-color: rgba(142, 232, 171, 0.4);
+  color: var(--ink);
 }
 .cn-pil em.w {
   color: var(--warm-deep, #a8814f);
@@ -1199,4 +1199,23 @@
   .cn-builder {
     grid-template-columns: minmax(0, 1fr);
   }
+}
+
+/* A catalog with no cross-category number shows the band it really has. */
+.cn-price {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  font-size: 9.5px;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  background: rgba(9, 25, 15, 0.88);
+  border: 1px solid var(--hair2);
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+/* A card that is a proposal rather than a catalog says so on its own label,
+   in the colour the rest of the page uses for "not yours yet". */
+.cn-cat.prop {
+  color: var(--warm);
 }

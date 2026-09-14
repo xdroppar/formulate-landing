@@ -39,7 +39,6 @@ import { ConsoleShelf } from "@/components/console/console-shelf";
 import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import { ConsolePanel } from "@/components/console/console-panel";
 import { ConsoleBuilder } from "@/components/console/console-builder";
-import type { ShelfCard } from "@/lib/console-shelf";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
   return (
@@ -54,7 +53,7 @@ function Ups({ items }: { items: { title: string; line: string }[] }) {
   );
 }
 
-function ScoreSection({ shelf, scoredTotal }: { shelf: ShelfCard[]; scoredTotal: number }) {
+function ScoreSection() {
   return (
     <section className="cn-sec">
       <div className="wrap">
@@ -73,7 +72,7 @@ function ScoreSection({ shelf, scoredTotal }: { shelf: ShelfCard[]; scoredTotal:
           </p>
         </div>
 
-          <ConsoleShelf cards={shelf} total={scoredTotal} />
+          <ConsoleShelf />
         </div>
 
         {/* The reason the shelf is beside the headline rather than across the
@@ -312,16 +311,10 @@ function Foot() {
   );
 }
 
-export function ConsoleSections({
-  shelf,
-  scoredTotal,
-}: {
-  shelf: ShelfCard[];
-  scoredTotal: number;
-}) {
+export function ConsoleSections() {
   return (
     <>
-      <ScoreSection shelf={shelf} scoredTotal={scoredTotal} />
+      <ScoreSection />
       <TrackSection />
       <TestSection />
       <CloseSection />

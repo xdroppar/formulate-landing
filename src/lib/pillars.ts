@@ -45,21 +45,21 @@ export const PILLARS: Pillar[] = [
     title: "Sleep",
     tagline: "Quality, consistency & recovery",
     icon: "😴",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "fitness",
     title: "Fitness",
     tagline: "Volume, progression & longevity",
     icon: "💪",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "personal-care",
     title: "Personal Care",
     tagline: "Ingredient safety & efficacy",
     icon: "🧴",
-    status: "soon",
+    status: "live",
   },
 ];
 

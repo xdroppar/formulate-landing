@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ConsoleLanding } from "@/components/console/console-landing";
-import { getShelfCards, getScoredTotal } from "@/lib/console-shelf";
 
 /**
  * /preview — the console landing, on the real domain, beside the live one.
@@ -24,5 +23,5 @@ export const metadata: Metadata = {
 
 export default function PreviewPage() {
   // read on the server: the catalogs are 2,185 rows and must not reach the client
-  return <ConsoleLanding shelf={getShelfCards()} scoredTotal={getScoredTotal()} />;
+  return <ConsoleLanding />;
 }
