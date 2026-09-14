@@ -10,13 +10,20 @@
  */
 import { ConsoleNav, ConsoleHero } from "@/components/console/console-hero";
 import { ConsoleSections } from "@/components/console/console-sections";
+import type { ShelfCard } from "@/lib/console-shelf";
 
-export function ConsoleLanding() {
+export function ConsoleLanding({
+  shelf = [],
+  scoredTotal = 0,
+}: {
+  shelf?: ShelfCard[];
+  scoredTotal?: number;
+}) {
   return (
     <div className="cn">
       <ConsoleNav />
       <ConsoleHero />
-      <ConsoleSections />
+      <ConsoleSections shelf={shelf} scoredTotal={scoredTotal} />
     </div>
   );
 }

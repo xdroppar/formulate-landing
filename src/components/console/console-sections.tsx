@@ -35,6 +35,8 @@
  */
 import Link from "next/link";
 import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
+import { ConsoleShelf } from "@/components/console/console-shelf";
+import type { ShelfCard } from "@/lib/console-shelf";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
   return (
@@ -49,7 +51,7 @@ function Ups({ items }: { items: { title: string; line: string }[] }) {
   );
 }
 
-function ScoreSection() {
+function ScoreSection({ shelf, scoredTotal }: { shelf: ShelfCard[]; scoredTotal: number }) {
   return (
     <section className="cn-sec">
       <div className="wrap">
@@ -66,6 +68,8 @@ function ScoreSection() {
             buy to find out.
           </p>
         </div>
+
+        <ConsoleShelf cards={shelf} total={scoredTotal} />
 
         <div className="cn-doors">
           <div className="door">
@@ -230,10 +234,16 @@ function Foot() {
   );
 }
 
-export function ConsoleSections() {
+export function ConsoleSections({
+  shelf,
+  scoredTotal,
+}: {
+  shelf: ShelfCard[];
+  scoredTotal: number;
+}) {
   return (
     <>
-      <ScoreSection />
+      <ScoreSection shelf={shelf} scoredTotal={scoredTotal} />
       <TrackSection />
       <TestSection />
       <CloseSection />
