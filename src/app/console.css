@@ -666,21 +666,28 @@
    is a collision, but a quarter of it below the band is depth. */
 .cn-trackband {
   display: grid;
-  grid-template-columns: minmax(0, 620px) minmax(0, 1fr);
-  gap: clamp(20px, 3vw, 46px);
+  /* Measured off the demo at 1440: the wall's four columns occupy 452 of the
+     1112 wrap, the ledger is 380 wide, the phone 198, with 56 between the wall
+     and the art and 26 between the ledger and the phone. Read from the
+     rendered boxes rather than from a screenshot — the demo states its wall as
+     a padding-right, which is a different number from the one it produces. */
+  grid-template-columns: minmax(0, 452px) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 56px);
   align-items: end;
   margin-top: clamp(28px, 3.6vw, 46px);
 }
 .cn-trackart {
+  --cn-pw: clamp(150px, 14vw, 198px);
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  gap: clamp(14px, 1.8vw, 26px);
+  gap: clamp(18px, 1.8vw, 26px);
   min-width: 0;
 }
+/* 18px clear of the band's bottom line, as the demo has it. */
 .cn-ledwin {
-  margin: 0;
-  width: clamp(230px, 26vw, 340px);
+  margin: 0 0 18px;
+  width: clamp(280px, 34vw, 380px);
   border-radius: 11px;
   overflow: hidden;
   border: 1px solid rgba(226, 255, 236, 0.13);
@@ -716,10 +723,17 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/* The phone's bottom sits 0.542 x its own width below the band's line — and
+   since a phone is 852/393 as tall as it is wide, that is exactly a quarter of
+   its height behind the card below. The demo's own number, kept as the
+   expression rather than the answer so the two stay tied if the width moves.
+   z-index because the streak card comes later in the DOM and would otherwise
+   paint straight over it. */
 .cn-phone {
   position: relative;
-  margin: 0 0 clamp(-46px, -4vw, -22px);
-  flex: 0 0 clamp(130px, 14vw, 186px);
+  z-index: 5;
+  margin: 0 0 calc(-0.542 * var(--cn-pw));
+  flex: 0 0 var(--cn-pw);
   border-radius: 26px;
   padding: 3.5px;
   background: linear-gradient(152deg, #6e7d73, #2c3a32 34%, #141d18 66%, #39473e);

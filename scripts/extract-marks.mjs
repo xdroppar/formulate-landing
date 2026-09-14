@@ -59,7 +59,10 @@ const seenIds = new Set();
 const marks = [];
 
 for (const [key, label] of WALL) {
-  let svg = svgFor(key, "m");
+  /* "l", not "m". The demo's wall asks for data-sz="l" — an 86px box, where
+     "m" is 38 — and taking the wrong one makes every mark look like a typo
+     inside its tile. The size is part of the design, not a rendering detail. */
+  let svg = svgFor(key, "l");
 
   /* Rewrite every id this mark defines, and every url(#..) that points at one. */
   const ids = [...svg.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);

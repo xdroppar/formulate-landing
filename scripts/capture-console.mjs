@@ -70,10 +70,17 @@ const SHOTS = [
     out: "console-ledger.webp",
     url: "/v2/app.html?embed=1&screen=record",
     width: 1394,
-    height: 760,
+    height: 1000,
     want: ["#ledger"],
     clipTo: "#ledger",
     clipAncestor: ".rcol",
+    /* The panel is 500x386; the demo shows a 500x300 window of it
+       (`#ledshot{aspect-ratio:500/300}`). Taking the whole panel makes the
+       picture a sixth taller than the box the design reserves, which does not
+       read as a crop — it reads as the phone beside it sitting in the wrong
+       place. Trimmed from the bottom, so the heading and the first rows are
+       what survive. */
+    clipMaxHeight: 300,
   },
   {
     /* The 148-day line on its own. Clipped to the element that draws it rather
@@ -257,6 +264,7 @@ try {
 
     const png = join(work, `${shot.name}.png`);
     let clip;
+    let crop;
     if (shot.clipTo) {
       const { result } = await cdp.send("Runtime.evaluate", {
         expression: `(() => {
@@ -281,24 +289,49 @@ try {
         );
       }
     }
-    const cap = await cdp.send("Page.captureScreenshot", { format: "png", ...(clip ? { clip } : {}) });
+    /* Always a FULL capture, cropped afterwards — never Page.captureScreenshot's
+       own `clip`. The demo stacks every screen at the same coordinates and shows
+       one of them, so a clip rect asking for "the region where the ledger panel
+       is" came back with the region where TODAY's panels are: a real image, the
+       right size, of the wrong screen. A full capture is the screen that is
+       actually visible, and cropping it cannot pick up a different one. */
+    const cap = await cdp.send("Page.captureScreenshot", { format: "png" });
     writeFileSync(png, Buffer.from(cap.data, "base64"));
 
     const meta = await sharp(png).metadata();
-    const wantW = clip ? Math.round(clip.width) : shot.width;
-    const wantH = clip ? Math.round(clip.height) : shot.height;
-    if (Math.abs(meta.width - wantW) > 1 || Math.abs(meta.height - wantH) > 1) {
+    if (meta.width !== shot.width || meta.height !== shot.height) {
       throw new Error(
-        `"${shot.name}" captured ${meta.width}x${meta.height}, expected ${wantW}x${wantH}.`,
+        `"${shot.name}" captured ${meta.width}x${meta.height}, expected ${shot.width}x${shot.height}.`,
       );
+    }
+    /* The region, entirely inside the frame we just took. A rect that runs off
+       the bottom means the viewport was too short to contain the thing this
+       shot is of — worth failing on, because the alternative is a picture cut
+       off at an arbitrary line. */
+    if (clip) {
+      const r = {
+        left: Math.round(clip.x),
+        top: Math.round(clip.y),
+        width: Math.round(clip.width),
+        height: Math.min(Math.round(clip.height), shot.clipMaxHeight ?? Infinity),
+      };
+      if (r.left < 0 || r.top < 0 || r.left + r.width > meta.width || r.top + r.height > meta.height) {
+        throw new Error(
+          `"${shot.name}" region ${r.left},${r.top} ${r.width}x${r.height} does not fit ` +
+            `inside the ${meta.width}x${meta.height} capture. Give the shot a taller viewport.`,
+        );
+      }
+      crop = r;
     }
 
     const out = join(ROOT, "public", shot.out);
-    await sharp(png).webp({ quality: 82 }).toFile(out);
+    const pipe = sharp(png);
+    if (crop) pipe.extract(crop);
+    await pipe.webp({ quality: 82 }).toFile(out);
     const proof = [...want, ...wantText.map((t) => `"${t}"`)].join(" + ");
     console.log(
       `  ${shot.name.padEnd(8)} ${String(Math.round(statSync(out).size / 1024)).padStart(4)} KB  ` +
-        `${meta.width}x${meta.height}  verified: ${proof}${clip ? ` (clipped to ${shot.clipTo})` : ""}`,
+        `${crop ? crop.width : meta.width}x${crop ? crop.height : meta.height}  verified: ${proof}${crop ? ` cropped to ${shot.clipTo} (${crop.width}x${crop.height})` : ""}`,
     );
   }
 
