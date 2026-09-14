@@ -617,13 +617,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(8px, 1vw, 13px);
-  margin-top: clamp(28px, 3.6vw, 46px);
-  /* The prototype keeps this wall to the left half and parks the record and
-     the phone in the space it leaves. The pictures sit below here instead, so
-     the width has to be stated rather than inherited — left full-bleed, four
-     columns of a 1180px wrap give tiles the size of a playing card and the
-     mark inside one looks like a typo. */
-  max-width: 620px;
+  margin-top: 0;
 }
 .cn-mkc {
   aspect-ratio: 1.1;
@@ -661,63 +655,100 @@
 }
 
 /* ── the record beside the phone ──
-   The phone sits in front of the window with its last quarter resting on it:
-   a quarter of a phone lying across the copy is a collision, not depth. */
+   One band: the wall on the left, the ledger and the phone in the room it
+   leaves. The prototype does this with an absolutely-positioned art block
+   pinned to the right; a grid reaches the same composition without any of the
+   art's height having to be known in advance, which matters here because the
+   wall and the art are different heights and either could be the taller.
+
+   Bottom-aligned, and the phone hangs a little below the line, because the
+   prototype's own note is right: a quarter of a phone lying across the copy
+   is a collision, but a quarter of it below the band is depth. */
 .cn-trackband {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(150px, 15vw, 208px);
-  gap: clamp(14px, 2vw, 30px);
+  grid-template-columns: minmax(0, 620px) minmax(0, 1fr);
+  gap: clamp(20px, 3vw, 46px);
   align-items: end;
-  margin-top: clamp(26px, 3.4vw, 44px);
+  margin-top: clamp(28px, 3.6vw, 46px);
 }
-.cn-recwin img,
-.cn-testwin img {
+.cn-trackart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: clamp(14px, 1.8vw, 26px);
+  min-width: 0;
+}
+.cn-ledwin {
+  margin: 0;
+  width: clamp(230px, 26vw, 340px);
+  border-radius: 11px;
+  overflow: hidden;
+  border: 1px solid rgba(226, 255, 236, 0.13);
+  box-shadow:
+    0 40px 80px -30px rgba(0, 0, 0, 0.95),
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+.cn-ledwin img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* figure carries a default margin; these two are figures. NOT written as
-   `.cn-win{margin:0}` — that name is the hero's window, and a second rule for
-   it is the collision this file's checker exists to stop. One complete rule
-   each rather than a shared rule plus an override, for the same reason: the
-   checker cannot tell a deliberate second rule from an accidental one, so the
-   house style is that there are no second rules. */
-.cn-recwin {
-  margin: 0;
+.cn-ledbar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  background: rgba(255, 255, 255, 0.045);
+  border-bottom: 1px solid rgba(226, 255, 236, 0.09);
 }
-.cn-testwin {
-  margin: clamp(26px, 3.4vw, 44px) 0 0;
+.cn-ledbar i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.17);
+}
+.cn-ledurl {
+  margin-left: 7px;
+  font-size: 7px;
+  letter-spacing: 0.04em;
+  color: var(--faint);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .cn-phone {
   position: relative;
-  margin: 0;
+  margin: 0 0 clamp(-46px, -4vw, -22px);
+  flex: 0 0 clamp(130px, 14vw, 186px);
   border-radius: 26px;
-  padding: 5px;
-  background: linear-gradient(160deg, #1d2a23, #0a120d);
-  border: 1px solid rgba(226, 255, 236, 0.13);
-  box-shadow: 0 44px 80px -34px rgba(0, 0, 0, 0.95);
+  padding: 3.5px;
+  background: linear-gradient(152deg, #6e7d73, #2c3a32 34%, #141d18 66%, #39473e);
+  box-shadow:
+    0 34px 64px -20px rgba(0, 0, 0, 0.95),
+    0 0 0 1px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 .cn-phone img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 22px;
+  border-radius: 23px;
 }
 .cn-island {
   position: absolute;
   left: 50%;
-  top: 13px;
+  top: 11px;
   transform: translateX(-50%);
   z-index: 4;
   width: 26%;
-  height: 9px;
+  height: 7px;
   border-radius: 999px;
   background: #050c08;
 }
 .cn-hbar {
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 8px;
   transform: translateX(-50%);
   z-index: 4;
   width: 32%;
@@ -772,17 +803,175 @@
   color: var(--warm);
 }
 
-@media (max-width: 900px) {
+/* Below this there is no room to stand two things side by side, so the art
+   stands down rather than being shrunk into illegibility — the prototype
+   hides it outright at 1080px for the same reason. The wall keeps the width
+   to itself. */
+@media (max-width: 1080px) {
   .cn-trackband {
     grid-template-columns: minmax(0, 1fr);
-    justify-items: center;
   }
-  .cn-phone {
-    max-width: 230px;
+  .cn-trackart {
+    display: none;
   }
 }
 @media (max-width: 600px) {
   .cn-markwall {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ── 03 · the panel, as two cards ──
+   Values are the prototype's. This section shows data rather than a
+   screenshot because there is no screen like it in the shipped app; see
+   console-panel.tsx. */
+.cn-testgrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 1.8vw, 22px);
+  margin-top: clamp(28px, 3.6vw, 46px);
+}
+.cn-tcard {
+  padding: 20px 22px 18px;
+  border-radius: 16px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.014);
+}
+.cn-phead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 14px 0 6px;
+}
+.cn-pnum {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: var(--ink);
+}
+.cn-pw {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.cn-pw b {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--mute);
+}
+.cn-pw i {
+  font-style: normal;
+  font-size: 11.5px;
+  line-height: 1.4;
+  color: var(--faint);
+}
+.cn-sysrows {
+  margin-top: 4px;
+}
+.cn-sysrow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 30px 96px;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--hair);
+}
+.cn-sysrow:last-child {
+  border-bottom: 0;
+}
+.cn-sname {
+  min-width: 0;
+  font-size: 13.5px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.cn-sname em {
+  display: block;
+  font-style: normal;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  color: var(--faint);
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cn-sscore {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 14px;
+  text-align: right;
+  color: var(--ink);
+}
+/* where you are, and a tick where optimal is: the row IS the distance
+   between them, so the tick must sit outside the bar's own rounding */
+.cn-sbar {
+  position: relative;
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.07);
+  overflow: visible;
+}
+.cn-sbar i {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--g-deep), var(--g));
+}
+.cn-sbar u {
+  position: absolute;
+  top: -3px;
+  width: 2px;
+  height: 11px;
+  border-radius: 1px;
+  background: rgba(255, 194, 122, 0.8);
+  text-decoration: none;
+}
+.cn-chrow {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 128px) minmax(0, 1fr);
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--hair);
+}
+.cn-chrow:last-child {
+  border-bottom: 0;
+}
+.cn-cd {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 14px;
+  text-align: right;
+}
+.cn-cn {
+  font-size: 13.5px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cn-cw {
+  min-width: 0;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--faint);
+}
+.cn-bn {
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--faint);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .cn-testgrid {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

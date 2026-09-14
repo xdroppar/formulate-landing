@@ -37,6 +37,7 @@ import Link from "next/link";
 import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
 import { ConsoleShelf } from "@/components/console/console-shelf";
 import { ConsoleMarkWall } from "@/components/console/console-markwall";
+import { ConsolePanel } from "@/components/console/console-panel";
 import type { ShelfCard } from "@/lib/console-shelf";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
@@ -136,41 +137,42 @@ function TrackSection() {
           </p>
         </div>
 
-        <ConsoleMarkWall />
-
-        {/* The record, and the same day in a pocket. Two pictures rather than
-            one because the argument is that these are the same product: the
-            ledger is where a day becomes a row you can open, and the phone is
-            where the day is actually logged. */}
+        {/* One band: the wall on the left, and the record and the phone in
+            the room it leaves. The prototype pins the pair to the right and
+            measures the ledger off the phone rather than off the edge, so
+            moving one number keeps them a pair. Below 1080px the art stands
+            down entirely — there is no room to overlap anything. */}
         <div className="cn-trackband">
-          <figure className="cn-win cn-recwin">
-            <div className="cn-winbar">
-              <span className="wd" />
-              <span className="wd" />
-              <span className="wd" />
-              <span className="cn-winurl mono">formulate-health.app/record</span>
-              <span className="cn-windemo mono">DEMO ACCOUNT</span>
-            </div>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/console-record.webp"
-              alt="The record: a line across 148 days, the events that moved it, and every day as a row in the ledger."
-              width={1394}
-              height={760}
-            />
-          </figure>
+          <ConsoleMarkWall />
+          <div className="cn-trackart">
+            <figure className="cn-ledwin">
+              <div className="cn-ledbar">
+                <i />
+                <i />
+                <i />
+                <span className="cn-ledurl mono">formulate-health.app/record</span>
+              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/console-ledger.webp"
+                alt="The day ledger: every day as a row, with what the day was and what it scored."
+                width={500}
+                height={300}
+              />
+            </figure>
 
-          <figure className="cn-phone">
-            <span className="cn-island" />
-            <span className="cn-hbar" />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/console-mobile.webp"
-              alt="The same day on iPhone: wake, morning, midday, evening and bedtime windows, each with what is due in it."
-              width={393}
-              height={852}
-            />
-          </figure>
+            <figure className="cn-phone">
+              <span className="cn-island" />
+              <span className="cn-hbar" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/console-mobile.webp"
+                alt="The same day on iPhone: wake, morning, midday, evening and bedtime windows, each with what is due in it."
+                width={393}
+                height={852}
+              />
+            </figure>
+          </div>
         </div>
 
         <div className="cn-streak">
@@ -238,22 +240,7 @@ function TestSection() {
           </p>
         </div>
 
-        <figure className="cn-win cn-testwin">
-          <div className="cn-winbar">
-            <span className="wd" />
-            <span className="wd" />
-            <span className="wd" />
-            <span className="cn-winurl mono">formulate-health.app/testing</span>
-            <span className="cn-windemo mono">DEMO ACCOUNT</span>
-          </div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/console-testing.webp"
-            alt="Seven systems scored against optimal, and the markers your stack should be touching, with the change since the previous panel."
-            width={1394}
-            height={760}
-          />
-        </figure>
+        <ConsolePanel />
 
         <Ups
           items={[

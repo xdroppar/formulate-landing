@@ -63,20 +63,17 @@ const SHOTS = [
     want: ["#ring", "#meter", "#prows"],
   },
   {
-    name: "record",
-    out: "console-record.webp",
+    /* The day ledger, in its own panel. Clipped to the panel that contains it
+       — `#ledger` is the <tbody>, and a tbody's box is the rows without the
+       heading that says what they are. */
+    name: "ledger",
+    out: "console-ledger.webp",
     url: "/v2/app.html?embed=1&screen=record",
     width: 1394,
     height: 760,
-    want: ["#ledger", "#recbox"],
-  },
-  {
-    name: "testing",
-    out: "console-testing.webp",
-    url: "/v2/app.html?embed=1&screen=testing",
-    width: 1394,
-    height: 760,
-    want: ['[data-k="testing"]'],
+    want: ["#ledger"],
+    clipTo: "#ledger",
+    clipAncestor: ".rcol",
   },
   {
     /* The 148-day line on its own. Clipped to the element that draws it rather
@@ -262,11 +259,20 @@ try {
     let clip;
     if (shot.clipTo) {
       const { result } = await cdp.send("Runtime.evaluate", {
-        expression: `(() => { const r = document.querySelector(${JSON.stringify(shot.clipTo)})
-          .getBoundingClientRect();
+        expression: `(() => {
+          let el = document.querySelector(${JSON.stringify(shot.clipTo)});
+          ${shot.clipAncestor ? `el = el && el.closest(${JSON.stringify(shot.clipAncestor)});` : ""}
+          if (!el) return null;
+          const r = el.getBoundingClientRect();
           return { x: r.x, y: r.y, width: r.width, height: r.height }; })()`,
         returnByValue: true,
       });
+      if (!result.value) {
+        throw new Error(
+          `"${shot.name}" could not find ${shot.clipTo}` +
+            `${shot.clipAncestor ? ` inside ${shot.clipAncestor}` : ""} to clip to.`,
+        );
+      }
       clip = { ...result.value, scale: 1 };
       if (clip.width < 40 || clip.height < 20) {
         throw new Error(
