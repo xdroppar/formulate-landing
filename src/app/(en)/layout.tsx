@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { SiteShell } from "@/components/site-shell";
-import { Inter, Inter_Tight, Newsreader } from "next/font/google";
+import { Bricolage_Grotesque, Inter, Inter_Tight, JetBrains_Mono, Newsreader } from "next/font/google";
 import { APP_STORE_ID, IOS_LIVE } from "@/lib/app-store";
 import "@/app/globals.css";
+import "@/app/console.css";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -41,8 +42,32 @@ export const newsreader = Newsreader({
   variable: "--font-newsreader",
 });
 
-/** All three variables, for the single shared <html> in SiteShell. */
-export const fontVariables = [inter.variable, interTight.variable, newsreader.variable].join(" ");
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600"],
+  display: "swap",
+  preload: false,
+  variable: "--font-bricolage",
+});
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  display: "swap",
+  preload: false,
+  variable: "--font-jetbrains",
+});
+
+/** Every font variable, for the single shared <html> in SiteShell. The two
+ *  console faces ride along because the shell is one element for the whole
+ *  site: a variable declared further in resolves to nothing for anything
+ *  outside that subtree, and the console landing brings its own chrome. */
+export const fontVariables = [
+  inter.variable,
+  interTight.variable,
+  newsreader.variable,
+  bricolage.variable,
+  jetbrains.variable,
+].join(" ");
 
 export const metadata: Metadata = {
   title: {

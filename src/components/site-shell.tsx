@@ -1,8 +1,6 @@
 import { Analytics } from "@vercel/analytics/next";
-import { Nav } from "@/components/nav";
-import { Footer } from "@/components/footer";
+import { SiteChrome } from "@/components/site-chrome";
 import { I18nProvider } from "@/components/i18n-provider";
-import { LanguagePrompt } from "@/components/language-prompt";
 import { AttributionTracker } from "@/components/attribution-tracker";
 import { AppLinkTracker } from "@/components/app-link-tracker";
 import { PageTracker } from "@/components/page-tracker";
@@ -49,10 +47,9 @@ export function SiteShell({
       <body className="min-h-screen">
         <AppModeBoot />
         <I18nProvider>
-          <Nav />
-          <main>{children}</main>
-          <Footer />
-          <LanguagePrompt />
+          {/* Which of the two designs this route gets. See site-chrome.tsx —
+              the console landing renders bare, everything else is unchanged. */}
+          <SiteChrome>{children}</SiteChrome>
         </I18nProvider>
         <Analytics />
         <AttributionTracker />

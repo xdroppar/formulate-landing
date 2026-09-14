@@ -1,0 +1,283 @@
+/* ══════════════════════════════════════════════════════════════════════
+   The console landing.
+
+   Ported from the prototype (scratchpad/formulate-show) as a scoped theme.
+   Scoped under `.cn` rather than applied to :root because the existing
+   marketing pages are a different design and are still live: /about, the
+   guides, the food and ingredient pages all read the current tokens. A root
+   retune would convert this page and half of each of those.
+
+   Every value is the prototype's own.
+   ══════════════════════════════════════════════════════════════════════ */
+
+.cn {
+  --ink: #eff5f0;
+  --mute: #a8bdae;
+  --dim: #7a947f;
+  --faint: #5b7364;
+  --g: #8ee8ab;
+  --g-deep: #3d9a6a;
+  --g-soft: #5f8f74;
+  --warm: #ffc27a;
+  --clay: #c9705a;
+  --hair: rgba(255, 255, 255, 0.05);
+  --hair2: rgba(255, 255, 255, 0.09);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --pad: 34px;
+  --maxw: 1180px;
+
+  position: relative;
+  min-height: 100vh;
+  background: #04120b;
+  color: var(--ink);
+  font-family: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* The ground. Fixed so it does not scroll away from a long page. */
+.cn::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(900px 620px at 74% -10%, rgba(126, 240, 172, 0.1), transparent 60%),
+    radial-gradient(700px 520px at 0% 46%, rgba(63, 127, 180, 0.05), transparent 60%);
+}
+
+.cn h1,
+.cn h2,
+.cn h3 {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: -0.032em;
+  line-height: 1.04;
+}
+.cn p {
+  margin: 0;
+  line-height: 1.5;
+}
+.cn .mono {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+.cn .wrap {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding-inline: var(--pad);
+  position: relative;
+  z-index: 1;
+}
+.cn .lab {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  color: var(--dim);
+  text-transform: uppercase;
+  display: block;
+}
+.cn .hint {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  color: #4d6455;
+}
+
+/* ── the action ── */
+.cn .act {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 13px;
+  background: var(--g);
+  color: #04120b;
+  border: 1px solid var(--g);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  white-space: nowrap;
+  box-shadow:
+    0 16px 30px -16px rgba(0, 0, 0, 0.85),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  transition:
+    background 0.22s,
+    transform 0.22s var(--ease),
+    box-shadow 0.22s ease;
+}
+.cn .act:hover {
+  background: #a9f2c0;
+  transform: translateY(-2px);
+}
+.cn .act svg {
+  flex: 0 0 auto;
+}
+/* Equal footing, not equal ambiguity: identical geometry, one filled and one
+   solid-outlined. Two filled buttons of the same colour read as a duplicate;
+   a text link reads as a demotion, which is what it was. */
+.cn .act.alt {
+  background: rgba(142, 232, 171, 0.1);
+  color: var(--g);
+  border-color: rgba(142, 232, 171, 0.5);
+  box-shadow: 0 16px 30px -18px rgba(0, 0, 0, 0.8);
+}
+.cn .act.alt:hover {
+  background: rgba(142, 232, 171, 0.18);
+  border-color: var(--g);
+}
+.cn .actrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+.cn .trust {
+  margin-top: 18px;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  color: #4d6455;
+  line-height: 1.8;
+}
+
+/* ── nav ── */
+.cn .cn-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(4, 18, 11, 0.82);
+  border-bottom: 1px solid var(--hair);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.cn .cn-nav .wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 60px;
+}
+.cn .brand {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.038em;
+}
+.cn .navacts {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cn .navacts .act {
+  padding: 9px 15px;
+  font-size: 12.5px;
+  border-radius: 10px;
+}
+
+/* ── hero: everything that matters fits one screen ── */
+.cn-hero {
+  padding-block: clamp(26px, 4vw, 52px) clamp(80px, 8.5vw, 124px);
+}
+.cn-hero .wrap {
+  max-width: 1460px;
+}
+.cn-hero h1 {
+  font-size: clamp(26px, 2.5vw, 33px);
+}
+.cn-hero h1 .soft {
+  color: var(--dim);
+}
+.cn-sub {
+  margin-top: 17px;
+  font-size: clamp(15px, 1.28vw, 17.5px);
+  color: var(--mute);
+  max-width: 44ch;
+}
+
+/* ── the lockup ──
+   Copy left, the real app beside it. The window bleeds past the right gutter
+   so it uses every pixel there is: the app is dense and every 40px it loses
+   costs legibility at this scale. */
+.cn-herogrid {
+  display: grid;
+  grid-template-columns: minmax(0, 472px) minmax(0, 1fr);
+  gap: clamp(20px, 2.4vw, 34px);
+  align-items: center;
+}
+.cn-lockup {
+  position: relative;
+  margin-right: clamp(46px, 6.4vw, 94px);
+}
+.cn-win {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(226, 255, 236, 0.15);
+  background: #04120b;
+  box-shadow:
+    0 70px 120px -44px rgba(0, 0, 0, 0.97),
+    inset 0 1px 0 rgba(232, 255, 240, 0.14);
+}
+.cn-winbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 13px;
+  background: rgba(255, 255, 255, 0.028);
+  border-bottom: 1px solid var(--hair);
+}
+.cn-winbar .wd {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.13);
+}
+.cn-winurl {
+  margin-left: 12px;
+  font-size: 8.5px;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+}
+/* The console itself, captured at 1560x900 by scripts/capture-console.mjs —
+   the same ratio as this box, so the picture fills it exactly.
+
+   The prototype framed the live app here and drove the scale from JS
+   (`transform: scale(box.clientWidth / 1560)`, recomputed on resize), because
+   an iframe sized to the box re-flows the app to a width it was never drawn
+   for. A picture has no such problem: `width:100%` is the whole of it, and
+   there is no listener left to go stale. `object-fit` is the belt — if the
+   capture ever comes back a different size, it crops instead of stretching. */
+.cn-appshot {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1560/900;
+  overflow: hidden;
+}
+.cn-appshot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+.cn-appclick {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .cn-herogrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .cn-lockup {
+    margin-right: 0;
+  }
+}
