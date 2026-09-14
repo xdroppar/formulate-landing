@@ -61,6 +61,10 @@ const SHOTS = [
     width: 1560,
     height: 900,
     want: ["#ring", "#meter", "#prows"],
+    /* The same animated ring as the phone's, and the same reason to assert the
+       settled number rather than just the element: #ring existing says the
+       screen is there, not that it has finished counting up to what it says. */
+    wantText: ["67", "LOGGED TODAY"],
   },
   {
     /* The day ledger, in its own panel. Clipped to the panel that contains it
