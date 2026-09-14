@@ -34,20 +34,28 @@ import type { ScoreItem } from "@/components/landing/hero-stack-builder";
 import { PILLARS } from "@/lib/pillars";
 
 /** Which index `kind` each pillar can offer, where it can offer one. */
+/* Every pillar the picker offers now filters in place. Sleep, fitness and
+   personal care used to be missing from this map — not gated, just absent
+   from the index, because their catalogs lived only in the web app. They are
+   mirrored here now (see lib/gear), so the chip is a filter like the rest
+   rather than a door out of the page. */
 const PILLAR_KIND: Record<string, ScoreItem["kind"] | undefined> = {
   supplements: "supplement",
   foods: "food",
+  "personal-care": "care",
+  fitness: "fitness",
+  sleep: "sleep",
 };
 
 /**
  * Where a pillar's catalog lives when this page cannot serve it.
  *
- * /api/score-index holds supplements and whole foods. Sleep, fitness and
- * personal care are live pillars with real catalogs — they just live in the
- * app, so their chip is a door rather than a filter. It is NOT marked "soon":
- * that was true while those pages were dev-gated and stopped being true when
- * they were released, and a chip that says soon about a shipped catalog is
- * the same lie as a nav that says it.
+ * NOW A FALLBACK, NOT THE NORMAL PATH. All five pillars are in the index —
+ * the three that used to be doors (sleep, fitness, personal care) are
+ * mirrored into this repo by scripts/sync-from-web and filter in place like
+ * the others. This branch only fires if a catalog arrives empty, where a chip
+ * that filters to nothing would be a button that does nothing; sending that
+ * person into the app is better than a dead control.
  *
  * Personal Care browses at /skin — the route is named for the catalog, the
  * label for the pillar.
@@ -60,6 +68,17 @@ const PILLAR_BROWSE: Record<string, string> = {
 const APP = "https://app.formulate-health.app";
 
 const CHIPS = PILLARS.filter((p) => p.slug !== "nutrients");
+
+/* What goes on the right of a row: the score, or the price where the catalog
+   has no score. Sleep gear has none by design and fitness has one for 72 of
+   133, so this is the normal case rather than an edge one. Never a 0 and never
+   a dash pretending to be a number — an empty right edge would read as "we
+   failed to score this" when the truth is "this catalog does not score". */
+function rowValue(i: ScoreItem): { text: string; color: string | undefined } {
+  if (i.score != null) return { text: String(i.score), color: i.color };
+  if (i.price) return { text: i.price, color: undefined };
+  return { text: "—", color: undefined };
+}
 
 export function ConsoleBuilder() {
   const [index, setIndex] = useState<ScoreItem[]>([]);
@@ -106,13 +125,20 @@ export function ConsoleBuilder() {
       .filter((i) =>
         term ? `${i.name} ${i.brand}`.toLowerCase().includes(term) : Boolean(kind),
       )
-      .sort((a, b) => b.score - a.score)
+      /* Unscored last, not as zero. Sleep carries no score and coercing it
+         would bury 552 real products under every 1-point supplement. */
+      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
       .slice(0, 8);
   }, [index, term, pillar, stack]);
 
-  const weakest = stack.length
-    ? stack.reduce((w, i) => (i.score < w.score ? i : w), stack[0])
-    : null;
+  /* The weak link is only a claim about things that carry a score. A stack of
+     a mattress and a pillow has no weakest member, and naming one would be
+     inventing a comparison the catalog explicitly refuses to make. */
+  const weakest = (() => {
+    const scored = stack.filter((i) => i.score != null);
+    if (!scored.length) return null;
+    return scored.reduce((w, i) => ((i.score as number) < (w.score as number) ? i : w), scored[0]);
+  })();
 
   return (
     <div className="cn-builder">
@@ -161,7 +187,7 @@ export function ConsoleBuilder() {
                 key={p.slug}
                 className={`cn-pil ${on ? "on" : ""}`}
                 onClick={() => setPillar(on ? null : p.slug)}
-                title={`${n} scored`}
+                title={`${n} in this catalog`}
               >
                 {p.title}
                 <em>{n}</em>
@@ -185,8 +211,8 @@ export function ConsoleBuilder() {
                 title="Remove"
               >
                 <span className="cn-pickn">{i.name}</span>
-                <span className="cn-picks" style={{ color: i.color }}>
-                  {i.score}
+                <span className="cn-picks" style={{ color: rowValue(i).color }}>
+                  {rowValue(i).text}
                 </span>
               </button>
             ))}
@@ -203,8 +229,8 @@ export function ConsoleBuilder() {
                 onClick={() => setStack((s) => [...s, i])}
               >
                 <span className="cn-pickn">{i.name}</span>
-                <span className="cn-picks" style={{ color: i.color }}>
-                  {i.score}
+                <span className="cn-picks" style={{ color: rowValue(i).color }}>
+                  {rowValue(i).text}
                 </span>
               </button>
             ))}
@@ -214,7 +240,7 @@ export function ConsoleBuilder() {
             {!ready
               ? "Loading the catalog…"
               : term
-                ? `Nothing matching “${q.trim()}” in the ${index.length.toLocaleString()} scored items here.`
+                ? `Nothing matching “${q.trim()}” in the ${index.length.toLocaleString()} items here.`
                 : "Nothing added yet — pick a pillar, or search the catalog."}
           </p>
         )}

@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { products as catalogProducts, type Product, type ScoreComponent } from "@/lib/products";
 import { foods as allFoods, type Food } from "@/lib/foods";
 import { scoreTierColor, scoreTierWord } from "@/lib/score-tier-color";
+import { gearItems } from "@/lib/gear";
 
 /**
  * The hero's search index, served on demand instead of embedded in the page.
@@ -82,6 +83,23 @@ export function GET() {
         image: f.image_url ?? "",
         kind: "food" as const,
       })),
+    /* Personal care, fitness and sleep.
+       These arrive with `score` possibly null and a `price` in its place —
+       see lib/gear for why sleep has no number and why that is deliberate
+       rather than missing. The hero renders whichever it is given; nothing
+       downstream may substitute one for the other. */
+    ...gearItems.map((g) => ({
+      slug: `${g.kind}-${g.id}`,
+      name: g.name,
+      brand: g.brand || g.category,
+      score: g.score,
+      color: g.score != null ? scoreTierColor(g.score) : "",
+      word: g.score != null ? (scoreTierWord(g.score) ?? "") : "",
+      why: g.category,
+      image: g.image ?? "",
+      price: g.price,
+      kind: g.kind,
+    })),
   ];
 
   return NextResponse.json(

@@ -8,17 +8,26 @@ export type ScoreItem = {
   slug: string;
   name: string;
   brand: string;
-  score: number;
+  /** NULL where the catalog has no cross-category number, which is not zero
+   *  and is not missing data. Sleep gear declines a score on purpose — a mask
+   *  and a mattress share no attribute one number could rank — so it carries
+   *  a price band instead. Anything reading this must handle null rather than
+   *  coerce it: a 0 here would print "Weak" over a perfectly good mattress. */
+  score: number | null;
   color: string;
-  /** Tier word from the app's own band table ("Elite" … "Building"). */
+  /** Tier word from the app's own band table ("Elite" … "Building"). Empty
+   *  where there is no score. */
   word: string;
-  /** The most decisive line from the product's score_components. */
+  /** The most decisive line from the product's score_components, or the
+   *  category for gear, which has no components. */
   why: string;
   /** Product photo, resolved at build time by the page's cardImage(). */
   image: string;
+  /** Shown in place of a score where there is none. "$35–45". */
+  price?: string | null;
   /** Which catalog this came from. Shown, because a mixed list where a leafy
    *  green and a magnesium capsule look identical is a puzzle, not a feature. */
-  kind: "supplement" | "food";
+  kind: "supplement" | "food" | "care" | "fitness" | "sleep";
 };
 
 // Deliberately mixed. The scope of the product is demonstrated by the box
@@ -112,7 +121,11 @@ export function HeroStackBuilder({
     if (!term) return [];
     const hits = index
       .filter((p) => !chosen.has(p.slug) && (p.name + " " + p.brand).toLowerCase().includes(term))
-      .sort((a, b) => b.score - a.score);
+      /* Unscored sorts last rather than as zero — see the note on
+         ScoreItem.score. This builder only ever sees scored catalogs today,
+         but the index now carries gear that has no number and a silent
+         coercion here is how that would first go wrong. */
+      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
 
     const bestPerProduct = new Map<string, ScoreItem>();
     for (const p of hits) {
@@ -133,13 +146,20 @@ export function HeroStackBuilder({
     return out;
   }, [term, index, chosen]);
 
-  const weakest = useMemo(() => {
-    if (stack.length < 2) return null;
-    return [...stack].sort((a, b) => a.score - b.score)[0];
-  }, [stack]);
+  /* Every number below is a claim about SCORED items only. An unscored one in
+     the stack is not a zero and must not drag a range or win "weakest". */
+  const scoredStack = useMemo(
+    () => stack.filter((p): p is ScoreItem & { score: number } => p.score != null),
+    [stack],
+  );
 
-  const lo = stack.length ? Math.min(...stack.map((p) => p.score)) : 0;
-  const hi = stack.length ? Math.max(...stack.map((p) => p.score)) : 0;
+  const weakest = useMemo(() => {
+    if (scoredStack.length < 2) return null;
+    return [...scoredStack].sort((a, b) => a.score - b.score)[0];
+  }, [scoredStack]);
+
+  const lo = scoredStack.length ? Math.min(...scoredStack.map((p) => p.score)) : 0;
+  const hi = scoredStack.length ? Math.max(...scoredStack.map((p) => p.score)) : 0;
 
   function add(p: ScoreItem) {
     setStack((s) => (s.some((x) => x.slug === p.slug) ? s : [...s, p]));

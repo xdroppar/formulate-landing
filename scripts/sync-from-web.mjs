@@ -36,7 +36,7 @@
  * Env:    FORMULATE_WEB_DIR overrides the web-app repo location.
  */
 
-import { existsSync, readFileSync, writeFileSync, cpSync, mkdirSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, cpSync, copyFileSync, mkdirSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -148,12 +148,106 @@ if (!existsSync(WEB_FOODS)) {
   foodVersion = foods.version || "n/a";
 }
 
+
+/* ── the other four catalogs ──────────────────────────────────────────────
+ *
+ * The landing shipped three catalogs (supplements, whole foods, recipes) and
+ * the homepage's pillar picker had five chips. Two of them filtered; the other
+ * three could only say "browse →" and point into the app, which reads as
+ * "coming soon" about catalogs that have been live for weeks.
+ *
+ * They were not gated. The data simply was not here. So it is mirrored the
+ * same way the supplement catalog is, for the same reason: one source of
+ * truth in the web app, copied rather than re-derived.
+ *
+ * NOT ALL OF THEM CARRY A SCORE, AND THEY ARE NOT MADE TO.
+ *   personal care  666 products across four files, every one scored
+ *   fitness        133 products, 72 scored, and that number is a rank INSIDE
+ *                  a category (rank / ranked_of / comparison_label) — not a
+ *                  cross-catalog score
+ *   sleep          552 products, no score field at all. It carries price
+ *                  bands, because a sleep mask and a mattress share no
+ *                  attribute one number could rank.
+ * The guard below is therefore per-catalog: a scored catalog must arrive with
+ * scores, and an unscored one must not be failed for lacking them. Demanding
+ * scores everywhere would have refused sleep forever; demanding none would let
+ * a broken personal-care export through silently.
+ */
+const GEAR = [
+  { file: "skin-catalog.json", label: "personal care · skin", assets: ["skin-assets"], mustScore: true },
+  { file: "hair-catalog.json", label: "personal care · hair", assets: ["hair-assets"], mustScore: true },
+  { file: "oral-catalog.json", label: "personal care · oral", assets: ["oral-assets"], mustScore: true },
+  { file: "body-catalog.json", label: "personal care · body", assets: ["body-assets"], mustScore: true },
+  { file: "fitness-catalog.json", label: "fitness gear", assets: ["images/fitness"], mustScore: false },
+  { file: "sleep-catalog.json", label: "sleep gear", assets: ["sleep-assets"], mustScore: false },
+];
+
+const gearReport = [];
+for (const g of GEAR) {
+  const src = join(WEB_ROOT, "src", "data", g.file);
+  const dest = join(LANDING_ROOT, "src", "data", g.file);
+  if (!existsSync(src)) {
+    console.warn(`WARN: no ${g.file} at ${src} — skipping that mirror.`);
+    continue;
+  }
+  let data;
+  try {
+    data = JSON.parse(readFileSync(src, "utf8"));
+  } catch (e) {
+    die(`web ${g.file} is not valid JSON: ${e.message}`);
+  }
+  const list = Array.isArray(data.products) ? data.products : [];
+  if (list.length < 1) die(`web ${g.file} holds no products — refusing to mirror it.`);
+  const scored = list.filter((x) => typeof x.score === "number").length;
+  if (g.mustScore && scored < 1) {
+    die(`web ${g.file} has 0 scored products but is a scored catalog — refusing to mirror.`);
+  }
+  writeFileSync(dest, JSON.stringify(data, null, 2) + "\n");
+
+  /* ONE FILE PER PRODUCT, not the directory it sits in.
+     The supplement mirror above copies whole product directories because the
+     landing opens supplement galleries. Nothing here does — gear shows a
+     single picture — so copying the directory would bring 1,909 files to use
+     1,085 of them.
+     It is also the only thing that survives. `cpSync(..., {recursive:true})`
+     in a tight loop crashed node outright on this machine (exit 0xC0000409,
+     STACK_BUFFER_OVERRUN) partway through the second catalog, after writing
+     skin and its assets. Not a path problem: no reparse points anywhere in
+     these trees and the deepest path is 138 characters. copyFileSync does not
+     do it. */
+  let gearCopied = 0;
+  let gearMissing = 0;
+  const seen = new Set();
+  for (const x of list) {
+    const u = x.image_url || x.image;
+    if (!u || typeof u !== "string" || !u.startsWith("/")) continue;
+    const rel = u.split("?")[0].slice(1);
+    if (!rel || seen.has(rel)) continue;
+    seen.add(rel);
+    const from = join(WEB_ROOT, "public", rel);
+    const to = join(LANDING_ROOT, "public", rel);
+    if (!existsSync(from)) {
+      gearMissing += 1;
+      continue;
+    }
+    mkdirSync(dirname(to), { recursive: true });
+    copyFileSync(from, to);
+    gearCopied += 1;
+  }
+  gearReport.push(
+    `  ${g.label.padEnd(22)} ${String(list.length).padStart(4)} products, ` +
+      `${String(scored).padStart(4)} scored, ${String(gearCopied).padStart(4)} images` +
+      (gearMissing ? `, ${gearMissing} missing` : ""),
+  );
+}
+
 console.log("=== Landing catalog mirrored from web app ===");
 console.log(`  source : ${WEB_CATALOG}`);
 console.log(`  products: ${products.length} (${scored} scored/visible), brands: ${brands.length}`);
 console.log(`  image dirs referenced: ${dirs.size} — copied/refreshed: ${copied}` +
   (missing ? `, missing source (will 404): ${missing}` : ""));
 console.log(`  whole foods: ${foodCount} (export ${foodVersion})`);
+for (const line of gearReport) console.log(line);
 console.log("");
 console.log("Next: commit src/data/catalog.json, src/data/whole-foods-catalog.json");
 console.log("      + public/images/products, then push.");
