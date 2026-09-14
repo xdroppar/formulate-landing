@@ -1,32 +1,34 @@
 /**
- * Capture the console shot used by the landing hero.
+ * Capture every picture the console landing uses.
  *
- * WHY A CAPTURE AND NOT AN IFRAME. The prototype embedded the running app in a
- * scaled iframe, on the sound principle that a hand-built miniature drifts the
- * first time either it or the app moves. That cannot work here for two reasons
- * that are not matters of taste:
+ * WHAT THESE ARE PICTURES OF. The demo at /v2 — the prototype, deployed on
+ * this same origin, with the authored account the design was drawn around.
+ * Not the live app: there are no accounts in it yet, so a picture of it is a
+ * picture of an empty product, which argues against the page it sits on. The
+ * page labels every one of these as a demo, and /v2 carries its own
+ * disclosures on the invented numbers.
  *
- *   1. app.formulate-health.app answers with `X-Frame-Options: DENY`. Not a
- *      slow load — a refusal, from every origin, permanently.
- *   2. /today is several MB of HTML. Even framed, that is megabytes fetched
- *      before a visitor sees the hero of a landing page.
+ * Same origin matters twice: nothing leaves the site to be captured, and the
+ * catalog photographs inside the shots resolve against this origin's own
+ * public/images.
  *
  * WHY THIS DRIVES CHROME INSTEAD OF ASKING IT FOR A SCREENSHOT. The first
- * version of this script was one `--screenshot` flag, and it worked until
- * /today was added to the onboarding entry paths. Then a fresh browser met the
- * six-step goal picker, and the script cheerfully captured THAT: exit 0, a
- * real PNG, a wrong picture, and a landing page advertising a questionnaire.
- * Nothing about the run looked wrong.
+ * version was one `--screenshot` flag, and it worked until /today was added to
+ * the app's onboarding entry paths. A fresh browser then met the six-step goal
+ * picker and the script cheerfully captured THAT: exit 0, a real PNG, a wrong
+ * picture, a landing page advertising a questionnaire. Nothing about the run
+ * looked wrong, because the only question it asked was "did Chrome write a
+ * file".
  *
- * So it does two things a flag cannot. It seeds the onboarding flags before
- * any page script runs, so the console is what loads. And it then ASKS THE
- * PAGE what it is showing, and refuses to write a file unless the console's
- * own markers are present and the onboarding overlay is not. A capture that
- * cannot tell you what it captured is not evidence of anything.
+ * So every shot declares what must be on screen before it may be written, and
+ * what must not. A capture that cannot tell you what it captured is not
+ * evidence of anything.
  *
- *     node scripts/capture-console.mjs
+ *     node scripts/capture-console.mjs            all of them
+ *     node scripts/capture-console.mjs today      just one, by name
  *
- * Point it somewhere else with CONSOLE_SHOT_URL (a local dev server, say).
+ * The demo has to be reachable: run `next start` (or `next dev`) first, or set
+ * CONSOLE_SHOT_ORIGIN to a deployed one.
  */
 import { spawn } from "node:child_process";
 import { existsSync, mkdtempSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -36,41 +38,69 @@ import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-
-/** The frame's own aspect ratio, in console.css. A mismatch letterboxes. */
-const WIDTH = 1560;
-const HEIGHT = 900;
-
-/**
- * WHAT THE HERO IS A PICTURE OF.
- *
- * It used to be the live app at /today. Honest, and close to useless: there
- * are no accounts yet, so what it photographed was one explainer card on an
- * empty field. A landing page whose picture is an empty product is arguing
- * against itself.
- *
- * It is the demo now — the prototype, deployed at /v2 on this same origin,
- * with the authored account the design was drawn around. That is the app at
- * the density it is FOR. The page says so in as many words next to it, and
- * /v2 carries its own disclosures on the invented numbers; a demo you have to
- * discover is a demo you are hiding.
- *
- * Same origin matters twice: the picture can be captured without leaving the
- * site, and the photographs inside it resolve against this origin's own
- * public/images.
- */
-const URL_ =
-  process.env.CONSOLE_SHOT_URL ||
-  `http://127.0.0.1:${process.env.CONSOLE_SHOT_SERVE_PORT || 3421}/v2/app.html`;
-const OUT = join(ROOT, "public", "console-today.webp");
+const ORIGIN =
+  process.env.CONSOLE_SHOT_ORIGIN ||
+  `http://127.0.0.1:${process.env.CONSOLE_SHOT_SERVE_PORT || 3421}`;
 const PORT = Number(process.env.CONSOLE_SHOT_PORT || 9333);
 
-/** The demo console is on screen when these exist. Point CONSOLE_SHOT_URL at
- *  something else and the check will fail rather than quietly photograph it —
- *  which is the entire job of this list. */
-const WANT = ["#ring", "#meter", "#prows"];
-/** ...and when none of these do: the live app's onboarding, and the signed-out
- *  empty state. Text, because it is what a reader would actually recognise. */
+/**
+ * Every shot, with the evidence it must produce.
+ *
+ * `want` are selectors and `wantText` is copy the screen has to be showing.
+ * Both exist because some of these screens are identified by structure and
+ * some by what they say; a phone screenshot has no id worth asserting on.
+ *
+ * The sizes are not arbitrary — each matches the aspect-ratio its CSS box
+ * reserves, so a shot cannot arrive letterboxed.
+ */
+const SHOTS = [
+  {
+    name: "today",
+    out: "console-today.webp",
+    url: "/v2/app.html",
+    width: 1560,
+    height: 900,
+    want: ["#ring", "#meter", "#prows"],
+  },
+  {
+    name: "record",
+    out: "console-record.webp",
+    url: "/v2/app.html?embed=1&screen=record",
+    width: 1394,
+    height: 760,
+    want: ["#ledger", "#recbox"],
+  },
+  {
+    name: "testing",
+    out: "console-testing.webp",
+    url: "/v2/app.html?embed=1&screen=testing",
+    width: 1394,
+    height: 760,
+    want: ['[data-k="testing"]'],
+  },
+  {
+    /* The 148-day line on its own. Clipped to the element that draws it rather
+       than to numbers measured off a screenshot: a hand-typed crop box is
+       right until any padding above it changes, and then it is quietly wrong. */
+    name: "streak",
+    out: "console-streak.webp",
+    url: "/v2/app.html?embed=1&screen=record",
+    width: 1394,
+    height: 760,
+    want: ["#recbox"],
+    clipTo: "#recbox",
+  },
+  {
+    name: "mobile",
+    out: "console-mobile.webp",
+    url: "/v2/ios.html?live=1&screen=today2",
+    width: 393,
+    height: 852,
+    wantText: ["Wake up", "Bedtime"],
+  },
+];
+
+/** Never acceptable in any shot: the live app's onboarding, and its empty state. */
 const REJECT = [
   "What do you want your",
   "Pick a goal to start",
@@ -123,6 +153,13 @@ function connect(wsUrl) {
   };
 }
 
+const only = process.argv[2];
+const shots = only ? SHOTS.filter((s) => s.name === only) : SHOTS;
+if (only && !shots.length) {
+  console.error(`No shot named "${only}". Have: ${SHOTS.map((s) => s.name).join(", ")}`);
+  process.exit(1);
+}
+
 const work = mkdtempSync(join(tmpdir(), "console-shot-"));
 let chrome;
 
@@ -135,13 +172,11 @@ try {
       "--hide-scrollbars",
       `--remote-debugging-port=${PORT}`,
       `--user-data-dir=${work}`,
-      `--window-size=${WIDTH},${HEIGHT}`,
       "about:blank",
     ],
     { stdio: ["ignore", "ignore", "ignore"] },
   );
 
-  // Wait for the debugger to answer rather than guessing at a sleep.
   let version = null;
   for (let i = 0; i < 60 && !version; i += 1) {
     try {
@@ -154,22 +189,12 @@ try {
   if (!version) throw new Error(`Chrome never opened a debugger on ${PORT}.`);
 
   const made = await fetch(`http://127.0.0.1:${PORT}/json/new?url=about:blank`, { method: "PUT" });
-  const target = await made.json();
-  const cdp = connect(target.webSocketDebuggerUrl);
+  const cdp = connect((await made.json()).webSocketDebuggerUrl);
   await cdp.ready;
-
   await cdp.send("Page.enable");
   await cdp.send("Runtime.enable");
-  await cdp.send("Emulation.setDeviceMetricsOverride", {
-    width: WIDTH,
-    height: HEIGHT,
-    deviceScaleFactor: 1,
-    mobile: false,
-  });
-
-  /* Before any page script runs. The console is what a returning user sees,
-     and a returning user is what this picture is of — a visitor's first-run
-     questionnaire is a different screen with a different argument. */
+  /* Before any page script runs, so the live app's first-run flow can never be
+     what gets photographed. Harmless on the static demo. */
   await cdp.send("Page.addScriptToEvaluateOnNewDocument", {
     source: `try {
       localStorage.setItem("formulate_onboarding_done", "1");
@@ -178,60 +203,106 @@ try {
     } catch (e) {}`,
   });
 
-  console.log(`capturing ${URL_} at ${WIDTH}x${HEIGHT}`);
-  await cdp.send("Page.navigate", { url: URL_ });
-
-  /* Poll the page for what it is actually showing. This is the whole point of
-     the rewrite: the old script's only question was "did Chrome write a file". */
-  const probe = `(() => ({
-    want: ${JSON.stringify(WANT)}.map((s) => !!document.querySelector(s)),
-    reject: ${JSON.stringify(REJECT)}.map((t) => document.body.innerText.includes(t)),
-  }))()`;
-
-  let state = null;
-  for (let i = 0; i < 40; i += 1) {
-    await sleep(500);
-    const { result } = await cdp.send("Runtime.evaluate", {
-      expression: probe,
-      returnByValue: true,
+  for (const shot of shots) {
+    const url = ORIGIN + shot.url;
+    await cdp.send("Emulation.setDeviceMetricsOverride", {
+      width: shot.width,
+      height: shot.height,
+      deviceScaleFactor: 1,
+      mobile: false,
     });
-    state = result.value;
-    if (state && state.want.every(Boolean) && !state.reject.some(Boolean)) break;
-  }
+    await cdp.send("Page.navigate", { url });
 
-  if (!state || !state.want.every(Boolean) || state.reject.some(Boolean)) {
-    const missing = WANT.filter((_, i) => !state?.want?.[i]);
-    const found = REJECT.filter((_, i) => state?.reject?.[i]);
-    throw new Error(
-      "The page never showed the console, so nothing was written.\n" +
-        (missing.length ? `  missing: ${missing.join(", ")}\n` : "") +
-        (found.length ? `  showing instead: ${found.join(" / ")}\n` : "") +
-        "  If onboarding changed, update the seeded flags in this script.",
+    const want = shot.want ?? [];
+    const wantText = shot.wantText ?? [];
+    const probe = `(() => ({
+      want: ${JSON.stringify(want)}.map((s) => !!document.querySelector(s)),
+      wantText: ${JSON.stringify(wantText)}.map((t) => document.body.innerText.includes(t)),
+      reject: ${JSON.stringify(REJECT)}.map((t) => document.body.innerText.includes(t)),
+    }))()`;
+
+    let state = null;
+    for (let i = 0; i < 40; i += 1) {
+      await sleep(500);
+      const { result } = await cdp.send("Runtime.evaluate", {
+        expression: probe,
+        returnByValue: true,
+      });
+      state = result.value;
+      if (
+        state &&
+        state.want.every(Boolean) &&
+        state.wantText.every(Boolean) &&
+        !state.reject.some(Boolean)
+      ) {
+        break;
+      }
+    }
+
+    const ok =
+      state &&
+      state.want.every(Boolean) &&
+      state.wantText.every(Boolean) &&
+      !state.reject.some(Boolean);
+    if (!ok) {
+      const missing = [
+        ...want.filter((_, i) => !state?.want?.[i]),
+        ...wantText.filter((_, i) => !state?.wantText?.[i]).map((t) => `text "${t}"`),
+      ];
+      const found = REJECT.filter((_, i) => state?.reject?.[i]);
+      throw new Error(
+        `"${shot.name}" never showed what it should, so nothing was written.\n` +
+          `  url: ${url}\n` +
+          (missing.length ? `  missing: ${missing.join(", ")}\n` : "") +
+          (found.length ? `  showing instead: ${found.join(" / ")}\n` : ""),
+      );
+    }
+
+    const png = join(work, `${shot.name}.png`);
+    let clip;
+    if (shot.clipTo) {
+      const { result } = await cdp.send("Runtime.evaluate", {
+        expression: `(() => { const r = document.querySelector(${JSON.stringify(shot.clipTo)})
+          .getBoundingClientRect();
+          return { x: r.x, y: r.y, width: r.width, height: r.height }; })()`,
+        returnByValue: true,
+      });
+      clip = { ...result.value, scale: 1 };
+      if (clip.width < 40 || clip.height < 20) {
+        throw new Error(
+          `"${shot.name}" clip ${shot.clipTo} measured ${Math.round(clip.width)}x` +
+            `${Math.round(clip.height)} — too small to be the thing it names.`,
+        );
+      }
+    }
+    const cap = await cdp.send("Page.captureScreenshot", { format: "png", ...(clip ? { clip } : {}) });
+    writeFileSync(png, Buffer.from(cap.data, "base64"));
+
+    const meta = await sharp(png).metadata();
+    const wantW = clip ? Math.round(clip.width) : shot.width;
+    const wantH = clip ? Math.round(clip.height) : shot.height;
+    if (Math.abs(meta.width - wantW) > 1 || Math.abs(meta.height - wantH) > 1) {
+      throw new Error(
+        `"${shot.name}" captured ${meta.width}x${meta.height}, expected ${wantW}x${wantH}.`,
+      );
+    }
+
+    const out = join(ROOT, "public", shot.out);
+    await sharp(png).webp({ quality: 82 }).toFile(out);
+    const proof = [...want, ...wantText.map((t) => `"${t}"`)].join(" + ");
+    console.log(
+      `  ${shot.name.padEnd(8)} ${String(Math.round(statSync(out).size / 1024)).padStart(4)} KB  ` +
+        `${meta.width}x${meta.height}  verified: ${proof}${clip ? ` (clipped to ${shot.clipTo})` : ""}`,
     );
   }
 
-  const shot = await cdp.send("Page.captureScreenshot", { format: "png" });
-  const png = join(work, "shot.png");
-  writeFileSync(png, Buffer.from(shot.data, "base64"));
-
-  const meta = await sharp(png).metadata();
-  if (meta.width !== WIDTH || meta.height !== HEIGHT) {
-    throw new Error(`Captured ${meta.width}x${meta.height}, expected ${WIDTH}x${HEIGHT}.`);
-  }
-
-  await sharp(png).webp({ quality: 82 }).toFile(OUT);
-  console.log(
-    `wrote ${OUT}  ${(statSync(OUT).size / 1024).toFixed(0)} KB  ` +
-      `(verified: ${WANT.join(" + ")} present, no onboarding)`,
-  );
   cdp.close();
+  console.log(`wrote ${shots.length} shot(s) from ${ORIGIN}/v2`);
 } finally {
   if (chrome) chrome.kill();
   /* Chrome does not release the profile directory the instant it is killed, and
      on Windows removing it too early throws EPERM — which would fail the script
-     AFTER it had already written a good picture, reporting a success as a
-     failure. Give it a moment, then treat a leftover temp directory as what it
-     is: litter, not an error. */
+     AFTER it had written good pictures, reporting success as failure. */
   await sleep(600);
   try {
     rmSync(work, { recursive: true, force: true });

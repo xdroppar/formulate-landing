@@ -611,3 +611,178 @@
 .cn-democap a:hover {
   color: var(--g);
 }
+
+/* ── the trackables, with their faces ── */
+.cn-markwall {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(8px, 1vw, 13px);
+  margin-top: clamp(28px, 3.6vw, 46px);
+  /* The prototype keeps this wall to the left half and parks the record and
+     the phone in the space it leaves. The pictures sit below here instead, so
+     the width has to be stated rather than inherited — left full-bleed, four
+     columns of a 1180px wrap give tiles the size of a playing card and the
+     mark inside one looks like a typo. */
+  max-width: 620px;
+}
+.cn-mkc {
+  aspect-ratio: 1.1;
+  border-radius: 15px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.015);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease,
+    transform 0.34s var(--ease);
+}
+.cn-mkc:hover {
+  border-color: rgba(142, 232, 171, 0.34);
+  background: rgba(142, 232, 171, 0.05);
+  transform: translateY(-3px);
+}
+.cn-mk {
+  line-height: 0;
+  transition: transform 0.34s var(--ease);
+}
+.cn-mkc:hover .cn-mk {
+  transform: scale(1.14) translateY(-2px);
+}
+.cn-mkc > span:last-child {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 8px;
+  letter-spacing: 0.13em;
+  color: var(--faint);
+  text-transform: uppercase;
+}
+
+/* ── the record beside the phone ──
+   The phone sits in front of the window with its last quarter resting on it:
+   a quarter of a phone lying across the copy is a collision, not depth. */
+.cn-trackband {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(150px, 15vw, 208px);
+  gap: clamp(14px, 2vw, 30px);
+  align-items: end;
+  margin-top: clamp(26px, 3.4vw, 44px);
+}
+.cn-recwin img,
+.cn-testwin img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* figure carries a default margin; these two are figures. NOT written as
+   `.cn-win{margin:0}` — that name is the hero's window, and a second rule for
+   it is the collision this file's checker exists to stop. One complete rule
+   each rather than a shared rule plus an override, for the same reason: the
+   checker cannot tell a deliberate second rule from an accidental one, so the
+   house style is that there are no second rules. */
+.cn-recwin {
+  margin: 0;
+}
+.cn-testwin {
+  margin: clamp(26px, 3.4vw, 44px) 0 0;
+}
+.cn-phone {
+  position: relative;
+  margin: 0;
+  border-radius: 26px;
+  padding: 5px;
+  background: linear-gradient(160deg, #1d2a23, #0a120d);
+  border: 1px solid rgba(226, 255, 236, 0.13);
+  box-shadow: 0 44px 80px -34px rgba(0, 0, 0, 0.95);
+}
+.cn-phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+}
+.cn-island {
+  position: absolute;
+  left: 50%;
+  top: 13px;
+  transform: translateX(-50%);
+  z-index: 4;
+  width: 26%;
+  height: 9px;
+  border-radius: 999px;
+  background: #050c08;
+}
+.cn-hbar {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  z-index: 4;
+  width: 32%;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* ── the streak ── */
+.cn-streak {
+  margin-top: clamp(26px, 3.4vw, 44px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 1.6vw, 20px);
+  border-radius: 18px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.014);
+  padding: clamp(18px, 2.2vw, 28px);
+}
+.cn-streakhead {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2.4vw, 34px);
+  flex-wrap: wrap;
+}
+.cn-flame {
+  font-size: clamp(30px, 3.4vw, 44px);
+  line-height: 1;
+}
+.cn-streaknum {
+  font-size: clamp(40px, 5vw, 62px);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+.cn-streakline {
+  max-width: 34ch;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--faint);
+}
+.cn-streakgraph {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
+}
+/* The disclosure, where the invented number actually is. Warm, because a
+   disclosure the eye skips is not a disclosure. */
+.cn-demoem {
+  font-style: normal;
+  color: var(--warm);
+}
+
+@media (max-width: 900px) {
+  .cn-trackband {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+  .cn-phone {
+    max-width: 230px;
+  }
+}
+@media (max-width: 600px) {
+  .cn-markwall {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

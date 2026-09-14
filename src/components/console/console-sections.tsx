@@ -36,6 +36,7 @@
 import Link from "next/link";
 import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
 import { ConsoleShelf } from "@/components/console/console-shelf";
+import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import type { ShelfCard } from "@/lib/console-shelf";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
@@ -131,8 +132,72 @@ function TrackSection() {
           <p className="secline">
             Give each thing a window and log it in two taps. Seven drawers —
             supplements, food, water, training, sleep, body and care — on every
-            screen, because logging is the thing the app is for.
+            screen, and every one of them has a face.
           </p>
+        </div>
+
+        <ConsoleMarkWall />
+
+        {/* The record, and the same day in a pocket. Two pictures rather than
+            one because the argument is that these are the same product: the
+            ledger is where a day becomes a row you can open, and the phone is
+            where the day is actually logged. */}
+        <div className="cn-trackband">
+          <figure className="cn-win cn-recwin">
+            <div className="cn-winbar">
+              <span className="wd" />
+              <span className="wd" />
+              <span className="wd" />
+              <span className="cn-winurl mono">formulate-health.app/record</span>
+              <span className="cn-windemo mono">DEMO ACCOUNT</span>
+            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/console-record.webp"
+              alt="The record: a line across 148 days, the events that moved it, and every day as a row in the ledger."
+              width={1394}
+              height={760}
+            />
+          </figure>
+
+          <figure className="cn-phone">
+            <span className="cn-island" />
+            <span className="cn-hbar" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/console-mobile.webp"
+              alt="The same day on iPhone: wake, morning, midday, evening and bedtime windows, each with what is due in it."
+              width={393}
+              height={852}
+            />
+          </figure>
+        </div>
+
+        <div className="cn-streak">
+          <div className="cn-streakhead">
+            <span className="cn-flame" aria-hidden>
+              🔥
+            </span>
+            <div>
+              <div className="cn-streaknum">148</div>
+              <span className="lab" style={{ marginTop: 4 }}>
+                CONSECUTIVE DAYS LOGGED
+              </span>
+            </div>
+            <p className="cn-streakline">
+              A streak is a day you recorded, not a day you intended. The line
+              under it is those days — all 148 of them, drawn by the app itself.{" "}
+              <em className="cn-demoem">Demo account.</em>
+            </p>
+          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="cn-streakgraph"
+            src="/console-streak.webp"
+            alt="A line of 148 days, rising, with the days that were missed marked underneath it."
+            width={1228}
+            height={188}
+          />
         </div>
 
         <Ups
@@ -172,6 +237,23 @@ function TestSection() {
             itself. Put your markers in and the number answers to them.
           </p>
         </div>
+
+        <figure className="cn-win cn-testwin">
+          <div className="cn-winbar">
+            <span className="wd" />
+            <span className="wd" />
+            <span className="wd" />
+            <span className="cn-winurl mono">formulate-health.app/testing</span>
+            <span className="cn-windemo mono">DEMO ACCOUNT</span>
+          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/console-testing.webp"
+            alt="Seven systems scored against optimal, and the markers your stack should be touching, with the change since the previous panel."
+            width={1394}
+            height={760}
+          />
+        </figure>
 
         <Ups
           items={[
