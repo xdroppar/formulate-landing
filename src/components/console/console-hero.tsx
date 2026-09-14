@@ -6,13 +6,20 @@
  * Two decisions carried over from the prototype (scratchpad/formulate-show)
  * are worth keeping in words, because both were argued for there:
  *
- * THE SCREENSHOT IS THE REAL APP. The prototype embeds the running app rather
- * than a hand-built miniature, on the grounds that a miniature has to be
- * maintained beside the thing it depicts and drifts the first time either one
- * moves. Its comment: "this page cannot advertise a product that does not
- * exist." That principle is kept — the picture below is a capture of
- * app.formulate-health.app/today, taken by a script, not drawn — but not the
- * iframe, which the app refuses outright. See scripts/capture-console.mjs.
+ * THE SCREENSHOT IS A REAL SCREEN, AND IT SAYS WHOSE. The prototype embeds a
+ * running app rather than a hand-built miniature, on the grounds that a
+ * miniature has to be maintained beside the thing it depicts and drifts the
+ * first time either one moves. Its comment: "this page cannot advertise a
+ * product that does not exist."
+ *
+ * That still holds, with one correction the product forced. A picture of the
+ * LIVE app is a picture of an empty one — there are no accounts yet, so it
+ * photographed a single explainer card on a dark field, which advertises
+ * nothing. So the picture is the demo at /v2: the authored account the design
+ * was drawn around, the app at the density it is actually for. The window is
+ * labelled DEMO ACCOUNT and the demo is linked under it, because the fix for
+ * showing invented numbers is to say they are invented, not to hide them in a
+ * picture nobody can open. See scripts/capture-console.mjs.
  *
  * TWO ACTIONS, EQUAL GEOMETRY. One filled and one outlined rather than a
  * button and a text link: two filled buttons of the same colour read as a
@@ -34,10 +41,17 @@ import {
 } from "@/components/console/console-bits";
 
 /** The console, photographed. Regenerate with `node scripts/capture-console.mjs`
- *  — that file carries the reasoning for why this is a capture and not the
- *  live frame the prototype used (short version: the app answers
- *  `X-Frame-Options: DENY`, so the frame was a permanent grey box). */
+ *  — that file carries the reasoning for why this is a capture rather than
+ *  the live frame the prototype used, and for why it photographs the demo.
+ *
+ *  Short version of the second one: the live app has no accounts in it yet, so
+ *  a picture of it was one explainer card on an empty field — a landing page
+ *  arguing against itself. This is the demo at /v2, the authored account the
+ *  design was drawn around, which is the app at the density it is FOR. */
 const CONSOLE_SHOT = "/console-today.webp";
+/** The same demo, walkable. Named under the picture rather than buried,
+ *  because a demo you have to discover is a demo you are hiding. */
+const DEMO_HREF = "/v2/index.html";
 
 export function ConsoleNav() {
   return (
@@ -91,6 +105,7 @@ export function ConsoleHero() {
                 <span className="wd" />
                 <span className="wd" />
                 <span className="cn-winurl mono">formulate-health.app/today</span>
+                <span className="cn-windemo mono">DEMO ACCOUNT</span>
               </div>
               <div className="cn-appshot">
                 {/* Under a click layer, so the whole picture is one large
@@ -99,7 +114,7 @@ export function ConsoleHero() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={CONSOLE_SHOT}
-                  alt="The Formulate console: today's pillars, the log rail and the ask bar."
+                  alt="The Formulate console on a demo account: the day's score ring, every pillar scored against what the stack could give, and the day's windows."
                   width={1560}
                   height={900}
                   fetchPriority="high"
@@ -114,6 +129,10 @@ export function ConsoleHero() {
                 </TrackedAppLink>
               </div>
             </div>
+            <p className="cn-democap">
+              A demo account, so the screens have something in them.{" "}
+              <a href={DEMO_HREF}>Walk through it →</a>
+            </p>
           </div>
         </div>
       </div>

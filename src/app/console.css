@@ -582,3 +582,32 @@
 @media (max-width: 560px) {
   .cn-shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* The window's own label. Warm rather than grey: a disclosure the eye skips is
+   not a disclosure. */
+.cn-windemo {
+  margin-left: auto;
+  font-size: 8px;
+  letter-spacing: 0.18em;
+  color: var(--warm);
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 194, 122, 0.3);
+  white-space: nowrap;
+}
+/* Said again in words under the picture, with the way into it. The label alone
+   tells you the number is not yours; this tells you where it came from. */
+.cn-democap {
+  margin-top: 11px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--faint);
+}
+.cn-democap a {
+  color: var(--g-soft);
+  border-bottom: 1px solid rgba(95, 143, 116, 0.4);
+  transition: color 0.22s;
+}
+.cn-democap a:hover {
+  color: var(--g);
+}

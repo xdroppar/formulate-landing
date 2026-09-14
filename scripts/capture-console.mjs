@@ -41,15 +41,41 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const WIDTH = 1560;
 const HEIGHT = 900;
 
-const URL_ = process.env.CONSOLE_SHOT_URL || "https://app.formulate-health.app/today";
+/**
+ * WHAT THE HERO IS A PICTURE OF.
+ *
+ * It used to be the live app at /today. Honest, and close to useless: there
+ * are no accounts yet, so what it photographed was one explainer card on an
+ * empty field. A landing page whose picture is an empty product is arguing
+ * against itself.
+ *
+ * It is the demo now — the prototype, deployed at /v2 on this same origin,
+ * with the authored account the design was drawn around. That is the app at
+ * the density it is FOR. The page says so in as many words next to it, and
+ * /v2 carries its own disclosures on the invented numbers; a demo you have to
+ * discover is a demo you are hiding.
+ *
+ * Same origin matters twice: the picture can be captured without leaving the
+ * site, and the photographs inside it resolve against this origin's own
+ * public/images.
+ */
+const URL_ =
+  process.env.CONSOLE_SHOT_URL ||
+  `http://127.0.0.1:${process.env.CONSOLE_SHOT_SERVE_PORT || 3421}/v2/app.html`;
 const OUT = join(ROOT, "public", "console-today.webp");
 const PORT = Number(process.env.CONSOLE_SHOT_PORT || 9333);
 
-/** The console is on screen when these exist. */
-const WANT = [".fd-ringsvg", ".fd-header", ".fd-rail"];
-/** ...and when none of these do. Text, because the overlay's classes are
- *  generated and its copy is the thing a reader would actually recognise. */
-const REJECT = ["What do you want your", "Pick a goal to start", "STEP 1 OF"];
+/** The demo console is on screen when these exist. Point CONSOLE_SHOT_URL at
+ *  something else and the check will fail rather than quietly photograph it —
+ *  which is the entire job of this list. */
+const WANT = ["#ring", "#meter", "#prows"];
+/** ...and when none of these do: the live app's onboarding, and the signed-out
+ *  empty state. Text, because it is what a reader would actually recognise. */
+const REJECT = [
+  "What do you want your",
+  "Pick a goal to start",
+  "It needs your logs and your stack",
+];
 
 function findChrome() {
   const candidates = [
