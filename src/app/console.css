@@ -989,3 +989,214 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ── 01 · head row, and the builder under it ──
+   Measured off the demo at 1440 (wrap 1112 at x=164): the section head is 400
+   wide with the shelf 696 beside it starting at x=580, and the builder below
+   is 670 + 412 with 30 between. The shelf is NOT across the page for a reason
+   — putting it there leaves no room to build anything, which is the one thing
+   this section asks you to do. */
+.cn-scorehead {
+  display: grid;
+  grid-template-columns: minmax(0, 400px) minmax(0, 1fr);
+  gap: clamp(16px, 1.6vw, 24px);
+  align-items: start;
+}
+.cn-builder {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 412px);
+  gap: clamp(18px, 2.4vw, 30px);
+  align-items: start;
+  margin-top: clamp(22px, 2.8vw, 34px);
+}
+.cn-bcol {
+  min-width: 0;
+}
+.cn-pickhead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.cn-searchwrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 260px;
+  min-width: 0;
+  padding: 9px 13px;
+  border-radius: 11px;
+  border: 1px solid var(--hair2);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--faint);
+}
+.cn-searchwrap input {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: var(--ink);
+  font-size: 13px;
+}
+.cn-searchwrap input::placeholder {
+  color: var(--faint);
+}
+.cn-pillarpick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.cn-pil {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 13px;
+  border-radius: 10px;
+  border: 1px solid var(--hair2);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--mute);
+  font-size: 12.5px;
+  cursor: pointer;
+  transition:
+    border-color 0.24s,
+    color 0.24s,
+    background 0.24s;
+}
+.cn-pil:hover:not(:disabled) {
+  border-color: rgba(142, 232, 171, 0.4);
+  color: var(--ink);
+}
+.cn-pil.on {
+  border-color: var(--g);
+  color: var(--g);
+  background: rgba(142, 232, 171, 0.08);
+}
+.cn-pil em {
+  font-style: normal;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: var(--faint);
+}
+/* A pillar the catalog cannot serve yet is shown, and shown as not ready —
+   the site's own nav marks the same three the same way. Hiding them would
+   claim the platform is smaller than it is; enabling them would claim it is
+   further along. */
+.cn-pil.soon {
+  opacity: 0.5;
+  cursor: default;
+}
+.cn-pil em.w {
+  color: var(--warm-deep, #a8814f);
+}
+.cn-thenlab {
+  display: block;
+  margin-top: 18px;
+}
+.cn-picked {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+.cn-pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 11px;
+  border-radius: 9px;
+  border: 1px solid var(--hair2);
+  background: rgba(255, 255, 255, 0.02);
+  cursor: pointer;
+  max-width: 100%;
+  transition:
+    border-color 0.24s,
+    background 0.24s;
+}
+.cn-pick:hover {
+  border-color: rgba(142, 232, 171, 0.4);
+}
+.cn-pick.on {
+  border-color: rgba(142, 232, 171, 0.45);
+  background: rgba(142, 232, 171, 0.07);
+}
+.cn-pickn {
+  font-size: 12.5px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cn-picks {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 11.5px;
+}
+.cn-bempty {
+  margin-top: 12px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--faint);
+  max-width: 46ch;
+}
+
+/* ── the verdict ── */
+.cn-verdict {
+  border-radius: 16px;
+  border: 1px solid var(--hair);
+  background: rgba(255, 255, 255, 0.014);
+  padding: 18px 20px;
+}
+.cn-vtop {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.cn-vring {
+  flex: 0 0 76px;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(142, 232, 171, 0.45);
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 26px;
+  color: var(--g);
+}
+.cn-vring[data-empty] {
+  border-color: var(--hair2);
+  color: var(--faint);
+}
+.cn-vsum {
+  margin-top: 4px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--mute);
+  max-width: 30ch;
+}
+.cn-weak {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hair);
+}
+.cn-weakname {
+  margin-top: 6px;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.cn-weakwhy {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--faint);
+}
+
+@media (max-width: 1000px) {
+  .cn-scorehead,
+  .cn-builder {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

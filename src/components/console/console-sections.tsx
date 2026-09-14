@@ -38,6 +38,7 @@ import { ActionRow, PILLAR_WORD } from "@/components/console/console-bits";
 import { ConsoleShelf } from "@/components/console/console-shelf";
 import { ConsoleMarkWall } from "@/components/console/console-markwall";
 import { ConsolePanel } from "@/components/console/console-panel";
+import { ConsoleBuilder } from "@/components/console/console-builder";
 import type { ShelfCard } from "@/lib/console-shelf";
 
 function Ups({ items }: { items: { title: string; line: string }[] }) {
@@ -57,6 +58,7 @@ function ScoreSection({ shelf, scoredTotal }: { shelf: ShelfCard[]; scoredTotal:
   return (
     <section className="cn-sec">
       <div className="wrap">
+        <div className="cn-scorehead">
         <div className="sechead">
           <span className="lab">01 · Score it</span>
           <h2>
@@ -71,7 +73,14 @@ function ScoreSection({ shelf, scoredTotal }: { shelf: ShelfCard[]; scoredTotal:
           </p>
         </div>
 
-        <ConsoleShelf cards={shelf} total={scoredTotal} />
+          <ConsoleShelf cards={shelf} total={scoredTotal} />
+        </div>
+
+        {/* The reason the shelf is beside the headline rather than across the
+            page: this needs the room. A section that says "add your stack and
+            it scores in front of you" and then offers nowhere to add it is a
+            promise with no door. */}
+        <ConsoleBuilder />
 
         <div className="cn-doors">
           <div className="door">
