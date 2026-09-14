@@ -49,9 +49,8 @@ import {
  *  arguing against itself. This is the demo at /v2, the authored account the
  *  design was drawn around, which is the app at the density it is FOR. */
 const CONSOLE_SHOT = "/console-today.webp";
-/** The same demo, walkable. Named under the picture rather than buried,
- *  because a demo you have to discover is a demo you are hiding. */
-const DEMO_HREF = "/v2/index.html";
+/** The phone, from the same demo and the same capture run. */
+const MOBILE_SHOT = "/console-mobile.webp";
 
 export function ConsoleNav() {
   return (
@@ -99,6 +98,11 @@ export function ConsoleHero() {
           </div>
 
           <div className="cn-lockup">
+            {/* The window and the phone share a box, and the caption sits
+                outside it. The phone is anchored to the bottom of whatever
+                it hangs off — with the caption inside, it hung off the
+                caption and sat 20px low against the demo. */}
+            <div className="cn-winwrap">
             <div className="cn-win">
               <div className="cn-winbar">
                 <span className="wd" />
@@ -129,9 +133,26 @@ export function ConsoleHero() {
                 </TrackedAppLink>
               </div>
             </div>
+
+            {/* The same day in a pocket, hung off the window's corner the way
+                the demo has it. It is the second half of the claim the buttons
+                make — one of them says "Download for iOS", and until now
+                nothing on the screen had ever shown an iPhone. */}
+            <figure className="cn-herophone">
+              <span className="cn-island" />
+              <span className="cn-hbar" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={MOBILE_SHOT}
+                alt="Formulate on iPhone: the day's windows, each with what is due in it."
+                width={393}
+                height={852}
+              />
+            </figure>
+            </div>
+
             <p className="cn-democap">
-              A demo account, so the screens have something in them.{" "}
-              <a href={DEMO_HREF}>Walk through it →</a>
+              A demo account, so the screens have something in them.
             </p>
           </div>
         </div>
