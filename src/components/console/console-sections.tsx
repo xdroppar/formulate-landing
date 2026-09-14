@@ -14,14 +14,16 @@
  * and what it gets you. Every claim below was checked against the shipped app
  * rather than carried across from the prototype's copy —
  *
- *   the four drawers   the log rail carries seven, but three of them —
- *                      training, sleep and care — sit behind a dev gate and
- *                      render "Page not found" to every real user, so the
- *                      shell no longer shows those three to anyone who cannot
- *                      open them. This page names the four that DO open. It
- *                      said "seven drawers" for one deploy, which was a claim
- *                      about the app that was true only for its author.
- *                      Restore the full list when those pages are un-gated.
+ *   "seven drawers"    all seven open. Worth the words it costs, because for
+ *                      one deploy this line was false: training, sleep and
+ *                      care sat behind a dev gate and rendered "Page not
+ *                      found" to everyone who was not an admin with Developer
+ *                      Mode on. The claim had been checked against the app's
+ *                      source and never against a user, which is exactly how
+ *                      a page ends up describing a product only its author
+ *                      can see. The three were un-gated; each of the seven
+ *                      was then fetched on the live app and confirmed to
+ *                      open before this sentence was allowed back.
  *   "against a panel"  /biomarkers is a real route with sessions and an
  *                      upload parser, not a planned one.
  *   the pillar count   read off lib/pillars, not typed.
@@ -123,9 +125,9 @@ function TrackSection() {
             a routine.
           </h2>
           <p className="secline">
-            Give each thing a window and log it in two taps. Supplements, food,
-            water and bloodwork all go into one rail that sits on every screen,
-            because logging is the thing the app is for.
+            Give each thing a window and log it in two taps. Seven drawers —
+            supplements, food, water, training, sleep, body and care — on every
+            screen, because logging is the thing the app is for.
           </p>
         </div>
 
