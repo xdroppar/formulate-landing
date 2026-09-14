@@ -14,9 +14,14 @@
  * and what it gets you. Every claim below was checked against the shipped app
  * rather than carried across from the prototype's copy —
  *
- *   "seven drawers"    the log rail: SUPPS FOOD WATER TRAIN SLEEP BODY CARE,
- *                      visible in the hero capture, present on every console
- *                      screen (see dense.css in formulate-web).
+ *   the four drawers   the log rail carries seven, but three of them —
+ *                      training, sleep and care — sit behind a dev gate and
+ *                      render "Page not found" to every real user, so the
+ *                      shell no longer shows those three to anyone who cannot
+ *                      open them. This page names the four that DO open. It
+ *                      said "seven drawers" for one deploy, which was a claim
+ *                      about the app that was true only for its author.
+ *                      Restore the full list when those pages are un-gated.
  *   "against a panel"  /biomarkers is a real route with sessions and an
  *                      upload parser, not a planned one.
  *   the pillar count   read off lib/pillars, not typed.
@@ -118,9 +123,9 @@ function TrackSection() {
             a routine.
           </h2>
           <p className="secline">
-            Give each thing a window and log it in two taps. Seven drawers —
-            supplements, food, water, training, sleep, body and care — on every
-            screen, because logging is the thing the app is for.
+            Give each thing a window and log it in two taps. Supplements, food,
+            water and bloodwork all go into one rail that sits on every screen,
+            because logging is the thing the app is for.
           </p>
         </div>
 
