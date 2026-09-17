@@ -13,7 +13,7 @@ const APPS: AppRow[] = [
   {
     name: "Formulate",
     best: "Scoring what you take + eat, in one place",
-    scores: "Yes — 50–100, ingredient-level",
+    scores: "Yes — out of 100, ingredient-level",
     food: "Yes — foods, meals & 26 nutrients",
     price: "Free",
     highlight: true,
@@ -131,7 +131,7 @@ export function BestSupplementTrackerApps() {
         readTime="11 min read"
         takeaways={[
           "The category splits into four jobs: scoring products (is what I take any good?), logging intake (what did I take and eat?), lab-testing bottles (is this specific bottle pure?), and blood biomarkers (what's happening inside me?). Most apps do one well.",
-          "Formulate is the only free tool that scores supplements (50–100, ingredient-level) AND foods AND your daily nutrient coverage in one place, with a fully published methodology and no brand sponsorships.",
+          "Formulate is the only free tool that scores supplements (out of 100, ingredient-level) AND foods AND your daily nutrient coverage in one place, with a fully published methodology and no brand sponsorships.",
           "SuppCo has the biggest product database (160,000+) and barcode scanning — best if you want to catalog a large shelf fast. Examine.com is the best pure research encyclopedia. ConsumerLab and Labdoor physically lab-test bottles. Cronometer is the best micronutrient food logger.",
           "Biomarker platforms (Function Health, InsideTracker, Superpower) answer a different question than a tracker and cost $199–365/yr — they complement a tracker rather than replace one.",
         ]}
@@ -188,7 +188,7 @@ export function BestSupplementTrackerApps() {
       <h2>Formulate — scoring + tracking, free</h2>
       <p>
         Formulate started as a supplement-scoring engine and grew into a full
-        intake platform. Every product is scored 50–100 on an ingredient-level
+        intake platform. Every product is scored out of 100 on an ingredient-level
         rubric — evidence quality, dose accuracy and bioavailability carry the
         score, while manufacturing and third-party testing, label transparency
         and safety are checked separately and can only cost a product points — and the

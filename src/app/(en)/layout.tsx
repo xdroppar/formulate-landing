@@ -134,7 +134,7 @@ export const jsonLd = {
         height: 512,
       },
       description:
-        "Evidence-based health platform: supplements scored 50–100 against clinical research, whole foods and meals scored on nutritional quality, and daily nutrient coverage tracked across your diet and stack.",
+        "Evidence-based health platform: supplements scored out of 100 against clinical research, whole foods and meals scored on nutritional quality, and daily nutrient coverage tracked across your diet and stack.",
       sameAs: ["https://app.formulate-health.app"],
     },
     {

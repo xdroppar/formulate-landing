@@ -31,7 +31,9 @@ export function ScoreBar({ label, score, desc, color: colorProp }: ScoreBarProps
     return () => observer.disconnect();
   }, []);
 
-  // Normalized: scores are on 50-100 scale → map to 0-100%
+  // The FILL starts at 50 so the range most products occupy spreads across the
+  // bar. It is a drawing scale, not the score scale: since V3.23 gates can take a
+  // product below 50 (lowest shipped: 44), and those draw as an empty bar.
   const barPercent = Math.max(0, (score - 50) * 2);
 
   return (
@@ -47,7 +49,7 @@ export function ScoreBar({ label, score, desc, color: colorProp }: ScoreBarProps
         className="h-2 bg-white/5 rounded-full overflow-hidden"
         role="progressbar"
         aria-valuenow={visible ? score : 0}
-        aria-valuemin={50}
+        aria-valuemin={0}
         aria-valuemax={100}
         aria-label={`${label}: ${score} out of 100`}
       >

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How Formulate Scores Supplements",
     description:
-      "Every supplement scored 50–100: three weighted factors, three gates. Transparent, evidence-based, no sponsorships.",
+      "Every supplement scored out of 100: three weighted factors, and three checks that can only take points away. Transparent, evidence-based, no sponsorships.",
     type: "article",
   },
 };
@@ -55,8 +55,8 @@ const SCORE_BANDS = SCORE_TIER_BANDS.map((b) => ({
 
 const FAQS = [
   {
-    q: "Why doesn't anything score below 50?",
-    a: `Because 50 is a hard floor in the scoring itself, not a screening outcome. Two things put a product there: having too little information to score, and hiding its doses — if more than half the scorable ingredients don't disclose an amount, which is what a proprietary blend does, the score is capped at 50 no matter how the other factors came out. So a 50 means the label didn't tell us enough, not that we assessed the product and judged it weak. No product currently in the catalog sits at the floor; the lowest is ${LOWEST_SCORE}.`,
+    q: "Can a product score below 50?",
+    a: `Yes, though very few do — the lowest in the catalog right now is ${LOWEST_SCORE}. When a label gives us nothing to measure — no ingredient we can match to research, or doses hidden inside a blend — the three factors that carry the score fall back to middling values, and the product lands in the 50s. The three checks that can only take points away (label transparency, manufacturing and safety) then apply on top, so a product that hides its doses AND falls short on those checks can finish below 50. A score that low means the label didn't tell us enough, not that we assessed the ingredients and judged them weak.`,
   },
   {
     q: "Is price part of the score?",
