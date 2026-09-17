@@ -188,10 +188,11 @@ export function BestSupplementTrackerApps() {
       <h2>Formulate — scoring + tracking, free</h2>
       <p>
         Formulate started as a supplement-scoring engine and grew into a full
-        intake platform. Every product is scored 50–100 on a six-pillar,
-        ingredient-level rubric — evidence quality, dose accuracy,
-        bioavailability, third-party testing, label transparency, and
-        manufacturing — and the entire methodology is published. Foods and meals
+        intake platform. Every product is scored 50–100 on an ingredient-level
+        rubric — evidence quality, dose accuracy and bioavailability carry the
+        score, while manufacturing and third-party testing, label transparency
+        and safety are checked separately and can only cost a product points — and the
+        entire methodology is published. Foods and meals
         are scored on real nutritional quality (nutrient density, processing
         level, beneficial compounds), and your daily coverage of 26 core
         nutrients fills in as you log supplements <em>and</em> diet together.
