@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { isIndexableTag } from "@/lib/indexability";
 import { notFound } from "next/navigation";
 import {
   getAllTags,
@@ -48,6 +49,9 @@ export async function generateMetadata({
       description,
       type: "website",
     },
+    // A tag with one or two guides repeats those guides' pages. Reachable, not
+    // submitted: see lib/indexability.ts.
+    robots: isIndexableTag(result.guides.length) ? undefined : { index: false, follow: true },
   };
 }
 

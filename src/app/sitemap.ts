@@ -1,6 +1,6 @@
 import { indexableLocales, DEFAULT_LOCALE } from "@/lib/i18n/locales";
 import type { MetadataRoute } from "next";
-import { visibleGuides, getAllTags } from "@/lib/guides";
+import { visibleGuides, getAllTags, getGuidesByTagSlug } from "@/lib/guides";
 import { interactions, substances } from "@/lib/interactions";
 import { products, brands, bestCategories, canonicalSlugFor } from "@/lib/products";
 import { ingredients } from "@/lib/encyclopedia";
@@ -13,6 +13,22 @@ import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
 import { recipeDietTags, recipeCategories } from "@/lib/recipes";
+import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
+import catalogData from "@/data/catalog.json";
+import foodsCatalog from "@/data/whole-foods-catalog.json";
+
+/**
+ * lastModified is a claim, so it is only made where it is true.
+ *
+ * Every entry used to carry `now`, which told Google that all 3,114 pages
+ * changed on every deploy. Google uses lastmod only when it is "consistently
+ * and verifiably accurate", so a sitemap that always says "today" gets its dates
+ * ignored for the whole site. Pages built from a dated export carry that
+ * export's date; guides carry their own; everything else carries no date rather
+ * than a false one.
+ */
+const CATALOG_DATE = new Date((catalogData as { exported_at: string }).exported_at);
+const FOODS_DATE = new Date((foodsCatalog as { version: string }).version);
 
 /**
  * Localised homepages, included ONLY once a locale's copy is actually
@@ -30,10 +46,14 @@ function localeEntries(baseUrl: string, now: Date): MetadataRoute.Sitemap {
     .filter((l) => l.code !== DEFAULT_LOCALE)
     .map((l) => ({
       url: `${baseUrl}/${l.code}`,
-      lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.9,
     }));
+}
+
+function latestGuideDate(list: { updatedAt: string }[]): Date | undefined {
+  const times = list.map((g) => new Date(g.updatedAt).getTime()).filter((t) => !Number.isNaN(t));
+  return times.length ? new Date(Math.max(...times)) : undefined;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -41,16 +61,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const guideEntries: MetadataRoute.Sitemap = [
-    { url: `${baseUrl}/guides`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/guides`, lastModified: latestGuideDate(visibleGuides), changeFrequency: "weekly", priority: 0.9 },
     ...visibleGuides.map((g) => ({
       url: `${baseUrl}/guides/${g.slug}`,
       lastModified: new Date(g.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...getAllTags().map(({ slug }) => ({
+    // Only tags with enough guides to be more than a copy of them. Counted with
+    // the same lookup the tag page renders from, so the sitemap and the page's
+    // robots meta cannot disagree (two spellings of a tag share one page).
+    ...Array.from(new Set(getAllTags().map(({ slug }) => slug)))
+      .map((slug) => ({ slug, guides: getGuidesByTagSlug(slug)?.guides ?? [] }))
+      .filter(({ guides }) => isIndexableTag(guides.length))
+      .map(({ slug, guides }) => ({
       url: `${baseUrl}/guides/tag/${slug}`,
-      lastModified: now,
+      lastModified: latestGuideDate(guides),
       // Tag pages change only when a new tagged guide ships — monthly is
       // honest. Previously "weekly" was misleading.
       changeFrequency: "monthly" as const,
@@ -74,7 +100,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     seen.add(key);
     pairEntries.push({
       url: `${baseUrl}/interactions/${key}`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
     });
@@ -83,7 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const productEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/supplements`,
-      lastModified: now,
+      lastModified: CATALOG_DATE,
       changeFrequency: "weekly",
       priority: 0.9,
     },
@@ -92,10 +117,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // disclaims. Ten products are in the catalog twice (see canonicalSlugFor);
     // only the real record is listed.
     ...products
-      .filter((p) => canonicalSlugFor(p.slug) === p.slug)
+      .filter((p) => canonicalSlugFor(p.slug) === p.slug && !isThinSupplement(p))
       .map((p) => ({
       url: `${baseUrl}/supplements/${p.slug}`,
-      lastModified: now,
+      lastModified: CATALOG_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
@@ -103,7 +128,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const bestCategoryEntries: MetadataRoute.Sitemap = bestCategories().map((c) => ({
     url: `${baseUrl}/supplements/best/${c.slug}`,
-    lastModified: now,
+    lastModified: CATALOG_DATE,
     changeFrequency: "weekly" as const,
     // High commercial intent ("best magnesium supplement") + genuine ranked
     // content. Same priority tier as the supplement detail pages.
@@ -113,13 +138,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const brandEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/brands`,
-      lastModified: now,
+      lastModified: CATALOG_DATE,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     ...brands.map((b) => ({
       url: `${baseUrl}/brands/${b.slug}`,
-      lastModified: now,
+      lastModified: CATALOG_DATE,
       changeFrequency: "monthly" as const,
       // Brand hub pages carry the 5-component score breakdown + standout
       // badge + product grid. High-intent commercial content.
@@ -130,13 +155,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const ingredientEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/ingredients`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.8,
     },
-    ...ingredients.map((i) => ({
+    ...ingredients.filter((i) => !isThinIngredient(i)).map((i) => ({
       url: `${baseUrl}/ingredients/${i.slug}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       // A/B grade pages are anchor content with full mechanism + dose +
       // products-containing-X. C/D grade pages are still indexable but
@@ -155,13 +178,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const foodEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/foods`,
-      lastModified: now,
+      lastModified: FOODS_DATE,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     ...foods.map((f) => ({
       url: `${baseUrl}/foods/${f.base_id}`,
-      lastModified: now,
+      lastModified: FOODS_DATE,
       changeFrequency: "monthly" as const,
       // Whole-food detail pages carry nutrition + mechanism-level benefits +
       // score breakdown — high-volume informational search ("X nutrition/benefits").
@@ -170,7 +193,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // "Healthiest <group>" ranked collections — high commercial/info intent.
     ...bestFoodGroups().map((g) => ({
       url: `${baseUrl}/foods/best/${g.slug}`,
-      lastModified: now,
+      lastModified: FOODS_DATE,
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
@@ -179,7 +202,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const recipeEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/recipes`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
@@ -208,7 +230,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // search volume + genuine ranked content.
     ...recipeDietTags().map((d) => ({
       url: `${baseUrl}/recipes/diet/${d.slug}`,
-      lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.85,
     })),
@@ -217,7 +238,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // of 719 recipes were in this sitemap and linked from nowhere on the site.
     ...recipeCategories().map((c) => ({
       url: `${baseUrl}/recipes/category/${c.slug}`,
-      lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.85,
     })),
@@ -226,13 +246,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     ...comparisons.map((c) => ({
       url: `${baseUrl}/compare/${comparisonSlug(c)}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),
@@ -241,13 +259,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const stackEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/stacks`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.85,
     },
     ...stacks.map((s) => ({
       url: `${baseUrl}/stacks/${s.slug}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
@@ -256,13 +272,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const conditionEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/conditions`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.85,
     },
     ...conditions.map((c) => ({
       url: `${baseUrl}/conditions/${c.slug}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
@@ -271,13 +285,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const brandCompareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/brand-compare`,
-      lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,
     },
     ...brandComparisons.map((c) => ({
       url: `${baseUrl}/brand-compare/${brandComparisonSlug(c)}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),
@@ -286,13 +298,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const synergyEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/synergies`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.85,
     },
     ...synergies.map((s) => ({
       url: `${baseUrl}/synergies/${synergySlug(s)}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
@@ -301,13 +311,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const nutrientEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/nutrients`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     ...CORE_NUTRIENTS.map((n) => ({
       url: `${baseUrl}/nutrients/${n.slug}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
@@ -316,32 +324,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const researchEntriesSitemap: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/research`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     ...researchEntries.map((r) => ({
       url: `${baseUrl}/research/${r.slug}`,
-      lastModified: now,
       changeFrequency: "yearly" as const,
       priority: 0.6,
     })),
   ];
 
   return [
-    { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    { url: baseUrl, changeFrequency: "weekly", priority: 1.0 },
     ...localeEntries(baseUrl, now),
-    { url: `${baseUrl}/methodology`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/methodology/supplements`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/methodology/foods`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/methodology/nutrients`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/methodology`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/methodology/supplements`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/methodology/foods`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/methodology/nutrients`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/about`, changeFrequency: "monthly", priority: 0.8 },
     // /app is the mobile download page, /download is the desktop waitlist —
     // two different products, both indexed. /app carries the higher priority
     // because it is the one with a shipping store listing behind it.
-    { url: `${baseUrl}/app`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/download`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/interactions`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/app`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/download`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/interactions`, changeFrequency: "weekly", priority: 0.9 },
     ...productEntries,
     ...bestCategoryEntries,
     ...foodEntries,
@@ -357,20 +363,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...researchEntriesSitemap,
     {
       url: `${baseUrl}/tools/dose-calculator`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     },
     {
       url: `${baseUrl}/tools/stack-builder`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     },
     ...pairEntries,
     ...guideEntries,
-    { url: `${baseUrl}/disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${baseUrl}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/disclosure`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/privacy`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/terms`, changeFrequency: "yearly", priority: 0.3 },
   ];
 }

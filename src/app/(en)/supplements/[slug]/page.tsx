@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { isThinSupplement } from "@/lib/indexability";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { TimingChips } from "@/components/timing-chips";
@@ -71,6 +72,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       url,
       images: ogImage ? [{ url: ogImage }] : undefined,
     },
+    // Reachable, not submitted: see lib/indexability.ts.
+    robots: isThinSupplement(p) ? { index: false, follow: true } : undefined,
   };
 }
 
