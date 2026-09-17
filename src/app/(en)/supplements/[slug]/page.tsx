@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { isThinSupplement } from "@/lib/indexability";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { TimingChips } from "@/components/timing-chips";
@@ -17,6 +18,7 @@ import {
 } from "@/lib/products";
 import { withUtm } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
+import { amazonLinkFor } from "@/lib/amazon";
 import { ScoreMeter } from "@/components/score-meter";
 import { findIngredientByName } from "@/lib/encyclopedia";
 import {
@@ -71,6 +73,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       url,
       images: ogImage ? [{ url: ogImage }] : undefined,
     },
+    // Reachable, not submitted: see lib/indexability.ts.
+    robots: isThinSupplement(p) ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -439,9 +443,8 @@ export default async function SupplementPage({ params }: { params: Params }) {
       }
     : null;
 
-  const amazonUrl = product.amazon_url
-    ? withUtm(product.amazon_url, { source: "landing", campaign: "supplement_page", content: product.slug })
-    : null;
+  // Every product gets a tagged Amazon link: see lib/amazon.ts.
+  const amazonUrl = withUtm(amazonLinkFor(product), { source: "landing", campaign: "supplement_page", content: product.slug });
   const iherbUrl = product.iherb_url
     ? withUtm(product.iherb_url, { source: "landing", campaign: "supplement_page", content: product.slug })
     : null;

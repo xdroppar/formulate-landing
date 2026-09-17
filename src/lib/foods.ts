@@ -65,9 +65,15 @@ export type Food = {
   variants?: FoodVariant[];
 };
 
+/** Rows that exist for pipeline QA, not as foods. "Olive Oil Control Composite"
+ *  was live at 200 with a generated description. The row lives upstream in
+ *  formulate-web's catalog; this keeps it off the public site until it is
+ *  removed there. */
+const INTERNAL_FOOD_IDS = new Set(["olive-oil-control-composite"]);
+
 // Only foods with a real score + image are publishable on the SEO surface.
 export const foods: Food[] = (catalog.foods as unknown as Food[]).filter(
-  (f) => f.score != null && !!f.image_url,
+  (f) => f.score != null && !!f.image_url && !INTERNAL_FOOD_IDS.has(f.base_id),
 );
 
 /** Human-readable timing line — optimal_timing is sometimes an object, sometimes a string.
