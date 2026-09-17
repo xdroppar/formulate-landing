@@ -12,7 +12,7 @@ import type { Ingredient } from "@/lib/encyclopedia";
  * "Vitamin D [as cholecalciferol (D3)]", "Magnesium (as Albion DiMagnesium
  * Malate)", "Tongkat Ali Extract (Eurycoma longifolia) (root)". Strip all
  * parenthetical/bracketed content, trim, lowercase. */
-function normalizeIngredientLabel(name: string): string {
+export function normalizeIngredientLabel(name: string): string {
   return name
     .replace(/\[[^\]]*\]/g, " ")
     .replace(/\([^)]*\)/g, " ")

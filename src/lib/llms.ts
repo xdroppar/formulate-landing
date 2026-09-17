@@ -18,6 +18,7 @@ import { SURFACE_GROUPS } from "@/lib/site-surfaces";
 import { careItems, fitnessItems, sleepItems } from "@/lib/gear";
 import { APP_STORE_URL } from "@/lib/app-store";
 import { skinTypes, skinBrands } from "@/lib/skincare";
+import { goalPages } from "@/lib/goals";
 
 export const SITE_ORIGIN = "https://formulate-health.app";
 const APP_ORIGIN = "https://app.formulate-health.app";
@@ -76,6 +77,7 @@ Formulate is built for people who want to know whether a supplement is actually 
 - [Skincare](${SITE_ORIGIN}/skincare): ${n("/skincare")}skincare products scored on their actives and checked for irritants, fragrance and allergens, ranked in ${skinTypes.length} types (serums, sunscreens, moisturizers and more) and across ${skinBrands.length} brands.
 - [Nutrient reference](${SITE_ORIGIN}/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
 - [Recipes](${SITE_ORIGIN}/recipes): ${n("/recipes")}recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
+- [Supplements by goal](${SITE_ORIGIN}/supplements/for): ${goalPages.length} goals (${goalPages.slice(0, 5).map((g) => g.label.toLowerCase()).join(", ")} and more), each listing the supplements systematic reviews concluded help, the ones they concluded have no effect, and any harm reported — every finding quoted from and linked to its PubMed review.
 - [Comparisons](${SITE_ORIGIN}/compare): ${n("/compare")}side-by-side comparisons of popular supplement pairs — when to pick each, when to combine them, and what the research shows.
 - [By goal](${SITE_ORIGIN}/conditions): ${n("/conditions")}common conditions (anxiety, insomnia, joint pain, focus and more), each with evidence-rated picks, doses, and when to see a clinician.
 - [Research](${SITE_ORIGIN}/research): ${n("/research")}individual studies summarised with a methodology grade and an explicit critique of what the design can and cannot show.

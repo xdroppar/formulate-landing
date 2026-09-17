@@ -39,6 +39,7 @@ import { comparisons } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { skinProducts } from "@/lib/skincare";
+import { goalPages } from "@/lib/goals";
 
 export type Surface = {
   href: string;
@@ -86,7 +87,8 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
     items: [
       { href: "/compare", label: "Comparisons", count: comparisons.length },
       { href: "/stacks", label: "Starter stacks", count: stacks.length },
-      { href: "/conditions", label: "By goal", count: conditions.length },
+      { href: "/supplements/for", label: "Evidence by goal", count: goalPages.length },
+      { href: "/conditions", label: "Condition guides", count: conditions.length },
       { href: "/tools/stack-builder", label: "Stack builder" },
       { href: "/methodology/supplements", label: "How we score" },
     ],
