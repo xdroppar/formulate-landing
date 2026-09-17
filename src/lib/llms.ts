@@ -17,6 +17,7 @@ import { FACTORS } from "@/lib/supplement-factors";
 import { SURFACE_GROUPS } from "@/lib/site-surfaces";
 import { careItems, fitnessItems, sleepItems } from "@/lib/gear";
 import { APP_STORE_URL } from "@/lib/app-store";
+import { skinTypes, skinBrands } from "@/lib/skincare";
 
 export const SITE_ORIGIN = "https://formulate-health.app";
 const APP_ORIGIN = "https://app.formulate-health.app";
@@ -72,6 +73,7 @@ Formulate is built for people who want to know whether a supplement is actually 
 - [Guides](${SITE_ORIGIN}/guides): ${n("/guides")}long-form, evidence-cited guides on building stacks, choosing forms and doses, and specific supplements.
 - [Ingredient encyclopedia](${SITE_ORIGIN}/ingredients): ${n("/ingredients")}evidence-graded ingredient references — uses, typical dose, evidence grade, and known interactions.
 - [Whole food scores](${SITE_ORIGIN}/foods): ${n("/foods")}whole foods graded 0–100 on nutrient density, protein, fiber, healthy fats, and beneficial compounds.
+- [Skincare](${SITE_ORIGIN}/skincare): ${n("/skincare")}skincare products scored on their actives and checked for irritants, fragrance and allergens, ranked in ${skinTypes.length} types (serums, sunscreens, moisturizers and more) and across ${skinBrands.length} brands.
 - [Nutrient reference](${SITE_ORIGIN}/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
 - [Recipes](${SITE_ORIGIN}/recipes): ${n("/recipes")}recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
 - [Comparisons](${SITE_ORIGIN}/compare): ${n("/compare")}side-by-side comparisons of popular supplement pairs — when to pick each, when to combine them, and what the research shows.
