@@ -13,6 +13,7 @@ import { researchEntries } from "@/lib/research";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
 import { recipeDietTags, recipeCategories } from "@/lib/recipes";
+import { skinTypes, skinBrands } from "@/lib/skincare";
 import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
 import catalogData from "@/data/catalog.json";
 import foodsCatalog from "@/data/whole-foods-catalog.json";
@@ -243,6 +244,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  // Skincare: ranked types and brands, each built only when 5+ scored products
+  // back it (lib/skincare.ts). No lastModified: the skin export's own date
+  // predates its last rescore, so it would be a false claim.
+  const skincareEntries: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/skincare`, changeFrequency: "weekly", priority: 0.85 },
+    ...skinTypes.map((t) => ({
+      url: `${baseUrl}/skincare/best/${t.slug}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+    ...skinBrands.map((b) => ({
+      url: `${baseUrl}/skincare/brands/${b.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
@@ -351,6 +368,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...productEntries,
     ...bestCategoryEntries,
     ...foodEntries,
+    ...skincareEntries,
     ...recipeEntries,
     ...brandEntries,
     ...ingredientEntries,

@@ -39,6 +39,9 @@ const FITNESS_ITEMS: MenuItem[] = [
   { href: appLink("/fitness/methodology", "nav_fitness_method"), title: "How we score it", desc: "Build quality, and whether it fits your goal" },
 ];
 const CARE_ITEMS: MenuItem[] = [
+  // On-site, so every page links the ranked skincare pages. No count in the
+  // desc: this is a client component, and counting would ship the catalog.
+  { href: "/skincare", title: "Best Skincare, Ranked", desc: "Serums, sunscreens and moisturizers by ingredient" },
   { href: appLink("/skin", "nav_care"), title: "Browse Catalog", desc: "Personal care, scored on actives and safety" },
   { href: appLink("/skin/brands", "nav_care_brands"), title: "Brands", desc: "Who makes it, and how they test" },
   { href: appLink("/skin/methodology", "nav_care_method"), title: "How we score it", desc: "Actives, concentration and irritants" },

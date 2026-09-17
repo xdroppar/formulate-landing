@@ -38,6 +38,7 @@ import { conditions } from "@/lib/conditions";
 import { comparisons } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
+import { skinProducts } from "@/lib/skincare";
 
 export type Surface = {
   href: string;
@@ -66,6 +67,7 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
       { href: "/foods", label: "Whole foods", count: foods.length },
       { href: "/recipes", label: "Recipes", count: recipes.length },
       { href: "/ingredients", label: "Ingredients", count: ingredients.length },
+      { href: "/skincare", label: "Skincare", count: skinProducts.length },
       { href: "/brands", label: "Brands" },
     ],
   },
