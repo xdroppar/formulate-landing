@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { goalForCondition, goalEvidenceDateLabel } from "@/lib/goals";
+import { ReviewEvidence } from "@/components/review-evidence";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
@@ -211,6 +213,24 @@ export default async function ConditionPage({ params }: { params: Params }) {
         campaign="condition_cta"
         path="/catalog"
       />
+
+      {(() => {
+        // Beside the hand-written list above: what systematic reviews concluded,
+        // per outcome, quoted and linked (lib/goals.ts). Where the two differ,
+        // both stand; the reader sees the sources.
+        const reviews = goalForCondition(c.slug);
+        if (!reviews) return null;
+        return (
+          <section className="mb-10">
+            <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-2">What systematic reviews concluded</h2>
+            <p className="text-sm text-muted mb-6">
+              Separate from the list above: review conclusions per outcome, each quoted and linked to PubMed. Evidence
+              last refreshed {goalEvidenceDateLabel}.
+            </p>
+            <ReviewEvidence goal={reviews} headingLevel={3} />
+          </section>
+        );
+      })()}
 
       <section className="mb-10">
         <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-3">Lifestyle context</h2>

@@ -14,6 +14,7 @@ import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
 import { recipeDietTags, recipeCategories } from "@/lib/recipes";
 import { skinTypes, skinBrands } from "@/lib/skincare";
+import { goalPages, goalEvidenceSource } from "@/lib/goals";
 import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
 import catalogData from "@/data/catalog.json";
 import foodsCatalog from "@/data/whole-foods-catalog.json";
@@ -30,6 +31,7 @@ import foodsCatalog from "@/data/whole-foods-catalog.json";
  */
 const CATALOG_DATE = new Date((catalogData as { exported_at: string }).exported_at);
 const FOODS_DATE = new Date((foodsCatalog as { version: string }).version);
+const GOAL_EVIDENCE_DATE = new Date(goalEvidenceSource.generated_at);
 
 /**
  * Localised homepages, included ONLY once a locale's copy is actually
@@ -260,6 +262,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     })),
   ];
+  // Goal pages exist only where 5+ ingredients have a reviewed benefit
+  // (lib/goals.ts). Dated by the evidence export they are built from.
+  const goalEntries: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/supplements/for`, changeFrequency: "monthly", priority: 0.85 },
+    ...goalPages.map((g) => ({
+      url: `${baseUrl}/supplements/for/${g.slug}`,
+      lastModified: GOAL_EVIDENCE_DATE,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
+  ];
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
@@ -369,6 +382,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...bestCategoryEntries,
     ...foodEntries,
     ...skincareEntries,
+    ...goalEntries,
     ...recipeEntries,
     ...brandEntries,
     ...ingredientEntries,
