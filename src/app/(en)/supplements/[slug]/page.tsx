@@ -74,14 +74,27 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
+const COUNT_WORDS = ["No", "One", "Two", "Three", "Four", "Five", "Six"];
+const countWord = (n: number) => COUNT_WORDS[n] ?? String(n);
+
 function ScoreBreakdown({ components }: { components: Product["score_components"] }) {
   if (!components.length) return null;
+  // Counted from this product's own components, not written down. This line
+  // said "six weighted dimensions" on every product page for weeks after V3.23
+  // turned three of the six into gates, while /methodology/supplements said
+  // three. Most products run three weighted factors, but seven probiotics run
+  // two (no form component), so no fixed sentence is true for all of them.
+  const weighted = components.filter((c) => c.weight > 0).length;
+  const checks = components.length - weighted;
   return (
     <section className="mb-12">
       <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Score Breakdown</h2>
       <p className="text-sm text-muted mb-6 leading-relaxed">
-        Formulate scores every product across six weighted dimensions. Each dimension
-        is graded independently — hover or tap to see what drove each component.
+        {countWord(weighted)} {weighted === 1 ? "factor carries" : "factors carry"} this score
+        {checks > 0
+          ? `; ${countWord(checks).toLowerCase()} more ${checks === 1 ? "is" : "are"} checked separately and can only take points away`
+          : ""}
+        . Hover or tap to see what drove each one.
       </p>
       <div className="space-y-4">
         {components.map((c) => {
