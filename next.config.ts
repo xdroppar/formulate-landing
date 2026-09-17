@@ -1,6 +1,32 @@
 import type { NextConfig } from "next";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+/**
+ * "900+ supplements scored", counted at build instead of typed.
+ *
+ * This was a hand-set constant in src/lib/catalog-size.ts, rounded down so
+ * growth would keep it true. Growth did keep it true -- and useless: it said
+ * "290+" on /about and /guides while the catalog held 972, because nobody
+ * remembers to raise an understatement. Same filter as src/lib/products.ts.
+ *
+ * Computed HERE rather than in catalog-size.ts because the nav, a client
+ * component, reads the claim, and importing the catalog there would ship it to
+ * every browser. An env value is inlined as a string on both sides.
+ */
+function scoredProductsClaim(): string {
+  const catalog = JSON.parse(
+    readFileSync(join(process.cwd(), "src/data/catalog.json"), "utf8"),
+  ) as { products: { is_draft?: boolean; score: number | null }[] };
+  const n = catalog.products.filter((p) => !p.is_draft && p.score !== null).length;
+  return `${(Math.floor(n / 100) * 100).toLocaleString("en-US")}+`;
+}
 
 const nextConfig: NextConfig = {
+  env: {
+    SCORED_PRODUCTS_CLAIM: scoredProductsClaim(),
+  },
+
   images: {
     // Vercel's image optimizer is metered (1k source images/mo on Hobby).
     // The desktop image pipeline already emits pre-optimized WebP + thumbs,

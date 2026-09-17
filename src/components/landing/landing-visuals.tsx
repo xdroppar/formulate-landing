@@ -76,7 +76,8 @@ export function AnimatedNumber({
   );
 }
 
-/** SVG progress ring that draws + counts up. `score` on a 50–100 scale. */
+/** SVG progress ring that draws + counts up. `score` is out of 100; the ring
+ *  fills from 50, so the rare score below 50 draws an empty ring. */
 export function AnimatedScoreRing({
   score,
   size = 132,

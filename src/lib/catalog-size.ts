@@ -1,20 +1,24 @@
 /**
  * How many scored products we may claim, in copy.
  *
- * Four numbers were in circulation for one thing: the app's metadata said
- * "500+" (false — fixed), this site said "260+", the app's brands page shows
- * 452 (the sum of brand-reported range sizes, not what we score), and the live
- * catalogue serves 295.
+ * Four numbers were once in circulation for one thing: the app's metadata said
+ * "500+" (false), this site said "260+", the app's brands page showed 452 (the
+ * sum of brand-reported range sizes, not what we score), and the live catalogue
+ * served 295. That was fixed with one hand-set constant, rounded DOWN so growth
+ * would keep it true.
  *
- * "260+" was true but understated the catalogue by about 12%, on the pages
- * whose whole job is to make it sound worth visiting.
+ * Growth did keep it true, and made it useless: by 2026-09-17 it read "290+" on
+ * /about and /guides against 972 scored products, because nobody remembers to
+ * raise a number that is not wrong. The live app's /catalog showed 938 (flavour
+ * variants grouped into one card), web's static catalog held 977.
  *
- * Rounded DOWN from the live figure so growth keeps it true. Kept identical to
- * formulate-web's src/lib/catalog-size.ts — this site mirrors the web catalogue
- * and must not drift from what the app itself claims.
- *
- * To re-check: load app.formulate-health.app/catalog and read the count it
- * renders. This repo's own src/data/catalog.json holds 266 and trails the live
- * API, so it must not be used for a claim.
+ * So it is counted from src/data/catalog.json at build, in next.config.ts, and
+ * rounded down to the hundred — which keeps it true under either way of counting
+ * and keeps it in step with formulate-web, which rounds the same way. It is an
+ * env value rather than an import because the nav (a client component) reads it.
  */
-export const SCORED_PRODUCTS_CLAIM = "290+";
+const claim = process.env.SCORED_PRODUCTS_CLAIM;
+if (!claim) {
+  throw new Error("SCORED_PRODUCTS_CLAIM is not set: it is computed in next.config.ts env");
+}
+export const SCORED_PRODUCTS_CLAIM: string = claim;

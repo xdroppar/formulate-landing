@@ -162,7 +162,7 @@
     "isThisJustForSupplements": "Is this just for supplements?",
     "noFormulateStartedWithSupplement": "No. Formulate started with supplement scoring but is now a full nutrition platform: track whole foods and meals, monitor 26 key nutrients by default (add more anytime) across your diet and supplements, log hydration, and watch your progress over time.",
     "howDoYouScoreSupplements": "How do you score supplements and foods?",
-    "supplementsAreEvaluatedAcrossIngredient": "Supplements are evaluated across ingredient quality, dose accuracy, bioavailability, third-party testing, label transparency, and clinical evidence (50–100 scale). Foods are scored on real nutritional quality — nutrient density, processing level, and beneficial compounds — not just calories.",
+    "supplementsAreEvaluatedAcrossIngredient": "Supplements are scored out of 100. Clinical evidence (40%), dose accuracy (35%) and bioavailability (25%) make up the score; manufacturing and third-party testing, label transparency and safety are checked separately and can only take points away. Foods are scored on real nutritional quality — nutrient density, processing level, and beneficial compounds — not just calories.",
     "isThisMedicalAdvice": "Is this medical advice?",
     "noFormulateIsAnInformational": "No. Formulate is an informational tool that aggregates clinical research to help you make more informed decisions. It is not a substitute for professional medical advice. Always consult your healthcare provider before starting any supplement.",
     "canBrandsPayToChange": "Can brands pay to change their score?",

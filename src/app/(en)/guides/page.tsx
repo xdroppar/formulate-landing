@@ -402,7 +402,7 @@ export default function GuidesPage() {
               See how your supplements score
             </div>
             <div className="text-sm text-muted">
-              {SCORED_PRODUCTS_CLAIM} products scored 50–100 against clinical research. Free, no account required.
+              {SCORED_PRODUCTS_CLAIM} products scored out of 100 against clinical research. Free, no account required.
             </div>
           </div>
           <a

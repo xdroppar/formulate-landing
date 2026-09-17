@@ -14,7 +14,7 @@ export const guideFaqs: Record<string, FaqItem[]> = {
     {
       question: "What is the best free supplement tracker app?",
       answer:
-        "Formulate is the only free app that scores supplements on a 50–100 ingredient-level scale, scores whole foods and meals, and tracks your daily coverage of 26 core nutrients in one place — with a fully published methodology and no brand sponsorships. SuppCo is also free and has a larger product catalog (160,000+) with barcode scanning, but it does not track food or whole-diet nutrient coverage.",
+        "Formulate is the only free app that scores supplements out of 100 at the ingredient level, scores whole foods and meals, and tracks your daily coverage of 26 core nutrients in one place — with a fully published methodology and no brand sponsorships. SuppCo is also free and has a larger product catalog (160,000+) with barcode scanning, but it does not track food or whole-diet nutrient coverage.",
     },
     {
       question: "What is the difference between Formulate and SuppCo?",
