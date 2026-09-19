@@ -1,11 +1,12 @@
 import { NextResponse } from "next/server";
 import { products as catalogProducts, type Product, type ScoreComponent } from "@/lib/products";
 import { foods as allFoods, type Food } from "@/lib/foods";
-import { scoreTierColor, scoreTierWord } from "@/lib/score-tier-color";
+import { scoreTierColor } from "@/lib/score-tier-color";
 import { gearItems } from "@/lib/gear";
+import type { ScoreItem } from "@/lib/score-index";
 
 /**
- * The hero's search index, served on demand instead of embedded in the page.
+ * The homepage builder's catalog, served on demand instead of embedded in the page.
  *
  * WHY IT MOVED. Inlining it put ~212 KB into the homepage — and Next embeds a
  * server component's props TWICE, once in the HTML and again in the RSC
@@ -13,8 +14,9 @@ import { gearItems } from "@/lib/gear";
  * the wrong 424 KB: nobody needs the catalog to read the headline, and most
  * visitors never type anything at all.
  *
- * Fetched on first focus of the box instead, which is the moment it becomes
- * useful, and cached by the CDN so it costs one request per visitor at most.
+ * Fetched when the builder comes near the screen (see ConsoleBuilder), and
+ * cached by the CDN so it costs one request per visitor at most. The rows
+ * carry only what the builder renders; lib/score-index types both ends.
  *
  * Single source of truth with the page: the same tier table and the same two
  * `why` derivations, so a score cannot wear one colour here and another there.
@@ -51,7 +53,7 @@ function foodWhy(f: Food): string {
 export const dynamic = "force-static";
 
 export function GET() {
-  const items = [
+  const items: ScoreItem[] = [
     ...catalogProducts
       .filter((p) => p.score != null)
       .map((p) => ({
@@ -60,9 +62,7 @@ export function GET() {
         brand: p.brand,
         score: p.score as number,
         color: scoreTierColor(p.score as number),
-        word: scoreTierWord(p.score as number) ?? "",
         why: scoreWhy(p),
-        image: p.image_url ?? "",
         kind: "supplement" as const,
       })),
     // Recipes are deliberately absent: supplements run a median of 89 and whole
@@ -78,15 +78,13 @@ export function GET() {
         brand: [f.group, f.subgroup].filter(Boolean).join(" · "),
         score: f.score as number,
         color: scoreTierColor(f.score as number),
-        word: scoreTierWord(f.score as number) ?? "",
         why: foodWhy(f),
-        image: f.image_url ?? "",
         kind: "food" as const,
       })),
     /* Personal care, fitness and sleep.
        These arrive with `score` possibly null and a `price` in its place —
        see lib/gear for why sleep has no number and why that is deliberate
-       rather than missing. The hero renders whichever it is given; nothing
+       rather than missing. The builder renders whichever it is given; nothing
        downstream may substitute one for the other. */
     ...gearItems.map((g) => ({
       slug: `${g.kind}-${g.id}`,
@@ -94,9 +92,7 @@ export function GET() {
       brand: g.brand || g.category,
       score: g.score,
       color: g.score != null ? scoreTierColor(g.score) : "",
-      word: g.score != null ? (scoreTierWord(g.score) ?? "") : "",
       why: g.category,
-      image: g.image ?? "",
       price: g.price,
       kind: g.kind,
     })),

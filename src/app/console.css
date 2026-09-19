@@ -1187,6 +1187,10 @@
   border-color: rgba(142, 232, 171, 0.4);
   color: var(--ink);
 }
+/* The moment before the catalog arrives: the chip is there, not yet live. */
+.cn-pil:disabled {
+  cursor: default;
+}
 .cn-pil.on {
   border-color: var(--g);
   color: var(--g);

@@ -9,13 +9,19 @@
  * and it scores in front of you" and then offers nowhere to add it is a
  * promise with no door.
  *
- * ONE SOURCE OF ITEMS. It reads /api/score-index — the same endpoint the
- * homepage's HeroStackBuilder reads, 1,459 scored supplements and whole foods.
- * A second index for the second builder is the drift this repo has a standing
- * rule about, and the endpoint already exists.
+ * ONE SOURCE OF ITEMS. It reads /api/score-index — scored supplements and
+ * whole foods, plus the care, fitness and sleep gear. It replaced the old hero
+ * builder, which read the same endpoint.
  *
- * NO STACK SCORE, AND THAT IS DELIBERATE. HeroStackBuilder's comment is worth
- * repeating because the temptation here is identical: the app's real
+ * LOADED ON APPROACH, NOT ON ARRIVAL. The index is ~70–90 KB compressed and
+ * ~620 KB of JSON to parse, and this builder sits two screens down on a phone.
+ * Fetching it on mount made every homepage visit pay for it, including the
+ * majority who never scroll here. It now starts when the builder is within
+ * about a screen of the viewport, or on the first touch of the builder,
+ * whichever comes first.
+ *
+ * NO STACK SCORE, AND THAT IS DELIBERATE. The old hero builder's reasoning is
+ * worth repeating because the temptation here is identical: the app's real
  * stack score "is 820 lines across four more modules, and copying it would put
  * scoring in a THIRD repo". The weakest link needs none of it — it is a min()
  * over data already in the index — and it is the more useful answer anyway.
@@ -29,9 +35,10 @@
  * Nutrients is absent on purpose: a nutrient is not something you add to a
  * stack, it is what having added things gets you.
  */
-import { useEffect, useMemo, useState } from "react";
-import type { ScoreItem } from "@/components/landing/hero-stack-builder";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { ScoreItem } from "@/lib/score-index";
 import { PILLARS } from "@/lib/pillars";
+import { trackEvent } from "@/lib/analytics";
 
 /** Which index `kind` each pillar can offer, where it can offer one. */
 /* Every pillar the picker offers now filters in place. Sleep, fitness and
@@ -86,23 +93,56 @@ export function ConsoleBuilder() {
   const [q, setQ] = useState("");
   const [pillar, setPillar] = useState<string | null>(null);
   const [stack, setStack] = useState<ScoreItem[]>([]);
+  const root = useRef<HTMLDivElement>(null);
+  const requested = useRef(false);
+  const mounted = useRef(true);
 
-  useEffect(() => {
-    let live = true;
+  const load = useCallback(() => {
+    if (requested.current) return;
+    requested.current = true;
     fetch("/api/score-index")
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then((d) => {
-        if (!live) return;
+        if (!mounted.current) return;
         setIndex(Array.isArray(d) ? d : (d.items ?? []));
         setReady(true);
       })
       /* An empty index makes the box say it found nothing, which is true of
          what it can see. It must not pretend to be still loading forever. */
-      .catch(() => live && setReady(true));
-    return () => {
-      live = false;
-    };
+      .catch(() => mounted.current && setReady(true));
   }, []);
+
+  useEffect(() => {
+    mounted.current = true;
+    const el = root.current;
+    if (!el || typeof IntersectionObserver === "undefined") {
+      load();
+      return () => {
+        mounted.current = false;
+      };
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          io.disconnect();
+          load();
+        }
+      },
+      { rootMargin: "900px 0px" },
+    );
+    io.observe(el);
+    return () => {
+      mounted.current = false;
+      io.disconnect();
+    };
+  }, [load]);
+
+  function add(i: ScoreItem) {
+    setStack((s) => [...s, i]);
+    /* The old hero builder's event, kept by name so the series continues
+       across the console swap; `source` says which builder sent it. */
+    trackEvent("hero_stack_add", { slug: i.slug, kind: i.kind, size: stack.length + 1, source: "console" });
+  }
 
   /** How many items each chip can actually offer. A chip that filters to
    *  nothing is a button that does nothing, so it is shown as not ready. */
@@ -141,7 +181,7 @@ export function ConsoleBuilder() {
   })();
 
   return (
-    <div className="cn-builder">
+    <div className="cn-builder" ref={root} onPointerDown={load} onFocus={load}>
       <div className="cn-bcol">
         <div className="cn-pickhead">
           <span className="lab">Pick a pillar</span>
@@ -166,6 +206,16 @@ export function ConsoleBuilder() {
           {CHIPS.map((p) => {
             const n = counts[p.slug] ?? 0;
             const on = pillar === p.slug;
+            /* Before the index arrives every count is 0, which used to hide
+               two chips and turn the other three into links out to the app
+               for the moment it took to load. Waiting is not "absent". */
+            if (!ready) {
+              return (
+                <button type="button" key={p.slug} className="cn-pil" disabled>
+                  {p.title}
+                </button>
+              );
+            }
             if (!n) {
               const path = PILLAR_BROWSE[p.slug];
               if (!path) return null;
@@ -226,7 +276,7 @@ export function ConsoleBuilder() {
                 type="button"
                 key={i.slug}
                 className="cn-pick"
-                onClick={() => setStack((s) => [...s, i])}
+                onClick={() => add(i)}
               >
                 <span className="cn-pickn">{i.name}</span>
                 <span className="cn-picks" style={{ color: rowValue(i).color }}>
