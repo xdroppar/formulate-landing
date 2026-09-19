@@ -134,6 +134,7 @@ export default async function LearnEntryPage({ params }: { params: Params }) {
             title={`Compare ${e.name.toLowerCase()} in the app`}
             sub={`The ${pillar.label.toLowerCase()} shelf, with what each product actually offers.`}
             campaign={`learn-${slug}`}
+            source="learn_cta"
             path={pillar.appPath}
           />
           {related.length > 0 && (

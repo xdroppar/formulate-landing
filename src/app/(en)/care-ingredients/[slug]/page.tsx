@@ -132,6 +132,7 @@ export default async function CareIngredientPage({ params }: { params: Params })
             title={`Find products with ${e.name.toLowerCase()}`}
             sub="Every sunscreen, serum and toothpaste in the app, scored on its actives."
             campaign={`care-ingredient-${slug}`}
+            source="care_ingredient_cta"
             path="/skin"
           />
           {related.length > 0 && (

@@ -18,6 +18,7 @@ import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
 import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { stackAddUrl } from "@/lib/app-url";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { ScoreMeter } from "@/components/score-meter";
 import { PageConversion } from "@/components/page-conversion";
@@ -138,6 +139,8 @@ export default async function IngredientPage({ params }: { params: Params }) {
 
   // Products containing this ingredient — top-scored only.
   const matchingProducts = productsContaining(ing, 4);
+  // The one the "add it" card offers; only when it carries a real score.
+  const topProduct = matchingProducts.find((p) => p.score != null) ?? null;
 
   // Compare pages that feature this ingredient as either side.
   const relatedComparisons = comparisons.filter(
@@ -251,13 +254,33 @@ export default async function IngredientPage({ params }: { params: Params }) {
         </p>
       </header>
 
-      <AppCtaCard
-        className="mb-10"
-        title={`Find the best ${ing.name} supplements — free`}
-        sub={`See ${ing.name} products scored on dose & form, then track your intake in the app.`}
-        campaign="ingredient_cta"
-        path="/catalog"
-      />
+      {/* The page is about one ingredient and already knows which product
+          containing it scores highest (productsContaining sorts by score
+          before it slices), so the offer is that product by name, added on
+          click — not a trip to the app's whole catalog to look for it.
+          Falls back to the catalog where nothing in the catalog carries it. */}
+      {topProduct ? (
+        <AppCtaCard
+          className="mb-10"
+          title={`Add ${topProduct.brand} ${topProduct.name} to your stack — free`}
+          sub={`The highest-scored ${ing.name} product in our catalog (${topProduct.score}/100). Track dose and overlaps in the app.`}
+          campaign="ingredient_add_top"
+          source="ingredient_add_top"
+          href={stackAddUrl([topProduct.slug], {
+            campaign: "ingredient_add_top",
+            content: ing.slug,
+          })}
+          cta="Add it →"
+        />
+      ) : (
+        <AppCtaCard
+          className="mb-10"
+          title={`Find the best ${ing.name} supplements — free`}
+          sub={`See ${ing.name} products scored on dose & form, then track your intake in the app.`}
+          campaign="ingredient_cta"
+          path="/catalog"
+        />
+      )}
 
       {nutrientMatch && (
         <section className="mb-10 rounded-xl border border-accent/30 bg-accent/[0.04] p-4">
