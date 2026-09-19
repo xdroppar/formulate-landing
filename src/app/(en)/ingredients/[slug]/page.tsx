@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { IngredientReviews } from "@/components/ingredient-reviews";
 import { isThinIngredient } from "@/lib/indexability";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -301,6 +302,9 @@ export default async function IngredientPage({ params }: { params: Params }) {
           </ul>
         </section>
       )}
+
+      {/* What reviews concluded, beside the uses claimed above (lib/ingredient-evidence.ts). */}
+      <IngredientReviews slug={ing.slug} name={ing.name} />
 
       {ing.mechanism_of_action.length > 0 && (
         <section className="mb-10">

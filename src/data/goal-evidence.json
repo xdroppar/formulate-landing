@@ -3293,16 +3293,6 @@
      "slug": "inositol",
      "findings": [
       {
-       "direction": "benefit",
-       "outcome": "insulin treatment need and homa-ir",
-       "as": "Myo-Inositol",
-       "quote": "Myo-inositol supplementation is effective to decrease the need of insulin treatment and HOMA-IR for gestational diabetes.",
-       "quote_pmid": "39115013",
-       "pmids": [
-        "39115013"
-       ]
-      },
-      {
        "direction": "unclear",
        "outcome": "insulin resistance",
        "as": "D-Chiro-Inositol",
@@ -4658,16 +4648,6 @@
        ]
       },
       {
-       "direction": "no_effect",
-       "outcome": "postoperative inflammatory response",
-       "as": "Omega-3 Fatty Acids",
-       "quote": "preoperative administration of omega-3 FAs immunonutrients had no significant effect on the postoperative inflammatory response in patients undergoing abdominal surgeries.",
-       "quote_pmid": "37571352",
-       "pmids": [
-        "37571352"
-       ]
-      },
-      {
        "direction": "benefit",
        "outcome": "interleukin-6 levels",
        "as": "Omega-3 Fatty Acids",
@@ -5524,33 +5504,6 @@
        "quote_pmid": "41515249",
        "pmids": [
         "41515249"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Moringa",
-     "slug": "moringa-supplement",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "body mass index",
-       "quote": "increased BMI in HIV+ underweight adults.",
-       "quote_pmid": "35302264",
-       "pmids": [
-        "38015892",
-        "35302264"
-       ]
-      },
-      {
-       "direction": "benefit",
-       "outcome": "body mass index",
-       "as": "Moringa oleifera",
-       "quote": "In humans, moringa at higher (14-30 g/day) not lower (<10 g/day) doses improved hemoglobin (Hgb) in children with iron deficiency anemia, improved Hgb and vitamin A status in postmenopausal women, and increased BMI in HIV+ underweight adults.",
-       "quote_pmid": "35302264",
-       "pmids": [
-        "38015892",
-        "35302264"
        ]
       }
      ]
@@ -8848,21 +8801,6 @@
      ]
     },
     {
-     "name": "L-Histidine",
-     "slug": "l-histidine",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "cognitive function",
-       "quote": "A low strength of evidence suggests that L-carnosine supplement combined with anserine or antioxidants can slow cognitive function decline among healthy elderly or patients with probable Alzheimer's Disease or mild neurocognitive disorder.",
-       "quote_pmid": "42123986",
-       "pmids": [
-        "42123986"
-       ]
-      }
-     ]
-    },
-    {
      "name": "Lignans",
      "slug": null,
      "findings": [
@@ -9186,15 +9124,6 @@
        "pmids": [
         "41125358"
        ]
-      },
-      {
-       "direction": "unclear",
-       "outcome": "diarrhea duration in acute gastroenteritis",
-       "quote": "Although the certainty of evidence is very low, the use of probiotics for acute gastroenteritis in children may improve diarrhea approximately one day earlier.",
-       "quote_pmid": "37956795",
-       "pmids": [
-        "37956795"
-       ]
       }
      ]
     },
@@ -9246,15 +9175,6 @@
        "pmids": [
         "40929652"
        ]
-      },
-      {
-       "direction": "unclear",
-       "outcome": "ibs symptoms",
-       "quote": "Composite probiotics containing B. infantis might be an effective therapeutic option for IBS patients, which could significantly alleviate the symptoms of IBS without significant adverse effects.",
-       "quote_pmid": "28166427",
-       "pmids": [
-        "28166427"
-       ]
       }
      ]
     },
@@ -9296,36 +9216,12 @@
        ]
       },
       {
-       "direction": "unclear",
-       "outcome": "diarrhea duration in acute gastroenteritis",
-       "quote": "Although the certainty of evidence is very low, the use of probiotics for acute gastroenteritis in children may improve diarrhea approximately one day earlier.",
-       "quote_pmid": "37956795",
-       "pmids": [
-        "37956795"
-       ]
-      },
-      {
        "direction": "benefit",
        "outcome": "ibs symptom severity",
        "quote": "Lactobacillus acidophilus DDS-1 ranked first (surface under the cumulative ranking, SUCRA, 92.9%)",
        "quote_pmid": "37686889",
        "pmids": [
         "37686889"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Lactobacillus paracasei",
-     "slug": null,
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "antibiotic-associated diarrhea",
-       "quote": "Probiotics also appeared to reduce the incidence of antibiotic-associated diarrhea in hospitalized patients, although these trials did not specifically focus only on those who were critically ill.",
-       "quote_pmid": "19244148",
-       "pmids": [
-        "19244148"
        ]
       }
      ]
@@ -9407,21 +9303,6 @@
        "quote_pmid": "26756877",
        "pmids": [
         "26756877"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Zinc",
-     "slug": "zinc",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "acute and persistent diarrhoea",
-       "quote": "Zinc should continue to be recommended in children under the age of 10 years with acute or persistent diarrhoea, but moderate certainty of evidence concludes that the dose of zinc should be reduced.",
-       "quote_pmid": "39641338",
-       "pmids": [
-        "39641338"
        ]
       }
      ]
@@ -10077,21 +9958,6 @@
      ]
     },
     {
-     "name": "Bifidobacterium longum",
-     "slug": "bifidobacterium-longum",
-     "findings": [
-      {
-       "direction": "no_effect",
-       "outcome": "respiratory infections",
-       "quote": "Current evidence does not support the routine use of probiotic or synbiotic supplementation for the prevention of respiratory infections in children aged ≤24 months.",
-       "quote_pmid": "42451071",
-       "pmids": [
-        "42451071"
-       ]
-      }
-     ]
-    },
-    {
      "name": "Echinacea",
      "slug": "echinacea-immune",
      "findings": [
@@ -10703,21 +10569,6 @@
      ]
     },
     {
-     "name": "Lactobacillus paracasei",
-     "slug": null,
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "atopic dermatitis",
-       "quote": "Certain probiotic preparations demonstrate efficacy in reducing the risk of developing atopic dermatitis when administered to pregnant women, infants, or both.",
-       "quote_pmid": "33811784",
-       "pmids": [
-        "33811784"
-       ]
-      }
-     ]
-    },
-    {
      "name": "Lutein",
      "slug": "lutein",
      "findings": [
@@ -10758,21 +10609,6 @@
        "quote_pmid": "21087067",
        "pmids": [
         "21087067"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Probiotics",
-     "slug": "multi-strain-probiotic",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "scorad score in atopic dermatitis",
-       "quote": "A meta-analysis of 20 RCTs assessing probiotics, alone or combined with prebiotics, revealed a significant reduction in SCORAD scores, suggesting a consistent trend in alleviating AD symptoms in children without food allergies.",
-       "quote_pmid": "38783644",
-       "pmids": [
-        "38783644"
        ]
       }
      ]
@@ -10886,46 +10722,6 @@
      ]
     },
     {
-     "name": "L-Carnitine",
-     "slug": "carnitine",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "hemoglobin levels",
-       "quote": "Our study found that children with kidney failure requiring dialysis could partially benefit from L-carnitine, including increased Hb, decreased ESA requirement, reduced ApoB, and improved cardiac function.",
-       "quote_pmid": "40864195",
-       "pmids": [
-        "40864195"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Moringa",
-     "slug": "moringa-supplement",
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "hemoglobin (anemia)",
-       "quote": "moringa at higher (14-30 g/day) not lower (<10 g/day) doses improved hemoglobin (Hgb) in children with iron deficiency anemia, improved Hgb and vitamin A status in postmenopausal women, and increased BMI in HIV+ underweight adults.",
-       "quote_pmid": "35302264",
-       "pmids": [
-        "35302264"
-       ]
-      },
-      {
-       "direction": "benefit",
-       "outcome": "hemoglobin",
-       "as": "Moringa oleifera",
-       "quote": "In humans, moringa at higher (14-30 g/day) not lower (<10 g/day) doses improved hemoglobin (Hgb) in children with iron deficiency anemia, improved Hgb and vitamin A status in postmenopausal women, and increased BMI in HIV+ underweight adults.",
-       "quote_pmid": "35302264",
-       "pmids": [
-        "35302264"
-       ]
-      }
-     ]
-    },
-    {
      "name": "Spirulina",
      "slug": "spirulina",
      "findings": [
@@ -10936,21 +10732,6 @@
        "quote_pmid": "41255135",
        "pmids": [
         "41255135"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Vitamin B12",
-     "slug": "vitamin-b12",
-     "findings": [
-      {
-       "direction": "no_effect",
-       "outcome": "anaemia",
-       "quote": "Vitamin B12 supplementation (alone or when supplemented with other micronutrients) in children may have little to no effect on growth (i.e. height/length), cognitive function (e.g. attention), development outcomes (e.g. motor skill development), or anaemia, compared to placebo, no intervention, or the same supplements without vitamin B12.",
-       "quote_pmid": "42227307",
-       "pmids": [
-        "42227307"
        ]
       }
      ]
@@ -11645,21 +11426,6 @@
        "quote_pmid": "39404918",
        "pmids": [
         "39404918"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "B Complex",
-     "slug": null,
-     "findings": [
-      {
-       "direction": "benefit",
-       "outcome": "migraine prevention",
-       "quote": "Our findings suggest that using riboflavin at different dosages and treatment lengths offers a promising alternative to common medications for paediatric migraine prevention.",
-       "quote_pmid": "40411246",
-       "pmids": [
-        "40411246"
        ]
       }
      ]

@@ -19,6 +19,7 @@ import { careItems, fitnessItems, sleepItems } from "@/lib/gear";
 import { APP_STORE_URL } from "@/lib/app-store";
 import { skinTypes, skinBrands } from "@/lib/skincare";
 import { goalPages } from "@/lib/goals";
+import { evidenceTotals } from "@/lib/ingredient-evidence";
 
 export const SITE_ORIGIN = "https://formulate-health.app";
 const APP_ORIGIN = "https://app.formulate-health.app";
@@ -77,6 +78,7 @@ Formulate is built for people who want to know whether a supplement is actually 
 - [Skincare](${SITE_ORIGIN}/skincare): ${n("/skincare")}skincare products scored on their actives and checked for irritants, fragrance and allergens, ranked in ${skinTypes.length} types (serums, sunscreens, moisturizers and more) and across ${skinBrands.length} brands.
 - [Nutrient reference](${SITE_ORIGIN}/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
 - [Recipes](${SITE_ORIGIN}/recipes): ${n("/recipes")}recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
+- [Review conclusions report](${SITE_ORIGIN}/reports/supplement-review-conclusions): what systematic reviews concluded, outcome by outcome, for ${evidenceTotals.ingredients} supplement ingredients — ${evidenceTotals.conclusions} conclusions (benefit, no effect, unclear, harm), each quoted from a cited PubMed abstract, with the full dataset as CSV at ${SITE_ORIGIN}/reports/supplement-review-conclusions.csv.
 - [Supplements by goal](${SITE_ORIGIN}/supplements/for): ${goalPages.length} goals (${goalPages.slice(0, 5).map((g) => g.label.toLowerCase()).join(", ")} and more), each listing the supplements systematic reviews concluded help, the ones they concluded have no effect, and any harm reported — every finding quoted from and linked to its PubMed review.
 - [Comparisons](${SITE_ORIGIN}/compare): ${n("/compare")}side-by-side comparisons of popular supplement pairs — when to pick each, when to combine them, and what the research shows.
 - [By goal](${SITE_ORIGIN}/conditions): ${n("/conditions")}common conditions (anxiety, insomnia, joint pain, focus and more), each with evidence-rated picks, doses, and when to see a clinician.

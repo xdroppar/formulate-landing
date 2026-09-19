@@ -267,6 +267,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // (lib/goals.ts). Dated by the evidence export they are built from.
   const goalEntries: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/supplements/for`, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${baseUrl}/reports/supplement-review-conclusions`, lastModified: GOAL_EVIDENCE_DATE, changeFrequency: "monthly", priority: 0.9 },
     ...goalPages.map((g) => ({
       url: `${baseUrl}/supplements/for/${g.slug}`,
       lastModified: GOAL_EVIDENCE_DATE,
