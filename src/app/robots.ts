@@ -18,6 +18,10 @@ export default function robots(): MetadataRoute.Robots {
     "Applebot-Extended",
     "Amazonbot",
   ];
+  // /_next/ is NOT disallowed: it serves the CSS, JS and optimised images
+  // (/_next/static, /_next/image) a page needs to render. Google's guidance is
+  // not to block resources required for rendering, and blocking /_next/image
+  // also keeps every product photo out of Google Images. Only /api/ is blocked.
   // Deliberately NOT welcomed, and this is the reason so nobody re-adds them:
   // CCBot, Bytespider and cohere-ai are training-corpus crawlers, not answer
   // engines. They have no surface that cites a source, so they take bandwidth
@@ -30,12 +34,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: aiCrawlers,
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: ["/api/"],
       },
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: ["/api/"],
       },
     ],
     sitemap: "https://formulate-health.app/sitemap.xml",
