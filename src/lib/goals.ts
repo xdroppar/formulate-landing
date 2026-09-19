@@ -16,7 +16,7 @@
  */
 import data from "@/data/goal-evidence.json";
 import { ingredientBySlug } from "@/lib/encyclopedia";
-import { productsContaining, normalizeIngredientLabel } from "@/lib/ingredient-products";
+import { topProductForIngredient } from "@/lib/ingredient-products";
 import type { Product } from "@/lib/products";
 
 export const MIN_HELPS = 5;
@@ -92,29 +92,9 @@ export function dedupeFindings<T extends Finding>(findings: T[]): T[] {
   });
 }
 
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\/-]/g, "\\$&");
-}
-
-/**
- * The product shown beside an ingredient must be a product OF that ingredient —
- * its name says so. "Highest-scoring product listing it" put a collagen powder
- * beside vitamin C and a berberine beside grape seed: true that they contain it,
- * wrong as an answer to "what should I buy for this".
- */
+/** The rule lives in lib/ingredient-products, because four surfaces state it. */
 function topProductFor(slug: string | null): Product | null {
-  const ing = slug ? ingredientBySlug(slug) : undefined;
-  if (!ing) return null;
-  const needles = [ing.name, ...(ing.aliases ?? [])]
-    .map((n) => normalizeIngredientLabel(n))
-    .filter((n) => n.length >= 3)
-    .map((n) => new RegExp(`\\b${escapeRegExp(n)}\\b`));
-  const named = productsContaining(ing, 200).filter((p) => needles.some((re) => re.test(p.name.toLowerCase())));
-  // A combination is named for the ingredient too: "Caffeine + L-Theanine"
-  // matched L-theanine on the insomnia page. A single-ingredient product wins;
-  // a combination is shown only when no single one exists.
-  const combination = /\+|&|\bwith\b|\band\b/i;
-  return named.find((p) => !combination.test(p.name)) ?? named[0] ?? null;
+  return topProductForIngredient(slug ? ingredientBySlug(slug) : null);
 }
 
 function rank(i: GoalIngredient): RankedIngredient {

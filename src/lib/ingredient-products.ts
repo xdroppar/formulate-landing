@@ -68,3 +68,34 @@ export function productsContaining(ing: Ingredient, limit = 4): Product[] {
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, limit);
 }
+
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\/-]/g, "\\$&");
+}
+
+/**
+ * The one product to offer for an ingredient.
+ *
+ * The product must be a product OF that ingredient — its NAME says so.
+ * "Highest-scoring product listing it" put a collagen powder beside vitamin C
+ * and a berberine beside grape seed: true that they contain it, wrong as an
+ * answer to "what should I take for this". A single-ingredient product wins;
+ * a combination ("Caffeine + L-Theanine" matched L-theanine on the insomnia
+ * page) is offered only when no single one exists.
+ *
+ * This is the rule the site states wherever it makes the pick for a reader —
+ * goal pages, ingredient pages, and the two stack tools — so it lives here
+ * once rather than in each of them.
+ */
+export function topProductForIngredient(ing: Ingredient | undefined | null): Product | null {
+  if (!ing) return null;
+  const needles = [ing.name, ...(ing.aliases ?? [])]
+    .map((n) => normalizeIngredientLabel(n))
+    .filter((n) => n.length >= 3)
+    .map((n) => new RegExp(`\\b${escapeRegExp(n)}\\b`));
+  const named = productsContaining(ing, 200).filter((p) =>
+    needles.some((re) => re.test(p.name.toLowerCase())),
+  );
+  const combination = /\+|&|\bwith\b|\band\b/i;
+  return named.find((p) => !combination.test(p.name)) ?? named[0] ?? null;
+}

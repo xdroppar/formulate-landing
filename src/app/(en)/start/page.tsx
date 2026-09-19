@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { stacks } from "@/lib/stacks";
-import { ingredients } from "@/lib/encyclopedia";
+import { ingredients, ingredientBySlug } from "@/lib/encyclopedia";
+import { topProductForIngredient } from "@/lib/ingredient-products";
 import { StartClient } from "./start-client";
 
 const BASE = "https://formulate-health.app";
@@ -41,6 +42,12 @@ export default function StartPage() {
       role: i.role,
       dose: i.dose,
       tier: i.tier,
+      /* The product this ingredient becomes when the wizard hands the stack
+         to the app, which holds products rather than ingredients. Attached
+         here because the curated stacks are ten short lists — the whole set
+         is under 2 KB — while the builder, which searches all 968, fetches
+         the same map from /api/top-products instead. */
+      product: topProductForIngredient(ingredientBySlug(i.slug))?.slug ?? null,
     })),
   }));
 

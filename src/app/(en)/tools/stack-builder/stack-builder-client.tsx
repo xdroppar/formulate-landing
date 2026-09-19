@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { EVIDENCE_GRADE_META } from "@/lib/evidence-grade";
+import { stackAddUrl } from "@/lib/app-url";
 import {
   checkStack as checkInteractionStack,
   findSubstance,
@@ -39,6 +40,13 @@ export function StackBuilderClient({ ingredients }: { ingredients: Option[] }) {
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
   const [query, setQuery] = useState("");
   const [shareState, setShareState] = useState<"idle" | "copied">("idle");
+  /* This builder deals in ingredients; the app's stack holds products. The
+     mapping (one product per ingredient, the rule stated in
+     lib/ingredient-products) is served by /api/top-products rather than
+     shipped with the page — 968 ingredients of it is ~87 KB that most
+     readers never use. Fetched once, after the first pick. */
+  const [productForIngredient, setProductForIngredient] = useState<Record<string, string>>({});
+  const askedForMap = useRef(false);
 
   // Initialize from URL on mount.
   useEffect(() => {
@@ -51,6 +59,17 @@ export function StackBuilderClient({ ingredients }: { ingredients: Option[] }) {
     // Only run once on mount — stack changes update URL below.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (selectedSlugs.length === 0 || askedForMap.current) return;
+    askedForMap.current = true;
+    fetch("/api/top-products")
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d) => setProductForIngredient(d.map ?? {}))
+      /* No map, no button. The stack still works, and a button that cannot
+         carry anything is worse than none. */
+      .catch(() => askedForMap.current === true);
+  }, [selectedSlugs.length]);
 
   // Sync URL when stack changes.
   useEffect(() => {
@@ -71,6 +90,13 @@ export function StackBuilderClient({ ingredients }: { ingredients: Option[] }) {
         .map((s) => bySlug.get(s))
         .filter((v): v is Option => v !== undefined),
     [selectedSlugs, bySlug],
+  );
+
+  /* The products this stack can carry into the app: one per ingredient that
+     has one, deduped (two ingredients can share a product). */
+  const keepItems = useMemo(
+    () => [...new Set(selected.map((i) => productForIngredient[i.slug]).filter(Boolean))],
+    [selected, productForIngredient],
   );
 
   // Filter ingredient picker by query + exclude already-added.
@@ -404,6 +430,35 @@ export function StackBuilderClient({ ingredients }: { ingredients: Option[] }) {
                   );
                 })}
               </div>
+            </section>
+          )}
+
+          {keepItems.length > 0 && (
+            <section className="mb-8 rounded-2xl border border-accent/25 bg-accent/[0.06] p-5">
+              <a
+                href={stackAddUrl(keepItems, {
+                  campaign: "tool_stack_builder",
+                  content: String(keepItems.length),
+                })}
+                data-cta-source="tool_stack_builder"
+                className="inline-flex items-center px-4 py-2 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
+              >
+                {keepItems.length === selected.length
+                  ? "Keep this stack in the app →"
+                  : `Keep ${keepItems.length} of ${selected.length} in the app →`}
+              </a>
+              <p className="text-xs text-muted mt-3 leading-relaxed">
+                Free, no card. We add the highest-scored product named for each
+                ingredient — change or remove anything in the app.
+                {keepItems.length < selected.length && (
+                  <>
+                    {" "}
+                    {selected.length - keepItems.length}{" "}
+                    {selected.length - keepItems.length === 1 ? "has" : "have"} no
+                    scored product in our catalog yet.
+                  </>
+                )}
+              </p>
             </section>
           )}
 
