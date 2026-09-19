@@ -5,7 +5,7 @@ import { DownloadClient } from "./download-client";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Formulate — Free Supplement Tracking, in your browser",
+  title: { absolute: "Formulate — Free Supplement Tracking, in your browser" }, // names the brand already; the template would add it twice
   description:
     "Score every product, build your personal supplement stack, and track daily intake — free in the web app, no install. The Windows desktop app is in limited access; request a download link.",
   alternates: { canonical: "https://formulate-health.app/download" },

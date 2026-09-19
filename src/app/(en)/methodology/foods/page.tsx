@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Food Scoring Methodology — How Formulate Scores Whole Foods",
+  title: { absolute: "Food Scoring Methodology — How Formulate Scores Whole Foods" }, // names the brand already; the template would add it twice
   description:
     "Whole foods scored 0–100 on seven weighted pillars — nutrient density, protein, fiber, fat quality, bioactives, glycemic impact, anti-nutrients — with the evidence behind each one cited.",
   alternates: { canonical: "https://formulate-health.app/methodology/foods" },

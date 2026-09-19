@@ -28,7 +28,7 @@ const PILLAR_MARKS: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Methodology — How Formulate Scores Everything",
+  title: { absolute: "Methodology — How Formulate Scores Everything" }, // names the brand already; the template would add it twice
   description:
     "One transparent, evidence-based scoring engine for every domain of your health — supplements, foods, and nutrients today, with sleep, fitness and personal care coming. No sponsorships, just data.",
   alternates: { canonical: "https://formulate-health.app/methodology" },

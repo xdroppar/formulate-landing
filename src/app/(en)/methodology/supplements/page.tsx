@@ -13,7 +13,7 @@ const LOWEST_SCORE = Math.min(
 );
 
 export const metadata: Metadata = {
-  title: "Supplement Scoring Methodology — How Formulate Scores Supplements",
+  title: { absolute: "Supplement Scoring Methodology — How Formulate Scores Supplements" }, // names the brand already; the template would add it twice
   description:
     "How every supplement is scored: evidence, manufacturing, dose, bioavailability, transparency, and safety. No sponsorships, just data.",
   alternates: { canonical: "https://formulate-health.app/methodology/supplements" },

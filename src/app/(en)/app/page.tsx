@@ -20,7 +20,7 @@ const APP_NAME = "Formulate: Longevity Tracker";
 const APP_TAGLINE = "Score your supplements & diet";
 
 export const metadata: Metadata = {
-  title: "Download the Formulate App — Free for iPhone",
+  title: { absolute: "Download the Formulate App — Free for iPhone" }, // names the brand already; the template would add it twice
   description:
     "Scan any supplement label and see it scored against research. Track food and supplements on one scale, watch your nutrient coverage fill in, and get interaction warnings. Free on iPhone.",
   alternates: { canonical: "https://formulate-health.app/app" },
