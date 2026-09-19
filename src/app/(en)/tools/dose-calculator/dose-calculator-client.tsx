@@ -1,14 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { EVIDENCE_GRADE_META } from "@/lib/evidence-grade";
 
+/** What the search list needs, for all 968. */
 type Option = {
   slug: string;
   name: string;
   category: string;
   evidence_grade: "A" | "B" | "C" | "D" | null;
+};
+
+/** What the result card needs, for the one picked: fetched from /api/dose/[slug]. */
+type Detail = {
   summary: string;
   dosage: {
     typical_range?: string | null;
@@ -113,11 +118,30 @@ export function DoseCalculatorClient({ ingredients }: { ingredients: Option[] })
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [weight, setWeight] = useState<string>("");
   const [unit, setUnit] = useState<"kg" | "lb">("lb");
+  const [details, setDetails] = useState<Record<string, Detail | "error">>({});
+  const requested = useRef(new Set<string>());
 
   const selected = useMemo(
     () => ingredients.find((i) => i.slug === selectedSlug) ?? null,
     [ingredients, selectedSlug],
   );
+  const detail = selectedSlug ? details[selectedSlug] : undefined;
+  const loaded = detail && detail !== "error" ? detail : null;
+
+  function pick(opt: Option) {
+    setSelectedSlug(opt.slug);
+    setQuery(opt.name);
+    if (requested.current.has(opt.slug)) return;
+    requested.current.add(opt.slug);
+    fetch(`/api/dose/${encodeURIComponent(opt.slug)}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d: Detail) => setDetails((m) => ({ ...m, [opt.slug]: d })))
+      .catch(() => {
+        // Let a later pick try again rather than caching the failure forever.
+        requested.current.delete(opt.slug);
+        setDetails((m) => ({ ...m, [opt.slug]: "error" }));
+      });
+  }
 
   // Filter options by query. Cap at 12 so the dropdown doesn't overwhelm.
   const filtered = useMemo(() => {
@@ -188,10 +212,7 @@ export function DoseCalculatorClient({ ingredients }: { ingredients: Option[] })
                 <li key={opt.slug}>
                   <button
                     type="button"
-                    onClick={() => {
-                      setSelectedSlug(opt.slug);
-                      setQuery(opt.name);
-                    }}
+                    onClick={() => pick(opt)}
                     className="w-full text-left px-4 py-2.5 hover:bg-white/[0.03] transition-colors flex items-center gap-3"
                   >
                     <span className="flex-1 min-w-0 truncate text-sm text-text">
@@ -280,9 +301,15 @@ export function DoseCalculatorClient({ ingredients }: { ingredients: Option[] })
             )}
           </div>
 
-          <p className="text-sm text-muted leading-relaxed mb-5">
-            {selected.summary}
-          </p>
+          {loaded ? (
+            <p className="text-sm text-muted leading-relaxed mb-5">{loaded.summary}</p>
+          ) : (
+            <p className="text-sm text-muted leading-relaxed mb-5" aria-live="polite">
+              {detail === "error"
+                ? "The dose details did not load. Pick it again, or open the full profile below."
+                : "Loading dose ranges…"}
+            </p>
+          )}
 
           {bwDose && (
             <div className="mb-5 rounded-xl border border-accent/30 bg-accent/5 p-4">
@@ -299,30 +326,30 @@ export function DoseCalculatorClient({ ingredients }: { ingredients: Option[] })
           <dl className="mb-5">
             <DosageRow
               label="Typical range"
-              value={selected.dosage?.typical_range ?? null}
+              value={loaded?.dosage?.typical_range ?? null}
             />
-            <DosageRow label="Timing" value={selected.dosage?.timing ?? null} />
+            <DosageRow label="Timing" value={loaded?.dosage?.timing ?? null} />
             <DosageRow
               label="With food?"
-              value={selected.dosage?.with_food ?? null}
+              value={loaded?.dosage?.with_food ?? null}
             />
             <DosageRow
               label="Duration"
-              value={selected.dosage?.duration_notes ?? null}
+              value={loaded?.dosage?.duration_notes ?? null}
             />
             <DosageRow
               label="Special populations"
-              value={selected.dosage?.special_populations ?? null}
+              value={loaded?.dosage?.special_populations ?? null}
             />
           </dl>
 
-          {selected.forms.length > 0 && (
+          {loaded && loaded.forms.length > 0 && (
             <div className="mb-5">
               <p className="text-xs text-muted font-medium uppercase tracking-wider mb-2">
                 Forms
               </p>
               <ul className="flex flex-wrap gap-2">
-                {selected.forms.map((f, idx) => (
+                {loaded.forms.map((f, idx) => (
                   <li
                     key={idx}
                     className="text-xs bg-white/[0.03] border border-border rounded-full px-3 py-1"
