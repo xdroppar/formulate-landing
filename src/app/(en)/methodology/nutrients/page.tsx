@@ -3,7 +3,7 @@ import Link from "next/link";
 import { withUtm } from "@/lib/app-url";
 
 export const metadata: Metadata = {
-  title: "Nutrient Coverage Methodology — How Formulate Tracks Nutrients",
+  title: { absolute: "Nutrient Coverage Methodology — How Formulate Tracks Nutrients" }, // names the brand already; the template would add it twice
   description:
     "Formulate tracks your daily coverage of key nutrients against targets personalized to your age, sex, and life stage — combining food and supplements, surfacing gaps, and flagging upper limits.",
   alternates: { canonical: "https://formulate-health.app/methodology/nutrients" },

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { IngredientReviews } from "@/components/ingredient-reviews";
-import { isThinIngredient } from "@/lib/indexability";
+import { isThinIngredient, canonicalIngredientSlug } from "@/lib/indexability";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -68,7 +68,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, 160);
-  const url = `${BASE}/ingredients/${slug}`;
+  // A duplicate entry points at the richer page for the same ingredient.
+  const url = `${BASE}/ingredients/${canonicalIngredientSlug(slug)}`;
   return {
     title,
     description,

@@ -5,7 +5,7 @@ import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
 import { PageHeader } from "@/components/landing/page-header";
 
 export const metadata: Metadata = {
-  title: "About Formulate — Independent, Evidence-Based Scoring",
+  title: { absolute: "About Formulate — Independent, Evidence-Based Scoring" }, // names the brand already; the template would add it twice
   description:
     "Formulate is an independent platform that scores supplements against clinical research and foods on nutritional quality, then tracks the nutrients your diet and stack actually cover — no sponsorships, no paid placements, no editorial favoritism.",
   alternates: { canonical: "https://formulate-health.app/about" },

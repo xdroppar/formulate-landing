@@ -16,7 +16,7 @@ import { recipeDietTags, recipeCategories } from "@/lib/recipes";
 import { skinTypes, skinBrands } from "@/lib/skincare";
 import { sleepCategories, sleepScoresTakenAt } from "@/lib/sleep";
 import { goalPages, goalEvidenceSource } from "@/lib/goals";
-import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
+import { isIndexableTag, isThinIngredient, isThinSupplement, canonicalIngredientSlug } from "@/lib/indexability";
 import { activeEntries, shelfEntries, slugOf, isThinLibraryEntry, LIBRARY_REVIEWED } from "@/lib/shelf-library";
 import catalogData from "@/data/catalog.json";
 import foodsCatalog from "@/data/whole-foods-catalog.json";
@@ -163,7 +163,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
-    ...ingredients.filter((i) => !isThinIngredient(i)).map((i) => ({
+    ...ingredients.filter((i) => !isThinIngredient(i) && canonicalIngredientSlug(i.slug) === i.slug).map((i) => ({
       url: `${baseUrl}/ingredients/${i.slug}`,
       changeFrequency: "monthly" as const,
       // A/B grade pages are anchor content with full mechanism + dose +

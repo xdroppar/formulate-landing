@@ -19,6 +19,8 @@
 import type { Product } from "@/lib/products";
 import type { Ingredient } from "@/lib/encyclopedia";
 import { productsContaining } from "@/lib/ingredient-products";
+import { ingredients } from "@/lib/encyclopedia";
+import { forIngredientPage } from "@/lib/ingredient-evidence";
 
 /**
  * A tag page lists guides that already have their own pages. With one or two
@@ -50,4 +52,46 @@ export function isThinSupplement(p: Product): boolean {
 export function isThinIngredient(i: Ingredient): boolean {
   const weakEvidence = i.evidence_grade === "D" || i.evidence_grade == null;
   return weakEvidence && productsContaining(i, 1).length === 0;
+}
+
+/**
+ * One ingredient under two slugs. The encyclopedia holds 13 such pairs
+ * (2026-09-18: arginine / l-arginine, cla / conjugated-linoleic-acid, pqq /
+ * pyrroloquinoline-quinone…), each rendering the same title, so two of the
+ * site's best-performing pages competed with each other for one query. The
+ * same shape as the duplicate products canonicalSlugFor already handles.
+ *
+ * The page kept is the richer one: review evidence first, then products that
+ * list it, then content, then the shorter slug. The other stays reachable and
+ * points its canonical here; the sitemap submits only the kept one.
+ */
+const canonicalIngredient = new Map<string, string>();
+{
+  const byName = new Map<string, Ingredient[]>();
+  for (const i of ingredients) {
+    const key = i.name.trim().toLowerCase();
+    byName.set(key, [...(byName.get(key) ?? []), i]);
+  }
+  const weight = (i: Ingredient) => ({
+    evidence: forIngredientPage(i.slug) ? 1 : 0,
+    products: productsContaining(i, 1000).length,
+    content: JSON.stringify([i.summary, i.mechanism_of_action, i.dosage, i.safety, i.evidence_notes]).length,
+  });
+  for (const group of byName.values()) {
+    if (group.length < 2) continue;
+    const ranked = group
+      .map((i) => ({ i, w: weight(i) }))
+      .sort(
+        (a, b) =>
+          b.w.evidence - a.w.evidence ||
+          b.w.products - a.w.products ||
+          b.w.content - a.w.content ||
+          a.i.slug.length - b.i.slug.length,
+      );
+    for (const { i } of ranked.slice(1)) canonicalIngredient.set(i.slug, ranked[0].i.slug);
+  }
+}
+
+export function canonicalIngredientSlug(slug: string): string {
+  return canonicalIngredient.get(slug) ?? slug;
 }
