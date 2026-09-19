@@ -8,14 +8,14 @@ import { SCORED_PRODUCTS_CLAIM } from "@/lib/catalog-size";
 import { PageHeader } from "@/components/landing/page-header";
 
 export const metadata: Metadata = {
-  title: "Supplement Guides — Evidence-Based Reviews & Protocols",
+  title: "Evidence-Based Health Guides: Supplements, Sleep, Therapies & Skincare",
   description:
-    "Expert supplement guides backed by clinical research. Best-of roundups, stacking protocols, and product deep-dives — no sponsorships, just data.",
+    "Guides to supplements, food, fitness, sleep gear, therapies like sauna and red light, home health devices and skincare — every claim checked against clinical research. No sponsorships.",
   alternates: { canonical: "https://formulate-health.app/guides" },
   openGraph: {
-    title: "Supplement Guides — Evidence-Based Reviews & Protocols",
+    title: "Evidence-Based Health Guides: Supplements, Sleep, Therapies & Skincare",
     description:
-      "Expert supplement guides backed by clinical research. Best-of roundups, stacking protocols, and product deep-dives — no sponsorships, just data.",
+      "Guides to supplements, food, fitness, sleep gear, therapies like sauna and red light, home health devices and skincare — every claim checked against clinical research. No sponsorships.",
     type: "website",
     url: "https://formulate-health.app/guides",
   },
@@ -391,8 +391,8 @@ export default function GuidesPage() {
       <div className="max-w-[960px] mx-auto">
         <PageHeader
           eyebrow="Evidence-based"
-          title="Supplement Guides"
-          lead="Best-of roundups, stacking protocols, and deep-dives — every recommendation backed by clinical research and scored in our catalog."
+          title="Guides"
+          lead="Supplements, food and fitness, plus sleep gear, therapies, home health devices and personal care — every claim checked against clinical research."
         />
 
         {/* CTA banner */}
