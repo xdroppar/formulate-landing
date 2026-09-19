@@ -29,6 +29,8 @@ const appLink = (path: string, campaign: string) =>
   withUtm(`${APP}${path}`, { source: "landing", campaign });
 
 const SLEEP_ITEMS: MenuItem[] = [
+  // On-site, so every page links the ranked sleep pages.
+  { href: "/sleep", title: "Best Sleep Gear, Ranked", desc: "Compared only against their own kind" },
   { href: appLink("/sleep", "nav_sleep"), title: "Browse Catalog", desc: "Sleep gear, compared inside its category" },
   { href: appLink("/sleep/brands", "nav_sleep_brands"), title: "Brands", desc: "Who makes it, and how they test" },
   { href: appLink("/sleep/methodology", "nav_sleep_method"), title: "How we score it", desc: "Why a mask and a mattress are not one number" },

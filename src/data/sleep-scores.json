@@ -1,0 +1,8234 @@
+{
+ "_source": {
+  "url": "https://app.formulate-health.app/api/catalogs/sleep",
+  "generated_at": "2026-09-19T02:27:32.987Z",
+  "note": "Scores only, from the web app's sleep scorer. Do not edit by hand; re-run scripts/sync-sleep-scores.mjs."
+ },
+ "scores": {
+  "article-nera-bed-frame": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Veneer / engineered wood"
+   ],
+   "cautions": []
+  },
+  "avocado-city-bed-frame": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Traditional joinery",
+    "Sustainably sourced"
+   ],
+   "cautions": []
+  },
+  "casper-adjustable-pro-base": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Massage",
+    "Remote / app control",
+    "Under-bed lighting"
+   ],
+   "cautions": []
+  },
+  "cb2-acacia-wood-bed-frame": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Slat support"
+   ],
+   "cautions": []
+  },
+  "cb2-drommen-bed": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "crate-barrel-atwood-bed": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood"
+   ],
+   "cautions": []
+  },
+  "floyd-the-bed-frame": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "platform beds",
+   "attributes": [
+    "Tool-free joinery",
+    "Steel frame",
+    "Sustainably sourced",
+    "Veneer / engineered wood",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "lucid-l300-adjustable-base": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Quiet motors",
+    "Remote / app control",
+    "USB charging"
+   ],
+   "cautions": []
+  },
+  "nectar-platform-bed-frame": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "platform beds",
+   "attributes": [
+    "Tool-free joinery",
+    "Steel frame",
+    "Slat support",
+    "Upholstered"
+   ],
+   "cautions": []
+  },
+  "pottery-barn-farmhouse-bed": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Traditional joinery"
+   ],
+   "cautions": []
+  },
+  "purple-ascent-adjustable-base": {
+   "quality": 61,
+   "grade": "D",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Under-bed lighting",
+    "USB charging"
+   ],
+   "cautions": []
+  },
+  "reverie-7s-adjustable-base": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Wall-hugging",
+    "Massage",
+    "Remote / app control"
+   ],
+   "cautions": []
+  },
+  "room-board-hudson-bed": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Traditional joinery",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "saatva-adjustable-base-plus": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Anti-snore preset",
+    "Wall-hugging",
+    "Massage",
+    "USB charging"
+   ],
+   "cautions": []
+  },
+  "saatva-porto-bed-frame": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Slat support"
+   ],
+   "cautions": []
+  },
+  "sleep-number-flexfit-3-base": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Anti-snore preset",
+    "Remote / app control",
+    "Foot warming",
+    "Under-bed lighting"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-ergo-base": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Quiet motors",
+    "Massage",
+    "Remote / app control",
+    "Under-bed lighting"
+   ],
+   "cautions": []
+  },
+  "thuma-the-bed": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Tool-free joinery",
+    "Squeak-free",
+    "Sustainably sourced",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-frame": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Steel frame",
+    "Under-bed storage",
+    "Slat support"
+   ],
+   "cautions": []
+  },
+  "west-elm-mid-century-bed": {
+   "quality": 69,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Tool-free joinery",
+    "Sustainably sourced",
+    "Slat support",
+    "FSC wood"
+   ],
+   "cautions": []
+  },
+  "zinus-shalini-platform-bed": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Steel frame",
+    "Slat support",
+    "Upholstered",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "avana-kind-bed-wedge-system": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Gel infused",
+    "Removable cover",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "avana-slant-bed-wedge": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Stated incline",
+    "Gel infused",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brentwood-home-therapeutic-wedge": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Reflux / elevation",
+    "CertiPUR-US foam",
+    "Breathable",
+    "12\"",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "brentwood-home-zuma-wedge": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Reflux / elevation",
+    "Breathing / snoring",
+    "Stated incline",
+    "CertiPUR-US foam",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "contour-products-folding-wedge": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Layered foam",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "cushy-form-bed-wedge": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Breathable",
+    "Non-slip base",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "cushy-form-knee-wedge-pillow": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Layered foam",
+    "Breathable",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "ebung-adjustable-bed-wedge": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Stated incline",
+    "Adjustable angle",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "helix-adjustable-wedge-pillow": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Stated incline",
+    "Adjustable angle",
+    "10\"",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "helix-wedge-pillow": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Reflux / elevation",
+    "Breathing / snoring",
+    "Stated incline",
+    "10\"",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "intevision-extra-large-wedge": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Long-staple cotton",
+    "Layered foam",
+    "33\"",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "intevision-foam-wedge": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Long-staple cotton",
+    "Layered foam",
+    "12\"",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "relax-the-back-adjustable-wedge": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Stated incline",
+    "Adjustable angle",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "xtreme-comforts-7inch-wedge": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Breathable",
+    "Open-cell / perforated",
+    "Bamboo viscose",
+    "7\""
+   ],
+   "cautions": []
+  },
+  "xtreme-comforts-wedge": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Breathable",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "amazonbasics-blackout-curtains": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Machine washable",
+    "Stated header style"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "bali-blackout-cellular-shade": {
+   "quality": 61,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Cellular / honeycomb",
+    "Shade format"
+   ],
+   "cautions": []
+  },
+  "bgment-blackout-curtains": {
+   "quality": 57,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Thermal insulating",
+    "UV blocking",
+    "Stated header style"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "deconovo-blackout-curtains": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Multi-layer weave",
+    "Thermal insulating"
+   ],
+   "cautions": []
+  },
+  "eclipse-fresno-blackout-curtains": {
+   "quality": 65,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Multi-layer weave",
+    "Thermal insulating",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "emery-cloth-blackout-curtain": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Multi-layer weave",
+    "Stated header style"
+   ],
+   "cautions": []
+  },
+  "hversailtex-blackout-curtains": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout",
+    "Linen",
+    "Thermal insulating"
+   ],
+   "cautions": []
+  },
+  "hunter-douglas-duette-blackout": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Thermal insulating",
+    "Cellular / honeycomb",
+    "Noise dampening"
+   ],
+   "cautions": []
+  },
+  "lush-decor-insulated-blackout": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Linen",
+    "Multi-layer weave",
+    "Thermal insulating",
+    "Stated header style"
+   ],
+   "cautions": []
+  },
+  "nicetown-blackout-curtains": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "blackout curtains",
+   "attributes": [
+    "99% light blocked",
+    "Multi-layer weave",
+    "Thermal insulating",
+    "Noise dampening"
+   ],
+   "cautions": []
+  },
+  "pony-dance-blackout-curtains": {
+   "quality": 65,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Multi-layer weave",
+    "Thermal insulating",
+    "Stated header style"
+   ],
+   "cautions": []
+  },
+  "pottery-barn-emery-blackout-curtain": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Full blackout",
+    "Linen",
+    "Stated header style",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "ryb-home-blackout-curtains": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Multi-layer weave",
+    "Stated header style"
+   ],
+   "cautions": []
+  },
+  "select-blinds-cellular-blackout": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Thermal insulating",
+    "Cellular / honeycomb",
+    "Shade format"
+   ],
+   "cautions": []
+  },
+  "sleepout-portable-blackout-curtain": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout"
+   ],
+   "cautions": []
+  },
+  "sun-zero-cyrus-thermal-blackout": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout",
+    "Thermal insulating"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "sun-zero-oslo-blackout-curtain": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout",
+    "Thermal insulating",
+    "Stated header style"
+   ],
+   "cautions": []
+  },
+  "west-elm-blackout-curtain": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "blackout curtains",
+   "attributes": [
+    "Full blackout",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "wontex-blackout-curtains": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout",
+    "Stated header style"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "yakamok-100-blackout-curtains": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "blackout curtains",
+   "attributes": [
+    "100% light blocked",
+    "Full blackout",
+    "Thermal insulating"
+   ],
+   "cautions": []
+  },
+  "bearaby-cotton-napper-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-organic-ribbed-knit-blanket": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "blankets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "All-season weight",
+    "Fair Trade",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "boll-and-branch-waffle-blanket": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "blankets",
+   "attributes": [
+    "Temperature regulating",
+    "Organic cotton",
+    "Breathable",
+    "Structured weave",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-lightweight-blanket": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "All-season weight",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "buffy-breeze-comforter": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "TENCEL lyocell",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "chappywrap-original-blanket": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "All-season weight",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "coyuchi-organic-cotton-blanket": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "All-season weight",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "eddie-bauer-herringbone-cotton-blanket": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "blankets",
+   "attributes": [
+    "Temperature regulating",
+    "Machine washable",
+    "Breathable",
+    "Structured weave",
+    "All-season weight",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "garnet-hill-cotton-blanket": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "lands-end-cotton-blanket": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "All-season weight",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "pendleton-eco-wise-wool-blanket": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Temperature regulating",
+    "Moisture wicking",
+    "Machine washable",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "pendleton-yakima-camp-blanket": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Machine washable",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "rh-cashmere-blanket": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Cashmere / alpaca",
+    "All-season weight",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "sunday-citizen-crystal-weighted-blanket": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "target-threshold-microplush-blanket": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "All-season weight",
+    "Layerable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "anrri-blue-light-blocking-glasses": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Stated frame material",
+    "FDA registered",
+    "Low colour distortion",
+    "Anti-reflective coating"
+   ],
+   "cautions": []
+  },
+  "bon-charge-blue-light-glasses": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Evening amber/red tint"
+   ],
+   "cautions": []
+  },
+  "cyxus-blue-light-glasses": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Stated frame material",
+    "Low colour distortion",
+    "UV400",
+    "Fit options"
+   ],
+   "cautions": []
+  },
+  "eyebuydirect-muse-blue-light": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Absorbing (not reflecting) lens",
+    "Prescription available",
+    "Anti-reflective coating"
+   ],
+   "cautions": []
+  },
+  "felix-gray-turing-glasses": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Absorbing (not reflecting) lens",
+    "Prescription available",
+    "Stated frame material",
+    "Low colour distortion",
+    "Anti-reflective coating"
+   ],
+   "cautions": []
+  },
+  "firmoo-blue-light-blocking-classic": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "blue light glasses",
+   "attributes": [
+    "90% blue blocked",
+    "Absorbing (not reflecting) lens",
+    "Prescription available",
+    "Anti-reflective coating",
+    "UV400"
+   ],
+   "cautions": []
+  },
+  "gunnar-optiks-intercept": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Evening amber/red tint",
+    "Absorbing (not reflecting) lens",
+    "65% blue blocked",
+    "Anti-reflective coating"
+   ],
+   "cautions": []
+  },
+  "js-vision-blue-light-shield": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blue light glasses",
+   "attributes": [
+    "90% blue blocked",
+    "Absorbing (not reflecting) lens",
+    "Anti-reflective coating"
+   ],
+   "cautions": []
+  },
+  "prospek-arctic-blue-light-glasses": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Stated frame material",
+    "Anti-reflective coating",
+    "50% blue blocked",
+    "UV400"
+   ],
+   "cautions": []
+  },
+  "swanwick-night-swannies": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "blue light glasses",
+   "attributes": [
+    "99% blue blocked",
+    "Evening amber/red tint",
+    "Targets melatonin onset",
+    "FDA registered"
+   ],
+   "cautions": []
+  },
+  "tijn-vintage-round-blue-light": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Prescription available",
+    "Stated frame material",
+    "Low colour distortion",
+    "UV400"
+   ],
+   "cautions": []
+  },
+  "truedark-twilight-classic": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Evening amber/red tint",
+    "Targets melatonin onset"
+   ],
+   "cautions": []
+  },
+  "uvex-skyper-blue-light-glasses": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Evening amber/red tint",
+    "Cites research"
+   ],
+   "cautions": []
+  },
+  "zenni-blue-blocker-glasses": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "blue light glasses",
+   "attributes": [
+    "Absorbing (not reflecting) lens",
+    "Prescription available"
+   ],
+   "cautions": []
+  },
+  "bluestone-full-body-pillow": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Contoured body shape",
+    "Hip / knee alignment",
+    "Hypoallergenic",
+    "Removable cover"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "boppy-total-body-pillow": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Pregnancy support",
+    "Multi-position shape",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "casper-hug-body-pillow": {
+   "quality": 65,
+   "grade": "D",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforms to the body",
+    "Multi-position shape"
+   ],
+   "cautions": []
+  },
+  "comfysure-pregnancy-body-pillow": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "body pillows",
+   "attributes": [
+    "Contoured body shape",
+    "Hip / knee alignment",
+    "Pregnancy support",
+    "Machine washable",
+    "Hypoallergenic",
+    "Cotton"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "coop-home-goods-body-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforming fill",
+    "Conforms to the body",
+    "Machine washable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "coop-home-goods-maternity-pillow": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforming fill",
+    "Pregnancy support",
+    "Conforms to the body"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "leachco-snoogle-total-body": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Contoured body shape",
+    "Pregnancy support",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "moonlight-slumber-butterfly-pillow": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "body pillows",
+   "attributes": [
+    "Multi-position shape",
+    "Hypoallergenic"
+   ],
+   "cautions": []
+  },
+  "moonlight-slumber-comfort-u": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "body pillows",
+   "attributes": [
+    "Contoured body shape",
+    "Hypoallergenic"
+   ],
+   "cautions": []
+  },
+  "snuggle-pedic-cooling-body-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforming fill",
+    "Temperature regulating",
+    "Conforms to the body",
+    "Breathable",
+    "Gel infused",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "snuggle-pedic-shredded-body-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforming fill",
+    "Conforms to the body",
+    "CertiPUR-US foam",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-allpurpose-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Conforms to the body",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "web-linens-c-shaped-pillow": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "body pillows",
+   "attributes": [
+    "Contoured body shape",
+    "Hip / knee alignment",
+    "Pregnancy support",
+    "Removable cover",
+    "Cotton"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "bedjet-3-climate-cooling": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "cooling pads",
+   "attributes": [
+    "Dual-zone",
+    "Scheduled / app control",
+    "Forced air",
+    "Heats as well as cools",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "bedjet-cloud-sheet": {
+   "quality": 94,
+   "grade": "A",
+   "peer": "cooling pads",
+   "attributes": [
+    "Dual-zone",
+    "Forced air",
+    "Open-cell / perforated",
+    "Heats as well as cools",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "columbia-cooling-gel-pad": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "cooling pads",
+   "attributes": [
+    "Moisture wicking",
+    "Passive / no power",
+    "Machine washable",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "cozy-house-bamboo-cooling-pad": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "cooling pads",
+   "attributes": [
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "elegear-revolutionary-cooling-mat": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "cooling pads",
+   "attributes": [
+    "Passive / no power",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "gelo-cool-pillow-mat": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "cooling pads",
+   "attributes": [
+    "Passive / no power",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "luxear-double-sided-cooling-pad": {
+   "quality": 56,
+   "grade": "D",
+   "peer": "cooling pads",
+   "attributes": [
+    "Machine washable",
+    "Heats as well as cools",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "peachskinsheets-night-sweats-pad": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "cooling pads",
+   "attributes": [
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "roycool-gel-mattress-topper": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "cooling pads",
+   "attributes": [
+    "Breathable",
+    "Gel infused",
+    "Open-cell / perforated",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "serta-coolplus-mattress-pad": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "cooling pads",
+   "attributes": [
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sleep-yoga-go-cooling-mat": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "cooling pads",
+   "attributes": [
+    "Passive / no power",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sleepme-chilipad-pro": {
+   "quality": 94,
+   "grade": "A",
+   "peer": "cooling pads",
+   "attributes": [
+    "55°F range",
+    "Dual-zone",
+    "Water-circulating",
+    "Quiet",
+    "Heats as well as cools",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "chilisleep-cube-cooling-system": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "cooling pads",
+   "attributes": [
+    "60°F range",
+    "Water-circulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sleepme-dock-pro-cooling": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "cooling pads",
+   "attributes": [
+    "Water-circulating",
+    "Scheduled / app control",
+    "Adapts overnight",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "chilisleep-ooler-cooling": {
+   "quality": 94,
+   "grade": "A",
+   "peer": "cooling pads",
+   "attributes": [
+    "55°F range",
+    "Water-circulating",
+    "Scheduled / app control",
+    "Temperature regulating",
+    "Heats as well as cools",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "slumber-cloud-performance-pad": {
+   "quality": 56,
+   "grade": "D",
+   "peer": "cooling pads",
+   "attributes": [
+    "Phase-change material",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "slumber-cloud-stratus-sheet": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "cooling pads",
+   "attributes": [
+    "Phase-change material",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "3b-medical-luna-g3-bpap-auto": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Quiet motor",
+    "Therapy reporting"
+   ],
+   "cautions": []
+  },
+  "bmc-luna-iq-auto-cpap": {
+   "quality": 52,
+   "grade": "F",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Travel-portable",
+    "Integrated humidification",
+    "Ramp start"
+   ],
+   "cautions": []
+  },
+  "breas-z2-auto-travel-cpap": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Travel-portable",
+    "Integrated humidification",
+    "Battery capable"
+   ],
+   "cautions": []
+  },
+  "contour-cpap-pillow": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Mask-clearance shaping",
+    "Stated cushion material"
+   ],
+   "cautions": []
+  },
+  "devilbiss-intellipap-2-autoadjust": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Wake / exhale pressure relief"
+   ],
+   "cautions": []
+  },
+  "fisher-paykel-vitera-full-face-system": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Stated mask type",
+    "Adaptive seal",
+    "Diffused exhaust"
+   ],
+   "cautions": []
+  },
+  "fisher-paykel-sleepstyle-cpap": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Wake / exhale pressure relief",
+    "Quiet motor",
+    "Guided interface"
+   ],
+   "cautions": []
+  },
+  "fisher-paykel-sleepstyle-auto": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Wake / exhale pressure relief",
+    "Therapy reporting"
+   ],
+   "cautions": []
+  },
+  "human-design-medical-airmini-alternative": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Travel-portable",
+    "Integrated humidification",
+    "Therapy reporting",
+    "Waterless humidification"
+   ],
+   "cautions": []
+  },
+  "philips-dreamstation-2": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Travel-portable",
+    "Event detection",
+    "Integrated humidification",
+    "Therapy reporting",
+    "Guided interface"
+   ],
+   "cautions": []
+  },
+  "philips-dreamstation-2-auto-advanced": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Travel-portable",
+    "Integrated humidification",
+    "Wake / exhale pressure relief",
+    "Therapy reporting"
+   ],
+   "cautions": []
+  },
+  "philips-dreamwisp-mask": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Stated mask type",
+    "Considered headgear"
+   ],
+   "cautions": []
+  },
+  "react-health-luna-ii-auto-cpap": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Event detection",
+    "Integrated humidification",
+    "Quiet motor"
+   ],
+   "cautions": []
+  },
+  "resmed-aircurve-11-vauto": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Quiet motor"
+   ],
+   "cautions": []
+  },
+  "resmed-airfit-f30i-mask": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Stated mask type",
+    "Works in any sleep position",
+    "Considered headgear",
+    "Lightweight",
+    "Size options"
+   ],
+   "cautions": []
+  },
+  "resmed-airfit-n30-mask": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Stated mask type",
+    "Lightweight",
+    "Diffused exhaust"
+   ],
+   "cautions": []
+  },
+  "resmed-airfit-p30i-mask": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "masks & accessories",
+   "attributes": [
+    "Stated mask type",
+    "Works in any sleep position",
+    "Considered headgear",
+    "Lightweight",
+    "Size options"
+   ],
+   "cautions": []
+  },
+  "resmed-airmini-travel-cpap": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Travel-portable",
+    "Integrated humidification",
+    "Therapy reporting",
+    "Waterless humidification"
+   ],
+   "cautions": []
+  },
+  "resmed-airsense-11": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Quiet motor",
+    "Therapy reporting",
+    "Guided interface"
+   ],
+   "cautions": []
+  },
+  "resmed-airsense-11-autoset-for-her": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "CPAP machines",
+   "attributes": [
+    "Auto-adjusting pressure",
+    "Integrated humidification",
+    "Therapy reporting",
+    "Ramp start"
+   ],
+   "cautions": []
+  },
+  "boll-and-branch-signature-duvet-cover": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Fair Trade",
+    "Cotton",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-duvet-cover": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Considered closure",
+    "Inner corner ties",
+    "480 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "casper-airy-linen-duvet-cover": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Breathable",
+    "Considered closure",
+    "Inner corner ties"
+   ],
+   "cautions": []
+  },
+  "coyuchi-percale-duvet-cover": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Percale weave",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "cultiver-linen-duvet-cover": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Moisture wicking",
+    "Breathable",
+    "Considered closure",
+    "Inner corner ties",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-duvet-cover": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Temperature regulating",
+    "TENCEL lyocell",
+    "Considered closure",
+    "Bamboo viscose",
+    "Inner corner ties"
+   ],
+   "cautions": []
+  },
+  "garnet-hill-eileen-fisher-linen-duvet": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Breathable",
+    "Considered closure",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "hm-washed-linen-duvet-cover": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Inner corner ties",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "matouk-india-duvet-cover": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "Cotton",
+    "Sateen weave",
+    "Made in USA",
+    "350 TC"
+   ],
+   "cautions": []
+  },
+  "parachute-linen-duvet-cover": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Temperature regulating",
+    "OEKO-TEX",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "pottery-barn-belgian-flax-duvet-cover": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "quince-european-linen-duvet-cover": {
+   "quality": 64,
+   "grade": "D",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "quince-european-linen-duvet-cover-set": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Considered closure",
+    "Inner corner ties"
+   ],
+   "cautions": []
+  },
+  "riley-home-linen-duvet-cover": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Considered closure",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "rough-linen-duvet-cover": {
+   "quality": 49,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sferra-giza-45-duvet-cover": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "406 TC"
+   ],
+   "cautions": []
+  },
+  "snowe-percale-duvet-cover": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Considered closure",
+    "Percale weave",
+    "Inner corner ties",
+    "500 TC",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "target-threshold-linen-duvet-cover": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Breathable",
+    "Considered closure"
+   ],
+   "cautions": []
+  },
+  "company-store-organic-percale-duvet-cover": {
+   "quality": 98,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Considered closure",
+    "Percale weave",
+    "Inner corner ties",
+    "Cooling claim",
+    "Cotton",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-jersey-duvet-cover": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Considered closure",
+    "Inner corner ties",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "west-elm-organic-cotton-duvet-cover": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Considered closure",
+    "Percale weave",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "west-elm-organic-sateen-duvet-cover": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Considered closure",
+    "Cotton",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "boll-and-branch-down-comforter": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Baffle-box construction",
+    "Organic cotton",
+    "Responsible Down",
+    "Fair Trade",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-down-comforter": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "OEKO-TEX",
+    "Stated warmth level",
+    "Cotton",
+    "Sateen weave",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "buffy-cloud-comforter": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "TENCEL lyocell",
+    "Down alternative",
+    "Sleep trial offered",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "casper-humidity-fighting-duvet": {
+   "quality": 69,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Wool / merino",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "coyuchi-organic-down-comforter": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "GOTS organic",
+    "Organic cotton",
+    "Stated warmth level",
+    "Responsible Down",
+    "Fair Trade",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "cozy-earth-bamboo-comforter": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Temperature regulating",
+    "10-year",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "garnet-hill-down-comforter": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "700 FP",
+    "Responsible Down",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "matouk-montreux-down-comforter": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "745 FP",
+    "Cotton",
+    "400 TC",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "parachute-down-duvet-insert": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "puredown-goose-down-comforter": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "Machine washable",
+    "Cotton",
+    "Corner loops",
+    "600 FP"
+   ],
+   "cautions": []
+  },
+  "quince-all-season-down-comforter": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "750 FP",
+    "Organic cotton",
+    "Stated warmth level",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "quince-luxe-down-comforter": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "750 FP",
+    "OEKO-TEX",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "riley-home-goose-down-comforter": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "Stated warmth level",
+    "Cotton",
+    "Sateen weave",
+    "600 FP",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "saatva-all-year-down-comforter": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Down alternative",
+    "Cotton",
+    "Corner loops"
+   ],
+   "cautions": []
+  },
+  "sferra-cardigan-down-comforter": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "800 FP",
+    "Goose down",
+    "Cotton",
+    "Sateen weave",
+    "280 TC"
+   ],
+   "cautions": []
+  },
+  "target-casaluna-down-comforter": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "Baffle-box construction",
+    "Stated warmth level",
+    "Responsible Down",
+    "Cotton",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "company-store-lacrosse-down-comforter": {
+   "quality": 56,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Stated warmth level",
+    "Responsible Down",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-down-alternative-comforter": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Baffle-box construction",
+    "Stated warmth level",
+    "Machine washable",
+    "Down alternative"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "west-elm-organic-down-comforter": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Goose down",
+    "GOTS organic",
+    "Baffle-box construction",
+    "Organic cotton",
+    "Stated warmth level",
+    "Responsible Down",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "3m-1100-foam-earplugs": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "29 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "3m-earsoft-fx-earplugs": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "33 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "alpine-sleepdeep-earplugs": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "earplugs",
+   "attributes": [
+    "Low-profile for side sleeping",
+    "Reusable"
+   ],
+   "cautions": []
+  },
+  "decibullz-custom-earplugs": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "31 dB",
+    "Mouldable wax / putty"
+   ],
+   "cautions": []
+  },
+  "ear-buddy-foam-earplugs": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "32 dB",
+    "Low-frequency blocking",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "earos-one-earplugs": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "Reusable silicone",
+    "Reusable",
+    "Replaceable parts"
+   ],
+   "cautions": []
+  },
+  "etymotic-er20xs-earplugs": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "Multiple tip sizes",
+    "Low-profile for side sleeping",
+    "20 dB"
+   ],
+   "cautions": []
+  },
+  "flents-quiet-please-earplugs": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "29 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "happy-ears-earplugs": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "earplugs",
+   "attributes": [
+    "25 dB",
+    "Reusable"
+   ],
+   "cautions": []
+  },
+  "hearos-xtreme-earplugs": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "33 dB"
+   ],
+   "cautions": []
+  },
+  "howard-leight-max-1-earplugs": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "33 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "loop-quiet-earplugs": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "earplugs",
+   "attributes": [
+    "Reusable silicone",
+    "26 dB",
+    "Multiple tip sizes",
+    "Reusable"
+   ],
+   "cautions": []
+  },
+  "macks-ultra-soft-earplugs": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "33 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "moldex-sparkplugs-earplugs": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "33 dB"
+   ],
+   "cautions": []
+  },
+  "mpow-ultra-soft-earplugs": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "32 dB",
+    "Soft polyurethane foam"
+   ],
+   "cautions": []
+  },
+  "quieton-3-1-earbuds": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "Low-frequency blocking",
+    "Active noise cancelling"
+   ],
+   "cautions": []
+  },
+  "radians-custom-molded-earplugs": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "earplugs",
+   "attributes": [
+    "Reusable silicone",
+    "26 dB",
+    "Reusable"
+   ],
+   "cautions": []
+  },
+  "soundoff-sleep-earbuds": {
+   "quality": 63,
+   "grade": "D",
+   "peer": "earplugs",
+   "attributes": [
+    "Clinically proven",
+    "Low-profile for side sleeping"
+   ],
+   "cautions": []
+  },
+  "vibes-high-fidelity-earplugs": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "earplugs",
+   "attributes": [
+    "Multiple tip sizes",
+    "Reusable",
+    "22 dB"
+   ],
+   "cautions": []
+  },
+  "beautyrest-heated-electric": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "heated blankets",
+   "attributes": [
+    "Dual-side controllers",
+    "20 heat settings",
+    "Room-adaptive warmth",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "beautyrest-fleece-heated-blanket": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "heated blankets",
+   "attributes": [
+    "20 heat settings",
+    "Room-adaptive warmth"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "berkshire-intellisense-heated": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "heated blankets",
+   "attributes": [
+    "Room-adaptive warmth"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "biddeford-microplush-heated": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "10-hour auto-off",
+    "10 heat settings"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "biddeford-sherpa-heated-blanket": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "10-hour auto-off",
+    "10 heat settings"
+   ],
+   "cautions": []
+  },
+  "degrees-of-comfort-heated-pad": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "heated blankets",
+   "attributes": [
+    "Dual-side controllers",
+    "12-hour auto-off",
+    "Auto shut-off",
+    "12 heat settings"
+   ],
+   "cautions": []
+  },
+  "eddie-bauer-heated-fleece-blanket": {
+   "quality": 57,
+   "grade": "D",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "10-hour auto-off",
+    "Machine washable",
+    "6 heat settings"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "ll-bean-wicked-cozy-heated": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "10-hour auto-off",
+    "10 heat settings"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "perfect-fit-serta-heated-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "heated blankets",
+   "attributes": [
+    "Low-voltage DC",
+    "Undetectable wiring"
+   ],
+   "cautions": []
+  },
+  "perfect-fit-softheat-heated": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "heated blankets",
+   "attributes": [
+    "Low-voltage DC",
+    "Undetectable wiring"
+   ],
+   "cautions": []
+  },
+  "pure-enrichment-purerelief": {
+   "quality": 41,
+   "grade": "F",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "Machine washable",
+    "4 heat settings",
+    "2-hour auto-off"
+   ],
+   "cautions": []
+  },
+  "sunbeam-loftec-heated-blanket": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "heated blankets",
+   "attributes": [
+    "Room-adaptive warmth",
+    "12 heat settings"
+   ],
+   "cautions": []
+  },
+  "sunbeam-heated-mattress-pad": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "heated blankets",
+   "attributes": [
+    "Room-adaptive warmth",
+    "10 heat settings"
+   ],
+   "cautions": []
+  },
+  "sunbeam-royal-mink-heated": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "heated blankets",
+   "attributes": [
+    "Room-adaptive warmth",
+    "Auto shut-off",
+    "10-hour auto-off",
+    "10 heat settings"
+   ],
+   "cautions": []
+  },
+  "sunbeam-velvet-plush-heated": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "heated blankets",
+   "attributes": [
+    "Room-adaptive warmth",
+    "Auto shut-off",
+    "10-hour auto-off",
+    "12 heat settings"
+   ],
+   "cautions": []
+  },
+  "woolrich-heated-plush-to-berber": {
+   "quality": 43,
+   "grade": "F",
+   "peer": "heated blankets",
+   "attributes": [
+    "Auto shut-off",
+    "Machine washable",
+    "5 heat settings",
+    "2-hour auto-off"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-waterproof-mattress-protector": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "GOTS organic",
+    "Organic cotton",
+    "Fitted skirt",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "bear-mattress-protector": {
+   "quality": 39,
+   "grade": "F",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "bedgear-dri-tec-mattress-protector": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Moisture wicking",
+    "Machine washable",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "brooklyn-bedding-cooling-protector": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Phase-change material",
+    "Waterproof",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brooklyn-bedding-luxury-cooling-protector": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Phase-change material",
+    "Waterproof",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "casper-waterproof-mattress-protector": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Machine washable",
+    "Breathable",
+    "Noiseless"
+   ],
+   "cautions": []
+  },
+  "coop-home-goods-ultra-luxe-mattress-protector": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "defend-a-bed-premium-mattress-protector": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Machine washable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "ghostbed-premium-mattress-protector": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Membrane backing",
+    "Breathable",
+    "Noiseless"
+   ],
+   "cautions": []
+  },
+  "lucid-premium-mattress-protector": {
+   "quality": 59,
+   "grade": "D",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Bamboo viscose",
+    "Fitted skirt",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "luna-premium-mattress-protector": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Membrane backing",
+    "Breathable",
+    "Fitted skirt",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-cooling-protector": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Phase-change material",
+    "Waterproof",
+    "Temperature regulating",
+    "TENCEL lyocell",
+    "Fitted skirt",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "plushbeds-organic-mattress-protector": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "GOTS organic",
+    "Organic cotton",
+    "Membrane backing",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "purple-mattress-protector": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Temperature regulating",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "saatva-organic-mattress-pad": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "mattress protectors",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Fitted skirt",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "saatva-waterproof-mattress-protector": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "saferest-premium-mattress-protector": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "10-year",
+    "Membrane backing",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sleep-defense-premium-protector": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Full encasement",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "sleep-tite-smooth-mattress-protector": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "15-year",
+    "Waterproof",
+    "Breathable",
+    "Noiseless"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "sureguard-mattress-encasement": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Full encasement",
+    "Noiseless",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-protect-protector": {
+   "quality": 63,
+   "grade": "D",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-latex-topper": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Cotton",
+    "2\" profile"
+   ],
+   "cautions": []
+  },
+  "brooklyn-bedding-talalay-latex-topper": {
+   "quality": 51,
+   "grade": "F",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Breathable",
+    "3\" profile"
+   ],
+   "cautions": []
+  },
+  "brooklyn-bedding-dual-comfort-topper": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Organic cotton",
+    "Breathable",
+    "3\" profile",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "casper-foam-mattress-topper": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Pressure relief",
+    "Breathable",
+    "Open-cell / perforated",
+    "3\" profile"
+   ],
+   "cautions": []
+  },
+  "copperfresh-gel-memory-foam-topper": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Gel infused",
+    "Conductive infusion",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ghostbed-memory-foam-topper": {
+   "quality": 61,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Gel infused",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "layla-memory-foam-topper": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Pressure relief",
+    "Conductive infusion",
+    "2\" profile",
+    "120-night trial"
+   ],
+   "cautions": []
+  },
+  "linenspa-3-inch-gel-memory-foam-topper": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "CertiPUR-US foam",
+    "Gel infused",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "lucid-3-inch-gel-memory-foam-topper": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "CertiPUR-US foam",
+    "Breathable",
+    "Gel infused",
+    "Open-cell / perforated",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "nolah-mattress-topper": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Temperature regulating",
+    "Memory foam",
+    "Pressure relief",
+    "CertiPUR-US foam",
+    "2\" profile"
+   ],
+   "cautions": []
+  },
+  "plushbeds-handmade-latex-topper": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Organic cotton",
+    "3\" profile",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "plushbeds-natural-latex-topper": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Organic cotton",
+    "GREENGUARD Gold",
+    "3\" profile",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "saatva-graphite-memory-foam-topper": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Phase-change material",
+    "Organic cotton",
+    "Memory foam",
+    "Conductive infusion",
+    "3\" profile",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "saatva-latex-mattress-topper": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Organic cotton",
+    "Breathable",
+    "Anchored fit",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sleep-innovations-dual-layer-topper": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "4\" profile",
+    "Pressure relief",
+    "Machine washable",
+    "Gel infused"
+   ],
+   "cautions": []
+  },
+  "subrtex-3-inch-gel-memory-foam-topper": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "CertiPUR-US foam",
+    "Breathable",
+    "Gel infused",
+    "Open-cell / perforated",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-adapt-topper": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Machine washable",
+    "3\" profile",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-topper-supreme": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Pressure relief",
+    "Machine washable",
+    "3\" profile"
+   ],
+   "cautions": []
+  },
+  "viscosoft-select-topper": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "Gel infused",
+    "Removable cover",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "zinus-3-inch-green-tea-topper": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Memory foam",
+    "CertiPUR-US foam",
+    "3\" profile"
+   ],
+   "cautions": []
+  },
+  "avocado-green-mattress": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "GREENGUARD Gold",
+    "Natural build",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "bear-elite-hybrid-mattress": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Coil / hybrid core",
+    "Edge support",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "beautyrest-black-mattress": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Coil / hybrid core",
+    "Temperature regulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "birch-natural-mattress": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Coil / hybrid core",
+    "GREENGUARD Gold",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "brooklyn-bedding-signature-hybrid": {
+   "quality": 45,
+   "grade": "F",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Firmness options",
+    "120-night trial"
+   ],
+   "cautions": []
+  },
+  "casper-original-mattress": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Spinal alignment",
+    "CertiPUR-US foam",
+    "Breathable",
+    "Open-cell / perforated"
+   ],
+   "cautions": []
+  },
+  "dreamcloud-premier-mattress": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Lifetime warranty",
+    "Coil / hybrid core",
+    "365-night trial",
+    "Memory foam",
+    "Gel infused"
+   ],
+   "cautions": []
+  },
+  "ghostbed-luxe-mattress": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "25-year",
+    "Latex core",
+    "Memory foam",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "helix-midnight-mattress": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "Tuned for side sleeping",
+    "100-night trial"
+   ],
+   "cautions": []
+  },
+  "leesa-original-mattress": {
+   "quality": 50,
+   "grade": "F",
+   "peer": "mattresses",
+   "attributes": [
+    "Pressure relief",
+    "Breathable",
+    "100-night trial"
+   ],
+   "cautions": []
+  },
+  "leesa-sapira-hybrid-mattress": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "100-night trial"
+   ],
+   "cautions": []
+  },
+  "nectar-memory-foam-mattress": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Lifetime warranty",
+    "365-night trial",
+    "CertiPUR-US foam",
+    "Memory foam",
+    "Gel infused",
+    "Sleep trial offered",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "nolah-evolution-mattress": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Lifetime warranty",
+    "Coil / hybrid core",
+    "Edge support",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "purple-original-mattress": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Elastic polymer grid",
+    "Temperature regulating",
+    "Motion isolation"
+   ],
+   "cautions": []
+  },
+  "saatva-classic-mattress": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Spinal alignment",
+    "Coil / hybrid core",
+    "Firmness options"
+   ],
+   "cautions": []
+  },
+  "sealy-posturepedic-plus-mattress": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Coil / hybrid core",
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "serta-perfect-sleeper-mattress": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Memory foam",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-adapt-mattress": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "10-year",
+    "Memory foam",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "winkbed-mattress": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Lifetime warranty",
+    "Zoned support",
+    "Spinal alignment",
+    "Coil / hybrid core",
+    "Breathable",
+    "Edge support"
+   ],
+   "cautions": []
+  },
+  "aller-ease-organic-cotton-pillowcase": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Waterproof barrier",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "allerease-ultimate-pillow-protector": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Zippered encasement",
+    "Dust-mite barrier",
+    "Removable cover",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "blissy-silk-pillowcase": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Mulberry silk",
+    "22 momme",
+    "Temperature regulating"
+   ],
+   "cautions": []
+  },
+  "boll-branch-signature-pillowcase-set": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Organic cotton",
+    "Fair Trade",
+    "Cotton",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-pillowcases": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "480 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "casper-hyperlite-pillowcases": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "coyuchi-organic-crinkled-percale-pillowcases": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Percale weave",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "cozy-earth-silk-pillowcase": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Mulberry silk",
+    "22 momme",
+    "Temperature regulating"
+   ],
+   "cautions": []
+  },
+  "cozy-earth-bamboo-pillowcase": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Temperature regulating",
+    "10-year",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "cultiver-linen-pillowcases": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-pillowcase": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-lyocell-pillowcase-set": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "hospitality-collection-pillow-protector": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Zippered encasement",
+    "Waterproof barrier",
+    "Removable cover",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "linenspa-zippered-pillow-protector": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Zippered encasement",
+    "Dust-mite barrier",
+    "Waterproof barrier",
+    "Machine washable",
+    "Noiseless membrane",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "parachute-percale-pillowcases": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "parachute-sateen-pillowcases": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "saferest-premium-pillow-protector": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Zippered encasement",
+    "Dust-mite barrier",
+    "Waterproof barrier",
+    "Noiseless membrane",
+    "Removable cover",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sureguard-pillow-protector": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Zippered encasement",
+    "Dust-mite barrier",
+    "Waterproof barrier",
+    "Breathable",
+    "Noiseless membrane",
+    "Removable cover",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-green-pillow": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "GOTS organic",
+    "Organic cotton",
+    "GREENGUARD Gold",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "beckham-hotel-collection-pillow": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "pillows",
+   "attributes": [
+    "Holds loft overnight",
+    "Gel / synthetic fibre fill"
+   ],
+   "cautions": []
+  },
+  "brentwood-home-helena-pillow": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Latex fill",
+    "GOTS organic",
+    "Organic cotton",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "coop-home-goods-eden-pillow": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Side-sleeper loft",
+    "Memory foam",
+    "Machine washable",
+    "Gel infused",
+    "Hypoallergenic"
+   ],
+   "cautions": []
+  },
+  "down-feather-co-original-pillow": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "Cotton",
+    "400 TC",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "hullo-buckwheat-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Natural hull / kapok",
+    "Breathable",
+    "Open-cell / perforated"
+   ],
+   "cautions": []
+  },
+  "layla-kapok-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Natural hull / kapok",
+    "Memory foam",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "leesa-hybrid-pillow": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Memory foam",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-easy-breather-pillow": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Shredded fill",
+    "CertiPUR-US foam",
+    "TENCEL lyocell",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "parachute-down-pillow": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "purple-harmony-pillow": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "Temperature regulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "purple-harmony-standard-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "Cervical contour",
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "saatva-latex-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "Organic cotton",
+    "Breathable",
+    "Hypoallergenic",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "serta-arctic-cool-pillow": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Memory foam",
+    "Breathable",
+    "Gel infused",
+    "Open-cell / perforated",
+    "Removable cover",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sleep-number-comfortfit-pillow": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "Side-sleeper loft",
+    "Gel / synthetic fibre fill"
+   ],
+   "cautions": []
+  },
+  "sleepgram-adjustable-pillow": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Machine washable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "tempur-pedic-tempur-cloud-pillow": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "Memory foam",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-neck-pillow": {
+   "quality": 63,
+   "grade": "D",
+   "peer": "pillows",
+   "attributes": [
+    "Cervical contour",
+    "Memory foam"
+   ],
+   "cautions": []
+  },
+  "boll-and-branch-signature-sheets": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "Fair Trade",
+    "Cotton",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-core-sheet-set": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Washed / softening finish",
+    "480 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "buffy-eucalyptus-sheets": {
+   "quality": 39,
+   "grade": "F",
+   "peer": "sheets",
+   "attributes": [
+    "TENCEL lyocell",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "casper-hyperlite-sheets": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "cozy-earth-bamboo-sheet-set": {
+   "quality": 59,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "10-year",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-lyocell-sheets": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Bamboo viscose",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "garnet-hill-hemstitched-supima-sheets": {
+   "quality": 72,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "linen-house-flannelette-sheet-set": {
+   "quality": 59,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Linen",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "matouk-nocturne-sateen-sheet-set": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "500 TC",
+    "Cotton",
+    "Sateen weave",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "nolah-bamboo-sheets": {
+   "quality": 59,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Breathable",
+    "Bamboo viscose",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "parachute-percale-sheet-set": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "purple-premium-bamboo-sheet-set": {
+   "quality": 64,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Moisture wicking",
+    "Breathable",
+    "Bamboo viscose",
+    "Deep-pocket fit"
+   ],
+   "cautions": []
+  },
+  "quince-organic-percale-sheet-set": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "Percale weave",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "riley-home-sateen-sheet-set": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Cotton",
+    "Sateen weave",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "saatva-organic-sateen-sheets": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Fair Trade",
+    "Cotton",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "sferra-celeste-percale-sheet-set": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "406 TC"
+   ],
+   "cautions": []
+  },
+  "sunday-citizen-snug-sheet-set": {
+   "quality": 64,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "Bamboo viscose",
+    "Deep-pocket fit"
+   ],
+   "cautions": []
+  },
+  "target-threshold-performance-sheet-set": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-percale-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Percale weave",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "1more-comfobuds-mini-sleep": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Ultra-slim profile",
+    "Built for side sleeping",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "acousticsheep-sleepphones": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Ultra-slim profile",
+    "Built for side sleeping",
+    "Headband form",
+    "Machine washable",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "amazfit-zenbuds": {
+   "quality": 51,
+   "grade": "F",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Fades out when you fall asleep",
+    "Personal alarm",
+    "12-hour battery"
+   ],
+   "cautions": []
+  },
+  "amazfit-zenbuds-pro": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Noise masking",
+    "Built for side sleeping",
+    "Fit options"
+   ],
+   "cautions": []
+  },
+  "anker-soundcore-sleep-a20": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Ultra-slim profile",
+    "Noise masking",
+    "Built for side sleeping"
+   ],
+   "cautions": []
+  },
+  "bose-sleepbuds-ii-headphones": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Ultra-slim profile",
+    "Noise masking",
+    "Works without a phone",
+    "Personal alarm",
+    "Wireless",
+    "10-hour battery"
+   ],
+   "cautions": []
+  },
+  "cozyphones-sleep-headphones": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Headband form",
+    "Machine washable",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "jabra-elite-10-sleep": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Open-ear / bone conduction",
+    "Built for side sleeping"
+   ],
+   "cautions": []
+  },
+  "jbl-tune-flex-ghost-sleep": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Open-ear / bone conduction"
+   ],
+   "cautions": []
+  },
+  "kokoon-nightbuds": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Ultra-slim profile",
+    "Noise masking",
+    "Built for side sleeping",
+    "Fades out when you fall asleep",
+    "Fit options"
+   ],
+   "cautions": []
+  },
+  "nothing-ear-a-sleep": {
+   "quality": 49,
+   "grade": "F",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "perytong-sleep-headband": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Ultra-slim profile",
+    "Built for side sleeping",
+    "Headband form",
+    "Wireless",
+    "10-hour battery"
+   ],
+   "cautions": []
+  },
+  "philips-sleep-headphones-n7808": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Clinically proven",
+    "Ultra-slim profile",
+    "Built for side sleeping",
+    "Personal alarm"
+   ],
+   "cautions": []
+  },
+  "philips-taa6709-sleep-sport": {
+   "quality": 56,
+   "grade": "D",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Open-ear / bone conduction",
+    "Neckband form"
+   ],
+   "cautions": []
+  },
+  "quieton-3-1-sleep-earbuds": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Ultra-slim profile",
+    "Targets snoring",
+    "28-hour battery",
+    "Works without a phone"
+   ],
+   "cautions": []
+  },
+  "samsung-galaxy-buds-fe-sleep": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Built for side sleeping"
+   ],
+   "cautions": []
+  },
+  "shokz-openfit-air-sleep": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Open-ear / bone conduction",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "sony-wf-1000xm5-sleep": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "sleep headphones",
+   "attributes": [
+    "Active noise cancelling",
+    "Ultra-slim profile",
+    "Wireless"
+   ],
+   "cautions": []
+  },
+  "alaska-bear-silk-sleep-mask": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "sleep masks",
+   "attributes": [
+    "Total blackout",
+    "Mulberry silk",
+    "Breathable",
+    "Adjustable strap"
+   ],
+   "cautions": []
+  },
+  "bedtime-bliss-contoured-mask": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sleep masks",
+   "attributes": [
+    "Contoured eye cups",
+    "Nose-bridge seal",
+    "Adjustable strap",
+    "Travel case"
+   ],
+   "cautions": []
+  },
+  "brooklinen-mulberry-silk-mask": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "sleep masks",
+   "attributes": [
+    "Mulberry silk",
+    "Temperature regulating",
+    "Adjustable strap",
+    "19 momme"
+   ],
+   "cautions": []
+  },
+  "dream-essentials-sweet-dreams-mask": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "sleep masks",
+   "attributes": [
+    "Contoured eye cups",
+    "Travel case"
+   ],
+   "cautions": []
+  },
+  "drowsy-silk-sleep-mask": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "sleep masks",
+   "attributes": [
+    "Total blackout",
+    "Mulberry silk",
+    "22 momme",
+    "Nose-bridge seal"
+   ],
+   "cautions": []
+  },
+  "lewis-n-clark-comfort-mask": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sleep masks",
+   "attributes": [
+    "Contoured eye cups",
+    "Nose-bridge seal",
+    "Adjustable strap",
+    "Travel case"
+   ],
+   "cautions": []
+  },
+  "lunya-washable-silk-mask": {
+   "quality": 94,
+   "grade": "A",
+   "peer": "sleep masks",
+   "attributes": [
+    "Total blackout",
+    "Contoured eye cups",
+    "Mulberry silk",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "mavogel-cotton-sleep-mask": {
+   "quality": 59,
+   "grade": "D",
+   "peer": "sleep masks",
+   "attributes": [
+    "Nose-bridge seal",
+    "Breathable",
+    "Side-sleep friendly",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sleep-monkey-luxury-mask": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "sleep masks",
+   "attributes": [
+    "Total blackout",
+    "Contoured eye cups",
+    "Nose-bridge seal",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "amazon-halo-rise-bedside-sleep-tracker": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Programmable schedule"
+   ],
+   "cautions": []
+  },
+  "apple-watch-series-10-sleep": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV",
+    "Programmable schedule",
+    "Vibration wake-up"
+   ],
+   "cautions": []
+  },
+  "beautyrest-sleeptracker-monitor": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV",
+    "Learns and auto-adjusts"
+   ],
+   "cautions": []
+  },
+  "beddit-35-sleep-monitor": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV"
+   ],
+   "cautions": []
+  },
+  "bedjet-3-climate-system": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Dual-zone control",
+    "Learns and auto-adjusts",
+    "Forced air",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "chilisleep-ooler-system": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "55°F range",
+    "Water-circulating",
+    "Temperature regulating",
+    "Programmable schedule",
+    "Quiet operation",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "eight-sleep-pod-4": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Dual-zone control",
+    "55°F range",
+    "Sleep-stage tracking",
+    "Heart rate / HRV",
+    "Learns and auto-adjusts",
+    "Temperature regulating"
+   ],
+   "cautions": []
+  },
+  "eight-sleep-pod-4-ultra": {
+   "quality": 39,
+   "grade": "F",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Snore detection",
+    "Vibration wake-up",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "garmin-venu-3-sleep-coach": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV"
+   ],
+   "cautions": []
+  },
+  "google-nest-hub-2nd-gen-sleep-sensing": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Programmable schedule"
+   ],
+   "cautions": []
+  },
+  "mili-sleep-dot": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV"
+   ],
+   "cautions": []
+  },
+  "perfectly-snug-smart-topper": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Dual-zone control",
+    "Learns and auto-adjusts",
+    "Temperature regulating"
+   ],
+   "cautions": []
+  },
+  "polar-ignite-3-sleep-plus-stages": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV"
+   ],
+   "cautions": []
+  },
+  "sleep-number-360-smart-bed-p6": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV"
+   ],
+   "cautions": []
+  },
+  "sleepme-dock-pro": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "55°F range",
+    "Sleep-stage tracking",
+    "Water-circulating",
+    "Learns and auto-adjusts",
+    "Temperature regulating",
+    "Programmable schedule",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-ergo-extend-smart-base": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Heart rate / HRV",
+    "Learns and auto-adjusts",
+    "Snore detection"
+   ],
+   "cautions": []
+  },
+  "tempur-pedic-tempur-ergo-smart-base": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Learns and auto-adjusts",
+    "Snore detection"
+   ],
+   "cautions": []
+  },
+  "withings-sleep-tracking-mat": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "smart mattress covers",
+   "attributes": [
+    "Sleep-stage tracking",
+    "Heart rate / HRV",
+    "Snore detection"
+   ],
+   "cautions": []
+  },
+  "10minds-motion-pillow-2": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "smart pillows",
+   "attributes": [
+    "Snore response",
+    "Machine washable"
+   ],
+   "cautions": []
+  },
+  "derila-memory-foam-cervical-pillow": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Cervical contour",
+    "Foam / latex fill",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "dosaze-contoured-orthopedic-pillow": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Cervical contour",
+    "Foam / latex fill",
+    "Breathable",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "elviros-cervical-pillow": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Cervical contour",
+    "Foam / latex fill",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "moona-smart-pillow-pad": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "smart pillows",
+   "attributes": [
+    "Sleep tracking",
+    "Gentle wake-up",
+    "App",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "pluto-puff-adjustable-pillow": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Machine washable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "sleep8-cpap-pillow-cleaner": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Cervical contour",
+    "Foam / latex fill",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "spinealign-luxury-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Foam / latex fill",
+    "CertiPUR-US foam"
+   ],
+   "cautions": []
+  },
+  "technogel-sleeping-contour-pillow": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "smart pillows",
+   "attributes": [
+    "Cervical contour",
+    "Temperature regulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "uttu-sandwich-pillow-adjustable": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Cervical contour",
+    "Foam / latex fill",
+    "OEKO-TEX",
+    "CertiPUR-US foam"
+   ],
+   "cautions": []
+  },
+  "zamat-adjustable-cervical-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Adjustable loft",
+    "Cervical contour",
+    "Foam / latex fill",
+    "CertiPUR-US foam"
+   ],
+   "cautions": []
+  },
+  "zamat-butterfly-memory-foam-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "smart pillows",
+   "attributes": [
+    "Cervical contour",
+    "Foam / latex fill",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "zerema-smart-pillow": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "smart pillows",
+   "attributes": [
+    "Cervical contour",
+    "App"
+   ],
+   "cautions": []
+  },
+  "casper-glow-light": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "Colour-tuned light",
+    "Portable"
+   ],
+   "cautions": []
+  },
+  "coulax-wake-up-light": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "Colour-tuned light",
+    "Wake sounds",
+    "20 levels"
+   ],
+   "cautions": []
+  },
+  "dekala-sunrise-alarm-clock": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "Wind-down content",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "emerson-smartset-sunrise-clock": {
+   "quality": 42,
+   "grade": "F",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down"
+   ],
+   "cautions": []
+  },
+  "hatch-restore-original": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Wind-down content",
+    "App / routines"
+   ],
+   "cautions": []
+  },
+  "hatch-restore-2-alarm": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "App / routines",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "ihome-zenergy-sunrise-clock": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Wind-down content",
+    "Ambient light"
+   ],
+   "cautions": []
+  },
+  "jall-sunrise-alarm-clock": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Gradual sunrise",
+    "Colour-tuned light",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "la-crosse-soluna-alarm": {
+   "quality": 42,
+   "grade": "F",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down"
+   ],
+   "cautions": []
+  },
+  "lbell-wake-up-light": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Colour-tuned light",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "loftie-alarm-clock": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Two-phase alarm",
+    "Wind-down content",
+    "Replaces the phone"
+   ],
+   "cautions": []
+  },
+  "lumie-bodyclock-shine-300": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "30-min sunrise",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "mosche-sunrise-alarm-clock": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Gradual sunrise",
+    "30-min sunrise",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "philips-connected-hf3670": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "Bedroom environment sensing",
+    "App / routines"
+   ],
+   "cautions": []
+  },
+  "philips-smartsleep-hf3500": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Gradual sunrise",
+    "30-min sunrise"
+   ],
+   "cautions": []
+  },
+  "philips-smartsleep-hf3520": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Clinically proven",
+    "Gradual sunrise",
+    "Colour-tuned light",
+    "30-min sunrise",
+    "Wake sounds"
+   ],
+   "cautions": []
+  },
+  "sangean-rcr-22-sunrise-clock": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Gradual sunrise",
+    "Ambient light"
+   ],
+   "cautions": []
+  },
+  "totalcomfort-wake-light": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "sunrise alarm clocks",
+   "attributes": [
+    "Sunset / wind-down",
+    "Colour-tuned light"
+   ],
+   "cautions": []
+  },
+  "amy-garden-weighted-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Glass micro-beads",
+    "Breathable",
+    "25 lb",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "baloo-living-weighted-blanket": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "OEKO-TEX",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "baloo-removable-cover-weighted": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Linen",
+    "OEKO-TEX",
+    "Reversible / seasonal sides",
+    "Removable cover",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "bearaby-cotton-napper": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Organic cotton",
+    "Weight guidance",
+    "Breathable",
+    "25 lb",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-weighted-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Glass micro-beads",
+    "Breathable",
+    "Removable cover",
+    "20 lb",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "casper-humidity-fighting-weighted": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "gravity-cooling-weighted-blanket": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Temperature regulating",
+    "Moisture wicking",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "gravity-blanket-original": {
+   "quality": 64,
+   "grade": "D",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "25 lb",
+    "Removable cover"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "hush-iced-2-weighted-blanket": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Moisture wicking",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "luna-weighted-blanket": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Glass micro-beads",
+    "OEKO-TEX",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "luna-kids-weighted-blanket": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "OEKO-TEX",
+    "Cooling claim",
+    "Cotton",
+    "7 lb"
+   ],
+   "cautions": []
+  },
+  "quility-kids-weighted-blanket": {
+   "quality": 52,
+   "grade": "F",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Removable cover",
+    "10 lb"
+   ],
+   "cautions": []
+  },
+  "quility-weighted-blanket": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Weight guidance",
+    "30 lb",
+    "Removable cover"
+   ],
+   "cautions": []
+  },
+  "sleep-beyond-organic-weighted": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "GOTS organic",
+    "Wool / merino",
+    "Temperature regulating",
+    "Organic cotton",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "therapedic-weighted-blanket": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Reversible / seasonal sides",
+    "Cooling claim",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ynm-cooling-weighted-blanket": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Glass micro-beads",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ynm-knitted-weighted-blanket": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Machine washable",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "ynm-weighted-blanket": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "Glass micro-beads",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "zonli-cooling-weighted-blanket": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Glass micro-beads",
+    "Moisture wicking",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ast-sound-sleep-mini": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "white noise machines",
+   "attributes": [
+    "Adaptive to room noise",
+    "Portable",
+    "App control",
+    "11 sounds"
+   ],
+   "cautions": []
+  },
+  "avantek-s3-upgraded-machine": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "white noise machines",
+   "attributes": [
+    "Non-looping audio",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "avantek-white-noise-machine": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "white noise machines",
+   "attributes": [
+    "Non-looping audio",
+    "Multiple noise colours",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "big-red-rooster-sound-machine": {
+   "quality": 39,
+   "grade": "F",
+   "peer": "white noise machines",
+   "attributes": [
+    "Portable",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "dreamegg-d1-sound-machine": {
+   "quality": 52,
+   "grade": "F",
+   "peer": "white noise machines",
+   "attributes": [
+    "Portable",
+    "Sleep timer",
+    "Night light"
+   ],
+   "cautions": []
+  },
+  "hatch-rest-plus-2nd-gen": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "white noise machines",
+   "attributes": [
+    "App control",
+    "Night light",
+    "Nursery friendly"
+   ],
+   "cautions": []
+  },
+  "hatch-restore-2": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "white noise machines",
+   "attributes": [
+    "Wind-down routines",
+    "App control",
+    "Night light"
+   ],
+   "cautions": []
+  },
+  "homedics-soundsleep-machine": {
+   "quality": 39,
+   "grade": "F",
+   "peer": "white noise machines",
+   "attributes": [
+    "Portable",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "housbay-brown-noise-machine": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "white noise machines",
+   "attributes": [
+    "Multiple noise colours",
+    "31 sounds"
+   ],
+   "cautions": []
+  },
+  "kidonfly-portable-sound-machine": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "white noise machines",
+   "attributes": [
+    "Portable",
+    "Sleep timer",
+    "26 sounds",
+    "Night light"
+   ],
+   "cautions": []
+  },
+  "lectrofan-evo-white-noise": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "white noise machines",
+   "attributes": [
+    "Non-looping audio",
+    "Multiple noise colours",
+    "Portable",
+    "Volume control",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "magicteam-sound-machine": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "white noise machines",
+   "attributes": [
+    "Non-looping audio",
+    "Volume control",
+    "Sleep timer"
+   ],
+   "cautions": []
+  },
+  "munchkin-sound-asleep-machine": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "white noise machines",
+   "attributes": [
+    "Volume control",
+    "Sleep timer",
+    "Nursery friendly"
+   ],
+   "cautions": []
+  },
+  "snooz-white-noise-machine": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "white noise machines",
+   "attributes": [
+    "Real fan (mechanical sound)",
+    "Tone control",
+    "App control",
+    "Fan sound without draft",
+    "Night light",
+    "Nursery friendly"
+   ],
+   "cautions": []
+  },
+  "sound-sleep-se-machine": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "white noise machines",
+   "attributes": [
+    "Adaptive to room noise",
+    "64 sounds"
+   ],
+   "cautions": []
+  },
+  "yogasleep-dohm-classic": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "white noise machines",
+   "attributes": [
+    "Non-looping audio",
+    "Real fan (mechanical sound)",
+    "Tone control"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-comforter": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Recycled content",
+    "200 GSM"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-pillow-protector": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Waterproof barrier",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "ettitude-bamboo-sateen-eye-mask": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "sleep masks",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "brooklinen-breezeweave-reversible-cotton-comforter": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "OEKO-TEX",
+    "Stated warmth level",
+    "Machine washable",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-breezeweave-reversible-cotton-sham-set": {
+   "quality": 52,
+   "grade": "F",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Machine washable",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-brushed-flannel-core-sheet-set": {
+   "quality": 62,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "140 GSM"
+   ],
+   "cautions": []
+  },
+  "ettitude-cleanbamboo-mattress-protector": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Membrane backing",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "brooklinen-down-alternative-comforter": {
+   "quality": 82,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Long-staple cotton",
+    "Baffle-box construction",
+    "Down alternative",
+    "Cotton",
+    "Sateen weave",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "brooklinen-down-alternative-pillow": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Long-staple cotton",
+    "Down / feather",
+    "OEKO-TEX",
+    "Hypoallergenic",
+    "Gel / synthetic fibre fill",
+    "Cotton",
+    "Sateen weave",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "ettitude-linen-bamboo-pillowcase-set": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ettitude-linen-bamboo-quilted-coverlet": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "blankets",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ettitude-linen-bamboo-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "ettitude-luxe-bamboo-fitted-sheet": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "FSC wood",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-luxe-bamboo-flat-sheet": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "FSC wood",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-luxe-bamboo-pillowcase-set": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "FSC wood",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-luxe-bamboo-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "FSC wood",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-core-sheet-set": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "495 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-duvet-set": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "495 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-signature-bamboo-fitted-sheet": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "Deep-pocket fit"
+   ],
+   "cautions": []
+  },
+  "ettitude-signature-bamboo-flat-sheet": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-classic-percale-comforter": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Percale weave",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-washed-classic-percale-core-sheet-set": {
+   "quality": 97,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-classic-percale-sham-set": {
+   "quality": 98,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-washed-european-linen-core-sheet-set": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Washed / softening finish"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-european-linen-duvet-cover": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-european-linen-fitted-sheet": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Washed / softening finish"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-european-linen-pillowcase-set": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-european-linen-quilt": {
+   "quality": 100,
+   "grade": "A",
+   "peer": "blankets",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "All-season weight",
+    "Percale weave",
+    "Cotton",
+    "Layerable",
+    "150 GSM",
+    "200 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-washed-european-linen-quilted-sham-set": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cotton",
+    "150 GSM",
+    "200 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "sijo-aerochill-cooling-comforter": {
+   "quality": 57,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Stated warmth level",
+    "Machine washable",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-core-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-down-alternative-mattress-topper": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Down / down-alternative",
+    "Anchored fit",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-heathered-cashmere-core-sheet-set": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-heritage-wool-bed-blanket": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "OEKO-TEX",
+    "385 GSM"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-fitted-sheet": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "495 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-pillowcase-set": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "495 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-organic-cotton-pillowcase-set-last-call": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cotton",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-classic-percale-duvet-set": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-cooling-eucalyptus-comforter": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Stated warmth level",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-fitted-sheet": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-mattress-protector": {
+   "quality": 96,
+   "grade": "A",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Membrane backing",
+    "Breathable",
+    "Noiseless",
+    "Fitted skirt",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "sijo-airyweight-eucalyptus-no-flat-sheet-set-refresh": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-pillowcase-set": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Temperature regulating",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim",
+    "Cotton",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-sheet-set": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-bamboo-viscose-duvet-cover-set-refresh": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Considered closure",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Sateen weave",
+    "300 TC",
+    "145 GSM"
+   ],
+   "cautions": []
+  },
+  "brooklinen-brushed-flannel-duvet-cover": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "140 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-butterydrape-bamboo-duvet-cover": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Considered closure",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Sateen weave",
+    "300 TC",
+    "145 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-butterydrape-bamboo-sheet-set": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Sateen weave",
+    "Deep-pocket fit",
+    "300 TC",
+    "145 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-crispcool-cotton-sheet-set-final-sale": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "parachute-eco-mattress": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "10-year",
+    "Natural build",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "sijo-eucalyptus-bed-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Long-staple cotton",
+    "Temperature regulating",
+    "TENCEL lyocell",
+    "Breathable",
+    "Structured weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sijo-eucalyptus-throw-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Long-staple cotton",
+    "Temperature regulating",
+    "TENCEL lyocell",
+    "Breathable",
+    "Structured weave",
+    "Cooling claim",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "sijo-flexcool-memory-foam-pillow": {
+   "quality": 84,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Shredded fill",
+    "Temperature regulating",
+    "Memory foam",
+    "Gel / synthetic fibre fill",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "ettitude-linen-bamboo-duvet-cover": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-duvet-cover": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "495 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-signature-bamboo-duvet-cover": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-signature-bamboo-pillowcase-set": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "ettitude-textured-waffle-throw-blanket": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Structured weave",
+    "Bamboo viscose",
+    "FSC wood",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "ettitude-vegan-cashmere-throw-blanket": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Cashmere / alpaca",
+    "Layerable",
+    "250 GSM"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-european-linen-lumbar-pillow-cover": {
+   "quality": 68,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Linen",
+    "OEKO-TEX",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-woven-checkerboard-duvet-set": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Linen",
+    "Stated warmth level",
+    "Percale weave",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-duvet-cover": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-airyweight-eucalyptus-flat-sheet": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Cooling claim",
+    "Cotton",
+    "130 GSM"
+   ],
+   "cautions": []
+  },
+  "brooklinen-bigtime-throw-blanket": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-brushed-flannel-pillowcase-set": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "140 GSM"
+   ],
+   "cautions": []
+  },
+  "sijo-butterydrape-bamboo-pillowcase-set": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Sateen weave",
+    "300 TC",
+    "145 GSM"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-split-king-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-cloudsupport-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "OEKO-TEX",
+    "Breathable",
+    "Open-cell / perforated",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "sijo-crispcool-cotton-duvet-cover-final-sale": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Considered closure",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-free-silk-eyemask": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "sleep masks",
+   "attributes": [
+    "Mulberry silk",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brooklinen-heathered-cashmere-duvet-set": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Stated warmth level",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-heathered-cashmere-pillowcase-set": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sijo-luxesoft-cotton-duvet-cover": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-luxesoft-cotton-pillowcase-set": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-luxesoft-cotton-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-duvet-cover": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Considered closure",
+    "Washed finish"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-no-flat-sheet-set-refresh": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-pillowcase-set": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit"
+   ],
+   "cautions": []
+  },
+  "ettitude-signature-bamboo-sheet-set": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "OEKO-TEX",
+    "TENCEL lyocell",
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-woven-checkerboard-duvet-cover": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Percale weave",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-breezeweave-cotton-gingham-bed-blanket-last-call": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-pillowcase-set": {
+   "quality": 98,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-crispcool-cotton-fitted-sheet-final-sale": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-crispcool-cotton-pillowcase-set": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-feather-lumbar-pillow-insert": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-feather-square-pillow-insert": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "OEKO-TEX",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "sijo-fluffbase-eucalyptus-pillow": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Down / feather",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Breathable",
+    "Hypoallergenic",
+    "Gel / synthetic fibre fill",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-grid-knit-cotton-throw-blanket-last-call": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-flat-sheet": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "sijo-luxeweave-linen-sham-set": {
+   "quality": 75,
+   "grade": "C",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-multi-stripe-knit-throw": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-seersucker-classic-percale-sham-set": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-sunwashed-stripe-duvet-cover": {
+   "quality": 64,
+   "grade": "D",
+   "peer": "duvet covers",
+   "attributes": [
+    "Percale weave",
+    "Washed finish",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-classic-percale-duvet-cover": {
+   "quality": 96,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Washed finish",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-classic-percale-pillowcase-set": {
+   "quality": 98,
+   "grade": "A",
+   "peer": "pillow protectors & cases",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-basketweave-alpaca-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Cashmere / alpaca",
+    "Structured weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-duvet-cover": {
+   "quality": 91,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-fitted-sheet": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "sijo-crispcool-cotton-flat-sheet-final-sale": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "GOTS organic",
+    "Organic cotton",
+    "OEKO-TEX",
+    "Breathable",
+    "Percale weave",
+    "Washed / softening finish",
+    "Cooling claim",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-dreamweave-waffle-bed-blanket": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Temperature regulating",
+    "Breathable",
+    "Structured weave",
+    "Cooling claim",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-dreamweave-waffle-throw-blanket": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Breathable",
+    "Structured weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "casper-element-mattress": {
+   "quality": 69,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Memory foam",
+    "Breathable",
+    "Open-cell / perforated"
+   ],
+   "cautions": []
+  },
+  "brooklinen-heathered-cashmere-duvet-cover": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "duvet covers",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-micro-waffle-duvet-cover": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Breathable",
+    "Considered closure",
+    "Washed finish",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-mulberry-silk-eyemask": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "sleep masks",
+   "attributes": [
+    "Mulberry silk",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "casper-original-hybrid-mattress": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Spinal alignment",
+    "Coil / hybrid core",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-pop-check-throw-blanket": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-prism-alpaca-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Cashmere / alpaca",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-seersucker-classic-percale-duvet-cover": {
+   "quality": 46,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "OEKO-TEX",
+    "Percale weave",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "brooklinen-washed-velvet-quilt": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Percale weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "brooklinen-chunky-waffle-knit-throw-blanket": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Structured weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-cozy-ribbed-quilt-last-call": {
+   "quality": 67,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "parachute-organic-cloud-cotton-duvet-cover": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-ribbed-matelasse-quilt": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "sijo-temptune-cooling-mattress-pad": {
+   "quality": 96,
+   "grade": "A",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "OEKO-TEX",
+    "Moisture wicking",
+    "TENCEL lyocell",
+    "Noiseless",
+    "Fitted skirt",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "brooklinen-luxe-sateen-flat-sheet": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "480 TC",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "brooklinen-pure-wool-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-10-kids-cooling-cotton-waterproof-mattress-protector": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-18-cooling-cotton-waterproof-mattress-protector": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-18-wool-and-cotton-mattress-protector": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Wool / merino",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "casper-adjustable-base-max": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Massage"
+   ],
+   "cautions": []
+  },
+  "casper-adjustable-base-pro": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Zero-gravity preset",
+    "Massage"
+   ],
+   "cautions": []
+  },
+  "avocado-alpaca-duvet-insert": {
+   "quality": 95,
+   "grade": "A",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "GOTS organic",
+    "Linen",
+    "Temperature regulating",
+    "Organic cotton",
+    "Cashmere / alpaca",
+    "Stated warmth level",
+    "Breathable",
+    "Percale weave",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-alpaca-equestrian-stripe-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-alpaca-lattice-oversized-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "avocado-alpaca-wool-mattress-toppers": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattress toppers",
+   "attributes": [
+    "GOTS organic",
+    "Wool / merino",
+    "Temperature regulating",
+    "Organic cotton",
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-alpaca-wool-throws": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Cashmere / alpaca",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-aran-knit-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-foundation-with-legs": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Tool-free joinery",
+    "Slat support"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-green-ultra-plush-mattress": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "OEKO-TEX",
+    "GREENGUARD Gold",
+    "MADE SAFE",
+    "Natural build",
+    "FSC wood"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-latex-mattress": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "Temperature regulating",
+    "Motion isolation",
+    "Moisture wicking",
+    "Breathable",
+    "Natural build",
+    "FSC wood",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-molded-latex-pillow": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "Cervical contour",
+    "GOTS organic",
+    "Organic cotton",
+    "Holds loft overnight",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-organic-pillow-with-natural-latex-and-kapok-fill": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Latex fill",
+    "GOTS organic",
+    "Organic cotton",
+    "Natural hull / kapok",
+    "Breathable",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-plus-adjustable-base": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Massage",
+    "Remote / app control"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-vegan-mattress": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "OEKO-TEX",
+    "Memory foam",
+    "MADE SAFE",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "avocado-avocado-wool-mattress": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Coil / hybrid core",
+    "Breathable",
+    "Cooling claim",
+    "Made in USA"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-bamboo-duvet-cover-set-shams": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "Breathable",
+    "Bamboo viscose"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-bamboo-lightweight-luxury-quilt-set": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Breathable",
+    "Bamboo viscose",
+    "Cooling claim",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-basketweave-knit-throw-blanket": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Organic cotton",
+    "Structured weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "parachute-basketweave-throw": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Structured weave",
+    "All-season weight",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-bed-blankets": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "blankets",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "Breathable",
+    "Structured weave",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "casper-bold-plaid-throw": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Wool / merino",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-breezeweave-crinkle-cotton-bed-blanket-last-call": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "blankets",
+   "attributes": [
+    "Machine washable",
+    "Breathable",
+    "Cooling claim",
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-breezeweave-crinkle-cotton-duvet-cover-last-call": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "duvet covers",
+   "attributes": [
+    "Machine washable",
+    "Breathable",
+    "Washed finish",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-bunkie-board": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Slat support"
+   ],
+   "cautions": []
+  },
+  "brooklinen-caroline-z-hurley-blockprint-quilt": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "blankets",
+   "attributes": [
+    "Cotton",
+    "Layerable"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-duvet-set": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Long-staple cotton",
+    "OEKO-TEX",
+    "Machine washable",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "brooklinen-classic-percale-flat-sheet": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Long-staple cotton",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton",
+    "270 TC"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-classic-percale-sheet-set": {
+   "quality": 44,
+   "grade": "F",
+   "peer": "sheets",
+   "attributes": [
+    "Breathable",
+    "Percale weave",
+    "200 TC"
+   ],
+   "cautions": []
+  },
+  "boll-branch-cloud-cover-mattress-topper": {
+   "quality": 50,
+   "grade": "F",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Wool / merino",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-cooling-percale-sheet-set": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Percale weave",
+    "Cooling claim",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-cooling-topper": {
+   "quality": 71,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Pressure relief",
+    "Breathable",
+    "Open-cell / perforated",
+    "Conductive infusion",
+    "Cooling claim",
+    "2\" profile"
+   ],
+   "cautions": []
+  },
+  "parachute-cotton-drift-comforter": {
+   "quality": 40,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Breathable",
+    "Cotton",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-crinkle-percale-organic-cotton-duvet-cover-set-shams-final-sale": {
+   "quality": 88,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Percale weave",
+    "Washed finish",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-deep-pocket-organic-cotton-sheets": {
+   "quality": 86,
+   "grade": "B",
+   "peer": "sheets",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Cotton",
+    "Sateen weave",
+    "Deep-pocket fit",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "boll-branch-down-alternative-body-pillow": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "body pillows",
+   "attributes": [
+    "Hip / knee alignment",
+    "Organic cotton",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "parachute-down-alternative-duvet-insert": {
+   "quality": 56,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Baffle-box construction",
+    "Down alternative",
+    "Sateen weave",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "boll-branch-down-alternative-duvet-insert": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Stated warmth level",
+    "Breathable",
+    "Down alternative"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-down-alternative-lightweight-duvet-insert": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Stated warmth level",
+    "Down alternative"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-down-alternative-mediumweight-duvet-insert": {
+   "quality": 48,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Stated warmth level",
+    "Down alternative"
+   ],
+   "cautions": []
+  },
+  "parachute-down-alternative-side-sleeper-pillow": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Wool / merino",
+    "Down / feather",
+    "Side-sleeper loft",
+    "Machine washable",
+    "Gel / synthetic fibre fill",
+    "Cotton",
+    "Sateen weave",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "boll-branch-down-chamber-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Organic cotton",
+    "Down / feather",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-down-duvet-insert": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Baffle-box construction",
+    "Organic cotton",
+    "Stated warmth level",
+    "Responsible Down",
+    "650 FP",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "avocado-down-mattress-topper": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Responsible Down",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-down-pillow": {
+   "quality": 77,
+   "grade": "C",
+   "peer": "pillows",
+   "attributes": [
+    "Organic cotton",
+    "Down / feather",
+    "Responsible Down",
+    "Cotton",
+    "650 FP",
+    "400 TC"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "parachute-down-side-sleeper-pillow": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Wool / merino",
+    "Down / feather",
+    "Side-sleeper loft",
+    "Machine washable",
+    "Breathable",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "casper-down-alt-duvet": {
+   "quality": 74,
+   "grade": "C",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Breathable",
+    "Cooling claim",
+    "Recycled content"
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "avocado-eco-adjustable-base": {
+   "quality": 69,
+   "grade": "C",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Steel frame",
+    "Massage"
+   ],
+   "cautions": []
+  },
+  "avocado-eco-bed-frame-with-adjustable-legs": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "GOTS organic"
+   ],
+   "cautions": []
+  },
+  "avocado-eco-organic-kids-mattress": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "OEKO-TEX",
+    "MADE SAFE",
+    "Breathable",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "avocado-eco-organic-mattress": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "OEKO-TEX",
+    "GREENGUARD Gold",
+    "MADE SAFE",
+    "Breathable",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "avocado-eco-organic-mattress-topper": {
+   "quality": 90,
+   "grade": "A",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "GOTS organic",
+    "Organic cotton",
+    "Pressure relief",
+    "OEKO-TEX",
+    "MADE SAFE",
+    "Sleep trial offered",
+    "Cotton",
+    "100-night trial"
+   ],
+   "cautions": []
+  },
+  "avocado-eco-plus-adjustable-base": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "adjustable bases",
+   "attributes": [
+    "Head + foot articulation",
+    "Anti-snore preset",
+    "Massage",
+    "Remote / app control",
+    "Under-bed lighting"
+   ],
+   "cautions": []
+  },
+  "boll-branch-elysian-cotton-cashmere-duvet-set": {
+   "quality": 53,
+   "grade": "F",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-elysian-cotton-cashmere-sheet-set": {
+   "quality": 60,
+   "grade": "D",
+   "peer": "sheets",
+   "attributes": [
+    "Cashmere / alpaca",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-extra-firm-mattress": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Spinal alignment",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "Natural build",
+    "Recycled content"
+   ],
+   "cautions": []
+  },
+  "boll-branch-flannel-duvet-set-heathered-fog-cream-fine-line-stripe": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-flannel-duvet-set-heathered-fog-cream-whipstitch": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-flannel-duvet-set-heathered-fog-cream-windowpane": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-flannel-duvet-set-heathered-fog-sand-cream-tartan": {
+   "quality": 55,
+   "grade": "D",
+   "peer": "duvets & comforters",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-fluted-cotton-velvet-duvet-cover": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "casper-foam-pillow-with-snow-technology": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Cervical contour",
+    "Temperature regulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "casper-foam-pillow-with-snow-technology-double-pack": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "pillows",
+   "attributes": [
+    "Cervical contour",
+    "Temperature regulating",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "avocado-grand-luxe-mattress-topper": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Latex",
+    "Wool / merino",
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "casper-hyperlite-duvet-cover": {
+   "quality": 54,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "TENCEL lyocell",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "avocado-kids-bed-frame": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood"
+   ],
+   "cautions": []
+  },
+  "parachute-linen-tencel-duvet-cover": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "TENCEL lyocell"
+   ],
+   "cautions": []
+  },
+  "avocado-luxury-organic-mattress": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Coil / hybrid core",
+    "Motion isolation"
+   ],
+   "cautions": []
+  },
+  "avocado-luxury-plush-foundation": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "GOTS organic"
+   ],
+   "cautions": []
+  },
+  "avocado-marin-wood-bed-frame": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Slat support",
+    "Veneer / engineered wood",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "boll-branch-mattress-protector": {
+   "quality": 51,
+   "grade": "F",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "casper-mattress-topper": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "mattress toppers",
+   "attributes": [
+    "Pressure relief",
+    "Breathable",
+    "2\" profile"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-metal-base": {
+   "quality": 57,
+   "grade": "D",
+   "peer": "platform beds",
+   "attributes": [
+    "Steel frame"
+   ],
+   "cautions": []
+  },
+  "avocado-metal-bed-frame": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Tool-free joinery",
+    "Squeak-free",
+    "Sustainably sourced"
+   ],
+   "cautions": []
+  },
+  "avocado-montecito-bed-frame": {
+   "quality": 83,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "boll-branch-mosaic-waffle-duvet-cover": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "avocado-natural-linen-duvet-cover": {
+   "quality": 78,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Linen",
+    "Cashmere / alpaca",
+    "MADE SAFE",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "avocado-natural-wood-bed-frame": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "platform beds",
+   "attributes": [
+    "Solid wood",
+    "Traditional joinery",
+    "Sustainably sourced"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-11-hybrid-mattress": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-13-pillow-top-hybrid-mattress": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Zoned support",
+    "Latex core",
+    "GOTS organic",
+    "Coil / hybrid core",
+    "Natural build"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-cotton-duvet-cover": {
+   "quality": 87,
+   "grade": "B",
+   "peer": "duvet covers",
+   "attributes": [
+    "GOTS organic",
+    "Organic cotton",
+    "Cashmere / alpaca",
+    "MADE SAFE",
+    "Cotton",
+    "400 TC"
+   ],
+   "cautions": []
+  },
+  "avocado-organic-latex-wedge-pillow": {
+   "quality": 93,
+   "grade": "A",
+   "peer": "bed wedge pillows",
+   "attributes": [
+    "Reflux / elevation",
+    "Breathing / snoring",
+    "GOTS organic",
+    "Organic cotton",
+    "Stated incline",
+    "Breathable",
+    "Cotton",
+    "7\""
+   ],
+   "cautions": [
+    "Synthetic fibre — runs warm"
+   ]
+  },
+  "avocado-organic-mattress-pad-protector": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattress protectors",
+   "attributes": [
+    "Waterproof",
+    "GOTS organic",
+    "Organic cotton",
+    "Breathable",
+    "Fitted skirt",
+    "Cooling claim",
+    "Cotton",
+    "Sateen weave",
+    "300 TC"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-owl-natural-latex-hybrid": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Motion isolation",
+    "Memory foam",
+    "Breathable",
+    "Natural build",
+    "Edge support"
+   ],
+   "cautions": []
+  },
+  "casper-percale-duvet-cover": {
+   "quality": 37,
+   "grade": "F",
+   "peer": "duvet covers",
+   "attributes": [
+    "Percale weave",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "parachute-percale-duvet-cover": {
+   "quality": 79,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "Percale weave",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "avocado-percale-organic-duvet-cover": {
+   "quality": 92,
+   "grade": "A",
+   "peer": "duvet covers",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "Breathable",
+    "Percale weave",
+    "Inner corner ties",
+    "Cooling claim",
+    "Cotton",
+    "200 TC"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-raven-flippable-hybrid": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Motion isolation",
+    "Memory foam",
+    "Breathable",
+    "Gel infused"
+   ],
+   "cautions": []
+  },
+  "brooklinen-ribbed-matelasse-duvet-cover-last-call": {
+   "quality": 76,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Machine washable",
+    "Considered closure",
+    "Percale weave",
+    "Cotton",
+    "200 TC"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-snooz-go-2-travel-white-noise-sound-machine": {
+   "quality": 61,
+   "grade": "D",
+   "peer": "white noise machines",
+   "attributes": [
+    "Portable",
+    "App control",
+    "Night light",
+    "12 sounds"
+   ],
+   "cautions": []
+  },
+  "casper-sateen-duvet-cover": {
+   "quality": 73,
+   "grade": "C",
+   "peer": "duvet covers",
+   "attributes": [
+    "Organic cotton",
+    "Cotton",
+    "Sateen weave"
+   ],
+   "cautions": []
+  },
+  "boll-branch-signature-body-pillowcase": {
+   "quality": 80,
+   "grade": "B",
+   "peer": "body pillows",
+   "attributes": [
+    "Long-staple cotton",
+    "Organic cotton",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-sparrow-signature-hybrid": {
+   "quality": 89,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Phase-change material",
+    "Coil / hybrid core",
+    "Temperature regulating",
+    "Motion isolation",
+    "Memory foam",
+    "Gel infused",
+    "Edge support",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "nest-bedding-starling-signature-contour": {
+   "quality": 81,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Phase-change material",
+    "Pressure relief",
+    "Temperature regulating",
+    "Motion isolation",
+    "Memory foam",
+    "Breathable",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-essential-hybrid-mattress": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-mint-hybrid-mattress-ii": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "Breathable",
+    "Gel infused"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-mint-luxe-hybrid-mattress": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "Breathable",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-mint-luxe-medium-hybrid-mattress": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "Breathable",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-mint-luxe-plush-hybrid-mattress": {
+   "quality": 85,
+   "grade": "B",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Pressure relief",
+    "Memory foam",
+    "Breathable",
+    "Gel infused",
+    "Cooling claim"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-mint-mattress-ii": {
+   "quality": 66,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Pressure relief",
+    "Memory foam",
+    "Breathable",
+    "Gel infused"
+   ],
+   "cautions": []
+  },
+  "tuft-needle-t-n-original-hybrid-mattress-ii": {
+   "quality": 58,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Coil / hybrid core",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-the-mattress": {
+   "quality": 61,
+   "grade": "D",
+   "peer": "mattresses",
+   "attributes": [
+    "Latex core",
+    "Breathable"
+   ],
+   "cautions": []
+  },
+  "boll-branch-upholstered-curve-bed": {
+   "quality": 57,
+   "grade": "D",
+   "peer": "platform beds",
+   "attributes": [
+    "Traditional joinery",
+    "Upholstered",
+    "Headboard included"
+   ],
+   "cautions": []
+  },
+  "boll-branch-upholstered-wingback-bed": {
+   "quality": 53,
+   "grade": "F",
+   "peer": "platform beds",
+   "attributes": [
+    "Traditional joinery",
+    "Upholstered"
+   ],
+   "cautions": []
+  },
+  "avocado-weighted-blanket": {
+   "quality": 65,
+   "grade": "D",
+   "peer": "weighted blankets",
+   "attributes": [
+    "Even weight distribution",
+    "OEKO-TEX",
+    "Breathable",
+    "Cotton"
+   ],
+   "cautions": []
+  },
+  "boll-branch-wood-frame-bed": {
+   "quality": 70,
+   "grade": "C",
+   "peer": "platform beds",
+   "attributes": [
+    "Traditional joinery",
+    "Headboard included"
+   ],
+   "cautions": []
+  }
+ }
+}
