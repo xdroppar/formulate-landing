@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
+import { EVIDENCE_GRADE_META } from "@/lib/evidence-grade";
 import {
   checkStack as checkInteractionStack,
   findSubstance,

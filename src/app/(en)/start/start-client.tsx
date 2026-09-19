@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { EVIDENCE_GRADE_META } from "@/lib/encyclopedia";
+import { EVIDENCE_GRADE_META } from "@/lib/evidence-grade";
 import {
   checkStack as checkInteractionStack,
   SEVERITY_META,
