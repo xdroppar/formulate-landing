@@ -14,6 +14,7 @@
 
 import { track as vercelTrack } from "@vercel/analytics";
 import { phCapture } from "@/lib/posthog";
+import { isTrackedHost } from "@/lib/tracked-host";
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL || "https://formulate-api.onrender.com";
@@ -188,6 +189,8 @@ export function trackBuyClick(params: {
  * `properties` should already be attribution-merged. Fire-and-forget.
  */
 function postOwnedStream(name: string, properties: EventProps): void {
+  // Local builds and previews would count as visitors; see lib/tracked-host.
+  if (!isTrackedHost()) return;
   try {
     void fetch(`${API_URL}/api/v1/events`, {
       method: "POST",

@@ -13,6 +13,7 @@
  */
 
 import posthog from "posthog-js";
+import { isTrackedHost } from "@/lib/tracked-host";
 
 // Write-only, public-by-design project token (safe to ship in the client
 // bundle). Env var overrides it — set NEXT_PUBLIC_POSTHOG_KEY on Vercel if you
@@ -33,7 +34,9 @@ export function isPostHogEnabled(): boolean {
 }
 
 export function initPostHog(anonId?: string): void {
-  if (started || !KEY || typeof window === "undefined") return;
+  // Never started on a local build or a preview, so nothing after it sends
+  // either; see lib/tracked-host.
+  if (started || !KEY || typeof window === "undefined" || !isTrackedHost()) return;
   try {
     posthog.init(KEY, {
       api_host: HOST,
