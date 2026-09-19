@@ -231,7 +231,7 @@ export function SupplementTimingGuide() {
       </ul>
 
       <ProductRow
-        title="Morning stack — top scored"
+        title="Morning stack"
         products={[
           PRODUCTS["thorne-vitamin-d-5000"],
           PRODUCTS["thorne-omega-3-coq10"],
@@ -268,7 +268,7 @@ export function SupplementTimingGuide() {
       </ul>
 
       <ProductRow
-        title="Evening stack — top scored"
+        title="Evening stack"
         products={[
           PRODUCTS["thorne-magnesium-bisglycinate"],
           PRODUCTS["nootropics-depot-l-theanine"],
@@ -754,7 +754,7 @@ Caffeine clearance roughly doubles in duration during pregnancy. Iron requiremen
       </p>
 
       <ProductRow
-        title="Build your stack with top-scored products"
+        title="Build your stack"
         products={[
           PRODUCTS["thorne-creatine"],
           PRODUCTS["thorne-magnesium-bisglycinate"],

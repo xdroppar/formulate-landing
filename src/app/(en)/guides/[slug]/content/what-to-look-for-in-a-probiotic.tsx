@@ -2,12 +2,13 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   InteractionCard,
   InteractionGroup,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function WhatToLookForInProbiotic() {
@@ -771,14 +772,7 @@ export function WhatToLookForInProbiotic() {
         seed; the rest of your stack is the soil.
       </p>
 
-      <ProductRow
-        title="Gut-support stack — top scored"
-        products={[
-          PRODUCTS["thorne-floramend"],
-          PRODUCTS["thorne-omega-3-coq10"],
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.probiotic} what="probiotics" />
 
       <h2>The Bottom Line</h2>
       <p>

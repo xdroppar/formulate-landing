@@ -417,7 +417,7 @@ export function AshwagandhaForTestosterone() {
       <ProductCallout product={PRODUCTS["thorne-ashwagandha"]} />
 
       <ProductRow
-        title="Top-scored adaptogen + hormone-support stack"
+        title="The adaptogen and hormone-support stack in this guide"
         products={[
           PRODUCTS["thorne-ashwagandha"],
           PRODUCTS["thorne-zinc-bisglycinate"],

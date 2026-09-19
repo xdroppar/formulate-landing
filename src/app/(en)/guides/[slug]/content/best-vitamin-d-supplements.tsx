@@ -3,12 +3,14 @@ import {
   Callout,
   ComparisonTable,
   ProductCallout,
-  ProductRow,
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogCount,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestVitaminD() {
@@ -39,11 +41,12 @@ export function BestVitaminD() {
       </p>
 
       <Callout variant="info" title="How we scored these">
-        We evaluated 14 vitamin D products across six pillars: clinical evidence
-        (25%), manufacturing quality (20%), dose accuracy (20%), bioavailability
-        (15%), label transparency (10%), and safety (10%). Products that
-        didn&rsquo;t meet minimum thresholds for third-party testing or dose
-        accuracy were excluded. See our{" "}
+        Every vitamin D product in the catalog &mdash;{" "}
+        <CatalogCount rule={PICK_RULES.vitaminD} />{" "}of them right now &mdash; is scored
+        the same way: clinical evidence (40%), dose adequacy (35%) and
+        form and bioavailability (25%). The top of that list is further down
+        and is rebuilt whenever the catalog changes; the products named in
+        between are examples we explain in detail, not a ranking. See our{" "}
         <a href="/methodology">full methodology</a> for details.
       </Callout>
 
@@ -682,14 +685,7 @@ export function BestVitaminD() {
         personal.
       </p>
 
-      <ProductRow
-        title="Top-scored vitamin D supplements"
-        products={[
-          PRODUCTS["thorne-vitamin-d-k2"],
-          PRODUCTS["thorne-vitamin-d-5000"],
-          PRODUCTS["thorne-vitamin-k"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.vitaminD} what="vitamin D products" />
 
       <p>
         <a href="https://app.formulate-health.app/catalog?q=vitamin+d&utm_source=landing&utm_medium=guide_body&utm_campaign=best-vitamin-d-supplements">

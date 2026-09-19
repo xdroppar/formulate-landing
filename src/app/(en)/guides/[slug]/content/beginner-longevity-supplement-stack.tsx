@@ -8,6 +8,8 @@ import {
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BeginnerLongevityStack() {
@@ -161,14 +163,7 @@ export function BeginnerLongevityStack() {
         />
       </InteractionGroup>
 
-      <ProductRow
-        title="Top-scored D3 + K2 options"
-        products={[
-          PRODUCTS["thorne-vitamin-d-k2"],
-          PRODUCTS["thorne-vitamin-d-5000"],
-          PRODUCTS["thorne-vitamin-k"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.vitaminD} what="vitamin D products" />
 
       <h3>Magnesium</h3>
       <p>
@@ -193,14 +188,7 @@ export function BeginnerLongevityStack() {
         </a>.)
       </Callout>
 
-      <ProductRow
-        title="Top-scored magnesium"
-        products={[
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-          PRODUCTS["nootropics-depot-magnesium-glycinate"],
-          PRODUCTS["thorne-magnesium-citramate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.magnesium} what="single-compound magnesium products" />
 
       <h2>Tier 2: Evidence-Based Additions</h2>
       <p>
@@ -236,13 +224,7 @@ export function BeginnerLongevityStack() {
         .)
       </Callout>
 
-      <ProductRow
-        title="Top-scored creatine"
-        products={[
-          PRODUCTS["thorne-creatine"],
-          PRODUCTS["nootropics-depot-creatine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.creatine} what="creatine products" />
 
       <h3>CoQ10 (Coenzyme Q10)</h3>
       <p>

@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestTimeToTakeMagnesium() {
@@ -195,14 +196,7 @@ export function BestTimeToTakeMagnesium() {
         Try taking magnesium glycinate 1&ndash;2 hours before bed. This gives the mineral time to reach meaningful serum levels before the overnight hours when nocturnal cramps typically strike. If cramps happen during exercise instead, take your dose 1&ndash;2 hours before your workout. Consistent daily supplementation matters more than single-dose timing for cramp prevention.
       </p>
 
-      <ProductRow
-        title="Top-scored magnesium products"
-        products={[
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-          PRODUCTS["thorne-magnesium-citramate"],
-          PRODUCTS["nootropics-depot-magnesium-glycinate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.magnesium} what="single-compound magnesium products" />
 
       <h2>The Bottom Line</h2>
       <p>

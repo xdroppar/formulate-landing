@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function NacAndAlcohol() {
@@ -459,12 +460,7 @@ export function NacAndAlcohol() {
 
       <ProductCallout product={PRODUCTS["thorne-nac"]} />
 
-      <ProductRow
-        title="Top-scored NAC products"
-        products={[
-          PRODUCTS["thorne-nac"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.nac} what="NAC products" />
 
       <h2>The Bottom Line</h2>
 

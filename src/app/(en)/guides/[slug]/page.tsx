@@ -81,6 +81,20 @@ import { BestThorneSupplements } from "./content/best-thorne-supplements";
 import { MagnesiumGlycinateVsCitrateVsOxide } from "./content/magnesium-glycinate-vs-citrate-vs-oxide";
 import { BestSupplementsForPerimenopause } from "./content/best-supplements-for-perimenopause";
 import { BestSupplementTrackerApps } from "./content/best-supplement-tracker-apps";
+import { ColdPlungeBenefitsAndRisks } from "./content/cold-plunge-benefits-and-risks";
+import { FlossingAndOralHealth } from "./content/flossing-and-oral-health";
+import { HairLossWhatActuallyWorks } from "./content/hair-loss-what-actually-works";
+import { HowToChooseAMattress } from "./content/how-to-choose-a-mattress";
+import { HowToMeasureBloodPressureAtHome } from "./content/how-to-measure-blood-pressure-at-home";
+import { HrvExplainedWearables } from "./content/hrv-explained-wearables";
+import { LightTherapyLampForSeasonalDepression } from "./content/light-therapy-lamp-for-seasonal-depression";
+import { RedLightTherapyEvidence } from "./content/red-light-therapy-evidence";
+import { RetinolVsTretinoin } from "./content/retinol-vs-tretinoin";
+import { SaunaHealthBenefits } from "./content/sauna-health-benefits";
+import { SleepEnvironmentDarkQuietCool } from "./content/sleep-environment-dark-quiet-cool";
+import { SmartScaleBodyFatAccuracy } from "./content/smart-scale-body-fat-accuracy";
+import { SunscreenGuide } from "./content/sunscreen-guide";
+import { WeightedBlanketsEvidence } from "./content/weighted-blankets-evidence";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -160,6 +174,20 @@ const contentMap: Record<string, React.ComponentType> = {
   "magnesium-glycinate-vs-citrate-vs-oxide": MagnesiumGlycinateVsCitrateVsOxide,
   "best-supplements-for-perimenopause": BestSupplementsForPerimenopause,
   "best-supplement-tracker-apps": BestSupplementTrackerApps,
+  "cold-plunge-benefits-and-risks": ColdPlungeBenefitsAndRisks,
+  "flossing-and-oral-health": FlossingAndOralHealth,
+  "hair-loss-what-actually-works": HairLossWhatActuallyWorks,
+  "how-to-choose-a-mattress": HowToChooseAMattress,
+  "how-to-measure-blood-pressure-at-home": HowToMeasureBloodPressureAtHome,
+  "hrv-explained-wearables": HrvExplainedWearables,
+  "light-therapy-lamp-for-seasonal-depression": LightTherapyLampForSeasonalDepression,
+  "red-light-therapy-evidence": RedLightTherapyEvidence,
+  "retinol-vs-tretinoin": RetinolVsTretinoin,
+  "sauna-health-benefits": SaunaHealthBenefits,
+  "sleep-environment-dark-quiet-cool": SleepEnvironmentDarkQuietCool,
+  "smart-scale-body-fat-accuracy": SmartScaleBodyFatAccuracy,
+  "sunscreen-guide": SunscreenGuide,
+  "weighted-blankets-evidence": WeightedBlanketsEvidence,
 };
 
 /* ---------- static params ---------- */

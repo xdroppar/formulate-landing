@@ -253,7 +253,7 @@ export function ZincForImmuneSupport() {
       <ProductCallout product={PRODUCTS["thorne-zinc-bisglycinate"]} />
 
       <ProductRow
-        title="Top-scored immune-support products"
+        title="Immune-support products in this guide"
         products={[
           PRODUCTS["thorne-zinc-bisglycinate"],
           PRODUCTS["thorne-vitamin-d-5000"],

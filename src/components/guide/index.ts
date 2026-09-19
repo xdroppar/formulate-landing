@@ -8,3 +8,6 @@ export { EvidenceBadge } from "./evidence-badge";
 export { IngredientLink } from "./ingredient-link";
 export { PRODUCTS, catalogUrl } from "./products";
 export type { GuideProduct } from "./products";
+export { CatalogTopPicks, CatalogCount, catalogPicks } from "./catalog-top-picks";
+export type { PickRule } from "./catalog-top-picks";
+export { PICK_RULES } from "./pick-rules";

@@ -8,6 +8,8 @@ import {
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function NootropicsGuide() {
@@ -149,13 +151,7 @@ export function NootropicsGuide() {
         evidence; skip the fancy variants.
       </p>
 
-      <ProductRow
-        title="Top-scored creatine"
-        products={[
-          PRODUCTS["thorne-creatine"],
-          PRODUCTS["nootropics-depot-creatine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.creatine} what="creatine products" />
 
       <h3>Omega-3 DHA (Structural Brain Support)</h3>
       <p>

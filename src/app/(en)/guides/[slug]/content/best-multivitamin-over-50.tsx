@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestMultivitaminOver50() {
@@ -133,7 +134,7 @@ export function BestMultivitaminOver50() {
         For a deeper look at magnesium forms and dosing, our guide on the <a href="/guides/best-magnesium-supplements">best magnesium supplements</a> breaks it all down.
       </p>
 
-      <h2>Our Top Picks and Why</h2>
+      <h2>Three Good Approaches, Explained</h2>
 
       <p>
         These three products represent different approaches &mdash; comprehensive, simple, and hybrid &mdash; but all get the fundamentals right for adults over 50.
@@ -429,14 +430,7 @@ export function BestMultivitaminOver50() {
 
       <ProductCallout product={PRODUCTS["thorne-advanced-nutrients"]} />
 
-      <ProductRow
-        title="Top-scored supplements for adults over 50"
-        products={[
-          PRODUCTS["thorne-advanced-nutrients"],
-          PRODUCTS["thorne-vitamin-d-k2"],
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.multivitamin} what="full multivitamins" />
 
       <h2>The Bottom Line</h2>
 
@@ -445,7 +439,7 @@ export function BestMultivitaminOver50() {
       </p>
 
       <p>
-        Of the products we evaluated, Thorne Advanced Nutrients 2/Day comes closest to getting everything right in a single product: bioactive B vitamins, adequate D3, iron-free, K2 included, and third-party tested. Pure Encapsulations ONE is the best minimalist option if you prefer one capsule and are building a custom stack. Nordic Naturals Complete Multi adds omega-3s for those who want simplicity.
+        Of the multis discussed here, Thorne Advanced Nutrients 2/Day comes closest to getting everything right in a single product: bioactive B vitamins, adequate D3, iron-free, K2 included, and third-party tested. Pure Encapsulations ONE is the best minimalist option if you prefer one capsule and are building a custom stack. Nordic Naturals Complete Multi adds omega-3s for those who want simplicity.
       </p>
 
       <p>
