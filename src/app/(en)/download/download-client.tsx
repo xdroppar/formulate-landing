@@ -200,9 +200,9 @@ export function DownloadClient() {
             {/* Primary CTA: web app */}
             <a
               href={webAppHref}
-              onClick={() =>
-                trackEvent("web_app_cta_click", { source: "download_primary", platform })
-              }
+              /* Counted once, by the site-wide AppLinkTracker; an onClick
+                 trackEvent here as well sent every click twice. */
+              data-cta-source="download_primary"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-base font-bold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,160,0.3)] transition-all"
             >
               Open the web app
