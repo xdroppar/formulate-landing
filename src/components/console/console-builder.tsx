@@ -340,13 +340,10 @@ export function ConsoleBuilder() {
             <a
               className="act"
               href={keepUrl}
-              onClick={() =>
-                trackEvent("web_app_cta_click", {
-                  source: "console_builder_keep",
-                  size: keepable.length,
-                  left_behind: leftBehind,
-                })
-              }
+              /* Counted once, by the site-wide AppLinkTracker (it also stamps the
+                 anon_id). The size rides in utm_content, and the app reports
+                 what actually landed as landing_stack_handoff. */
+              data-cta-source="console_builder_keep"
             >
               {keepable.length === 1 ? "Keep it in the app" : `Keep these ${keepable.length} in the app`} &rarr;
             </a>
