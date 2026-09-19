@@ -39,6 +39,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ScoreItem } from "@/lib/score-index";
 import { PILLARS } from "@/lib/pillars";
 import { trackEvent } from "@/lib/analytics";
+import { withUtm } from "@/lib/app-url";
 
 /** Which index `kind` each pillar can offer, where it can offer one. */
 /* Every pillar the picker offers now filters in place. Sleep, fitness and
@@ -180,6 +181,21 @@ export function ConsoleBuilder() {
     return scored.reduce((w, i) => ((i.score as number) < (w.score as number) ? i : w), scored[0]);
   })();
 
+  /* The door out, which the builder never had: a stack built here was lost on
+     the click through, and the app asked for it again. The app's /stack/add
+     takes the supplements (its stack is supplements; foods and gear have no
+     id there to land on), so only those are sent, and the note says so rather
+     than letting a kale pick vanish silently. */
+  const keepable = stack.filter((i) => i.kind === "supplement");
+  const leftBehind = stack.length - keepable.length;
+  const keepUrl = keepable.length
+    ? withUtm(`${APP}/stack/add?items=${keepable.map((i) => i.slug).join(",")}`, {
+        source: "landing",
+        campaign: "console_builder",
+        content: String(keepable.length),
+      })
+    : null;
+
   return (
     <div className="cn-builder" ref={root} onPointerDown={load} onFocus={load}>
       <div className="cn-bcol">
@@ -319,6 +335,29 @@ export function ConsoleBuilder() {
             {weakest ? weakest.why : "Nothing in your stack yet."}
           </div>
         </div>
+        {keepUrl && (
+          <div className="cn-keep">
+            <a
+              className="act"
+              href={keepUrl}
+              onClick={() =>
+                trackEvent("web_app_cta_click", {
+                  source: "console_builder_keep",
+                  size: keepable.length,
+                  left_behind: leftBehind,
+                })
+              }
+            >
+              {keepable.length === 1 ? "Keep it in the app" : `Keep these ${keepable.length} in the app`} &rarr;
+            </a>
+            <p className="cn-keepnote">
+              Free, no card.
+              {leftBehind > 0
+                ? ` Supplements carry over; foods and gear stay here for now.`
+                : ` It opens with your stack already in it.`}
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
