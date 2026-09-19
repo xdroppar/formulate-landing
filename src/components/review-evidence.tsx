@@ -33,7 +33,7 @@ function IngredientName({ i }: { i: RankedIngredient }) {
   );
 }
 
-function FindingLine({ f }: { f: Finding }) {
+export function FindingLine({ f }: { f: Finding }) {
   return (
     <div className="mt-2">
       <div className="flex flex-wrap items-center gap-2 mb-1">

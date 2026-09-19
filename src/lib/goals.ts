@@ -82,7 +82,7 @@ function verdictOf(findings: Finding[]): Verdict {
  * "EPA") arrives as two identical findings. Shown twice, it reads as two
  * reviews agreeing.
  */
-function dedupe(findings: Finding[]): Finding[] {
+export function dedupeFindings<T extends Finding>(findings: T[]): T[] {
   const seen = new Set<string>();
   return findings.filter((f) => {
     const key = `${f.direction}|${f.quote_pmid}|${f.quote}`;
@@ -118,7 +118,7 @@ function topProductFor(slug: string | null): Product | null {
 }
 
 function rank(i: GoalIngredient): RankedIngredient {
-  const findings = dedupe(i.findings);
+  const findings = dedupeFindings(i.findings);
   return {
     ...i,
     findings,

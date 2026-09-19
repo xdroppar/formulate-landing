@@ -70,7 +70,11 @@ const GOALS = [
  *  omega-3 in chemotherapy or of probiotics in preterm infants is real evidence,
  *  but listing it under "supplements for X" would apply it to the wrong person. */
 const SPECIAL_POPULATION =
-  /cancer|chemotherap|checkpoint|immunotherap|pregnan|gestation|preterm|infant|neonat|\bicu\b|critically ill|dialysis|\bhiv\b|surg|schizophren|bipolar|child|pediatric|paediatric|adolescen|cirrhosis|multiple sclerosis|parkinson|alzheimer|autism|covid|tubercul|drug.induced/;
+  /cancer|chemotherap|checkpoint|immunotherap|pregnan|gestation|preterm|infant|neonat|\bicu\b|critically ill|dialysis|\bhiv\b|surg|schizophren|bipolar|child|pediatric|paediatric|adolescen|cirrhosis|multiple sclerosis|parkinson|alzheimer|autism|covid|tubercul|drug.induced|antenatal|maternal|birth\b/;
+/** The outcome label can omit the population the quote names: "intraventricular
+ *  hemorrhage" is a preterm-infant outcome, and only the quote says so. Checked
+ *  on both, erring toward leaving a finding out. */
+const isSpecial = (o) => SPECIAL_POPULATION.test(o.outcome.toLowerCase()) || SPECIAL_POPULATION.test(o.quote.toLowerCase());
 
 /** One ingredient under several names. Display name on the right. */
 const CANON = {
@@ -193,7 +197,7 @@ for (const g of GOALS) {
     for (const o of row.outcomes) {
       const text = o.outcome.toLowerCase();
       if (!g.inc.test(text) || (g.exc && g.exc.test(text))) continue;
-      if (SPECIAL_POPULATION.test(text)) { dropped.population++; continue; }
+      if (isSpecial(o)) { dropped.population++; continue; }
       if (!byIngredient.has(name)) byIngredient.set(name, { name, slug: slugFor(name), findings: [] });
       byIngredient.get(name).findings.push({
         direction: o.direction,
@@ -229,6 +233,70 @@ writeFileSync(
     1,
   ) + "\n",
 );
+/*
+ * Second output: every finding per ingredient, for the ingredient pages and the
+ * review-conclusions report. Same names, same exclusions of what is not an
+ * ingredient; special-population findings are KEPT but flagged, because the
+ * report counts the whole dataset while pages show what applies to a general
+ * reader. `goal` is the goal a finding belongs to, where one does, so a page
+ * can link it.
+ */
+const byName = new Map();
+for (const row of Object.values(source.ingredients)) {
+  if (!row.outcomes) continue;
+  if (NOT_AN_INGREDIENT.test(row.ingredient)) continue;
+  const name = CANON[row.ingredient] ?? row.ingredient;
+  if (!byName.has(name)) byName.set(name, { name, slug: slugFor(name), findings: [] });
+  for (const o of row.outcomes) {
+    const text = o.outcome.toLowerCase();
+    const goal = GOALS.find((g) => !g.condition && g.inc.test(text) && !(g.exc && g.exc.test(text)));
+    byName.get(name).findings.push({
+      direction: o.direction,
+      outcome: o.outcome,
+      as: row.ingredient === name ? undefined : row.ingredient,
+      quote: o.quote,
+      quote_pmid: o.quote_pmid,
+      pmids: o.pmids,
+      goal: goal?.slug,
+      special: isSpecial(o) || undefined,
+    });
+  }
+}
+// Totals count what the report lists: real ingredients (placeholders like
+// "Proprietary" excluded), one review quoted under two names counted once.
+const totals = { ingredients: byName.size, conclusions: 0, benefit: 0, no_effect: 0, unclear: 0, harm: 0 };
+for (const i of byName.values()) {
+  const seen = new Set();
+  i.findings = i.findings.filter((x) => {
+    const key = [x.direction, x.quote_pmid, x.quote].join("|");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  for (const x of i.findings) {
+    totals.conclusions++;
+    totals[x.direction] = (totals[x.direction] ?? 0) + 1;
+  }
+}
+writeFileSync(
+  "src/data/ingredient-evidence.json",
+  JSON.stringify(
+    {
+      _source: {
+        file: "Formulate/data/evidence_directions.json",
+        commit: COMMIT,
+        generated_at: source.generated_at,
+        note: "Written by scripts/build-goal-evidence.mjs. Do not edit by hand; re-run the script.",
+      },
+      totals,
+      ingredients: [...byName.values()].sort((a, b) => a.name.localeCompare(b.name)),
+    },
+    null,
+    1,
+  ) + "\n",
+);
+console.log("ingredient-evidence:", JSON.stringify(totals), "| canonical ingredients", byName.size, "| with a page link", [...byName.values()].filter((i) => i.slug).length);
+
 for (const g of out) {
   const benefit = g.ingredients.filter((i) => i.findings.some((f) => f.direction === "benefit")).length;
   console.log(`${g.slug.padEnd(22)} ingredients ${String(g.ingredients.length).padStart(3)} | with a benefit ${String(benefit).padStart(2)}${g.condition ? `  -> /conditions/${g.condition}` : ""}`);

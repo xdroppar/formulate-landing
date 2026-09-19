@@ -77,6 +77,7 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
     items: [
       { href: "/guides", label: "Guides", count: visibleGuides.length },
       { href: "/research", label: "Studies", count: researchEntries.length },
+      { href: "/reports/supplement-review-conclusions", label: "Review conclusions report" },
       { href: "/nutrients", label: "Nutrients", count: CORE_NUTRIENTS.length },
       { href: "/interactions", label: "Interactions", count: interactions.length },
       { href: "/synergies", label: "Synergies", count: synergies.length },

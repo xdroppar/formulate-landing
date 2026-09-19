@@ -105,7 +105,11 @@ export default async function GoalPage({ params }: { params: Params }) {
           appear in its PubMed abstract. It records the direction, not the size, of an effect. Reviews run in
           populations such as people with cancer, pregnancy, surgery or children are left out, because applying
           them to a general reader would mislead. Evidence last refreshed {goalEvidenceDateLabel}. Abstracts courtesy
-          of the U.S. National Library of Medicine (PubMed).
+          of the U.S. National Library of Medicine (PubMed). The{" "}
+          <Link href="/reports/supplement-review-conclusions" className="text-accent hover:underline">
+            full report
+          </Link>{" "}
+          explains how the conclusions were read and checked.
         </p>
       </section>
 
