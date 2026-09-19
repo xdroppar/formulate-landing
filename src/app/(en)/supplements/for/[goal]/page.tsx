@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { goalPages, goalBySlug, goalEvidenceDateLabel } from "@/lib/goals";
+import { AppCtaCard } from "@/components/app-cta-card";
+import { stackAddUrl } from "@/lib/app-url";
 import { ReviewEvidence } from "@/components/review-evidence";
 
 const BASE = "https://formulate-health.app";
@@ -38,6 +40,17 @@ export default async function GoalPage({ params }: { params: Params }) {
   const lower = g.label.toLowerCase();
   const helpNames = [...g.helps, ...g.mixed].slice(0, 6).map((i) => i.name);
   const noneNames = g.noEffect.slice(0, 6).map((i) => i.name);
+
+  // The products this page already names under "reviews concluded a benefit",
+  // deduped (one product can be the pick for two ingredients) and capped.
+  const addable = [
+    ...new Map(
+      g.helps
+        .map((i) => i.topProduct)
+        .filter((p): p is NonNullable<typeof p> => !!p && p.score != null)
+        .map((p) => [p.slug, p]),
+    ).values(),
+  ].slice(0, 6);
 
   const faqs = [
     {
@@ -96,6 +109,25 @@ export default async function GoalPage({ params }: { params: Params }) {
       </header>
 
       <ReviewEvidence goal={g} />
+
+      {/* The page has already done the work this card offers: for each
+          ingredient where reviews concluded a benefit it names one product,
+          the highest-scored one named for that ingredient (see
+          lib/goals topProductFor). Putting them in the stack together is
+          where they can be scored together, and overlaps read. Capped at six
+          so this stays a starting point rather than a shopping list, and the
+          count in the label is what the link actually carries. */}
+      {addable.length > 0 && (
+        <AppCtaCard
+          className="mt-10"
+          title={`Add ${addable.length === 1 ? "it" : `these ${addable.length}`} to your stack — free`}
+          sub="One product per ingredient, the highest-scored one named for it. See them scored together, with overlaps and interactions — change or remove anything in the app."
+          campaign="goal_add_helps"
+          source="goal_add_helps"
+          href={stackAddUrl(addable.map((p) => p.slug), { campaign: "goal_add_helps", content: slug })}
+          cta="Add them →"
+        />
+      )}
 
       <section className="mt-12 rounded-2xl border border-border bg-card/30 p-6">
         <h2 className="fm-eyebrow mb-3">How this page is built</h2>
