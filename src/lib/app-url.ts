@@ -23,6 +23,27 @@ export function withUtm(
 }
 
 /**
+ * A link that puts these supplements IN the visitor's stack, rather than
+ * showing them a page with an Add button on it.
+ *
+ * The app's /stack/add validates each slug against its catalog, adds what it
+ * knows (anonymous or signed in) and lands on /stack. Our slugs are its slugs:
+ * this site mirrors that catalog. A CTA reading "Add to your free stack" used
+ * to open /catalog/<slug> and leave the adding to the reader.
+ */
+export function stackAddUrl(
+  slugs: string[],
+  params: { campaign: string; content?: string },
+): string {
+  const list = slugs.filter(Boolean).join(",");
+  return withUtm(`${APP_URL}/stack/add?items=${list}`, {
+    source: "landing",
+    campaign: params.campaign,
+    content: params.content,
+  });
+}
+
+/**
  * Build a URL to an ingredient encyclopedia page on the webapp, with UTM
  * attribution back to the referring guide. Use the canonical lc-supplements id
  * (e.g. "magnesium", "vitamin-d3", "ashwagandha"). Mismatched ids will 404.

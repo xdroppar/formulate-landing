@@ -16,7 +16,7 @@ import {
   catalogReviewLabel,
   type Product,
 } from "@/lib/products";
-import { withUtm } from "@/lib/app-url";
+import { withUtm, stackAddUrl } from "@/lib/app-url";
 import { SupplementBuyButtons } from "@/components/supplement-buy-buttons";
 import { amazonLinkFor } from "@/lib/amazon";
 import { ScoreMeter } from "@/components/score-meter";
@@ -448,9 +448,21 @@ export default async function SupplementPage({ params }: { params: Params }) {
   const iherbUrl = product.iherb_url
     ? withUtm(product.iherb_url, { source: "landing", campaign: "supplement_page", content: product.slug })
     : null;
+  // "Open in app" shows the product there; the two CTAs that say they add it
+  // now do (app /stack/add), instead of landing on a page with an Add button.
   const appUrl = withUtm(`${APP_URL}/catalog/${product.slug}`, {
     source: "landing",
     campaign: "supplement_page",
+    content: product.slug,
+  });
+  // Two adds on this page, tagged apart so the one that earns the click is
+  // readable: the card beside the score, and the section at the foot.
+  const addToStackUrl = stackAddUrl([product.slug], {
+    campaign: "supplement_add_to_stack",
+    content: product.slug,
+  });
+  const addInlineUrl = stackAddUrl([product.slug], {
+    campaign: "supplement_inline_cta",
     content: product.slug,
   });
 
@@ -556,7 +568,8 @@ export default async function SupplementPage({ params }: { params: Params }) {
             title={`Add ${product.name} to your stack — free`}
             sub="Get one number for what your supplements actually cover, and what they miss."
             campaign="supplement_inline_cta"
-            path={`/catalog/${product.slug}`}
+            href={addInlineUrl}
+            cta="Add it →"
           />
           {reviewDateLabel && (
             <p className="text-xs text-muted mt-4 leading-relaxed">
@@ -717,7 +730,8 @@ export default async function SupplementPage({ params }: { params: Params }) {
         </p>
         <div className="flex flex-wrap gap-3">
           <a
-            href={appUrl}
+            href={addToStackUrl}
+            data-cta-source="supplement_add_to_stack"
             className="px-4 py-2 rounded-lg bg-accent text-bg font-semibold text-sm hover:bg-[#00ffb3] transition-colors"
           >
             Add to your free stack →
