@@ -17,15 +17,14 @@ export const metadata: Metadata = {
 };
 
 export default function DoseCalculatorPage() {
-  // Serialize only the fields the calculator needs — keeps the client bundle small.
+  // Only what the search list needs. The detail for the one ingredient picked
+  // is fetched from /api/dose/[slug]: serialising summary, dosage and forms
+  // for all 968 put ~575 KB of props into this page's HTML.
   const ingredientOptions = ingredients.map((i) => ({
     slug: i.slug,
     name: i.name,
     category: i.category,
     evidence_grade: i.evidence_grade,
-    summary: i.summary,
-    dosage: i.dosage,
-    forms: i.forms.map((f) => ({ form: f.form, score: f.score ?? null })),
   }));
 
   return <DoseCalculatorClient ingredients={ingredientOptions} />;
