@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { listThumb } from "@/lib/thumbs";
 import {
   sleepCategories,
   sleepCategoryBySlug,
@@ -49,7 +50,7 @@ function Row({ p, i, source }: { p: SleepProduct; i: number; source: string }) {
         <div className="flex-shrink-0 w-6 sm:w-7 text-center text-lg font-extrabold text-muted pt-1">{i + 1}</div>
         {p.image_url ? (
           <div className="relative w-16 h-16 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
-            <Image src={p.image_url} alt="" fill sizes="64px" className="object-contain p-1" />
+            <Image src={listThumb(p.image_url)} alt="" fill sizes="64px" className="object-contain p-1" />
           </div>
         ) : (
           <div className="w-16 h-16 rounded-lg bg-white/[0.02] border border-border flex-shrink-0" />

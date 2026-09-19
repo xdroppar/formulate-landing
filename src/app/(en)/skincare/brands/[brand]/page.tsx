@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { listThumb } from "@/lib/thumbs";
 import {
   skinBrands,
   skinBrandBySlug,
@@ -141,7 +142,7 @@ export default async function SkinBrandPage({ params }: { params: Params }) {
                 <div className="flex flex-wrap sm:flex-nowrap items-start gap-3 sm:gap-4">
                   {p.image_url ? (
                     <div className="relative w-16 h-16 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
-                      <Image src={p.image_url} alt="" fill sizes="64px" className="object-contain p-1" />
+                      <Image src={listThumb(p.image_url)} alt="" fill sizes="64px" className="object-contain p-1" />
                     </div>
                   ) : (
                     <div className="w-16 h-16 rounded-lg bg-white/[0.02] border border-border flex-shrink-0" />
