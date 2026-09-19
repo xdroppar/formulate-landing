@@ -54,8 +54,15 @@ export function renderOgImage(opts: {
               gap: "12px",
             }}
           >
+            {/* display:flex is required: this div holds two nodes (the word and
+                the dot), and Satori refuses a multi-child div without it. It
+                threw on every card rendered from this template — conditions,
+                compare, stacks, interactions, nutrients, research, synergies —
+                so each served a 500 as its share image, while the pages
+                themselves were fine. */}
             <div
               style={{
+                display: "flex",
                 fontSize: 32,
                 fontWeight: 900,
                 letterSpacing: "-0.02em",

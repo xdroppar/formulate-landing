@@ -70,7 +70,7 @@ const FAQS = [
   },
   {
     q: "What's coming next?",
-    a: "Sleep, fitness, and personal care are in development — each will get the same transparent, evidence-based treatment. The framework is already here; we add a pillar when its scoring is rigorous enough to ship.",
+    a: "Sleep gear and skincare are scored now: sleep on what each maker declares, compared only against the same kind of product, and skincare on its actives with irritants and fragrance checked separately. Fitness gear is scored in the Formulate app. Hair, oral and body care come next, once every score can show the reasoning behind it.",
   },
 ];
 
@@ -163,7 +163,7 @@ export default function MethodologyHubPage() {
               return live ? (
                 <Link
                   key={p.slug}
-                  href={`/methodology/${p.slug}`}
+                  href={p.method}
                   className="group bg-surface border border-border rounded-2xl p-6 hover:border-accent/30 hover:-translate-y-1 transition-all"
                 >
                   {inner}
