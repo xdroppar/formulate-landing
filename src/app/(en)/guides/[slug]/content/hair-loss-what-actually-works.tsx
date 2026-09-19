@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -276,9 +277,9 @@ export function HairLossWhatActuallyWorks() {
         and wavelength, FDA &ldquo;clearance&rdquo; is a lower bar than drug
         approval, and long-term data are thin. It is a reasonable add-on or an
         option for people who cannot use drugs. Our{" "}
-        <a href="/guides/red-light-therapy-evidence">
+        <Link href="/guides/red-light-therapy-evidence">
           red light therapy guide
-        </a>{" "}
+        </Link>{" "}
         covers the wider evidence.
       </p>
 
@@ -337,13 +338,13 @@ export function HairLossWhatActuallyWorks() {
         Unless you are deficient, hair vitamins are unlikely to help. Iron
         deficiency is worth checking in anyone with shedding, particularly
         women with heavy periods (see our{" "}
-        <a href="/guides/iron-guide">iron guide</a>), but taking iron
+        <Link href="/guides/iron-guide">iron guide</Link>), but taking iron
         you do not need does not grow hair. Too much vitamin A or selenium can
         cause hair loss. If you have heard that creatine causes baldness, see
         our{" "}
-        <a href="/guides/creatine-and-hair-loss">
+        <Link href="/guides/creatine-and-hair-loss">
           creatine and hair loss guide
-        </a>
+        </Link>
         .
       </p>
 

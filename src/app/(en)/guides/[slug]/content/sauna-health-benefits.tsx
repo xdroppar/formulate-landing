@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -113,7 +114,7 @@ export function SaunaHealthBenefits() {
           summary: "High fitness alone: CVD mortality HR 0.51. Frequent sauna alone: HR 0.74. Both: HR 0.42 vs low fitness + infrequent sauna.",
         }]} />{" "}
         In practice, sauna sits on top of cardio. It is not a substitute. Our{" "}
-        <a href="/guides/vo2-max-longevity">VO2 max guide</a> covers
+        <Link href="/guides/vo2-max-longevity">VO2 max guide</Link> covers
         why fitness carries so much weight.
       </p>
 
@@ -405,7 +406,7 @@ export function SaunaHealthBenefits() {
         <li>
           <strong>Drink water before and after,</strong> and replace salt if
           you sweat heavily or train the same day. Our{" "}
-          <a href="/guides/electrolytes-guide">electrolytes guide</a>{" "}
+          <Link href="/guides/electrolytes-guide">electrolytes guide</Link>{" "}
           covers how much.
         </li>
         <li>
@@ -419,7 +420,7 @@ export function SaunaHealthBenefits() {
         <li>
           <strong>Cool down gradually.</strong> A cool shower is fine. If you
           want to add cold water immersion, read our{" "}
-          <a href="/guides/cold-plunge-benefits-and-risks">cold plunge guide</a>{" "}
+          <Link href="/guides/cold-plunge-benefits-and-risks">cold plunge guide</Link>{" "}
           first, because the combination adds cardiovascular stress.
         </li>
       </ul>
@@ -427,8 +428,8 @@ export function SaunaHealthBenefits() {
       <Callout variant="tip" title="Pair it with the things that matter more">
         In the Finnish data, fitness predicted survival more strongly than
         sauna use did. If you&rsquo;re choosing where to spend your time, keep
-        your <a href="/guides/zone-2-cardio-longevity">aerobic
-        training</a> first and use the sauna afterwards. That&rsquo;s also the
+        your <Link href="/guides/zone-2-cardio-longevity">aerobic
+        training</Link> first and use the sauna afterwards. That&rsquo;s also the
         combination that lowered blood pressure in the one small trial that
         tested it.
       </Callout>
@@ -451,7 +452,7 @@ export function SaunaHealthBenefits() {
         fainting when you stand up, especially if you take several blood
         pressure medicines or diuretics. Talk to your clinician first, and
         keep an eye on your numbers with a{" "}
-        <a href="/guides/how-to-measure-blood-pressure-at-home">home blood pressure routine</a>.
+        <Link href="/guides/how-to-measure-blood-pressure-at-home">home blood pressure routine</Link>.
         Don&rsquo;t measure straight after a sauna, though, because the
         reading will be misleadingly low.
       </p>
@@ -502,7 +503,7 @@ export function SaunaHealthBenefits() {
       <p>
         For the wider picture of heat, cold and light, see the{" "}
         <a href="https://app.formulate-health.app/learning/track/therapies?utm_source=landing&utm_medium=guide_body&utm_campaign=sauna-health-benefits">Therapies learning track</a> or the{" "}
-        <a href="/learn/sauna">sauna reference page</a>.
+        <Link href="/learn/sauna">sauna reference page</Link>.
       </p>
       <p>
         <a href="https://app.formulate-health.app/therapies">

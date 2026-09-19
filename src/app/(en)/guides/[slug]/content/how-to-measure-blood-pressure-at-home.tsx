@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -364,7 +365,7 @@ export function HowToMeasureBloodPressureAtHome() {
         Some watches now offer alerts that flag a pattern suggesting high blood
         pressure. Treat those as a prompt to check properly with a validated
         cuff, never as a reading. For what wearables do measure well, see our{" "}
-        <a href="/guides/hrv-explained-wearables">HRV and wearables guide</a>.
+        <Link href="/guides/hrv-explained-wearables">HRV and wearables guide</Link>.
       </p>
 
       <h2>Frequently Asked Questions</h2>
@@ -407,12 +408,12 @@ export function HowToMeasureBloodPressureAtHome() {
         Yes. Regular aerobic exercise, less sodium and more potassium, limiting
         alcohol, weight loss if needed, and better sleep each lower blood
         pressure. See our{" "}
-        <a href="/guides/zone-2-cardio-longevity">Zone 2 cardio guide</a>{" "}
-        and <a href="/guides/electrolytes-guide">electrolytes guide</a>.
+        <Link href="/guides/zone-2-cardio-longevity">Zone 2 cardio guide</Link>{" "}
+        and <Link href="/guides/electrolytes-guide">electrolytes guide</Link>.
         Home monitoring is how you see whether they&rsquo;re working for you.
         Avoid measuring straight after a sauna or hot bath, which temporarily
         lowers readings. More in our{" "}
-        <a href="/guides/sauna-health-benefits">sauna guide</a>.
+        <Link href="/guides/sauna-health-benefits">sauna guide</Link>.
       </p>
 
       <h2>The Bottom Line</h2>
@@ -428,7 +429,7 @@ export function HowToMeasureBloodPressureAtHome() {
       <p>
         Learn more in the <a href="https://app.formulate-health.app/learning/track/biomarkers?utm_source=landing&utm_medium=guide_body&utm_campaign=how-to-measure-blood-pressure-at-home">Biomarkers learning track</a>{" "}
         and the <a href="https://app.formulate-health.app/learning/track/body?utm_source=landing&utm_medium=guide_body&utm_campaign=how-to-measure-blood-pressure-at-home">Body learning track</a>, or see the{" "}
-        <a href="/learn/blood-pressure">blood pressure monitor reference page</a>.
+        <Link href="/learn/blood-pressure">blood pressure monitor reference page</Link>.
       </p>
       <p>
         <a href="https://app.formulate-health.app/body">

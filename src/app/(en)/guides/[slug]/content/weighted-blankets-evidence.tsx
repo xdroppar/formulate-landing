@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -186,13 +187,13 @@ export function WeightedBlanketsEvidence() {
         It is not a treatment for chronic insomnia on its own. The first-line
         treatment for that is cognitive behavioural therapy for insomnia
         (CBT-I), covered in our{" "}
-        <a href="/guides/sleep-environment-dark-quiet-cool">
+        <Link href="/guides/sleep-environment-dark-quiet-cool">
           sleep environment guide
-        </a>
+        </Link>
         . If you are weighing supplements too, see our{" "}
-        <a href="/guides/best-sleep-supplement-protocol">
+        <Link href="/guides/best-sleep-supplement-protocol">
           sleep supplement protocol
-        </a>
+        </Link>
         .
       </p>
 
@@ -372,13 +373,13 @@ export function WeightedBlanketsEvidence() {
         feel, choose the lighter end of the weight range and a breathable
         construction, and keep them away from infants and anyone who cannot
         remove them. For more on the rest of the bedroom, see our guides to{" "}
-        <a href="/guides/how-to-choose-a-mattress">choosing a mattress</a>{" "}
+        <Link href="/guides/how-to-choose-a-mattress">choosing a mattress</Link>{" "}
         and the{" "}
-        <a href="/guides/sleep-environment-dark-quiet-cool">
+        <Link href="/guides/sleep-environment-dark-quiet-cool">
           sleep environment
-        </a>
+        </Link>
         , the{" "}
-        <a href="/learn/weighted-blankets">weighted blanket reference</a>
+        <Link href="/learn/weighted-blankets">weighted blanket reference</Link>
         , and the{" "}
         <a href="https://app.formulate-health.app/learning/track/sleep?utm_source=landing&utm_medium=guide_body&utm_campaign=weighted-blankets-evidence">sleep learning track</a>.
       </p>

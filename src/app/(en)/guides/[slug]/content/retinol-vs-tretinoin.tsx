@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -331,7 +332,7 @@ export function RetinolVsTretinoin() {
         daily broad-spectrum sunscreen part of any retinoid routine, not an
         optional extra &mdash; and sunscreen is itself one of the
         best-evidenced ways to prevent visible ageing (see our{" "}
-        <a href="/guides/sunscreen-guide">sunscreen guide</a>). Take
+        <Link href="/guides/sunscreen-guide">sunscreen guide</Link>). Take
         extra care if you also take other photosensitising medicines such as
         doxycycline.
       </p>
@@ -435,7 +436,7 @@ export function RetinolVsTretinoin() {
         Choose the lowest strength that works, introduce it slowly, pair it with
         daily sunscreen, and stop during pregnancy. For how collagen fits into
         skin ageing more broadly, see our{" "}
-        <a href="/guides/collagen-guide">collagen guide</a>, and the{" "}
+        <Link href="/guides/collagen-guide">collagen guide</Link>, and the{" "}
         <a href="https://app.formulate-health.app/learning/track/personal-care?utm_source=landing&utm_medium=guide_body&utm_campaign=retinol-vs-tretinoin">personal care learning track</a>.
       </p>
       <p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -279,7 +280,7 @@ export function HrvExplainedWearables() {
           summary: "26 moderately fit men, 4 weeks. HRV-guided training improved max running speed more than a predefined plan (+0.9 vs +0.5 km/h). Small, short trial.",
         }]} />{" "}
         For how to structure the easy days, see our{" "}
-        <a href="/guides/zone-2-cardio-longevity">Zone 2 guide</a>.
+        <Link href="/guides/zone-2-cardio-longevity">Zone 2 guide</Link>.
       </p>
 
       <h2>Don&rsquo;t Let the Score Run You</h2>
@@ -412,9 +413,9 @@ export function HrvExplainedWearables() {
       </p>
       <p>
         Explore more in the <a href="https://app.formulate-health.app/learning/track/body?utm_source=landing&utm_medium=guide_body&utm_campaign=hrv-explained-wearables">Body learning track</a>{" "}
-        and the <a href="/learn/watches-trackers">watches and trackers reference page</a>.
+        and the <Link href="/learn/watches-trackers">watches and trackers reference page</Link>.
         Wearables can&rsquo;t take a proper blood pressure reading yet. Our{" "}
-        <a href="/guides/how-to-measure-blood-pressure-at-home">home blood pressure guide</a>{" "}
+        <Link href="/guides/how-to-measure-blood-pressure-at-home">home blood pressure guide</Link>{" "}
         explains why.
       </p>
       <p>

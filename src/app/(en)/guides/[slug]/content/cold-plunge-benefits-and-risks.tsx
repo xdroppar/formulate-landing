@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -269,7 +270,7 @@ export function ColdPlungeBenefitsAndRisks() {
         Nobody has tested whether waiting several hours, or plunging on rest
         days, avoids the problem, though it seems a sensible hedge. For more on
         building and keeping muscle, see our{" "}
-        <a href="/guides/minimum-effective-dose-strength-training">minimum effective dose guide</a>.
+        <Link href="/guides/minimum-effective-dose-strength-training">minimum effective dose guide</Link>.
       </p>
 
       <h2>Temperatures and Durations That Were Actually Studied</h2>
@@ -436,7 +437,7 @@ export function ColdPlungeBenefitsAndRisks() {
         Many healthy people do it, and it&rsquo;s traditional in Nordic
         countries. It is also a big swing in blood pressure and heart rate, so
         anyone with heart disease should ask a doctor first. See our{" "}
-        <a href="/guides/sauna-health-benefits">sauna guide</a> for the
+        <Link href="/guides/sauna-health-benefits">sauna guide</Link> for the
         heat side of the equation.
       </p>
 
@@ -445,7 +446,7 @@ export function ColdPlungeBenefitsAndRisks() {
         Cold briefly activates both branches of the nervous system, and some
         people see changes in overnight heart rate variability. There&rsquo;s
         no good evidence that this translates into a health benefit. Our{" "}
-        <a href="/guides/hrv-explained-wearables">HRV guide</a>{" "}
+        <Link href="/guides/hrv-explained-wearables">HRV guide</Link>{" "}
         explains why a single number is hard to interpret.
       </p>
 
@@ -462,7 +463,7 @@ export function ColdPlungeBenefitsAndRisks() {
       <p>
         More on recovery tools in the{" "}
         <a href="https://app.formulate-health.app/learning/track/therapies?utm_source=landing&utm_medium=guide_body&utm_campaign=cold-plunge-benefits-and-risks">Therapies learning track</a> and the{" "}
-        <a href="/learn/cold-plunge">cold plunge reference page</a>.
+        <Link href="/learn/cold-plunge">cold plunge reference page</Link>.
       </p>
       <p>
         <a href="https://app.formulate-health.app/therapies">

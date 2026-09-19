@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -96,9 +97,9 @@ export function SleepEnvironmentDarkQuietCool() {
           <strong>Bright light in the morning.</strong> Darkness at night works
           best alongside daylight early in the day, which anchors the body
           clock. If mornings are dark where you live, see our guide to{" "}
-          <a href="/guides/light-therapy-lamp-for-seasonal-depression">
+          <Link href="/guides/light-therapy-lamp-for-seasonal-depression">
             light therapy lamps
-          </a>
+          </Link>
           .
         </li>
       </ul>
@@ -230,11 +231,11 @@ export function SleepEnvironmentDarkQuietCool() {
         <li>
           <strong>Your mattress counts.</strong> Deep memory foam holds heat;
           see our{" "}
-          <a href="/guides/how-to-choose-a-mattress">mattress guide</a>
+          <Link href="/guides/how-to-choose-a-mattress">mattress guide</Link>
           . Weighted blankets add heat too (see our{" "}
-          <a href="/guides/weighted-blankets-evidence">
+          <Link href="/guides/weighted-blankets-evidence">
             weighted blanket guide
-          </a>
+          </Link>
           ).
         </li>
       </ul>
@@ -337,9 +338,9 @@ export function SleepEnvironmentDarkQuietCool() {
         }]} />{" "}
         CBT-I is available through clinicians and structured digital programmes.
         Supplements are covered in our{" "}
-        <a href="/guides/best-sleep-supplement-protocol">
+        <Link href="/guides/best-sleep-supplement-protocol">
           sleep supplement protocol
-        </a>
+        </Link>
         .
       </p>
 
@@ -386,7 +387,7 @@ export function SleepEnvironmentDarkQuietCool() {
         Other conditions that need a clinician rather than a purchase include
         restless legs (an urge to move the legs in the evening, sometimes linked
         to low iron &mdash; see our{" "}
-        <a href="/guides/iron-guide">iron guide</a>), nightmares after
+        <Link href="/guides/iron-guide">iron guide</Link>), nightmares after
         trauma, and sleep disrupted by pain, mood disorders or medications.
       </p>
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -185,7 +186,7 @@ export function FlossingAndOralHealth() {
         between teeth. That is usually inflammation settling, not damage.
         Bleeding that continues beyond about two weeks of consistent cleaning is
         a reason to see a dentist or hygienist. The{" "}
-        <a href="/learn/floss">floss reference</a> covers the
+        <Link href="/learn/floss">floss reference</Link> covers the
         product types in more detail.
       </p>
 
@@ -279,9 +280,9 @@ export function FlossingAndOralHealth() {
         mouthwash routinely without a dental reason, especially if you have
         high blood pressure. If you monitor your blood pressure, see our guide
         to{" "}
-        <a href="/guides/how-to-measure-blood-pressure-at-home">
+        <Link href="/guides/how-to-measure-blood-pressure-at-home">
           measuring blood pressure at home
-        </a>
+        </Link>
         .
       </p>
 
@@ -428,7 +429,7 @@ export function FlossingAndOralHealth() {
         inflammation. An electric brush is a small upgrade. Use mouthwash for a
         reason, not by habit. If you have diabetes, gum care is part of your
         blood sugar care. See the{" "}
-        <a href="/learn/toothpaste">toothpaste reference</a> and the{" "}
+        <Link href="/learn/toothpaste">toothpaste reference</Link> and the{" "}
         <a href="https://app.formulate-health.app/learning/track/personal-care?utm_source=landing&utm_medium=guide_body&utm_campaign=flossing-and-oral-health">personal care learning track</a>{" "}
         for more.
       </p>

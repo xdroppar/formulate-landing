@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -306,7 +307,7 @@ export function LightTherapyLampForSeasonalDepression() {
         light at skin and tissue, at far lower brightness, and you should
         protect your eyes from it. A red panel won&rsquo;t treat SAD, and a
         SAD lamp won&rsquo;t do what red light marketing claims. See our{" "}
-        <a href="/guides/red-light-therapy-evidence">red light therapy guide</a>{" "}
+        <Link href="/guides/red-light-therapy-evidence">red light therapy guide</Link>{" "}
         for that side.
       </p>
 
@@ -372,7 +373,7 @@ export function LightTherapyLampForSeasonalDepression() {
         it easier to fall asleep at night and wake in the morning. That&rsquo;s
         a secondary benefit. For more on the timing side, see the{" "}
         <a href="https://app.formulate-health.app/learning/track/sleep?utm_source=landing&utm_medium=guide_body&utm_campaign=light-therapy-lamp-for-seasonal-depression">Sleep learning track</a> and our{" "}
-        <a href="/guides/best-sleep-supplement-protocol">sleep protocol guide</a>.
+        <Link href="/guides/best-sleep-supplement-protocol">sleep protocol guide</Link>.
       </p>
 
       <h2>The Bottom Line</h2>
@@ -387,7 +388,7 @@ export function LightTherapyLampForSeasonalDepression() {
         depression as a medical problem, with light as one tool among several.
       </p>
       <p>
-        See the <a href="/learn/light-therapy">light therapy reference page</a>{" "}
+        See the <Link href="/learn/light-therapy">light therapy reference page</Link>{" "}
         and the <a href="https://app.formulate-health.app/learning/track/therapies?utm_source=landing&utm_medium=guide_body&utm_campaign=light-therapy-lamp-for-seasonal-depression">Therapies learning track</a>.
       </p>
       <p>

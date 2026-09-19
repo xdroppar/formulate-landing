@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -212,9 +213,9 @@ export function HowToChooseAMattress() {
         skin area that can shed heat. For hot sleepers that is a real, not a
         marketing, reason to prefer latex, coils or a firmer foam. Our guide to
         the{" "}
-        <a href="/guides/sleep-environment-dark-quiet-cool">
+        <Link href="/guides/sleep-environment-dark-quiet-cool">
           sleep environment
-        </a>{" "}
+        </Link>{" "}
         covers room temperature and bedding.
       </p>
 
@@ -359,7 +360,7 @@ export function HowToChooseAMattress() {
           <strong>Sleep-tracking &ldquo;smart&rdquo; mattresses.</strong> The
           sensors may be interesting, but tracking does not change how the
           mattress supports you. See our guide to{" "}
-          <a href="/guides/hrv-explained-wearables">wearables and HRV</a>{" "}
+          <Link href="/guides/hrv-explained-wearables">wearables and HRV</Link>{" "}
           for what these numbers can and cannot tell you.
         </li>
       </ul>
@@ -379,7 +380,7 @@ export function HowToChooseAMattress() {
         warmer. If the mattress under it is worn out, put the money towards a
         replacement instead. Pillows matter too: a pillow that is too high or
         too flat for your position can undo a good mattress. Our{" "}
-        <a href="/learn/pillows">pillow reference</a> covers loft and
+        <Link href="/learn/pillows">pillow reference</Link> covers loft and
         fill.
       </p>
 
@@ -457,11 +458,11 @@ export function HowToChooseAMattress() {
         &ldquo;orthopedic&rdquo;, zoning and cooling-gel claims until someone
         shows independent data. For the rest of the bedroom, see our guides to
         the{" "}
-        <a href="/guides/sleep-environment-dark-quiet-cool">
+        <Link href="/guides/sleep-environment-dark-quiet-cool">
           sleep environment
-        </a>{" "}
+        </Link>{" "}
         and{" "}
-        <a href="/guides/weighted-blankets-evidence">weighted blankets</a>
+        <Link href="/guides/weighted-blankets-evidence">weighted blankets</Link>
         , and the{" "}
         <a href="https://app.formulate-health.app/learning/track/sleep?utm_source=landing&utm_medium=guide_body&utm_campaign=how-to-choose-a-mattress">sleep learning track</a>.
       </p>

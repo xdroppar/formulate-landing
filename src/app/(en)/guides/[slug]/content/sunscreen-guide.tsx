@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -312,9 +313,9 @@ export function SunscreenGuide() {
         If you avoid the sun strictly, have dark skin and live far from the
         equator, or cover up for cultural reasons, supplementing is simpler than
         sunbathing; see our{" "}
-        <a href="/guides/best-vitamin-d-supplements">
+        <Link href="/guides/best-vitamin-d-supplements">
           vitamin D guide
-        </a>
+        </Link>
         .
       </p>
 
@@ -335,7 +336,7 @@ export function SunscreenGuide() {
         Other common culprits include fluoroquinolone and sulfonamide
         antibiotics, isotretinoin, methotrexate, St John&rsquo;s wort, and
         topical retinoids (see our{" "}
-        <a href="/guides/retinol-vs-tretinoin">retinoid guide</a>).
+        <Link href="/guides/retinol-vs-tretinoin">retinoid guide</Link>).
       </p>
       <p>
         The blood-pressure pill hydrochlorothiazide deserves a specific
@@ -433,7 +434,7 @@ export function SunscreenGuide() {
         choice rather than a safety verdict. Check your medicines, keep babies
         in the shade, and treat sunscreen as one layer alongside clothing and
         timing. See the{" "}
-        <a href="/learn/sunscreen">sunscreen reference</a> and the{" "}
+        <Link href="/learn/sunscreen">sunscreen reference</Link> and the{" "}
         <a href="https://app.formulate-health.app/learning/track/personal-care?utm_source=landing&utm_medium=guide_body&utm_campaign=sunscreen-guide">personal care learning track</a>{" "}
         for more.
       </p>

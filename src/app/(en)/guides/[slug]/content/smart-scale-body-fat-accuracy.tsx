@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -331,7 +332,7 @@ export function SmartScaleBodyFatAccuracy() {
           <strong>Pair weight with waist.</strong> If you&rsquo;re strength
           training, weight may stay flat while your waist shrinks. That&rsquo;s
           progress the scale alone would miss. Our guide to{" "}
-          <a href="/guides/sarcopenia-reverse-muscle-loss">preventing muscle loss</a>{" "}
+          <Link href="/guides/sarcopenia-reverse-muscle-loss">preventing muscle loss</Link>{" "}
           explains why muscle matters more with age.
         </li>
         <li>
@@ -409,9 +410,9 @@ export function SmartScaleBodyFatAccuracy() {
       </p>
       <p>
         See the <a href="https://app.formulate-health.app/learning/track/body?utm_source=landing&utm_medium=guide_body&utm_campaign=smart-scale-body-fat-accuracy">Body learning track</a> and the{" "}
-        <a href="/learn/smart-scales">smart scale reference page</a>,
+        <Link href="/learn/smart-scales">smart scale reference page</Link>,
         or learn to read another home measurement properly in our{" "}
-        <a href="/guides/how-to-measure-blood-pressure-at-home">blood pressure guide</a>.
+        <Link href="/guides/how-to-measure-blood-pressure-at-home">blood pressure guide</Link>.
       </p>
       <p>
         <a href="https://app.formulate-health.app/body">

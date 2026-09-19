@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   TLDRBox,
   Callout,
@@ -360,7 +361,7 @@ export function RedLightTherapyEvidence() {
         No. A SAD light box is bright white light aimed at the eyes to shift
         your body clock and mood. Red light therapy is aimed at skin and
         tissue, and the eyes should be protected. Our{" "}
-        <a href="/guides/light-therapy-lamp-for-seasonal-depression">light therapy lamp guide</a>{" "}
+        <Link href="/guides/light-therapy-lamp-for-seasonal-depression">light therapy lamp guide</Link>{" "}
         covers the depression evidence.
       </p>
 
@@ -378,7 +379,7 @@ export function RedLightTherapyEvidence() {
         or white light, which is a reason to use warm, dim lighting before
         bed. Whether a bright red panel actively improves sleep is based on a
         couple of small studies. For evidence-based sleep steps, see our{" "}
-        <a href="/guides/best-sleep-supplement-protocol">sleep protocol</a>.
+        <Link href="/guides/best-sleep-supplement-protocol">sleep protocol</Link>.
       </p>
 
       <h3>Does it work through clothing or hair?</h3>
@@ -410,7 +411,7 @@ export function RedLightTherapyEvidence() {
       </p>
       <p>
         More in the <a href="https://app.formulate-health.app/learning/track/therapies?utm_source=landing&utm_medium=guide_body&utm_campaign=red-light-therapy-evidence">Therapies learning track</a>{" "}
-        and the <a href="/learn/red-light">red light reference page</a>.
+        and the <Link href="/learn/red-light">red light reference page</Link>.
       </p>
       <p>
         <a href="https://app.formulate-health.app/therapies">
