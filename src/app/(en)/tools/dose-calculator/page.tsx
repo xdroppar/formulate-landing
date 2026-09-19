@@ -6,11 +6,11 @@ const BASE = "https://formulate-health.app";
 
 export const metadata: Metadata = {
   title: `Supplement Dose Calculator`,
-  description: `Look up evidence-based dose ranges for 969 supplement ingredients. Typical range, timing, with-food notes, forms, and bodyweight-adjusted dosing where it matters.`,
+  description: `Look up evidence-based dose ranges for ${ingredients.length} supplement ingredients. Typical range, timing, with-food notes, forms, and bodyweight-adjusted dosing where it matters.`,
   alternates: { canonical: `${BASE}/tools/dose-calculator` },
   openGraph: {
     title: `Supplement Dose Calculator`,
-    description: `Evidence-based dose lookup for 969 supplement ingredients.`,
+    description: `Evidence-based dose lookup for ${ingredients.length} supplement ingredients.`,
     type: "website",
     url: `${BASE}/tools/dose-calculator`,
   },

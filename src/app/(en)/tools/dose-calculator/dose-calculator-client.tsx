@@ -181,7 +181,7 @@ export function DoseCalculatorClient({ ingredients }: { ingredients: Option[] })
           Dose Calculator
         </h1>
         <p className="text-base text-muted leading-relaxed">
-          Look up evidence-based dose ranges for any of the 969 supplement
+          Look up evidence-based dose ranges for any of the {ingredients.length} supplement
           ingredients in our encyclopedia. For bodyweight-scaled compounds
           (creatine, protein, caffeine, a few others), enter your weight to
           get a personalized range.

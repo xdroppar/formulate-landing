@@ -174,7 +174,7 @@ export function StackBuilderClient({ ingredients }: { ingredients: Option[] }) {
           Stack Builder
         </h1>
         <p className="text-base text-muted leading-relaxed">
-          Pick ingredients from our 969-entry encyclopedia. The builder
+          Pick ingredients from our {ingredients.length}-entry encyclopedia. The builder
           auto-checks for interactions between everything you add, shows
           typical dose and timing for each, and generates a shareable URL
           so you can bookmark or send the stack.

@@ -9,6 +9,7 @@ import {
 } from "@/lib/stacks";
 import {
   ingredientBySlug,
+  ingredients as allIngredients,
   EVIDENCE_GRADE_META,
   type Ingredient,
 } from "@/lib/encyclopedia";
@@ -282,7 +283,7 @@ export default async function StackPage({ params }: { params: Params }) {
           <li>
             →{" "}
             <Link href="/ingredients" className="hover:text-accent">
-              Browse all 969 ingredients with evidence grades
+              Browse all {allIngredients.length} ingredients with evidence grades
             </Link>
           </li>
           <li>
