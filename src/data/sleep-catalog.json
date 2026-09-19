@@ -19160,6 +19160,48 @@
       "url_state": "live",
       "url_why": "page names it (100% via 'baselogic Silver Adjustable Base')",
       "image_url": "/sleep-assets/tuft-needle-baselogic-silver-adjustable-base/primary.webp"
+    },
+    {
+      "id": "parachute-cocoon-eye-mask",
+      "name": "Cocoon Eye Mask",
+      "brand": "Parachute",
+      "category": "sleep_masks",
+      "category_group": "sleep_environment",
+      "description": "Do not disturb. Seriously. Oversized, extra-puffy and designed for full coverage, this eye mask turns shutting out the world into something exceptionally comfortable. Smooth cotton sateen and fluffy fill create a soft cushion around the eyes, while an elastic strap keeps it comfortably in place as you sleep. A matching pouch makes it easy to bring nap time along.",
+      "key_features": [],
+      "price_min": 39,
+      "price_max": 39,
+      "url": "https://parachutehome.com/products/cocoon-eye-mask-evergreen-and-malachite",
+      "source": "parachutehome.com",
+      "source_handle": "cocoon-eye-mask-evergreen-and-malachite",
+      "published": true,
+      "variants": [
+        "Adobe and Marigold",
+        "Evergreen and Malachite"
+      ],
+      "url_ok": true,
+      "url_state": "live",
+      "url_why": "page names it (100% via 'Cocoon Eye Mask (Evergreen and Malachite')",
+      "image_url": "/sleep-assets/parachute-cocoon-eye-mask/primary.webp"
+    },
+    {
+      "id": "slip-noelle-contour-sleep-mask",
+      "name": "Noelle Contour Sleep Mask",
+      "brand": "Slip",
+      "category": "sleep_masks",
+      "category_group": "sleep_environment",
+      "description": "Your lashes asked. We listened.\nProtect your delicate eyelash extensions while you get your beauty sleep!\n\nThe slip® contour sleep mask has been specifically designed with delicate eyelash extensions in mind*. The shape of the contour on the inside of the sleep mask has been designed to sit away from your eyelids and allow additional space for your eyelashes to sit while you get your beauty sleep.\n\n*While slip® has made all efforts to design its contour sleep mask to be suitable for eyelash extensions, slip® acknowledges that not all lashes are the same and the contour sleep mask may not be suitable for all lengths or types of lashes. Slip® encourages you to use your own discretion in deciding whether the contour sleep mask is suitable for you.\n\n Protected by registered designs and/or patents: see www.slip.com/IP\n\nMade using slipsilk™ exclusive of elastic and piping | Filler made with PU",
+      "key_features": [],
+      "price_min": 84,
+      "price_max": 84,
+      "url": "https://slipsilkpillowcase.com/products/noelle-contour-sleep-mask",
+      "source": "slipsilkpillowcase.com",
+      "source_handle": "noelle-contour-sleep-mask",
+      "published": true,
+      "url_ok": true,
+      "url_state": "live",
+      "url_why": "page names it (100% via 'Noelle Contour Sleep Mask – Slip')",
+      "image_url": "/sleep-assets/slip-noelle-contour-sleep-mask/primary.webp"
     }
   ]
 }
