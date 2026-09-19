@@ -18,14 +18,27 @@
  */
 export const AMAZON_ASSOCIATES_TAG = "formulate00-20";
 
+const fold = (s: string) =>
+  s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/** Brand + name, without saying the brand twice. Skincare and sleep names
+ *  already start with the brand ("Anua Niacinamide 10% + TXA 4% Serum"), so
+ *  691 searches read "Anua Anua Niacinamide…"; supplement names do not. */
+export function amazonQueryFor(p: { brand: string; name: string }): string {
+  const brand = (p.brand ?? "").trim();
+  const name = (p.name ?? "").trim();
+  // Whole words only: "Nest" must not swallow "Nestle…".
+  const named = fold(name) === fold(brand) || fold(name).startsWith(`${fold(brand)} `);
+  const q = brand && !named ? `${brand} ${name}` : name;
+  return q.replace(/\s+/g, " ").trim();
+}
+
 export function amazonLinkFor(p: {
   brand: string;
   name: string;
   amazon_url?: string | null;
 }): string {
-  const search = `https://www.amazon.com/s?k=${encodeURIComponent(
-    `${p.brand} ${p.name}`.replace(/\s+/g, " ").trim(),
-  )}`;
+  const search = `https://www.amazon.com/s?k=${encodeURIComponent(amazonQueryFor(p))}`;
   let url: URL;
   try {
     const stored = p.amazon_url?.trim();
