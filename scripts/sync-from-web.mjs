@@ -39,6 +39,7 @@
 import { existsSync, readFileSync, writeFileSync, cpSync, copyFileSync, mkdirSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { makeThumbs } from "./make-thumbs.mjs";
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const LANDING_ROOT = resolve(SCRIPT_DIR, "..");
@@ -240,6 +241,10 @@ for (const g of GEAR) {
       (gearMissing ? `, ${gearMissing} missing` : ""),
   );
 }
+
+/* List-sized thumbs for the gear photos just copied (see make-thumbs.mjs).
+   Never fatal: a product without one renders its full photo. */
+await makeThumbs({ root: LANDING_ROOT, log: (line) => gearReport.push(line) });
 
 console.log("=== Landing catalog mirrored from web app ===");
 console.log(`  source : ${WEB_CATALOG}`);

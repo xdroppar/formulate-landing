@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { listThumb } from "@/lib/thumbs";
 import { sleepCategories, sleepScored, sleepCatalogSize } from "@/lib/sleep";
 import { ScoreMeter } from "@/components/score-meter";
 
@@ -44,7 +45,7 @@ export default function SleepHub() {
                   >
                     {top.image_url ? (
                       <div className="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
-                        <Image src={top.image_url} alt="" fill sizes="48px" className="object-contain p-1" />
+                        <Image src={listThumb(top.image_url)} alt="" fill sizes="48px" className="object-contain p-1" />
                       </div>
                     ) : null}
                     <div className="flex-1 min-w-0">
