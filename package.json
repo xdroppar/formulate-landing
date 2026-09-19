@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "sync": "bash scripts/sync-catalog.sh",
     "typecheck": "node -e \"require('fs').rmSync('.next/dev/types',{recursive:true,force:true})\" && next typegen && tsc --noEmit",
-    "verify": "npm run --silent typecheck && node scripts/check-console-css.mjs && node scripts/i18n-check.mjs && node scripts/translate-captions.mjs --check",
+    "verify": "npm run --silent typecheck && node scripts/check-console-css.mjs && node scripts/i18n-check.mjs && node scripts/translate-captions.mjs --check && node scripts/check-client-data.mjs",
     "verify:i18n": "node scripts/i18n-check.mjs",
     "verify:captions": "node scripts/translate-captions.mjs --check",
     "captions": "node scripts/translate-captions.mjs",

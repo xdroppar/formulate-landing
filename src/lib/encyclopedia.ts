@@ -1,6 +1,10 @@
 import encyclopediaData from "@/data/encyclopedia.json";
 
-export type EvidenceGrade = "A" | "B" | "C" | "D";
+import type { EvidenceGrade } from "@/lib/evidence-grade";
+// Re-exported so server code keeps importing from here; client code must use
+// lib/evidence-grade, which carries no data (see that file).
+export type { EvidenceGrade } from "@/lib/evidence-grade";
+export { EVIDENCE_GRADE_META } from "@/lib/evidence-grade";
 
 export type DosageInfo = {
   typical_range?: string | null;
@@ -123,29 +127,3 @@ export function relatedIngredients(ingredient: Ingredient, limit = 6): Ingredien
     })
     .slice(0, limit);
 }
-
-export const EVIDENCE_GRADE_META: Record<
-  EvidenceGrade,
-  { label: string; color: string; description: string }
-> = {
-  A: {
-    label: "Strong evidence",
-    color: "#10B981",
-    description: "Multiple well-designed human trials support the main claims.",
-  },
-  B: {
-    label: "Moderate evidence",
-    color: "#3B82F6",
-    description: "Some human trials support key claims; further confirmation needed.",
-  },
-  C: {
-    label: "Limited evidence",
-    color: "#F59E0B",
-    description: "Mostly observational or small trials; mechanism is plausible but unproven at scale.",
-  },
-  D: {
-    label: "Very limited evidence",
-    color: "#EF4444",
-    description: "Primarily pre-clinical or anecdotal; human efficacy not established.",
-  },
-};
