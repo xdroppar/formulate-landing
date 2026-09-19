@@ -483,7 +483,7 @@ export function HowToBuildStack() {
       </p>
 
       <ProductRow
-        title="The foundation stack — top scored"
+        title="The foundation stack"
         products={[
           PRODUCTS["thorne-vitamin-d-k2"],
           PRODUCTS["thorne-super-epa-pro"],

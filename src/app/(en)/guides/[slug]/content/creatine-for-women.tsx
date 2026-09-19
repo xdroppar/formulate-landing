@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function CreatineForWomen() {
@@ -404,13 +405,7 @@ export function CreatineForWomen() {
         your next provider visit.
       </p>
 
-      <ProductRow
-        title="Top-scored creatine products"
-        products={[
-          PRODUCTS["thorne-creatine"],
-          PRODUCTS["nootropics-depot-creatine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.creatine} what="creatine products" />
 
       <h2>The Bottom Line</h2>
 

@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function VitaminB12MethylcobalaminVsCyanocobalamin() {
@@ -234,13 +235,7 @@ export function VitaminB12MethylcobalaminVsCyanocobalamin() {
 
       <ProductCallout product={PRODUCTS["thorne-vitamin-b12"]} />
 
-      <ProductRow
-        title="Top-scored B12 products"
-        products={[
-          PRODUCTS["thorne-vitamin-b12"],
-          PRODUCTS["thorne-b-complex-12"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.b12} what="B12 products" />
 
       <h2>The Bottom Line</h2>
       <p>

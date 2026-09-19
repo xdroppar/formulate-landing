@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function CreatineLoadingPhase() {
@@ -317,13 +318,7 @@ export function CreatineLoadingPhase() {
         good practice.
       </p>
 
-      <ProductRow
-        title="Top-scored creatine supplements"
-        products={[
-          PRODUCTS["thorne-creatine"],
-          PRODUCTS["nootropics-depot-creatine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.creatine} what="creatine products" />
 
       <h2>Creatine Forms Explained: Why Monohydrate Wins</h2>
 

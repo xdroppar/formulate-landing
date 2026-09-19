@@ -437,7 +437,7 @@ export function ProteinIntakeMuscleAfter40() {
       </p>
 
       <ProductRow
-        title="Support your training with top-scored supplements"
+        title="Supplements that support your training"
         products={[
           PRODUCTS["thorne-creatine"],
           PRODUCTS["thorne-collagen-plus"],

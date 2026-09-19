@@ -2,12 +2,13 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function MagnesiumDeficiency() {
@@ -439,14 +440,7 @@ export function MagnesiumDeficiency() {
         />
       </InteractionGroup>
 
-      <ProductRow
-        title="Magnesium supplements — top scored"
-        products={[
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-          PRODUCTS["nootropics-depot-magnesium-glycinate"],
-          PRODUCTS["thorne-magnesium-citramate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.magnesium} what="single-compound magnesium products" />
 
       <h2>Magnesium and Blood Pressure: The Overlooked Benefit</h2>
 

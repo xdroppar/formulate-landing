@@ -220,7 +220,7 @@ export function AlphaGpcVsCiticoline() {
       </p>
 
       <ProductRow
-        title="Top-scored cognitive support products"
+        title="Cognitive support products in this guide"
         products={[
           PRODUCTS["nootropics-depot-cognizin"],
           PRODUCTS["nootropics-depot-l-theanine"],

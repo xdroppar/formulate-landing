@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function CreatineAndHairLoss() {
@@ -215,13 +216,7 @@ export function CreatineAndHairLoss() {
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
 
-      <ProductRow
-        title="Top-scored creatine products"
-        products={[
-          PRODUCTS["thorne-creatine"],
-          PRODUCTS["nootropics-depot-creatine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.creatine} what="creatine products" />
 
       <h2>What to Do If You&rsquo;re Still Concerned</h2>
 

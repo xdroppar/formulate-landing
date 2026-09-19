@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BerberineVsMetformin() {
@@ -286,12 +287,7 @@ export function BerberineVsMetformin() {
 
       <ProductCallout product={PRODUCTS["thorne-berberine"]} />
 
-      <ProductRow
-        title="Top-scored berberine products"
-        products={[
-          PRODUCTS["thorne-berberine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.berberine} what="berberine products" />
 
       <h2>The Bottom Line</h2>
       <p>

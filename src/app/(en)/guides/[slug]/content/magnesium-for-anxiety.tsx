@@ -323,7 +323,7 @@ export function MagnesiumForAnxiety() {
       <ProductCallout product={PRODUCTS["thorne-magnesium-bisglycinate"]} />
 
       <ProductRow
-        title="Top-scored anxiety-support stack"
+        title="The anxiety-support stack in this guide"
         products={[
           PRODUCTS["thorne-magnesium-bisglycinate"],
           PRODUCTS["nootropics-depot-l-theanine"],

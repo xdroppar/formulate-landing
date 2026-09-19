@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function ProbioticStrainsForIbs() {
@@ -259,13 +260,7 @@ export function ProbioticStrainsForIbs() {
 
       <ProductCallout product={PRODUCTS["thorne-floramend"]} />
 
-      <ProductRow
-        title="Top-scored gut-support products"
-        products={[
-          PRODUCTS["thorne-floramend"],
-          PRODUCTS["thorne-omega-3-coq10"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.probiotic} what="probiotics" />
 
       <h2>The Bottom Line</h2>
 

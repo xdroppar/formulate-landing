@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestCollagenForJoints() {
@@ -367,13 +368,7 @@ export function BestCollagenForJoints() {
 
       <ProductCallout product={PRODUCTS["thorne-collagen-plus"]} />
 
-      <ProductRow
-        title="Top-scored collagen + joint products"
-        products={[
-          PRODUCTS["thorne-collagen-plus"],
-          PRODUCTS["thorne-curcumin-phytosome"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.collagen} what="collagen products" />
 
       <h2>The Bottom Line</h2>
 

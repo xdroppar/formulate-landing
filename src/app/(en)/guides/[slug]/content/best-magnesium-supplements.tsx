@@ -3,12 +3,14 @@ import {
   Callout,
   ComparisonTable,
   ProductCallout,
-  ProductRow,
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogCount,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestMagnesium() {
@@ -39,11 +41,12 @@ export function BestMagnesium() {
       </p>
 
       <Callout variant="info" title="How we scored these">
-        We evaluated 15 magnesium products across multiple forms and six
-        pillars: clinical evidence (25%), manufacturing quality (20%), dose
-        accuracy (20%), bioavailability (15%), label transparency (10%), and
-        safety (10%). Products that didn&rsquo;t meet minimum thresholds for
-        third-party testing or dose accuracy were excluded. See our{" "}
+        Every single-compound magnesium product in the catalog &mdash;{" "}
+        <CatalogCount rule={PICK_RULES.magnesium} />{" "}of them right now &mdash; is scored
+        the same way: clinical evidence (40%), dose adequacy (35%) and
+        form and bioavailability (25%). The top of that list is further down
+        and is rebuilt whenever the catalog changes; the products named in
+        between are examples we explain in detail, not a ranking. See our{" "}
         <a href="/methodology">full methodology</a> for details.
       </Callout>
 
@@ -316,14 +319,7 @@ export function BestMagnesium() {
         testing and full label transparency.
       </p>
 
-      <ProductRow
-        title="Top-scored magnesium supplements"
-        products={[
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-          PRODUCTS["nootropics-depot-magnesium-glycinate"],
-          PRODUCTS["thorne-magnesium-citramate"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.magnesium} what="single-compound magnesium products" />
 
       <p>
         <strong>Nootropics Depot Magnesium L-Threonate (Magtein&reg;)</strong> is

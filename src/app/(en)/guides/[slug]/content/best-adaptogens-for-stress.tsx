@@ -2,10 +2,11 @@ import {
   TLDRBox,
   Callout,
   ProductCallout,
-  ProductRow,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestAdaptogensForStress() {
@@ -216,14 +217,7 @@ export function BestAdaptogensForStress() {
         None of the above is medical advice. Bring your full supplement list to your next provider visit.
       </p>
 
-      <ProductRow
-        title="Top-scored adaptogen + stress-support products"
-        products={[
-          PRODUCTS["thorne-ashwagandha"],
-          PRODUCTS["thorne-magnesium-bisglycinate"],
-          PRODUCTS["nootropics-depot-l-theanine"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.adaptogens} what="ashwagandha, rhodiola and reishi products" />
 
       <h2>The Bottom Line</h2>
       <p>

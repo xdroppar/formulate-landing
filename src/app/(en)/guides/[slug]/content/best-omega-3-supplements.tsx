@@ -3,12 +3,14 @@ import {
   Callout,
   ComparisonTable,
   ProductCallout,
-  ProductRow,
   InteractionCard,
   InteractionGroup,
   EvidenceBadge,
   IngredientLink,
   PRODUCTS,
+  CatalogCount,
+  CatalogTopPicks,
+  PICK_RULES,
 } from "@/components/guide";
 
 export function BestOmega3() {
@@ -39,11 +41,12 @@ export function BestOmega3() {
       </p>
 
       <Callout variant="info" title="How we scored these">
-        We evaluated 10 omega-3 and fish oil products across six pillars:
-        clinical evidence (25%), manufacturing quality (20%), dose accuracy
-        (20%), bioavailability (15%), label transparency (10%), and safety
-        (10%). Products that didn&rsquo;t meet minimum thresholds for
-        third-party testing or dose accuracy were excluded. See our{" "}
+        Every omega-3 product in the catalog &mdash;{" "}
+        <CatalogCount rule={PICK_RULES.omega3} />{" "}of them right now &mdash; is scored
+        the same way: clinical evidence (40%), dose adequacy (35%) and
+        form and bioavailability (25%). The top of that list is further down
+        and is rebuilt whenever the catalog changes; the products named in
+        between are examples we explain in detail, not a ranking. See our{" "}
         <a href="/methodology">full methodology</a> for details.
       </Callout>
 
@@ -469,8 +472,8 @@ export function BestOmega3() {
 
 <Callout variant="info" title="Budget Rule of Thumb">EE-form fish oil with IFOS certification, taken consistently with a fat-containing meal, delivers solid value. You're trading convenience and some absorption efficiency for significant savings — often 50–70% less per milligram than premium TG-form options.</Callout>
 
-      <h2>Comparison Table: All 8 Evaluated Products Side-by-Side</h2>
-      <p>A comparison table of omega-3 supplements is what you actually came here for. Below, we've distilled every product's key specs into a single scannable reference — no paragraph-hunting required. Scores reflect our six-pillar methodology: clinical evidence (25%), manufacturing quality (20%), dose accuracy (20%), bioavailability (15%), label transparency (10%), and safety (10%).</p>
+      <h2>Comparison Table: The Products Discussed Here</h2>
+      <p>A comparison table of omega-3 supplements is what you actually came here for. Below, we've distilled every product's key specs into a single scannable reference — no paragraph-hunting required. Scores come from our methodology: clinical evidence (40%), dose adequacy (35%) and form and bioavailability (25%).</p>
 
       <Callout variant="info" title="How to Read This Table">
       Cost per 1,000mg EPA+DHA is the only honest price comparison — it normalizes across concentrations and serving sizes. TOTOX values below 26 meet GOED voluntary standards. "NP" means the brand does not publicly disclose that value, which we consider a transparency penalty.
@@ -644,13 +647,7 @@ export function BestOmega3() {
         Buy accordingly.
       </p>
 
-      <ProductRow
-        title="Top-scored omega-3 supplements"
-        products={[
-          PRODUCTS["thorne-super-epa-pro"],
-          PRODUCTS["thorne-omega-3-coq10"],
-        ]}
-      />
+      <CatalogTopPicks rule={PICK_RULES.omega3} what="omega-3 products" />
 
       <p>
         <a href="https://app.formulate-health.app/catalog?q=omega&utm_source=landing&utm_medium=guide_body&utm_campaign=best-omega-3-supplements">

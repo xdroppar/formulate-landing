@@ -16,6 +16,7 @@ import { recipeDietTags, recipeCategories } from "@/lib/recipes";
 import { skinTypes, skinBrands } from "@/lib/skincare";
 import { goalPages, goalEvidenceSource } from "@/lib/goals";
 import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
+import { activeEntries, shelfEntries, slugOf, isThinLibraryEntry, LIBRARY_REVIEWED } from "@/lib/shelf-library";
 import catalogData from "@/data/catalog.json";
 import foodsCatalog from "@/data/whole-foods-catalog.json";
 
@@ -364,6 +365,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  // Products, explained + care ingredients. Thin entries (nothing cited, no
+  // evidence either way) stay reachable but are not submitted.
+  const libraryEntries: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/learn`, lastModified: LIBRARY_REVIEWED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/care-ingredients`, lastModified: LIBRARY_REVIEWED, changeFrequency: "monthly", priority: 0.8 },
+    ...shelfEntries
+      .filter((e) => !isThinLibraryEntry(e))
+      .map((e) => ({
+        url: `${baseUrl}/learn/${slugOf(e.id)}`,
+        lastModified: LIBRARY_REVIEWED,
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      })),
+    ...activeEntries
+      .filter((e) => !isThinLibraryEntry(e))
+      .map((e) => ({
+        url: `${baseUrl}/care-ingredients/${slugOf(e.id)}`,
+        lastModified: LIBRARY_REVIEWED,
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      })),
+  ];
+
   return [
     { url: baseUrl, changeFrequency: "weekly", priority: 1.0 },
     ...localeEntries(baseUrl, now),
@@ -393,6 +417,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...synergyEntries,
     ...nutrientEntries,
     ...researchEntriesSitemap,
+    ...libraryEntries,
     {
       url: `${baseUrl}/tools/dose-calculator`,
       changeFrequency: "monthly" as const,
