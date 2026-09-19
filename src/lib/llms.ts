@@ -18,6 +18,7 @@ import { SURFACE_GROUPS } from "@/lib/site-surfaces";
 import { careItems, fitnessItems, sleepItems } from "@/lib/gear";
 import { APP_STORE_URL } from "@/lib/app-store";
 import { skinTypes, skinBrands } from "@/lib/skincare";
+import { sleepCategories, sleepScored } from "@/lib/sleep";
 import { goalPages } from "@/lib/goals";
 import { evidenceTotals } from "@/lib/ingredient-evidence";
 
@@ -76,6 +77,7 @@ Formulate is built for people who want to know whether a supplement is actually 
 - [Ingredient encyclopedia](${SITE_ORIGIN}/ingredients): ${n("/ingredients")}evidence-graded ingredient references — uses, typical dose, evidence grade, and known interactions.
 - [Whole food scores](${SITE_ORIGIN}/foods): ${n("/foods")}whole foods graded 0–100 on nutrient density, protein, fiber, healthy fats, and beneficial compounds.
 - [Skincare](${SITE_ORIGIN}/skincare): ${n("/skincare")}skincare products scored on their actives and checked for irritants, fragrance and allergens, ranked in ${skinTypes.length} types (serums, sunscreens, moisturizers and more) and across ${skinBrands.length} brands.
+- [Sleep gear](${SITE_ORIGIN}/sleep): ${sleepScored.length} mattresses, pillows, sheets, sleep masks and more, scored on what their makers declare (materials, support, cooling, certifications) and compared only against their own kind, across ${sleepCategories.length} categories.
 - [Nutrient reference](${SITE_ORIGIN}/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
 - [Recipes](${SITE_ORIGIN}/recipes): ${n("/recipes")}recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
 - [Review conclusions report](${SITE_ORIGIN}/reports/supplement-review-conclusions): what systematic reviews concluded, outcome by outcome, for ${evidenceTotals.ingredients} supplement ingredients — ${evidenceTotals.conclusions} conclusions (benefit, no effect, unclear, harm), each quoted from a cited PubMed abstract, with the full dataset as CSV at ${SITE_ORIGIN}/reports/supplement-review-conclusions.csv.

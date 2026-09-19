@@ -14,6 +14,7 @@ import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { foods, bestFoodGroups } from "@/lib/foods";
 import { recipeDietTags, recipeCategories } from "@/lib/recipes";
 import { skinTypes, skinBrands } from "@/lib/skincare";
+import { sleepCategories, sleepScoresTakenAt } from "@/lib/sleep";
 import { goalPages, goalEvidenceSource } from "@/lib/goals";
 import { isIndexableTag, isThinIngredient, isThinSupplement } from "@/lib/indexability";
 import { activeEntries, shelfEntries, slugOf, isThinLibraryEntry, LIBRARY_REVIEWED } from "@/lib/shelf-library";
@@ -275,6 +276,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     })),
   ];
+  // Sleep: a page per category with 5+ scored products in a comparison set
+  // (lib/sleep.ts). Dated by when the scores were taken from the web app.
+  const sleepEntries: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/sleep`, lastModified: sleepScoresTakenAt, changeFrequency: "weekly", priority: 0.85 },
+    ...sleepCategories.map((c) => ({
+      url: `${baseUrl}/sleep/best/${c.slug}`,
+      lastModified: sleepScoresTakenAt,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+  ];
   const compareEntries: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/compare`,
@@ -407,6 +419,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...bestCategoryEntries,
     ...foodEntries,
     ...skincareEntries,
+    ...sleepEntries,
     ...goalEntries,
     ...recipeEntries,
     ...brandEntries,

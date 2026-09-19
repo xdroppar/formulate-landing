@@ -39,6 +39,7 @@ import { comparisons } from "@/lib/comparisons";
 import { stacks } from "@/lib/stacks";
 import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { skinProducts } from "@/lib/skincare";
+import { sleepScored } from "@/lib/sleep";
 import { goalPages } from "@/lib/goals";
 
 export type Surface = {
@@ -69,6 +70,7 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
       { href: "/recipes", label: "Recipes", count: recipes.length },
       { href: "/ingredients", label: "Ingredients", count: ingredients.length },
       { href: "/skincare", label: "Skincare", count: skinProducts.length },
+      { href: "/sleep", label: "Sleep gear", count: sleepScored.length },
       { href: "/brands", label: "Brands" },
     ],
   },
