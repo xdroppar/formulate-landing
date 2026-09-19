@@ -571,7 +571,7 @@ export function WhatToLookForInProbiotic() {
 
       <h3>Active IBD Flares</h3>
 
-      <p>During an active Crohn's or ulcerative colitis flare, gut barrier integrity is already compromised — meaning organisms have an easier path from the intestinal lumen into systemic circulation. Some strains (like <em>E. coli</em> Nissle 1917) have evidence in <em>maintaining</em> UC remission, but that's a different clinical scenario from active inflammation. <EvidenceBadge level="moderate" /> Self-supplementing during a flare without GI supervision is not a gray area — it's a clear "don't." Work with your <a href="/guides/ibs-vs-ibd-differences">gastroenterologist</a> on strain selection and timing.</p>
+      <p>During an active Crohn's or ulcerative colitis flare, gut barrier integrity is already compromised — meaning organisms have an easier path from the intestinal lumen into systemic circulation. Some strains (like <em>E. coli</em> Nissle 1917) have evidence in <em>maintaining</em> UC remission, but that's a different clinical scenario from active inflammation. <EvidenceBadge level="moderate" /> Self-supplementing during a flare without GI supervision is not a gray area — it's a clear "don't." Work with your gastroenterologist on strain selection and timing.</p>
 
       <p>If you fall into any of these groups, the issue isn't whether probiotics <em>might</em> help — it's that the downside risk outweighs any plausible benefit without medical oversight.</p>
 
