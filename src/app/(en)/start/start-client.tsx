@@ -9,7 +9,7 @@ import {
   checkStack as checkInteractionStack,
   SEVERITY_META,
 } from "@/lib/interactions";
-import { withUtm } from "@/lib/app-url";
+import { withUtm, stackAddUrl } from "@/lib/app-url";
 import { trackEvent } from "@/lib/analytics";
 import { OnboardingAurora } from "@/components/landing/onboarding-aurora";
 import { OnboardingConfetti } from "@/components/landing/onboarding-confetti";
@@ -20,7 +20,14 @@ const ease = [0.16, 1, 0.3, 1] as const;
 type Grade = "A" | "B" | "C" | "D";
 type Tier = "core" | "supporting" | "optional";
 
-type GoalIngredient = { slug: string; role: string; dose: string; tier: Tier };
+type GoalIngredient = {
+  slug: string;
+  role: string;
+  dose: string;
+  tier: Tier;
+  /** The product this becomes in the app's stack, where one exists. */
+  product: string | null;
+};
 type GoalStack = {
   slug: string;
   name: string;
@@ -205,6 +212,7 @@ export function StartClient({
           role: i.role,
           tier: i.tier,
           known: Boolean(meta),
+          product: i.product,
         };
       });
   }, [goal, tiers, ingredientMap]);
@@ -235,7 +243,22 @@ export function StartClient({
   const knownSlugs = recommended.filter((r) => r.known).map((r) => r.slug);
   const stackParam = knownSlugs.join(",");
 
+  /* The products behind the recommendation, deduped. The wizard has always
+     sent `stack=` with INGREDIENT slugs and the app has never read them —
+     it takes only `goal`, re-asks the same question in onboarding, and
+     builds its own starter picks. Where we can name the products, we hand
+     those over instead and the reader arrives on the stack they just built. */
+  const handoffProducts = [
+    ...new Set(recommended.map((r) => r.product).filter((s): s is string => !!s)),
+  ];
+
   const appUrl = (() => {
+    if (handoffProducts.length > 0) {
+      return stackAddUrl(handoffProducts, {
+        campaign: "start_wizard",
+        content: goalSlug ?? undefined,
+      });
+    }
     const base = withUtm(`${APP_URL}/?reset_onboarding=1`, {
       source: "landing",
       campaign: "start_wizard",
@@ -565,19 +588,38 @@ export function StartClient({
                 className="rounded-2xl border border-accent/30 bg-accent/[0.07] p-6"
               >
                 <h2 className="text-[length:var(--text-title)] font-semibold text-text mb-1.5">Take this stack into the app</h2>
+                {/* Two destinations, two promises. With products to hand over
+                    the app opens ON the stack and the guided tour does not run
+                    (it is for people who arrive with nothing), so the sentence
+                    that promised one only belongs on the other path. */}
                 <p className="text-sm text-muted leading-relaxed mb-5">
-                  Add it to your free stack, log what you take, and watch your
-                  nutrient coverage and Stack Score fill in — with a quick guided
-                  tour to get you set up.
+                  {handoffProducts.length > 0 ? (
+                    <>
+                      {handoffProducts.length === recommended.length
+                        ? "All of it arrives already added"
+                        : `${handoffProducts.length} of the ${recommended.length} arrive already added`}{" "}
+                      — the highest-scored product named for each ingredient.
+                      Swap or remove any of them there, log what you take, and
+                      watch your nutrient coverage and Stack Score fill in.
+                    </>
+                  ) : (
+                    <>
+                      Add it to your free stack, log what you take, and watch your
+                      nutrient coverage and Stack Score fill in — with a quick
+                      guided tour to get you set up.
+                    </>
+                  )}
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
                     href={appUrl}
+                    data-cta-source="start_wizard"
                     onClick={() =>
                       trackEvent("start_handoff", {
                         goal: goalSlug,
                         experience,
                         stack_size: recommended.length,
+                        carried: handoffProducts.length,
                         destination: "app",
                       })
                     }
