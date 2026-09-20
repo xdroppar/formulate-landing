@@ -222,10 +222,20 @@ const thumbBySrc: Map<string, string> = (() => {
   const publicDir = join(process.cwd(), "public");
   for (const p of products) {
     if (!p.image_url) continue;
-    const candidate = p.image_url.replace(/\/primary\.webp$/, "/thumb.webp");
-    if (candidate === p.image_url) continue;
+    // EVERY image_url carries a ?v= cache-busting token, and this used to
+    // match on the url ENDING in /primary.webp — so it matched nothing, for
+    // every product, for the whole life of the optimisation. The map was
+    // empty and thumbUrl returned the full-size photo to every 48px slot on
+    // the site. Split the query off, match the path, put the token back:
+    // it is the primary's content hash and the thumb changes with it.
+    // scripts/check-thumbs.mjs fails the build if this stops resolving.
+    const [path, query] = p.image_url.split("?");
+    const candidate = path.replace(/\/primary\.webp$/, "/thumb.webp");
+    if (candidate === path) continue;
     try {
-      if (existsSync(join(publicDir, candidate))) map.set(p.image_url, candidate);
+      if (existsSync(join(publicDir, candidate))) {
+        map.set(p.image_url, query ? `${candidate}?${query}` : candidate);
+      }
     } catch {
       // fs unavailable (e.g. accidental client bundle) — fall back to primary
     }
