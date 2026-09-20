@@ -12,6 +12,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { TrackedDownloadLink } from "@/components/tracked-download-link";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { RatingBar } from "@/components/rating-bar";
 
 const APP_URL = "https://app.formulate-health.app";
 
@@ -197,6 +198,12 @@ export function ArticleLayout({ guide, children }: ArticleLayoutProps) {
           <TableOfContents />
           {children}
         </div>
+
+        {/* The ask, the moment the reading ends and before anything is sold:
+            the page has already given something, which is the only honest
+            place to ask for a second of someone's time. One tap, asked once
+            per reader — see rating-bar and clawd/FEEDBACK-PLAN.md. */}
+        <RatingBar surface="landing-guide" detail={`guide:${guide.slug}`} />
 
         {/* Supplement cross-sells (for guides where the topic has supplement support) */}
         {crossSells && crossSells.length > 0 && (
