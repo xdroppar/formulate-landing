@@ -4010,7 +4010,7 @@
     "journal": "JMIR mHealth and uHealth",
     "pmid": "33929337",
     "study_type": "Validation study",
-    "finding_summary": "Three commercial smart scales tested against DEXA in about 50 hospital patients each measured weight to within a median of 0–0.3 kg, but fat-mass errors had medians of 2.2–4.4 kg; the authors concluded smart scales are not accurate for body composition."
+    "finding_summary": "Three commercial smart scales were tested against DEXA in about 50 hospital patients; each scale measured weight to within a median of 0–0.3 kg, but fat-mass errors had medians of 2.2–4.4 kg; the authors concluded smart scales are not accurate for body composition."
    },
    {
     "title": "Self-weighing in weight management: a systematic literature review",
@@ -4263,7 +4263,7 @@
   "what": "Wrist trackers and smartwatches use motion sensors and **optical heart-rate sensors** (light shone into the skin to detect each pulse) to estimate steps, heart rate and sleep, and on some models blood oxygen, skin temperature, fitness (VO₂ max) and heart rhythm. A few features, such as an ECG app or irregular-rhythm notifications, may be cleared by regulators; most of the rest are wellness estimates never reviewed for medical accuracy.\n\nThe value is in trends against your own baseline: resting heart rate, daily movement, and when you sleep.",
   "evidence": {
    "level": "moderate",
-   "summary": "An umbrella review of 39 meta-analyses (about 164,000 people) found activity trackers raised physical activity by roughly 1,800 steps a day, with small effects on weight and fitness. In a study of 419,297 smartwatch users, 34% of those who got an irregular-pulse alert had atrial fibrillation confirmed on a later ECG patch. Accuracy depends on the metric: heart rate is good at rest and worse during movement, no tested device estimated calories within 20%, and VO₂ max estimates can be off by about ±10 mL/kg/min for an individual."
+   "summary": "An umbrella review of 39 meta-analyses (about 164,000 people) found activity trackers raised physical activity by roughly 1,800 steps a day, with small effects on weight and fitness. In a study of 419,297 smartwatch users, among those who got an irregular-pulse alert and then wore an ECG patch, 34% had atrial fibrillation confirmed. Accuracy depends on the metric: heart rate is good at rest and worse during movement, no tested device estimated calories within 20%, and VO₂ max estimates can be off by about ±10 mL/kg/min for an individual."
   },
   "claims": [
    {
@@ -6303,7 +6303,7 @@
     "pmid": "9777765",
     "doi": "10.1016/s0190-9622(98)70007-6",
     "study_type": "RCTs (placebo-controlled)",
-    "finding_summary": "In two one-year trials of 1,553 men, finasteride 1 mg daily increased hair counts versus placebo (107 hairs at 1 year and 138 at 2 years in a 1-inch circle), while placebo users kept losing hair. The trials were run by the manufacturer."
+    "finding_summary": "In two one-year trials of 1,553 men, extended to a second year, finasteride 1 mg daily increased hair counts versus placebo (107 hairs at 1 year and 138 at 2 years in a 1-inch circle), while placebo users kept losing hair. The trials were run by the manufacturer."
    },
    {
     "title": "Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia: a randomized comparative trial",
@@ -6674,7 +6674,7 @@
    "Both a humectant (glycerin, urea, hyaluronic acid) and an occlusive (petrolatum, dimethicone) for real water retention.",
    "Fragrance-free if you are sensitive or have eczema; 'unscented' can still contain masking fragrance.",
    "Urea (about 10% or more) or lactic acid for rough heels, elbows and bumpy upper arms.",
-   "Pump or tube packaging for larger family-size tubs, which keeps fingers out and lasts longer.",
+   "In the larger sizes, pump or tube packaging rather than an open tub, which keeps fingers out and lasts longer.",
    "For the face in the morning, a moisturizer with broad-spectrum SPF 30 can replace a step, but only if you use a full dose."
   ],
   "skip": [

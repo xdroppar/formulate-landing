@@ -689,7 +689,7 @@
   ],
   "class": "uv-filter",
   "summary": "A particle-form organic filter covering UVB through long-wave UVA. Photostable and barely absorbed; allowed in the EU at 10% but not approved in the US.",
-  "what": "Bisoctrizole is an organic filter made as microfine particles dispersed in the water phase, so, like the mineral filters, it both absorbs and scatters UV. It covers UVB through UVA1 (peaks near 305 and 360 nm) and is very photostable.\n\nIt is permitted in the EU (up to 10%, including a nano form, which is not allowed in sprays), Australia and much of Asia. It is not an approved sunscreen active in the US, so products containing it here are generally imported formulas.",
+  "what": "Bisoctrizole is an organic filter made as microfine particles dispersed in the water phase, so, like the mineral filters, it both absorbs and scatters UV. It covers UVB through UVA1 (peaks near 305 and 360 nm) and is very photostable.\n\nIt is permitted in the EU (up to 10%, including a nano form, which is not allowed in sprays), Australia and much of Asia. It is not an approved sunscreen active in the US, so US products containing it are generally imported formulas.",
   "evidence": {
    "level": "strong",
    "summary": "Its broad-spectrum absorption and stability are established in formulation and SPF/UVA testing. Toxicology reviews found no genotoxicity or reproductive toxicity and low absorption, with a wide margin of safety at 10%. Clinical outcome trials exist for sunscreens in general, not for this filter specifically."
@@ -1479,7 +1479,7 @@
     "journal": "Journal of Clinical Medicine",
     "pmid": "36769815",
     "study_type": "Uncontrolled longitudinal study",
-    "finding_summary": "86 women used galactomyces ferment filtrate products twice daily for 12 months; hydration rose and wrinkle, spot and roughness measures improved from their 11-year decline. No control group; the authors were employees of or consultants to the manufacturer."
+    "finding_summary": "86 women used galactomyces ferment filtrate products twice daily for 12 months; hydration rose and wrinkle, spot and roughness measures improved, which the authors describe as reversing part of the decline they had tracked over 11 years. No control group; the authors were employees of or consultants to the manufacturer."
    }
   ],
   "related": [
@@ -2510,7 +2510,7 @@
   "what": "Mandelic acid is an AHA with a bulky ring structure, so it penetrates more slowly than glycolic acid and tends to sting less. It also has some antibacterial activity. Clinics use it in peels, often combined with salicylic acid, for acne and pigmentation, especially in darker skin where irritation-driven darkening is a concern.\n\nIn body care it appears mainly in 'whole-body' deodorants and washes, where the acid is meant to lower skin pH and slow the bacteria that cause odour rather than to exfoliate.",
   "evidence": {
    "level": "limited",
-   "summary": "Evidence comes mostly from small peel studies. In a 44-patient comparison, a 20% salicylic–10% mandelic acid peel beat a 35% glycolic peel for active acne and post-acne dark marks with fewer side effects; a Cochrane review, looking at participant-rated improvement, found little difference and rated the evidence low quality. Leave-on mandelic products and mandelic deodorants have little published testing."
+   "summary": "Evidence comes mostly from small peel studies. In a 44-patient comparison, a 20% salicylic–10% mandelic acid peel beat a 35% glycolic peel for active acne and post-acne dark marks with fewer side effects; a Cochrane review, looking at participant-rated improvement, found little difference between the two peels and rated the evidence low quality. Leave-on mandelic products and mandelic deodorants have little published testing."
   },
   "uses": [
    {
@@ -3544,7 +3544,7 @@
    "retinal"
   ],
   "class": "retinoid",
-  "summary": "One conversion step from retinoic acid, so more potent than retinol. In a trial it reduced wrinkles alongside tretinoin, with less irritation.",
+  "summary": "One conversion step from retinoic acid, so more potent than retinol. In a trial it reduced wrinkles about as well as tretinoin, with less irritation.",
   "what": "Retinaldehyde sits between retinol and retinoic acid in the skin's vitamin A pathway, so it needs only one step to become active. In a randomized trial, 0.05% retinaldehyde and 0.05% prescription retinoic acid both reduced wrinkles over 18 weeks compared with vehicle, and retinaldehyde caused less irritation.\n\nIt is less common than retinol because it is harder to stabilize, and product strengths (usually 0.05-0.1%) are often not shown.",
   "evidence": {
    "level": "limited",
@@ -3730,7 +3730,7 @@
    "vitamin a"
   ],
   "class": "retinoid",
-  "summary": "The mildest vitamin A form. It needs three conversion steps to become active, so it is gentle but weak; mostly a label ingredient in lotions.",
+  "summary": "The mildest vitamin A form. It needs three conversion steps to become active, so it is gentle but weak; mostly found in lotions at low levels, where it does more for the label than for the skin.",
   "what": "Retinyl palmitate is retinol bound to a fatty acid — the form skin uses to store vitamin A. To act it must be cut back to retinol, then oxidized to retinaldehyde and retinoic acid. That makes it stable and non-irritating, and also much weaker: in a human-skin comparison it took about 0.6% retinyl palmitate under occlusion to match the effect of 0.025% retinol, and uncovered it performed worse.\n\nIt appears in body lotions, foot creams and eye creams, usually at unstated low levels. **Retinyl propionate** is a similar ester. A lotion that lists just \"vitamin A\" most often contains one of these esters, but the label doesn't say which.",
   "evidence": {
    "level": "weak",
@@ -4640,7 +4640,7 @@
   "what": "Titanium dioxide does two jobs in this catalogue. In **sunscreens** it is a mineral UV filter: very effective against UVB and short-wave UVA, less so against long-wave UVA1, so it is usually paired with zinc oxide or an organic UVA filter. Like zinc oxide it is photostable and rarely causes allergy.\n\nIn **toothpaste** it is simply a white colourant (listed as CI 77891) that makes the paste look bright. It does not whiten teeth.",
   "evidence": {
    "level": "strong",
-   "summary": "As a sunscreen filter its protection is measured directly in SPF testing, and it is one of the three filters the FDA currently regards as safe and effective. Safety questions concern other routes: EFSA concluded in 2021 that swallowed particles could not be ruled out as genotoxic, which ended its use as a food additive in the EU, and inhaled fine powder is classed as a possible carcinogen based on rat studies. Neither is a finding of harm from use on skin."
+   "summary": "As a sunscreen filter its protection is measured directly in SPF testing, and it is one of the three filters the FDA currently regards as safe and effective (with zinc oxide and, since 2026, bemotrizinol). Safety questions concern other routes: EFSA concluded in 2021 that swallowed particles could not be ruled out as genotoxic, which ended its use as a food additive in the EU, and inhaled fine powder is classed as a possible carcinogen based on rat studies. Neither is a finding of harm from use on skin."
   },
   "uses": [
    {
@@ -4720,7 +4720,7 @@
   ],
   "safety": [
    "Topical use is well tolerated; mild irritation is the usual side effect.",
-   "Oral tranexamic acid is a different product with clotting risks; it needs a prescription and isn't for people with a history of blood clots."
+   "Oral tranexamic acid is a different product with clotting risks; in many countries, including the US, it needs a prescription, and it isn't for people with a history of blood clots."
   ],
   "studies": [
    {
@@ -4826,7 +4826,7 @@
   ],
   "class": "antioxidant",
   "summary": "The topical antioxidant with the best evidence, if the formula is right: pure L-ascorbic acid at 10-20% and below pH 3.5, protected from air and light.",
-  "what": "L-ascorbic acid is the active form of vitamin C. In skin it neutralizes free radicals made by UV and pollution, is a required cofactor for building collagen, and slows melanin production. The catch is chemistry: it is unstable in water, turns yellow-brown as it oxidizes, and only crosses the skin's outer layer when the product is acidic.\n\nThe key absorption work (Pinnell 2001, on pig skin) found L-ascorbic acid entered skin only at **pH below 3.5**, absorption rose up to about **20%** and not beyond, and skin levels stayed up for days after stopping. A label that just says \"vitamin C\" may mean pure ascorbic acid or a derivative, so check the ingredient list.",
+  "what": "L-ascorbic acid is the active form of vitamin C. In skin it neutralizes free radicals made by UV and pollution, is a required cofactor for building collagen, and slows melanin production. The catch is chemistry: it is unstable in water, turns yellow-brown as it oxidizes, and only crosses the skin's outer layer when the product is acidic.\n\nThe key absorption work (Pinnell 2001, on pig skin) found L-ascorbic acid entered skin only at **pH below 3.5**, absorption rose with concentration up to about **20%** and no further, and skin levels stayed up for days after stopping. A label that just says \"vitamin C\" may mean pure ascorbic acid or a derivative, so check the ingredient list.",
   "evidence": {
    "level": "moderate",
    "summary": "Small randomized, vehicle-controlled trials (about 20-40 people, 3-6 months) found 5-10% vitamin C creams improved fine lines, roughness and tone in sun-damaged skin, and lab studies show it reduces UV damage markers. Trials are small and formulations vary widely, so one product's results don't transfer to another. It absorbs almost no UV, so it is not a sunscreen."
@@ -5214,7 +5214,7 @@
    "zinc oxide"
   ],
   "class": "uv-filter",
-  "summary": "A mineral filter covering UVB and UVA, including long-wave UVA1. Photostable, rarely allergenic, and one of only three filters the FDA currently calls safe and effective.",
+  "summary": "A mineral filter covering UVB and UVA, including long-wave UVA1. Photostable, rarely allergenic, and one of only three filters the FDA currently calls safe and effective (with titanium dioxide and, since 2026, bemotrizinol).",
   "what": "Zinc oxide is a white mineral powder that absorbs (and to a lesser extent scatters) ultraviolet light. Alone it covers UVB through long-wave UVA1 up to about 380 nm, which few single filters manage, and it does not break down in sunlight.\n\nThe trade-off is a white cast. Smaller (\"nano\" or \"micronised\") particles reduce the cast; coated grades keep the particles from reacting with the rest of the formula. The same ingredient is the active in many nappy-rash and skin-protectant creams.",
   "evidence": {
    "level": "strong",
