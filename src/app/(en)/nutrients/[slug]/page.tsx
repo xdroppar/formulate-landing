@@ -14,6 +14,8 @@ import {
 } from "@/lib/nutrients";
 import { nutrientContent } from "@/lib/nutrient_content";
 import { ScoreMeter } from "@/components/score-meter";
+import { BuyLinks } from "@/components/buy-links";
+import { amazonLinkFor } from "@/lib/amazon";
 import { ingredients as encyclopediaIngredients } from "@/lib/encyclopedia";
 import { scoreGrade, thumbUrl } from "@/lib/products";
 import { studiesForIngredient } from "@/lib/research";
@@ -422,10 +424,14 @@ export default async function NutrientPage({ params }: { params: Params }) {
             {cleanProducts.map(({ product: p }) => {
               const g = scoreGrade(p.score);
               return (
-                <Link
+                /* "Best supplements for vitamin D" is a page someone reaches
+                   ready to buy, and it offered only a link deeper into our own
+                   site. The name still links there; the buy row is underneath.
+                   The low-absorption block below deliberately gets none — the
+                   page has just said those forms are the wrong ones. */
+                <div
                   key={p.slug}
-                  href={`/supplements/${p.slug}`}
-                  className="flex items-center gap-3 rounded-xl border border-border bg-white/[0.02] p-3 hover:border-accent/40 transition-colors"
+                  className="flex items-center gap-3 rounded-xl border border-border bg-white/[0.02] p-3"
                 >
                   {p.image_url ? (
                     <div className="relative w-12 h-12 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
@@ -442,12 +448,25 @@ export default async function NutrientPage({ params }: { params: Params }) {
                   )}
                   <div className="flex-1 min-w-0">
                     <div className="text-xs text-muted mb-0.5 truncate">{p.brand}</div>
-                    <div className="text-xs font-semibold text-text leading-snug line-clamp-2">
+                    <Link
+                      href={`/supplements/${p.slug}`}
+                      className="block text-xs font-semibold text-text leading-snug line-clamp-2 hover:text-accent transition-colors"
+                    >
                       {p.name}
-                    </div>
+                    </Link>
+                    <BuyLinks
+                      className="mt-2"
+                      productId={p.id ?? p.slug}
+                      amazonUrl={withUtm(amazonLinkFor(p), {
+                        source: "landing",
+                        campaign: "nutrient_products",
+                        content: p.slug,
+                      })}
+                      source="landing_nutrient_products"
+                    />
                   </div>
                   <ScoreMeter score={p.score} size={36} strokeWidth={3} />
-                </Link>
+                </div>
               );
             })}
           </div>
