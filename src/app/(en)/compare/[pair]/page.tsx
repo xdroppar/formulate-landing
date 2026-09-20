@@ -13,6 +13,10 @@ import {
   type Ingredient,
 } from "@/lib/encyclopedia";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { BuyLinks } from "@/components/buy-links";
+import { topProductForIngredient } from "@/lib/ingredient-products";
+import { amazonLinkFor } from "@/lib/amazon";
+import { withUtm } from "@/lib/app-url";
 
 const BASE = "https://formulate-health.app";
 
@@ -186,6 +190,38 @@ export default async function ComparePage({ params }: { params: Params }) {
               >
                 Full {ing.name} profile →
               </Link>
+              {/* A comparison ends in a choice, and the page offered no way to
+                  act on it. Each side now names the highest-scored product
+                  named for that ingredient — the same rule the goal and
+                  ingredient pages state (lib/ingredient-products). */}
+              {(() => {
+                const pick = topProductForIngredient(ing);
+                if (!pick || pick.score == null) return null;
+                return (
+                  <div className="mt-3 pt-3 border-t border-border">
+                    <p className="text-[10px] font-semibold uppercase tracking-wider text-muted mb-1">
+                      Top-scored {ing.name.toLowerCase()} product
+                    </p>
+                    <Link
+                      href={`/supplements/${pick.slug}`}
+                      className="block text-xs text-text leading-snug hover:text-accent transition-colors"
+                    >
+                      {pick.brand} {pick.name}{" "}
+                      <span className="text-muted">· {pick.score}</span>
+                    </Link>
+                    <BuyLinks
+                      className="mt-1.5"
+                      productId={pick.id ?? pick.slug}
+                      amazonUrl={withUtm(amazonLinkFor(pick), {
+                        source: "landing",
+                        campaign: "compare_top_product",
+                        content: pick.slug,
+                      })}
+                      source="landing_compare_top_product"
+                    />
+                  </div>
+                );
+              })()}
             </div>
           );
         })}

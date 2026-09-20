@@ -242,3 +242,31 @@ export function retailerFor(p: SkinProduct): { url: string; host: string } | nul
 }
 
 export const APP_SKIN_URL = "https://app.formulate-health.app/skin";
+
+/**
+ * Skincare products that list this active on the label, best first.
+ *
+ * The care-ingredient pages describe 80 actives and, until now, named not one
+ * product carrying any of them — they offered a link to the app's whole skin
+ * catalogue instead, which is the reader doing our filtering for us. 32 of the
+ * 80 have at least one product here; the rest simply show nothing, because an
+ * empty section is better than a padded one.
+ *
+ * Matching is on the normalised active name, exactly or as a whole word inside
+ * a longer label ("Niacinamide" inside "Niacinamide 10%"), with a length floor
+ * so a short name cannot match half the catalogue.
+ */
+export function skinProductsWithActive(activeName: string, limit = 3): SkinProduct[] {
+  const needle = activeName.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  if (needle.length < 4) return [];
+  const re = new RegExp(`\\b${needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`);
+  return skinProducts
+    .filter((p) =>
+      (p.actives ?? []).some((a) => {
+        const label = a.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        return label === needle || re.test(label);
+      }),
+    )
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .slice(0, limit);
+}

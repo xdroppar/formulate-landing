@@ -11,6 +11,12 @@ import {
 } from "@/lib/shelf-library";
 import { EvidenceMeter, Bullets, Claims, Prose, Studies } from "@/components/library-bits";
 import { AppCtaCard } from "@/components/app-cta-card";
+import { BuyLinks } from "@/components/buy-links";
+import { skinProductsWithActive, priceLabel, retailerFor } from "@/lib/skincare";
+import { amazonLinkFor } from "@/lib/amazon";
+import { withUtm } from "@/lib/app-url";
+import Image from "next/image";
+import { listThumb } from "@/lib/thumbs";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
 
 const BASE = "https://formulate-health.app";
@@ -46,6 +52,8 @@ export default async function CareIngredientPage({ params }: { params: Params })
   const related = e.related
     .map((r) => activeEntries.find((x) => x.id === r))
     .filter((x): x is NonNullable<typeof x> => Boolean(x));
+  // The products in our own catalogue that actually carry this active.
+  const carrying = skinProductsWithActive(e.name, 3);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -128,13 +136,55 @@ export default async function CareIngredientPage({ params }: { params: Params })
         </article>
 
         <aside className="lg:sticky lg:top-28 self-start space-y-4">
-          <AppCtaCard
-            title={`Find products with ${e.name.toLowerCase()}`}
-            sub="Every sunscreen, serum and toothpaste in the app, scored on its actives."
-            campaign={`care-ingredient-${slug}`}
-            source="care_ingredient_cta"
-            path="/skin"
-          />
+          {carrying.length > 0 ? (
+            /* This page described an active and then offered the app's whole
+               skin catalogue — the reader doing our filtering for us. It now
+               names the best-scoring products that actually carry it, with a
+               way to buy. Where the catalogue has none (48 of the 80 actives),
+               the old card still stands rather than an empty box. */
+            <div className="rounded-2xl border border-border p-4">
+              <div className="fm-eyebrow text-muted mb-3">
+                Products with {e.name.toLowerCase()}
+              </div>
+              <ul className="space-y-3">
+                {carrying.map((p) => (
+                  <li key={p.id} className="flex items-start gap-3">
+                    {p.image_url && (
+                      <div className="relative w-12 h-12 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
+                        <Image src={listThumb(p.image_url)} alt="" fill sizes="48px" className="object-contain p-1" />
+                      </div>
+                    )}
+                    <div className="min-w-0 flex-1">
+                      <div className="text-xs text-muted truncate">
+                        {p.brand}
+                        {priceLabel(p) && <span className="ml-2">{priceLabel(p)}</span>}
+                      </div>
+                      <div className="text-sm text-text leading-snug line-clamp-2">{p.name}</div>
+                      <BuyLinks
+                        className="mt-1.5"
+                        productId={p.id}
+                        amazonUrl={withUtm(amazonLinkFor(p), {
+                          source: "landing",
+                          campaign: "care_ingredient_products",
+                          content: p.id,
+                        })}
+                        secondary={retailerFor(p)}
+                        source="landing_care_ingredient_products"
+                      />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <AppCtaCard
+              title={`Find products with ${e.name.toLowerCase()}`}
+              sub="Every sunscreen, serum and toothpaste in the app, scored on its actives."
+              campaign={`care-ingredient-${slug}`}
+              source="care_ingredient_cta"
+              path="/skin"
+            />
+          )}
           {related.length > 0 && (
             <div className="rounded-2xl border border-border p-4">
               <div className="fm-eyebrow text-muted mb-3">Related</div>
