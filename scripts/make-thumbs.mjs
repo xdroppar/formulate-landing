@@ -31,12 +31,40 @@ import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-export const THUMB_CATALOGS = ["skin-catalog.json", "sleep-catalog.json"];
+/**
+ * Which catalogues get thumbs, what their reader calls a thumb, and whether we
+ * own the file.
+ *
+ * `sibling` — supplements: photos are `<product>/primary.webp` and lib/products
+ * thumbUrl looks for `<product>/thumb.webp` beside them. That pairing predates
+ * this script, and the web app's own pipeline already makes 272 of them, which
+ * scripts/sync-from-web copies over wholesale. So supplements are
+ * `onlyIfMissing`: we fill the 670 gaps and never rewrite a thumb upstream
+ * owns, or every sync would fight this script and churn the repo.
+ *
+ * `suffix` — the gear catalogues: files are named by the retailer
+ * (`01_gallery_hero.jpg`, but also `primary.webp`) and lib/thumbs listThumb
+ * looks for `<same name>.thumb.webp`. Nothing upstream makes those, so this
+ * script owns them and rewrites when the bytes change.
+ *
+ * The convention belongs to the CATALOGUE, not the filename: sleep photos are
+ * called primary.webp too, so deciding by path would write `thumb.webp` for a
+ * reader looking for `primary.thumb.webp`. Nothing would error — both readers
+ * fall back to the full-size image and the page just gets heavy again.
+ */
+export const THUMB_CATALOGS = [
+  { file: "catalog.json", naming: "sibling", onlyIfMissing: true },
+  { file: "skin-catalog.json", naming: "suffix" },
+  { file: "sleep-catalog.json", naming: "suffix" },
+];
 // Rendered at 48–64px; 192 covers a 3x phone screen.
 const EDGE = 192;
 const QUALITY = 78;
 
-export const thumbPathFor = (rel) => rel.replace(/\.(jpe?g|png|webp|avif|gif)$/i, "") + ".thumb.webp";
+export const thumbPathFor = (rel, naming = "suffix") =>
+  naming === "sibling"
+    ? rel.replace(/\/[^/]+\.(jpe?g|png|webp|avif|gif)$/i, "/thumb.webp")
+    : rel.replace(/\.(jpe?g|png|webp|avif|gif)$/i, "") + ".thumb.webp";
 
 function catalogRows(root, file) {
   const path = join(root, "src/data", file);
@@ -56,17 +84,23 @@ export async function makeThumbs({ root = ROOT, catalogs = THUMB_CATALOGS, log =
   let made = 0;
   let fresh = 0;
   const failed = [];
-  for (const file of catalogs) {
+  for (const entry of catalogs) {
+    const { file, naming = "suffix", onlyIfMissing = false } =
+      typeof entry === "string" ? { file: entry } : entry;
     const seen = new Set();
     for (const p of catalogRows(root, file)) {
       const u = p.image_url;
       if (typeof u !== "string" || !u.startsWith("/")) continue;
       const rel = u.split("?")[0].slice(1);
-      if (seen.has(rel) || /\.thumb\.webp$/.test(rel)) continue;
+      if (seen.has(rel) || /(^|\/)thumb\.webp$|\.thumb\.webp$/.test(rel)) continue;
       seen.add(rel);
       const src = join(root, "public", rel);
       if (!existsSync(src)) continue;
-      const out = join(root, "public", thumbPathFor(rel));
+      const out = join(root, "public", thumbPathFor(rel, naming));
+      if (onlyIfMissing && existsSync(out)) {
+        fresh++;
+        continue;
+      }
       try {
         const buf = await sharp(src, { failOn: "none" })
           .rotate()
