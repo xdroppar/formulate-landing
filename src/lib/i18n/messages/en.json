@@ -348,5 +348,19 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "support": "Support"
+  },
+  "rating": {
+    "aria": "Rate this guide",
+    "ask": "Was this useful?",
+    "one": "1 star",
+    "many": "{n} stars",
+    "thanks": "Thank you — that is the whole signal I needed.",
+    "sorry": "Sorry it missed. What was wrong with it?",
+    "why": "Want to say why? (optional)",
+    "placeholderHigh": "What was the useful part?",
+    "placeholderLow": "What were you looking for?",
+    "send": "Send",
+    "noteSent": "Sent — thank you.",
+    "promise": "I read every one. I reply in batches, when I can."
   }
 }
