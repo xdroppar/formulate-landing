@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { ScoreMeter } from "@/components/score-meter";
+import { BuyLinks } from "@/components/buy-links";
+import { amazonLinkFor } from "@/lib/amazon";
+import { withUtm } from "@/lib/app-url";
 import {
   brands,
   brandBySlug,
@@ -314,10 +317,9 @@ export default async function BrandHub({ params }: { params: Params }) {
             {topPicks.map((p) => {
               const g = scoreGrade(p.score);
               return (
-                <Link
+                <div
                   key={p.slug}
-                  href={`/supplements/${p.slug}`}
-                  className="flex items-center gap-4 rounded-xl border border-border bg-white/[0.02] p-4 hover:border-accent/40 transition-colors"
+                  className="flex items-center gap-4 rounded-xl border border-border bg-white/[0.02] p-4"
                 >
                   {p.image_url ? (
                     <div className="relative w-14 h-14 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
@@ -333,12 +335,25 @@ export default async function BrandHub({ params }: { params: Params }) {
                     <div className="w-14 h-14 rounded-lg bg-white/[0.02] border border-border flex-shrink-0" />
                   )}
                   <div className="flex-1 min-w-0">
-                    <div className="text-sm font-semibold text-text leading-snug line-clamp-2">
+                    <Link
+                      href={`/supplements/${p.slug}`}
+                      className="block text-sm font-semibold text-text leading-snug line-clamp-2 hover:text-accent transition-colors"
+                    >
                       {p.name}
-                    </div>
+                    </Link>
+                    <BuyLinks
+                      className="mt-2"
+                      productId={p.id ?? p.slug}
+                      amazonUrl={withUtm(amazonLinkFor(p), {
+                        source: "landing",
+                        campaign: "brand_top_picks",
+                        content: p.slug,
+                      })}
+                      source="landing_brand_top_picks"
+                    />
                   </div>
                   <ScoreMeter score={p.score} size={40} strokeWidth={4} />
-                </Link>
+                </div>
               );
             })}
           </div>

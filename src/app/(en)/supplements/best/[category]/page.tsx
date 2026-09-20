@@ -13,6 +13,9 @@ import {
   type Product,
 } from "@/lib/products";
 import { ScoreMeter } from "@/components/score-meter";
+import { amazonLinkFor } from "@/lib/amazon";
+import { withUtm } from "@/lib/app-url";
+import { BuyLinks } from "@/components/buy-links";
 
 const BASE = "https://formulate-health.app";
 const LIMIT = 10;
@@ -172,10 +175,11 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
             const g = scoreGrade(p.score);
             return (
               <li key={p.slug}>
-                <Link
-                  href={`/supplements/${p.slug}`}
-                  className="flex items-start gap-4 rounded-xl border border-border bg-white/[0.02] p-4 hover:border-accent/40 transition-colors"
-                >
+                {/* "Best magnesium supplements" is the highest buying intent
+                    on this site, and the row was a link to our own page and
+                    nothing else. The name still links there; the buy row is
+                    how someone acts on the ranking. */}
+                <div className="flex items-start gap-4 rounded-xl border border-border bg-white/[0.02] p-4">
                   <div className="flex-shrink-0 w-7 text-center text-lg font-extrabold text-muted pt-1">
                     {i + 1}
                   </div>
@@ -194,11 +198,26 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
                   )}
                   <div className="flex-1 min-w-0">
                     <div className="text-xs text-muted mb-0.5">{p.brand}</div>
-                    <div className="text-sm font-bold text-text leading-snug mb-1">{p.name}</div>
+                    <Link
+                      href={`/supplements/${p.slug}`}
+                      className="block text-sm font-bold text-text leading-snug mb-1 hover:text-accent transition-colors"
+                    >
+                      {p.name}
+                    </Link>
                     <p className="text-xs text-muted leading-relaxed line-clamp-2">{whyLine(p)}</p>
+                    <BuyLinks
+                      className="mt-2"
+                      productId={p.id ?? p.slug}
+                      amazonUrl={withUtm(amazonLinkFor(p), {
+                        source: "landing",
+                        campaign: "supplements_best",
+                        content: p.slug,
+                      })}
+                      source="landing_supplements_best"
+                    />
                   </div>
                   <ScoreMeter score={p.score} size={48} strokeWidth={4} showGrade />
-                </Link>
+                </div>
               </li>
             );
           })}
