@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { ScoreMeter } from "@/components/score-meter";
+import { BuyLinks } from "@/components/buy-links";
+import { amazonLinkFor } from "@/lib/amazon";
+import { withUtm } from "@/lib/app-url";
 import { pubmedUrl, type Finding, type Goal, type RankedIngredient } from "@/lib/goals";
 
 /**
@@ -78,18 +81,33 @@ function IngredientCard({ i, directions }: { i: RankedIngredient; directions: Fi
           </div>
         </div>
         {i.topProduct && (
-          <Link
-            href={`/supplements/${i.topProduct.slug}`}
-            className="flex items-center gap-2 rounded-lg border border-border px-2.5 py-1.5 hover:border-accent/40 transition-colors max-w-full"
-          >
-            <span className="text-xs text-muted min-w-0">
-              <span className="block text-[10px] uppercase tracking-wider">Top-scored product</span>
-              <span className="block text-text truncate max-w-[220px]">
-                {i.topProduct.brand} {i.topProduct.name}
+          /* The page names a product per ingredient and, until now, offered no
+             way to get it. The name still links to our page; the buy row is
+             the way out. */
+          <div className="rounded-lg border border-border px-2.5 py-1.5 max-w-full">
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-muted min-w-0">
+                <span className="block text-[10px] uppercase tracking-wider">Top-scored product</span>
+                <Link
+                  href={`/supplements/${i.topProduct.slug}`}
+                  className="block text-text truncate max-w-[220px] hover:text-accent transition-colors"
+                >
+                  {i.topProduct.brand} {i.topProduct.name}
+                </Link>
               </span>
-            </span>
-            <ScoreMeter score={i.topProduct.score} size={32} strokeWidth={3} />
-          </Link>
+              <ScoreMeter score={i.topProduct.score} size={32} strokeWidth={3} />
+            </div>
+            <BuyLinks
+              className="mt-1.5"
+              productId={i.topProduct.id ?? i.topProduct.slug}
+              amazonUrl={withUtm(amazonLinkFor(i.topProduct), {
+                source: "landing",
+                campaign: "goal_top_product",
+                content: i.topProduct.slug,
+              })}
+              source="landing_goal_top_product"
+            />
+          </div>
         )}
       </div>
       {shown.map((f, n) => (

@@ -18,7 +18,9 @@ import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
 import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
-import { stackAddUrl } from "@/lib/app-url";
+import { stackAddUrl, withUtm } from "@/lib/app-url";
+import { amazonLinkFor } from "@/lib/amazon";
+import { BuyLinks } from "@/components/buy-links";
 import { AppCtaCard } from "@/components/app-cta-card";
 import { ScoreMeter } from "@/components/score-meter";
 import { PageConversion } from "@/components/page-conversion";
@@ -451,10 +453,15 @@ export default async function IngredientPage({ params }: { params: Params }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {matchingProducts.map((p) => {
               return (
-                <Link
+                /* The card was one big link to our own page, which left the
+                   reader nowhere to BUY the thing it names — 930 ingredient
+                   pages, the most-read type on the site, with no buy path on
+                   any of them. The name still links to the product page (the
+                   internal link is worth keeping); the row underneath is the
+                   way out. */
+                <div
                   key={p.slug}
-                  href={`/supplements/${p.slug}`}
-                  className="flex items-center gap-3 rounded-xl border border-border bg-white/[0.02] p-3 hover:border-accent/40 transition-colors"
+                  className="flex items-center gap-3 rounded-xl border border-border bg-white/[0.02] p-3"
                 >
                   {p.image_url ? (
                     <div className="relative w-12 h-12 rounded-lg bg-white/[0.02] overflow-hidden flex-shrink-0">
@@ -471,12 +478,25 @@ export default async function IngredientPage({ params }: { params: Params }) {
                   )}
                   <div className="flex-1 min-w-0">
                     <div className="text-xs text-muted mb-0.5 truncate">{p.brand}</div>
-                    <div className="text-xs font-semibold text-text leading-snug line-clamp-2">
+                    <Link
+                      href={`/supplements/${p.slug}`}
+                      className="block text-xs font-semibold text-text leading-snug line-clamp-2 hover:text-accent transition-colors"
+                    >
                       {p.name}
-                    </div>
+                    </Link>
+                    <BuyLinks
+                      className="mt-2"
+                      productId={p.id ?? p.slug}
+                      amazonUrl={withUtm(amazonLinkFor(p), {
+                        source: "landing",
+                        campaign: "ingredient_products",
+                        content: p.slug,
+                      })}
+                      source="landing_ingredient_products"
+                    />
                   </div>
                   <ScoreMeter score={p.score} size={40} strokeWidth={4} />
-                </Link>
+                </div>
               );
             })}
           </div>
