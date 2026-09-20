@@ -77,11 +77,22 @@ function remember(surface: string, score: number) {
 
 function send(message: string) {
   try {
+    /* THE ID TRAVELS WITH THE WORDS. Every submission emails the owner, and
+       that email is the copy anyone reads — so a one-star rating used to
+       arrive as a complaint with no way back to what the person was looking
+       at. PostHog's distinct_id is bootstrapped from this same anon_id, so
+       pasting it there finds that session's replay. It is not a name or an
+       account: it is the random id already sent with every event from this
+       browser, and it is simply absent when there is none. */
+    const anon = getAnonId();
+    const body = anon ? `${message}
+
+— anon ${anon}` : message;
     void fetch(`${API_URL}/api/v1/feedback`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       keepalive: true,
-      body: JSON.stringify({ category: "rating", message: message.slice(0, 5000) }),
+      body: JSON.stringify({ category: "rating", message: body.slice(0, 5000) }),
     }).catch(() => {
       /* fire and forget: the event carries the score either way */
     });
