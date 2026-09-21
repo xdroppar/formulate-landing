@@ -199,7 +199,7 @@ export function Nav() {
       <nav className="fixed top-0 left-0 right-0 z-100 bg-bg/85 backdrop-blur-md border-b border-border">
         <div className="flex items-center justify-between gap-2 px-4 sm:px-6 md:px-12 py-3">
           <Link href="/" className="flex items-center gap-2.5 min-w-0 shrink">
-            <Image src="/logo.png" alt="Formulate" width={32} height={32} className="rounded-lg shrink-0" unoptimized />
+            <Image src="/brand/formulate-icon.png" alt="Formulate" width={32} height={32} className="rounded-lg shrink-0" unoptimized />
             <span className="min-w-0 truncate max-[389px]:hidden text-lg sm:text-xl font-extrabold tracking-tight text-text">
               Formulate<span className="text-accent">.</span>
             </span>
