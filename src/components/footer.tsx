@@ -22,7 +22,7 @@ export function Footer() {
       <FooterExplore />
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-2">
-          <Image src="/logo.png" alt="Formulate" width={24} height={24} className="rounded-md" unoptimized />
+          <Image src="/brand/formulate-icon.png" alt="Formulate" width={24} height={24} className="rounded-md" unoptimized />
           <span className="text-base font-extrabold">
             Formulate<span className="text-accent">.</span>
           </span>

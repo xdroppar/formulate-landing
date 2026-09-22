@@ -133,7 +133,7 @@ export function DownloadClient() {
     <div className="min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-16">
       <div className="w-full max-w-lg text-center flex flex-col items-center gap-8">
         {/* Logo */}
-        <Image src="/logo.png" alt="" width={72} height={72} className="rounded-2xl" aria-hidden="true" unoptimized />
+        <Image src="/brand/formulate-icon.png" alt="" width={72} height={72} className="rounded-2xl" aria-hidden="true" unoptimized />
 
         {/* ── Approved download (valid token) ───────────────────── */}
         {downloadInfo ? (
