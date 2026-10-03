@@ -82,6 +82,8 @@ const LEARN: MenuItem[] = [
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
   { href: "/ingredients", title: "Encyclopedia", desc: "Every ingredient, explained" },
   { href: "/research", title: "Research", desc: "The studies behind the scores" },
+  { href: "/learn", title: "Products, Explained", desc: "Sleep gear, therapies and devices, rated on evidence" },
+  { href: "/care-ingredients", title: "Care Ingredients", desc: "What is on a sunscreen or skincare label" },
   { href: "/conditions", title: "By Condition", desc: "Supplements for a goal or condition" },
   { href: "/compare", title: "Compare", desc: "Ingredient head-to-heads" },
   { href: "/synergies", title: "Synergies", desc: "Evidence-backed pairings" },

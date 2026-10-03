@@ -67,6 +67,14 @@
         "title": "Research",
         "desc": "The studies behind the scores"
       },
+      "learn": {
+        "title": "Products, Explained",
+        "desc": "Sleep gear, therapies and devices, rated on evidence"
+      },
+      "careIngredients": {
+        "title": "Care Ingredients",
+        "desc": "What is on a sunscreen or skincare label"
+      },
       "conditions": {
         "title": "By Condition",
         "desc": "Supplements for a goal or condition"
@@ -84,11 +92,14 @@
   "footer": {
     "explore": "Explore",
     "links": {
+      "brandCompare": "Brand head-to-heads",
       "brands": "Brands",
+      "careIngredients": "Care ingredients",
       "compare": "Compare",
       "conditions": "Conditions",
       "ingredients": "Ingredients",
       "interactions": "Interactions",
+      "learn": "Products, explained",
       "nutrients": "Nutrients",
       "research": "Research",
       "stacks": "Stacks",
