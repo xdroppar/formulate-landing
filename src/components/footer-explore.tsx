@@ -28,6 +28,9 @@ const LINKS = [
   { href: "/brands", key: "brands", fallback: "Brands" },
   { href: "/stacks", key: "stacks", fallback: "Stacks" },
   { href: "/research", key: "research", fallback: "Research" },
+  { href: "/learn", key: "learn", fallback: "Products, explained" },
+  { href: "/care-ingredients", key: "careIngredients", fallback: "Care ingredients" },
+  { href: "/brand-compare", key: "brandCompare", fallback: "Brand head-to-heads" },
 ];
 
 export function FooterExplore() {

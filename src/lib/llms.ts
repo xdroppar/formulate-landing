@@ -73,11 +73,14 @@ Formulate is built for people who want to know whether a supplement is actually 
 ## Key content
 - [Supplement scores](${SITE_ORIGIN}/supplements): ${n("/supplements")}ingredient-level reviews and scores for individual supplement products, each with a dose-vs-evidence breakdown and FAQ.
 - [Brand grades](${SITE_ORIGIN}/brands): Supplement brands ranked by the aggregate quality and transparency of their product lineups.
+- [Brand head-to-heads](${SITE_ORIGIN}/brand-compare): ${n("/brand-compare")}side-by-side brand comparisons — each brand’s grade, when to pick one over the other, and the verdict.
 - [Guides](${SITE_ORIGIN}/guides): ${n("/guides")}long-form, evidence-cited guides on building stacks, choosing forms and doses, and specific supplements.
 - [Ingredient encyclopedia](${SITE_ORIGIN}/ingredients): ${n("/ingredients")}evidence-graded ingredient references — uses, typical dose, evidence grade, and known interactions.
 - [Whole food scores](${SITE_ORIGIN}/foods): ${n("/foods")}whole foods graded 0–100 on nutrient density, protein, fiber, healthy fats, and beneficial compounds.
 - [Skincare](${SITE_ORIGIN}/skincare): ${n("/skincare")}skincare products scored on their actives and checked for irritants, fragrance and allergens, ranked in ${skinTypes.length} types (serums, sunscreens, moisturizers and more) and across ${skinBrands.length} brands.
 - [Sleep gear](${SITE_ORIGIN}/sleep): ${sleepScored.length} mattresses, pillows, sheets, sleep masks and more, scored on what their makers declare (materials, support, cooling, certifications) and compared only against their own kind, across ${sleepCategories.length} categories.
+- [Products, explained](${SITE_ORIGIN}/learn): ${n("/learn")}kinds of product — saunas, red-light panels, weighted blankets, smart scales, cold plunges and more — each rated on what the evidence actually supports, with what to look for and who should be careful. Answers "does a <device> actually work?"; "no real evidence" is a frequent answer.
+- [Care ingredients](${SITE_ORIGIN}/care-ingredients): ${n("/care-ingredients")}actives on sunscreen, skincare, hair and toothpaste labels — what each does, at what strength it does it, how strong the evidence is, and who should be careful.
 - [Nutrient reference](${SITE_ORIGIN}/nutrients): Per-nutrient daily targets, upper limits, best forms, and top food sources.
 - [Recipes](${SITE_ORIGIN}/recipes): ${n("/recipes")}recipes scored on real nutritional quality, with the score reacting to actual portions rather than calories alone.
 - [Review conclusions report](${SITE_ORIGIN}/reports/supplement-review-conclusions): what systematic reviews concluded, outcome by outcome, for ${evidenceTotals.ingredients} supplement ingredients — ${evidenceTotals.conclusions} conclusions (benefit, no effect, unclear, harm), each quoted from a cited PubMed abstract, with the full dataset as CSV at ${SITE_ORIGIN}/reports/supplement-review-conclusions.csv.

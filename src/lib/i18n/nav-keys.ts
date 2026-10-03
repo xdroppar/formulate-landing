@@ -22,6 +22,8 @@ const NAV_KEYS: Record<string, string> = {
   "/guides": "guides",
   "/ingredients": "ingredients",
   "/research": "research",
+  "/learn": "learn",
+  "/care-ingredients": "careIngredients",
   "/conditions": "conditions",
   "/compare": "compare",
   "/synergies": "synergies",

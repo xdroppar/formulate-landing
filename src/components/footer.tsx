@@ -12,8 +12,10 @@ export function Footer() {
   const t = useT();
   return (
     <footer className="px-6 md:px-12 pt-10 pb-6 border-t border-border">
-      {/* Mobile-app badges — render only when ENABLED flag in
-          mobile-app-badges.tsx is flipped to true post-launch. */}
+      {/* Mobile-app badges — gated per store by IOS_LIVE / ANDROID_LIVE in
+          lib/app-store.ts. iOS is live, so this renders; Android stays off
+          until its listing returns 200. The badge goes to the STORE — the
+          /app landing page it supports is linked from site-surfaces. */}
       <div className="flex justify-center mb-6 empty:hidden">
         <MobileAppBadges source="footer" />
       </div>

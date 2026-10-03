@@ -41,6 +41,8 @@ import { CORE_NUTRIENTS } from "@/lib/nutrients";
 import { skinProducts } from "@/lib/skincare";
 import { sleepScored } from "@/lib/sleep";
 import { goalPages } from "@/lib/goals";
+import { shelfEntries, activeEntries } from "@/lib/shelf-library";
+import { brandComparisons } from "@/lib/brand-comparisons";
 
 export type Surface = {
   href: string;
@@ -79,6 +81,8 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
     items: [
       { href: "/guides", label: "Guides", count: visibleGuides.length },
       { href: "/research", label: "Studies", count: researchEntries.length },
+      { href: "/learn", label: "Products, explained", count: shelfEntries.length },
+      { href: "/care-ingredients", label: "Care ingredients", count: activeEntries.length },
       { href: "/reports/supplement-review-conclusions", label: "Review conclusions report" },
       { href: "/nutrients", label: "Nutrients", count: CORE_NUTRIENTS.length },
       { href: "/interactions", label: "Interactions", count: interactions.length },
@@ -89,6 +93,7 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
     title: "Decide",
     items: [
       { href: "/compare", label: "Comparisons", count: comparisons.length },
+      { href: "/brand-compare", label: "Brand head-to-heads", count: brandComparisons.length },
       { href: "/stacks", label: "Starter stacks", count: stacks.length },
       { href: "/supplements/for", label: "Evidence by goal", count: goalPages.length },
       { href: "/conditions", label: "Condition guides", count: conditions.length },
@@ -100,7 +105,8 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
     title: "Formulate",
     items: [
       { href: "/about", label: "About" },
-      { href: "/download", label: "iPhone app" },
+      { href: "/app", label: "iPhone app" },
+      { href: "/download", label: "Desktop app" },
       { href: "/disclosure", label: "Disclosure" },
       { href: "/privacy", label: "Privacy" },
       { href: "/terms", label: "Terms" },
