@@ -15,6 +15,7 @@ import { findSubstance, interactionsFor, SEVERITY_META } from "@/lib/interaction
 import { scoreGrade, thumbUrl, type Product } from "@/lib/products";
 import { productsContaining } from "@/lib/ingredient-products";
 import { IngredientScorecard } from "@/components/ingredient-scorecard";
+import { IngredientFaq } from "@/components/ingredient-faq";
 import { comparisons, comparisonSlug } from "@/lib/comparisons";
 import { studiesForIngredient } from "@/lib/research";
 import { CORE_NUTRIENTS, type CoreNutrient } from "@/lib/nutrients";
@@ -289,6 +290,8 @@ export default async function IngredientPage({ params }: { params: Params }) {
       )}
 
       <IngredientScorecard products={scorecardProducts} ingredientName={ing.name} />
+
+      <IngredientFaq ing={ing} topProduct={topProduct} />
 
       {nutrientMatch && (
         <section className="mb-10 rounded-xl border border-accent/30 bg-accent/[0.04] p-4">
