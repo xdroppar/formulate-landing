@@ -4,6 +4,7 @@ import { useState, useEffect, FormEvent } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { trackEvent } from "@/lib/analytics";
+import { MobileAppBadges } from "@/components/mobile-app-badges";
 
 // Prod fallback, not localhost — if NEXT_PUBLIC_API_URL is ever missing in a
 // Vercel build the page would otherwise spin forever for real users.
@@ -210,6 +211,15 @@ export function DownloadClient() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
+
+            {/* The iPhone app, on the page people reach by typing /download.
+               This surface offered the web app and a Windows desktop request and
+               NOTHING for iOS, while /app carried the only store link — so the URL
+               a visitor guesses was the one that could not give them the app.
+               MobileAppBadges self-gates on IOS_LIVE/ANDROID_LIVE, so Android stays
+               hidden until its listing is real, and it carries its own translated
+               label. */}
+            <MobileAppBadges source="download_page" />
 
             {/* What you get (web app) */}
             <div className="grid grid-cols-2 gap-3 w-full max-w-sm">
