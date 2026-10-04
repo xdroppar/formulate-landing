@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-30T17:35:16+00:00",
+  "version": "2026-10-04T01:05:38+00:00",
   "score_version": "1.6.2",
   "categories": [
     "Fruit",
@@ -610,7 +610,7 @@
         "fasting_compatible": false,
         "notes": "If taking anticoagulants (warfarin), maintain consistent daily kale intake rather than consuming large quantities intermittently, as vitamin K affects anticoagulation monitoring. People with thyroid conditions should consume cooked rather than raw kale in large amounts, as raw glucosinolates may inhibit iodine uptake."
       },
-      "default_variant_id": "kale__raw__whole",
+      "default_variant_id": "kale__raw__chopped",
       "price_avg": 2.2,
       "price_unit": "lb",
       "score": 98,
@@ -618,7 +618,7 @@
       "grade_color": "#22C55E",
       "score_breakdown": {
         "nutrient_density": 35,
-        "protein_quality": 11.27,
+        "protein_quality": 11.51,
         "fiber_content": 10,
         "healthy_fats": 5,
         "bioactive_compounds": 14.38,
@@ -3768,7 +3768,7 @@
         "fasting_compatible": false,
         "notes": "While broccoli is compatible with intermittent fasting windows, its fiber and volume make it more satiating with meals. Those with thyroid dysfunction on levothyroxine should maintain consistent intake rather than clustering consumption on specific days."
       },
-      "default_variant_id": "broccoli__raw__whole",
+      "default_variant_id": "broccoli__raw__florets",
       "price_avg": 2.2,
       "price_unit": "lb",
       "score": 96,
@@ -3776,7 +3776,7 @@
       "grade_color": "#22C55E",
       "score_breakdown": {
         "nutrient_density": 35,
-        "protein_quality": 12,
+        "protein_quality": 11.29,
         "fiber_content": 10,
         "healthy_fats": 5,
         "bioactive_compounds": 14.23,
@@ -40456,6 +40456,431 @@
       ]
     },
     {
+      "base_id": "salmon",
+      "name": "Salmon",
+      "group": "Seafood",
+      "subgroup": "Fatty Fish",
+      "aliases": [
+        "atlantic salmon",
+        "wild salmon",
+        "sockeye"
+      ],
+      "tags": [
+        "omega-3",
+        "protein",
+        "vitamin-d",
+        "fatty-fish"
+      ],
+      "icon": "🐟",
+      "image_path": "assets/foods/salmon/hero.jpg",
+      "image_url": "/food-assets/salmon/hero.webp",
+      "gallery_images": [
+        "/food-assets/salmon/hero_2.webp",
+        "/food-assets/salmon/hero_3.webp"
+      ],
+      "description": "Omega-3 rich fatty fish for heart and brain health",
+      "overview": "Salmon is considered one of the healthiest proteins available, packed with omega-3 fatty acids EPA and DHA that support brain, heart, and joint health. Wild-caught salmon offers higher omega-3 content and lower contaminants than farmed varieties. The pink-orange color comes from astaxanthin, a powerful antioxidant with anti-inflammatory properties.",
+      "health_benefits": [
+        {
+          "benefit": "Reduces inflammation throughout the body",
+          "mechanism": "EPA and DHA omega-3s compete with inflammatory omega-6s and produce anti-inflammatory compounds",
+          "evidence_strength": "strong",
+          "references": []
+        },
+        {
+          "benefit": "Supports cardiovascular health",
+          "mechanism": "Omega-3s lower triglycerides, reduce blood pressure, and improve arterial function",
+          "evidence_strength": "strong",
+          "references": []
+        },
+        {
+          "benefit": "Promotes brain health and cognitive function",
+          "mechanism": "DHA is a major structural component of brain tissue and supports neuron communication",
+          "evidence_strength": "strong",
+          "references": []
+        },
+        {
+          "benefit": "Provides rare dietary vitamin D",
+          "mechanism": "One of few food sources with significant vitamin D3 content",
+          "evidence_strength": "strong",
+          "references": []
+        }
+      ],
+      "food_pairings": [
+        "Serve with lemon to enhance iron absorption and add brightness",
+        "Pair with leafy greens for a complete anti-inflammatory meal",
+        "Combine with olive oil and herbs for Mediterranean-style preparation",
+        "Add to whole grains like quinoa for sustained energy release"
+      ],
+      "practical_tips": [
+        "Choose wild-caught when possible for higher omega-3 content",
+        "Aim for 2-3 servings of fatty fish per week for optimal omega-3 intake",
+        "Don't overcook - salmon is best medium-rare to medium",
+        "Canned salmon with bones is an excellent calcium source"
+      ],
+      "optimal_timing": {
+        "best_time": "midday",
+        "reasoning": "Protein and healthy fats provide sustained energy; vitamin D absorption is optimal with sunlight exposure",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "Great dinner option too - omega-3s support restful sleep"
+      },
+      "default_variant_id": "salmon__raw__fillet",
+      "price_avg": 12.99,
+      "price_unit": "lb",
+      "score": 90,
+      "grade": "A+",
+      "grade_color": "#22C55E",
+      "score_breakdown": {
+        "nutrient_density": 35,
+        "protein_quality": 14,
+        "fiber_content": 0,
+        "healthy_fats": 8,
+        "bioactive_compounds": 12.83,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 2,
+        "top_nutrients": [
+          [
+            "Vitamin B12",
+            230.8
+          ],
+          [
+            "Vitamin B6",
+            97.9
+          ],
+          [
+            "Selenium",
+            66.4
+          ],
+          [
+            "Niacin",
+            49.1
+          ],
+          [
+            "Pantothenic Acid",
+            33.3
+          ]
+        ],
+        "bioactives_found": [
+          "Omega-3 (ALA/EPA/DHA)"
+        ],
+        "concerns": [
+          "High sodium"
+        ],
+        "documented_micros": 20,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "salmon__baked__fillet",
+          "variety": null,
+          "prep": "baked",
+          "form": "fillet",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 182,
+          "macros": {
+            "protein_g": 25.4,
+            "carbs_g": 0,
+            "fat_g": 8.1,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_d_iu": 526,
+            "vitamin_b12_mcg": 3.2,
+            "selenium_mcg": 41.4,
+            "omega3_mg": 2260,
+            "potassium_mg": 384,
+            "phosphorus_mg": 256,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5,
+            "saturated_fat_g": 2.397,
+            "monounsaturated_fat_g": 4.181,
+            "polyunsaturated_fat_g": 4.553
+          },
+          "source": {
+            "name": "USDA",
+            "id": "175168",
+            "fatty_acids_fdc_id": "175168"
+          },
+          "image_url": "/food-assets/salmon/roasted.webp",
+          "gallery_images": [
+            "/food-assets/salmon/roasted_2.webp",
+            "/food-assets/salmon/roasted_3.webp"
+          ]
+        },
+        {
+          "variant_id": "salmon__canned__whole",
+          "variety": null,
+          "prep": "canned",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 153,
+          "macros": {
+            "protein_g": 20.63,
+            "carbs_g": 0,
+            "fat_g": 7.17,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.02,
+            "riboflavin_mg": 0.2,
+            "vitamin_b12_mcg": 0.4,
+            "niacin_mg": 6,
+            "iron_mg": 0.57,
+            "magnesium_mg": 30,
+            "phosphorus_mg": 321,
+            "sodium_mg": 433,
+            "copper_mg": 0.061,
+            "manganese_mg": 0.024,
+            "vitamin_a_iu": 39,
+            "vitamin_d_iu": 19,
+            "vitamin_k_mcg": 0.1,
+            "omega3_mg": 1288,
+            "omega6_mg": 0.118,
+            "cholesterol_mg": 67,
+            "trans_fat_g": 0.041,
+            "saturated_fat_g": 1.46,
+            "vitamin_e_mg": 1.88,
+            "calcium_mg": 198,
+            "potassium_mg": 329,
+            "zinc_mg": 0.67,
+            "choline_mg": 74.8,
+            "monounsaturated_fat_g": 2.471,
+            "polyunsaturated_fat_g": 1.744,
+            "selenium_mcg": 30.1,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "175174",
+            "fatty_acids_fdc_id": "175174"
+          },
+          "image_url": "/food-assets/salmon/canned.webp",
+          "gallery_images": [
+            "/food-assets/salmon/canned_2.webp",
+            "/food-assets/salmon/canned_3.webp"
+          ]
+        },
+        {
+          "variant_id": "salmon__canned__whole__without_skin",
+          "variety": null,
+          "prep": "canned",
+          "form": "whole",
+          "notes": "without_skin",
+          "serving_basis": "per_100g",
+          "calories": 158,
+          "macros": {
+            "protein_g": 26.33,
+            "carbs_g": 0,
+            "fat_g": 5.87,
+            "fiber_g": 0
+          },
+          "micros": {
+            "iron_mg": 0.48,
+            "magnesium_mg": 24,
+            "phosphorus_mg": 236,
+            "sodium_mg": 386,
+            "copper_mg": 0.07,
+            "manganese_mg": 0.011,
+            "vitamin_a_iu": 56,
+            "vitamin_d_iu": 21.5,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.033,
+            "riboflavin_mg": 0.214,
+            "folate_mcg": 4,
+            "vitamin_b12_mcg": 5.54,
+            "vitamin_k_mcg": 0.1,
+            "cholesterol_mg": 66,
+            "trans_fat_g": 0.032,
+            "saturated_fat_g": 1.211,
+            "omega3_mg": 1182,
+            "omega6_mg": 0.093,
+            "calcium_mg": 37,
+            "potassium_mg": 312,
+            "zinc_mg": 0.58,
+            "selenium_mcg": 34.6,
+            "vitamin_e_mg": 2.09,
+            "niacin_mg": 7.689,
+            "choline_mg": 83.3,
+            "monounsaturated_fat_g": 1.925,
+            "polyunsaturated_fat_g": 1.551,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "173723",
+            "fatty_acids_fdc_id": "173723"
+          },
+          "image_url": "/food-assets/salmon/canned.webp",
+          "gallery_images": [
+            "/food-assets/salmon/canned_2.webp",
+            "/food-assets/salmon/canned_3.webp"
+          ]
+        },
+        {
+          "variant_id": "salmon__raw__fillet",
+          "variety": null,
+          "prep": "raw",
+          "form": "fillet",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 142,
+          "macros": {
+            "protein_g": 19.8,
+            "carbs_g": 0,
+            "fat_g": 6.3,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_d_iu": 441,
+            "vitamin_b12_mcg": 2.8,
+            "selenium_mcg": 36.5,
+            "omega3_mg": 1970,
+            "potassium_mg": 363,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5,
+            "vitamin_a_iu": 12,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.226,
+            "riboflavin_mg": 0.38,
+            "folate_mcg": 25,
+            "cholesterol_mg": 55,
+            "saturated_fat_g": 0.981,
+            "iron_mg": 0.8,
+            "magnesium_mg": 29,
+            "phosphorus_mg": 200,
+            "sodium_mg": 44,
+            "copper_mg": 0.25,
+            "manganese_mg": 0.016,
+            "calcium_mg": 12,
+            "zinc_mg": 0.64,
+            "monounsaturated_fat_g": 2.103,
+            "polyunsaturated_fat_g": 2.539,
+            "niacin_mg": 7.86,
+            "vitamin_b6_mg": 1.664
+          },
+          "source": {
+            "name": "USDA",
+            "id": "173686",
+            "backfilled": "2026-08-25"
+          },
+          "image_url": null,
+          "gallery_images": []
+        },
+        {
+          "variant_id": "salmon__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 158,
+          "macros": {
+            "protein_g": 26.33,
+            "carbs_g": 0,
+            "fat_g": 5.87,
+            "fiber_g": 0
+          },
+          "micros": {
+            "iron_mg": 0.48,
+            "magnesium_mg": 24,
+            "phosphorus_mg": 236,
+            "sodium_mg": 386,
+            "copper_mg": 0.07,
+            "manganese_mg": 0.011,
+            "vitamin_a_iu": 56,
+            "vitamin_d_iu": 21.5,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.033,
+            "riboflavin_mg": 0.214,
+            "folate_mcg": 4,
+            "vitamin_b12_mcg": 5.54,
+            "vitamin_k_mcg": 0.1,
+            "cholesterol_mg": 66,
+            "trans_fat_g": 0.032,
+            "saturated_fat_g": 1.211,
+            "omega3_mg": 1182,
+            "omega6_mg": 0.093,
+            "calcium_mg": 37,
+            "potassium_mg": 312,
+            "zinc_mg": 0.58,
+            "selenium_mcg": 34.6,
+            "vitamin_e_mg": 2.09,
+            "niacin_mg": 7.689,
+            "choline_mg": 83.3,
+            "monounsaturated_fat_g": 1.925,
+            "polyunsaturated_fat_g": 1.551,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5
+          },
+          "source": {
+            "name": "ported-from-sibling:salmon__canned__whole__without_skin"
+          },
+          "image_url": null,
+          "gallery_images": []
+        },
+        {
+          "variant_id": "salmon__smoked__whole__with_skin",
+          "variety": null,
+          "prep": "smoked",
+          "form": "whole",
+          "notes": "with_skin",
+          "serving_basis": "per_100g",
+          "calories": 345,
+          "macros": {
+            "protein_g": 60.62,
+            "carbs_g": 0,
+            "fat_g": 11.43,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_c_mg": 0,
+            "saturated_fat_g": 2.593,
+            "monounsaturated_fat_g": 4.025,
+            "polyunsaturated_fat_g": 3.469,
+            "thiamin_mg": 0.494,
+            "riboflavin_mg": 0.543,
+            "folate_mcg": 9,
+            "vitamin_b12_mcg": 18.1,
+            "vitamin_k_mcg": 0,
+            "iron_mg": 1.06,
+            "magnesium_mg": 58,
+            "phosphorus_mg": 650,
+            "sodium_mg": 51,
+            "copper_mg": 0.148,
+            "manganese_mg": 0.051,
+            "omega3_mg": 1.52,
+            "cholesterol_mg": 155,
+            "vitamin_a_iu": 31,
+            "calcium_mg": 58,
+            "potassium_mg": 960,
+            "zinc_mg": 1.14,
+            "selenium_mcg": 76,
+            "vitamin_e_mg": 1.2,
+            "niacin_mg": 22.75,
+            "vitamin_b6_mg": 2.745,
+            "choline_mg": 223.8,
+            "pantothenic_acid_mg": 1.664,
+            "biotin_mcg": 5
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "169813"
+          },
+          "image_url": "/food-assets/salmon/smoked.webp",
+          "gallery_images": [
+            "/food-assets/salmon/smoked_2.webp",
+            "/food-assets/salmon/smoked_3.webp"
+          ]
+        }
+      ]
+    },
+    {
       "base_id": "tomatillo",
       "name": "Tomatillo",
       "group": "Vegetable",
@@ -43283,431 +43708,6 @@
       ]
     },
     {
-      "base_id": "salmon",
-      "name": "Salmon",
-      "group": "Seafood",
-      "subgroup": "Fatty Fish",
-      "aliases": [
-        "atlantic salmon",
-        "wild salmon",
-        "sockeye"
-      ],
-      "tags": [
-        "omega-3",
-        "protein",
-        "vitamin-d",
-        "fatty-fish"
-      ],
-      "icon": "🐟",
-      "image_path": "assets/foods/salmon/hero.jpg",
-      "image_url": "/food-assets/salmon/hero.webp",
-      "gallery_images": [
-        "/food-assets/salmon/hero_2.webp",
-        "/food-assets/salmon/hero_3.webp"
-      ],
-      "description": "Omega-3 rich fatty fish for heart and brain health",
-      "overview": "Salmon is considered one of the healthiest proteins available, packed with omega-3 fatty acids EPA and DHA that support brain, heart, and joint health. Wild-caught salmon offers higher omega-3 content and lower contaminants than farmed varieties. The pink-orange color comes from astaxanthin, a powerful antioxidant with anti-inflammatory properties.",
-      "health_benefits": [
-        {
-          "benefit": "Reduces inflammation throughout the body",
-          "mechanism": "EPA and DHA omega-3s compete with inflammatory omega-6s and produce anti-inflammatory compounds",
-          "evidence_strength": "strong",
-          "references": []
-        },
-        {
-          "benefit": "Supports cardiovascular health",
-          "mechanism": "Omega-3s lower triglycerides, reduce blood pressure, and improve arterial function",
-          "evidence_strength": "strong",
-          "references": []
-        },
-        {
-          "benefit": "Promotes brain health and cognitive function",
-          "mechanism": "DHA is a major structural component of brain tissue and supports neuron communication",
-          "evidence_strength": "strong",
-          "references": []
-        },
-        {
-          "benefit": "Provides rare dietary vitamin D",
-          "mechanism": "One of few food sources with significant vitamin D3 content",
-          "evidence_strength": "strong",
-          "references": []
-        }
-      ],
-      "food_pairings": [
-        "Serve with lemon to enhance iron absorption and add brightness",
-        "Pair with leafy greens for a complete anti-inflammatory meal",
-        "Combine with olive oil and herbs for Mediterranean-style preparation",
-        "Add to whole grains like quinoa for sustained energy release"
-      ],
-      "practical_tips": [
-        "Choose wild-caught when possible for higher omega-3 content",
-        "Aim for 2-3 servings of fatty fish per week for optimal omega-3 intake",
-        "Don't overcook - salmon is best medium-rare to medium",
-        "Canned salmon with bones is an excellent calcium source"
-      ],
-      "optimal_timing": {
-        "best_time": "midday",
-        "reasoning": "Protein and healthy fats provide sustained energy; vitamin D absorption is optimal with sunlight exposure",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "Great dinner option too - omega-3s support restful sleep"
-      },
-      "default_variant_id": "salmon__raw__whole",
-      "price_avg": 12.99,
-      "price_unit": "lb",
-      "score": 89,
-      "grade": "A",
-      "grade_color": "#3B82F6",
-      "score_breakdown": {
-        "nutrient_density": 35,
-        "protein_quality": 14,
-        "fiber_content": 0,
-        "healthy_fats": 7,
-        "bioactive_compounds": 12.83,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 1,
-        "top_nutrients": [
-          [
-            "Vitamin B12",
-            230.8
-          ],
-          [
-            "Vitamin B6",
-            97.9
-          ],
-          [
-            "Selenium",
-            66.4
-          ],
-          [
-            "Niacin",
-            49.1
-          ],
-          [
-            "Pantothenic Acid",
-            33.3
-          ]
-        ],
-        "bioactives_found": [
-          "Omega-3 (ALA/EPA/DHA)"
-        ],
-        "concerns": [
-          "Moderate sodium"
-        ],
-        "documented_micros": 20,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "salmon__baked__fillet",
-          "variety": null,
-          "prep": "baked",
-          "form": "fillet",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 182,
-          "macros": {
-            "protein_g": 25.4,
-            "carbs_g": 0,
-            "fat_g": 8.1,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_d_iu": 526,
-            "vitamin_b12_mcg": 3.2,
-            "selenium_mcg": 41.4,
-            "omega3_mg": 2260,
-            "potassium_mg": 384,
-            "phosphorus_mg": 256,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5,
-            "saturated_fat_g": 2.397,
-            "monounsaturated_fat_g": 4.181,
-            "polyunsaturated_fat_g": 4.553
-          },
-          "source": {
-            "name": "USDA",
-            "id": "175168",
-            "fatty_acids_fdc_id": "175168"
-          },
-          "image_url": "/food-assets/salmon/roasted.webp",
-          "gallery_images": [
-            "/food-assets/salmon/roasted_2.webp",
-            "/food-assets/salmon/roasted_3.webp"
-          ]
-        },
-        {
-          "variant_id": "salmon__canned__whole",
-          "variety": null,
-          "prep": "canned",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 153,
-          "macros": {
-            "protein_g": 20.63,
-            "carbs_g": 0,
-            "fat_g": 7.17,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.02,
-            "riboflavin_mg": 0.2,
-            "vitamin_b12_mcg": 0.4,
-            "niacin_mg": 6,
-            "iron_mg": 0.57,
-            "magnesium_mg": 30,
-            "phosphorus_mg": 321,
-            "sodium_mg": 433,
-            "copper_mg": 0.061,
-            "manganese_mg": 0.024,
-            "vitamin_a_iu": 39,
-            "vitamin_d_iu": 19,
-            "vitamin_k_mcg": 0.1,
-            "omega3_mg": 1288,
-            "omega6_mg": 0.118,
-            "cholesterol_mg": 67,
-            "trans_fat_g": 0.041,
-            "saturated_fat_g": 1.46,
-            "vitamin_e_mg": 1.88,
-            "calcium_mg": 198,
-            "potassium_mg": 329,
-            "zinc_mg": 0.67,
-            "choline_mg": 74.8,
-            "monounsaturated_fat_g": 2.471,
-            "polyunsaturated_fat_g": 1.744,
-            "selenium_mcg": 30.1,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "175174",
-            "fatty_acids_fdc_id": "175174"
-          },
-          "image_url": "/food-assets/salmon/canned.webp",
-          "gallery_images": [
-            "/food-assets/salmon/canned_2.webp",
-            "/food-assets/salmon/canned_3.webp"
-          ]
-        },
-        {
-          "variant_id": "salmon__canned__whole__without_skin",
-          "variety": null,
-          "prep": "canned",
-          "form": "whole",
-          "notes": "without_skin",
-          "serving_basis": "per_100g",
-          "calories": 158,
-          "macros": {
-            "protein_g": 26.33,
-            "carbs_g": 0,
-            "fat_g": 5.87,
-            "fiber_g": 0
-          },
-          "micros": {
-            "iron_mg": 0.48,
-            "magnesium_mg": 24,
-            "phosphorus_mg": 236,
-            "sodium_mg": 386,
-            "copper_mg": 0.07,
-            "manganese_mg": 0.011,
-            "vitamin_a_iu": 56,
-            "vitamin_d_iu": 21.5,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.033,
-            "riboflavin_mg": 0.214,
-            "folate_mcg": 4,
-            "vitamin_b12_mcg": 5.54,
-            "vitamin_k_mcg": 0.1,
-            "cholesterol_mg": 66,
-            "trans_fat_g": 0.032,
-            "saturated_fat_g": 1.211,
-            "omega3_mg": 1182,
-            "omega6_mg": 0.093,
-            "calcium_mg": 37,
-            "potassium_mg": 312,
-            "zinc_mg": 0.58,
-            "selenium_mcg": 34.6,
-            "vitamin_e_mg": 2.09,
-            "niacin_mg": 7.689,
-            "choline_mg": 83.3,
-            "monounsaturated_fat_g": 1.925,
-            "polyunsaturated_fat_g": 1.551,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "173723",
-            "fatty_acids_fdc_id": "173723"
-          },
-          "image_url": "/food-assets/salmon/canned.webp",
-          "gallery_images": [
-            "/food-assets/salmon/canned_2.webp",
-            "/food-assets/salmon/canned_3.webp"
-          ]
-        },
-        {
-          "variant_id": "salmon__raw__fillet",
-          "variety": null,
-          "prep": "raw",
-          "form": "fillet",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 142,
-          "macros": {
-            "protein_g": 19.8,
-            "carbs_g": 0,
-            "fat_g": 6.3,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_d_iu": 441,
-            "vitamin_b12_mcg": 2.8,
-            "selenium_mcg": 36.5,
-            "omega3_mg": 1970,
-            "potassium_mg": 363,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5,
-            "vitamin_a_iu": 12,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.226,
-            "riboflavin_mg": 0.38,
-            "folate_mcg": 25,
-            "cholesterol_mg": 55,
-            "saturated_fat_g": 0.981,
-            "iron_mg": 0.8,
-            "magnesium_mg": 29,
-            "phosphorus_mg": 200,
-            "sodium_mg": 44,
-            "copper_mg": 0.25,
-            "manganese_mg": 0.016,
-            "calcium_mg": 12,
-            "zinc_mg": 0.64,
-            "monounsaturated_fat_g": 2.103,
-            "polyunsaturated_fat_g": 2.539,
-            "niacin_mg": 7.86,
-            "vitamin_b6_mg": 1.664
-          },
-          "source": {
-            "name": "USDA",
-            "id": "173686",
-            "backfilled": "2026-08-25"
-          },
-          "image_url": null,
-          "gallery_images": []
-        },
-        {
-          "variant_id": "salmon__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 158,
-          "macros": {
-            "protein_g": 26.33,
-            "carbs_g": 0,
-            "fat_g": 5.87,
-            "fiber_g": 0
-          },
-          "micros": {
-            "iron_mg": 0.48,
-            "magnesium_mg": 24,
-            "phosphorus_mg": 236,
-            "sodium_mg": 386,
-            "copper_mg": 0.07,
-            "manganese_mg": 0.011,
-            "vitamin_a_iu": 56,
-            "vitamin_d_iu": 21.5,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.033,
-            "riboflavin_mg": 0.214,
-            "folate_mcg": 4,
-            "vitamin_b12_mcg": 5.54,
-            "vitamin_k_mcg": 0.1,
-            "cholesterol_mg": 66,
-            "trans_fat_g": 0.032,
-            "saturated_fat_g": 1.211,
-            "omega3_mg": 0.699,
-            "omega6_mg": 0.093,
-            "calcium_mg": 37,
-            "potassium_mg": 312,
-            "zinc_mg": 0.58,
-            "selenium_mcg": 34.6,
-            "vitamin_e_mg": 2.09,
-            "niacin_mg": 7.689,
-            "choline_mg": 83.3,
-            "monounsaturated_fat_g": 1.925,
-            "polyunsaturated_fat_g": 1.551,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5
-          },
-          "source": {
-            "name": "ported-from-sibling:salmon__canned__whole__without_skin"
-          },
-          "image_url": null,
-          "gallery_images": []
-        },
-        {
-          "variant_id": "salmon__smoked__whole__with_skin",
-          "variety": null,
-          "prep": "smoked",
-          "form": "whole",
-          "notes": "with_skin",
-          "serving_basis": "per_100g",
-          "calories": 345,
-          "macros": {
-            "protein_g": 60.62,
-            "carbs_g": 0,
-            "fat_g": 11.43,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_c_mg": 0,
-            "saturated_fat_g": 2.593,
-            "monounsaturated_fat_g": 4.025,
-            "polyunsaturated_fat_g": 3.469,
-            "thiamin_mg": 0.494,
-            "riboflavin_mg": 0.543,
-            "folate_mcg": 9,
-            "vitamin_b12_mcg": 18.1,
-            "vitamin_k_mcg": 0,
-            "iron_mg": 1.06,
-            "magnesium_mg": 58,
-            "phosphorus_mg": 650,
-            "sodium_mg": 51,
-            "copper_mg": 0.148,
-            "manganese_mg": 0.051,
-            "omega3_mg": 1.52,
-            "cholesterol_mg": 155,
-            "vitamin_a_iu": 31,
-            "calcium_mg": 58,
-            "potassium_mg": 960,
-            "zinc_mg": 1.14,
-            "selenium_mcg": 76,
-            "vitamin_e_mg": 1.2,
-            "niacin_mg": 22.75,
-            "vitamin_b6_mg": 2.745,
-            "choline_mg": 223.8,
-            "pantothenic_acid_mg": 1.664,
-            "biotin_mcg": 5
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "169813"
-          },
-          "image_url": "/food-assets/salmon/smoked.webp",
-          "gallery_images": [
-            "/food-assets/salmon/smoked_2.webp",
-            "/food-assets/salmon/smoked_3.webp"
-          ]
-        }
-      ]
-    },
-    {
       "base_id": "sauerkraut",
       "name": "Sauerkraut",
       "group": "Vegetable",
@@ -46313,6 +46313,286 @@
       ]
     },
     {
+      "base_id": "quinoa",
+      "name": "Quinoa",
+      "group": "Grain",
+      "subgroup": "Pseudocereal",
+      "aliases": [
+        "white quinoa",
+        "red quinoa",
+        "black quinoa"
+      ],
+      "tags": [
+        "complete-protein",
+        "plant-based",
+        "high-fiber",
+        "low-glycemic-index",
+        "magnesium-rich",
+        "prebiotic",
+        "antioxidant",
+        "heart-healthy",
+        "nutrient-dense",
+        "ancient-grain",
+        "amino-acids",
+        "blood-sugar-control"
+      ],
+      "icon": "🌱",
+      "image_path": "assets/foods/quinoa/hero.jpg",
+      "image_url": "/food-assets/quinoa/hero.webp",
+      "gallery_images": [],
+      "description": "Quinoa is a complete plant-based protein containing all nine essential amino acids, with exceptional micronutrient density including magnesium, manganese, and folate. Its high fiber content and low glycemic index make it a superior grain choice for metabolic health and longevity.",
+      "overview": "Quinoa (Chenopodium quinoa) originated in the Andean highlands of South America and has been cultivated for over 7,000 years. Unlike most grains, quinoa is a pseudocereal that provides a complete amino acid profile with 14g protein per 100g—rare among plant sources. Its nutritional density is exceptional: it delivers substantial amounts of magnesium (197mg), phosphorus (457mg), and folate (184mcg) per serving, minerals critical for cardiovascular function, bone health, and DNA synthesis. Quinoa contains bioactive compounds including quercetin and kaempferol, flavonoids with documented antioxidant and anti-inflammatory properties. The high fiber content (7g per 100g) supports healthy gut microbiota composition and metabolic rate, both associated with extended healthspan. Its balanced macronutrient profile—with nearly 4:1 carbohydrate-to-protein ratio and heart-healthy polyunsaturated fats—promotes stable blood glucose and sustained energy. Research suggests whole-grain consumption, including quinoa, correlates with reduced cardiovascular and type 2 diabetes risk. For longevity-focused individuals seeking plant-based protein sources with minimal processing and maximal micronutrient density, quinoa represents an optimal staple grain.",
+      "health_benefits": [
+        {
+          "benefit": "Complete protein source supporting lean muscle maintenance and synthesis",
+          "mechanism": "Contains all 9 essential amino acids in approximately balanced proportions, enabling muscle protein synthesis and reducing reliance on animal products",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Improved glycemic control and metabolic stability",
+          "mechanism": "Low glycemic index (GI ~53) combined with high fiber slows glucose absorption, reducing insulin spikes and supporting long-term metabolic health",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Enhanced cardiovascular health through magnesium and polyphenol content",
+          "mechanism": "Magnesium regulates vascular function and blood pressure; quercetin and kaempferol reduce endothelial dysfunction and arterial inflammation",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Optimized gut microbiota diversity and short-chain fatty acid production",
+          "mechanism": "High insoluble and soluble fiber acts as prebiotic substrate, selectively feeding beneficial Bifidobacterium and Faecalibacterium species",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "Reduced oxidative stress and systemic inflammation",
+          "mechanism": "Bioactive flavonoids (quercetin, kaempferol) and mineral cofactors (selenium, magnesium) support antioxidant enzyme function",
+          "evidence_strength": "emerging"
+        }
+      ],
+      "food_pairings": [
+        "Pair with legumes (lentils, chickpeas) because combining quinoa's methionine-rich amino acids with legumes' lysine creates a complete amino acid profile superior to either alone",
+        "Pair with leafy greens (spinach, kale) because iron in quinoa has improved bioavailability in presence of vitamin C from greens, enhancing heme-independent iron absorption",
+        "Pair with olive oil because fat-soluble polyphenols and fat-soluble vitamins require lipid co-ingestion for optimal absorption and cellular uptake",
+        "Pair with fermented foods (sauerkraut, kimchi) because combined prebiotic fiber and probiotic cultures synergistically enhance beneficial bacterial colonization and short-chain fatty acid diversity",
+        "Pair with turmeric and black pepper because curcumin absorption increases 2000-fold with piperine, and quinoa's mineral matrix enhances bioavailability of both compounds"
+      ],
+      "practical_tips": [
+        "Rinse quinoa thoroughly under cool running water before cooking to remove saponins—bitter compounds that can inhibit mineral absorption and cause digestive discomfort",
+        "Toast dry quinoa in a pan for 2-3 minutes before cooking to enhance nutty flavor and reduce cooking time by 5 minutes, improving palatability and nutrient retention",
+        "Cook quinoa with bone broth instead of water to increase bioavailable calcium, collagen amino acids, and umami depth without added sodium",
+        "Store cooked quinoa in airtight glass containers for up to 5 days refrigerated; freeze portions for up to 3 months to enable rapid meal preparation while maintaining protein integrity",
+        "Sproute quinoa for 24-48 hours before cooking to reduce phytic acid by 50-70%, significantly increasing mineral bioavailability (zinc, iron, magnesium)"
+      ],
+      "optimal_timing": {
+        "best_time": "midday",
+        "reasoning": "Quinoa's balanced macronutrient profile and sustained-release carbohydrates optimize energy throughout afternoon hours without sleep disruption. Complete protein supports post-lunch muscle protein synthesis and cognitive function during afternoon tasks.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "While not fasting-compatible due to caloric and macronutrient content, quinoa is excellent as first meal after a fast to gently break autophagy with complete protein and micronutrients. Small portions (50-75g) can be included in post-workout meals within 60 minutes of resistance training for superior amino acid delivery."
+      },
+      "default_variant_id": "quinoa__raw__whole",
+      "price_avg": 4,
+      "price_unit": "lb",
+      "score": 88,
+      "grade": "A",
+      "grade_color": "#3B82F6",
+      "score_breakdown": {
+        "nutrient_density": 34.36,
+        "protein_quality": 10.24,
+        "fiber_content": 8.2,
+        "healthy_fats": 8.5,
+        "bioactive_compounds": 9.72,
+        "glycemic_impact": 9,
+        "anti_nutrient_penalty": 0,
+        "top_nutrients": [
+          [
+            "Manganese",
+            88.4
+          ],
+          [
+            "Copper",
+            65.6
+          ],
+          [
+            "Magnesium",
+            46.9
+          ],
+          [
+            "Folate",
+            46
+          ],
+          [
+            "Vitamin B6",
+            45.4
+          ]
+        ],
+        "bioactives_found": [
+          "Quercetin",
+          "Inulin / Prebiotic fibre",
+          "Polyphenols"
+        ],
+        "concerns": [],
+        "documented_micros": 18,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "quinoa__cooked__whole",
+          "variety": null,
+          "prep": "cooked",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 120,
+          "macros": {
+            "protein_g": 4.4,
+            "carbs_g": 21.3,
+            "fat_g": 1.92,
+            "fiber_g": 2.8
+          },
+          "micros": {
+            "thiamin_mg": 0.107,
+            "riboflavin_mg": 0.11,
+            "folate_mcg": 42,
+            "iron_mg": 1.49,
+            "magnesium_mg": 64,
+            "phosphorus_mg": 152,
+            "sodium_mg": 7,
+            "copper_mg": 0.192,
+            "manganese_mg": 0.631,
+            "niacin_mg": 0.412,
+            "calcium_mg": 17,
+            "potassium_mg": 172,
+            "zinc_mg": 1.09,
+            "selenium_mcg": 2.8,
+            "vitamin_e_mg": 0.63,
+            "vitamin_a_iu": 0,
+            "vitamin_b12_mcg": 0,
+            "cholesterol_mg": 0,
+            "vitamin_c_mg": 0,
+            "vitamin_k_mcg": 0,
+            "saturated_fat_g": 0.231,
+            "omega3_mg": 100,
+            "vitamin_d_iu": 0,
+            "choline_mg": 23,
+            "monounsaturated_fat_g": 0.528,
+            "polyunsaturated_fat_g": 1.078,
+            "pantothenic_acid_mg": 0.772,
+            "biotin_mcg": 6
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "168917",
+            "omega3_fdc_id": "168917"
+          },
+          "image_url": "/food-assets/quinoa/cooked.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "quinoa__raw__flour",
+          "variety": null,
+          "prep": "raw",
+          "form": "flour",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 120,
+          "macros": {
+            "protein_g": 4.4,
+            "carbs_g": 21.3,
+            "fat_g": 1.92,
+            "fiber_g": 2.8
+          },
+          "micros": {
+            "thiamin_mg": 0.107,
+            "riboflavin_mg": 0.11,
+            "folate_mcg": 42,
+            "iron_mg": 1.49,
+            "magnesium_mg": 64,
+            "phosphorus_mg": 152,
+            "sodium_mg": 7,
+            "copper_mg": 0.192,
+            "manganese_mg": 0.631,
+            "niacin_mg": 0.412,
+            "calcium_mg": 17,
+            "potassium_mg": 172,
+            "zinc_mg": 1.09,
+            "selenium_mcg": 2.8,
+            "vitamin_e_mg": 0.63,
+            "vitamin_a_iu": 0,
+            "vitamin_b12_mcg": 0,
+            "cholesterol_mg": 0,
+            "vitamin_c_mg": 0,
+            "vitamin_k_mcg": 0,
+            "saturated_fat_g": 0.231,
+            "omega3_mg": 100,
+            "vitamin_d_iu": 0,
+            "choline_mg": 23,
+            "monounsaturated_fat_g": 0.528,
+            "polyunsaturated_fat_g": 1.078,
+            "pantothenic_acid_mg": 0.772,
+            "biotin_mcg": 6
+          },
+          "source": {
+            "name": "ported-from-sibling:quinoa__cooked__whole"
+          },
+          "image_url": "/food-assets/quinoa/flour.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "quinoa__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 368,
+          "macros": {
+            "protein_g": 14.12,
+            "carbs_g": 64.16,
+            "fat_g": 6.07,
+            "fiber_g": 7
+          },
+          "micros": {
+            "vitamin_a_iu": 1,
+            "iron_mg": 4.57,
+            "magnesium_mg": 197,
+            "phosphorus_mg": 457,
+            "sodium_mg": 5,
+            "copper_mg": 0.59,
+            "manganese_mg": 2.033,
+            "thiamin_mg": 0.36,
+            "riboflavin_mg": 0.318,
+            "folate_mcg": 184,
+            "saturated_fat_g": 0.706,
+            "omega3_mg": 307,
+            "calcium_mg": 47,
+            "potassium_mg": 563,
+            "zinc_mg": 3.1,
+            "selenium_mcg": 8.5,
+            "vitamin_e_mg": 2.44,
+            "niacin_mg": 1.52,
+            "vitamin_b6_mg": 0.772,
+            "choline_mg": 70.2,
+            "monounsaturated_fat_g": 1.613,
+            "polyunsaturated_fat_g": 3.292,
+            "vitamin_k_mcg": 0,
+            "vitamin_b12_mcg": 0,
+            "cholesterol_mg": 0,
+            "vitamin_d_iu": 0,
+            "pantothenic_acid_mg": 0.772,
+            "biotin_mcg": 6
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "168874",
+            "omega3_fdc_id": "168874"
+          },
+          "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
       "base_id": "soursop",
       "name": "Soursop",
       "group": "Fruit",
@@ -48555,284 +48835,6 @@
             "name": "USDA",
             "id": "169928",
             "backfilled": "2026-08-25"
-          },
-          "image_url": null,
-          "gallery_images": []
-        }
-      ]
-    },
-    {
-      "base_id": "quinoa",
-      "name": "Quinoa",
-      "group": "Grain",
-      "subgroup": "Pseudocereal",
-      "aliases": [
-        "white quinoa",
-        "red quinoa",
-        "black quinoa"
-      ],
-      "tags": [
-        "complete-protein",
-        "plant-based",
-        "high-fiber",
-        "low-glycemic-index",
-        "magnesium-rich",
-        "prebiotic",
-        "antioxidant",
-        "heart-healthy",
-        "nutrient-dense",
-        "ancient-grain",
-        "amino-acids",
-        "blood-sugar-control"
-      ],
-      "icon": "🌱",
-      "image_path": "assets/foods/quinoa/hero.jpg",
-      "image_url": "/food-assets/quinoa/hero.webp",
-      "gallery_images": [],
-      "description": "Quinoa is a complete plant-based protein containing all nine essential amino acids, with exceptional micronutrient density including magnesium, manganese, and folate. Its high fiber content and low glycemic index make it a superior grain choice for metabolic health and longevity.",
-      "overview": "Quinoa (Chenopodium quinoa) originated in the Andean highlands of South America and has been cultivated for over 7,000 years. Unlike most grains, quinoa is a pseudocereal that provides a complete amino acid profile with 14g protein per 100g—rare among plant sources. Its nutritional density is exceptional: it delivers substantial amounts of magnesium (197mg), phosphorus (457mg), and folate (184mcg) per serving, minerals critical for cardiovascular function, bone health, and DNA synthesis. Quinoa contains bioactive compounds including quercetin and kaempferol, flavonoids with documented antioxidant and anti-inflammatory properties. The high fiber content (7g per 100g) supports healthy gut microbiota composition and metabolic rate, both associated with extended healthspan. Its balanced macronutrient profile—with nearly 4:1 carbohydrate-to-protein ratio and heart-healthy polyunsaturated fats—promotes stable blood glucose and sustained energy. Research suggests whole-grain consumption, including quinoa, correlates with reduced cardiovascular and type 2 diabetes risk. For longevity-focused individuals seeking plant-based protein sources with minimal processing and maximal micronutrient density, quinoa represents an optimal staple grain.",
-      "health_benefits": [
-        {
-          "benefit": "Complete protein source supporting lean muscle maintenance and synthesis",
-          "mechanism": "Contains all 9 essential amino acids in approximately balanced proportions, enabling muscle protein synthesis and reducing reliance on animal products",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Improved glycemic control and metabolic stability",
-          "mechanism": "Low glycemic index (GI ~53) combined with high fiber slows glucose absorption, reducing insulin spikes and supporting long-term metabolic health",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Enhanced cardiovascular health through magnesium and polyphenol content",
-          "mechanism": "Magnesium regulates vascular function and blood pressure; quercetin and kaempferol reduce endothelial dysfunction and arterial inflammation",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Optimized gut microbiota diversity and short-chain fatty acid production",
-          "mechanism": "High insoluble and soluble fiber acts as prebiotic substrate, selectively feeding beneficial Bifidobacterium and Faecalibacterium species",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "Reduced oxidative stress and systemic inflammation",
-          "mechanism": "Bioactive flavonoids (quercetin, kaempferol) and mineral cofactors (selenium, magnesium) support antioxidant enzyme function",
-          "evidence_strength": "emerging"
-        }
-      ],
-      "food_pairings": [
-        "Pair with legumes (lentils, chickpeas) because combining quinoa's methionine-rich amino acids with legumes' lysine creates a complete amino acid profile superior to either alone",
-        "Pair with leafy greens (spinach, kale) because iron in quinoa has improved bioavailability in presence of vitamin C from greens, enhancing heme-independent iron absorption",
-        "Pair with olive oil because fat-soluble polyphenols and fat-soluble vitamins require lipid co-ingestion for optimal absorption and cellular uptake",
-        "Pair with fermented foods (sauerkraut, kimchi) because combined prebiotic fiber and probiotic cultures synergistically enhance beneficial bacterial colonization and short-chain fatty acid diversity",
-        "Pair with turmeric and black pepper because curcumin absorption increases 2000-fold with piperine, and quinoa's mineral matrix enhances bioavailability of both compounds"
-      ],
-      "practical_tips": [
-        "Rinse quinoa thoroughly under cool running water before cooking to remove saponins—bitter compounds that can inhibit mineral absorption and cause digestive discomfort",
-        "Toast dry quinoa in a pan for 2-3 minutes before cooking to enhance nutty flavor and reduce cooking time by 5 minutes, improving palatability and nutrient retention",
-        "Cook quinoa with bone broth instead of water to increase bioavailable calcium, collagen amino acids, and umami depth without added sodium",
-        "Store cooked quinoa in airtight glass containers for up to 5 days refrigerated; freeze portions for up to 3 months to enable rapid meal preparation while maintaining protein integrity",
-        "Sproute quinoa for 24-48 hours before cooking to reduce phytic acid by 50-70%, significantly increasing mineral bioavailability (zinc, iron, magnesium)"
-      ],
-      "optimal_timing": {
-        "best_time": "midday",
-        "reasoning": "Quinoa's balanced macronutrient profile and sustained-release carbohydrates optimize energy throughout afternoon hours without sleep disruption. Complete protein supports post-lunch muscle protein synthesis and cognitive function during afternoon tasks.",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "While not fasting-compatible due to caloric and macronutrient content, quinoa is excellent as first meal after a fast to gently break autophagy with complete protein and micronutrients. Small portions (50-75g) can be included in post-workout meals within 60 minutes of resistance training for superior amino acid delivery."
-      },
-      "default_variant_id": "quinoa__raw__whole",
-      "price_avg": 4,
-      "price_unit": "lb",
-      "score": 87,
-      "grade": "A",
-      "grade_color": "#3B82F6",
-      "score_breakdown": {
-        "nutrient_density": 34.19,
-        "protein_quality": 10.24,
-        "fiber_content": 8.2,
-        "healthy_fats": 8,
-        "bioactive_compounds": 9.72,
-        "glycemic_impact": 9,
-        "anti_nutrient_penalty": 0,
-        "top_nutrients": [
-          [
-            "Manganese",
-            88.4
-          ],
-          [
-            "Copper",
-            65.6
-          ],
-          [
-            "Magnesium",
-            46.9
-          ],
-          [
-            "Folate",
-            46
-          ],
-          [
-            "Vitamin B6",
-            45.4
-          ]
-        ],
-        "bioactives_found": [
-          "Quercetin",
-          "Inulin / Prebiotic fibre",
-          "Polyphenols"
-        ],
-        "concerns": [],
-        "documented_micros": 18,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "quinoa__cooked__whole",
-          "variety": null,
-          "prep": "cooked",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 120,
-          "macros": {
-            "protein_g": 4.4,
-            "carbs_g": 21.3,
-            "fat_g": 1.92,
-            "fiber_g": 2.8
-          },
-          "micros": {
-            "thiamin_mg": 0.107,
-            "riboflavin_mg": 0.11,
-            "folate_mcg": 42,
-            "iron_mg": 1.49,
-            "magnesium_mg": 64,
-            "phosphorus_mg": 152,
-            "sodium_mg": 7,
-            "copper_mg": 0.192,
-            "manganese_mg": 0.631,
-            "niacin_mg": 0.412,
-            "calcium_mg": 17,
-            "potassium_mg": 172,
-            "zinc_mg": 1.09,
-            "selenium_mcg": 2.8,
-            "vitamin_e_mg": 0.63,
-            "vitamin_a_iu": 0,
-            "vitamin_b12_mcg": 0,
-            "cholesterol_mg": 0,
-            "vitamin_c_mg": 0,
-            "vitamin_k_mcg": 0,
-            "saturated_fat_g": 0.231,
-            "omega3_mg": 0.015,
-            "vitamin_d_iu": 0,
-            "choline_mg": 23,
-            "monounsaturated_fat_g": 0.528,
-            "polyunsaturated_fat_g": 1.078,
-            "pantothenic_acid_mg": 0.772,
-            "biotin_mcg": 6
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "168917"
-          },
-          "image_url": "/food-assets/quinoa/cooked.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "quinoa__raw__flour",
-          "variety": null,
-          "prep": "raw",
-          "form": "flour",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 120,
-          "macros": {
-            "protein_g": 4.4,
-            "carbs_g": 21.3,
-            "fat_g": 1.92,
-            "fiber_g": 2.8
-          },
-          "micros": {
-            "thiamin_mg": 0.107,
-            "riboflavin_mg": 0.11,
-            "folate_mcg": 42,
-            "iron_mg": 1.49,
-            "magnesium_mg": 64,
-            "phosphorus_mg": 152,
-            "sodium_mg": 7,
-            "copper_mg": 0.192,
-            "manganese_mg": 0.631,
-            "niacin_mg": 0.412,
-            "calcium_mg": 17,
-            "potassium_mg": 172,
-            "zinc_mg": 1.09,
-            "selenium_mcg": 2.8,
-            "vitamin_e_mg": 0.63,
-            "vitamin_a_iu": 0,
-            "vitamin_b12_mcg": 0,
-            "cholesterol_mg": 0,
-            "vitamin_c_mg": 0,
-            "vitamin_k_mcg": 0,
-            "saturated_fat_g": 0.231,
-            "omega3_mg": 0.015,
-            "vitamin_d_iu": 0,
-            "choline_mg": 23,
-            "monounsaturated_fat_g": 0.528,
-            "polyunsaturated_fat_g": 1.078,
-            "pantothenic_acid_mg": 0.772,
-            "biotin_mcg": 6
-          },
-          "source": {
-            "name": "ported-from-sibling:quinoa__cooked__whole"
-          },
-          "image_url": "/food-assets/quinoa/flour.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "quinoa__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 368,
-          "macros": {
-            "protein_g": 14.12,
-            "carbs_g": 64.16,
-            "fat_g": 6.07,
-            "fiber_g": 7
-          },
-          "micros": {
-            "vitamin_a_iu": 1,
-            "iron_mg": 4.57,
-            "magnesium_mg": 197,
-            "phosphorus_mg": 457,
-            "sodium_mg": 5,
-            "copper_mg": 0.59,
-            "manganese_mg": 2.033,
-            "thiamin_mg": 0.36,
-            "riboflavin_mg": 0.318,
-            "folate_mcg": 184,
-            "saturated_fat_g": 0.706,
-            "omega3_mg": 0.047,
-            "calcium_mg": 47,
-            "potassium_mg": 563,
-            "zinc_mg": 3.1,
-            "selenium_mcg": 8.5,
-            "vitamin_e_mg": 2.44,
-            "niacin_mg": 1.52,
-            "vitamin_b6_mg": 0.772,
-            "choline_mg": 70.2,
-            "monounsaturated_fat_g": 1.613,
-            "polyunsaturated_fat_g": 3.292,
-            "vitamin_k_mcg": 0,
-            "vitamin_b12_mcg": 0,
-            "cholesterol_mg": 0,
-            "vitamin_d_iu": 0,
-            "pantothenic_acid_mg": 0.772,
-            "biotin_mcg": 6
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "168874"
           },
           "image_url": null,
           "gallery_images": []
@@ -64574,7 +64576,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -64630,7 +64632,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -64856,7 +64858,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -65119,7 +65121,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -65172,7 +65174,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -65265,7 +65267,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -65318,7 +65320,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -65374,7 +65376,7 @@
             "cholesterol_mg": 107,
             "trans_fat_g": 0.087,
             "saturated_fat_g": 3.11,
-            "omega3_mg": 0.031,
+            "omega3_mg": 139,
             "omega6_mg": 1.787,
             "iron_mg": 0.93,
             "magnesium_mg": 28,
@@ -67141,7 +67143,7 @@
             "folate_mcg": 4,
             "trans_fat_g": 0,
             "vitamin_a_iu": 10,
-            "omega3_mg": 0.002,
+            "omega3_mg": 14,
             "saturated_fat_g": 0.197,
             "monounsaturated_fat_g": 0.261,
             "polyunsaturated_fat_g": 0.184,
@@ -67151,7 +67153,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "174572"
+            "id": "174572",
+            "omega3_fdc_id": "174572"
           },
           "image_url": null,
           "gallery_images": []
@@ -70191,7 +70194,7 @@
             "cholesterol_mg": 313,
             "trans_fat_g": 0.709,
             "saturated_fat_g": 3.319,
-            "omega3_mg": 0.049,
+            "omega3_mg": 182,
             "iron_mg": 1.48,
             "magnesium_mg": 11,
             "phosphorus_mg": 167,
@@ -70351,7 +70354,7 @@
             "cholesterol_mg": 313,
             "trans_fat_g": 0.709,
             "saturated_fat_g": 3.319,
-            "omega3_mg": 0.049,
+            "omega3_mg": 182,
             "iron_mg": 1.48,
             "magnesium_mg": 11,
             "phosphorus_mg": 167,
@@ -70525,7 +70528,6 @@
             "cholesterol_mg": 401,
             "trans_fat_g": 0.041,
             "saturated_fat_g": 4.323,
-            "omega3_mg": 0.063,
             "thiamin_mg": 0.044,
             "riboflavin_mg": 0.495,
             "selenium_mcg": 33.1,
@@ -70578,7 +70580,6 @@
             "cholesterol_mg": 401,
             "trans_fat_g": 0.041,
             "saturated_fat_g": 4.323,
-            "omega3_mg": 0.063,
             "thiamin_mg": 0.044,
             "riboflavin_mg": 0.495,
             "selenium_mcg": 33.1,
@@ -70879,12 +70880,13 @@
             "polyunsaturated_fat_g": 0.259,
             "riboflavin_mg": 0.082,
             "calcium_mg": 18,
-            "omega3_mg": 0.197,
+            "omega3_mg": 228,
             "vitamin_b6_mg": 0.148
           },
           "source": {
             "name": "USDA FDC",
-            "id": "334194"
+            "id": "334194",
+            "omega3_fdc_id": "334194"
           },
           "image_url": "/food-assets/fish/canned.webp",
           "gallery_images": []
@@ -71027,13 +71029,14 @@
             "vitamin_b12_mcg": 1.05,
             "cholesterol_mg": 55,
             "saturated_fat_g": 0.168,
-            "omega3_mg": 0.154,
+            "omega3_mg": 172,
             "selenium_mcg": 37.6,
             "choline_mg": 83.7
           },
           "source": {
             "name": "USDA FDC",
-            "id": "171956"
+            "id": "171956",
+            "omega3_fdc_id": "171956"
           },
           "image_url": "/food-assets/fish/cooked.webp",
           "gallery_images": []
@@ -71067,7 +71070,7 @@
             "vitamin_k_mcg": 0,
             "cholesterol_mg": 75,
             "saturated_fat_g": 0.498,
-            "omega3_mg": 0.363,
+            "omega3_mg": 667,
             "monounsaturated_fat_g": 0.842,
             "polyunsaturated_fat_g": 0.731,
             "calcium_mg": 33,
@@ -71080,7 +71083,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "169812"
+            "id": "169812",
+            "omega3_fdc_id": "169812"
           },
           "image_url": "/food-assets/fish/cooked.webp",
           "gallery_images": []
@@ -71312,7 +71316,7 @@
             "selenium_mcg": 25.9,
             "omega6_mg": 0.014,
             "monounsaturated_fat_g": 0.057,
-            "omega3_mg": 0.089,
+            "omega3_mg": 138,
             "thiamin_mg": 0.02,
             "zinc_mg": 0.32,
             "magnesium_mg": 21.1,
@@ -71334,7 +71338,8 @@
           "source": {
             "name": "USDA FDC",
             "id": "171964",
-            "backfilled": "2026-08-25"
+            "backfilled": "2026-08-25",
+            "omega3_fdc_id": "171964"
           },
           "image_url": null,
           "gallery_images": []
@@ -71404,7 +71409,7 @@
             "vitamin_k_mcg": 0,
             "cholesterol_mg": 72,
             "saturated_fat_g": 0.726,
-            "omega3_mg": 0.393,
+            "omega3_mg": 681,
             "iron_mg": 0.27,
             "magnesium_mg": 26,
             "phosphorus_mg": 244,
@@ -71416,7 +71421,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "167638"
+            "id": "167638",
+            "omega3_fdc_id": "167638"
           },
           "image_url": null,
           "gallery_images": []
@@ -71671,6 +71677,664 @@
             "id": "174272"
           },
           "image_url": null,
+          "gallery_images": []
+        }
+      ]
+    },
+    {
+      "base_id": "turkey",
+      "name": "Turkey",
+      "group": "Meat",
+      "subgroup": null,
+      "aliases": [],
+      "tags": [
+        "lean-protein",
+        "selenium-rich",
+        "muscle-maintenance",
+        "niacin-source",
+        "low-fat-poultry",
+        "complete-amino-acids",
+        "thyroid-support",
+        "metabolic-health",
+        "sarcopenia-prevention",
+        "longevity"
+      ],
+      "icon": "🦃",
+      "image_path": "",
+      "image_url": "/food-assets/turkey/hero.webp",
+      "gallery_images": [],
+      "description": "Turkey is a lean poultry rich in high-quality protein and B vitamins, particularly niacin and selenium, making it an excellent choice for muscle maintenance and metabolic health.",
+      "overview": "Turkey, domesticated in Mesoamerica over 2,000 years ago, is a nutrient-dense lean protein source widely consumed globally. Per 100g, it provides 21.6g of protein with only 5.6g fat and 144 calories, making it exceptionally efficient for protein intake without excess caloric or saturated fat burden. Turkey's micronutrient profile is distinctive for its high selenium content (21.3 mcg per 100g—roughly 39% of daily value), a crucial cofactor for glutathione peroxidase and thyroid hormone metabolism. Its niacin content (7.6 mg) supports NAD+ metabolism, critical for mitochondrial function and aging processes. The choline (58 mg) contributes to cognitive health and methylation pathways. Unlike red meat, turkey's lower iron and cholesterol content may reduce oxidative stress in some individuals. The favorable protein-to-calorie ratio and complete amino acid profile make it particularly valuable for aging populations seeking to maintain lean mass and metabolic rate while managing caloric intake. Skin-on preparations retain fat-soluble vitamins but increase caloric density; skinless breast offers maximum protein efficiency.",
+      "health_benefits": [
+        {
+          "benefit": "Supports lean muscle mass maintenance and protein synthesis",
+          "mechanism": "Complete protein with all essential amino acids; high leucine content stimulates mTORC1 signaling and muscle protein synthesis, critical for sarcopenia prevention in aging",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Enhances thyroid function and antioxidant defense",
+          "mechanism": "Selenium is an essential component of selenoproteins including glutathione peroxidase and thioredoxin reductase, which reduce oxidative stress and support thyroid peroxidase enzyme function",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Promotes metabolic health and energy production",
+          "mechanism": "Niacin (vitamin B3) functions as a precursor to NAD+, essential for glycolysis, fatty acid oxidation, and mitochondrial ATP production; supports sirtuin activation pathways",
+          "evidence_strength": "strong"
+        },
+        {
+          "benefit": "Supports cognitive and neurological function",
+          "mechanism": "Choline serves as precursor to acetylcholine neurotransmitter and phosphatidylcholine, critical for cell membrane integrity and synaptic plasticity",
+          "evidence_strength": "moderate"
+        },
+        {
+          "benefit": "May reduce cardiovascular disease risk relative to red meat",
+          "mechanism": "Lower saturated fat and cholesterol content compared to beef; lean preparation reduces atherogenic lipid burden while maintaining protein-mediated satiety and metabolic benefits",
+          "evidence_strength": "moderate"
+        }
+      ],
+      "food_pairings": [
+        "Pair with broccoli or other cruciferous vegetables because glucosinolates enhance phase II detoxification enzyme activity, working synergistically with turkey's selenium to optimize antioxidant capacity",
+        "Combine with sweet potato because vitamin C enhances non-heme iron absorption from turkey, improving bioavailability and supporting collagen synthesis",
+        "Pair with mushrooms (especially shiitake) because ergothioneine and polysaccharides enhance immune function alongside turkey's selenium and niacin for comprehensive metabolic support",
+        "Combine with garlic or onions because allicin compounds support cardiovascular health and have mild anticoagulant properties, complementing turkey's lean protein profile"
+      ],
+      "practical_tips": [
+        "Choose skinless breast over thighs or ground turkey to minimize saturated fat while maximizing the protein-to-calorie ratio; skin adds ~50 calories and 5g fat per 100g",
+        "Store at 40°F (4°C) or below for maximum 1-2 days, or freeze at 0°F (-18°C) for up to 3 months; freeze in portion-controlled amounts to minimize oxidative damage from repeated thawing",
+        "Prepare using dry heat methods (roasting, grilling, baking) rather than high-temperature frying to minimize formation of advanced glycation end products (AGEs) that may promote systemic inflammation",
+        "Include turkey in meals with fat-soluble vitamin sources (olive oil, avocado) to enhance absorption of fat-soluble vitamins from accompanying vegetables; selenium absorption is enhanced in presence of fat",
+        "Consume within 3 hours of cooking or refrigerate immediately; reheated turkey should reach 165°F (74°C) to ensure food safety and prevent bacterial proliferation"
+      ],
+      "optimal_timing": {
+        "best_time": "anytime",
+        "reasoning": "Turkey's complete amino acid profile and low glycemic index make it suitable for any meal. Lunch or dinner is traditional; post-workout timing provides amino acids for muscle protein synthesis. Breakfast inclusion (ground turkey) supports sustained satiety and metabolic rate through the day.",
+        "avoid_times": [],
+        "fasting_compatible": false,
+        "notes": "While not fasting-compatible due to caloric content, turkey is an ideal first food to break an extended fast due to complete amino acid profile and digestibility. Timing should align with circadian patterns and individual protein distribution preferences (evenly distributed vs. concentrated at one meal)."
+      },
+      "default_variant_id": "turkey__raw__whole",
+      "price_avg": 4,
+      "price_unit": "lb",
+      "score": 79,
+      "grade": "A",
+      "grade_color": "#3B82F6",
+      "score_breakdown": {
+        "nutrient_density": 35,
+        "protein_quality": 14,
+        "fiber_content": 0,
+        "healthy_fats": 5,
+        "bioactive_compounds": 8.38,
+        "glycemic_impact": 10,
+        "anti_nutrient_penalty": 2.5,
+        "top_nutrients": [
+          [
+            "Vitamin B6",
+            70.2
+          ],
+          [
+            "Selenium",
+            56.5
+          ],
+          [
+            "Vitamin B12",
+            55.8
+          ],
+          [
+            "Niacin",
+            54.5
+          ],
+          [
+            "Sodium",
+            37
+          ]
+        ],
+        "bioactives_found": [
+          "Choline",
+          "Glutathione"
+        ],
+        "concerns": [
+          "High sodium"
+        ],
+        "documented_micros": 20,
+        "density_floored": false
+      },
+      "variants": [
+        {
+          "variant_id": "turkey__broiled__ground",
+          "variety": null,
+          "prep": "broiled",
+          "form": "ground",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 220,
+          "macros": {
+            "protein_g": 27.1,
+            "carbs_g": 0,
+            "fat_g": 11.6,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_a_iu": 30,
+            "vitamin_b12_mcg": 1.9,
+            "saturated_fat_g": 2.97,
+            "cholesterol_mg": 104,
+            "monounsaturated_fat_g": 3.78,
+            "polyunsaturated_fat_g": 3.49,
+            "calcium_mg": 31,
+            "niacin_mg": 8.09,
+            "trans_fat_g": 0.144,
+            "zinc_mg": 3.77,
+            "magnesium_mg": 29.1,
+            "omega3_mg": 190,
+            "thiamin_mg": 0.088,
+            "iron_mg": 1.56,
+            "potassium_mg": 304,
+            "riboflavin_mg": 0.262,
+            "omega6_mg": 3.05,
+            "selenium_mcg": 28.4,
+            "copper_mg": 0.166,
+            "sodium_mg": 90,
+            "vitamin_e_mg": 0.18,
+            "phosphorus_mg": 259,
+            "vitamin_b6_mg": 1.4,
+            "choline_mg": 78.7,
+            "manganese_mg": 0.01,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "330869",
+            "fatty_acids_fdc_id": "330869"
+          },
+          "image_url": "/food-assets/turkey/ground.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__canned__whole",
+          "variety": null,
+          "prep": "canned",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 169,
+          "macros": {
+            "protein_g": 23.68,
+            "carbs_g": 1.47,
+            "fat_g": 6.86,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_k_mcg": 0.7,
+            "vitamin_e_mg": 0.27,
+            "vitamin_d_iu": 0.3,
+            "vitamin_a_iu": 0,
+            "selenium_mcg": 25.9,
+            "iron_mg": 1.86,
+            "magnesium_mg": 20,
+            "phosphorus_mg": 162,
+            "copper_mg": 0.074,
+            "manganese_mg": 0.017,
+            "cholesterol_mg": 66,
+            "saturated_fat_g": 2,
+            "vitamin_c_mg": 2,
+            "thiamin_mg": 0.014,
+            "riboflavin_mg": 0.171,
+            "folate_mcg": 6,
+            "vitamin_b12_mcg": 0.28,
+            "omega3_mg": 110,
+            "monounsaturated_fat_g": 2.26,
+            "polyunsaturated_fat_g": 1.75,
+            "niacin_mg": 6.622,
+            "vitamin_b6_mg": 0.686,
+            "calcium_mg": 12,
+            "potassium_mg": 224,
+            "zinc_mg": 2.37,
+            "sodium_mg": 518,
+            "choline_mg": 74,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171101",
+            "fatty_acids_fdc_id": "171101"
+          },
+          "image_url": "/food-assets/turkey/canned.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__cooked__ground",
+          "variety": null,
+          "prep": "cooked",
+          "form": "ground",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 203,
+          "macros": {
+            "protein_g": 27.37,
+            "carbs_g": 0,
+            "fat_g": 10.4,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_d_iu": 0.2,
+            "iron_mg": 1.52,
+            "magnesium_mg": 30,
+            "phosphorus_mg": 254,
+            "sodium_mg": 78,
+            "copper_mg": 0.151,
+            "manganese_mg": 0.011,
+            "vitamin_a_iu": 24,
+            "cholesterol_mg": 93,
+            "trans_fat_g": 0.134,
+            "saturated_fat_g": 2.669,
+            "omega3_mg": 163,
+            "vitamin_k_mcg": 0,
+            "thiamin_mg": 0.077,
+            "riboflavin_mg": 0.211,
+            "folate_mcg": 7,
+            "vitamin_b12_mcg": 1.34,
+            "omega6_mg": 2.508,
+            "calcium_mg": 28,
+            "potassium_mg": 294,
+            "zinc_mg": 3.11,
+            "selenium_mcg": 31.1,
+            "vitamin_e_mg": 0.11,
+            "niacin_mg": 8.724,
+            "vitamin_b6_mg": 1.193,
+            "choline_mg": 78.2,
+            "monounsaturated_fat_g": 3.458,
+            "polyunsaturated_fat_g": 2.917,
+            "vitamin_c_mg": 0,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171506",
+            "fatty_acids_fdc_id": "171506"
+          },
+          "image_url": "/food-assets/turkey/ground.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__cooked__whole",
+          "variety": null,
+          "prep": "cooked",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 173,
+          "macros": {
+            "protein_g": 26.44,
+            "carbs_g": 0,
+            "fat_g": 6.61,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_k_mcg": 0,
+            "calcium_mg": 18,
+            "potassium_mg": 177,
+            "zinc_mg": 4.29,
+            "selenium_mcg": 71.1,
+            "vitamin_e_mg": 0.13,
+            "niacin_mg": 8.647,
+            "vitamin_b6_mg": 2.332,
+            "choline_mg": 155.6,
+            "monounsaturated_fat_g": 1.041,
+            "polyunsaturated_fat_g": 1.537,
+            "iron_mg": 3.39,
+            "magnesium_mg": 25,
+            "phosphorus_mg": 249,
+            "sodium_mg": 117,
+            "copper_mg": 0.692,
+            "manganese_mg": 0.202,
+            "vitamin_a_iu": 4619,
+            "omega6_mg": 1.071,
+            "vitamin_d_iu": 0,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.171,
+            "riboflavin_mg": 1.543,
+            "folate_mcg": 303,
+            "vitamin_b12_mcg": 15.89,
+            "cholesterol_mg": 521,
+            "trans_fat_g": 0.045,
+            "saturated_fat_g": 1.725,
+            "omega3_mg": 70,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171084",
+            "fatty_acids_fdc_id": "171084"
+          },
+          "image_url": "/food-assets/turkey/cooked.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__raw__diced",
+          "variety": null,
+          "prep": "raw",
+          "form": "diced",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 138,
+          "macros": {
+            "protein_g": 18.7,
+            "carbs_g": 1,
+            "fat_g": 6,
+            "fiber_g": 0
+          },
+          "micros": {
+            "selenium_mcg": 26.1,
+            "vitamin_a_iu": 0,
+            "calcium_mg": 1,
+            "potassium_mg": 310,
+            "zinc_mg": 2.02,
+            "monounsaturated_fat_g": 1.98,
+            "polyunsaturated_fat_g": 1.53,
+            "niacin_mg": 4.8,
+            "vitamin_b6_mg": 0.589,
+            "iron_mg": 1.8,
+            "magnesium_mg": 17,
+            "phosphorus_mg": 240,
+            "sodium_mg": 850,
+            "copper_mg": 0.063,
+            "manganese_mg": 0.013,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.04,
+            "riboflavin_mg": 0.11,
+            "folate_mcg": 5,
+            "vitamin_b12_mcg": 0.24,
+            "cholesterol_mg": 55,
+            "saturated_fat_g": 1.75,
+            "omega3_mg": 90,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171102",
+            "fatty_acids_fdc_id": "171102"
+          },
+          "image_url": null,
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__raw__ground",
+          "variety": null,
+          "prep": "raw",
+          "form": "ground",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 203,
+          "macros": {
+            "protein_g": 27.37,
+            "carbs_g": 0,
+            "fat_g": 10.4,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_d_iu": 0.2,
+            "iron_mg": 1.52,
+            "magnesium_mg": 30,
+            "phosphorus_mg": 254,
+            "sodium_mg": 78,
+            "copper_mg": 0.151,
+            "manganese_mg": 0.011,
+            "vitamin_a_iu": 24,
+            "cholesterol_mg": 93,
+            "trans_fat_g": 0.134,
+            "saturated_fat_g": 2.669,
+            "omega3_mg": 163,
+            "vitamin_k_mcg": 0,
+            "thiamin_mg": 0.077,
+            "riboflavin_mg": 0.211,
+            "folate_mcg": 7,
+            "vitamin_b12_mcg": 1.34,
+            "omega6_mg": 2.508,
+            "calcium_mg": 28,
+            "potassium_mg": 294,
+            "zinc_mg": 3.11,
+            "selenium_mcg": 31.1,
+            "vitamin_e_mg": 0.11,
+            "niacin_mg": 8.724,
+            "vitamin_b6_mg": 1.193,
+            "choline_mg": 78.2,
+            "monounsaturated_fat_g": 3.458,
+            "polyunsaturated_fat_g": 2.917,
+            "vitamin_c_mg": 0,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "ported-from-sibling:turkey__cooked__ground"
+          },
+          "image_url": "/food-assets/turkey/ground.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__raw__whole",
+          "variety": null,
+          "prep": "raw",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 144,
+          "macros": {
+            "protein_g": 21.64,
+            "carbs_g": 0.14,
+            "fat_g": 5.64,
+            "fiber_g": 0
+          },
+          "micros": {
+            "omega3_mg": 84,
+            "omega6_mg": 1.075,
+            "vitamin_d_iu": 0.3,
+            "vitamin_c_mg": 0,
+            "thiamin_mg": 0.048,
+            "riboflavin_mg": 0.185,
+            "folate_mcg": 7,
+            "vitamin_b12_mcg": 1.22,
+            "iron_mg": 0.86,
+            "magnesium_mg": 25,
+            "phosphorus_mg": 183,
+            "sodium_mg": 112,
+            "copper_mg": 0.077,
+            "manganese_mg": 0.012,
+            "vitamin_k_mcg": 0,
+            "cholesterol_mg": 72,
+            "trans_fat_g": 0.062,
+            "saturated_fat_g": 1.461,
+            "calcium_mg": 11,
+            "potassium_mg": 224,
+            "zinc_mg": 1.78,
+            "selenium_mcg": 21.3,
+            "vitamin_e_mg": 0.09,
+            "niacin_mg": 7.631,
+            "vitamin_b6_mg": 0.811,
+            "choline_mg": 58,
+            "monounsaturated_fat_g": 1.826,
+            "polyunsaturated_fat_g": 1.466,
+            "vitamin_a_iu": 17,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171081",
+            "fatty_acids_fdc_id": "171081"
+          },
+          "image_url": null,
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__roasted__whole",
+          "variety": null,
+          "prep": "roasted",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 459,
+          "macros": {
+            "protein_g": 23.94,
+            "carbs_g": 0.57,
+            "fat_g": 39.31,
+            "fiber_g": 0
+          },
+          "micros": {
+            "vitamin_c_mg": 0,
+            "calcium_mg": 21,
+            "potassium_mg": 242,
+            "zinc_mg": 2.14,
+            "selenium_mcg": 21.1,
+            "vitamin_e_mg": 0.15,
+            "niacin_mg": 10.235,
+            "vitamin_b6_mg": 0.92,
+            "choline_mg": 73.8,
+            "monounsaturated_fat_g": 15.094,
+            "polyunsaturated_fat_g": 11.903,
+            "magnesium_mg": 33,
+            "phosphorus_mg": 233,
+            "sodium_mg": 116,
+            "copper_mg": 0.11,
+            "manganese_mg": 0.017,
+            "vitamin_a_iu": 79,
+            "vitamin_d_iu": 1.4,
+            "iron_mg": 1.63,
+            "thiamin_mg": 0.029,
+            "riboflavin_mg": 0.29,
+            "folate_mcg": 8,
+            "vitamin_b12_mcg": 1.71,
+            "vitamin_k_mcg": 0,
+            "cholesterol_mg": 177,
+            "trans_fat_g": 0.568,
+            "saturated_fat_g": 11.356,
+            "omega3_mg": 697,
+            "omega6_mg": 10.632,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "171082",
+            "fatty_acids_fdc_id": "171082"
+          },
+          "image_url": "/food-assets/turkey/roasted.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__smoked__whole",
+          "variety": null,
+          "prep": "smoked",
+          "form": "whole",
+          "notes": null,
+          "serving_basis": "per_100g",
+          "calories": 162,
+          "macros": {
+            "protein_g": 29.3,
+            "carbs_g": 0,
+            "fat_g": 5,
+            "fiber_g": 0
+          },
+          "micros": {
+            "calcium_mg": 25,
+            "potassium_mg": 298,
+            "zinc_mg": 3.1,
+            "niacin_mg": 5.44,
+            "cholesterol_mg": 76,
+            "vitamin_a_iu": 0,
+            "omega3_mg": 80,
+            "iron_mg": 1.78,
+            "magnesium_mg": 26,
+            "phosphorus_mg": 213,
+            "sodium_mg": 996,
+            "copper_mg": 0.094,
+            "vitamin_d_iu": 0.1,
+            "thiamin_mg": 0.06,
+            "riboflavin_mg": 0.18,
+            "folate_mcg": 7,
+            "vitamin_b12_mcg": 0.37,
+            "saturated_fat_g": 1.368,
+            "monounsaturated_fat_g": 1.046,
+            "polyunsaturated_fat_g": 1.408,
+            "vitamin_e_mg": 0.33,
+            "vitamin_k_mcg": 0,
+            "selenium_mcg": 43,
+            "vitamin_c_mg": 0,
+            "choline_mg": 82.3,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "167713",
+            "fatty_acids_fdc_id": "167713"
+          },
+          "image_url": "/food-assets/turkey/smoked.webp",
+          "gallery_images": []
+        },
+        {
+          "variant_id": "turkey__smoked__whole__with_skin",
+          "variety": null,
+          "prep": "smoked",
+          "form": "whole",
+          "notes": "with_skin",
+          "serving_basis": "per_100g",
+          "calories": 221,
+          "macros": {
+            "protein_g": 27.4,
+            "carbs_g": 0,
+            "fat_g": 12.41,
+            "fiber_g": 0
+          },
+          "micros": {
+            "calcium_mg": 24,
+            "potassium_mg": 266,
+            "zinc_mg": 2.1,
+            "niacin_mg": 5.73,
+            "monounsaturated_fat_g": 4.651,
+            "polyunsaturated_fat_g": 2.934,
+            "iron_mg": 1.46,
+            "magnesium_mg": 25,
+            "phosphorus_mg": 197,
+            "sodium_mg": 996,
+            "copper_mg": 0.056,
+            "vitamin_d_iu": 0.1,
+            "thiamin_mg": 0.05,
+            "riboflavin_mg": 0.13,
+            "folate_mcg": 6,
+            "vitamin_b12_mcg": 0.34,
+            "cholesterol_mg": 81,
+            "saturated_fat_g": 3.383,
+            "omega3_mg": 190,
+            "vitamin_c_mg": 0,
+            "vitamin_a_iu": 0,
+            "selenium_mcg": 26,
+            "vitamin_e_mg": 0.17,
+            "vitamin_k_mcg": 0,
+            "choline_mg": 68.7,
+            "pantothenic_acid_mg": 1.19,
+            "biotin_mcg": 10,
+            "chromium_mcg": 1
+          },
+          "source": {
+            "name": "USDA FDC",
+            "id": "167709",
+            "fatty_acids_fdc_id": "167709"
+          },
+          "image_url": "/food-assets/turkey/smoked.webp",
           "gallery_images": []
         }
       ]
@@ -73510,664 +74174,6 @@
       ]
     },
     {
-      "base_id": "turkey",
-      "name": "Turkey",
-      "group": "Meat",
-      "subgroup": null,
-      "aliases": [],
-      "tags": [
-        "lean-protein",
-        "selenium-rich",
-        "muscle-maintenance",
-        "niacin-source",
-        "low-fat-poultry",
-        "complete-amino-acids",
-        "thyroid-support",
-        "metabolic-health",
-        "sarcopenia-prevention",
-        "longevity"
-      ],
-      "icon": "🦃",
-      "image_path": "",
-      "image_url": "/food-assets/turkey/hero.webp",
-      "gallery_images": [],
-      "description": "Turkey is a lean poultry rich in high-quality protein and B vitamins, particularly niacin and selenium, making it an excellent choice for muscle maintenance and metabolic health.",
-      "overview": "Turkey, domesticated in Mesoamerica over 2,000 years ago, is a nutrient-dense lean protein source widely consumed globally. Per 100g, it provides 21.6g of protein with only 5.6g fat and 144 calories, making it exceptionally efficient for protein intake without excess caloric or saturated fat burden. Turkey's micronutrient profile is distinctive for its high selenium content (21.3 mcg per 100g—roughly 39% of daily value), a crucial cofactor for glutathione peroxidase and thyroid hormone metabolism. Its niacin content (7.6 mg) supports NAD+ metabolism, critical for mitochondrial function and aging processes. The choline (58 mg) contributes to cognitive health and methylation pathways. Unlike red meat, turkey's lower iron and cholesterol content may reduce oxidative stress in some individuals. The favorable protein-to-calorie ratio and complete amino acid profile make it particularly valuable for aging populations seeking to maintain lean mass and metabolic rate while managing caloric intake. Skin-on preparations retain fat-soluble vitamins but increase caloric density; skinless breast offers maximum protein efficiency.",
-      "health_benefits": [
-        {
-          "benefit": "Supports lean muscle mass maintenance and protein synthesis",
-          "mechanism": "Complete protein with all essential amino acids; high leucine content stimulates mTORC1 signaling and muscle protein synthesis, critical for sarcopenia prevention in aging",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Enhances thyroid function and antioxidant defense",
-          "mechanism": "Selenium is an essential component of selenoproteins including glutathione peroxidase and thioredoxin reductase, which reduce oxidative stress and support thyroid peroxidase enzyme function",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Promotes metabolic health and energy production",
-          "mechanism": "Niacin (vitamin B3) functions as a precursor to NAD+, essential for glycolysis, fatty acid oxidation, and mitochondrial ATP production; supports sirtuin activation pathways",
-          "evidence_strength": "strong"
-        },
-        {
-          "benefit": "Supports cognitive and neurological function",
-          "mechanism": "Choline serves as precursor to acetylcholine neurotransmitter and phosphatidylcholine, critical for cell membrane integrity and synaptic plasticity",
-          "evidence_strength": "moderate"
-        },
-        {
-          "benefit": "May reduce cardiovascular disease risk relative to red meat",
-          "mechanism": "Lower saturated fat and cholesterol content compared to beef; lean preparation reduces atherogenic lipid burden while maintaining protein-mediated satiety and metabolic benefits",
-          "evidence_strength": "moderate"
-        }
-      ],
-      "food_pairings": [
-        "Pair with broccoli or other cruciferous vegetables because glucosinolates enhance phase II detoxification enzyme activity, working synergistically with turkey's selenium to optimize antioxidant capacity",
-        "Combine with sweet potato because vitamin C enhances non-heme iron absorption from turkey, improving bioavailability and supporting collagen synthesis",
-        "Pair with mushrooms (especially shiitake) because ergothioneine and polysaccharides enhance immune function alongside turkey's selenium and niacin for comprehensive metabolic support",
-        "Combine with garlic or onions because allicin compounds support cardiovascular health and have mild anticoagulant properties, complementing turkey's lean protein profile"
-      ],
-      "practical_tips": [
-        "Choose skinless breast over thighs or ground turkey to minimize saturated fat while maximizing the protein-to-calorie ratio; skin adds ~50 calories and 5g fat per 100g",
-        "Store at 40°F (4°C) or below for maximum 1-2 days, or freeze at 0°F (-18°C) for up to 3 months; freeze in portion-controlled amounts to minimize oxidative damage from repeated thawing",
-        "Prepare using dry heat methods (roasting, grilling, baking) rather than high-temperature frying to minimize formation of advanced glycation end products (AGEs) that may promote systemic inflammation",
-        "Include turkey in meals with fat-soluble vitamin sources (olive oil, avocado) to enhance absorption of fat-soluble vitamins from accompanying vegetables; selenium absorption is enhanced in presence of fat",
-        "Consume within 3 hours of cooking or refrigerate immediately; reheated turkey should reach 165°F (74°C) to ensure food safety and prevent bacterial proliferation"
-      ],
-      "optimal_timing": {
-        "best_time": "anytime",
-        "reasoning": "Turkey's complete amino acid profile and low glycemic index make it suitable for any meal. Lunch or dinner is traditional; post-workout timing provides amino acids for muscle protein synthesis. Breakfast inclusion (ground turkey) supports sustained satiety and metabolic rate through the day.",
-        "avoid_times": [],
-        "fasting_compatible": false,
-        "notes": "While not fasting-compatible due to caloric content, turkey is an ideal first food to break an extended fast due to complete amino acid profile and digestibility. Timing should align with circadian patterns and individual protein distribution preferences (evenly distributed vs. concentrated at one meal)."
-      },
-      "default_variant_id": "turkey__raw__whole",
-      "price_avg": 4,
-      "price_unit": "lb",
-      "score": 78,
-      "grade": "A",
-      "grade_color": "#3B82F6",
-      "score_breakdown": {
-        "nutrient_density": 35,
-        "protein_quality": 14,
-        "fiber_content": 0,
-        "healthy_fats": 4.5,
-        "bioactive_compounds": 8.38,
-        "glycemic_impact": 10,
-        "anti_nutrient_penalty": 2.5,
-        "top_nutrients": [
-          [
-            "Vitamin B6",
-            70.2
-          ],
-          [
-            "Selenium",
-            56.5
-          ],
-          [
-            "Vitamin B12",
-            55.8
-          ],
-          [
-            "Niacin",
-            54.5
-          ],
-          [
-            "Sodium",
-            37
-          ]
-        ],
-        "bioactives_found": [
-          "Choline",
-          "Glutathione"
-        ],
-        "concerns": [
-          "High sodium"
-        ],
-        "documented_micros": 20,
-        "density_floored": false
-      },
-      "variants": [
-        {
-          "variant_id": "turkey__broiled__ground",
-          "variety": null,
-          "prep": "broiled",
-          "form": "ground",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 220,
-          "macros": {
-            "protein_g": 27.1,
-            "carbs_g": 0,
-            "fat_g": 11.6,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_a_iu": 30,
-            "vitamin_b12_mcg": 1.9,
-            "saturated_fat_g": 2.97,
-            "cholesterol_mg": 104,
-            "monounsaturated_fat_g": 3.78,
-            "polyunsaturated_fat_g": 3.49,
-            "calcium_mg": 31,
-            "niacin_mg": 8.09,
-            "trans_fat_g": 0.144,
-            "zinc_mg": 3.77,
-            "magnesium_mg": 29.1,
-            "omega3_mg": 190,
-            "thiamin_mg": 0.088,
-            "iron_mg": 1.56,
-            "potassium_mg": 304,
-            "riboflavin_mg": 0.262,
-            "omega6_mg": 3.05,
-            "selenium_mcg": 28.4,
-            "copper_mg": 0.166,
-            "sodium_mg": 90,
-            "vitamin_e_mg": 0.18,
-            "phosphorus_mg": 259,
-            "vitamin_b6_mg": 1.4,
-            "choline_mg": 78.7,
-            "manganese_mg": 0.01,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "330869",
-            "fatty_acids_fdc_id": "330869"
-          },
-          "image_url": "/food-assets/turkey/ground.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__canned__whole",
-          "variety": null,
-          "prep": "canned",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 169,
-          "macros": {
-            "protein_g": 23.68,
-            "carbs_g": 1.47,
-            "fat_g": 6.86,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_k_mcg": 0.7,
-            "vitamin_e_mg": 0.27,
-            "vitamin_d_iu": 0.3,
-            "vitamin_a_iu": 0,
-            "selenium_mcg": 25.9,
-            "iron_mg": 1.86,
-            "magnesium_mg": 20,
-            "phosphorus_mg": 162,
-            "copper_mg": 0.074,
-            "manganese_mg": 0.017,
-            "cholesterol_mg": 66,
-            "saturated_fat_g": 2,
-            "vitamin_c_mg": 2,
-            "thiamin_mg": 0.014,
-            "riboflavin_mg": 0.171,
-            "folate_mcg": 6,
-            "vitamin_b12_mcg": 0.28,
-            "omega3_mg": 110,
-            "monounsaturated_fat_g": 2.26,
-            "polyunsaturated_fat_g": 1.75,
-            "niacin_mg": 6.622,
-            "vitamin_b6_mg": 0.686,
-            "calcium_mg": 12,
-            "potassium_mg": 224,
-            "zinc_mg": 2.37,
-            "sodium_mg": 518,
-            "choline_mg": 74,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171101",
-            "fatty_acids_fdc_id": "171101"
-          },
-          "image_url": "/food-assets/turkey/canned.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__cooked__ground",
-          "variety": null,
-          "prep": "cooked",
-          "form": "ground",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 203,
-          "macros": {
-            "protein_g": 27.37,
-            "carbs_g": 0,
-            "fat_g": 10.4,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_d_iu": 0.2,
-            "iron_mg": 1.52,
-            "magnesium_mg": 30,
-            "phosphorus_mg": 254,
-            "sodium_mg": 78,
-            "copper_mg": 0.151,
-            "manganese_mg": 0.011,
-            "vitamin_a_iu": 24,
-            "cholesterol_mg": 93,
-            "trans_fat_g": 0.134,
-            "saturated_fat_g": 2.669,
-            "omega3_mg": 163,
-            "vitamin_k_mcg": 0,
-            "thiamin_mg": 0.077,
-            "riboflavin_mg": 0.211,
-            "folate_mcg": 7,
-            "vitamin_b12_mcg": 1.34,
-            "omega6_mg": 2.508,
-            "calcium_mg": 28,
-            "potassium_mg": 294,
-            "zinc_mg": 3.11,
-            "selenium_mcg": 31.1,
-            "vitamin_e_mg": 0.11,
-            "niacin_mg": 8.724,
-            "vitamin_b6_mg": 1.193,
-            "choline_mg": 78.2,
-            "monounsaturated_fat_g": 3.458,
-            "polyunsaturated_fat_g": 2.917,
-            "vitamin_c_mg": 0,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171506",
-            "fatty_acids_fdc_id": "171506"
-          },
-          "image_url": "/food-assets/turkey/ground.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__cooked__whole",
-          "variety": null,
-          "prep": "cooked",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 173,
-          "macros": {
-            "protein_g": 26.44,
-            "carbs_g": 0,
-            "fat_g": 6.61,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_k_mcg": 0,
-            "calcium_mg": 18,
-            "potassium_mg": 177,
-            "zinc_mg": 4.29,
-            "selenium_mcg": 71.1,
-            "vitamin_e_mg": 0.13,
-            "niacin_mg": 8.647,
-            "vitamin_b6_mg": 2.332,
-            "choline_mg": 155.6,
-            "monounsaturated_fat_g": 1.041,
-            "polyunsaturated_fat_g": 1.537,
-            "iron_mg": 3.39,
-            "magnesium_mg": 25,
-            "phosphorus_mg": 249,
-            "sodium_mg": 117,
-            "copper_mg": 0.692,
-            "manganese_mg": 0.202,
-            "vitamin_a_iu": 4619,
-            "omega6_mg": 1.071,
-            "vitamin_d_iu": 0,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.171,
-            "riboflavin_mg": 1.543,
-            "folate_mcg": 303,
-            "vitamin_b12_mcg": 15.89,
-            "cholesterol_mg": 521,
-            "trans_fat_g": 0.045,
-            "saturated_fat_g": 1.725,
-            "omega3_mg": 70,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171084",
-            "fatty_acids_fdc_id": "171084"
-          },
-          "image_url": "/food-assets/turkey/cooked.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__raw__diced",
-          "variety": null,
-          "prep": "raw",
-          "form": "diced",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 138,
-          "macros": {
-            "protein_g": 18.7,
-            "carbs_g": 1,
-            "fat_g": 6,
-            "fiber_g": 0
-          },
-          "micros": {
-            "selenium_mcg": 26.1,
-            "vitamin_a_iu": 0,
-            "calcium_mg": 1,
-            "potassium_mg": 310,
-            "zinc_mg": 2.02,
-            "monounsaturated_fat_g": 1.98,
-            "polyunsaturated_fat_g": 1.53,
-            "niacin_mg": 4.8,
-            "vitamin_b6_mg": 0.589,
-            "iron_mg": 1.8,
-            "magnesium_mg": 17,
-            "phosphorus_mg": 240,
-            "sodium_mg": 850,
-            "copper_mg": 0.063,
-            "manganese_mg": 0.013,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.04,
-            "riboflavin_mg": 0.11,
-            "folate_mcg": 5,
-            "vitamin_b12_mcg": 0.24,
-            "cholesterol_mg": 55,
-            "saturated_fat_g": 1.75,
-            "omega3_mg": 90,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171102",
-            "fatty_acids_fdc_id": "171102"
-          },
-          "image_url": null,
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__raw__ground",
-          "variety": null,
-          "prep": "raw",
-          "form": "ground",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 203,
-          "macros": {
-            "protein_g": 27.37,
-            "carbs_g": 0,
-            "fat_g": 10.4,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_d_iu": 0.2,
-            "iron_mg": 1.52,
-            "magnesium_mg": 30,
-            "phosphorus_mg": 254,
-            "sodium_mg": 78,
-            "copper_mg": 0.151,
-            "manganese_mg": 0.011,
-            "vitamin_a_iu": 24,
-            "cholesterol_mg": 93,
-            "trans_fat_g": 0.134,
-            "saturated_fat_g": 2.669,
-            "omega3_mg": 0.009,
-            "vitamin_k_mcg": 0,
-            "thiamin_mg": 0.077,
-            "riboflavin_mg": 0.211,
-            "folate_mcg": 7,
-            "vitamin_b12_mcg": 1.34,
-            "omega6_mg": 2.508,
-            "calcium_mg": 28,
-            "potassium_mg": 294,
-            "zinc_mg": 3.11,
-            "selenium_mcg": 31.1,
-            "vitamin_e_mg": 0.11,
-            "niacin_mg": 8.724,
-            "vitamin_b6_mg": 1.193,
-            "choline_mg": 78.2,
-            "monounsaturated_fat_g": 3.458,
-            "polyunsaturated_fat_g": 2.917,
-            "vitamin_c_mg": 0,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "ported-from-sibling:turkey__cooked__ground"
-          },
-          "image_url": "/food-assets/turkey/ground.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__raw__whole",
-          "variety": null,
-          "prep": "raw",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 144,
-          "macros": {
-            "protein_g": 21.64,
-            "carbs_g": 0.14,
-            "fat_g": 5.64,
-            "fiber_g": 0
-          },
-          "micros": {
-            "omega3_mg": 84,
-            "omega6_mg": 1.075,
-            "vitamin_d_iu": 0.3,
-            "vitamin_c_mg": 0,
-            "thiamin_mg": 0.048,
-            "riboflavin_mg": 0.185,
-            "folate_mcg": 7,
-            "vitamin_b12_mcg": 1.22,
-            "iron_mg": 0.86,
-            "magnesium_mg": 25,
-            "phosphorus_mg": 183,
-            "sodium_mg": 112,
-            "copper_mg": 0.077,
-            "manganese_mg": 0.012,
-            "vitamin_k_mcg": 0,
-            "cholesterol_mg": 72,
-            "trans_fat_g": 0.062,
-            "saturated_fat_g": 1.461,
-            "calcium_mg": 11,
-            "potassium_mg": 224,
-            "zinc_mg": 1.78,
-            "selenium_mcg": 21.3,
-            "vitamin_e_mg": 0.09,
-            "niacin_mg": 7.631,
-            "vitamin_b6_mg": 0.811,
-            "choline_mg": 58,
-            "monounsaturated_fat_g": 1.826,
-            "polyunsaturated_fat_g": 1.466,
-            "vitamin_a_iu": 17,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171081",
-            "fatty_acids_fdc_id": "171081"
-          },
-          "image_url": null,
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__roasted__whole",
-          "variety": null,
-          "prep": "roasted",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 459,
-          "macros": {
-            "protein_g": 23.94,
-            "carbs_g": 0.57,
-            "fat_g": 39.31,
-            "fiber_g": 0
-          },
-          "micros": {
-            "vitamin_c_mg": 0,
-            "calcium_mg": 21,
-            "potassium_mg": 242,
-            "zinc_mg": 2.14,
-            "selenium_mcg": 21.1,
-            "vitamin_e_mg": 0.15,
-            "niacin_mg": 10.235,
-            "vitamin_b6_mg": 0.92,
-            "choline_mg": 73.8,
-            "monounsaturated_fat_g": 15.094,
-            "polyunsaturated_fat_g": 11.903,
-            "magnesium_mg": 33,
-            "phosphorus_mg": 233,
-            "sodium_mg": 116,
-            "copper_mg": 0.11,
-            "manganese_mg": 0.017,
-            "vitamin_a_iu": 79,
-            "vitamin_d_iu": 1.4,
-            "iron_mg": 1.63,
-            "thiamin_mg": 0.029,
-            "riboflavin_mg": 0.29,
-            "folate_mcg": 8,
-            "vitamin_b12_mcg": 1.71,
-            "vitamin_k_mcg": 0,
-            "cholesterol_mg": 177,
-            "trans_fat_g": 0.568,
-            "saturated_fat_g": 11.356,
-            "omega3_mg": 697,
-            "omega6_mg": 10.632,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "171082",
-            "fatty_acids_fdc_id": "171082"
-          },
-          "image_url": "/food-assets/turkey/roasted.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__smoked__whole",
-          "variety": null,
-          "prep": "smoked",
-          "form": "whole",
-          "notes": null,
-          "serving_basis": "per_100g",
-          "calories": 162,
-          "macros": {
-            "protein_g": 29.3,
-            "carbs_g": 0,
-            "fat_g": 5,
-            "fiber_g": 0
-          },
-          "micros": {
-            "calcium_mg": 25,
-            "potassium_mg": 298,
-            "zinc_mg": 3.1,
-            "niacin_mg": 5.44,
-            "cholesterol_mg": 76,
-            "vitamin_a_iu": 0,
-            "omega3_mg": 80,
-            "iron_mg": 1.78,
-            "magnesium_mg": 26,
-            "phosphorus_mg": 213,
-            "sodium_mg": 996,
-            "copper_mg": 0.094,
-            "vitamin_d_iu": 0.1,
-            "thiamin_mg": 0.06,
-            "riboflavin_mg": 0.18,
-            "folate_mcg": 7,
-            "vitamin_b12_mcg": 0.37,
-            "saturated_fat_g": 1.368,
-            "monounsaturated_fat_g": 1.046,
-            "polyunsaturated_fat_g": 1.408,
-            "vitamin_e_mg": 0.33,
-            "vitamin_k_mcg": 0,
-            "selenium_mcg": 43,
-            "vitamin_c_mg": 0,
-            "choline_mg": 82.3,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "167713",
-            "fatty_acids_fdc_id": "167713"
-          },
-          "image_url": "/food-assets/turkey/smoked.webp",
-          "gallery_images": []
-        },
-        {
-          "variant_id": "turkey__smoked__whole__with_skin",
-          "variety": null,
-          "prep": "smoked",
-          "form": "whole",
-          "notes": "with_skin",
-          "serving_basis": "per_100g",
-          "calories": 221,
-          "macros": {
-            "protein_g": 27.4,
-            "carbs_g": 0,
-            "fat_g": 12.41,
-            "fiber_g": 0
-          },
-          "micros": {
-            "calcium_mg": 24,
-            "potassium_mg": 266,
-            "zinc_mg": 2.1,
-            "niacin_mg": 5.73,
-            "monounsaturated_fat_g": 4.651,
-            "polyunsaturated_fat_g": 2.934,
-            "iron_mg": 1.46,
-            "magnesium_mg": 25,
-            "phosphorus_mg": 197,
-            "sodium_mg": 996,
-            "copper_mg": 0.056,
-            "vitamin_d_iu": 0.1,
-            "thiamin_mg": 0.05,
-            "riboflavin_mg": 0.13,
-            "folate_mcg": 6,
-            "vitamin_b12_mcg": 0.34,
-            "cholesterol_mg": 81,
-            "saturated_fat_g": 3.383,
-            "omega3_mg": 190,
-            "vitamin_c_mg": 0,
-            "vitamin_a_iu": 0,
-            "selenium_mcg": 26,
-            "vitamin_e_mg": 0.17,
-            "vitamin_k_mcg": 0,
-            "choline_mg": 68.7,
-            "pantothenic_acid_mg": 1.19,
-            "biotin_mcg": 10,
-            "chromium_mcg": 1
-          },
-          "source": {
-            "name": "USDA FDC",
-            "id": "167709",
-            "fatty_acids_fdc_id": "167709"
-          },
-          "image_url": "/food-assets/turkey/smoked.webp",
-          "gallery_images": []
-        }
-      ]
-    },
-    {
       "base_id": "beans",
       "name": "Beans",
       "group": "Legume",
@@ -74636,7 +74642,7 @@
             "polyunsaturated_fat_g": 1.456,
             "copper_mg": 0.069,
             "manganese_mg": 0.017,
-            "omega3_mg": 0.015,
+            "omega3_mg": 86,
             "thiamin_mg": 0.043,
             "riboflavin_mg": 0.062,
             "folate_mcg": 3,
@@ -74693,7 +74699,7 @@
             "cholesterol_mg": 104,
             "trans_fat_g": 0.01,
             "saturated_fat_g": 0.992,
-            "omega3_mg": 0.007,
+            "omega3_mg": 45,
             "monounsaturated_fat_g": 1.212,
             "polyunsaturated_fat_g": 0.764,
             "calcium_mg": 5,
@@ -74707,7 +74713,8 @@
           "source": {
             "name": "USDA",
             "id": "171534",
-            "backfilled": "2026-08-25"
+            "backfilled": "2026-08-25",
+            "omega3_fdc_id": "171534"
           },
           "image_url": "/food-assets/chicken-breast/roasted.webp",
           "gallery_images": [
@@ -74795,7 +74802,7 @@
             "folate_mcg": 1,
             "vitamin_b12_mcg": 0.09,
             "vitamin_k_mcg": 0,
-            "omega3_mg": 0.002,
+            "omega3_mg": 7,
             "vitamin_b6_mg": 0.241,
             "niacin_mg": 3.428,
             "potassium_mg": 67,
@@ -74809,7 +74816,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "172963"
+            "id": "172963",
+            "omega3_fdc_id": "172963"
           },
           "image_url": "/food-assets/chicken-breast/roasted.webp",
           "gallery_images": [
@@ -76194,7 +76202,7 @@
             "cholesterol_mg": 51,
             "trans_fat_g": 0.148,
             "saturated_fat_g": 1.318,
-            "omega3_mg": 0.001,
+            "omega3_mg": 37,
             "thiamin_mg": 0.043,
             "riboflavin_mg": 0.213,
             "folate_mcg": 5,
@@ -76212,7 +76220,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "174570"
+            "id": "174570",
+            "omega3_fdc_id": "174570"
           },
           "image_url": null,
           "gallery_images": []
@@ -84825,7 +84834,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -84994,7 +85003,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -85443,7 +85452,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -85919,7 +85928,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -86028,7 +86037,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -86082,7 +86091,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -86235,7 +86244,7 @@
             "choline_mg": 97,
             "trans_fat_g": 0.429,
             "saturated_fat_g": 4.002,
-            "omega3_mg": 0.001,
+            "omega3_mg": 22,
             "omega6_mg": 0.398,
             "iron_mg": 3.19,
             "magnesium_mg": 22,
@@ -86350,7 +86359,7 @@
             "sodium_mg": 54,
             "omega6_mg": 0.329,
             "trans_fat_g": 0.359,
-            "omega3_mg": 0.002,
+            "omega3_mg": 27,
             "vitamin_b12_mcg": 4.21,
             "saturated_fat_g": 2.47,
             "polyunsaturated_fat_g": 0.472,
@@ -86365,7 +86374,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "334897"
+            "id": "334897",
+            "omega3_fdc_id": "334897"
           },
           "image_url": "/food-assets/beef/roasted.webp",
           "gallery_images": [
@@ -87597,12 +87607,13 @@
             "cholesterol_mg": 78,
             "trans_fat_g": 0.185,
             "saturated_fat_g": 1.901,
-            "omega3_mg": 0.007,
+            "omega3_mg": 138,
             "omega6_mg": 0.123
           },
           "source": {
             "name": "USDA FDC",
-            "id": "174459"
+            "id": "174459",
+            "omega3_fdc_id": "174459"
           },
           "image_url": "/food-assets/lamb/roasted.webp",
           "gallery_images": []
@@ -87637,7 +87648,7 @@
             "cholesterol_mg": 94,
             "trans_fat_g": 0.166,
             "saturated_fat_g": 1.799,
-            "omega3_mg": 0.015,
+            "omega3_mg": 185,
             "omega6_mg": 0.16,
             "calcium_mg": 5,
             "potassium_mg": 433,
@@ -87651,7 +87662,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "172622"
+            "id": "172622",
+            "omega3_fdc_id": "172622"
           },
           "image_url": "/food-assets/lamb/roasted.webp",
           "gallery_images": []
@@ -87695,12 +87707,13 @@
             "cholesterol_mg": 94,
             "trans_fat_g": 0.177,
             "saturated_fat_g": 1.882,
-            "omega3_mg": 0.015,
+            "omega3_mg": 186,
             "omega6_mg": 0.161
           },
           "source": {
             "name": "USDA FDC",
-            "id": "172639"
+            "id": "172639",
+            "omega3_fdc_id": "172639"
           },
           "image_url": "/food-assets/lamb/roasted.webp",
           "gallery_images": []
@@ -88047,7 +88060,7 @@
             "cholesterol_mg": 66,
             "trans_fat_g": 0.168,
             "saturated_fat_g": 1.512,
-            "omega3_mg": 0.007,
+            "omega3_mg": 118,
             "omega6_mg": 0.098,
             "calcium_mg": 11,
             "potassium_mg": 350,
@@ -88062,7 +88075,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "172515"
+            "id": "172515",
+            "omega3_fdc_id": "172515"
           },
           "image_url": null,
           "gallery_images": []
@@ -97135,7 +97149,7 @@
             "folate_mcg": 15,
             "trans_fat_g": 0.159,
             "saturated_fat_g": 3.69,
-            "omega3_mg": 0.003,
+            "omega3_mg": 222,
             "omega6_mg": 2.278,
             "calcium_mg": 4,
             "potassium_mg": 482,
@@ -97147,7 +97161,8 @@
           },
           "source": {
             "name": "USDA FDC",
-            "id": "168199"
+            "id": "168199",
+            "omega3_fdc_id": "168199"
           },
           "image_url": "/food-assets/plantain/roasted.webp",
           "gallery_images": []
