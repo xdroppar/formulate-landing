@@ -95,6 +95,12 @@ import { SleepEnvironmentDarkQuietCool } from "./content/sleep-environment-dark-
 import { SmartScaleBodyFatAccuracy } from "./content/smart-scale-body-fat-accuracy";
 import { SunscreenGuide } from "./content/sunscreen-guide";
 import { WeightedBlanketsEvidence } from "./content/weighted-blankets-evidence";
+import { BestHighProteinFoods } from "./content/best-high-protein-foods";
+import { BestHighFiberFoods } from "./content/best-high-fiber-foods";
+import { BestFoodSourcesOfMagnesium } from "./content/best-food-sources-of-magnesium";
+import { BestFoodSourcesOfOmega3 } from "./content/best-food-sources-of-omega-3";
+import { AntiInflammatoryFoods } from "./content/anti-inflammatory-foods";
+import { BestFoodsForGutHealth } from "./content/best-foods-for-gut-health";
 
 const contentMap: Record<string, React.ComponentType> = {
   "best-creatine-supplements": BestCreatine,
@@ -188,6 +194,12 @@ const contentMap: Record<string, React.ComponentType> = {
   "smart-scale-body-fat-accuracy": SmartScaleBodyFatAccuracy,
   "sunscreen-guide": SunscreenGuide,
   "weighted-blankets-evidence": WeightedBlanketsEvidence,
+  "best-high-protein-foods": BestHighProteinFoods,
+  "best-high-fiber-foods": BestHighFiberFoods,
+  "best-food-sources-of-magnesium": BestFoodSourcesOfMagnesium,
+  "best-food-sources-of-omega-3": BestFoodSourcesOfOmega3,
+  "anti-inflammatory-foods": AntiInflammatoryFoods,
+  "best-foods-for-gut-health": BestFoodsForGutHealth,
 };
 
 /* ---------- static params ---------- */
