@@ -18,6 +18,7 @@ import { sleepCategories, sleepScoresTakenAt } from "@/lib/sleep";
 import { goalPages, goalEvidenceSource } from "@/lib/goals";
 import { isIndexableTag, isThinIngredient, isThinSupplement, canonicalIngredientSlug } from "@/lib/indexability";
 import { activeEntries, shelfEntries, slugOf, isThinLibraryEntry, LIBRARY_REVIEWED } from "@/lib/shelf-library";
+import { courses, lessonPath, COURSES_REVIEWED } from "@/lib/courses";
 import catalogData from "@/data/catalog.json";
 import foodsCatalog from "@/data/whole-foods-catalog.json";
 
@@ -401,6 +402,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })),
   ];
 
+  // Courses: the app's Learning lessons, published here (the app copy is noindex).
+  const courseEntries: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/courses`, lastModified: COURSES_REVIEWED, changeFrequency: "monthly", priority: 0.8 },
+    ...courses.flatMap((c) => [
+      { url: `${baseUrl}/courses/${c.id}`, lastModified: COURSES_REVIEWED, changeFrequency: "monthly" as const, priority: 0.7 },
+      ...c.lessons.map((l) => ({
+        url: `${baseUrl}${lessonPath(c, l)}`,
+        lastModified: COURSES_REVIEWED,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      })),
+    ]),
+  ];
+
   return [
     { url: baseUrl, changeFrequency: "weekly", priority: 1.0 },
     ...localeEntries(baseUrl, now),
@@ -432,6 +447,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...nutrientEntries,
     ...researchEntriesSitemap,
     ...libraryEntries,
+    ...courseEntries,
     {
       url: `${baseUrl}/tools/dose-calculator`,
       changeFrequency: "monthly" as const,

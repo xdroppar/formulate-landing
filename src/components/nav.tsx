@@ -79,6 +79,7 @@ const PILLAR_SECTIONS: Record<string, MenuItem[]> = {
   "personal-care": CARE_ITEMS,
 };
 const LEARN: MenuItem[] = [
+  { href: "/courses", title: "Courses", desc: "Free lessons on every part of your routine" },
   { href: "/guides", title: "Guides", desc: "Evidence-based deep-dives & protocols" },
   { href: "/ingredients", title: "Encyclopedia", desc: "Every ingredient, explained" },
   { href: "/research", title: "Research", desc: "The studies behind the scores" },

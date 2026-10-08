@@ -43,6 +43,7 @@ import { sleepScored } from "@/lib/sleep";
 import { goalPages } from "@/lib/goals";
 import { shelfEntries, activeEntries } from "@/lib/shelf-library";
 import { brandComparisons } from "@/lib/brand-comparisons";
+import { lessonCount } from "@/lib/courses";
 
 export type Surface = {
   href: string;
@@ -79,6 +80,7 @@ export const SURFACE_GROUPS: SurfaceGroup[] = [
   {
     title: "Research",
     items: [
+      { href: "/courses", label: "Course lessons", count: lessonCount },
       { href: "/guides", label: "Guides", count: visibleGuides.length },
       { href: "/research", label: "Studies", count: researchEntries.length },
       { href: "/learn", label: "Products, explained", count: shelfEntries.length },
