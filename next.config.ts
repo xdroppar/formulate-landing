@@ -45,8 +45,21 @@ const nextConfig: NextConfig = {
    * and OG routes are text-only `next/og`), so excluding them from the function
    * traces is safe and does not affect the separately-uploaded static assets.
    */
+  /*
+   * The pillar photo folders went the same way on 2026-10-08. lib/thumbs.ts
+   * calls existsSync(join(PUBLIC, thumb)), so the tracer pulled every gear and
+   * care photo (~240 MB) into "[locale]". Every production deploy failed from
+   * the sleep/fitness mirror onward: 263 -> 271 -> 276 MB against the 250 MB
+   * limit. Those pages render at build time, when the files are on disk. A
+   * runtime render that cannot see a thumb falls back to the full photo
+   * (listThumb's documented fallback), so it never shows a broken image.
+   */
   outputFileTracingExcludes: {
-    "*": ["public/images/**", "public/food-assets/**", "public/recipe-assets/**"],
+    "*": [
+      "public/images/**", "public/food-assets/**", "public/recipe-assets/**",
+      "public/sleep-assets/**", "public/fitness-assets/**", "public/skin-assets/**",
+      "public/hair-assets/**", "public/oral-assets/**", "public/body-assets/**",
+    ],
   },
 
   /**
