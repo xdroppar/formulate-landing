@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
+import { APP_STORE_URL, IOS_LIVE } from "@/lib/app-store";
+import { useIsIOS } from "@/components/use-is-ios";
 
 interface Props {
   slug: string;
@@ -30,12 +32,18 @@ const DISMISS_TTL_MS = 7 * 24 * 60 * 60 * 1000;
  * stays on this domain — so the click costs no cross-domain hop and the
  * session stays stitched.
  *
+ * On an iPhone it points at the App Store instead, as PageConversion does: the
+ * reader is holding the device the app runs on, and the app is where accounts
+ * actually start. Logged as `mobile_badge_click`, like every other store tap.
+ *
  * Appears after a small scroll threshold so it doesn't cover the article
  * header on load.
  */
 export function GuideStickyCTA({ slug, label = "Build my stack", source = "guide" }: Props) {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+  const isIOS = useIsIOS();
+  const appFirst = IOS_LIVE && isIOS;
 
   // Check dismissed state on mount; clear it once it has aged out.
   useEffect(() => {
@@ -67,6 +75,10 @@ export function GuideStickyCTA({ slug, label = "Build my stack", source = "guide
   }, [dismissed]);
 
   const handleClick = () => {
+    if (appFirst) {
+      trackEvent("mobile_badge_click", { source: `${source}_sticky:${slug}`, destination: "ios" });
+      return;
+    }
     trackEvent("start_click", {
       source: `${source}_sticky:${slug}`,
     });
@@ -99,15 +111,21 @@ export function GuideStickyCTA({ slug, label = "Build my stack", source = "guide
             Turn this into your stack
           </div>
           <div className="text-xs text-muted truncate">
-            2 questions · every ingredient graded on research · free
+            {appFirst
+              ? "Free iPhone app · scan any label"
+              : "2 questions · every ingredient graded on research · free"}
           </div>
         </div>
         <Link
-          href={source === "guide" ? `/start?from=guide&guide=${slug}` : `/start?from=${source}&ref=${slug}`}
+          href={
+            appFirst
+              ? APP_STORE_URL
+              : source === "guide" ? `/start?from=guide&guide=${slug}` : `/start?from=${source}&ref=${slug}`
+          }
           onClick={handleClick}
           className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold bg-accent text-bg hover:bg-[#00ffb3] transition-all"
         >
-          {label}
+          {appFirst ? "Get the app" : label}
           <svg
             className="w-3.5 h-3.5"
             fill="none"

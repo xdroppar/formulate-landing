@@ -189,37 +189,36 @@ export function DownloadClient() {
           <>
             <div>
               <h1 className="text-3xl font-extrabold mb-3">
-                Use Formulate in your browser<span className="text-accent">.</span>
+                Get Formulate on iPhone<span className="text-accent">.</span>
               </h1>
               <p className="text-muted text-[15px] leading-relaxed max-w-sm mx-auto">
-                The web app has the full experience — supplement scores, your
-                personal stack, daily tracking, and the encyclopedia. No
-                install, runs anywhere, free.
+                Scan any label, build your stack, and track every dose — free.
+                Prefer a browser? The web app has the same scores, your stack
+                and the encyclopedia, no install.
               </p>
             </div>
 
-            {/* Primary CTA: web app */}
+            {/* Primary CTA: the iPhone app. Someone typing /download wants
+               something to download, and the app is where accounts actually
+               start. This page used to lead with the web app and put the store
+               badge third. MobileAppBadges self-gates on IOS_LIVE/ANDROID_LIVE,
+               so Android stays hidden until its listing is real, and it carries
+               its own translated label. */}
+            <MobileAppBadges source="download_page" emphasis="primary" />
+
+            {/* Secondary: web app */}
             <a
               href={webAppHref}
               /* Counted once, by the site-wide AppLinkTracker; an onClick
                  trackEvent here as well sent every click twice. */
               data-cta-source="download_primary"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-base font-bold bg-accent text-bg hover:bg-[#00ffb3] hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,160,0.3)] transition-all"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-accent transition-colors"
             >
-              Open the web app
+              Or open the web app
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-
-            {/* The iPhone app, on the page people reach by typing /download.
-               This surface offered the web app and a Windows desktop request and
-               NOTHING for iOS, while /app carried the only store link — so the URL
-               a visitor guesses was the one that could not give them the app.
-               MobileAppBadges self-gates on IOS_LIVE/ANDROID_LIVE, so Android stays
-               hidden until its listing is real, and it carries its own translated
-               label. */}
-            <MobileAppBadges source="download_page" />
 
             {/* What you get (web app) */}
             <div className="grid grid-cols-2 gap-3 w-full max-w-sm">

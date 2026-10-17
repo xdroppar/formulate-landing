@@ -5,22 +5,22 @@ import { DownloadClient } from "./download-client";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: { absolute: "Formulate — Free Supplement Tracking, in your browser" }, // names the brand already; the template would add it twice
+  title: { absolute: "Download Formulate — Free Supplement Tracker for iPhone" }, // names the brand already; the template would add it twice
   description:
-    "Score every product, build your personal supplement stack, and track daily intake — free in the web app, no install. The Windows desktop app is in limited access; request a download link.",
+    "Get the free Formulate app for iPhone: scan any supplement label, build your personal stack, and track daily intake. Also free in your browser, no install.",
   alternates: { canonical: "https://formulate-health.app/download" },
   openGraph: {
-    title: "Formulate — Free Supplement Tracking",
+    title: "Formulate — Free Supplement Tracker for iPhone",
     description:
-      "Score every product, build your stack, and track daily intake — free in the web app. Desktop app available by request.",
+      "Scan any label, build your stack, and track daily intake — free on iPhone and in the web app.",
     url: "https://formulate-health.app/download",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Formulate — Free Supplement Tracking",
+    title: "Formulate — Free Supplement Tracker for iPhone",
     description:
-      "Score every product, build your stack, and track daily intake — free in the web app.",
+      "Scan any label, build your stack, and track daily intake — free on iPhone and in the web app.",
   },
 };
 
