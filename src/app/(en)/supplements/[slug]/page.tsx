@@ -48,8 +48,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
   const grade = scoreGrade(p.score);
   const title = `${p.brand} ${p.name} Review: Score ${p.score}/100 (${grade.letter})`;
+  // `explanation` is the engine's strengths/weaknesses fragment ("Strengths: 1
+  // ingredients with Grade B evidence."), shown under the score on the page.
+  // It made a poor search snippet and, before web#304, carried a stale score.
   const description = (
-    p.explanation ??
     p.overview ??
     `${p.brand} ${p.name} scored ${p.score}/100 by Formulate — ingredient-level analysis of dose, form, transparency, and third-party testing.`
   )
