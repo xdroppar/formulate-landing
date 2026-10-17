@@ -13,16 +13,16 @@ export default function DisclosurePage() {
       <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-2">
         Affiliate Disclosure
       </h1>
-      <p className="text-xs text-muted mb-8">Last updated: March 2026</p>
+      <p className="text-xs text-muted mb-8">Last updated: October 2026</p>
 
       <div className="space-y-8 text-sm text-muted leading-relaxed">
         <section>
           <h2 className="text-lg font-bold text-text mb-3">How We Earn Revenue</h2>
           <p>
-            Formulate is a free tool. We earn revenue through affiliate
-            partnerships with retailers like Amazon and iHerb. When you click a
-            product link and make a purchase, we may receive a small commission
-            at no extra cost to you.
+            Formulate is free to use, with an optional Formulate+ subscription.
+            We also earn from affiliate links: when you click a product link and
+            make a purchase, we may receive a small commission at no extra cost
+            to you. As an Amazon Associate we earn from qualifying purchases.
           </p>
         </section>
 

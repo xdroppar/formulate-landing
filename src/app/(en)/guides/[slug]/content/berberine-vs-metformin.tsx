@@ -270,7 +270,7 @@ export function BerberineVsMetformin() {
       </Callout>
 
       <Callout variant="warning" title="If you are pregnant or breastfeeding">
-        Berberine crosses the placenta and has shown teratogenic effects in animal studies. It is contraindicated during pregnancy and should be avoided while breastfeeding.
+        There is no human safety data for berberine in pregnancy or breastfeeding. In lab tests it displaces bilirubin from albumin (Chan, 1993), which could worsen jaundice in a newborn, and in pregnant mice very high doses lowered fetal weight (Jahnke et al., 2006). Avoid it while pregnant or breastfeeding.
       </Callout>
 
       <Callout variant="warning" title="If you have liver or kidney disease">
