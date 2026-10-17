@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <h1 className="fm-display text-[clamp(26px,3.5vw,var(--text-h-argument))] text-text mb-2">
         Privacy Policy
       </h1>
-      <p className="text-xs text-muted mb-8">Last updated: March 2026</p>
+      <p className="text-xs text-muted mb-8">Last updated: October 2026</p>
 
       <div className="space-y-8 text-sm text-muted leading-relaxed">
         <section>
@@ -66,6 +66,16 @@ export default function PrivacyPage() {
               <span className="text-text font-medium">Vercel</span> — Our site
               is hosted on Vercel. See Vercel&apos;s privacy policy for their
               infrastructure data handling.
+            </li>
+            <li>
+              <span className="text-text font-medium">RevenueCat</span> — Manages
+              Formulate+ subscriptions on the App Store and the web, so it holds
+              your subscription and purchase history against your account. If
+              you installed the iPhone app from an Apple Search Ads ad, it also
+              receives the ad campaign and keyword from Apple, so we can tell
+              which ads work. That ad attribution does not track you across
+              other apps, and is skipped if you opt out of analytics in
+              Settings. See RevenueCat&apos;s privacy policy.
             </li>
           </ul>
         </section>
