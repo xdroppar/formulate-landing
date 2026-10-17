@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { MobileAppBadges } from "@/components/mobile-app-badges";
 import { GuideStickyCTA } from "@/components/guide-sticky-cta";
+import { useIsIOS } from "@/components/use-is-ios";
 import { IOS_LIVE } from "@/lib/app-store";
 
 /**
@@ -104,28 +104,6 @@ interface Props {
   slug: string;
   /** Display name of what the page is about, e.g. "Vitamin K2". */
   subject?: string;
-}
-
-/**
- * Is this an iPhone/iPad?
- *
- * Starts FALSE and only flips after mount. The server has no user agent, so
- * deciding this during render would produce different HTML on the server and
- * the client and React would throw a hydration mismatch on every one of these
- * pages. The `/start` offer is therefore what search engines and the first
- * paint see; iOS visitors get the store swapped in a tick later.
- */
-function useIsIOS(): boolean {
-  const [isIOS, setIsIOS] = useState(false);
-  useEffect(() => {
-    const ua = navigator.userAgent || "";
-    // iPadOS 13+ reports itself as a Mac; the touch-point check separates a
-    // real iPad from a desktop Safari, which would otherwise be sent to a
-    // store it cannot install from.
-    const iPadOS = /Mac/.test(ua) && navigator.maxTouchPoints > 1;
-    setIsIOS(/iPhone|iPad|iPod/i.test(ua) || iPadOS);
-  }, []);
-  return isIOS;
 }
 
 export function PageConversion({ kind, slug, subject }: Props) {
