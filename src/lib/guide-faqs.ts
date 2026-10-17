@@ -2197,7 +2197,7 @@ export const guideFaqs: Record<string, FaqItem[]> = {
       question:
         "ashwagandha testosterone study sample sizes too small to trust",
       answer:
-        "Skepticism is warranted. The two most-cited trials — Wankhede (2015) and Lopresti (2019) — each enrolled 57 participants. The 2022 Smith et al. systematic review pooled five RCTs and called the effect \"statistically significant but clinically modest,\" flagging small sample sizes and short durations as the primary limitations. No multi-center, large-sample, long-duration trial exists yet. The evidence is consistent enough to take seriously, but not strong enough to call definitive — a distinction the guide makes explicitly.",
+        "Skepticism is warranted. The two most-cited trials — Wankhede (2015) and Lopresti (2019) — each enrolled 57 participants. The 2021 Smith et al. systematic review found a significant rise in three of four ashwagandha trials, but did not pool them, and flagged small sample sizes and short durations as the primary limitations. No multi-center, large-sample, long-duration trial exists yet. The evidence is consistent enough to take seriously, but not strong enough to call definitive — a distinction the guide makes explicitly.",
     },
     {
       question:

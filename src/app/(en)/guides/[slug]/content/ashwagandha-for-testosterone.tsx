@@ -41,8 +41,8 @@ export function AshwagandhaForTestosterone() {
         Lopresti et al. (2019) took a different population &mdash; 57 overweight men aged 40&ndash;70 &mdash; and used a lower dose of 240&nbsp;mg/day of a proprietary ashwagandha extract for 8 weeks. <EvidenceBadge level="moderate" studiesId="ashwagandha-lopresti-2019" /> Testosterone rose by roughly 14% versus placebo, and DHEA-S increased by about 18%. Cortisol dropped significantly in the treatment group.
       </p>
 
-      <Callout variant="evidence" title="What about larger meta-analyses?">
-        A 2022 systematic review by Smith et al. pooled five RCTs and concluded ashwagandha had a &ldquo;statistically significant but clinically modest&rdquo; effect on testosterone. Most reviewers flag small sample sizes and short durations as the main limitations. We don&rsquo;t yet have a 6-month, multi-center trial. <EvidenceBadge level="moderate" />
+      <Callout variant="evidence" title="What do the systematic reviews say?">
+        A 2021 systematic review by Smith et al. (<em>Advances in Nutrition</em>) looked at 32 trials of 13 herbs and testosterone in men. Ashwagandha was one of only two herbs with positive effects: three of its four trials found a significant rise. The authors did not pool the trials into a meta-analysis because they differed too much, and they flagged small samples, short durations and mostly young, healthy men as the main limitations. We don&rsquo;t yet have a 6-month, multi-center trial. <EvidenceBadge level="moderate" />
       </Callout>
 
       <p>
@@ -220,7 +220,7 @@ export function AshwagandhaForTestosterone() {
 
       <h3>ashwagandha testosterone study sample sizes too small to trust</h3>
       <p>
-        Skepticism is warranted. The two most-cited trials &mdash; Wankhede (2015) and Lopresti (2019) &mdash; each enrolled 57 participants. The 2022 Smith et al. systematic review pooled five RCTs and called the effect &ldquo;statistically significant but clinically modest,&rdquo; flagging small sample sizes and short durations as the primary limitations. No multi-center, large-sample, long-duration trial exists yet. The evidence is consistent enough to take seriously, but not strong enough to call definitive &mdash; a distinction the guide makes explicitly.
+        Skepticism is warranted. The two most-cited trials &mdash; Wankhede (2015) and Lopresti (2019) &mdash; each enrolled 57 participants. The 2021 Smith et al. systematic review found a significant rise in three of four ashwagandha trials, but did not pool them, and flagged small sample sizes and short durations as the primary limitations. No multi-center, large-sample, long-duration trial exists yet. The evidence is consistent enough to take seriously, but not strong enough to call definitive &mdash; a distinction the guide makes explicitly.
       </p>
 
       <h3>KSM-66 vs Sensoril vs Shoden ashwagandha which is best</h3>
@@ -269,7 +269,7 @@ export function AshwagandhaForTestosterone() {
 
       <h2>Long-Term Use and Cycling: What to Do After 8–12 Weeks</h2>
 
-      <p>Long-term ashwagandha use beyond 12 weeks is where the clinical data simply stops. Every major testosterone RCT — Wankhede (2015), Lopresti (2019), and the trials pooled in Smith et al. (2022) — ran for 8 weeks. The longest controlled ashwagandha trial with any endpoint, Chandrasekhar et al. (2012), lasted 60 days. Nobody has published a 6-month or 12-month RCT measuring testosterone outcomes. That's not a minor gap — it means we genuinely don't know whether the 10–20% testosterone increase holds, plateaus, or reverses with continued use.</p>
+      <p>Long-term ashwagandha use beyond 12 weeks is where the clinical data simply stops. Every ashwagandha trial in the Smith et al. (2021) review — Wankhede (2015), Lopresti (2019) and Ambiye (2013) among them — gave ashwagandha for 8 to 12 weeks; Ambiye's 90 days is the longest. Nobody has published a 6-month or 12-month RCT measuring testosterone outcomes. That's not a minor gap — it means we genuinely don't know whether the 10–20% testosterone increase holds, plateaus, or reverses with continued use.</p>
 
       <h3>The Case for Cycling</h3>
 

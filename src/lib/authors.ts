@@ -34,7 +34,7 @@ export const authors: Record<string, Author> = {
     id: "formulate-team",
     name: "Formulate Team",
     title: "Independent supplement research",
-    bio: "The Formulate team scores every supplement in our catalog against published clinical evidence. No sponsorships, no affiliate bias — every recommendation is anchored in peer-reviewed research.",
+    bio: "The Formulate team scores every supplement in our catalog against published clinical evidence. No sponsorships, and scores come before any buy link: we earn affiliate commissions on some links, and they never change a score.",
   },
 };
 
