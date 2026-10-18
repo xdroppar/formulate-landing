@@ -16,6 +16,7 @@ import { ScoreMeter } from "@/components/score-meter";
 import { amazonLinkFor } from "@/lib/amazon";
 import { withUtm } from "@/lib/app-url";
 import { BuyLinks } from "@/components/buy-links";
+import { AppCtaCard } from "@/components/app-cta-card";
 
 const BASE = "https://formulate-health.app";
 const LIMIT = 10;
@@ -223,6 +224,18 @@ export default async function BestCategoryPage({ params }: { params: Params }) {
           })}
         </ol>
       </section>
+
+      {/* The reader has just seen ten bottles ranked; the live question is
+          their own. Without this the page's only exits were store links. On an
+          iPhone the card points at the App Store (see AppCtaCard). */}
+      <AppCtaCard
+        className="mb-10"
+        title={`Already taking ${lower}? Score the one you own`}
+        sub="Add what you take and see what your whole stack covers, what it misses, and where doses overlap."
+        campaign="supplements_best"
+        href="/start"
+        cta="Check my stack →"
+      />
 
       <section className="mb-10">
         <h2 className="fm-display text-[length:var(--text-h-section)] text-text mb-4">Frequently asked questions</h2>
